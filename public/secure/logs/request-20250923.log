@@ -16,3 +16,5 @@
 {"ts":"2025-09-23T02:16:22Z","channel":"parse","phase":"custom","source":"https://www.cnet.com/culture/entertainment/","format":"rss","saved":"764434c98779fe60e53cbcb1c7488726.xml","items":5,"bytes":1893}
 {"ts":"2025-09-23T02:17:06Z","channel":"http","url":"https://www.cnet.com/culture/entertainment/","final_url":"https://www.cnet.com/culture/entertainment/","status":200,"from_cache":true,"was_304":false,"bytes":886748,"duration_ms":0}
 {"ts":"2025-09-23T02:17:06Z","channel":"parse","phase":"custom","source":"https://www.cnet.com/culture/entertainment/","format":"jsonfeed","saved":"828a27dd298dd17cd531bf0720302f2f.json","items":5,"bytes":2519}
+{"ts":"2025-09-23T02:32:02Z","channel":"http","url":"https://www.cnet.com/culture/entertainment/","final_url":"https://www.cnet.com/culture/entertainment/","status":200,"from_cache":false,"was_304":false,"bytes":886748,"duration_ms":260,"ok":true}
+{"ts":"2025-09-23T02:32:02Z","channel":"parse","phase":"custom","source":"https://www.cnet.com/culture/entertainment/","format":"rss","saved":"fd9ed5f9213062ed7e25d42e1fa204ff.xml","items":10,"bytes":2751}
