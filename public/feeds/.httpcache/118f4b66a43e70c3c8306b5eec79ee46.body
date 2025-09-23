@@ -1,0 +1,2386 @@
+<!DOCTYPE html>
+<html lang='fr'>
+<HEAD>
+    <TITLE>Programme TV TNT ce soir : gratuit et complet</TITLE>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=1200">
+    <!--begin metadata -->
+    <meta name="TITLE" CONTENT="Programme TV TNT ce soir : gratuit et complet">
+      <meta name="DESCRIPTION" Content="Découvrez le programme TV TNT pour ce soir. Parcourez la grille par heure ou par chaîne et trouvez votre émission préférée.">
+      <meta name="keywords" content="TNT, programme tv, programme tv ce soir, tv ce soir, chaînes tv, film ce soir, grille tv">
+    <meta name="ROBOTS" content="INDEX,FOLLOW">
+    <meta property="og:title" content="Programme TV TNT ce soir : gratuit et complet" />
+      <meta property="og:description" Content="Découvrez le programme TV TNT pour ce soir. Parcourez la grille par heure ou par chaîne et trouvez votre émission préférée.">
+    <meta property="og:site_name" content="tvcesoir.fr" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://d2ns650n6omrqn.cloudfront.net/img/tv-ce-soir-fr.jpg?v=9920250912" />
+  <meta property="og:image:height" content="302" />
+  <meta property="og:image:width" content="606" />
+  <!--end metadata -->
+  <script src="https://kit.fontawesome.com/98e065a542.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="https://d2ns650n6omrqn.cloudfront.net/img/tvcesoir.ico?v=9920250912" type="image/x-icon" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-tools/1.2.7/jquery.tools.min.js"></script>
+  <script type="text/javascript" src="https://d2ns650n6omrqn.cloudfront.net/js/table.js?v=9920250912"></script>
+  <script type="text/javascript">
+    var baseUrl = "https://www.tvcesoir.fr/";
+  </script>
+  <script type="text/javascript" src="https://d2ns650n6omrqn.cloudfront.net/js/main.js?v=9920250912"></script>
+    <script type="text/javascript" src="https://d2ns650n6omrqn.cloudfront.net/js/guide.js?v=9920250912"></script>
+    <style type="text/css">
+    @import url("https://d2ns650n6omrqn.cloudfront.net/css/guide.css?v=9920250912");
+    @import url("https://d2ns650n6omrqn.cloudfront.net/css/bootstrap/bootstrap.css?v=9920250912");
+  </style>
+  <script type="text/javascript" charset="UTF-8" src="//geo.cookie-script.com/s/05041680c72baaa9967aeac6e58b13ec.js?region=eu"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DSVFPNKK2N"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-DSVFPNKK2N');
+  </script>
+</head>
+
+<body bgcolor="#ffffff" topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0">
+  <div class="container p-0 desktop-container">
+    <!-- start header navbar -->
+<header class="site-header">
+    <div class="py-3">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-between">
+            <div class="logo-container text-start col-5 col-md-3">
+                <a href="https://www.tvcesoir.fr/">
+                    <img src="https://d2ns650n6omrqn.cloudfront.net/img/tv_ce_soir_23.png?v=9920250912" alt="TVCeSoir" class="w-75" style="filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.1));" />
+                </a>
+            </div>
+            <div class="d-none d-lg-flex col-10 col-lg-auto my-2 justify-content-center my-md-0 text-small fs-7">
+                <ul class="nav">
+                    <li>
+                        <a id="#programmetv" href="/programme-tv/" class="nav-link text-black fw-bold">PROGRAMME TV</a>
+                    </li>
+                    <li>
+                        <a id="#apropos" href="/apropos/" class="nav-link text-black fw-bold">À PROPOS DE NOUS</a>
+                    </li>
+                    <li>
+                        <a id="#contact" href="/contact/" class="nav-link text-black fw-bold">CONTACTEZ-NOUS</a>
+                    </li>
+                </ul>
+            </div>
+                        <a href="https://www.tvcesoir.fr/utilisateur/inscription/" rel="nofollow" type="button" class="bts signup-large">S'inscrire / Connexion</a>
+            <a href="https://www.tvcesoir.fr/utilisateur/inscription/" rel="nofollow" type="button" class="bts signup-small">Connexion</a>
+            
+            <div class="d-block d-lg-none">
+                <nav class="navbar">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <img class="cfa-icon navbar-toggler-icon" src="https://d2ns650n6omrqn.cloudfront.net/pic/ott-icons/menu-icon.png?v=9920250912" />
+                        </button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="d-block d-lg-none offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+            <a href="https://www.tvcesoir.fr/">
+                <img src="https://d2ns650n6omrqn.cloudfront.net/img/tv_ce_soir_23.png?v=9920250912" alt="TVCeSoir" class="w-100" style="filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.1));" />
+            </a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 mt-3">
+                <li class="nav-item mb-2">
+                    <a id="#programmetv" href="/programme-tv/">PROGRAMME TV</a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a id="#apropos" href="/apropos/">À PROPOS DE NOUS</a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a id="#contact" href="/contact/">CONTACTEZ-NOUS</a>
+                </li>
+                <li class="nav-item mb-2">
+                                        <a href="https://www.tvcesoir.fr/utilisateur/inscription/" rel="nofollow">S'inscrire / Connexion</a>
+                                    </li>
+            </ul>
+        </div>
+    </div>
+</header>
+<!-- end header-->    <meta name="csrf-token" content="HEWso3VXzaNtO04tTvyRdLgkev850p0rA72OI39Z" />
+    <div class="body-container">
+      
+<!--début publicité-->
+<div style="margin: 10px 0;">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8418385034840441"
+    crossorigin="anonymous"></script>
+
+  <!-- FR Programme TV - Top -->
+  <ins class="adsbygoogle"
+       style="display:inline-block; width:100%; height:250px;"
+       data-ad-client="ca-pub-8418385034840441"
+       data-ad-slot="9053755098"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
+<!--fin publicité-->
+<input type="hidden" name="selected_provider" id="selected_provider" value="-1" />
+<div class="container p-0 body-container">
+  <div class="auth-buttons d-none d-lg-flex">
+        <div class="flex-left logged-out">
+    <a class="btn text-white fw-bold2 fs-7" href="https://www.tvcesoir.fr/programme-tv/"><img src="https://d2ns650n6omrqn.cloudfront.net/img/programme-tv-fr-23.png?v=9920250912" align="left" alt="Programme TV" width="36" height="18" hspace="5" vspace="4" border="1">Programme</a>
+</div>
+<div class="flex-right flags">
+<a href="https://www.ontvtonight.com/guide/listings/NewYorkNight.html">
+<img src="https://d2ns650n6omrqn.cloudfront.net/img/programme-tv-us-23.png?v=9920250912" alt="�tats-Unis" width="36" height="18" hspace="5" vspace="0" border="0"></a>
+<a href="https://www.ontvtonight.com/ca/guide/listings/TorontoNight.html">
+<img src="https://d2ns650n6omrqn.cloudfront.net/img/programme-tv-ca-23.png?v=9920250912" alt="Canadia" width="36" height="18" hspace="5" vspace="0" border="0"></a>
+<a href="https://www.mytelly.co.uk/tv-guide/listings/LondonNight.html">
+<img src="https://d2ns650n6omrqn.cloudfront.net/img/programme-tv-uk-23.png?v=9920250912" alt="Royaume-Uni" width="36" height="18" hspace="5" vspace="0" border="0"></a>
+<a href="https://www.tvireland.ie/">
+<img src="https://d2ns650n6omrqn.cloudfront.net/img/programme-tv-ie-23.png?v=9920250912" alt="Irlande" width="36" height="18" hspace="5" vspace="0" border="0"></a>
+<a href="https://www.ontvtonight.com/au/guide/listings/SydneyNight.html">
+<img src="https://d2ns650n6omrqn.cloudfront.net/img/programme-tv-au-23.png?v=9920250912" alt="Australie" width="36" height="18" hspace="5" vspace="0" border="0"></a>
+<a href="https://www.guida.tv/programmi-tv/palinsesto/Stasera.html">
+<img src="https://d2ns650n6omrqn.cloudfront.net/img/programme-tv-it-23.png?v=9920250912" alt="Italie" width="36" height="18" hspace="5" vspace="0" border="0"></a>
+</div>      </div>
+  <div class="search border-sm-0">
+    <div class="clear"></div>
+    <div class="wrapper">
+      <div id="tv_guide">
+        <div class="text-center position-relative">
+                                    <h1 class="guide-header">Programme TV TNT ce soir</h1>
+                                <div class="d-inline-block d-md-none">
+            <a id="Programme TV" class="btn2 fw-bold2" href="https://www.tvcesoir.fr/programme-tv/"><img src="https://d2ns650n6omrqn.cloudfront.net/img/programme-tv-fr-23.png?v=9920250912" align="left" alt="Programme TV" width="36" height="18" hspace="5" vspace="4" border="1">Programme</a>
+            
+                      </div>
+                    <input type="hidden" id="static" value="1" />
+          <div class="forms">
+  <form action="#" method="get" onsubmit="return false;" class="form-wrapper search-form-main">
+    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-around px-3 py-2">
+      <div class="col-md-6 col-8 row">
+        <input type="hidden" name="region" id="region" value="France" />
+        <input class="col-12 col-lg-11 cfa-search-input" type="text" name="search" id="search_q_instant" placeholder="Recherche..">
+        <input type="hidden" name="search_day" id="search_day" value="week">
+        <div class="col-1 d-none d-lg-block">
+          <a class="onnow" id="search_button">
+            <img class="cfa-icon cfa-search" src="https://d2ns650n6omrqn.cloudfront.net/pic/ott-icons/search-tv-button.png?v=9920250912" />
+            <img class="cfa-icon cfa-spin d-none" src="https://d2ns650n6omrqn.cloudfront.net/pic/ott-icons/search-tv-loading.png?v=9920250912" />
+          </a>
+        </div>
+
+      </div>
+      <div class="col-md-6 col-sm-8 text-end d-none d-xl-block alerts-text fs-7">
+                <span><b><a href="https://www.tvcesoir.fr/programme-tv/" rel="nofollow">Voir la grille complète</a></b></span>
+              </div>
+      <div class="col-md-6 col-4 text-end d-sm-block d-xl-none alerts-text">
+                <span><b><a href="https://www.tvcesoir.fr/utilisateur/inscription/" rel="nofollow">Alerte</a></b><a href="https://www.tvcesoir.fr/utilisateur/inscription/" rel="nofollow"><img src="https://d2ns650n6omrqn.cloudfront.net/img/cloche.png?v=9920250912" height="20" width="25" border="0" alt="Notifications d'émissions télé"></a></span>
+              </div>
+    </div>
+  </form>
+  <form action="#" method="get" onsubmit="changethings(1,{scrollTop: true});return false;" class="form-wrapper search-form">
+    <input type="hidden" name="region" id="region" value="France" />
+        <div class="d-flex flex-wrap align-items-center justify-content-center px-1 px-md-5 py-2 no-margin-tb-sticky-mb no-padding-tb-sticky-mb">
+    <div class="col-lg-3 col-12 stream-filter hide-on-fixed provider-select">
+                <div>
+            <select name="provider" id="provider" onchange="changethings(1,{scrollTop: true});" class="w-100 w-sm-50">
+                                                <option  value="-5">Bouygues</option>
+                                <option  value="-6">Canal</option>
+                                <option  value="-3">Free</option>
+                                <option  value="-2">Orange</option>
+                                <option  value="-4">SFR</option>
+                                <option selected value="-1">TNT</option>
+                                            </select>
+        </div>
+        
+    </div>
+    <div class="col-lg-2 col-6 mt-2 mt-lg-0 stream-filter large-on-fixed hide-on-fixed-mobile">
+        <select name="TVperiod" id="TVperiod" onchange="changethings(1, {scrollTop: true, periodChange: true});" class="w-100">
+                                    <option  value="Early">Nuit</option>
+                                                <option  value="Morning">Matin</option>
+                                                <option  value="Afternoon">Après-midi</option>
+                                                <option selected value="Night">Soir</option>
+                                                        </select>
+    </div>
+    <div class="col-lg-2 col-6 mt-2 mt-lg-0 stream-filter large-on-fixed hide-on-fixed-mobile">
+        <select name="date" id="date" onchange="changethings(1, {scrollTop: true});" class="w-100">
+                        <option  value="2025-09-11">Jeudi 11 Septembre</option>
+                        <option selected value="2025-09-12">Aujourd&#039;hui</option>
+                        <option  value="2025-09-13">Samedi 13 Septembre</option>
+                        <option  value="2025-09-14">Dimanche 14 Septembre</option>
+                        <option  value="2025-09-15">Lundi 15 Septembre</option>
+                        <option  value="2025-09-16">Mardi 16 Septembre</option>
+                        <option  value="2025-09-17">Mercredi 17 Septembre</option>
+                        <option  value="2025-09-18">Jeudi 18 Septembre</option>
+                        <option  value="2025-09-19">Vendredi 19 Septembre</option>
+                        <option  value="2025-09-20">Samedi 20 Septembre</option>
+                        <option  value="2025-09-21">Dimanche 21 Septembre</option>
+                        <option  value="2025-09-22">Lundi 22 Septembre</option>
+                        <option  value="2025-09-23">Mardi 23 Septembre</option>
+                        <option  value="2025-09-24">Mercredi 24 Septembre</option>
+            
+        </select>
+    </div>
+    <div class="col-4 mt-2 mt-lg-0 d-inline d-lg-none stream-filter list-buttons">
+        <a class="onnow onnowblue" href="#" onclick="expand_guide();return false;">
+            <span class="ml-1"><img src="https://d2ns650n6omrqn.cloudfront.net/pic/expand.png?v=9920250912" width="85" height="23" hspace="0" vspace="0" alt="6 Hour Guide"></span>
+        </a>
+    </div>
+    <div class="col-lg-3 col-8 mt-2 mt-lg-0 stream-filter stream-button list-buttons">
+        <a class="onnow" href="#" onclick="getUpdatedSchedule(false);return false;"><img class="cfa-icon" src="https://d2ns650n6omrqn.cloudfront.net/pic/ott-icons/on-before.png?v=9920250912" /></a>
+        <a class="onnow" href="#" onclick="go_default('Night', '2025-09-12' , false);return false;">MAINTENANT</a>
+        <a class="onnow" href="#" onclick="getUpdatedSchedule(true);return false;"><img class="cfa-icon" src="https://d2ns650n6omrqn.cloudfront.net/pic/ott-icons/on-next.png?v=9920250912" /></a>
+        <div class="loading d-inline"></div>
+        <input id="pp" type="hidden" value="-1" />
+        <input id="zz" type="hidden" value="France" />
+        <input id="day_periods" type="hidden" value="{&quot;Early&quot;:{&quot;key&quot;:&quot;Early&quot;,&quot;title&quot;:&quot;Nuit&quot;,&quot;start&quot;:0,&quot;end&quot;:530,&quot;mobile_slots&quot;:[{&quot;start&quot;:0,&quot;end&quot;:130},{&quot;start&quot;:200,&quot;end&quot;:330},{&quot;start&quot;:400,&quot;end&quot;:530}]},&quot;Morning&quot;:{&quot;key&quot;:&quot;Morning&quot;,&quot;title&quot;:&quot;Matin&quot;,&quot;start&quot;:600,&quot;end&quot;:1130,&quot;mobile_slots&quot;:[{&quot;start&quot;:600,&quot;end&quot;:730},{&quot;start&quot;:800,&quot;end&quot;:930},{&quot;start&quot;:1000,&quot;end&quot;:1130}]},&quot;Afternoon&quot;:{&quot;key&quot;:&quot;Afternoon&quot;,&quot;title&quot;:&quot;Apr\u00e8s-midi&quot;,&quot;start&quot;:1200,&quot;end&quot;:1730,&quot;mobile_slots&quot;:[{&quot;start&quot;:1200,&quot;end&quot;:1330},{&quot;start&quot;:1400,&quot;end&quot;:1530},{&quot;start&quot;:1600,&quot;end&quot;:1730}]},&quot;Night&quot;:{&quot;key&quot;:&quot;Night&quot;,&quot;title&quot;:&quot;Soir&quot;,&quot;start&quot;:1800,&quot;end&quot;:2330,&quot;mobile_slots&quot;:[{&quot;start&quot;:1800,&quot;end&quot;:1930},{&quot;start&quot;:2000,&quot;end&quot;:2130},{&quot;start&quot;:2200,&quot;end&quot;:2330}]},&quot;All&quot;:{&quot;key&quot;:&quot;All&quot;,&quot;title&quot;:&quot;All&quot;,&quot;start&quot;:0,&quot;end&quot;:2330,&quot;mobile_slots&quot;:[{&quot;start&quot;:0,&quot;end&quot;:130},{&quot;start&quot;:200,&quot;end&quot;:330},{&quot;start&quot;:400,&quot;end&quot;:530},{&quot;start&quot;:600,&quot;end&quot;:730},{&quot;start&quot;:800,&quot;end&quot;:930},{&quot;start&quot;:1000,&quot;end&quot;:1130},{&quot;start&quot;:1200,&quot;end&quot;:1330},{&quot;start&quot;:1400,&quot;end&quot;:1530},{&quot;start&quot;:1600,&quot;end&quot;:1730},{&quot;start&quot;:1800,&quot;end&quot;:1930},{&quot;start&quot;:2000,&quot;end&quot;:2130},{&quot;start&quot;:2200,&quot;end&quot;:2330}]}}" />
+        <input id="static_page" type="hidden" value="1" />
+    </div>
+</div>      </form>
+
+  <div id="loaded"></div>
+</div>
+                    <input type="hidden" id="address" value="https://www.tvcesoir.fr/" />
+          <div class="search-container"></div>
+        </div>
+        <div class="tableContainer table-responsive w-100" id="tableContainer">
+          <input type="hidden" id="currentTime" value="1855" />
+          <input type="hidden" id="isStatic" value="1">
+          <div class="d-flex justify-content-center mt-5 loading-container d-none">
+            <div class="spinner-border" role="status">
+              <span class="sr-only">Chargement...</span>
+            </div>
+          </div>
+          <table width="100%" cellspacing="0" cellpadding="0" border="0" class="table table-hover table-sm scrollTable">
+                        <thead class="fixedHeader">
+	<tr class="timerow">
+		<th>
+						<center><a href="https://www.tvcesoir.fr/utilisateur/connexion/"><img class="edit-channel-table" src="https://d2ns650n6omrqn.cloudfront.net/img/modifier-chaines-tv.png?v=9920250912" height="26" width="65" hspace="0" vspace="0" border="0" alt="Modifier les chaînes"></a></center>
+					</th>
+				<th class="slots" data-key=1800>18h00</th>
+				<th class="slots" data-key=1830>18h30</th>
+				<th class="slots" data-key=1900>19h00</th>
+				<th class="slots" data-key=1930>19h30</th>
+				<th class="slots" data-key=2000>20h00</th>
+				<th class="slots" data-key=2030>20h30</th>
+				<th class="slots" data-key=2100>21h00</th>
+				<th class="slots" data-key=2130>21h30</th>
+				<th class="slots" data-key=2200>22h00</th>
+				<th class="slots" data-key=2230>22h30</th>
+				<th class="slots" data-key=2300>23h00</th>
+				<th class="slots" data-key=2330>23h30</th>
+			</tr>
+</thead>
+<tbody class="scrollContent">
+				<tr class="normalRow" id="tr_847049">
+		<td valign="top" bgcolor="#dadada">
+			<span class="channelname">
+				<center>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/847049/tf-1.html" target="_blank"><img title="847049" src="https://d2fegv18cmqy8n.cloudfront.net/france-images/7534de3949c1281409e44199ba13e05d.png?k=2nWZhtOSUQdq2s2ItEDH5%2BQEPdq1khUY8YJSK0%2BNV93dUlEx4TEZ0LfpQ675EMJb" height="62" width="62" vspace="5" hspace="0" alt="Aucun logo" /></a><br>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/847049/tf-1.html" target="_blank">TF 1</a>
+					<br>
+					1
+				</center>
+			</span>
+		</td>
+						<td class="slt-1800-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=847049&amp;pid=435222863&amp;tm=2025-09-12+16%3A00%3A00" target="_blank" rel="nofollow">
+										Tout pour la lumière
+									</a>
+			</span>
+			<span class="tvtime ">18:00<br /><br /></span>
+								</td>
+								<td class="slt-1830-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=847049&amp;pid=434923272&amp;tm=2025-09-12+16%3A30%3A00" target="_blank" rel="nofollow">
+										Ici tout commence
+									</a>
+			</span>
+			<span class="tvtime ">18:30<br /><br /></span>
+								</td>
+								<td class="slt-1900-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=847049&amp;pid=434946053&amp;tm=2025-09-12+17%3A10%3A00" target="_blank" rel="nofollow">
+										Demain nous appartient
+									</a>
+			</span>
+			<span class="tvtime ">19:10<br /><br /></span>
+								</td>
+								<td class="slt-1930-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=847049&amp;pid=435207820&amp;tm=2025-09-12+17%3A55%3A00" target="_blank" rel="nofollow">
+										Météo
+									</a>
+			</span>
+			<span class="tvtime ">19:55<br /><br /></span>
+								</td>
+								<td class="slt-2000-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=847049&amp;pid=435207821&amp;tm=2025-09-12+18%3A00%3A00" target="_blank" rel="nofollow">
+										JT 20h
+									</a>
+			</span>
+			<span class="tvtime ">20:00<br /><br /></span>
+								</td>
+								<td class="slt-2030-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=847049&amp;pid=435207822&amp;tm=2025-09-12+18%3A45%3A00" target="_blank" rel="nofollow">
+										My Million
+									</a>
+			</span>
+			<span class="tvtime ">20:45<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=847049&amp;pid=435207823&amp;tm=2025-09-12+18%3A50%3A00" target="_blank" rel="nofollow">
+										Petits plats en équilibre
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">20:50<br /><br /></span>
+									<span class="tvtime see-more" data-id="tr_847049">+voir plus</span>
+					</td>
+								<td class="slt-2100-3" colspan="3" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=847049&amp;pid=435207824&amp;tm=2025-09-12+19%3A00%3A00" target="_blank" rel="nofollow">
+										Météo
+									</a>
+			</span>
+			<span class="tvtime ">21:00<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=847049&amp;pid=435207825&amp;tm=2025-09-12+19%3A10%3A00" target="_blank" rel="nofollow">
+										Mask Singer
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">21:10<br /><br /></span>
+									<span class="tvtime see-more" data-id="tr_847049">+voir plus</span>
+					</td>
+																<td class="slt-2230-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=847049&amp;pid=435207826&amp;tm=2025-09-12+20%3A30%3A00" target="_blank" rel="nofollow">
+										Mask Singer
+									</a>
+			</span>
+			<span class="tvtime ">22:30<br /><br /></span>
+								</td>
+												<td class="slt-2330-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=847049&amp;pid=435207827&amp;tm=2025-09-12+21%3A40%3A00" target="_blank" rel="nofollow">
+										Mask Singer, l&#039;enquête continue
+									</a>
+			</span>
+			<span class="tvtime ">23:40<br /><br /></span>
+								</td>
+					</tr>
+				<tr class="normalRow" id="tr_657850">
+		<td valign="top" bgcolor="#dadada">
+			<span class="channelname">
+				<center>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/657850/france-2.html" target="_blank"><img title="657850" src="https://d2fegv18cmqy8n.cloudfront.net/france-images/e73d94196278a8de37984b01a8bd6312.png?k=2nWZhtOSUQdq2s2ItEDH5%2BQEPdq1khUY8YJSK0%2BNV90T6kg9GeF%2FSMa15sLa8yqF" height="62" width="62" vspace="5" hspace="0" alt="Aucun logo" /></a><br>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/657850/france-2.html" target="_blank">France 2</a>
+					<br>
+					2
+				</center>
+			</span>
+		</td>
+						<td class="slt-1800-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=657850&amp;pid=435213129&amp;tm=2025-09-12+16%3A00%3A00" target="_blank" rel="nofollow">
+										Tout le monde a son mot à dire
+									</a>
+			</span>
+			<span class="tvtime ">18:00<br /><br /></span>
+								</td>
+								<td class="slt-1830-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=657850&amp;pid=436895742&amp;tm=2025-09-12+16%3A35%3A00" target="_blank" rel="nofollow">
+										N&#039;oubliez pas les paroles
+									</a>
+			</span>
+			<span class="tvtime ">18:35<br /><br /></span>
+								</td>
+								<td class="slt-1900-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=657850&amp;pid=435213145&amp;tm=2025-09-12+17%3A10%3A00" target="_blank" rel="nofollow">
+										N&#039;oubliez pas les paroles
+									</a>
+			</span>
+			<span class="tvtime ">19:10<br /><br /></span>
+								</td>
+								<td class="slt-1930-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=657850&amp;pid=435213139&amp;tm=2025-09-12+17%3A55%3A00" target="_blank" rel="nofollow">
+										Journal Météo climat
+									</a>
+			</span>
+			<span class="tvtime ">19:55<br /><br /></span>
+								</td>
+								<td class="slt-2000-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=657850&amp;pid=435213911&amp;tm=2025-09-12+18%3A00%3A00" target="_blank" rel="nofollow">
+										Journal 20h00
+									</a>
+			</span>
+			<span class="tvtime ">20:00<br /><br /></span>
+								</td>
+								<td class="slt-2030-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=657850&amp;pid=435213126&amp;tm=2025-09-12+18%3A35%3A00" target="_blank" rel="nofollow">
+										20h30 le vendredi
+									</a>
+			</span>
+			<span class="tvtime ">20:35<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=657850&amp;pid=435213133&amp;tm=2025-09-12+18%3A50%3A00" target="_blank" rel="nofollow">
+										Journal Météo climat
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">20:50<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=657850&amp;pid=435213912&amp;tm=2025-09-12+18%3A55%3A00" target="_blank" rel="nofollow">
+										Basique, l&#039;essentiel de la musique
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">20:55<br /><br /></span>
+									<span class="tvtime see-more" data-id="tr_657850">+voir plus</span>
+					</td>
+								<td class="slt-2100-3" colspan="3" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=657850&amp;pid=435213127&amp;tm=2025-09-12+19%3A00%3A00" target="_blank" rel="nofollow">
+										Memory, qui paire gagne !
+									</a>
+			</span>
+			<span class="tvtime ">21:00<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=657850&amp;pid=312478379&amp;tm=2025-09-12+19%3A10%3A00" target="_blank" rel="nofollow">
+										Capitaine Marleau
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">21:10<br /><br /></span>
+									<span class="tvtime see-more" data-id="tr_657850">+voir plus</span>
+					</td>
+																<td class="slt-2230-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=657850&amp;pid=105841108&amp;tm=2025-09-12+20%3A50%3A00" target="_blank" rel="nofollow">
+										Capitaine Marleau
+									</a>
+			</span>
+			<span class="tvtime ">22:50<br /><br /></span>
+								</td>
+												<td class="slt-2330-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=657850&amp;pid=435200563&amp;tm=2025-09-12+21%3A35%3A00" target="_blank" rel="nofollow">
+										13h15, le samedi
+									</a>
+			</span>
+			<span class="tvtime ">23:35<br /><br /></span>
+								</td>
+					</tr>
+				<tr class="normalRow" id="tr_708251">
+		<td valign="top" bgcolor="#dadada">
+			<span class="channelname">
+				<center>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/708251/france-3.html" target="_blank"><img title="708251" src="https://d2fegv18cmqy8n.cloudfront.net/france-images/f728110f356f8927f31cd9b0ff6bc4d2.png?k=2nWZhtOSUQdq2s2ItEDH5%2BQEPdq1khUY8YJSK0%2BNV93idQjTlW4DK3C4pXnQVmky" height="62" width="62" vspace="5" hspace="0" alt="Aucun logo" /></a><br>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/708251/france-3.html" target="_blank">France 3</a>
+					<br>
+					3
+				</center>
+			</span>
+		</td>
+						<td class="slt-1800-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=708251&amp;pid=435200268&amp;tm=2025-09-12+16%3A00%3A00" target="_blank" rel="nofollow">
+										Slam
+									</a>
+			</span>
+			<span class="tvtime ">18:00<br /><br /></span>
+								</td>
+								<td class="slt-1830-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=708251&amp;pid=435200280&amp;tm=2025-09-12+16%3A50%3A00" target="_blank" rel="nofollow">
+										Journal Météo climat
+									</a>
+			</span>
+			<span class="tvtime ">18:50<br /><br /></span>
+								</td>
+								<td class="slt-1900-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=708251&amp;pid=437473781&amp;tm=2025-09-12+17%3A00%3A00" target="_blank" rel="nofollow">
+										Consomag
+									</a>
+			</span>
+			<span class="tvtime ">19:00<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=708251&amp;pid=437473280&amp;tm=2025-09-12+17%3A05%3A00" target="_blank" rel="nofollow">
+										Dans le rétro
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">19:05<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=708251&amp;pid=437473782&amp;tm=2025-09-12+17%3A10%3A00" target="_blank" rel="nofollow">
+										Hors la ville
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">19:10<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=708251&amp;pid=435200272&amp;tm=2025-09-12+17%3A15%3A00" target="_blank" rel="nofollow">
+										ICI 19/20 édition toutes régions
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">19:15<br /><br /></span>
+									<span class="tvtime see-more" data-id="tr_708251">+voir plus</span>
+					</td>
+								<td class="slt-1930-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=708251&amp;pid=437473783&amp;tm=2025-09-12+17%3A50%3A00" target="_blank" rel="nofollow">
+										On vous emmène ici
+									</a>
+			</span>
+			<span class="tvtime ">19:50<br /><br /></span>
+								</td>
+								<td class="slt-2000-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=708251&amp;pid=435200284&amp;tm=2025-09-12+18%3A00%3A00" target="_blank" rel="nofollow">
+										Tout le sport
+									</a>
+			</span>
+			<span class="tvtime ">20:00<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=708251&amp;pid=435200286&amp;tm=2025-09-12+18%3A15%3A00" target="_blank" rel="nofollow">
+										Météo régionale
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">20:15<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=708251&amp;pid=437473784&amp;tm=2025-09-12+18%3A20%3A00" target="_blank" rel="nofollow">
+										Le journal des talents
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">20:20<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=708251&amp;pid=435214112&amp;tm=2025-09-12+18%3A25%3A00" target="_blank" rel="nofollow">
+										Un si grand soleil
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">20:25<br /><br /></span>
+									<span class="tvtime see-more" data-id="tr_708251">+voir plus</span>
+					</td>
+								<td class="slt-2030-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=708251&amp;pid=435214374&amp;tm=2025-09-12+18%3A45%3A00" target="_blank" rel="nofollow">
+										Un si grand soleil
+									</a>
+			</span>
+			<span class="tvtime ">20:45<br /><br /></span>
+								</td>
+								<td class="slt-2100-4" colspan="4" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=708251&amp;pid=435215385&amp;tm=2025-09-12+19%3A16%3A00" target="_blank" rel="nofollow">
+										Le grand concours des régions
+									</a>
+			</span>
+			<span class="tvtime ">21:16<br /><br /></span>
+								</td>
+																				<td class="slt-2300-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=708251&amp;pid=367787184&amp;tm=2025-09-12+21%3A25%3A00" target="_blank" rel="nofollow">
+										Quand la télé dérape
+									</a>
+			</span>
+			<span class="tvtime ">23:25<br /><br /></span>
+								</td>
+									</tr>
+				<tr class="normalRow" id="tr_82484954">
+		<td valign="top" bgcolor="#dadada">
+			<span class="channelname">
+				<center>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/82484954/canal.html" target="_blank"><img title="82484954" src="https://d2fegv18cmqy8n.cloudfront.net/france-images/47e6bd43ed876dfdafd9102dd6802296.png?k=2nWZhtOSUQdq2s2ItEDH5%2BQEPdq1khUY8YJSK0%2BNV90fel%2BBGXSJ6KhrUYdbCpCOBOC8fR2OLX%2BVr%2BqP%2BxY0OA%3D%3D" height="62" width="62" vspace="5" hspace="0" alt="Aucun logo" /></a><br>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/82484954/canal.html" target="_blank">Canal+</a>
+					<br>
+					4
+				</center>
+			</span>
+		</td>
+						<td class="slt-1800-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82484954&amp;pid=389632762&amp;tm=2025-09-12+15%3A27%3A00" target="_blank" rel="nofollow">
+										<img class="schedule-tag" src="https://d2ns650n6omrqn.cloudfront.net/img/film-2.png?v=9920250912" width="50" height="20" hpsace="0" vspace="0" border="0" alt="Film">
+										Here. Les plus belles années de notre vie
+										(2024)
+									</a>
+			</span>
+			<span class="tvtime ">17:27<br /><br /></span>
+								</td>
+												<td class="slt-1900-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82484954&amp;pid=426967068&amp;tm=2025-09-12+17%3A09%3A00" target="_blank" rel="nofollow">
+										Jamel Comedy Club
+									</a>
+			</span>
+			<span class="tvtime ">19:09<br /><br /></span>
+								</td>
+								<td class="slt-1930-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82484954&amp;pid=392184032&amp;tm=2025-09-12+17%3A41%3A00" target="_blank" rel="nofollow">
+										Hot Ones
+									</a>
+			</span>
+			<span class="tvtime ">19:41<br /><br /></span>
+								</td>
+								<td class="slt-2000-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82484954&amp;pid=410420023&amp;tm=2025-09-12+18%3A24%3A00" target="_blank" rel="nofollow">
+										Flippé
+									</a>
+			</span>
+			<span class="tvtime ">20:24<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82484954&amp;pid=415436242&amp;tm=2025-09-12+18%3A28%3A00" target="_blank" rel="nofollow">
+										Viendez au Groland
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">20:28<br /><br /></span>
+									<span class="tvtime see-more" data-id="tr_82484954">+voir plus</span>
+					</td>
+								<td class="slt-2030-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82484954&amp;pid=416352509&amp;tm=2025-09-12+18%3A46%3A00" target="_blank" rel="nofollow">
+										Viendez au Groland
+									</a>
+			</span>
+			<span class="tvtime ">20:46<br /><br /></span>
+								</td>
+								<td class="slt-2100-3" colspan="3" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82484954&amp;pid=399301608&amp;tm=2025-09-12+19%3A09%3A00" target="_blank" rel="nofollow">
+										<img class="schedule-tag" src="https://d2ns650n6omrqn.cloudfront.net/img/film-2.png?v=9920250912" width="50" height="20" hpsace="0" vspace="0" border="0" alt="Film">
+										The Insider
+										(2025)
+									</a>
+			</span>
+			<span class="tvtime ">21:09<br /><br /></span>
+								</td>
+																<td class="slt-2230-3" colspan="3" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82484954&amp;pid=333026326&amp;tm=2025-09-12+20%3A42%3A00" target="_blank" rel="nofollow">
+										<img class="schedule-tag" src="https://d2ns650n6omrqn.cloudfront.net/img/film-2.png?v=9920250912" width="50" height="20" hpsace="0" vspace="0" border="0" alt="Film">
+										Kraven the Hunter
+										(2024)
+									</a>
+			</span>
+			<span class="tvtime ">22:42<br /><br /></span>
+								</td>
+													</tr>
+				<tr class="normalRow" id="tr_82515355">
+		<td valign="top" bgcolor="#dadada">
+			<span class="channelname">
+				<center>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/82515355/france-5.html" target="_blank"><img title="82515355" src="https://d2fegv18cmqy8n.cloudfront.net/france-images/e5edb272ebfe60fb6273e47f7b2dbe5f.png?k=2nWZhtOSUQdq2s2ItEDH5%2BQEPdq1khUY8YJSK0%2BNV9377CXJA02%2FZ0Ai3PYg6UQO" height="62" width="62" vspace="5" hspace="0" alt="Aucun logo" /></a><br>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/82515355/france-5.html" target="_blank">France 5</a>
+					<br>
+					5
+				</center>
+			</span>
+		</td>
+						<td class="slt-1800-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82515355&amp;pid=435200420&amp;tm=2025-09-12+15%3A40%3A00" target="_blank" rel="nofollow">
+										C dans l&#039;air
+									</a>
+			</span>
+			<span class="tvtime ">17:40<br /><br /></span>
+								</td>
+								<td class="slt-1830-3" colspan="3" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82515355&amp;pid=435200418&amp;tm=2025-09-12+16%3A55%3A00" target="_blank" rel="nofollow">
+										C à vous
+									</a>
+			</span>
+			<span class="tvtime ">18:55<br /><br /></span>
+								</td>
+																<td class="slt-2000-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82515355&amp;pid=435200422&amp;tm=2025-09-12+18%3A00%3A00" target="_blank" rel="nofollow">
+										Vu
+									</a>
+			</span>
+			<span class="tvtime ">20:00<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82515355&amp;pid=435200424&amp;tm=2025-09-12+18%3A05%3A00" target="_blank" rel="nofollow">
+										C à vous la suite
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">20:05<br /><br /></span>
+									<span class="tvtime see-more" data-id="tr_82515355">+voir plus</span>
+					</td>
+												<td class="slt-2100-3" colspan="3" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82515355&amp;pid=1426453&amp;tm=2025-09-12+19%3A05%3A00" target="_blank" rel="nofollow">
+										<img class="schedule-tag" src="https://d2ns650n6omrqn.cloudfront.net/img/film-2.png?v=9920250912" width="50" height="20" hpsace="0" vspace="0" border="0" alt="Film">
+										Le goût des autres
+										(2000)
+									</a>
+			</span>
+			<span class="tvtime ">21:05<br /><br /></span>
+								</td>
+																<td class="slt-2230-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82515355&amp;pid=321665738&amp;tm=2025-09-12+20%3A55%3A00" target="_blank" rel="nofollow">
+										Pedro Almodovar, l&#039;insolent de la Mancha
+									</a>
+			</span>
+			<span class="tvtime ">22:55<br /><br /></span>
+								</td>
+												<td class="slt-2330-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82515355&amp;pid=361298433&amp;tm=2025-09-12+21%3A55%3A00" target="_blank" rel="nofollow">
+										La p&#039;tite librairie
+									</a>
+			</span>
+			<span class="tvtime ">23:55<br /><br /></span>
+								</td>
+					</tr>
+				<tr class="normalRow" id="tr_779554">
+		<td valign="top" bgcolor="#dadada">
+			<span class="channelname">
+				<center>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/779554/m6.html" target="_blank"><img title="779554" src="https://d2fegv18cmqy8n.cloudfront.net/france-images/bdc752f7ba00b2121c5d74279888f4ff.png?k=2nWZhtOSUQdq2s2ItEDH5%2BQEPdq1khUY8YJSK0%2BNV93DZc1GXq26IwadqRvIu4EW" height="62" width="62" vspace="5" hspace="0" alt="Aucun logo" /></a><br>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/779554/m6.html" target="_blank">M6</a>
+					<br>
+					6
+				</center>
+			</span>
+		</td>
+						<td class="slt-1800-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=779554&amp;pid=430361627&amp;tm=2025-09-12+15%3A30%3A00" target="_blank" rel="nofollow">
+										La roue de la fortune
+									</a>
+			</span>
+			<span class="tvtime ">17:30<br /><br /></span>
+								</td>
+								<td class="slt-1830-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=779554&amp;pid=435213524&amp;tm=2025-09-12+16%3A35%3A00" target="_blank" rel="nofollow">
+										Le juste prix
+									</a>
+			</span>
+			<span class="tvtime ">18:35<br /><br /></span>
+								</td>
+												<td class="slt-1930-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=779554&amp;pid=435213525&amp;tm=2025-09-12+17%3A40%3A00" target="_blank" rel="nofollow">
+										Météo
+									</a>
+			</span>
+			<span class="tvtime ">19:40<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=779554&amp;pid=435213526&amp;tm=2025-09-12+17%3A45%3A00" target="_blank" rel="nofollow">
+										Le 19.45
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">19:45<br /><br /></span>
+									<span class="tvtime see-more" data-id="tr_779554">+voir plus</span>
+					</td>
+												<td class="slt-2030-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=779554&amp;pid=435213527&amp;tm=2025-09-12+18%3A40%3A00" target="_blank" rel="nofollow">
+										Scènes de ménages
+									</a>
+			</span>
+			<span class="tvtime ">20:40<br /><br /></span>
+								</td>
+								<td class="slt-2100-5" colspan="5" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=779554&amp;pid=132477910&amp;tm=2025-09-12+19%3A10%3A00" target="_blank" rel="nofollow">
+										<img class="schedule-tag" src="https://d2ns650n6omrqn.cloudfront.net/img/film-2.png?v=9920250912" width="50" height="20" hpsace="0" vspace="0" border="0" alt="Film">
+										Donjons &amp; Dragons : L&#039;honneur des voleurs
+										(2023)
+									</a>
+			</span>
+			<span class="tvtime ">21:10<br /><br /></span>
+								</td>
+																								<td class="slt-2330-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=779554&amp;pid=290292330&amp;tm=2025-09-12+21%3A35%3A00" target="_blank" rel="nofollow">
+										<img class="schedule-tag" src="https://d2ns650n6omrqn.cloudfront.net/img/film-2.png?v=9920250912" width="50" height="20" hpsace="0" vspace="0" border="0" alt="Film">
+										La Petite Sirène
+										(2023)
+									</a>
+			</span>
+			<span class="tvtime ">23:35<br /><br /></span>
+								</td>
+					</tr>
+				<tr class="normalRow" id="tr_82484952">
+		<td valign="top" bgcolor="#dadada">
+			<span class="channelname">
+				<center>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/82484952/arte.html" target="_blank"><img title="82484952" src="https://d2fegv18cmqy8n.cloudfront.net/france-images/0efe31f0cfe1c5a55e225416e8aa945e.png?k=2nWZhtOSUQdq2s2ItEDH5%2BQEPdq1khUY8YJSK0%2BNV92H2Gm12Lqu7zv6YQbqp0Kc" height="62" width="62" vspace="5" hspace="0" alt="Aucun logo" /></a><br>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/82484952/arte.html" target="_blank">Arte</a>
+					<br>
+					7
+				</center>
+			</span>
+		</td>
+						<td class="slt-1800-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82484952&amp;pid=430192956&amp;tm=2025-09-12+15%3A20%3A00" target="_blank" rel="nofollow">
+										Invitation au voyage
+									</a>
+			</span>
+			<span class="tvtime ">17:20<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82484952&amp;pid=382895504&amp;tm=2025-09-12+16%3A05%3A00" target="_blank" rel="nofollow">
+										Invitation au voyage
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">18:05<br /><br /></span>
+									<span class="tvtime see-more" data-id="tr_82484952">+voir plus</span>
+					</td>
+								<td class="slt-1830-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82484952&amp;pid=430219626&amp;tm=2025-09-12+16%3A50%3A00" target="_blank" rel="nofollow">
+										Voyage gourmand
+									</a>
+			</span>
+			<span class="tvtime ">18:50<br /><br /></span>
+								</td>
+												<td class="slt-1930-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82484952&amp;pid=430192954&amp;tm=2025-09-12+17%3A30%3A00" target="_blank" rel="nofollow">
+										Le dessous des cartes
+									</a>
+			</span>
+			<span class="tvtime ">19:30<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82484952&amp;pid=434376586&amp;tm=2025-09-12+17%3A45%3A00" target="_blank" rel="nofollow">
+										Arte journal
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">19:45<br /><br /></span>
+									<span class="tvtime see-more" data-id="tr_82484952">+voir plus</span>
+					</td>
+								<td class="slt-2000-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82484952&amp;pid=436259086&amp;tm=2025-09-12+18%3A05%3A00" target="_blank" rel="nofollow">
+										28 minutes
+									</a>
+			</span>
+			<span class="tvtime ">20:05<br /><br /></span>
+								</td>
+								<td class="slt-2030-4" colspan="4" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82484952&amp;pid=146633509&amp;tm=2025-09-12+18%3A52%3A00" target="_blank" rel="nofollow">
+										Tu mourras moins bête
+									</a>
+			</span>
+			<span class="tvtime ">20:52<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82484952&amp;pid=399487305&amp;tm=2025-09-12+18%3A55%3A00" target="_blank" rel="nofollow">
+										<img class="schedule-tag" src="https://d2ns650n6omrqn.cloudfront.net/img/film-2.png?v=9920250912" width="50" height="20" hpsace="0" vspace="0" border="0" alt="Film">
+										De Gaulle et le chancelier
+										(2025)
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">20:55<br /><br /></span>
+									<span class="tvtime see-more" data-id="tr_82484952">+voir plus</span>
+					</td>
+																				<td class="slt-2230-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82484952&amp;pid=301874673&amp;tm=2025-09-12+20%3A30%3A00" target="_blank" rel="nofollow">
+										Comment des Allemands ont appris à aimer la France
+									</a>
+			</span>
+			<span class="tvtime ">22:30<br /><br /></span>
+								</td>
+								<td class="slt-2300-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82484952&amp;pid=317502736&amp;tm=2025-09-12+21%3A15%3A00" target="_blank" rel="nofollow">
+										<img class="schedule-tag" src="https://d2ns650n6omrqn.cloudfront.net/img/film-2.png?v=9920250912" width="50" height="20" hpsace="0" vspace="0" border="0" alt="Film">
+										Luise
+										(2023)
+									</a>
+			</span>
+			<span class="tvtime ">23:15<br /><br /></span>
+								</td>
+									</tr>
+				<tr class="normalRow" id="tr_82515050">
+		<td valign="top" bgcolor="#dadada">
+			<span class="channelname">
+				<center>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/82515050/w9.html" target="_blank"><img title="82515050" src="https://d2fegv18cmqy8n.cloudfront.net/france-images/b8b7b9be46e461d1db3cffe3f5cbace8.png?k=2nWZhtOSUQdq2s2ItEDH5%2BQEPdq1khUY8YJSK0%2BNV906UBdI5wqoIMfzbrTpse%2BZ" height="62" width="62" vspace="5" hspace="0" alt="Aucun logo" /></a><br>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/82515050/w9.html" target="_blank">W9</a>
+					<br>
+					9
+				</center>
+			</span>
+		</td>
+						<td class="slt-1800-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82515050&amp;pid=435221920&amp;tm=2025-09-12+15%3A50%3A00" target="_blank" rel="nofollow">
+										Les cinquante
+									</a>
+			</span>
+			<span class="tvtime ">17:50<br /><br /></span>
+								</td>
+								<td class="slt-1830-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82515050&amp;pid=435214348&amp;tm=2025-09-12+16%3A45%3A00" target="_blank" rel="nofollow">
+										Tout beau, tout n9uf
+									</a>
+			</span>
+			<span class="tvtime ">18:45<br /><br /></span>
+								</td>
+								<td class="slt-1900-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82515050&amp;pid=435214342&amp;tm=2025-09-12+17%3A25%3A00" target="_blank" rel="nofollow">
+										Tout beau, tout n9uf
+									</a>
+			</span>
+			<span class="tvtime ">19:25<br /><br /></span>
+								</td>
+								<td class="slt-1930-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82515050&amp;pid=435214336&amp;tm=2025-09-12+17%3A45%3A00" target="_blank" rel="nofollow">
+										Tout beau, tout n9uf
+									</a>
+			</span>
+			<span class="tvtime ">19:45<br /><br /></span>
+								</td>
+								<td class="slt-2000-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82515050&amp;pid=435214338&amp;tm=2025-09-12+18%3A10%3A00" target="_blank" rel="nofollow">
+										Tout beau, tout n9uf
+									</a>
+			</span>
+			<span class="tvtime ">20:10<br /><br /></span>
+								</td>
+								<td class="slt-2030-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82515050&amp;pid=435214344&amp;tm=2025-09-12+18%3A45%3A00" target="_blank" rel="nofollow">
+										Tout beau, tout n9uf
+									</a>
+			</span>
+			<span class="tvtime ">20:45<br /><br /></span>
+								</td>
+								<td class="slt-2100-4" colspan="4" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82515050&amp;pid=435221959&amp;tm=2025-09-12+19%3A25%3A00" target="_blank" rel="nofollow">
+										Enquête d&#039;action
+									</a>
+			</span>
+			<span class="tvtime ">21:25<br /><br /></span>
+								</td>
+																				<td class="slt-2300-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82515050&amp;pid=435222029&amp;tm=2025-09-12+21%3A20%3A00" target="_blank" rel="nofollow">
+										Enquête d&#039;action
+									</a>
+			</span>
+			<span class="tvtime ">23:20<br /><br /></span>
+								</td>
+									</tr>
+				<tr class="normalRow" id="tr_82485548">
+		<td valign="top" bgcolor="#dadada">
+			<span class="channelname">
+				<center>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/82485548/tmc.html" target="_blank"><img title="82485548" src="https://d2fegv18cmqy8n.cloudfront.net/france-images/6ef7903e5918db2206a0151d364acff2.png?k=2nWZhtOSUQdq2s2ItEDH5%2BQEPdq1khUY8YJSK0%2BNV93PDxMklpXAaU6q%2BpOlvA8U" height="62" width="62" vspace="5" hspace="0" alt="Aucun logo" /></a><br>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/82485548/tmc.html" target="_blank">TMC</a>
+					<br>
+					10
+				</center>
+			</span>
+		</td>
+						<td class="slt-1800-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82485548&amp;pid=1321774&amp;tm=2025-09-12+15%3A25%3A00" target="_blank" rel="nofollow">
+										Monk
+									</a>
+			</span>
+			<span class="tvtime ">17:25<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82485548&amp;pid=435212614&amp;tm=2025-09-12+16%3A20%3A00" target="_blank" rel="nofollow">
+										Petits plats en équilibre
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">18:20<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82485548&amp;pid=435212619&amp;tm=2025-09-12+16%3A25%3A00" target="_blank" rel="nofollow">
+										L&#039;avant Quotidien
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">18:25<br /><br /></span>
+									<span class="tvtime see-more" data-id="tr_82485548">+voir plus</span>
+					</td>
+												<td class="slt-1900-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82485548&amp;pid=435212615&amp;tm=2025-09-12+17%3A15%3A00" target="_blank" rel="nofollow">
+										Quotidien, première partie
+									</a>
+			</span>
+			<span class="tvtime ">19:15<br /><br /></span>
+								</td>
+												<td class="slt-2000-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82485548&amp;pid=435212616&amp;tm=2025-09-12+18%3A10%3A00" target="_blank" rel="nofollow">
+										Quotidien, deuxième partie
+									</a>
+			</span>
+			<span class="tvtime ">20:10<br /><br /></span>
+								</td>
+								<td class="slt-2030-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82485548&amp;pid=435212618&amp;tm=2025-09-12+18%3A45%3A00" target="_blank" rel="nofollow">
+										Quotidien
+									</a>
+			</span>
+			<span class="tvtime ">20:45<br /><br /></span>
+								</td>
+								<td class="slt-2100-4" colspan="4" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82485548&amp;pid=120049163&amp;tm=2025-09-12+19%3A25%3A00" target="_blank" rel="nofollow">
+										<img class="schedule-tag" src="https://d2ns650n6omrqn.cloudfront.net/img/film-2.png?v=9920250912" width="50" height="20" hpsace="0" vspace="0" border="0" alt="Film">
+										Men In Black : International
+										(2019)
+									</a>
+			</span>
+			<span class="tvtime ">21:25<br /><br /></span>
+								</td>
+																				<td class="slt-2300-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82485548&amp;pid=43544802&amp;tm=2025-09-12+21%3A25%3A00" target="_blank" rel="nofollow">
+										<img class="schedule-tag" src="https://d2ns650n6omrqn.cloudfront.net/img/film-2.png?v=9920250912" width="50" height="20" hpsace="0" vspace="0" border="0" alt="Film">
+										Doctor Strange
+										(2016)
+									</a>
+			</span>
+			<span class="tvtime ">23:25<br /><br /></span>
+								</td>
+									</tr>
+				<tr class="normalRow" id="tr_82514956">
+		<td valign="top" bgcolor="#dadada">
+			<span class="channelname">
+				<center>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/82514956/tfx.html" target="_blank"><img title="82514956" src="https://d2fegv18cmqy8n.cloudfront.net/france-images/4f574bc0d928ad41a93b4a2150bc09c1.png?k=2nWZhtOSUQdq2s2ItEDH5%2BQEPdq1khUY8YJSK0%2BNV92M9eZAHK78YOYB70N9rys9" height="62" width="62" vspace="5" hspace="0" alt="Aucun logo" /></a><br>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/82514956/tfx.html" target="_blank">TFX</a>
+					<br>
+					11
+				</center>
+			</span>
+		</td>
+						<td class="slt-1800-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82514956&amp;pid=138715137&amp;tm=2025-09-12+15%3A10%3A00" target="_blank" rel="nofollow">
+										Quatre mariages pour une lune de miel
+									</a>
+			</span>
+			<span class="tvtime ">17:10<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82514956&amp;pid=435218749&amp;tm=2025-09-12+16%3A05%3A00" target="_blank" rel="nofollow">
+										Petits plats en équilibre
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">18:05<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82514956&amp;pid=138716710&amp;tm=2025-09-12+16%3A10%3A00" target="_blank" rel="nofollow">
+										Quatre mariages pour une lune de miel
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">18:10<br /><br /></span>
+									<span class="tvtime see-more" data-id="tr_82514956">+voir plus</span>
+					</td>
+												<td class="slt-1900-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82514956&amp;pid=365074271&amp;tm=2025-09-12+17%3A05%3A00" target="_blank" rel="nofollow">
+										Quatre mariages pour une lune de miel
+									</a>
+			</span>
+			<span class="tvtime ">19:05<br /><br /></span>
+								</td>
+												<td class="slt-2000-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82514956&amp;pid=435213215&amp;tm=2025-09-12+18%3A00%3A00" target="_blank" rel="nofollow">
+										La villa des coeurs brisés
+									</a>
+			</span>
+			<span class="tvtime ">20:00<br /><br /></span>
+								</td>
+												<td class="slt-2100-4" colspan="4" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82514956&amp;pid=435218753&amp;tm=2025-09-12+19%3A05%3A00" target="_blank" rel="nofollow">
+										Petits plats en équilibre
+									</a>
+			</span>
+			<span class="tvtime ">21:05<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82514956&amp;pid=693201&amp;tm=2025-09-12+19%3A10%3A00" target="_blank" rel="nofollow">
+										<img class="schedule-tag" src="https://d2ns650n6omrqn.cloudfront.net/img/film-2.png?v=9920250912" width="50" height="20" hpsace="0" vspace="0" border="0" alt="Film">
+										Tatie Danielle
+										(1990)
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">21:10<br /><br /></span>
+									<span class="tvtime see-more" data-id="tr_82514956">+voir plus</span>
+					</td>
+																				<td class="slt-2300-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82514956&amp;pid=246103959&amp;tm=2025-09-12+21%3A15%3A00" target="_blank" rel="nofollow">
+										Chroniques criminelles
+									</a>
+			</span>
+			<span class="tvtime ">23:15<br /><br /></span>
+								</td>
+									</tr>
+				<tr class="normalRow" id="tr_82514953">
+		<td valign="top" bgcolor="#dadada">
+			<span class="channelname">
+				<center>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/82514953/lcp.html" target="_blank"><img title="82514953" src="https://d2fegv18cmqy8n.cloudfront.net/france-images/2eee38fc3f2aea9b552b805cb4d0a60f.png?k=2nWZhtOSUQdq2s2ItEDH5%2BQEPdq1khUY8YJSK0%2BNV90IwjvfulSQjwbXRocgEowj" height="62" width="62" vspace="5" hspace="0" alt="Aucun logo" /></a><br>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/82514953/lcp.html" target="_blank">LCP</a>
+					<br>
+					13
+				</center>
+			</span>
+		</td>
+						<td class="slt-1800-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82514953&amp;pid=437016977&amp;tm=2025-09-12+16%3A00%3A00" target="_blank" rel="nofollow">
+										Sens public
+									</a>
+			</span>
+			<span class="tvtime ">18:00<br /><br /></span>
+								</td>
+								<td class="slt-1830-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82514953&amp;pid=404634847&amp;tm=2025-09-12+16%3A30%3A00" target="_blank" rel="nofollow">
+										Jean-Marie Le Pen : à l&#039;extrême
+									</a>
+			</span>
+			<span class="tvtime ">18:30<br /><br /></span>
+								</td>
+												<td class="slt-1930-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82514953&amp;pid=438073655&amp;tm=2025-09-12+17%3A33%3A00" target="_blank" rel="nofollow">
+										Chaque voix compte
+									</a>
+			</span>
+			<span class="tvtime ">19:33<br /><br /></span>
+								</td>
+								<td class="slt-2000-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82514953&amp;pid=434234606&amp;tm=2025-09-12+18%3A28%3A00" target="_blank" rel="nofollow">
+										Les grands entretiens de Daphné Roulier
+									</a>
+			</span>
+			<span class="tvtime ">20:28<br /><br /></span>
+								</td>
+								<td class="slt-2030-3" colspan="3" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82514953&amp;pid=434237347&amp;tm=2025-09-12+18%3A56%3A00" target="_blank" rel="nofollow">
+										Justice en France
+									</a>
+			</span>
+			<span class="tvtime ">20:56<br /><br /></span>
+								</td>
+																<td class="slt-2200-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82514953&amp;pid=339577276&amp;tm=2025-09-12+20%3A00%3A00" target="_blank" rel="nofollow">
+										Capitalisme américain : Le culte de la richesse
+									</a>
+			</span>
+			<span class="tvtime ">22:00<br /><br /></span>
+								</td>
+												<td class="slt-2300-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82514953&amp;pid=429771698&amp;tm=2025-09-12+21%3A00%3A00" target="_blank" rel="nofollow">
+										Au bonheur des livres
+									</a>
+			</span>
+			<span class="tvtime ">23:00<br /><br /></span>
+								</td>
+								<td class="slt-2330-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82514953&amp;pid=438073624&amp;tm=2025-09-12+21%3A32%3A00" target="_blank" rel="nofollow">
+										Chaque voix compte
+									</a>
+			</span>
+			<span class="tvtime ">23:32<br /><br /></span>
+								</td>
+					</tr>
+				<tr class="normalRow" id="tr_82515049">
+		<td valign="top" bgcolor="#dadada">
+			<span class="channelname">
+				<center>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/82515049/france-4.html" target="_blank"><img title="82515049" src="https://d2fegv18cmqy8n.cloudfront.net/france-images/4ca1ce79fd219dac17cd7218d9442c61.png?k=2nWZhtOSUQdq2s2ItEDH5%2BQEPdq1khUY8YJSK0%2BNV90QNPFG21JXuz%2FEGBw%2B5Iuz" height="62" width="62" vspace="5" hspace="0" alt="Aucun logo" /></a><br>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/82515049/france-4.html" target="_blank">France 4</a>
+					<br>
+					14
+				</center>
+			</span>
+		</td>
+						<td class="slt-1800-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82515049&amp;pid=410426025&amp;tm=2025-09-12+16%3A00%3A00" target="_blank" rel="nofollow">
+										Oscar &amp; Malika toujours en retard
+									</a>
+			</span>
+			<span class="tvtime ">18:00<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82515049&amp;pid=399892943&amp;tm=2025-09-12+16%3A01%3A00" target="_blank" rel="nofollow">
+										Oscar &amp; Malika toujours en retard
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">18:01<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82515049&amp;pid=435201435&amp;tm=2025-09-12+16%3A11%3A00" target="_blank" rel="nofollow">
+										Okoo-koo
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">18:11<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82515049&amp;pid=410426239&amp;tm=2025-09-12+16%3A27%3A00" target="_blank" rel="nofollow">
+										Oscar &amp; Malika toujours en retard
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">18:27<br /><br /></span>
+									<span class="tvtime see-more" data-id="tr_82515049">+voir plus</span>
+					</td>
+								<td class="slt-1830-4" colspan="4" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82515049&amp;pid=400792852&amp;tm=2025-09-12+16%3A38%3A00" target="_blank" rel="nofollow">
+										Oscar &amp; Malika toujours en retard
+									</a>
+			</span>
+			<span class="tvtime ">18:38<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82515049&amp;pid=435201436&amp;tm=2025-09-12+16%3A39%3A00" target="_blank" rel="nofollow">
+										Okoo-koo
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">18:39<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82515049&amp;pid=429450344&amp;tm=2025-09-12+16%3A50%3A00" target="_blank" rel="nofollow">
+										Fort Boyard
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">18:50<br /><br /></span>
+									<span class="tvtime see-more" data-id="tr_82515049">+voir plus</span>
+					</td>
+																				<td class="slt-2030-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82515049&amp;pid=435213687&amp;tm=2025-09-12+18%3A55%3A00" target="_blank" rel="nofollow">
+										Consomag
+									</a>
+			</span>
+			<span class="tvtime ">20:55<br /><br /></span>
+								</td>
+								<td class="slt-2100-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82515049&amp;pid=435216905&amp;tm=2025-09-12+19%3A00%3A00" target="_blank" rel="nofollow">
+										Francofolies de La Réunion
+									</a>
+			</span>
+			<span class="tvtime ">21:00<br /><br /></span>
+								</td>
+												<td class="slt-2200-3" colspan="3" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82515049&amp;pid=346043010&amp;tm=2025-09-12+20%3A00%3A00" target="_blank" rel="nofollow">
+										Kalash à l&#039;Accor Arena
+									</a>
+			</span>
+			<span class="tvtime ">22:00<br /><br /></span>
+								</td>
+																<td class="slt-2330-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82515049&amp;pid=435218780&amp;tm=2025-09-12+21%3A35%3A00" target="_blank" rel="nofollow">
+										Festival La 1ère on air
+									</a>
+			</span>
+			<span class="tvtime ">23:35<br /><br /></span>
+								</td>
+					</tr>
+				<tr class="normalRow" id="tr_83495148">
+		<td valign="top" bgcolor="#dadada">
+			<span class="channelname">
+				<center>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/83495148/bfm-tv.html" target="_blank"><img title="83495148" src="https://d2fegv18cmqy8n.cloudfront.net/france-images/74f7102d72a6ea6c757d17c5acc61932.png?k=2nWZhtOSUQdq2s2ItEDH5%2BQEPdq1khUY8YJSK0%2BNV93Y9dvRxjP9wJQfNxjah8f6" height="62" width="62" vspace="5" hspace="0" alt="Aucun logo" /></a><br>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/83495148/bfm-tv.html" target="_blank">BFM TV</a>
+					<br>
+					15
+				</center>
+			</span>
+		</td>
+						<td class="slt-1800-4" colspan="4" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=83495148&amp;pid=436005257&amp;tm=2025-09-12+14%3A50%3A00" target="_blank" rel="nofollow">
+										Le club BFM
+									</a>
+			</span>
+			<span class="tvtime ">16:50<br /><br /></span>
+								</td>
+																				<td class="slt-2000-4" colspan="4" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=83495148&amp;pid=436005259&amp;tm=2025-09-12+18%3A00%3A00" target="_blank" rel="nofollow">
+										20h BFM
+									</a>
+			</span>
+			<span class="tvtime ">20:00<br /><br /></span>
+								</td>
+																				<td class="slt-2200-4" colspan="4" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=83495148&amp;pid=436005260&amp;tm=2025-09-12+20%3A00%3A00" target="_blank" rel="nofollow">
+										BFM Grand Soir
+									</a>
+			</span>
+			<span class="tvtime ">22:00<br /><br /></span>
+								</td>
+																	</tr>
+				<tr class="normalRow" id="tr_83495251">
+		<td valign="top" bgcolor="#dadada">
+			<span class="channelname">
+				<center>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/83495251/cnews.html" target="_blank"><img title="83495251" src="https://d2fegv18cmqy8n.cloudfront.net/france-images/79785af4e1e6e01c69273e1075d7546e.png?k=2nWZhtOSUQdq2s2ItEDH5%2BQEPdq1khUY8YJSK0%2BNV92ylaSU3gIHFrsMiB7g87Bp" height="62" width="62" vspace="5" hspace="0" alt="Aucun logo" /></a><br>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/83495251/cnews.html" target="_blank">CNews</a>
+					<br>
+					16
+				</center>
+			</span>
+		</td>
+						<td class="slt-1800-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=83495251&amp;pid=435294529&amp;tm=2025-09-12+14%3A58%3A00" target="_blank" rel="nofollow">
+										Punchline Week-End
+									</a>
+			</span>
+			<span class="tvtime ">16:58<br /><br /></span>
+								</td>
+												<td class="slt-1900-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=83495251&amp;pid=438022454&amp;tm=2025-09-12+17%3A00%3A00" target="_blank" rel="nofollow">
+										Face à Philippe de Villiers
+									</a>
+			</span>
+			<span class="tvtime ">19:00<br /><br /></span>
+								</td>
+												<td class="slt-2000-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=83495251&amp;pid=435294530&amp;tm=2025-09-12+18%3A04%3A00" target="_blank" rel="nofollow">
+										L&#039;Heure des Pros 2 Week-End
+									</a>
+			</span>
+			<span class="tvtime ">20:04<br /><br /></span>
+								</td>
+								<td class="slt-2030-6" colspan="6" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=83495251&amp;pid=436577671&amp;tm=2025-09-12+18%3A59%3A00" target="_blank" rel="nofollow">
+										100% Politique Week-End
+									</a>
+			</span>
+			<span class="tvtime ">20:59<br /><br /></span>
+								</td>
+																												<td class="slt-2330-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=83495251&amp;pid=438022334&amp;tm=2025-09-12+21%3A51%3A00" target="_blank" rel="nofollow">
+										La sélection CNEWS
+									</a>
+			</span>
+			<span class="tvtime ">23:51<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=83495251&amp;pid=435294523&amp;tm=2025-09-12+21%3A57%3A00" target="_blank" rel="nofollow">
+										Météo du soir
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">23:57<br /><br /></span>
+									<span class="tvtime see-more" data-id="tr_83495251">+voir plus</span>
+					</td>
+					</tr>
+				<tr class="normalRow" id="tr_83495155">
+		<td valign="top" bgcolor="#dadada">
+			<span class="channelname">
+				<center>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/83495155/cstar.html" target="_blank"><img title="83495155" src="https://d2fegv18cmqy8n.cloudfront.net/france-images/e005bc9834b3ad39ece4efb049a35c8b.png?k=2nWZhtOSUQdq2s2ItEDH5%2BQEPdq1khUY8YJSK0%2BNV92y%2FcBPo0VpQpRzyM9F7usL" height="62" width="62" vspace="5" hspace="0" alt="Aucun logo" /></a><br>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/83495155/cstar.html" target="_blank">CSTAR</a>
+					<br>
+					17
+				</center>
+			</span>
+		</td>
+						<td class="slt-1800-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=83495155&amp;pid=163892785&amp;tm=2025-09-12+15%3A55%3A00" target="_blank" rel="nofollow">
+										Douanes sous haute surveillance
+									</a>
+			</span>
+			<span class="tvtime ">17:55<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=83495155&amp;pid=217895898&amp;tm=2025-09-12+16%3A15%3A00" target="_blank" rel="nofollow">
+										Douanes sous haute surveillance
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">18:15<br /><br /></span>
+									<span class="tvtime see-more" data-id="tr_83495155">+voir plus</span>
+					</td>
+								<td class="slt-1830-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=83495155&amp;pid=237508137&amp;tm=2025-09-12+16%3A41%3A00" target="_blank" rel="nofollow">
+										Douanes sous haute surveillance
+									</a>
+			</span>
+			<span class="tvtime ">18:41<br /><br /></span>
+								</td>
+								<td class="slt-1900-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=83495155&amp;pid=435411337&amp;tm=2025-09-12+17%3A20%3A00" target="_blank" rel="nofollow">
+										Des news musicales
+									</a>
+			</span>
+			<span class="tvtime ">19:20<br /><br /></span>
+								</td>
+								<td class="slt-1930-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=83495155&amp;pid=435411623&amp;tm=2025-09-12+17%3A30%3A00" target="_blank" rel="nofollow">
+										Top streaming
+									</a>
+			</span>
+			<span class="tvtime ">19:30<br /><br /></span>
+								</td>
+								<td class="slt-2000-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=83495155&amp;pid=435411644&amp;tm=2025-09-12+18%3A05%3A00" target="_blank" rel="nofollow">
+										Top Albums
+									</a>
+			</span>
+			<span class="tvtime ">20:05<br /><br /></span>
+								</td>
+								<td class="slt-2030-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=83495155&amp;pid=237508165&amp;tm=2025-09-12+18%3A40%3A00" target="_blank" rel="nofollow">
+										Douanes sous haute surveillance
+									</a>
+			</span>
+			<span class="tvtime ">20:40<br /><br /></span>
+								</td>
+								<td class="slt-2100-3" colspan="3" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=83495155&amp;pid=348188486&amp;tm=2025-09-12+19%3A10%3A00" target="_blank" rel="nofollow">
+										Animaux à adopter
+									</a>
+			</span>
+			<span class="tvtime ">21:10<br /><br /></span>
+								</td>
+																<td class="slt-2230-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=83495155&amp;pid=347956383&amp;tm=2025-09-12+20%3A30%3A00" target="_blank" rel="nofollow">
+										Animaux à adopter
+									</a>
+			</span>
+			<span class="tvtime ">22:30<br /><br /></span>
+								</td>
+												<td class="slt-2330-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=83495155&amp;pid=209199599&amp;tm=2025-09-12+21%3A50%3A00" target="_blank" rel="nofollow">
+										Animaux à adopter
+									</a>
+			</span>
+			<span class="tvtime ">23:50<br /><br /></span>
+								</td>
+					</tr>
+				<tr class="normalRow" id="tr_76515449">
+		<td valign="top" bgcolor="#dadada">
+			<span class="channelname">
+				<center>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/76515449/gulli.html" target="_blank"><img title="76515449" src="https://d2fegv18cmqy8n.cloudfront.net/france-images/f2f44330a294f97a30c351eba4549848.png?k=2nWZhtOSUQdq2s2ItEDH5%2BQEPdq1khUY8YJSK0%2BNV91SxMyXqXGfvoJxmPiERe6X" height="62" width="62" vspace="5" hspace="0" alt="Aucun logo" /></a><br>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/76515449/gulli.html" target="_blank">Gulli</a>
+					<br>
+					18
+				</center>
+			</span>
+		</td>
+						<td class="slt-1800-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=76515449&amp;pid=1455354&amp;tm=2025-09-12+16%3A00%3A00" target="_blank" rel="nofollow">
+										Malcolm
+									</a>
+			</span>
+			<span class="tvtime ">18:00<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=76515449&amp;pid=1455600&amp;tm=2025-09-12+16%3A25%3A00" target="_blank" rel="nofollow">
+										Malcolm
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">18:25<br /><br /></span>
+									<span class="tvtime see-more" data-id="tr_76515449">+voir plus</span>
+					</td>
+								<td class="slt-1830-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=76515449&amp;pid=1455431&amp;tm=2025-09-12+16%3A55%3A00" target="_blank" rel="nofollow">
+										Malcolm
+									</a>
+			</span>
+			<span class="tvtime ">18:55<br /><br /></span>
+								</td>
+								<td class="slt-1900-4" colspan="4" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=76515449&amp;pid=383581795&amp;tm=2025-09-12+17%3A15%3A00" target="_blank" rel="nofollow">
+										<img class="schedule-tag" src="https://d2ns650n6omrqn.cloudfront.net/img/film-2.png?v=9920250912" width="50" height="20" hpsace="0" vspace="0" border="0" alt="Film">
+										Mina, mission rebelle
+										(2024)
+									</a>
+			</span>
+			<span class="tvtime ">19:15<br /><br /></span>
+								</td>
+																				<td class="slt-2100-3" colspan="3" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=76515449&amp;pid=1290106&amp;tm=2025-09-12+19%3A05%3A00" target="_blank" rel="nofollow">
+										<img class="schedule-tag" src="https://d2ns650n6omrqn.cloudfront.net/img/film-2.png?v=9920250912" width="50" height="20" hpsace="0" vspace="0" border="0" alt="Film">
+										Le Coup du parapluie
+										(1980)
+									</a>
+			</span>
+			<span class="tvtime ">21:05<br /><br /></span>
+								</td>
+																<td class="slt-2230-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=76515449&amp;pid=367155&amp;tm=2025-09-12+20%3A55%3A00" target="_blank" rel="nofollow">
+										Alf
+									</a>
+			</span>
+			<span class="tvtime ">22:55<br /><br /></span>
+								</td>
+								<td class="slt-2300-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=76515449&amp;pid=983928&amp;tm=2025-09-12+21%3A25%3A00" target="_blank" rel="nofollow">
+										Alf
+									</a>
+			</span>
+			<span class="tvtime ">23:25<br /><br /></span>
+								</td>
+								<td class="slt-2330-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=76515449&amp;pid=984085&amp;tm=2025-09-12+21%3A55%3A00" target="_blank" rel="nofollow">
+										Alf
+									</a>
+			</span>
+			<span class="tvtime ">23:55<br /><br /></span>
+								</td>
+					</tr>
+				<tr class="normalRow" id="tr_72684970">
+		<td valign="top" bgcolor="#dadada">
+			<span class="channelname">
+				<center>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/72684970/tf1-series-films.html" target="_blank"><img title="72684970" src="https://d2fegv18cmqy8n.cloudfront.net/france-images/dd47a5ddd3d1ba83ad5c96cc8bcafd37.png?k=2nWZhtOSUQdq2s2ItEDH5%2BQEPdq1khUY8YJSK0%2BNV92k%2Brly2JZOe7mroGxHOeEpSCb22WzkPnrdnpjlapHevQ%3D%3D" height="62" width="62" vspace="5" hspace="0" alt="Aucun logo" /></a><br>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/72684970/tf1-series-films.html" target="_blank">TF1 Séries Films</a>
+					<br>
+					20
+				</center>
+			</span>
+		</td>
+						<td class="slt-1800-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=72684970&amp;pid=7811484&amp;tm=2025-09-12+15%3A25%3A00" target="_blank" rel="nofollow">
+										Grey&#039;s Anatomy
+									</a>
+			</span>
+			<span class="tvtime ">17:25<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=72684970&amp;pid=7959340&amp;tm=2025-09-12+16%3A20%3A00" target="_blank" rel="nofollow">
+										Grey&#039;s Anatomy
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">18:20<br /><br /></span>
+									<span class="tvtime see-more" data-id="tr_72684970">+voir plus</span>
+					</td>
+												<td class="slt-1900-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=72684970&amp;pid=8200211&amp;tm=2025-09-12+17%3A05%3A00" target="_blank" rel="nofollow">
+										Grey&#039;s Anatomy
+									</a>
+			</span>
+			<span class="tvtime ">19:05<br /><br /></span>
+								</td>
+												<td class="slt-2000-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=72684970&amp;pid=434496642&amp;tm=2025-09-12+18%3A00%3A00" target="_blank" rel="nofollow">
+										Plus belle la vie, encore plus belle
+									</a>
+			</span>
+			<span class="tvtime ">20:00<br /><br /></span>
+								</td>
+								<td class="slt-2030-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=72684970&amp;pid=434923275&amp;tm=2025-09-12+18%3A30%3A00" target="_blank" rel="nofollow">
+										Plus belle la vie, encore plus belle
+									</a>
+			</span>
+			<span class="tvtime ">20:30<br /><br /></span>
+								</td>
+								<td class="slt-2100-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=72684970&amp;pid=435208752&amp;tm=2025-09-12+19%3A05%3A00" target="_blank" rel="nofollow">
+										Petits plats en équilibre
+									</a>
+			</span>
+			<span class="tvtime ">21:05<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=72684970&amp;pid=1441356&amp;tm=2025-09-12+19%3A10%3A00" target="_blank" rel="nofollow">
+										New York Unité Spéciale
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">21:10<br /><br /></span>
+									<span class="tvtime see-more" data-id="tr_72684970">+voir plus</span>
+					</td>
+								<td class="slt-2130-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=72684970&amp;pid=1243660&amp;tm=2025-09-12+19%3A55%3A00" target="_blank" rel="nofollow">
+										New York Unité Spéciale
+									</a>
+			</span>
+			<span class="tvtime ">21:55<br /><br /></span>
+								</td>
+												<td class="slt-2230-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=72684970&amp;pid=1231784&amp;tm=2025-09-12+20%3A50%3A00" target="_blank" rel="nofollow">
+										New York Unité Spéciale
+									</a>
+			</span>
+			<span class="tvtime ">22:50<br /><br /></span>
+								</td>
+												<td class="slt-2330-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=72684970&amp;pid=34453889&amp;tm=2025-09-12+21%3A35%3A00" target="_blank" rel="nofollow">
+										New York Unité Spéciale
+									</a>
+			</span>
+			<span class="tvtime ">23:35<br /><br /></span>
+								</td>
+					</tr>
+				<tr class="normalRow" id="tr_76698180">
+		<td valign="top" bgcolor="#dadada">
+			<span class="channelname">
+				<center>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/76698180/lequipe.html" target="_blank"><img title="76698180" src="https://d2fegv18cmqy8n.cloudfront.net/france-images/bf688fcf93065a1699fb0c3cbb115a2b.png?k=2nWZhtOSUQdq2s2ItEDH5%2BQEPdq1khUY8YJSK0%2BNV91FeYGSDNWQJPHceyR8hH0iF4duEA7CehYB%2FD22TxG%2Flg%3D%3D" height="62" width="62" vspace="5" hspace="0" alt="Aucun logo" /></a><br>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/76698180/lequipe.html" target="_blank">L&#039;Équipe</a>
+					<br>
+					21
+				</center>
+			</span>
+		</td>
+						<td class="slt-1800-4" colspan="4" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=76698180&amp;pid=435275961&amp;tm=2025-09-12+14%3A45%3A00" target="_blank" rel="nofollow">
+										L&#039;Equipe de choc
+									</a>
+			</span>
+			<span class="tvtime ">16:45<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=76698180&amp;pid=435275962&amp;tm=2025-09-12+16%3A20%3A00" target="_blank" rel="nofollow">
+										L&#039;Equipe de Greg
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">18:20<br /><br /></span>
+									<span class="tvtime see-more" data-id="tr_76698180">+voir plus</span>
+					</td>
+																				<td class="slt-2000-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=76698180&amp;pid=435285897&amp;tm=2025-09-12+18%3A07%3A00" target="_blank" rel="nofollow">
+										À toute allure !
+									</a>
+			</span>
+			<span class="tvtime ">20:07<br /><br /></span>
+								</td>
+												<td class="slt-2100-3" colspan="3" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=76698180&amp;pid=106758197&amp;tm=2025-09-12+19%3A07%3A00" target="_blank" rel="nofollow">
+										<img class="schedule-tag" src="https://d2ns650n6omrqn.cloudfront.net/img/film-2.png?v=9920250912" width="50" height="20" hpsace="0" vspace="0" border="0" alt="Film">
+										Agents doubles
+										(2018)
+									</a>
+			</span>
+			<span class="tvtime ">21:07<br /><br /></span>
+								</td>
+																<td class="slt-2230-3" colspan="3" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=76698180&amp;pid=435212506&amp;tm=2025-09-12+20%3A50%3A00" target="_blank" rel="nofollow">
+										L&#039;Equipe du soir
+									</a>
+			</span>
+			<span class="tvtime ">22:50<br /><br /></span>
+								</td>
+													</tr>
+				<tr class="normalRow" id="tr_54846982">
+		<td valign="top" bgcolor="#dadada">
+			<span class="channelname">
+				<center>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/54846982/6ter.html" target="_blank"><img title="54846982" src="https://d2fegv18cmqy8n.cloudfront.net/france-images/7a0aa51ec71d671762670d0b77a1193b.png?k=2nWZhtOSUQdq2s2ItEDH5%2BQEPdq1khUY8YJSK0%2BNV91hVUSovfIDkUxhjj1Xpgcj" height="62" width="62" vspace="5" hspace="0" alt="Aucun logo" /></a><br>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/54846982/6ter.html" target="_blank">6ter</a>
+					<br>
+					22
+				</center>
+			</span>
+		</td>
+						<td class="slt-1800-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=54846982&amp;pid=493675&amp;tm=2025-09-12+15%3A20%3A00" target="_blank" rel="nofollow">
+										Charmed
+									</a>
+			</span>
+			<span class="tvtime ">17:20<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=54846982&amp;pid=578265&amp;tm=2025-09-12+16%3A10%3A00" target="_blank" rel="nofollow">
+										Charmed
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">18:10<br /><br /></span>
+									<span class="tvtime see-more" data-id="tr_54846982">+voir plus</span>
+					</td>
+												<td class="slt-1900-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=54846982&amp;pid=906041&amp;tm=2025-09-12+17%3A00%3A00" target="_blank" rel="nofollow">
+										Charmed
+									</a>
+			</span>
+			<span class="tvtime ">19:00<br /><br /></span>
+								</td>
+												<td class="slt-2000-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=54846982&amp;pid=1066049&amp;tm=2025-09-12+18%3A00%3A00" target="_blank" rel="nofollow">
+										Charmed
+									</a>
+			</span>
+			<span class="tvtime ">20:00<br /><br /></span>
+								</td>
+												<td class="slt-2100-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=54846982&amp;pid=1456848&amp;tm=2025-09-12+19%3A10%3A00" target="_blank" rel="nofollow">
+										Hawaii 5-0
+									</a>
+			</span>
+			<span class="tvtime ">21:10<br /><br /></span>
+								</td>
+								<td class="slt-2130-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=54846982&amp;pid=1464548&amp;tm=2025-09-12+19%3A50%3A00" target="_blank" rel="nofollow">
+										Hawaii 5-0
+									</a>
+			</span>
+			<span class="tvtime ">21:50<br /><br /></span>
+								</td>
+												<td class="slt-2230-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=54846982&amp;pid=1457836&amp;tm=2025-09-12+20%3A40%3A00" target="_blank" rel="nofollow">
+										Hawaii 5-0
+									</a>
+			</span>
+			<span class="tvtime ">22:40<br /><br /></span>
+								</td>
+												<td class="slt-2330-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=54846982&amp;pid=1446364&amp;tm=2025-09-12+21%3A40%3A00" target="_blank" rel="nofollow">
+										Hawaii 5-0
+									</a>
+			</span>
+			<span class="tvtime ">23:40<br /><br /></span>
+								</td>
+					</tr>
+				<tr class="normalRow" id="tr_78825051">
+		<td valign="top" bgcolor="#dadada">
+			<span class="channelname">
+				<center>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/78825051/rmc-story.html" target="_blank"><img title="78825051" src="https://d2fegv18cmqy8n.cloudfront.net/france-images/37b5d93ca295c040fc446d38720053f5.png?k=2nWZhtOSUQdq2s2ItEDH5%2BQEPdq1khUY8YJSK0%2BNV935p5zV5eawNufxYY%2FDCpKOK7JCXZgRMSnuZVh3BogI1A%3D%3D" height="62" width="62" vspace="5" hspace="0" alt="Aucun logo" /></a><br>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/78825051/rmc-story.html" target="_blank">RMC Story</a>
+					<br>
+					23
+				</center>
+			</span>
+		</td>
+						<td class="slt-1800-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=78825051&amp;pid=1587228&amp;tm=2025-09-12+15%3A55%3A00" target="_blank" rel="nofollow">
+										The Big Bang Theory
+									</a>
+			</span>
+			<span class="tvtime ">17:55<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=78825051&amp;pid=1444238&amp;tm=2025-09-12+16%3A25%3A00" target="_blank" rel="nofollow">
+										The Big Bang Theory
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">18:25<br /><br /></span>
+									<span class="tvtime see-more" data-id="tr_78825051">+voir plus</span>
+					</td>
+								<td class="slt-1830-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=78825051&amp;pid=1444242&amp;tm=2025-09-12+16%3A50%3A00" target="_blank" rel="nofollow">
+										The Big Bang Theory
+									</a>
+			</span>
+			<span class="tvtime ">18:50<br /><br /></span>
+								</td>
+								<td class="slt-1900-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=78825051&amp;pid=13771702&amp;tm=2025-09-12+17%3A20%3A00" target="_blank" rel="nofollow">
+										The Big Bang Theory
+									</a>
+			</span>
+			<span class="tvtime ">19:20<br /><br /></span>
+								</td>
+								<td class="slt-1930-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=78825051&amp;pid=1449128&amp;tm=2025-09-12+17%3A45%3A00" target="_blank" rel="nofollow">
+										The Big Bang Theory
+									</a>
+			</span>
+			<span class="tvtime ">19:45<br /><br /></span>
+								</td>
+								<td class="slt-2000-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=78825051&amp;pid=1449161&amp;tm=2025-09-12+18%3A10%3A00" target="_blank" rel="nofollow">
+										The Big Bang Theory
+									</a>
+			</span>
+			<span class="tvtime ">20:10<br /><br /></span>
+								</td>
+								<td class="slt-2030-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=78825051&amp;pid=1458876&amp;tm=2025-09-12+18%3A35%3A00" target="_blank" rel="nofollow">
+										The Big Bang Theory
+									</a>
+			</span>
+			<span class="tvtime ">20:35<br /><br /></span>
+								</td>
+								<td class="slt-2100-3" colspan="3" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=78825051&amp;pid=435145380&amp;tm=2025-09-12+19%3A10%3A00" target="_blank" rel="nofollow">
+										Le Bigdil
+									</a>
+			</span>
+			<span class="tvtime ">21:10<br /><br /></span>
+								</td>
+																<td class="slt-2230-3" colspan="3" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=78825051&amp;pid=434152680&amp;tm=2025-09-12+20%3A35%3A00" target="_blank" rel="nofollow">
+										Le Bigdil
+									</a>
+			</span>
+			<span class="tvtime ">22:35<br /><br /></span>
+								</td>
+													</tr>
+				<tr class="normalRow" id="tr_82776768">
+		<td valign="top" bgcolor="#dadada">
+			<span class="channelname">
+				<center>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/82776768/rmc-decouverte.html" target="_blank"><img title="82776768" src="https://d2fegv18cmqy8n.cloudfront.net/france-images/0b828db6e861943b248b59dedb72cd6b.png?k=2nWZhtOSUQdq2s2ItEDH5%2BQEPdq1khUY8YJSK0%2BNV93P5i0Z07ICrOTYIJ4ky9ykp1upfwZ5oHTTKBGr%2FQh%2FOg%3D%3D" height="62" width="62" vspace="5" hspace="0" alt="Aucun logo" /></a><br>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/82776768/rmc-decouverte.html" target="_blank">RMC Découverte</a>
+					<br>
+					24
+				</center>
+			</span>
+		</td>
+						<td class="slt-1800-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82776768&amp;pid=435210537&amp;tm=2025-09-12+15%3A50%3A00" target="_blank" rel="nofollow">
+										Top Mecanic, 5 jours pour restaurer une épave
+									</a>
+			</span>
+			<span class="tvtime ">17:50<br /><br /></span>
+								</td>
+								<td class="slt-1830-3" colspan="3" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82776768&amp;pid=435212341&amp;tm=2025-09-12+16%3A55%3A00" target="_blank" rel="nofollow">
+										Top Mecanic, 5 jours pour restaurer une épave
+									</a>
+			</span>
+			<span class="tvtime ">18:55<br /><br /></span>
+								</td>
+																<td class="slt-2000-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82776768&amp;pid=435212502&amp;tm=2025-09-12+18%3A05%3A00" target="_blank" rel="nofollow">
+										Top Mecanic, 5 jours pour restaurer une épave
+									</a>
+			</span>
+			<span class="tvtime ">20:05<br /><br /></span>
+								</td>
+												<td class="slt-2100-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82776768&amp;pid=420102965&amp;tm=2025-09-12+19%3A10%3A00" target="_blank" rel="nofollow">
+										Australie, la ruée vers l&#039;or
+									</a>
+			</span>
+			<span class="tvtime ">21:10<br /><br /></span>
+								</td>
+												<td class="slt-2200-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82776768&amp;pid=420728459&amp;tm=2025-09-12+20%3A05%3A00" target="_blank" rel="nofollow">
+										Australie, la ruée vers l&#039;or
+									</a>
+			</span>
+			<span class="tvtime ">22:05<br /><br /></span>
+								</td>
+												<td class="slt-2300-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82776768&amp;pid=371688693&amp;tm=2025-09-12+21%3A00%3A00" target="_blank" rel="nofollow">
+										Australie, la ruée vers l&#039;or
+									</a>
+			</span>
+			<span class="tvtime ">23:00<br /><br /></span>
+								</td>
+								<td class="slt-2330-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82776768&amp;pid=372607011&amp;tm=2025-09-12+21%3A55%3A00" target="_blank" rel="nofollow">
+										Australie, la ruée vers l&#039;or
+									</a>
+			</span>
+			<span class="tvtime ">23:55<br /><br /></span>
+								</td>
+					</tr>
+				<tr class="normalRow" id="tr_67726982">
+		<td valign="top" bgcolor="#dadada">
+			<span class="channelname">
+				<center>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/67726982/cherie-25.html" target="_blank"><img title="67726982" src="https://d2fegv18cmqy8n.cloudfront.net/france-images/c38b3dabd98e3d240ebddbc37d50f46f.png?k=2nWZhtOSUQdq2s2ItEDH5%2BQEPdq1khUY8YJSK0%2BNV92gv9a2BHQDF38m3zFma2BL" height="62" width="62" vspace="5" hspace="0" alt="Aucun logo" /></a><br>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/67726982/cherie-25.html" target="_blank">Chérie 25</a>
+					<br>
+					25
+				</center>
+			</span>
+		</td>
+						<td class="slt-1800-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=67726982&amp;pid=294017932&amp;tm=2025-09-12+15%3A15%3A00" target="_blank" rel="nofollow">
+										Demeures XXL : la rénovation d&#039;une vie
+									</a>
+			</span>
+			<span class="tvtime ">17:15<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=67726982&amp;pid=375940934&amp;tm=2025-09-12+16%3A10%3A00" target="_blank" rel="nofollow">
+										Demeures XXL : la rénovation d&#039;une vie
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">18:10<br /><br /></span>
+									<span class="tvtime see-more" data-id="tr_67726982">+voir plus</span>
+					</td>
+												<td class="slt-1900-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=67726982&amp;pid=375908360&amp;tm=2025-09-12+17%3A10%3A00" target="_blank" rel="nofollow">
+										Demeures XXL : la rénovation d&#039;une vie
+									</a>
+			</span>
+			<span class="tvtime ">19:10<br /><br /></span>
+								</td>
+												<td class="slt-2000-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=67726982&amp;pid=375908449&amp;tm=2025-09-12+18%3A05%3A00" target="_blank" rel="nofollow">
+										Demeures XXL : la rénovation d&#039;une vie
+									</a>
+			</span>
+			<span class="tvtime ">20:05<br /><br /></span>
+								</td>
+												<td class="slt-2100-3" colspan="3" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=67726982&amp;pid=435212579&amp;tm=2025-09-12+19%3A05%3A00" target="_blank" rel="nofollow">
+										Follement déco
+									</a>
+			</span>
+			<span class="tvtime ">21:05<br /><br /></span>
+								</td>
+																<td class="slt-2230-3" colspan="3" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=67726982&amp;pid=400083578&amp;tm=2025-09-12+20%3A50%3A00" target="_blank" rel="nofollow">
+										Follement déco
+									</a>
+			</span>
+			<span class="tvtime ">22:50<br /><br /></span>
+								</td>
+													</tr>
+				<tr class="normalRow" id="tr_82495353">
+		<td valign="top" bgcolor="#dadada">
+			<span class="channelname">
+				<center>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/82495353/lci.html" target="_blank"><img title="82495353" src="https://d2fegv18cmqy8n.cloudfront.net/france-images/9ba6326c9fd54d2d1bc5131a6bdbbf7f.png?k=2nWZhtOSUQdq2s2ItEDH5%2BQEPdq1khUY8YJSK0%2BNV93t6ZZGZmOprsNIEW%2B13N1f" height="62" width="62" vspace="5" hspace="0" alt="Aucun logo" /></a><br>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/82495353/lci.html" target="_blank">LCI</a>
+					<br>
+					26
+				</center>
+			</span>
+		</td>
+						<td class="slt-1800-4" colspan="4" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82495353&amp;pid=435141681&amp;tm=2025-09-12+16%3A00%3A00" target="_blank" rel="nofollow">
+										24 Heures
+									</a>
+			</span>
+			<span class="tvtime ">18:00<br /><br /></span>
+								</td>
+																				<td class="slt-2000-4" colspan="4" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82495353&amp;pid=435141682&amp;tm=2025-09-12+18%3A00%3A00" target="_blank" rel="nofollow">
+										Un oeil sur le monde
+									</a>
+			</span>
+			<span class="tvtime ">20:00<br /><br /></span>
+								</td>
+																				<td class="slt-2200-4" colspan="4" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82495353&amp;pid=435141673&amp;tm=2025-09-12+20%3A00%3A00" target="_blank" rel="nofollow">
+										22H Nivat
+									</a>
+			</span>
+			<span class="tvtime ">22:00<br /><br /></span>
+								</td>
+																	</tr>
+				<tr class="normalRow" id="tr_70827378">
+		<td valign="top" bgcolor="#dadada">
+			<span class="channelname">
+				<center>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/70827378/franceinfo.html" target="_blank"><img title="70827378" src="https://d2fegv18cmqy8n.cloudfront.net/france-images/e10e74af0f7da4ffa2920dee97c9b4b9.png?k=2nWZhtOSUQdq2s2ItEDH5%2BQEPdq1khUY8YJSK0%2BNV91UbITbMZPZ4mP%2F49kG1fkiwC9v9bD9ofnStNhTIlSLYw%3D%3D" height="62" width="62" vspace="5" hspace="0" alt="Aucun logo" /></a><br>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/70827378/franceinfo.html" target="_blank">Franceinfo</a>
+					<br>
+					27
+				</center>
+			</span>
+		</td>
+						<td class="slt-1800-4" colspan="4" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=70827378&amp;pid=435598030&amp;tm=2025-09-12+15%3A59%3A00" target="_blank" rel="nofollow">
+										Tout est politique
+									</a>
+			</span>
+			<span class="tvtime ">17:59<br /><br /></span>
+								</td>
+																				<td class="slt-2000-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=70827378&amp;pid=435598031&amp;tm=2025-09-12+18%3A03%3A00" target="_blank" rel="nofollow">
+										Les informés du soir
+									</a>
+			</span>
+			<span class="tvtime ">20:03<br /><br /></span>
+								</td>
+								<td class="slt-2030-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=70827378&amp;pid=438243834&amp;tm=2025-09-12+18%3A59%3A00" target="_blank" rel="nofollow">
+										Le 21h/22h
+									</a>
+			</span>
+			<span class="tvtime ">20:59<br /><br /></span>
+								</td>
+												<td class="slt-2130-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=70827378&amp;pid=438243835&amp;tm=2025-09-12+19%3A30%3A00" target="_blank" rel="nofollow">
+										Rendez-vous avec
+									</a>
+			</span>
+			<span class="tvtime ">21:30<br /><br /></span>
+								</td>
+								<td class="slt-2200-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=70827378&amp;pid=435598033&amp;tm=2025-09-12+20%3A00%3A00" target="_blank" rel="nofollow">
+										Le Pour et le Contre
+									</a>
+			</span>
+			<span class="tvtime ">22:00<br /><br /></span>
+								</td>
+								<td class="slt-2230-3" colspan="3" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=70827378&amp;pid=435598034&amp;tm=2025-09-12+20%3A55%3A00" target="_blank" rel="nofollow">
+										Journal Météo climat
+									</a>
+			</span>
+			<span class="tvtime ">22:55<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=70827378&amp;pid=435598035&amp;tm=2025-09-12+20%3A59%3A00" target="_blank" rel="nofollow">
+										23h info
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">22:59<br /><br /></span>
+									<span class="tvtime see-more" data-id="tr_70827378">+voir plus</span>
+					</td>
+													</tr>
+				<tr class="normalRow" id="tr_82485050">
+		<td valign="top" bgcolor="#dadada">
+			<span class="channelname">
+				<center>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/82485050/paris-premiere.html" target="_blank"><img title="82485050" src="https://d2fegv18cmqy8n.cloudfront.net/france-images/e4be7502ad76dc410ee2f62bfe2d9c83.png?k=2nWZhtOSUQdq2s2ItEDH5%2BQEPdq1khUY8YJSK0%2BNV92iSJe%2BpBY97FzVG61tvhKxV9RL%2FGN493iQ0g4qu1qFpg%3D%3D" height="62" width="62" vspace="5" hspace="0" alt="Aucun logo" /></a><br>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/82485050/paris-premiere.html" target="_blank">Paris Première</a>
+					<br>
+					41
+				</center>
+			</span>
+		</td>
+						<td class="slt-1800-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82485050&amp;pid=56152802&amp;tm=2025-09-12+15%3A20%3A00" target="_blank" rel="nofollow">
+										Les têtes brûlées
+									</a>
+			</span>
+			<span class="tvtime ">17:20<br /><br /></span>
+						<span class="tvshow see-more-content mobile-hide">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82485050&amp;pid=710885&amp;tm=2025-09-12+16%3A15%3A00" target="_blank" rel="nofollow">
+										Les têtes brûlées
+									</a>
+			</span>
+			<span class="tvtime see-more-content mobile-hide">18:15<br /><br /></span>
+									<span class="tvtime see-more" data-id="tr_82485050">+voir plus</span>
+					</td>
+												<td class="slt-1900-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82485050&amp;pid=693657&amp;tm=2025-09-12+17%3A05%3A00" target="_blank" rel="nofollow">
+										Les têtes brûlées
+									</a>
+			</span>
+			<span class="tvtime ">19:05<br /><br /></span>
+								</td>
+												<td class="slt-2000-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82485050&amp;pid=689640&amp;tm=2025-09-12+18%3A00%3A00" target="_blank" rel="nofollow">
+										Les têtes brûlées
+									</a>
+			</span>
+			<span class="tvtime ">20:00<br /><br /></span>
+								</td>
+												<td class="slt-2100-3" colspan="3" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82485050&amp;pid=42797944&amp;tm=2025-09-12+19%3A00%3A00" target="_blank" rel="nofollow">
+										<img class="schedule-tag" src="https://d2ns650n6omrqn.cloudfront.net/img/film-2.png?v=9920250912" width="50" height="20" hpsace="0" vspace="0" border="0" alt="Film">
+										Survivor
+										(2015)
+									</a>
+			</span>
+			<span class="tvtime ">21:00<br /><br /></span>
+								</td>
+																<td class="slt-2230-3" colspan="3" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82485050&amp;pid=1476855&amp;tm=2025-09-12+20%3A45%3A00" target="_blank" rel="nofollow">
+										<img class="schedule-tag" src="https://d2ns650n6omrqn.cloudfront.net/img/film-2.png?v=9920250912" width="50" height="20" hpsace="0" vspace="0" border="0" alt="Film">
+										Mr &amp; Mrs Smith
+										(2005)
+									</a>
+			</span>
+			<span class="tvtime ">22:45<br /><br /></span>
+								</td>
+													</tr>
+				<tr class="normalRow" id="tr_82505652">
+		<td valign="top" bgcolor="#dadada">
+			<span class="channelname">
+				<center>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/82505652/canal-sport.html" target="_blank"><img title="82505652" src="https://d2fegv18cmqy8n.cloudfront.net/france-images/4026b71cc15bfa5f9fbe364f75e27eae.png?k=2nWZhtOSUQdq2s2ItEDH5%2BQEPdq1khUY8YJSK0%2BNV93kEbK2cuATZ9pPsASe0Go0%2Bnr0u96x1FolbpGXKDwMJQ%3D%3D" height="62" width="62" vspace="5" hspace="0" alt="Aucun logo" /></a><br>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/82505652/canal-sport.html" target="_blank">Canal+ Sport</a>
+					<br>
+					42
+				</center>
+			</span>
+		</td>
+						<td class="slt-1800-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82505652&amp;pid=420101095&amp;tm=2025-09-12+15%3A49%3A00" target="_blank" rel="nofollow">
+										Les anges gardiens de Monaco
+									</a>
+			</span>
+			<span class="tvtime ">17:49<br /><br /></span>
+								</td>
+								<td class="slt-1830-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82505652&amp;pid=437358574&amp;tm=2025-09-12+16%3A49%3A00" target="_blank" rel="nofollow">
+										Soir de rugby avant-match
+									</a>
+			</span>
+			<span class="tvtime ">18:49<br /><br /></span>
+								</td>
+								<td class="slt-1900-3" colspan="3" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82505652&amp;pid=436101469&amp;tm=2025-09-12+17%3A00%3A00" target="_blank" rel="nofollow">
+										<img class="schedule-tag" src="https://d2ns650n6omrqn.cloudfront.net/img/sport-highlight-2.png?v=9920250912" width="50" height="20" hpsace="0" vspace="0" border="0" alt="Sport">
+										Rugby : Pro D2
+									</a>
+			</span>
+			<span class="tvtime ">19:00<br /><br /></span>
+								</td>
+																<td class="slt-2030-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82505652&amp;pid=437358789&amp;tm=2025-09-12+18%3A52%3A00" target="_blank" rel="nofollow">
+										Soir de rugby avant-match
+									</a>
+			</span>
+			<span class="tvtime ">20:52<br /><br /></span>
+								</td>
+								<td class="slt-2100-3" colspan="3" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82505652&amp;pid=436101594&amp;tm=2025-09-12+19%3A00%3A00" target="_blank" rel="nofollow">
+										<img class="schedule-tag" src="https://d2ns650n6omrqn.cloudfront.net/img/sport-highlight-2.png?v=9920250912" width="50" height="20" hpsace="0" vspace="0" border="0" alt="Sport">
+										Rugby : Pro D2
+									</a>
+			</span>
+			<span class="tvtime ">21:00<br /><br /></span>
+								</td>
+																<td class="slt-2230-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82505652&amp;pid=437358930&amp;tm=2025-09-12+20%3A51%3A00" target="_blank" rel="nofollow">
+										Soir de rugby
+									</a>
+			</span>
+			<span class="tvtime ">22:51<br /><br /></span>
+								</td>
+												<td class="slt-2330-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82505652&amp;pid=435146551&amp;tm=2025-09-12+21%3A47%3A00" target="_blank" rel="nofollow">
+										<img class="schedule-tag" src="https://d2ns650n6omrqn.cloudfront.net/img/sport-highlight-2.png?v=9920250912" width="50" height="20" hpsace="0" vspace="0" border="0" alt="Sport">
+										Voile : Grand Prix de France
+									</a>
+			</span>
+			<span class="tvtime ">23:47<br /><br /></span>
+								</td>
+					</tr>
+				<tr class="normalRow" id="tr_82505650">
+		<td valign="top" bgcolor="#dadada">
+			<span class="channelname">
+				<center>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/82505650/canal-cinema.html" target="_blank"><img title="82505650" src="https://d2fegv18cmqy8n.cloudfront.net/france-images/4cdaedff9af06533c2ffb68b394d8fbf.png?k=2nWZhtOSUQdq2s2ItEDH5%2BQEPdq1khUY8YJSK0%2BNV90TsbeyOcLb4R%2BjmqHjvCJ6CjiB2BZf1abAkeewLy%2BCeA%3D%3D" height="62" width="62" vspace="5" hspace="0" alt="Aucun logo" /></a><br>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/82505650/canal-cinema.html" target="_blank">Canal+ Cinéma</a>
+					<br>
+					43
+				</center>
+			</span>
+		</td>
+						<td class="slt-1800-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82505650&amp;pid=375521363&amp;tm=2025-09-12+15%3A54%3A00" target="_blank" rel="nofollow">
+										<img class="schedule-tag" src="https://d2ns650n6omrqn.cloudfront.net/img/film-2.png?v=9920250912" width="50" height="20" hpsace="0" vspace="0" border="0" alt="Film">
+										Le Médium
+										(2023)
+									</a>
+			</span>
+			<span class="tvtime ">17:54<br /><br /></span>
+								</td>
+												<td class="slt-1900-4" colspan="4" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82505650&amp;pid=351080141&amp;tm=2025-09-12+17%3A14%3A00" target="_blank" rel="nofollow">
+										<img class="schedule-tag" src="https://d2ns650n6omrqn.cloudfront.net/img/film-2.png?v=9920250912" width="50" height="20" hpsace="0" vspace="0" border="0" alt="Film">
+										Race for Glory : Audi vs Lancia
+										(2024)
+									</a>
+			</span>
+			<span class="tvtime ">19:14<br /><br /></span>
+								</td>
+																				<td class="slt-2100-4" colspan="4" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82505650&amp;pid=374236883&amp;tm=2025-09-12+19%3A00%3A00" target="_blank" rel="nofollow">
+										<img class="schedule-tag" src="https://d2ns650n6omrqn.cloudfront.net/img/film-2.png?v=9920250912" width="50" height="20" hpsace="0" vspace="0" border="0" alt="Film">
+										Parthenope
+										(2024)
+									</a>
+			</span>
+			<span class="tvtime ">21:00<br /><br /></span>
+								</td>
+																				<td class="slt-2300-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82505650&amp;pid=374236847&amp;tm=2025-09-12+21%3A12%3A00" target="_blank" rel="nofollow">
+										<img class="schedule-tag" src="https://d2ns650n6omrqn.cloudfront.net/img/film-2.png?v=9920250912" width="50" height="20" hpsace="0" vspace="0" border="0" alt="Film">
+										Megalopolis
+										(2024)
+									</a>
+			</span>
+			<span class="tvtime ">23:12<br /><br /></span>
+								</td>
+									</tr>
+				<tr class="normalRow" id="tr_82485049">
+		<td valign="top" bgcolor="#dadada">
+			<span class="channelname">
+				<center>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/82485049/planete.html" target="_blank"><img title="82485049" src="https://d2fegv18cmqy8n.cloudfront.net/france-images/3cdb70a1c552fd296b33c3ace6adac06.png?k=2nWZhtOSUQdq2s2ItEDH5%2BQEPdq1khUY8YJSK0%2BNV92EizNK%2BaNuZaqTiBU1kpBk" height="62" width="62" vspace="5" hspace="0" alt="Aucun logo" /></a><br>
+										<a href="https://www.tvcesoir.fr/programme-tv/programme/chaine/82485049/planete.html" target="_blank">Planète+</a>
+					<br>
+					45
+				</center>
+			</span>
+		</td>
+						<td class="slt-1800-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82485049&amp;pid=224779327&amp;tm=2025-09-12+15%3A44%3A00" target="_blank" rel="nofollow">
+										Les visages oubliés de Palmyre
+									</a>
+			</span>
+			<span class="tvtime ">17:44<br /><br /></span>
+								</td>
+												<td class="slt-1900-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82485049&amp;pid=204449737&amp;tm=2025-09-12+17%3A19%3A00" target="_blank" rel="nofollow">
+										American Pickers, la brocante made in USA
+									</a>
+			</span>
+			<span class="tvtime ">19:19<br /><br /></span>
+								</td>
+												<td class="slt-2000-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82485049&amp;pid=204449736&amp;tm=2025-09-12+18%3A02%3A00" target="_blank" rel="nofollow">
+										American Pickers, la brocante made in USA
+									</a>
+			</span>
+			<span class="tvtime ">20:02<br /><br /></span>
+								</td>
+								<td class="slt-2030-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82485049&amp;pid=324474057&amp;tm=2025-09-12+18%3A55%3A00" target="_blank" rel="nofollow">
+										Planète Archéo
+									</a>
+			</span>
+			<span class="tvtime ">20:55<br /><br /></span>
+								</td>
+												<td class="slt-2130-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82485049&amp;pid=324474059&amp;tm=2025-09-12+19%3A50%3A00" target="_blank" rel="nofollow">
+										Planète Archéo
+									</a>
+			</span>
+			<span class="tvtime ">21:50<br /><br /></span>
+								</td>
+												<td class="slt-2230-2" colspan="2" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82485049&amp;pid=369992968&amp;tm=2025-09-12+20%3A54%3A00" target="_blank" rel="nofollow">
+										Les légendes de l&#039;aviation de guerre
+									</a>
+			</span>
+			<span class="tvtime ">22:54<br /><br /></span>
+								</td>
+												<td class="slt-2330-1" colspan="1" valign="top" style="">
+						<span class="tvshow ">
+				<a href="https://www.tvcesoir.fr/programme-tv/programme/programmes?cid=82485049&amp;pid=370111029&amp;tm=2025-09-12+21%3A36%3A00" target="_blank" rel="nofollow">
+										Les légendes de l&#039;aviation de guerre
+									</a>
+			</span>
+			<span class="tvtime ">23:36<br /><br /></span>
+								</td>
+					</tr>
+			<tr class="normalRow last">
+				<td colspan="13"></td>
+			</tr>
+	</tbody>
+
+                      </table>
+        </div>
+        <div class="search-results row"></div>
+      </div>
+    </div>
+    </td>
+    </tr>
+    </table>
+    <div class="OUTBRAIN" data-widget-id="AR_1"></div><script type="text/javascript" async="async" src="//widgets.outbrain.com/outbrain.js"></script>
+  </div>
+      </div>
+    <br>
+    <p> </p>
+    <center>
+    <p>Consultez le programme TV en ligne pour ce soir. Toute heure. Toute chaîne. Tout programme.</p>
+      <span class="tvshow">
+          <p>Bouquets TV : <a href="/programme-tv/bouquets/programme-bouygues.html">Bouygues</a> | <a href="/programme-tv/bouquets/programme-canal.html">Canal</a> | <a href="/programme-tv/bouquets/programme-free.html">Free</a> | <a href="/programme-tv/bouquets/programme-orange.html">Orange</a> | <a href="/programme-tv/bouquets/programme-sfr.html">SFR</a> | <a href="/programme-tv/bouquets/programme-tnt.html">TNT</a> | <a href="/programme-tv/bouquets-tv.html">Plus de bouquets TV</a></p>
+          <p>Guides TV internationaux - <a href="https://www.tvcesoir.fr/programme-tv/">France</a> | <a href="https://www.ontvtonight.com/guide/">États-Unis</a> | <a href="https://www.ontvtonight.com/ca/guide/">Canada</a> | <a href="https://www.mytelly.co.uk/tv-guide/">Royaume-Uni</a> | <a href="https://www.tvireland.ie/">Irlande</a> | <a href="https://www.ontvtonight.com/au/guide/">Australie</a> | <a href="https://www.guida.tv/programmi-tv/">Italie</a></p>
+      </center>
+      <center>
+        <span class="tvtime">Programme TV français</span><br>
+        <a href="https://www.tvcesoir.fr/"><img src="https://d2ns650n6omrqn.cloudfront.net/img/tv_ce_soir_23.png?v=9920250912" alt="Copyright TVCeSoir.fr" width="100"></a><br>
+        <span class="tvshow">&copy; 2025 tvcesoir.fr | <a href="/mentions-legales/">Mentions légales</a> | <a href="/confidentialite/">Politique de confidentialité</a></span><br>
+      </center>
+  </div>
+  <script type="text/javascript" src="https://d2ns650n6omrqn.cloudfront.net/js/bootstrap/bootstrap.bundle.min.js?v=9920250912"></script>
+</body>
+</html><!-- CACHE -->

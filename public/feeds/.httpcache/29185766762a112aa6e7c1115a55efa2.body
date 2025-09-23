@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: http://ogp.me/ns#">
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MW3HTW');</script>
+<meta charset="UTF-8">
+<title>WebNewtype - アニメ情報誌「月刊ニュータイプ」公式サイト</title>
+<meta name="format-detection" content="telephone=no,address=no,email=no">
+<meta name="msapplication-tap-highlight" content="no">
+<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport" />
+<meta property="og:url" content="https://webnewtype.com/">
+<meta property="og:site_name" content="WebNewtype">
+<meta property="og:title" content="WebNewtype - アニメ情報誌「月刊ニュータイプ」公式サイト">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@antch">
+<meta property="og:type" content="website">
+<meta property="og:description" content="アニメ情報誌・月刊ニュータイプの公式サイトです。インタビュー、イベントレポート、連載など、すべてのアニメ好きを満足させる総合アニメサイト！">
+<meta property="og:image" content="https://webnewtype.com/archives/001/202303/3473f5a78cc6654283aff46cb4b33085c2b8d9f7312da543c753abde291bc5ef.png">
+<meta name="description" content="アニメ情報誌・月刊ニュータイプの公式サイトです。インタビュー、イベントレポート、連載など、すべてのアニメ好きを満足させる総合アニメサイト！">
+<meta name="keywords" content="アニメ,ニュース,ランキング,Newtype,ニュータイプ ">
+<link rel="shortcut icon" href="/archives/001/favicon.ico" type="image/x-icon">
+<link rel="canonical" href="https://webnewtype.com/">
+<meta name="theme-color" content="#095095">
+<link rel="stylesheet" href="/themes/system/css/acms-admin.min.css">
+<link rel="stylesheet" href="/themes/system/css/acms.min.css">
+<link href="/themes/webnewtype/dest/css/style.css?date=20250129152231" rel="stylesheet" />
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "BreadcrumbList",
+	"itemListElement":
+	[
+	{
+		"@type": "ListItem",
+		"position": 1,
+		"item":
+		{
+		"@id": "https://webnewtype.com/",
+		"name": "HOME"
+		}
+	}
+	]
+}
+</script>
+<script src="/acms.js?uaGroup=PC&amp;domains=webnewtype.com&amp;jsDir=js/&amp;themesDir=/themes/&amp;bid=1&amp;jQuery=3.6.1&amp;jQueryMigrate=migrate-3.0.1&amp;mediaClientResize=off&amp;fulltimeSSL=1&amp;v=0af5dbcad349ea63b3b3ca79c9e7ffab&amp;dbCharset=utf8mb4&amp;umfs=2M&amp;pms=8M&amp;mfu=20&amp;lgImg=width:1400&amp;jpegQuality=85&amp;mediaLibrary=on&amp;edition=standard&amp;urlPreviewExpire=48&amp;timemachinePreviewDefaultDevice=PC&amp;scriptRoot=/" charset="UTF-8" id="acms-js"></script>
+<script src="/themes/webnewtype/dest/js/script.js?date=20250129152231"></script>
+<script type="text/javascript" src="/js/dest/vendor.js?date=20250327200723" charset="UTF-8" async defer></script>
+<script type="text/javascript" src="/js/dest/index.js?date=20250526125208" charset="UTF-8" async defer></script>
+<meta name="generator" content="a-blog cms" />
+<meta name="csrf-token" content="b94dd5259903dacf7a4c21dd61ce64889fd5b6b4dee10bdca77915a25c58de2e"></head>
+<body data-blog="">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MW3HTW"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<div class="body-inner">
+<header class="g-header g-header-toppage" id="header">
+<button class="g-header-btn-search js-btn-modal-open" data-target="#ModalSearchSite">
+<svg class="svg-search"><use xlink:href="#svg-search" /></svg>
+</button>
+<div class="g-header__main">
+<div class="g-header-logo">
+<div class="g-header-logo__main">
+<div class="g-header-logo__kadokawa-group">
+<svg class="svg-kadokawa-group"><use xlink:href="#svg-kadokawa-group" /></svg>
+<span>KADOKAWA group</span>
+</div>
+<a class="g-header-logo__newtype js-viewing-indelible" href="https://webnewtype.com/">
+<svg class="svg-newtype"><use xlink:href="#svg-newtype" /></svg>
+<h1>WebNewtype</h1>
+</a>
+</div>
+<p class="g-header-logo__text"> 新作＆おすすめアニメのすべてがわかる！<br>「月刊ニュータイプ」公式サイト </p>
+</div>
+<nav class="g-header-nav" id="headerMenu">
+<div>
+<ul class="g-header-menu">
+<li class="g-header-menu__item pc-none">
+<a class="g-header-menu__item--link js-viewing-indelible" href="https://webnewtype.com/">HOME</a>
+</li>
+<li class="g-header-menu__item">
+<a class="g-header-menu__item--link js-viewing-indelible" href="https://webnewtype.com/report/">レポート</a>
+</li>
+<li class="g-header-menu__item">
+<a class="g-header-menu__item--link js-viewing-indelible" href="https://webnewtype.com/special/">特集</a>
+</li>
+<li class="g-header-menu__item">
+<a class="g-header-menu__item--link js-viewing-indelible" href="https://webnewtype.com/news/">ニュース</a>
+</li>
+<li class="g-header-menu__item">
+<a class="g-header-menu__item--link js-viewing-indelible" href="https://webnewtype.com/magazine/newtype/new-magazine.html">月刊ニュータイプ</a>
+</li>
+<li class="g-header-menu__item">
+<a class="g-header-menu__item--link js-viewing-indelible" href="https://webnewtype.com/magazine/voice-newtype/new-magazine.html">VOICE Newtype</a>
+</li>
+<li class="g-header-menu__item">
+<a class="g-header-menu__item--link js-viewing-indelible" href="https://webnewtype.com/product/">関連書籍</a>
+</li>
+<li class="g-header-menu__item">
+<a class="g-header-menu__item--link js-viewing-indelible" href="https://comic-walker.com/label/comicnewtype">コミック Newtype</a>
+</li>
+</ul>
+</div>
+<div class="g-header-sns">
+<div class="g-header-sns__head"> FOLLOW US </div>
+<ul class="g-header-sns__list">
+<li class="g-header-sns__item">
+<a class="g-header-sns__item--link js-viewing-indelible" href="https://www.facebook.com/monthlynewtype"><img alt="Facebook" src="/themes/webnewtype/dest/images/common/icon_facebook.png" /></a>
+</li>
+<li class="g-header-sns__item">
+<a class="g-header-sns__item--link js-viewing-indelible" href="https://twitter.com/antch"><img alt="Twitter" src="/themes/webnewtype/dest/images/common/icon_twitter.png" /></a>
+</li>
+<li class="g-header-sns__item">
+<a class="g-header-sns__item--link js-viewing-indelible" href="https://www.youtube.com/channel/UCvcUyCMlTgh1Yq4ExzdIigQ"><img alt="YouTube" src="/themes/webnewtype/dest/images/common/icon_youtube.png" /></a>
+</li>
+</ul>
+</div>
+<div class="g-header-nav__search">
+<button class="g-header-nav__search--btn js-btn-modal-open" data-target="#ModalSearchSite"><svg class="svg-search"><use xlink:href="#svg-search" /></svg></button>
+</div>
+</nav>
+</div>
+<button class="g-header-btn-hamburger js-btn-header-menu"><span class="_line _top"></span><span class="_line _mid"></span><span class="_line _bot"></span></button>
+</header>
+<div class="top-main-visual" id="topMainVisual">
+<div class="top-main-visual-bg-text"> PICK UP </div>
+<div class="top-main-visual-slider js-slider-top-main-visual">
+<div class="top-main-visual-slider__item">
+<a class="top-main-visual-slider__item--link" href="https://webnewtype.com/news/press/entry-33996.html">
+<div class="top-main-visual-slider__item--image">
+<div class="_image-wrap">
+<img alt="創る×つながる×広げる！　「現代版トキワ荘」 起業家育成プログラム第1期生募集中！" src="/media/014/202508/mode2_w315_h315-%E5%BA%83%E5%91%8A%E3%83%90%E3%83%8A%E3%83%BC.jpg?v=20250826141339" class="js-img-fallback-square" />
+</div>
+</div>
+<div class="top-main-visual-slider__item--main">
+<div class="top-main-visual-slider__item--ttl"> 創る×つながる×広げる！　「現代版トキワ荘」 起業家育成プログラム第1期生募集中！ </div>
+<div class="top-main-visual-slider__item--date"> 2025.09.01 </div>
+</div>
+</a>
+</div>
+<div class="top-main-visual-slider__item">
+<a class="top-main-visual-slider__item--link" href="https://webnewtype.com/report/artist/entry-33888.html">
+<div class="top-main-visual-slider__item--image">
+<div class="_image-wrap">
+<img alt="「22/7」西條和が語る、卒業シングルとなる15thシングル「あなたでなくちゃ」" src="/media/017/202508/mode2_w315_h315-icon.jpg?v=20250812162123" class="js-img-fallback-square" />
+</div>
+</div>
+<div class="top-main-visual-slider__item--main">
+<div class="top-main-visual-slider__item--ttl"> 「22/7」西條和が語る、卒業シングルとなる15thシングル「あなたでなくちゃ」 </div>
+<div class="top-main-visual-slider__item--date"> 2025.08.12 </div>
+</div>
+</a>
+</div>
+<div class="top-main-visual-slider__item">
+<a class="top-main-visual-slider__item--link" href="https://webnewtype.com/news/info/entry-33880.html">
+<div class="top-main-visual-slider__item--image">
+<div class="_image-wrap">
+<img alt="ニュータイプアニメアワード　投票開始！" src="/media/014/202307/mode2_w315_h315-C_NTAW2023_230710_133302.jpg?v=20230710133302" class="js-img-fallback-square" />
+</div>
+</div>
+<div class="top-main-visual-slider__item--main">
+<div class="top-main-visual-slider__item--ttl"> ニュータイプアニメアワード　投票開始！ </div>
+<div class="top-main-visual-slider__item--date"> 2025.08.08 </div>
+</div>
+</a>
+</div>
+<div class="top-main-visual-slider__item">
+<a class="top-main-visual-slider__item--link" href="https://webnewtype.com/news/press/entry-33996.html">
+<div class="top-main-visual-slider__item--image">
+<div class="_image-wrap">
+<img alt="創る×つながる×広げる！　「現代版トキワ荘」 起業家育成プログラム第1期生募集中！" src="/media/014/202508/mode2_w315_h315-%E5%BA%83%E5%91%8A%E3%83%90%E3%83%8A%E3%83%BC.jpg?v=20250826141339" class="js-img-fallback-square" />
+</div>
+</div>
+<div class="top-main-visual-slider__item--main">
+<div class="top-main-visual-slider__item--ttl"> 創る×つながる×広げる！　「現代版トキワ荘」 起業家育成プログラム第1期生募集中！ </div>
+<div class="top-main-visual-slider__item--date"> 2025.09.01 </div>
+</div>
+</a>
+</div>
+<div class="top-main-visual-slider__item">
+<a class="top-main-visual-slider__item--link" href="https://webnewtype.com/report/artist/entry-33888.html">
+<div class="top-main-visual-slider__item--image">
+<div class="_image-wrap">
+<img alt="「22/7」西條和が語る、卒業シングルとなる15thシングル「あなたでなくちゃ」" src="/media/017/202508/mode2_w315_h315-icon.jpg?v=20250812162123" class="js-img-fallback-square" />
+</div>
+</div>
+<div class="top-main-visual-slider__item--main">
+<div class="top-main-visual-slider__item--ttl"> 「22/7」西條和が語る、卒業シングルとなる15thシングル「あなたでなくちゃ」 </div>
+<div class="top-main-visual-slider__item--date"> 2025.08.12 </div>
+</div>
+</a>
+</div>
+<div class="top-main-visual-slider__item">
+<a class="top-main-visual-slider__item--link" href="https://webnewtype.com/news/info/entry-33880.html">
+<div class="top-main-visual-slider__item--image">
+<div class="_image-wrap">
+<img alt="ニュータイプアニメアワード　投票開始！" src="/media/014/202307/mode2_w315_h315-C_NTAW2023_230710_133302.jpg?v=20230710133302" class="js-img-fallback-square" />
+</div>
+</div>
+<div class="top-main-visual-slider__item--main">
+<div class="top-main-visual-slider__item--ttl"> ニュータイプアニメアワード　投票開始！ </div>
+<div class="top-main-visual-slider__item--date"> 2025.08.08 </div>
+</div>
+</a>
+</div>
+<div class="top-main-visual-slider__item">
+<a class="top-main-visual-slider__item--link" href="https://webnewtype.com/news/press/entry-33996.html">
+<div class="top-main-visual-slider__item--image">
+<div class="_image-wrap">
+<img alt="創る×つながる×広げる！　「現代版トキワ荘」 起業家育成プログラム第1期生募集中！" src="/media/014/202508/mode2_w315_h315-%E5%BA%83%E5%91%8A%E3%83%90%E3%83%8A%E3%83%BC.jpg?v=20250826141339" class="js-img-fallback-square" />
+</div>
+</div>
+<div class="top-main-visual-slider__item--main">
+<div class="top-main-visual-slider__item--ttl"> 創る×つながる×広げる！　「現代版トキワ荘」 起業家育成プログラム第1期生募集中！ </div>
+<div class="top-main-visual-slider__item--date"> 2025.09.01 </div>
+</div>
+</a>
+</div>
+<div class="top-main-visual-slider__item">
+<a class="top-main-visual-slider__item--link" href="https://webnewtype.com/report/artist/entry-33888.html">
+<div class="top-main-visual-slider__item--image">
+<div class="_image-wrap">
+<img alt="「22/7」西條和が語る、卒業シングルとなる15thシングル「あなたでなくちゃ」" src="/media/017/202508/mode2_w315_h315-icon.jpg?v=20250812162123" class="js-img-fallback-square" />
+</div>
+</div>
+<div class="top-main-visual-slider__item--main">
+<div class="top-main-visual-slider__item--ttl"> 「22/7」西條和が語る、卒業シングルとなる15thシングル「あなたでなくちゃ」 </div>
+<div class="top-main-visual-slider__item--date"> 2025.08.12 </div>
+</div>
+</a>
+</div>
+<div class="top-main-visual-slider__item">
+<a class="top-main-visual-slider__item--link" href="https://webnewtype.com/news/info/entry-33880.html">
+<div class="top-main-visual-slider__item--image">
+<div class="_image-wrap">
+<img alt="ニュータイプアニメアワード　投票開始！" src="/media/014/202307/mode2_w315_h315-C_NTAW2023_230710_133302.jpg?v=20230710133302" class="js-img-fallback-square" />
+</div>
+</div>
+<div class="top-main-visual-slider__item--main">
+<div class="top-main-visual-slider__item--ttl"> ニュータイプアニメアワード　投票開始！ </div>
+<div class="top-main-visual-slider__item--date"> 2025.08.08 </div>
+</div>
+</a>
+</div>
+<div class="top-main-visual-slider__item">
+<a class="top-main-visual-slider__item--link" href="https://webnewtype.com/news/press/entry-33996.html">
+<div class="top-main-visual-slider__item--image">
+<div class="_image-wrap">
+<img alt="創る×つながる×広げる！　「現代版トキワ荘」 起業家育成プログラム第1期生募集中！" src="/media/014/202508/mode2_w315_h315-%E5%BA%83%E5%91%8A%E3%83%90%E3%83%8A%E3%83%BC.jpg?v=20250826141339" class="js-img-fallback-square" />
+</div>
+</div>
+<div class="top-main-visual-slider__item--main">
+<div class="top-main-visual-slider__item--ttl"> 創る×つながる×広げる！　「現代版トキワ荘」 起業家育成プログラム第1期生募集中！ </div>
+<div class="top-main-visual-slider__item--date"> 2025.09.01 </div>
+</div>
+</a>
+</div>
+<div class="top-main-visual-slider__item">
+<a class="top-main-visual-slider__item--link" href="https://webnewtype.com/report/artist/entry-33888.html">
+<div class="top-main-visual-slider__item--image">
+<div class="_image-wrap">
+<img alt="「22/7」西條和が語る、卒業シングルとなる15thシングル「あなたでなくちゃ」" src="/media/017/202508/mode2_w315_h315-icon.jpg?v=20250812162123" class="js-img-fallback-square" />
+</div>
+</div>
+<div class="top-main-visual-slider__item--main">
+<div class="top-main-visual-slider__item--ttl"> 「22/7」西條和が語る、卒業シングルとなる15thシングル「あなたでなくちゃ」 </div>
+<div class="top-main-visual-slider__item--date"> 2025.08.12 </div>
+</div>
+</a>
+</div>
+<div class="top-main-visual-slider__item">
+<a class="top-main-visual-slider__item--link" href="https://webnewtype.com/news/info/entry-33880.html">
+<div class="top-main-visual-slider__item--image">
+<div class="_image-wrap">
+<img alt="ニュータイプアニメアワード　投票開始！" src="/media/014/202307/mode2_w315_h315-C_NTAW2023_230710_133302.jpg?v=20230710133302" class="js-img-fallback-square" />
+</div>
+</div>
+<div class="top-main-visual-slider__item--main">
+<div class="top-main-visual-slider__item--ttl"> ニュータイプアニメアワード　投票開始！ </div>
+<div class="top-main-visual-slider__item--date"> 2025.08.08 </div>
+</div>
+</a>
+</div>
+<div class="top-main-visual-slider__item">
+<a class="top-main-visual-slider__item--link" href="https://webnewtype.com/news/press/entry-33996.html">
+<div class="top-main-visual-slider__item--image">
+<div class="_image-wrap">
+<img alt="創る×つながる×広げる！　「現代版トキワ荘」 起業家育成プログラム第1期生募集中！" src="/media/014/202508/mode2_w315_h315-%E5%BA%83%E5%91%8A%E3%83%90%E3%83%8A%E3%83%BC.jpg?v=20250826141339" class="js-img-fallback-square" />
+</div>
+</div>
+<div class="top-main-visual-slider__item--main">
+<div class="top-main-visual-slider__item--ttl"> 創る×つながる×広げる！　「現代版トキワ荘」 起業家育成プログラム第1期生募集中！ </div>
+<div class="top-main-visual-slider__item--date"> 2025.09.01 </div>
+</div>
+</a>
+</div>
+<div class="top-main-visual-slider__item">
+<a class="top-main-visual-slider__item--link" href="https://webnewtype.com/report/artist/entry-33888.html">
+<div class="top-main-visual-slider__item--image">
+<div class="_image-wrap">
+<img alt="「22/7」西條和が語る、卒業シングルとなる15thシングル「あなたでなくちゃ」" src="/media/017/202508/mode2_w315_h315-icon.jpg?v=20250812162123" class="js-img-fallback-square" />
+</div>
+</div>
+<div class="top-main-visual-slider__item--main">
+<div class="top-main-visual-slider__item--ttl"> 「22/7」西條和が語る、卒業シングルとなる15thシングル「あなたでなくちゃ」 </div>
+<div class="top-main-visual-slider__item--date"> 2025.08.12 </div>
+</div>
+</a>
+</div>
+<div class="top-main-visual-slider__item">
+<a class="top-main-visual-slider__item--link" href="https://webnewtype.com/news/info/entry-33880.html">
+<div class="top-main-visual-slider__item--image">
+<div class="_image-wrap">
+<img alt="ニュータイプアニメアワード　投票開始！" src="/media/014/202307/mode2_w315_h315-C_NTAW2023_230710_133302.jpg?v=20230710133302" class="js-img-fallback-square" />
+</div>
+</div>
+<div class="top-main-visual-slider__item--main">
+<div class="top-main-visual-slider__item--ttl"> ニュータイプアニメアワード　投票開始！ </div>
+<div class="top-main-visual-slider__item--date"> 2025.08.08 </div>
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="c-layout-main-side">
+<div class="base-width">
+<div class="c-layout-main-side__body">
+<div class="c-layout-main">
+<div class="pc-none">
+<div class="side-item">
+<div class="side-banner">
+<a class="side-banner__item" href="https://webnewtype.com/product/series/fss/">
+<img alt="ファイブスター物語" src="/archives/001/202303/mode3_w670-28234f2e980f9489a7183e008b538aeeafe7f37c6df840c19da9e08dade0a7e9.png" />
+</a>
+<a class="side-banner__item" href="https://webnewtype.com/special-contents/40th/">
+<img alt="月刊ニュータイプ創刊40周年記念特設サイト" src="/archives/001/202503/mode3_w670-e0f9363f7540d255940235b3e678f56348dd6e2a47f3fe67f4de2f8bfd6ffa9b.png" />
+</a>
+</div>
+</div>
+</div>
+<div class="c-head-wrap c-sp-mt120">
+<div class="c-head c-head-red">
+<div class="c-head__main"> UPDATE <br class="pc-none">INFORMATION </div>
+<div class="c-head__sub"> 最新情報 </div>
+</div>
+<button class="c-head-search-btn js-btn-modal-open" data-target="#ModalSearchKiji">
+<div class="_text"> 記事検索 </div>
+<div class="_icon"><svg class="svg-search"><use xlink:href="#svg-search" /></svg></div>
+</button>
+</div>
+<div>
+<div class="article-list">
+<ul class="article-list__list">
+<li class="article-list__item">
+<div class="article-list__item--link">
+<a class="article-list__item--thum js-viewing-indelible" href="https://webnewtype.com/report/anime/entry-34116.html">
+<img src="/media/017/202509/mode2_w315_h315-th.jpg?v=20250905192924" class="js-img-fallback-square" alt="アヌシー国際アニメーション映画祭選出も「チャレンジングな作品」――映画「ホウセンカ」完成披露試写会レポート" />
+</a>
+<a class="article-list__item--main js-viewing-indelible" href="https://webnewtype.com/report/anime/entry-34116.html">
+<div class="article-list__item--main--head">
+<div class="article-list__item--cat" style="border-color:#F47943;color:#F47943;">アニメ</div>
+<div class="article-list__item--date"><time datetime="2025-09-08">2025.09.08</time></div>
+</div>
+<p class="article-list__item--title">アヌシー国際アニメーション映画祭選出も「チャレンジングな作品」――映画「ホウセンカ」完成披露試写会レポート</p>
+<p class="article-list__item--text">去る&#039;25年9月4日、東京・新宿バルト9にて長編オリジナル劇場アニメ「ホウセンカ」の完成披露試写会が行われました。 アヌシー国際アニメーション映画祭の長編コンペティション部門にも選出された同作は、&#039;21年に...</p>
+</a>
+<div class="article-list__tag">
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E3%83%9B%E3%82%A6%E3%82%BB%E3%83%B3%E3%82%AB/"> #ホウセンカ </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E6%9C%A8%E4%B8%8B%E9%BA%A6/"> #木下麦 </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E6%88%B8%E5%A1%9A%E7%B4%94%E8%B2%B4/"> #戸塚純貴 </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E6%BA%80%E5%B3%B6%E3%81%B2%E3%81%8B%E3%82%8A/"> #満島ひかり </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E5%AE%AE%E5%B4%8E%E7%BE%8E%E5%AD%90/"> #宮崎美子 </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E3%83%94%E3%82%A8%E3%83%BC%E3%83%AB%E7%80%A7/"> #ピエール瀧 </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/cero/"> #cero </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E5%8A%87%E5%A0%B4%E3%82%A2%E3%83%8B%E3%83%A1/"> #劇場アニメ </a>
+</div>
+</div>
+</li>
+<li class="article-list__item">
+<div class="article-list__item--link">
+<a class="article-list__item--thum js-viewing-indelible" href="https://webnewtype.com/report/staff/entry-34113.html">
+<img src="/media/017/202509/mode2_w315_h315-%E2%98%85%E3%83%A1%E3%82%A4%E3%83%B3%EF%BC%BFKH_0407.jpg?v=20250904173913" class="js-img-fallback-square" alt="青春を描く――「果てしなきスカーレット」細田守×「この夏の星を見る」山元環 W監督特別対談！" />
+</a>
+<a class="article-list__item--main js-viewing-indelible" href="https://webnewtype.com/report/staff/entry-34113.html">
+<div class="article-list__item--main--head">
+<div class="article-list__item--cat" style="">スタッフ</div>
+<div class="article-list__item--date"><time datetime="2025-09-05">2025.09.05</time></div>
+</div>
+<p class="article-list__item--title">青春を描く――「果てしなきスカーレット」細田守×「この夏の星を見る」山元環 W監督特別対談！</p>
+<p class="article-list__item--text">この夏、一本の青春映画「この夏の星を見る」が静かな盛り上がりを見せています。TVプロデューサーの佐久間宣行さんからロックバンドBase Ball Bearの小出祐介さんまで、感度の高いクリエイターからの反応も熱い...</p>
+</a>
+<div class="article-list__tag">
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E6%9E%9C%E3%81%A6%E3%81%97%E3%81%AA%E3%81%8D%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%AC%E3%83%83%E3%83%88/"> #果てしなきスカーレット </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E6%99%82%E3%82%92%E3%81%8B%E3%81%91%E3%82%8B%E5%B0%91%E5%A5%B3/"> #時をかける少女 </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E3%81%93%E3%81%AE%E5%A4%8F%E3%81%AE%E6%98%9F%E3%82%92%E8%A6%8B%E3%82%8B/"> #この夏の星を見る </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E7%B4%B0%E7%94%B0%E5%AE%88/"> #細田守 </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E5%B1%B1%E5%85%83%E7%92%B0/"> #山元環 </a>
+</div>
+</div>
+</li>
+<li class="article-list__item">
+<div class="article-list__item--link">
+<a class="article-list__item--thum js-viewing-indelible" href="https://webnewtype.com/report/stage/entry-34096.html">
+<img src="/media/017/202509/mode2_w315_h315-R_%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB.jpg?v=20250902152442" class="js-img-fallback-square" alt="沼落ち必須の舞台、見逃し厳禁！——『カリスマ de ステージ』京山陽春&amp;持田悠生&amp;寶珠山 駿&amp;今 拓哉座談会！" />
+</a>
+<a class="article-list__item--main js-viewing-indelible" href="https://webnewtype.com/report/stage/entry-34096.html">
+<div class="article-list__item--main--head">
+<div class="article-list__item--cat" style="">舞台</div>
+<div class="article-list__item--date"><time datetime="2025-09-02">2025.09.02</time></div>
+</div>
+<p class="article-list__item--title">沼落ち必須の舞台、見逃し厳禁！——『カリスマ de ステージ』京山陽春&amp;持田悠生&amp;寶珠山 駿&amp;今 拓哉座談会！</p>
+<p class="article-list__item--text">超人的シェアハウスストーリー「カリスマ」の新作舞台「『カリスマ de ステージ』～帰ろう！カリスマハウス～」（以下、『カリdeステ』）が、2025年9⽉9⽇（⽕）まで、東京・品川プリンスホテル ステラボールにて...</p>
+</a>
+<div class="article-list__tag">
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E3%82%AB%E3%83%AA%E3%82%B9%E3%83%9E/"> #カリスマ </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E3%82%AB%E3%83%AA%E3%82%B9%E3%83%9Ede%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B8/"> #カリスマdeステージ </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E4%BA%AC%E5%B1%B1%E9%99%BD%E6%98%A5/"> #京山陽春 </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E6%8C%81%E7%94%B0%E6%82%A0%E7%94%9F/"> #持田悠生 </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E5%AF%B6%E7%8F%A0%E5%B1%B1%E9%A7%BF/"> #寶珠山駿 </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E4%BB%8A%E6%8B%93%E5%93%89/"> #今拓哉 </a>
+</div>
+</div>
+</li>
+<li class="article-list__item">
+<div class="article-list__item--link">
+<a class="article-list__item--thum js-viewing-indelible" href="https://webnewtype.com/news/press/entry-33996.html">
+<img src="/media/014/202508/mode2_w315_h315-%E5%BA%83%E5%91%8A%E3%83%90%E3%83%8A%E3%83%BC.jpg?v=20250826141339" class="js-img-fallback-square" alt="創る×つながる×広げる！　「現代版トキワ荘」 起業家育成プログラム第1期生募集中！" />
+</a>
+<a class="article-list__item--main js-viewing-indelible" href="https://webnewtype.com/news/press/entry-33996.html">
+<div class="article-list__item--main--head">
+<div class="article-list__item--cat" style="">プレスリリース</div>
+<div class="article-list__item--date"><time datetime="2025-09-01">2025.09.01</time></div>
+</div>
+<p class="article-list__item--title">創る×つながる×広げる！　「現代版トキワ荘」 起業家育成プログラム第1期生募集中！</p>
+<p class="article-list__item--text">株式会社ABCアニメーションでは、東京都の「世界に羽ばたくアニメーター等の育成支援事業」の一環として、アニメーター、漫画家といったアニメ・漫画におけるクリエーター等を対象に、作品制作に専念できる空間（...</p>
+</a>
+<div class="article-list__tag">
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/news/tag/PR/"> #PR </a>
+</div>
+</div>
+</li>
+<li class="article-list__item">
+<div class="article-list__item--link">
+<a class="article-list__item--thum js-viewing-indelible" href="https://webnewtype.com/report/artist/entry-33906.html">
+<img src="/media/017/202508/mode2_w315_h315-Majestic_Catastrophe_artist_FIN_1.jpg?v=20250819173055" class="js-img-fallback-square" alt="佐々木李子ニューシングル「Majestic Catastrophe」発売記念インタビュー 「まだまだこの勢いを止めずに気合いで進んでいきたいと思います」" />
+</a>
+<a class="article-list__item--main js-viewing-indelible" href="https://webnewtype.com/report/artist/entry-33906.html">
+<div class="article-list__item--main--head">
+<div class="article-list__item--cat" style="">アーティスト</div>
+<div class="article-list__item--date"><time datetime="2025-08-27">2025.08.27</time></div>
+</div>
+<p class="article-list__item--title">佐々木李子ニューシングル「Majestic Catastrophe」発売記念インタビュー 「まだまだこの勢いを止めずに気合いで進んでいきたいと思います」</p>
+<p class="article-list__item--text">大注目の歌手・声優の佐々木李子さんのニューシングルは、TVアニメ「異世界黙示録マイノグーラ～破滅の文明で始める世界征服～」のOP主題歌「Majestic Catastrophe」。これまでにないほどのダークな世界観で新た...</p>
+</a>
+<div class="article-list__tag">
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E3%82%A2%E3%83%8B%E3%82%BD%E3%83%B3/"> #アニソン </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E4%BD%90%E3%80%85%E6%9C%A8%E6%9D%8E%E5%AD%90/"> #佐々木李子 </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/2025%E5%B9%B47%E6%9C%88%E3%82%AF%E3%83%BC%E3%83%AB/"> #2025年7月クール </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E3%83%9E%E3%82%A4%E3%83%8E%E3%82%B0%E3%83%BC%E3%83%A9/"> #マイノグーラ </a>
+</div>
+</div>
+</li>
+<li class="article-list__item">
+<div class="article-list__item--link">
+<a class="article-list__item--thum js-viewing-indelible" href="https://webnewtype.com/report/stage/entry-33980.html">
+<img src="/media/017/202508/mode2_w315_h315-%E3%80%90%E8%B3%AD%E3%82%B1%E3%82%B0%E3%83%AB%E3%82%A4%E3%80%91%E3%83%86%E3%82%A3%E3%82%B6%E3%83%BC%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB_%E9%80%81%E4%BB%98%E7%94%A8.jpg?v=20250825161619" class="js-img-fallback-square" alt="全力で舞台『賭ケグルイ』の世界を体現する！　鈴井涼太役・永田聖一朗さん、豆生田楓役・笹森裕貴さん対談" />
+</a>
+<a class="article-list__item--main js-viewing-indelible" href="https://webnewtype.com/report/stage/entry-33980.html">
+<div class="article-list__item--main--head">
+<div class="article-list__item--cat" style="">舞台</div>
+<div class="article-list__item--date"><time datetime="2025-08-27">2025.08.27</time></div>
+</div>
+<p class="article-list__item--title">全力で舞台『賭ケグルイ』の世界を体現する！　鈴井涼太役・永田聖一朗さん、豆生田楓役・笹森裕貴さん対談</p>
+<p class="article-list__item--text">「賭ケグルイ」（原作：河本ほむら、作画：尚村透）が待望の舞台化を果たし、９月５日（金）〜９月14日（日）、東京・シアターHにて上演されます。WebNewtypeでは公演に先駆け、鈴井涼太役・永田聖一朗さん、豆生...</p>
+</a>
+<div class="article-list__tag">
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E8%B3%AD%E3%82%B1%E3%82%B0%E3%83%AB%E3%82%A4/"> #賭ケグルイ </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E6%B0%B8%E7%94%B0%E8%81%96%E4%B8%80%E6%9C%97/"> #永田聖一朗 </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E7%AC%B9%E6%A3%AE%E8%A3%95%E8%B2%B4/"> #笹森裕貴 </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E8%B3%AD%E3%82%B1%E3%82%B9%E3%83%86/"> #賭ケステ </a>
+</div>
+</div>
+</li>
+<li class="article-list__item">
+<div class="article-list__item--link">
+<a class="article-list__item--thum js-viewing-indelible" href="https://webnewtype.com/news/press/entry-33979.html">
+<img src="/media/014/202508/mode2_w315_h315-icon2.jpg?v=20250825165824" class="js-img-fallback-square" alt="堀口悠紀子による「22/7」珠玉のキャラクターイラスト集、11月21日（金）に発売決定！" />
+</a>
+<a class="article-list__item--main js-viewing-indelible" href="https://webnewtype.com/news/press/entry-33979.html">
+<div class="article-list__item--main--head">
+<div class="article-list__item--cat" style="">プレスリリース</div>
+<div class="article-list__item--date"><time datetime="2025-08-26">2025.08.26</time></div>
+</div>
+<p class="article-list__item--title">堀口悠紀子による「22/7」珠玉のキャラクターイラスト集、11月21日（金）に発売決定！</p>
+<p class="article-list__item--text">秋元康総合プロデュース、SonyMusicとANIPLEXがタッグを組んだアイドルプロジェクト「22/7」（ナナブンノニジュウニ）。 そんな「22/7」のキャラクターたちを描いた待望のイラスト集「堀口悠紀子 22/7 Artworks」...</p>
+</a>
+<div class="article-list__tag">
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/news/tag/%E5%A0%80%E5%8F%A3%E6%82%A0%E7%B4%80%E5%AD%90/"> #堀口悠紀子 </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/news/tag/%E3%83%8A%E3%83%8A%E3%83%96%E3%83%B3%E3%83%8E%E3%83%8B%E3%82%B8%E3%83%A5%E3%82%A6%E3%83%8B/"> #ナナブンノニジュウニ </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/news/tag/%E3%83%8A%E3%83%8A%E3%83%8B%E3%82%B8/"> #ナナニジ </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/news/tag/%E7%94%BB%E9%9B%86/"> #画集 </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/news/tag/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%E9%9B%86/"> #イラスト集 </a>
+</div>
+</div>
+</li>
+<li class="article-list__item">
+<div class="article-list__item--link">
+<a class="article-list__item--thum js-viewing-indelible" href="https://webnewtype.com/report/staff/entry-33892.html">
+<img src="/media/017/202508/mode2_w315_h315-40th_sq_1.jpg?v=20250815074540" class="js-img-fallback-square" alt="本日公開「ChaO」スタッフも登壇！　Matching Newtype!イベントレポート" />
+</a>
+<a class="article-list__item--main js-viewing-indelible" href="https://webnewtype.com/report/staff/entry-33892.html">
+<div class="article-list__item--main--head">
+<div class="article-list__item--cat" style="">スタッフ</div>
+<div class="article-list__item--date"><time datetime="2025-08-15">2025.08.15</time></div>
+</div>
+<p class="article-list__item--title">本日公開「ChaO」スタッフも登壇！　Matching Newtype!イベントレポート</p>
+<p class="article-list__item--text">2025年8月9日に新宿・LOFT/PLUS ONEにて開催された月刊ニュータイプ創刊40周年記念イベントシリーズ「Matching Newtype!」第2回。「世界に触れる」をトークテーマに、6〜8月にかけて世界各地で開催されているアニ...</p>
+</a>
+<div class="article-list__tag">
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/"> #イベント </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/Matching%20Newtype/"> #Matching Newtype </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/ChaO/"> #ChaO </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E9%9D%92%E6%9C%A8%E5%BA%B7%E6%B5%A9/"> #青木康浩 </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E5%B0%8F%E5%B3%B6%E5%A4%A7%E5%92%8C/"> #小島大和 </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/studio%20ALBLE/"> #studio ALBLE </a>
+</div>
+</div>
+</li>
+<li class="article-list__item">
+<div class="article-list__item--link">
+<a class="article-list__item--thum js-viewing-indelible" href="https://webnewtype.com/report/cast/entry-33889.html">
+<img src="/media/017/202508/mode2_w315_h315-01_%E3%83%A1%E3%82%A4%E3%83%B3%E3%82%AB%E3%83%83%E3%83%88_%281%29.jpg?v=20250813172624" class="js-img-fallback-square" alt="「映画クレヨンしんちゃん 超華麗！灼熱のカスカベダンサーズ」野原しんのすけ役・小林由美子＆ボーちゃん役・佐藤智恵対談 ——カスカベ防衛隊との旅を楽しめる一作！" />
+</a>
+<a class="article-list__item--main js-viewing-indelible" href="https://webnewtype.com/report/cast/entry-33889.html">
+<div class="article-list__item--main--head">
+<div class="article-list__item--cat" style="">キャスト</div>
+<div class="article-list__item--date"><time datetime="2025-08-13">2025.08.13</time></div>
+</div>
+<p class="article-list__item--title">「映画クレヨンしんちゃん 超華麗！灼熱のカスカベダンサーズ」野原しんのすけ役・小林由美子＆ボーちゃん役・佐藤智恵対談 ——カスカベ防衛隊との旅を楽しめる一作！</p>
+<p class="article-list__item--text">誰もが知る国民的アニメの劇場版であり、2025年8月8日に全国公開された「映画クレヨンしんちゃん 超華麗！灼熱のカスカベダンサーズ」では、しんのすけたちカスカベ防衛隊のメンバーが、インドを舞台に活躍するよ...</p>
+</a>
+<div class="article-list__tag">
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E3%82%AF%E3%83%AC%E3%83%A8%E3%83%B3%E3%81%97%E3%82%93%E3%81%A1%E3%82%83%E3%82%93/"> #クレヨンしんちゃん </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E5%8A%87%E5%A0%B4%E3%82%A2%E3%83%8B%E3%83%A1/"> #劇場アニメ </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E5%B0%8F%E6%9E%97%E7%94%B1%E7%BE%8E%E5%AD%90/"> #小林由美子 </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E4%BD%90%E8%97%A4%E6%99%BA%E6%81%B5/"> #佐藤智恵 </a>
+</div>
+</div>
+</li>
+<li class="article-list__item">
+<div class="article-list__item--link">
+<a class="article-list__item--thum js-viewing-indelible" href="https://webnewtype.com/report/staff/entry-33883.html">
+<img src="/media/017/202508/mode2_w315_h315-%E2%80%BB%E8%A7%A3%E7%A6%81%E6%B8%88%E3%80%8E%E8%BB%A2%E7%94%9F%E5%AE%97%E4%B8%BB%E3%81%AE%E8%A6%87%E9%81%93%E8%AD%9A%E3%80%8F%E3%82%AD%E3%83%BC%E3%83%92%E3%82%99%E3%82%B7%E3%82%99%E3%83%A5%E3%82%A2%E3%83%AB.jpg?v=20250808170054" class="js-img-fallback-square" alt="中国発ペットアニメの金字塔を目指して――「転生宗主の覇道譚　～すべてを呑み込むサカナと這い上がる～」危天行監督インタビュー" />
+</a>
+<a class="article-list__item--main js-viewing-indelible" href="https://webnewtype.com/report/staff/entry-33883.html">
+<div class="article-list__item--main--head">
+<div class="article-list__item--cat" style="">スタッフ</div>
+<div class="article-list__item--date"><time datetime="2025-08-13">2025.08.13</time></div>
+</div>
+<p class="article-list__item--title">中国発ペットアニメの金字塔を目指して――「転生宗主の覇道譚　～すべてを呑み込むサカナと這い上がる～」危天行監督インタビュー</p>
+<p class="article-list__item--text">7月2日より放送中のTVアニメ『転生宗主の覇道譚 ～すべてを呑み込むサカナと這い上がる～』。黙による中国の人気漫画「鲲吞天下」が原作の本作は、中国の動画共有サービス「bilibili」にて配信開始から約2週間で...</p>
+</a>
+<div class="article-list__tag">
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E4%B8%AD%E5%9B%BD%E3%82%A2%E3%83%8B%E3%83%A1/"> #中国アニメ </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/2025%E5%B9%B47%E6%9C%88%E3%82%AF%E3%83%BC%E3%83%AB/"> #2025年7月クール </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E8%BB%A2%E7%94%9F%E5%AE%97%E4%B8%BB/"> #転生宗主 </a>
+</div>
+</div>
+</li>
+<li class="article-list__item">
+<div class="article-list__item--link">
+<a class="article-list__item--thum js-viewing-indelible" href="https://webnewtype.com/report/artist/entry-33888.html">
+<img src="/media/017/202508/mode2_w315_h315-icon.jpg?v=20250812162123" class="js-img-fallback-square" alt="「22/7」西條和が語る、卒業シングルとなる15thシングル「あなたでなくちゃ」" />
+</a>
+<a class="article-list__item--main js-viewing-indelible" href="https://webnewtype.com/report/artist/entry-33888.html">
+<div class="article-list__item--main--head">
+<div class="article-list__item--cat" style="">アーティスト</div>
+<div class="article-list__item--date"><time datetime="2025-08-12">2025.08.12</time></div>
+</div>
+<p class="article-list__item--title">「22/7」西條和が語る、卒業シングルとなる15thシングル「あなたでなくちゃ」</p>
+<p class="article-list__item--text">秋元康総合プロデュースのもと、Sony MusicとANIPLEXがタッグを組んだ声優アイドルプロジェクト「22/7」（通称「ナナニジ」）。 その初期メンバーのひとりとして8年にわたりグループを支えてきた西條和さんが、20...</p>
+</a>
+<div class="article-list__tag">
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E3%83%8A%E3%83%8A%E3%83%96%E3%83%B3%E3%83%8E%E3%83%8B%E3%82%B8%E3%83%A5%E3%82%A6%E3%83%8B/"> #ナナブンノニジュウニ </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E3%83%8A%E3%83%8A%E3%83%8B%E3%82%B8/"> #ナナニジ </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E8%A5%BF%E6%A2%9D%E5%92%8C/"> #西條和 </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E5%A3%B0%E5%84%AA/"> #声優 </a>
+<a class="article-list__tag--item js-viewing-indelible" href="https://webnewtype.com/report/tag/%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB/"> #アイドル </a>
+</div>
+</div>
+</li>
+<li class="article-list__item">
+<div class="article-list__item--link">
+<a class="article-list__item--thum js-viewing-indelible" href="https://webnewtype.com/news/info/entry-33880.html">
+<img src="/media/014/202307/mode2_w315_h315-C_NTAW2023_230710_133302.jpg?v=20230710133302" class="js-img-fallback-square" alt="ニュータイプアニメアワード　投票開始！" />
+</a>
+<a class="article-list__item--main js-viewing-indelible" href="https://webnewtype.com/news/info/entry-33880.html">
+<div class="article-list__item--main--head">
+<div class="article-list__item--cat" style="">おしらせ</div>
+<div class="article-list__item--date"><time datetime="2025-08-08">2025.08.08</time></div>
+</div>
+<p class="article-list__item--title">ニュータイプアニメアワード　投票開始！</p>
+<p class="article-list__item--text">毎年実施しています「ニュータイプアニメアワード」。その投票をWebNewtypeにて開始します。2024年7月期から2025年4月期までに放送・配信・公開・上映（公開・上映は６月中に上映作品）されたアニメ作品が対象と...</p>
+</a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="banner-list">
+<div class="banner-list__list">
+</div>
+</div>
+<div class="top-pager-btn">
+<a class="top-pager-btn__item" href="https://webnewtype.com/report/">
+<div class="top-pager-btn__item--body">
+<div class="top-pager-btn__item--title">
+<div class="_title-main"> REPORT </div>
+<div class="_title-sub"> レポート一覧 </div>
+</div>
+<p class="top-pager-btn__item--text"> イベントやアフレコ現場にNewtype編集部が潜入！ <br>取材レポートをお届け </p>
+</div>
+<div class="top-pager-btn__item--icon"><svg><use xlink:href="#svg-arrow-right" /></svg></div>
+</a>
+<a class="top-pager-btn__item" href="https://webnewtype.com/news/">
+<div class="top-pager-btn__item--body">
+<div class="top-pager-btn__item--title">
+<div class="_title-main"> NEWS </div>
+<div class="_title-sub"> ニュース一覧 </div>
+</div>
+<p class="top-pager-btn__item--text"> 最新アニメ情報を配信中！ </p>
+</div>
+<div class="top-pager-btn__item--icon"><svg><use xlink:href="#svg-arrow-right" /></svg></div>
+</a>
+</div>
+</div>
+<div class="c-layout-side">
+<div class="sp-none">
+<div class="side-item">
+<div class="side-banner">
+<a class="side-banner__item" href="https://webnewtype.com/product/series/fss/">
+<img alt="ファイブスター物語" src="/archives/001/202303/mode3_w670-28234f2e980f9489a7183e008b538aeeafe7f37c6df840c19da9e08dade0a7e9.png" />
+</a>
+<a class="side-banner__item" href="https://webnewtype.com/special-contents/40th/">
+<img alt="月刊ニュータイプ創刊40周年記念特設サイト" src="/archives/001/202503/mode3_w670-e0f9363f7540d255940235b3e678f56348dd6e2a47f3fe67f4de2f8bfd6ffa9b.png" />
+</a>
+</div>
+</div>
+</div>
+<div class="side-item">
+<div class="side-head">
+<h3 class="side-head__main"> MAGAZINES </h3>
+<div class="side-head__sub"> 雑誌 </div>
+</div>
+<div class="side-magazines">
+<div class="side-magazines__item">
+<a class="side-magazines__item--thum" href="https://webnewtype.com/magazine/newtype/new-magazine.html">
+<img src="https://cdn.kdkw.jp/cover_1000/322502/322502000161.jpg" alt="ニュータイプ　２０２５年１０月号" class="js-img-fallback-book" loading="lazy">
+</a>
+<div class="side-magazines__item--ttl"> 月刊ニュータイプ </div>
+<div class="side-magazines__item--number"> 2025年10月号 </div>
+<div class="side-magazines__item--date"> 2025年09月10日 発売 </div>
+<a class="side-button" href="https://webnewtype.com/magazine/newtype/new-magazine.html">
+<span class="_btn-ttl">詳細はこちら</span>
+<span class="_btn-icon"><svg><use xlink:href="#svg-arrow-right" /></svg></span>
+</a>
+</div>
+</div>
+</div>
+<div class="side-item">
+<div class="side-pagelink">
+<div class="side-pagelink__item">
+<div class="side-pagelink__item--head">VOICE Newtype</div>
+<a class="side-button _c-white" href="https://webnewtype.com/magazine/voice-newtype/">
+<span class="_btn-ttl">バックナンバー</span>
+<span class="_btn-icon"><svg><use xlink:href="#svg-arrow-right" /></svg></span>
+</a>
+</div>
+<div class="side-pagelink__item">
+<div class="side-pagelink__item--head">NewtypeFamily</div>
+<a class="side-button _c-white" href="https://webnewtype.com/product/newtype_family/">
+<span class="_btn-ttl">詳細はこちら</span>
+<span class="_btn-icon"><svg><use xlink:href="#svg-arrow-right" /></svg></span>
+</a>
+</div>
+</div>
+</div>
+<div class="side-item">
+<div class="side-head">
+<h3 class="side-head__main"> TWITTER </h3>
+<div class="side-head__sub"> ニュータイプ編集部／WebNewtype </div>
+</div>
+<div class="side-twitter">
+<div class="side-twitter__frame">
+<a class="twitter-timeline" href="https://twitter.com/antch" data-height="600" data-chrome="noheader nofooter">Tweets by antch</a>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="page_top" class="footer-page-top">
+<a href="#" class="footer-page-top__button">
+<img src="/themes/webnewtype/dest/images/common/pagetop_btn.png" alt="PAGETOP">
+</a>
+</div>
+<footer class="g-footer" id="footer">
+<div class="g-footer__body">
+<div class="g-footer-bnr">
+<div class="base-width">
+<div class="g-footer-bnr__list">
+<a class="g-footer-bnr__list--item" href="http://automaticflowers.ne.jp/">
+<img alt="永野護公式サイト" src="/archives/001/202303/mode3_w670-62591f32c7b3e6373fbf096d1613ef57a1441957df60e2a0fdaaae0a7b9e4c21.png" />
+</a>
+<a class="g-footer-bnr__list--item" href="https://store.kadokawa.co.jp/shop/e/enewtype/">
+<img alt="ニュータイプアニメマーケット" src="/archives/001/202303/mode3_w670-7febc8a0fd92a091d77a9915126119c2c30e36306ddfc37537870d975427278f.png" />
+</a>
+</div>
+</div>
+</div>
+<div class="g-footer-main">
+<div class="base-width">
+<div class="g-footer-main__wrap">
+<div class="g-footer-logo">
+<div class="g-footer-logo__image">
+<a class="g-footer-logo__link" href="https://webnewtype.com/"><img alt="WebNewtype" src="/themes/webnewtype/dest/images/common/logo_webnewtype.png" /></a>
+</div>
+<p class="g-footer-logo__text"> 新作＆おすすめアニメのすべてがわかる！<br>「月刊ニュータイプ」公式サイト </p>
+</div>
+<nav class="g-footer-nav">
+<div class="g-footer-nav__list">
+<ul>
+<li class="g-footer-nav__list--item">
+<a class="g-footer-nav__list--link js-viewing-indelible" href="https://webnewtype.com/report/">レポート</a>
+</li>
+<li class="g-footer-nav__list--item">
+<a class="g-footer-nav__list--link js-viewing-indelible" href="https://webnewtype.com/special/">特集</a>
+</li>
+<li class="g-footer-nav__list--item">
+<a class="g-footer-nav__list--link js-viewing-indelible" href="https://webnewtype.com/news/">ニュース</a>
+</li>
+</ul>
+</div>
+<div class="g-footer-nav__list">
+<ul>
+<li class="g-footer-nav__list--item">
+<a class="g-footer-nav__list--link js-viewing-indelible" href="https://webnewtype.com/magazine/newtype/new-magazine.html">月刊ニュータイプ</a>
+</li>
+<li class="g-footer-nav__list--item">
+<a class="g-footer-nav__list--link js-viewing-indelible" href="https://webnewtype.com/magazine/voice-newtype/new-magazine.html">VOICE Newtype</a>
+</li>
+<li class="g-footer-nav__list--item">
+<a class="g-footer-nav__list--link js-viewing-indelible" href="https://webnewtype.com/product/">関連書籍</a>
+</li>
+<li class="g-footer-nav__list--item">
+<a class="g-footer-nav__list--link js-viewing-indelible" href="https://comic-walker.com/label/comicnewtype">コミック Newtype</a>
+</li>
+</ul>
+</div>
+</nav>
+<div class="g-footer-sns">
+<div class="g-footer-sns__head"> FOLLOW US </div>
+<ul class="g-footer-sns__list">
+<li class="g-footer-sns__item">
+<a class="g-footer-sns__item--link" href="https://www.facebook.com/monthlynewtype"><img alt="Facebook" src="/themes/webnewtype/dest/images/common/icon_facebook.png" /></a>
+</li>
+<li class="g-footer-sns__item">
+<a class="g-footer-sns__item--link" href="https://twitter.com/antch/"><img alt="Twitter" src="/themes/webnewtype/dest/images/common/icon_twitter.png" /></a>
+</li>
+<li class="g-footer-sns__item">
+<a class="g-footer-sns__item--link" href="https://www.youtube.com/channel/UCvcUyCMlTgh1Yq4ExzdIigQ"><img alt="YouTube" src="/themes/webnewtype/dest/images/common/icon_youtube.png" /></a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="g-footer-abj">
+<div class="base-width">
+<div class="g-footer-abj__wrap">
+<div class="g-footer-abj__image"><img alt="ABJ" src="/archives/001/202304/643eb0494be2e4c6633339d749adb184ff69959a1b6b365d2cdc0bf28269b565.png" /></div>
+<div class="g-footer-abj__text">
+<p> ABJマークは、この電子書店・電子書籍配信サービスが、著作権者からコンテンツ使用許諾を得た正規版配信サービスであることを示す登録商標（登録番号 第6091713号）です。 ABJマークの詳細、ABJマークを掲示しているサービスの一覧はこちら。<a href="https://aebs.or.jp/" target="_blank">https://aebs.or.jp/</a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="g-footer-kadokawa">
+<a class="g-footer-kadokawa__logo" href="https://www.kadokawa.co.jp/" target="_blank">
+<img alt="KADOKAWA" src="/themes/webnewtype/dest/images/common/kadokawa.svg" />
+</a>
+</div>
+<div class="g-footer-copyright">
+<p> Copyright ©KADOKAWA CORPORATION 2025 </p>
+</div>
+</div>
+</footer>
+</div>
+<div class="modal-body" id="ModalSearchSite">
+<div class="modal-body-bg js-btn-modal-close" data-target="#ModalSearchSite"></div>
+<div class="modal-body-main modal-search">
+<div class="modal-body-close"><svg><use xlink:href="#svg-close" /></svg></div>
+<div class="modal-search-body">
+<div class="modal-search-body__ttl">
+<div class="modal-search-body__ttl--icon">
+<svg class="svg-search"><use xlink:href="#svg-search" /></svg>
+</div>
+<h2 class="modal-search-body__ttl--main"> サイト内検索 </h2>
+</div>
+<div class="modal-search-body__main">
+<div class="modal-search-body__item">
+<h3 class="modal-search-body__item--head"> キーワードで探す </h3>
+<div class="modal-search-body__form">
+<form action="" class="c-search-form" method="post" name="searchForm">
+<input class="_form-text" name="keyword" placeholder="キーワードを入力してください" type="search" value="" />
+<button class="_form-btn" name="ACMS_POST_2GET" type="submit">検索</button>
+<input type="hidden" name="tpl" value="/search.html">
+<input type="hidden" name="bid" value="1">
+
+
+<input type="hidden" name="formUniqueToken" value="d6a04ea86427116fa497b50355b2b924b96acb7193572899869d7d8717f4d870">
+<input type="hidden" name="formToken" value="b94dd5259903dacf7a4c21dd61ce64889fd5b6b4dee10bdca77915a25c58de2e">
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-body" id="ModalSearchProduct">
+<div class="modal-body-bg js-btn-modal-close" data-target="#ModalSearchProduct"></div>
+<div class="modal-body-main modal-search">
+<div class="modal-body-close"><svg><use xlink:href="#svg-close" /></svg></div>
+<div class="modal-search-body">
+<div class="modal-search-body__ttl">
+<div class="modal-search-body__ttl--icon">
+<svg class="svg-search"><use xlink:href="#svg-search" /></svg>
+</div>
+<h2 class="modal-search-body__ttl--main"> 書籍検索 </h2>
+</div>
+<div class="modal-search-body__main">
+<div class="modal-search-body__item">
+<h3 class="modal-search-body__item--head"> キーワードで探す </h3>
+<div class="modal-search-body__form">
+<form action="" class="c-search-form" method="post" name="searchForm">
+<input class="_form-text" name="keyword" placeholder="キーワードを入力してください" type="search" value="" />
+<button class="_form-btn" name="ACMS_POST_2GET" type="submit">検索</button>
+<input type="hidden" name="bid" value="3">
+
+
+<input type="hidden" name="formUniqueToken" value="d6a04ea86427116fa497b50355b2b924b96acb7193572899869d7d8717f4d870">
+<input type="hidden" name="formToken" value="b94dd5259903dacf7a4c21dd61ce64889fd5b6b4dee10bdca77915a25c58de2e">
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-body" id="ModalSearchKiji">
+<div class="modal-body-bg js-btn-modal-close" data-target="#ModalSearchKiji"></div>
+<div class="modal-body-main modal-search">
+<div class="modal-body-close"><svg><use xlink:href="#svg-close" /></svg></div>
+<div class="modal-search-body">
+<div class="modal-search-body__ttl">
+<div class="modal-search-body__ttl--icon">
+<svg class="svg-search"><use xlink:href="#svg-search" /></svg>
+</div>
+<h2 class="modal-search-body__ttl--main"> 記事検索 </h2>
+</div>
+<div class="modal-search-body__main">
+<div class="modal-search-body__item">
+<h3 class="modal-search-body__item--head"> キーワードで探す </h3>
+<div class="modal-search-body__form">
+<form action="" class="c-search-form" method="post" name="searchForm">
+<input class="_form-text" name="keyword" placeholder="キーワードを入力してください" type="search" value="" />
+<button class="_form-btn" name="ACMS_POST_2GET" type="submit">検索</button>
+<input type="hidden" name="bid" value="1">
+
+
+<input type="hidden" name="formUniqueToken" value="d6a04ea86427116fa497b50355b2b924b96acb7193572899869d7d8717f4d870">
+<input type="hidden" name="formToken" value="b94dd5259903dacf7a4c21dd61ce64889fd5b6b4dee10bdca77915a25c58de2e">
+</form>
+</div>
+</div>
+<div class="modal-search-body__item">
+<h3 class="modal-search-body__item--head"> カテゴリーで探す </h3>
+<div class="modal-search-body__category">
+<h4 class="modal-search-body__category--head"> レポート記事： </h4>
+<ul class="modal-search-body__category--body">
+<li class="modal-search-body__category--item">
+<a class="_category-link" href="https://webnewtype.com/report/anime/" style="border-color:#F47943;color:#F47943;">アニメ</a>
+</li>
+<li class="modal-search-body__category--item">
+<a class="_category-link" href="https://webnewtype.com/report/stage/" style="">舞台</a>
+</li>
+<li class="modal-search-body__category--item">
+<a class="_category-link" href="https://webnewtype.com/report/drama/" style="">ドラマ</a>
+</li>
+<li class="modal-search-body__category--item">
+<a class="_category-link" href="https://webnewtype.com/report/vr/" style="">VR</a>
+</li>
+<li class="modal-search-body__category--item">
+<a class="_category-link" href="https://webnewtype.com/report/staff/" style="">スタッフ</a>
+</li>
+<li class="modal-search-body__category--item">
+<a class="_category-link" href="https://webnewtype.com/report/cast/" style="">キャスト</a>
+</li>
+<li class="modal-search-body__category--item">
+<a class="_category-link" href="https://webnewtype.com/report/artist/" style="">アーティスト</a>
+</li>
+<li class="modal-search-body__category--item">
+<a class="_category-link" href="https://webnewtype.com/report/game/" style="">ゲーム</a>
+</li>
+<li class="modal-search-body__category--item">
+<a class="_category-link" href="https://webnewtype.com/report/goods/" style="">グッズ</a>
+</li>
+<li class="modal-search-body__category--item">
+<a class="_category-link" href="https://webnewtype.com/report/other/" style="">その他</a>
+</li>
+</ul>
+</div>
+<div class="modal-search-body__category">
+<h4 class="modal-search-body__category--head"> ニュース記事： </h4>
+<ul class="modal-search-body__category--body">
+<li class="modal-search-body__category--item">
+<a class="_category-link" href="https://webnewtype.com/news/info/" style="">おしらせ</a>
+</li>
+<li class="modal-search-body__category--item">
+<a class="_category-link" href="https://webnewtype.com/news/press/" style="">プレスリリース</a>
+</li>
+<li class="modal-search-body__category--item">
+<a class="_category-link" href="https://webnewtype.com/news/media/" style="">メディアミックス</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<svg style="display:none;" xmlns="http://www.w3.org/2000/svg">
+<symbol id="svg-arrow-right" viewBox="0 0 9 15">
+<path d="M104.6,38.669a1.037,1.037,0,0,1,0,1.516l-6.749,6.426a1.167,1.167,0,0,1-1.592,0,1.037,1.037,0,0,1,0-1.516l5.954-5.67-5.951-5.67a1.037,1.037,0,0,1,0-1.516,1.167,1.167,0,0,1,1.592,0l6.749,6.426Z" transform="translate(-95.925 -31.925)"></path>
+</symbol>
+<symbol id="svg-arrow-left" viewBox="0 0 11.774 20.608">
+<path d="M107.268,41.19a1.474,1.474,0,0,1,0,2.083L98.439,52.1a1.473,1.473,0,1,1-2.083-2.083l7.79-7.79-7.785-7.79a1.473,1.473,0,0,1,2.083-2.083l8.829,8.829Z" transform="translate(107.699 52.533) rotate(180)"></path>
+</symbol>
+<symbol id="svg-arrow-down" viewBox="0 0 15 9">
+<path d="M104.6,38.669a1.037,1.037,0,0,1,0,1.516l-6.749,6.426a1.167,1.167,0,0,1-1.592,0,1.037,1.037,0,0,1,0-1.516l5.954-5.67-5.951-5.67a1.037,1.037,0,0,1,0-1.516,1.167,1.167,0,0,1,1.592,0l6.749,6.426Z" transform="translate(46.925 -95.925) rotate(90)"></path>
+</symbol>
+<symbol id="svg-search" style="width: 256px; height: 256px; opacity: 1;" viewBox="0 0 512 512" x="0px" xml:space="preserve" y="0px">
+<path d="M495.272,423.558c0,0-68.542-59.952-84.937-76.328c-24.063-23.938-33.69-35.466-25.195-54.931
+c37.155-75.78,24.303-169.854-38.72-232.858c-79.235-79.254-207.739-79.254-286.984,0c-79.245,79.264-79.245,207.729,0,287.003
+c62.985,62.985,157.088,75.837,232.839,38.691c19.466-8.485,31.022,1.142,54.951,25.215c16.384,16.385,76.308,84.937,76.308,84.937
+c31.089,31.071,55.009,11.95,69.368-2.39C507.232,478.547,526.362,454.638,495.272,423.558z M286.017,286.012
+c-45.9,45.871-120.288,45.871-166.169,0c-45.88-45.871-45.88-120.278,0-166.149c45.881-45.871,120.269-45.871,166.169,0
+C331.898,165.734,331.898,240.141,286.017,286.012z"></path>
+</symbol>
+<symbol id="svg-kadokawa-group" viewBox="0 0 109.13 12.001">
+<g transform="translate(-5.53 -5.31)">
+<path d="M8.827,9.333,12.651,15h-1.31L8.1,10.1l-1.459,1.53V15H5.53V5.5H6.638v4.853L10.954,5.5h1.336L8.827,9.324Z" transform="translate(0 -0.023)" />
+<path d="M21.827,15H20.658l-.914-3.016H16.358L15.409,15h-1.1L17.361,5.51h1.415Zm-3.042-6.2c-.246-.8-.44-1.53-.668-2.435h-.193c-.22.906-.413,1.626-.659,2.418l-.695,2.321H19.5l-.712-2.3Z" transform="translate(-1.061 -0.024)" />
+<path d="M27.535,5.5c2.8,0,4.493,1.5,4.493,4.7s-1.881,4.791-4.677,4.791H24.59V5.5h2.936Zm-1.82,8.581h1.6c2.11,0,3.534-1.187,3.534-3.868s-1.3-3.8-3.429-3.8h-1.7v7.666Z" transform="translate(-2.303 -0.023)" />
+<path d="M42.412,10.226c0,3.121-1.653,4.932-3.921,4.932s-3.921-1.793-3.921-4.906S36.232,5.32,38.491,5.32,42.412,7.1,42.412,10.226Zm-6.646.018c0,2.611,1.117,3.991,2.734,3.991s2.734-1.38,2.734-3.991S40.126,6.252,38.5,6.252,35.766,7.615,35.766,10.243Z" transform="translate(-3.509 -0.001)" />
+<path d="M48.947,9.333,52.771,15h-1.31L48.217,10.1l-1.459,1.53V15H45.65V5.5h1.108v4.853L51.074,5.5h1.336L48.947,9.324Z" transform="translate(-4.848 -0.023)" />
+<path d="M62.537,15H61.368l-.914-3.016H57.068L56.119,15h-1.1L58.071,5.51h1.415Zm-3.042-6.2c-.246-.8-.44-1.53-.668-2.435h-.193c-.22.906-.413,1.626-.659,2.418l-.695,2.321h2.928l-.712-2.3Z" transform="translate(-5.98 -0.024)" />
+<path d="M73.119,15H71.633L70.491,9.616c-.246-1.117-.4-2.04-.589-3.1h-.22c-.167,1.073-.325,2-.563,3.077L67.906,15H66.42L64.31,5.51h1.16l1.081,5.31c.22,1.055.369,2.057.527,3.121h.22c.193-1.046.36-2.048.58-3.068L69.049,5.51H70.6l1.143,5.433c.2,1,.36,1.855.571,2.989h.22c.22-1.134.334-1.961.554-3.024l1.134-5.4h1.108Z" transform="translate(-7.103 -0.024)" />
+<path d="M85.407,15H84.238l-.914-3.016H79.938L78.989,15h-1.1L80.941,5.51h1.415Zm-3.042-6.2c-.246-.8-.44-1.53-.668-2.435H81.5c-.22.906-.413,1.626-.659,2.418l-.695,2.321h2.928l-.712-2.3Z" transform="translate(-8.744 -0.024)" />
+<path d="M97.724,8.229a2.3,2.3,0,0,0-2.3-1.987c-1.635,0-2.8,1.38-2.8,3.991s1.1,3.991,2.8,3.991c1.582,0,2.356-1.389,2.418-3.121H95.315v-.914h3.569v4.818H98.1l-.132-1.521a2.8,2.8,0,0,1-2.655,1.662c-2.277,0-3.895-1.776-3.895-4.906S93.134,5.31,95.4,5.31a3.368,3.368,0,0,1,3.411,2.629l-1.1.281Z" transform="translate(-10.379 0)" />
+<path d="M105.308,9.669c-.809,0-1.609.642-2.022,1.934v3.772H102.24V8.789h1v1.67c.492-1.266,1.275-1.82,2.136-1.82L105.3,9.66Z" transform="translate(-11.686 -0.402)" />
+<path d="M112.5,12.079c0,2.128-1.16,3.464-2.831,3.464s-2.822-1.31-2.822-3.429,1.16-3.464,2.831-3.464,2.822,1.3,2.822,3.429Zm-4.589.009c0,1.7.659,2.637,1.75,2.637s1.767-.923,1.767-2.637-.659-2.629-1.75-2.629S107.914,10.4,107.914,12.088Z" transform="translate(-12.243 -0.404)" />
+<path d="M120.313,15.4h-1V14.192a2.775,2.775,0,0,1-2.295,1.363,1.734,1.734,0,0,1-1.846-1.864V8.82h1.073v4.545c0,.906.422,1.275,1.134,1.275a2.448,2.448,0,0,0,1.89-1.328V8.82h1.046V15.4Z" transform="translate(-13.249 -0.424)" />
+<path d="M124.421,9.829a2.317,2.317,0,0,1,1.943-1.169c1.459,0,2.541,1.222,2.541,3.411s-1.16,3.464-2.6,3.464a1.991,1.991,0,0,1-1.846-1.143v3.323H123.41V8.8h1V9.829Zm.035,3.631a1.854,1.854,0,0,0,1.626,1.222c.976,0,1.75-.879,1.75-2.594S127.111,9.5,126.153,9.5a1.926,1.926,0,0,0-1.7,1.266v2.69Z" transform="translate(-14.245 -0.405)" />
+</g>
+</symbol>
+<symbol id="svg-newtype" viewBox="0 0 210.638 42">
+<g transform="translate(0 0.01)">
+<g transform="translate(0 -0.01)">
+<path d="M5.4.03S-.006-.172,0,4.817.031,33.194.031,33.194l10.394-.012L10.4,12.5,26.953,33.162l7.588-.009s5.614-.006,5.71-5.2c.093-4.989-.031-27.96-.031-27.96L29.825,0l.022,19.956L13.089.024,5.4.034Z" transform="translate(0 0.01)" class="svg-newtype-path" />
+<path d="M603.372,30.19c-4.781.006-17.982.019-17.982.019s-4.886-.1-4.88,4.37.016,14.656.016,14.656.056,4.52,4.526,4.516,22.815-.025,22.815-.025l-.006-6.5-19.5.022-.04.062V45.07l19.747-.022-.012-10.186s.1-4.678-4.681-4.672Zm-3.335,9.359-11.827.012v-2.7l11.824-.012v2.7Z" transform="translate(-400.066 -20.803)" class="svg-newtype-path" />
+<path d="M249.172,47.779l-2.987,0-.019-17.046-7.588.009.019,16.941h-3.015l-.019-16.937-8,.009.025,23.49,24.32-.025s5.042-.056,5.036-5.045-.019-18.448-.019-18.448l-7.849.009.019,17.046" transform="translate(-156.826 -21.175)" class="svg-newtype-path" />
+<path d="M327.04,19.511h3.951l-.006-5.182,8.107-.009.031,5.175,7.8-.009,3.932,6.932-11.538.012.009,9.213,14.55-.016.009,7.351L335.8,43s-4.781.109-4.787-4.342S331,26.545,331,26.545h-3.951Z" transform="translate(-225.384 -9.866)" class="svg-newtype-path" />
+<path d="M396.09,30.727l9.25-.012L413.2,45.57l7.261-14.87,8.523-.009L413.742,62.927l-9.045.009,4.255-8.215Z" transform="translate(-272.971 -21.147)" class="svg-newtype-path" />
+<path d="M473.48,30.431l15.694-.019s5.688-.3,5.722,4.684l.016,14.177s.109,4.691-4.464,4.7l-15.9.019-.006-6.776L486.7,47.2l-.009-9.487-8.626.009L466.971,62.755l-8.731.009,15.243-32.333Z" transform="translate(-315.802 -20.953)" class="svg-newtype-path" />
+<path d="M.11,116.206v.631l1.685,0,.006,5.138h.678l-.006-5.138,1.675,0,0-.631Z" transform="translate(-0.076 -80.078)" class="svg-newtype-path" />
+<path d="M14.03,116.193l.006,5.772.678,0,0-2.931,3.031,0,0,2.931h.727l-.006-5.769h-.727l0,2.232-3.031,0,0-2.232Z" transform="translate(-9.669 -80.071)" class="svg-newtype-path" />
+<path d="M33.76,116.17l-3.59.006.006,5.769,3.59,0,0-.656-2.931,0,0-2.278,2.934,0,0-.606-2.931,0,0-1.6,2.934,0Z" transform="translate(-20.792 -80.057)" class="svg-newtype-path" />
+<path d="M52.25,116.226l.006,5.722.678,0-.006-4.691,1.8,2.157,1.719-2.16.006,4.691h.678l-.006-5.722-.752,0-1.644,2.1L53,116.226Z" transform="translate(-36.009 -80.091)" class="svg-newtype-path" />
+<path d="M86.72,116.186l2.092,5.719h.8L91.7,116.18l-.727,0L89.2,121.057l-1.725-4.871Z" transform="translate(-59.764 -80.064)" class="svg-newtype-path" />
+<rect width="0.702" height="5.722" transform="translate(32.2 36.116) rotate(-0.06)" class="svg-newtype-path" />
+<path d="M107.39,116.166l.006,5.722.69,0-.006-4.7,2.975,4.7h.777l-.006-5.723-.69,0,0,4.544-2.925-4.541Z" transform="translate(-74.009 -80.05)" class="svg-newtype-path" />
+<path d="M307.263,115.754a3.586,3.586,0,0,0-1.71-.385,3.024,3.024,0,0,0,.006,6.049,3.936,3.936,0,0,0,1.71-.413V118.35h-.73v2.219a2.627,2.627,0,0,1-.979.183,2.147,2.147,0,0,1-2.232-2.4,2.222,2.222,0,0,1,2.229-2.365,2.944,2.944,0,0,1,1.71.544v-.777Z" transform="translate(-208.498 -79.505)" class="svg-newtype-path" />
+<path d="M153.482,116.689h1.3s.933-.075,1.044,1.063a.969.969,0,0,1-1.041.982h-1.43l.022.631h1.365a1.628,1.628,0,0,0,1.756-1.591,1.721,1.721,0,0,0-1.759-1.694H152.77l.006,5.76h.709l-.006-5.154Z" transform="translate(-105.283 -79.995)" class="svg-newtype-path" />
+<path d="M173.889,116.761a2.284,2.284,0,0,0-1.43-.472,2.172,2.172,0,0,0-2.132,2.257,2.149,2.149,0,0,0,2.135,2.362c1.116,0,1.333-.292,1.43-.354v.74a2.786,2.786,0,0,1-1.43.329,3.01,3.01,0,0,1-2.913-3.077,2.872,2.872,0,0,1,2.906-2.925,2.541,2.541,0,0,1,1.43.351v.79Z" transform="translate(-116.848 -79.678)" class="svg-newtype-path" />
+<path d="M198.8,116.066v3.649a2.22,2.22,0,0,0,2.31,2.191,1.979,1.979,0,0,0,2.154-2.2V116.06h-.706v3.649a1.314,1.314,0,0,1-1.449,1.5,1.467,1.467,0,0,1-1.6-1.5v-3.649H198.8Z" transform="translate(-137.006 -79.981)" class="svg-newtype-path" />
+<path d="M215.239,116.59h1.371a.878.878,0,0,1,.9.9c0,.824-.9.849-.9.849H215.09l.022.656h.83a1.223,1.223,0,0,1,1.2.845,10.593,10.593,0,0,0,.995,1.94h.92a3.518,3.518,0,0,1-.426-.56c-.171-.292-.668-1.138-.752-1.358a1.693,1.693,0,0,0-.9-1.054,1.454,1.454,0,0,0,1.222-1.383,1.382,1.382,0,0,0-1.421-1.393c-.364-.012-2.241,0-2.241,0l.006,5.744h.7l-.012-5.188Z" transform="translate(-147.853 -79.955)" class="svg-newtype-path" />
+<path d="M246.4,115.972a3.241,3.241,0,0,0-1.455-.3c-.908,0-1.806.4-1.806,1.383s.911,1.2,1.191,1.3,1.964.41,1.881,1.343c0,0,.037,1.212-1.6,1.212a3.3,3.3,0,0,1-1.772-.507v.777a4.489,4.489,0,0,0,1.881.423,2.12,2.12,0,0,0,2.254-1.905c-.012-1.175-1.094-1.585-1.772-1.769s-1.321-.326-1.321-.87.51-.74,1.066-.74a2.519,2.519,0,0,1,1.455.41v-.752Z" transform="translate(-167.356 -79.712)" class="svg-newtype-path" />
+<path d="M336.3,115.923v.619l2.655,0-2.832,5.129,4.209,0,0-.631-3.031,0,2.785-5.116Z" transform="translate(-231.642 -79.885)" class="svg-newtype-path" />
+<rect width="0.702" height="5.744" transform="translate(51.5 36.096) rotate(-0.06)" class="svg-newtype-path" />
+<path d="M184.8,116.086v.628h1.685l.006,5.138h.678l-.006-5.141h1.672v-.631Z" transform="translate(-127.357 -79.995)" class="svg-newtype-path" />
+<path d="M233.11,116.03l-3.59.006.006,5.744,3.59,0v-.656l-2.934,0,0-2.254,2.934,0v-.606l-2.934,0,0-1.6,2.934,0Z" transform="translate(-158.177 -79.961)" class="svg-newtype-path" />
+<path d="M127.643,116.034a3.586,3.586,0,0,0-1.71-.385,3.024,3.024,0,0,0,.006,6.049,3.935,3.935,0,0,0,1.71-.413V118.63h-.73v2.219a2.627,2.627,0,0,1-.979.183,2.147,2.147,0,0,1-2.232-2.4,2.222,2.222,0,0,1,2.229-2.365,2.944,2.944,0,0,1,1.71.544v-.777Z" transform="translate(-84.71 -79.698)" class="svg-newtype-path" />
+<path d="M270,115.993l.006,5.723h.681l-.006-4.694,1.8,2.157,1.719-2.16.006,4.691h.678l-.006-5.719h-.752l-1.644,2.1-1.725-2.1Z" transform="translate(-186.074 -79.933)" class="svg-newtype-path" />
+<rect width="0.702" height="5.744" transform="translate(109.101 36.039) rotate(-0.06)" class="svg-newtype-path" />
+<path d="M354.78,115.9l.006,5.744h.693l-.006-4.7,2.975,4.7h.777l-.006-5.747-.693,0,.006,4.569L355.6,115.9Z" transform="translate(-244.501 -79.864)" class="svg-newtype-path" />
+<path d="M374.357,115.88l-3.587,0,.006,5.747,3.587-.006v-.653l-2.931,0,0-2.254,2.931-.006v-.6l-2.931,0,0-1.6,2.934,0Z" transform="translate(-255.521 -79.857)" class="svg-newtype-path" />
+<path d="M289.639,118.719l-.022.494H288.6l-.954,2.452h-.74l2.247-5.772.789,0,2.272,5.769h-.777l-.911-2.446h-.954l-.043-.7h.762l-.765-1.794-.69,1.794h.777Z" transform="translate(-197.728 -79.864)" class="svg-newtype-path" />
+<path d="M157.442,30.68c-4.781.006-17.982.019-17.982.019s-4.886-.1-4.88,4.37.016,14.656.016,14.656.056,4.523,4.526,4.516,22.815-.025,22.815-.025l-.006-6.5-19.5.022-.04.062V45.56l19.747-.022-.012-10.186s.1-4.678-4.681-4.672Zm-3.335,9.359-11.827.012v-2.7l11.824-.012v2.7Z" transform="translate(-92.748 -21.14)" class="svg-newtype-path" />
+<path d="M72.28,121.91a2.93,2.93,0,0,1-2.95-2.965,2.8,2.8,0,0,1,2.822-2.975H72.4l.019.594h-.187a2.14,2.14,0,0,0-2.132,2.39s.062,2.316,2.2,2.313h.025c2.132,0,2.191-2.319,2.191-2.319a2.141,2.141,0,0,0-2.135-2.381v-.6a2.811,2.811,0,0,1,2.869,2.965,2.925,2.925,0,0,1-2.944,2.972H72.28Z" transform="translate(-47.78 -79.919)" class="svg-newtype-path" />
+<path d="M321.069,118.686l-.022.5h-1.013l-.954,2.449h-.74l2.247-5.772h.789l2.272,5.769h-.774l-.914-2.449-.954,0-.044-.7.762,0-.765-1.794-.69,1.8h.777Z" transform="translate(-219.388 -79.843)" class="svg-newtype-path" />
+<g transform="translate(208.043 9.623)">
+<path d="M672.807,33.963c0-.28-.068-.326-.19-.379a.358.358,0,0,0,.233-.357.424.424,0,0,0-.473-.426h-.758v1.5h.308v-.587h.323c.233,0,.246.078.246.283a.978.978,0,0,0,.034.3h.348v-.04c-.068-.025-.068-.081-.068-.3Zm-.516-.5h-.367v-.4h.392c.183,0,.221.115.221.2,0,.149-.081.205-.242.205Z" transform="translate(-670.899 -32.225)" class="svg-newtype-path" />
+<path d="M671.513,31.329a1.294,1.294,0,1,0,.382.917A1.289,1.289,0,0,0,671.513,31.329Zm-.914,2.036a1.121,1.121,0,1,1,1.119-1.122A1.115,1.115,0,0,1,670.6,33.365Z" transform="translate(-669.3 -30.95)" class="svg-newtype-path" />
+</g>
+</g>
+<g transform="translate(119.262 36.013)">
+<path d="M385.794,117.706c0-.171-.04-.2-.115-.23a.219.219,0,0,0,.14-.218.258.258,0,0,0-.289-.258h-.46v.914h.186v-.357h.2c.14,0,.149.047.149.174a.6.6,0,0,0,.022.183h.211v-.025c-.04-.016-.04-.05-.04-.18Zm-.314-.3h-.224v-.242h.239c.112,0,.134.071.134.118,0,.09-.05.124-.146.124Z" transform="translate(-384.638 -116.652)" class="svg-newtype-path" />
+<path d="M385.023,116.11a.792.792,0,1,0,.23.56.783.783,0,0,0-.23-.56Zm-.556,1.237a.688.688,0,0,1-.482-.2.677.677,0,0,1-.2-.482.688.688,0,0,1,.2-.482.677.677,0,0,1,.482-.2.688.688,0,0,1,.482.2.681.681,0,0,1-.482,1.163Z" transform="translate(-383.68 -115.88)" class="svg-newtype-path" />
+</g>
+</g>
+</symbol>
+<symbol id="svg-mail" viewBox="0 0 15.506 11.629">
+<path d="M1.454,64a1.454,1.454,0,0,0-.872,2.617l6.59,4.942a.972.972,0,0,0,1.163,0l6.59-4.942A1.454,1.454,0,0,0,14.052,64ZM0,67.392v6.3a1.94,1.94,0,0,0,1.938,1.938H13.568a1.94,1.94,0,0,0,1.938-1.938v-6.3l-6.59,4.942a1.935,1.935,0,0,1-2.326,0Z" transform="translate(0 -64)"></path>
+</symbol>
+<symbol id="svg-play" viewBox="0 0 70 70">
+<g transform="translate(-633 -1599)">
+<circle cx="35" cy="35" fill="#fff" opacity="0.899" r="35" transform="translate(633 1599)"></circle>
+<path d="M8.252,3.147a2,2,0,0,1,3.5,0l6.6,11.882A2,2,0,0,1,16.6,18H3.4a2,2,0,0,1-1.748-2.971Z" fill="#272c34" opacity="0.996" transform="translate(678 1624) rotate(90)"></path>
+</g>
+</symbol>
+<symbol id="svg-close" viewBox="0 0 23.335 23.337">
+<g transform="translate(-1078.001 -37.999)">
+<rect width="30" height="3" transform="translate(1080.122 38.001) rotate(45)" />
+<rect width="30" height="3" transform="translate(1078.001 59.212) rotate(-45)" />
+</g>
+</symbol>
+</svg>
+</body>
+</html>

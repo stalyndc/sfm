@@ -1,0 +1,1788 @@
+<!doctype html>
+<html class="no-js" lang="en-US">
+
+<head><meta charset="UTF-8" /><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="2.0.3",this.userEvents=["keydown","keyup","mousedown","mouseup","mousemove","mouseover","mouseenter","mouseout","mouseleave","touchmove","touchstart","touchend","touchcancel","wheel","click","dblclick","input","visibilitychange"],this.attributeEvents=["onblur","onclick","oncontextmenu","ondblclick","onfocus","onmousedown","onmouseenter","onmouseleave","onmousemove","onmouseout","onmouseover","onmouseup","onmousewheel","onscroll","onsubmit"]}async t(){this.i(),this.o(),/iP(ad|hone)/.test(navigator.userAgent)&&this.h(),this.u(),this.l(this),this.m(),this.k(this),this.p(this),this._(),await Promise.all([this.R(),this.L()]),this.lastBreath=Date.now(),this.S(this),this.P(),this.D(),this.O(),this.M(),await this.C(this.delayedScripts.normal),await this.C(this.delayedScripts.defer),await this.C(this.delayedScripts.async),this.F("domReady"),await this.T(),await this.j(),await this.I(),this.F("windowLoad"),await this.A(),window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.lastTouchEnd&&await new Promise((t=>setTimeout(t,500-Date.now()+this.lastTouchEnd))),this.H(),this.F("all"),this.U(),this.W()}i(){this.CSPIssue=sessionStorage.getItem("rocketCSPIssue"),document.addEventListener("securitypolicyviolation",(t=>{this.CSPIssue||"script-src-elem"!==t.violatedDirective||"data"!==t.blockedURI||(this.CSPIssue=!0,sessionStorage.setItem("rocketCSPIssue",!0))}),{isRocket:!0})}o(){window.addEventListener("pageshow",(t=>{this.persisted=t.persisted,this.realWindowLoadedFired=!0}),{isRocket:!0}),window.addEventListener("pagehide",(()=>{this.onFirstUserAction=null}),{isRocket:!0})}h(){let t;function e(e){t=e}window.addEventListener("touchstart",e,{isRocket:!0}),window.addEventListener("touchend",(function i(o){Math.abs(o.changedTouches[0].pageX-t.changedTouches[0].pageX)<10&&Math.abs(o.changedTouches[0].pageY-t.changedTouches[0].pageY)<10&&o.timeStamp-t.timeStamp<200&&(o.target.dispatchEvent(new PointerEvent("click",{target:o.target,bubbles:!0,cancelable:!0,detail:1})),event.preventDefault(),window.removeEventListener("touchstart",e,{isRocket:!0}),window.removeEventListener("touchend",i,{isRocket:!0}))}),{isRocket:!0})}q(t){this.userActionTriggered||("mousemove"!==t.type||this.firstMousemoveIgnored?"keyup"===t.type||"mouseover"===t.type||"mouseout"===t.type||(this.userActionTriggered=!0,this.onFirstUserAction&&this.onFirstUserAction()):this.firstMousemoveIgnored=!0),"click"===t.type&&t.preventDefault(),this.savedUserEvents.length>0&&(t.stopPropagation(),t.stopImmediatePropagation()),"touchstart"===this.lastEvent&&"touchend"===t.type&&(this.lastTouchEnd=Date.now()),"click"===t.type&&(this.lastTouchEnd=0),this.lastEvent=t.type,this.savedUserEvents.push(t)}u(){this.savedUserEvents=[],this.userEventHandler=this.q.bind(this),this.userEvents.forEach((t=>window.addEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})))}U(){this.userEvents.forEach((t=>window.removeEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0}))),this.savedUserEvents.forEach((t=>{t.target.dispatchEvent(new window[t.constructor.name](t.type,t))}))}m(){this.eventsMutationObserver=new MutationObserver((t=>{const e="return false";for(const i of t){if("attributes"===i.type){const t=i.target.getAttribute(i.attributeName);t&&t!==e&&(i.target.setAttribute("data-rocket-"+i.attributeName,t),i.target["rocket"+i.attributeName]=new Function("event",t),i.target.setAttribute(i.attributeName,e))}"childList"===i.type&&i.addedNodes.forEach((t=>{if(t.nodeType===Node.ELEMENT_NODE)for(const i of t.attributes)this.attributeEvents.includes(i.name)&&i.value&&""!==i.value&&(t.setAttribute("data-rocket-"+i.name,i.value),t["rocket"+i.name]=new Function("event",i.value),t.setAttribute(i.name,e))}))}})),this.eventsMutationObserver.observe(document,{subtree:!0,childList:!0,attributeFilter:this.attributeEvents})}H(){this.eventsMutationObserver.disconnect(),this.attributeEvents.forEach((t=>{document.querySelectorAll("[data-rocket-"+t+"]").forEach((e=>{e.setAttribute(t,e.getAttribute("data-rocket-"+t)),e.removeAttribute("data-rocket-"+t)}))}))}k(t){Object.defineProperty(HTMLElement.prototype,"onclick",{get(){return this.rocketonclick||null},set(e){this.rocketonclick=e,this.setAttribute(t.everythingLoaded?"onclick":"data-rocket-onclick","this.rocketonclick(event)")}})}S(t){function e(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o,set(s){t.everythingLoaded?o=s:e["rocket"+i]=o=s}})}e(document,"onreadystatechange"),e(window,"onload"),e(window,"onpageshow");try{Object.defineProperty(document,"readyState",{get:()=>t.rocketReadyState,set(e){t.rocketReadyState=e},configurable:!0}),document.readyState="loading"}catch(t){console.log("WPRocket DJE readyState conflict, bypassing")}}l(t){this.originalAddEventListener=EventTarget.prototype.addEventListener,this.originalRemoveEventListener=EventTarget.prototype.removeEventListener,this.savedEventListeners=[],EventTarget.prototype.addEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalAddEventListener.call(this,e,i,o):t.savedEventListeners.push({target:this,remove:!1,type:e,func:i,options:o})},EventTarget.prototype.removeEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalRemoveEventListener.call(this,e,i,o):t.savedEventListeners.push({target:this,remove:!0,type:e,func:i,options:o})}}F(t){"all"===t&&(EventTarget.prototype.addEventListener=this.originalAddEventListener,EventTarget.prototype.removeEventListener=this.originalRemoveEventListener),this.savedEventListeners=this.savedEventListeners.filter((e=>{let i=e.type,o=e.target||window;return"domReady"===t&&"DOMContentLoaded"!==i&&"readystatechange"!==i||("windowLoad"===t&&"load"!==i&&"readystatechange"!==i&&"pageshow"!==i||(this.B(i,o)&&(i="rocket-"+i),e.remove?o.removeEventListener(i,e.func,e.options):o.addEventListener(i,e.func,e.options),!1))}))}p(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map((t=>"load"===t||t.startsWith("load.")?"rocket-jquery-load":t)).join(" ")}function o(o){function s(e){const s=o.fn[e];o.fn[e]=o.fn.init.prototype[e]=function(){return this[0]===window&&t.userActionTriggered&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e}))),s.apply(this,arguments),this}}if(o&&o.fn&&!t.allJQueries.includes(o)){const e={DOMContentLoaded:[],"rocket-DOMContentLoaded":[]};for(const t in e)document.addEventListener(t,(()=>{e[t].forEach((t=>t()))}),{isRocket:!0});o.fn.ready=o.fn.init.prototype.ready=function(i){function s(){parseInt(o.fn.jquery)>2?setTimeout((()=>i.bind(document)(o))):i.bind(document)(o)}return t.realDomReadyFired?!t.userActionTriggered||t.fauxDomReadyFired?s():e["rocket-DOMContentLoaded"].push(s):e.DOMContentLoaded.push(s),o([])},s("on"),s("one"),s("off"),t.allJQueries.push(o)}e=o}t.allJQueries=[],o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}P(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript,o=document.createRange(),s=i.parentElement;let n=t.get(i);void 0===n&&(n=i.nextSibling,t.set(i,n));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),s.insertBefore(c,n)}}async R(){return new Promise((t=>{this.userActionTriggered?t():this.onFirstUserAction=t}))}async L(){return new Promise((t=>{document.addEventListener("DOMContentLoaded",(()=>{this.realDomReadyFired=!0,t()}),{isRocket:!0})}))}async I(){return this.realWindowLoadedFired?Promise.resolve():new Promise((t=>{window.addEventListener("load",t,{isRocket:!0})}))}M(){this.pendingScripts=[];this.scriptsMutationObserver=new MutationObserver((t=>{for(const e of t)e.addedNodes.forEach((t=>{"SCRIPT"!==t.tagName||t.noModule||t.isWPRocket||this.pendingScripts.push({script:t,promise:new Promise((e=>{const i=()=>{const i=this.pendingScripts.findIndex((e=>e.script===t));i>=0&&this.pendingScripts.splice(i,1),e()};t.addEventListener("load",i,{isRocket:!0}),t.addEventListener("error",i,{isRocket:!0}),setTimeout(i,1e3)}))})}))})),this.scriptsMutationObserver.observe(document,{childList:!0,subtree:!0})}async j(){await this.J(),this.pendingScripts.length?(await this.pendingScripts[0].promise,await this.j()):this.scriptsMutationObserver.disconnect()}D(){this.delayedScripts={normal:[],async:[],defer:[]},document.querySelectorAll("script[type$=rocketlazyloadscript]").forEach((t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)}))}async _(){await this.L();let t=[];document.querySelectorAll("script[type$=rocketlazyloadscript][data-rocket-src]").forEach((e=>{let i=e.getAttribute("data-rocket-src");if(i&&!i.startsWith("data:")){i.startsWith("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}})),t=[...new Map(t.map((t=>[JSON.stringify(t),t]))).values()],this.N(t,"preconnect")}async $(t){if(await this.G(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise((e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.includes("Firefox/")||""===navigator.vendor||this.CSPIssue)i=document.createElement("script"),[...t.attributes].forEach((t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))})),t.text&&(i.text=t.text),t.nonce&&(i.nonce=t.nonce),i.hasAttribute("src")?(i.addEventListener("load",o,{isRocket:!0}),i.addEventListener("error",(()=>{i.setAttribute("data-rocket-status","failed-network"),e()}),{isRocket:!0}),setTimeout((()=>{i.isConnected||e()}),1)):(i.text=t.text,o()),i.isWPRocket=!0,t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),s=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o,{isRocket:!0}),t.addEventListener("error",(i=>{this.CSPIssue&&i.target.src.startsWith("data:")?(console.log("WPRocket: CSP fallback activated"),t.removeAttribute("src"),this.$(t).then(e)):(t.setAttribute("data-rocket-status","failed-network"),e())}),{isRocket:!0}),s?(t.fetchPriority="high",t.removeAttribute("data-rocket-src"),t.src=s):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed-transform"),e()}}));t.setAttribute("data-rocket-status","skipped")}async C(t){const e=t.shift();return e?(e.isConnected&&await this.$(e),this.C(t)):Promise.resolve()}O(){this.N([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}N(t,e){this.trash=this.trash||[];let i=!0;var o=document.createDocumentFragment();t.forEach((t=>{const s=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(s&&!s.startsWith("data:")){const n=document.createElement("link");n.href=s,n.rel=e,"preconnect"!==e&&(n.as="script",n.fetchPriority=i?"high":"low"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),t.nonce&&(n.nonce=t.nonce),o.appendChild(n),this.trash.push(n),i=!1}})),document.head.appendChild(o)}W(){this.trash.forEach((t=>t.remove()))}async T(){try{document.readyState="interactive"}catch(t){}this.fauxDomReadyFired=!0;try{await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.G(),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}catch(t){console.error(t)}}async A(){try{document.readyState="complete"}catch(t){}try{await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),window.dispatchEvent(new Event("rocket-load")),await this.G(),window.rocketonload&&window.rocketonload(),await this.G(),this.allJQueries.forEach((t=>t(window).trigger("rocket-jquery-load"))),await this.G();const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.G(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}catch(t){console.error(t)}}async G(){Date.now()-this.lastBreath>45&&(await this.J(),this.lastBreath=Date.now())}async J(){return document.hidden?new Promise((t=>setTimeout(t))):new Promise((t=>requestAnimationFrame(t)))}B(t,e){return e===document&&"readystatechange"===t||(e===document&&"DOMContentLoaded"===t||(e===window&&"DOMContentLoaded"===t||(e===window&&"load"===t||e===window&&"pageshow"===t)))}static run(){(new RocketLazyLoadScripts).t()}}RocketLazyLoadScripts.run()})();</script>
+  
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script type="text/javascript">
+/* <![CDATA[ */
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),document.addEventListener("gform/theme/scripts_loaded",function(){gform.themeScriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,themeScriptsLoaded:!1,isFormEditor:()=>"function"==typeof InitializeEditor,callIfLoaded:function(o){return!(!gform.domLoaded||!gform.scriptsLoaded||!gform.themeScriptsLoaded&&!gform.isFormEditor()||(gform.isFormEditor()&&console.warn("The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1."),o(),0))},initializeOnLoaded:function(o){gform.callIfLoaded(o)||(document.addEventListener("gform_main_scripts_loaded",()=>{gform.scriptsLoaded=!0,gform.callIfLoaded(o)}),document.addEventListener("gform/theme/scripts_loaded",()=>{gform.themeScriptsLoaded=!0,gform.callIfLoaded(o)}),window.addEventListener("DOMContentLoaded",()=>{gform.domLoaded=!0,gform.callIfLoaded(o)}))},hooks:{action:{},filter:{}},addAction:function(o,r,e,t){gform.addHook("action",o,r,e,t)},addFilter:function(o,r,e,t){gform.addHook("filter",o,r,e,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,r){gform.removeHook("action",o,r)},removeFilter:function(o,r,e){gform.removeHook("filter",o,r,e)},addHook:function(o,r,e,t,n){null==gform.hooks[o][r]&&(gform.hooks[o][r]=[]);var d=gform.hooks[o][r];null==n&&(n=r+"_"+d.length),gform.hooks[o][r].push({tag:n,callable:e,priority:t=null==t?10:t})},doHook:function(r,o,e){var t;if(e=Array.prototype.slice.call(e,1),null!=gform.hooks[r][o]&&((o=gform.hooks[r][o]).sort(function(o,r){return o.priority-r.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==r?t.apply(null,e):e[0]=t.apply(null,e)})),"filter"==r)return e[0]},removeHook:function(o,r,t,n){var e;null!=gform.hooks[o][r]&&(e=(e=gform.hooks[o][r]).filter(function(o,r,e){return!!(null!=n&&n!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][r]=e)}});
+/* ]]> */
+</script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://unpkg.com/">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto+Condensed&family=Roboto+Flex:wght@500&family=Roboto:wght@400;500;700&display=swap');
+  </style>
+
+  <!-- Storage CDN -->
+  <link rel="preconnect" href="https://media.brooklynvegan.com">
+  <link rel="dns-prefetch" href="https://media.brooklynvegan.com">
+
+  
+  
+  <title>Music</title>
+<link crossorigin data-rocket-preconnect href="https://cdn.hadronid.net" rel="preconnect">
+<link crossorigin data-rocket-preconnect href="https://connect.facebook.net" rel="preconnect">
+<link crossorigin data-rocket-preconnect href="https://cmp.inmobi.com" rel="preconnect">
+<link crossorigin data-rocket-preconnect href="https://www.googletagmanager.com" rel="preconnect">
+<link crossorigin data-rocket-preconnect href="https://htlbid.com" rel="preconnect">
+<link crossorigin data-rocket-preconnect href="https://media.brooklynvegan.com" rel="preconnect">
+<link crossorigin data-rocket-preconnect href="https://raven-edge.aditude.io" rel="preconnect">
+<link crossorigin data-rocket-preconnect href="https://securepubads.g.doubleclick.net" rel="preconnect">
+<link crossorigin data-rocket-preconnect href="https://c.amazon-adsystem.com" rel="preconnect">
+<link crossorigin data-rocket-preconnect href="https://raven-static.aditude.io" rel="preconnect">
+<link crossorigin data-rocket-preconnect href="https://cds.connatix.com" rel="preconnect">
+<link crossorigin data-rocket-preconnect href="https://config.aps.amazon-adsystem.com" rel="preconnect">
+<link crossorigin data-rocket-preconnect href="https://js.gumgum.com" rel="preconnect">
+<link crossorigin data-rocket-preconnect href="https://cdn.id5-sync.com" rel="preconnect">
+<link crossorigin data-rocket-preconnect href="https://p.ad.gt" rel="preconnect">
+<link crossorigin data-rocket-preconnect href="https://www.facebook.com" rel="preconnect">
+<link crossorigin data-rocket-preconnect href="https://www.statcounter.com" rel="preconnect">
+<link crossorigin data-rocket-preconnect href="https://imasdk.googleapis.com" rel="preconnect">
+<link crossorigin data-rocket-preconnect href="https://assets.connatix.com" rel="preconnect">
+<link crossorigin data-rocket-preconnect href="https://ep2.adtrafficquality.google" rel="preconnect">
+<link crossorigin data-rocket-preconnect href="https://www.google.com" rel="preconnect">
+<link crossorigin data-rocket-preconnect href="https://pixels.ad.gt" rel="preconnect"><link rel="preload" data-rocket-preload as="image" href="https://www.brooklynvegan.com/wp-content/project-base/project-theme/PubPortal/assets/newbg2.png" fetchpriority="high">
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<link rel="canonical" href="https://www.brooklynvegan.com/category/music/">
+<meta property="og:url" content="https://www.brooklynvegan.com/category/music/">
+<meta property="og:site_name" content="BrooklynVegan">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="object">
+<meta property="og:title" content="Music">
+<meta property="og:image" content="https://www.brooklynvegan.com/wp-content/uploads/2023/05/24/bv-1logo-new1-1-1.png">
+<meta property="og:image:secure_url" content="https://www.brooklynvegan.com/wp-content/uploads/2023/05/24/bv-1logo-new1-1-1.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Music">
+<link rel='dns-prefetch' href='//unpkg.com' />
+<link rel='dns-prefetch' href='//player.target-video.com' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//media.brooklynvegan.com' />
+<link rel="alternate" type="application/rss+xml" title="BrooklynVegan &raquo; Music Category Feed" href="https://www.brooklynvegan.com/category/music/feed/" />
+<link rel='stylesheet' id='sbi_styles-css' href='https://www.brooklynvegan.com/wp-content/cache/background-css/1/www.brooklynvegan.com/wp-content/plugins/instagram-feed/css/sbi-styles.min.css?ver=6.9.1&wpr_t=1757968190' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.brooklynvegan.com/wp-includes/css/dist/block-library/style.min.css?ver=6.8.2' type='text/css' media='all' />
+<style id='co-authors-plus-coauthors-style-inline-css' type='text/css'>
+.wp-block-co-authors-plus-coauthors.is-layout-flow [class*=wp-block-co-authors-plus]{display:inline}
+
+</style>
+<style id='co-authors-plus-avatar-style-inline-css' type='text/css'>
+.wp-block-co-authors-plus-avatar :where(img){height:auto;max-width:100%;vertical-align:bottom}.wp-block-co-authors-plus-coauthors.is-layout-flow .wp-block-co-authors-plus-avatar :where(img){vertical-align:middle}.wp-block-co-authors-plus-avatar:is(.alignleft,.alignright){display:table}.wp-block-co-authors-plus-avatar.aligncenter{display:table;margin-inline:auto}
+
+</style>
+<style id='co-authors-plus-image-style-inline-css' type='text/css'>
+.wp-block-co-authors-plus-image{margin-bottom:0}.wp-block-co-authors-plus-image :where(img){height:auto;max-width:100%;vertical-align:bottom}.wp-block-co-authors-plus-coauthors.is-layout-flow .wp-block-co-authors-plus-image :where(img){vertical-align:middle}.wp-block-co-authors-plus-image:is(.alignfull,.alignwide) :where(img){width:100%}.wp-block-co-authors-plus-image:is(.alignleft,.alignright){display:table}.wp-block-co-authors-plus-image.aligncenter{display:table;margin-inline:auto}
+
+</style>
+<style id='safe-svg-svg-icon-style-inline-css' type='text/css'>
+.safe-svg-cover{text-align:center}.safe-svg-cover .safe-svg-inside{display:inline-block;max-width:100%}.safe-svg-cover svg{fill:currentColor;height:100%;max-height:100%;max-width:100%;width:100%}
+
+</style>
+<link data-minify="1" rel='stylesheet' id='create-block-veeps-player-style-css' href='https://www.brooklynvegan.com/wp-content/cache/background-css/1/www.brooklynvegan.com/wp-content/cache/min/1/wp-content/project-base/project-plugins/veeps-player/build/veeps-player/style-index.css?ver=1757495200&wpr_t=1757968190' type='text/css' media='all' />
+<style id='pubportal-hero-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='pubportal-listicle-style-inline-css' type='text/css'>
+.wp-block-pubportal-listicle{counter-reset:listicle var(--listicle-count)}@media only screen and (max-width:767px){.w-listicle-item{flex-wrap:wrap}}.w-listicle.layout-one_column .w-listicle-item{flex-direction:column;margin-bottom:32px}.w-listicle.layout-one_column .w-listicle-item .listicle-item__media{max-height:100%;max-width:100%}.w-listicle-item{-moz-column-gap:40px;column-gap:40px;display:flex;margin-bottom:74px}.w-listicle-item a[href]{color:var(--wp--preset--color--brand-color);text-decoration:underline}.w-listicle-item a[href]:hover{text-decoration:none}.w-listicle-item .listicle-item__media{flex:0 0 auto;margin-bottom:20px;max-height:300px;max-width:300px;position:relative;width:100%}.w-listicle-item .listicle-item__media.none,.w-listicle-item .listicle-item__media.portrait{max-height:100%}.w-listicle-item .listicle-item__media.no-image:before{background-color:rgba(69,68,74,.1);box-shadow:0 0 180px rgba(0,0,0,.05);content:"";display:block;padding-top:66.666%;width:100%}.w-listicle-item .listicle-item__media.ratio-16-9 img{aspect-ratio:16/9;-o-object-fit:cover;object-fit:cover}.w-listicle-item .listicle-item__media.ratio-4-3 img{aspect-ratio:4/3;-o-object-fit:cover;object-fit:cover}.w-listicle-item .listicle-item__media.ratio-1-1 img{aspect-ratio:1/1;-o-object-fit:cover;object-fit:cover}.w-listicle-item .listicle-item__media img{height:auto;width:100%}.w-listicle-item .listicle-item__media iframe{aspect-ratio:16/9;height:100%;width:100%}.w-listicle-item .listicle-item__header{align-items:flex-start;-moz-column-gap:20px;column-gap:20px;display:flex;margin-bottom:8px}.w-listicle-item .listicle-item__count{background-color:var(--wp--preset--color--brand-color,#038630);color:#fff;counter-increment:listicle;font-size:20px;font-weight:700;line-height:40px;min-height:40px;min-width:40px;padding-left:6px;padding-right:6px;text-align:center}.reverse .w-listicle-item .listicle-item__count{counter-increment:listicle -1}.w-listicle-item .listicle-item__count:before{content:counter(listicle,decimal)}.w-listicle.layout-two_column .listicle-item__media.orientation-right,.w-listicle.layout-two_column.orientation-alternating .wp-block-pubportal-listicle-item:nth-child(2n) .listicle-item__media.orientation-alternating{order:2}
+
+</style>
+<style id='pubportal-listicle-item-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='pubportal-featured-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='pubportal-recirculation-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='pubportal-swiper-slider-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='pubportal-category-style-inline-css' type='text/css'>
+.pubp-category-block{margin-bottom:2rem}.pubp-category-block .w-category-list{grid-template-columns:repeat(1,minmax(0,1fr))}@media screen and (min-width:1024px){.pubp-category-block .w-category-list.items-1{grid-template-columns:repeat(1,minmax(0,1fr))}.pubp-category-block .w-category-list.items-2{grid-template-columns:repeat(2,minmax(0,1fr))}.pubp-category-block .w-category-list.items-3{grid-template-columns:repeat(3,minmax(0,1fr))}.pubp-category-block .w-category-list.items-4{grid-template-columns:repeat(4,minmax(0,1fr))}.pubp-category-block .w-category-list.items-5{grid-template-columns:repeat(5,minmax(0,1fr))}.pubp-category-block .w-category-list.items-6{grid-template-columns:repeat(6,minmax(0,1fr))}}
+
+</style>
+<style id='pubportal-placeholderads-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='pubportal-custom-html-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='pubportal-image-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='pubportal-video-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='pubportal-conversions-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='pubportal-simple-tab-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='pubportal-feed-style-inline-css' type='text/css'>
+.w-feed-block .card.l-large .card-media img{height:auto}.w-feed-block .card.l-large.ratio-1-1 .card-media img{aspect-ratio:1/1}.w-feed-block .card.l-large.ratio-4-3 .card-media img{aspect-ratio:4/3}.w-feed-block .card.l-large.ratio-3-4 .card-media img{aspect-ratio:3/4}.w-feed-block .card.l-large.ratio-16-9 .card-media img{aspect-ratio:16/9}
+
+</style>
+<style id='pubportal-gallery-style-inline-css' type='text/css'>
+[class*=row-item-count-]>.columns{flex:0 0 100%;max-width:100%}@media screen and (min-width:1024px){.row-item-count-2>.columns{flex:0 0 50%;max-width:50%}.row-item-count-3>.columns{flex:0 0 33.33333%;max-width:33.33333%}.row-item-count-4>.columns{flex:0 0 25%;max-width:25%}.row-item-count-5>.columns{flex:0 0 20%;max-width:20%}.row-item-count-6>.columns{flex:0 0 16.66667%;max-width:16.66667%}.row-item-count-7>.columns{flex:0 0 14.28571%;max-width:14.28571%}.row-item-count-8>.columns{flex:0 0 12.5%;max-width:12.5%}}.w-gallery-right-col{align-items:center;display:grid;gap:var(--wp--style--global--gutter);grid-auto-rows:1fr;grid-template-columns:1fr;justify-items:center}.w-gallery-image-details{display:grid;grid-template-areas:"item";height:100%;overflow:hidden;overflow-wrap:break-word;place-items:center}.gallery-image-details{grid-area:item;-ms-grid-column:1;-ms-grid-row:1;opacity:0;padding-left:var(--wp--style--global--half-gutter);padding-right:var(--wp--style--global--half-gutter);transition:all .2s ease-in-out;visibility:hidden}.gallery-image-details.active{opacity:1;visibility:visible}.l-variant-2{--gallery-nav-pd:0.75rem 1rem;--gallery-nav-pd-hover:3.25rem;--gallery-nav-pd-hover-sm:3.25rem;--gallery-count-offset:0.625rem;--gallery-nav-size:3.125rem;--gallery-icon-bg-size:1.125rem 1.625rem;--gallery-nav-opacity:0.6;--gallery-nav-opacity-hover:0.8}.l-variant-2 .w-gallery-slider{background-color:var(--bg-color);color:var(--description-color)}.l-variant-2.l-square .w-gallery-img{padding:.625rem}.l-variant-2.l-standard .w-gallery-img{padding:.46875rem .625rem}.l-variant-2.l-portrait .w-gallery-img{padding:.8333333333rem .625rem}.l-variant-2.l-widescreen .w-gallery-img{padding:.3515625rem .625rem}.l-variant-2.l-vertical .w-gallery-img{padding:1.1111111111rem .625rem}.l-variant-2 .swiper-slide{align-items:center;display:flex;justify-content:center}.l-variant-2 .slide-count{opacity:0;pointer-events:none;position:absolute;transition:all .2s ease-in-out;visibility:hidden}.l-variant-2 .image__title{color:var(--title-color,var(--wp--preset--color--secondary-color))}.l-variant-2 .image__caption,.l-variant-2 .image__description{color:var(--description-color,var(--wp--preset--color--black))}.l-variant-2 .gallery-slider-variant-2 .swiper-button{color:var(--wp--preset--color--white);transition:all .2s ease-in-out}.l-variant-2 .gallery-slider-variant-2 .swiper-button:before{background-color:var(--wp--preset--color--black);bottom:0;content:"";display:block;left:0;opacity:var(--gallery-nav-opacity);position:absolute;right:0;top:0;transition:all .2s ease-in-out}.l-variant-2 .gallery-slider-variant-2 .swiper-button:hover:before{opacity:var(--gallery-nav-opacity-hover)}.l-variant-2 .gallery-slider-variant-2 .swiper-button:after{background-color:var(--wp--preset--color--white);height:var(--gallery-nav-size);-webkit-mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 viewBox=%270 0 18 16%27%3E%3Cpath fill=%27%23fff%27 d=%27M.406 7.36 7.281.485a.662.662 0 0 1 .899 0 .662.662 0 0 1 0 .899L2.36 7.165h14.765c.313 0 .625.313.625.625a.642.642 0 0 1-.625.625H2.359l5.82 5.82a.662.662 0 0 1 0 .899.662.662 0 0 1-.898 0L.406 8.259a.662.662 0 0 1 0-.899Z%27/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 viewBox=%270 0 18 16%27%3E%3Cpath fill=%27%23fff%27 d=%27M.406 7.36 7.281.485a.662.662 0 0 1 .899 0 .662.662 0 0 1 0 .899L2.36 7.165h14.765c.313 0 .625.313.625.625a.642.642 0 0 1-.625.625H2.359l5.82 5.82a.662.662 0 0 1 0 .899.662.662 0 0 1-.898 0L.406 8.259a.662.662 0 0 1 0-.899Z%27/%3E%3C/svg%3E");-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:var(--gallery-icon-bg-size);mask-size:var(--gallery-icon-bg-size);padding:var(--gallery-nav-pd);width:var(--gallery-nav-size)}.l-variant-2 .gallery-slider-variant-2 .swiper-button:hover:after{background-color:var(--wp--preset--color--white)}.l-variant-2 .gallery-slider-variant-2 .swiper-button.t-white:before{background-color:var(--wp--preset--color--secondary-color)}.l-variant-2 .gallery-slider-variant-2 .swiper-button.t-white:after{background-color:var(--wp--preset--color--white)}.l-variant-2 .swiper-button-prev .slide-count{right:var(--gallery-count-offset)}.l-variant-2 .swiper-button-next .slide-count{left:var(--gallery-count-offset)}.l-variant-2 .swiper-button:hover .slide-count{opacity:1;visibility:visible}.l-variant-2 .swiper-button-prev:hover{padding-right:var(--gallery-nav-pd-hover)}.l-variant-2 .swiper-button-next:hover{padding-left:var(--gallery-nav-pd-hover)}.l-variant-2 .sub-html{display:none}
+
+</style>
+<style id='pubportal-magazine-hero-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='pubportal-cover-stories-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='elasticpress-related-posts-style-inline-css' type='text/css'>
+.editor-styles-wrapper .wp-block-elasticpress-related-posts ul,.wp-block-elasticpress-related-posts ul{list-style-type:none;padding:0}.editor-styles-wrapper .wp-block-elasticpress-related-posts ul li a>div{display:inline}
+
+</style>
+<style id='wpseopress-local-business-style-inline-css' type='text/css'>
+span.wp-block-wpseopress-local-business-field{margin-right:8px}
+
+</style>
+<style id='wpseopress-table-of-contents-style-inline-css' type='text/css'>
+.wp-block-wpseopress-table-of-contents li.active>a{font-weight:bold}
+
+</style>
+<link data-minify="1" rel='stylesheet' id='swiper-css' href='https://www.brooklynvegan.com/wp-content/cache/min/1/swiper@11.1.0/swiper-bundle.min.css?ver=1757495200' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--dark: #333333;--wp--preset--color--light: #CCCCCC;--wp--preset--color--light-gray: #F4F4F4;--wp--preset--color--dark-gray: #999999;--wp--preset--color--purple: #4A09A7;--wp--preset--color--alto: #F7F7F7;--wp--preset--color--blackcurrant: #090115;--wp--preset--color--palm-green: #022F11;--wp--preset--color--evergreen: #02571F;--wp--preset--color--fun-green: #038630;--wp--preset--color--primary-color: #333333;--wp--preset--color--secondary-color: #CCCCCC;--wp--preset--color--brand-color: #038630;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-family--roboto-flex: Roboto Flex, sans-serif;--wp--preset--font-family--roboto: Roboto, sans-serif;--wp--preset--font-family--roboto-condensed: Roboto Condensed, sans-serif;--wp--preset--font-family--open-sans: Open Sans, sans-serif;--wp--preset--font-family--helvetica: Helvetica, sans-serif;--wp--preset--font-family--helvetica-neue: HelveticaNeue, sans-serif;--wp--preset--font-family--sans: Helvetica, sans-serif;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:root { --wp--style--global--content-size: 1472px;--wp--style--global--wide-size: 1432px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: underline;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-dark-color{color: var(--wp--preset--color--dark) !important;}.has-light-color{color: var(--wp--preset--color--light) !important;}.has-light-gray-color{color: var(--wp--preset--color--light-gray) !important;}.has-dark-gray-color{color: var(--wp--preset--color--dark-gray) !important;}.has-purple-color{color: var(--wp--preset--color--purple) !important;}.has-alto-color{color: var(--wp--preset--color--alto) !important;}.has-blackcurrant-color{color: var(--wp--preset--color--blackcurrant) !important;}.has-palm-green-color{color: var(--wp--preset--color--palm-green) !important;}.has-evergreen-color{color: var(--wp--preset--color--evergreen) !important;}.has-fun-green-color{color: var(--wp--preset--color--fun-green) !important;}.has-primary-color-color{color: var(--wp--preset--color--primary-color) !important;}.has-secondary-color-color{color: var(--wp--preset--color--secondary-color) !important;}.has-brand-color-color{color: var(--wp--preset--color--brand-color) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-dark-background-color{background-color: var(--wp--preset--color--dark) !important;}.has-light-background-color{background-color: var(--wp--preset--color--light) !important;}.has-light-gray-background-color{background-color: var(--wp--preset--color--light-gray) !important;}.has-dark-gray-background-color{background-color: var(--wp--preset--color--dark-gray) !important;}.has-purple-background-color{background-color: var(--wp--preset--color--purple) !important;}.has-alto-background-color{background-color: var(--wp--preset--color--alto) !important;}.has-blackcurrant-background-color{background-color: var(--wp--preset--color--blackcurrant) !important;}.has-palm-green-background-color{background-color: var(--wp--preset--color--palm-green) !important;}.has-evergreen-background-color{background-color: var(--wp--preset--color--evergreen) !important;}.has-fun-green-background-color{background-color: var(--wp--preset--color--fun-green) !important;}.has-primary-color-background-color{background-color: var(--wp--preset--color--primary-color) !important;}.has-secondary-color-background-color{background-color: var(--wp--preset--color--secondary-color) !important;}.has-brand-color-background-color{background-color: var(--wp--preset--color--brand-color) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-dark-border-color{border-color: var(--wp--preset--color--dark) !important;}.has-light-border-color{border-color: var(--wp--preset--color--light) !important;}.has-light-gray-border-color{border-color: var(--wp--preset--color--light-gray) !important;}.has-dark-gray-border-color{border-color: var(--wp--preset--color--dark-gray) !important;}.has-purple-border-color{border-color: var(--wp--preset--color--purple) !important;}.has-alto-border-color{border-color: var(--wp--preset--color--alto) !important;}.has-blackcurrant-border-color{border-color: var(--wp--preset--color--blackcurrant) !important;}.has-palm-green-border-color{border-color: var(--wp--preset--color--palm-green) !important;}.has-evergreen-border-color{border-color: var(--wp--preset--color--evergreen) !important;}.has-fun-green-border-color{border-color: var(--wp--preset--color--fun-green) !important;}.has-primary-color-border-color{border-color: var(--wp--preset--color--primary-color) !important;}.has-secondary-color-border-color{border-color: var(--wp--preset--color--secondary-color) !important;}.has-brand-color-border-color{border-color: var(--wp--preset--color--brand-color) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-roboto-flex-font-family{font-family: var(--wp--preset--font-family--roboto-flex) !important;}.has-roboto-font-family{font-family: var(--wp--preset--font-family--roboto) !important;}.has-roboto-condensed-font-family{font-family: var(--wp--preset--font-family--roboto-condensed) !important;}.has-open-sans-font-family{font-family: var(--wp--preset--font-family--open-sans) !important;}.has-helvetica-font-family{font-family: var(--wp--preset--font-family--helvetica) !important;}.has-helvetica-neue-font-family{font-family: var(--wp--preset--font-family--helvetica-neue) !important;}.has-sans-font-family{font-family: var(--wp--preset--font-family--sans) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='safetag-css' href='https://www.brooklynvegan.com/wp-content/plugins/safetag/public/css/safetag-public.css?ver=2.1.9' type='text/css' media='all' />
+<link rel='stylesheet' id='cff-css' href='https://www.brooklynvegan.com/wp-content/cache/background-css/1/www.brooklynvegan.com/wp-content/plugins/custom-facebook-feed/assets/css/cff-style.min.css?ver=4.3.2&wpr_t=1757968190' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='sb-font-awesome-css' href='https://www.brooklynvegan.com/wp-content/cache/min/1/font-awesome/4.7.0/css/font-awesome.min.css?ver=1757495200' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='pubportal-css' href='https://www.brooklynvegan.com/wp-content/cache/background-css/1/www.brooklynvegan.com/wp-content/cache/min/1/wp-content/project-base/project-theme/PubPortal/css/app.css?ver=1757495200&wpr_t=1757968191' type='text/css' media='all' />
+<link rel='stylesheet' id='pp-print-css' href='https://www.brooklynvegan.com/wp-content/project-base/project-theme/PubPortal/css/print-style.css?ver=2025.09.05' type='text/css' media='print' />
+<link data-minify="1" rel='stylesheet' id='elasticpress-facets-css' href='https://www.brooklynvegan.com/wp-content/cache/min/1/wp-content/plugins/elasticpress/dist/css/facets-styles.css?ver=1757495200' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='photoswipe-light-skin-css' href='https://www.brooklynvegan.com/wp-content/cache/background-css/1/www.brooklynvegan.com/wp-content/cache/min/1/wp-content/plugins/kadence-galleries/assets/photoswipe/light-skin.css?ver=1757495200&wpr_t=1757968191' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='kt-galleries-css-css' href='https://www.brooklynvegan.com/wp-content/cache/min/1/wp-content/plugins/kadence-galleries/assets/css/kadence-galleries.css?ver=1757495200' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='searchterm-highlighting-css' href='https://www.brooklynvegan.com/wp-content/cache/min/1/wp-content/plugins/elasticpress/dist/css/highlighting-styles.css?ver=1757495200' type='text/css' media='all' />
+<style id='kadence-blocks-global-variables-inline-css' type='text/css'>
+:root {--global-kb-font-size-sm:clamp(0.8rem, 0.73rem + 0.217vw, 0.9rem);--global-kb-font-size-md:clamp(1.1rem, 0.995rem + 0.326vw, 1.25rem);--global-kb-font-size-lg:clamp(1.75rem, 1.576rem + 0.543vw, 2rem);--global-kb-font-size-xl:clamp(2.25rem, 1.728rem + 1.63vw, 3rem);--global-kb-font-size-xxl:clamp(2.5rem, 1.456rem + 3.26vw, 4rem);--global-kb-font-size-xxxl:clamp(2.75rem, 0.489rem + 7.065vw, 6rem);}:root {--global-palette1: #3182CE;--global-palette2: #2B6CB0;--global-palette3: #1A202C;--global-palette4: #2D3748;--global-palette5: #4A5568;--global-palette6: #718096;--global-palette7: #EDF2F7;--global-palette8: #F7FAFC;--global-palette9: #ffffff;}
+</style>
+<style id='rocket-lazyload-inline-css' type='text/css'>
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:var(--wpr-bg-c29f5d09-6f9d-400f-91ef-b0009c2b81ab) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}
+</style>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="adcode-handle-footer-js-after">
+/* <![CDATA[ */
+window.adgridConfig = window.adgridConfig || {};
+      const adgridConfigKvp = window.adgridConfig.kvp || {};
+      const adgridConfigKvpNew = {"id":112697,"title":"Music","type":"term","categories":"Music"}
+      window.adgridConfig.kvp = Object.assign(adgridConfigKvp, adgridConfigKvpNew)
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.brooklynvegan.com/wp-content/cache/min/1/wp-content/pubportal-plugins/pubportal-core/build/blocks/listicle/fullstack.js?ver=1757495200" id="pubportal-listicle-script-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.brooklynvegan.com/wp-content/cache/min/1/wp-content/pubportal-plugins/pubportal-core/build/blocks/swiper-slider/fullstack.js?ver=1757495200" id="pubportal-swiper-slider-script-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.brooklynvegan.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.brooklynvegan.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js" data-rocket-defer defer></script>
+<script type="text/javascript" id="safetag-js-extra">
+/* <![CDATA[ */
+var safetag_fpd = {"iab":{"taxonomy_name":{"pagecat":["Music and Audio"]}},"cattax":"2"};
+var safetag_lists = {"Exclude":[],"Include":[]};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.brooklynvegan.com/wp-content/cache/min/1/wp-content/plugins/safetag/public/js/safetag-public.js?ver=1757495200" id="safetag-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.brooklynvegan.com/wp-content/cache/min/1/wp-content/plugins/stop-user-enumeration/frontend/js/frontend.js?ver=1757495200" id="stop-user-enumeration-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.brooklynvegan.com/wp-content/project-base/project-plugins/veeps-player/build/veeps-player/view.js?ver=3ae2cc8d9cc6b1b73ac9" id="create-block-veeps-player-view-script-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.brooklynvegan.com/wp-content/cache/min/1/wp-content/pubportal-plugins/pubportal-core/assets/js/recirc-load-more.js?ver=1757495200" id="recirc-load-more-js" data-rocket-defer defer></script>
+<link rel="https://api.w.org/" href="https://www.brooklynvegan.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.brooklynvegan.com/wp-json/wp/v2/categories/112697" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.brooklynvegan.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.2" />
+<!-- Google tag (gtag.js) --> <script async src=https://www.googletagmanager.com/gtag/js?id=G-MLZVCSHVS5></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-MLZVCSHVS5'); </script><script type="rocketlazyloadscript">!function(n){if(!window.cnx){window.cnx={},window.cnx.cmd=[];var t=n.createElement('iframe');t.src='javascript:false'; t.display='none',t.onload=function(){var n=t.contentWindow.document,c=n.createElement('script');c.src='//cd.connatix.com/connatix.player.js?cid=66f406f9-99ec-4c97-aeb2-86548432bc89',c.setAttribute('async','1'),c.setAttribute('type','text/javascript'),n.body.appendChild(c)},n.head.appendChild(t)}}(document);</script><link rel="stylesheet" type="text/css" href="https://htlbid.com/v3/brooklynvegan.com/htlbid.css" />
+<script async src="https://htlbid.com/v3/brooklynvegan.com/htlbid.js" ></script>
+<script type="rocketlazyloadscript">
+  window.htlbid = window.htlbid || {};
+  htlbid.cmd = htlbid.cmd || [];
+
+  htlbid.cmd.push(function() {
+    htlbid.setTargeting("is_testing","no"); // Set to "no" for production
+
+    let is_home = "no";
+    if (typeof(window?.adgridConfig?.kvp?.title) !== 'undefined' &&
+        window?.adgridConfig?.kvp?.title == "Home") {
+      is_home = "yes";
+    }
+
+    htlbid.setTargeting("is_home", is_home); // Set to "yes" on the homepage
+
+    if (typeof(window?.adgridConfig?.kvp?.categories) !== 'undefined') {
+      htlbid.setTargeting("category", window?.adgridConfig?.kvp?.categories); // dynamically pass page category into this function
+    }
+
+    if (typeof(window?.adgridConfig?.kvp?.tags) !== 'undefined') {
+      htlbid.setTargeting("tag", window?.adgridConfig?.kvp?.tags); // dynamically pass page tag into this function
+    }
+
+    if (typeof(window?.adgridConfig?.kvp?.type) !== 'undefined') {
+      htlbid.setTargeting("page_type", window?.adgridConfig?.kvp?.type);
+    }
+
+    if (typeof(window?.adgridConfig?.kvp?.id) !== 'undefined') {
+      htlbid.setTargeting("post_id", String(window?.adgridConfig?.kvp?.id)); // dynamically pass unique post/page id into this function
+    }
+
+    htlbid.layout();
+  });
+</script><link rel="icon" href="https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2023/07/25/bv-fav-k-256.png" sizes="32x32" />
+<link rel="icon" href="https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2023/07/25/bv-fav-k-256.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2023/07/25/bv-fav-k-256.png" />
+<meta name="msapplication-TileImage" content="https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2023/07/25/bv-fav-k-256.png" />
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><style id="rocket-lazyrender-inline-css">[data-wpr-lazyrender] {content-visibility: auto;}</style><style id="wpr-lazyload-bg-container"></style><style id="wpr-lazyload-bg-exclusion">.body-bg-gradient{--wpr-bg-626885be-64c4-472c-9fb4-419c45f26709: url('https://www.brooklynvegan.com/wp-content/project-base/project-theme/PubPortal/assets/newbg2.png');}.swiper-button-prev[aria-controls]:after{--wpr-bg-c73cc8e6-fbba-4680-af03-02ec9046b1a8: url('https://www.brooklynvegan.com/wp-content/project-base/project-theme/PubPortal/assets/svg/left-arrow.svg');}.swiper-button-next[aria-controls]:after{--wpr-bg-4bf2c8e5-4607-4d03-b915-c1483b2f0af0: url('https://www.brooklynvegan.com/wp-content/project-base/project-theme/PubPortal/assets/svg/right-arrow.svg');}.is-sticky .header-bg{--wpr-bg-8770cd9e-f337-4f02-9841-1b0b01d9599a: url('https://www.brooklynvegan.com/wp-content/project-base/project-theme/PubPortal/assets/newbg2.png');}</style>
+<noscript>
+<style id="wpr-lazyload-bg-nostyle">.sbi_lb-loader span{--wpr-bg-838e2a8c-5911-4546-a4ac-0119df8715cd: url('https://www.brooklynvegan.com/wp-content/plugins/instagram-feed/img/sbi-sprite.png');}.sbi_lb-nav span{--wpr-bg-a69ac20d-38a7-45f8-a223-8fda1b70fd72: url('https://www.brooklynvegan.com/wp-content/plugins/instagram-feed/img/sbi-sprite.png');}.bmpui-ui-watermark{--wpr-bg-b5fbd498-7592-48da-ad55-2096353c487b: url('https://res.cloudinary.com/veeps/image/upload/v1705071787/product/Logo_n3yscm.svg');}.veeps-player-close{--wpr-bg-016dd3fd-0184-40cf-8f16-5a9de658150f: url('https://res.cloudinary.com/veeps/image/upload/v1724179231/product/icons/white/general/Close_gxmfet.svg');}#cff .cff-author-img{--wpr-bg-1506b8d0-74fd-46a4-aea8-e0f1513e2d56: url('https://www.brooklynvegan.com/wp-content/plugins/custom-facebook-feed/assets/img/cff-avatar.png');}#cff .cff-author.cff-no-author-info .cff-author-img{--wpr-bg-8bc4f2d9-9bb9-487e-b900-7439f2eca2d0: url('https://www.brooklynvegan.com/wp-content/plugins/custom-facebook-feed/assets/img/cff-avatar.png');}.swiper-button-prev[aria-controls]:hover:after{--wpr-bg-cdd77682-7917-40e3-85ee-e50e572c3db0: url('https://www.brooklynvegan.com/wp-content/project-base/project-theme/PubPortal/assets/svg/left-arrow-hover.svg');}.swiper-button-next[aria-controls]:hover:after{--wpr-bg-90d0d3a1-f3c0-4aba-b9c1-19d943072606: url('https://www.brooklynvegan.com/wp-content/project-base/project-theme/PubPortal/assets/svg/right-arrow-hover.svg');}.pswp__button--arrow--left:before,.pswp__button--arrow--right:before{--wpr-bg-f001ba4e-33d8-49b1-a499-99fb53d7ff16: url('https://www.brooklynvegan.com/wp-content/plugins/kadence-galleries/assets/photoswipe/light-skin.png');}.pswp__button,.pswp__button:hover{--wpr-bg-079875b1-8486-49f3-a71e-136c536f06c9: url('https://www.brooklynvegan.com/wp-content/plugins/kadence-galleries/assets/photoswipe/light-skin.png');}.pswp__preloader--active .pswp__preloader__icn{--wpr-bg-ddfc2d8d-1ada-4c01-a2f0-a26f8e4f5702: url('https://www.brooklynvegan.com/wp-content/plugins/kadence-galleries/assets/photoswipe/preloader.gif');}.kadence-galleries-pswp .pswp__button{--wpr-bg-bcce39b6-e336-44bd-958b-7284b4a7eedb: url('https://www.brooklynvegan.com/wp-content/plugins/kadence-galleries/assets/photoswipe/light-skin.png');}.kadence-galleries-pswp.pswp--svg .pswp__button{--wpr-bg-5e5da825-cc78-44a4-8cb5-790b27d7aff2: url('https://www.brooklynvegan.com/wp-content/plugins/kadence-galleries/assets/photoswipe/light-skin.svg');}.gform_wrapper.gravity-theme .chosen-container-single .chosen-single abbr{--wpr-bg-e41c958b-df3e-4cf2-80d8-47989140ad47: url('https://www.brooklynvegan.com/wp-content/plugins/gravityforms/legacy/css/chosen-sprite.png');}.gform_wrapper.gravity-theme .chosen-container-single .chosen-single div b{--wpr-bg-945e154c-22d8-4b94-b3ba-7c658177925d: url('https://www.brooklynvegan.com/wp-content/plugins/gravityforms/legacy/css/chosen-sprite.png');}.gform_wrapper.gravity-theme .chosen-container-single .chosen-search input[type=text]{--wpr-bg-f499b361-eab7-41c0-834e-072c9cb26514: url('https://www.brooklynvegan.com/wp-content/plugins/gravityforms/legacy/css/chosen-sprite.png');}.gform_wrapper.gravity-theme .chosen-container-multi .chosen-choices li.search-choice .search-choice-close{--wpr-bg-9b52d281-a33d-417a-ad39-7d81a017729f: url('https://www.brooklynvegan.com/wp-content/plugins/gravityforms/legacy/css/chosen-sprite.png');}.gform_wrapper.gravity-theme .chosen-rtl .chosen-search input[type=text]{--wpr-bg-b99b4ce2-ce2c-43fc-af04-92804af0de23: url('https://www.brooklynvegan.com/wp-content/plugins/gravityforms/legacy/css/chosen-sprite.png');}.gform_wrapper.gravity-theme .gform_card_icon_container div.gform_card_icon.gform_card_icon_selected::after{--wpr-bg-675a7be3-3277-4077-a10d-02d631affbd1: url('https://www.brooklynvegan.com/wp-content/plugins/gravityforms/images/gf-creditcards-check.svg');}.gform_wrapper.gravity-theme .gfield_list_icons button{--wpr-bg-6f78713b-9504-413c-a48c-68305a4e90e4: url('https://www.brooklynvegan.com/wp-content/plugins/gravityforms/images/list-add.svg');}.gform_wrapper.gravity-theme .chosen-container .chosen-results-scroll-down span,.gform_wrapper.gravity-theme .chosen-container .chosen-results-scroll-up span,.gform_wrapper.gravity-theme .chosen-container-multi .chosen-choices .search-choice .search-choice-close,.gform_wrapper.gravity-theme .chosen-container-single .chosen-search input[type=text],.gform_wrapper.gravity-theme .chosen-container-single .chosen-single abbr,.gform_wrapper.gravity-theme .chosen-container-single .chosen-single div b,.gform_wrapper.gravity-theme .chosen-rtl .chosen-search input[type=text]{--wpr-bg-69f6a31b-873b-4897-8797-c021f3d4821f: url('https://www.brooklynvegan.com/wp-content/plugins/gravityforms/legacy/css/chosen-sprite@2x.png');}.gform_wrapper.gravity-theme .gform_card_icon_container div.gform_card_icon{--wpr-bg-17a5f229-88f9-484b-b665-58a8e6d2c862: url('https://www.brooklynvegan.com/wp-content/plugins/gravityforms/images/gf-creditcards.svg');}.gform_wrapper.gravity-theme .ginput_container_creditcard .ginput_card_security_code_icon{--wpr-bg-2dce4384-71c6-4736-9db2-ba54408aa1a0: url('https://www.brooklynvegan.com/wp-content/plugins/gravityforms/images/gf-creditcards.svg');}.gform_wrapper.gravity-theme .gfield_list_icons button.delete_list_item{--wpr-bg-9586e672-9d7c-40f9-8dee-3568b9855330: url('https://www.brooklynvegan.com/wp-content/plugins/gravityforms/images/list-remove.svg');}.gravity-theme.ui-datepicker .ui-datepicker-header select{--wpr-bg-32f6af37-5b4a-4b8c-b289-d5398ab882a7: url('https://www.brooklynvegan.com/wp-content/plugins/gravityforms/images/theme/down-arrow.svg');}.rll-youtube-player .play{--wpr-bg-c29f5d09-6f9d-400f-91ef-b0009c2b81ab: url('https://www.brooklynvegan.com/wp-content/plugins/wp-rocket/assets/img/youtube.png');}</style>
+</noscript>
+<script type="application/javascript">const rocket_pairs = [{"selector":".sbi_lb-loader span","style":".sbi_lb-loader span{--wpr-bg-838e2a8c-5911-4546-a4ac-0119df8715cd: url('https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/instagram-feed\/img\/sbi-sprite.png');}","hash":"838e2a8c-5911-4546-a4ac-0119df8715cd","url":"https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/instagram-feed\/img\/sbi-sprite.png"},{"selector":".sbi_lb-nav span","style":".sbi_lb-nav span{--wpr-bg-a69ac20d-38a7-45f8-a223-8fda1b70fd72: url('https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/instagram-feed\/img\/sbi-sprite.png');}","hash":"a69ac20d-38a7-45f8-a223-8fda1b70fd72","url":"https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/instagram-feed\/img\/sbi-sprite.png"},{"selector":".bmpui-ui-watermark","style":".bmpui-ui-watermark{--wpr-bg-b5fbd498-7592-48da-ad55-2096353c487b: url('https:\/\/res.cloudinary.com\/veeps\/image\/upload\/v1705071787\/product\/Logo_n3yscm.svg');}","hash":"b5fbd498-7592-48da-ad55-2096353c487b","url":"https:\/\/res.cloudinary.com\/veeps\/image\/upload\/v1705071787\/product\/Logo_n3yscm.svg"},{"selector":".veeps-player-close","style":".veeps-player-close{--wpr-bg-016dd3fd-0184-40cf-8f16-5a9de658150f: url('https:\/\/res.cloudinary.com\/veeps\/image\/upload\/v1724179231\/product\/icons\/white\/general\/Close_gxmfet.svg');}","hash":"016dd3fd-0184-40cf-8f16-5a9de658150f","url":"https:\/\/res.cloudinary.com\/veeps\/image\/upload\/v1724179231\/product\/icons\/white\/general\/Close_gxmfet.svg"},{"selector":"#cff .cff-author-img","style":"#cff .cff-author-img{--wpr-bg-1506b8d0-74fd-46a4-aea8-e0f1513e2d56: url('https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/custom-facebook-feed\/assets\/img\/cff-avatar.png');}","hash":"1506b8d0-74fd-46a4-aea8-e0f1513e2d56","url":"https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/custom-facebook-feed\/assets\/img\/cff-avatar.png"},{"selector":"#cff .cff-author.cff-no-author-info .cff-author-img","style":"#cff .cff-author.cff-no-author-info .cff-author-img{--wpr-bg-8bc4f2d9-9bb9-487e-b900-7439f2eca2d0: url('https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/custom-facebook-feed\/assets\/img\/cff-avatar.png');}","hash":"8bc4f2d9-9bb9-487e-b900-7439f2eca2d0","url":"https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/custom-facebook-feed\/assets\/img\/cff-avatar.png"},{"selector":".swiper-button-prev[aria-controls]","style":".swiper-button-prev[aria-controls]:hover:after{--wpr-bg-cdd77682-7917-40e3-85ee-e50e572c3db0: url('https:\/\/www.brooklynvegan.com\/wp-content\/project-base\/project-theme\/PubPortal\/assets\/svg\/left-arrow-hover.svg');}","hash":"cdd77682-7917-40e3-85ee-e50e572c3db0","url":"https:\/\/www.brooklynvegan.com\/wp-content\/project-base\/project-theme\/PubPortal\/assets\/svg\/left-arrow-hover.svg"},{"selector":".swiper-button-next[aria-controls]","style":".swiper-button-next[aria-controls]:hover:after{--wpr-bg-90d0d3a1-f3c0-4aba-b9c1-19d943072606: url('https:\/\/www.brooklynvegan.com\/wp-content\/project-base\/project-theme\/PubPortal\/assets\/svg\/right-arrow-hover.svg');}","hash":"90d0d3a1-f3c0-4aba-b9c1-19d943072606","url":"https:\/\/www.brooklynvegan.com\/wp-content\/project-base\/project-theme\/PubPortal\/assets\/svg\/right-arrow-hover.svg"},{"selector":".pswp__button--arrow--left,.pswp__button--arrow--right","style":".pswp__button--arrow--left:before,.pswp__button--arrow--right:before{--wpr-bg-f001ba4e-33d8-49b1-a499-99fb53d7ff16: url('https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/kadence-galleries\/assets\/photoswipe\/light-skin.png');}","hash":"f001ba4e-33d8-49b1-a499-99fb53d7ff16","url":"https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/kadence-galleries\/assets\/photoswipe\/light-skin.png"},{"selector":".pswp__button","style":".pswp__button,.pswp__button:hover{--wpr-bg-079875b1-8486-49f3-a71e-136c536f06c9: url('https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/kadence-galleries\/assets\/photoswipe\/light-skin.png');}","hash":"079875b1-8486-49f3-a71e-136c536f06c9","url":"https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/kadence-galleries\/assets\/photoswipe\/light-skin.png"},{"selector":".pswp__preloader--active .pswp__preloader__icn","style":".pswp__preloader--active .pswp__preloader__icn{--wpr-bg-ddfc2d8d-1ada-4c01-a2f0-a26f8e4f5702: url('https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/kadence-galleries\/assets\/photoswipe\/preloader.gif');}","hash":"ddfc2d8d-1ada-4c01-a2f0-a26f8e4f5702","url":"https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/kadence-galleries\/assets\/photoswipe\/preloader.gif"},{"selector":".kadence-galleries-pswp .pswp__button","style":".kadence-galleries-pswp .pswp__button{--wpr-bg-bcce39b6-e336-44bd-958b-7284b4a7eedb: url('https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/kadence-galleries\/assets\/photoswipe\/light-skin.png');}","hash":"bcce39b6-e336-44bd-958b-7284b4a7eedb","url":"https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/kadence-galleries\/assets\/photoswipe\/light-skin.png"},{"selector":".kadence-galleries-pswp.pswp--svg .pswp__button","style":".kadence-galleries-pswp.pswp--svg .pswp__button{--wpr-bg-5e5da825-cc78-44a4-8cb5-790b27d7aff2: url('https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/kadence-galleries\/assets\/photoswipe\/light-skin.svg');}","hash":"5e5da825-cc78-44a4-8cb5-790b27d7aff2","url":"https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/kadence-galleries\/assets\/photoswipe\/light-skin.svg"},{"selector":".gform_wrapper.gravity-theme .chosen-container-single .chosen-single abbr","style":".gform_wrapper.gravity-theme .chosen-container-single .chosen-single abbr{--wpr-bg-e41c958b-df3e-4cf2-80d8-47989140ad47: url('https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/gravityforms\/legacy\/css\/chosen-sprite.png');}","hash":"e41c958b-df3e-4cf2-80d8-47989140ad47","url":"https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/gravityforms\/legacy\/css\/chosen-sprite.png"},{"selector":".gform_wrapper.gravity-theme .chosen-container-single .chosen-single div b","style":".gform_wrapper.gravity-theme .chosen-container-single .chosen-single div b{--wpr-bg-945e154c-22d8-4b94-b3ba-7c658177925d: url('https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/gravityforms\/legacy\/css\/chosen-sprite.png');}","hash":"945e154c-22d8-4b94-b3ba-7c658177925d","url":"https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/gravityforms\/legacy\/css\/chosen-sprite.png"},{"selector":".gform_wrapper.gravity-theme .chosen-container-single .chosen-search input[type=text]","style":".gform_wrapper.gravity-theme .chosen-container-single .chosen-search input[type=text]{--wpr-bg-f499b361-eab7-41c0-834e-072c9cb26514: url('https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/gravityforms\/legacy\/css\/chosen-sprite.png');}","hash":"f499b361-eab7-41c0-834e-072c9cb26514","url":"https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/gravityforms\/legacy\/css\/chosen-sprite.png"},{"selector":".gform_wrapper.gravity-theme .chosen-container-multi .chosen-choices li.search-choice .search-choice-close","style":".gform_wrapper.gravity-theme .chosen-container-multi .chosen-choices li.search-choice .search-choice-close{--wpr-bg-9b52d281-a33d-417a-ad39-7d81a017729f: url('https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/gravityforms\/legacy\/css\/chosen-sprite.png');}","hash":"9b52d281-a33d-417a-ad39-7d81a017729f","url":"https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/gravityforms\/legacy\/css\/chosen-sprite.png"},{"selector":".gform_wrapper.gravity-theme .chosen-rtl .chosen-search input[type=text]","style":".gform_wrapper.gravity-theme .chosen-rtl .chosen-search input[type=text]{--wpr-bg-b99b4ce2-ce2c-43fc-af04-92804af0de23: url('https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/gravityforms\/legacy\/css\/chosen-sprite.png');}","hash":"b99b4ce2-ce2c-43fc-af04-92804af0de23","url":"https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/gravityforms\/legacy\/css\/chosen-sprite.png"},{"selector":".gform_wrapper.gravity-theme .gform_card_icon_container div.gform_card_icon.gform_card_icon_selected","style":".gform_wrapper.gravity-theme .gform_card_icon_container div.gform_card_icon.gform_card_icon_selected::after{--wpr-bg-675a7be3-3277-4077-a10d-02d631affbd1: url('https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/gravityforms\/images\/gf-creditcards-check.svg');}","hash":"675a7be3-3277-4077-a10d-02d631affbd1","url":"https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/gravityforms\/images\/gf-creditcards-check.svg"},{"selector":".gform_wrapper.gravity-theme .gfield_list_icons button","style":".gform_wrapper.gravity-theme .gfield_list_icons button{--wpr-bg-6f78713b-9504-413c-a48c-68305a4e90e4: url('https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/gravityforms\/images\/list-add.svg');}","hash":"6f78713b-9504-413c-a48c-68305a4e90e4","url":"https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/gravityforms\/images\/list-add.svg"},{"selector":".gform_wrapper.gravity-theme .chosen-container .chosen-results-scroll-down span,.gform_wrapper.gravity-theme .chosen-container .chosen-results-scroll-up span,.gform_wrapper.gravity-theme .chosen-container-multi .chosen-choices .search-choice .search-choice-close,.gform_wrapper.gravity-theme .chosen-container-single .chosen-search input[type=text],.gform_wrapper.gravity-theme .chosen-container-single .chosen-single abbr,.gform_wrapper.gravity-theme .chosen-container-single .chosen-single div b,.gform_wrapper.gravity-theme .chosen-rtl .chosen-search input[type=text]","style":".gform_wrapper.gravity-theme .chosen-container .chosen-results-scroll-down span,.gform_wrapper.gravity-theme .chosen-container .chosen-results-scroll-up span,.gform_wrapper.gravity-theme .chosen-container-multi .chosen-choices .search-choice .search-choice-close,.gform_wrapper.gravity-theme .chosen-container-single .chosen-search input[type=text],.gform_wrapper.gravity-theme .chosen-container-single .chosen-single abbr,.gform_wrapper.gravity-theme .chosen-container-single .chosen-single div b,.gform_wrapper.gravity-theme .chosen-rtl .chosen-search input[type=text]{--wpr-bg-69f6a31b-873b-4897-8797-c021f3d4821f: url('https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/gravityforms\/legacy\/css\/chosen-sprite@2x.png');}","hash":"69f6a31b-873b-4897-8797-c021f3d4821f","url":"https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/gravityforms\/legacy\/css\/chosen-sprite@2x.png"},{"selector":".gform_wrapper.gravity-theme .gform_card_icon_container div.gform_card_icon","style":".gform_wrapper.gravity-theme .gform_card_icon_container div.gform_card_icon{--wpr-bg-17a5f229-88f9-484b-b665-58a8e6d2c862: url('https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/gravityforms\/images\/gf-creditcards.svg');}","hash":"17a5f229-88f9-484b-b665-58a8e6d2c862","url":"https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/gravityforms\/images\/gf-creditcards.svg"},{"selector":".gform_wrapper.gravity-theme .ginput_container_creditcard .ginput_card_security_code_icon","style":".gform_wrapper.gravity-theme .ginput_container_creditcard .ginput_card_security_code_icon{--wpr-bg-2dce4384-71c6-4736-9db2-ba54408aa1a0: url('https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/gravityforms\/images\/gf-creditcards.svg');}","hash":"2dce4384-71c6-4736-9db2-ba54408aa1a0","url":"https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/gravityforms\/images\/gf-creditcards.svg"},{"selector":".gform_wrapper.gravity-theme .gfield_list_icons button.delete_list_item","style":".gform_wrapper.gravity-theme .gfield_list_icons button.delete_list_item{--wpr-bg-9586e672-9d7c-40f9-8dee-3568b9855330: url('https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/gravityforms\/images\/list-remove.svg');}","hash":"9586e672-9d7c-40f9-8dee-3568b9855330","url":"https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/gravityforms\/images\/list-remove.svg"},{"selector":".gravity-theme.ui-datepicker .ui-datepicker-header select","style":".gravity-theme.ui-datepicker .ui-datepicker-header select{--wpr-bg-32f6af37-5b4a-4b8c-b289-d5398ab882a7: url('https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/gravityforms\/images\/theme\/down-arrow.svg');}","hash":"32f6af37-5b4a-4b8c-b289-d5398ab882a7","url":"https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/gravityforms\/images\/theme\/down-arrow.svg"},{"selector":".rll-youtube-player .play","style":".rll-youtube-player .play{--wpr-bg-c29f5d09-6f9d-400f-91ef-b0009c2b81ab: url('https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/wp-rocket\/assets\/img\/youtube.png');}","hash":"c29f5d09-6f9d-400f-91ef-b0009c2b81ab","url":"https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/wp-rocket\/assets\/img\/youtube.png"}]; const rocket_excluded_pairs = [{"selector":".body-bg-gradient","style":".body-bg-gradient{--wpr-bg-626885be-64c4-472c-9fb4-419c45f26709: url('https:\/\/www.brooklynvegan.com\/wp-content\/project-base\/project-theme\/PubPortal\/assets\/newbg2.png');}","hash":"626885be-64c4-472c-9fb4-419c45f26709","url":"https:\/\/www.brooklynvegan.com\/wp-content\/project-base\/project-theme\/PubPortal\/assets\/newbg2.png"},{"selector":".swiper-button-prev[aria-controls]","style":".swiper-button-prev[aria-controls]:after{--wpr-bg-c73cc8e6-fbba-4680-af03-02ec9046b1a8: url('https:\/\/www.brooklynvegan.com\/wp-content\/project-base\/project-theme\/PubPortal\/assets\/svg\/left-arrow.svg');}","hash":"c73cc8e6-fbba-4680-af03-02ec9046b1a8","url":"https:\/\/www.brooklynvegan.com\/wp-content\/project-base\/project-theme\/PubPortal\/assets\/svg\/left-arrow.svg"},{"selector":".swiper-button-next[aria-controls]","style":".swiper-button-next[aria-controls]:after{--wpr-bg-4bf2c8e5-4607-4d03-b915-c1483b2f0af0: url('https:\/\/www.brooklynvegan.com\/wp-content\/project-base\/project-theme\/PubPortal\/assets\/svg\/right-arrow.svg');}","hash":"4bf2c8e5-4607-4d03-b915-c1483b2f0af0","url":"https:\/\/www.brooklynvegan.com\/wp-content\/project-base\/project-theme\/PubPortal\/assets\/svg\/right-arrow.svg"},{"selector":".is-sticky .header-bg","style":".is-sticky .header-bg{--wpr-bg-8770cd9e-f337-4f02-9841-1b0b01d9599a: url('https:\/\/www.brooklynvegan.com\/wp-content\/project-base\/project-theme\/PubPortal\/assets\/newbg2.png');}","hash":"8770cd9e-f337-4f02-9841-1b0b01d9599a","url":"https:\/\/www.brooklynvegan.com\/wp-content\/project-base\/project-theme\/PubPortal\/assets\/newbg2.png"}];</script><meta name="generator" content="WP Rocket 3.19.2.1" data-wpr-features="wpr_lazyload_css_bg_img wpr_delay_js wpr_defer_js wpr_minify_js wpr_lazyload_iframes wpr_preconnect_external_domains wpr_automatic_lazy_rendering wpr_oci wpr_minify_css wpr_desktop" /></head>
+
+<body class="archive category category-music category-112697 wp-custom-logo wp-theme-PubPortal  enable-adgrid-page-level enable-adgrid-body-level">
+  
+  <div  class="AdBar">
+  <!-- Advertisement Out of Page -->
+  <div  class="htlad-out_of_page"></div>
+  <!-- Advertisement End Out of Page Ad -->
+</div>
+
+  <div  id="top-ad-wrapper" class="top-ad-wrapper bg-palm-green text-center overflow-hidden">
+    <div  class="">
+      <div  class="adgrid">
+        <div class="AdBar ad-iframe-center">
+  <!-- Advertisement Begin Leaderboard Banner Page 970x250 Ad -->
+  <div class="htlad-leaderboard_banner_page_ad"></div>
+  <!-- Advertisement End Leaderboard Ad -->
+</div>
+<div class="AdBar ad-iframe-center sm-only:block hidden">
+  <!-- Advertisement Begin Leaderboard - Mobile only 320x50 Ad -->
+  <div class="htlad-leaderboard_mob_ad"></div>
+  <!-- Advertisement End Leaderboard Ad -->
+</div>
+      </div>
+    </div>
+  </div>
+
+  <div  class="body-bg-gradient">
+
+    <header  class="site-header">
+      
+      
+      <nav class="w-nav relative">
+        <div  class="row">
+          <div class="columns small-12">
+
+            <div class="header-bg flex items-center justify-between">
+                            <button id="hamburger-menu" class="hamburger-menu menu-icon lg:hidden" aria-controls="primary-navigation" aria-expanded="false" aria-label="Open Mobile Menu">
+                <div class="hamburger">
+                  <div class="line top"></div>
+                  <div class="line middle"></div>
+                  <div class="line bottom"></div>
+                </div>
+              </button>
+
+              <div class="w-nav-menu relative flex-[0_0_auto] lg:w-full md-down:py-[15px]">
+
+                <div class="w-desktop-menu flex items-center justify-between">
+                  <div class="header-left flex">
+                    <div class="site-logo flex-[0_0_auto]">
+                                              <a href="https://www.brooklynvegan.com/" class="custom-logo-link" rel="home"><img width="318" height="116" src="https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2023/05/24/bv-1logo-new1-1-1.png" class="custom-logo" alt="BrooklynVegan" decoding="async" /></a>                                          </div>
+
+                    <div class="header-menus lg:flex flex-wrap lg:pl-[29px]">
+                      <ul class="primary-menu pr-[10px] lg:flex lg:items-center g-menu flex-wrap"><li id="menu-item-31882" class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-31882"><a href="https://www.brooklynvegan.com/category/music/" aria-current="page">Music</a></li>
+<li id="menu-item-31883" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-31883"><a href="https://www.brooklynvegan.com/category/music/metal/">Metal</a>
+<ul class="sub-menu">
+	<li id="menu-item-31887" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31887"><a href="https://www.brooklynvegan.com/category/music/metal/">BV Metal News</a></li>
+	<li id="menu-item-31888" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31888"><a href="http://invisibleoranges.com/">Invisible Oranges</a></li>
+	<li id="menu-item-31889" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31889"><a href="http://www.invisibleoranges.com/metal-show-listings/">Metal Show Calendars</a></li>
+</ul>
+</li>
+<li id="menu-item-31884" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31884"><a href="/tags/punk/">Punk</a></li>
+<li id="menu-item-31885" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31885"><a href="https://www.brooklynvegan.com/category/music/hiphop/">Rap</a></li>
+<li id="menu-item-31886" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31886"><a href="https://www.brooklynvegan.com/category/music/dance/">Dance</a></li>
+<li id="menu-item-31890" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-31890"><a href="https://www.brooklynvegan.com/category/comedy/">Comedy</a>
+<ul class="sub-menu">
+	<li id="menu-item-31891" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31891"><a href="https://www.brooklynvegan.com/category/comedy/">Comedy</a></li>
+	<li id="menu-item-31892" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31892"><a href="http://nyc-shows.brooklynvegan.com/events/comedy">NYC Comedy Calendar</a></li>
+</ul>
+</li>
+<li id="menu-item-31893" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31893"><a href="https://www.brooklynvegan.com/category/movies/">Movies</a></li>
+<li id="menu-item-31894" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31894"><a href="https://www.brooklynvegan.com/category/music/tour-dates/">Tours</a></li>
+<li id="menu-item-31916" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-31916"><a href="https://www.brooklynvegan.com/category/to-do/">Listings</a>
+<ul class="sub-menu">
+	<li id="menu-item-31931" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31931"><a href="https://www.brooklynvegan.com/category/to-do/">What&#8217;s Going On (NYC)</a></li>
+	<li id="menu-item-31991" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31991"><a href="http://nyc-shows.brooklynvegan.com/brooklynveganpresents">BV Presents Events</a></li>
+	<li id="menu-item-32009" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32009"><a href="http://nyc-shows.brooklynvegan.com/">NYC Show Calendar</a></li>
+	<li id="menu-item-32031" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32031"><a href="http://chicago-shows.brooklynvegan.com/">Chicago Show Calendar</a></li>
+	<li id="menu-item-32045" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32045"><a href="http://austin-shows.brooklynvegan.com/">Austin Show Calendar</a></li>
+	<li id="menu-item-32065" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32065"><a href="https://www.invisibleoranges.com/metal-show-listings/">Metal Show Calendars</a></li>
+</ul>
+</li>
+<li id="menu-item-32108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-32108"><a href="https://www.brooklynvegan.com/contact-us/">Contact</a>
+<ul class="sub-menu">
+	<li id="menu-item-37615" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37615"><a href="https://www.brooklynvegan.com/contact-us/">Contact</a></li>
+	<li id="menu-item-32104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32104"><a href="https://www.brooklynvegan.com/about-us/">About Us</a></li>
+	<li id="menu-item-32107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32107"><a href="https://www.brooklynvegan.com/newsletter/">Newsletter</a></li>
+</ul>
+</li>
+<li id="menu-item-37614" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37614"><a href="https://shop.brooklynvegan.com/">Shop</a></li>
+</ul>
+                        <nav id="nav-seasonal-menu" class="nav-seasonal-menu layout-mobile">
+    <div  class="row">
+      <div class="columns small-12">
+        <div class="w-seasonal-menu">
+                        <div class="secondary-menu-name font-bold py-[12px]">ALSO:</div>
+            
+            <div id="seasonal-menu-mobile" class="menu-also-container"><ul class="py-[12px] lg:flex lg:items-center g-menu"><li id="menu-item-645745" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-645745 "><a href="https://shop.brooklynvegan.com/?from=trending">Vinyl Shop</a></li>
+<li id="menu-item-645746" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-645746 "><a href="https://www.podbean.com/user-OYy2EmSa6uz2">BrooklynVegan Podcasts</a></li>
+<li id="menu-item-645747" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-645747 "><a href="https://www.brooklynvegan.com/tags/new-songs/?from=trending">New Songs</a></li>
+<li id="menu-item-645748" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-645748 "><a href="https://www.brooklynvegan.com/category/contests/">Giveaways</a></li>
+<li id="menu-item-691373" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-691373 "><a href="https://www.brooklynvegan.com/tags/coverstory/">Cover Stories</a></li>
+<li id="menu-item-720138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-720138 "><a href="https://www.brooklynvegan.com/72-albums-were-anticipating-for-fall-2025/">72 Albums We&#8217;re Anticipating for Fall 2025</a></li>
+</ul></div>        </div>
+      </div>
+    </div>
+  </nav>
+                    </div>                  </div> 
+                  <div class="header-right flex lg:mt-[15px]">
+                    <div class="menu-right flex flex-wrap items-center justify-between mr-[23px]">                       <div id="search-form" class="w-search-form hidden" role="dialog" aria-hidden="true" tabindex="-1">
+  <form role="search" method="get" id="searchform-bar" action="https://www.brooklynvegan.com/">
+
+    <div class="input-group">
+            <input type="text" class="input-group-field" name="s" id="s" value="" placeholder="Enter search text">
+    </div>
+
+    <div class="w-submit">
+      <input type="submit" value="submit" class="w-auto allow-clear rounded-none">
+    </div>
+
+  </form>
+</div>
+
+<a href="javascript:void(0)" id="show-search-form" class="show-search-form px-[10px] md-down:hidden" aria-label="Show Search Form">
+  <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" fill="#FFFFFF"><path d="M12.188 5.663c0 1.25-.436 2.403-1.172 3.34l3.71 3.45a.83.83 0 0 1 0 1.232.99.99 0 0 1-1.328 0L9.69 10.236a6.373 6.373 0 0 1-3.595 1.09C2.728 11.325 0 8.79 0 5.662S2.728 0 6.094 0s6.094 2.535 6.094 5.663Zm-6.094 3.92c2.33 0 4.219-1.756 4.219-3.92 0-2.165-1.89-3.92-4.219-3.92-2.33 0-4.219 1.755-4.219 3.92 0 2.164 1.89 3.92 4.22 3.92Z"/></svg>
+</a>
+                    </div>
+
+                    <div class="md-down:hidden">
+                      <section class="w-shared-socials">
+  
+  <div class="shared-socials flex flex-row flex-wrap items-center">
+              <a href="https://www.instagram.com/brooklynvegan/" target="_blank" rel="noopener noreferrer" data-social="instagram" class="inline-block" aria-label="Visit us on Instagram">
+        <svg width="19" height="19" viewBox="0 0 93.6 93.6" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" focusable="false" class="icon-svg instagram" aria-hidden="true"><path d="M67.61,5.89H26A20.13,20.13,0,0,0,5.89,26V67.61A20.13,20.13,0,0,0,26,87.71H67.61a20.13,20.13,0,0,0,20.1-20.1V26A20.13,20.13,0,0,0,67.61,5.89ZM80,67.61A12.39,12.39,0,0,1,67.61,80H26A12.39,12.39,0,0,1,13.62,67.61V26A12.39,12.39,0,0,1,26,13.62H67.61A12.39,12.39,0,0,1,80,26Z"></path><path d="M46.8,24.68A22.12,22.12,0,1,0,68.92,46.8,22.14,22.14,0,0,0,46.8,24.68Zm0,36.51A14.39,14.39,0,1,1,61.19,46.8,14.4,14.4,0,0,1,46.8,61.19Z"></path><path d="M68.73,20a4.09,4.09,0,1,0,4.09,4.09A4.09,4.09,0,0,0,68.73,20Z"></path></svg>
+        <span class="sr-only">Visit us on Instagram</span>
+      </a>
+              <a href="https://twitter.com/brooklynvegan" target="_blank" rel="noopener noreferrer" data-social="twitter" class="inline-block" aria-label="Visit us on Twitter">
+        <svg width="19" height="19" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" focusable="false" class="icon-svg twitter" aria-hidden="true"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8l164.9-188.5L26.8 48h145.6l100.5 132.9L389.2 48zm-24.8 373.8h39.1L151.1 88h-42l255.3 333.8z"/></svg>
+        <span class="sr-only">Visit us on Twitter</span>
+      </a>
+    
+          <a href="https://www.facebook.com/BrooklynVegan" target="_blank" rel="noopener noreferrer" data-social="facebook" class="inline-block" aria-label="Visit us on Facebook">
+        <svg width="19" height="19" viewBox="0 0 93.6 93.6" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" focusable="false" class="icon-svg facebook" aria-hidden="true"><path d="M50.83,7.56h14V21.07c-2.87,0-5.62,0-8.37,0-2.54,0-3.79,1.25-3.82,3.81s0,4.93,0,7.39c0,.22,0,.45.08.75H65c-.48,4.64-.94,9.19-1.42,13.84h-11V86H36.37V46.81H28.58V33.12c.32,0,.64-.12,1-.13,1.76,0,3.52,0,5.29,0h1.55c0-2.84-.06-5.53,0-8.22a27.94,27.94,0,0,1,.47-5.09c1.27-6,4.72-10,10.72-11.51C48.65,7.89,49.75,7.76,50.83,7.56Z"></path></svg>
+        <span class="sr-only">Visit us on Facebook</span>
+      </a>
+              <a href="https://open.spotify.com/user/brooklynvegan" target="_blank" rel="noopener noreferrer" data-social="facebook" class="inline-block" aria-label="Visit us on Spotify">
+        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 496 496"><path d="M248,8C111.1,8,0,119.1,0,256S111.1,504,248,504,496,392.9,496,256,384.9,8,248,8ZM348.7,372.9c-4.2,0-6.8-1.3-10.7-3.6-62.4-37.6-135-39.2-206.7-24.5-3.9,1-9,2.6-11.9,2.6a15.57,15.57,0,0,1-15.8-15.8c0-10.3,6.1-15.2,13.6-16.8,81.9-18.1,165.6-16.5,237,26.2,6.1,3.9,9.7,7.4,9.7,16.5a15.11,15.11,0,0,1-15.2,15.4h0Zm26.9-65.6c-5.2,0-8.7-2.3-12.3-4.2-62.5-37-155.7-51.9-238.6-29.4-4.8,1.3-7.4,2.6-11.9,2.6a19.42,19.42,0,0,1-19.4-19.4c0-10.7,5.2-17.8,15.5-20.7,27.8-7.8,56.2-13.6,97.8-13.6,64.9,0,127.6,16.1,177,45.5,8.1,4.8,11.3,11,11.3,19.7A19.38,19.38,0,0,1,375.6,307.3Zm31-76.2c-5.2,0-8.4-1.3-12.9-3.9-71.2-42.5-198.5-52.7-280.9-29.7-3.6,1-8.1,2.6-12.9,2.6-13.2,0-23.3-10.3-23.3-23.6,0-13.6,8.4-21.3,17.4-23.9,35.2-10.3,74.6-15.2,117.5-15.2,73,0,149.5,15.2,205.4,47.8,7.8,4.5,12.9,10.7,12.9,22.6a23.17,23.17,0,0,1-23.2,23.3h0Z" transform="translate(0 -8)" style="fill:#fff"/></svg><span class="sr-only">Visit us on Spotify</span>
+      </a>
+    
+          <a href="https://youtube.com/user/brooklynvegan" target="_blank" rel="noopener noreferrer" data-social="youtube" class="inline-block" aria-label="Visit us on Youtube">
+        <svg width="19" height="19" viewBox="0 0 93.6 93.6" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" focusable="false" class="icon-svg youtube" aria-hidden="true"><path d="M71.16,18.06H22.44A16.24,16.24,0,0,0,6.2,34.3v25A16.24,16.24,0,0,0,22.44,75.54H71.16A16.24,16.24,0,0,0,87.4,59.3v-25A16.24,16.24,0,0,0,71.16,18.06ZM35.93,61.61V32L63.42,46.8Z"></path></svg>
+        <span class="sr-only">Visit us on Youtube</span>
+      </a>
+    
+          <a href="https://www.tiktok.com/@brooklynvegan" target="_blank" rel="noopener noreferrer" data-social="tiktok" class="inline-block" aria-label="Visit us on TikTok">
+        <svg width="19" height="19" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" focusable="false" class="icon-svg tiktok" aria-hidden="true"><path d="M 6 3 C 4.3550302 3 3 4.3550302 3 6 L 3 18 C 3 19.64497 4.3550302 21 6 21 L 18 21 C 19.64497 21 21 19.64497 21 18 L 21 6 C 21 4.3550302 19.64497 3 18 3 L 6 3 z M 12 7 L 14 7 C 14 8.005 15.471 9 16 9 L 16 11 C 15.395 11 14.668 10.734156 14 10.285156 L 14 14 C 14 15.654 12.654 17 11 17 C 9.346 17 8 15.654 8 14 C 8 12.346 9.346 11 11 11 L 11 13 C 10.448 13 10 13.449 10 14 C 10 14.551 10.448 15 11 15 C 11.552 15 12 14.551 12 14 L 12 7 z"></path></svg>
+        <span class="sr-only">Visit us on TikTok</span>
+      </a>
+    
+    
+    
+    
+  </div>
+
+</section>
+
+                    </div>
+                  </div>
+                </div> 
+              </div> 
+                            <div></div>
+            </div> 
+          </div>
+        </div> 
+          <nav id="nav-seasonal-menu" class="nav-seasonal-menu layout-desktop">
+    <div class="row">
+      <div class="columns small-12">
+        <div class="w-seasonal-menu">
+                        <div class="secondary-menu-name font-bold py-[12px]">ALSO:</div>
+            
+            <div id="seasonal-menu-desktop" class="menu-also-container"><ul class="py-[12px] lg:flex lg:items-center g-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-645745 "><a href="https://shop.brooklynvegan.com/?from=trending">Vinyl Shop</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-645746 "><a href="https://www.podbean.com/user-OYy2EmSa6uz2">BrooklynVegan Podcasts</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-645747 "><a href="https://www.brooklynvegan.com/tags/new-songs/?from=trending">New Songs</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-645748 "><a href="https://www.brooklynvegan.com/category/contests/">Giveaways</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-691373 "><a href="https://www.brooklynvegan.com/tags/coverstory/">Cover Stories</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-720138 "><a href="https://www.brooklynvegan.com/72-albums-were-anticipating-for-fall-2025/">72 Albums We&#8217;re Anticipating for Fall 2025</a></li>
+</ul></div>        </div>
+      </div>
+    </div>
+  </nav>
+
+      </nav>     </header>
+
+
+<div  class="category">
+  <!-- if segment active -->
+      <div class="row">
+      <main class="ap-col-main">
+        <div class="row">
+  <div class="columns small-12">
+          <h1 class="entry-title text-white break-words ">Music</h1>
+
+      
+            </div>
+</div>
+
+        
+                  <div class="row w-recirc">
+            <div class="columns small-12">
+              <div class="card-row">
+                                  
+<div class="card w-full flow-horizontal card-vertical l-large l-item-2 pt-post">
+  <div class="card-inner flex flex-wrap">
+          <div class="card-columns col-first ">
+        
+                <a href="https://www.brooklynvegan.com/tour-news-paul-mccartney-massive-attack-cavalera-american-analog-set-mariah-the-scientist-tubbys-7th-anniversary-more/" class=" card-media block relative"  aria-label="mariah the scientist photo by Vijat M">
+                      <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" loading='lazy' class="card-large" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/card-large/2025/09/15/mariah-the-scientist-photo-by-Vijat-M.jpeg.webp?t=e1503f30.webp" width="506" height="380" alt="mariah the scientist photo by Vijat M">
+
+                      
+                  </a>
+
+                      </div>
+        <div class="card-columns col-last">
+      <div class="card-details h-full flex flex-col has-image">
+        
+        <div class="w-card-eyebrow flex -mx-gutter justify-between">
+          
+                      <div class="card-time px-gutter time-stamp">
+                                            2 hours ago                          </div>
+                  </div>
+
+        
+                  <h3 class="card-title break-words mb-[10px] ">
+            <a href="https://www.brooklynvegan.com/tour-news-paul-mccartney-massive-attack-cavalera-american-analog-set-mariah-the-scientist-tubbys-7th-anniversary-more/" class="" >Tour news: Paul McCartney, Massive Attack/Cavalera, American Analog Set, Mariah the Scientist, Tubby's 7th anniversary, more</a>
+          </h3>
+        
+        
+                  <div class="card-desc tout-dek">
+            Plus: Haircut 100, Audrey Hobert and more tour and festival news.          </div>
+        
+        
+              </div>
+    </div>
+  </div>
+</div>
+
+                                  
+<div class="card w-full flow-horizontal card-vertical l-large l-item-2 pt-post">
+  <div class="card-inner flex flex-wrap">
+          <div class="card-columns col-first ">
+        
+                <a href="https://www.brooklynvegan.com/7-new-songs-out-today-33/" class=" card-media block relative"  aria-label="thundercat and remi wolf">
+                      <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" loading='lazy' class="card-large" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/card-large/2025/09/15/thundercat-and-remi-wolf.jpg.webp?t=ba9bef63.webp" width="506" height="380" alt="thundercat and remi wolf">
+
+                      
+                  </a>
+
+                      </div>
+        <div class="card-columns col-last">
+      <div class="card-details h-full flex flex-col has-image">
+        
+        <div class="w-card-eyebrow flex -mx-gutter justify-between">
+          
+                      <div class="card-time px-gutter time-stamp">
+                                            3 hours ago                          </div>
+                  </div>
+
+        
+                  <h3 class="card-title break-words mb-[10px] ">
+            <a href="https://www.brooklynvegan.com/7-new-songs-out-today-33/" class="" >7 New Songs Out Today</a>
+          </h3>
+        
+        
+                  <div class="card-desc tout-dek">
+            Hear new songs by The Lemonheads, Thundercat &#038; Remi Wolf, Wicca Phase Springs Eternal, Madi Diaz, and more          </div>
+        
+        
+              </div>
+    </div>
+  </div>
+</div>
+
+                                  
+<div class="card w-full flow-horizontal card-vertical l-large l-item-2 pt-post">
+  <div class="card-inner flex flex-wrap">
+          <div class="card-columns col-first ">
+        
+                <a href="https://www.brooklynvegan.com/tv-on-the-radio-flying-lotus-sudan-archives-more-played-the-there-goes-the-neighborhood-fest-pics-setlist/" class=" card-media block relative"  aria-label="TV on the Radio at There Goes the Neighborhood at Under the K Bridge">
+                      <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" loading='lazy' class="card-large" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/card-large/2025/09/15/theregoestheneighborhood-2025-68.jpg.webp?t=e28da1a3.webp" width="506" height="380" alt="TV on the Radio at There Goes the Neighborhood at Under the K Bridge">
+
+                      
+                  </a>
+
+                      </div>
+        <div class="card-columns col-last">
+      <div class="card-details h-full flex flex-col has-image">
+        
+        <div class="w-card-eyebrow flex -mx-gutter justify-between">
+          
+                      <div class="card-time px-gutter time-stamp">
+                                            4 hours ago                          </div>
+                  </div>
+
+        
+                  <h3 class="card-title break-words mb-[10px] ">
+            <a href="https://www.brooklynvegan.com/tv-on-the-radio-flying-lotus-sudan-archives-more-played-the-there-goes-the-neighborhood-fest-pics-setlist/" class="" >TV on the Radio, Flying Lotus, Sudan Archives & more played the There Goes the Neighborhood fest (pics, setlist)</a>
+          </h3>
+        
+        
+                  <div class="card-desc tout-dek">
+            TV on the Radio presented a terrific night of music under the K Bridge in Brooklyn&#8230;          </div>
+        
+        
+              </div>
+    </div>
+  </div>
+</div>
+
+                                  
+<div class="card w-full flow-horizontal card-vertical l-large l-item-2 pt-post">
+  <div class="card-inner flex flex-wrap">
+          <div class="card-columns col-first ">
+        
+                <a href="https://www.brooklynvegan.com/haircut-100s-nick-heyward-tells-us-about-his-favorite-art-pop-songs-xtc-roxy-music-more/" class=" card-media block relative"  aria-label="haircut 100">
+                      <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" loading='lazy' class="card-large" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/card-large/2025/09/15/haircut-100.png.webp?t=8ba1e289.webp" width="506" height="380" alt="haircut 100">
+
+                      
+                  </a>
+
+                      </div>
+        <div class="card-columns col-last">
+      <div class="card-details h-full flex flex-col has-image">
+        
+        <div class="w-card-eyebrow flex -mx-gutter justify-between">
+          
+                      <div class="card-time px-gutter time-stamp">
+                                            7 hours ago                          </div>
+                  </div>
+
+        
+                  <h3 class="card-title break-words mb-[10px] ">
+            <a href="https://www.brooklynvegan.com/haircut-100s-nick-heyward-tells-us-about-his-favorite-art-pop-songs-xtc-roxy-music-more/" class="" >Haircut 100's Nick Heyward tells us about his favorite art pop songs (XTC, Roxy Music, more)</a>
+          </h3>
+        
+        
+                  <div class="card-desc tout-dek">
+            Nick&#8217;s Art Pop picks include XTC, Talking Heads, Ultravox, Roxy Music and more. Haircut 100 are currently on tour in the US.          </div>
+        
+        
+              </div>
+    </div>
+  </div>
+</div>
+
+                                  
+<div class="card w-full flow-horizontal card-vertical l-large l-item-2 pt-post">
+  <div class="card-inner flex flex-wrap">
+          <div class="card-columns col-first ">
+        
+                <a href="https://www.brooklynvegan.com/watch-texas-is-the-reason-cover-sugar-with-ted-leo-at-first-show-in-nearly-a-decade/" class=" card-media block relative"  aria-label="Texas Is The Reason">
+                      <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" loading='lazy' class="card-large" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/card-large/2025/09/15/Texas-Is-The-Reason-2025.jpg.webp?t=9054b45f.webp" width="506" height="380" alt="Texas Is The Reason">
+
+                      
+                  </a>
+
+                      </div>
+        <div class="card-columns col-last">
+      <div class="card-details h-full flex flex-col has-image">
+        
+        <div class="w-card-eyebrow flex -mx-gutter justify-between">
+          
+                      <div class="card-time px-gutter time-stamp">
+                                            9 hours ago                          </div>
+                  </div>
+
+        
+                  <h3 class="card-title break-words mb-[10px] ">
+            <a href="https://www.brooklynvegan.com/watch-texas-is-the-reason-cover-sugar-with-ted-leo-at-first-show-in-nearly-a-decade/" class="" >Watch Texas Is The Reason cover Sugar with Ted Leo at first show in nearly a decade</a>
+          </h3>
+        
+        
+                  <div class="card-desc tout-dek">
+            Check out the setlist and see other videos from the band&#8217;s reunion-tour-opening two-night stand at Crossroads in NJ too.          </div>
+        
+        
+              </div>
+    </div>
+  </div>
+</div>
+
+                                  
+<div class="card w-full flow-horizontal card-vertical l-large l-item-2 pt-post">
+  <div class="card-inner flex flex-wrap">
+          <div class="card-columns col-first ">
+        
+                <a href="https://www.brooklynvegan.com/foo-fighters-played-deep-cuts-at-first-show-with-new-drummer-ilan-rubin-pics-video-setlist/" class=" card-media block relative"  aria-label="Foo Fighters at Fremont Theater">
+                      <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" loading='lazy' class="card-large" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/card-large/2025/09/15/foofighters-fremonttheater-06.jpg.webp?t=db7c3173.webp" width="506" height="380" alt="Foo Fighters at Fremont Theater">
+
+                      
+                  </a>
+
+                      </div>
+        <div class="card-columns col-last">
+      <div class="card-details h-full flex flex-col has-image">
+        
+        <div class="w-card-eyebrow flex -mx-gutter justify-between">
+          
+                      <div class="card-time px-gutter time-stamp">
+                                            9 hours ago                          </div>
+                  </div>
+
+        
+                  <h3 class="card-title break-words mb-[10px] ">
+            <a href="https://www.brooklynvegan.com/foo-fighters-played-deep-cuts-at-first-show-with-new-drummer-ilan-rubin-pics-video-setlist/" class="" >Foo Fighters played deep cuts at first show with new drummer Ilan Rubin (pics, video, setlist)</a>
+          </h3>
+        
+        
+                  <div class="card-desc tout-dek">
+            It was also their first show of 2025, and they&#8217;re playing a second surprise CA show tonight.          </div>
+        
+        
+              </div>
+    </div>
+  </div>
+</div>
+
+                                  
+<div class="card w-full flow-horizontal card-vertical l-large l-item-2 pt-post">
+  <div class="card-inner flex flex-wrap">
+          <div class="card-columns col-first ">
+        
+                <a href="https://www.brooklynvegan.com/baxter-dury-talks-going-dance-on-new-lp-allbarone-working-with-paul-epworth-fred-again-more/" class=" card-media block relative"  aria-label="baxter-dury-podcast-bv">
+                      <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" loading='lazy' class="card-large" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/card-large/2025/09/15/baxter-dury-podcast-bv.jpg.webp?t=b7792025.webp" width="506" height="380" alt="baxter-dury-podcast-bv">
+
+                      
+                  </a>
+
+                      </div>
+        <div class="card-columns col-last">
+      <div class="card-details h-full flex flex-col has-image">
+        
+        <div class="w-card-eyebrow flex -mx-gutter justify-between">
+          
+                      <div class="card-time px-gutter time-stamp">
+                                            10 hours ago                          </div>
+                  </div>
+
+        
+                  <h3 class="card-title break-words mb-[10px] ">
+            <a href="https://www.brooklynvegan.com/baxter-dury-talks-going-dance-on-new-lp-allbarone-working-with-paul-epworth-fred-again-more/" class="" >Baxter Dury talks going dance on new LP 'Allbarone,' working with Paul Epworth, Fred again, more</a>
+          </h3>
+        
+        
+                  <div class="card-desc tout-dek">
+            &#8220;You don&#8217;t want to recreate something perfectly,&#8221; Baxter says of the dance elements on ’Allbarone.’ &#8220;You want my own naïve take on that kind of dance genre.&#8221;          </div>
+        
+        
+              </div>
+    </div>
+  </div>
+</div>
+
+                                  
+<div class="card w-full flow-horizontal card-vertical l-large l-item-2 pt-post">
+  <div class="card-inner flex flex-wrap">
+          <div class="card-columns col-first ">
+        
+                <a href="https://www.brooklynvegan.com/watch-fall-out-boys-patrick-stump-join-chicago-powerviolence-band-weekend-nachos-on-stage/" class=" card-media block relative"  aria-label="Patrick Stump Weekend Nachos by Dan Samhold">
+                      <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" loading='lazy' class="card-large" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/card-large/2025/09/15/Patrick-Stump-Weekend-Nachos-by-Dan-Samhold.jpg.webp?t=f055f75c.webp" width="506" height="380" alt="Patrick Stump Weekend Nachos by Dan Samhold">
+
+                      
+                  </a>
+
+                      </div>
+        <div class="card-columns col-last">
+      <div class="card-details h-full flex flex-col has-image">
+        
+        <div class="w-card-eyebrow flex -mx-gutter justify-between">
+          
+                      <div class="card-time px-gutter time-stamp">
+                                            11 hours ago                          </div>
+                  </div>
+
+        
+                  <h3 class="card-title break-words mb-[10px] ">
+            <a href="https://www.brooklynvegan.com/watch-fall-out-boys-patrick-stump-join-chicago-powerviolence-band-weekend-nachos-on-stage/" class="" >Watch Fall Out Boy's Patrick Stump join Chicago powerviolence band Weekend Nachos on stage</a>
+          </h3>
+        
+        
+                  <div class="card-desc tout-dek">
+            Patrick Stump, wearing a Los Crudos shirt and screaming with Weekend Nachos in the year 2025.          </div>
+        
+        
+              </div>
+    </div>
+  </div>
+</div>
+
+                                  
+<div class="card w-full flow-horizontal card-vertical l-large l-item-2 pt-post">
+  <div class="card-inner flex flex-wrap">
+          <div class="card-columns col-first ">
+        
+                <a href="https://www.brooklynvegan.com/watch-toyah-robert-fripp-revisit-creams-sunshine-of-your-love/" class=" card-media block relative"  aria-label="toyah and robert fripp cream sunshine of your love">
+                      <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" loading='lazy' class="card-large" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/card-large/2025/09/14/toyah-and-robert-fripp-cream-sunshine-of-your-love.jpg.webp?t=8e1a798f.webp" width="506" height="380" alt="toyah and robert fripp cream sunshine of your love">
+
+                      
+                  </a>
+
+                      </div>
+        <div class="card-columns col-last">
+      <div class="card-details h-full flex flex-col has-image">
+        
+        <div class="w-card-eyebrow flex -mx-gutter justify-between">
+          
+                      <div class="card-time px-gutter time-stamp">
+                                            2 days ago                          </div>
+                  </div>
+
+        
+                  <h3 class="card-title break-words mb-[10px] ">
+            <a href="https://www.brooklynvegan.com/watch-toyah-robert-fripp-revisit-creams-sunshine-of-your-love/" class="" >Watch Toyah &amp; Robert Fripp revisit Cream's "Sunshine of Your Love"</a>
+          </h3>
+        
+        
+                  <div class="card-desc tout-dek">
+            Things get messy.          </div>
+        
+        
+              </div>
+    </div>
+  </div>
+</div>
+
+                                  
+<div class="card w-full flow-horizontal card-vertical l-large l-item-2 pt-post">
+  <div class="card-inner flex flex-wrap">
+          <div class="card-columns col-first ">
+        
+                <a href="https://www.brooklynvegan.com/our-favorite-songs-of-the-week-playlist-214/" class=" card-media block relative"  aria-label="Speed at Elsewhere">
+                      <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" loading='lazy' class="card-large" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/card-large/2024/09/25/speed-elsewhere-32.jpg.webp?t=909f1ba4.webp" width="506" height="380" alt="Speed at Elsewhere">
+
+                      
+                  </a>
+
+                      </div>
+        <div class="card-columns col-last">
+      <div class="card-details h-full flex flex-col has-image">
+        
+        <div class="w-card-eyebrow flex -mx-gutter justify-between">
+          
+                      <div class="card-time px-gutter time-stamp">
+                                            September 12, 2025                          </div>
+                  </div>
+
+        
+                  <h3 class="card-title break-words mb-[10px] ">
+            <a href="https://www.brooklynvegan.com/our-favorite-songs-of-the-week-playlist-214/" class="" >Our Favorite Songs of the Week (Playlist)</a>
+          </h3>
+        
+        
+                  <div class="card-desc tout-dek">
+            Featuring Speed, Maruja, Baxter Dury, Gruff Rhys, Algernon Cadwallader, Saturdays At Your Place, The Chameleons, and more.          </div>
+        
+        
+              </div>
+    </div>
+  </div>
+</div>
+
+                              </div>
+
+              
+                                            
+            </div>
+          </div>
+        
+          <div class="pt-[20px] AdBar"><div class="AdBar ad-iframe-center">
+  <!-- Advertisement Begin Leaderboard - In Content only 728x90 / 320x50 Ad -->
+  <div class="htlad-in_content_ad"></div>
+  <!-- Advertisement End Leaderboard Ad -->
+</div>
+<div class="AdBar mb-[40px]">
+  <!-- Advertisement Begin Medium Rectangle Ad(300x250) -->
+  <div class="htlad-incontent_300x250"></div>
+  <!-- Advertisement End Medium Rectangle Ad -->
+</div>
+  </div><div class="w-recirculation w-recirc">
+  <div class="row">
+    <div class="columns small-12">
+      
+      <div class="card-row">
+        
+<div class="card w-full flow-horizontal card-vertical l-medium pt-post">
+  <div class="card-inner flex flex-wrap">
+          <div class="card-columns col-first ">
+                <a href="https://www.brooklynvegan.com/20-classic-emo-post-hardcore-albums-turning-20-in-2025/" class=" card-media block relative"  >
+          <picture>
+                        <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" loading='lazy' class="recirc-slider-card-16_9" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/recirc-slider-card-16_9/2025/08/18/2005-Emo-Dot-Com-Photo.jpg.webp?t=fdad39c2.webp" alt="Best Emo Albums of 2005" width="225" height="127">
+          </picture>
+
+          
+                  </a>
+                      </div>
+    
+    <div class="card-columns col-last">
+      <div class="card-details h-full flex flex-col has-image">
+        
+        
+                  <h3 class="card-title break-words mb-[6px] ">
+            <a href="https://www.brooklynvegan.com/20-classic-emo-post-hardcore-albums-turning-20-in-2025/" class="" >20 Classic Emo & Post-Hardcore Albums Turning 20 in 2025</a>
+          </h3>
+        
+        
+        
+              </div>
+    </div>
+  </div>
+</div>
+
+<div class="card w-full flow-horizontal card-vertical l-medium pt-post">
+  <div class="card-inner flex flex-wrap">
+          <div class="card-columns col-first ">
+                <a href="https://www.brooklynvegan.com/10-artists-shaping-the-new-indie-country-boom/" class=" card-media block relative"  >
+          <picture>
+                        <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" loading='lazy' class="recirc-slider-card-16_9" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/recirc-slider-card-16_9/2025/04/30/mjlenderman-brooklynsteel-19.jpg.webp?t=b58d9fae.webp" alt="MJ Lenderman at Brooklyn Steel" width="190" height="127">
+          </picture>
+
+          
+                  </a>
+                      </div>
+    
+    <div class="card-columns col-last">
+      <div class="card-details h-full flex flex-col has-image">
+        
+        
+                  <h3 class="card-title break-words mb-[6px] ">
+            <a href="https://www.brooklynvegan.com/10-artists-shaping-the-new-indie-country-boom/" class="" >10 Artists Shaping the New Indie-Country Boom</a>
+          </h3>
+        
+        
+        
+              </div>
+    </div>
+  </div>
+</div>
+
+<div class="card w-full flow-horizontal card-vertical l-medium pt-post">
+  <div class="card-inner flex flex-wrap">
+          <div class="card-columns col-first ">
+                <a href="https://www.brooklynvegan.com/10-crucial-emo-albums-turning-10-in-2025/" class=" card-media block relative"  >
+          <picture>
+                        <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" loading='lazy' class="recirc-slider-card-16_9" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/recirc-slider-card-16_9/2021/11/22/attachment-twiabp-elsewhere-31.jpg.webp?t=772755ef.webp" alt="The World Is A Beautiful Place &amp; I Am No Longer Afraid to Die at Elsewhere" width="190" height="127">
+          </picture>
+
+          
+                  </a>
+                      </div>
+    
+    <div class="card-columns col-last">
+      <div class="card-details h-full flex flex-col has-image">
+        
+        
+                  <h3 class="card-title break-words mb-[6px] ">
+            <a href="https://www.brooklynvegan.com/10-crucial-emo-albums-turning-10-in-2025/" class="" >10 Crucial Emo Albums Turning 10 in 2025</a>
+          </h3>
+        
+        
+        
+              </div>
+    </div>
+  </div>
+</div>
+
+<div class="card w-full flow-horizontal card-vertical l-medium pt-post">
+  <div class="card-inner flex flex-wrap">
+          <div class="card-columns col-first ">
+                <a href="https://www.brooklynvegan.com/the-20-best-britpop-albums-of-1995/" class=" card-media block relative"  >
+          <picture>
+                        <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" loading='lazy' class="recirc-slider-card-16_9" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/recirc-slider-card-16_9/2025/03/26/britpop-melody-maker-and-nme-covers-1995-blur-oasis-elastica-supergrass-1.jpeg.webp?t=fb0946fb.webp" alt="britpop-melody-maker-and-nme-covers-1995-blur-oasis-elastica-supergrass" width="178" height="127">
+          </picture>
+
+          
+                  </a>
+                      </div>
+    
+    <div class="card-columns col-last">
+      <div class="card-details h-full flex flex-col has-image">
+        
+        
+                  <h3 class="card-title break-words mb-[6px] ">
+            <a href="https://www.brooklynvegan.com/the-20-best-britpop-albums-of-1995/" class="" >20 Classic Britpop Albums That Turn 30 This Year</a>
+          </h3>
+        
+        
+        
+              </div>
+    </div>
+  </div>
+</div>
+      </div>
+      <!-- Infinite Load More -->
+      <div class="recirc-load-more-contents"></div>
+
+    </div>
+  </div>
+
+  
+</div>
+<div class="AdBar ad-iframe-center">
+  <!-- Advertisement Begin Leaderboard - In Content only 728x90 / 320x50 Ad -->
+  <div class="htlad-in_content_ad"></div>
+  <!-- Advertisement End Leaderboard Ad -->
+</div>
+<div class="AdBar mb-[40px]">
+  <!-- Advertisement Begin Medium Rectangle Ad(300x250) -->
+  <div class="htlad-incontent_300x250"></div>
+  <!-- Advertisement End Medium Rectangle Ad -->
+</div>
+<div class="w-recirculation w-recirc">
+  <div class="row">
+    <div class="columns small-12">
+      
+      <div class="card-row">
+        
+<div class="card w-full flow-horizontal card-vertical l-medium pt-post">
+  <div class="card-inner flex flex-wrap">
+          <div class="card-columns col-first ">
+                <a href="https://www.brooklynvegan.com/watch-toyah-robert-fripp-revisit-creams-sunshine-of-your-love/" class=" card-media block relative"  >
+          <picture>
+                        <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" loading='lazy' class="recirc-slider-card-16_9" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/recirc-slider-card-16_9/2025/09/14/toyah-and-robert-fripp-cream-sunshine-of-your-love.jpg.webp?t=388ee9c9.webp" alt="toyah and robert fripp cream sunshine of your love" width="225" height="127">
+          </picture>
+
+          
+                  </a>
+                      </div>
+    
+    <div class="card-columns col-last">
+      <div class="card-details h-full flex flex-col has-image">
+        
+        
+                  <h3 class="card-title break-words mb-[6px] ">
+            <a href="https://www.brooklynvegan.com/watch-toyah-robert-fripp-revisit-creams-sunshine-of-your-love/" class="" >Watch Toyah &amp; Robert Fripp revisit Cream's "Sunshine of Your Love"</a>
+          </h3>
+        
+        
+        
+              </div>
+    </div>
+  </div>
+</div>
+
+<div class="card w-full flow-horizontal card-vertical l-medium pt-post">
+  <div class="card-inner flex flex-wrap">
+          <div class="card-columns col-first ">
+                <a href="https://www.brooklynvegan.com/gathering-of-the-juggalos-2025-in-nsfw-pics/" class=" card-media block relative"  >
+          <picture>
+                        <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" loading='lazy' class="recirc-slider-card-16_9" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/recirc-slider-card-16_9/2025/08/19/gatheringofthejuggalos-2025-158.jpg.webp?t=e274c39a.webp" alt="Gathering of the Juggalos 2025" width="191" height="127">
+          </picture>
+
+          
+                  </a>
+                      </div>
+    
+    <div class="card-columns col-last">
+      <div class="card-details h-full flex flex-col has-image">
+        
+        
+                  <h3 class="card-title break-words mb-[6px] ">
+            <a href="https://www.brooklynvegan.com/gathering-of-the-juggalos-2025-in-nsfw-pics/" class="" >Gathering of the Juggalos 2025 in (NSFW) pics</a>
+          </h3>
+        
+        
+        
+              </div>
+    </div>
+  </div>
+</div>
+
+<div class="card w-full flow-horizontal card-vertical l-medium pt-post">
+  <div class="card-inner flex flex-wrap">
+          <div class="card-columns col-first ">
+                <a href="https://www.brooklynvegan.com/watch-fall-out-boys-patrick-stump-join-chicago-powerviolence-band-weekend-nachos-on-stage/" class=" card-media block relative"  >
+          <picture>
+                        <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" loading='lazy' class="recirc-slider-card-16_9" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/recirc-slider-card-16_9/2025/09/15/Patrick-Stump-Weekend-Nachos-by-Dan-Samhold.jpg.webp?t=5ec72986.webp" alt="Patrick Stump Weekend Nachos by Dan Samhold" width="190" height="127">
+          </picture>
+
+          
+                  </a>
+                      </div>
+    
+    <div class="card-columns col-last">
+      <div class="card-details h-full flex flex-col has-image">
+        
+        
+                  <h3 class="card-title break-words mb-[6px] ">
+            <a href="https://www.brooklynvegan.com/watch-fall-out-boys-patrick-stump-join-chicago-powerviolence-band-weekend-nachos-on-stage/" class="" >Watch Fall Out Boy's Patrick Stump join Chicago powerviolence band Weekend Nachos on stage</a>
+          </h3>
+        
+        
+        
+              </div>
+    </div>
+  </div>
+</div>
+
+<div class="card w-full flow-horizontal card-vertical l-medium pt-post">
+  <div class="card-inner flex flex-wrap">
+          <div class="card-columns col-first ">
+                <a href="https://www.brooklynvegan.com/gathering-of-the-juggalos-2023-in-nsfw-pics/" class=" card-media block relative"  >
+          <picture>
+                        <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" loading='lazy' class="recirc-slider-card-16_9" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/recirc-slider-card-16_9/2023/07/14/attachment-juggalos-nate-2023-097.jpg.webp?t=3126daaf.webp" alt="Gathering of the Juggalos 2023" width="191" height="127">
+          </picture>
+
+          
+                  </a>
+                      </div>
+    
+    <div class="card-columns col-last">
+      <div class="card-details h-full flex flex-col has-image">
+        
+        
+                  <h3 class="card-title break-words mb-[6px] ">
+            <a href="https://www.brooklynvegan.com/gathering-of-the-juggalos-2023-in-nsfw-pics/" class="" >Gathering of the Juggalos 2023 in (NSFW) pics</a>
+          </h3>
+        
+        
+        
+              </div>
+    </div>
+  </div>
+</div>
+      </div>
+      <!-- Infinite Load More -->
+      <div class="recirc-load-more-contents"></div>
+
+    </div>
+  </div>
+
+  
+</div>
+<div class="AdBar ad-iframe-center">
+  <!-- Advertisement Begin Leaderboard - In Content only 728x90 / 320x50 Ad -->
+  <div class="htlad-in_content_ad"></div>
+  <!-- Advertisement End Leaderboard Ad -->
+</div>
+<div class="AdBar mb-[40px]">
+  <!-- Advertisement Begin Medium Rectangle Ad(300x250) -->
+  <div class="htlad-incontent_300x250"></div>
+  <!-- Advertisement End Medium Rectangle Ad -->
+</div>
+
+      </main>
+
+            <aside class="ap-col-aside">
+        <div class="block-sidebar sticky">
+          
+<div class="block-sidebar sticky">
+  
+<section class="w-recirc-hero mb-[40px]">
+  
+  <div class="article-sidebar-hero-swiper overflow-hidden relative">
+    <div class="swiper-wrapper">
+              
+        <div class="recirc-hero-item swiper-slide relative">
+                      <div class="recirc-hero-item__image">
+              <a href="https://www.brooklynvegan.com/gathering-of-the-juggalos-2025-in-nsfw-pics/">
+                <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" class="w-full img-cover" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/recirc-sidebar-hero/2025/08/19/gatheringofthejuggalos-2025-158.jpg.webp?t=5dde7cf3.webp" width="340" height="227" alt="Gathering of the Juggalos 2025">
+              </a>
+            </div>
+          
+                      <div class="recirc-hero-item__title text-[15px] leading-[1.3] font-helvetica-neue font-bold px-[20px] py-[16px] bg-black/[0.8]">
+              <a href="https://www.brooklynvegan.com/gathering-of-the-juggalos-2025-in-nsfw-pics/">
+                Gathering of the Juggalos 2025 in (NSFW) pics              </a>
+            </div>
+          
+        </div>
+              
+        <div class="recirc-hero-item swiper-slide relative">
+                      <div class="recirc-hero-item__image">
+              <a href="https://www.brooklynvegan.com/bv-interview-ty-segall-talks-going-pop-for-new-lp-possession-playing-piano-touring-with-primus-pet-portraits-more/">
+                <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" class="w-full img-cover" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/recirc-sidebar-hero/2025/05/29/ty-segall-matt-yoka.jpg.webp?t=68be90a2.webp" width="340" height="227" alt="ty segall matt yoka">
+              </a>
+            </div>
+          
+                      <div class="recirc-hero-item__title text-[15px] leading-[1.3] font-helvetica-neue font-bold px-[20px] py-[16px] bg-black/[0.8]">
+              <a href="https://www.brooklynvegan.com/bv-interview-ty-segall-talks-going-pop-for-new-lp-possession-playing-piano-touring-with-primus-pet-portraits-more/">
+                BV interview: Ty Segall talks going "pop" for new LP 'Possession,' playing piano, touring with Primus, pet portraits &amp; more              </a>
+            </div>
+          
+        </div>
+              
+        <div class="recirc-hero-item swiper-slide relative">
+                      <div class="recirc-hero-item__image">
+              <a href="https://www.brooklynvegan.com/an-overall-hopelessness-and-dread-superheaven-talk-first-album-in-10-years/">
+                <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" class="w-full img-cover" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/recirc-sidebar-hero/2024/12/02/thestorysofar-bkparamount-38.jpg.webp?t=5f8d975d.webp" width="340" height="227" alt="Superheaven at Brooklyn Paramount">
+              </a>
+            </div>
+          
+                      <div class="recirc-hero-item__title text-[15px] leading-[1.3] font-helvetica-neue font-bold px-[20px] py-[16px] bg-black/[0.8]">
+              <a href="https://www.brooklynvegan.com/an-overall-hopelessness-and-dread-superheaven-talk-first-album-in-10-years/">
+                "An overall hopelessness and dread": Superheaven talk first album in 10 years              </a>
+            </div>
+          
+        </div>
+              
+        <div class="recirc-hero-item swiper-slide relative">
+                      <div class="recirc-hero-item__image">
+              <a href="https://www.brooklynvegan.com/anxious-talk-internal-shakeups-disillusionment-with-hardcore-death-cab-their-great-new-lp-bambi/">
+                <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" class="w-full img-cover" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/recirc-sidebar-hero/2025/02/03/sitw-2025-sat-042.jpg.webp?t=abf913d6.webp" width="340" height="227" alt="Anxious at Something in the Way 2025 at Roadrunner">
+              </a>
+            </div>
+          
+                      <div class="recirc-hero-item__title text-[15px] leading-[1.3] font-helvetica-neue font-bold px-[20px] py-[16px] bg-black/[0.8]">
+              <a href="https://www.brooklynvegan.com/anxious-talk-internal-shakeups-disillusionment-with-hardcore-death-cab-their-great-new-lp-bambi/">
+                Anxious talk internal shakeups, disillusionment with hardcore, Death Cab, &amp; their great new LP 'Bambi'              </a>
+            </div>
+          
+        </div>
+              
+        <div class="recirc-hero-item swiper-slide relative">
+                      <div class="recirc-hero-item__image">
+              <a href="https://www.brooklynvegan.com/20-classic-emo-post-hardcore-albums-turning-20-in-2025/">
+                <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" class="w-full img-cover" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/recirc-sidebar-hero/2025/08/18/2005-Emo-Dot-Com-Photo.jpg.webp?t=387bef27.webp" width="340" height="227" alt="Best Emo Albums of 2005">
+              </a>
+            </div>
+          
+                      <div class="recirc-hero-item__title text-[15px] leading-[1.3] font-helvetica-neue font-bold px-[20px] py-[16px] bg-black/[0.8]">
+              <a href="https://www.brooklynvegan.com/20-classic-emo-post-hardcore-albums-turning-20-in-2025/">
+                20 Classic Emo & Post-Hardcore Albums Turning 20 in 2025              </a>
+            </div>
+          
+        </div>
+              
+        <div class="recirc-hero-item swiper-slide relative">
+                      <div class="recirc-hero-item__image">
+              <a href="https://www.brooklynvegan.com/10-artists-shaping-the-new-indie-country-boom/">
+                <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" class="w-full img-cover" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/recirc-sidebar-hero/2025/04/30/mjlenderman-brooklynsteel-19.jpg.webp?t=4fb8e865.webp" width="340" height="227" alt="MJ Lenderman at Brooklyn Steel">
+              </a>
+            </div>
+          
+                      <div class="recirc-hero-item__title text-[15px] leading-[1.3] font-helvetica-neue font-bold px-[20px] py-[16px] bg-black/[0.8]">
+              <a href="https://www.brooklynvegan.com/10-artists-shaping-the-new-indie-country-boom/">
+                10 Artists Shaping the New Indie-Country Boom              </a>
+            </div>
+          
+        </div>
+          </div>
+
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+  </div>
+</section>
+<div class="AdBar mb-[40px]">
+  <!-- Advertisement Begin Right Rail Ad -->
+  <div class="htlad-rightrail_ad"></div>
+  <!-- Advertisement End Right Rail Ad -->
+</div>
+<div class="AdBar mb-[40px]">
+  <!-- Advertisement Begin Medium Rectangle Ad(300x250) -->
+  <div class="htlad-incontent_300x250"></div>
+  <!-- Advertisement End Medium Rectangle Ad -->
+</div>
+                          <div class="sidebar-form text-white">
+                <script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+/* <![CDATA[ */
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),document.addEventListener("gform/theme/scripts_loaded",function(){gform.themeScriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,themeScriptsLoaded:!1,isFormEditor:()=>"function"==typeof InitializeEditor,callIfLoaded:function(o){return!(!gform.domLoaded||!gform.scriptsLoaded||!gform.themeScriptsLoaded&&!gform.isFormEditor()||(gform.isFormEditor()&&console.warn("The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1."),o(),0))},initializeOnLoaded:function(o){gform.callIfLoaded(o)||(document.addEventListener("gform_main_scripts_loaded",()=>{gform.scriptsLoaded=!0,gform.callIfLoaded(o)}),document.addEventListener("gform/theme/scripts_loaded",()=>{gform.themeScriptsLoaded=!0,gform.callIfLoaded(o)}),window.addEventListener("DOMContentLoaded",()=>{gform.domLoaded=!0,gform.callIfLoaded(o)}))},hooks:{action:{},filter:{}},addAction:function(o,r,e,t){gform.addHook("action",o,r,e,t)},addFilter:function(o,r,e,t){gform.addHook("filter",o,r,e,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,r){gform.removeHook("action",o,r)},removeFilter:function(o,r,e){gform.removeHook("filter",o,r,e)},addHook:function(o,r,e,t,n){null==gform.hooks[o][r]&&(gform.hooks[o][r]=[]);var d=gform.hooks[o][r];null==n&&(n=r+"_"+d.length),gform.hooks[o][r].push({tag:n,callable:e,priority:t=null==t?10:t})},doHook:function(r,o,e){var t;if(e=Array.prototype.slice.call(e,1),null!=gform.hooks[r][o]&&((o=gform.hooks[r][o]).sort(function(o,r){return o.priority-r.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==r?t.apply(null,e):e[0]=t.apply(null,e)})),"filter"==r)return e[0]},removeHook:function(o,r,t,n){var e;null!=gform.hooks[o][r]&&(e=(e=gform.hooks[o][r]).filter(function(o,r,e){return!!(null!=n&&n!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][r]=e)}});
+/* ]]> */
+</script>
+
+                <div class='gf_browser_unknown gform_wrapper gravity-theme gform-theme--no-framework' data-form-theme='gravity-theme' data-form-index='0' id='gform_wrapper_6' ><div id='gf_6' class='gform_anchor' tabindex='-1'></div><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_6' id='gform_6'  action='/category/music/#gf_6' data-formid='6' novalidate>
+                        <div class='gform-body gform_body'><div id='gform_fields_6' class='gform_fields top_label form_sublabel_below description_below validation_below'><div id="field_6_3" class="gfield gfield--type-html gfield--width-full gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><div class="newsletter-form-title">Sign Up For Our Newsletter</div></div><div id="field_6_1" class="gfield gfield--type-email gfield_contains_required field_sublabel_below gfield--no-description field_description_below hidden_label field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_6_1'>Email Address<span class="gfield_required"><span class="gfield_required gfield_required_text">(Required)</span></span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_1' id='input_6_1' type='email' value='' class='large'   placeholder='Email' aria-required="true" aria-invalid="false"  />
+                        </div></div><div id="field_6_4" class="gfield gfield--type-honeypot gform_validation_container field_sublabel_below gfield--has-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_6_4'>Name</label><div class='ginput_container'><input name='input_4' id='input_6_4' type='text' value='' autocomplete='new-password'/></div><div class='gfield_description' id='gfield_description_6_4'>This field is for validation purposes and should be left unchanged.</div></div></div></div>
+        <div class='gform-footer gform_footer top_label'> <input type='submit' id='gform_submit_button_6' class='gform_button button' onclick='gform.submission.handleButtonClick(this);' data-submission-type='submit' value='Sign Up'  /> <input type='hidden' name='gform_ajax' value='form_id=6&amp;title=&amp;description=&amp;tabindex=0&amp;theme=gravity-theme&amp;hash=39587a9cbfac1b750af30ec99bec6e93' />
+            <input type='hidden' class='gform_hidden' name='gform_submission_method' data-js='gform_submission_method_6' value='iframe' />
+            <input type='hidden' class='gform_hidden' name='gform_theme' data-js='gform_theme_6' id='gform_theme_6' value='gravity-theme' />
+            <input type='hidden' class='gform_hidden' name='gform_style_settings' data-js='gform_style_settings_6' id='gform_style_settings_6' value='' />
+            <input type='hidden' class='gform_hidden' name='is_submit_6' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='6' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_6' value='WyJbXSIsImQ3ZmY4N2ExODMzYTU0ZTZhODAyNWI3YzNlZjQ4Mzc0Il0=' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_target_page_number_6' id='gform_target_page_number_6' value='0' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_source_page_number_6' id='gform_source_page_number_6' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div>
+		                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_6' id='gform_ajax_frame_6' title='This iframe contains the logic required to handle Ajax powered Gravity Forms.'></iframe>
+		                <script type="rocketlazyloadscript" data-rocket-type="text/javascript">window.addEventListener('DOMContentLoaded', function() {
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {gformInitSpinner( 6, 'https://www.brooklynvegan.com/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery('#gform_ajax_frame_6').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_6');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_6').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_6').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_6').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_6').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_6').offset().top - mt); }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_6').val();gformInitSpinner( 6, 'https://www.brooklynvegan.com/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery(document).trigger('gform_page_loaded', [6, current_page]);window['gf_submitting_6'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}jQuery('#gform_wrapper_6').replaceWith(confirmation_content);jQuery(document).scrollTop(jQuery('#gf_6').offset().top - mt);jQuery(document).trigger('gform_confirmation_loaded', [6]);window['gf_submitting_6'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_6').text());}else{jQuery('#gform_6').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger("gform_pre_post_render", [{ formId: "6", currentPage: "current_page", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_6" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_6";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_6" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 6, current_page );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );} ); 
+/* ]]> */
+});</script>
+              </div>
+                        
+
+<section class="w-recirc-sidebar mb-[40px]">
+  <div class="module-header l-small">
+    Popular  </div>
+    <div class="card-row">
+    
+<div class="card w-full flow-vertical card-horizontal l-small pt-post">
+  <div class="card-inner flex flex-wrap">
+          <div class="card-columns col-first ">
+                <a href="https://www.brooklynvegan.com/21-new-songs-out-today-85/" class=" card-media block relative"  >
+          <picture>
+                        <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" loading='lazy' class="card-small" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/card-small/2025/09/12/Limp-Bizkit-Makin-Love-To-Morgan-Wallen-1757684159.jpg.webp?t=067a2037.webp" alt="Limp-Bizkit-Makin-Love-To-Morgan-Wallen-1757684159" width="128" height="89">
+          </picture>
+
+          
+                  </a>
+                      </div>
+    
+    <div class="card-columns col-last">
+      <div class="card-details h-full flex flex-col has-image">
+        
+        
+                  <div class="card-title break-words mb-[6px] tout-title">
+            <a href="https://www.brooklynvegan.com/21-new-songs-out-today-85/" class="" >21 New Songs Out Today</a>
+          </div>
+        
+        
+        
+              </div>
+    </div>
+  </div>
+</div>
+
+<div class="card w-full flow-vertical card-horizontal l-small pt-post">
+  <div class="card-inner flex flex-wrap">
+          <div class="card-columns col-first ">
+                <a href="https://www.brooklynvegan.com/maruja-algernon-cadwallader-saturdays-at-your-place-the-sound-of-animals-fighting-kassa-overall-restraining-order-die-spitz-iron-wine-ben-bridwell-reviews/" class=" card-media block relative"  >
+          <picture>
+                        <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" loading='lazy' class="card-small" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/card-small/2025/05/09/Maruja-by-Samuel-Edwards.jpg.webp?t=fcc527ef.webp" alt="Maruja by Samuel Edwards" width="128" height="85">
+          </picture>
+
+          
+                  </a>
+                      </div>
+    
+    <div class="card-columns col-last">
+      <div class="card-details h-full flex flex-col has-image">
+        
+        
+                  <div class="card-title break-words mb-[6px] tout-title">
+            <a href="https://www.brooklynvegan.com/maruja-algernon-cadwallader-saturdays-at-your-place-the-sound-of-animals-fighting-kassa-overall-restraining-order-die-spitz-iron-wine-ben-bridwell-reviews/" class="" >Notable Releases of the Week (9/12)</a>
+          </div>
+        
+        
+        
+              </div>
+    </div>
+  </div>
+</div>
+
+<div class="card w-full flow-vertical card-horizontal l-small pt-post">
+  <div class="card-inner flex flex-wrap">
+          <div class="card-columns col-first ">
+                <a href="https://www.brooklynvegan.com/alright-pulp-were-perfection-at-forest-hills-stadium-review-pics-full-video/" class=" card-media block relative"  >
+          <picture>
+                        <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" loading='lazy' class="card-small" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/card-small/2025/09/12/pulp-02.jpg.webp?t=9fd83b67.webp" alt="Pulp at Forest Hills Stadium" width="128" height="85">
+          </picture>
+
+          
+                  </a>
+                      </div>
+    
+    <div class="card-columns col-last">
+      <div class="card-details h-full flex flex-col has-image">
+        
+        
+                  <div class="card-title break-words mb-[6px] tout-title">
+            <a href="https://www.brooklynvegan.com/alright-pulp-were-perfection-at-forest-hills-stadium-review-pics-full-video/" class="" >Alright! Pulp were perfection at Forest Hills Stadium: review, pics, full video</a>
+          </div>
+        
+        
+        
+              </div>
+    </div>
+  </div>
+</div>
+
+<div class="card w-full flow-vertical card-horizontal l-small pt-post">
+  <div class="card-inner flex flex-wrap">
+          <div class="card-columns col-first ">
+                <a href="https://www.brooklynvegan.com/gathering-of-the-juggalos-2025-in-nsfw-pics/" class=" card-media block relative"  >
+          <picture>
+                        <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" loading='lazy' class="card-small" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/card-small/2025/08/19/gatheringofthejuggalos-2025-158.jpg.webp?t=5f73a39d.webp" alt="Gathering of the Juggalos 2025" width="128" height="85">
+          </picture>
+
+          
+                  </a>
+                      </div>
+    
+    <div class="card-columns col-last">
+      <div class="card-details h-full flex flex-col has-image">
+        
+        
+                  <div class="card-title break-words mb-[6px] tout-title">
+            <a href="https://www.brooklynvegan.com/gathering-of-the-juggalos-2025-in-nsfw-pics/" class="" >Gathering of the Juggalos 2025 in (NSFW) pics</a>
+          </div>
+        
+        
+        
+              </div>
+    </div>
+  </div>
+</div>
+  </div>
+</section>
+<div class="AdBar mb-[40px]">
+  <!-- Advertisement Begin Right Rail Ad -->
+  <div class="htlad-rightrail_ad"></div>
+  <!-- Advertisement End Right Rail Ad -->
+</div>
+<div class="AdBar mb-[40px]">
+  <!-- Advertisement Begin Medium Rectangle Ad(300x250) -->
+  <div class="htlad-incontent_300x250"></div>
+  <!-- Advertisement End Medium Rectangle Ad -->
+</div>
+<section class="w-recirc-list mb-[40px]">
+
+  
+<div class="recirc-list-item">
+      <div class="module-header l-small">
+              <a href="https://www.brooklynvegan.com/category/music/new-releases/">
+      
+        Notable Releases
+              </a>
+          </div>
+  
+  <div class="card-row">
+    
+<div class="card w-full flow-vertical card-horizontal l-small pt-post">
+  <div class="card-inner flex flex-wrap">
+          <div class="card-columns col-first ">
+                <a href="https://www.brooklynvegan.com/maruja-algernon-cadwallader-saturdays-at-your-place-the-sound-of-animals-fighting-kassa-overall-restraining-order-die-spitz-iron-wine-ben-bridwell-reviews/" class=" card-media block relative"  >
+          <picture>
+                        <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" loading='lazy' class="card-small" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/card-small/2025/05/09/Maruja-by-Samuel-Edwards.jpg.webp?t=fcc527ef.webp" alt="Maruja by Samuel Edwards" width="128" height="85">
+          </picture>
+
+          
+                  </a>
+                      </div>
+    
+    <div class="card-columns col-last">
+      <div class="card-details h-full flex flex-col has-image">
+        
+        
+                  <h3 class="card-title break-words mb-[6px] ">
+            <a href="https://www.brooklynvegan.com/maruja-algernon-cadwallader-saturdays-at-your-place-the-sound-of-animals-fighting-kassa-overall-restraining-order-die-spitz-iron-wine-ben-bridwell-reviews/" class="" >Maruja, Algernon Cadwallwader, Saturdays At Your Place & more</a>
+          </h3>
+        
+        
+        
+              </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+<div class="recirc-list-item">
+      <div class="module-header l-small">
+              <a href="https://www.brooklynvegan.com/tags/bills-indie-basement/">
+      
+        Indie Basement
+              </a>
+          </div>
+  
+  <div class="card-row">
+    
+<div class="card w-full flow-vertical card-horizontal l-small pt-post">
+  <div class="card-inner flex flex-wrap">
+          <div class="card-columns col-first ">
+                <a href="https://www.brooklynvegan.com/album-reviews-the-chameleons-gruff-rhys-baxter-dury-guerilla-toss-sidney-minsky-sargeant-the-hidden-cameras-cosmic-rough-riders/" class=" card-media block relative"  >
+          <picture>
+                        <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" loading='lazy' class="card-small" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/card-small/2025/09/11/indie-basement-9-12-baxter-dury-gruff-rhys-the-chameleons-guerilla-toss-syndey-minski-sargeant-hidden-cameras.jpeg.webp?t=465cff54.webp" alt="indie-basement-9-12-baxter-dury-gruff-rhys-the-chameleons-guerilla-toss-syndey-minski-sargeant-hidden-cameras" width="128" height="72">
+          </picture>
+
+          
+                  </a>
+                      </div>
+    
+    <div class="card-columns col-last">
+      <div class="card-details h-full flex flex-col has-image">
+        
+        
+                  <h3 class="card-title break-words mb-[6px] ">
+            <a href="https://www.brooklynvegan.com/album-reviews-the-chameleons-gruff-rhys-baxter-dury-guerilla-toss-sidney-minsky-sargeant-the-hidden-cameras-cosmic-rough-riders/" class="" >Indie Basement (9/12): the week in classic indie, alternative & college rock</a>
+          </h3>
+        
+        
+        
+              </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+<div class="recirc-list-item">
+      <div class="module-header l-small">
+              <a href="https://www.brooklynvegan.com/tags/bv-weekly-playist/">
+      
+        Playlists
+              </a>
+          </div>
+  
+  <div class="card-row">
+    
+<div class="card w-full flow-vertical card-horizontal l-small pt-post">
+  <div class="card-inner flex flex-wrap">
+          <div class="card-columns col-first ">
+                <a href="https://www.brooklynvegan.com/our-favorite-songs-of-the-week-playlist-150/" class=" card-media block relative"  >
+          <picture>
+                        <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" loading='lazy' class="card-small" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/card-small/2024/03/22/fkatwigs-2shell.jpg.webp?t=ec9f892a.webp" alt="FKA twigs x Two Shell" width="128" height="85">
+          </picture>
+
+          
+                  </a>
+                      </div>
+    
+    <div class="card-columns col-last">
+      <div class="card-details h-full flex flex-col has-image">
+        
+        
+                  <h3 class="card-title break-words mb-[6px] ">
+            <a href="https://www.brooklynvegan.com/our-favorite-songs-of-the-week-playlist-150/" class="" >Our favorite songs of the week (playlist)</a>
+          </h3>
+        
+        
+        
+              </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+<div class="recirc-list-item">
+      <div class="module-header l-small">
+              <a href="https://www.brooklynvegan.com/tags/new-songs/">
+      
+        New Songs
+              </a>
+          </div>
+  
+  <div class="card-row">
+    
+<div class="card w-full flow-vertical card-horizontal l-small pt-post">
+  <div class="card-inner flex flex-wrap">
+          <div class="card-columns col-first ">
+                <a href="https://www.brooklynvegan.com/7-new-songs-out-today-33/" class=" card-media block relative"  >
+          <picture>
+                        <img onerror="this.style.visibility='hidden'; this.style.fontSize=0" loading='lazy' class="card-small" src="https://media.brooklynvegan.com/xxrzsfjkyw/styles/card-small/2025/09/15/thundercat-and-remi-wolf.jpg.webp?t=f0b65379.webp" alt="thundercat and remi wolf" width="128" height="96">
+          </picture>
+
+          
+                  </a>
+                      </div>
+    
+    <div class="card-columns col-last">
+      <div class="card-details h-full flex flex-col has-image">
+        
+        
+                  <h3 class="card-title break-words mb-[6px] ">
+            <a href="https://www.brooklynvegan.com/7-new-songs-out-today-33/" class="" >7 New Songs Out Today</a>
+          </h3>
+        
+        
+        
+              </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+</section>
+  <div class="w-recirc-promo mb-[6px]">
+          <a href="http://www.siriusxm.com/siriusxmu">
+    
+      <img width="300" height="200" src="https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2023/07/31/sirius.jpg" class="mx-auto" alt="sirius" loading="lazy" decoding="async" />
+          </a>
+      </div>
+
+  <div class="w-recirc-fb mb-[6px]">
+    <div id="fb-root"></div>
+<script type="rocketlazyloadscript" async defer crossorigin="anonymous" data-rocket-src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v17.0" nonce="QuYmvsQc"></script>
+<div class="fb-page" data-href="https://www.facebook.com/167510274685" data-tabs="" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/167510274685" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/167510274685">BrooklynVegan</a></blockquote></div>  </div>
+</div>
+        </div>
+      </aside>
+          </div> <!-- End Row -->
+  </div>
+
+<span id="kadence-conversion-end-of-content"></span>
+
+<footer data-wpr-lazyrender="1" class="site-footer lg:py-[24px] relative z-[1]">
+  
+<ul class="social-links">
+   
+   
+        <li class="social">
+        <a class="share_link instagram" href="https://www.instagram.com/brooklynvegan/" target="_blank" rel="noopener noreferrer" data-social="instagram">
+           <svg viewBox="0 0 93.6 93.6" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" class="icon-svg ">
+              <path d="M67.61,5.89H26A20.13,20.13,0,0,0,5.89,26V67.61A20.13,20.13,0,0,0,26,87.71H67.61a20.13,20.13,0,0,0,20.1-20.1V26A20.13,20.13,0,0,0,67.61,5.89ZM80,67.61A12.39,12.39,0,0,1,67.61,80H26A12.39,12.39,0,0,1,13.62,67.61V26A12.39,12.39,0,0,1,26,13.62H67.61A12.39,12.39,0,0,1,80,26Z"></path>
+              <path d="M46.8,24.68A22.12,22.12,0,1,0,68.92,46.8,22.14,22.14,0,0,0,46.8,24.68Zm0,36.51A14.39,14.39,0,1,1,61.19,46.8,14.4,14.4,0,0,1,46.8,61.19Z"></path>
+              <path d="M68.73,20a4.09,4.09,0,1,0,4.09,4.09A4.09,4.09,0,0,0,68.73,20Z"></path>
+           </svg>
+        </a>
+     </li>
+   
+      <li class="social">
+      <a class="share_link twitter" href="https://twitter.com/brooklynvegan" target="_blank" rel="noopener noreferrer" data-social="twitter">
+        <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 512 512"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8l164.9-188.5L26.8 48h145.6l100.5 132.9L389.2 48zm-24.8 373.8h39.1L151.1 88h-42l255.3 333.8z"/></svg>
+      </a>
+    </li>
+  
+        <li class="social">
+        <a class="share_link facebook" href="https://www.facebook.com/BrooklynVegan" target="_blank" rel="noopener noreferrer" data-social="facebook">
+           <svg viewBox="0 0 93.6 93.6" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" class="icon-svg ">
+              <path d="M50.83,7.56h14V21.07c-2.87,0-5.62,0-8.37,0-2.54,0-3.79,1.25-3.82,3.81s0,4.93,0,7.39c0,.22,0,.45.08.75H65c-.48,4.64-.94,9.19-1.42,13.84h-11V86H36.37V46.81H28.58V33.12c.32,0,.64-.12,1-.13,1.76,0,3.52,0,5.29,0h1.55c0-2.84-.06-5.53,0-8.22a27.94,27.94,0,0,1,.47-5.09c1.27-6,4.72-10,10.72-11.51C48.65,7.89,49.75,7.76,50.83,7.56Z"></path>
+           </svg>
+        </a>
+     </li>
+   
+        <li class="social">
+        <a class="share_link spotify" href="https://open.spotify.com/user/brooklynvegan" target="_blank" rel="noopener noreferrer" data-social="spotify">
+           <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 496 496" class="icon-svg"><path d="M248,8C111.1,8,0,119.1,0,256S111.1,504,248,504,496,392.9,496,256,384.9,8,248,8ZM348.7,372.9c-4.2,0-6.8-1.3-10.7-3.6-62.4-37.6-135-39.2-206.7-24.5-3.9,1-9,2.6-11.9,2.6a15.57,15.57,0,0,1-15.8-15.8c0-10.3,6.1-15.2,13.6-16.8,81.9-18.1,165.6-16.5,237,26.2,6.1,3.9,9.7,7.4,9.7,16.5a15.11,15.11,0,0,1-15.2,15.4h0Zm26.9-65.6c-5.2,0-8.7-2.3-12.3-4.2-62.5-37-155.7-51.9-238.6-29.4-4.8,1.3-7.4,2.6-11.9,2.6a19.42,19.42,0,0,1-19.4-19.4c0-10.7,5.2-17.8,15.5-20.7,27.8-7.8,56.2-13.6,97.8-13.6,64.9,0,127.6,16.1,177,45.5,8.1,4.8,11.3,11,11.3,19.7A19.38,19.38,0,0,1,375.6,307.3Zm31-76.2c-5.2,0-8.4-1.3-12.9-3.9-71.2-42.5-198.5-52.7-280.9-29.7-3.6,1-8.1,2.6-12.9,2.6-13.2,0-23.3-10.3-23.3-23.6,0-13.6,8.4-21.3,17.4-23.9,35.2-10.3,74.6-15.2,117.5-15.2,73,0,149.5,15.2,205.4,47.8,7.8,4.5,12.9,10.7,12.9,22.6a23.17,23.17,0,0,1-23.2,23.3h0Z" transform="translate(0 -8)" style="fill:#000"/></svg>
+        </a>
+     </li>
+   
+        <li class="social">
+        <a class="share_link youtube" href="https://youtube.com/user/brooklynvegan" target="_blank" rel="noopener noreferrer" data-social="youtube">
+           <svg viewBox="0 0 93.6 93.6" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" class="icon-svg ">
+              <path d="M71.16,18.06H22.44A16.24,16.24,0,0,0,6.2,34.3v25A16.24,16.24,0,0,0,22.44,75.54H71.16A16.24,16.24,0,0,0,87.4,59.3v-25A16.24,16.24,0,0,0,71.16,18.06ZM35.93,61.61V32L63.42,46.8Z"></path>
+           </svg>
+        </a>
+     </li>
+   
+        <li class="social">
+        <a class="share_link tiktok" href="https://www.tiktok.com/@brooklynvegan" target="_blank" rel="noopener noreferrer" data-social="tiktok">
+           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" focusable="false" class="icon-svg tiktok" aria-hidden="true">
+              <path d="M 6 3 C 4.3550302 3 3 4.3550302 3 6 L 3 18 C 3 19.64497 4.3550302 21 6 21 L 18 21 C 19.64497 21 21 19.64497 21 18 L 21 6 C 21 4.3550302 19.64497 3 18 3 L 6 3 z M 12 7 L 14 7 C 14 8.005 15.471 9 16 9 L 16 11 C 15.395 11 14.668 10.734156 14 10.285156 L 14 14 C 14 15.654 12.654 17 11 17 C 9.346 17 8 15.654 8 14 C 8 12.346 9.346 11 11 11 L 11 13 C 10.448 13 10 13.449 10 14 C 10 14.551 10.448 15 11 15 C 11.552 15 12 14.551 12 14 L 12 7 z"></path>
+           </svg>
+        </a>
+     </li>
+   
+   
+    
+    </ul>
+
+  <div  class="row mb-[34px]">
+    <div class="columns small-12 large-3 md-down:hidden">
+      <section id="block-3" class="widget widget_block widget_media_image">
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="156" height="57" src="https://www.brooklynvegan.com/wp-content/uploads/2023/05/24/bv-1logo-new1-1.png" alt="" class="wp-image-11181"/></figure>
+</section>    </div>
+
+    <div class="columns small-12 large-3">
+      <div class="footer-menu">
+      <section id="nav_menu-4" class="widget widget_nav_menu"><h6>Information</h6><div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu"><li id="menu-item-571153" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-571153"><a href="https://www.brooklynvegan.com/">Home</a></li>
+<li id="menu-item-571154" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-571154"><a href="https://www.brooklynvegan.com/about-us/">About Us</a></li>
+<li id="menu-item-571156" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-571156"><a href="https://www.brooklynvegan.com/contact-us/">Contact Us</a></li>
+<li id="menu-item-571155" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-571155"><a href="https://www.brooklynvegan.com/newsletter/">E-mail List Sign Up</a></li>
+<li id="menu-item-573529" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-573529"><a href="/feed">RSS</a></li>
+</ul></div></section>      </div>
+    </div>
+
+    <div class="columns small-12 large-3">
+      <section class="w-shared-socials">
+      <div class="text-[16px] leading-[1.6] tracking-[0.02em] text-white font-medium uppercase mb-[20px] font-roboto">Follow Us</div>
+  
+  <div class="shared-socials flex flex-row flex-wrap items-center">
+              <a href="https://www.instagram.com/brooklynvegan/" target="_blank" rel="noopener noreferrer" data-social="instagram" class="inline-block" aria-label="Visit us on Instagram">
+        <svg width="19" height="19" viewBox="0 0 93.6 93.6" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" focusable="false" class="icon-svg instagram" aria-hidden="true"><path d="M67.61,5.89H26A20.13,20.13,0,0,0,5.89,26V67.61A20.13,20.13,0,0,0,26,87.71H67.61a20.13,20.13,0,0,0,20.1-20.1V26A20.13,20.13,0,0,0,67.61,5.89ZM80,67.61A12.39,12.39,0,0,1,67.61,80H26A12.39,12.39,0,0,1,13.62,67.61V26A12.39,12.39,0,0,1,26,13.62H67.61A12.39,12.39,0,0,1,80,26Z"></path><path d="M46.8,24.68A22.12,22.12,0,1,0,68.92,46.8,22.14,22.14,0,0,0,46.8,24.68Zm0,36.51A14.39,14.39,0,1,1,61.19,46.8,14.4,14.4,0,0,1,46.8,61.19Z"></path><path d="M68.73,20a4.09,4.09,0,1,0,4.09,4.09A4.09,4.09,0,0,0,68.73,20Z"></path></svg>
+        <span class="sr-only">Visit us on Instagram</span>
+      </a>
+              <a href="https://twitter.com/brooklynvegan" target="_blank" rel="noopener noreferrer" data-social="twitter" class="inline-block" aria-label="Visit us on Twitter">
+        <svg width="19" height="19" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" focusable="false" class="icon-svg twitter" aria-hidden="true"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8l164.9-188.5L26.8 48h145.6l100.5 132.9L389.2 48zm-24.8 373.8h39.1L151.1 88h-42l255.3 333.8z"/></svg>
+        <span class="sr-only">Visit us on Twitter</span>
+      </a>
+    
+          <a href="https://www.facebook.com/BrooklynVegan" target="_blank" rel="noopener noreferrer" data-social="facebook" class="inline-block" aria-label="Visit us on Facebook">
+        <svg width="19" height="19" viewBox="0 0 93.6 93.6" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" focusable="false" class="icon-svg facebook" aria-hidden="true"><path d="M50.83,7.56h14V21.07c-2.87,0-5.62,0-8.37,0-2.54,0-3.79,1.25-3.82,3.81s0,4.93,0,7.39c0,.22,0,.45.08.75H65c-.48,4.64-.94,9.19-1.42,13.84h-11V86H36.37V46.81H28.58V33.12c.32,0,.64-.12,1-.13,1.76,0,3.52,0,5.29,0h1.55c0-2.84-.06-5.53,0-8.22a27.94,27.94,0,0,1,.47-5.09c1.27-6,4.72-10,10.72-11.51C48.65,7.89,49.75,7.76,50.83,7.56Z"></path></svg>
+        <span class="sr-only">Visit us on Facebook</span>
+      </a>
+              <a href="https://open.spotify.com/user/brooklynvegan" target="_blank" rel="noopener noreferrer" data-social="facebook" class="inline-block" aria-label="Visit us on Spotify">
+        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 496 496"><path d="M248,8C111.1,8,0,119.1,0,256S111.1,504,248,504,496,392.9,496,256,384.9,8,248,8ZM348.7,372.9c-4.2,0-6.8-1.3-10.7-3.6-62.4-37.6-135-39.2-206.7-24.5-3.9,1-9,2.6-11.9,2.6a15.57,15.57,0,0,1-15.8-15.8c0-10.3,6.1-15.2,13.6-16.8,81.9-18.1,165.6-16.5,237,26.2,6.1,3.9,9.7,7.4,9.7,16.5a15.11,15.11,0,0,1-15.2,15.4h0Zm26.9-65.6c-5.2,0-8.7-2.3-12.3-4.2-62.5-37-155.7-51.9-238.6-29.4-4.8,1.3-7.4,2.6-11.9,2.6a19.42,19.42,0,0,1-19.4-19.4c0-10.7,5.2-17.8,15.5-20.7,27.8-7.8,56.2-13.6,97.8-13.6,64.9,0,127.6,16.1,177,45.5,8.1,4.8,11.3,11,11.3,19.7A19.38,19.38,0,0,1,375.6,307.3Zm31-76.2c-5.2,0-8.4-1.3-12.9-3.9-71.2-42.5-198.5-52.7-280.9-29.7-3.6,1-8.1,2.6-12.9,2.6-13.2,0-23.3-10.3-23.3-23.6,0-13.6,8.4-21.3,17.4-23.9,35.2-10.3,74.6-15.2,117.5-15.2,73,0,149.5,15.2,205.4,47.8,7.8,4.5,12.9,10.7,12.9,22.6a23.17,23.17,0,0,1-23.2,23.3h0Z" transform="translate(0 -8)" style="fill:#fff"/></svg><span class="sr-only">Visit us on Spotify</span>
+      </a>
+    
+          <a href="https://youtube.com/user/brooklynvegan" target="_blank" rel="noopener noreferrer" data-social="youtube" class="inline-block" aria-label="Visit us on Youtube">
+        <svg width="19" height="19" viewBox="0 0 93.6 93.6" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" focusable="false" class="icon-svg youtube" aria-hidden="true"><path d="M71.16,18.06H22.44A16.24,16.24,0,0,0,6.2,34.3v25A16.24,16.24,0,0,0,22.44,75.54H71.16A16.24,16.24,0,0,0,87.4,59.3v-25A16.24,16.24,0,0,0,71.16,18.06ZM35.93,61.61V32L63.42,46.8Z"></path></svg>
+        <span class="sr-only">Visit us on Youtube</span>
+      </a>
+    
+          <a href="https://www.tiktok.com/@brooklynvegan" target="_blank" rel="noopener noreferrer" data-social="tiktok" class="inline-block" aria-label="Visit us on TikTok">
+        <svg width="19" height="19" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" focusable="false" class="icon-svg tiktok" aria-hidden="true"><path d="M 6 3 C 4.3550302 3 3 4.3550302 3 6 L 3 18 C 3 19.64497 4.3550302 21 6 21 L 18 21 C 19.64497 21 21 19.64497 21 18 L 21 6 C 21 4.3550302 19.64497 3 18 3 L 6 3 z M 12 7 L 14 7 C 14 8.005 15.471 9 16 9 L 16 11 C 15.395 11 14.668 10.734156 14 10.285156 L 14 14 C 14 15.654 12.654 17 11 17 C 9.346 17 8 15.654 8 14 C 8 12.346 9.346 11 11 11 L 11 13 C 10.448 13 10 13.449 10 14 C 10 14.551 10.448 15 11 15 C 11.552 15 12 14.551 12 14 L 12 7 z"></path></svg>
+        <span class="sr-only">Visit us on TikTok</span>
+      </a>
+    
+    
+    
+    
+  </div>
+
+</section>
+
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="columns small-12">
+      <div class="footer-copyright">
+      <section id="block-4" class="widget widget_block widget_text">
+<p>© 2025 Veeps, Inc., All rights reserved. </p>
+</section>      </div>
+    </div>
+  </div>
+
+</footer>
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/xxrzsfjkyw\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/project-base\/project-theme\/PubPortal\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<!-- Custom Facebook Feed JS -->
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">var cffajaxurl = "https://www.brooklynvegan.com/wp-admin/admin-ajax.php";
+var cfflinkhashtags = "true";
+</script>
+<!-- Instagram Feed JS -->
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+var sbiajaxurl = "https://www.brooklynvegan.com/wp-admin/admin-ajax.php";
+</script>
+<script type="rocketlazyloadscript" id="c196af2211dc49129786bec7b46a7973">(new Image()).src = 'https://capi.connatix.com/tr/si?token=e9aece7c-2d29-46c2-8a9d-fb19f3eb4d5c&cid=66f406f9-99ec-4c97-aeb2-86548432bc89';  cnx.cmd.push(function() {    cnx({      playerId: "e9aece7c-2d29-46c2-8a9d-fb19f3eb4d5c"    }).render("c196af2211dc49129786bec7b46a7973");  });</script><link data-minify="1" rel='stylesheet' id='gform_basic-css' href='https://www.brooklynvegan.com/wp-content/cache/background-css/1/www.brooklynvegan.com/wp-content/cache/min/1/wp-content/plugins/gravityforms/assets/css/dist/basic.min.css?ver=1757495200&wpr_t=1757968191' type='text/css' media='all' />
+<link rel='stylesheet' id='gform_theme_components-css' href='https://www.brooklynvegan.com/wp-content/plugins/gravityforms/assets/css/dist/theme-components.min.css?ver=2.9.14' type='text/css' media='all' />
+<link rel='stylesheet' id='gform_theme-css' href='https://www.brooklynvegan.com/wp-content/cache/background-css/1/www.brooklynvegan.com/wp-content/plugins/gravityforms/assets/css/dist/theme.min.css?ver=2.9.14&wpr_t=1757968191' type='text/css' media='all' />
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.brooklynvegan.com/wp-content/cache/min/1/swiper@11.1.0/swiper-bundle.min.js?ver=1757495200" id="swiper-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.brooklynvegan.com/wp-content/cache/min/1/player/build/targetvideo.min.js?ver=1757495201" id="target-video-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.brooklynvegan.com/wp-content/cache/min/1/wp-content/pubportal-plugins/pubportal-core/assets/js/share-tracking.js?ver=1757495201" id="share-tracking-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.brooklynvegan.com/wp-content/plugins/custom-facebook-feed/assets/js/cff-scripts.min.js?ver=4.3.2" id="cffscripts-js" data-rocket-defer defer></script>
+<script type="text/javascript" id="download-helper-js-extra">
+/* <![CDATA[ */
+var s3_vars = {"s3_host":"media.brooklynvegan.com","s3_bucket":"xxrzsfjkyw"};
+/* ]]> */
+</script>
+<script data-minify="1" type="text/javascript" src="https://www.brooklynvegan.com/wp-content/cache/min/1/wp-content/plugins/pubportal-media-offload/js/download-helper.js?ver=1757495201" id="download-helper-js"></script>
+<script type="text/javascript" id="rocket_lazyload_css-js-extra">
+/* <![CDATA[ */
+var rocket_lazyload_css_data = {"threshold":"300"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket_lazyload_css-js-after">
+/* <![CDATA[ */
+!function o(n,c,a){function u(t,e){if(!c[t]){if(!n[t]){var r="function"==typeof require&&require;if(!e&&r)return r(t,!0);if(s)return s(t,!0);throw(e=new Error("Cannot find module '"+t+"'")).code="MODULE_NOT_FOUND",e}r=c[t]={exports:{}},n[t][0].call(r.exports,function(e){return u(n[t][1][e]||e)},r,r.exports,o,n,c,a)}return c[t].exports}for(var s="function"==typeof require&&require,e=0;e<a.length;e++)u(a[e]);return u}({1:[function(e,t,r){"use strict";{const c="undefined"==typeof rocket_pairs?[]:rocket_pairs,a=(("undefined"==typeof rocket_excluded_pairs?[]:rocket_excluded_pairs).map(t=>{var e=t.selector;document.querySelectorAll(e).forEach(e=>{e.setAttribute("data-rocket-lazy-bg-"+t.hash,"excluded")})}),document.querySelector("#wpr-lazyload-bg-container"));var o=rocket_lazyload_css_data.threshold||300;const u=new IntersectionObserver(e=>{e.forEach(t=>{t.isIntersecting&&c.filter(e=>t.target.matches(e.selector)).map(t=>{var e;t&&((e=document.createElement("style")).textContent=t.style,a.insertAdjacentElement("afterend",e),t.elements.forEach(e=>{u.unobserve(e),e.setAttribute("data-rocket-lazy-bg-"+t.hash,"loaded")}))})})},{rootMargin:o+"px"});function n(){0<(0<arguments.length&&void 0!==arguments[0]?arguments[0]:[]).length&&c.forEach(t=>{try{document.querySelectorAll(t.selector).forEach(e=>{"loaded"!==e.getAttribute("data-rocket-lazy-bg-"+t.hash)&&"excluded"!==e.getAttribute("data-rocket-lazy-bg-"+t.hash)&&(u.observe(e),(t.elements||=[]).push(e))})}catch(e){console.error(e)}})}n(),function(){const r=window.MutationObserver;return function(e,t){if(e&&1===e.nodeType)return(t=new r(t)).observe(e,{attributes:!0,childList:!0,subtree:!0}),t}}()(document.querySelector("body"),n)}},{}]},{},[1]);
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.brooklynvegan.com/wp-content/cache/min/1/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js?ver=1757495201" id="matchHeight-js" data-rocket-defer defer></script>
+<script type="text/javascript" id="pubportal-js-extra">
+/* <![CDATA[ */
+var pubp_ajax = {"ajax_url":"https:\/\/www.brooklynvegan.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.brooklynvegan.com/wp-content/cache/min/1/wp-content/project-base/project-theme/PubPortal/js/app.js?ver=1757495201" id="pubportal-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.brooklynvegan.com/wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381" id="wp-dom-ready-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.brooklynvegan.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.brooklynvegan.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.brooklynvegan.com/wp-includes/js/dist/a11y.min.js?ver=3156534cc54473497e14" id="wp-a11y-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" defer='defer' data-rocket-src="https://www.brooklynvegan.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.9.14" id="gform_json-js"></script>
+<script type="text/javascript" id="gform_gravityforms-js-extra">
+/* <![CDATA[ */
+var gform_i18n = {"datepicker":{"days":{"monday":"Mo","tuesday":"Tu","wednesday":"We","thursday":"Th","friday":"Fr","saturday":"Sa","sunday":"Su"},"months":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December"},"firstDay":1,"iconText":"Select date"}};
+var gf_legacy_multi = [];
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled"},"vars":{"images_url":"https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/gravityforms\/images"}};
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","version_hash":"3a368d63cdfe5f801ed41be235160fd7","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" defer='defer' data-rocket-src="https://www.brooklynvegan.com/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.9.14" id="gform_gravityforms-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" defer='defer' data-rocket-src="https://www.brooklynvegan.com/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.9.14" id="gform_placeholder-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" defer='defer' data-rocket-src="https://www.brooklynvegan.com/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=380b7a5ec0757c78876bc8a59488f2f3" id="gform_gravityforms_utils-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" defer='defer' data-rocket-src="https://www.brooklynvegan.com/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=21e5a4db1670166692ac5745329bfc80" id="gform_gravityforms_theme_vendors-js"></script>
+<script type="text/javascript" id="gform_gravityforms_theme-js-extra">
+/* <![CDATA[ */
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"3a368d63cdfe5f801ed41be235160fd7"},"ajax":{"ajaxurl":"https:\/\/www.brooklynvegan.com\/wp-admin\/admin-ajax.php","ajax_submission_nonce":"3f9e357839","i18n":{"step_announcement":"Step %1$s of %2$s, %3$s","unknown_error":"There was an unknown error processing your request. Please try again."}}}},"hmr_dev":"","public_path":"https:\/\/www.brooklynvegan.com\/wp-content\/plugins\/gravityforms\/assets\/js\/dist\/","config_nonce":"e7b31166c1"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" defer='defer' data-rocket-src="https://www.brooklynvegan.com/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=b436459e6f25ebcd9e95ea18e1a35e19" id="gform_gravityforms_theme-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">window.addEventListener('DOMContentLoaded', function() {
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 6) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).on('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } ); 
+/* ]]> */
+});</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">window.addEventListener('DOMContentLoaded', function() {
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {jQuery(document).trigger("gform_pre_post_render", [{ formId: "6", currentPage: "1", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_6" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_6";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_6" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 6, 1 );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } ); 
+/* ]]> */
+});</script>
+<script>window.lazyLoadOptions={elements_selector:"iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://www.brooklynvegan.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script><script>function lazyLoadThumb(e,alt,l){var t='<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360">',a='<button class="play" aria-label="Play Youtube video"></button>';if(l){t=t.replace('data-lazy-','');t=t.replace('loading="lazy"','');t=t.replace(/<noscript>.*?<\/noscript>/g,'');}t=t.replace('alt=""','alt="'+alt+'"');return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.parentNode.dataset.query.length?"":"&"+this.parentNode.dataset.query;e.setAttribute("src",t.replace("ID",this.parentNode.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow","accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.parentNode.replaceChild(e,this.parentNode)}document.addEventListener("DOMContentLoaded",function(){var exclusions=[];var e,t,p,u,l,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)(e=document.createElement("div")),(u='https://i.ytimg.com/vi/ID/hqdefault.jpg'),(u=u.replace('ID',a[t].dataset.id)),(l=exclusions.some(exclusion=>u.includes(exclusion))),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query",a[t].dataset.query),e.setAttribute("data-src",a[t].dataset.src),(e.innerHTML=lazyLoadThumb(a[t].dataset.id,a[t].dataset.alt,l)),a[t].appendChild(e),(p=e.querySelector(".play")),(p.onclick=lazyLoadYoutubeIframe)});</script></div> <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"97fd0e6a59f25e4b","version":"2025.8.0","serverTiming":{"name":{"cfExtPri":true,"cfEdge":true,"cfOrigin":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"708085840b244f76a4c041c6290edecf","b":1}' crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me -->

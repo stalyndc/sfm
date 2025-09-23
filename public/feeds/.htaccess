@@ -1,0 +1,36 @@
+# /feeds/.htaccess
+# Safety + correct types + light caching for generated feed files
+
+# No directory listing
+Options -Indexes
+
+# Never execute scripts here
+<IfModule mod_php.c>
+  php_flag engine off
+</IfModule>
+<FilesMatch "\.(php|phtml|php[0-9]+|phar|pl|py|cgi)$">
+  Require all denied
+</FilesMatch>
+RemoveHandler .php .phtml .php3 .php4 .php5 .php7 .php8 .phar .pl .py .cgi
+RemoveType    .php .phtml .php3 .php4 .php5 .php7 .php8 .phar .pl .py .cgi
+
+# Correct MIME types for feeds
+<IfModule mod_mime.c>
+  # JSON Feed per spec
+  AddType application/feed+json .json
+  # Generic XML (safest for both RSS & Atom)
+  AddType application/xml .xml
+</IfModule>
+
+# Light, cache-friendly headers
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  <FilesMatch "\.(xml|json)$">
+    Header set Cache-Control "public, max-age=86400, must-revalidate"
+  </FilesMatch>
+</IfModule>
+
+# Don’t expose .ht* files
+<Files ~ "^\.ht">
+  Require all denied
+</Files>

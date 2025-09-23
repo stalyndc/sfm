@@ -1,0 +1,4 @@
+# For Apache 2.4+
+Require all denied
+Options -Indexes
+php_flag engine off

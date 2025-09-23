@@ -1,0 +1,1191 @@
+<!doctype html>
+
+  <html lang="ja">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>コラボカフェ - アニメ・漫画・ゲームのコラボ情報一覧まとめ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  
+  <link rel="icon" href="https://collabo-cafe.com/wp-content/uploads/favicon_64.png">
+  <link rel="apple-touch-icon" href="https://collabo-cafe.com/wp-content/uploads/apple-touch-icon180x180.png">
+  <link rel="pingback" href="https://collabo-cafe.com/xmlrpc.php">
+
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N9W3QVP');</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10877053108"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-10877053108');
+</script>
+
+<script>
+window.addEventListener('load', function(){
+var selectors = document.querySelectorAll('[href*="anime-store.jp"]');
+for(var id = 0; id < selectors.length; id++){
+selectors[id].addEventListener('click', function() {
+  gtag('event', 'conversion', {'send_to': 'AW-10877053108/jKLHCNqExLIDELTRysIo'});
+});
+}
+});
+</script>
+
+<!-- 2025/04/23 追加 -->
+<script>
+  window.gnshbrequest = window.gnshbrequest || { cmd: [] };
+  gnshbrequest.cmd.push(function () {
+    gnshbrequest.registerPassback("1511018");
+    gnshbrequest.forceInternalRequest();
+  });
+</script>
+<script async src="https://cpt.geniee.jp/hb/v1/213660/461/wrapper.min.js"></script>
+
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+<!-- Javascript側でUAによる条件分岐 -->
+    
+<!-- This site is optimized with the Yoast SEO plugin v13.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="コラボカフェはアニメ・漫画・ゲーム・声優・映画などの「コラボ」に特化した期間限定イベント情報まとめサイトです。全国で開催される期間限定イベント(コラボカフェ・ポップアップストア・原画展・コンビニ等)のアニメ関連の情報をご紹介！"/>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://collabo-cafe.com/" />
+<link rel="next" href="https://collabo-cafe.com/page/2/" />
+<meta property="og:locale" content="ja_JP" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="コラボカフェ - アニメ・漫画・ゲームのコラボ情報一覧まとめ" />
+<meta property="og:description" content="コラボカフェはアニメ・漫画・声優・映画・ゲーム作品の「コラボ」に特化した期間限定イベント情報まとめサイトです。全国で開催されるコラボカフェ・原画展・ポップアップストアなどのイベントや、新作アニメ・漫画の最新刊情報もご紹介！" />
+<meta property="og:url" content="https://collabo-cafe.com/" />
+<meta property="og:site_name" content="コラボカフェ" />
+<meta property="og:image" content="https://collabo-cafe.com/wp-content/uploads/og1500.png" />
+<meta property="og:image:secure_url" content="https://collabo-cafe.com/wp-content/uploads/og1500.png" />
+<meta property="og:image:width" content="1500" />
+<meta property="og:image:height" content="788" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="コラボカフェはアニメ・漫画・ゲーム・声優・映画などの「コラボ」に特化した期間限定イベント情報まとめサイトです。全国で開催される期間限定イベント(コラボカフェ・ポップアップストア・原画展・コンビニ等)のアニメ関連の情報をご紹介！" />
+<meta name="twitter:title" content="コラボカフェ - アニメ・漫画・ゲームのコラボ情報一覧まとめ" />
+<meta name="twitter:site" content="@collabo_cafe" />
+<meta name="twitter:image" content="https://collabo-cafe.com/wp-content/uploads/og1500.png" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://collabo-cafe.com/#organization","name":"\u682a\u5f0f\u4f1a\u793e\u30b3\u30e9\u30dc\u30ab\u30d5\u30a7","url":"https://collabo-cafe.com/","sameAs":["https://twitter.com/collabo_cafe"],"logo":{"@type":"ImageObject","@id":"https://collabo-cafe.com/#logo","inLanguage":"ja","url":"https://collabo-cafe.com/wp-content/uploads/og1500.png","width":1500,"height":788,"caption":"\u682a\u5f0f\u4f1a\u793e\u30b3\u30e9\u30dc\u30ab\u30d5\u30a7"},"image":{"@id":"https://collabo-cafe.com/#logo"}},{"@type":"WebSite","@id":"https://collabo-cafe.com/#website","url":"https://collabo-cafe.com/","name":"\u30b3\u30e9\u30dc\u30ab\u30d5\u30a7","inLanguage":"ja","description":"\u6700\u65b0\u30a2\u30cb\u30e1\u30fb\u6f2b\u753b\u30fb\u30b2\u30fc\u30e0\u30fb\u58f0\u512a\u30fb\u6620\u753b\u7b49\u306e\u30b3\u30e9\u30dc\u30cb\u30e5\u30fc\u30b9\u3092\u304a\u5c4a\u3051\uff01","publisher":{"@id":"https://collabo-cafe.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":"https://collabo-cafe.com/?s={search_term_string}","query-input":"required name=search_term_string"}]},{"@type":"CollectionPage","@id":"https://collabo-cafe.com/#webpage","url":"https://collabo-cafe.com/","name":"\u30b3\u30e9\u30dc\u30ab\u30d5\u30a7 - \u30a2\u30cb\u30e1\u30fb\u6f2b\u753b\u30fb\u30b2\u30fc\u30e0\u306e\u30b3\u30e9\u30dc\u60c5\u5831\u4e00\u89a7\u307e\u3068\u3081","isPartOf":{"@id":"https://collabo-cafe.com/#website"},"inLanguage":"ja","about":{"@id":"https://collabo-cafe.com/#organization"},"description":"\u30b3\u30e9\u30dc\u30ab\u30d5\u30a7\u306f\u30a2\u30cb\u30e1\u30fb\u6f2b\u753b\u30fb\u30b2\u30fc\u30e0\u30fb\u58f0\u512a\u30fb\u6620\u753b\u306a\u3069\u306e\u300c\u30b3\u30e9\u30dc\u300d\u306b\u7279\u5316\u3057\u305f\u671f\u9593\u9650\u5b9a\u30a4\u30d9\u30f3\u30c8\u60c5\u5831\u307e\u3068\u3081\u30b5\u30a4\u30c8\u3067\u3059\u3002\u5168\u56fd\u3067\u958b\u50ac\u3055\u308c\u308b\u671f\u9593\u9650\u5b9a\u30a4\u30d9\u30f3\u30c8(\u30b3\u30e9\u30dc\u30ab\u30d5\u30a7\u30fb\u30dd\u30c3\u30d7\u30a2\u30c3\u30d7\u30b9\u30c8\u30a2\u30fb\u539f\u753b\u5c55\u30fb\u30b3\u30f3\u30d3\u30cb\u7b49)\u306e\u30a2\u30cb\u30e1\u95a2\u9023\u306e\u60c5\u5831\u3092\u3054\u7d39\u4ecb\uff01"}]}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="コラボカフェ &raquo; フィード" href="https://collabo-cafe.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="コラボカフェ &raquo; コメントフィード" href="https://collabo-cafe.com/comments/feed/" />
+<link rel='stylesheet' id='eo-leaflet.js-css'  href='https://collabo-cafe.com/wp-content/plugins/event-organiser/lib/leaflet/leaflet.min.css' type='text/css' media='all' />
+<style id='eo-leaflet.js-inline-css' type='text/css'>
+.leaflet-popup-close-button{box-shadow:none!important;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='https://collabo-cafe.com/wp-content/cache/autoptimize/css/autoptimize_single_7d5d92ddcbe33c91355c20a1d35e7a95.css' type='text/css' media='all' />
+<link rel='stylesheet' id='photoswipe-core-css-css'  href='https://collabo-cafe.com/wp-content/cache/autoptimize/css/autoptimize_single_b86c27330cb6864d6374c991c2e34532.css' type='text/css' media='all' />
+<link rel='stylesheet' id='pswp-skin-css'  href='https://collabo-cafe.com/wp-content/cache/autoptimize/css/autoptimize_single_426e8908d7426603ca203b6d16281b1e.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-rest-filter-css'  href='https://collabo-cafe.com/wp-content/plugins/wp-rest-filter/public/css/wp-rest-filter-public.css' type='text/css' media='all' />
+<link rel='stylesheet' id='yyi_rinker_stylesheet-css'  href='https://collabo-cafe.com/wp-content/cache/autoptimize/css/autoptimize_single_e5524859af3a19b3be6ebed27a442959.css?v=1.0.7' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='https://collabo-cafe.com/wp-content/cache/autoptimize/css/autoptimize_single_18641b1dd1065fc2e6fb37308122d6b5.css' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
+<style id="webfont-amatic-css" media="all">@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/amaticsc/v27/TUZyzwprpvBS1izr_vOECuSa.ttf) format('truetype');
+}
+</style>
+<link rel='stylesheet' id='child-style-css'  href='https://collabo-cafe.com/wp-content/cache/autoptimize/css/autoptimize_single_97baea23e49450fa51207b9389881e42.css?20210326' type='text/css' media='all' />
+<link rel='stylesheet' id='shortcode-css'  href='https://collabo-cafe.com/wp-content/cache/autoptimize/css/autoptimize_single_962ed0478e45b6170b02672de5b667ae.css' type='text/css' media='all' />
+<style id="gf_Concert-css" media="all">@font-face {
+  font-family: 'Concert One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/concertone/v23/VEM1Ro9xs5PjtzCu-srDqSTijPs.ttf) format('truetype');
+}
+</style>
+<style id="gf_Lato-css" media="all">@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+}
+</style>
+<link rel='stylesheet' id='remodal-css'  href='https://collabo-cafe.com/wp-content/cache/autoptimize/css/autoptimize_single_71d45855733547a06742c499a85a7cc4.css' type='text/css' media='all' />
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js'></script>
+<script type='text/javascript' src='https://collabo-cafe.com/wp-content/plugins/photoswipe-masonry/photoswipe-dist/photoswipe.min.js'></script>
+<script type='text/javascript' src='https://collabo-cafe.com/wp-content/plugins/photoswipe-masonry/photoswipe-masonry.js'></script>
+<script type='text/javascript' src='https://collabo-cafe.com/wp-content/plugins/photoswipe-masonry/photoswipe-dist/photoswipe-ui-default.min.js'></script>
+<script type='text/javascript' src='https://collabo-cafe.com/wp-content/plugins/photoswipe-masonry/masonry.pkgd.min.js'></script>
+<script type='text/javascript' src='https://collabo-cafe.com/wp-content/plugins/photoswipe-masonry/imagesloaded.pkgd.min.js'></script>
+<script type='text/javascript' src='https://collabo-cafe.com/wp-content/plugins/wp-rest-filter/public/js/wp-rest-filter-public.js'></script>
+<style type="text/css">
+body{color: #3E3E3E;}
+a,#breadcrumb li a i{color: #00b5fa;}
+a:hover{color: #01e3ff;}
+.article-footer .post-categories li a,.article-footer .tags a{  background: #00b5fa;  border:1px solid #00b5fa;}
+.article-footer .tags a{color:#00b5fa; background: none;}
+.article-footer .post-categories li a:hover,.article-footer .tags a:hover{ background:#01e3ff;  border-color:#01e3ff;}
+input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],select,textarea,.field { background-color: #ffffff;}
+/*ヘッダー*/
+.header{color: #ffffff;}
+.header.bg,.header #inner-header,.menu-sp{background: #ff5dab;}
+#logo a{color: #ffffff;}
+#g_nav .nav li a,.nav_btn,.menu-sp a,.menu-sp a,.menu-sp > ul:after{color: #ffffff;}
+#logo a:hover,#g_nav .nav li a:hover,.nav_btn:hover{color:#01e3ff;}
+@media only screen and (min-width: 768px) {
+.nav > li > a:after{background: #01e3ff;}
+.nav ul {background: #666666;}
+#g_nav .nav li ul.sub-menu li a{color: #f7f7f7;}
+}
+@media only screen and (max-width: 1165px) {
+.site_description{
+background: #ff5dab;
+color: #ffffff;
+}
+}
+/*メインエリア*/
+#inner-content{background: #ffffff}
+.top-post-list .post-list:before{background: #00b5fa;}
+.widget li a:after{color: #00b5fa;}
+/* 投稿ページ見出し */
+.entry-content h2,.widgettitle{background: #ff5dab; color: #ffffff;}
+.entry-content h3{border-color: #ff5dab;}
+.h_boader .entry-content h2{border-color: #ff5dab; color: #3E3E3E;}
+.h_balloon .entry-content h2:after{border-top-color: #ff5dab;}
+/* リスト要素 */
+.entry-content ul li:before{ background: #ff5dab;}
+.entry-content ol li:before{ background: #ff5dab;}
+/* カテゴリーラベル */
+.post-list-card .post-list .eyecatch .cat-name,.top-post-list .post-list .eyecatch .cat-name,.byline .cat-name,.single .authorbox .author-newpost li .cat-name,.related-box li .cat-name,.carouselwrap .cat-name,.eyecatch .cat-name{background: #ff5dab; color:  #ffffff;}
+/* ランキングバッジ */
+ul.wpp-list li a:before{background: #ff5dab; color: #ffffff;}
+/* アーカイブのボタン */
+.readmore a{border:1px solid #00b5fa;color:#00b5fa;}
+.readmore a:hover{background:#00b5fa;color:#fff;}
+/* ボタンの色 */
+.btn-wrap a{background: #00b5fa;border: 1px solid #00b5fa;}
+.btn-wrap a:hover{background: #01e3ff;border-color: #01e3ff;}
+.btn-wrap.simple a{border:1px solid #00b5fa;color:#00b5fa;}
+.btn-wrap.simple a:hover{background:#00b5fa;}
+/* コメント */
+.blue-btn, .comment-reply-link, #submit { background-color: #00b5fa; }
+.blue-btn:hover, .comment-reply-link:hover, #submit:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus {background-color: #01e3ff; }
+/* サイドバー */
+#sidebar1{color: #444444;}
+.widget a{text-decoration:none; color:#666666;}
+.widget a:hover{color:#999999;}
+/*フッター*/
+#footer-top.bg,#footer-top .inner,.cta-inner{background-color: #666666; color: #CACACA;}
+.footer a,#footer-top a{color: #f7f7f7;}
+#footer-top .widgettitle{color: #CACACA;}
+.footer.bg,.footer .inner {background-color: #666666;color: #CACACA;}
+.footer-links li a:before{ color: #ff5dab;}
+/* ページネーション */
+.pagination a, .pagination span,.page-links a{border-color: #00b5fa; color: #00b5fa;}
+.pagination .current,.pagination .current:hover,.page-links ul > li > span{background-color: #00b5fa; border-color: #00b5fa;}
+.pagination a:hover, .pagination a:focus,.page-links a:hover, .page-links a:focus{background-color: #00b5fa; color: #fff;}
+</style>
+<style type="text/css">
+body{color: #3E3E3E;}
+a,#breadcrumb li a i{color: #00b5fa;}
+a:hover{color: #01e3ff;}
+.article-footer .post-categories li a,.article-footer .tags a{  background: #00b5fa;  border:1px solid #00b5fa;}
+.article-footer .tags a{color:#00b5fa; background: none;}
+.article-footer .post-categories li a:hover,.article-footer .tags a:hover{ background:#01e3ff;  border-color:#01e3ff;}
+input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],select,textarea,.field { background-color: #ffffff;}
+/*ヘッダー*/
+.header{color: #ffffff;}
+.header.bg,.header #inner-header,.menu-sp{background: #ff5dab;}
+#logo a{color: #ffffff;}
+#g_nav .nav li a,.nav_btn,.menu-sp a,.menu-sp a,.menu-sp > ul:after{color: #ffffff;}
+#logo a:hover,#g_nav .nav li a:hover,.nav_btn:hover{color:#01e3ff;}
+@media only screen and (min-width: 768px) {
+.nav > li > a:after{background: #01e3ff;}
+.nav ul {background: #666666;}
+#g_nav .nav li ul.sub-menu li a{color: #f7f7f7;}
+}
+@media only screen and (max-width: 1165px) {
+.site_description{
+background: #ff5dab;
+color: #ffffff;
+}
+}
+/*メインエリア*/
+#inner-content{background: #ffffff}
+.top-post-list .post-list:before{background: #00b5fa;}
+.widget li a:after{color: #00b5fa;}
+/* 投稿ページ見出し */
+.entry-content h2,.widgettitle{background: #ff5dab; color: #ffffff;}
+.entry-content h3{border-color: #ff5dab;}
+.h_boader .entry-content h2{border-color: #ff5dab; color: #3E3E3E;}
+.h_balloon .entry-content h2:after{border-top-color: #ff5dab;}
+/* リスト要素 */
+.entry-content ul li:before{ background: #ff5dab;}
+.entry-content ol li:before{ background: #ff5dab;}
+/* カテゴリーラベル */
+.post-list-card .post-list .eyecatch .cat-name,.top-post-list .post-list .eyecatch .cat-name,.byline .cat-name,.single .authorbox .author-newpost li .cat-name,.related-box li .cat-name,.carouselwrap .cat-name,.eyecatch .cat-name{background: #ff5dab; color:  #ffffff;}
+/* ランキングバッジ */
+ul.wpp-list li a:before{background: #ff5dab; color: #ffffff;}
+/* アーカイブのボタン */
+.readmore a{border:1px solid #00b5fa;color:#00b5fa;}
+.readmore a:hover{background:#00b5fa;color:#fff;}
+/* ボタンの色 */
+.btn-wrap a{background: #00b5fa;border: 1px solid #00b5fa;}
+.btn-wrap a:hover{background: #01e3ff;border-color: #01e3ff;}
+.btn-wrap.simple a{border:1px solid #00b5fa;color:#00b5fa;}
+.btn-wrap.simple a:hover{background:#00b5fa;}
+/* コメント */
+.blue-btn, .comment-reply-link, #submit { background-color: #00b5fa; }
+.blue-btn:hover, .comment-reply-link:hover, #submit:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus {background-color: #01e3ff; }
+/* サイドバー */
+#sidebar1{color: #444444;}
+.widget a{text-decoration:none; color:#666666;}
+.widget a:hover{color:#999999;}
+/*フッター*/
+#footer-top.bg,#footer-top .inner,.cta-inner{background-color: #666666; color: #CACACA;}
+.footer a,#footer-top a{color: #f7f7f7;}
+#footer-top .widgettitle{color: #CACACA;}
+.footer.bg,.footer .inner {background-color: #666666;color: #CACACA;}
+.footer-links li a:before{ color: #ff5dab;}
+/* ページネーション */
+.pagination a, .pagination span,.page-links a{border-color: #00b5fa; color: #00b5fa;}
+.pagination .current,.pagination .current:hover,.page-links ul > li > span{background-color: #00b5fa; border-color: #00b5fa;}
+.pagination a:hover, .pagination a:focus,.page-links a:hover, .page-links a:focus{background-color: #00b5fa; color: #fff;}
+</style>
+
+  </head>
+    <body class="home blog pc">
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N9W3QVP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	  
+    <!-- アプリ経由であれば広告の非表示 -->
+        <div id="container" class="  ">
+    
+          <p class="site_description">最新アニメ・漫画・ゲーム・声優・映画等のコラボニュースをお届け！</p>
+    
+    <header class="header animated fadeIn bg " role="banner">
+      <div id="inner-header" class="wrap cf">
+        <div class="header__inner">
+          
+          <div id="logo" class="wf-amatic fs_m">
+                                          <h1 class="h1 text"><a href="https://collabo-cafe.com" rel="nofollow">Collabo Cafe</a></h1>
+                                    </div>
+
+                      <nav id="g_nav" role="navigation">
+                              <a href="#searchbox" data-remodal-target="searchbox" class="nav_btn search_btn"><span class="text gf">search</span></a>
+              
+              <ul id="menu-%e3%82%b0%e3%83%ad%e3%83%bc%e3%83%90%e3%83%ab%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3pc" class="nav top-nav cf"><li id="menu-item-69" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-69"><a href="/" aria-current="page">トップページ<span class="gf">TOP</span></a></li>
+<li id="menu-item-578" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-578"><a href="#">ジャンル別<span class="gf">GENRE LIST</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-1996" class="menu-item menu-item-type-taxonomy menu-item-object-event-category menu-item-1996"><a href="https://collabo-cafe.com/events/category/cafe/">コラボカフェ<span class="gf">COLLABO CAFE</span></a></li>
+	<li id="menu-item-62400" class="menu-item menu-item-type-taxonomy menu-item-object-event-category menu-item-62400"><a href="https://collabo-cafe.com/events/category/pop-up-store/">ポップアップストア<span class="gf"></span></a></li>
+	<li id="menu-item-62402" class="menu-item menu-item-type-taxonomy menu-item-object-event-category menu-item-62402"><a href="https://collabo-cafe.com/events/category/gengaten-tenjikai/">原画展・展示会<span class="gf"></span></a></li>
+	<li id="menu-item-62399" class="menu-item menu-item-type-taxonomy menu-item-object-event-category menu-item-62399"><a href="https://collabo-cafe.com/events/category/kuji/">くじ / プライズ / ガチャ<span class="gf"></span></a></li>
+	<li id="menu-item-1999" class="menu-item menu-item-type-taxonomy menu-item-object-event-category menu-item-1999"><a href="https://collabo-cafe.com/events/category/shop-tieup/">店舗系コラボ<span class="gf">SHOP-TIEUP</span></a></li>
+	<li id="menu-item-62406" class="menu-item menu-item-type-taxonomy menu-item-object-event-category menu-item-62406"><a href="https://collabo-cafe.com/events/category/theme-park/">テーマパーク・遊園地<span class="gf"></span></a></li>
+	<li id="menu-item-433264" class="menu-item menu-item-type-taxonomy menu-item-object-event-category menu-item-433264"><a href="https://collabo-cafe.com/events/category/event/">アニメ・漫画の期間限定イベント<span class="gf"></span></a></li>
+	<li id="menu-item-430227" class="menu-item menu-item-type-taxonomy menu-item-object-event-category menu-item-430227"><a href="https://collabo-cafe.com/events/category/goods/">グッズ<span class="gf"></span></a></li>
+	<li id="menu-item-62403" class="menu-item menu-item-type-taxonomy menu-item-object-event-category menu-item-62403"><a href="https://collabo-cafe.com/events/category/fashion/">ファッション<span class="gf"></span></a></li>
+	<li id="menu-item-433255" class="menu-item menu-item-type-taxonomy menu-item-object-event-category menu-item-433255"><a href="https://collabo-cafe.com/events/category/comics-release/">コミック・ムック本<span class="gf"></span></a></li>
+	<li id="menu-item-433266" class="menu-item menu-item-type-taxonomy menu-item-object-event-category menu-item-433266"><a href="https://collabo-cafe.com/events/category/new-anime/">新作アニメ情報<span class="gf"></span></a></li>
+	<li id="menu-item-1998" class="menu-item menu-item-type-taxonomy menu-item-object-event-category menu-item-1998"><a href="https://collabo-cafe.com/events/category/news/">ニュース<span class="gf">COLLABO NEWS</span></a></li>
+</ul>
+</li>
+<li id="menu-item-30379" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-30379"><a href="#ドロップダウンメニューから選択">開催地域別<span class="gf">REGION</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-30380" class="menu-item menu-item-type-taxonomy menu-item-object-event-tag menu-item-30380"><a href="https://collabo-cafe.com/events/tag/ikebukuro/">池袋<span class="gf"></span></a></li>
+	<li id="menu-item-30382" class="menu-item menu-item-type-taxonomy menu-item-object-event-tag menu-item-30382"><a href="https://collabo-cafe.com/events/tag/akihabara/">秋葉原<span class="gf"></span></a></li>
+	<li id="menu-item-30385" class="menu-item menu-item-type-taxonomy menu-item-object-event-tag menu-item-30385"><a href="https://collabo-cafe.com/events/tag/shinjuku/">新宿<span class="gf"></span></a></li>
+	<li id="menu-item-30381" class="menu-item menu-item-type-taxonomy menu-item-object-event-tag menu-item-30381"><a href="https://collabo-cafe.com/events/tag/osaka/">大阪<span class="gf"></span></a></li>
+	<li id="menu-item-30383" class="menu-item menu-item-type-taxonomy menu-item-object-event-tag menu-item-30383"><a href="https://collabo-cafe.com/events/tag/fukuoka/">福岡<span class="gf"></span></a></li>
+	<li id="menu-item-30384" class="menu-item menu-item-type-taxonomy menu-item-object-event-tag menu-item-30384"><a href="https://collabo-cafe.com/events/tag/nagoya/">名古屋<span class="gf"></span></a></li>
+</ul>
+</li>
+<li id="menu-item-425391" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-425391"><a href="#ドロップダウンメニューから選択">お仕事情報<span class="gf">RECRUIT</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-425419" class="menu-item menu-item-type-taxonomy menu-item-object-event-category menu-item-425419"><a href="https://collabo-cafe.com/events/category/co-capcom/">カプコン<span class="gf"></span></a></li>
+	<li id="menu-item-425420" class="menu-item menu-item-type-taxonomy menu-item-object-event-category menu-item-425420"><a href="https://collabo-cafe.com/events/category/ns-group/">NSグループ<span class="gf"></span></a></li>
+	<li id="menu-item-425421" class="menu-item menu-item-type-taxonomy menu-item-object-event-category menu-item-425421"><a href="https://collabo-cafe.com/events/category/benelic/">BENELIC<span class="gf"></span></a></li>
+	<li id="menu-item-425988" class="menu-item menu-item-type-taxonomy menu-item-object-event-category menu-item-425988"><a href="https://collabo-cafe.com/events/category/animate/">アニメイト<span class="gf"></span></a></li>
+	<li id="menu-item-428196" class="menu-item menu-item-type-taxonomy menu-item-object-event-category menu-item-428196"><a href="https://collabo-cafe.com/events/category/transit-holdings/">トランジットホールディングス<span class="gf"></span></a></li>
+	<li id="menu-item-428197" class="menu-item menu-item-type-taxonomy menu-item-object-event-category menu-item-428197"><a href="https://collabo-cafe.com/events/category/motoya/">モトヤフーズ<span class="gf"></span></a></li>
+	<li id="menu-item-428400" class="menu-item menu-item-type-taxonomy menu-item-object-event-category menu-item-428400"><a href="https://collabo-cafe.com/events/category/tower-records/">TOWER RECORDS<span class="gf"></span></a></li>
+	<li id="menu-item-429830" class="menu-item menu-item-type-taxonomy menu-item-object-event-category menu-item-429830"><a href="https://collabo-cafe.com/events/category/tablier-marketing/">タブリエ・マーケティング<span class="gf"></span></a></li>
+	<li id="menu-item-442842" class="menu-item menu-item-type-taxonomy menu-item-object-event-category menu-item-442842"><a href="https://collabo-cafe.com/events/category/genda-gigo-entertainment/">GENDA GiGO Entertainment<span class="gf"></span></a></li>
+</ul>
+</li>
+<li id="menu-item-199604" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-199604"><a href="/events/tag/anime-matome/">アニメまとめ<span class="gf">ANIME MATOME</span></a></li>
+<li id="menu-item-199605" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-199605"><a href="/events/category/matome-column/">コラム<span class="gf">COLUMN</span></a></li>
+</ul>            </nav>
+
+                  </div>
+      </div>
+    </header>
+
+          <div class="remodal searchbox" data-remodal-id="searchbox" data-remodal-options="hashTracking:false">
+        <div class="search cf"><dl><dt>キーワードで記事を検索</dt><dd><form role="search" method="get" id="searchform" class="searchform cf" action="https://collabo-cafe.com/" >
+    <input type="search" placeholder="検索する" value="" name="s" id="s" />
+    <button type="submit" id="searchsubmit" ><i class="fa fa-search"></i></button>
+    </form></dd></dl></div>
+        <button data-remodal-action="close" class="remodal-close"><span class="text gf">CLOSE</span></button>
+      </div>
+    
+    
+    
+<div class="header__slider">
+  <div class="header__slider__dummy"></div>
+  <ul id="header__slider__ul" class="header__slider__ul">
+        <li class="header__slider__item">
+      <a href="https://collabo-cafe.com/events/collabo/chainsaw-man-box-cafe-tokyo-aichi-osaka2025/" rel="bookmark" title="チェンソーマン レゼ篇 カフェ in 東京/愛知/大阪 9月19日より開催!" class="header__slider__anchor">
+                          <figure class="header__slider__eyecatch">
+             
+                          <img src="https://collabo-cafe.com/wp-content/uploads/2527b7ccf403892982d3c8e436f10e50.jpg" alt="チェンソーマン レゼ篇 カフェ in 東京/愛知/大阪 9月19日より開催!" class="attachment-home-thum size-home-thum wp-post-image" width="1280" height="720" />                      </figure>
+                      </a>
+    </li>
+      <li class="header__slider__item">
+      <a href="https://collabo-cafe.com/events/collabo/kimetsu-movie-mugenjyohen-attendants-benefits-vol6/" rel="bookmark" title="鬼滅の刃 無限城編 入場者特典第6弾パンフレット副読本 9月20日より配布!" class="header__slider__anchor">
+                          <figure class="header__slider__eyecatch">
+             
+                          <img src="https://collabo-cafe.com/wp-content/uploads/75c140d3601436d9bf49d9f8aa3af58a-908.jpg" alt="鬼滅の刃 無限城編 入場者特典第6弾パンフレット副読本 9月20日より配布!" class="attachment-home-thum size-home-thum wp-post-image" width="1280" height="720" />                      </figure>
+                      </a>
+    </li>
+      <li class="header__slider__item">
+      <a href="https://collabo-cafe.com/events/collabo/chainsaw-man-movie-reze-theater-goods2025/" rel="bookmark" title="映画 チェンソーマン レゼ篇 上映開始日より発売される劇場商品情報解禁!" class="header__slider__anchor">
+                          <figure class="header__slider__eyecatch">
+             
+                          <img src="https://collabo-cafe.com/wp-content/uploads/96a07f3513aeb27f31ecaf5c4f389962.jpg" alt="映画 チェンソーマン レゼ篇 上映開始日より発売される劇場商品情報解禁!" class="attachment-home-thum size-home-thum wp-post-image" width="1448" height="992" />                      </figure>
+                      </a>
+    </li>
+      <li class="header__slider__item">
+      <a href="https://collabo-cafe.com/events/collabo/sakamoto-days-helloween-cafe-natslive-2025/" rel="bookmark" title="サカデイ ハロウィンカフェ in NATSLIVE CAFE3店舗 10月10日より開催!" class="header__slider__anchor">
+                          <figure class="header__slider__eyecatch">
+             
+                          <img src="https://collabo-cafe.com/wp-content/uploads/77749f5e5018e9cdd4a03a98ba3a635b-1808.jpg" alt="サカデイ ハロウィンカフェ in NATSLIVE CAFE3店舗 10月10日より開催!" class="attachment-home-thum size-home-thum wp-post-image" width="1800" height="945" />                      </figure>
+                      </a>
+    </li>
+      <li class="header__slider__item">
+      <a href="https://collabo-cafe.com/events/collabo/chainsaw-man-popcorn-box2025/" rel="bookmark" title="チェンソーマンヘッド型ポップコーンボックス 9月19日より劇場に登場!" class="header__slider__anchor">
+                          <figure class="header__slider__eyecatch">
+             
+                          <img src="https://collabo-cafe.com/wp-content/uploads/071c4ef4c60f363bebbf9ad359abf591.jpg" alt="チェンソーマンヘッド型ポップコーンボックス 9月19日より劇場に登場!" class="attachment-home-thum size-home-thum wp-post-image" width="1500" height="843" />                      </figure>
+                      </a>
+    </li>
+    </ul>
+  <div id="header__slider__nav" class="header__slider__nav">
+        <div class="header__slider__nav__item">
+      <div class="header__slider__nav__progress"></div>
+      <div class="header__slider__nav__item__thumbnail"><img src="https://collabo-cafe.com/wp-content/uploads/2527b7ccf403892982d3c8e436f10e50-486x290.jpg" alt="チェンソーマン レゼ篇 カフェ in 東京/愛知/大阪 9月19日より開催!" class="" width="486" height="290" /></div>
+      <h3 class="header__slider__nav__item__title">
+                  チェンソーマン レゼ篇 カフェ in 東京/愛知/大阪                <p class="header__slider__nav__event-date">2025年9月19日〜11月16日</p>
+      </h3>
+    </div>
+      <div class="header__slider__nav__item">
+      <div class="header__slider__nav__progress"></div>
+      <div class="header__slider__nav__item__thumbnail"><img src="https://collabo-cafe.com/wp-content/uploads/75c140d3601436d9bf49d9f8aa3af58a-908-486x290.jpg" alt="鬼滅の刃 無限城編 入場者特典第6弾パンフレット副読本 9月20日より配布!" class="" width="486" height="290" /></div>
+      <h3 class="header__slider__nav__item__title">
+                  鬼滅の刃 無限城編 入場者特典第6弾パンフレット                <p class="header__slider__nav__event-date">2025年9月20日〜10月3日</p>
+      </h3>
+    </div>
+      <div class="header__slider__nav__item">
+      <div class="header__slider__nav__progress"></div>
+      <div class="header__slider__nav__item__thumbnail"><img src="https://collabo-cafe.com/wp-content/uploads/96a07f3513aeb27f31ecaf5c4f389962-486x290.jpg" alt="映画 チェンソーマン レゼ篇 上映開始日より発売される劇場商品情報解禁!" class="" width="486" height="290" /></div>
+      <h3 class="header__slider__nav__item__title">
+                  映画 チェンソーマン レゼ篇 劇場商品情報                <p class="header__slider__nav__event-date">2025年9月19日〜</p>
+      </h3>
+    </div>
+      <div class="header__slider__nav__item">
+      <div class="header__slider__nav__progress"></div>
+      <div class="header__slider__nav__item__thumbnail"><img src="https://collabo-cafe.com/wp-content/uploads/77749f5e5018e9cdd4a03a98ba3a635b-1808-486x290.jpg" alt="サカデイ ハロウィンカフェ in NATSLIVE CAFE3店舗 10月10日より開催!" class="" width="486" height="290" /></div>
+      <h3 class="header__slider__nav__item__title">
+                  サカデイ ハロウィンカフェ in NATSLIVE CAFE3店舗                <p class="header__slider__nav__event-date">2025年10月10日〜11月2日</p>
+      </h3>
+    </div>
+      <div class="header__slider__nav__item">
+      <div class="header__slider__nav__progress"></div>
+      <div class="header__slider__nav__item__thumbnail"><img src="https://collabo-cafe.com/wp-content/uploads/071c4ef4c60f363bebbf9ad359abf591-486x290.jpg" alt="チェンソーマンヘッド型ポップコーンボックス 9月19日より劇場に登場!" class="" width="486" height="290" /></div>
+      <h3 class="header__slider__nav__item__title">
+                  チェンソーマンヘッド型ポップコーンボックス                <p class="header__slider__nav__event-date">2025年9月19日〜</p>
+      </h3>
+    </div>
+    </div>
+</div>
+
+
+      <div id="content">
+<div id="inner-content" class="wrap cf">
+
+<main id="main" class="m-all t-all d-5of7 cf" role="main">
+
+		<div class="top-post-list">
+          <article class="post-list animated fadeIn post-447397 event type-event status-publish has-post-thumbnail event-category-pop-up-store event-category-collabo-period event-category-irumakun event-tag-animate event-tag-animate-fair event-tag-popup-store event-tag-1098 event-tag-original-illust event-tag-osamu-nishi article cf" role="article">
+            <a href="https://collabo-cafe.com/events/collabo/irumakun-animate-debicola-fair2025/" rel="bookmark" title="入間くん デビデコラフェア in アニメイト 9月27日より開催!" class="cf">
+
+                              <figure class="eyecatch">
+                                    <img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/8d13ac5c2a17ed4bf81642b1710ac992-486x290.jpg" alt="入間くん デビデコラフェア in アニメイト 9月27日より開催!" class="lazy attachment-home-thum size-home-thum wp-post-image" width="486" height="290" />                  <span class="cat-name cat__name__home">
+                  ポップアップストア                  </span>
+
+                                  </figure>
+              
+              <section class="entry-content remix">
+                <h1 class="h2 entry-title" rel="bookmark">入間くん デビデコラフェア in アニメイト 9月27日より開催!</h1>
+
+                <p class="byline entry-meta vcard">
+                                                            <span class="event-date gf">期間 : 2025年9月27日〜10月13日</span>
+                                                        <span class="date gf updated">2025/09/21</span>
+                  <span class="author name entry-author">
+                  <span class="fn">コラボカフェ編集部 (Sue)</span>
+                  </span>
+                </p>
+
+                                  <div class="description"><p>週刊少年チャンピオンにて連載中「西修」先生による人気漫画を原作としたTVアニメ「魔入りました! 入間くん」の『デビデコラフェア』が、全国のアニメイトにて2025年9月27日〜10月13日までの期間限定で開催される。デコラポップでキュートな新規描き下ろしイラストを使用した新作グッズやオリジナルノベルティーが登場!</p>
+</div>
+                              </section>
+            </a>
+          </article>
+                    <article class="post-list animated fadeIn post-447926 event type-event status-publish has-post-thumbnail event-category-12465 event-category-12466 event-category-12467 event-category-12464 event-category-2026-01 event-category-goods event-category-news event-category-lovelive-nijigaku event-category-collabo-period event-tag-amnibus-store event-tag-anime-store event-tag-armabianca event-tag-magnet-by-shibuya109 event-tag-goods-net event-tag-original-illust article cf" role="article">
+            <a href="https://collabo-cafe.com/events/collabo/lovelive-nijigasaki-fair-ver-armabianca-anime-store-goods2025/" rel="bookmark" title="ラブライブ! ニジガク 縁日がテーマのPOP UP先行 描き下ろしグッズ 発売" class="cf">
+
+                              <figure class="eyecatch">
+                                    <img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/7b8982fb78a0b7f7d834a2fa4e241c99-990-486x290.jpg" alt="ラブライブ! ニジガク 縁日がテーマのPOP UP先行 描き下ろしグッズ 発売" class="lazy attachment-home-thum size-home-thum wp-post-image" width="486" height="290" />                  <span class="cat-name cat__name__home">
+                  グッズ                  </span>
+
+                                  </figure>
+              
+              <section class="entry-content remix">
+                <h1 class="h2 entry-title" rel="bookmark">ラブライブ! ニジガク 縁日がテーマのPOP UP先行 描き下ろしグッズ 発売</h1>
+
+                <p class="byline entry-meta vcard">
+                                                            <span class="event-icon gf">～2025年10月19日まで予約受付</span>
+                                                        <span class="date gf updated">2025/09/21</span>
+                  <span class="author name entry-author">
+                  <span class="fn">コラボカフェ編集部 (Riko)</span>
+                  </span>
+                </p>
+
+                                  <div class="description"><p>大人気スクールアイドルプロジェクトのシリーズ第3作「ラブライブ! 虹ヶ咲学園スクールアイドル同好会 (ニジガク)」から、描き下ろしイラスト「縁日 Ver.」の新作グッズが2026年1月に発売される。渋谷にて開催されたPOP UP SHOP先行販売グッズで、浴衣姿の1年生・2年生・3年生のメンバー13人が新登場。</p>
+</div>
+                              </section>
+            </a>
+          </article>
+                    <article class="post-list animated fadeIn post-447665 event type-event status-publish has-post-thumbnail event-category-12465 event-category-12466 event-category-12464 event-category-goods event-category-news event-category-ranma-12 event-category-collabo-period event-tag-anime-store event-tag-10831 event-tag-goods-net event-tag-4705 event-tag-4294 article cf" role="article">
+            <a href="https://collabo-cafe.com/events/collabo/ranma-12-tshirts-rootote-akros-anime-store-goods2025/" rel="bookmark" title="「らんま1/2」シャンプーらをポップにデザイン Tシャツ&amp;トート 11月発売" class="cf">
+
+                              <figure class="eyecatch">
+                                    <img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/4dffd6776e8c42f7d550beaccde1b678-1248-486x290.jpg" alt="「らんま1/2」シャンプーらをポップにデザイン Tシャツ&amp;トート 11月発売" class="lazy attachment-home-thum size-home-thum wp-post-image" width="486" height="290" />                  <span class="cat-name cat__name__home">
+                  グッズ                  </span>
+
+                                  </figure>
+              
+              <section class="entry-content remix">
+                <h1 class="h2 entry-title" rel="bookmark">「らんま1/2」シャンプーらをポップにデザイン Tシャツ&amp;トート 11月発売</h1>
+
+                <p class="byline entry-meta vcard">
+                                                            <span class="event-icon gf">～2025年10月7日まで予約受付</span>
+                                                        <span class="date gf updated">2025/09/21</span>
+                  <span class="author name entry-author">
+                  <span class="fn">コラボカフェ編集部 (Aoi)</span>
+                  </span>
+                </p>
+
+                                  <div class="description"><p>高橋留美子先生による人気漫画を原作とするTVアニメ「らんま1/2」から、キャラクタービジュアルをポップにデザインした新作グッズが登場。乱馬やシャンプー、玄馬(パンダ)らを描いたTシャツ全5種とトートバッグ全5種が2025年11月に発売される。Tシャツは綿100%でユニセックス、トートはROOTOTEコラボ仕様。</p>
+</div>
+                              </section>
+            </a>
+          </article>
+                    <article class="post-list animated fadeIn post-447580 event type-event status-publish has-post-thumbnail event-category-12465 event-category-12466 event-category-12467 event-category-2026-01 event-category-2026-02 event-category-chiikawa event-category-news event-category-collabo-period event-tag-6003 event-tag-9581 event-tag-1098 article cf" role="article">
+            <a href="https://collabo-cafe.com/events/collabo/chiikawa-marumiya-cup-soup2025/" rel="bookmark" title="ちいかわ × 丸美屋 10月9日よりカップスープ2種登場!" class="cf">
+
+                              <figure class="eyecatch">
+                                    <img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/07a5f065c9bf1a3f7d65580fe7335eef-486x290.jpg" alt="ちいかわ × 丸美屋 10月9日よりカップスープ2種登場!" class="lazy attachment-home-thum size-home-thum wp-post-image" width="486" height="290" />                  <span class="cat-name cat__name__home">
+                  ニュース                  </span>
+
+                                  </figure>
+              
+              <section class="entry-content remix">
+                <h1 class="h2 entry-title" rel="bookmark">ちいかわ × 丸美屋 10月9日よりカップスープ2種登場!</h1>
+
+                <p class="byline entry-meta vcard">
+                                                            <span class="event-date gf">期間 : 2025年10月9日〜2月28日</span>
+                                                        <span class="date gf updated">2025/09/21</span>
+                  <span class="author name entry-author">
+                  <span class="fn">コラボカフェ編集部 (Sue)</span>
+                  </span>
+                </p>
+
+                                  <div class="description"><p>不器用ながらも何事も一生懸命頑張って仲間と強く生きている姿が尊い「ちいかわ (なんか小さくてかわいいやつ)」× 丸美屋による、「期間限定 ちいかわカップスープ＜じゃがいものポタージュ＞＜かぼちゃのポタージュ＞」が、2025年10月9日〜2026年2月28日までの期間限定で発売される。</p>
+</div>
+                              </section>
+            </a>
+          </article>
+                    <article class="post-list animated fadeIn post-447852 event type-event status-publish has-post-thumbnail event-category-12465 event-category-12466 event-category-12467 event-category-12464 event-category-given event-category-goods event-category-news event-category-collabo-period event-tag-anime-store event-tag-armabianca event-tag-kizunatsuki event-tag-goods-net article cf" role="article">
+            <a href="https://collabo-cafe.com/events/collabo/given-ar-unity-armabianca-anime-store-goods2025/" rel="bookmark" title="映画ギヴン × ar-Unity バンド名をデザインしたサコッシュ等 新グッズ発売" class="cf">
+
+                              <figure class="eyecatch">
+                                    <img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/G0DavPPaUAAi7sh-486x290.jpg" alt="映画ギヴン × ar-Unity バンド名をデザインしたサコッシュ等 新グッズ発売" class="lazy attachment-home-thum size-home-thum wp-post-image" width="486" height="290" />                  <span class="cat-name cat__name__home">
+                  グッズ                  </span>
+
+                                  </figure>
+              
+              <section class="entry-content remix">
+                <h1 class="h2 entry-title" rel="bookmark">映画ギヴン × ar-Unity バンド名をデザインしたサコッシュ等 新グッズ発売</h1>
+
+                <p class="byline entry-meta vcard">
+                                                            <span class="event-icon gf">～2025年10月5日まで予約受付</span>
+                                                        <span class="date gf updated">2025/09/21</span>
+                  <span class="author name entry-author">
+                  <span class="fn">コラボカフェ編集部 (Riko)</span>
+                  </span>
+                </p>
+
+                                  <div class="description"><p>キヅナツキ先生による人気ボーイズラブ漫画を原作とする劇場版アニメ「映画 ギヴン 海へ」× アルマビアンカのブランド「ar-Unity (アルニティ)」から、日常で使える統一感をテーマにした新作グッズが2025年12月に発売される。ギヴンとsyhのバンド名をデザインした「缶バッジ」や「フェスサコッシュ」等が登場。</p>
+</div>
+                              </section>
+            </a>
+          </article>
+                    <article class="post-list animated fadeIn post-447633 event type-event status-publish has-post-thumbnail event-category-12465 event-category-12466 event-category-12467 event-category-12464 event-category-goods event-category-news event-category-nintama event-category-collabo-period event-tag-anime-store event-tag-8635 event-tag-goods-net event-tag-8839 article cf" role="article">
+            <a href="https://collabo-cafe.com/events/collabo/nintama-sticker-kamiojapan-anime-store-goods2025/" rel="bookmark" title="忍たま乱太郎 五・六年生 土井半助 山田利吉らの新作ステッカー 12月発売" class="cf">
+
+                              <figure class="eyecatch">
+                                    <img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/4dffd6776e8c42f7d550beaccde1b678-1249-486x290.jpg" alt="忍たま乱太郎 五・六年生 土井半助 山田利吉らの新作ステッカー 12月発売" class="lazy attachment-home-thum size-home-thum wp-post-image" width="486" height="290" />                  <span class="cat-name cat__name__home">
+                  グッズ                  </span>
+
+                                  </figure>
+              
+              <section class="entry-content remix">
+                <h1 class="h2 entry-title" rel="bookmark">忍たま乱太郎 五・六年生 土井半助 山田利吉らの新作ステッカー 12月発売</h1>
+
+                <p class="byline entry-meta vcard">
+                                                            <span class="event-icon gf">～2025年10月6日まで予約受付</span>
+                                                        <span class="date gf updated">2025/09/21</span>
+                  <span class="author name entry-author">
+                  <span class="fn">コラボカフェ編集部 (Aoi)</span>
+                  </span>
+                </p>
+
+                                  <div class="description"><p>尼子騒兵衛先生原作の大人気アニメ「忍たま乱太郎」から、乱太郎・きり丸・しんべヱや五・六年生、土井半助、山田利吉が登場する新作ステッカーが2025年12月に発売。うるちゅる×ぷっくり立体仕様の「Cherigem Sticker」(全14種)とカミアニTOUCHイラストの「ミニデコステッカー」(全14種)が展開。</p>
+</div>
+                              </section>
+            </a>
+          </article>
+                    <article class="post-list animated fadeIn post-447396 event type-event status-publish has-post-thumbnail event-category-12465 event-category-12464 event-category-umamusume event-category-pop-up-store event-category-collabo-period event-tag-cygames event-tag-cygames-pictures event-tag-animate event-tag-game event-tag-7973 event-tag-1098 event-tag-1450 article cf" role="article">
+            <a href="https://collabo-cafe.com/events/collabo/umamusume-cinderellagray-anime-animate-fair-2025/" rel="bookmark" title="ウマ娘 シングレ 聖蹄祭フェア in アニメイト全国 9月27日より開催!" class="cf">
+
+                              <figure class="eyecatch">
+                                    <img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/75c140d3601436d9bf49d9f8aa3af58a-906-486x290.jpg" alt="ウマ娘 シングレ 聖蹄祭フェア in アニメイト全国 9月27日より開催!" class="lazy attachment-home-thum size-home-thum wp-post-image" width="486" height="290" />                  <span class="cat-name cat__name__home">
+                  ポップアップストア                  </span>
+
+                                  </figure>
+              
+              <section class="entry-content remix">
+                <h1 class="h2 entry-title" rel="bookmark">ウマ娘 シングレ 聖蹄祭フェア in アニメイト全国 9月27日より開催!</h1>
+
+                <p class="byline entry-meta vcard">
+                                                            <span class="event-date gf">期間 : 2025年9月27日〜10月26日</span>
+                                                        <span class="date gf updated">2025/09/21</span>
+                  <span class="author name entry-author">
+                  <span class="fn">コラボカフェ編集部 (Nagi)</span>
+                  </span>
+                </p>
+
+                                  <div class="description"><p>「久住太陽」先生原作の大人気TVアニメ「ウマ娘 シンデレラグレイ (シングレ)」× アニメイト全国にて2025年9月27日から10月26日まで「アニメ『ウマ娘 シンデレラグレイ』アニメイトフェア～聖蹄祭へようこそ！トレセン学園メイド喫茶～」が開催される。メイドや執事に扮したオグリたちの新作グッズが多数登場!</p>
+</div>
+                              </section>
+            </a>
+          </article>
+                    <article class="post-list animated fadeIn post-447628 event type-event status-publish has-post-thumbnail event-category-12466 event-category-ng40 event-category-gengaten-tenjikai event-category-collabo-period event-tag-gengaten event-tag-tenjikai event-tag-1930 event-tag-14034 event-tag-mikan article cf" role="article">
+            <a href="https://collabo-cafe.com/events/collabo/lamune40-35th-anniversary-exhibition-2025-pre-info/" rel="bookmark" title="NG騎士ラムネ&amp;40 35周年記念展 in 有楽町マルイ 11月14日より開催!" class="cf">
+
+                              <figure class="eyecatch">
+                                    <img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/75c140d3601436d9bf49d9f8aa3af58a-909-486x290.jpg" alt="NG騎士ラムネ&amp;40 35周年記念展 in 有楽町マルイ 11月14日より開催!" class="lazy attachment-home-thum size-home-thum wp-post-image" width="486" height="290" />                  <span class="cat-name cat__name__home">
+                  原画展・展示会                  </span>
+
+                                  </figure>
+              
+              <section class="entry-content remix">
+                <h1 class="h2 entry-title" rel="bookmark">NG騎士ラムネ&amp;40 35周年記念展 in 有楽町マルイ 11月14日より開催!</h1>
+
+                <p class="byline entry-meta vcard">
+                                                            <span class="event-date gf">期間 : 2025年11月14日〜11月24日</span>
+                                                        <span class="date gf updated">2025/09/21</span>
+                  <span class="author name entry-author">
+                  <span class="fn">コラボカフェ編集部 (Nagi)</span>
+                  </span>
+                </p>
+
+                                  <div class="description"><p>葦プロダクションが制作し1990年より放送されたロボットアニメ「NG騎士ラムネ &amp; 40」の35周年を記念した展示会『NG騎士ラムネ&amp;40 35周年記念展』が、2025年11月14日〜11月24日まで有楽町マルイにて開催される。詳細発表に先駆け、ラムネスらが「35」の数を手で示した描き下ろしビジュアルが解禁!</p>
+</div>
+                              </section>
+            </a>
+          </article>
+                    <article class="post-list animated fadeIn post-447634 event type-event status-publish has-post-thumbnail event-category-12465 event-category-12466 event-category-12467 event-category-12464 event-category-2026-01 event-category-2026-02 event-category-2026-03 event-category-goods event-category-news event-category-collabo-period event-category-gundam-tekketsu-orphans event-tag-anime-store event-tag-goods-net event-tag-sunrise event-tag-10149 article cf" role="article">
+            <a href="https://collabo-cafe.com/events/collabo/gundam-tekketsu-ibo-10th-anniversary-artbook-bnfw-anime-store-goods2025/" rel="bookmark" title="鉄血のオルフェンズ 10周年記念 公式設定資料集・画集 26年3月19日発売!" class="cf">
+
+                              <figure class="eyecatch">
+                                    <img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/c478b1a6dedb96603a486610161ab963-105-486x290.jpg" alt="鉄血のオルフェンズ 10周年記念 公式設定資料集・画集 26年3月19日発売!" class="lazy attachment-home-thum size-home-thum wp-post-image" width="486" height="290" />                  <span class="cat-name cat__name__home">
+                  グッズ                  </span>
+
+                                  </figure>
+              
+              <section class="entry-content remix">
+                <h1 class="h2 entry-title" rel="bookmark">鉄血のオルフェンズ 10周年記念 公式設定資料集・画集 26年3月19日発売!</h1>
+
+                <p class="byline entry-meta vcard">
+                                                            <span class="event-icon gf">～2025年12月8日まで予約受付</span>
+                                                        <span class="date gf updated">2025/09/20</span>
+                  <span class="author name entry-author">
+                  <span class="fn">コラボカフェ編集部 (Aoi)</span>
+                  </span>
+                </p>
+
+                                  <div class="description"><p>サンライズが贈るロボットアニメ「機動戦士ガンダム 鉄血のオルフェンズ」より10周年を記念し、シリーズを網羅した公式資料集・画集が2026年3月19日発売。キャラ・メカ設定と画集を収めた全3冊を三方背BOXに収納。新録インタビューや寄稿色紙も収録、伊藤悠＆鷲尾直広の描き下ろしイラスト付。価格は13,500円税込。</p>
+</div>
+                              </section>
+            </a>
+          </article>
+                    <article class="post-list animated fadeIn post-448205 event type-event status-publish has-post-thumbnail event-category-12465 event-category-12466 event-category-dr-stone event-category-shop-tieup event-category-collabo-period event-tag-boichi event-tag-karaoke-manekineko event-tag-1098 event-tag-riichiro-inagaki article cf" role="article">
+            <a href="https://collabo-cafe.com/events/collabo/dr-stone-karaoke-manekineko-campaign-2025/" rel="bookmark" title="ドクターストーン × カラオケまねきねこ 10月7日よりキャンペーン開催!" class="cf">
+
+                              <figure class="eyecatch">
+                                    <img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/a11b4bb3ba448d1fa402ac3dc62cc91f-1288-486x290.jpg" alt="ドクターストーン × カラオケまねきねこ 10月7日よりキャンペーン開催!" class="lazy attachment-home-thum size-home-thum wp-post-image" width="486" height="290" />                  <span class="cat-name cat__name__home">
+                  ニュース                  </span>
+
+                                  </figure>
+              
+              <section class="entry-content remix">
+                <h1 class="h2 entry-title" rel="bookmark">ドクターストーン × カラオケまねきねこ 10月7日よりキャンペーン開催!</h1>
+
+                <p class="byline entry-meta vcard">
+                                                            <span class="event-date gf">期間 : 2025年10月7日〜11月24日</span>
+                                                        <span class="date gf updated">2025/09/20</span>
+                  <span class="author name entry-author">
+                  <span class="fn">コラボカフェ編集部 (Nagi)</span>
+                  </span>
+                </p>
+
+                                  <div class="description"><p>「稲垣理一郎 / Boichi」両先生原作の大人気TVアニメ「Dr.STONE (ドクターストーン)」× カラオケまねきねこ全国にて、2025年10月7日〜11月24日までコラボキャンペーンが開催される。お月見を楽しむ石神千空らの描き下ろしイラストを使用したノベルティ付きドリンク、オリジナルグッズを販売!</p>
+</div>
+                              </section>
+            </a>
+          </article>
+                                <div class="cc-infeed">
+              <ins class="adsbygoogle"
+                   style="display:block"
+                   data-ad-format="fluid"
+                   data-ad-layout="image-side"
+                   data-ad-layout-key="-f0+6h+4r-et+9t"
+                   data-ad-client="ca-pub-7307810455044245"
+                   data-ad-slot="4912770015"></ins>
+              <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+              </script>
+            </div>
+                            <article class="post-list animated fadeIn post-448199 event type-event status-publish has-post-thumbnail event-category-12464 event-category-sanrio event-category-news event-category-fashion event-category-collabo-period event-tag-avail event-tag-sanrio event-tag-fashion event-tag-1098 article cf" role="article">
+            <a href="https://collabo-cafe.com/events/collabo/sanrio-avail-item-20250927/" rel="bookmark" title="サンリオキャラクターズ × アベイル 新作アイテム 9月27日より発売!" class="cf">
+
+                              <figure class="eyecatch">
+                                    <img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/4e2eefe31e5bfbce3ab4f587d15bd771-2588-486x290.jpg" alt="サンリオキャラクターズ × アベイル 新作アイテム 9月27日より発売!" class="lazy attachment-home-thum size-home-thum wp-post-image" width="486" height="290" />                  <span class="cat-name cat__name__home">
+                  ニュース                  </span>
+
+                                  </figure>
+              
+              <section class="entry-content remix">
+                <h1 class="h2 entry-title" rel="bookmark">サンリオキャラクターズ × アベイル 新作アイテム 9月27日より発売!</h1>
+
+                <p class="byline entry-meta vcard">
+                                                            <span class="event-date gf">期間 : 2025年9月27日〜</span>
+                                                        <span class="date gf updated">2025/09/20</span>
+                  <span class="author name entry-author">
+                  <span class="fn">コラボカフェ編集部 (Nagi)</span>
+                  </span>
+                </p>
+
+                                  <div class="description"><p>世代を超えて愛される「サンリオキャラクターズ」× しまむらグループが展開するカジュアルブランド「Avail (アベイル)」全国にて、2025年9月27日より新作アイテムが発売される。、10月31日に誕生日を迎えるクロミのアイテムをはじめ、可愛い新作グッズが多数ラインナップ!</p>
+</div>
+                              </section>
+            </a>
+          </article>
+                    <article class="post-list animated fadeIn post-447542 event type-event status-publish has-post-thumbnail event-category-12465 event-category-12466 event-category-12467 event-category-12464 event-category-2026-01 event-category-2026-02 event-category-2026-03 event-category-goods event-category-news event-category-collabo-period event-category-kakegurui event-tag-anime-store event-tag-goods-net event-tag-6024 event-tag-11157 event-tag-7884 article cf" role="article">
+            <a href="https://collabo-cafe.com/events/collabo/kakegurui-mary-scale-figure-union-creative-anime-store-goods2025/" rel="bookmark" title="賭ケグルイ 早乙女芽亜里「1/6スケールフィギュア」発売! 制服姿で立体化" class="cf">
+
+                              <figure class="eyecatch">
+                                    <img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/1a216b9ebfa8cf0f3b6331aefc7ebee9-9-486x290.jpg" alt="賭ケグルイ 早乙女芽亜里「1/6スケールフィギュア」発売! 制服姿で立体化" class="lazy attachment-home-thum size-home-thum wp-post-image" width="486" height="290" />                  <span class="cat-name cat__name__home">
+                  グッズ                  </span>
+
+                                  </figure>
+              
+              <section class="entry-content remix">
+                <h1 class="h2 entry-title" rel="bookmark">賭ケグルイ 早乙女芽亜里「1/6スケールフィギュア」発売! 制服姿で立体化</h1>
+
+                <p class="byline entry-meta vcard">
+                                                            <span class="event-icon gf">～2025年10月21日まで予約受付</span>
+                                                        <span class="date gf updated">2025/09/20</span>
+                  <span class="author name entry-author">
+                  <span class="fn">コラボカフェ編集部 (Riko)</span>
+                  </span>
+                </p>
+
+                                  <div class="description"><p>「河本ほむら/尚村透」両先生による人気漫画『賭ケグルイ』より、「早乙女芽亜里」の「1/6スケール 完成品フィギュア」が2026年3月に発売される。メアリが私立百花王学園の制服でフィギュア化！勝利を確信したかのような、見下すような笑みを再現。ギャンブルの瞬間を切り取ったような、挑発的な表情とポーズの芽亜里に注目。</p>
+</div>
+                              </section>
+            </a>
+          </article>
+                    <article class="post-list animated fadeIn post-448191 event type-event status-publish has-post-thumbnail event-category-12466 event-category-news event-category-harry-potter event-category-fashion event-category-collabo-period event-tag-gu event-tag-7411 event-tag-fashion event-tag-1098 event-tag-real-movie article cf" role="article">
+            <a href="https://collabo-cafe.com/events/collabo/harry-potter-gu-2025/" rel="bookmark" title="ハリーポッター × GU (ジーユー) 全国 11月21日より新作ウェア多数登場!" class="cf">
+
+                              <figure class="eyecatch">
+                                    <img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/a11b4bb3ba448d1fa402ac3dc62cc91f-1287-486x290.jpg" alt="ハリーポッター × GU (ジーユー) 全国 11月21日より新作ウェア多数登場!" class="lazy attachment-home-thum size-home-thum wp-post-image" width="486" height="290" />                  <span class="cat-name cat__name__home">
+                  ニュース                  </span>
+
+                                  </figure>
+              
+              <section class="entry-content remix">
+                <h1 class="h2 entry-title" rel="bookmark">ハリーポッター × GU (ジーユー) 全国 11月21日より新作ウェア多数登場!</h1>
+
+                <p class="byline entry-meta vcard">
+                                                            <span class="event-date gf">期間 : 2025年11月21日〜</span>
+                                                        <span class="date gf updated">2025/09/20</span>
+                  <span class="author name entry-author">
+                  <span class="fn">コラボカフェ編集部 (Nagi)</span>
+                  </span>
+                </p>
+
+                                  <div class="description"><p>イギリスの作家J・K・ローリングによるファンタジー小説を原作とする映画「ハリー・ポッター」× GU (ジーユー)によるコラボアイテムが、2025年11月21日より発売される。今回の新アイテムには、ホグワーツの4寮のほか、ハニーデュークスのお菓子をモチーフとしたウェアや雑貨が多数ラインナップ!</p>
+</div>
+                              </section>
+            </a>
+          </article>
+                    <article class="post-list animated fadeIn post-447603 event type-event status-publish has-post-thumbnail event-category-12465 event-category-12466 event-category-12464 event-category-goods event-category-news event-category-yofukashi event-category-collabo-period event-tag-anime-store event-tag-10831 event-tag-goods-net event-tag-4351 article cf" role="article">
+            <a href="https://collabo-cafe.com/events/collabo/yofukashi-anime-season2-nazuna-akros-anime-store-goods2025/" rel="bookmark" title="よふかしのうた ナズナの京まふ先行 フェイスタオル&amp;トート 11月発売!" class="cf">
+
+                              <figure class="eyecatch">
+                                    <img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/3b24117631ca08204ac8011202a4b99f-486x290.jpg" alt="よふかしのうた ナズナの京まふ先行 フェイスタオル&amp;トート 11月発売!" class="lazy attachment-home-thum size-home-thum wp-post-image" width="486" height="290" />                  <span class="cat-name cat__name__home">
+                  グッズ                  </span>
+
+                                  </figure>
+              
+              <section class="entry-content remix">
+                <h1 class="h2 entry-title" rel="bookmark">よふかしのうた ナズナの京まふ先行 フェイスタオル&amp;トート 11月発売!</h1>
+
+                <p class="byline entry-meta vcard">
+                                                            <span class="event-icon gf">～2025年10月7日まで予約受付</span>
+                                                        <span class="date gf updated">2025/09/20</span>
+                  <span class="author name entry-author">
+                  <span class="fn">コラボカフェ編集部 (Aoi)</span>
+                  </span>
+                </p>
+
+                                  <div class="description"><p>コトヤマ先生による夜を堪能する恋と青春のラブストーリー漫画を原作とするTVアニメ「よふかしのうた Season2」より、ナズナのフェイスタオルとROOTOTEコラボトートが予約受付中。京まふ2025先行販売、2025年11月に発売予定。モノトーンで日常に馴染む日本製タオルとA4対応の大容量トートがラインナップ。</p>
+</div>
+                              </section>
+            </a>
+          </article>
+                    <article class="post-list animated fadeIn post-447795 event type-event status-publish has-post-thumbnail event-category-12465 event-category-12466 event-category-12467 event-category-12464 event-category-2026-01 event-category-nijisanji event-category-news event-category-collabo-period event-tag-anime-store event-tag-armabianca event-tag-vtuber event-tag-youtuber event-tag-goods-net article cf" role="article">
+            <a href="https://collabo-cafe.com/events/collabo/nijisanji-3skm-eau-de-toilette-armabianca-anime-store-goods2025/" rel="bookmark" title="にじさんじ × コラボ香水 北見・魁星・ネスら3SKM「オードトワレ」発売" class="cf">
+
+                              <figure class="eyecatch">
+                                    <img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/G0exqVNa4AAOnp1-486x290.jpg" alt="にじさんじ × コラボ香水 北見・魁星・ネスら3SKM「オードトワレ」発売" class="lazy attachment-home-thum size-home-thum wp-post-image" width="486" height="290" />                  <span class="cat-name cat__name__home">
+                  ニュース                  </span>
+
+                                  </figure>
+              
+              <section class="entry-content remix">
+                <h1 class="h2 entry-title" rel="bookmark">にじさんじ × コラボ香水 北見・魁星・ネスら3SKM「オードトワレ」発売</h1>
+
+                <p class="byline entry-meta vcard">
+                                                            <span class="event-icon gf">～2025年10月8日まで予約受付</span>
+                                                        <span class="date gf updated">2025/09/20</span>
+                  <span class="author name entry-author">
+                  <span class="fn">コラボカフェ編集部 (Riko)</span>
+                  </span>
+                </p>
+
+                                  <div class="description"><p>ANYCOLOR株式会社によるVTuber/バーチャルライバーグループ「にじさんじ」より、人気ユニット「3SKM (スリーエスケーエム)」のコラボ香水「オードトワレ」が2026年1月に発売される。アルマビアンカによる『A:code』から、北見​遊征、魁星、榊ネスら3人の「空」をイメージしたすくみの香水が新登場。</p>
+</div>
+                              </section>
+            </a>
+          </article>
+                    <article class="post-list animated fadeIn post-448186 event type-event status-publish has-post-thumbnail event-category-12465 event-category-12464 event-category-ishiyowachan event-category-cafe event-category-collabo-period event-tag-san-x event-tag-popup-store event-tag-2041 event-tag-harajuku event-tag-tokyo article cf" role="article">
+            <a href="https://collabo-cafe.com/events/collabo/ishiyowachan-cafe-milk-milk-milk-harajuku-2025/" rel="bookmark" title="いしよわちゃん あまあまなコラボカフェ in 原宿 9月25日より開催!" class="cf">
+
+                              <figure class="eyecatch">
+                                    <img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/cdf540a11ae20c8c0ab3b03282f5a43e-2563-486x290.jpg" alt="いしよわちゃん あまあまなコラボカフェ in 原宿 9月25日より開催!" class="lazy attachment-home-thum size-home-thum wp-post-image" width="486" height="290" />                  <span class="cat-name cat__name__home">
+                  コラボカフェ                  </span>
+
+                                  </figure>
+              
+              <section class="entry-content remix">
+                <h1 class="h2 entry-title" rel="bookmark">いしよわちゃん あまあまなコラボカフェ in 原宿 9月25日より開催!</h1>
+
+                <p class="byline entry-meta vcard">
+                                                            <span class="event-date gf">期間 : 2025年9月25日〜10月15日</span>
+                                                        <span class="date gf updated">2025/09/20</span>
+                  <span class="author name entry-author">
+                  <span class="fn">コラボカフェ編集部 (Nagi)</span>
+                  </span>
+                </p>
+
+                                  <div class="description"><p>SAN-X (サンエックス) が贈る、三日坊主で自分をついつい甘やかしちゃう「いしよわちゃん」のコラボカフェが、ラフォーレ原宿 2F MILK MILK MILK! にて2025年9月25日〜10月15日まで開催される。「いしよわちゃん」コラボカフェでは、あまあまなコラボメニューや限定コラボグッズが登場!</p>
+</div>
+                              </section>
+            </a>
+          </article>
+                    <article class="post-list animated fadeIn post-448181 event type-event status-publish has-post-thumbnail event-category-12464 event-category-chainsawman event-category-gengaten-tenjikai event-category-collabo-period event-tag-mappa event-tag-gengaten event-tag-shonenjump-plus event-tag-tenjikai event-tag-tokyo event-tag-shibuya event-tag-14102 event-tag-tatsuki-fujimoto article cf" role="article">
+            <a href="https://collabo-cafe.com/events/collabo/chainsaw-man-movie-reze-exhibition-shibuya-2025/" rel="bookmark" title="チェンソーマン レゼ篇 公開記念企画展「渋谷交差展」 9月23日より開催!" class="cf">
+
+                              <figure class="eyecatch">
+                                    <img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/a565eff4102f6da9c0f7d78f676f13a8-15-486x290.jpg" alt="チェンソーマン レゼ篇 公開記念企画展「渋谷交差展」 9月23日より開催!" class="lazy attachment-home-thum size-home-thum wp-post-image" width="486" height="290" />                  <span class="cat-name cat__name__home">
+                  原画展・展示会                  </span>
+
+                                  </figure>
+              
+              <section class="entry-content remix">
+                <h1 class="h2 entry-title" rel="bookmark">チェンソーマン レゼ篇 公開記念企画展「渋谷交差展」 9月23日より開催!</h1>
+
+                <p class="byline entry-meta vcard">
+                                                            <span class="event-date gf">期間 : 2025年9月23日〜9月29日</span>
+                                                        <span class="date gf updated">2025/09/20</span>
+                  <span class="author name entry-author">
+                  <span class="fn">コラボカフェ編集部 (Nagi)</span>
+                  </span>
+                </p>
+
+                                  <div class="description"><p>藤本タツキ先生による大人気漫画の連載当時大熱狂を巻き起こしたエピソードを原作とした劇場版アニメ「チェンソーマン レゼ篇」の公開を記念し、渋谷交差点の「渋谷三千里跡地」にて、企画展「チェンソーサマー！最高！！in SHIBUYA 『チェンソーマン』渋谷交差展」が2025年9月23日〜9月29日まで実施される。</p>
+</div>
+                              </section>
+            </a>
+          </article>
+                    <article class="post-list animated fadeIn post-448172 event type-event status-publish has-post-thumbnail event-category-12467 event-category-pop-up-store event-category-heroaca event-category-collabo-period event-tag-bones event-tag-animate event-tag-3190 event-tag-1098 event-tag-1053 event-tag-jump article cf" role="article">
+            <a href="https://collabo-cafe.com/events/collabo/heroaca-heros-christmas-fair-animate-2025/" rel="bookmark" title="ヒロアカ ヒーローズクリスマスフェア in アニメイト 12月6日より開催!" class="cf">
+
+                              <figure class="eyecatch">
+                                    <img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/08d35fd3667591bdd45fe22c71a08fdc-1212-486x290.jpg" alt="ヒロアカ ヒーローズクリスマスフェア in アニメイト 12月6日より開催!" class="lazy attachment-home-thum size-home-thum wp-post-image" width="486" height="290" />                  <span class="cat-name cat__name__home">
+                  ポップアップストア                  </span>
+
+                                  </figure>
+              
+              <section class="entry-content remix">
+                <h1 class="h2 entry-title" rel="bookmark">ヒロアカ ヒーローズクリスマスフェア in アニメイト 12月6日より開催!</h1>
+
+                <p class="byline entry-meta vcard">
+                                                            <span class="event-date gf">期間 : 2025年12月6日〜12月28日</span>
+                                                        <span class="date gf updated">2025/09/20</span>
+                  <span class="author name entry-author">
+                  <span class="fn">コラボカフェ編集部 (Nagi)</span>
+                  </span>
+                </p>
+
+                                  <div class="description"><p>堀越耕平先生原作、10月よりファイナルシーズンの放送がスタートする大人気アニメ「僕のヒーローアカデミア (ヒロアカ)」× アニメイト全国にて、2025年12月6日〜12月28日まで「TVアニメ『僕のヒーローアカデミア』ヒーローズクリスマスフェア」を開催。描き下ろしイラストを使用したグッズが多数ラインナップ!</p>
+</div>
+                              </section>
+            </a>
+          </article>
+                    <article class="post-list animated fadeIn post-448166 event type-event status-publish has-post-thumbnail event-category-12464 event-category-kuromi event-category-sanrio event-category-news event-category-collabo-period event-tag-11518 event-tag-sanrio event-tag-1098 article cf" role="article">
+            <a href="https://collabo-cafe.com/events/collabo/kuromi-20th-anniversary-cando-item-2025/" rel="bookmark" title="クロミ 王冠デザインの20周年記念アイテム キャンドゥ全国にて順次発売!" class="cf">
+
+                              <figure class="eyecatch">
+                                    <img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/4e2eefe31e5bfbce3ab4f587d15bd771-2585-486x290.jpg" alt="クロミ 王冠デザインの20周年記念アイテム キャンドゥ全国にて順次発売!" class="lazy attachment-home-thum size-home-thum wp-post-image" width="486" height="290" />                  <span class="cat-name cat__name__home">
+                  ニュース                  </span>
+
+                                  </figure>
+              
+              <section class="entry-content remix">
+                <h1 class="h2 entry-title" rel="bookmark">クロミ 王冠デザインの20周年記念アイテム キャンドゥ全国にて順次発売!</h1>
+
+                <p class="byline entry-meta vcard">
+                                                            <span class="event-date gf">期間 : 2025年9月20日〜</span>
+                                                        <span class="date gf updated">2025/09/20</span>
+                  <span class="author name entry-author">
+                  <span class="fn">コラボカフェ編集部 (Nagi)</span>
+                  </span>
+                </p>
+
+                                  <div class="description"><p>世代を超えて愛されるサンリオの人気キャラクター「クロミ」 の20周年を記念し、100円ショップ「Can★Do (キャンドゥ)」全国にて限定グッズが順次発売。「クロミ × キャンドゥ全国」では、20周年を祝したゴージャスなデザインの「プチ巾着」「フラットポーチ」などのアイテムがラインナップ!</p>
+</div>
+                              </section>
+            </a>
+          </article>
+                    <article class="post-list animated fadeIn post-448158 event type-event status-publish has-post-thumbnail event-category-12464 event-category-sakamoto-days event-category-news event-category-collabo-period event-tag-don-quijote event-tag-1098 event-tag-jump event-tag-7549 article cf" role="article">
+            <a href="https://collabo-cafe.com/events/collabo/sakamoto-days-circus-ver-don-quijote-goods-2025/" rel="bookmark" title="SAKAMOTO DAYS サーカス団ver.グッズ 9月20日よりドンキにて発売!" class="cf">
+
+                              <figure class="eyecatch">
+                                    <img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/4e2eefe31e5bfbce3ab4f587d15bd771-2584-486x290.jpg" alt="SAKAMOTO DAYS サーカス団ver.グッズ 9月20日よりドンキにて発売!" class="lazy attachment-home-thum size-home-thum wp-post-image" width="486" height="290" />                  <span class="cat-name cat__name__home">
+                  ニュース                  </span>
+
+                                  </figure>
+              
+              <section class="entry-content remix">
+                <h1 class="h2 entry-title" rel="bookmark">SAKAMOTO DAYS サーカス団ver.グッズ 9月20日よりドンキにて発売!</h1>
+
+                <p class="byline entry-meta vcard">
+                                                            <span class="event-date gf">期間 : 2025年9月20日〜</span>
+                                                        <span class="date gf updated">2025/09/20</span>
+                  <span class="author name entry-author">
+                  <span class="fn">コラボカフェ編集部 (Nagi)</span>
+                  </span>
+                </p>
+
+                                  <div class="description"><p>鈴木祐斗先生原作の大人気TVアニメ「SAKAMOTO DAYS (サカモトデイズ)」× ドン・キホーテ全国にて、2025年9月20日よりオリジナル描き下ろしグッズが発売される。坂本さん、シン、南雲ほか人気キャラクター達がサーカス団に扮した描き下ろしイラストの新作グッズが多数ラインナップ!</p>
+</div>
+                              </section>
+            </a>
+          </article>
+          <div class='wp-pagenavi' role='navigation'>
+<span aria-current='page' class='current'>1</span><a class="page larger" title="ページ 2" href="https://collabo-cafe.com/page/2/">2</a><a class="page larger" title="ページ 3" href="https://collabo-cafe.com/page/3/">3</a><a class="page larger" title="ページ 4" href="https://collabo-cafe.com/page/4/">4</a><a class="page larger" title="ページ 5" href="https://collabo-cafe.com/page/5/">5</a><a class="nextpostslink" rel="next" aria-label="Next Page" href="https://collabo-cafe.com/page/2/">&gt;</a>
+</div></div>	
+<div class="home_widget bottom cf">
+<div id="custom_html-25" class="widget_text widget homewidget widget_custom_html"><div class="textwidget custom-html-widget"><div class="ad__in-post__pc-moreads">
+  <div class="ad__in-post__pc-moreads--left">
+    <!-- CC_PC_Home_Left -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-7307810455044245"
+         data-ad-slot="1069026248"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+  <div class="ad__in-post__pc-moreads--right">
+    <!-- CC_PC_Home_Right -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-7307810455044245"
+         data-ad-slot="3232155152"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+</div>
+
+<div class="l-padding-t-1em">&nbsp;</div></div></div><div id="custom_html-62" class="widget_text widget homewidget widget_custom_html"><div class="textwidget custom-html-widget"><div class="article__by-category">
+<h2 class="article__by-category__title">グッズの新着一覧</h2>
+
+<div class="article__by-category--horizontal"><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/lovelive-nijigasaki-fair-ver-armabianca-anime-store-goods2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/7b8982fb78a0b7f7d834a2fa4e241c99-990-340x174.jpg" alt="ラブライブ! ニジガク 縁日がテーマのPOP UP先行 描き下ろしグッズ 発売" class="lazy attachment-home-thum no-crop" width="340" height="174" /></figure><div class="article__by-category__post-info"><h3>ラブライブ! ニジガク 縁日がテーマのPOP UP先行 描き下ろしグッズ 発売</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/ranma-12-tshirts-rootote-akros-anime-store-goods2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/4dffd6776e8c42f7d550beaccde1b678-1248-340x233.jpg" alt="「らんま1/2」シャンプーらをポップにデザイン Tシャツ&amp;トート 11月発売" class="lazy attachment-home-thum no-crop" width="340" height="233" /></figure><div class="article__by-category__post-info"><h3>「らんま1/2」シャンプーらをポップにデザイン Tシャツ&amp;トート 11月発売</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/given-ar-unity-armabianca-anime-store-goods2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/G0DavPPaUAAi7sh-340x191.jpg" alt="映画ギヴン × ar-Unity バンド名をデザインしたサコッシュ等 新グッズ発売" class="lazy attachment-home-thum no-crop" width="340" height="191" /></figure><div class="article__by-category__post-info"><h3>映画ギヴン × ar-Unity バンド名をデザインしたサコッシュ等 新グッズ発売</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/nintama-sticker-kamiojapan-anime-store-goods2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/4dffd6776e8c42f7d550beaccde1b678-1249-340x142.jpg" alt="忍たま乱太郎 五・六年生 土井半助 山田利吉らの新作ステッカー 12月発売" class="lazy attachment-home-thum no-crop" width="340" height="142" /></figure><div class="article__by-category__post-info"><h3>忍たま乱太郎 五・六年生 土井半助 山田利吉らの新作ステッカー 12月発売</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/gundam-tekketsu-ibo-10th-anniversary-artbook-bnfw-anime-store-goods2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/c478b1a6dedb96603a486610161ab963-105-340x227.jpg" alt="鉄血のオルフェンズ 10周年記念 公式設定資料集・画集 26年3月19日発売!" class="lazy attachment-home-thum no-crop" width="340" height="227" /></figure><div class="article__by-category__post-info"><h3>鉄血のオルフェンズ 10周年記念 公式設定資料集・画集 26年3月19日発売!</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/kakegurui-mary-scale-figure-union-creative-anime-store-goods2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/1a216b9ebfa8cf0f3b6331aefc7ebee9-9-340x174.jpg" alt="賭ケグルイ 早乙女芽亜里「1/6スケールフィギュア」発売! 制服姿で立体化" class="lazy attachment-home-thum no-crop" width="340" height="174" /></figure><div class="article__by-category__post-info"><h3>賭ケグルイ 早乙女芽亜里「1/6スケールフィギュア」発売! 制服姿で立体化</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/yofukashi-anime-season2-nazuna-akros-anime-store-goods2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/3b24117631ca08204ac8011202a4b99f-340x184.jpg" alt="よふかしのうた ナズナの京まふ先行 フェイスタオル&amp;トート 11月発売!" class="lazy attachment-home-thum no-crop" width="340" height="184" /></figure><div class="article__by-category__post-info"><h3>よふかしのうた ナズナの京まふ先行 フェイスタオル&amp;トート 11月発売!</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/higurashi-qooza-rika-cream-anime-store-goods2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/0f1cd1ecf261007b862cb4efbcdb5f95-340x340.jpg" alt="ひぐらしのなく頃に卒 古手梨花の描き下ろしグッズ 完全受注生産で登場!" class="lazy attachment-home-thum no-crop" width="340" height="340" /></figure><div class="article__by-category__post-info"><h3>ひぐらしのなく頃に卒 古手梨花の描き下ろしグッズ 完全受注生産で登場!</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/rocklady-scene-shot-azumaker-anime-store-goods2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/7b8982fb78a0b7f7d834a2fa4e241c99-989-340x174.jpg" alt="ロックは淑女の嗜みでして 場面写アクスタ等ロックレディの新グッズ発売" class="lazy attachment-home-thum no-crop" width="340" height="174" /></figure><div class="article__by-category__post-info"><h3>ロックは淑女の嗜みでして 場面写アクスタ等ロックレディの新グッズ発売</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/ochifuru-c106-medicos-entertainment-anime-store-goods2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/cbf5b9f60da99bf791c0aa12a770f429-15-340x207.jpg" alt="おちこぼれフルーツタルト 衣乃らメイド姿の描き下ろしグッズ 12月発売" class="lazy attachment-home-thum no-crop" width="340" height="207" /></figure><div class="article__by-category__post-info"><h3>おちこぼれフルーツタルト 衣乃らメイド姿の描き下ろしグッズ 12月発売</h3></div></a></article></div>
+
+<p class="article__by-category__post-list-button"><a href="/events/category/goods/" >グッズをもっと見る</a></p>
+
+</div></div></div><div id="custom_html-63" class="widget_text widget homewidget widget_custom_html"><div class="textwidget custom-html-widget"><div class="article__by-category">
+<h2 class="article__by-category__title">漫画の新着一覧</h2>
+
+<div class="article__by-category--horizontal"><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/conan-kogoro-mouri-selection-release/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/conan202509-239x340.jpg" alt="青山剛昌「名探偵コナン 毛利小五郎セレクション」2025年9月18日発売!" class="lazy attachment-home-thum no-crop" width="239" height="340" /></figure><div class="article__by-category__post-info"><h3>青山剛昌「名探偵コナン 毛利小五郎セレクション」2025年9月18日発売!</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/precure-all-stars-mookbook-2025-release/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/puri-1-275x340.jpeg" alt="「プリキュアオールスターズ まるごと大図鑑 New」2025年9月11日発売!" class="lazy attachment-home-thum no-crop" width="275" height="340" /></figure><div class="article__by-category__post-info"><h3>「プリキュアオールスターズ まるごと大図鑑 New」2025年9月11日発売!</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/futuunokeionbu-comics8-release/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/futsukeion8-239x340.jpg" alt="出内テツオ/クワハリ「ふつうの軽音部」 最新刊 第8巻 2025年9月4日発売!" class="lazy attachment-home-thum no-crop" width="239" height="340" /></figure><div class="article__by-category__post-info"><h3>出内テツオ/クワハリ「ふつうの軽音部」 最新刊 第8巻 2025年9月4日発売!</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/kaiju8-comics16-release/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/kaijyu8_16-250x340.jpg" alt="松本直也「怪獣8号」最新刊(最終巻) 第16巻 2025年9月4日発売!" class="lazy attachment-home-thum no-crop" width="250" height="340" /></figure><div class="article__by-category__post-info"><h3>松本直也「怪獣8号」最新刊(最終巻) 第16巻 2025年9月4日発売!</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/chainsawman-comics22-release/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/chainsawman22-215x340.jpg" alt="藤本タツキ「チェンソーマン」最新刊 第22巻 2025年9月4日発売!" class="lazy attachment-home-thum no-crop" width="215" height="340" /></figure><div class="article__by-category__post-info"><h3>藤本タツキ「チェンソーマン」最新刊 第22巻 2025年9月4日発売!</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/5hanayome-novel3-release/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/gotoyome3-227x340.jpg" alt="五等分の花嫁【春夏秋冬】最新刊 第3巻 2025年9月17日発売!" class="lazy attachment-home-thum no-crop" width="227" height="340" /></figure><div class="article__by-category__post-info"><h3>五等分の花嫁【春夏秋冬】最新刊 第3巻 2025年9月17日発売!</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/haikyubu-comics14-release/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/haikyuu14-250x340.jpg" alt="「ハイキュー部!!」最新刊(最終巻)第14巻 2025年9月4日発売!" class="lazy attachment-home-thum no-crop" width="250" height="340" /></figure><div class="article__by-category__post-info"><h3>「ハイキュー部!!」最新刊(最終巻)第14巻 2025年9月4日発売!</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/lovelive-rurubu-lovelivedays-2025-release/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/rurubulivelivedays___-340x240.jpg" alt="「るるぶラブライブ!」、「おでかけLoveLive!Days」8.18 より絶賛発売中!" class="lazy attachment-home-thum no-crop" width="340" height="240" /></figure><div class="article__by-category__post-info"><h3>「るるぶラブライブ!」、「おでかけLoveLive!Days」8.18 より絶賛発売中!</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/maojo-comics30-release/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/maoujyou30-216x340.jpg" alt="熊之股鍵次「魔王城でおやすみ」最新刊 第30巻 2025年8月18日発売!" class="lazy attachment-home-thum no-crop" width="216" height="340" /></figure><div class="article__by-category__post-info"><h3>熊之股鍵次「魔王城でおやすみ」最新刊 第30巻 2025年8月18日発売!</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/dekinnomogura-rocks-comics11-release/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/dekin11-239x340.jpg" alt="江口夏実「出禁のモグラ」最新刊 第11巻 2025年8月22日発売!" class="lazy attachment-home-thum no-crop" width="239" height="340" /></figure><div class="article__by-category__post-info"><h3>江口夏実「出禁のモグラ」最新刊 第11巻 2025年8月22日発売!</h3></div></a></article></div>
+
+<p class="article__by-category__post-list-button"><a href="/events/category/comics-release/" >漫画をもっと見る</a></p>
+
+</div></div></div><div id="custom_html-64" class="widget_text widget homewidget widget_custom_html"><div class="textwidget custom-html-widget"><div class="article__by-category">
+<h2 class="article__by-category__title">アニメの新着一覧</h2>
+
+<div class="article__by-category--horizontal"><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/kaze-tsugu-anime-2025-add-info-cast/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/a11b4bb3ba448d1fa402ac3dc62cc91f-1285-340x191.jpg" alt="アニメ「風を継ぐもの」キャスト解禁! 立川迅助は佐久間大介さんが担当!" class="lazy attachment-home-thum no-crop" width="340" height="191" /></figure><div class="article__by-category__post-info"><h3>アニメ「風を継ぐもの」キャスト解禁! 立川迅助は佐久間大介さんが担当!</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/onepunchman-anime-season3/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/415a8ab850bca023d0736d95b72438ee-340x241.jpg" alt="ワンパンマン 第3期 | いつから?どこから? 放送日や制作会社情報まとめ!" class="lazy attachment-home-thum no-crop" width="340" height="241" /></figure><div class="article__by-category__post-info"><h3>ワンパンマン 第3期 | いつから?どこから? 放送日や制作会社情報まとめ!</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/kaze-tsugu-anime-2025-pre-info/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/a16de8b1c02ca83670ea5a3f16487b0f-702-340x179.jpg" alt="本格時代劇アニメ「風を継ぐもの」制作決定! 脚本は成井豊さんが担当!" class="lazy attachment-home-thum no-crop" width="340" height="179" /></figure><div class="article__by-category__post-info"><h3>本格時代劇アニメ「風を継ぐもの」制作決定! 脚本は成井豊さんが担当!</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/catseye-anime-2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/493da734adb23fd9d9154222729fe3b6-592-240x340.jpg" alt="アニメ「キャッツ♥アイ」いつから? | 配信/声優/OP・EDなど情報まとめ!" class="lazy attachment-home-thum no-crop" width="240" height="340" /></figure><div class="article__by-category__post-info"><h3>アニメ「キャッツ♥アイ」いつから? | 配信/声優/OP・EDなど情報まとめ!</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/ganglion-anime-2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/a11b4bb3ba448d1fa402ac3dc62cc91f-1279-340x179.jpg" alt="TVアニメ「ガングリオン」いつから? | 放送局/キャラ/声優などまとめ!" class="lazy attachment-home-thum no-crop" width="340" height="179" /></figure><div class="article__by-category__post-info"><h3>TVアニメ「ガングリオン」いつから? | 放送局/キャラ/声優などまとめ!</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/aruhime-anime-2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/62f2fbf91c7c3143d9ba32b2a9e0d258-287-340x178.jpg" alt="アニメ「ある日、お姫様になってしまった件について」放送情報まとめ!" class="lazy attachment-home-thum no-crop" width="340" height="178" /></figure><div class="article__by-category__post-info"><h3>アニメ「ある日、お姫様になってしまった件について」放送情報まとめ!</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/imouza-anime-2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/a11b4bb3ba448d1fa402ac3dc62cc91f-1274-340x179.jpg" alt="「友達の妹が俺にだけウザい」いつから? | あらすじや放送情報等まとめ!" class="lazy attachment-home-thum no-crop" width="340" height="179" /></figure><div class="article__by-category__post-info"><h3>「友達の妹が俺にだけウザい」いつから? | あらすじや放送情報等まとめ!</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/shumatsu-touring-anime-2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/a11b4bb3ba448d1fa402ac3dc62cc91f-1264-340x179.jpg" alt="アニメ「終末ツーリング」いつから? | 声優 / 主題歌 / PV情報などまとめ!" class="lazy attachment-home-thum no-crop" width="340" height="179" /></figure><div class="article__by-category__post-info"><h3>アニメ「終末ツーリング」いつから? | 声優 / 主題歌 / PV情報などまとめ!</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/spyfamily-anime-season3/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/3c116b7e48cfc73051444ee5dc8ed162-55-340x191.jpg" alt="SPY×FAMILY 第3期 いつから? |  放送局/声優/配信情報 まとめ!" class="lazy attachment-home-thum no-crop" width="340" height="191" /></figure><div class="article__by-category__post-info"><h3>SPY×FAMILY 第3期 いつから? |  放送局/声優/配信情報 まとめ!</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/spyfamily-anime-season3-add-info-onair-kv/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/75c140d3601436d9bf49d9f8aa3af58a-884-241x340.jpg" alt="TVアニメ「スパイファミリー」第3期 10月4日よりテレ東系にて放送開始!" class="lazy attachment-home-thum no-crop" width="241" height="340" /></figure><div class="article__by-category__post-info"><h3>TVアニメ「スパイファミリー」第3期 10月4日よりテレ東系にて放送開始!</h3></div></a></article></div>
+
+<p class="article__by-category__post-list-button"><a href="/events/category/new-anime/" >アニメをもっと見る</a></p>
+
+</div></div></div><div id="custom_html-83" class="widget_text widget homewidget widget_custom_html"><div class="textwidget custom-html-widget"><div class="article__by-category">
+<h2 class="article__by-category__title">イラストの新着一覧</h2>
+
+<div class="article__by-category--horizontal"><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/heroaca-vigilante-anime-special-visual-2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/75c140d3601436d9bf49d9f8aa3af58a-681-241x340.jpg" alt="ヒロアカ × ヴィジランテ 2人の主人公が並ぶ特別ビジュアル解禁!" class="lazy attachment-home-thum no-crop" width="241" height="340" /></figure><div class="article__by-category__post-info"><h3>ヒロアカ × ヴィジランテ 2人の主人公が並ぶ特別ビジュアル解禁!</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/heroaca-tokyo-skytree-2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/75c140d3601436d9bf49d9f8aa3af58a-692-340x240.jpeg" alt="僕のヒーローアカデミア × 東京スカイツリー 2025年1月8日よりコラボ!" class="lazy attachment-home-thum no-crop" width="340" height="240" /></figure><div class="article__by-category__post-info"><h3>僕のヒーローアカデミア × 東京スカイツリー 2025年1月8日よりコラボ!</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/heroaca-comics42-cover-illust/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/fb18349cc60e94c85a207d34422b86b3-340x266.jpg" alt="僕のヒーローアカデミア 最終巻となる第42巻『私が来た!』の表紙解禁!" class="lazy attachment-home-thum no-crop" width="340" height="266" /></figure><div class="article__by-category__post-info"><h3>僕のヒーローアカデミア 最終巻となる第42巻『私が来た!』の表紙解禁!</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/haikyu-jump-festival-2025-newly-drawn/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/5214505e8678e9162c6c7ddac755febd-1-340x202.jpg" alt="ハイキュー!! ジャンフェス2025 アニメイト描き下ろしイラスト解禁!" class="lazy attachment-home-thum no-crop" width="340" height="202" /></figure><div class="article__by-category__post-info"><h3>ハイキュー!! ジャンフェス2025 アニメイト描き下ろしイラスト解禁!</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/heroaca-100million-memorial-illust-anime-visual/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/75c140d3601436d9bf49d9f8aa3af58a-685-340x255.jpeg" alt="僕のヒーローアカデミア 1億部記念イラスト アニメビジュアルver.解禁!" class="lazy attachment-home-thum no-crop" width="340" height="255" /></figure><div class="article__by-category__post-info"><h3>僕のヒーローアカデミア 1億部記念イラスト アニメビジュアルver.解禁!</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/heroaca-halloween-original-illust-2024/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/c2a041d02cc41619a301a55b4ece3ec1-2-340x201.jpg" alt="僕のヒーローアカデミア 耳郎 &amp; 常闇のハロウィン記念描き下ろし解禁!" class="lazy attachment-home-thum no-crop" width="340" height="201" /></figure><div class="article__by-category__post-info"><h3>僕のヒーローアカデミア 耳郎 &amp; 常闇のハロウィン記念描き下ろし解禁!</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/roshidere-halloween-illust2024/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/093707ef18386a9e98c53702c82037dd-340x191.jpg" alt="ロシデレ 仮装するアーリャ達の描き下ろしハロウィンイラストが公開!" class="lazy attachment-home-thum no-crop" width="340" height="191" /></figure><div class="article__by-category__post-info"><h3>ロシデレ 仮装するアーリャ達の描き下ろしハロウィンイラストが公開!</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/bocchi-anime-2nd-anniversary-newly-drawn-2024/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/75c140d3601436d9bf49d9f8aa3af58a-662-340x340.jpeg" alt="アニメ「ぼっち・ざ・ろっく!」2周年記念 けろりらさん描き下ろし解禁!" class="lazy attachment-home-thum no-crop" width="340" height="340" /></figure><div class="article__by-category__post-info"><h3>アニメ「ぼっち・ざ・ろっく!」2周年記念 けろりらさん描き下ろし解禁!</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/heroaca-anime-7th-season-part20-kohei-horikoshi-newly-drawn/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/a11b4bb3ba448d1fa402ac3dc62cc91f-987-340x208.jpg" alt="僕のヒーローアカデミア 堀越先生によるお茶子とトガのイラスト解禁!" class="lazy attachment-home-thum no-crop" width="340" height="208" /></figure><div class="article__by-category__post-info"><h3>僕のヒーローアカデミア 堀越先生によるお茶子とトガのイラスト解禁!</h3></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/kimetsu-summer-event-halloween-ufotable-cafe-2024/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/c2a041d02cc41619a301a55b4ece3ec1-1-340x179.jpg" alt="鬼滅の刃 ハロウィン描き下ろし2024解禁! ufotable Cafeではイベントも!" class="lazy attachment-home-thum no-crop" width="340" height="179" /></figure><div class="article__by-category__post-info"><h3>鬼滅の刃 ハロウィン描き下ろし2024解禁! ufotable Cafeではイベントも!</h3></div></a></article></div>
+
+<p class="article__by-category__post-list-button"><a href="/events/category/illust/" >イラストをもっと見る</a></p>
+
+</div></div></div><div id="custom_html-65" class="widget_text widget homewidget widget_custom_html"><div class="textwidget custom-html-widget"><div class="article__by-category">
+<h2 class="article__by-category__title">コラボカフェの新着一覧</h2>
+
+<div class="article__by-category--vertical"><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/ishiyowachan-cafe-milk-milk-milk-harajuku-2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/cdf540a11ae20c8c0ab3b03282f5a43e-2563-234x340.jpg" alt="いしよわちゃん あまあまなコラボカフェ in 原宿 9月25日より開催!" class="lazy attachment-home-thum no-crop" width="234" height="340" /></figure><div class="article__by-category__post-info"><h3>いしよわちゃん あまあまなコラボカフェ in 原宿 9月25日より開催!</h3><p class="article__by-category__excerpt">SAN-X (サンエックス) が贈る、三日坊主で自分をついつい甘やかしちゃう「いしよわちゃん」のコラボカフェが、ラフォーレ原宿 2F MILK MILK MILK! にて2025年9月25日〜10月15日まで開催される。「いしよわちゃん」コラボカフェでは、あまあまなコラボメニューや限定コラボグッズが登場!
+</p><p class="article__by-category__event-time"><i class="fa fa-calendar-check-o"></i>期間 : 2025年9月25日〜10月15日</p></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/inazuma-eleven-cafe-animate-cafe-ikebukuro2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/d2aee368e419e3ab4b9a8ee1b742e132-340x240.jpg" alt="イナズマイレブン カフェ in アニメイトカフェ池袋 10月15日より開催!" class="lazy attachment-home-thum no-crop" width="340" height="240" /></figure><div class="article__by-category__post-info"><h3>イナズマイレブン カフェ in アニメイトカフェ池袋 10月15日より開催!</h3><p class="article__by-category__excerpt">レベルファイブが贈るシリーズ最新作ゲーム『イナズマイレブン 英雄たちのヴィクトリーロード』× アニメイトカフェスタンド池袋4号店にて、2025年10月15日〜11月10日までの期間限定で開催される。キャラクターたちをイメージしたハロウィンメニューや、キャラクター達が仮装した姿の描き下ろしグッズが登場！</p><p class="article__by-category__event-time"><i class="fa fa-calendar-check-o"></i>期間 : 2025年10月15日〜11月10日</p></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/bungo-alchemist-eeo-cafe-ikebukuro-2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/75c140d3601436d9bf49d9f8aa3af58a-911-240x340.jpg" alt="文豪とアルケミスト 猫テーマカフェ in eeo Cafe池袋 10月21日より開催!" class="lazy attachment-home-thum no-crop" width="240" height="340" /></figure><div class="article__by-category__post-info"><h3>文豪とアルケミスト 猫テーマカフェ in eeo Cafe池袋 10月21日より開催!</h3><p class="article__by-category__excerpt">DMM GAMESより配信されているブラウザゲーム「文豪とアルケミスト (文アル)」× eeo Cafe池袋にて2025年10月21日〜11月2日までコラボカフェが開催される。“猫”をテーマとしたコラボメニューがお楽しみいただける他、描き下ろしイラストを使用したコラボカフェ限定グッズが登場!</p><p class="article__by-category__event-time"><i class="fa fa-calendar-check-o"></i>期間 : 2025年10月21日〜11月2日</p></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/finalfantasy9-square-enix-pop-up-cafe-paselabo-shinjuku-2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/eff9feaef04dff1efa705e90560a613b-340x340.jpg" alt="ファイナルファンタジーIX 25周年カフェ in 新宿 9月20日より開催!" class="lazy attachment-home-thum no-crop" width="340" height="340" /></figure><div class="article__by-category__post-info"><h3>ファイナルファンタジーIX 25周年カフェ in 新宿 9月20日より開催!</h3><p class="article__by-category__excerpt">2000年発売の名作RPG「ファイナルファンタジーIX (FF9)」の25周年を記念し、パセラボタワー新宿に期間限定でオープンする「SQUARE ENIX POP UP CAFE」にて2025年9月20日〜12月12日までコラボカフェが開催される。作品の世界観やキャラをイメージしたメニューが多数登場!</p><p class="article__by-category__event-time"><i class="fa fa-calendar-check-o"></i>期間 : 2025年9月20日〜12月12日</p></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/chainsaw-man-movie-reze-animate-gratte2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/7d4b226792ba7e67736c1e807aa471ac-340x240.jpg" alt="チェンソーマン レゼ篇 × グラッテ in アニメイト 9月19日より開催!" class="lazy attachment-home-thum no-crop" width="340" height="240" /></figure><div class="article__by-category__post-info"><h3>チェンソーマン レゼ篇 × グラッテ in アニメイト 9月19日より開催!</h3><p class="article__by-category__excerpt">藤本タツキ先生による大人気漫画の連載当時大熱狂を巻き起こしたエピソードを原作とした劇場版アニメ「チェンソーマン レゼ篇」の公開を記念したグラッテコラボが、2025年9月19日〜10月13日までの期間、アニメイト10店舗にて開催される。デンジやレゼたちをプリントしたラテ・アイシングクッキーなどが登場！</p><p class="article__by-category__event-time"><i class="fa fa-calendar-check-o"></i>期間 : 2025年9月19日〜10月13日</p></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/sakamoto-days-helloween-cafe-natslive-2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/77749f5e5018e9cdd4a03a98ba3a635b-1808-340x179.jpg" alt="サカデイ ハロウィンカフェ in NATSLIVE CAFE3店舗 10月10日より開催!" class="lazy attachment-home-thum no-crop" width="340" height="179" /></figure><div class="article__by-category__post-info"><h3>サカデイ ハロウィンカフェ in NATSLIVE CAFE3店舗 10月10日より開催!</h3><p class="article__by-category__excerpt">鈴木祐斗先生原作のTVアニメ「SAKAMOTO DAYS (サカモトデイズ)」× NATSLIVE CAFE3店舗 (表参道/心斎橋/名古屋) にて、2025年10月10日〜11月2日までコラボカフェが開催される。ハロウィンイメージのメニューが提供される他、仮装した坂本さんたちの描き下ろしグッズを発売!</p><p class="article__by-category__event-time"><i class="fa fa-calendar-check-o"></i>期間 : 2025年10月10日〜11月2日</p></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/milkygalacticuniverse-cafe-gratte-animate2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/8e668e2b92925e146c90fc8ff60efa8c-340x240.jpg" alt="ミルキー☆サブウェイ × グラッテ in アニメイト 10月10日より開催!" class="lazy attachment-home-thum no-crop" width="340" height="240" /></figure><div class="article__by-category__post-info"><h3>ミルキー☆サブウェイ × グラッテ in アニメイト 10月10日より開催!</h3><p class="article__by-category__excerpt">2022年にYoutubeで公開され動画再生回数約700万回を超える話題作「ミルキー☆ハイウェイ」待望の続編、TVアニメ「銀河特急 ミルキー☆サブウェイ」× グラッテによるコラボが、アニメイト対象店舗にて、2025年10月10日〜10月26日までの期間限定で開催される。選べる絵柄のラテ・クッキーが登場！</p><p class="article__by-category__event-time"><i class="fa fa-calendar-check-o"></i>期間 : 2025年10月10日〜10月26日</p></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/products-voltage-tenka-cafe-the-chara-ikebukuro2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/9d3cc9aeed72917887c1d8ae512f0344-340x240.jpg" alt="天下統一恋の乱 Love Ballad カフェ in 池袋  9月18日より開催!" class="lazy attachment-home-thum no-crop" width="340" height="240" /></figure><div class="article__by-category__post-info"><h3>天下統一恋の乱 Love Ballad カフェ in 池袋  9月18日より開催!</h3><p class="article__by-category__excerpt">総勢12名の武将たちとの“命懸けの恋”たのしめるソーシャルアプリ「天下統一恋の乱 Love Ballad」× THEキャラCAFE 池袋店にて2025年9月18日〜9月30日までコラボカフェが開催。作品の世界観やキャラクターをイメージしたコラボメニュー、描き下ろしイラストを使用したコラボカフェ限定グッズが登場!</p><p class="article__by-category__event-time"><i class="fa fa-calendar-check-o"></i>期間 : 2025年9月18日〜9月30日</p></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/machikadomazoku-cafe-charaum-ikebukuro2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/dcba4147d1d7a2a37da9e94b815df592-340x240.jpg" alt="まちカドまぞく カフェ in 池袋 9月17日よりコラボ開催!" class="lazy attachment-home-thum no-crop" width="340" height="240" /></figure><div class="article__by-category__post-info"><h3>まちカドまぞく カフェ in 池袋 9月17日よりコラボ開催!</h3><p class="article__by-category__excerpt">伊藤いづも先生による人気4コマ漫画を原作としたTVアニメ「まちカドまぞく 2丁目」× キャラウムカフェ　池袋にて2025年9月17日〜9月28日までコラボカフェが開催される。作品の世界観やキャラクターをイメージしたコラボメニューがお楽しみいただける他、描き下ろしイラストを使用したコラボカフェ限定グッズが登場!</p><p class="article__by-category__event-time"><i class="fa fa-calendar-check-o"></i>期間 : 2025年9月17日〜9月28日</p></div></a></article></div>
+
+<p class="article__by-category__post-list-button"><a href="/events/category/cafe/" >コラボカフェをもっと見る</a></p>
+</div></div></div><div id="custom_html-81" class="widget_text widget homewidget widget_custom_html"><div class="textwidget custom-html-widget"><div class="article__by-category">
+<h2 class="article__by-category__title">原画展・展示会の新着一覧</h2>
+
+<div class="article__by-category--vertical"><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/lamune40-35th-anniversary-exhibition-2025-pre-info/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/75c140d3601436d9bf49d9f8aa3af58a-909-340x240.jpg" alt="NG騎士ラムネ&amp;40 35周年記念展 in 有楽町マルイ 11月14日より開催!" class="lazy attachment-home-thum no-crop" width="340" height="240" /></figure><div class="article__by-category__post-info"><h3>NG騎士ラムネ&amp;40 35周年記念展 in 有楽町マルイ 11月14日より開催!</h3><p class="article__by-category__excerpt">葦プロダクションが制作し1990年より放送されたロボットアニメ「NG騎士ラムネ &amp; 40」の35周年を記念した展示会『NG騎士ラムネ&amp;40 35周年記念展』が、2025年11月14日〜11月24日まで有楽町マルイにて開催される。詳細発表に先駆け、ラムネスらが「35」の数を手で示した描き下ろしビジュアルが解禁!</p><p class="article__by-category__event-time"><i class="fa fa-calendar-check-o"></i>期間 : 2025年11月14日〜11月24日</p></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/chainsaw-man-movie-reze-exhibition-shibuya-2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/a565eff4102f6da9c0f7d78f676f13a8-15-340x191.jpg" alt="チェンソーマン レゼ篇 公開記念企画展「渋谷交差展」 9月23日より開催!" class="lazy attachment-home-thum no-crop" width="340" height="191" /></figure><div class="article__by-category__post-info"><h3>チェンソーマン レゼ篇 公開記念企画展「渋谷交差展」 9月23日より開催!</h3><p class="article__by-category__excerpt">藤本タツキ先生による大人気漫画の連載当時大熱狂を巻き起こしたエピソードを原作とした劇場版アニメ「チェンソーマン レゼ篇」の公開を記念し、渋谷交差点の「渋谷三千里跡地」にて、企画展「チェンソーサマー！最高！！in SHIBUYA 『チェンソーマン』渋谷交差展」が2025年9月23日〜9月29日まで実施される。</p><p class="article__by-category__event-time"><i class="fa fa-calendar-check-o"></i>期間 : 2025年9月23日〜9月29日</p></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/doraemon-movie-kiganjyo-exhibition-fujiko-museum-2025-2026-pre-info/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/75c140d3601436d9bf49d9f8aa3af58a-896-272x340.jpg" alt="ドラえもん のび太の海底鬼岩城展 in 藤子Fミュージアム 11月1日より開催!" class="lazy attachment-home-thum no-crop" width="272" height="340" /></figure><div class="article__by-category__post-info"><h3>ドラえもん のび太の海底鬼岩城展 in 藤子Fミュージアム 11月1日より開催!</h3><p class="article__by-category__excerpt">藤子・F・不二雄先生原作、2026年にリメイク版の公開が決定したアニメーション映画「大長編ドラえもん のび太の海底鬼岩城」のまんが原画を展示する「大長編ドラえもん のび太の海底鬼岩城と冒険のひみつ展」が、川崎市の藤子・F・不二雄ミュージアムにて2025年11月1日〜2026年6月21日まで開催される。</p><p class="article__by-category__event-time"><i class="fa fa-calendar-check-o"></i>期間 : 2025年11月1日〜6月21日</p></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/kuroko-no-basuke-15th-anniversary-exhibition-nagoya2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/beb4562a47830148d4ef65e327bde65f-340x240.jpg" alt="黒子のバスケ 15周年記念展 in 名古屋 11月15日より開催!" class="lazy attachment-home-thum no-crop" width="340" height="240" /></figure><div class="article__by-category__post-info"><h3>黒子のバスケ 15周年記念展 in 名古屋 11月15日より開催!</h3><p class="article__by-category__excerpt">藤巻忠俊先生による人気漫画を原作としたアニメ「黒子のバスケ」の15周年を記念した展示会『黒子のバスケ 15th ANNIVERSARY EXHIBITION』が、2025年11月15日〜12月7日までの期間限定で、名古屋PARCO 南館9階　PARCO HALLにて開催！他では見られない貴重な生原画などが登場！</p><p class="article__by-category__event-time"><i class="fa fa-calendar-check-o"></i>期間 : 2025年11月15日〜12月7日</p></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/rakudai-ninja-rantaro-exhibition-isinomori-mangakan-2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/75c140d3601436d9bf49d9f8aa3af58a-903-240x340.jpg" alt="「忍たま」原作『落第忍者乱太郎』展 in 石ノ森萬画館 10月11日より開催!" class="lazy attachment-home-thum no-crop" width="240" height="340" /></figure><div class="article__by-category__post-info"><h3>「忍たま」原作『落第忍者乱太郎』展 in 石ノ森萬画館 10月11日より開催!</h3><p class="article__by-category__excerpt">大人気アニメ「忍たま乱太郎」の原作漫画『落第忍者乱太郎』の東日本初となる原画展「落第忍者乱太郎原画展」が、宮城・石ノ森萬画館にて2025年10月11日〜2026年1月25日まで開催される。名場面の原画をはじめ、忍術の紹介、尼子騒兵衛先生が長年収集されてきた忍び道具の特別展示などを実施。限定グッズも発売予定!</p><p class="article__by-category__event-time"><i class="fa fa-calendar-check-o"></i>期間 : 2025年10月11日〜1月25日</p></div></a></article></div>
+
+<p class="article__by-category__post-list-button"><a href="/events/category/gengaten-tenjikai/" >原画展をもっと見る</a></p>
+</div></div></div><div id="custom_html-82" class="widget_text widget homewidget widget_custom_html"><div class="textwidget custom-html-widget"><div class="article__by-category">
+<h2 class="article__by-category__title">ポップアップストアの新着一覧</h2>
+
+<div class="article__by-category--vertical"><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/irumakun-animate-debicola-fair2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/8d13ac5c2a17ed4bf81642b1710ac992-340x324.jpg" alt="入間くん デビデコラフェア in アニメイト 9月27日より開催!" class="lazy attachment-home-thum no-crop" width="340" height="324" /></figure><div class="article__by-category__post-info"><h3>入間くん デビデコラフェア in アニメイト 9月27日より開催!</h3><p class="article__by-category__excerpt">週刊少年チャンピオンにて連載中「西修」先生による人気漫画を原作としたTVアニメ「魔入りました! 入間くん」の『デビデコラフェア』が、全国のアニメイトにて2025年9月27日〜10月13日までの期間限定で開催される。デコラポップでキュートな新規描き下ろしイラストを使用した新作グッズやオリジナルノベルティーが登場!</p><p class="article__by-category__event-time"><i class="fa fa-calendar-check-o"></i>期間 : 2025年9月27日〜10月13日</p></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/umamusume-cinderellagray-anime-animate-fair-2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/75c140d3601436d9bf49d9f8aa3af58a-906-340x247.jpg" alt="ウマ娘 シングレ 聖蹄祭フェア in アニメイト全国 9月27日より開催!" class="lazy attachment-home-thum no-crop" width="340" height="247" /></figure><div class="article__by-category__post-info"><h3>ウマ娘 シングレ 聖蹄祭フェア in アニメイト全国 9月27日より開催!</h3><p class="article__by-category__excerpt">「久住太陽」先生原作の大人気TVアニメ「ウマ娘 シンデレラグレイ (シングレ)」× アニメイト全国にて2025年9月27日から10月26日まで「アニメ『ウマ娘 シンデレラグレイ』アニメイトフェア～聖蹄祭へようこそ！トレセン学園メイド喫茶～」が開催される。メイドや執事に扮したオグリたちの新作グッズが多数登場!</p><p class="article__by-category__event-time"><i class="fa fa-calendar-check-o"></i>期間 : 2025年9月27日〜10月26日</p></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/heroaca-heros-christmas-fair-animate-2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/08d35fd3667591bdd45fe22c71a08fdc-1212-340x240.jpg" alt="ヒロアカ ヒーローズクリスマスフェア in アニメイト 12月6日より開催!" class="lazy attachment-home-thum no-crop" width="340" height="240" /></figure><div class="article__by-category__post-info"><h3>ヒロアカ ヒーローズクリスマスフェア in アニメイト 12月6日より開催!</h3><p class="article__by-category__excerpt">堀越耕平先生原作、10月よりファイナルシーズンの放送がスタートする大人気アニメ「僕のヒーローアカデミア (ヒロアカ)」× アニメイト全国にて、2025年12月6日〜12月28日まで「TVアニメ『僕のヒーローアカデミア』ヒーローズクリスマスフェア」を開催。描き下ろしイラストを使用したグッズが多数ラインナップ!</p><p class="article__by-category__event-time"><i class="fa fa-calendar-check-o"></i>期間 : 2025年12月6日〜12月28日</p></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/shingeki-pop-up-store-amiami2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/f7de1641c451a1a8d844a2370aceb0e1-41-340x191.jpg" alt="進撃の巨人 グッズフェア in あみあみ秋葉原/池袋 9月20日より開催!" class="lazy attachment-home-thum no-crop" width="340" height="191" /></figure><div class="article__by-category__post-info"><h3>進撃の巨人 グッズフェア in あみあみ秋葉原/池袋 9月20日より開催!</h3><p class="article__by-category__excerpt">諫山創先生による大人気漫画を原作としたテレビアニメ「進撃の巨人」× あみあみによる「進撃の巨人 グッズフェア」が、2025年9月20日〜10月5日までの期間限定で、あみあみ秋葉原ラジオ会館店・あみあみ池袋miniフェアグッズ店にて開催される。スケートボードをテーマにした描き下ろしイラストのグッズが登場！</p><p class="article__by-category__event-time"><i class="fa fa-calendar-check-o"></i>期間 : 2025年9月20日〜10月5日</p></div></a></article><article class="article__by-category__post"><a href="https://collabo-cafe.com/events/collabo/re-zero-pop-up-store-tokyo-gifu-okayama-2025/" class="article__by-category__anchor"><figure class="article__by-category__thumbnail"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/d4b8a7dd811ef01834342ac9065ccf31-340x191.jpg" alt="リゼロ ポップアップストア in 全国3ヵ所 9月20日より開催!" class="lazy attachment-home-thum no-crop" width="340" height="191" /></figure><div class="article__by-category__post-info"><h3>リゼロ ポップアップストア in 全国3ヵ所 9月20日より開催!</h3><p class="article__by-category__excerpt">長月達平先生による人気ライトノベルを原作としたアニメ「Re:ゼロから始める異世界生活」のストアが、全国３ヵ所にて2025年9月20日〜10月19日まで開催される。アニメ「Re:ゼロから始める異世界生活」ポップアップストアでは、エミリアの誕生日生活2025ver.のイラストを使用した新作グッズが多数ラインナップ!</p><p class="article__by-category__event-time"><i class="fa fa-calendar-check-o"></i>期間 : 2025年9月20日〜10月19日</p></div></a></article></div>
+
+<p class="article__by-category__post-list-button"><a href="/events/category/pop-up-store/" >ポップアップストアをもっと見る</a></p>
+</div></div></div></div>
+</main>
+<div id="sidebar1" class="sidebar m-all t-all d-2of7 cf" role="complementary">
+
+  <div id="custom_html-98" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><!-- CC_PC_All_Sidebar_1_Responsive -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-7307810455044245"
+     data-ad-slot="1501941982"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div><div id="custom_html-74" class="widget_text widget widget_custom_html"><h4 class="widgettitle"><span>コラボカフェの一覧</span></h4><div class="textwidget custom-html-widget"><div class="widget__post__list"><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/ishiyowachan-cafe-milk-milk-milk-harajuku-2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/cdf540a11ae20c8c0ab3b03282f5a43e-2563-486x290.jpg" alt="いしよわちゃん あまあまなコラボカフェ in 原宿 9月25日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">いしよわちゃん あまあまなコラボカフェ in 原宿 9月25日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/inazuma-eleven-cafe-animate-cafe-ikebukuro2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/d2aee368e419e3ab4b9a8ee1b742e132-486x290.jpg" alt="イナズマイレブン カフェ in アニメイトカフェ池袋 10月15日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">イナズマイレブン カフェ in アニメイトカフェ池袋 10月15日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/bungo-alchemist-eeo-cafe-ikebukuro-2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/75c140d3601436d9bf49d9f8aa3af58a-911-486x290.jpg" alt="文豪とアルケミスト 猫テーマカフェ in eeo Cafe池袋 10月21日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">文豪とアルケミスト 猫テーマカフェ in eeo Cafe池袋 10月21日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/finalfantasy9-square-enix-pop-up-cafe-paselabo-shinjuku-2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/eff9feaef04dff1efa705e90560a613b-486x290.jpg" alt="ファイナルファンタジーIX 25周年カフェ in 新宿 9月20日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">ファイナルファンタジーIX 25周年カフェ in 新宿 9月20日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/chainsaw-man-movie-reze-animate-gratte2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/7d4b226792ba7e67736c1e807aa471ac-486x290.jpg" alt="チェンソーマン レゼ篇 × グラッテ in アニメイト 9月19日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">チェンソーマン レゼ篇 × グラッテ in アニメイト 9月19日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/sakamoto-days-helloween-cafe-natslive-2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/77749f5e5018e9cdd4a03a98ba3a635b-1808-486x290.jpg" alt="サカデイ ハロウィンカフェ in NATSLIVE CAFE3店舗 10月10日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">サカデイ ハロウィンカフェ in NATSLIVE CAFE3店舗 10月10日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/milkygalacticuniverse-cafe-gratte-animate2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/8e668e2b92925e146c90fc8ff60efa8c-486x290.jpg" alt="ミルキー☆サブウェイ × グラッテ in アニメイト 10月10日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">ミルキー☆サブウェイ × グラッテ in アニメイト 10月10日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/products-voltage-tenka-cafe-the-chara-ikebukuro2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/9d3cc9aeed72917887c1d8ae512f0344-486x290.jpg" alt="天下統一恋の乱 Love Ballad カフェ in 池袋  9月18日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">天下統一恋の乱 Love Ballad カフェ in 池袋  9月18日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/machikadomazoku-cafe-charaum-ikebukuro2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/dcba4147d1d7a2a37da9e94b815df592-486x290.jpg" alt="まちカドまぞく カフェ in 池袋 9月17日よりコラボ開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">まちカドまぞく カフェ in 池袋 9月17日よりコラボ開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/nikke-cafe-and-gallery-vol2-2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/37fe1652e822b7e67f34ff8aba7febb9-486x290.jpg" alt="NIKKE カフェ in and GALLERY 3店舗 9月17日よりコラボ第2弾開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">NIKKE カフェ in and GALLERY 3店舗 9月17日よりコラボ第2弾開催!</p></a></article></div>
+
+<div class="btn-wrap aligncenter"><a href="https://collabo-cafe.com/events/category/cafe/">コラボカフェをもっと見る</a></div></div></div><div id="custom_html-60" class="widget_text widget widget_custom_html"><h4 class="widgettitle"><span>ポップアップストアの一覧</span></h4><div class="textwidget custom-html-widget"><div class="widget__post__list"><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/irumakun-animate-debicola-fair2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/8d13ac5c2a17ed4bf81642b1710ac992-486x290.jpg" alt="入間くん デビデコラフェア in アニメイト 9月27日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">入間くん デビデコラフェア in アニメイト 9月27日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/umamusume-cinderellagray-anime-animate-fair-2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/75c140d3601436d9bf49d9f8aa3af58a-906-486x290.jpg" alt="ウマ娘 シングレ 聖蹄祭フェア in アニメイト全国 9月27日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">ウマ娘 シングレ 聖蹄祭フェア in アニメイト全国 9月27日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/heroaca-heros-christmas-fair-animate-2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/08d35fd3667591bdd45fe22c71a08fdc-1212-486x290.jpg" alt="ヒロアカ ヒーローズクリスマスフェア in アニメイト 12月6日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">ヒロアカ ヒーローズクリスマスフェア in アニメイト 12月6日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/shingeki-pop-up-store-amiami2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/f7de1641c451a1a8d844a2370aceb0e1-41-486x290.jpg" alt="進撃の巨人 グッズフェア in あみあみ秋葉原/池袋 9月20日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">進撃の巨人 グッズフェア in あみあみ秋葉原/池袋 9月20日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/re-zero-pop-up-store-tokyo-gifu-okayama-2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/d4b8a7dd811ef01834342ac9065ccf31-486x290.jpg" alt="リゼロ ポップアップストア in 全国3ヵ所 9月20日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">リゼロ ポップアップストア in 全国3ヵ所 9月20日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/ojamajodoremi-pop-up-store-ueno-2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/93b9bf87137cd55dd49c3424b49fb78f-e1758181678216-486x290.jpg" alt="おジャ魔女どれみ ポップアップストア in 上野 9月20日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">おジャ魔女どれみ ポップアップストア in 上野 9月20日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/blue-lock-take-out-drink-and-bread-pop-up-sotre-tokyo-station2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/20744b1060483396ed677fad54fb1cae-486x290.jpg" alt="ブルーロック ポップアップストア in 東京駅 10月10日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">ブルーロック ポップアップストア in 東京駅 10月10日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/sanrio-hapidanbui-autumn-campaign-pop-up-store-parco-2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/4e2eefe31e5bfbce3ab4f587d15bd771-2577-486x290.jpg" alt="はぴだんぶい 秋のおさんぽキャンペーン in 調布/吉祥寺 9月19日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">はぴだんぶい 秋のおさんぽキャンペーン in 調布/吉祥寺 9月19日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/chainsaw-man-movie-reze-animate-fair2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/87511f7949840f744f7b7c449cc8f27d-486x290.jpg" alt="チェンソーマン レゼ篇 公開記念フェア in アニメイト 9月19日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">チェンソーマン レゼ篇 公開記念フェア in アニメイト 9月19日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/chiikawa-pop-up-store-omiyage-miyagi2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/539676d24bd21fa2bfdaad504ae81e7e-4-486x290.jpg" alt="ちいかわ「シーサーのおみやげやさん」in 宮城 10月1日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">ちいかわ「シーサーのおみやげやさん」in 宮城 10月1日より開催!</p></a></article></div>
+
+<div class="btn-wrap aligncenter"><a href="https://collabo-cafe.com/events/category/pop-up-store/">ポップアップストアをもっと見る</a></div></div></div><div id="custom_html-73" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><hr class="hr__gradient">
+
+<a href="https://anime-store.jp/?utm_source=collabo_cafe_dot_com&utm_medium=pc_sidebar&utm_campaign=pc_sidebar" target="_blank" class="cc__officiallink" rel="noopener noreferrer"><img src="/wp-content/uploads/64ed2bb1abf94409c00fc89137fafcce.png" alt="AnimeStore.JP (アニメストア.JP)" width="750" height="600"></a></div></div><div id="custom_html-91" class="widget_text widget widget_custom_html"><h4 class="widgettitle"><span>原画展・展示会の一覧</span></h4><div class="textwidget custom-html-widget"><div class="widget__post__list"><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/lamune40-35th-anniversary-exhibition-2025-pre-info/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/75c140d3601436d9bf49d9f8aa3af58a-909-486x290.jpg" alt="NG騎士ラムネ&amp;40 35周年記念展 in 有楽町マルイ 11月14日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">NG騎士ラムネ&amp;40 35周年記念展 in 有楽町マルイ 11月14日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/chainsaw-man-movie-reze-exhibition-shibuya-2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/a565eff4102f6da9c0f7d78f676f13a8-15-486x290.jpg" alt="チェンソーマン レゼ篇 公開記念企画展「渋谷交差展」 9月23日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">チェンソーマン レゼ篇 公開記念企画展「渋谷交差展」 9月23日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/doraemon-movie-kiganjyo-exhibition-fujiko-museum-2025-2026-pre-info/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/75c140d3601436d9bf49d9f8aa3af58a-896-486x290.jpg" alt="ドラえもん のび太の海底鬼岩城展 in 藤子Fミュージアム 11月1日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">ドラえもん のび太の海底鬼岩城展 in 藤子Fミュージアム 11月1日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/kuroko-no-basuke-15th-anniversary-exhibition-nagoya2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/beb4562a47830148d4ef65e327bde65f-486x290.jpg" alt="黒子のバスケ 15周年記念展 in 名古屋 11月15日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">黒子のバスケ 15周年記念展 in 名古屋 11月15日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/rakudai-ninja-rantaro-exhibition-isinomori-mangakan-2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/75c140d3601436d9bf49d9f8aa3af58a-903-486x290.jpg" alt="「忍たま」原作『落第忍者乱太郎』展 in 石ノ森萬画館 10月11日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">「忍たま」原作『落第忍者乱太郎』展 in 石ノ森萬画館 10月11日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/dandadan-animation-works-tokyo2026/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/4dcd85a4a5fd0c23bfe9ecbd403429ed-486x290.jpg" alt="ダンダダン Animation Works展 in 東京 2026年4月開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">ダンダダン Animation Works展 in 東京 2026年4月開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/slayers-35th-anniversary-exhibition-tokyo-soramachi-2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/a11b4bb3ba448d1fa402ac3dc62cc91f-1281-486x290.jpg" alt="スレイヤーズ 原作35周年記念展 in 東京ソラマチ 9月13日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">スレイヤーズ 原作35周年記念展 in 東京ソラマチ 9月13日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/lookback-exhibition-azabudai-hills-gallery-2026/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/a11b4bb3ba448d1fa402ac3dc62cc91f-1278-486x290.jpg" alt="「ルックバック」押山監督自ら手掛ける展示会 ’26年1月16日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">「ルックバック」押山監督自ら手掛ける展示会 ’26年1月16日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/evangelion-30thanniversary-nagisa-kaworu-exhibition-2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/f9fd259376f1bb114dea573e096635c6-20-486x290.jpg" alt="エヴァ30周年 最後のシ者 渚カヲル展 in 東京/大阪/京都 9月12日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">エヴァ30周年 最後のシ者 渚カヲル展 in 東京/大阪/京都 9月12日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/given-exhibition-2025-extra-session-2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/a11b4bb3ba448d1fa402ac3dc62cc91f-1263-486x290.jpg" alt="原画展「ギヴン展 -given exhibition-」凱旋開催 in 池袋 10月17日スタート!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">原画展「ギヴン展 -given exhibition-」凱旋開催 in 池袋 10月17日スタート!</p></a></article></div>
+
+<div class="btn-wrap aligncenter"><a href="https://collabo-cafe.com/events/category/gengaten-tenjikai/">原画展・展示会をもっと見る</a></div></div></div><div id="custom_html-97" class="widget_text widget widget_custom_html"><h4 class="widgettitle"><span>ハイキュー!!の一覧</span></h4><div class="textwidget custom-html-widget"><div class="widget__post__list"><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/haikyu-kidoairaku-animate-fair2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/e309a56fccaebe0f8cd4db3e1a725aa4-486x290.jpg" alt="ハイキュー!! 喜怒哀楽フェア2025 in アニメイト 12月20日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">ハイキュー!! 喜怒哀楽フェア2025 in アニメイト 12月20日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/haikyu-aeon-fair-2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/4e2eefe31e5bfbce3ab4f587d15bd771-2573-486x290.jpg" alt="ハイキュー!! “決戦前夜!”描き下ろしフェア in イオン全国 10月31日開始!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">ハイキュー!! “決戦前夜!”描き下ろしフェア in イオン全国 10月31日開始!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/haikyu-mcc-collab2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/4e2d7372cea6e913523f1f7d0212d756-486x290.jpg" alt="ハイキュー!! × マツキヨココカラ 9月16日よりコラボキャンペーン開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">ハイキュー!! × マツキヨココカラ 9月16日よりコラボキャンペーン開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/haikyu-avail-stadium-jacket-item-2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/cdf540a11ae20c8c0ab3b03282f5a43e-2545-486x290.jpg" alt="ハイキュー!! スタジャン・雑貨類など新グッズ アベイルにて9月20日発売!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">ハイキュー!! スタジャン・雑貨類など新グッズ アベイルにて9月20日発売!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/haikyu-don-quijote-apita-piago-2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/9205a4943f5f31a37ed94807f18d63f3-486x290.jpg" alt="ハイキュー!! × ドンキ・アピタ・ピアゴ 9月13日より別注アイテムが登場!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">ハイキュー!! × ドンキ・アピタ・ピアゴ 9月13日より別注アイテムが登場!</p></a></article></div>
+
+<div class="btn-wrap aligncenter"><a href="/events/category/haikyu/">ハイキュー!!をもっと見る</a></div></div></div><div id="custom_html-99" class="widget_text widget widget_custom_html"><h4 class="widgettitle"><span>名探偵コナンの一覧</span></h4><div class="textwidget custom-html-widget"><div class="widget__post__list"><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/conan-autamn-animate-fair-2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/75c140d3601436d9bf49d9f8aa3af58a-897-486x290.jpg" alt="名探偵コナン 2025 AUTUMNフェア in アニメイト全国 11月15日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">名探偵コナン 2025 AUTUMNフェア in アニメイト全国 11月15日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/conan-kogoro-mouri-selection-release/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/conan202509-400x290.jpg" alt="青山剛昌「名探偵コナン 毛利小五郎セレクション」2025年9月18日発売!" class="lazy attachment-home-thum no-crop" width="400" height="290" /></figure><p class="widget__post__list__p">青山剛昌「名探偵コナン 毛利小五郎セレクション」2025年9月18日発売!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/conan-wet-color-series-vol6-twincre-anime-store-goods2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/7b8982fb78a0b7f7d834a2fa4e241c99-977-486x290.jpg" alt="名探偵コナン 雪山イメージの ウェットカラーシリーズ vol.6 新グッズ発売" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">名探偵コナン 雪山イメージの ウェットカラーシリーズ vol.6 新グッズ発売</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/conan-shimamura-online2025-0903/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/eb84baff1a6d359d831c5522bde357a0-486x290.jpg" alt="名探偵コナン × しまむら 9月3日より“黒ずくめの組織”のグッズが登場!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">名探偵コナン × しまむら 9月3日より“黒ずくめの組織”のグッズが登場!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/conan-pocket-book-2026-release/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/konan_techou2026-366x290.jpg" alt="青山剛昌「名探偵コナン手帳2026」2025年9月18日発売!" class="lazy attachment-home-thum no-crop" width="366" height="290" /></figure><p class="widget__post__list__p">青山剛昌「名探偵コナン手帳2026」2025年9月18日発売!</p></a></article></div>
+
+<div class="btn-wrap aligncenter"><a href="/events/category/detective-conan/">名探偵コナンをもっと見る</a></div></div></div><div id="custom_html-57" class="widget_text widget widget_custom_html"><h4 class="widgettitle"><span>呪術廻戦の一覧</span></h4><div class="textwidget custom-html-widget"><div class="widget__post__list"><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/jujutsukaisen-5th-anniversary-round1-20225/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/2747b0d7fd243bbfd4a01af8dc28d334-486x290.jpg" alt="呪術廻戦 × ラウンドワン 10月1日より5周年記念コラボ開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">呪術廻戦 × ラウンドワン 10月1日より5周年記念コラボ開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/jujutsukaisen-shibuyazihen-box-cafe-2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/e6091e9c446c4cb82346cccfa6e15739-486x290.jpg" alt="呪術廻戦 カフェ2025 渋谷事変 in BOX cafe4店舗 9月25日より順次開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">呪術廻戦 カフェ2025 渋谷事変 in BOX cafe4店舗 9月25日より順次開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/jujutsukaisen-silicone-band-watch-armabianca-anime-store-goods2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/4dffd6776e8c42f7d550beaccde1b678-1232-486x290.jpg" alt="呪術廻戦0 乙骨・五条・夏油モデルの新作シリコンウォッチ 26年1月発売" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">呪術廻戦0 乙骨・五条・夏油モデルの新作シリコンウォッチ 26年1月発売</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/jujutsukaisen-ikebukuro-sunshinecity2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/37e5bb1ab3584ba296f440036e3cc23d-21-486x290.jpg" alt="呪術廻戦展 in 池袋・サンシャインシティ ホールA 12月5日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">呪術廻戦展 in 池袋・サンシャインシティ ホールA 12月5日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/jujutsukaisen-season3-shimetsukaiyu-begins/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/1410c480845dafb74386962ba89f2f01-486x290.jpg" alt="TVアニメ「呪術廻戦」第3期『死滅回游 前編』2026年1月より放送開始!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">TVアニメ「呪術廻戦」第3期『死滅回游 前編』2026年1月より放送開始!</p></a></article></div>
+
+<div class="btn-wrap aligncenter"><a href="/events/category/jujutsukaisen/">呪術廻戦をもっと見る</a></div></div></div><div id="custom_html-101" class="widget_text widget widget_custom_html"><h4 class="widgettitle"><span>僕のヒーローアカデミアの一覧</span></h4><div class="textwidget custom-html-widget"><div class="widget__post__list"><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/heroaca-heros-christmas-fair-animate-2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/08d35fd3667591bdd45fe22c71a08fdc-1212-486x290.jpg" alt="ヒロアカ ヒーローズクリスマスフェア in アニメイト 12月6日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">ヒロアカ ヒーローズクリスマスフェア in アニメイト 12月6日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/heroaca-oped-oneforall-2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/a11b4bb3ba448d1fa402ac3dc62cc91f-1283-486x290.jpg" alt="アニメ ヒロアカ 歴代OP &amp; ED 特別企画開始! アーティストコメントも!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">アニメ ヒロアカ 歴代OP &amp; ED 特別企画開始! アーティストコメントも!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/heroaca-bones-pop-up-store-2025-pre-info/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/a11b4bb3ba448d1fa402ac3dc62cc91f-1277-486x290.jpg" alt="ヒロアカ ポップアップストア by bones store 10月3日より東名阪にて開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">ヒロアカ ポップアップストア by bones store 10月3日より東名阪にて開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/heroaca-figure-ver3-gigo-2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/4e2eefe31e5bfbce3ab4f587d15bd771-2544-486x290.jpg" alt="ヒロアカ 最終決戦に臨むデク &amp; 爆豪のGiGO限定フィギュア 9月22日登場!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">ヒロアカ 最終決戦に臨むデク &amp; 爆豪のGiGO限定フィギュア 9月22日登場!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/heroaca-exhibition-cafe-osaka-2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/4e2eefe31e5bfbce3ab4f587d15bd771-2529-486x290.jpg" alt="僕のヒーローアカデミア 原画展 コラボカフェ in 大阪 10月25日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">僕のヒーローアカデミア 原画展 コラボカフェ in 大阪 10月25日より開催!</p></a></article></div>
+
+<div class="btn-wrap aligncenter"><a href="/events/category/heroaca/">僕のヒーローアカデミアをもっと見る</a></div></div></div><div id="custom_html-93" class="widget_text widget widget_custom_html"><h4 class="widgettitle"><span>SPY×FAMILYの一覧</span></h4><div class="textwidget custom-html-widget"><div class="widget__post__list"><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/spy-family-odekeke-project-yokohama2025-vol2/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/87ac6795b021666defb82b0b769128d8-486x290.jpg" alt="スパイファミリー おでけけ大作戦 in 横浜 9月27日より順次第2弾開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">スパイファミリー おでけけ大作戦 in 横浜 9月27日より順次第2弾開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/spy-family-autumn-harvest-festival-sweets-paradise2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/dd3cfb8985bc448f17d3123cd3b461c7-486x290.jpg" alt="スパイファミリー 秋の収穫祭カフェ in スイパラ 10月3日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">スパイファミリー 秋の収穫祭カフェ in スイパラ 10月3日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/spyfamily-anime-season3-add-info-ending-theme-trailer/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/3c116b7e48cfc73051444ee5dc8ed162-62-486x290.jpg" alt="TVアニメ「スパイファミリー」第3期 本予告解禁! ED主題歌は幾田りら" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">TVアニメ「スパイファミリー」第3期 本予告解禁! ED主題歌は幾田りら</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/spy-family-pop-up-store-tokyo-aichi-osaka-fukuoka2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/26ac356d79e83d99fac47e528ea4e499-486x290.jpg" alt="スパイファミリー 夏祭りポップアップストア in 4都市 9月12日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">スパイファミリー 夏祭りポップアップストア in 4都市 9月12日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/spyfamily-anime-season3/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/3c116b7e48cfc73051444ee5dc8ed162-55-486x290.jpg" alt="SPY×FAMILY 第3期 いつから? |  放送局/声優/配信情報 まとめ!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">SPY×FAMILY 第3期 いつから? |  放送局/声優/配信情報 まとめ!</p></a></article></div>
+
+<div class="btn-wrap aligncenter"><a href="https://collabo-cafe.com/events/category/spyfamily/">スパイファミリーをもっと見る</a></div></div></div><div id="custom_html-26" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><!-- CC_PC_All_Sidebar_1_Responsive -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-7307810455044245"
+     data-ad-slot="1501941982"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div><div id="custom_html-95" class="widget_text widget widget_custom_html"><h4 class="widgettitle"><span>ブルーロックの一覧</span></h4><div class="textwidget custom-html-widget"><div class="widget__post__list"><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/blue-lock-take-out-drink-and-bread-pop-up-sotre-tokyo-station2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/20744b1060483396ed677fad54fb1cae-486x290.jpg" alt="ブルーロック ポップアップストア in 東京駅 10月10日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">ブルーロック ポップアップストア in 東京駅 10月10日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/blue-lock-incense-stick-armabianca-anime-store-goods2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/4dffd6776e8c42f7d550beaccde1b678-1247-486x290.jpg" alt="ブルーロック 潔・凛・凪をイメージしたお香 インセンススティック 登場!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">ブルーロック 潔・凛・凪をイメージしたお香 インセンススティック 登場!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/blue-lock-animega-sofmap2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/9e79195883e2c36c4e914d837b1f6ad9-1-486x290.jpg" alt="ブルーロック 先行販売フェア in アニメガ×ソフマップ 9月18日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">ブルーロック 先行販売フェア in アニメガ×ソフマップ 9月18日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/blue-lock-sanrio-school-life2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/a6d8313bb61616134ab537804e5a2068-486x290.jpg" alt="ブルーロック × サンリオ ストア in 東京/愛知/福岡/大阪 9月15日より開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">ブルーロック × サンリオ ストア in 東京/愛知/福岡/大阪 9月15日より開催!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/blue-lock-shibuyaseiha-tokyu2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/c04a99d82826a4ca0cd4789fde5c4813-486x290.jpg" alt="ブルーロック × 東急不動産 10月17日より渋谷複数施設にてコラボ開催!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">ブルーロック × 東急不動産 10月17日より渋谷複数施設にてコラボ開催!</p></a></article></div>
+
+<div class="btn-wrap aligncenter"><a href="/events/category/blue-lock/">ブルーロックをもっと見る</a></div>
+</div></div><div id="custom_html-76" class="widget_text widget widget_custom_html"><h4 class="widgettitle"><span>鬼滅の刃の一覧</span></h4><div class="textwidget custom-html-widget"><div class="widget__post__list"><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/kimetsu-movie-mugenjyohen-kaminari-ichiban-kuji-2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/0ca8c31bdb4430f7d149d7b516344561-486x290.jpg" alt="鬼滅の刃 一番くじ 〜雷の兄弟〜 9月26日より全国のセブン等で順次発売!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">鬼滅の刃 一番くじ 〜雷の兄弟〜 9月26日より全国のセブン等で順次発売!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/kimetsu-movie-mugenjyohen-attendants-benefits-vol6/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/75c140d3601436d9bf49d9f8aa3af58a-908-486x290.jpg" alt="鬼滅の刃 無限城編 入場者特典第6弾パンフレット副読本 9月20日より配布!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">鬼滅の刃 無限城編 入場者特典第6弾パンフレット副読本 9月20日より配布!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/kimetsu-acrylic-keyring-movic-anime-store-goods2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/4dffd6776e8c42f7d550beaccde1b678-1241-486x290.jpg" alt="鬼滅の刃 猗窩座も登場 アクリルグッズやボールペン 11〜12月に続々発売" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">鬼滅の刃 猗窩座も登場 アクリルグッズやボールペン 11〜12月に続々発売</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/kimetsu-movie-mugenjyohen-attendants-benefits-vol5/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/75c140d3601436d9bf49d9f8aa3af58a-895-486x290.jpg" alt="鬼滅の刃 無限城編 入場者特典第5弾イラストボード 9月13日より配布開始!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">鬼滅の刃 無限城編 入場者特典第5弾イラストボード 9月13日より配布開始!</p></a></article><article class="widget__post__list__article"><a href="https://collabo-cafe.com/events/collabo/kimetsu-mugenjyohen-movie-suwarasetai-vol2-capsule-toy-2025/" class="widget__post__list__anchor"><figure class="widget__post__list__figure"><img src="/wp-content/uploads/dummy.png" alt="" data-src="https://collabo-cafe.com/wp-content/uploads/a11b4bb3ba448d1fa402ac3dc62cc91f-1266-486x290.jpg" alt="鬼滅の刃 カプセルトイ「すわらせ隊」無限城編  第2弾 9月第4週より登場!" class="lazy attachment-home-thum no-crop" width="486" height="290" /></figure><p class="widget__post__list__p">鬼滅の刃 カプセルトイ「すわらせ隊」無限城編  第2弾 9月第4週より登場!</p></a></article></div>
+
+<div class="btn-wrap aligncenter"><a href="/events/category/kimetsu-no-yaiba/">鬼滅の刃をもっと見る</a></div></div></div><div id="custom_html-96" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><!-- CC_PC_All_Sidebar_1_Responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7307810455044245"
+     data-ad-slot="1501941982"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div><div id="custom_html-9" class="widget_text widget widget_custom_html"><h4 class="widgettitle"><span>コラボカフェのSNS</span></h4><div class="textwidget custom-html-widget"><div class="share short">
+  <div class="sns">
+  <ul class="clearfix">
+    <li class="twitter" style="width: 49%;"> 
+      <a href="https://twitter.com/collabo_cafe" target="_blank" style="box-shadow: none;" rel="noopener noreferrer"><i class="fa fa-twitter" style="font-size: 30px;margin-right:0;margin-left:0;"></i></a>
+    </li>
+    <li class="facebook" style="width: 49%;">
+      <a href="https://www.facebook.com/collabocafe.re/" target="_blank" style="box-shadow: none;" rel="noopener noreferrer"><i class="fa fa-facebook" style="font-size: 30px;margin-right:0;margin-left:0;"></i></a>
+    </li>
+  </ul>
+  </div> 
+</div>
+
+<hr class="hr__gradient"></div></div>
+</div>
+</div>
+</div>
+<div id="page-top">
+  <a href="#header" title="ページトップへ"><i class="fa fa-chevron-up"></i></a>
+</div>
+<div id="footer-top" class="wow animated fadeIn cf bg">
+  <div class="inner wrap cf">
+              <div class="m-all t-1of2 d-1of3">
+      <div id="custom_html-72" class="widget_text widget footerwidget widget_custom_html"><div class="textwidget custom-html-widget"><div class="l-padding-t-2em l-margin-b-2em">
+コラボカフェ.com(collabo-cafe.com)はアニメ・漫画・が好きな人のためのニュース情報まとめサイトです。
+コラボカフェは、東京（渋谷、秋葉原、青山、池袋、表参道、吉祥寺）大阪、愛知、関西、九州など全国で開催中のスケジュール情報やニュースの他、行ってきた感想や初めて行く方や一人で行く方、誕生日、デートや親子で行く場合などに役立つ、コラボカフェ内の店内や店頭の情報も掲載しています。
+アニメや漫画、映画、ゲームなどのかわいい＆キャラクターとのコラボ商品、メニュー、フード、ドリンク、価格、料金も紹介しています。
+「<a href="/press-release/">プレスリリース</a>」や、「<a href="/contact-form/">お問い合わせ</a>」はこちらよりご連絡ください。
+</div></div></div>      </div>
+    
+    
+          </div>
+</div>
+
+<footer id="footer" class="footer bg" role="contentinfo">
+  <div id="inner-footer" class="inner wrap cf">
+    <nav role="navigation">
+<div class="footer-links cf"><ul id="menu-%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3" class="footer-nav cf"><li id="menu-item-37987" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37987"><a href="https://collabo-cafe.com/company/">会社概要<span class="gf"></span></a></li>
+<li id="menu-item-2037" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2037"><a href="https://collabo-cafe.com/about/">このサイトについて<span class="gf"></span></a></li>
+<li id="menu-item-641" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-641"><a href="https://collabo-cafe.com/contact-form/">お問い合わせ・広告掲載・情報提供<span class="gf"></span></a></li>
+<li id="menu-item-30584" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30584"><a href="https://collabo-cafe.com/press-release/">プレスリリース受付<span class="gf"></span></a></li>
+<li id="menu-item-1991" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1991"><a href="https://collabo-cafe.com/privacy-policy/">プライバシーポリシー<span class="gf"></span></a></li>
+</ul></div>    </nav>
+    <div class="footer__copyright">
+      &copy; 2025 <div id="custom_html-21" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><p class="source-org copyright"><small>Collabo Cafe, Inc.</small></p></div></div>    </div>
+  </div>
+</footer>
+</div>
+      <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="pswp__bg"></div>
+          <div class="pswp__scroll-wrap">
+              <div class="pswp__container">
+                  <div class="pswp__item"></div>
+                  <div class="pswp__item"></div>
+                  <div class="pswp__item"></div>
+              </div>
+
+              <div class="pswp__ui pswp__ui--hidden">
+
+                  <div class="pswp__top-bar">
+
+                      <div class="pswp__counter"></div>
+
+                      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                      <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                      <div class="pswp__preloader">
+                          <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                              <div class="pswp__preloader__donut"></div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                      <div class="pswp__share-tooltip"></div>
+                  </div>
+
+                  <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                  </button>
+
+                  <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                  </button>
+
+                  <div class="pswp__caption">
+                      <div class="pswp__caption__center"></div>
+                  </div>
+
+                </div>
+
+              </div>
+
+      </div><script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/collabo-cafe.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"\u3042\u306a\u305f\u304c\u30ed\u30dc\u30c3\u30c8\u3067\u306f\u306a\u3044\u3053\u3068\u3092\u8a3c\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002"}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://collabo-cafe.com/wp-content/plugins/contact-form-7/includes/js/scripts.js'></script>
+<script type='text/javascript' src='https://collabo-cafe.com/wp-content/themes/jstork/library/js/libs/remodal.js'></script>
+<script type='text/javascript' src='https://collabo-cafe.com/wp-content/themes/jstork/library/js/libs/masonry.pkgd.min.js'></script>
+<script type='text/javascript' src='https://collabo-cafe.com/wp-includes/js/imagesloaded.min.js'></script>
+<script type='text/javascript' src='https://collabo-cafe.com/wp-content/themes/jstork/library/js/scripts.js'></script>
+<script type='text/javascript' src='https://collabo-cafe.com/wp-content/themes/collabo-child/dist/min/app.js?20210623'></script>
+
+<script>
+  // 2025/04/23 追加
+  // ユーザーエージェントで条件分岐
+  const isYappli = /Yappli/i.test(navigator.userAgent);
+
+  // UAによって処理を分岐
+  if (!isYappli) {
+    document.write('<script src="https://cpt.geniee.jp/hb/v1/213660/461/instbody.min.js"></sc' + 'ript>');
+  }
+</script>
+
+</body>
+</html>

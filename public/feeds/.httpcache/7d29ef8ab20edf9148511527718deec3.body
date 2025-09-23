@@ -1,0 +1,547 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="">
+    <title>CorpBonds: &#x41F;&#x435;&#x440;&#x432;&#x438;&#x447;&#x43D;&#x44B;&#x435; &#x440;&#x430;&#x437;&#x43C;&#x435;&#x449;&#x435;&#x43D;&#x438;&#x44F;</title>
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/js/site.js?v=UxMzpUXKReK9dtSmxCEEJ7MBqZCnndlzC5_DvUj9Ftk" defer="defer"></script>
+    
+    <link rel="stylesheet" href="/css/site.css?v=YvFHA68cIFPpRS89TyF1v2b2viziFGyMiT8mCNZxvKk" />
+    <link rel="stylesheet" href="/css/new.css?v=H83c_nd_tZrrWP-GdAI_qWFWCb40MGpCcYqF7VN6uy8" />
+    <script>
+        let signedIn = false;
+    </script>
+    
+    <script>
+
+            if (location.host != "corpbonds.ru" && location.host != "dev.corpbonds.ru" && location.pathname.indexOf("/payment/") == -1 && !localStorage.getItem("no_redirect")) {
+                location.href = 'https://corpbonds.ru' + location.pathname + location.search;
+            }
+        </script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body class="site ">
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(101881861, "init", {
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true,
+                webvisor:true
+        });
+    </script>
+    <noscript b-w7kossr6ap><div b-w7kossr6ap><img b-w7kossr6ap src="https://mc.yandex.ru/watch/101881861" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+<div b-w7kossr6ap id="root">
+    <header b-w7kossr6ap class="header">
+        <div b-w7kossr6ap class="header__row">
+            <a b-w7kossr6ap class="nav-menu__logo" href="/" ><img b-w7kossr6ap src="/img/logo.png" alt="logo"></a>
+            <div b-w7kossr6ap class="mob site-name">Управление портфелем облигаций</div>
+            <div b-w7kossr6ap class="mob menu-icon">
+                <svg b-w7kossr6ap width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path b-w7kossr6ap d="M3 7H21" stroke="#8599B1" stroke-width="1.5" stroke-linecap="round"/>
+                    <path b-w7kossr6ap d="M3 12H21" stroke="#8599B1" stroke-width="1.5" stroke-linecap="round"/>
+                    <path b-w7kossr6ap d="M3 17H21" stroke="#8599B1" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+            </div>
+            <nav b-w7kossr6ap class="nav-menu">
+                <a b-w7kossr6ap href="/portfolio" class="need-sign-in">Портфель</a>
+                <a b-w7kossr6ap href="/screener">Скринер</a>
+                <span b-w7kossr6ap class="item analytics">
+                    <a b-w7kossr6ap href="/analytics">Аналитика</a>
+                    <div b-w7kossr6ap class="top-submenu">
+                        <a b-w7kossr6ap class="submenu-item" href="/analytics/yield_charts"> Графики доходности</a>
+                        <a b-w7kossr6ap class="submenu-item" href="/analytics/calculators"> Калькуляторы</a>
+                        <a b-w7kossr6ap class="submenu-item" href="/analytics/issuer_reviews"> Обзоры эмитентов</a>
+                        <a b-w7kossr6ap class="submenu-item" href="/analytics/ratings"> Кредитные рейтинги</a>
+                        <a b-w7kossr6ap class="submenu-item" href="/analytics/market_events"> События рынка</a>
+                    </div>
+                </span>
+                <a b-w7kossr6ap href="/public_offering">Первичные размещения</a>
+                <!--<a href="#">Обучение</a> b-w7kossr6ap-->
+                <a b-w7kossr6ap href="/tariffs">Тарифы</a>
+                <span b-w7kossr6ap class="nav-menu__tg" onclick="$(this).find('.tg-submenu').toggle()">
+                    <img b-w7kossr6ap src="/icon/tg.svg" alt="tg"><p b-w7kossr6ap>телеграм-каналы</p>
+                    <svg b-w7kossr6ap width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path b-w7kossr6ap d="M19.92 8.95L13.4 15.47C12.63 16.24 11.37 16.24 10.6 15.47L4.07996 8.95" stroke="#121213" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <div b-w7kossr6ap class="top-submenu tg-submenu">
+                        <a b-w7kossr6ap class="submenu-item" href="https://t.me/corpbonds" target="_blank"><img b-w7kossr6ap src="/icon/tg.svg" alt="tg"> Открытый канал</a>
+                        <a b-w7kossr6ap class="submenu-item" href="https://t.me/corpbonds_bot" target="_blank"><img b-w7kossr6ap src="/icon/tg.svg" alt="tg"> Клуб CorpBonds</a>
+                        <a b-w7kossr6ap class="submenu-item" href="https://t.me/corpbonds_ru" target="_blank"><img b-w7kossr6ap src="/icon/tg.svg" alt="tg"> Канал поддержки</a>
+                    </div>
+                </span>
+            </nav>
+            <div b-w7kossr6ap class="menu-right">
+                <div b-w7kossr6ap class="nav-menu__form search quick-search with-issuers">
+                    <input b-w7kossr6ap type="text" placeholder="Поиск..." data-placeholder1="Поиск..."  data-placeholder2="Поиск по бумаге (название, ISIN) или эмитенту" spellcheck="false">
+                    <ul b-w7kossr6ap class="search__tip"></ul>
+                </div>
+                <a b-w7kossr6ap class="nav-menu__icon need-sign-in" href="/favourites"><img b-w7kossr6ap src="/icon/fav-stroke.svg" alt="favourites"></a>
+                <div b-w7kossr6ap class="nav-menu__icon bell need-sign-in"><div b-w7kossr6ap class="num"></div></div>
+                <div b-w7kossr6ap class="bell-submenu tab-notif">
+                    <div b-w7kossr6ap class="top-wrap">
+                        <div b-w7kossr6ap class="title notif-title">Уведомления</div>
+                        <a b-w7kossr6ap class="normal read-all-notif" href="#">Прочитать все</a>
+                    </div>
+                    <div b-w7kossr6ap class="main-wrap notif-list">
+                        <span b-w7kossr6ap class="no-text">Уведомлений нет</span>
+                    </div>
+                    <div b-w7kossr6ap class="bottom-wrap">
+                        <a b-w7kossr6ap class="normal show-all" href="/user/notifications">Показать все уведомления</a>
+                    </div>
+                </div>
+                <span b-w7kossr6ap class="nav-menu__icon profile"><img b-w7kossr6ap src="/icon/profile.svg" alt="profile"></span>
+                <div b-w7kossr6ap class="top-submenu profile-submenu">
+                    <a b-w7kossr6ap class="submenu-item need-sign-in" href="/user/profile"><img b-w7kossr6ap src="/icon/profile-stroke.svg" alt="profile"> Профиль</a>
+                        <div b-w7kossr6ap class="login need-sign-in">Войти</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main b-w7kossr6ap class="content with-tooltips">
+            <div b-w7kossr6ap id="top_warning_div">
+                <div b-w7kossr6ap class="text"></div>
+                <div b-w7kossr6ap class="close">&times;</div>
+            </div>
+        
+
+
+<div class="public-offerings">
+    <h1>
+        Первичные размещения
+    </h1>
+    <p class="subtitle">Мы собираем данные о предстоящих размещениях и публикуем их на данной странице.</p>
+    <div class="table-wrap">
+        <table>
+            <tr>
+                <th>Эмитент</th>
+                <th>Дата сбора заявок</th>
+                <th>Дата размещения</th>
+                <th>Рейтинг</th>
+                <th>Купон</th>
+                <th>Срок</th>
+                <th>Объем</th>
+                <th>Примечания</th>
+            </tr>
+                <tr>
+                    <td class="logo">
+                        <div class="wrap">
+                                <img src="/upload/issuer_logo/eb34zyur.g40.png" />
+                                <a href="/org/94">&#x41F;&#x410;&#x41E; &#x41F;&#x421;&#x411;</a>
+                        </div>
+                    </td>
+                    <td class="big"></td>
+                    <td class="big">09.09.2025</td>
+                    <td class="nowrap ratings">
+                                    <div>AAA(RU) &#x410;&#x41A;&#x420;&#x410;</div>
+                                    <div>ruAAA &#x42D;&#x43A;&#x441;&#x43F;&#x435;&#x440;&#x442; &#x420;&#x410;</div>
+                    </td>
+                    <td class="pre big">14.25%&#xD;&#xA;30 &#x434;&#x43D;&#x435;&#x439;</td>
+                    <td class="pre">3 &#x433;&#x43E;&#x434;&#x430;</td>
+                    <td class="nowrap">&#x43D;&#x435; &#x431;&#x43E;&#x43B;&#x435;&#x435; 25 &#x43C;&#x43B;&#x440;&#x434;</td>
+                    <td class="comment">&#x41E;&#x440;&#x438;&#x435;&#x43D;&#x442;&#x438;&#x440; &#x434;&#x43E;&#x445;&#x43E;&#x434;&#x43D;&#x43E;&#x441;&#x442;&#x438; - &#x43D;&#x435; &#x432;&#x44B;&#x448;&#x435; &#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x41A;&#x411;&#x414; &#x41C;&#x43E;&#x441;&#x43A;&#x43E;&#x432;&#x441;&#x43A;&#x43E;&#x439; &#x411;&#x438;&#x440;&#x436;&#x438; &#x43D;&#x430; &#x441;&#x43E;&#x43E;&#x442;&#x432;&#x435;&#x442;&#x441;&#x442;&#x432;&#x443;&#x44E;&#x449;&#x435;&#x43C; &#x441;&#x440;&#x43E;&#x43A;&#x435; &#x2B; 190 &#x431;.&#x43F;.&#xD;&#xA;&#x41C;&#x438;&#x43D;&#x438;&#x43C;&#x430;&#x43B;&#x44C;&#x43D;&#x430;&#x44F; &#x437;&#x430;&#x44F;&#x432;&#x43A;&#x430; - 1.4 &#x43C;&#x43B;&#x43D;</td>
+                </tr>
+                <tr>
+                    <td class="logo">
+                        <div class="wrap">
+                                <img src="/upload/issuer_logo/zawnvp1r.jus.jpg" />
+                                <a href="/org/565">&#x42F;&#x43D;&#x434;&#x435;&#x43A;&#x441; &#x41C;&#x41A;&#x41F;&#x410;&#x41E;</a>
+                        </div>
+                    </td>
+                    <td class="big"></td>
+                    <td class="big">09.09.2025</td>
+                    <td class="nowrap ratings">
+                                    <div>AAA(RU) &#x410;&#x41A;&#x420;&#x410;</div>
+                    </td>
+                    <td class="pre big">13.5%&#xD;&#xA;30 &#x434;&#x43D;&#x435;&#x439;</td>
+                    <td class="pre">2.5 &#x433;&#x43E;&#x434;&#x430;&#xD;&#xA;&#x434;&#x43E; 26.02.2028</td>
+                    <td class="nowrap">&#x43D;&#x435; &#x43C;&#x435;&#x43D;&#x435;&#x435; 20 &#x43C;&#x43B;&#x440;&#x434;</td>
+                    <td class="comment">&#x41E;&#x440;&#x438;&#x435;&#x43D;&#x442;&#x438;&#x440; &#x434;&#x43E;&#x445;&#x43E;&#x434;&#x43D;&#x43E;&#x441;&#x442;&#x438;. - &#x43D;&#x435; &#x432;&#x44B;&#x448;&#x435; &#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x41A;&#x411;&#x414; &#x43C;&#x43E;&#x441;&#x431;&#x438;&#x440;&#x436;&#x438; &#x43D;&#x430; 2,5 &#x433;&#x43E;&#x434;&#x430; &#x2B; 140 &#x411;.&#x41F;.</td>
+                </tr>
+                <tr>
+                    <td class="logo">
+                        <div class="wrap">
+                                <img src="/upload/issuer_logo/px1342x0.vpt.png" />
+                                <a href="/org/17">&#x413;&#x430;&#x437;&#x43F;&#x440;&#x43E;&#x43C; &#x43A;&#x430;&#x43F;&#x438;&#x442;&#x430;&#x43B;</a>
+                        </div>
+                    </td>
+                    <td class="big"></td>
+                    <td class="big">09.09.2025</td>
+                    <td class="nowrap ratings">
+                                    <div>AAA(RU) &#x410;&#x41A;&#x420;&#x410;</div>
+                                    <div>ruAAA &#x42D;&#x43A;&#x441;&#x43F;&#x435;&#x440;&#x442; &#x420;&#x410;</div>
+                    </td>
+                    <td class="pre big">6.4%&#xD;&#xA;30 &#x434;&#x43D;&#x435;&#x439;</td>
+                    <td class="pre">2 &#x433;&#x43E;&#x434;&#x430;&#xD;&#xA;&#x434;&#x43E; 30.08.2027&#xD;&#xA;</td>
+                    <td class="nowrap">2 &#x43C;&#x43B;&#x440;&#x434;</td>
+                    <td class="comment">&#x41D;&#x43E;&#x43C;&#x438;&#x43D;&#x430;&#x43B; - 1000 &#x44E;&#x430;&#x43D;&#x435;&#x439;</td>
+                </tr>
+                <tr>
+                    <td class="logo">
+                        <div class="wrap">
+                                <img src="/upload/issuer_logo/za4jq0rd.i42.png" />
+                                <a href="/org/89">&#x41A;&#x410;&#x41C;&#x410;&#x417;</a>
+                        </div>
+                    </td>
+                    <td class="big">09.09.2025</td>
+                    <td class="big">12.09.2025</td>
+                    <td class="nowrap ratings">
+                                    <div>AA-(RU) &#x410;&#x41A;&#x420;&#x410;</div>
+                    </td>
+                    <td class="pre big">15%&#xD;&#xA;30 &#x434;&#x43D;&#x435;&#x439;</td>
+                    <td class="pre">2 &#x433;&#x43E;&#x434;&#x430;&#xD;&#xA;&#x434;&#x43E; 30.08.2027</td>
+                    <td class="nowrap">5 &#x43C;&#x43B;&#x440;&#x434;</td>
+                    <td class="comment"></td>
+                </tr>
+                <tr>
+                    <td class="logo">
+                        <div class="wrap">
+                                <img src="/upload/issuer_logo/za4jq0rd.i42.png" />
+                                <a href="/org/89">&#x41A;&#x410;&#x41C;&#x410;&#x417;</a>
+                        </div>
+                    </td>
+                    <td class="big">09.09.2025</td>
+                    <td class="big">12.09.2025</td>
+                    <td class="nowrap ratings">
+                                    <div>AA-(RU) &#x410;&#x41A;&#x420;&#x410;</div>
+                    </td>
+                    <td class="pre big"> &#x2211;KC &#x2B; 2.5%&#xD;&#xA;30 &#x434;&#x43D;&#x435;</td>
+                    <td class="pre">2 &#x433;&#x43E;&#x434;&#x430;</td>
+                    <td class="nowrap">5 &#x43C;&#x43B;&#x440;&#x434;</td>
+                    <td class="comment">&#x423;&#x43A;&#x430;&#x437;&#x430;&#x43D; &#x441;&#x43E;&#x432;&#x43E;&#x43A;&#x443;&#x43F;&#x43D;&#x44B;&#x439; &#x43E;&#x431;&#x44A;&#x435;&#x43C; &#x441; &#x432;&#x44B;&#x43F;&#x443;&#x441;&#x43A;&#x43E;&#x43C; &#x441; &#x43F;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x43D;&#x44B;&#x43C; &#x43A;&#x443;&#x43F;&#x43E;&#x43D;&#x43E;&#x43C;</td>
+                </tr>
+                <tr>
+                    <td class="logo">
+                        <div class="wrap">
+                                <img src="/upload/issuer_logo/xtthbhie.cqe.jpg" />
+                                <a href="/org/406">&#x412;&#x422;&#x411; &#x41B;&#x438;&#x437;&#x438;&#x43D;&#x433;</a>
+                        </div>
+                    </td>
+                    <td class="big">09.09.2025</td>
+                    <td class="big">12.09.2025</td>
+                    <td class="nowrap ratings">
+                                    <div>AA(RU) &#x410;&#x41A;&#x420;&#x410;</div>
+                                    <div>ruAA &#x42D;&#x43A;&#x441;&#x43F;&#x435;&#x440;&#x442; &#x420;&#x410;</div>
+                    </td>
+                    <td class="pre big">16.5%&#xD;&#xA;30 &#x434;&#x43D;&#x435;&#x439; </td>
+                    <td class="pre">3 &#x433;&#x43E;&#x434;&#x430;</td>
+                    <td class="nowrap">3 &#x43C;&#x43B;&#x440;&#x434;</td>
+                    <td class="comment"></td>
+                </tr>
+                <tr>
+                    <td class="logo">
+                        <div class="wrap">
+                                <img src="/upload/issuer_logo/uybuubtq.bte.png" />
+                                <a href="/org/286">&#x411;&#x430;&#x43B;&#x442;&#x438;&#x439;&#x441;&#x43A;&#x438;&#x439; &#x43B;&#x438;&#x437;&#x438;&#x43D;&#x433; &#x41E;&#x41E;&#x41E;</a>
+                        </div>
+                    </td>
+                    <td class="big">09.09.2025</td>
+                    <td class="big">12.09.2025</td>
+                    <td class="nowrap ratings">
+                                    <div>AA-(RU) &#x410;&#x41A;&#x420;&#x410;</div>
+                                    <div>ruAA- &#x42D;&#x43A;&#x441;&#x43F;&#x435;&#x440;&#x442; &#x420;&#x410;</div>
+                    </td>
+                    <td class="pre big">18%&#xD;&#xA;30 &#x434;&#x43D;&#x435;&#x439;</td>
+                    <td class="pre">3 &#x433;&#x43E;&#x434;&#x430;</td>
+                    <td class="nowrap">&#x43D;&#x435; &#x43C;&#x435;&#x43D;&#x435;&#x435; 3 &#x43C;&#x43B;&#x440;&#x434;</td>
+                    <td class="comment">&#x410;&#x43C;&#x43E;&#x440;&#x442;&#x438;&#x437;&#x430;&#x446;&#x438;&#x44F; &#x43F;&#x43E; 33% &#x43E;&#x442; &#x43D;&#x43E;&#x43C;&#x438;&#x43D;&#x430;&#x43B;&#x430; &#x431;&#x443;&#x434;&#x435;&#x442; &#x43F;&#x43E;&#x433;&#x430;&#x448;&#x435;&#x43D;&#x43E; &#x432; &#x434;&#x430;&#x442;&#x44B; &#x432;&#x44B;&#x43F;&#x43B;&#x430;&#x442;&#x44B; 12-&#x433;&#x43E; &#x438; 24-&#x433;&#x43E; &#x43A;&#x443;&#x43F;&#x43E;&#x43D;&#x43E;&#x432;, &#x435;&#x449;&#x435; 34% &#x43D;&#x43E;&#x43C;&#x438;&#x43D;&#x430;&#x43B;&#x430; - &#x432; &#x434;&#x430;&#x442;&#x443; &#x43E;&#x43A;&#x43E;&#x43D;&#x447;&#x430;&#x43D;&#x438;&#x44F; 36-&#x433;&#x43E; &#x43A;&#x443;&#x43F;&#x43E;&#x43D;&#x430;</td>
+                </tr>
+                <tr>
+                    <td class="logo">
+                        <div class="wrap">
+                                <img src="/upload/issuer_logo/34zc3apt.sza.png" />
+                                <a href="/org/77">&#x413;&#x422;&#x41B;&#x41A;</a>
+                        </div>
+                    </td>
+                    <td class="big">10.09.2025</td>
+                    <td class="big">15.09.2025</td>
+                    <td class="nowrap ratings">
+                                    <div>AA-(RU) &#x410;&#x41A;&#x420;&#x410;</div>
+                                    <div>ruAA- &#x42D;&#x43A;&#x441;&#x43F;&#x435;&#x440;&#x442; &#x420;&#x410;</div>
+                    </td>
+                    <td class="pre big">&#x41A;&#x421; &#x2B; 2.5%&#xD;&#xA;30 &#x434;&#x43D;&#x435;&#x439;</td>
+                    <td class="pre">3 &#x433;&#x43E;&#x434;&#x430;</td>
+                    <td class="nowrap">&#x43E;&#x442; 20 &#x43C;&#x43B;&#x440;&#x434;</td>
+                    <td class="comment"></td>
+                </tr>
+                <tr>
+                    <td class="logo">
+                        <div class="wrap">
+                                <img src="/upload/issuer_logo/x1jtr1ic.dq3.jpg" />
+                                <a href="/org/288">&#x41D;&#x43E;&#x440;&#x438;&#x43B;&#x44C;&#x441;&#x43A;&#x438;&#x439; &#x41D;&#x438;&#x43A;&#x435;&#x43B;&#x44C; &#x413;&#x41C;&#x41A;</a>
+                        </div>
+                    </td>
+                    <td class="big">11.09.2025</td>
+                    <td class="big">16.09.2025</td>
+                    <td class="nowrap ratings">
+                                    <div>ruAAA &#x42D;&#x43A;&#x441;&#x43F;&#x435;&#x440;&#x442; &#x420;&#x410;</div>
+                                    <div>AAA.ru &#x41D;&#x41A;&#x420;</div>
+                    </td>
+                    <td class="pre big">7%&#xD;&#xA;30 &#x434;&#x43D;&#x435;&#x439;</td>
+                    <td class="pre">4 &#x433;&#x43E;&#x434;&#x430;</td>
+                    <td class="nowrap">&#x43E;&#x442; 300 &#x43C;&#x43B;&#x43D;</td>
+                    <td class="comment">&#x41D;&#x43E;&#x43C;&#x438;&#x43D;&#x430;&#x43B; - 100 &#x434;&#x43E;&#x43B;&#x43B;&#x430;&#x440;&#x43E;&#x432; &#x421;&#x428;&#x410;</td>
+                </tr>
+                <tr>
+                    <td class="logo">
+                        <div class="wrap">
+                                <img src="/upload/issuer_logo/yld3hj2p.awq.png" />
+                                <a href="/org/297">&#x421;&#x435;&#x43B;&#x435;&#x43A;&#x442;&#x435;&#x43B;</a>
+                        </div>
+                    </td>
+                    <td class="big">&#x421;&#x435;&#x43D;&#x442;&#x44F;&#x431;&#x440;&#x44C;</td>
+                    <td class="big">&#x421;&#x435;&#x43D;&#x442;&#x44F;&#x431;&#x440;&#x44C;</td>
+                    <td class="nowrap ratings">
+                                    <div>A&#x2B;(RU) &#x410;&#x41A;&#x420;&#x410;</div>
+                                    <div>ruAA- &#x42D;&#x43A;&#x441;&#x43F;&#x435;&#x440;&#x442; &#x420;&#x410;</div>
+                    </td>
+                    <td class="pre big">16.25%&#xD;&#xA;30 &#x434;&#x43D;&#x435;&#x439;</td>
+                    <td class="pre">2.5 &#x433;&#x43E;&#x434;&#x430;&#xD;&#xA;&#x434;&#x43E; 27.02.2028</td>
+                    <td class="nowrap">4 &#x43C;&#x43B;&#x440;&#x434;</td>
+                    <td class="comment"></td>
+                </tr>
+        </table>
+    </div>
+</div>
+    </main>
+    <footer b-w7kossr6ap class="footer">
+        <div b-w7kossr6ap class="footer__logo">
+            <a b-w7kossr6ap class="nav-menu__logo" href="/"><img b-w7kossr6ap src="/img/logo.png" alt="logo"></a>
+            <p b-w7kossr6ap class="footer__copy">Copyright © 2024-2025 CorpBonds. Все&nbsp;права&nbsp;защищены.</p>
+        </div>
+        <nav b-w7kossr6ap class="nav-menu">
+            <a b-w7kossr6ap href="/portfolio" class="need-sign-in">Портфель</a>
+            <a b-w7kossr6ap href="/screener">Скринер</a>
+            <a b-w7kossr6ap href="/analytics">Аналитика</a>
+            <a b-w7kossr6ap href="/public_offering">Первичные размещения</a>
+            <!--<a href="#">Обучение</a> b-w7kossr6ap-->
+            <a b-w7kossr6ap href="/tariffs">Тарифы</a>
+            <span b-w7kossr6ap class="nav-menu__tg" onclick="$(this).find('.tg-submenu').toggle()">
+                <img b-w7kossr6ap src="/icon/tg.svg" alt="tg"><p b-w7kossr6ap>телеграм-каналы</p>
+                <svg b-w7kossr6ap width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path b-w7kossr6ap d="M19.92 8.95L13.4 15.47C12.63 16.24 11.37 16.24 10.6 15.47L4.07996 8.95" stroke="#121213" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <div b-w7kossr6ap class="top-submenu tg-submenu">
+                    <a b-w7kossr6ap class="submenu-item" href="https://t.me/corpbonds" target="_blank"><img b-w7kossr6ap src="/icon/tg.svg" alt="tg"> Открытый канал</a>
+                    <a b-w7kossr6ap class="submenu-item" href="https://t.me/corpbonds_bot" target="_blank"><img b-w7kossr6ap src="/icon/tg.svg" alt="tg"> Клуб CorpBonds</a>
+                    <a b-w7kossr6ap class="submenu-item" href="https://t.me/corpbonds_ru" target="_blank"><img b-w7kossr6ap src="/icon/tg.svg" alt="tg"> Канал поддержки</a>
+                </div>
+            </span>
+        </nav>
+        <nav b-w7kossr6ap class="footer__nav">
+            <a b-w7kossr6ap href="/contacts">Контакты</a>
+            <a b-w7kossr6ap href="/personal_data_policy">Политика в отношении обработки персональных данных сайта</a>
+            <a b-w7kossr6ap href="/user_agreement">Пользовательское соглашение</a>
+        </nav>
+    </footer>
+</div>
+
+<div b-w7kossr6ap id="cookie_plashka">
+    <div b-w7kossr6ap class="wrap">
+        <div b-w7kossr6ap class="left">Мы обрабатываем данные посетителей и используем куки согласно <a b-w7kossr6ap class="normal" href="/cookie_policy">политике</a></div>
+        <button b-w7kossr6ap class="normal">OK</button>
+    </div>
+</div>
+
+<div b-w7kossr6ap class="popup-overlay" id="popup_overlay">
+    <div b-w7kossr6ap class="popup-content with-tooltips">
+        <div b-w7kossr6ap class="popup-btns">
+            <div b-w7kossr6ap class="popup-close">
+                <svg b-w7kossr6ap width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path b-w7kossr6ap d="M5.63672 6L18.3646 18.7279" stroke-width="1.5" stroke-linecap="round"></path><path b-w7kossr6ap d="M5.63672 19L18.3646 6.27208" stroke-width="1.5" stroke-linecap="round"></path></svg>
+            </div>
+            <div b-w7kossr6ap style="height:10px"></div>
+        </div>
+        <div b-w7kossr6ap id="popup_content"></div>
+    </div>
+</div>
+<div b-w7kossr6ap class="popup-content-prepared" id="add_to_portfolio">
+    <div b-w7kossr6ap class="popup-title" data-id="add_to_portfolio">Добавить в портфель</div>
+    <p b-w7kossr6ap class="error"></p>
+    <div b-w7kossr6ap class="select-portfolio-wrap">
+        <p b-w7kossr6ap class="field-title">Портфель:</p>
+        <div b-w7kossr6ap class="custom-select without-title select-portfolio">
+            <div b-w7kossr6ap class="title"></div>
+            <div b-w7kossr6ap class="dropdown"><div b-w7kossr6ap class="options"></div></div>
+        </div>
+    </div>
+    <div b-w7kossr6ap class="search quick-search with-funds">
+        <input b-w7kossr6ap type="text" placeholder="Название бумаги или ISIN" value="" spellcheck="false" class="normal">
+        <input b-w7kossr6ap type="hidden" name="bondId" />
+        <input b-w7kossr6ap type="hidden" name="isin" />
+        <button b-w7kossr6ap class="search__btn">
+            <svg b-w7kossr6ap width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path b-w7kossr6ap d="M9.58334 17.4993C13.9556 17.4993 17.5 13.9549 17.5 9.58268C17.5 5.21043 13.9556 1.66602 9.58334 1.66602C5.21108 1.66602 1.66667 5.21043 1.66667 9.58268C1.66667 13.9549 5.21108 17.4993 9.58334 17.4993Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path b-w7kossr6ap d="M18.3333 18.3327L16.6667 16.666" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+        </button>
+        <ul b-w7kossr6ap class="search__tip"></ul>
+    </div>
+    <div b-w7kossr6ap class="trade-wrap">
+        <input b-w7kossr6ap type="text" name="[0].Quantity" placeholder="Количество бумаг *" class="normal" data-value-type="int" autocomplete="off" />
+        <div b-w7kossr6ap class="basic-tariff-disabled-message price-date">Часть полей формы не доступна для заполнения на <a b-w7kossr6ap href="/tariffs" target="_blank" class="normal">тарифе "Базовый"</a>, этот тариф предполагает только упрощенный способ ведения портфеля.</div>
+        <div b-w7kossr6ap class="basic-tariff-disabled-wrap">
+            <div b-w7kossr6ap class="trade-price"></div>
+            <input b-w7kossr6ap type="text" name="[0].TradeDate" placeholder="Дата покупки" class="normal" onfocus="if (this.type == 'text' && this.value == '') this.type = 'date'" onblur="if (this.type == 'date' && this.value == '') this.type = 'text'" />
+        </div>
+        <input b-w7kossr6ap type="hidden" name="[0].TradeType" value="buy" />
+    </div>
+    <button b-w7kossr6ap class="normal" onclick="updatePortfolioBond()">Добавить в портфель</button>
+    <div b-w7kossr6ap class="add-variant-button var-full" onclick="addToPortfolioShowFullForm()">Заполнить полную информацию о всех сделках с бумагой</div>
+    <div b-w7kossr6ap class="add-variant-button var-simple" onclick="addToPortfolioShowSimpleForm()">Вернуться к упрощенной форме добавления</div>
+    <div b-w7kossr6ap class="basic-tariff-disabled-message many-trades">Заполненение нескольких сделок не доступно на <a b-w7kossr6ap href="/tariffs" target="_blank" class="normal">тарифе "Базовый"</a>, этот тариф предполагает только упрощенный способ ведения портфеля.</div>
+</div>
+<div b-w7kossr6ap class="popup-content-prepared" id="close_position">
+    <div b-w7kossr6ap class="popup-title" data-id="close_position">Закрыть позицию</div>
+    <p b-w7kossr6ap class="error"></p>
+    <div b-w7kossr6ap class="search quick-search">
+        <input b-w7kossr6ap type="text" placeholder="Название бумаги или ISIN" readonly value="" spellcheck="false" class="normal">
+        <input b-w7kossr6ap type="hidden" name="portfolioBondId" />
+        <input b-w7kossr6ap type="hidden" name="isin" />
+        <ul b-w7kossr6ap class="search__tip"></ul>
+    </div>
+    <div b-w7kossr6ap class="close-position-details-wrap">
+        <input b-w7kossr6ap type="text" name="[0].Quantity" placeholder="Количество бумаг *" class="normal" data-value-type="int" autocomplete="off" />
+        <div b-w7kossr6ap class="trade-price"></div>
+        <input b-w7kossr6ap type="text" name="[0].TradeDate" placeholder="Дата продажи" class="normal" onfocus="if (this.type == 'text' && this.value == '') this.type = 'date'" onblur="if (this.type == 'date' && this.value == '') this.type = 'text'" />
+    </div>
+    <input b-w7kossr6ap type="hidden" name="[0].TradeType" value="sell" />
+    <button b-w7kossr6ap class="normal red" onclick="updatePortfolioBond()">Закрыть позицию</button>
+</div>
+<div b-w7kossr6ap class="popup-content-prepared" id="edit_position">
+    <div b-w7kossr6ap class="popup-title" data-id="edit_position">Редактировать позицию</div>
+    <p b-w7kossr6ap class="error"></p>
+    <div b-w7kossr6ap class="search quick-search">
+        <input b-w7kossr6ap type="text" placeholder="Название бумаги или ISIN" readonly value="" spellcheck="false" class="normal">
+        <input b-w7kossr6ap type="hidden" name="portfolioBondId" />
+        <input b-w7kossr6ap type="hidden" name="isin" />
+        <ul b-w7kossr6ap class="search__tip"></ul>
+    </div>
+    <div b-w7kossr6ap class="trade-wrap">
+        <div b-w7kossr6ap class="trade-title">
+            Сделка <span b-w7kossr6ap class="num"></span>
+            <span b-w7kossr6ap class="tooltip action-tooltip tooltip-del" onclick="deletePositionTrade(this)">&times;</span><span b-w7kossr6ap class="tooltip-content">Удалить сделку</span>
+        </div>
+        <input b-w7kossr6ap type="text" name="[0].Quantity" placeholder="Количество бумаг *" class="normal" data-value-type="int" autocomplete="off" />
+        <div b-w7kossr6ap class="basic-tariff-disabled-message price-date">Часть полей формы не доступна для заполнения на <a b-w7kossr6ap href="/tariffs" target="_blank" class="normal">тарифе "Базовый"</a>, этот тариф предполагает только упрощенный способ ведения портфеля.</div>
+        <div b-w7kossr6ap class="basic-tariff-disabled-wrap">
+            <div b-w7kossr6ap class="trade-price">
+                <div b-w7kossr6ap class="wrap">
+                    <input b-w7kossr6ap type="text" name="[0].PricePercent" placeholder="Стоимость бумаги" class="normal" data-value-type="float" autocomplete="off" />
+                </div>
+                <div b-w7kossr6ap class="wrap">
+                    <div b-w7kossr6ap class="custom-select without-title select-price-type no-color">
+                        <div b-w7kossr6ap class="title"></div>
+                        <div b-w7kossr6ap class="dropdown"><div b-w7kossr6ap class="options">
+                            <div b-w7kossr6ap class="option">
+                                <label b-w7kossr6ap>
+                                    <input b-w7kossr6ap type="radio" name="[0].PriceType" value="Percent" onclick="selectTradePriceType(this)">
+                                    <span b-w7kossr6ap class="radio"></span>
+                                    <span b-w7kossr6ap class="text">% от номинала</span>
+                                </label>
+                            </div>
+                            <div b-w7kossr6ap class="option">
+                                <label b-w7kossr6ap>
+                                    <input b-w7kossr6ap type="radio" name="[0].PriceType" value="Total" onclick="selectTradePriceType(this)">
+                                    <span b-w7kossr6ap class="radio"></span>
+                                    <span b-w7kossr6ap class="text"><span b-w7kossr6ap class="currency">руб.</span> <span b-w7kossr6ap class="total-price-type-name">за всю сделку (с НКД)</span></span>
+                                </label>
+                            </div>
+                        </div></div>
+                    </div>
+                </div>
+            </div>
+            <input b-w7kossr6ap type="text" name="[0].TradeDate" placeholder="Дата сделки" class="normal" onfocus="if (this.type == 'text' && this.value == '') this.type = 'date'" onblur="if (this.type == 'date' && this.value == '') this.type = 'text'" />
+            <div b-w7kossr6ap class="custom-select without-title select-trade-type">
+                <div b-w7kossr6ap class="title"></div>
+                <div b-w7kossr6ap class="dropdown"><div b-w7kossr6ap class="options">
+                    <div b-w7kossr6ap class="option">
+                        <label b-w7kossr6ap>
+                            <input b-w7kossr6ap type="radio" name="[0].TradeType" value="buy">
+                            <span b-w7kossr6ap class="radio"></span>
+                            <span b-w7kossr6ap class="text">Покупка</span>
+                        </label>
+                    </div>
+                    <div b-w7kossr6ap class="option">
+                        <label b-w7kossr6ap>
+                            <input b-w7kossr6ap type="radio" name="[0].TradeType" value="sell">
+                            <span b-w7kossr6ap class="radio"></span>
+                            <span b-w7kossr6ap class="text">Продажа</span>
+                        </label>
+                    </div>
+                </div></div>
+            </div>
+        </div>
+        <input b-w7kossr6ap type="hidden" name="[0].TradeId" value="" />
+    </div>
+    <div b-w7kossr6ap class="add-trade-button" onclick="addPositionTradeFields()"><span b-w7kossr6ap>+</span><span b-w7kossr6ap>Добавить сделку</span></div>
+    <div b-w7kossr6ap class="basic-tariff-disabled-message add-trade">Заполненение нескольких сделок не доступно на <a b-w7kossr6ap href="/tariffs" target="_blank" class="normal">тарифе "Базовый"</a>, этот тариф предполагает только упрощенный способ ведения портфеля.</div>
+    <button b-w7kossr6ap class="normal" onclick="updatePortfolioBond()">Сохранить изменения</button>
+</div>
+
+<div b-w7kossr6ap class="popup-content-prepared" id="update_favourites">
+    <input b-w7kossr6ap type="hidden" name="bondId" value="" />
+    <input b-w7kossr6ap type="hidden" name="favouritesId" value="" />
+    <p b-w7kossr6ap class="error"></p>
+    <p b-w7kossr6ap class="field-title">Бумага:</p>
+    <div b-w7kossr6ap class="popup-title fav" data-id="update_favourites"></div>
+    <p b-w7kossr6ap class="field-title">Список избранного:</p>
+    <div b-w7kossr6ap class="custom-select without-title select-favourites">
+        <div b-w7kossr6ap class="title"></div>
+        <div b-w7kossr6ap class="dropdown"><div b-w7kossr6ap class="options"></div></div>
+    </div>
+    <input b-w7kossr6ap type="text" class="normal new-fav-name" name="name" placeholder="Название нового списка" maxlength="200" />
+    <div b-w7kossr6ap style="height:20px"></div>
+    <button b-w7kossr6ap class="normal" onclick="updateBondFavouritesPrepare()">Сохранить изменения</button>
+</div>
+<div b-w7kossr6ap class="popup-content-prepared" id="add_to_favourites">
+    <div b-w7kossr6ap class="popup-title" data-id="add_to_favourites">Добавление в избранное</div>
+    <p b-w7kossr6ap class="error"></p>
+    <input b-w7kossr6ap type="hidden" name="bondId" value="" />
+    <div b-w7kossr6ap class="search quick-search with-funds">
+        <input b-w7kossr6ap type="text" placeholder="Название бумаги или ISIN" value="" spellcheck="false" class="normal">
+        <input b-w7kossr6ap type="hidden" name="isin" />
+        <button b-w7kossr6ap class="search__btn">
+            <svg b-w7kossr6ap width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path b-w7kossr6ap d="M9.58334 17.4993C13.9556 17.4993 17.5 13.9549 17.5 9.58268C17.5 5.21043 13.9556 1.66602 9.58334 1.66602C5.21108 1.66602 1.66667 5.21043 1.66667 9.58268C1.66667 13.9549 5.21108 17.4993 9.58334 17.4993Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path b-w7kossr6ap d="M18.3333 18.3327L16.6667 16.666" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+        </button>
+        <ul b-w7kossr6ap class="search__tip"></ul>
+    </div>
+    <p b-w7kossr6ap class="field-title">Список избранного:</p>
+    <div b-w7kossr6ap class="custom-select without-title select-favourites">
+        <div b-w7kossr6ap class="title"></div>
+        <div b-w7kossr6ap class="dropdown"><div b-w7kossr6ap class="options"></div></div>
+    </div>
+    <input b-w7kossr6ap type="text" class="normal new-fav-name" name="name" placeholder="Название нового списка" maxlength="200" />
+    <div b-w7kossr6ap style="height:20px"></div>
+    <button b-w7kossr6ap class="normal" onclick="updateBondFavouritesPrepare(addBondToFavourites)">Сохранить</button>
+</div>
+<div b-w7kossr6ap class="popup-content-prepared" id="edit_favourites">
+    <div b-w7kossr6ap class="popup-title" data-id="edit_favourites">Список избранного</div>
+    <p b-w7kossr6ap class="error"></p>
+    <input b-w7kossr6ap type="hidden" name="action" value="" />
+    <input b-w7kossr6ap type="hidden" name="favouritesId" value="" />
+    <p b-w7kossr6ap class="field-title">Название:</p>
+    <input b-w7kossr6ap type="text" class="normal" name="name" maxlength="200" />
+    <div b-w7kossr6ap style="height:20px"></div>
+    <button b-w7kossr6ap class="normal" onclick="saveFavourites()" data-update-text="Переименовать" data-delete-text="Удалить список" data-delete-class="red"></button>
+</div>
+<div b-w7kossr6ap class="popup-content-prepared" id="popup_warning">
+    <div b-w7kossr6ap class="popup-title">Внимание!</div>
+    <p b-w7kossr6ap class="error"></p>
+</div>
+
+<form method="post" id="csrf_form"><input name="__RequestVerificationToken" type="hidden" value="CfDJ8KWBX0CkyHxPs2smcz9zSCldAw1q5U4WZ7aGpwGDRcGu3-TF9Z5_LAs9ybkH6jaV13toYUayRdBGrPOtJ2mehkBuMZKIHOIF2R8N-di7SWTMQBSksR8rSVb813nhjcKro4wVZEPCAkBpnBALVJCl1GU" /></form>
+</body>
+</html>

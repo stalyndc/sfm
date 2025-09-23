@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="color-scheme" content="light dark">
+	<link rel="icon" href="data:,">
+	<title>Posts</title>
+	<link href="/index.rss" type="application/rss+xml" rel="alternate" title="RSS feed for blog posts" />
+	<link rel="stylesheet" href="/public/style.css?v=1.6">
+</head>
+
+<header id="top">
+	<nav>
+    <ul>
+      <li><a href="/">Home</a></li><li><a href="/about/">About</a></li><li><a href="/posts/">Posts</a></li><li><a href="/projects/">Projects</a></li><li><a href="#menu">More &darr;</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+<h1 id="posts">Posts</h1>
+
+<p>This page contains a full list of all my blog posts.</p>
+<ul class="posts">
+<li><span>2025-08-25</span><a href='/posts/network-setup-2025/'>My OpenBSD Home Network Setup</a></li>
+<li><span>2025-07-16</span><a href='/posts/openbsd-mullvad/'>Setup Mullvad VPN on OpenBSD via WireGuard</a></li>
+<li><span>2025-07-11</span><a href='/posts/openbsd-router/'>Building a Simple Router with OpenBSD</a></li>
+<li><span>2025-06-29</span><a href='/posts/starlink-openwrt/'>Starlink, OpenWrt, and Eeros... Oh My!</a></li>
+<li><span>2025-05-12</span><a href='/posts/nfs-status/'>Creating a Basic Status Page on NearlyFreeSpeech</a></li>
+<li><span>2025-03-12</span><a href='/posts/openbsd-mac-utm/'>Setup an OpenBSD VM on macOS Using UTM</a></li>
+<li><span>2025-03-04</span><a href='/posts/mac-apps-joy/'>Mac Apps That Bring Me Joy</a></li>
+<li><span>2025-02-14</span><a href='/posts/nfs-multiple-websites/'>Hosting Multiple Websites Under One NearlyFreeSpeech Site</a></li>
+<li><span>2025-02-04</span><a href='/posts/fedora-ai/'>Red Hat Plans to Add AI to Fedora and GNOME</a></li>
+<li><span>2024-12-22</span><a href='/posts/bare/'>Deliver the Bare Minimum</a></li>
+<li><span>2024-10-21</span><a href='/posts/openbsd-linveo/'>Installing OpenBSD on Linveo KVM VPS</a></li>
+<li><span>2024-09-26</span><a href='/posts/safari-vertical-tabs/'>Vertical Tabs in Safari</a></li>
+<li><span>2024-09-20</span><a href='/posts/git-auto-deploy/'>Build and Deploy Websites Automatically with Git</a></li>
+<li><span>2024-09-02</span><a href='/posts/ps2-games/'>Burning and Playing PS2 Games without a Modded Console</a></li>
+<li><span>2024-08-28</span><a href='/posts/useless-key/'>"This Key is Useless Now. Discard?"</a></li>
+<li><span>2024-08-06</span><a href='/posts/perspective/'>Perspective</a></li>
+<li><span>2024-07-24</span><a href='/posts/starlink-eero-pihole/'>Setting Up Pi-Hole with Eero on Starlink</a></li>
+<li><span>2024-07-10</span><a href='/posts/x220-dual-boot/'>Dual Booting OpenBSD and Alpine Linux on a X220 ThinkPad</a></li>
+<li><span>2024-06-30</span><a href='/posts/Fixing_Jekyll__39__s_dart-sass_Dependency_on_OpenBSD/'>Fixing Jekyll's dart-sass Dependency on OpenBSD</a></li>
+<li><span>2024-06-02</span><a href='/posts/Building_rbenv_on_OpenBSD_7.5/'>Building rbenv on OpenBSD 7.5</a></li>
+<li><span>2024-05-27</span><a href='/posts/Installing_WordPress_on_NearlyFreeSpeech/'>Installing WordPress on NearlyFreeSpeech</a></li>
+<li><span>2024-04-11</span><a href='/posts/OpenBSD_is_a_Cozy_Operating_System/'>OpenBSD is a Cozy Operating System</a></li>
+<li><span>2024-02-23</span><a href='/posts/Please_Make_Your_Table_Headings_Sticky/'>Please Make Your Table Headings Sticky</a></li>
+<li><span>2024-02-16</span><a href='/posts/Website_Backups_with_Apple_iCloud/'>Website Backups with Apple iCloud</a></li>
+<li><span>2024-01-29</span><a href='/posts/New_Domain_and_Code_Forge/'>New Domain and Code Forge</a></li>
+<li><span>2024-01-02</span><a href='/posts/My_Text_Editor_Is_Not_Open_Source/'>My Text Edtior is Not Open Source</a></li>
+<li><span>2023-12-17</span><a href='/posts/Switching_Things_Over_to_ikiwiki/'>Switching Things Over to ikiwiki</a></li>
+<li><span>2023-11-02</span><a href='/posts/dwm-gnome/'>Bringing dwm Shortcuts to GNOME</a></li>
+<li><span>2023-09-26</span><a href='/posts/x220/'>The X220 ThinkPad is the Best Laptop in the World</a></li>
+<li><span>2023-09-11</span><a href='/posts/mongodb-arch/'>Installing Older Versions of MongoDB on Arch Linux</a></li>
+<li><span>2023-07-21</span><a href='/posts/heif/'>Converting HEIF Images with macOS Automator</a></li>
+<li><span>2023-06-24</span><a href='/posts/seven-years/'>Blogging for 7 Years</a></li>
+<li><span>2023-06-13</span><a href='/posts/battery/'>Improving Laptop Battery Performance on OpenBSD</a></li>
+<li><span>2023-06-05</span><a href='/posts/vscode/'>Running VSCode in Chromium on OpenBSD</a></li>
+<li><span>2023-05-19</span><a href='/posts/luba/'>My Robotic Mower Woes</a></li>
+<li><span>2023-05-11</span><a href='/posts/mail/'>Working with git Patches in Apple Mail</a></li>
+<li><span>2023-05-05</span><a href='/posts/hamburgers/'>Stop Using Hamburger Menus (Sometimes)</a></li>
+<li><span>2023-05-01</span><a href='/posts/slabtop/'>Converting My X201 ThinkPad into a Slabtop</a></li>
+<li><span>2023-04-25</span><a href='/posts/git-patches/'>Applying Email-Based Git Patches in Evolution on Linux</a></li>
+<li><span>2023-04-13</span><a href='/posts/sublime/'>Launching Sublime Text with dmenu on Alpine Linux</a></li>
+<li><span>2023-04-11</span><a href='/posts/html-dark-mode/'>HTML Dark Mode</a></li>
+<li><span>2023-04-02</span><a href='/posts/x201/'>Bypassing the WiFi Hardware Switch on the Lenovo X201</a></li>
+<li><span>2023-03-16</span><a href='/posts/rvm/'>Installing Ruby with RVM on Alpine Linux</a></li>
+<li><span>2023-03-14</span><a href='/posts/webfonts/'>Stop Using Custom Web Fonts</a></li>
+<li><span>2023-03-09</span><a href='/posts/mango/'>Replacing My Eero Mesh Network with Two Mangos</a></li>
+<li><span>2023-03-03</span><a href='/posts/monitor/'>Why I Stopped Using an External Monitor</a></li>
+<li><span>2023-02-08</span><a href='/posts/dv/'>Dynamic Viewports with CSS</a></li>
+<li><span>2023-01-09</span><a href='/posts/one-thing/'>My Coffee Maker Just Makes Coffee</a></li>
+<li><span>2022-12-23</span><a href='/posts/suckless/'>I Want to Suckless and You Can Too</a></li>
+<li><span>2022-12-08</span><a href='/posts/alpine/'>Adventures in Creating a Minimal Alpine Linux Installer</a></li>
+<li><span>2022-12-02</span><a href='/posts/openring/'>Building openring with Jekyll Build</a></li>
+<li><span>2022-11-23</span><a href='/posts/$10/'>Do You Have an Extra $10?</a></li>
+<li><span>2022-11-22</span><a href='/posts/slow/'>Embracing Slow Tech</a></li>
+<li><span>2022-11-14</span><a href='/posts/srht2/'>Migrating from GitHub to sourcehut</a></li>
+<li><span>2022-11-07</span><a href='/posts/spec/'>Never Do Spec Work for Free</a></li>
+<li><span>2022-11-04</span><a href='/posts/adguard/'>Setting Up AdGuard Home with Eero</a></li>
+<li><span>2022-10-14</span><a href='/posts/af/'>Avoiding Featurism</a></li>
+<li><span>2022-10-03</span><a href='/posts/gallery/'>Simplifying the Craigslist Gallery</a></li>
+<li><span>2022-09-22</span><a href='/posts/notice/'>RE: Creating a Simple HTML/CSS Notice Box</a></li>
+<li><span>2022-09-20</span><a href='/posts/lf/'>Installing Custom Fonts on Linux from the Command Line</a></li>
+<li><span>2022-09-19</span><a href='/posts/jekyll/'>Setup Jekyll from Scratch on a New Linux System</a></li>
+<li><span>2022-09-10</span><a href='/posts/dump/'>Don't Make a Blog, Make a Brain Dump</a></li>
+<li><span>2022-09-08</span><a href='/posts/avoid/'>A Warning for New Designers: Avoid Dribbble</a></li>
+<li><span>2022-09-02</span><a href='/posts/windows/'>Setting Up Jekyll on Windows</a></li>
+<li><span>2022-08-12</span><a href='/posts/loop/'>Looping Through Jekyll Collections</a></li>
+<li><span>2022-08-02</span><a href='/posts/1kb/'>Making a Website Under 1kB</a></li>
+<li><span>2022-07-29</span><a href='/posts/berg/'>Hosting with Codeberg Pages</a></li>
+<li><span>2022-07-14</span><a href='/posts/linux-love/'>The Linux Desktop is Hard to Love</a></li>
+<li><span>2022-07-06</span><a href='/posts/pblog/'>Yet Another Static Site Generator Switch</a></li>
+<li><span>2022-06-29</span><a href='/posts/paid-mac-apps/'>Happily Paying For macOS Apps</a></li>
+<li><span>2022-06-20</span><a href='/posts/rss-click/'>Clickable Links Inside XML</a></li>
+<li><span>2022-05-30</span><a href='/posts/schools/'>Schools Should Be Using Open Source Software</a></li>
+<li><span>2022-05-23</span><a href='/posts/rss-hacks/'>RSS Hacks With XSLT</a></li>
+<li><span>2022-05-17</span><a href='/posts/duckduckno/'>Two Weeks with the DuckDuckGo Browser</a></li>
+<li><span>2022-05-13</span><a href='/posts/shinobi-website/'>This Site is Now a Shinobi Website</a></li>
+<li><span>2022-04-18</span><a href='/posts/safari-default-dark-mode/'>Dear Apple, Please Fix Safari's Default Dark Mode Link Color</a></li>
+<li><span>2022-03-21</span><a href='/posts/my-static-blog-publishing-setup/'>My Static Blog Publishing Setup and an Apology to RSS Subscribers</a></li>
+<li><span>2022-03-14</span><a href='/posts/eero/'>Setting Up a Pi-hole Server with Eero</a></li>
+<li><span>2022-03-12</span><a href='/posts/jelly/'>Transferring Media from macOS to a Jellyfin Server (Raspberry Pi 4)</a></li>
+<li><span>2022-02-23</span><a href='/posts/february-updates/'>February 2022 Update</a></li>
+<li><span>2022-02-03</span><a href='/posts/poormans-comment-system/'>My Cheapskate Commenting System</a></li>
+<li><span>2022-01-28</span><a href='/posts/macos-convert-to-html/'>Convert Files to HTML with macOS Automator Quick Actions</a></li>
+<li><span>2022-01-06</span><a href='/posts/future-os-google/'>Chrome OS Could Become the Future Leader of Computing</a></li>
+<li><span>2021-12-17</span><a href='/posts/use-text-not-icons/'>Icons Should be Complementary - Text is Always Better</a></li>
+<li><span>2021-12-06</span><a href='/posts/jekyll-sourcehut/'>Hosting a Jekyll Site on Sourcehut</a></li>
+<li><span>2021-12-03</span><a href='/posts/netlify-urls/'>Using Netlify for Dynamic URL Redirects</a></li>
+<li><span>2021-11-25</span><a href='/posts/minor-website-changes/'>Using a New Domain and Switching Static Hosts</a></li>
+<li><span>2021-11-09</span><a href='/posts/default-html-style-updates/'>Modern Improvements for Default Browser Styles</a></li>
+<li><span>2021-11-03</span><a href='/posts/css-js-mistake/'>A Reality Where CSS and JavaScript Don't Exist</a></li>
+<li><span>2021-10-28</span><a href='/posts/pihole-cloudflare/'>Setting Up 1.1.1.1 for Families on a Pi-Hole</a></li>
+<li><span>2021-10-15</span><a href='/posts/batch-webp-conversion/'>Batch Converting Images to webp with macOS Automator</a></li>
+<li><span>2021-09-23</span><a href='/posts/safari-extensions-catalina-patcher/'>Enabling Safari Extensions with the macOS Catalina Patcher</a></li>
+<li><span>2021-09-08</span><a href='/posts/performance-focused-wordpress-theme/'>Create a Performance-Focused WordPress Blog</a></li>
+<li><span>2021-08-13</span><a href='/posts/pi-400-internal-ssd/'>Stuffing an SSD Inside the Raspberry Pi 400</a></li>
+<li><span>2021-07-24</span><a href='/posts/sharing-the-things-we-use/'>Sharing The Things We Use</a></li>
+<li><span>2021-06-20</span><a href='/posts/ps4-download-ui/'>PS4 Download UI with Pure CSS</a></li>
+<li><span>2021-06-07</span><a href='/posts/css-slope-graphs/'>CSS Slope Graphs</a></li>
+<li><span>2021-05-29</span><a href='/posts/soma-terminal-css/'>SOMA Inspired Terminal Display with CSS</a></li>
+<li><span>2021-05-19</span><a href='/posts/personal-website-opinions/'>My Changing Opinion on Personal Website Design</a></li>
+<li><span>2021-04-27</span><a href='/posts/shiny-css-buttons/'>Shiny, Animated CSS Buttons</a></li>
+<li><span>2021-04-22</span><a href='/posts/phpetite/'>89 Blog Posts in a Single HTML File</a></li>
+<li><span>2021-04-13</span><a href='/posts/macos-icon-css/'>Create a Mac App Icon with Pure HTML and CSS</a></li>
+<li><span>2021-04-12</span><a href='/posts/lazy-dev-dark-mode/'>The Lazy Developer's Dark Mode</a></li>
+<li><span>2021-03-25</span><a href='/posts/load-image-on-click/'>Click to Load Website Images</a></li>
+<li><span>2021-03-11</span><a href='/posts/introducing-pageroast/'>Introducing PageRoast</a></li>
+<li><span>2021-02-25</span><a href='/posts/launching-thriftyname/'>ThriftyName: $5 Brand Names</a></li>
+<li><span>2021-02-02</span><a href='/posts/self-hosting-fathom/'>Self-Hosting Fathom Analytics with DigitalOcean</a></li>
+<li><span>2021-01-19</span><a href='/posts/fathom-analytics-netlify/'>Setting Up Fathom Analytics with Netlify</a></li>
+<li><span>2021-01-13</span><a href='/posts/introducing-notez/'>Introducing Notez</a></li>
+<li><span>2021-01-05</span><a href='/posts/animated-toggle-tabs/'>Animated Radio Tab Toggles</a></li>
+<li><span>2020-12-28</span><a href='/posts/disabling-comments-in-wordpress/'>Disabling Comments in WordPress</a></li>
+<li><span>2020-12-08</span><a href='/posts/flexbox-bar-graphs/'>Pure CSS Bar Graphs with Graceful Mobile Fallbacks</a></li>
+<li><span>2020-12-04</span><a href='/posts/obvious-js-injection-fallback/'>Obvious Javascript 'Injection' Fallback</a></li>
+<li><span>2020-11-09</span><a href='/posts/bidirectional-scrolling/'>Bidirectional Scrolling: Why Not Both?</a></li>
+<li><span>2020-10-19</span><a href='/posts/menu-toggle-css/'>Menu Toggle with Pure CSS</a></li>
+<li><span>2020-10-07</span><a href='/posts/poor-mans-full-bleed/'>Poor Man's CSS Full-Bleed Layout</a></li>
+<li><span>2020-09-29</span><a href='/posts/simple-jekyll-navigation/'>Simple Navigation Setup in Jekyll 3.9.0</a></li>
+<li><span>2020-09-16</span><a href='/posts/cheap-portable-pi/'>Portable Pi: Cheap Raspberry Pi Zero Hacker Terminal</a></li>
+<li><span>2020-09-09</span><a href='/posts/over-engineering-an-oil-tank/'>Over-Engineering an Oil Tank Gauge</a></li>
+<li><span>2020-09-02</span><a href='/posts/my-pi-desktop/'>My Raspberry Pi Desktop</a></li>
+<li><span>2020-08-16</span><a href='/posts/linux-mint-macbook-air/'>Linux Mint MacBook Air Setup</a></li>
+<li><span>2020-08-13</span><a href='/posts/hello-jekyll/'>Goodbye WordPress, Hello Jekyll (Again)</a></li>
+<li><span>2020-07-07</span><a href='/posts/improving-githubs-new-design/'>Improving Github's New Design</a></li>
+<li><span>2020-06-22</span><a href='/posts/keynote-slides-css/'>Keynote Slides with Pure CSS</a></li>
+<li><span>2020-06-14</span><a href='/posts/audio-hotkeys-on-linux-mint/'>Audio Hotkeys on Linux Mint</a></li>
+<li><span>2020-06-04</span><a href='/posts/quick-dirty-theme-switcher/'>Quick and Dirty Theme Switcher</a></li>
+<li><span>2020-05-13</span><a href='/posts/mini-interactive-keyboard-with-pure-css/'>Mini Interactive Keyboard with Pure CSS</a></li>
+<li><span>2020-05-06</span><a href='/posts/localwp-fedora/'>Fixing LocalWP on Fedora 32</a></li>
+<li><span>2020-05-05</span><a href='/posts/wp-enqueue-for-beginners/'>WP Enqueue for Beginners</a></li>
+<li><span>2020-04-29</span><a href='/posts/fake-3d-elements-with-css/'>Faking 3D Elements with CSS</a></li>
+<li><span>2020-03-31</span><a href='/posts/stripe-menu-css/'>Stripe Menu Dropdowns (CSS)</a></li>
+<li><span>2020-03-18</span><a href='/posts/base64-all-the-things/'>Base64 All The Things! (Sometimes)</a></li>
+<li><span>2020-02-07</span><a href='/posts/learning-to-floss/'>How to "FLOSS" as a Web Designer</a></li>
+<li><span>2020-01-07</span><a href='/posts/chromebook-web-dev/'>Web Development on a $200 Chromebook</a></li>
+<li><span>2019-11-29</span><a href='/posts/one-css-property/'>Billing for One CSS Change</a></li>
+<li><span>2019-11-13</span><a href='/posts/default-brower-forms/'>Very Basic Form Styling</a></li>
+<li><span>2019-11-01</span><a href='/posts/improving-tufte-jekyll/'>Improving Tufte CSS for Jekyll</a></li>
+<li><span>2019-10-06</span><a href='/posts/sticky-elements/'>Stop Using Sticky Navigation on Mobile</a></li>
+<li><span>2019-09-28</span><a href='/posts/being-efficient/'>Being More Efficient as a Designer and Developer</a></li>
+<li><span>2019-09-09</span><a href='/posts/plain-text-emails/'>Plain Text Emails, Please</a></li>
+<li><span>2019-07-30</span><a href='/posts/dynamic-checkboxes/'>Dynamic Checkboxes</a></li>
+<li><span>2019-07-17</span><a href='/posts/empty-table-cells/'>Styling Empty Table Cells</a></li>
+<li><span>2019-07-05</span><a href='/posts/html5-validator-badge/'>Using HTML Validator Badges Again</a></li>
+<li><span>2019-06-25</span><a href='/posts/they-wont-wait/'>They Won't Wait: A Warning for Slow Websites</a></li>
+<li><span>2019-06-20</span><a href='/posts/publish-with-jekyll/'>Publishing Simple Books With Jekyll</a></li>
+<li><span>2019-06-14</span><a href='/posts/hamburger-menu-alternative/'>Using Hamburger Menus? Try Sausage Links</a></li>
+<li><span>2019-06-11</span><a href='/posts/tables/'>Making Tables Responsive With Minimal CSS</a></li>
+<li><span>2019-06-06</span><a href='/posts/html-like-1999/'>Write HTML Like It's 1999</a></li>
+<li><span>2019-06-04</span><a href='/posts/user-select/'>Using User-Select</a></li>
+<li><span>2019-05-29</span><a href='/posts/news-websites-are-dumpster-fires/'>News Websites Are Dumpster Fires</a></li>
+<li><span>2019-05-22</span><a href='/posts/text-align-justify/'>Text Align: Justify</a></li>
+<li><span>2019-05-15</span><a href='/posts/improving-receipt-ux/'>Improving Receipt UX</a></li>
+<li><span>2019-05-09</span><a href='/posts/cut-your-forms-in-half/'>Cut Your Forms in Half</a></li>
+<li><span>2019-05-03</span><a href='/posts/first-letter/'>First Letter Pseudo Element</a></li>
+<li><span>2019-04-26</span><a href='/posts/minimal-css-menu/'>Minimal CSS: Dropdown Menu</a></li>
+<li><span>2019-04-23</span><a href='/posts/character-unit/'>CSS Character Unit</a></li>
+<li><span>2019-04-20</span><a href='/posts/browser-history-sucks/'>Browser History Sucks</a></li>
+<li><span>2019-04-15</span><a href='/posts/still-using-jquery/'>Yes, I Still Use jQuery</a></li>
+<li><span>2019-04-13</span><a href='/posts/current-color/'>CSS Value: `currentColor`</a></li>
+<li><span>2019-04-05</span><a href='/posts/ndenting-text-with-css/'>CSS: Indenting Text</a></li>
+<li><span>2019-03-26</span><a href='/posts/simple-does-not-mean-ugly/'>Simple Does Not Mean Ugly</a></li>
+<li><span>2019-03-25</span><a href='/posts/skip-to-content/'>Skip to Content Button</a></li>
+<li><span>2019-03-13</span><a href='/posts/form-ui-improvements/'>Prescription Form UI Improvements</a></li>
+<li><span>2019-02-27</span><a href='/posts/animated-card-tiles/'>Animated Card Tiles</a></li>
+<li><span>2019-02-18</span><a href='/posts/easy-toggle-switches/'>Easy Toggle Switches</a></li>
+<li><span>2019-02-15</span><a href='/posts/super-mario-blocks-css/'>Super Mario Blocks in CSS</a></li>
+<li><span>2019-02-05</span><a href='/posts/proper-ui-hierarchy/'>Proper UI Hierarchy</a></li>
+<li><span>2019-01-28</span><a href='/posts/tabbed-content/'>Tabbed Content Without JavaScript</a></li>
+<li><span>2019-01-21</span><a href='/posts/easy-custom-radio-inputs/'>Easy Custom Radio Inputs</a></li>
+<li><span>2019-01-15</span><a href='/posts/basic-gulp-build-for-sass/'>Basic Gulp Build for Sass</a></li>
+<li><span>2019-01-08</span><a href='/posts/better-box-shadows/'>Better Box Shadows</a></li>
+<li><span>2019-01-06</span><a href='/posts/over-nesting/'>Over-Nesting</a></li>
+<li><span>2018-12-19</span><a href='/posts/jsincss-parent-selector/'>Using Parent Selectors in CSS</a></li>
+<li><span>2018-11-28</span><a href='/posts/width-vs-flex-basis/'>Width or Flex-Basis?</a></li>
+<li><span>2018-11-22</span><a href='/posts/flexbox-grid/'>Adaptable Flexbox Grid</a></li>
+<li><span>2018-10-18</span><a href='/posts/self-hosted-blogs/'>What Happened to Self-Hosted Blogs?</a></li>
+<li><span>2018-09-28</span><a href='/posts/multiple-css-background-images/'>Using Multiple CSS Background Images</a></li>
+<li><span>2018-09-20</span><a href='/posts/pure-css-simple-dropdown-plugin/'>Pure CSS Simple Dropdown Plugin</a></li>
+<li><span>2018-09-07</span><a href='/posts/simple-accessibility/'>Simple Accessibility</a></li>
+<li><span>2018-08-07</span><a href='/posts/setting-up-free-ssl/'>Setting Up a Free SSL</a></li>
+<li><span>2018-04-16</span><a href='/posts/css-video-backgrounds/'>CSS Video Backgrounds</a></li>
+<li><span>2018-03-24</span><a href='/posts/css-variables/'>CSS Variables</a></li>
+<li><span>2018-02-12</span><a href='/posts/stay-hungry/'>Stay Hungry</a></li>
+<li><span>2018-01-25</span><a href='/posts/open-source-typeface-pairings/'>Open Source Typeface Pairings</a></li>
+<li><span>2018-01-14</span><a href='/posts/et-jekyll-theme/'>ET-Jekyll Theme</a></li>
+<li><span>2017-11-20</span><a href='/posts/chasing-performance/'>Chasing Performance</a></li>
+<li><span>2017-11-01</span><a href='/posts/death-of-personality/'>The Death of Personality</a></li>
+<li><span>2017-10-10</span><a href='/posts/design-review-dropbox/'>Unsolicited Design Review - Dropbox</a></li>
+<li><span>2017-09-07</span><a href='/posts/goodbye-css-preprocessors/'>Goodbye CSS Preprocessors</a></li>
+<li><span>2017-07-10</span><a href='/posts/dts/'>Designers Need Thicker Skin</a></li>
+<li><span>2016-11-15</span><a href='/posts/te/'>The Wonders of Text Ellipsis</a></li>
+<li><span>2016-06-28</span><a href='/posts/aui/'>Aqua UI CSS Buttons</a></li>
+</ul>
+</main>
+
+<footer role="contentinfo">
+    <p>Found this blog useful?<br> Consider <a href="/contribute">contributing to hosting costs!</a>.</p>
+    <nav id="menu">
+        <ul>
+            <li><a href="/uses/">Uses</a></li><li><a href="/wiki/">Wiki</a></li><li><a href="/resume/">Resume</a></li><li><a href="/colophon/">Colophon</a></li><li><a href="/now/">Now</a></li><li><a href="/recipes/">Recipes</a></li><li><a href="/index.rss">RSS</a></li>
+        </ul>
+    </nav>
+    <small>
+        <a href="#top">&uarr; Top of page</a><br>
+        Powered by <a href="https://freebsd.org">FreeBSD</a> and <a href="https://wruby.btxx.org">wruby</a><br>
+        Hosted on <a href="https://www.nearlyfreespeech.net/contribute/btxx.org">NearlyFreeSpeech.NET</a><br><br>
+        Supporter of <a href="https://nextdns.io/?from=74d3p3h8">NextDNS</a> & <a href="https://usefathom.com/ref/DKHJVX">Fathom Analytics</a><br/>
+        The <a href="https://codeberg.org/btxx/btxx.org">code for this site</a>
+        is <a href="https://codeberg.org/btxx/btxx.org/src/branch/master/LICENSE">MIT</a><br>
+        No ads. No tracking. No cookies. Ever.
+    </small>
+</footer>

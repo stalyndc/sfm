@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+ <head>
+  <title>AGO: Public &amp; Media: Derni&egrave;res nouvelles de l'Univers</title>
+  <meta content="Alain DETAL" name="Author" />
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8" /> 
+  <link rel="stylesheet" type="text/css" media="screen" href="/Styles/ago-screen.css" />
+  <link rel="stylesheet" type="text/css" media="print" href="/Styles/ago-print.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="/Styles/cnt-screen.css" />
+ </head>
+ <body>
+
+  <div id="header">
+   <a href='/index_f.php'>D&eacute;partement d'Astrophysique, G&eacute;ophysique et Oc&eacute;anographie</a><br />
+   <img src="/Images/ast_15.png" alt="Astro" /> <img src="/Images/geo_15.png" alt="G&eacute;o" /> <img src="/Images/oce_15.png" alt="Oc&eacute;ano" /><br />
+  </div>
+
+  <div id="content">
+
+   <div id="navbar"><a href='/index_f.php'>AGO</a> &gt; <a href='/PeM/index_f.php'>Public &amp; Media</a> &gt; Derni&egrave;res nouvelles de l'Univers</div>
+
+   <div id="left">
+    <div><img src="/Images/fran.gif" alt="french" /> <i>Sorry: only in french</i></div>
+    <ul>
+     <li><a class='m1' href="/index_f.php">Accueil</a></li>
+     <li><a class='m1' href='/Sci/index_f.php'>Science</a></li>
+     <li><a class='m1' href="/Edu/index_f.php">Enseignement</a></li>
+     <li><a class='m1' href="/PeM/agn_f.php">Agenda</a></li>
+     <li><a class='m1am' href="/PeM/index_f.php">Public &amp; Media</a></li>
+     <li class='m2a'>Derni&egrave;res nouvelles...</li>
+     <li><a class='m2' href='../Docs/doc_f.html'>Documents...</a></li>
+     <li><a class='m1' href='/Cnt/index_f.php'>Contacts</a></li>
+    </ul>
+    <div>
+     Institut d'Astrophysique et<br />de G&eacute;ophysique (B&acirc;t. B5c)
+     <br /><br />
+     Quartier Agora<br />All&eacute;e du 6 ao&ucirc;t, 19C<br />B-4000 Li&egrave;ge 1 (Sart-Tilman)<br />Belgique
+     <br /><br />
+     Tel.: 04.366.9779<br />Fax: 04.366.9729
+    </div>
+   </div>
+
+   <div id="main">
+    <h1 id='TOP'>Derni&egrave;res nouvelles de l'Univers</h1>
+
+    <p>
+     Depuis novembre 2000, le d&eacute;partement AGO vous propose de d&eacute;couvrir,
+     traduits en fran&ccedil;ais, les r&eacute;sum&eacute;s des communiqu&eacute;s
+     de presse internationaux consacr&eacute;s &agrave; l'astronomie, la
+     g&eacute;ophysique et l'oc&eacute;anographie. &emsp; Voici les
+     r&eacute;sum&eacute;s les plus r&eacute;cents :
+    </p>
+
+    <table class='cdr' summary='liste'><tr>
+     <td class='cdr2'>
+      <ul>
+       <li class='nws'>Jeudi 11 septembre 2025 :
+        <ul style='margin-top: 0.25em;'>
+         <li class='nws'><a class='link' href='index_f.php#N2025091104'>Formation plan&eacute;taire</a></li>
+         <li class='nws'><a class='link' href='index_f.php#N2025091103'>Folklore spatial</a></li>
+         <li class='nws'><a class='link' href='index_f.php#N2025091102'>Quaoar</a></li>
+         <li class='nws'><a class='link' href='index_f.php#N2025091101'>Trous noirs</a></li>
+        </ul>
+       </li>
+       <li class='nws'>Mercredi 10 septembre 2025 :
+        <ul style='margin-top: 0.25em;'>
+         <li class='nws'><a class='link' href='index_f.php#N2025091004'>Folklore spatial</a></li>
+         <li class='nws'><a class='link' href='index_f.php#N2025091003'>CO2</a></li>
+         <li class='nws'><a class='link' href='index_f.php#N2025091002'>GRB &eacute;trange</a></li>
+         <li class='nws'><a class='link' href='index_f.php#N2025091001'>Chimie</a></li>
+        </ul>
+       </li>
+       <li class='nws'>Mardi 09 septembre 2025 :
+        <ul style='margin-top: 0.25em;'>
+         <li class='nws'><a class='link' href='index_f.php#N2025090905'>Encelade</a></li>
+         <li class='nws'><a class='link' href='index_f.php#N2025090904'>Loin</a></li>
+        </ul>
+       </li>
+      </ul>
+     </td>
+     <td class='cdr2'>
+      <ul>
+       <li class='nws'>Mardi 09 septembre 2025 (suite) :
+        <ul style='margin-top: 0.25em;'>
+         <li class='nws'><a class='link' href='index_f.php#N2025090903'>Oumuamua</a></li>
+         <li class='nws'><a class='link' href='index_f.php#N2025090902'>4U 1630-472</a></li>
+         <li class='nws'><a class='link' href='index_f.php#N2025090901'>TRAPPIST-1 e</a></li>
+        </ul>
+       </li>
+       <li class='nws'>Dimanche 07 septembre 2025 :
+        <ul style='margin-top: 0.25em;'>
+         <li class='nws'><a class='link' href='index_f.php#N2025090703'>AB Aurigae b</a></li>
+         <li class='nws'><a class='link' href='index_f.php#N2025090702'>Formation stellaire</a></li>
+         <li class='nws'><a class='link' href='index_f.php#N2025090701'>Fomalhaut</a></li>
+        </ul>
+       </li>
+       <li class='nws'>Vendredi 05 septembre 2025 :
+        <ul style='margin-top: 0.25em;'>
+         <li class='nws'><a class='link' href='index_f.php#N2025090503'>Primordial ?</a></li>
+         <li class='nws'><a class='link' href='index_f.php#N2025090502'>Mars</a></li>
+         <li class='nws'><a class='link' href='index_f.php#N2025090501'>Terre</a></li>
+        </ul>
+       </li>
+      </ul>
+     </td>
+    </tr><tr>
+     <td colspan='2' class='cdrc'>
+      <b>2025</b> : <a class='link' href='men_f.php?dmois=0'>Septembre</a> <a class='link' href='men_f.php?dmois=-1'>Ao&ucirc;t</a> <a class='link' href='men_f.php?dmois=-2'>Juillet</a> <a class='link' href='men_f.php?dmois=-3'>Juin</a> <a class='link' href='men_f.php?dmois=-4'>Mai</a> <a class='link' href='men_f.php?dmois=-5'>Avril</a> <a class='link' href='men_f.php?dmois=-6'>Mars</a> <a class='link' href='men_f.php?dmois=-7'>F&eacute;vrier</a> <a class='link' href='men_f.php?dmois=-8'>Janvier</a>
+      <b>2024</b> : <a class='link' href='men_f.php?dmois=-9'>D&eacute;cembre</a> <a class='link' href='men_f.php?dmois=-10'>Novembre</a> <a class='link' href='men_f.php?dmois=-11'>Octobre</a>
+      <br />
+      <a class='link' href='ann_f.php?annee=2025'><b>2025</b></a> - <a class='link' href='ann_f.php?annee=2024'><b>2024</b></a> - <a class='link' href='ann_f.php?annee=2023'><b>2023</b></a> - <a class='link' href='ann_f.php?annee=2022'><b>2022</b></a> - <a class='link' href='ann_f.php?annee=2021'><b>2021</b></a> - <a class='link' href='ann_f.php?annee=2020'><b>2020</b></a><br />
+     <a class='link' href='ann_f.php?annee=2019'><b>2019</b></a> - <a class='link' href='ann_f.php?annee=2018'><b>2018</b></a> - <a class='link' href='ann_f.php?annee=2017'><b>2017</b></a> - <a class='link' href='ann_f.php?annee=2016'><b>2016</b></a> - <a class='link' href='ann_f.php?annee=2015'><b>2015</b></a> - <a class='link' href='ann_f.php?annee=2014'><b>2014</b></a> - <a class='link' href='ann_f.php?annee=2013'><b>2013</b></a> - <a class='link' href='ann_f.php?annee=2012'><b>2012</b></a> - <a class='link' href='ann_f.php?annee=2011'><b>2011</b></a> - <a class='link' href='ann_f.php?annee=2010'><b>2010</b></a><br />
+     <a class='link' href='ann_f.php?annee=2009'><b>2009</b></a> - <a class='link' href='ann_f.php?annee=2008'><b>2008</b></a> - <a class='link' href='ann_f.php?annee=2007'><b>2007</b></a> - <a class='link' href='ann_f.php?annee=2006'><b>2006</b></a> - <a class='link' href='ann_f.php?annee=2005'><b>2005</b></a> - <a class='link' href='ann_f.php?annee=2004'><b>2004</b></a> - <a class='link' href='ann_f.php?annee=2003'><b>2003</b></a> - <a class='link' href='ann_f.php?annee=2002'><b>2002</b></a> - <a class='link' href='ann_f.php?annee=2001'><b>2001</b></a> - <a class='link' href='ann_f.php?annee=2000'><b>2000</b></a>
+     </td>
+    </tr><tr>
+     <td colspan='2' class='cdrc'><b><a class='cell' href='sch_f.php'>Recherche avanc&eacute;e</a></b></td>
+    </tr><tr>
+     <td colspan='2' class='cdrc'>R&eacute;daction (<a href='mailto:news.ago@uliege.be' class='mail'><i>news.ago@uliege.be</i></a>) : J.&nbsp;Manfroid, Y.&nbsp;Naz&eacute;.</td>
+    </tr></table>
+
+    <div class="nov">
+     <div style='padding: 3px; background: #e0b8da' id='N2025091104'>
+      <a href="#TOP"><img class='up' src="/Images/up.gif" alt="Index" /></a>
+      Formation plan&eacute;taire (11/09/2025)
+     </div>
+     <p class='nov'>
+      Des objets interstellaires pourraient aider &agrave; lancer la formation plan&eacute;taire...
+      <br /><br />
+      <a href='https://www.europlanet.org/epsc-dps2025-how-interstellar-objects-similar-to-3i-atlas-could-jump-start-planet-formation-around-infant-stars/'>https://www.europlanet.org/epsc-dps2025-how-interstellar-objects-similar-to-3i-atlas-...</a><br />
+     </p>
+    </div>
+
+    <div class="nov">
+     <div style='padding: 3px; background: #e0b8da' id='N2025091103'>
+      <a href="#TOP"><img class='up' src="/Images/up.gif" alt="Index" /></a>
+      Folklore spatial (11/09/2025)
+     </div>
+     <p class='nov'>
+      Retour d'une news d&eacute;j&agrave; faite il y a six mois (cf. <a href="/PeM/News/sel_f.php?qCodes=2025031401">&quot;<i>Mars</i>&quot;</a>) qui elle-m&ecirc;me reprenait une info de juillet 2024: une roche style &quot;l&eacute;opard&quot; serait le meilleur indice de vie martienne... Malgr&eacute; le recyclage m&eacute;diatique, cela reste toujours &agrave; confirmer... <br />
+      <br />
+      Nouveau probl&egrave;me: des petits malins veulent mettre des miroirs dans l'espace pour &eacute;liminer la nuit - est-ce vraiment une bonne id&eacute;e ?
+      <br /><br />
+      <a href='https://skyandtelescope.org/astronomy-news/new-kind-of-satellite-could-damage-eyes/'>https://skyandtelescope.org/astronomy-news/new-kind-of-satellite-could-damage-eyes/</a><br />
+      <a href='https://www.nasa.gov/news-release/nasa-says-mars-rover-discovered-potential-biosignature-last-year/'>https://www.nasa.gov/news-release/nasa-says-mars-rover-discovered-potential-biosignat...</a><br />
+      <a href='https://www.sciencealert.com/life-on-mars-perseverance-discovery-is-the-best-evidence-yet'>https://www.sciencealert.com/life-on-mars-perseverance-discovery-is-the-best-evidence...</a><br />
+      <a href='https://www.planetary.org/articles/nasa-perseverance-found-possible-biosignatures-in-martian-rock'>https://www.planetary.org/articles/nasa-perseverance-found-possible-biosignatures-in-...</a><br />
+      <a href='https://www.imperial.ac.uk/news/268353/potential-biosignatures-found-ancient-mars-lake/'>https://www.imperial.ac.uk/news/268353/potential-biosignatures-found-ancient-mars-lak...</a><br />
+      <a href='https://www.space.com/astronomy/mars/did-nasas-perseverance-rover-find-evidence-of-ancient-red-planet-life-the-plot-thickens'>https://www.space.com/astronomy/mars/did-nasas-perseverance-rover-find-evidence-of-an...</a><br />
+     </p>
+    </div>
+
+    <div class="nov">
+     <div style='padding: 3px; background: #e0b8da' id='N2025091102'>
+      <a href="#TOP"><img class='up' src="/Images/up.gif" alt="Index" /></a>
+      Quaoar (11/09/2025)
+     </div>
+     <p class='nov'>
+      Une occultation stellaire aurait permis de d&eacute;tecter une 2e lune pour Quaoar.
+      <br /><br />
+      <a href='https://www.space.com/astronomy/dwarf-planets/the-weird-ringed-dwarf-planet-quaoar-may-have-an-extra-moon-astronomers-discover'>https://www.space.com/astronomy/dwarf-planets/the-weird-ringed-dwarf-planet-quaoar-ma...</a><br />
+     </p>
+    </div>
+
+    <div class="nov">
+     <div style='padding: 3px; background: #e0b8da' id='N2025091101'>
+      <a href="#TOP"><img class='up' src="/Images/up.gif" alt="Index" /></a>
+      Trous noirs (11/09/2025)
+     </div>
+     <p class='nov'>
+      Dix ans apr&egrave;s la premi&egrave;re d&eacute;tection d'ondes gravitationnelles, les d&eacute;couvertes continuent.  GW250114 a ainsi permis de confirmer la pr&eacute;diction d'Hawking que le rayon du trou noir r&eacute;sultant de la fusion &eacute;tait plus grand que la somme de ceux des trous noirs de d&eacute;part. L'analyse des ondes permet aussi de confirmer la pr&eacute;diction de Kerr selon laquelle la masse et la rotation suffisent &agrave; tout d&eacute;crire.<br />
+      <br />
+      En parall&egrave;le, l'&eacute;v&eacute;nement GW190412 a aussi &eacute;t&eacute; analys&eacute; en d&eacute;tail, ce qui a permis de d&eacute;terminer la vitesse de &quot;recul&quot; de l'objet final - un d&eacute;tail important pour comprendre ce genre de ph&eacute;nom&egrave;ne.
+      <br /><br />
+      <a href='https://www.eurekalert.org/news-releases/1097309'>https://www.eurekalert.org/news-releases/1097309</a><br />
+      <a href='https://www.eurekalert.org/news-releases/1097425'>https://www.eurekalert.org/news-releases/1097425</a><br />
+      <a href='https://www.eurekalert.org/news-releases/1097214'>https://www.eurekalert.org/news-releases/1097214</a><br />
+      <a href='https://www.birmingham.ac.uk/news/2025/hawking-and-kerr-black-hole-theories-confirmed-by-gravitational-wave'>https://www.birmingham.ac.uk/news/2025/hawking-and-kerr-black-hole-theories-confirmed...</a><br />
+      <a href='https://www.space.com/astronomy/gravitational-wave-detector-confirms-theories-of-einstein-and-hawking-this-is-the-clearest-view-yet-of-the-nature-of-black-holes'>https://www.space.com/astronomy/gravitational-wave-detector-confirms-theories-of-eins...</a><br />
+      <a href='https://igfae.usc.es/igfae/en/first-ever-complete-measurement-black-hole-recoil/'>https://igfae.usc.es/igfae/en/first-ever-complete-measurement-black-hole-recoil/</a><br />
+     </p>
+    </div>
+
+    <div class="nov">
+     <div style='padding: 3px; background: #e0b8da' id='N2025091004'>
+      <a href="#TOP"><img class='up' src="/Images/up.gif" alt="Index" /></a>
+      Folklore spatial (10/09/2025)
+     </div>
+     <p class='nov'>
+      Des scientifiques proposent de tirer du plasma sur des satellites pour les &quot;descendre&quot; - et ainsi diminuer le nombre de d&eacute;bris orbitaux.
+      <br /><br />
+      <a href='https://www.tohoku.ac.jp/en/press/propulsion_system_may_help_remove_space_debris.html'>https://www.tohoku.ac.jp/en/press/propulsion_system_may_help_remove_space_debris.html</a><br />
+     </p>
+    </div>
+
+    <div class="nov">
+     <div style='padding: 3px; background: #e0b8da' id='N2025091003'>
+      <a href="#TOP"><img class='up' src="/Images/up.gif" alt="Index" /></a>
+      CO2 (10/09/2025)
+     </div>
+     <p class='nov'>
+      Les microm&eacute;t&eacute;orites peuvent aider &agrave; mesurer le CO2 atmosph&eacute;rique &agrave; diff&eacute;rentes &eacute;poques.
+      <br /><br />
+      <a href='https://eos.org/articles/fossilized-micrometeorites-record-ancient-co2-levels'>https://eos.org/articles/fossilized-micrometeorites-record-ancient-co2-levels</a><br />
+     </p>
+    </div>
+
+    <div class="nov">
+     <div style='padding: 3px; background: #e0b8da' id='N2025091002'>
+      <a href="#TOP"><img class='up' src="/Images/up.gif" alt="Index" /></a>
+      GRB &eacute;trange (10/09/2025)
+     </div>
+     <p class='nov'>
+      Un GRB qui se r&eacute;p&egrave;te, voil&agrave; qui n'est pas pr&eacute;vu, mais qui vient d'&ecirc;tre observ&eacute; pour GRB 250702BDE.
+      <br /><br />
+      <a href='https://www.eso.org/public/news/eso2514/'>https://www.eso.org/public/news/eso2514/</a><br />
+      <a href='https://cerncourier.com/a/einstein-probe-detects-exotic-gamma-ray-bursts/'>https://cerncourier.com/a/einstein-probe-detects-exotic-gamma-ray-bursts/</a><br />
+     </p>
+    </div>
+
+    <div class="nov">
+     <div style='padding: 3px; background: #e0b8da' id='N2025091001'>
+      <a href="#TOP"><img class='up' src="/Images/up.gif" alt="Index" /></a>
+      Chimie (10/09/2025)
+     </div>
+     <p class='nov'>
+      Le JWST a permis la d&eacute;tection de m&eacute;thane gazeux sur Makemake - reste &agrave; voir d'o&ugrave; provient exactement cette atmopsh&egrave;re (cryovolcans? simple sublimation?). <br />
+      <br />
+      En parall&egrave;le, le silane (SiH4) a &eacute;t&eacute; d&eacute;couvert sur une naine brune baptis&eacute;e l' &quot;accident&quot;. - une premi&egrave;re m&ecirc;me si la pr&eacute;sence de cette mol&eacute;cule est soup&ccedil;onn&eacute;e th&eacute;oriquement depuis un certain temps.
+      <br /><br />
+      <a href='https://www.swri.org/newsroom/press-releases/swri-led-team-discovers-methane-gas-makemake'>https://www.swri.org/newsroom/press-releases/swri-led-team-discovers-methane-gas-make...</a><br />
+      <a href='https://noirlab.edu/public/news/noirlab2526/?lang'>https://noirlab.edu/public/news/noirlab2526/?lang</a><br />
+      <a href='https://nouvelles.umontreal.ca/en/article/2025/09/09/a-rare-molecule-detected-in-space-jonathan-gagne-explains/'>https://nouvelles.umontreal.ca/en/article/2025/09/09/a-rare-molecule-detected-in-spac...</a><br />
+     </p>
+    </div>
+
+    <div class="nov">
+     <div style='padding: 3px; background: #e0b8da' id='N2025090905'>
+      <a href="#TOP"><img class='up' src="/Images/up.gif" alt="Index" /></a>
+      Encelade (09/09/2025)
+     </div>
+     <p class='nov'>
+      Selon des exp&eacute;riences en labo, les mol&eacute;cules organiques rep&eacute;r&eacute;es autour d'Encelade pourraient bien ne pas provenir d'un oc&eacute;an sous-jacent mais &ecirc;tre synth&eacute;tis&eacute;es in-situ, gr&acirc;ce aux particules &eacute;nerg&eacute;tiques de la magn&eacute;tosph&egrave;re saturnienne...
+      <br /><br />
+      <a href='https://www.europlanet.org/epsc-dps2025-study-questions-ocean-origin-of-organics-in-enceladuss-plumes/'>https://www.europlanet.org/epsc-dps2025-study-questions-ocean-origin-of-organics-in-e...</a><br />
+      <a href='https://www.eurekalert.org/news-releases/1097436'>https://www.eurekalert.org/news-releases/1097436</a><br />
+     </p>
+    </div>
+
+    <div class="nov">
+     <div style='padding: 3px; background: #e0b8da' id='N2025090904'>
+      <a href="#TOP"><img class='up' src="/Images/up.gif" alt="Index" /></a>
+      Loin (09/09/2025)
+     </div>
+     <p class='nov'>
+      Des nuages de poussi&egrave;res ont &eacute;t&eacute; rep&eacute;r&eacute;s par le JWST assez loin de leur galaxie-h&ocirc;te, Makani. Cela permet de mieux comprendre comment les vents galactiques nourrissent le milieu intergalactique, mais la temp&eacute;rature du gaz entourant les poussi&egrave;res devrait la vaporiser - il reste donc &agrave; expliquer comment elle est encore l&agrave;.
+      <br /><br />
+      <a href='https://cmns.umd.edu/news-events/news/umd-led-study-discovers-warm-space-dust-distant-place'>https://cmns.umd.edu/news-events/news/umd-led-study-discovers-warm-space-dust-distant...</a><br />
+     </p>
+    </div>
+
+    <div class="nov">
+     <div style='padding: 3px; background: #e0b8da' id='N2025090903'>
+      <a href="#TOP"><img class='up' src="/Images/up.gif" alt="Index" /></a>
+      Oumuamua (09/09/2025)
+     </div>
+     <p class='nov'>
+      Alors qu'un troisi&egrave;me objet interstellaire est en train de faire le buzz, le premier revient sur le devant de la sc&egrave;ne - il s'agirait d'un &quot;exo-pluton&quot;, fait surtout de glace d'azote.
+      <br /><br />
+      <a href='https://www.space.com/astronomy/dwarf-planets/1st-known-interstellar-visitor-oumuamua-is-an-exo-pluto-a-completely-new-class-of-object-scientists-say'>https://www.space.com/astronomy/dwarf-planets/1st-known-interstellar-visitor-oumuamua...</a><br />
+     </p>
+    </div>
+
+    <div class="nov">
+     <div style='padding: 3px; background: #e0b8da' id='N2025090902'>
+      <a href="#TOP"><img class='up' src="/Images/up.gif" alt="Index" /></a>
+      4U 1630-472 (09/09/2025)
+     </div>
+     <p class='nov'>
+      L'&eacute;tude avec le satellite XRISM de la binaire X 4U 1630-472 montre que les petits trous noirs gaspillent beaucoup en accr&eacute;tant de la mati&egrave;re.
+      <br /><br />
+      <a href='https://news.umich.edu/small-black-holes-are-surprisingly-sloppy-eaters/'>https://news.umich.edu/small-black-holes-are-surprisingly-sloppy-eaters/</a><br />
+     </p>
+    </div>
+
+    <div class="nov">
+     <div style='padding: 3px; background: #e0b8da' id='N2025090901'>
+      <a href="#TOP"><img class='up' src="/Images/up.gif" alt="Index" /></a>
+      TRAPPIST-1 e (09/09/2025)
+     </div>
+     <p class='nov'>
+      Les observations du JWST ne permettent pas d'exclure la pr&eacute;sence d'un oc&eacute;an global ou d'une atmosph&egrave;re de m&eacute;thane sur la plan&egrave;te e du syst&egrave;me TRAPPIST-1.
+      <br /><br />
+      <a href='https://webbtelescope.org/contents/news-releases/2025/news-2025-109'>https://webbtelescope.org/contents/news-releases/2025/news-2025-109</a><br />
+     </p>
+    </div>
+
+    <div class="nov">
+     <div style='padding: 3px; background: #e0b8da' id='N2025090703'>
+      <a href="#TOP"><img class='up' src="/Images/up.gif" alt="Index" /></a>
+      AB Aurigae b (07/09/2025)
+     </div>
+     <p class='nov'>
+      Le VLT a permis de d&eacute;tecter les raies d'&eacute;mission de l'hydrog&egrave;ne provenant d'AB Aur b, signe de l'accr&eacute;tion du disque circumplan&eacute;taire par la protoplan&egrave;te.
+      <br /><br />
+      <a href='https://www.abc-nins.jp/en/a-glimpse-of-a-planet-in-formation-ab-aurigae-b-detected-in-h-alpha-light/'>https://www.abc-nins.jp/en/a-glimpse-of-a-planet-in-formation-ab-aurigae-b-detected-i...</a><br />
+     </p>
+    </div>
+
+    <div class="nov">
+     <div style='padding: 3px; background: #e0b8da' id='N2025090702'>
+      <a href="#TOP"><img class='up' src="/Images/up.gif" alt="Index" /></a>
+      Formation stellaire (07/09/2025)
+     </div>
+     <p class='nov'>
+      ALMA a d&eacute;couvert des jets proto-stellaires dans la r&eacute;gion externe de la Voie lact&eacute;e, montrant que la formation stellaire fonctionne dans ces r&eacute;gions de faible m&eacute;tallicit&eacute;.
+      <br /><br />
+      <a href='https://www.niigata-u.ac.jp/en/news/18565/'>https://www.niigata-u.ac.jp/en/news/18565/</a><br />
+     </p>
+    </div>
+
+    <div class="nov">
+     <div style='padding: 3px; background: #e0b8da' id='N2025090701'>
+      <a href="#TOP"><img class='up' src="/Images/up.gif" alt="Index" /></a>
+      Fomalhaut (07/09/2025)
+     </div>
+     <p class='nov'>
+      Les observations d'ALMA montrent que l'excentricit&eacute; du disque de d&eacute;bris entourant Fomalhaut diminue avec la distance &agrave; l'&eacute;toile, sans doute &agrave; cause de l'influence d'une plan&egrave;te massive.
+      <br /><br />
+      <a href='https://www.almaobservatory.org/en/press-releases/neighboring-stars-warped-ring-shaped-by-evolving-planets/'>https://www.almaobservatory.org/en/press-releases/neighboring-stars-warped-ring-shape...</a><br />
+     </p>
+    </div>
+
+    <div class="nov">
+     <div style='padding: 3px; background: #e0b8da' id='N2025090503'>
+      <a href="#TOP"><img class='up' src="/Images/up.gif" alt="Index" /></a>
+      Primordial ? (05/09/2025)
+     </div>
+     <p class='nov'>
+      La masse d'un des &quot;petits points rouges&quot; (little red dots) a &eacute;t&eacute; &eacute;valu&eacute;e, et c'est &eacute;lev&eacute; - certains y voient la trace d'un trou noir primordial... A v&eacute;rifier !
+      <br /><br />
+      <a href='https://www.sciencealert.com/jwst-may-have-found-the-first-direct-evidence-of-a-primordial-black-hole'>https://www.sciencealert.com/jwst-may-have-found-the-first-direct-evidence-of-a-primo...</a><br />
+     </p>
+    </div>
+
+    <div class="nov">
+     <div style='padding: 3px; background: #e0b8da' id='N2025090502'>
+      <a href="#TOP"><img class='up' src="/Images/up.gif" alt="Index" /></a>
+      Mars (05/09/2025)
+     </div>
+     <p class='nov'>
+      Encore une info sur l'int&eacute;rieur de Mars (cf. [2025082901 ]). Cette fois, un coeur solide de 600km de rayon a &eacute;t&eacute; d&eacute;couvert gr&acirc;ce &agrave; des donn&eacute;es sismiques d'Insight.
+      <br /><br />
+      <a href='https://english.news.cn/20250904/becfda9c766c4aff8afec30ba28b9bf6/c.html'>https://english.news.cn/20250904/becfda9c766c4aff8afec30ba28b9bf6/c.html</a><br />
+      <a href='https://www.science.org/content/article/data-defunct-nasa-lander-paint-radical-new-picture-mars-s-interior'>https://www.science.org/content/article/data-defunct-nasa-lander-paint-radical-new-pi...</a><br />
+     </p>
+    </div>
+
+    <div class="nov">
+     <div style='padding: 3px; background: #e0b8da' id='N2025090501'>
+      <a href="#TOP"><img class='up' src="/Images/up.gif" alt="Index" /></a>
+      Terre (05/09/2025)
+     </div>
+     <p class='nov'>
+      Un arrangement de lasers a permis de mieux mesurer les petits mouvements de l'axe de la Terre qu'au moyen d'observations radioastronomiques complexes.<br />
+      <br />
+      En parall&egrave;le le r&ocirc;le crucial du carbone pour la pr&eacute;sence d'un coeur solide est mis en &eacute;vidence.
+      <br /><br />
+      <a href='https://www.tum.de/en/news-and-events/all-news/press-releases/details/wobbling-precisely-through-space'>https://www.tum.de/en/news-and-events/all-news/press-releases/details/wobbling-precis...</a><br />
+      <a href='https://www.sciencedaily.com/releases/2025/09/250904103920.htm'>https://www.sciencedaily.com/releases/2025/09/250904103920.htm</a><br />
+     </p>
+    </div>
+
+   </div>
+
+   <div id="addbar">
+    <a href="http://www.uliege.be">Universit&eacute; de Li&egrave;ge</a> &gt;
+    <a href="http://www.sciences.uliege.be">Facult&eacute; des Sciences</a> &gt;
+    <a href="/index_f.php">D&eacute;partement d'Astrophysique, G&eacute;ophysique et Oc&eacute;anographie</a> :
+    <a href="mailto:admin.ago@uliege.be">CoWebAGO</a>, Juin 2009.
+   </div>
+   
+  </div>
+
+  <div id="footer"><img src="/Images/ago100.png" alt="AGO" /></div>
+
+ </body>
+</html>

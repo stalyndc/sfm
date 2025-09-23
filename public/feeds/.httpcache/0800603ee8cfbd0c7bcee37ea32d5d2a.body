@@ -1,0 +1,1414 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>addy.io</title>
+    <link href="https://addy.io" />
+    <link type="application/atom+xml" rel="self" href="https://addy.io/blog/feed.atom" />
+    <updated>2025-07-28T12:11:33+00:00</updated>
+    <id>https://addy.io/blog/feed.atom</id>
+    <author>
+        <name>addy.io</name>
+    </author>
+                <entry>
+    <id>https://addy.io/blog/say-hello-to-the-new-official-addy-io-mobile-apps</id>
+    <link type="text/html" rel="alternate" href="https://addy.io/blog/say-hello-to-the-new-official-addy-io-mobile-apps" />
+    <title>Say hello to the new official addy.io mobile apps</title>
+    <published>2024-10-05T00:00:00+00:00</published>
+    <updated>2024-10-05T00:00:00+00:00</updated>
+    <author>
+        <name>Will Browning</name>
+    </author>
+    <summary type="html">
+  
+
+
+
+
+I&#039;m excited to announce some big updates that will improve your experience with addy.io! Over the past few months Stjin (the developer of the existing Android app) has been hard at work bringing some fantastic new features to life. Here’s......</summary>
+    <content type="html"><![CDATA[
+        <div class="flex justify-center">
+  <img class="shadow" src="/assets/img/official-mobile-apps.png" alt="Official mobile apps" title="Official mobile apps">
+</div>
+
+<h2>What's new?</h2>
+
+<p>I'm excited to announce some <strong>big updates</strong> that will improve your experience with addy.io! Over the past few months <strong><a href="https://twitter.com/Stjinchan">Stjin</a></strong> (the developer of the existing Android app) has been hard at work bringing some fantastic new features to life. Here’s what’s new:</p>
+
+<h4>Brand New Official addy.io iOS App 🎉</h4>
+
+<p>I'm thrilled to introduce the brand new <strong><a href="https://apps.apple.com/app/addy-io/id6563138633">addy.io iOS and iPadOS app</a></strong>! For the first time ever, addy.io users on Apple devices can enjoy an <strong>official app experience</strong>. Whether you're using an iPhone or an iPad, this app offers a sleek, user-friendly interface that makes managing your aliases a breeze.</p>
+
+<p>This app brings a lot of the great features users love from the Android version, but optimised specifically for iOS and iPadOS with a smooth and intuitive design, all thanks to SwiftUI. Best of all, it's free for all addy.io users!</p>
+
+<h4>Official addy.io Android App</h4>
+
+<p>In addition to launching the iOS app, I'm proud to announce that Stjin’s existing <strong><a href="https://play.google.com/store/apps/details?id=host.stjin.anonaddy">addy.io Android app</a></strong> is now the <strong>official app</strong> for all Android users. Stjin has been working hard to ensure both apps provide a cohesive experience across platforms, and now you can access the same fantastic features on both iOS and Android, completely free of charge!</p>
+
+<p>You can also download the app from <strong><a href="https://f-droid.org/packages/host.stjin.anonaddy">F-Droid</a></strong>.</p>
+
+<h4>Open Source for Both Apps</h4>
+
+<p>One of the most exciting aspects of this collaboration is that the source code for both the iOS and Android apps has now been consolidated under the <strong><a href="https://github.com/anonaddy">addy.io GitHub organisation</a></strong>. We believe in transparency and community collaboration, and by making the code open-source, we're encouraging developers to contribute and help us continue to improve the apps.</p>
+
+<h4>Browser Extension Now Available for Edge and Safari</h4>
+
+<p>As part of our continued effort to make addy.io more accessible, the browser extension is now also available for <strong><a href="https://microsoftedge.microsoft.com/addons/detail/addyio-anonymous-email/ohjlgpcfncgkijjfmabldlgnccmgcehl">Microsoft Edge</a></strong> and <strong><a href="https://apps.apple.com/app/addy-io-extension/id6670220050">Apple Safari</a></strong>. The extension makes it even easier to manage your aliases while browsing, and I'll continue to roll out updates and improvements in the coming months.</p>
+
+<h2>What Does This Mean for You?</h2>
+
+<p>Whether you’re a long-time addy.io user or just getting started, here’s a quick recap of the key features across both apps, as detailed by <a href="https://old.reddit.com/r/addy_io/comments/1fwlegb/addyio_for_ios_ipados_is_here/">Stjin</a>:</p>
+
+<ul>
+<li><p><strong>Free of Charge</strong>: Both the Android and iOS Official addy.io apps will be available for free for all users.</p></li>
+<li><p><strong>User-Friendly Interface</strong>: Both apps feature intuitive and easy-to-navigate designs, making it simple for you to find what you need.</p></li>
+<li><p><strong>Customisation Options</strong>: Personalise your app experience with custom icons and configurable widgets.</p></li>
+<li><p><strong>Seamless Integration</strong>: Both apps integrate smoothly with their respective platforms, offering features like the iOS app’s exclusive sharing sheet integration or the Android app's notifications for expiring subscriptions and failed deliveries.</p></li>
+<li><p><strong>SwiftUI Design (iOS)</strong>: Built with SwiftUI, the iOS app is not only beautiful but also highly optimised for performance.</p></li>
+<li><p><strong>Exclusive Content</strong>: Enjoy unique features like the "watch-alias" feature on both platforms, as well as app-specific content and notifications.</p></li>
+<li><p><strong>Siri &amp; Shortcuts (iOS)</strong>: On iOS, there is also a powerful new Siri &amp; Shortcuts feature, allowing you to automate alias creation with ease. Whether it’s triggering actions via the iPhone 15 Pro’s Action Button or the Apple Pencil Pro's Squeeze Feature, this integration brings a whole new level of convenience.</p></li>
+</ul>
+
+<p>We're excited for you to try them out!</p>
+
+<h2>A Huge Thank You to Our Users 🙏</h2>
+
+<p>None of this would be possible without the support of our amazing community. I'm deeply grateful for your continued feedback and enthusiasm for addy.io, and I'm committed to making the platform better with every update.</p>
+
+<p>A <strong>special thanks to Stjin</strong> for all his hard work in bringing both the iOS and Android apps to life and continuing to improve them. I'm excited to keep partnering with him to bring you even more features in the future.</p>
+
+<p>Thank you for being part of the addy.io family!</p>
+
+<h2>Feedback and suggestions</h2>
+
+<p>If you have any feedback or suggestions please just <a href="/contact/">get in touch</a> and make sure to sign up to the newsletter if you'd like to receive updates on new features!</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://addy.io/blog/addy-io-passes-independent-security-audit</id>
+    <link type="text/html" rel="alternate" href="https://addy.io/blog/addy-io-passes-independent-security-audit" />
+    <title>addy.io passes independent security audit</title>
+    <published>2023-09-19T00:00:00+00:00</published>
+    <updated>2023-09-19T00:00:00+00:00</updated>
+    <author>
+        <name>Will Browning</name>
+    </author>
+    <summary type="html">Although addy.io has always been open-source, I wanted to offer users even more transparency by having an unbiased third-party company conduct an in-depth review of the service.
+
+I&#039;m delighted to announce that addy.io has passed an independent security......</summary>
+    <content type="html"><![CDATA[
+        <p>Although addy.io has always been open-source, I wanted to offer users even more transparency by having an unbiased third-party company conduct an in-depth review of the service.</p>
+
+<p>I'm delighted to announce that addy.io has passed an independent security audit carried out by Securitum including a web application penetration test and a source code audit.</p>
+
+<h2>What is a security audit?</h2>
+
+<blockquote>
+  <p>A security audit is an independent analysis of an organisation’s security posture to identify any weaknesses or vulnerabilities.</p>
+</blockquote>
+
+<p>Part of the security audit carried out involved a penetration test (pentest), which is a proactive and authorised simulated cyberattack on a web application, aimed at identifying and fixing potential vulnerabilities before they can be exploited by attackers.</p>
+
+<p>A combination of automated and manual techniques are used to identify vulnerabilities.</p>
+
+<p>The security audit also involved an analysis of the source code for the web application (<a href="https://app.addy.io/">https://app.addy.io</a>).</p>
+
+<p>The goal is to provide insights into the service's security status and recommend ways to improve security of the web application.</p>
+
+<h2>Who performed the audit?</h2>
+
+<p>The security audit was carried out by <a href="https://www.securitum.com">Securitum</a>, a leading european penetration testing company.</p>
+
+<h2>What were the results?</h2>
+
+<p>The results were extremely positive and I'm very happy with the report!</p>
+
+<blockquote>
+  <p>During testing, no significant vulnerabilities were identified. Low-risk vulnerabilities were reported, as well as several informational points.</p>
+</blockquote>
+
+<p>The 2 low-risk issues have been fixed and the informational points have also been addressed. This has been confirmed by a retest as shown in the report.</p>
+
+<p>To read the full report <strong><a href="/addy-io-security-audit.pdf">click here</a></strong>.</p>
+
+<h2>Feedback and suggestions</h2>
+
+<p>If you have any feedback or suggestions please just <a href="/contact/">get in touch</a> and make sure to sign up to the newsletter if you'd like to receive updates on new features!</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://addy.io/blog/anonaddy-has-rebranded-as-addy-io</id>
+    <link type="text/html" rel="alternate" href="https://addy.io/blog/anonaddy-has-rebranded-as-addy-io" />
+    <title>AnonAddy has rebranded as addy.io</title>
+    <published>2023-08-09T00:00:00+00:00</published>
+    <updated>2023-08-09T00:00:00+00:00</updated>
+    <author>
+        <name>Will Browning</name>
+    </author>
+    <summary type="html">AnonAddy is now addy.io! This post gives some details on what motivated the rebrand, what&#039;s actually changed and what features have been added.
+
+
+
+As AnonAddy has continued to grow and gain more users internationally, I wanted a name that was shorter,......</summary>
+    <content type="html"><![CDATA[
+        <p>AnonAddy is now addy.io! This post gives some details on what motivated the rebrand, what's actually changed and what features have been added.</p>
+
+<h2>Why the rebrand?</h2>
+
+<p>As AnonAddy has continued to grow and gain more users internationally, I wanted a name that was shorter, easier to understand and more recognisable.</p>
+
+<p>Removing 'Anon' from the name doesn't mean the service won't still focus on privacy and anonymity. In fact, the service will remain exactly the same, but with even more new and exciting features that I hope you'll love.</p>
+
+<p>This is why I'm delighted to introduce you to the new name and logo - addy.io!</p>
+
+<blockquote>
+  <p><strong>addy</strong> - an address, usually an email address</p>
+</blockquote>
+
+<div class="flex justify-start">
+  <img class="h-48" src="/assets/img/logo-dark.svg" alt="addy.io logo" title="addy.io logo">
+</div>
+
+<h2>What's changed?</h2>
+
+<p>Well first things first, there's a new logo as shown above! This logo is a play on the <code>@</code> symbol and a <code>padlock</code> to represent aliases, privacy and security. The main brand colours remain the same.</p>
+
+<p>From now on you'll be using <a href="https://app.addy.io">https://app.addy.io</a> to access the web application, which you'll notice has had a bit of a user interface redesign. The new web application is a SPA (single page application) so it should feel snappier in general and provide a more pleasant experience.</p>
+
+<p>If you're using the API to make calls then you will need to update your calls to use <code>https://app.addy.io/api/v1</code> instead of <code>https://app.anonaddy.com/api/v1</code>.</p>
+
+<p>There is also a new contact email that you can find on the <a href="/contact/">contact page</a> along with a new GPG key.</p>
+
+<h2>Are there any new features?</h2>
+
+<p>Not only has the service changed name and logo, but there are also some great new features that are available to use now, including:</p>
+
+<p><strong>• Bulk actions for aliases</strong></p>
+
+<p>This addition allows you to select multiple aliases (up to 25) from the web application and perform bulk actions on them all such as; activate, deactivate, edit recipients, delete, forget and restore. See the <a href="https://app.addy.io/docs/#alias-bulk-actions-POSTapi-v1-aliases-activate-bulk">API docs</a> for more details.</p>
+
+<p><strong>• 'From Name' for each alias, username and custom domain</strong></p>
+
+<p>This allows you to set the display <code>From Name</code> for each individual alias, for an entire username / custom domain, or for the entire account globally.</p>
+
+<p>The 'From Name' that is used for an alias is determined by the following priority:</p>
+
+<ol>
+<li>Alias 'From Name'</li>
+<li>Username or Custom Domain 'From Name'</li>
+<li>Global 'From Name' from the settings page</li>
+</ol>
+
+<p><strong>• Control a username's ability to be used to login</strong></p>
+
+<p>A new toggle switch has been added for each username that allows you to decide whether or not that username can be used to login to your account. This toggle cannot be disabled for your default username.</p>
+
+<p><strong>• Display from format for forwarded messages</strong></p>
+
+<p>You can now change what the <code>From</code> header looks like for forwarded messages.</p>
+
+<p><strong>• New spam / phishing warning banner</strong></p>
+
+<p>If an incoming message fails DMARC checks or looks like spam, a new warning banner is added to the email.</p>
+
+<p><strong>• New sort options for aliases with pagination</strong></p>
+
+<p>You can now sort aliases from the web application by a number of values.</p>
+
+<p><strong>• Improved search for aliases</strong></p>
+
+<p>Searches for aliases are now carried out on the server meaning quicker results.</p>
+
+<p><strong>• Option to change default username</strong></p>
+
+<p>You can now change your account's default username from the usernames page.</p>
+
+<p><strong>• Added GBP and EUR currencies</strong></p>
+
+<p>New currency options have been added so you can also pay in GBP or EUR as well as USD.</p>
+
+<p><strong>• New display filters for aliases</strong></p>
+
+<p>You can click through to see all aliases associated with a certain username, domain or recipient.</p>
+
+<p><strong>• Rules functionality out of beta</strong></p>
+
+<p>The rules feature allows you to trigger actions when certain conditions are met, for example:</p>
+
+<p>If the subject contains "Spam" then block the email.</p>
+
+<p><strong>• More to come</strong></p>
+
+<p>Check the <a href="https://github.com/orgs/anonaddy/projects/1/views/1">roadmap</a> to stay up-to-date with even more new features that are on the way.</p>
+
+<h2>Do I need to do anything?</h2>
+
+<p>For most users, there is nothing you need to do.</p>
+
+<p>All existing alias domains are staying the same. The new <code>addy.io</code> domain will be available to those on paid plans shortly.</p>
+
+<p>If you use a hardware key for 2FA on your account, you will receive an email notification shortly with further information.</p>
+
+<h2>Feedback and suggestions</h2>
+
+<p>If you have any feedback or suggestions please just <a href="/contact/">get in touch</a> and make sure to sign up to the newsletter if you'd like to receive updates on new features!</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://addy.io/blog/updating-the-api-provider</id>
+    <link type="text/html" rel="alternate" href="https://addy.io/blog/updating-the-api-provider" />
+    <title>Updating the API provider</title>
+    <published>2022-08-01T00:00:00+00:00</published>
+    <updated>2022-08-01T00:00:00+00:00</updated>
+    <author>
+        <name>Will Browning</name>
+    </author>
+    <summary type="html">This post gives some more details on the API provider update from Laravel Passport to Laravel Sanctum, what motivated the change and what action needs to be taken now that the update is live.
+
+
+
+When I intially launched the API for addy.io, Laravel......</summary>
+    <content type="html"><![CDATA[
+        <p>This post gives some more details on the API provider update from <a href="https://laravel.com/docs/9.x/passport">Laravel Passport</a> to <a href="https://laravel.com/docs/9.x/sanctum">Laravel Sanctum</a>, what motivated the change and what action needs to be taken now that the update is live.</p>
+
+<h2>Migrating from Laravel Passport to Laravel Sanctum</h2>
+
+<p>When I intially launched the API for addy.io, Laravel Passport was the only offically supported option available and it has worked great. Laravel Passport provides a full OAuth2 server implementation which is overkill when addy.io only requires the use of personal access tokens.</p>
+
+<p>If Laravel Sanctum had been available at the time I would have chosen that solution instead as the implementation is much more lightweight and simpler to install/use.</p>
+
+<p>Santcum has much shorter API tokens which should be less confusing and easier to use for the extensions and apps.</p>
+
+<p>This update has added a last used column so you can see when you last used a token and also the option to choose an expiry date for new tokens.</p>
+
+<h2>What action is required?</h2>
+
+<p>If you <strong>aren't using</strong> the browser extensions, mobiles apps or calling the API any other way then you <strong>do not need to take any action</strong> at all.</p>
+
+<p>If you <strong>are using any of the above</strong> then you will have received an email notification letting you know about this update. You will <strong>need to re-create</strong> all of your previous API tokens as they will have disappeared now that this update has been pushed live.</p>
+
+<p>For the browser extension, go to the settings tab, click "Logout" and then you will be able to enter your new token.</p>
+
+<p>For the AddyManager app click the settings cog in the top right and then click "Logout", you will then be able to enter your new token.</p>
+
+<p>The addy.io for Android app will automatically detect your token is invalid so will allow you to enter a new one when opening it.</p>
+
+<p>For the Bitwarden extension simply paste in your new token in the generator tab.</p>
+
+<h2>What is an API?</h2>
+
+<p>API stands for <strong>Application Programming Interface</strong>, it is essentially a way of communicating with a server (in this case the addy.io server) by making requests to different URLs (endpoints).</p>
+
+<p>For example, if you were to make a <code>GET</code> request to <code>/api/v1/aliases</code> you would receive a response containing a list of all of your email aliases.</p>
+
+<p>Using an API, developers can create their own software such as browser extensions or mobile applications to interact with the API server.</p>
+
+<p>The above example ignores authentication for simplicity but when making a request to an API they typically use tokens to authenticate users. The tokens need to be included in each request so that the API can properly authenticate the user.</p>
+
+<p>This enables logged in users to easily consume the same API that is used by other apps e.g. the browser extension.</p>
+
+<h2>How do I get started using the API?</h2>
+
+<p>First things first, you need to generate a new API personal access token from your <a href="https://app.addy.io/settings/api">account settings</a>. After choosing a short name and an optional expiry date for the token it will be displayed on the screen.</p>
+
+<p>This is the only time the token will ever be displayed, so please make a note of it in a safe place (e.g. password manager)!</p>
+
+<p>If you just want to use this token for the browser extension or mobile apps, then all you need to do now is to paste this access token into it.</p>
+
+<p>If you'd like to test out some of the other API endpoints then you can use software such as <a href="https://insomnia.rest/">Insomnia</a>, <a href="https://www.getpostman.com/">Postman</a> or just plain old curl.</p>
+
+<p>There is a <a href="https://app.addy.io/docs/collection.json">Postman Collection</a> available for download too (also works with Insomnia)!</p>
+
+<div class="flex justify-center">
+  <img class="shadow" src="/assets/img/sanctum-api-token.png" alt="Sanctum API token" title="Sanctum API token">
+</div>
+
+<h2>Where can I find the API documentation?</h2>
+
+<p>You can find documentation for the API here - <a href="https://app.addy.io/docs/">https://app.addy.io/docs/</a></p>
+
+<p>The documentation walks you through authentication and lists all available endpoints. Each endpoint includes an example request and example response.</p>
+
+<p>The different error codes that can be returned by the API are also listed with explanations.</p>
+
+<h2>Feedback and suggestions</h2>
+
+<p>If you have any feedback or suggestions please just <a href="/contact/">get in touch</a> and make sure to sign up to the newsletter if you'd like to receive updates on new features!</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://addy.io/blog/bitwarden-adds-anonaddy-integration</id>
+    <link type="text/html" rel="alternate" href="https://addy.io/blog/bitwarden-adds-anonaddy-integration" />
+    <title>Bitwarden adds addy.io integration</title>
+    <published>2022-06-01T00:00:00+00:00</published>
+    <updated>2022-06-01T00:00:00+00:00</updated>
+    <author>
+        <name>Will Browning</name>
+    </author>
+    <summary type="html">Bitwarden integrates addy.io allowing you to create aliases with ease.
+
+
+
+I&#039;m extremely excited to announce that Bitwarden has added addy.io integration with their latest update. It is now available within the Bitwarden desktop application, browser......</summary>
+    <content type="html"><![CDATA[
+        <p>Bitwarden integrates addy.io allowing you to create aliases with ease.</p>
+
+<h2>Bitwarden + addy.io (AnonAddy)</h2>
+
+<p>I'm extremely excited to announce that <a href="https://bitwarden.com/">Bitwarden</a> has added addy.io integration with their latest update. It is now available within the Bitwarden desktop application, browser extensions, and Bitwarden web vault. Mobile application support is planned in a future release.</p>
+
+<p>An email alias service like addy.io helps protect users’ privacy online, which makes us highly complementary to a password management service like Bitwarden.</p>
+
+<h2>What is Bitwarden?</h2>
+
+<p><a href="https://bitwarden.com/">Bitwarden</a> is an open source password manager used by millions around the world. Bitwarden helps you generate, save, and manage your logins safely and securely. You can also share secure information easily with others in your organization.</p>
+
+<p>Password managers secure and protect your online data in the face of rising cybercrime threats.</p>
+
+<p>If you don't have a Bitwarden account you can <a href="https://vault.bitwarden.com/#/register?layout=default">create one</a> for free.</p>
+
+<h2>What will this mean for addy.io users?</h2>
+
+<p>If you use Bitwarden and addy.io it will mean that you will now be able to create email aliases for addy.io directly from the <a href="https://bitwarden.com/help/generator/#generate-a-username">Bitwarden Generator</a>.</p>
+
+<p>This will make it extremely quick and convenient to create and save alias details directly in Bitwarden for each account.</p>
+
+<div class="flex justify-center mb-4">
+  <img class="shadow" src="/assets/img/bitwarden-generator.png" alt="Bitwarden Generator" title="Bitwarden Generator">
+</div>
+
+<p>For further details on how to do this please see Bitwarden's <a href="https://bitwarden.com/help/generator/#username-types">help documentation</a>.</p>
+
+<blockquote>
+  <p>"Using a unique email alias, username, and password for every account provides the ultimate defense against data breaches and strong privacy protection. With this new integration into Bitwarden, it’s easier than ever to keep your accounts and online identity secure." - Bitwarden</p>
+</blockquote>
+
+<h2>Feedback and suggestions</h2>
+
+<p>If you have any feedback or suggestions please just <a href="/contact/">get in touch</a> and make sure to sign up to the newsletter if you'd like to receive updates on new features!</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://addy.io/blog/details-about-the-issue-on-oct-12th</id>
+    <link type="text/html" rel="alternate" href="https://addy.io/blog/details-about-the-issue-on-oct-12th" />
+    <title>Details about the issue on Oct 12th</title>
+    <published>2021-10-13T00:00:00+00:00</published>
+    <updated>2021-10-13T00:00:00+00:00</updated>
+    <author>
+        <name>Will Browning</name>
+    </author>
+    <summary type="html">This is a short post with more details about the recent issue on the main mail server.
+
+
+
+At around 9:40 GMT an issue occurred with the DNS resolver on the main mail server which prevented it from being able to properly communicate with the database......</summary>
+    <content type="html"><![CDATA[
+        <p>This is a short post with more details about the recent issue on the main mail server.</p>
+
+<h2>What happened?</h2>
+
+<p>At around 9:40 GMT an issue occurred with the DNS resolver on the main mail server which prevented it from being able to properly communicate with the database server.</p>
+
+<h2>What was affected?</h2>
+
+<p>The main mail server was affected which also hosts the web application (app.addy.io) and this is why users were not able to login or use the API during this time.</p>
+
+<p>The database server and backup mail server were not affected. The backup mail server continued to deliver messages as normal.</p>
+
+<h2>Were emails lost?</h2>
+
+<p>The error caused the main mail server to respond to attempted deliveries with the following message:</p>
+
+<p><code>NOQUEUE: reject: 451 4.3.0 Temporary lookup failure;</code></p>
+
+<p>This will have informed the any mail servers attempting to deliver messages to try again later and to add the message to their deferred mail queue.</p>
+
+<p>As such, emails will have been delayed but should still have been delivered as normal once the issue was fixed.</p>
+
+<h2>Why didn't the status page reflect the error?</h2>
+
+<p>The uptime monitor was still able to reach the web application and receive a 200 OK response even though a 500 error page was being displayed by Laravel (screenshot below). This meant it did not show that there was any problem at <a href="https://status.addy.io/">status.addy.io</a>.</p>
+
+<div class="flex justify-center mb-4">
+  <img class="shadow" src="/assets/img/500-server-error.png" alt="500 server error" title="500 server error">
+</div>
+
+<p>I have now updated the settings for the uptime monitor to ensure the status page accurately reflects the real status of the web application.</p>
+
+<p>I am still investigating exactly what triggered this issue and working to implement measures to ensure it won't happen again. As always I will keep you updated with any changes and improvements made to addy.io and apologise for any inconvenience caused by this.</p>
+
+<h2>Feedback and suggestions</h2>
+
+<p>If you have any feedback or suggestions please just <a href="/contact/">get in touch</a> and make sure to sign up to the newsletter if you'd like to receive updates on new features!</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://addy.io/blog/a-new-and-improved-browser-extension</id>
+    <link type="text/html" rel="alternate" href="https://addy.io/blog/a-new-and-improved-browser-extension" />
+    <title>A new and improved browser extension</title>
+    <published>2021-06-17T00:00:00+00:00</published>
+    <updated>2021-06-17T00:00:00+00:00</updated>
+    <author>
+        <name>Will Browning</name>
+    </author>
+    <summary type="html">This post provides more details on the updated browser extension and the new increased Pro plan limits.
+
+
+
+For a long time I&#039;ve been meaning to update the browser extension so that it included more features than simply the ability to create a new alias.......</summary>
+    <content type="html"><![CDATA[
+        <p>This post provides more details on the updated browser extension and the new increased Pro plan limits.</p>
+
+<h2>The updated browser extension</h2>
+
+<p>For a long time I've been meaning to update the browser extension so that it included more features than simply the ability to create a new alias. I recently made time to give it a big update that will hopefully come as a huge improvement to addy.io users.</p>
+
+<p>Below is a full list of all the new features in v2 of the browser extension:</p>
+
+<ul>
+<li>View aliases</li>
+<li>Search aliases by email or description</li>
+<li>View individual alias details</li>
+<li>Add/Edit alias descriptions</li>
+<li>Activate/Deactivate aliases</li>
+<li>Delete/Restore aliases</li>
+<li>Forget aliases</li>
+<li>Use the "send from address constructor" for an alias</li>
+<li>Choose recipient(s) when creating a new alias</li>
+</ul>
+
+<p>You can find the extension on <a href="https://addons.mozilla.org/en-GB/firefox/addon/addy_io/">Firefox</a> and <a href="https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe">Chrome</a>. If you find the extension useful I'd really appreciate it if you could leave a quick review.</p>
+
+<div class="flex justify-center mb-4">
+  <img class="shadow" src="/assets/img/browser-extension-v2.png" alt="Browser Extension v2" title="Browser Extension v2">
+</div>
+
+<p>A couple of changes were made to the <a href="https://app.addy.io/docs/#get-all-aliases">GET aliases</a> and <a href="https://app.addy.io/docs/#get-all-recipients">GET recipients</a> API endpoints, adding query parameters to filter the response for the extension.</p>
+
+<p>Down the line I plan to add more features to the browser extension such as:</p>
+
+<ul>
+<li>Edit alias recipients</li>
+<li>View account details, usage and limits</li>
+</ul>
+
+<p>If you have any features you'd like to see added or suggestions for the extension, please feel free to post them <a href="https://github.com/anonaddy/anonaddy/discussions">here</a>.</p>
+
+<h2>Increasing some Pro plan limits</h2>
+
+<p>I also recently increased a couple of the limits for the Pro plan, these are:</p>
+
+<ul>
+<li>Additional Usernames from 3 to <strong>10</strong></li>
+<li>Custom domains from 10 to <strong>20</strong></li>
+</ul>
+
+<p>I had received some feedback that users would like to add multiple subdomains in order to better compartmentalise their own aliases which is why I increased the custom domain limit.</p>
+
+<p>I hope those on the Pro plan will find these new limits useful.</p>
+
+<h2>Feedback and suggestions</h2>
+
+<p>If you have any feedback or suggestions please just <a href="/contact/">get in touch</a> and make sure to sign up to the newsletter if you'd like to receive updates on new features!</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://addy.io/blog/a-new-backup-mail-server-and-why-ive-moved-to-a-managed-database</id>
+    <link type="text/html" rel="alternate" href="https://addy.io/blog/a-new-backup-mail-server-and-why-ive-moved-to-a-managed-database" />
+    <title>A new backup mail server and why I&#039;ve moved to a managed database</title>
+    <published>2021-04-23T00:00:00+00:00</published>
+    <updated>2021-04-23T00:00:00+00:00</updated>
+    <author>
+        <name>Will Browning</name>
+    </author>
+    <summary type="html">This post gives a few more details regarding the new backup mail server and the reasons why I&#039;ve moved to a managed database solution.
+
+
+
+Having a robust backup mail delivery system is something that has been on my radar for quite some time. I&#039;ve been......</summary>
+    <content type="html"><![CDATA[
+        <p>This post gives a few more details regarding the new backup mail server and the reasons why I've moved to a managed database solution.</p>
+
+<h2>The new mail server</h2>
+
+<p>Having a robust backup mail delivery system is something that has been on my radar for quite some time. I've been exploring several methods to safeguard the addy.io email delivery should the server go offline, something that would continue to deliver emails and prevent the service from being disrupted. One of the reasons it's taken this long is because I was paralyzed by indecision whilst doing research and testing different database solutions that both mail servers would be able to connect to.</p>
+
+<p>Once I was able to make a decision on the database, it allowed me to proceed with the new backup mail server for which I chose <a href="https://upcloud.com/signup/?promo=D5H33W">UpCloud</a> (referral link). The new mail server has the hostname <code>mail2.anonaddy.me</code> and is hosted by Upcloud in their Poland data centre.</p>
+
+<h2>Moving to a managed database</h2>
+
+<p>In the event of a server going offline, I needed to ensure that the database and the main server were separate. Previously, if there had been any temporary server failure, access to the database would have also been lost. By separating the two, this will ensure that any problems with the main server do not impact the continuation of the service. The backup server will be able to still access the database and continue to forward emails as normal.</p>
+
+<p>Whilst I was aware that managed database services already existed with companies such as Digital Ocean and Amazon's Managed Database solution, it was imperative that I found a service that had the same focus on privacy as addy.io. Having struggled to find an option that I felt I could trust with addy.io's data, I decided to explore other avenues.</p>
+
+<p>This led me to consider setting up a <a href="https://mariadb.com/kb/en/what-is-mariadb-galera-cluster/">MariaDB Galera Cluster</a> of 3 servers. This would have allowed you to write database transactions to any node in the cluster and if any one server went offline the database can continue to work as normal.</p>
+
+<p>I spent a long while researching the Galera Cluster and testing it out with different server setups. I wanted to have the 3 servers in different data centres to protect against a disaster such as the fire at OVH's facility in Strasbourg, France on 10th March 2021.</p>
+
+<p>I had a couple of concerns about continuing down this route, the first of which was the potential latency between the 3 servers since all nodes in a Galera Cluster remain in sync as each transaction is committed. Another thing I was concerned about was the potential overhead of having to manage 3 servers with a reasonably complex cluster setup that would need monitoring and updating etc. I was worried that I'd be spending more time doing server admin than actually working on new features for addy.io.</p>
+
+<p>Having not yet found any better alternative, I was almost about to commit to going with the cluster setup when I saw this blog post by Jack Ellis from Fathom Analytics - <a href="https://usefathom.com/blog/worlds-fastest-analytics">Building the world's fastest website analytics</a>. That blog post really resonated with me and shifted my mindset. I'm not a database expert and so I don't want to be bogged down managing, monitoring and maintaining the database.</p>
+
+<p>That's when I found <a href="https://aiven.io/">aiven</a>. Their managed database solution looked exactly like what I'd been searching for, and furthermore they allowed you to chose UpCloud as the platform upon which it would be installed. They also had a very high SLA and a high availability option.</p>
+
+<p>I chose UpCloud's Amsterdam data centre in order to have the lowest latency for the main mail server. Migration from the current database was quick and easy and only took about 3 minutes to complete (any emails were deferred in this period).</p>
+
+<p>It felt like a huge weight off my shoulders when I'd finished the migration and no longer had to worry about the database, and I could then finish provisioning the backup mail server and make that live too.</p>
+
+<p>Now I'll be able to spend more time focusing on new features for addy.io that are on the <a href="https://github.com/orgs/anonaddy/projects/1/views/1">roadmap</a> which is the thing I enjoy doing the most.</p>
+
+<h2>The new status page</h2>
+
+<p>I've also just added a new status page that you can find at <a href="https://status.addy.io/">status.addy.io</a>. This allows you to quickly check the current status of the landing page, web application, main mail server and the new backup mail server.</p>
+
+<p>It's powered by <a href="https://ohdear.app/">Oh Dear</a> which is awesome and is also created using Laravel.</p>
+
+<div class="flex justify-center">
+  <img class="shadow" src="/assets/img/status-page.jpg" alt="Status page" title="Status page">
+</div>
+
+<h2>A new domain</h2>
+
+<p>I recently added another new domain that is available for anyone on a paid plan. I won't actually be naming the new domain here because I don't want to publicly talk about it in hope that it can stay under the radar.</p>
+
+<p>Users on paid plans can use the new domain as a shared domain *@newdomain.com and also as a standard domain *@johndoe.newdomain.com, where <code>johndoe</code> is the account's username.</p>
+
+<h2>Feedback and suggestions</h2>
+
+<p>If you have any feedback or suggestions please just <a href="/contact/">get in touch</a> and make sure to sign up to the newsletter if you'd like to receive updates on new features!</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://addy.io/blog/mobile-apps-crypto-payments-and-a-new-domain</id>
+    <link type="text/html" rel="alternate" href="https://addy.io/blog/mobile-apps-crypto-payments-and-a-new-domain" />
+    <title>Mobile apps, crypto payments and a new domain</title>
+    <published>2021-01-26T00:00:00+00:00</published>
+    <updated>2021-01-26T00:00:00+00:00</updated>
+    <author>
+        <name>Will Browning</name>
+    </author>
+    <summary type="html">This post goes over some recent updates, including the mobile apps available for addy.io, the new automatic cryptocurrency payments and a new alias domain for paid plans.
+
+
+
+First of all you may be wondering why I haven&#039;t created a mobile app myself. The......</summary>
+    <content type="html"><![CDATA[
+        <p>This post goes over some recent updates, including the mobile apps available for addy.io, the new automatic cryptocurrency payments and a new alias domain for paid plans.</p>
+
+<h2>Mobile apps for addy.io</h2>
+
+<p>First of all you may be wondering why I haven't created a mobile app myself. The reason is because mobile development is not my area of expertise.</p>
+
+<p>Luckily there are many great mobile developers out there and a couple of awesome developers have even created apps for addy.io!</p>
+
+<p>You can find Exodus privacy reports for the app <a href="https://reports.exodus-privacy.eu.org/en/reports/host.stjin.anonaddy/latest/">here</a>.</p>
+
+<h3>Android</h3>
+
+<p>Official Android app created by <a href="https://x.com/Stjinchan">Stjin</a>, available to download from the <a href="https://play.google.com/store/apps/details?id=host.stjin.anonaddy">Play Store</a> and <a href="https://f-droid.org/packages/host.stjin.anonaddy">F-Droid</a>.</p>
+
+<h3>iOS</h3>
+
+<p>Official iOS app created by <a href="https://x.com/Stjinchan">Stjin</a>, available to download from the <a href="https://apps.apple.com/app/addy-io/id6563138633">App Store</a>.</p>
+
+<div class="flex justify-center">
+  <img class="shadow" src="/assets/img/anonaddy-app-stjin.jpeg" alt="Stjin mobile app" title="Stjin mobile app">
+</div>
+
+<h2>New automatic cryptocurrency payments</h2>
+
+<p>Up until now, if you wanted to subscribe using cryptocurrency, the subscription would have to be added manually. I have finally added support for automatic crypto payments using <a href="https://nowpayments.io">NOWPayments</a> to process them.</p>
+
+<p>NOWPayments supports the following cryptocurrencies:</p>
+
+<ul>
+<li>BTC (Bitcoin)</li>
+<li>XMR (Monero)</li>
+<li>LTC (Litecoin)</li>
+<li>DOGE (Dogecoin)</li>
+<li>DCR (Decred)</li>
+<li>ETH (Ethereum)</li>
+<li>LNBT (Bitcoin Lightning)</li>
+<li>and many more <a href="https://nowpayments.io/supported-coins">full list here</a></li>
+</ul>
+
+<p>There are some limitations such as a minimum invoice value of $10, so at the moment you can only pay with cryptocurrency for a yearly plan. The integration is currently quite basic so you cannot automatically swap plans yet, so please contact me if you wish to upgrade.</p>
+
+<h2>A new domain</h2>
+
+<p>I recently added a new domain that is available for anyone on a paid plan. A common request was to have a domain that didn't suggest "hiding", "forwarding" or "anonymity". I won't actually be naming the new domain here because I don't want to publicly talk about it in hope that it can stay under the radar.</p>
+
+<p>Users on paid plans can use the new domain as a shared domain *@newdomain.com and also as a standard domain *@johndoe.newdomain.com, where <code>johndoe</code> is the account's username.</p>
+
+<p>The domain was the first premium domain I've ever purchased; I'm pretty happy with it and I hope you like it too.</p>
+
+<h2>Moving from SpamAssassin to Rspamd</h2>
+
+<p>A short while ago I migrated from <a href="https://spamassassin.apache.org/">SpamAssassin</a> to <a href="https://www.rspamd.com/">Rspamd</a> for spam filtering on the server.</p>
+
+<p>One of the main reasons for this was that Rspamd is much faster and uses less memory than SpamAssassin. Another reason was that Rspamd has support for <a href="https://tools.ietf.org/html/rfc8617">Authenticated Received Chain</a> (ARC) which is used to help improve how DKIM and SPF results are passed from one mail server to the next during forwarding. Without ARC, DKIM and SPF checks can fail if messages are passed to intermediaries like mailing lists or they are forwarded.</p>
+
+<p>So far I'm really happy with the performance.</p>
+
+<h2>Feedback and suggestions</h2>
+
+<p>If you have any feedback or suggestions please just <a href="/contact/">get in touch</a> and make sure to sign up to the newsletter if you'd like to receive updates on new features!</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://addy.io/blog/updated-email-headers-and-a-new-alias-format</id>
+    <link type="text/html" rel="alternate" href="https://addy.io/blog/updated-email-headers-and-a-new-alias-format" />
+    <title>Updated email headers and a new alias format</title>
+    <published>2021-01-12T00:00:00+00:00</published>
+    <updated>2021-01-12T00:00:00+00:00</updated>
+    <author>
+        <name>Will Browning</name>
+    </author>
+    <summary type="html">This post covers some recent updates, including new email headers, the new random characters alias format and the new address constructor for sending email from an alias.
+
+
+
+Okay, so what&#039;s changed with the new email headers?
+
+On forwarded emails the......</summary>
+    <content type="html"><![CDATA[
+        <p>This post covers some recent updates, including new email headers, the new random characters alias format and the new address constructor for sending email from an alias.</p>
+
+<h2>The new email headers</h2>
+
+<p>Okay, so what's changed with the new email headers?</p>
+
+<p>On forwarded emails the <code>To:</code> header will now be set to the alias that the email was <strong>originally sent to</strong>. This change was added to make it much easier to quickly see which alias has been used and to allow better filtering/inbox rules for sorting incoming emails.</p>
+
+<p>On forwarded emails the <code>Reply-To:</code> header has been removed and instead will be set as the <code>From:</code> header. The reason for this change was because many users were having trouble with Gmail and a few email clients that were not respecting the <code>Reply-To:</code> header when they clicked reply. It would previously fill it with the <code>From:</code> header instead. This change fixes that issue and makes replying to aliases more reliable.</p>
+
+<p>On forwarded emails the original <code>Message-ID:</code> header will be kept the same, but in replies and when sending from aliases the <code>Message-ID:</code> header will be replaced as it can sometimes reveal information about your real email address such as its domain.</p>
+
+<p>Email forwards and replies will now keep the <code>In-Reply-To:</code> and <code>References:</code> headers which allow clients to recognise and sort threaded conversations.</p>
+
+<p>A new header - <code>X-AnonAddy-Original-Sender:</code> has also been added to allow you to more easily set up rules/filters on forwarded emails based on the original sender.</p>
+
+<div class="flex justify-center">
+  <img class="shadow" src="/assets/img/new-email-headers.jpg" alt="New email headers" title="New email headers">
+</div>
+
+<h2>The new random characters alias format</h2>
+
+<p>I've received quite a few requests to add a new alias format that could be used instead of the very long UUID format. I recently added a new alias format called <code>Random Characters</code> that is available on all plans.</p>
+
+<p>This new format is an 8 character long alphanumeric string, which means it consists of just letters and numbers. An example of one of these aliases looks like this:</p>
+
+<p><code>70jkspy8@anonaddy.me</code></p>
+
+<p>I've set this as the default format for new accounts as the concept of UUID aliases may be unfamiliar to those not from a programming background.</p>
+
+<p>The UUID format has not been removed and you can still select this format if you like.</p>
+
+<h2>The address constructor for sending from an alias</h2>
+
+<p>A common request has been to add an easy way to construct the correct email address that you should send your message to when you would like to send from an alias (initiate an email conversation).</p>
+
+<p>I have written an article on how to manually construct the correct address here - <a href="/help/sending-email-from-an-alias/">sending email from an alias</a>. The problem was that manually construcing the correct address can be confusing.</p>
+
+<p>In the web application next to each alias you can now click the three dots (more options) button which will display a dropdown menu with a "Send from" option.</p>
+
+<p>Clicking that will bring up a modal where you simply need to enter the email destination that you would like to send the message to. Once you click "Show address" the correct email address is displayed and can be easily copied to your clipboard and pasted into your email client.</p>
+
+<div class="flex justify-center">
+  <img class="shadow" src="/assets/img/send-from-alias-modal.png" alt="Send from alias modal" title="Send from alias modal">
+</div>
+
+<h2>What happened on December 17th?</h2>
+
+<p>On Thursday the 17th December addy.io's hosting provider Greenhost suffered a large DDoS attack targeting one of their customers. This attack was large enough to also affect other parts of their network and it took addy.io offline for roughly 4 hours. I apologise if this downtime affected you in any way.</p>
+
+<p>Greenhost have more details on the incident here - <a href="https://status.greenhost.net/incidents/22">https://status.greenhost.net/incidents/22</a>.</p>
+
+<p>They have taken measures to make their infrastructure more resilient and fault tolerant and added DDoS mitigation.</p>
+
+<p>On the back of this I will be looking into ways to make addy.io more resilient too by adding a backup mail server so that emails can continue to be delivered in the event of any downtime with the main mail server.</p>
+
+<h2>A new public roadmap</h2>
+
+<p>I've been looking for a good place to start a public roadmap for addy.io and was considering Trello/Notion but recently learnt that you could use GitHub projects to create one.</p>
+
+<p>The roadmap is visible on GitHub here - <a href="https://github.com/orgs/anonaddy/projects/1/views/1">addy.io Roadmap</a> (there's also a link to it at the bottom of this site). I thought it would be easier to keep things in one place to stay organised.</p>
+
+<p>I've also enabled <a href="https://github.com/anonaddy/anonaddy/discussions">GitHub discussions</a> on the repository where you can add feature requests, ask questions or just chat in general.</p>
+
+<h2>Feedback and suggestions</h2>
+
+<p>If you have any feedback or suggestions please just <a href="/contact/">get in touch</a> and make sure to sign up to the newsletter if you'd like to receive updates on new features!</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://addy.io/blog/enable-or-disable-catch-all-for-usernames-and-domains</id>
+    <link type="text/html" rel="alternate" href="https://addy.io/blog/enable-or-disable-catch-all-for-usernames-and-domains" />
+    <title>Enable or disable catch-all for usernames and domains</title>
+    <published>2020-10-09T00:00:00+00:00</published>
+    <updated>2020-10-09T00:00:00+00:00</updated>
+    <author>
+        <name>Will Browning</name>
+    </author>
+    <summary type="html">This post gives some more details on the new option to disable the catch-all functionality for additional usernames and custom domains, as well as the new custom alias format.
+
+
+
+The option to be able to turn off automatic alias creation has been......</summary>
+    <content type="html"><![CDATA[
+        <p>This post gives some more details on the new option to disable the catch-all functionality for additional usernames and custom domains, as well as the new custom alias format.</p>
+
+<h2>The new catch-all toggle switch</h2>
+
+<p>The option to be able to turn off automatic alias creation has been requested by a fair few users and I'm happy to say it's finally here!</p>
+
+<p>If you head on over to your domains or usernames page you'll see the addition of a new column named "Catch-All". Each domain or username has a toggle switch to enable or disable the catch-all functionality.</p>
+
+<div class="flex justify-center mb-4">
+  <img class="shadow" src="/assets/img/domains-catch-all.jpg" alt="Domains catch-all" title="Domains catch-all">
+</div>
+
+<p>If you disable catch all for a username or domain then you will only be able to receive emails for aliases that <strong>already exist</strong> in your account.</p>
+
+<p>If someone tries to send an email to an alias that does not exist and you have disabled catch-all the email will be <code>rejected</code>.</p>
+
+<p>I will shortly be adding the ability to disable or enable catch-all functionality to the main username of the account too.</p>
+
+<p>If you are self-hosting please check the release notes on <a href="https://github.com/anonaddy/anonaddy/releases">GitHub</a> for updates that need to be made to a Postfix config file in order for the catch-all feature to work.</p>
+
+<h2>The new custom alias format</h2>
+
+<p>Since you now have the option to disable catch-all for your additional usernames and custom domains, I needed to add a way to create aliases whilst still being able to choose your own <strong>local part</strong>.</p>
+
+<p>The new <code>custom</code> alias format is available for all domains except for shared ones (e.g. @anonaddy.me).</p>
+
+<p>When creating an alias you are now able to select an alias format of <code>custom</code>. This will cause a new text input called "Alias Local Part" to be displayed. You can enter any valid local part for the email in this input.</p>
+
+<p>For example, if I had the domain example.com and I wanted to create a new alias "hello@example.com" then I would select <code>custom</code> for the format and type "hello" in the local part text input.</p>
+
+<p>The <strong>local part</strong> of an email address is anything before the <code>@</code> symbol.</p>
+
+<div class="flex justify-center">
+  <img class="shadow" src="/assets/img/new-custom-alias-format.jpg" alt="New custom alias format" title="New custom alias format">
+</div>
+
+<h2>Browser extension updates</h2>
+
+<p>To reflect the above changes, the browser extensions have also been updated to allow you to enter your own custom local part when creating aliases.</p>
+
+<p>A couple of other user requested additions have also been made. For those of you who are self-hosting, you can now change the API instance to point to your own addy.io location. To do so you will need to logout of the extension and then click "Change Instance" in the bottom right.</p>
+
+<p>The extension will also now display the alias that was last generated so that you can easily copy it again.</p>
+
+<div class="flex justify-center">
+  <img class="shadow" src="/assets/img/browser-extension-5.png" alt="Extension recalls last created alias" title="Extension recalls last created alias">
+</div>
+
+<h2>Feedback and suggestions</h2>
+
+<p>If you have any feedback or suggestions please just <a href="/contact/">get in touch</a> and make sure to sign up to the newsletter if you'd like to receive updates on new features!</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://addy.io/blog/sending-email-from-an-alias-and-updated-replies</id>
+    <link type="text/html" rel="alternate" href="https://addy.io/blog/sending-email-from-an-alias-and-updated-replies" />
+    <title>Sending email from an alias and updated replies</title>
+    <published>2020-02-12T00:00:00+00:00</published>
+    <updated>2020-02-12T00:00:00+00:00</updated>
+    <author>
+        <name>Will Browning</name>
+    </author>
+    <summary type="html">This post gives some more details on the new send from an alias feature and how it works. It also covers the updated email reply functionality which works in the same way. The daily reply limits will now include both replies and send froms.
+
+
+
+This has......</summary>
+    <content type="html"><![CDATA[
+        <p>This post gives some more details on the new send from an alias feature and how it works. It also covers the updated email reply functionality which works in the same way. The daily reply limits will now include both replies and send froms.</p>
+
+<h2>The new send from feature</h2>
+
+<p>This has probably been one of the most requested features on addy.io since I launched the site. The ability to send an email from an alias and initiate an email conversation without having to be forwarded one first.</p>
+
+<p>I took inspiration for this feature from the way VERP (Variable Envelope Return Path) works. When VERP is enabled each recipient has a different return path (also referred to as "envelope sender"). For example an email sent to recipient@example.com would have a return path like this mailer+recipient=example.com@anonaddy.me.</p>
+
+<p>Notice that the + extension has the recipient's email address with an '=' symbol instead of the '@'. This technique allows senders to automatically handle emails that bonce by analysing the return path to retrieve the recipient's email (in this case recipient@example.com). This email address can then be added to a suppression list if it is a hard bounce (e.g. email address does not exist) to prevent any further sending attempts.</p>
+
+<h2>An example of how it works</h2>
+
+<p>Let's say that you have the alias <strong>first@johndoe.anonaddy.com</strong> and you want to send an email to <strong>hello@example.com</strong>.</p>
+
+<p>All you need to do is enter the following in the To: field.</p>
+
+<p><span class="break-words"><a href="&#109;&#97;&#105;&#108;&#116;&#x6f;&#x3a;&#x66;&#x69;&#114;&#115;&#116;&#43;&#104;&#x65;&#x6c;&#x6c;&#x6f;=&#101;&#120;&#97;&#109;&#x70;&#x6c;&#x65;&#x2e;c&#111;&#109;&#64;&#106;&#x6f;&#x68;&#x6e;&#x64;o&#101;&#46;&#97;&#110;&#x6f;&#x6e;&#x61;&#x64;d&#121;&#46;&#99;&#111;&#x6d;">&#x66;&#x69;&#114;&#115;&#116;&#43;&#104;&#x65;&#x6c;&#x6c;&#x6f;=&#101;&#120;&#97;&#109;&#x70;&#x6c;&#x65;&#x2e;c&#111;&#109;&#64;&#106;&#x6f;&#x68;&#x6e;&#x64;o&#101;&#46;&#97;&#110;&#x6f;&#x6e;&#x61;&#x64;d&#121;&#46;&#99;&#111;&#x6d;</a></span></p>
+
+<blockquote>
+  <p><strong>Note</strong>: you must send the email from a verified recipient on your account.</p>
+</blockquote>
+
+<p>Then send the email exactly as you would any other. To check that the email has sent successfully, look in your dashboard at the sent count column and see if it has been incremented for that alias.</p>
+
+<p>This works exactly the same for UUID/Random Word aliases, additional usernames and custom domains.</p>
+
+<p>You can even use the send from feature to create an alias on the fly that does not yet exist. This only works for standard aliases or those at custom domains that behave as a catch-all.</p>
+
+<p>You must generate aliases that use shared domains (e.g. circus.waltz449@anonaddy.me) beforehand in order to be able to send from them.</p>
+
+<p>If you need to send an email to an address with an extension e.g. <strong>hello+whatever@example.com</strong> then it's exactly the same method:</p>
+
+<p><span class="break-words"><a href="ma&#105;&#108;&#116;&#111;&#58;&#102;&#105;&#114;&#115;&#116;&#43;&#x68;&#x65;&#x6c;&#x6c;&#x6f;&#x2b;&#x77;&#x68;&#x61;&#x74;&#x65;&#x76;er&#61;&#101;&#120;&#97;&#109;&#112;&#108;&#101;&#46;&#99;&#111;&#x6d;&#x40;&#x6a;&#x6f;&#x68;&#x6e;&#x64;&#x6f;&#x65;&#x2e;&#x61;&#x6e;on&#97;&#100;&#100;&#121;&#46;&#99;&#111;&#109;">&#102;&#105;&#114;&#115;&#116;&#43;&#x68;&#x65;&#x6c;&#x6c;&#x6f;&#x2b;&#x77;&#x68;&#x61;&#x74;&#x65;&#x76;er&#61;&#101;&#120;&#97;&#109;&#112;&#108;&#101;&#46;&#99;&#111;&#x6d;&#x40;&#x6a;&#x6f;&#x68;&#x6e;&#x64;&#x6f;&#x65;&#x2e;&#x61;&#x6e;on&#97;&#100;&#100;&#121;&#46;&#99;&#111;&#109;</a></span></p>
+
+<p>Just enter the extension too!</p>
+
+<div class="flex justify-center">
+  <img class="shadow" src="/assets/img/send-from-alias.png" alt="Send from alias" title="Send from alias">
+</div>
+
+<h2>Updating the way email replies work</h2>
+
+<p>Email replies have definitely been the thing that have caused the most confusion on addy.io so far, this is partly due to the fact that I don't think I've explained them very well and partly because of the confusing "hash" value used.</p>
+
+<p>I've decided to update the way that email replies work to function in the same way as the above send from feature.</p>
+
+<p>Each forwarded email will have a Reply-To: header set. This header will look something like this:</p>
+
+<p>Reply-To: &lt;<span class="break-words"><a href="&#x6d;&#x61;&#x69;&#x6c;&#116;&#111;&#58;&#97;&#108;&#x69;&#x61;&#x73;&#x2b;&#x68;&#101;&#108;&#108;&#111;&#61;&#x65;&#x78;&#x61;&#x6d;&#x70;&#108;&#101;&#46;&#99;&#111;&#x6d;&#x40;&#x6a;&#x6f;&#x68;&#110;&#100;&#111;&#101;&#46;&#x61;&#x6e;&#x6f;&#x6e;&#x61;&#100;&#100;&#121;&#46;&#99;&#x6f;&#x6d;">&#97;&#108;&#x69;&#x61;&#x73;&#x2b;&#x68;&#101;&#108;&#108;&#111;&#61;&#x65;&#x78;&#x61;&#x6d;&#x70;&#108;&#101;&#46;&#99;&#111;&#x6d;&#x40;&#x6a;&#x6f;&#x68;&#110;&#100;&#111;&#101;&#46;&#x61;&#x6e;&#x6f;&#x6e;&#x61;&#100;&#100;&#121;&#46;&#99;&#x6f;&#x6d;</a></span>></p>
+
+<p>Where <strong>hello@example.com</strong> is the sender of the forwarded email that you will be replying to.</p>
+
+<p>Almost all mail clients respect the Reply-To: header, so all you need to do is click reply and it should automatically fill the To: field with the correct address.</p>
+
+<p>Some users have reported that Gmail's web mail has not been using the Reply-To header. If this is the case then you will have to manually copy the value of the Reply-To header and use this instead.</p>
+
+<p>To check if a reply has worked properly check in your dashboard if the reply count has been incremented for that alias.</p>
+
+<h2>Combining reply and send from limits</h2>
+
+<p>I initially considered keeping the daily reply and send from limits separate but have decided to combine them to simplify things.</p>
+
+<p>The current daily reply limit on the Lite plan is 20 and on the Pro plan 100. Going forward you will be able to mix and match replies/send froms for this limit.</p>
+
+<p>For example on the Lite plan you could do 20 replies in one day and 0 send froms. Or 10 replies and 10 send froms. Or 0 replies and 20 send froms etc.</p>
+
+<p>If you reach your daily limit you will receive an email letting you know.</p>
+
+<h2>Feedback and suggestions</h2>
+
+<p>If you have any feedback or suggestions please just <a href="/contact/">get in touch</a> and make sure to sign up to the newsletter if you'd like to receive updates on new features!</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://addy.io/blog/the-new-api-is-now-available</id>
+    <link type="text/html" rel="alternate" href="https://addy.io/blog/the-new-api-is-now-available" />
+    <title>The new API is now available</title>
+    <published>2019-10-25T00:00:00+00:00</published>
+    <updated>2019-10-25T00:00:00+00:00</updated>
+    <author>
+        <name>Will Browning</name>
+    </author>
+    <summary type="html">This post gives some more details on the release of the new addy.io API that can be used to manage aliases, recipients, domains and additional usernames. In order to use the API you first need to generate an API access token in your account settings.......</summary>
+    <content type="html"><![CDATA[
+        <p>This post gives some more details on the release of the new addy.io API that can be used to manage aliases, recipients, domains and additional usernames. In order to use the API you first need to generate an API access token in your account settings.</p>
+
+<h2>What is an API?</h2>
+
+<p>API stands for <strong>Application Programming Interface</strong>, it is essentially a way of communicating with a server (in this case the addy.io server) by making requests to different URLs (endpoints).</p>
+
+<p>For example, if you were to make a <code>GET</code> request to <code>/api/v1/aliases</code> you would receive a response containing a list of all of your email aliases.</p>
+
+<p>Using an API, developers can create their own software such as browser extensions or mobile applications to interact with the API server.</p>
+
+<p>The above example ignores authentication for simplicity but when making a request to an API they typically use tokens to authenticate users. The tokens need to be included in each request so that the API can properly authenticate the user.</p>
+
+<p>For authentication the addy.io API uses <a href="https://laravel.com/docs/6.x/passport">Laravel Passport</a>, which provides a full OAuth2 server implementation.</p>
+
+<p>One of the great things about Laravel Passport is that it allows you to simply add the <code>CreateFreshApiToken</code> middleware to your web routes so that users can be securely authenticated using an encrypted cookie.</p>
+
+<p>This enables logged in users to easily consume the same API that is used by other apps e.g. the browser extension.</p>
+
+<h2>How do I get started using the API?</h2>
+
+<p>First things first, you need to generate a new API personal access token from your <a href="https://app.addy.io/settings/api">account settings</a>. After choosing a short name for the token it will be displayed on the screen.</p>
+
+<p>This is the only time the token will ever be displayed, so please make a note of it in a safe place (e.g. password manager)!</p>
+
+<p>If you just want to use this token for the browser extension, then all you need to do now is to paste this access token into it.</p>
+
+<p>If you'd like to test out some of the other API endpoints then you can use software such as <a href="https://insomnia.rest/">Insomnia</a>, <a href="https://www.getpostman.com/">Postman</a> or just plain old curl.</p>
+
+<p>There is a <a href="https://app.addy.io/docs/collection.json">Postman Collection</a> available for download too (also works with Insomnia)!</p>
+
+<div class="flex justify-center">
+  <img class="shadow" src="/assets/img/api-access-token.png" alt="API access token" title="API access token">
+</div>
+
+<h2>Where can I find the API documentation?</h2>
+
+<p>You can find documentation for the API here - <a href="https://app.addy.io/docs/">https://app.addy.io/docs/</a></p>
+
+<p>The documentation walks you through authentication and lists all available endpoints. Each endpoint includes an example request and example response.</p>
+
+<p>The different error codes that can be returned by the API are also listed with explanations.</p>
+
+<h2>Feedback and suggestions</h2>
+
+<p>If you have any feedback or suggestions please just <a href="/contact/">get in touch</a> and make sure to sign up to the newsletter if you'd like to receive updates on new features!</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://addy.io/blog/the-new-browser-extension-for-firefox-and-chrome</id>
+    <link type="text/html" rel="alternate" href="https://addy.io/blog/the-new-browser-extension-for-firefox-and-chrome" />
+    <title>The new browser extension for Firefox and Chrome</title>
+    <published>2019-10-14T00:00:00+00:00</published>
+    <updated>2019-10-14T00:00:00+00:00</updated>
+    <author>
+        <name>Will Browning</name>
+    </author>
+    <summary type="html">This post gives some more details on the recent launch of the new open-source browser extension for Firefox and Chromium based browsers. The extension currently allows you to generate UUID aliases remotely using your API access tokens.
+
+
+
+The new......</summary>
+    <content type="html"><![CDATA[
+        <p>This post gives some more details on the recent launch of the new open-source browser extension for Firefox and Chromium based browsers. The extension currently allows you to generate UUID aliases remotely using your API access tokens.</p>
+
+<h2>Where can I find the extension?</h2>
+
+<p>The new extension is <a href="https://github.com/anonaddy/browser-extension">open-source</a> and is available for download for Firefox <a href="https://addons.mozilla.org/en-GB/firefox/addon/addy_io/">here</a> and Chromium based browsers (including Brave) <a href="https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe">here</a>.</p>
+
+<div class="flex justify-center">
+  <img class="shadow" src="/assets/img/browser-extension.png" alt="Browser extension" title="Browser extension">
+</div>
+
+<h2>Why does addy.io need a browser extension?</h2>
+
+<p>When using addy.io you can create standard email aliases on the fly at your own unique username subdomain e.g *@johndoe.anonaddy.com (or .me). However, many users prefer to use the UUID aliases that do not include any username information or link to ownership. These types of aliases cannot be created on the fly and must be <strong>generated beforehand</strong>.</p>
+
+<p>I initially experimented with the idea of using a bookmarklet with a simple link to allow users to generate the aliases, however I quickly ran into CORS (Cross-origin resource sharing) issues and realised this was not going to be possible.</p>
+
+<p>This left a browser extension as the only viable way to generate UUID aliases remotely from the browser.</p>
+
+<h2>What features does it currently have?</h2>
+
+<p>At the moment the extension is quite simple, the only feature it currently has is the ability to generate a new UUID alias.</p>
+
+<p>You can choose the alias domain and add an optional description. If no description is entered for the alias then the current tab's hostname is used instead e.g. "example.com" if your active tab was example.com.</p>
+
+<p>In the future I'd like to add other features such as the ability to search, view and manage all aliases.</p>
+
+<h2>How do I generate an API access token?</h2>
+
+<p>To generate an access token you first need to <a href="https://app.addy.io/register">register</a> an account with addy.io. Next head to the <a href="https://app.addy.io/settings/api">settings</a> page and scroll down to the bottom.</p>
+
+<p>Click the "Generate New Token" button and enter a short name for the token e.g. "Firefox". Once generated, the token will be displayed. This is the only time the token will ever be displayed, so please make a note of it in a safe place (e.g. password manager)!</p>
+
+<p>Copy the token to your clipboard and paste it into the browser extension and you're ready to start generating aliases.</p>
+
+<div class="flex justify-center mb-4">
+  <img class="shadow" src="/assets/img/browser-extension-token.png" alt="Browser extension token" title="Browser extension token">
+</div>
+
+<p>I'll add more routes for the API and also documentation on how to use it in the coming weeks.</p>
+
+<h2>Feedback and suggestions</h2>
+
+<p>If you have any feedback or suggestions please just <a href="/contact/">get in touch</a> and make sure to sign up to the newsletter if you'd like to receive updates on new features!</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://addy.io/blog/why-you-should-use-a-different-email-address-for-every-site</id>
+    <link type="text/html" rel="alternate" href="https://addy.io/blog/why-you-should-use-a-different-email-address-for-every-site" />
+    <title>Why you should use a different email address for every site</title>
+    <published>2019-10-07T00:00:00+00:00</published>
+    <updated>2019-10-07T00:00:00+00:00</updated>
+    <author>
+        <name>Will Browning</name>
+    </author>
+    <summary type="html">This post goes over the benefits of using a different unique email address for each site/service that you sign up for. From preventing spam to protecting your identify online, the positives far outweigh the negatives.
+
+
+
+Everyone reading this probably......</summary>
+    <content type="html"><![CDATA[
+        <p>This post goes over the benefits of using a different unique email address for each site/service that you sign up for. From preventing spam to protecting your identify online, the positives far outweigh the negatives.</p>
+
+<h2>The problem with using the same email address everywhere</h2>
+
+<p>Everyone reading this probably has some old email account they created when they started out online that is now completely inundated with spam.</p>
+
+<p>Sound familiar?</p>
+
+<p>I created my first email account with hotmail.com back in the days of MSN. I have long since stopped using this email for privacy reasons, but, even if I did want to continue using the account, the amount of spam it receives would make this unfeasible.</p>
+
+<p>When you use the same email address for everything online, it becomes impossible to identify where spam emails originate from and how the spammers got hold of your information in the first place.</p>
+
+<p>Your email address may have been sold by a deceitful service, or it could have been involved in a data breach for one of the websites you signed up to.</p>
+
+<p><strong>Tip:</strong> use <a href="https://haveibeenpwned.com/">haveibeenpwned.com</a> to check if your email address is involved in any known data breaches.</p>
+
+<p>Entering my first hotmail.com account on haveibeenpwnded returns <strong>"Pwned on 13 breached sites and found 2 pastes"</strong>. That is some pretty scary stuff!</p>
+
+<div class="flex justify-center mb-4">
+  <img class="shadow" src="/assets/img/haveibeenpwned.jpg" alt="Have I Been Pwned" title="Have I Been Pwned">
+</div>
+
+<p>One of the pastes even had my old (and incredibly weak) password right there in plain text! This is how scammers know what your password is when they send you that email claiming they've "hacked your account" whilst demanding $750 in Bitcoin. Just ignore these emails and obviously make sure you are not still using the exposed password anywhere else!</p>
+
+<p>If your email address is involved in multiple data breaches it can be very easy for hackers and bad actors to cross-reference your details and link your information together.</p>
+
+<p>Even worse is if you use the same password all over the place too. A hacker could then try other services (e.g. PayPal) with that same email and password combination, allowing them to potentially gain access to your account.</p>
+
+<p><strong>Tip:</strong> use a password manager such as <a href="https://bitwarden.com/">Bitwarden</a> for your accounts, creating a long random unique password for each login.</p>
+
+<p>If you are looking for a fresh start and would like to create a new email address and keep it free from spam you can use a service such as <a href="https://tutanota.com/">Tutanota</a>, <a href="https://proton.me/mail">ProtonMail</a> or <a href="https://posteo.de/en">Posteo</a>.</p>
+
+<p>If you'd like to see other options for password managers of email providers and loads of great privacy advice check out <a href="https://www.privacytools.io/">PrivacyTools.io</a>.</p>
+
+<h2>The benefits of aliases vs sub-addressing (plus-addressing)</h2>
+
+<p>Now let's have a look at how we can solve some of the problems above by instead using a different email address for each site.</p>
+
+<p>One option that is easy to get started with is to use sub-addressing, where you simply add an extension or "tag" to your real email address.</p>
+
+<p>For example: you could use something like johndoe+twitter@example.com for Twitter.</p>
+
+<p><strong>Note:</strong> this must be supported by your email provider or it will cause emails to bounce</p>
+
+<p>Many email providers do support these kinds of addresses, and any email sent to the above address will still go to johndoe@example.com.</p>
+
+<p>The main issue with these kinds of addresses is that to an observer it is very easy to identify the real email address.</p>
+
+<p>A script can also be run that strips the extensions from email addresses that are created in the above format.</p>
+
+<p>So if one of your sub-addresses is involved in a data breach, it would be easy to just remove the extension and start sending spam to johndoe@example.com. Now, you would no longer be able to identify where the spam originated or who sold your data.</p>
+
+<p>Another potential downside is that some websites may (incorrectly) deem email addresses containing the "+" symbol as invalid, preventing you from using them.</p>
+
+<p>The advantage of using email aliases instead is that they look exactly like a genuine email address and it is much harder (if not impossible) to try to reverse-engineer them to find out the real email address.</p>
+
+<p>Now let’s explore the benefits of using email aliases that forward to your real email address.</p>
+
+<h2>1. Protect your real email address from spam</h2>
+
+<p>The most obvious benefit is that using a different email alias for each service helps to protect your real email address from spam.</p>
+
+<p>It does this by essentially "shielding" your real email address from the outside world and prying eyes. Since you only ever give out your email aliases, third-parties do not know your real email address.</p>
+
+<p>This means if your email alias is sold off or involved in a data breach and suddenly starts receiving spam, you can easily turn off or remove the alias in question and the spam will come to a stop.</p>
+
+<p>With addy.io, when an alias is deactivated (turned off), all emails sent to it will be silently discarded by the system. The spammer will not realise that the emails haven't reached you. This will also increment the "blocked email counter" for that alias.</p>
+
+<p>When an alias is deleted, any further emails sent to it will bounce back to the sender with the error message:</p>
+
+<blockquote>
+  <p>"550 5.1.1 Recipient address rejected: Address does not exist".</p>
+</blockquote>
+
+<p>Another trick that some spam emails do is including a fake "Unsubscribe" link at the bottom of the email that is in fact a trap. By clicking on the link, instead of being unsubscribed, you simply validate the fact that this is an active email account and notify the scammer. The links can also take you to malicious websites and phishing sites.</p>
+
+<p>If you have any doubts on the validity of the "Unsubscribe" link you might be better off simply deactivating or deleting the alias.</p>
+
+<h2>2. Identify who has sold your data</h2>
+
+<p>Following on from the above point, if you have been giving out a different alias for each site, you can easily identify where spam is coming from by simply looking at the alias address.</p>
+
+<p>If one of your aliases starts to receive spam e.g. twitter@example.com, you can identify that it was Twitter who either sold your private information or was involved in a data breach.</p>
+
+<p>Of course, there is also the chance that someone randomly guessed the alias and sent spam to it. It can therefore be a good idea to add a few random characters to the local part of the email alias when creating it e.g. <strong>twitter9218@example.com</strong>. This makes it much harder for someone to correctly guess one of your aliases.</p>
+
+<p>I'd recommend using a password manager; password managers can store your login credentials (email/username and password) for all websites, meaning it is easier to keep track of the individual aliases and passwords you have created for each different account.</p>
+
+<h2>3. Protect your identity</h2>
+
+<p>Using email aliases can be a great way to protect your identity online. Depending on what type of aliases you decide to use it can be very hard for hackers to link your true identity to your email aliases.</p>
+
+<p>This can help reduce the chance of them cross-referencing your accounts in the event of a data breach.</p>
+
+<p>If you are using aliases at a subdomain that is unique to you like with 33mail or addy.io then I would recommend choosing a username that is not linked to you in any way and that you have not used elsewhere online.</p>
+
+<p>You will then be able to create aliases on the fly e.g. alias@username.anonaddy.com (or .me).</p>
+
+<p>Now some users might not like the fact that it is easy for someone looking at these aliases to be able to link ownership of them together as they all sit at the same subdomain.</p>
+
+<p>addy.io also lets you add additional usernames to your account so you can compartmentalise you aliases. This would allow you to have different usernames for work emails, personal emails, etc.</p>
+
+<p>If you would like maximum anonymity, you should consider using a long random local part for your alias and also using a domain name that is shared with other users, allowing you blend into the crowd.</p>
+
+<p>With addy.io you can generate UUID (universally unique identifier) aliases that look something like this:</p>
+
+<p><strong>94960540-f914-42e0-9c50-6faa7a385384@anonaddy.me</strong></p>
+
+<div class="flex justify-center mb-4">
+  <img class="shadow" src="/assets/img/generate-uuid-alias.jpg" alt="Generate UUID Alias" title="Generate UUID Alias">
+</div>
+
+<p>Having an email address similar to that shown in the above example makes it impossible to guess what site/service it has been used for, or identify who it might belong to.</p>
+
+<p>The shared domain is beneficial because many other users will have aliases at anonaddy.me which helps to protect your identity.</p>
+
+<p>If you use UUID aliases it is always a good idea to add a short description (a feature that is included in addy.io) and save it in your password manager so that you do not forget what you used it for.</p>
+
+<h2>4. Quickly and easily update where emails are forwarded</h2>
+
+<p>Let's say you have one email address that you've been using for every site and service over the years and that one day you are so sick of the spam you decide to start a new email account.</p>
+
+<p>Going through each site and updating your login details or re-subscribing to newsletters with the new email address can be very time consuming.</p>
+
+<p>If you are using a forwarding service with email aliases, you can simply go to your dashboard and update the recipient email address to the new email for all of your aliases. It’s that simple.</p>
+
+<div class="flex justify-center mb-4">
+  <img class="shadow" src="/assets/img/update-default-recipient.jpg" alt="Update Default Recipient" title="Update Default Recipient">
+</div>
+
+<p>There’s no need to update the emails individually, as they will all simply be forwarded to your new email.</p>
+
+<h2>5. Added protection against phishing emails</h2>
+
+<p>Phishing emails are sent attempting to appear as though they are from a legitimate company. They are very common with banks and sites like eBay, PayPal and Amazon.</p>
+
+<p>The scammer will send the email and try to make it look as though it has come from e.g. PayPal. The email will encourage you to click on a link in the email that will take you to a login screen on a website they own (or have hacked). They make the website look similar to the real thing, so that if you mistake the website as genuine and enter your login details they will be sent straight to the scammer.</p>
+
+<p>Now obviously the best way to avoid falling for these emails is to learn how to recognise them.</p>
+
+<p>More often than not the emails will start with "Dear Customer" or "Hi you@example.com". This is because they usually don't know your real name, so they instead use something generic. They are also often written with poor spelling/grammar.</p>
+
+<p>Make sure to check the email headers such as; From:, MAIL FROM:, Return-Path:, Reply-To: etc.</p>
+
+<div class="flex justify-center mb-4">
+  <img class="shadow" src="/assets/img/identifier-alignment.jpg" alt="Identifier Alignment" title="Identifier Alignment">
+</div>
+
+<p>The above screenshot shows an example of strict identifier alignment, the <strong>Return Path</strong>, <strong>From: header</strong> and <strong>d=domain</strong> in the DKIM signature are all the same. If d=domain was a subdomain of the parent domain then this would be relaxed alignment. Notice also the Received-SPF: is a Pass as well as the Authentication-Results: dkim=pass.</p>
+
+<p>Hover over any links and check where they lead to. Also, if the email lands in your spam folder, it is likely that is attempting to spoof a legitimate sender. Check email headers to see if SPF and DKIM checks have passed and if <a href="https://mxtoolbox.com/dmarc/spf/spf-alignment?lm=NAV-UDC">SPF is correctly aligned</a>.</p>
+
+<p>Always use 2FA (TOTP is recommended over SMS 2FA) where available to protect yourself in case you do accidentally fall for one of these emails.</p>
+
+<p>That's all well and good, but want we really want to know is how does using email aliases help protect against phishing emails?</p>
+
+<p>Well, since you've been using a different email for each service, if you receive a phishing email pretending to be PayPal and it doesn't come to your specific alias for PayPal, you can immediately dismiss it as a scam. It is a really useful way of identifying spam emails from the outset.</p>
+
+<h2>6. Prevent inbox snooping with GPG/OpenGPG encryption (bonus)</h2>
+
+<p>Now this feature obviously depends on what service you are using to forward your emails.</p>
+
+<p>With addy.io, you can generate a GPG/OpenGPG key pair (or use an existing pair) for your email recipient e.g. you@example.com. You can then add the <strong>public key</strong> to this recipient and enable encryption.</p>
+
+<div class="flex justify-center mb-4">
+  <img class="shadow" src="/assets/img/add-public-key.jpg" alt="Add Public Key" title="Add Public Key">
+</div>
+
+<p>Once you have done this, all emails that are forwarded to you@example.com will be encrypted by addy.io using your public key.</p>
+
+<p>They are also signed by the private key for "no-reply@addy.io". By adding the <a href="https://keys.openpgp.org/search?q=26A987650243B28802524E2F809FD0D502E2F695">public key</a> to your keyring, you can verify the email has indeed come from addy.io.</p>
+
+<p>This is great if you are still using an email provider such as Gmail which has been <a href="https://www.bbc.com/news/technology-44699263">known to
+snoop</a> on users' inboxes.</p>
+
+<p>If you're on a desktop/laptop, you can use <a href="https://www.thunderbird.net/en-GB/">Mozilla Thunderbird</a> plus
+<a href="https://www.enigmail.net/index.php/en/">Enigmail</a> to manage PGP emails. If you have trusted the above key you will see the following information for each forwarded email.</p>
+
+<div class="flex justify-center mb-4">
+  <img class="shadow" src="/assets/img/good-signature-enigmail.jpg" alt="Good Signature Enigmail" title="Good Signature Enigmail">
+</div>
+
+<p>If you're on Android, you can use <a href="https://k9mail.github.io/">K-9 Mail</a> with <a href="https://www.openkeychain.org/">OpenKeyChain</a> (both open-source and found on F-droid) to manage PGP emails.</p>
+
+<h2>Potential downsides of using email aliases</h2>
+
+<p>There are of course some potential downsides to using email aliases, which we will explore here.</p>
+
+<p>One of those is the added layer of confusion they might add. If you are not using a password manager to save and keep track of all your different aliases, it could be possible to forget which one you have used to sign up for a particular service, which could leave you unable to login.</p>
+
+<p>If you are using a shared domain, another potential downside could be that certain sites and services may start blocking users from signing up with any email address at these domains. Unfortunately there isn't really a solution to this; however, as addy.io allows users to add their own domain names, the problem can be easily avoided. This also protects users from a potential unexpected shutdown of the service you are using. By simply changing your MX records to another email provider, you can continue to receive emails as normal.</p>
+
+<p>Whilst there are a couple of potential downsides, the benefits of using an email forwarding service are far greater.</p>
+
+<h2>Feedback and suggestions</h2>
+
+<p>If you have any feedback or suggestions please just <a href="/contact/">get in touch</a> and make sure to sign up to the newsletter if you'd like to receive updates on new features!</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://addy.io/blog/a-new-server-and-the-launch-of-the-pro-plan</id>
+    <link type="text/html" rel="alternate" href="https://addy.io/blog/a-new-server-and-the-launch-of-the-pro-plan" />
+    <title>A new server and the launch of the Pro plan</title>
+    <published>2019-09-06T00:00:00+00:00</published>
+    <updated>2019-09-06T00:00:00+00:00</updated>
+    <author>
+        <name>Will Browning</name>
+    </author>
+    <summary type="html">This post will give a few more details regarding the server migration this morning and the launch of the new Pro plan on the site. Also the end of the open beta and what it means for existing users.
+
+
+
+Since I started working on addy.io I&#039;ve learnt a......</summary>
+    <content type="html"><![CDATA[
+        <p>This post will give a few more details regarding the server migration this morning and the launch of the new Pro plan on the site. Also the end of the open beta and what it means for existing users.</p>
+
+<h2>Why the new server?</h2>
+
+<p>Since I started working on addy.io I've learnt a great deal more about Postfix and mail servers than I knew at the beginning. I've been testing improved configuration in the background for a few weeks now and decided that the best way to make the change would be to start from scratch and provision a new server.</p>
+
+<p>The old server was with Vultr and was located in the United Kingdom which is not renowned for having great privacy. Vultr also does not (at the time of writing this) support TLSA records, which meant I could not enable DANE for the mail server unless I used a third party DNS provider.</p>
+
+<p>I experimented for a while using Cloudflare's managed DNS and they did support all the DNS records I needed, however I don't like the centralisation of Cloudflare and didn't really want DNS queries passing through their servers.</p>
+
+<p>Then I came across <a href="https://greenhost.net">Greenhost.net</a> and really liked what I saw. They have a commitment to privacy by design and try to minimise the amount of personal information they store with regards to their customers.</p>
+
+<p>Their servers are located in Amsterdam, Netherlands and run entirely on Dutch wind energy. They support all the DNS records I need and are able to manage the DNS records without the need to transfer the domain over to them. The support I've received so far has also been great!</p>
+
+<h2>The launch of the Pro plan</h2>
+
+<p>A few users had voiced their concerns about the longevity of the service and asked how I was able to keep it running for free. The Pro plan will be how this service covers its operating costs, you can find details about pricing and features on the <a href="https://addy.io">home page</a> of this site.</p>
+
+<p>I started the open beta to try to iron out any existing bugs and to make the service as stable as I could before officially launching.</p>
+
+<p>Over the course of the beta I've fixed a fair few bugs and received lots a great feedback from users and have implemented many of the suggestions. I've also added some suggestions to my TO-DO list and will work on them over the coming weeks.</p>
+
+<p>There will still be a generous Free plan that will allow you to create unlimited aliases and some UUID aliases. The Free plan will have a monthly bandwidth limit of 10MB, the average size of an email is around 75KB (about 7,000 words in plain text). This means that you will be able to receive around 137 emails per month before reaching your limit.</p>
+
+<h2>A free 3-month Pro subscription for all beta testers</h2>
+
+<p>As a thank you for all the early beta testers I've added a 3-month Pro subscription to your accounts. You will be able to continue using the service exactly as you have been doing.</p>
+
+<p>A couple of days before this Pro subscription ends you will receive an email letting you know what steps you need to take if you don't wish to subscribe. After the subscription comes to an end your account will be reverted to the Free plan.</p>
+
+<h2>Feedback and suggestions</h2>
+
+<p>If you have any feedback or suggestions please just <a href="/contact/">get in touch</a> and make sure to sign up to the newsletter if you'd like to receive updates on new features!</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://addy.io/blog/add-recipients-to-aliases-at-creation-and-new-uuid-aliases</id>
+    <link type="text/html" rel="alternate" href="https://addy.io/blog/add-recipients-to-aliases-at-creation-and-new-uuid-aliases" />
+    <title>Add recipients to aliases at creation and new UUID aliases</title>
+    <published>2019-08-01T00:00:00+00:00</published>
+    <updated>2019-08-01T00:00:00+00:00</updated>
+    <author>
+        <name>Will Browning</name>
+    </author>
+    <summary type="html">Just a quick update on a couple of new features I&#039;ve added to the site. These features were added on the back of requests from users so if you have any other suggestions please just send me a message and let me know!
+
+
+
+This feature allows you to give......</summary>
+    <content type="html"><![CDATA[
+        <p>Just a quick update on a couple of new features I've added to the site. These features were added on the back of requests from users so if you have any other suggestions please just send me a message and let me know!</p>
+
+<h2>Add recipients to aliases at creation time</h2>
+
+<p>This feature allows you to give out aliases with an extension that maps to keys for your available recipients. For example:</p>
+
+<p><strong>alias+2.3.4@user.anonaddy.com</strong> where 2,3 and 4 are keys that map to your recipients (separated by periods "."). You can find the key for each recipient on the recipients page when you are logged in.</p>
+
+<p>The above example would add the three recipients to the new alias and immediately forward the email to each of them.</p>
+
+<p>If you wanted to just attach one recipient you would simply do alias+5@user.anonaddy.com or alias+5@user.anonaddy.me.</p>
+
+<p>You can always update the recipients for the alias after it has been created by going to your dashboard.</p>
+
+<p>This feature allows you to forward the email to a recipient other than the default one if you need to.</p>
+
+<p>The recipients are only added to the alias when it is first created. You cannot later do alias+7.8@user.anonaddy.com and change them. You would have to do this from your dashboard if you wanted to update the recipients.</p>
+
+<p>If an email is later sent to an alias created with an extension but does not include the extension e.g. just alias@user.anonaddy.com it will still be forwarded correctly as the recipients are already attached to it.</p>
+
+<p>Note that the keys for recipients are simply incrementing numbers with the oldest recipient having a key of 1 and so on.</p>
+
+<p>If you delete a recipient the keys for other recipients may change.</p>
+
+<h2>New UUID pre-generated aliases</h2>
+
+<p>Another feature that was requested was the ability to create aliases that do not give away the username of the alias owner.</p>
+
+<p>These aliases must be pre-generated from your dashboard as they will be at the root domain anonaddy.me and not your username subdomain e.g. user.anonaddy.me.</p>
+
+<p>They are generated using a universally unique identifier (UUID) and will look like this:</p>
+
+<p><strong>94960540-f914-42e0-9c50-6faa7a385384@anonaddy.me</strong></p>
+
+<p>As you can see the alias can no longer be linked to a particular user and could belong to anyone.</p>
+
+<p>Since the alias does not give any information away about what it is used for, I highly recommend using a password manager such as <a href="https://bitwarden.com/">Bitwarden</a> to save the alias or add a description in the dashboard so you remember what it is for.</p>
+
+<h2>Feedback and suggestions</h2>
+
+<p>If you have any feedback or suggestions please just <a href="/contact/">get in touch</a> and make sure to sign up to the newsletter if you'd like to receive updates on new features!</p>
+    ]]></content>
+</entry>
+            <entry>
+    <id>https://addy.io/blog/starting-the-open-beta</id>
+    <link type="text/html" rel="alternate" href="https://addy.io/blog/starting-the-open-beta" />
+    <title>Starting the open beta</title>
+    <published>2019-07-17T00:00:00+00:00</published>
+    <updated>2019-07-17T00:00:00+00:00</updated>
+    <author>
+        <name>Will Browning</name>
+    </author>
+    <summary type="html">The beta has been running for a couple of weeks or so now and the feedback received so far has been great! There have been a few new features added that I&#039;ll go over below. I&#039;ve also moved this site over from Laravel to a static site generator called......</summary>
+    <content type="html"><![CDATA[
+        <p>The beta has been running for a couple of weeks or so now and the feedback received so far has been great! There have been a few new features added that I'll go over below. I've also moved this site over from Laravel to a static site generator called Jigsaw to make it faster to write blog posts in markdown.</p>
+
+<h2>New GPG/OpenPGP encryption</h2>
+
+<p>I recently added the option to import your own public key for each recipient on the recipients page. Once you've imported your key you'll be able to toggle encryption on or off easily.</p>
+
+<p>With encryption on all emails forwarded to that recipient will be encrypted with the public key you imported. Only you will be able to decrypt the contents of the email using the corresponding private key.</p>
+
+<p>This could be a great option for people still using Google Mail, Microsoft Outlook etc. who are known to scan the contents of emails received.</p>
+
+<p>All forwarded emails will also be signed using our no-reply@addy.io private key.</p>
+
+<p>You can add our public key to your own keyring so that you can verify emails have come from us.</p>
+
+<p>The fingerprint of the no-reply@addy.io key is <span class="break-words">"26A987650243B28802524E2F809FD0D502E2F695"</span> you can find the key on <a href="https://keys.openpgp.org/search?q=26A987650243B28802524E2F809FD0D502E2F695">https://keys.openpgp.org</a>.</p>
+
+<p>It works extremely well if you are using <a href="https://www.thunderbird.net">Mozilla Thunderbird</a> with the <a href="https://enigmail.net">Enigmail</a> Add-on.</p>
+
+<p>You can also use a browser extension called <a href="https://www.mailvelope.com">Mailvelope</a> if you are using the browser to view your email.</p>
+
+<h2>Replace the subject of forwarded emails</h2>
+
+<p>This is a new feature that is mainly for those using encryption.</p>
+
+<p>When encrypting an email the email subject cannot be encrypted as it is one of the headers. To prevent giving any clues on the contents of emails you can replace the subject with something generic such as "Email subject" or "Hello".</p>
+
+<p>Then all forwarded emails will have the same generic subject line.</p>
+
+<p>If you set a new subject to replace the original then the original will be added to the banner information inside the email body, for example:</p>
+
+<p>This email was sent to alias@johndoe.anonaddy.com from sender@example.com with subject "This is the original email subject" and has been forwarded by addy.io.</p>
+
+<h2>Multiple alias domains</h2>
+
+<p>You can now use either anonaddy.com or anonaddy.me as your domain for aliases.</p>
+
+<p>So you can do alias@user.anonaddy.com or alias@user.anonaddy.me and both will work the same!</p>
+
+<h2>Improving the security of the mail server</h2>
+
+<p>I've also been doing some work on improving the security of the mail server by enabling DANE, MTA-STS and improving the cipher preferences in Postfix.</p>
+
+<p>This is on top of DNSSEC, TLSv1.3, DMARC, SPF, DKIM, CAA etc.</p>
+
+<p>The sending domain anonaddy.me now gets all green lights on <a href="https://www.hardenize.com/">hardenize.com</a>.</p>
+
+<h2>What's next?</h2>
+
+<p>I'm currently working on adding a "recipient mapping" feature that would allow you to choose which recipients to attach when you make up a new alias and it receives its first email. This would allow you to choose a recipient other than the default one instead of having to wait for it to be created and then changing the recipient.</p>
+
+<p>It will likely work something like this:</p>
+
+<p>alias+2@user.anonaddy.com where the extension of "2" will be the identifier for your second recipient in your account.</p>
+
+<p>You will also be able to do alias+3.4@user.anonaddy.com so you can attach recipients "3" and "4" to the new alias.</p>
+
+<p>After I've finished this I'll likely work on adding the ability to have multiple "usernames" under the same account which would allow you to do alias@dave.anonaddy.com or alias@john.anonaddy.com etc.</p>
+
+<p>This will make it harder for others to link ownership of aliases together.</p>
+
+<h2>Feedback and suggestions</h2>
+
+<p>If you have any feedback or suggestions please just <a href="/contact/">get in touch</a> and make sure to sign up to the newsletter if you'd like to receive updates on new features!</p>
+    ]]></content>
+</entry>
+    </feed>

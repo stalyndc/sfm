@@ -1,0 +1,184 @@
+/* assets/css/style.css
+   SimpleFeedMaker — Phase 1 styles
+   - Dark by default (paired with <html data-bs-theme="dark">)
+   - Clean, minimal, “just works”
+   - Text-only logo using Work Sans
+   - Small helpers for result area and toasts (future-proof)
+*/
+
+/* ------------------------------
+   Base
+------------------------------ */
+:root {
+  /* Subtle radius + shadows that feel modern */
+  --sfm-radius: 14px;
+  --sfm-shadow: 0 6px 24px rgba(0,0,0,.18), 0 2px 8px rgba(0,0,0,.12);
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Work Sans", system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+               "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Dark theme fine-tuning (Bootstrap already handles most variables) */
+[data-bs-theme="dark"] {
+  --bs-body-bg: #0f1115;
+  --bs-body-color: #e6e7ea;
+  --bs-secondary-color: #aab0bb;
+  --bs-border-color: #232634;
+  --bs-card-bg: #141823;
+  --bs-card-border-color: #1c2230;
+  --bs-link-color: #8ab4ff;
+  --bs-link-hover-color: #a8c8ff;
+}
+
+/* ------------------------------
+   Header / Brand
+------------------------------ */
+.navbar-brand {
+  letter-spacing: .2px;
+  line-height: 1;
+}
+
+/* ------------------------------
+   Cards
+------------------------------ */
+.card {
+  border-radius: var(--sfm-radius);
+  border-color: var(--bs-card-border-color);
+  background: var(--bs-card-bg);
+  box-shadow: var(--sfm-shadow);
+}
+
+.card .card-body {
+  padding: 1.25rem 1.25rem;
+}
+
+@media (min-width: 992px) {
+  .card .card-body {
+    padding: 1.5rem 1.5rem;
+  }
+}
+
+/* ------------------------------
+   Forms
+------------------------------ */
+.form-label {
+  font-weight: 600;
+}
+
+.form-text {
+  color: var(--bs-secondary-color);
+}
+
+/* Tighter number inputs on small screens */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+input[type="number"] { -moz-appearance: textfield; }
+
+/* Buttons */
+.btn {
+  border-radius: 10px;
+}
+
+.btn-success {
+  box-shadow: 0 6px 14px rgba(25,135,84,.18);
+}
+
+.btn-outline-secondary:hover {
+  color: #fff;
+}
+
+/* Loading state helper (JS can add .is-busy on buttons) */
+.btn.is-busy, .btn[aria-busy="true"] {
+  pointer-events: none;
+  opacity: .85;
+}
+
+/* ------------------------------
+   Result area
+------------------------------ */
+#resultCard.d-none { display: none !important; }
+
+.feed-url-input {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+               "Courier New", monospace;
+}
+
+/* Small “status breadcrumb” line under the success box */
+.status-crumb {
+  color: var(--bs-secondary-color);
+  font-size: .875rem;
+}
+
+/* ------------------------------
+   Toast / Snack (optional)
+   If JS later calls showNote(), these styles are ready.
+------------------------------ */
+.snack-stack {
+  position: fixed;
+  top: 12px;
+  right: 12px;
+  z-index: 1080;
+  display: grid;
+  gap: 8px;
+}
+
+.snack {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  border-radius: 12px;
+  padding: .6rem .75rem;
+  backdrop-filter: blur(6px);
+  border: 1px solid var(--bs-border-color);
+  color: var(--bs-body-color);
+  background: rgba(20, 24, 35, .9);
+  transform: translateY(-8px);
+  opacity: 0;
+  transition: transform .18s ease, opacity .18s ease, box-shadow .18s ease;
+  box-shadow: var(--sfm-shadow);
+}
+.snack.is-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+.snack.is-out {
+  opacity: 0;
+  transform: translateY(-6px);
+}
+.snack__icon {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+/* Variant tints */
+.snack--success { border-color: rgba(25,135,84,.35); }
+.snack--danger  { border-color: rgba(220,53,69,.35); }
+.snack--warning { border-color: rgba(255,193,7,.35); }
+.snack--info    { border-color: rgba(13,202,240,.35); }
+
+/* ------------------------------
+   Helpers
+------------------------------ */
+.text-secondary { color: var(--bs-secondary-color) !important; }
+
+code {
+  background: rgba(255,255,255,.04);
+  border: 1px solid var(--bs-border-color);
+  border-radius: 6px;
+  padding: .15rem .35rem;
+}
+
+/* Give the main hero a little breathing room on very small screens */
+@media (max-width: 380px) {
+  h1, .h1, .h2, .h3 {
+    font-size: 1.05rem;
+  }
+}

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+  <head><script src="/.nekoweb-api/static/site.js" type="text/javascript" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>The Blogger has Entered the Room</title>
+      <link href="style.css" rel="stylesheet" type="text/css" media="all">
+      <link href="Blog/Filters/Custom_Filters.css" rel="stylesheet" type="text/css" media="all">
+      <link rel="icon" type="image/png" href="hi_im_an_actual_pudding.png"/>
+        <meta property="og:title" content="Pudding's Cove: Blog">
+        <meta property="og:description" content="Page with lots of words!">
+        <meta property="og:image" content="https://puddingpudd.com/Blog/Blog_Link.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="900">
+        <meta property="og:image:height" content="500">
+        <meta property="og:url" content="https://puddingpudd.com">
+        <meta property="twitter:card" content="summary_large_image">
+   <style>
+   hr {
+     background: rgba(0, 0, 0, 0);
+   }
+     hr:after {
+       background: rgba(0, 0, 0, 0);
+     }
+     
+   .Hidden {
+   	 display: none;
+   }
+   .Seeked {
+   	 display: block;
+   }
+   
+   </style>
+   <script type="text/javascript">
+  function iframeLoaded() {
+      var iFrameID = document.getElementById('idIframe');
+      if(iFrameID) {
+            iFrameID.height = "800px";
+            iFrameID.height = iFrameID.contentWindow.document.body.scrollHeight + "px";
+      }   
+  }
+</script> 
+<script src="Blog/Filter_System.js"></script>
+  </head>
+  <body class="scroll">
+   <div class="Body">
+    <div class="Header">
+      <img src="Logo.gif" class="Logo">
+    </div>
+    <div class="Placestogo">
+     <ul>
+      <li>
+       <a href="Home_Comfy_Home">Home</a></li>
+      <li>
+       <a href="how_am_i">About</a></li>
+      <li>
+       <a href="I_got_games_on_my_phone">Games</a></li>
+      <li>
+       <a href="The_Power_of_Anime_and_Manga">Anime/Manga</a></li>
+      <li>
+       <a href="Puddinacious_Blogs">Blog</a></li>
+      <li>
+       <a href="Bureau">Writing</a></li>
+      <li>
+       <a href="This_Page_Has_Too_Many_Random_Stuff">Misc</a></li>
+      <li>
+       <a href="This_Is_A_Book_Where_You_Are_A_Guest">Guestbook</a></li>
+      <li>
+       <a href="Theses_Links_Are_Not_Sus">Links</a></li>
+     </ul>
+    </div>
+    <div class="Middler" style="padding:0px">
+       <div class="News_and_Content">
+        <div class="News">
+         <div class="Title">
+      	  <p>Dates</p>
+         </div>
+         <center>
+         <div class="Dates">
+         <h2>2025</h2>
+         <p><a href="Blog/September2025" target="the_blog_begins">September</a> <span class="Newpost">New!</span></p>
+         <p class="Hidden 1off BookRev DeLock HolKniS Phoeclu SonicJourney StaVa TeamFor2 TheLibSecDre UFO50 Yapyap"><a href="Blog/August2025" target="the_blog_begins">August</a></p>
+         <p class="Hidden 1off MangaRev Rimworld SonicJourney SuperSecret"><a href="Blog/July2025" target="the_blog_begins">July</a></p>
+          <p class="Hidden 1off BookRev AutumninAmber DeLock Deltarune LK8 Rimworld WebChange"><a href="Blog/June2025" target="the_blog_begins">June</a></p>
+          <p class="Hidden 1off DeLock HikaruLight LK8 MangaRev MHAVigilan Overwatch Phoeclu Rimworld RiskOR2 SonicJourney TBOI Terarria UFO50 WebChange Yapyap"><a href="Blog/May2025" target="the_blog_begins">May</a></p>
+          <p class="Hidden BTD6 KingRuA LK8 Phoeclu REPO RiskOR2 WebChange Yapyap"><a href="Blog/April2025" target="the_blog_begins">April</a></p>
+          <p class="Hidden DeLock HOYO KinRusJou LK8 MiyaMes Minecraft Phoeclu REPO VSMiya Yapyap"><a href="Blog/March2025" target="the_blog_begins">March</a></p>
+          <p class="Hidden BookRev BTD6 HOYO KingRuA MLBrothership RiskOR2 WebChange WonderfulPre"><a href="Status/February2025"  target="the_blog_begins">February</a></p>
+          <p class="Hidden 100RunIsaPage HOYO MagMagGirInc MLBrothership Minecraft Phoeclu TeamFor2 TBOI VideoSpot WebChange"><a href="Status/January2025" target="the_blog_begins">January</a></p>
+         <hr width="90%">
+         <h2>2024</h2>
+          <p class="Hidden 100RunIsaPage ThisArtClub KingRuA Phoeclu TBOI Yapyap"><a href="Status/December2024" target="the_blog_begins">December</a></p>
+          <p class="Hidden AWitLifMic DeLock HOYO MangaRev MetroidDread MiyaMes MLBrothership Phoeclu StaVal TeamFor2 TBOI WebChange Yapyap"><a href="Status/November2024" target="the_blog_begins">November</a></p>
+          <p class="Hidden AWitLifMic BookRev BTD6 CorKee DeLock HOYO KingRV KingRuA MaidCES MetroidDread Minecraft OnePiece WebChange"><a href="Status/October2024" target="the_blog_begins">October</a></p>
+          <p class="Hidden Yapyap"><a href="Status/Extras/Extra3_2nd_Website_Anniversary">2nd Anniversary</a></p>
+          <p class="Hidden 1off CrashedClu DeLock HOYO InterlPage JojoBizAdv KinRusJou MangaRev Minecraft Puddtale TroRouPre"><a href="Status/September2024" target="the_blog_begins">September</a></p>
+          <p class="Hidden 1off BookRev BTD6 FNAF HOYO InterlPage JojoBizAdv KinRusJou MarioJourney Phoeclu TeamFor2 WonderfulPre"><a href="Status/August2024" target="the_blog_begins">August</a></p>
+          <p class="Hidden GirBanCry InterlPage MangaRev MarioJourney Phoeclu ShoCofKuro TeamFor2 VideoSpot WebChange"><a href="Status/July2024" target="the_blog_begins">July</a></p>
+          <p class="Hidden 1off CrashedClu GarrysMod HOYO MangaRev MarioJourney NickLever TBOI Phoeclu TeamFor2"><a href="Status/June2024" target="the_blog_begins">June</a></p>
+          <p class="Hidden CrashedClu Helldivers2 MarioJourney OneshotRev PizzaTower Phoeclu Rimworld Yapyap"><a href="Status/May2024" target="the_blog_begins">May</a></p>
+          <p class="Hidden HOYO MarioJourney OneshotRev Phoeclu Rimworld Yapyap"><a href="Status/April2024" target="the_blog_begins">April</a></p>
+          <p class="Hidden MarioJourney OneshotRev Phoeclu Rimworld"><a href="Status/March2024" target="the_blog_begins">March</a></p>
+          <p class="Hidden 1off HOYO MangaRev MarioJourney OneshotRev SoarSkyPre Terraria WebChange Yapyap"><a href="Status/February2024"  target="the_blog_begins">February</a></p>
+          <p class="Hidden 1off DeepRocGal GarrysMod HOYO MangaRev OneshotRev Phoeclu RisORR SchoZonGir SoarSkyPre Yapyap"><a href="Status/January2024" target="the_blog_begins">January</a></p>
+         <hr width="90%">
+         <h2>2023</h2>
+          <p class="Hidden Crosscode HOYO JojoBizAdv LetCompany OnePiece OneshotRev RisORR SchoZonGir TBOI"><a href="Status/December2023" target="the_blog_begins">December</a></p>
+          <p class="Hidden FNAF HOYO LetCompany OneshotRev Phoeclu RiskOR2 TeamFor2 VideoSpot WebChange WorLasDeck Yapyap"><a href="Status/November2023" target="the_blog_begins">November</a></p>
+          <p class="Hidden HOYO"><a href="Status/Extras/Extra2_Furina_de_Fontaine" Target="_Blank">Furina De Fontaine</a></p>
+          <p class="Hidden FNAF Hitoribocchi Ihadsamedream HOYO OneshotRev NyaFisFig OneshotRev Phoeclu TeamFor2 WebChange"><a href="Status/October2023" target="the_blog_begins">October</a></p>
+          <p class="Hidden HOYO MangaRev NickLever NyaFisFig OneshotRev Phoeclu TeamFor2 Terraria TheQuiQui ThisArtClub voidtrrlm WebChange"><a href="Status/September2023" target="the_blog_begins">September</a></p>
+          <p class="Hidden 1off BTD6 FNAF HOYO OneshotRev Phoeclu SupBombJou voidtrrlm VSMiya"><a href="Status/August2023" target="the_blog_begins">August</a></p>
+          <p class="Hidden 1off HOYO NeonWhite LetSha SupBombJou TeamFor2 Unturned VSMiya WebChange"><a href="Status/July2023" target="the_blog_begins">July</a></p>
+          <p class="Hidden Yapyap"><a href="Status/Midyear_Recap"> Midyear Recap </a></p>
+          <p class="Hidden 1off BTD6 GunReb HOYO JojoBizAdv LetSha SupBombJou TeamFor2 Terraria WebChange"><a href="Status/June2023" target="the_blog_begins">June</a></p>
+          <p class="Hidden Hitoribocchi HOYO Phoeclu SchoolLive voidtrrlm WebChange Yapyap"><a href="Status/May2023" target="the_blog_begins">May</a></p>
+          <p class="Hidden PizzaTower Yapyap"><a href="Status/April2023" target="the_blog_begins">April</a></p>
+          <p class="Hidden HOYO NeonWhite Nichijou PizzaTower SpaPatLul WebChange Yapyap"><a href="Status/March2023" target="the_blog_begins">March</a></p>
+          <p class="Hidden NeonWhite PizzaTower SteinsGate WebChange YuruYuri"><a href="Status/February2023" target="the_blog_begins">February</a></p>
+          <p class="Hidden BocchiTheRock PerRoyal5 SchoolLive WebChange"><a href="Status/January2023" target="the_blog_begins">January</a></p>
+         <hr width="90%">
+         <h2>2022</h2>
+          <p class="Hidden DropkickJashin PerRoyal5 WebChange Yapyap YuruYuri"><a href="Status/December2022" target="the_blog_begins">December</a></p>
+          <p class="Hidden WebChange Yapyap"><a href="Status/November2022" target="the_blog_begins">November</a></p>
+          <p class="Hidden JujuKaisen Overwatch PerRoyal5 WebChange"><a href="Status/October2022" target="the_blog_begins">October</a></p>
+          <p class="Hidden Yapyap"><a href="Status/September2022" target="the_blog_begins">September</a></p>
+         <hr width="90%">
+         </div>
+         <p>On Mobile? Don't like the current layout? Click below for a better experience!</p>
+          <h2 class="Dates"><a href="Status/Archives">Click here</a></h2>
+         </center>
+         <br>
+        </div>
+        <div class="Content">
+         <div class="Title">
+      	  <p>Blog</p>
+         </div>
+         <div class="Textpadding">
+         <h2 style="color:#809fff">Tags</h2>
+         <center>
+         <p>Click below to see all dates!</p>
+         
+         <div style="width:15%" id="Filters">
+         <button class="Topics active" onclick="filterSelection('all')">Show all</button>
+         </div>
+         <br>
+         <p>If you want specific topics-</p>
+         <details>
+         <summary><strong>Click here to see all the options available!</strong></summary>
+         <h2 style="color:#809fff">Website</h2>
+         <div id="Filters">
+         <button class="Topics UpdatesWeb" onclick="filterSelection('WebChange')">Website Changes</button>
+         <button class="Topics CrashedClub" onclick="filterSelection('CrashedClu')">Return to the Stars</button>
+         <button class="Topics LettersShadow" onclick="filterSelection('LetSha')">Letter's Shadow</button>
+         <button class="Topics PhoenixClub" onclick="filterSelection('Phoeclu')">Phoenix Club</button>
+         <button class="Topics Interloper" onclick="filterSelection('InterlPage')">Interloper Page</button>
+         <button class="Topics Depthsbelow" onclick="filterSelection('100RunIsaPage')">100 Runs of Isaac Page</button>
+         <button class="Topics" onclick="filterSelection('BookRev')">Book Review</button>
+         <button class="Topics" onclick="filterSelection('MangaRev')">Manga Review</button>
+         <button class="Topics" onclick="filterSelection('OneshotRev')">One-shot Review</button>
+         </div>
+         <h2 style="color:#809fff">Games</h2>
+         <div id="Filters">
+         <button class="Topics" onclick="filterSelection('1off')">1-offs</button>
+         <button class="Topics" onclick="filterSelection('BTD6')">BTD 6</button>
+         <button class="Topics" onclick="filterSelection('CorKee')">Core Keeper</button>
+         <button class="Topics" onclick="filterSelection('Crosscode')">Crosscode</button>
+         <button class="Topics" onclick="filterSelection('DeLock')">Deadlock</button>
+         <button class="Topics" onclick="filterSelection('DeepRocGal')">Deep Rock Galactic</button>
+         <button class="Topics" onclick="filterSelection('Deltarune')">Deltarune</button>
+         <button class="Topics" onclick="filterSelection('FNAF')">Five Nights at Freddy's</button>
+         <button class="Topics" onclick="filterSelection('GarrysMod')">Garry's Mod</button>
+         <button class="Topics" onclick="filterSelection('GunReb')">Gunfire Reborn</button>
+         <button class="Topics" onclick="filterSelection('Helldivers2')">Helldivers 2</button>
+         <button class="Topics" onclick="filterSelection('HolKniS')">Hollow Knight (Series)</button>
+         <button class="Topics" onclick="filterSelection('HOYO')">Hoyoverse Games</button>
+         <button class="Topics" onclick="filterSelection('KinRusJou')">Kingdom Rush Journey</button>
+         <button class="Topics" onclick="filterSelection('KingRV')">Kingdom Rush Vegeance</button>
+         <button class="Topics" onclick="filterSelection('KingRuA')">Kingdom Rush 5: Alliance</button>
+         <button class="Topics" onclick="filterSelection('LetCompany')">Lethal Company</button>
+         <button class="Topics" onclick="filterSelection('LK8')">Like a Dragon: Infinite Wealth</button>
+         <button class="Topics" onclick="filterSelection('MaidCES')">Maid Cafe on Electric Street</button>
+         <button class="Topics" onclick="filterSelection('MLBrothership')">Mario & Luigi Brothership</button>
+         <button class="Topics Marioblock" onclick="filterSelection('MarioJourney')">Mario Journey</button>
+         <button class="Topics" onclick="filterSelection('MetroidDread')">Metroid Dread</button>
+         <button class="Topics" onclick="filterSelection('Minecraft')">Minecraft</button>
+         <button class="Topics" onclick="filterSelection('NeonWhite')">Neon White</button>
+         <button class="Topics" onclick="filterSelection('NyaFisFig')">Nyaruru Fishy Fight</button>
+         <button class="Topics" onclick="filterSelection('Overwatch')">Overwatch</button>
+         <button class="Topics" onclick="filterSelection('PerRoyal5')">Persona 5 Royal</button>
+         <button class="Topics" onclick="filterSelection('PizzaTower')">Pizza Tower</button>
+         <button class="Topics" onclick="filterSelection('Puddtale')">Puddtale</button>
+         <button class="Topics" onclick="filterSelection('REPO')">R.E.P.O.</button>
+         <button class="Topics" onclick="filterSelection('Rimworld')">Rimworld</button>
+         <button class="Topics" onclick="filterSelection('RiskOR2')">Risk of Rain 2</button>
+         <button class="Topics" onclick="filterSelection('RisORR')">Risk of Rain Returns</button>
+         <button class="Topics" onclick="filterSelection('StaVal')">Stardew Valley</button>
+         <button class="Topics" onclick="filterSelection('SonicJourney')">Sonic Journey</button>
+         <button class="Topics" onclick="filterSelection('SupBombJou')">Super Bomberman Journey</button>
+         <button class="Topics" onclick="filterSelection('TeamFor2')">Team Fortress 2</button>
+         <button class="Topics" onclick="filterSelection('Terarria')">Terarria</button>
+         <button class="Topics" onclick="filterSelection('TBOI')">The Binding of Isaac</button>
+         <button class="Topics" onclick="filterSelection('UFO50')">UFO 50</button>
+         <button class="Topics" onclick="filterSelection('Unturned')">Unturned</button>
+         <button class="Topics" onclick="filterSelection('voidtrrlm')">Void Terrarium</button>
+         <button class="Topics" onclick="filterSelection('WorLasDeck')">World's Last Deck</button>
+         </div>
+         <h2 style="color:#809fff">Series</h2>
+         <div id="Filters">
+         <button class="Topics" onclick="filterSelection('AWitLifMic')">A Witch's Life in a Micro Room</button>
+         <button style="font-size:11px" class="Topics" onclick="filterSelection('AutumninAmber')">An Autumn in Amber, a Zero-Second Journey</button>
+         <button class="Topics" onclick="filterSelection('BocchiTheRock')">Bocchi The Rock</button>
+         <button class="Topics" onclick="filterSelection('DropkickJashin')">Dropkick On My Devil</button>
+         <button class="Topics" onclick="filterSelection('GirBanCry')">Girls Band Cry</button>
+         <button class="Topics" onclick="filterSelection('HikaruLight')">Hikaru in the Light!</button>
+         <button class="Topics" onclick="filterSelection('Hitoribocchi')">Hitoribocchi</button>
+         <button class="Topics" onclick="filterSelection('Ihadsamedream')">I Had That Same Dream Again</button>
+         <button class="Topics" onclick="filterSelection('JojoBizAdv')">Jojo's Bizarre Adventure</button>
+         <button class="Topics" onclick="filterSelection('JujuKaisen')">Jujutsu Kaisen</button>
+         <button class="Topics" onclick="filterSelection('MagMagGirInc')">Magilumiere Magical Girls Inc.</button>
+         <button class="Topics" onclick="filterSelection('MHAVigilan')">My Hero Academia: Vigilantes</button>
+         <button class="Topics" onclick="filterSelection('Nichijou')">Nichijou</button>
+         <button class="Topics" onclick="filterSelection('NickLever')">Nick & Lever</button>
+         <button class="Topics" onclick="filterSelection('OnePiece')">One Piece</button>
+         <button class="Topics" onclick="filterSelection('SchoolLive')">School-Live!</button>
+         <button class="Topics" onclick="filterSelection('SchoZonGir')">School Zone GIRLS!</button>
+         <button class="Topics" onclick="filterSelection('ShoCofKuro')">Shoulder-a-Coffin Kuro</button>
+         <button class="Topics" onclick="filterSelection('SpaPatLul')">Space Patrol Luluco</button>
+         <button class="Topics" onclick="filterSelection('SteinsGate')">Steins;Gate</button> 
+         <button class="Topics" onclick="filterSelection('TheLibSecDre')">The Library of Secret Dreams</button>
+         <button class="Topics" onclick="filterSelection('TheQuiQui')">The Quintessential Quintuplets</button>
+         <button class="Topics" onclick="filterSelection('ThisArtClub')">This Art Club Has A Problem</button>
+         <button class="Topics" onclick="filterSelection('TroRouPre')">Tropical-Rouge Precure</button>
+         <button class="Topics" onclick="filterSelection('SoarSkyPre')">Soaring Sky! Precure!</button>
+         <button class="Topics" onclick="filterSelection('SuperSecret')">Super Secret</button>
+         <button class="Topics" onclick="filterSelection('WonderfulPre')">Wonderful Precure</button>
+         <button class="Topics" onclick="filterSelection('YuruYuri')">Yuru Yuri</button>
+         </div>
+         <h2 style="color:#809fff">Misc</h2>
+         <div id="Filters">
+         <button class="Topics Puddap" onclick="filterSelection('Yapyap')">Random Topics</button>
+         <button class="Topics Vsmiya" onclick="filterSelection('VSMiya')">Vs Miya</button>
+         <button class="Topics MiyaInvasion" onclick="filterSelection('MiyaMes')">Miya Invasion</button>
+         <button class="Topics Lighting" onclick="filterSelection('VideoSpot')">Video Spotlight</button>
+         </div>
+         </details>
+         <br>
+         </center>
+         <hr>
+         </div>
+        <iframe src="Status/Tutorial_for_the_Learning" frameborder="no" scrolling="no" width="100%" id="idIframe" onload="iframeLoaded()" name="the_blog_begins"></iframe>
+        <center>
+         <div class="Textpadding">
+          <hr>
+         <h2 style="color:#809fff">Chatbox</h2>
+         <p>Want to comment on a blog topic? Want to have a chat? This is the box for you!</p>
+         <p>You can leave a message below! Oh yeah, if you reference a topic, please leave the date of the topic! I'm a bit forgetful sometimes!</p>
+         </div>
+        <iframe src="https://www3.cbox.ws/box/?boxid=3544490&boxtag=f9hh8P" class="chatbox" allowtransparency="yes" allow="autoplay" frameborder="0" scrolling="auto"></iframe>	
+        </center>
+        <br>
+        <br>
+		</div>
+	   </div>
+	   </div>
+       <div class="Bottomer">
+        <p>This website was lovingly made by Pudding! If there are any issues, report them at this email: puddingpuddpudds@gmail.com</p>
+      <!-- and this is a personal message to you snooping around the html and planning on using this code for your own website.
+           First, this code kind sucks, I would recommend going to other people BUT If you are going to do that with mine anyway, please credit my website!
+           Thank you! -->
+       </div>
+   </div>
+   <br>
+  </body>
+</html>

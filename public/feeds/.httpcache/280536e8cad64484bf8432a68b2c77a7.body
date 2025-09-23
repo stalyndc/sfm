@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://www.googletagmanager.com http://platform.twitter.com/widgets.js https://code.jquery.com/jquery-3.6.0.min.js https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js https://cdn.jsdelivr.net/npm/sweetalert2@10 https://googleads.g.doubleclick.net/ https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js https://platform.twitter.com/js/timeline.e108540dddc96e4b707f5cf259a582d7.js https://www.afrikad.com/build/latest/js/sdk.js https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js https://cdnjs.cloudflare.com/ https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js 'unsafe-inline';style-src 'self' https://cdnjs.cloudflare.com https://fonts.googleapis.com/ https://cdn.jsdelivr.net/ https://cdnjs.cloudflare.com/ https://cdn.datatables.net/ https://fonts.bunny.net/ https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css 'unsafe-inline';font-src 'self' https://fonts.gstatic.com/ https://fonts.googleapis.com/ https://cdnjs.cloudflare.com/ https://cdn.jsdelivr.net/ https://fonts.bunny.net data: 'unsafe-inline';img-src 'self' data: https:;connect-src 'self' https://analytics.google.com/ https://www.google.com https://www.afrikad.com;object-src 'none';frame-src 'self' https://www.youtube.com https://www.google.com/ https://platform.twitter.com/ https://www.googletagmanager.com https://td.doubleclick.net/ https://syndication.twitter.com/ https://www.afrikad.com/;base-uri 'self';default-src 'self';form-action 'self';media-src 'self';manifest-src 'self';worker-src 'none'">    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-Control" content="max-age=259200">
+    <meta name="robots" content="index, follow, noarchive">
+    <meta name="googlebot" content="index, follow, noarchive">
+    <meta name="googlebot-news" content="index, follow, noarchive">
+    <meta name="robots" content="max-image-preview:large">
+    <meta name="robots" content="max-snippet:-1">
+    <meta property="og:image:type" content="image/*">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <link rel="stylesheet" href="https://lanation.bj/frontend/assets/css/front.min.css" />
+    <meta name="google-site-verification" content="D3P_J4iwqoSjvWnqXR13qPLYdU5g-V5KJHY8uD7Gg6Q" />
+    <link rel="stylesheet" href="https://lanation.bj/frontend/assets/css/style.min.css" />
+    <link rel="shortcut icon" href="https://lanation.bj/frontend/assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="https://lanation.bj/frontend/assets/img/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="https://lanation.bj/frontend/assets/img/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="https://lanation.bj/frontend/assets/img/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="https://lanation.bj/frontend/assets/img/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="https://lanation.bj/frontend/assets/img/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="https://lanation.bj/frontend/assets/img/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="https://lanation.bj/frontend/assets/img/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="https://lanation.bj/frontend/assets/img/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://lanation.bj/frontend/assets/img/apple-touch-icon-180x180.png" />
+    <link rel="canonical" href="https://lanation.bj/politique" />
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    
+    <title>Politique</title>
+
+
+<meta name="title" content="Politique">
+<meta name="description" content="Politique">
+
+
+<meta name="author" content=" ONIP Bénin">
+
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://lanation.bj/politique"/>
+<meta property="og:locale" content="fr"/>
+<meta property="og:title" content="Politique"/>
+<meta property="og:description" content="Politique">
+<meta property="og:image" content=" https://lanation.bj/frontend/assets/img/favicon.ico">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:url" content="https://lanation.bj/politique">
+<meta name="twitter:title" content="Politique">
+<meta name="twitter:description" content="Politique">
+<meta name="twitter:image" content=" https://lanation.bj/frontend/assets/img/favicon.ico">
+
+    
+    
+    
+    
+    
+    <link rel="preload" as="style" href="https://lanation.bj/build/assets/clone-e3c96e6e.css" /><link rel="modulepreload" href="https://lanation.bj/build/assets/app-eb67f723.js" /><link rel="stylesheet" href="https://lanation.bj/build/assets/clone-e3c96e6e.css" /><script type="module" src="https://lanation.bj/build/assets/app-eb67f723.js"></script>
+        <script>
+window.dataLayer = window.dataLayer || [];
+</script>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KCC8RTQ');</script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2763290555919134"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <noscript><iframe title="google tag" src="https://www.googletagmanager.com/ns.html?id=GTM-KCC8RTQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+    <div class="preloader">
+    <div class="preloader-body">
+        <div class="cssload-container">
+            <div class="cssload-speeding-wheel"></div>
+        </div>
+        <p>La Nation Bénin...</p>
+    </div>
+</div>
+    <div class="page">
+        <header class="page-head">
+            <div class="rd-navbar-wrap">
+    <nav class="rd-navbar rd-navbar-default rd-navbar-classic" data-layout="rd-navbar-fixed"
+        data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed"
+        data-lg-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static"
+        data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="196px" data-xl-stick-up-offset="196px"
+        data-xxl-stick-up-offset="196px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+        <div class="rd-navbar-inner">
+            <div class="rd-navbar-top-part text-md-left small">
+                <div class="rd-navbar-social-list">
+                    <ul class="list-inline-0">
+                        <li>
+                            <a class="icon icon-circle icon-default" href="https://web.facebook.com/lanationbenin"><i
+                                    class="fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a class="icon icon-circle icon-default" href="https://twitter.com/lanationbenin"><i
+                                    class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a class="icon icon-circle icon-default"
+                                href="https://www.youtube.com/@lanationbenin9036"><i class="fab fa-youtube"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <span class="date d-none d-md-block rd-calendar">
+                    <span class="rdc-today_day"></span>
+                    <span class="rdc-today_date"></span>, September
+                    <span class="copyright-year"></span>  20:50:00</span>
+                <div class="rd-navbar-top-part-right">
+                    <div class="rd-navbar-search-toggle" data-rd-navbar-toggle=".rd-navbar-search-wrap">
+                    </div>
+                    <div class="rd-navbar-search-wrap">
+    <div class="rd-navbar-search">
+        <form class="rd-search rd-navbar-search-form" data-search-live="rd-search-results-live" action="https://lanation.bj/searchValue" method="GET">
+            
+            <div class="form-wrap">
+                <label class="form-label" for="rd-navbar-search-form-input">Je recherche ....</label>
+                <input class="rd-navbar-search-form-input form-input" id="rd-navbar-search-form-input" type="text" name="q" autocomplete="off" />
+            </div>
+            <button class="rd-search-form-submit fa-search rd-navbar-search-form-submit" title="search" type="submit"></button>
+        </form>
+    </div>
+</div>
+                    <div class="divider-vertical divider-xs"></div>
+                    <div class="element-groups-xl-custom user-forms unit unit-spacing-xl justify-content-end">
+                        <a href="" class="rd-navbar-abonner d-xl-none" data-toggle="modal"
+                            data-target="#abonneMentModal">
+                            <i class="fas fa-cart-plus d-md-none"></i>
+                            <span class="d-none d-md-inline-block fw-bold">Abonnez-vous</span>
+                        </a>
+                                                    <a href="https://lanation.bj/login" data-rd-navbar-toggle=".rd-navbar-login"
+                                onclick="window.location.href = 'https://lanation.bj/login'; return false;">
+                                <i class="fas fa-sign-in d-md-none"></i>
+                                <span class="d-none d-md-inline-block fw-bold">Connexion</span>
+                            </a>
+                                            </div>
+                </div>
+            </div>
+            <div class="rd-navbar-panel">
+                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap">
+                    <span></span>
+                </button>
+                <div class="rd-navbar-brand">
+                    <div class="h-mb d-flex justify-content-between w-100" id="headerpub">
+                        <div id="headerpubLoad" style="height: 200px">
+                        </div>
+                    </div>
+                    <a class="brand" href="https://lanation.bj">
+                        <img class="brand-logo-light mob-logo"
+                            src="https://lanation.bj/frontend/assets/img/lanation-logo.png" alt="" />
+                    </a>
+                </div>
+            </div>
+            <title>Publications </title>
+<div class="rd-navbar-nav-wrap">
+    <div class="d-flex justify-content-between">
+        <button data-toggle="modal" data-target="#abonneMentModal" class="btn btn-primary"
+            style="margin-right: 30px; padding: 6px 26px">Abonnez vous <i class="fas fa-cart-plus"></i>
+            <br />
+            <small style="font-size: 11px">A partir de 200
+                F</small>
+        </button>
+        <div class="d-flex justify-content-between align-items-center">
+            <a href="javascript:void(0)" data-toggle="modal" data-target="#publierAnnonceModal"><i
+                    class="fas fa-bullhorn" style="font-size: 30px; margin-right: 15px"></i></a>
+            <a href="javascript:void(0)" data-toggle="modal" data-target="#publierAnnonceModal"><span
+                    class="text-muted text-center">Commander une <br />Insertion</span></a>
+        </div> 
+    </div>
+    <ul class="rd-navbar-nav">
+        <li class="rd-nav-item active">
+            <a class="rd-nav-link" href="/" style="padding: 15px">
+                <img src="https://lanation.bj/frontend/assets/img/lanation-logo.png" class="menu-logo h-mb"
+                    alt="Site Logo" />
+                <span class="s-mb">Accueil</span></a>
+        </li>
+                    <li class="rd-nav-item  ">
+                <a class="rd-nav-link" href="/actualites">Actualites</a>
+                                                    <ul class="rd-menu rd-navbar-dropdown">
+                                            </ul>
+                            </li>
+                    <li class="rd-nav-item  ">
+                <a class="rd-nav-link" href="/economie">Economie</a>
+                                                    <ul class="rd-menu rd-navbar-dropdown">
+                                            </ul>
+                            </li>
+                    <li class="rd-nav-item  ">
+                <a class="rd-nav-link" href="/sports">Sport</a>
+                                                    <ul class="rd-menu rd-navbar-dropdown">
+                                            </ul>
+                            </li>
+                    <li class="rd-nav-item active">
+                <a class="rd-nav-link" href="/politique">Politique</a>
+                                                    <ul class="rd-menu rd-navbar-dropdown">
+                                            </ul>
+                            </li>
+                    <li class="rd-nav-item  ">
+                <a class="rd-nav-link" href="#">Autres</a>
+                                                    <ul class="rd-menu rd-navbar-dropdown">
+                                                    <li class="rd-dropdown-item">
+                                <a class="rd-dropdown-link"
+                                    href="/education">Education</a>
+                            </li>
+                                                    <li class="rd-dropdown-item">
+                                <a class="rd-dropdown-link"
+                                    href="/societe">Société</a>
+                            </li>
+                                                    <li class="rd-dropdown-item">
+                                <a class="rd-dropdown-link"
+                                    href="/sante">Santé</a>
+                            </li>
+                                                    <li class="rd-dropdown-item">
+                                <a class="rd-dropdown-link"
+                                    href="/culture">Culture</a>
+                            </li>
+                                                    <li class="rd-dropdown-item">
+                                <a class="rd-dropdown-link"
+                                    href="/environnement">Environnement</a>
+                            </li>
+                                                    <li class="rd-dropdown-item">
+                                <a class="rd-dropdown-link"
+                                    href="/fact-checking">Fast-Checking</a>
+                            </li>
+                                                    <li class="rd-dropdown-item">
+                                <a class="rd-dropdown-link"
+                                    href="/reflexions">Réflexions</a>
+                            </li>
+                                                    <li class="rd-dropdown-item">
+                                <a class="rd-dropdown-link"
+                                    href="/international">International</a>
+                            </li>
+                                                    <li class="rd-dropdown-item">
+                                <a class="rd-dropdown-link"
+                                    href="/chroniques">Chroniques</a>
+                            </li>
+                                                    <li class="rd-dropdown-item">
+                                <a class="rd-dropdown-link"
+                                    href="/messages">Messages</a>
+                            </li>
+                                            </ul>
+                            </li>
+                <li class="rd-nav-item h-mb">
+            <a class="rd-nav-link" href="javascript:void(0)" id="mega-togl"><i class="fas fa-bars"></i></a>
+        </li>
+    </ul>
+    
+</div>
+        </div>
+    </nav>
+    <nav class="mega-menu">
+        <div class="container">
+    <div class="row mt-2">
+                    <div class="col">
+                <span class="h5 text-light">Presentation ONIP</span>
+                                                    <ul>
+                                                    <li class="mega-menu-link">
+                                <a href="/pages/qui-sommes-nous">Qui sommes nous ?</a>
+                            </li>
+                                                    <li class="mega-menu-link">
+                                <a href="/vieux-journaux">Vieux Journaux</a>
+                            </li>
+                                                    <li class="mega-menu-link">
+                                <a href="/images-darchives">Images d&#039;Archives</a>
+                            </li>
+                                            </ul>
+                            </div>
+                    <div class="col">
+                <span class="h5 text-light">Nations Impressions</span>
+                                                    <ul>
+                                            </ul>
+                            </div>
+                    <div class="col">
+                <span class="h5 text-light">Kiosque</span>
+                                                    <ul>
+                                            </ul>
+                            </div>
+                    <div class="col">
+                <span class="h5 text-light">Videos</span>
+                                                    <ul>
+                                            </ul>
+                            </div>
+            </div>
+    <div class="row border-top border-1 border-white">
+        <div class="col-sm-12 col-md-3">
+            <span class="text-uppercase text-light font-weight-bold h4">
+                En ce moment
+            </span>
+            <div class="tag-container1">
+                                            <a href="/tag/anatt"
+                            class="badge badge-pill rounded-3 badge-light m-2">ANATT</a>
+                                            <a href="/tag/46e-championnat-dafrique-des-clubs"
+                            class="badge badge-pill rounded-3 badge-light m-2">46e Championnat d’Afrique des Clubs</a>
+                                            <a href="/tag/rapport-du-pam"
+                            class="badge badge-pill rounded-3 badge-light m-2">Rapport du PAM</a>
+                                            <a href="/tag/annee-scolaire-2024-2025"
+                            class="badge badge-pill rounded-3 badge-light m-2">Année scolaire 2024-2025</a>
+                                            <a href="/tag/ceg-masse"
+                            class="badge badge-pill rounded-3 badge-light m-2">Ceg Massè</a>
+                                </div>
+        </div>
+        <div class="col-sm-12 col-md-9">
+            <div class="row justify-content-center mt-3">
+                                    <div class="col">&ef xr
+                        <div class="card bg-transparent border-white" style="width: 18rem">
+                            <a
+                            href="https://lanation.bj/economie/recherche-et-innovation-en-afrique-en-quete-de-70-milliards-de-dollars-us-au-profit-du-continent"
+                            ><img
+                                    data-src="https://lanation.bj/storage/assets/2025/09/QvKZBCvW9ohy5kuc_depositphotos_653659186-stock-photo-african-american-woman-scientist-pouring.jpg.webp" class="card-img-top async-image"
+                                    alt="..." style="height: 143px" />
+                            </a>
+                            <div class="card-body p-1" style="text-align: justify">
+                                <a
+                                href="https://lanation.bj/economie/recherche-et-innovation-en-afrique-en-quete-de-70-milliards-de-dollars-us-au-profit-du-continent"
+                                    >
+                                    <small class="card-text text-light">Recherche et innovation en Afrique: En quête de 70 milliards de dollars US au profit du continent</small>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col">&ef xr
+                        <div class="card bg-transparent border-white" style="width: 18rem">
+                            <a
+                            href="https://lanation.bj/economie/zlecaf-liberalisation-des-echanges-commerciaux-en-afrique-une-opportunite-a-saisir-malgre-les-incertitudes"
+                            ><img
+                                    data-src="https://lanation.bj/storage/assets/2025/09/9EZzGhkE2lGHQ3xb_Caju.jpg.webp" class="card-img-top async-image"
+                                    alt="..." style="height: 143px" />
+                            </a>
+                            <div class="card-body p-1" style="text-align: justify">
+                                <a
+                                href="https://lanation.bj/economie/zlecaf-liberalisation-des-echanges-commerciaux-en-afrique-une-opportunite-a-saisir-malgre-les-incertitudes"
+                                    >
+                                    <small class="card-text text-light">Zlecaf / Libéralisation des échanges commerciaux en Afrique: Une opportunité à saisir malgré les incertitudes</small>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col">&ef xr
+                        <div class="card bg-transparent border-white" style="width: 18rem">
+                            <a
+                            href="https://lanation.bj/actualites/elections-generales-2026-citoyennete-et-confiance-democratique-au-coeur-des-debats"
+                            ><img
+                                    data-src="https://lanation.bj/storage/assets/2025/09/hAsi8knlGTLx450S_2026-election.jpg.webp" class="card-img-top async-image"
+                                    alt="..." style="height: 143px" />
+                            </a>
+                            <div class="card-body p-1" style="text-align: justify">
+                                <a
+                                href="https://lanation.bj/actualites/elections-generales-2026-citoyennete-et-confiance-democratique-au-coeur-des-debats"
+                                    >
+                                    <small class="card-text text-light">Elections générales 2026: Citoyenneté et confiance démocratique au cœur des débats</small>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+.tag-container1 {
+    max-width: 20%; /* Vous pouvez ajuster cette valeur en fonction de la largeur souhaitée */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+</script>    </nav>
+</div>
+        </header>
+
+            <br>
+    <br>
+    <section class="section section-md bg-default pt-1">
+        <div class="container container-wide">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-lg-9">
+                    <input type="hidden" id="code-module" value="6">
+                    <h3 class=" font-semibold text-gray-900 text-center text-primary">Politique</h3>
+                    <div class="row justify-content-center mt-3">
+                        <input type="text" placeholder="Que cherchez-vous?" wire:model.debounce.500ms="term"
+                            class="mb-4 block w-full form-control form-control-lg" id="search-object" name='term'>
+                                                <div id="contenu" class="row">
+                                                            <div class="col-sm-12 col-lg-4 featured mb-2">
+                                    <a
+                                        href="https://lanation.bj/politique/politique-patrice-talon-parle-de-ses-relations-avec-lionel-zinsou-et-adrien-houngbedji">
+                                        <img data-src="https://lanation.bj/storage/assets/2025/03/xdecDucaJY01MrhT_bfzibzifizzxz.jpg.webp"
+                                            alt="featured" class="featured async-image"
+                                            style="object-fit:cover;aspect-ratio:4/3;min-height:14rem;object-position:center;" />
+                                        <h6 class="text-muted">
+                                            Politique: Patrice Talon parle de ses relations avec Lionel Zinsou et Adrien Houngbédji
+                                        </h6>
+                                    </a>
+                                    <div class="d-flex justify-content-between p-2">
+                                        <p>
+                                            <small> <b>Josué F. MEHOUENOU</b> |
+                                                14 mars 2025
+                                                                                                    | 3
+                                                    Min
+                                                                                            </small>
+                                        </p>
+                                        <div class="post-meta-hidden">
+                                            <div class="icon text-gray icon-lg material-icons-share">
+                                                <ul>
+                                                    <li>
+                                                        <a class="icon fa fa-facebook"
+                                                            href="https://www.facebook.com/sharer/sharer.php?u=https://lanation.bj/politique/politique-patrice-talon-parle-de-ses-relations-avec-lionel-zinsou-et-adrien-houngbedji"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="icon fa fa-twitter"
+                                                            href="https://twitter.com/intent/tweet?text=webd&amp;url=https://lanation.bj/politique/politique-patrice-talon-parle-de-ses-relations-avec-lionel-zinsou-et-adrien-houngbedji"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="icon fa fa-whatsapp"
+                                                            href="https://wa.me/?text=https://lanation.bj/politique/politique-patrice-talon-parle-de-ses-relations-avec-lionel-zinsou-et-adrien-houngbedji"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="icon fa fa-linkedin"
+                                                            href="https://www.linkedin.com/sharing/share-offsite?mini=true&amp;url=https://lanation.bj/politique/politique-patrice-talon-parle-de-ses-relations-avec-lionel-zinsou-et-adrien-houngbedji&amp;title=politique-patrice-talon-parle-de-ses-relations-avec-lionel-zinsou-et-adrien-houngbedji&amp;summary="></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="col-sm-12 col-lg-4 featured mb-2">
+                                    <a
+                                        href="https://lanation.bj/politique/presidentielle-de-2026-patrice-talon-est-formel-je-ne-serai-pas-candidat">
+                                        <img data-src="https://lanation.bj/storage/assets/2025/03/ryZYhzst0DRAPBll_52842063476_cb5dc00b15_k.jpg.webp"
+                                            alt="featured" class="featured async-image"
+                                            style="object-fit:cover;aspect-ratio:4/3;min-height:14rem;object-position:center;" />
+                                        <h6 class="text-muted">
+                                            Présidentielle de 2026 Patrice Talon est formel: « Je ne serai pas candidat »
+                                        </h6>
+                                    </a>
+                                    <div class="d-flex justify-content-between p-2">
+                                        <p>
+                                            <small> <b>Josué F. MEHOUENOU</b> |
+                                                14 mars 2025
+                                                                                                    | 3
+                                                    Min
+                                                                                            </small>
+                                        </p>
+                                        <div class="post-meta-hidden">
+                                            <div class="icon text-gray icon-lg material-icons-share">
+                                                <ul>
+                                                    <li>
+                                                        <a class="icon fa fa-facebook"
+                                                            href="https://www.facebook.com/sharer/sharer.php?u=https://lanation.bj/politique/presidentielle-de-2026-patrice-talon-est-formel-je-ne-serai-pas-candidat"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="icon fa fa-twitter"
+                                                            href="https://twitter.com/intent/tweet?text=webd&amp;url=https://lanation.bj/politique/presidentielle-de-2026-patrice-talon-est-formel-je-ne-serai-pas-candidat"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="icon fa fa-whatsapp"
+                                                            href="https://wa.me/?text=https://lanation.bj/politique/presidentielle-de-2026-patrice-talon-est-formel-je-ne-serai-pas-candidat"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="icon fa fa-linkedin"
+                                                            href="https://www.linkedin.com/sharing/share-offsite?mini=true&amp;url=https://lanation.bj/politique/presidentielle-de-2026-patrice-talon-est-formel-je-ne-serai-pas-candidat&amp;title=presidentielle-de-2026-patrice-talon-est-formel-je-ne-serai-pas-candidat&amp;summary="></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="col-sm-12 col-lg-4 featured mb-2">
+                                    <a
+                                        href="https://lanation.bj/politique/benin-politique-olivier-boko-un-monstre-selon-patrice-talon">
+                                        <img data-src="https://lanation.bj/storage/assets/2025/03/oyoOSz4G2C6tCW1v_52842473626_219d818be6_k.jpg.webp"
+                                            alt="featured" class="featured async-image"
+                                            style="object-fit:cover;aspect-ratio:4/3;min-height:14rem;object-position:center;" />
+                                        <h6 class="text-muted">
+                                            Bénin / Politique: Olivier Boko, « un monstre », selon Patrice Talon
+                                        </h6>
+                                    </a>
+                                    <div class="d-flex justify-content-between p-2">
+                                        <p>
+                                            <small> <b>Josué F. MEHOUENOU</b> |
+                                                14 mars 2025
+                                                                                                    | 3
+                                                    Min
+                                                                                            </small>
+                                        </p>
+                                        <div class="post-meta-hidden">
+                                            <div class="icon text-gray icon-lg material-icons-share">
+                                                <ul>
+                                                    <li>
+                                                        <a class="icon fa fa-facebook"
+                                                            href="https://www.facebook.com/sharer/sharer.php?u=https://lanation.bj/politique/benin-politique-olivier-boko-un-monstre-selon-patrice-talon"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="icon fa fa-twitter"
+                                                            href="https://twitter.com/intent/tweet?text=webd&amp;url=https://lanation.bj/politique/benin-politique-olivier-boko-un-monstre-selon-patrice-talon"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="icon fa fa-whatsapp"
+                                                            href="https://wa.me/?text=https://lanation.bj/politique/benin-politique-olivier-boko-un-monstre-selon-patrice-talon"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="icon fa fa-linkedin"
+                                                            href="https://www.linkedin.com/sharing/share-offsite?mini=true&amp;url=https://lanation.bj/politique/benin-politique-olivier-boko-un-monstre-selon-patrice-talon&amp;title=benin-politique-olivier-boko-un-monstre-selon-patrice-talon&amp;summary="></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="col-sm-12 col-lg-4 featured mb-2">
+                                    <a
+                                        href="https://lanation.bj/politique/patrice-talon-se-confesse-je-ne-sais-ce-qui-a-pris-olivier-boko">
+                                        <img data-src="https://lanation.bj/storage/assets/2025/03/6Zn2yBCyyxCOgrVq_Capture_d&#039;écran_2025-03-14_083758.png.webp"
+                                            alt="featured" class="featured async-image"
+                                            style="object-fit:cover;aspect-ratio:4/3;min-height:14rem;object-position:center;" />
+                                        <h6 class="text-muted">
+                                            Patrice Talon se confesse: « Je ne sais ce qui a pris Olivier Boko »
+                                        </h6>
+                                    </a>
+                                    <div class="d-flex justify-content-between p-2">
+                                        <p>
+                                            <small> <b>Josué F. MEHOUENOU</b> |
+                                                14 mars 2025
+                                                                                                    | 3
+                                                    Min
+                                                                                            </small>
+                                        </p>
+                                        <div class="post-meta-hidden">
+                                            <div class="icon text-gray icon-lg material-icons-share">
+                                                <ul>
+                                                    <li>
+                                                        <a class="icon fa fa-facebook"
+                                                            href="https://www.facebook.com/sharer/sharer.php?u=https://lanation.bj/politique/patrice-talon-se-confesse-je-ne-sais-ce-qui-a-pris-olivier-boko"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="icon fa fa-twitter"
+                                                            href="https://twitter.com/intent/tweet?text=webd&amp;url=https://lanation.bj/politique/patrice-talon-se-confesse-je-ne-sais-ce-qui-a-pris-olivier-boko"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="icon fa fa-whatsapp"
+                                                            href="https://wa.me/?text=https://lanation.bj/politique/patrice-talon-se-confesse-je-ne-sais-ce-qui-a-pris-olivier-boko"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="icon fa fa-linkedin"
+                                                            href="https://www.linkedin.com/sharing/share-offsite?mini=true&amp;url=https://lanation.bj/politique/patrice-talon-se-confesse-je-ne-sais-ce-qui-a-pris-olivier-boko&amp;title=patrice-talon-se-confesse-je-ne-sais-ce-qui-a-pris-olivier-boko&amp;summary="></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="col-sm-12 col-lg-4 featured mb-2">
+                                    <a
+                                        href="https://lanation.bj/politique/benin-les-ambassadeurs-francais-de-la-sous-region-en-concertation-a-cotonou">
+                                        <img data-src="https://lanation.bj/storage/assets/2024/04/ovLzkAP1zTaHC5LO_Réunion_Amb_de_France.jpeg.webp"
+                                            alt="featured" class="featured async-image"
+                                            style="object-fit:cover;aspect-ratio:4/3;min-height:14rem;object-position:center;" />
+                                        <h6 class="text-muted">
+                                            Bénin : Les ambassadeurs français de la sous-région en concertation à Cotonou
+                                        </h6>
+                                    </a>
+                                    <div class="d-flex justify-content-between p-2">
+                                        <p>
+                                            <small> <b>Ariel GBAGUIDI</b> |
+                                                25 avr. 2024
+                                                                                                    | 2
+                                                    Min
+                                                                                            </small>
+                                        </p>
+                                        <div class="post-meta-hidden">
+                                            <div class="icon text-gray icon-lg material-icons-share">
+                                                <ul>
+                                                    <li>
+                                                        <a class="icon fa fa-facebook"
+                                                            href="https://www.facebook.com/sharer/sharer.php?u=https://lanation.bj/politique/benin-les-ambassadeurs-francais-de-la-sous-region-en-concertation-a-cotonou"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="icon fa fa-twitter"
+                                                            href="https://twitter.com/intent/tweet?text=webd&amp;url=https://lanation.bj/politique/benin-les-ambassadeurs-francais-de-la-sous-region-en-concertation-a-cotonou"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="icon fa fa-whatsapp"
+                                                            href="https://wa.me/?text=https://lanation.bj/politique/benin-les-ambassadeurs-francais-de-la-sous-region-en-concertation-a-cotonou"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="icon fa fa-linkedin"
+                                                            href="https://www.linkedin.com/sharing/share-offsite?mini=true&amp;url=https://lanation.bj/politique/benin-les-ambassadeurs-francais-de-la-sous-region-en-concertation-a-cotonou&amp;title=benin-les-ambassadeurs-francais-de-la-sous-region-en-concertation-a-cotonou&amp;summary="></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="col-sm-12 col-lg-4 featured mb-2">
+                                    <a
+                                        href="https://lanation.bj/politique/tribune-renforcer-et-repositionner-la-cedeao-face-aux-defis-emergents">
+                                        <img data-src="https://lanation.bj/storage/assets/2023/12/wCggYd2T5KYG2MVz_Paul_Ejime.jpg.webp"
+                                            alt="featured" class="featured async-image"
+                                            style="object-fit:cover;aspect-ratio:4/3;min-height:14rem;object-position:center;" />
+                                        <h6 class="text-muted">
+                                            Tribune: Renforcer et repositionner la cedeao face aux défis émergents
+                                        </h6>
+                                    </a>
+                                    <div class="d-flex justify-content-between p-2">
+                                        <p>
+                                            <small> <b>Paul EJIME</b> |
+                                                28 déc. 2023
+                                                                                                    | 5
+                                                    Min
+                                                                                            </small>
+                                        </p>
+                                        <div class="post-meta-hidden">
+                                            <div class="icon text-gray icon-lg material-icons-share">
+                                                <ul>
+                                                    <li>
+                                                        <a class="icon fa fa-facebook"
+                                                            href="https://www.facebook.com/sharer/sharer.php?u=https://lanation.bj/politique/tribune-renforcer-et-repositionner-la-cedeao-face-aux-defis-emergents"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="icon fa fa-twitter"
+                                                            href="https://twitter.com/intent/tweet?text=webd&amp;url=https://lanation.bj/politique/tribune-renforcer-et-repositionner-la-cedeao-face-aux-defis-emergents"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="icon fa fa-whatsapp"
+                                                            href="https://wa.me/?text=https://lanation.bj/politique/tribune-renforcer-et-repositionner-la-cedeao-face-aux-defis-emergents"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="icon fa fa-linkedin"
+                                                            href="https://www.linkedin.com/sharing/share-offsite?mini=true&amp;url=https://lanation.bj/politique/tribune-renforcer-et-repositionner-la-cedeao-face-aux-defis-emergents&amp;title=tribune-renforcer-et-repositionner-la-cedeao-face-aux-defis-emergents&amp;summary="></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="col-sm-12 col-lg-4 featured mb-2">
+                                    <a
+                                        href="https://lanation.bj/politique/leditorial-de-paul-amoussou-repetition-generale">
+                                        <img data-src="https://lanation.bj/storage/assets/2023/10/X3CvgBpcUxUxKCJH_png.webp"
+                                            alt="featured" class="featured async-image"
+                                            style="object-fit:cover;aspect-ratio:4/3;min-height:14rem;object-position:center;" />
+                                        <h6 class="text-muted">
+                                            L&#039;éditorial de Paul Amoussou: Répétition générale
+                                        </h6>
+                                    </a>
+                                    <div class="d-flex justify-content-between p-2">
+                                        <p>
+                                            <small> <b>Paul AMOUSSOU</b> |
+                                                02 oct. 2023
+                                                                                                    | 2
+                                                    Min
+                                                                                            </small>
+                                        </p>
+                                        <div class="post-meta-hidden">
+                                            <div class="icon text-gray icon-lg material-icons-share">
+                                                <ul>
+                                                    <li>
+                                                        <a class="icon fa fa-facebook"
+                                                            href="https://www.facebook.com/sharer/sharer.php?u=https://lanation.bj/politique/leditorial-de-paul-amoussou-repetition-generale"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="icon fa fa-twitter"
+                                                            href="https://twitter.com/intent/tweet?text=webd&amp;url=https://lanation.bj/politique/leditorial-de-paul-amoussou-repetition-generale"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="icon fa fa-whatsapp"
+                                                            href="https://wa.me/?text=https://lanation.bj/politique/leditorial-de-paul-amoussou-repetition-generale"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="icon fa fa-linkedin"
+                                                            href="https://www.linkedin.com/sharing/share-offsite?mini=true&amp;url=https://lanation.bj/politique/leditorial-de-paul-amoussou-repetition-generale&amp;title=leditorial-de-paul-amoussou-repetition-generale&amp;summary="></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="col-sm-12 col-lg-4 featured mb-2">
+                                    <a
+                                        href="https://lanation.bj/politique/accusation-de-regionalisme-grave-erreur-de-date-ou-prejuge-tenace-de-la-difficulte-de-creer-un-vrai-parti-politique-dans-une-societe-pluriethnique">
+                                        <img data-src="https://lanation.bj/storage/assets/2023/09/msij0KMCRDafNNqo_jpg.webp"
+                                            alt="featured" class="featured async-image"
+                                            style="object-fit:cover;aspect-ratio:4/3;min-height:14rem;object-position:center;" />
+                                        <h6 class="text-muted">
+                                            Accusation de régionalisme: Grave erreur de date ou préjugé tenace !  (De la difficulté de créer un vrai parti politique dans une société pluriethnique)
+                                        </h6>
+                                    </a>
+                                    <div class="d-flex justify-content-between p-2">
+                                        <p>
+                                            <small> <b>Roger Ahoyo</b> |
+                                                20 sept. 2023
+                                                                                                    | 5
+                                                    Min
+                                                                                            </small>
+                                        </p>
+                                        <div class="post-meta-hidden">
+                                            <div class="icon text-gray icon-lg material-icons-share">
+                                                <ul>
+                                                    <li>
+                                                        <a class="icon fa fa-facebook"
+                                                            href="https://www.facebook.com/sharer/sharer.php?u=https://lanation.bj/politique/accusation-de-regionalisme-grave-erreur-de-date-ou-prejuge-tenace-de-la-difficulte-de-creer-un-vrai-parti-politique-dans-une-societe-pluriethnique"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="icon fa fa-twitter"
+                                                            href="https://twitter.com/intent/tweet?text=webd&amp;url=https://lanation.bj/politique/accusation-de-regionalisme-grave-erreur-de-date-ou-prejuge-tenace-de-la-difficulte-de-creer-un-vrai-parti-politique-dans-une-societe-pluriethnique"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="icon fa fa-whatsapp"
+                                                            href="https://wa.me/?text=https://lanation.bj/politique/accusation-de-regionalisme-grave-erreur-de-date-ou-prejuge-tenace-de-la-difficulte-de-creer-un-vrai-parti-politique-dans-une-societe-pluriethnique"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="icon fa fa-linkedin"
+                                                            href="https://www.linkedin.com/sharing/share-offsite?mini=true&amp;url=https://lanation.bj/politique/accusation-de-regionalisme-grave-erreur-de-date-ou-prejuge-tenace-de-la-difficulte-de-creer-un-vrai-parti-politique-dans-une-societe-pluriethnique&amp;title=accusation-de-regionalisme-grave-erreur-de-date-ou-prejuge-tenace-de-la-difficulte-de-creer-un-vrai-parti-politique-dans-une-societe-pluriethnique&amp;summary="></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="col-sm-12 col-lg-4 featured mb-2">
+                                    <a
+                                        href="https://lanation.bj/politique/politique-ce-qui-est-attendu-du-chef-de-file-de-lopposition">
+                                        <img data-src="https://lanation.bj/storage/assets/2023/06/owErhGUKz3WCP6jX_342191524_1122971565764785_8723717686505217621_n.jpg"
+                                            alt="featured" class="featured async-image"
+                                            style="object-fit:cover;aspect-ratio:4/3;min-height:14rem;object-position:center;" />
+                                        <h6 class="text-muted">
+                                            Politique: Ce qui est attendu du chef de file de l’opposition
+                                        </h6>
+                                    </a>
+                                    <div class="d-flex justify-content-between p-2">
+                                        <p>
+                                            <small> <b>Joël C. TOKPONOU</b> |
+                                                12 juin 2023
+                                                                                                    | 2
+                                                    Min
+                                                                                            </small>
+                                        </p>
+                                        <div class="post-meta-hidden">
+                                            <div class="icon text-gray icon-lg material-icons-share">
+                                                <ul>
+                                                    <li>
+                                                        <a class="icon fa fa-facebook"
+                                                            href="https://www.facebook.com/sharer/sharer.php?u=https://lanation.bj/politique/politique-ce-qui-est-attendu-du-chef-de-file-de-lopposition"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="icon fa fa-twitter"
+                                                            href="https://twitter.com/intent/tweet?text=webd&amp;url=https://lanation.bj/politique/politique-ce-qui-est-attendu-du-chef-de-file-de-lopposition"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="icon fa fa-whatsapp"
+                                                            href="https://wa.me/?text=https://lanation.bj/politique/politique-ce-qui-est-attendu-du-chef-de-file-de-lopposition"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="icon fa fa-linkedin"
+                                                            href="https://www.linkedin.com/sharing/share-offsite?mini=true&amp;url=https://lanation.bj/politique/politique-ce-qui-est-attendu-du-chef-de-file-de-lopposition&amp;title=politique-ce-qui-est-attendu-du-chef-de-file-de-lopposition&amp;summary="></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                        <div class="d-flex justify-content-center">
+                            <nav>
+        <ul class="pagination">
+            
+                            <li class="page-item disabled" aria-disabled="true" aria-label="pagination.previous">
+                    <span class="page-link" aria-hidden="true">&lsaquo;</span>
+                </li>
+            
+            
+                            
+                
+                
+                                                                                        <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
+                                                                                                <li class="page-item"><a class="page-link" href="https://lanation.bj/politique?page=2">2</a></li>
+                                                                                                <li class="page-item"><a class="page-link" href="https://lanation.bj/politique?page=3">3</a></li>
+                                                                                                <li class="page-item"><a class="page-link" href="https://lanation.bj/politique?page=4">4</a></li>
+                                                                                                <li class="page-item"><a class="page-link" href="https://lanation.bj/politique?page=5">5</a></li>
+                                                                                                <li class="page-item"><a class="page-link" href="https://lanation.bj/politique?page=6">6</a></li>
+                                                                                                <li class="page-item"><a class="page-link" href="https://lanation.bj/politique?page=7">7</a></li>
+                                                                                                <li class="page-item"><a class="page-link" href="https://lanation.bj/politique?page=8">8</a></li>
+                                                                                                <li class="page-item"><a class="page-link" href="https://lanation.bj/politique?page=9">9</a></li>
+                                                                                                <li class="page-item"><a class="page-link" href="https://lanation.bj/politique?page=10">10</a></li>
+                                                                                        
+                                    <li class="page-item disabled" aria-disabled="true"><span class="page-link">...</span></li>
+                
+                
+                                            
+                
+                
+                                                                                        <li class="page-item"><a class="page-link" href="https://lanation.bj/politique?page=53">53</a></li>
+                                                                                                <li class="page-item"><a class="page-link" href="https://lanation.bj/politique?page=54">54</a></li>
+                                                                        
+            
+                            <li class="page-item">
+                    <a class="page-link" href="https://lanation.bj/politique?page=2" rel="next" aria-label="pagination.next">&rsaquo;</a>
+                </li>
+                    </ul>
+    </nav>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-3">
+    <div class="p-3" id="lateral">
+
+    </div>
+    <div class="p-3" id="lateralArticle"></div>
+</div>
+
+            </div>
+        </div>
+    </section>
+
+        <footer class="page-footer footer-default">
+            <div class="container container-wide">
+    <hr class="divider divider-lg offset-0" />
+    <div class="row">
+
+        <div class="col-xs-12 col-md-6 col-lg-4 custom-section1">
+    <span class="title-left prim-text h5">Qui sommes-nous?</span>
+    <h2 class="fw-bold">La Nation</h2>
+    <p class="text-muted">
+        Quotidien national d’information, « La Nation » est un quotidien
+        de service public au service de tous. La pertinence de son
+        contenu, le professionnalisme de ses animateurs et sa grande
+        audience, font de lui le quotidien le plus crédible du Bénin.
+    </p>
+    <div class="newsletter mb-5">
+        <span class=" h5 text-center">Abonnez vous à notre newsletter</span>
+        <form action="https://lanation.bj/addNewsletter" id="addNewsletter" method="POST" 
+        
+        >
+            <input type="hidden" name="_token" value="lHdpGx6EyydVDPUZ9RzFo14grBY0OnDyZXaGkpno">            <div class="input-group mb-3">
+                <span class="input-group-text primary-dark-bg border-0 text-primary h-mb" id="basic-addon1"><i
+                        class="fas fa-envelope"></i></span>
+                <input type="email" name="email" class="form-control" placeholder="Entre votre adresse mail ici..."
+                    aria-label="Entre votre adresse mail ici..." aria-describedby="basic-addon2" required />
+                <button type="submit" class="input-group-text btn btn-warning" id="basic-addon2">
+                    <span class="h-mb">Souscrire</span><span class="s-mb"><i class="fas fa-paper-plane"></i></span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<!-- Inclure jQuery depuis un CDN -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+
+
+
+        <div class="col-xs-12 col-md-6 col-lg-4 custom-section1 text-muted">
+    <h5 class="title-left prim-text">Notre contact</h5>
+    <p>
+        <strong class="font-weight-bold">Adresse</strong> : Cotonou/ Cadjèhoun Voie pavée allant
+        du Château d’eau au Collège Père Aupiais
+    </p>
+    <p><strong class="font-weight-bold">Boîte Postale</strong> : 01 BP 1210 RP</p>
+    <p><strong class="font-weight-bold">Tel</strong> : (229) 21301152 / 55927323 / 94312263</p>
+    <p><strong class="font-weight-bold">Fax</strong> : 21303463</p>
+    <p>
+        <strong class="font-weight-bold">Emails</strong> : commercial@onip.bj /
+        commercialonip@gmail.com
+    </p>
+    <a href="https://lanation.bj/contact"
+        style="color:#0A2A5E;background-color:white;padding:10px;border:2px solid #0A2A5E;border-radius:5px;text-decoration:none;">Contactez-nous</a>
+
+</div>
+
+        <div class="col-xs-12 col-md-6 col-lg-4">
+    <h5 class="prim-text">Derniers tweets</h5>
+    <a class="twitter-timeline" href="https://twitter.com/lanationbenin?lang=fr" data-height="300"
+        data-chrome="noscrollbar" data-theme="light" data-link-color="#E95F28" data-tweet-limit="10">
+    </a>
+</div>
+
+    </div>
+    <hr class="divider divider-offset-top-52" />
+    <div class="row text-left row-30">
+        <div class="col-lg-2 order-lg-1 text-center text-lg-right">
+            <ul class="list-inline-0">
+                <small class="text-muted">Disponible sur</small>
+                <br>
+                
+                <li>
+                    <a class="icon icon-circle fa-android icon-default"
+                        href="https://play.google.com/store/apps/details?id=com.lanation&hl=fr&gl=US" target="_blank">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-4 order-lg-1 text-center text-lg-right">
+            <small class="text-muted">Suivez-nous </small>
+            <ul class="list-inline-0">
+                <li>
+                    <a class="icon icon-circle fa-facebook icon-default" href="https://web.facebook.com/lanationbenin"
+                        target="_blank"></a>
+                </li>
+                <li>
+                    <a class="icon icon-circle fa-twitter icon-default" href="https://twitter.com/lanationbenin"></a>
+                </li>
+                <li>
+                    <a class="icon icon-circle fa-youtube icon-default"
+                        href="https://www.youtube.com/@lanationbenin9036"></a>
+                </li>
+                
+            </ul>
+        </div>
+        <div
+            class="col-lg-6 text-center text-lg-left d-flex align-items-center flex-wrap justify-content-center justify-content-lg-start">
+            <a class="brand" href="/">
+                <img class="brand-logo-dark" src="https://lanation.bj/frontend/assets/img/lanation-logo.png"
+                    style="height: 50px" alt="Logo la Nation Bénin" />
+                <img class="brand-logo-light" src="https://lanation.bj/frontend/assets/img/lanation-logo.png"
+                    style="height: 50px" alt="Logo la Nation Bénin" />
+            </a>
+            <p class="rights">
+                <span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span
+                    class="rdc-today_date"></span><span>&nbsp;</span><span>La Nation
+                    Benin</span><span>.&nbsp;</span><a class="privacy-link"
+                    href="https://lanation.bj/pages/politiques-de-confidentialite">Politique de
+                    confidentialité</a>
+            </p>
+        </div>
+    </div>
+</div>
+        </footer>
+    </div>
+    <div class="modal fade" id="abonneMentModal" tabindex="-1" aria-labelledby="abonneMentModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="abonneMentModalLabel">ABONNEZ-VOUS</h5>
+                <button type="button" class="close btn btn-sm btn-secondary mt-0" data-dismiss="modal"
+                    aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div> 
+            <div class="modal-body">
+                <img data-src="https://lanation.bj/frontend/assets/img/subcription.png" class="d-block mx-auto async-image"
+                    style="height: 220px" alt="subcription" />
+                <p class="font-weight-light mt-3 text-center">
+                    Choisissez votre type d'abonnement
+                </p>
+                <div class="row">
+                                                                <div class="col-sm-12 col-lg-6">
+                            <div class="card rounded-5">
+                                <div class="card-body">
+                                    <a href="https://lanation.bj/abonnement/journal-en-ligne">
+                                                                                    <img data-src="https://lanation.bj/storage/assets/2023/04/h4bbsyZ2KgQDFypC_online-subscription.png"
+                                                class="d-block mx-auto async-image" style="height: 100px"
+                                                alt="subcription-au-journal" />
+                                                                                <h6 class="text-center mt-3">
+                                            Journal en ligne
+                                        </h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="col-sm-12 col-lg-6">
+                            <div class="card rounded-5">
+                                <div class="card-body">
+                                    <a href="https://lanation.bj/abonnement/recevoir-le-journal-papier">
+                                                                                    <img data-src="https://lanation.bj/storage/assets/2023/04/9bkWW3dzJIQTkWcC_journal-physc_books_re_8gea.png"
+                                                class="d-block mx-auto async-image" style="height: 100px"
+                                                alt="subcription-au-journal" />
+                                                                                <h6 class="text-center mt-3">
+                                            Recevoir le journal papier
+                                        </h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                                                                <div class="col-sm-12 col-lg-6 mt-2">
+                            <div class="card rounded-5">
+                                <div class="card-body">
+                                    <a href="https://lanation.bj/abonnement/nouveaux-dossiers">
+                                                                                <h6 class="text-center mt-3">
+                                            Nouveaux Dossiers
+                                        </h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="col-sm-12 col-lg-6 mt-2">
+                            <div class="card rounded-5">
+                                <div class="card-body">
+                                    <a href="https://lanation.bj/abonnement/articles-speciaux">
+                                                                                <h6 class="text-center mt-3">
+                                            Articles Spéciaux
+                                        </h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                                    </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="mt-0 btn btn-secondary" data-dismiss="modal">
+                    Fermer
+                </button>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function() {
+        $("#modalBtn1").click(function() {
+            $.ajax({
+                url: "http://----------/data.json",
+                type: "GET",
+                dataType: "json",
+                success: function(data) {
+                    $("#modalTitle1").html(data.title);
+                    $("#modalContent1").html(data.content);
+                    $("#myModal1").show();
+                }
+            });
+        });
+        $("#modalBtn2").click(function() {
+            $.ajax({
+                url: "http://------/data2.json",
+                type: "GET",
+                dataType: "json",
+                success: function(data) {
+                    $("#modalTitle2").html(data.title);
+                    $("#modalContent2").html(data.content);
+                    $("#myModal2").show();
+                }
+            });
+        });
+        $(".close").click(function() {
+            $(".modal").hide();
+        });
+    });
+</script>
+    
+    <div class="modal fade" id="publierAnnonceModal" tabindex="-1" aria-labelledby="publierAnnonceModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="publierAnnonceModalLabel">
+                    COMMANDER UNE ANNONCE
+                </h5>
+                <button type="button" class="close btn btn-sm btn-secondary mt-0" data-dismiss="modal"
+                    aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row justify-content-center">
+                                                                <div class="col-12 text-center">
+                            <img data-src="https://lanation.bj/frontend/assets/img/subcription.png" style="height: 220px"
+                                class="d-block mx-auto async-image" alt="Aucune annonce trouvée" />
+                            <h6 class="text-center mt-2 text-primary">Aucune annonce n'est disponible</h6>
+                        </div>
+                                    </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="mt-0 btn btn-secondary" data-dismiss="modal">
+                    Fermer
+                </button>
+                            </div>
+        </div>
+    </div>
+</div>
+    <script src="https://lanation.bj/frontend/assets/js/front.js"></script>
+    <script defer src="https://lanation.bj/frontend/assets/js/add.js"></script>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N1E4LT17RL"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        $(window).on("load", gtag);
+        gtag('js', new Date());
+        gtag('config', 'G-N1E4LT17RL');
+    </script>
+
+        <!-- sweet alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    
+    <div id="newsletter-popup" class="popup">
+        <div class="popup-content">
+            <h2>Inscrivez-vous à notre newsletter</h2>
+            <form id="newsletter-form" action="#" method="POST">
+                <label for="email">Entrez votre adresse e-mail :</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">S'inscrire</button>
+            </form>
+            <button id="close-popup">X</button>
+        </div>
+    </div>
+</body>
+    <script>
+        const monInput = document.getElementById('search-object');
+        const moduleInput = document.getElementById('code-module');
+
+        monInput.addEventListener('input', () => {
+            $.ajax({
+                url: 'https://lanation.bj/search',
+                type: 'get',
+                data: {
+                    searchTerm: monInput.value,
+                    id: moduleInput.value,
+                    categorie: 'module'
+                },
+                dataType: 'json',
+                success: function(response) {
+                    $('#contenu').html(response.result);
+                },
+                error: function(error) {
+                    console.log('error');
+                }
+            });
+        });
+    </script>
+    <script>
+        // $(document).ready(function() {
+            $.ajax({
+                url: 'https://lanation.bj/headerpub',
+                type: 'get',
+                data: {
+                    id: null,
+                },
+                dataType: 'json',
+                success: function(response) {
+                    $('#headerpub').html(response.result);
+                    $('#headerpubLoad').hide();
+                    $('#middlepub').html(response.resultmiddle);
+                    $('#lateral').html(response.resultlateral);
+                    $('#lateralArticle').html(response.resultArticle);
+                },
+                error: function(error) {
+                    console.log('error');
+                }
+            });
+        // });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('#addNewsletter').submit(function(e) {
+                e.preventDefault();
+                var form = $(this);
+
+                var submitButton = form.find('button[type="submit"]');
+                submitButton.prop('disabled', true);
+
+                $.ajax({
+                    url: form.attr('action'),
+                    type: form.attr('method'),
+                    data: form.serialize(),
+                    success: function(response) {
+                        submitButton.prop('disabled', false);
+                        Swal.fire({
+                            icon: 'success',
+                            text: response.message,
+                        }).then(function(result) {
+                            form.trigger('reset');
+                            window.location.reload();
+                        });
+                    },
+                    error: function(response) {
+                        submitButton.prop('disabled', false);
+                        var errorMessages = '';
+
+                        // Gestion des erreurs de validation
+                        if (response.status === 422) {
+                            var errors = response.responseJSON.errors;
+                            $.each(errors, function(key, messages) {
+                                errorMessages += messages.join('<br>') + '<br>';
+                            });
+                        }
+
+                        // Gestion des erreurs personnalisées
+                        if (response.status === 400 || response.status === 500) {
+                            var customError = response.responseJSON.error;
+                            errorMessages += customError + '<br>';
+                        }
+
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Erreur!',
+                            html: errorMessages, // Utilisez html pour afficher des lignes multiples
+                        });
+
+                    }
+                });
+            });
+        });
+
+        function removeSpaces(input) {
+            input.value = input.value.replace(/\s/g, ''); // Supprime tous les espaces
+        }
+    </script>
+
+</html>

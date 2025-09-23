@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+<html data-theme="docuseal" lang="en">
+  <head>
+    <title>Blog | DocuSeal</title>
+    <meta name="description" content="Browse the latest DocuSeal articles on digital document signing, open-source developments, and more.">
+<meta property="og:title" content="Blog | DocuSeal">
+<meta property="og:description" content="Browse the latest DocuSeal articles on digital document signing, open-source developments, and more.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.docuseal.com/">
+<meta property="og:site_name" content="DocuSeal">
+<meta property="og:image" content="https://www.docuseal.com/packs/static/images/preview-d83dbbb0bcc083b72de2.png">
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="640">
+<meta name="twitter:image" content="https://www.docuseal.com/packs/static/images/preview-d83dbbb0bcc083b72de2.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:creator" content="@docusealco">
+<meta name="twitter:site" content="@docusealco">
+<meta name="twitter:title" content="Blog | DocuSeal">
+<meta name="twitter:description" content="Browse the latest DocuSeal articles on digital document signing, open-source developments, and more.">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" type="image/svg+xml" sizes="any" href="/logo.svg">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" sizes="16x16" href="/favicon.ico">
+<meta name="theme-color" content="#faf7f5">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="dns-prefetch" href="https://docuseal.com">
+    <link rel="preconnect" href="https://docuseal.com">
+    <link href="https://www.docuseal.com/blog" rel="canonical">
+    <script type="speculationrules">
+      {
+        "prerender": [{ "where": { "href_matches": "/*" }, "eagerness": "moderate" }],
+        "prefetch": [{ "where": { "href_matches": "/*" }, "eagerness": "moderate" }]
+      }
+    </script>
+    <script src="https://www.docuseal.com/packs/js/737-97a10eb520bb008d1e7e.js" defer="defer"></script>
+<script src="https://www.docuseal.com/packs/js/application-00bfa1a0d8b22bf49168.js" defer="defer"></script>
+    <link rel="stylesheet" href="https://www.docuseal.com/packs/css/application-1960287a.css" media="all" />
+  </head>
+  <body>
+    <turbo-frame id="modal"></turbo-frame>
+    
+    <nav class="sticky z-30 top-0 bg-base-100 bg-opacity-95 py-2 px-2 md:px-4">
+      <div class="max-w-6xl m-auto flex justify-between items-center text-base-content">
+        <div class="flex-1 flex items-center">
+          <div class="flex items-center space-x-2">
+            <a href="/" class="flex items-center space-x-2">
+              <svg height="45px" width="45px" class="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 511.998 511.998" xml:space="preserve">
+  <path style="fill:#AA968C;" d="M503.999,247.999c0,128.13-111.033,240-248,240S8,376.129,8,247.999s111.033-224,248-224
+    S503.999,119.869,503.999,247.999z" />
+  <path style="fill:#AA968C;" d="M255.999,23.999C119.033,23.999,8,119.868,8,247.999c0,24.631,4.138,48.647,11.74,71.397
+    c25.518,34.29,66.232,56.602,112.26,56.602c53.893,0,100.6-30.495,124-75.13c23.4,44.636,70.107,75.13,124,75.13
+    c46.028,0,86.743-22.312,112.26-56.602c7.602-22.75,11.74-46.767,11.74-71.397C503.999,119.868,392.966,23.999,255.999,23.999z" />
+  <circle style="fill:#C8AF9B;" cx="256" cy="351.999" r="136" />
+  <g>
+    <circle style="fill:#464655;" cx="132" cy="203.999" r="28" />
+    <circle style="fill:#464655;" cx="380" cy="203.999" r="28" />
+    <path style="fill:#464655;" d="M269.949,284.516c-7.672,10.741-20.227,10.741-27.899,0l-12.101-16.941
+      c-7.672-10.741-3.15-19.53,10.05-19.53h32c13.2,0,17.723,8.788,10.05,19.53L269.949,284.516z" />
+  </g>
+  <path style="fill:#AA968C;" d="M 350.964 399.998 C 316.628 399.998 299.021 351.998 255.882 351.998 C 212.742 351.998 195.135 399.998 160.801 399.998 C 145.395 399.998 131.723 394.147 120.621 374.798 C 131.595 439.03 187.893 487.998 255.881 487.998 C 323.868 487.998 380.168 439.03 391.14 374.798 C 380.04 394.148 366.368 399.998 350.964 399.998 Z" />
+  <g>
+    <path style="fill:#8C7873;" d="M32,423.998c-3.172,0-6.18-1.906-7.43-5.031c-1.641-4.105,0.359-8.758,4.461-10.402l160.008-64
+      c4.062-1.617,8.758,0.352,10.398,4.457s-0.359,8.758-4.461,10.402l-160.008,64C34,423.811,32.992,423.998,32,423.998z" />
+    <path style="fill:#8C7873;" d="M15.992,375.995c-3.547,0-6.781-2.375-7.727-5.965c-1.125-4.273,1.422-8.648,5.695-9.773l152-40
+      c4.289-1.121,8.648,1.426,9.773,5.703c1.125,4.273-1.422,8.648-5.695,9.773l-152,40C17.351,375.913,16.672,375.995,15.992,375.995z
+      " />
+    <path style="fill:#8C7873;" d="M7.992,335.995c-3.812,0-7.187-2.73-7.867-6.609c-0.773-4.352,2.133-8.5,6.484-9.27l136-24
+      c4.328-0.77,8.508,2.141,9.266,6.488c0.773,4.352-2.133,8.5-6.484,9.27l-136,24C8.922,335.956,8.453,335.995,7.992,335.995z" />
+    <path style="fill:#8C7873;" d="M480,423.998c3.172,0,6.18-1.906,7.43-5.031c1.641-4.105-0.359-8.758-4.461-10.402l-160.008-64
+      c-4.063-1.617-8.758,0.352-10.398,4.457s0.359,8.758,4.461,10.402l160.008,64C478,423.811,479.007,423.998,480,423.998z" />
+    <path style="fill:#8C7873;" d="M496.007,375.995c3.547,0,6.781-2.375,7.727-5.965c1.125-4.273-1.422-8.648-5.695-9.773l-152-40
+      c-4.289-1.121-8.648,1.426-9.773,5.703c-1.125,4.273,1.422,8.648,5.695,9.773l152,40
+      C494.648,375.913,495.328,375.995,496.007,375.995z" />
+    <path style="fill:#8C7873;" d="M504.007,335.995c3.813,0,7.188-2.73,7.867-6.609c0.773-4.352-2.133-8.5-6.484-9.27l-136-24
+      c-4.328-0.77-8.508,2.141-9.266,6.488c-0.773,4.352,2.133,8.5,6.484,9.27l136,24C503.078,335.956,503.546,335.995,504.007,335.995z
+      " />
+  </g>
+</svg>
+
+              <div class="text-2xl font-bold text-base-content">DocuSeal</div>
+            </a>
+            <div class="hidden md:block shrink-0">
+              <svg xmlns="http://www.w3.org/2000/svg" width="53" height="20"><style>
+    a:hover #llink{fill:url(#b);stroke:#ccc}a:hover #rlink{fill:#4183c4}
+  </style><lineargradient id="a" x2="0" y2="100%"><stop offset="0" stop-color="#fcfcfc" stop-opacity="0"></stop><stop offset="1" stop-opacity=".1"></stop></lineargradient><lineargradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#ccc" stop-opacity=".1"></stop><stop offset="1" stop-opacity=".1"></stop></lineargradient><g stroke="#d5d5d5"><rect stroke="none" fill="#fcfcfc" x="0.5" y="0.5" width="25" height="19" rx="2"></rect><rect x="31.5" y="0.5" width="21" height="19" rx="2" fill="#fafafa"></rect><rect x="31" y="7.5" width="0.5" height="5" stroke="#fafafa"></rect><path d="M31.5 6.5 l-3 3v1 l3 3" fill="#fafafa"></path></g><image x="5" y="3" width="14" height="14" href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMTgxNzE3IiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+R2l0SHViPC90aXRsZT48cGF0aCBkPSJNMTIgLjI5N2MtNi42MyAwLTEyIDUuMzczLTEyIDEyIDAgNS4zMDMgMy40MzggOS44IDguMjA1IDExLjM4NS42LjExMy44Mi0uMjU4LjgyLS41NzcgMC0uMjg1LS4wMS0xLjA0LS4wMTUtMi4wNC0zLjMzOC43MjQtNC4wNDItMS42MS00LjA0Mi0xLjYxQzQuNDIyIDE4LjA3IDMuNjMzIDE3LjcgMy42MzMgMTcuN2MtMS4wODctLjc0NC4wODQtLjcyOS4wODQtLjcyOSAxLjIwNS4wODQgMS44MzggMS4yMzYgMS44MzggMS4yMzYgMS4wNyAxLjgzNSAyLjgwOSAxLjMwNSAzLjQ5NS45OTguMTA4LS43NzYuNDE3LTEuMzA1Ljc2LTEuNjA1LTIuNjY1LS4zLTUuNDY2LTEuMzMyLTUuNDY2LTUuOTMgMC0xLjMxLjQ2NS0yLjM4IDEuMjM1LTMuMjItLjEzNS0uMzAzLS41NC0xLjUyMy4xMDUtMy4xNzYgMCAwIDEuMDA1LS4zMjIgMy4zIDEuMjMuOTYtLjI2NyAxLjk4LS4zOTkgMy0uNDA1IDEuMDIuMDA2IDIuMDQuMTM4IDMgLjQwNSAyLjI4LTEuNTUyIDMuMjg1LTEuMjMgMy4yODUtMS4yMy42NDUgMS42NTMuMjQgMi44NzMuMTIgMy4xNzYuNzY1Ljg0IDEuMjMgMS45MSAxLjIzIDMuMjIgMCA0LjYxLTIuODA1IDUuNjI1LTUuNDc1IDUuOTIuNDIuMzYuODEgMS4wOTYuODEgMi4yMiAwIDEuNjA2LS4wMTUgMi44OTYtLjAxNSAzLjI4NiAwIC4zMTUuMjEuNjkuODI1LjU3QzIwLjU2NSAyMi4wOTIgMjQgMTcuNTkyIDI0IDEyLjI5N2MwLTYuNjI3LTUuMzczLTEyLTEyLTEyIi8+PC9zdmc+"></image><g aria-hidden="false" fill="#333" text-anchor="middle" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" text-rendering="geometricPrecision" font-weight="700" font-size="110px" line-height="14px"><a target="_blank" href="https://github.com/docusealco/docuseal"><text aria-hidden="true" x="195" y="150" fill="#fff" transform="scale(.1)" textLength="10"></text><text x="195" y="140" transform="scale(.1)" textLength="10"></text><rect id="llink" stroke="#d5d5d5" fill="url(#a)" x=".5" y=".5" width="25" height="19" rx="2"></rect></a><a target="_blank" href="https://github.com/docusealco/docuseal"><rect width="22" x="31" height="20" fill="rgba(0,0,0,0)"></rect><text aria-hidden="true" x="415" y="150" fill="#fff" transform="scale(.1)" textLength="130">9k</text><text id="rlink" x="415" y="140" transform="scale(.1)" textLength="130">9k</text></a></g>
+</svg>
+
+            </div>
+          </div>
+        </div>
+        <div class="flex-none text-center items-center justify-center hidden lg:flex">
+          <div class="dropdown dropdown-hover group/dropdown rounded-full">
+            <div class="inline-flex items-center justify-center space-x-0.5 pl-4 pr-5 py-1.5 leading-none cursor-pointer font-medium">
+              Solutions
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 ml-1 stroke-2 transition-transform duration-300 group-hover/dropdown:rotate-180" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+  <path d="M6 9l6 6l6 -6"></path>
+</svg>
+
+            </div>
+            <div class="dropdown-content z-50 text-left w-screen !fixed left-1/2 -translate-x-1/2" style="max-width: 985px">
+              <div class="bg-base-100 rounded-2xl">
+                <div class="flex gap-4 p-2 mt-6 rounded-2xl shadow" style="background: linear-gradient(129.57deg, rgba(255, 218, 118, 0.4) 47.71%, rgba(255, 189, 115, 0.5) 127.85%);">
+                  <div class="bg-base-100 rounded-xl shadow pt-2 pb-2 px-2">
+                    <div class="flex justify-between relative items-center">
+                      <div class="leading-none text-base-content/60 ml-2">
+                        Solutions
+                      </div>
+                      <div class="relative">
+                        <input type="text" autocomplete="off" placeholder="Search..." class="pl-8 input input-sm rounded-lg w-36 placeholder-base-content/40" onfocus="document.querySelector('search-modal').open()" onmouseenter="document.querySelector('search-modal').init()">
+                        <div class="absolute inset-y-0 right-0 flex items-center text-base-800 pr-3 pointer-events-none">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-base-400" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+  <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+  <path d="M21 21l-6 -6"></path>
+</svg>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-4 mt-1">
+                      <a class="flex items-center space-x-2.5 p-2 rounded-lg group/link hover:bg-base-200" href="/signing-api">
+                        <div class="w-10 h-10 rounded-full flex items-center justify-center shrink-0 group-hover/link:bg-base-100">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M4 13h5"></path>
+   <path d="M12 16v-8h3a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2h-3"></path>
+   <path d="M20 8v8"></path>
+   <path d="M9 16v-5.5a2.5 2.5 0 0 0 -5 0v5.5"></path>
+</svg>
+
+                        </div>
+                        <div>
+                          <span class="font-medium">Document Signing API</span>
+                          <p class="text-sm font-light text-base-400 mt-1 r">Build automations and workflows</p>
+                        </div>
+</a>                      <a class="flex items-center space-x-2.5 p-2 rounded-lg group/link hover:bg-base-200" href="/embedding">
+                        <div class="w-10 h-10 rounded-full flex items-center justify-center shrink-0 group-hover/link:bg-base-100">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+   <path d="M7 8l-4 4l4 4" />
+   <path d="M17 8l4 4l-4 4" />
+   <path d="M14 4l-4 16" />
+ </svg>
+
+                        </div>
+                        <div>
+                          <span class="font-medium">Embedded Signing</span>
+                          <p class="text-sm font-light text-base-400 mt-1 pr-3">Seamlessly integrate signing experiance</p>
+                        </div>
+</a>                      <a class="flex items-center space-x-2.5 p-2 rounded-lg group/link hover:bg-base-200" href="/react-document-signing">
+                        <div class="w-10 h-10 rounded-full flex items-center justify-center shrink-0 group-hover/link:bg-base-100">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 stroke-1" viewBox="-11.5 -10.23174 23 20.46348">
+  <circle cx="0" cy="0" r="2.05" fill="currentColor"/>
+  <g stroke="currentColor" stroke-width="1" fill="none">
+    <ellipse rx="11" ry="4.2"/>
+    <ellipse rx="11" ry="4.2" transform="rotate(60)"/>
+    <ellipse rx="11" ry="4.2" transform="rotate(120)"/>
+  </g>
+</svg>
+
+                        </div>
+                        <div>
+                          <span class="font-medium">React Document Signing</span>
+                          <p class="text-sm font-light text-base-400 mt-1">Embed document signing in React App</p>
+                        </div>
+</a>                      <a class="flex items-center space-x-2.5 p-2 rounded-lg group/link hover:bg-base-200" href="/enterprise">
+                        <div class="w-10 h-10 rounded-full flex items-center justify-center shrink-0 group-hover/link:bg-base-100">
+                          <svg xmlns="http://www.w3.org/2000/svg"  class="h-8 w-8 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+  <path d="M3.6 9h16.8" />
+  <path d="M3.6 15h16.8" />
+  <path d="M11.5 3a17 17 0 0 0 0 18" />
+  <path d="M12.5 3a17 17 0 0 1 0 18" />
+</svg>
+
+                        </div>
+                        <div>
+                          <span class="font-medium">Enterprise</span>
+                          <p class="text-sm font-light text-base-400 mt-1">Explore our enterprise solutions</p>
+                        </div>
+</a>                      <a class="flex items-center space-x-2.5 p-2 rounded-lg group/link hover:bg-base-200" href="/on-premises">
+                        <div class="w-10 h-10 rounded-full flex items-center justify-center shrink-0 group-hover/link:bg-base-100">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M22 12.54c-1.804 -.345 -2.701 -1.08 -3.523 -2.94c-.487 .696 -1.102 1.568 -.92 2.4c.028 .238 -.32 1 -.557 1h-14c0 5.208 3.164 7 6.196 7c4.124 .022 7.828 -1.376 9.854 -5c1.146 -.101 2.296 -1.505 2.95 -2.46z" />
+  <path d="M5 10h3v3h-3z" />
+  <path d="M8 10h3v3h-3z" />
+  <path d="M11 10h3v3h-3z" />
+  <path d="M8 7h3v3h-3z" />
+  <path d="M11 7h3v3h-3z" />
+  <path d="M11 4h3v3h-3z" />
+  <path d="M4.571 18c1.5 0 2.047 -.074 2.958 -.78" />
+  <path d="M10 16l0 .01" />
+</svg>
+
+                        </div>
+                        <div>
+                          <span class="font-medium">On-premises</span>
+                          <p class="text-sm font-light text-base-500 mt-1">Self-hosted DocuSeal on your servers</p>
+                        </div>
+</a>                      <a class="flex items-center space-x-2.5 p-2 rounded-lg group/link hover:bg-base-200" href="/blog/accept-payments-and-request-signatures-with-ease">
+                        <div class="w-10 h-10 rounded-full flex items-center justify-center shrink-0 group-hover/link:bg-base-100">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M3 5m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
+  <path d="M3 10l18 0" />
+  <path d="M7 15l.01 0" />
+  <path d="M11 15l2 0" />
+</svg>
+
+                        </div>
+                        <div>
+                          <span class="font-medium">Accept Payments</span>
+                          <p class="text-sm font-light text-base-400 mt-1">Collect payments during signing</p>
+                        </div>
+</a>                      <a class="flex items-center space-x-2.5 p-2 rounded-lg group/link hover:bg-base-200" href="/document-signing-for-saas">
+                        <div class="w-10 h-10 rounded-full flex items-center justify-center shrink-0 group-hover/link:bg-base-100">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+  <path d="M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+  <path d="M14 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+  <path d="M14 7l6 0" />
+  <path d="M17 4l0 6" />
+</svg>
+
+                        </div>
+                        <div>
+                          <span class="font-medium">Document Signing for SaaS</span>
+                          <p class="text-sm font-light text-base-400 mt-1">Add document signing to your product</p>
+                        </div>
+</a>                      <a class="flex items-center space-x-2.5 p-2 rounded-lg group/link hover:bg-base-200" href="/solutions">
+                        <div class="w-10 h-10 rounded-full flex items-center justify-center shrink-0 group-hover/link:bg-base-100">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M12 4l-8 4l8 4l8 -4l-8 -4" />
+  <path d="M4 12l8 4l8 -4" />
+  <path d="M4 16l8 4l8 -4" />
+</svg>
+
+                        </div>
+                        <div>
+                          <span class="font-medium">All Solutions</span>
+                          <p class="text-sm font-light text-base-400 mt-1">Explore other solutions</p>
+                        </div>
+</a>                    </div>
+                  </div>
+                  <div class="shrink-0 rounded-lg pt-4" style="width: 240px;">
+                    <div class="leading-none text-base-content/60">
+                      Industries
+                    </div>
+                    <div class="mt-5">
+                      <a class="flex items-center group/link space-x-3 pb-2.5" href="/solutions/tech">
+                        <div class="w-8 h-8 rounded-lg shadow bg-base-100 flex items-center justify-center shrink-0 group-hover/link:bg-base-100">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M13 9a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1v-10z" />
+  <path d="M18 8v-3a1 1 0 0 0 -1 -1h-13a1 1 0 0 0 -1 1v12a1 1 0 0 0 1 1h9" />
+  <path d="M16 9h2" />
+</svg>
+
+                        </div>
+                        <div class="text-base-800 group-hover/link:underline">Software and Technology</div>
+</a>                      <a class="flex items-center group/link space-x-3 py-2.5" href="/solutions/healthcare">
+                        <div class="w-8 h-8 rounded-lg shadow bg-base-100 flex items-center justify-center shrink-0 group-hover/link:bg-base-100">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M3 4m0 1a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1z" />
+  <path d="M7 20h10" />
+  <path d="M9 16v4" />
+  <path d="M15 16v4" />
+  <path d="M7 10h2l2 3l2 -6l1 3h3" />
+</svg>
+
+                        </div>
+                        <div class="text-base-800 group-hover/link:underline">Healthcare</div>
+</a>                      <a class="flex items-center group/link space-x-3 py-2.5" href="/solutions/realestate">
+                        <div class="w-8 h-8 rounded-lg shadow bg-base-100 flex items-center justify-center shrink-0 group-hover/link:bg-base-100">
+                          <svg
+  class="h-6 w-6 stroke-1"
+  xmlns="http://www.w3.org/2000/svg"
+  width="32"
+  height="32"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="#000000"
+  stroke-width="1"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M4 21v-15c0 -1 1 -2 2 -2h5c1 0 2 1 2 2v15" />
+  <path d="M16 8h2c1 0 2 1 2 2v11" />
+  <path d="M3 21h18" />
+  <path d="M10 12v0" />
+  <path d="M10 16v0" />
+  <path d="M10 8v0" />
+  <path d="M7 12v0" />
+  <path d="M7 16v0" />
+  <path d="M7 8v0" />
+  <path d="M17 12v0" />
+  <path d="M17 16v0" />
+</svg>
+
+                        </div>
+                        <div class="text-base-800 group-hover/link:underline">Real Estate</div>
+</a>                      <a class="flex items-center group/link space-x-3 py-2.5" href="/solutions/education">
+                        <div class="w-8 h-8 rounded-lg shadow bg-base-100 flex items-center justify-center shrink-0 group-hover/link:bg-base-100">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 9l-10 -4l-10 4l10 4l10 -4v6" />
+  <path d="M6 10.6v5.4a6 3 0 0 0 12 0v-5.4" />
+</svg>
+
+                        </div>
+                        <div class="text-base-800 group-hover/link:underline">Education Institution</div>
+</a>                      <a class="flex items-center group/link space-x-3 pt-2.5" href="/solutions/fintech">
+                        <div class="w-8 h-8 rounded-lg shadow bg-base-100 flex items-center justify-center shrink-0 group-hover/link:bg-base-100">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M14.8 9a2 2 0 0 0 -1.8 -1h-2a2 2 0 1 0 0 4h2a2 2 0 1 1 0 4h-2a2 2 0 0 1 -1.8 -1" />
+  <path d="M12 7v10" />
+</svg>
+
+                        </div>
+                        <div class="text-base-800 group-hover/link:underline">Financial Services</div>
+</a>                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown dropdown-hover group/dropdown rounded-full">
+            <div class="inline-flex items-center justify-center space-x-0.5 pl-4 pr-5 py-1.5 leading-none cursor-pointer font-medium">
+              Resources
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 ml-1 stroke-2 transition-transform duration-300 group-hover/dropdown:rotate-180" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+  <path d="M6 9l6 6l6 -6"></path>
+</svg>
+
+            </div>
+            <div class="dropdown-content z-50 text-left w-screen max-w-3xl !fixed left-1/2 -translate-x-1/2">
+              <div class="bg-base-100 rounded-2xl shadow">
+                <div class="flex gap-4 p-2 mt-6 rounded-2xl" style="background: linear-gradient(129.57deg, rgba(255, 218, 118, 0.4) 47.71%, rgba(255, 189, 115, 0.5) 127.85%);">
+                  <div class="w-full bg-base-100 rounded-xl pt-2 pb-2 px-2 shadow">
+                    <div class="flex justify-between relative items-center">
+                      <div class="leading-none text-base-content/60 ml-2">
+                        Resources
+                      </div>
+                      <div class="relative">
+                        <input type="text" autocomplete="off" placeholder="Search..." class="pl-8 input input-sm rounded-lg w-36 placeholder-base-content/40" onfocus="document.querySelector('search-modal').open()" onmouseenter="document.querySelector('search-modal').init()">
+                        <div class="absolute inset-y-0 right-0 flex items-center text-base-800 pr-3 pointer-events-none">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-base-400" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+  <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+  <path d="M21 21l-6 -6"></path>
+</svg>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-4 mt-1">
+                      <a class="flex items-center space-x-2.5 p-2 rounded-lg group/link hover:bg-base-200" href="/compliance">
+                        <div class="w-10 h-10 rounded-full flex items-center justify-center shrink-0 group-hover/link:bg-base-100">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+  <path d="M15 15m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+  <path d="M13 17.5v4.5l2 -1.5l2 1.5v-4.5"></path>
+  <path d="M10 19h-5a2 2 0 0 1 -2 -2v-10c0 -1.1 .9 -2 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -1 1.73"></path>
+  <path d="M6 9l12 0"></path>
+  <path d="M6 12l3 0"></path>
+  <path d="M6 15l2 0"></path>
+</svg>
+
+                        </div>
+                        <div>
+                          <span class="font-medium">Compliance</span>
+                          <p class="text-sm font-light text-base-400 mt-1">Learn about how we follow eSign standards</p>
+                        </div>
+</a>                      <a class="flex items-center space-x-2.5 p-2 rounded-lg group/link hover:bg-base-200" href="/docs/api">
+                        <div class="w-10 h-10 rounded-full flex items-center justify-center shrink-0 group-hover/link:bg-base-100">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M4 13h5"></path>
+   <path d="M12 16v-8h3a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2h-3"></path>
+   <path d="M20 8v8"></path>
+   <path d="M9 16v-5.5a2.5 2.5 0 0 0 -5 0v5.5"></path>
+</svg>
+
+                        </div>
+                        <div>
+                          <span class="font-medium">API Reference</span>
+                          <p class="text-sm font-light text-base-400 mt-1">Explore our API endpoints and webhooks</p>
+                        </div>
+</a>                      <a class="flex items-center space-x-2.5 p-2 rounded-lg group/link hover:bg-base-200" href="/blog">
+                        <div class="w-10 h-10 rounded-full flex items-center justify-center shrink-0 group-hover/link:bg-base-100">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
+  <path d="M13.5 6.5l4 4" />
+</svg>
+
+                        </div>
+                        <div>
+                          <span class="font-medium">Blog</span>
+                          <p class="text-sm font-light text-base-400 mt-1">Stay updated with our latest articles</p>
+                        </div>
+</a>                      <a class="flex items-center space-x-2.5 p-2 rounded-lg group/link hover:bg-base-200" href="/docs">
+                        <div class="w-10 h-10 rounded-full flex items-center justify-center shrink-0 group-hover/link:bg-base-100">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M14 3v4a1 1 0 0 0 1 1h4"></path>
+   <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"></path>
+   <path d="M9 9l1 0"></path>
+   <path d="M9 13l6 0"></path>
+   <path d="M9 17l6 0"></path>
+</svg>
+
+                        </div>
+                        <div>
+                          <span class="font-medium">Documentation</span>
+                          <p class="text-sm font-light text-base-400 mt-1">Find answers and learn about the features</p>
+                        </div>
+</a>                      <a class="flex items-center space-x-2.5 p-2 rounded-lg group/link hover:bg-base-200" href="/guides">
+                        <div class="w-10 h-10 rounded-full flex items-center justify-center shrink-0 group-hover/link:bg-base-100">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 9l-10 -4l-10 4l10 4l10 -4v6" />
+  <path d="M6 10.6v5.4a6 3 0 0 0 12 0v-5.4" />
+</svg>
+
+                        </div>
+                        <div>
+                          <span class="font-medium">Developer Guides</span>
+                          <p class="text-sm font-light text-base-400 mt-1">Development guides and examples</p>
+                        </div>
+</a>                      <a class="flex items-center space-x-2.5 p-2 rounded-lg group/link hover:bg-base-200" href="/resources">
+                        <div class="w-10 h-10 rounded-full flex items-center justify-center shrink-0 group-hover/link:bg-base-100">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"></path>
+   <path d="M12 9h.01"></path>
+   <path d="M11 12h1v4h1"></path>
+</svg>
+
+                        </div>
+                        <div>
+                          <span class="font-medium">How-To's</span>
+                          <p class="text-sm font-light text-base-400 mt-1">User tutorials and resources</p>
+                        </div>
+</a>                      <a class="flex items-center space-x-2.5 p-2 rounded-lg group/link hover:bg-base-200" href="/gdpr">
+                        <div class="w-10 h-10 rounded-full flex items-center justify-center shrink-0 group-hover/link:bg-base-100">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M19 18a3.5 3.5 0 0 0 0 -7h-1c.397 -1.768 -.285 -3.593 -1.788 -4.787c-1.503 -1.193 -3.6 -1.575 -5.5 -1s-3.315 2.019 -3.712 3.787c-2.199 -.088 -4.155 1.326 -4.666 3.373c-.512 2.047 .564 4.154 2.566 5.027" />
+  <path d="M8 15m0 1a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1z" />
+  <path d="M10 15v-2a2 2 0 1 1 4 0v2" />
+</svg>
+
+                        </div>
+                        <div>
+                          <span class="font-medium">GDPR</span>
+                          <p class="text-sm font-light text-base-400 mt-1">Explore our GDPR-compliant EU Cloud</p>
+                        </div>
+</a>                      <a class="flex items-center space-x-2.5 p-2 rounded-lg group/link hover:bg-base-200" href="/qualified-electronic-signature">
+                        <div class="w-10 h-10 rounded-full flex items-center justify-center shrink-0 group-hover/link:bg-base-100">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M3 4m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
+  <path d="M9 10m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M15 8l2 0" />
+  <path d="M15 12l2 0" />
+  <path d="M7 16l10 0" />
+</svg>
+
+                        </div>
+                        <div>
+                          <span class="font-medium">Qualified Electronic Signature</span>
+                          <p class="text-sm font-light text-base-400 mt-1">Sign with the highest level of trust</p>
+                        </div>
+</a>                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center">
+            <a class="pl-4 pr-5 py-2.5 leading-none font-medium" href="/pricing">Pricing</a>
+          </div>
+          <div class="flex items-center">
+            <a class="leading-none px-4 py-2.5 whitespace-nowrap font-medium" href="/developers">
+              For Developers
+</a>          </div>
+        </div>
+        <div class="flex-1 flex items-center justify-end">
+          <a class="font-medium text-lg mr-6 hidden lg:inline" data-role="app-link" data-event="Click Sign In" data-event-props="{&quot;location&quot;:&quot;Top Navigation&quot;}" href="https://docuseal.com/sign_in">
+            <span class="flex items-center justify-center space-x-1">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2" />
+  <path d="M20 12h-13l3 -3m0 6l-3 -3" />
+</svg>
+
+              <span>Sign in</span>
+            </span>
+</a>            <a class="btn btn-neutral text-white" data-role="app-link" data-event="Click Sign Up" data-event-props="{&quot;location&quot;:&quot;Top Navigation&quot;}" href="https://docuseal.com/sign_up">
+              <span class="normal-case text-lg font-medium">Get Started</span>
+</a>          <label for="mobile_menu" class="ml-4 mr-2 lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+</svg>
+
+          </label>
+          <input type="checkbox" id="mobile_menu" class="modal-toggle">
+          <div class="modal items-start overflow-y-auto">
+            <div class="z-50 bg-base-100 min-h-screen max-h-screen min-w-full relative w-full overflow-y-auto">
+              <label for="mobile_menu" class="flex justify-between items-center px-2 md:px-4 py-2 h-16">
+                <div class="flex items-center space-x-2">
+                  <svg height="45px" width="45px" class="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 511.998 511.998" xml:space="preserve">
+  <path style="fill:#AA968C;" d="M503.999,247.999c0,128.13-111.033,240-248,240S8,376.129,8,247.999s111.033-224,248-224
+    S503.999,119.869,503.999,247.999z" />
+  <path style="fill:#AA968C;" d="M255.999,23.999C119.033,23.999,8,119.868,8,247.999c0,24.631,4.138,48.647,11.74,71.397
+    c25.518,34.29,66.232,56.602,112.26,56.602c53.893,0,100.6-30.495,124-75.13c23.4,44.636,70.107,75.13,124,75.13
+    c46.028,0,86.743-22.312,112.26-56.602c7.602-22.75,11.74-46.767,11.74-71.397C503.999,119.868,392.966,23.999,255.999,23.999z" />
+  <circle style="fill:#C8AF9B;" cx="256" cy="351.999" r="136" />
+  <g>
+    <circle style="fill:#464655;" cx="132" cy="203.999" r="28" />
+    <circle style="fill:#464655;" cx="380" cy="203.999" r="28" />
+    <path style="fill:#464655;" d="M269.949,284.516c-7.672,10.741-20.227,10.741-27.899,0l-12.101-16.941
+      c-7.672-10.741-3.15-19.53,10.05-19.53h32c13.2,0,17.723,8.788,10.05,19.53L269.949,284.516z" />
+  </g>
+  <path style="fill:#AA968C;" d="M 350.964 399.998 C 316.628 399.998 299.021 351.998 255.882 351.998 C 212.742 351.998 195.135 399.998 160.801 399.998 C 145.395 399.998 131.723 394.147 120.621 374.798 C 131.595 439.03 187.893 487.998 255.881 487.998 C 323.868 487.998 380.168 439.03 391.14 374.798 C 380.04 394.148 366.368 399.998 350.964 399.998 Z" />
+  <g>
+    <path style="fill:#8C7873;" d="M32,423.998c-3.172,0-6.18-1.906-7.43-5.031c-1.641-4.105,0.359-8.758,4.461-10.402l160.008-64
+      c4.062-1.617,8.758,0.352,10.398,4.457s-0.359,8.758-4.461,10.402l-160.008,64C34,423.811,32.992,423.998,32,423.998z" />
+    <path style="fill:#8C7873;" d="M15.992,375.995c-3.547,0-6.781-2.375-7.727-5.965c-1.125-4.273,1.422-8.648,5.695-9.773l152-40
+      c4.289-1.121,8.648,1.426,9.773,5.703c1.125,4.273-1.422,8.648-5.695,9.773l-152,40C17.351,375.913,16.672,375.995,15.992,375.995z
+      " />
+    <path style="fill:#8C7873;" d="M7.992,335.995c-3.812,0-7.187-2.73-7.867-6.609c-0.773-4.352,2.133-8.5,6.484-9.27l136-24
+      c4.328-0.77,8.508,2.141,9.266,6.488c0.773,4.352-2.133,8.5-6.484,9.27l-136,24C8.922,335.956,8.453,335.995,7.992,335.995z" />
+    <path style="fill:#8C7873;" d="M480,423.998c3.172,0,6.18-1.906,7.43-5.031c1.641-4.105-0.359-8.758-4.461-10.402l-160.008-64
+      c-4.063-1.617-8.758,0.352-10.398,4.457s0.359,8.758,4.461,10.402l160.008,64C478,423.811,479.007,423.998,480,423.998z" />
+    <path style="fill:#8C7873;" d="M496.007,375.995c3.547,0,6.781-2.375,7.727-5.965c1.125-4.273-1.422-8.648-5.695-9.773l-152-40
+      c-4.289-1.121-8.648,1.426-9.773,5.703c-1.125,4.273,1.422,8.648,5.695,9.773l152,40
+      C494.648,375.913,495.328,375.995,496.007,375.995z" />
+    <path style="fill:#8C7873;" d="M504.007,335.995c3.813,0,7.188-2.73,7.867-6.609c0.773-4.352-2.133-8.5-6.484-9.27l-136-24
+      c-4.328-0.77-8.508,2.141-9.266,6.488c-0.773,4.352,2.133,8.5,6.484,9.27l136,24C503.078,335.956,503.546,335.995,504.007,335.995z
+      " />
+  </g>
+</svg>
+
+                  <div class="text-2xl font-bold text-base-content">DocuSeal</div>
+                </div>
+                <div class="mr-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 stroke-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2">
+  <path d="M18 6l-12 12"></path>
+  <path d="M6 6l12 12"></path>
+</svg>
+
+                </div>
+              </label>
+              <div class="relative">
+                <div class="pointer-events-none absolute top-0 left-0 w-full h-4 bg-gradient-to-b from-base-100 to-transparent z-10"></div>
+                <div class="w-full overflow-y-auto px-4 md:px-6" style="height: calc(100dvh - 188px)">
+                  <ul tabindex="0" class="divide-y divide-base-300">
+                    <li>
+                      <details class="group">
+                        <summary class="flex items-center justify-between py-5 cursor-pointer">
+                          <span class="text-xl">Solutions</span>
+                          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 transition-transform duration-300 group-open:rotate-180" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+  <path d="M6 9l6 6l6 -6"></path>
+</svg>
+
+                        </summary>
+                        <ul class="pb-2 space-y-3">
+                          <li>
+                            <a class="flex space-x-3" href="/signing-api">
+                              <div class="w-9 h-9 rounded-full bg-base-200/70 flex items-center justify-center shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M4 13h5"></path>
+   <path d="M12 16v-8h3a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2h-3"></path>
+   <path d="M20 8v8"></path>
+   <path d="M9 16v-5.5a2.5 2.5 0 0 0 -5 0v5.5"></path>
+</svg>
+
+                              </div>
+                              <div>
+                                <span class="font-medium">Document Signing API</span>
+                                <p class="text-sm font-light text-base-400 mt-1 r">Build automations and workflows</p>
+                              </div>
+</a>                          </li>
+                          <li>
+                            <a class="flex space-x-3" href="/embedding">
+                              <div class="w-9 h-9 rounded-full bg-base-200/70 flex items-center justify-center shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+   <path d="M7 8l-4 4l4 4" />
+   <path d="M17 8l4 4l-4 4" />
+   <path d="M14 4l-4 16" />
+ </svg>
+
+                              </div>
+                              <div>
+                                <span class="font-medium">Embedded Signing</span>
+                                <p class="text-sm font-light text-base-400 mt-1">Seamlessly integrate document signing</p>
+                              </div>
+</a>                          </li>
+                          <li>
+                            <a class="flex space-x-3" href="/enterprise">
+                              <div class="w-9 h-9 rounded-full bg-base-200/70 flex items-center justify-center shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg"  class="h-5 w-5 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+  <path d="M3.6 9h16.8" />
+  <path d="M3.6 15h16.8" />
+  <path d="M11.5 3a17 17 0 0 0 0 18" />
+  <path d="M12.5 3a17 17 0 0 1 0 18" />
+</svg>
+
+                              </div>
+                              <div>
+                                <span class="font-medium">Enterprise</span>
+                                <p class="text-sm font-light text-base-400 mt-1">Explore our enterprise solutions</p>
+                              </div>
+</a>                          </li>
+                          <li>
+                            <a class="flex space-x-3" href="/on-premises">
+                              <div class="w-9 h-9 rounded-full bg-base-200/70 flex items-center justify-center shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M22 12.54c-1.804 -.345 -2.701 -1.08 -3.523 -2.94c-.487 .696 -1.102 1.568 -.92 2.4c.028 .238 -.32 1 -.557 1h-14c0 5.208 3.164 7 6.196 7c4.124 .022 7.828 -1.376 9.854 -5c1.146 -.101 2.296 -1.505 2.95 -2.46z" />
+  <path d="M5 10h3v3h-3z" />
+  <path d="M8 10h3v3h-3z" />
+  <path d="M11 10h3v3h-3z" />
+  <path d="M8 7h3v3h-3z" />
+  <path d="M11 7h3v3h-3z" />
+  <path d="M11 4h3v3h-3z" />
+  <path d="M4.571 18c1.5 0 2.047 -.074 2.958 -.78" />
+  <path d="M10 16l0 .01" />
+</svg>
+
+                              </div>
+                              <div>
+                                <span class="font-medium">On-premises</span>
+                                <p class="text-sm font-light text-base-400 mt-1">Self-hosted DocuSeal on your servers</p>
+                              </div>
+</a>                          </li>
+                          <li>
+                            <a class="flex space-x-3" href="/react-document-signing">
+                              <div class="w-9 h-9 rounded-full bg-base-200/70 flex items-center justify-center shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 stroke-1" viewBox="-11.5 -10.23174 23 20.46348">
+  <circle cx="0" cy="0" r="2.05" fill="currentColor"/>
+  <g stroke="currentColor" stroke-width="1" fill="none">
+    <ellipse rx="11" ry="4.2"/>
+    <ellipse rx="11" ry="4.2" transform="rotate(60)"/>
+    <ellipse rx="11" ry="4.2" transform="rotate(120)"/>
+  </g>
+</svg>
+
+                              </div>
+                              <div>
+                                <span class="font-medium">React Document Signing</span>
+                                <p class="text-sm font-light text-base-400 mt-1">Embed document signing in React App</p>
+                              </div>
+</a>                          </li>
+                          <li>
+                            <a class="flex space-x-3" href="/document-signing-for-saas">
+                              <div class="w-9 h-9 rounded-full bg-base-200/70 flex items-center justify-center shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+  <path d="M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+  <path d="M14 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+  <path d="M14 7l6 0" />
+  <path d="M17 4l0 6" />
+</svg>
+
+                              </div>
+                              <div>
+                                <span class="font-medium">Document Signing for SaaS</span>
+                                <p class="text-sm font-light text-base-400 mt-1">Add document signing to your product</p>
+                              </div>
+</a>                          </li>
+                          <li>
+                            <a class="flex space-x-3" href="/blog/accept-payments-and-request-signatures-with-ease">
+                              <div class="w-9 h-9 rounded-full bg-base-200/70 flex items-center justify-center shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M3 5m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
+  <path d="M3 10l18 0" />
+  <path d="M7 15l.01 0" />
+  <path d="M11 15l2 0" />
+</svg>
+
+                              </div>
+                              <div>
+                                <span class="font-medium">Accept Payments</span>
+                                <p class="text-sm font-light text-base-400 mt-1">Collect payments during signing</p>
+                              </div>
+</a>                          </li>
+                          <li>
+                            <a class="flex space-x-3" href="/solutions">
+                              <div class="w-9 h-9 rounded-full bg-base-200/70 flex items-center justify-center shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M12 4l-8 4l8 4l8 -4l-8 -4" />
+  <path d="M4 12l8 4l8 -4" />
+  <path d="M4 16l8 4l8 -4" />
+</svg>
+
+                              </div>
+                              <div>
+                                <span class="font-medium">All Solutions</span>
+                                <p class="text-sm font-light text-base-400 mt-1">Explore other solutions</p>
+                              </div>
+</a>                          </li>
+                        </ul>
+                      </details>
+                    </li>
+                    <li>
+                      <details class="group">
+                        <summary class="flex items-center justify-between py-5 cursor-pointer">
+                          <span class="text-xl">Resources</span>
+                          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 transition-transform duration-300 group-open:rotate-180" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+  <path d="M6 9l6 6l6 -6"></path>
+</svg>
+
+                        </summary>
+                        <ul class="pb-2 space-y-3">
+                          <li>
+                            <a class="flex space-x-3" href="/compliance">
+                              <div class="w-9 h-9 rounded-full bg-base-200/70 flex items-center justify-center shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+  <path d="M15 15m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+  <path d="M13 17.5v4.5l2 -1.5l2 1.5v-4.5"></path>
+  <path d="M10 19h-5a2 2 0 0 1 -2 -2v-10c0 -1.1 .9 -2 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -1 1.73"></path>
+  <path d="M6 9l12 0"></path>
+  <path d="M6 12l3 0"></path>
+  <path d="M6 15l2 0"></path>
+</svg>
+
+                              </div>
+                              <div>
+                                <span class="font-medium">Compliance</span>
+                                <p class="text-sm font-light text-base-400 mt-1">Learn about how we follow eSign standards</p>
+                              </div>
+</a>                          </li>
+                          <li>
+                            <a class="flex space-x-3" href="/blog">
+                              <div class="w-9 h-9 rounded-full bg-base-200/70 flex items-center justify-center shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
+  <path d="M13.5 6.5l4 4" />
+</svg>
+
+                              </div>
+                              <div>
+                                <span class="font-medium">Blog</span>
+                                <p class="text-sm font-light text-base-400 mt-1">Stay updated with our latest articles</p>
+                              </div>
+</a>                          </li>
+                          <li>
+                            <a class="flex space-x-3" href="/docs/api">
+                              <div class="w-9 h-9 rounded-full bg-base-200/70 flex items-center justify-center shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M4 13h5"></path>
+   <path d="M12 16v-8h3a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2h-3"></path>
+   <path d="M20 8v8"></path>
+   <path d="M9 16v-5.5a2.5 2.5 0 0 0 -5 0v5.5"></path>
+</svg>
+
+                              </div>
+                              <div>
+                                <span class="font-medium">API Reference</span>
+                                <p class="text-sm font-light text-base-400 mt-1">Explore our API endpoints and webhooks</p>
+                              </div>
+</a>                          </li>
+                          <li>
+                            <a class="flex space-x-3" href="/docs">
+                              <div class="w-9 h-9 rounded-full bg-base-200/70 flex items-center justify-center shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M14 3v4a1 1 0 0 0 1 1h4"></path>
+   <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"></path>
+   <path d="M9 9l1 0"></path>
+   <path d="M9 13l6 0"></path>
+   <path d="M9 17l6 0"></path>
+</svg>
+
+                              </div>
+                              <div>
+                                <span class="font-medium">Documentation</span>
+                                <p class="text-sm font-light text-base-400 mt-1">Find answers and learn about the features</p>
+                              </div>
+</a>                          </li>
+                          <li>
+                            <a class="flex space-x-3" href="/guides">
+                              <div class="w-9 h-9 rounded-full bg-base-200/70 flex items-center justify-center shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 9l-10 -4l-10 4l10 4l10 -4v6" />
+  <path d="M6 10.6v5.4a6 3 0 0 0 12 0v-5.4" />
+</svg>
+
+                              </div>
+                              <div>
+                                <span class="font-medium">Developer Guides</span>
+                                <p class="text-sm font-light text-base-400 mt-1">Development guides and examples</p>
+                              </div>
+</a>                          </li>
+                          <li>
+                            <a class="flex space-x-3" href="/resources">
+                              <div class="w-9 h-9 rounded-full bg-base-200/70 flex items-center justify-center shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"></path>
+   <path d="M12 9h.01"></path>
+   <path d="M11 12h1v4h1"></path>
+</svg>
+
+                              </div>
+                              <div>
+                                <span class="font-medium">How-To's</span>
+                                <p class="text-sm font-light text-base-400 mt-1">User tutorials and resources</p>
+                              </div>
+</a>                          </li>
+                          <li>
+                            <a class="flex space-x-3" href="/gdpr">
+                              <div class="w-9 h-9 rounded-full bg-base-200/70 flex items-center justify-center shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M19 18a3.5 3.5 0 0 0 0 -7h-1c.397 -1.768 -.285 -3.593 -1.788 -4.787c-1.503 -1.193 -3.6 -1.575 -5.5 -1s-3.315 2.019 -3.712 3.787c-2.199 -.088 -4.155 1.326 -4.666 3.373c-.512 2.047 .564 4.154 2.566 5.027" />
+  <path d="M8 15m0 1a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1z" />
+  <path d="M10 15v-2a2 2 0 1 1 4 0v2" />
+</svg>
+
+                              </div>
+                              <div>
+                                <span class="font-medium">GDPR</span>
+                                <p class="text-sm font-light text-base-400 mt-1">Explore our GDPR-compliant EU Cloud</p>
+                              </div>
+</a>                          </li>
+                          <li>
+                            <a class="flex space-x-3" href="/qualified-electronic-signature">
+                              <div class="w-9 h-9 rounded-full bg-base-200/70 flex items-center justify-center shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 stroke-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M3 4m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
+  <path d="M9 10m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M15 8l2 0" />
+  <path d="M15 12l2 0" />
+  <path d="M7 16l10 0" />
+</svg>
+
+                              </div>
+                              <div>
+                                <span class="font-medium">Qualified Electronic Signature</span>
+                                <p class="text-sm font-light text-base-400 mt-1">Sign with the highest level of trust</p>
+                              </div>
+</a>                          </li>
+                        </ul>
+                      </details>
+                    </li>
+                    <li>
+                      <a class="block py-5 text-xl" href="/pricing">Pricing</a>
+                    </li>
+                    <li>
+                      <a class="block py-5 text-xl" href="/developers">For Developers</a>
+                    </li>
+                    <li>
+                      <a class="block py-5 text-xl" href="/contact">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="pointer-events-none absolute bottom-0 left-0 w-full h-4 bg-gradient-to-t from-base-100 to-transparent z-10"></div>
+              </div>
+              <div class="px-4">
+                  <a class="btn btn-neutral text-white w-full h-16 mb-4" data-role="app-link" data-event="Click Sign Up" data-event-props="{&quot;location&quot;:&quot;Top Navigation&quot;}" href="https://docuseal.com/sign_up">
+                    <span class="normal-case text-lg font-medium">Get Started</span>
+</a>                <a class="flex items-center justify-center font-medium text-lg py-1" data-role="app-link" data-event="Click Sign In" data-event-props="{&quot;location&quot;:&quot;Top Navigation&quot;}" href="https://docuseal.com/sign_in">
+                  <span class="flex items-center justify-center space-x-1 text-xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2" />
+  <path d="M20 12h-13l3 -3m0 6l-3 -3" />
+</svg>
+
+                    <span>Sign in</span>
+                  </span>
+</a>              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <search-modal data-button-id="chat_button"></search-modal>
+        <button id="chat_button" class="btn btn-neutral text-white text-base !normal-case fixed bottom-6 right-4 animate-none z-40">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 stroke-2" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+<path d="M16 18a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2zm0 -12a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2zm-7 12a6 6 0 0 1 6 -6a6 6 0 0 1 -6 -6a6 6 0 0 1 -6 6a6 6 0 0 1 6 6z" /></svg>
+
+          Ask AI
+        </button>
+    </nav>
+    <div class="max-w-6xl mx-auto px-4 md:px-2 mb-8">
+      <div class="container max-w-screen-sm mt-32 mx-auto">
+  <div class="text-center">
+    <h1 class="text-4xl font-black">
+        The DocuSeal Blog
+    </h1>
+    <p class="content-text text-lg mt-6">We're building a flexible, open-source alternative to mainstream digital document signing platforms. Dive into our journey and the insights we've gathered on this blog.</p>
+  </div>
+  <div class="text-center mt-4 space-x-1">
+    <a class="btn btn-sm normal-case btn-outline btn-active" href="/blog">
+      All
+    </a>
+      <a class="btn btn-sm normal-case btn-outline " href="/blog/tech">
+        Tech
+      </a>
+  </div>
+  <div class="prose mx-auto divide-y mt-8">
+      <div class="pt-4 pb-12">
+        <time class="text-xs font-bold">May 16, 2025</time>
+        <h2 class="!mt-1 text-2xl md:text-3xl">
+          <a class="font-extrabold link no-underline" href="/blog/digital-liability-waivers-made-easy-with-docuseal">Digital Liability Waivers Made Easy with DocuSeal</a>
+        </h2>
+        <div class="mt-6">
+          <p>Paper waivers slow check-ins, create filing headaches, and leave businesses exposed when a form is misfiled or illegible. With DocuSeal, any organization—whether it&#39;s a gym, adventure-tour company, summer camp, rental shop, or clinic—can turn a paper waiver into a secure, legally binding digital waiver in minutes.</p>
+        </div>
+        <div class="mt-6">
+          <a class="uppercase text-sm font-bold link" href="/blog/digital-liability-waivers-made-easy-with-docuseal">Continue reading</a>
+        </div>
+      </div>
+      <div class="pt-12 pb-12">
+        <time class="text-xs font-bold">February 05, 2025</time>
+        <h2 class="!mt-1 text-2xl md:text-3xl">
+          <a class="font-extrabold link no-underline" href="/case-studies/liveheats">Liveheats: Case Study</a>
+        </h2>
+        <div class="mt-6">
+          <p>Liveheats, a leading company in the event registration industry, encountered significant hurdles with their document signing process during peak event times. Their previous provider struggled with handling spikes in demand, imposing rate limits that resulted in increased customer complaints. DocuSeal&#39;s API is able to handle significantly higher rates including unpredictable spikes in traffic like those experienced by Liveheats.</p>
+        </div>
+        <div class="mt-6">
+          <a class="uppercase text-sm font-bold link" href="/case-studies/liveheats">Continue reading</a>
+        </div>
+      </div>
+      <div class="pt-12 pb-12">
+        <time class="text-xs font-bold">December 09, 2024</time>
+        <h2 class="!mt-1 text-2xl md:text-3xl">
+          <a class="font-extrabold link no-underline" href="/blog/understanding-electronic-signatures-ses-aes-and-qes">Understanding Electronic Signatures in the EU: SES, AES, and QES</a>
+        </h2>
+        <div class="mt-6">
+          <p>At DocuSeal, we&#39;re committed to simplifying eSignatures for businesses of all sizes. To help you navigate the landscape, we&#39;ve broken down the three main types of electronic signatures: Simple Electronic Signature (SES), Advanced Electronic Signature (AES), and Qualified Electronic Signature (QES).</p>
+        </div>
+        <div class="mt-6">
+          <a class="uppercase text-sm font-bold link" href="/blog/understanding-electronic-signatures-ses-aes-and-qes">Continue reading</a>
+        </div>
+      </div>
+      <div class="pt-12 pb-12">
+        <time class="text-xs font-bold">November 25, 2024</time>
+        <h2 class="!mt-1 text-2xl md:text-3xl">
+          <a class="font-extrabold link no-underline" href="/blog/how-docuseal-ensures-compliance-with-ueta-and-the-esign-act">How DocuSeal Ensures Compliance with UETA and the ESIGN Act</a>
+        </h2>
+        <div class="mt-6">
+          <p>The adoption of eSignature technology has transformed the way businesses handle contracts and agreements, offering speed and efficiency. However, ensuring that electronic signatures are legally enforceable is critical for maintaining trust and compliance. At DocuSeal, we have built our platform in alignment with the Uniform Electronic Transactions Act (UETA) and the Electronic Signatures in Global and National Commerce Act (ESIGN Act) to ensure your eSignatures hold legal validity across the United States.</p>
+        </div>
+        <div class="mt-6">
+          <a class="uppercase text-sm font-bold link" href="/blog/how-docuseal-ensures-compliance-with-ueta-and-the-esign-act">Continue reading</a>
+        </div>
+      </div>
+      <div class="pt-12 pb-12">
+        <time class="text-xs font-bold">November 07, 2024</time>
+        <h2 class="!mt-1 text-2xl md:text-3xl">
+          <a class="font-extrabold link no-underline" href="/blog/case-study-boosting-healthcare-efficiency-with-docuseal">Case Study: Boosting Healthcare Efficiency with DocuSeal</a>
+        </h2>
+        <div class="mt-6">
+          <p>Healthcare providers face daily challenges managing patient records, securing sensitive data, and navigating lengthy approval processes, all while complying with strict regulations like HIPAA. One healthcare organization, facing these very issues, found their traditional, paper-based processes inefficient and time-consuming. They struggled with delayed document approvals, data security concerns, and rising operational costs related to managing physical paperwork.</p>
+        </div>
+        <div class="mt-6">
+          <a class="uppercase text-sm font-bold link" href="/blog/case-study-boosting-healthcare-efficiency-with-docuseal">Continue reading</a>
+        </div>
+      </div>
+      <div class="pt-12 pb-12">
+        <time class="text-xs font-bold">September 11, 2024</time>
+        <h2 class="!mt-1 text-2xl md:text-3xl">
+          <a class="font-extrabold link no-underline" href="/blog/how-docuseal-makes-work-easier-for-marketing-and-ad-agencies">How DocuSeal makes work easier for Marketing and Ad agencies</a>
+        </h2>
+        <div class="mt-6">
+          <p>Marketing and advertising agencies are always working to create content that speaks directly to today&#39;s consumers. With digital advertising booming on platforms like TikTok, Instagram, and Facebook, traditional methods like billboards and flyers just don&#39;t cut it anymore. The focus has shifted to targeted ads, influencer campaigns, and capturing attention in a crowded online space.</p>
+        </div>
+        <div class="mt-6">
+          <a class="uppercase text-sm font-bold link" href="/blog/how-docuseal-makes-work-easier-for-marketing-and-ad-agencies">Continue reading</a>
+        </div>
+      </div>
+      <div class="pt-12 pb-12">
+        <time class="text-xs font-bold">August 20, 2024</time>
+        <h2 class="!mt-1 text-2xl md:text-3xl">
+          <a class="font-extrabold link no-underline" href="/blog/updates-august-2024">Important Updates at DocuSeal</a>
+        </h2>
+        <div class="mt-6">
+          <p>At DocuSeal, we are committed to providing you with the best tools for your electronic document workflows. Our latest updates include an enhanced &quot;Privacy Policy&quot; and &quot;Terms and Conditions,&quot; along with our compliance with SOC 2 and HIPAA security standards.</p>
+        </div>
+        <div class="mt-6">
+          <a class="uppercase text-sm font-bold link" href="/blog/updates-august-2024">Continue reading</a>
+        </div>
+      </div>
+      <div class="pt-12 pb-12">
+        <time class="text-xs font-bold">July 05, 2024</time>
+        <h2 class="!mt-1 text-2xl md:text-3xl">
+          <a class="font-extrabold link no-underline" href="/blog/how-to-add-salesforce-custom-action">How to add Salesforce custom action</a>
+        </h2>
+        <div class="mt-6">
+          <p>Salesforce is one of the most popular CRM systems in the world. It is a comprehensive platform that offers capabilities for automating business processes, managing customer databases, analyzing data, and much more. One of the advantages of Salesforce is the ability to customize the system in detail to fit your needs and automate many routine operations, such as sending emails, creating tasks, or changing contact statuses.</p>
+        </div>
+        <div class="mt-6">
+          <a class="uppercase text-sm font-bold link" href="/blog/how-to-add-salesforce-custom-action">Continue reading</a>
+        </div>
+      </div>
+      <div class="pt-12 pb-12">
+        <time class="text-xs font-bold">May 26, 2024</time>
+        <h2 class="!mt-1 text-2xl md:text-3xl">
+          <a class="font-extrabold link no-underline" href="/blog/top-5-docusign-alternatives">Top 5 DocuSign Alternatives in 2025</a>
+        </h2>
+        <div class="mt-6">
+          <p>The electronic signature market is rich with options, each vying for the top spot as the best alternative to DocuSign. While DocuSign is a well-known leader in the industry, the array of eSignature solutions available today offers various features and benefits tailored to different needs. Whether you&#39;re a small business, a large enterprise, or somewhere in between, finding the right eSignature platform is crucial.</p>
+        </div>
+        <div class="mt-6">
+          <a class="uppercase text-sm font-bold link" href="/blog/top-5-docusign-alternatives">Continue reading</a>
+        </div>
+      </div>
+      <div class="pt-12 pb-12">
+        <time class="text-xs font-bold">December 29, 2023</time>
+        <h2 class="!mt-1 text-2xl md:text-3xl">
+          <a class="font-extrabold link no-underline" href="/blog/accept-payments-and-request-signatures-with-ease">Accept payments and request signatures with ease</a>
+        </h2>
+        <div class="mt-6">
+          <p>DocuSeal has made document signing easier for everyone. Now with Stripe integration you can request payments and signatures at the same time, allowing you to automate your entire business workflow.</p>
+        </div>
+        <div class="mt-6">
+          <a class="uppercase text-sm font-bold link" href="/blog/accept-payments-and-request-signatures-with-ease">Continue reading</a>
+        </div>
+      </div>
+      <div class="pt-12 pb-12">
+        <time class="text-xs font-bold">November 13, 2023</time>
+        <h2 class="!mt-1 text-2xl md:text-3xl">
+          <a class="font-extrabold link no-underline" href="/blog/why-we-are-bootstrapping-an-open-source-docusign-alternative">Why we&#39;re bootstrapping an Open-source DocuSign alternative</a>
+        </h2>
+        <div class="mt-6">
+          <p>What is the best way to do a start-up: VC-funded or bootstrapped? There is no distinct answer to this question. You should follow the path that fits your goals for your company.</p>
+        </div>
+        <div class="mt-6">
+          <a class="uppercase text-sm font-bold link" href="/blog/why-we-are-bootstrapping-an-open-source-docusign-alternative">Continue reading</a>
+        </div>
+      </div>
+      <div class="pt-12 pb-12">
+        <time class="text-xs font-bold">November 02, 2023</time>
+        <h2 class="!mt-1 text-2xl md:text-3xl">
+          <a class="font-extrabold link no-underline" href="/blog/why-are-esignatures-legally-binding">Why are eSignatures legally binding?</a>
+        </h2>
+        <div class="mt-6">
+          <p>In the digital age, paperwork has taken a back seat, thanks to the advent of electronic signatures or eSignatures. We get asked about the validity of the eSignatures a lot from our customers and prospects. In this blog post, we&#39;ll explain eSignatures and why they carry significant legal weight and how we comply with the regulations in the US and EU.</p>
+        </div>
+        <div class="mt-6">
+          <a class="uppercase text-sm font-bold link" href="/blog/why-are-esignatures-legally-binding">Continue reading</a>
+        </div>
+      </div>
+      <div class="pt-12 pb-12">
+        <time class="text-xs font-bold">October 20, 2023</time>
+        <h2 class="!mt-1 text-2xl md:text-3xl">
+          <a class="font-extrabold link no-underline" href="/blog/docuseal-a-free-document-signing-alternative">DocuSeal, a free document signing alternative</a>
+        </h2>
+        <div class="mt-6">
+          <p>We believe in trust, transparency and that basic document signing should be free. We created DocuSeal for you to upload documents with multiple signers, user management, automatic eSignatures, notification emails and more.</p>
+        </div>
+        <div class="mt-6">
+          <a class="uppercase text-sm font-bold link" href="/blog/docuseal-a-free-document-signing-alternative">Continue reading</a>
+        </div>
+      </div>
+      <div class="pt-12 pb-12">
+        <time class="text-xs font-bold">June 18, 2025</time>
+        <h2 class="!mt-1 text-2xl md:text-3xl">
+          <a class="font-extrabold link no-underline" href="/blog/creating-fillable-pdf-document-forms-with-html">Creating Fillable PDF Document Forms with HTML</a>
+        </h2>
+        <div class="mt-6">
+          <p>In the realm of digital document management, the process of signing can often become tedious and inconsistent. Especially when dealing with personalized documents like rental agreements, it&#39;s crucial to maintain structure while accommodating unique details. This is where the DocuSeal HTML API comes into play, offering an automated solution to create and sign tailor-made documents using the familiar territory of HTML.</p>
+        </div>
+        <div class="mt-6">
+          <a class="uppercase text-sm font-bold link" href="/blog/creating-fillable-pdf-document-forms-with-html">Continue reading</a>
+        </div>
+      </div>
+  </div>
+</div>
+
+    </div>
+    <footer class="py-6 border-t border-base-300 px-4">
+        <div class="mx-auto max-w-6xl">
+          <div class="flex justify-between items-center">
+            <div class="flex space-x-3">
+              <a href="/soc" alt="SOC 2" aria-label="SOC 2" class="tooltip tooltip-top shrink-0" data-tip="SOC 2 Certified">
+                <img width="114" height="114" alt="SOC" class="w-14 h-14 md:w-16 md:h-16" loading="lazy" src="https://www.docuseal.com/packs/static/images/pages/soc-df335fd23c97e5311cb2.png" />
+              </a>
+              <a href="https://trust.docuseal.com/" alt="ISO 27001" target="_blank" aria-label="ISO 27001" class="tooltip tooltip-top shrink-0 hidden md:inline" data-tip="ISO 27001 Certified">
+                <img width="60" height="60" alt="ISO 27001" class="w-14 h-14 md:w-16 md:h-16" loading="lazy" src="https://www.docuseal.com/packs/static/images/pages/iso-27001-e219bbcf9dacddf8942b.png" />
+              </a>
+              <a href="/hipaa" alt="HIPAA" aria-label="HIPAA" class="tooltip tooltip-top" data-tip="HIPAA Compliant">
+                <svg version="1.0" viewBox="0 0 432.97116 235.18513" width="432.97116" height="235.18513" class="w-14 h-14 md:w-16 md:h-16 rounded-full" xmlns:svg="http://www.w3.org/2000/svg"> <style type="text/css" id="style132"> .st0{fill:#0D405F;} </style> <path class="st0" d="m 196.87118,158.38513 c 1.5,-0.9 3.3,-1.3 5.1,-1.3 1.4,0 2.8,0.3 4,0.9 1.3,0.6 2.4,1.5 3.3,2.5 l 3.3,-3.3 c -1.3,-1.6 -2.9,-2.8 -4.7,-3.6 -2.2,-0.9 -4.5,-1.3 -6.9,-1.2 -2.4,0.1 -4.7,0.8 -6.7,1.9 -2.2,1.3 -4,3.1 -5.3,5.4 -1.3,2.4 -1.9,5 -1.9,7.7 0,2.7 0.6,5.3 1.9,7.7 1.2,2.2 3,4.1 5.2,5.4 2.3,1.3 4.9,2 7.5,1.9 2.1,0 4.2,-0.4 6.2,-1.2 1.8,-0.8 3.5,-2.1 4.7,-3.6 l -3.3,-3.3 c -0.9,1.1 -2,2 -3.3,2.6 -1.3,0.6 -2.7,0.9 -4.1,0.9 -1.8,0 -3.5,-0.4 -5.1,-1.3 -1.5,-0.9 -2.7,-2.1 -3.5,-3.6 -0.8,-1.6 -1.3,-3.5 -1.3,-5.3 0,-1.8 0.4,-3.6 1.3,-5.3 0.9,-1.7 2.1,-3 3.6,-3.9 z m -5.1,-33.8 h 14 v 12.5 h 5 v -29.2 h -5 v 12 h -14 v -12 h -5 v 29.2 h 5 z m 25.2,12.5 h 5 v -29.2 h -5 z m 26.4,-27.9 c -1.9,-0.9 -4,-1.3 -6.1,-1.2 h -9 v 29.1 h 5 v -8.4 h 4 c 2.1,0 4.2,-0.4 6.1,-1.2 1.7,-0.8 3.1,-2 4,-3.6 0.9,-1.7 1.4,-3.6 1.4,-5.5 0,-1.9 -0.5,-3.8 -1.4,-5.5 -0.9,-1.7 -2.3,-2.9 -4,-3.7 z m -1.4,13.4 c -1.1,1 -2.8,1.5 -5,1.5 h -3.7 v -11.6 h 3.7 c 2.2,0 3.9,0.5 5,1.5 1.1,1 1.7,2.4 1.7,4.3 0,1.9 -0.5,3.3 -1.7,4.3 z m 50.6,-14.6 -13.5,29.1 h 5.7 l 3,-6.7 h 15 l 3,6.7 h 5.8 l -13.5,-29.2 h -5.5 z m -2.9,18.1 5.6,-12.7 5.6,12.7 z m -50.8,28.2 c -2.3,-1.3 -4.9,-1.9 -7.6,-1.9 -2.7,0 -5.2,0.7 -7.6,1.9 -2.2,1.3 -4.1,3.1 -5.3,5.4 -1.3,2.4 -1.9,5 -1.9,7.7 0,2.7 0.7,5.3 1.9,7.7 1.2,2.2 3.1,4.1 5.3,5.4 2.3,1.3 4.9,1.9 7.6,1.9 2.7,0 5.2,-0.7 7.6,-1.9 2.2,-1.3 4,-3.1 5.3,-5.4 1.3,-2.4 1.9,-5 1.9,-7.7 0,-2.7 -0.7,-5.3 -1.9,-7.7 -1.3,-2.3 -3.1,-4.1 -5.3,-5.4 z m 0.8,18.3 c -0.8,1.5 -2,2.8 -3.4,3.7 -1.5,0.9 -3.2,1.3 -4.9,1.3 -1.7,0 -3.4,-0.5 -4.9,-1.3 -1.5,-0.9 -2.7,-2.1 -3.4,-3.7 -0.8,-1.6 -1.3,-3.4 -1.3,-5.3 0,-1.9 0.4,-3.6 1.3,-5.3 0.8,-1.5 2,-2.8 3.4,-3.7 1.5,-0.9 3.2,-1.3 4.9,-1.3 1.7,0 3.4,0.5 4.9,1.3 1.5,0.9 2.7,2.1 3.4,3.7 0.8,1.6 1.3,3.4 1.3,5.3 0,1.9 -0.5,3.7 -1.3,5.3 z m 170,-19.8 v 4.6 h 9.1 v 24.6 h 5.1 v -24.6 h 9.1 v -4.6 z m -8.1,19.7 -15.1,-19.7 h -4.2 v 29.2 h 5.1 v -19.7 l 15.1,19.7 h 4.2 v -29.2 h -5.1 z m -126.2,-19.7 -8.5,15.5 -8.7,-15.5 h -6.3 v 29.2 h 5.4 v -20.2 l 9.5,16.8 9.7,-17.1 v 20.4 h 5.4 v -29.2 h -6.5 z m 27.6,1.2 c -1.9,-0.9 -4.1,-1.3 -6.2,-1.2 h -9.1 v 29.2 h 5.1 v -8.4 h 4 c 2.1,0 4.3,-0.4 6.2,-1.2 1.7,-0.8 3.1,-2 4.1,-3.6 0.9,-1.7 1.4,-3.6 1.4,-5.5 0,-1.9 -0.5,-3.8 -1.4,-5.5 -1,-1.7 -2.4,-3 -4.1,-3.8 z m -1.4,13.5 c -1.1,1 -2.8,1.5 -5.1,1.5 h -3.8 v -11.6 h 3.8 c 2.2,0 3.9,0.5 5.1,1.5 1.1,1 1.7,2.4 1.7,4.3 0.1,1.8 -0.5,3.3 -1.7,4.3 z m -32.1,-37.1 3,6.7 h 5.8 l -13.5,-29.2 h -5.5 l -13.4,29.2 h 5.7 l 3,-6.7 z m -7.4,-17 5.6,12.7 h -11.2 z m 56.2,39.4 h -5.1 v 29.2 h 19.4 v -4.6 h -14.3 z m 18.5,29.1 h 5.1 v -29.2 h -5.1 z m -205,32.9 c 0.1,7 0.2,12.1 0.3,14.6 0.1,0.3 0.1,0.7 0,1 0,0.4 0,0.7 0,0.7 0,1.4 0.2,2.8 0.6,4.1 0.4,-1.3 0.6,-2.7 0.6,-4.1 0,-0.5 0.2,-7.8 0.5,-19.5 -0.1,0.1 -0.2,0.2 -0.2,0.3 -0.7,0.9 -1.3,1.9 -1.8,2.9 z m -20.8,-146.000002 c 1.6,-1.7 3.1,-3.7 4.2,-5.8 -0.8,1.8 -3.9,8.6 -0.9,9.2 3.3,0.6 7,-0.4 13.7,-8.9 -0.2,-10.9 -0.4,-20.4 -0.5,-27.6 h -3.6 c -0.2,0 -0.3,0 -0.5,0 -2,0 -5.3,-0.2 -7.5,-3.5 -2.4,-3.6 -2.5,-7.3 -2.6,-10 -0.1,-3.9 -1.1,-11 -6,-15.0000005 -3.4,-2.7 -12.600004,-4.8 -21.100004,-1.4 -2.8,1.1 -8.4,4 -13.9,6.7000005 -5,2.5 -11.4,5.6 -13.4,5.6 3.3,-1.5 7.7,-3.7 12.5,-6.4 5.5,-3.0000005 11.3,-6.2000005 14.2,-7.4000005 5.8,-2.3 16.900004,-3 22.600004,1.6 5.4,4.4000005 6.5,12.0000005 6.6,16.1000005 0.1,2.7 0.2,6 2.3,9.3 1.9,2.8 4.9,2.8 6.7,2.8 h 0.4 3.2 c 0,-0.9 0,-1.7 0,-2.6 -3.2,0.2 -7.8,0.4 -9.8,-3.9 -2.4,-5.2 0.2,-18.5000005 -7.8,-24.1000005 -8,-5.6 -20.800004,-4.19999996 -32.200004,2.4 -11.3,6.5000005 -26.3,15.0000005 -44.8,22.4000005 -18.5,7.4 -29.9999999,10.4 -32.19999992,10.7 -2.09999998,0.4 1.70000002,1.8 9.59999992,2 7.9,0.2 14.5,-0.4 14.5,-0.4 l 58,-26.4 c 0,0 -50,24.9 -54.2,27.6 -4.2,2.7 -7.6,3.6 -7.3,6.1 0.3,2.5 3.5,2.2 12.3,2 8.8,-0.2 10.7,-1 13.7,-1.9 3,-0.9 35.5,-15.9 35.5,-15.9 0,0 -34.8,17.3 -39.8,21.3 -5,4 0.4,5.3 3.8,5.4 3.5,0.1 12.8,-0.4 18,-3 5.2,-2.6 21.4,-13 21.4,-13 0,0 -16,11.5 -19.1,14.1 -2.5,2.1 -3.8,3.9 -3.2,6.1 0.9,2.8 5.7,2.5 12.1,0.2 0,0 6.6,-2.3 9.1,-4.5 2.5,-2.3 9.5,-8.5 9.5,-8.5 0,0 -8.3,8.6 -10.4,12.3 -2,3.7 -2.4,4.6 -1.4,6.7 1.4,3 12,-0.1 15,-3.3 2.2,-2.5 4.300004,-5.1 6.200004,-7.9 0,0 -3.2,5.2 -3.900004,8.2 -0.7,3 -1.5,5.4 1.400004,5.7 3.2,0.5 6.2,0.6 9.6,-3.1 z m 19.8,68.100002 c 0.3,-0.2 0.6,-0.4 0.9,-0.6 v 0 c 0.6,-0.4 1.1,-0.7 1.5,-1.1 0.8,-0.5 1.6,-1.1 2.4,-1.6 0.1,-5.7 0.3,-11.5 0.4,-17.2 -1.6,-0.7 -3.3,-1.4 -5.1,-2.1 v 0 c -0.1,0 -0.2,-0.1 -0.3,-0.1 -0.2,-0.1 -0.3,-0.1 -0.5,-0.2 v 0 c -1.2,-0.4 -2.3,-0.9 -3.6,-1.3 -1.5,-0.6 -3,-1.1 -4.5,-1.7 -10,5.3 -12,7.8 -12,12.7 0,6.9 5.9,10 16.1,16.5 1.6,-1.2 3.2,-2.3 4.7,-3.3 z m -12.3,-12.3 c 0,0 -0.7,-4.4 10.6,-9.5 0.3,-0.1 0.6,-0.3 0.9,-0.4 0.1,6.9 0.2,13.8 0.4,20.7 -5.6,-3.8 -11.9,-7.4 -11.9,-10.8 z m 17.1,84.9 c -0.5,0.6 -1,1.2 -1.5,1.7 2.9,3.9 2.7,7.7 1.1,12.6 1.5,-1.7 4.5,-6 2,-11.6 -0.5,-0.9 -1,-1.8 -1.6,-2.7 z m -4.6,-41 c 1.1,1.1 2.4,2.4 3.7,3.7 v 0 c 0.8,0.8 1.6,1.6 2.5,2.5 0.1,0.1 0.3,0.2 0.5,0.4 6.8,-5.9 13,-11.5 13,-18.5 0,-5.5 -5.3,-10.5 -10.6,-14.5 -0.5,0.3 -1,0.6 -1.5,1 -1.2,0.8 -2.3,1.5 -3.3,2.2 v 0 c 0,0 -0.1,0 -0.1,0.1 -0.2,0.2 -0.5,0.3 -0.7,0.5 v 0 c -1.4,1 -2.7,1.9 -3.9,2.8 0.2,6.7 0.3,13.4 0.4,19.8 z m 4.3,-22.1 c 6.6,4.8 9.2,7.9 9.2,11.3 0,3.5 -3.7,7.6 -9.7,13.6 0.1,-8 0.3,-16.3 0.5,-24.9 z m 36.5,-96.100002 c 0,0 7,6.2 9.5,8.5 2.5,2.3 9.1,4.5 9.1,4.5 6.4,2.3 11.2,2.6 12.1,-0.2 0.7,-2.2 -0.7,-4.1 -3.2,-6.1 -3.1,-2.6 -19.1,-14.1 -19.1,-14.1 0,0 16.2,10.4 21.4,13 5.2,2.6 14.5,3.1 18,3 3.5,-0.1 8.8,-1.4 3.8,-5.4 -5,-4 -39.8,-21.3 -39.8,-21.3 0,0 32.4,15.1 35.5,15.9 3,0.9 4.9,1.6 13.7,1.9 8.8,0.2 11.9,0.5 12.3,-2 0.4,-2.4 -3.1,-3.3 -7.3,-6.1 -4.2,-2.7 -54.2,-27.6 -54.2,-27.6 l 58,26.4 c 0,0 6.6,0.6 14.5,0.4 7.9,-0.2 11.7,-1.6 9.6,-2 -2.1,-0.4 -13.7,-3.3 -32.2,-10.7 -18.5,-7.4 -33.5,-15.8 -44.8,-22.4000005 -11.3,-6.49999996 -24.2,-8 -32.2,-2.4 -8,5.6 -5.4,18.8000005 -7.8,24.1000005 -2,4.3 -6.6,4.1 -9.8,3.9 0,0.8 0,1.7 -0.1,2.6 h 3.3 0.4 c 1.8,0 4.8,0 6.7,-2.8 2.1,-3.2 2.2,-6.6 2.3,-9.3 0.1,-4.1 1.2,-11.7 6.6,-16.1000005 5.7,-4.6 16.8,-3.9 22.6,-1.6 2.9,1.1 8.7,4.3 14.2,7.4000005 4.8,2.7 9.2,4.9 12.5,6.4 -2.1,0 -8.4,-3.1 -13.4,-5.6 -5.4,-2.8000005 -11,-5.6000005 -13.9,-6.7000005 -8.5,-3.4 -17.7,-1.3 -21.1,1.4 -5,4.0000005 -5.9,11.1000005 -6,15.0000005 -0.1,2.7 -0.2,6.5 -2.6,10 -2.1,3.3 -5.4,3.5 -7.5,3.5 -0.2,0 -0.3,0 -0.5,0 h -3.6 c -0.2,7.2 -0.4,16.6 -0.6,27.3 6.8,8.7 10.7,9.8 13.9,9.1 3,-0.6 0,-7.4 -0.9,-9.2 1.2,2.1 2.6,4 4.2,5.8 3.3,3.7 6.4,3.6 9.4,3.2 3,-0.4 2.1,-2.7 1.4,-5.7 -0.7,-3 -3.9,-8.2 -3.9,-8.2 1.9,2.7 4,5.4 6.2,7.9 3,3.2 13.6,6.4 15,3.3 0.9,-2 0.6,-3 -1.4,-6.7 -1.9,-3.7 -10.3,-12.3 -10.3,-12.3 z m -38.5,-30.6 c 1.6,0 3.2,-0.5 4.5,-1.4 1.3,-0.9 2.4,-2.2 3,-3.6 0.6,-1.5 0.8,-3.1 0.5,-4.7000005 -0.3,-1.6 -1.1,-3 -2.2,-4.2 -1.1,-1.1 -2.6,-1.9 -4.2,-2.2 -1.6,-0.3 -3.2,-0.2 -4.7,0.5 -1.5,0.6 -2.8,1.7 -3.6,3 -0.9,1.3 -1.4,2.9 -1.4,4.5000005 0,1.1 0.2,2.1 0.6,3.1 0.4,1 1,1.9 1.8,2.6 0.8,0.8 1.6,1.4 2.6,1.8 0.9,0.4 2,0.6 3.1,0.6 z m 26.6,60.8 c 0,0 -0.2,-5.6 -9.3,-6.2 -9.3,-0.6 -9.7,3.4 -9.5,4.9 v 0 c 0.7,0 1.3,0.2 1.3,0.4 0,0.2 -0.5,0.4 -1.1,0.4 0.5,1.5 1.9,3.3 5.9,5.3 3.3,1.6 4.9,1.5 6.8,1.2 0,0 2.2,1.3 2.2,3.4 0,2 -3.5,5.9 -19.9,14.100002 1,-44.200002 1.9,-83.000002 1.9,-83.000002 h 1 c 0.4,0 0.8,-0.2 1.1,-0.5 0.3,-0.3 0.5,-0.7 0.5,-1.1 v -0.5 c 0,-0.2 0,-0.4 -0.1,-0.6 -0.1,-0.2 -0.2,-0.4 -0.4,-0.5 -0.9,1 -1.9,1.8 -3.1,2.4 -1.2,0.6 -2.5,0.8 -3.8,0.8 -1.3,0 -2.6,-0.3 -3.8,-0.8 -1.2,-0.5 -2.3,-1.4 -3.1,-2.4 -0.2,0.2 -0.3,0.3 -0.4,0.5 -0.1,0.2 -0.1,0.4 -0.1,0.6 v 0.5 c 0,0.4 0.2,0.8 0.5,1.1 0.3,0.3 0.7,0.5 1.1,0.5 h 1 c 0,0 0.7,37.7 1.4,81.100002 1.4,0.7 2.8,1.4 4.4,2.2 0.2,0.1 0.5,0.2 0.7,0.3 3.7,1.8 6.8,3.3 9.4,4.7 8.8,-3.4 17.4,-7.3 20,-12.800002 4.6,-10.2 -4.6,-16 -4.6,-16 z m -12.2,-2.3 c -1,0 -1.8,-0.5 -1.8,-1.1 0,-0.6 0.8,-1.1 1.8,-1.1 1,0 1.8,0.5 1.8,1.1 0,0.6 -0.8,1.1 -1.8,1.1 z m -15.9,126.600002 c 0.8,-1 1.5,-2 2.3,-2.9 0.1,-5.7 0.3,-12.1 0.4,-19 -1,-1 -2.1,-2 -3.3,-3.1 v 0 c -0.4,-0.3 -0.7,-0.7 -1.1,-1 -0.5,-0.5 -1,-0.9 -1.5,-1.3 -2.8,2.6 -8.3,8.4 -8.3,13.4 0,5.9 5.7,11.9 10,16.2 0.4,-0.9 0.9,-1.6 1.5,-2.3 z m -0.6,-23.8 c 0.2,8.5 0.3,16.3 0.4,23 -3.3,-4.4 -6.8,-8.9 -6.8,-12 0,-2.9 1.7,-6.2 6.4,-11 z m 2.3,-75.4 c -19.5,-9.400002 -23.5,-13.700002 -23.5,-15.800002 0,-2.1 2.2,-3.4 2.2,-3.4 1.9,0.4 3.5,0.4 6.8,-1.2 4,-1.9 5.4,-3.8 5.9,-5.3 -0.6,0 -1.1,-0.2 -1.1,-0.4 0,-0.2 0.6,-0.4 1.3,-0.4 0,0 0,-0.1 0,-0.1 0.1,-1.5 -0.4,-5.4 -9.6,-4.8 -9.1,0.6 -9.3,6.2 -9.3,6.2 0,0 -9.200004,5.9 -4.4,15.9 4.2,8.900002 23.9,13.600002 35.3,18.700002 11.3,5.1 10.6,9.5 10.6,9.5 0,3.8 -7.6,7.8 -13.6,12 -6,4.2 -18.7,11.5 -18.7,20.1 0,7.9 7.9,14 15.6,20.8 7.8,6.8 10.3,10.9 10.3,14.7 0,5.2 -8.6,12.2 -13,20.9 -4.4,8.7 4.3,22.2 1.6,15.1 -2.8,-7.1 -1.3,-12.1 2.3,-17.1 4.4,-6.1 13.8,-12.1 13.8,-20.2 0,-6.8 -9.9,-14.8 -9.9,-14.8 -8.8,-8.8 -14.4,-13.8 -14.4,-18.2 0,-4.4 4.2,-8.3 16,-16 11.7,-7.6 18.6,-10.6 18.6,-18 0,-6.5 -3.3,-8.8 -22.8,-18.2 z m -15,-29.500002 c 1,0 1.8,0.5 1.8,1.1 0,0.6 -0.8,1.1 -1.8,1.1 -1,0 -1.8,-0.5 -1.8,-1.1 0,-0.6 0.8,-1.1 1.8,-1.1 z m 240.8,76.700002 -13.5,29.2 h 5.7 l 3,-6.7 h 15 l 3,6.7 h 5.8 l -13.5,-29.2 z m -2.9,18.2 5.6,-12.7 5.6,12.7 z"
+   id="path134" />
+</svg>
+
+              </a>
+              <a href="/gdpr" alt="GDPR" aria-label="GDPR" class="tooltip tooltip-top" data-tip="EU Cloud (GDPR)">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-14 h-14 md:w-16 md:h-16" width="114" height="114" viewBox="0 0 114 114" fill="none">
+  <g clip-path="url(#clip0_6_7094)">
+    <path d="M56.5798 113.572C25.3364 113.574 -0.00741282 88.2222 -0.00024262 56.9736C0.00692758 25.738 25.3737 0.411508 56.6329 0.42872C87.8605 0.445931 113.171 25.8283 113.143 57.0984C113.114 88.2566 87.7616 113.57 56.5798 113.572Z" fill="#003398"></path>
+    <path d="M69.0689 64.4245C69.056 60.8231 69.0445 57.223 69.0302 53.6216C69.0302 53.4036 69.0603 53.2644 69.3356 53.2731C71.3834 53.3333 73.4398 53.1296 75.4805 53.3821C77.0651 53.5786 77.9771 54.5639 78.0761 56.0226C78.1951 57.7953 77.481 58.8524 75.8289 59.3415C75.6755 59.3874 75.522 59.4304 75.3041 59.4935C77.0765 60.684 77.7835 62.6102 79.0225 64.3471C78.0818 64.3471 77.2859 64.3471 76.4915 64.3471C76.1831 64.3471 76.1272 64.0703 75.9996 63.8881C75.208 62.7594 74.4537 61.6048 73.6392 60.4918C73.1114 59.7703 72.1348 59.5437 71.3232 59.8621C71.4107 61.3566 71.4953 62.8511 71.2802 64.3428C70.5488 64.5407 69.8074 64.4217 69.0689 64.4217V64.4245Z" fill="#FEFEFE"></path>
+    <path d="M42.6438 53.2962C43.8341 53.7882 44.7462 54.5541 45.1893 55.8105C45.3284 56.2064 45.3441 56.4531 44.8179 56.443C44.6572 56.4402 44.4938 56.5133 44.3331 56.5563C43.6262 56.7414 43.0956 56.8289 42.6209 55.9468C42.1003 54.9829 40.9904 54.8739 39.9493 55.0604C38.6802 55.287 37.8728 56.063 37.5573 57.3108C37.315 58.2717 37.3236 59.247 37.5702 60.2109C38.0592 62.1271 39.7471 63.055 41.6429 62.457C42.0688 62.3221 42.5062 62.206 42.8417 61.8804C42.8934 61.7699 42.9895 61.7226 43.1042 61.7025C43.3236 61.3511 43.163 60.9653 43.2003 60.5967C43.2332 60.2611 42.9794 60.2969 42.7657 60.2969C42.2165 60.2969 41.6673 60.2783 41.1195 60.3027C40.7667 60.3185 40.6276 60.2367 40.6161 59.8394C40.5774 58.4295 40.5588 58.4309 41.9526 58.4324C43.1171 58.4324 44.283 58.4324 45.4818 58.4324C45.4818 59.7118 45.4904 60.9452 45.4775 62.1787C45.4732 62.5487 45.4818 62.9245 45.0875 63.177C42.9178 64.5653 40.6233 65.0544 38.1696 64.0619C36.3054 63.3089 35.4966 61.7484 35.1524 59.8652C34.7036 57.4069 35.749 54.8854 37.7265 53.738C38.7318 53.1542 39.8403 53.0696 40.9675 53.0911C41.2055 53.0954 41.4421 53.1069 41.6802 53.1141C42.0358 52.9979 42.3398 53.1485 42.6438 53.2962Z" fill="#FEFEFE"></path>
+    <path d="M53.1094 53.2891C53.7691 53.4914 54.4316 53.6893 55.0023 54.0995C55.3307 54.1726 55.5315 54.3734 55.6046 54.7019C57.0788 56.8576 57.152 59.2041 56.3575 61.5749C55.7394 63.4194 54.2853 64.3001 52.358 64.3445C50.9039 64.3775 49.4483 64.3359 47.9956 64.3617C47.5597 64.3689 47.4923 64.1939 47.4937 63.8167C47.5052 60.4792 47.5095 57.1402 47.4894 53.8026C47.4866 53.3379 47.6414 53.2619 48.0602 53.2676C49.5143 53.2863 50.9684 53.2619 52.4211 53.2547C52.6534 53.2031 52.8871 53.1457 53.1094 53.2906V53.2891Z" fill="#FEFEFE"></path>
+    <path d="M58.7194 58.7708C58.7194 57.1027 58.7165 55.4347 58.7237 53.7652C58.7237 53.563 58.5932 53.2618 59.0148 53.2747C60.8948 53.332 62.7834 53.1327 64.6549 53.3865C66.1477 53.5888 67.1214 54.8022 67.1716 56.3813C67.2318 58.2817 66.3628 59.6342 64.8398 60.0029C63.7371 60.2711 62.6113 60.1477 61.4971 60.152C61.0669 60.152 60.935 60.2409 60.9579 60.7042C61.0067 61.7269 60.9579 62.7538 60.9823 63.7779C60.9923 64.1895 60.9106 64.3573 60.4431 64.3645C58.7194 64.3903 58.7194 64.4089 58.7194 62.7022C58.7194 61.3912 58.7194 60.0803 58.7194 58.7694V58.7708Z" fill="#FEFEFE"></path>
+    <path d="M93.2338 55.2394C93.7587 54.155 93.9724 52.9632 94.394 51.843C94.4929 51.5805 94.5818 51.3137 94.7066 50.9595C95.0034 51.7971 95.2659 52.5343 95.5269 53.273C95.7707 53.7391 95.8997 54.2497 96.0503 54.7474C96.1578 55.1017 96.3328 55.2293 96.7085 55.2207C97.8013 55.1949 98.8954 55.2064 99.9882 55.2164C100.218 55.2178 100.464 55.139 100.679 55.2939C99.7444 56.2448 98.5756 56.8916 97.513 57.6733C97.11 57.9702 97.0312 58.1811 97.1961 58.6458C97.6191 59.8333 97.9748 61.0453 98.4122 62.4222C97.2162 61.553 96.1664 60.8201 95.154 60.0399C94.7783 59.7501 94.5446 59.796 94.1932 60.0743C93.3385 60.7541 92.4451 61.3867 91.5589 62.0249C91.4011 62.1382 91.2735 62.3605 91.0311 62.2788C91.4384 60.9965 91.8184 59.7143 92.2616 58.455C92.3878 58.095 92.2874 57.9573 92.0235 57.7723C91.0498 57.0924 90.0847 56.3982 89.1282 55.694C88.992 55.5936 88.6908 55.5836 88.7955 55.2766C90.274 55.1476 91.7539 55.2207 93.2324 55.2408L93.2338 55.2394Z" fill="#FECD00"></path>
+    <path d="M81.3443 88.6281C81.578 88.9164 81.2367 88.9509 81.132 89.0283C80.2315 89.6895 79.3251 90.345 78.4002 90.9703C77.9944 91.2443 77.8409 91.4924 78.0374 92.0116C78.4791 93.1805 78.8318 94.3839 79.285 95.7737C78.0947 94.9103 77.0422 94.1802 76.0326 93.3957C75.6626 93.1088 75.436 93.1045 75.066 93.3957C74.0751 94.1716 73.0426 94.8931 71.8581 95.7608C72.1621 94.774 72.3987 93.9579 72.6655 93.1533C73.2348 91.4293 73.2448 91.4279 71.8151 90.3651C71.1855 89.8975 70.5359 89.4572 69.9092 88.9867C69.8218 88.9207 69.436 88.9035 69.7529 88.631C70.9604 88.5234 72.1722 88.5794 73.381 88.5966C73.8744 88.6038 74.1024 88.436 74.2443 87.9698C74.4379 87.3373 74.5928 86.6847 74.914 86.0952C75.1177 85.5215 75.3227 84.9478 75.5579 84.2852C75.9308 85.3752 76.2735 86.3792 76.6162 87.3832C76.8213 88.4575 77.4896 88.687 78.5106 88.5995C79.4456 88.5191 80.4021 88.5148 81.3471 88.6296L81.3443 88.6281Z" fill="#FECD00"></path>
+    <path d="M35.9554 88.0972C36.3713 86.8623 36.7871 85.6289 37.2432 84.2749C37.7465 85.7866 38.204 87.1578 38.6614 88.529C39.8847 88.648 41.1108 88.539 42.334 88.5849C42.5907 88.5949 42.8531 88.5361 43.1041 88.6365C43.2389 88.8775 43.0123 88.8818 42.8947 88.9664C41.9497 89.6491 41.0219 90.3577 40.0553 91.0103C39.6595 91.277 39.5491 91.4965 39.7284 91.9712C40.0955 92.9465 40.3765 93.9548 40.6935 94.9488C40.7494 95.1252 40.877 95.2916 40.7164 95.5784C39.9492 95.0277 39.1834 94.4912 38.432 93.9333C37.2661 93.0684 37.2704 93.0627 36.0974 93.8903C35.3115 94.4439 34.5859 95.085 33.562 95.6415C33.9865 94.3277 34.3292 93.1775 34.735 92.0472C34.9014 91.5825 34.91 91.3143 34.4296 91.0131C33.5433 90.4581 32.7116 89.8141 31.8756 89.183C31.682 89.0367 31.3607 88.9793 31.365 88.6365C32.584 88.5118 33.8072 88.5906 35.0276 88.5935C35.4549 88.5935 35.7604 88.4802 35.9525 88.0987L35.9554 88.0972Z" fill="#FECD00"></path>
+    <path d="M29.2685 36.2209C28.0825 37.0757 27.0701 37.8546 26.0032 38.5502C25.5414 38.8514 25.5142 39.1253 25.6791 39.5857C26.0376 40.5912 26.3445 41.6167 26.6858 42.6293C26.7474 42.8128 26.822 42.9835 26.7532 43.236C25.7121 42.4658 24.681 41.7185 23.6685 40.9483C23.3502 40.7059 23.1265 40.6299 22.7565 40.9182C21.767 41.6927 20.7302 42.4041 19.6332 43.1972C19.6116 42.5819 19.864 42.1273 20.0031 41.6525C20.2082 40.9469 20.4018 40.2297 20.6872 39.5556C20.9052 39.0393 20.7288 38.794 20.3229 38.5186C19.2904 37.8144 18.2823 37.0743 17.0978 36.2281C18.582 36.2281 19.8569 36.208 21.1317 36.2396C21.582 36.251 21.8029 36.1377 21.9362 35.6788C22.299 34.4266 22.7221 33.1917 23.1509 31.855C23.5768 32.7715 23.7933 33.6851 24.0729 34.5744C24.5906 36.2209 24.582 36.2238 26.2857 36.2224C27.2149 36.2224 28.1428 36.2224 29.2699 36.2224L29.2685 36.2209Z" fill="#FDCD01"></path>
+    <path d="M24.6222 74.4761C24.9004 74.7587 25.2474 74.5837 25.5557 74.5909C26.7231 74.6181 27.8918 74.6024 29.257 74.6024C28.431 75.1976 27.747 75.701 27.0543 76.1901C25.9931 76.9397 25.6695 77.9371 26.0835 79.182C26.3416 79.9637 26.5926 80.7468 26.908 81.7207C25.6977 80.8314 24.6509 80.077 23.6227 79.2967C23.3172 79.0658 23.1193 79.0128 22.7723 79.2838C21.7699 80.0684 20.7173 80.7898 19.5471 81.6346C19.8339 80.3595 20.1953 79.2867 20.604 78.2368C20.8707 77.5498 20.7732 77.1511 20.1136 76.748C19.1269 76.1428 18.2206 75.4084 17.1035 74.6009C18.5662 74.6009 19.8354 74.6095 21.1045 74.5923C21.3139 74.5895 21.5806 74.7573 21.7455 74.4718C21.8014 73.9684 21.9721 73.5037 22.2087 73.0591C22.517 72.1497 22.8253 71.2404 23.158 70.2637C23.746 71.5072 23.9439 72.8468 24.4845 74.0602C24.6107 74.1721 24.6322 74.3184 24.6251 74.4747L24.6222 74.4761Z" fill="#FECD00"></path>
+    <path d="M88.3811 73.7864C88.7826 72.6332 89.1841 71.4801 89.6144 70.248C90.1134 71.7024 90.5924 73.0965 91.0699 74.4921V74.4892C91.6822 74.7359 92.3218 74.5681 92.9471 74.5939C93.7802 74.6269 94.6163 74.6025 95.666 74.6025C94.698 75.3096 93.8849 75.922 93.0518 76.5072C91.926 77.2975 91.926 77.2875 92.3505 78.6084C92.6617 79.5737 92.9542 80.5447 93.307 81.6807C92.1268 80.8301 91.0584 80.1044 90.046 79.3098C89.6703 79.0143 89.4695 79.0904 89.1426 79.3399C88.1201 80.1159 87.0704 80.8545 85.8973 81.705C86.3304 80.354 86.6875 79.1334 87.1191 77.9401C87.2855 77.4811 87.2425 77.2487 86.8252 76.9662C85.7611 76.2491 84.7372 75.4717 83.5383 74.6025C84.6884 74.6025 85.6908 74.6283 86.6918 74.591C87.1894 74.5724 87.7114 74.7646 88.1889 74.4734C88.1961 74.2296 88.1975 73.9829 88.3796 73.7864H88.3811Z" fill="#FECD00"></path>
+    <path d="M81.4833 22.3057C80.4809 23.0243 79.4914 23.7629 78.4718 24.4542C78.0387 24.7483 77.9111 25.0064 78.119 25.5371C78.5076 26.5282 78.783 27.5637 79.1157 28.5763C79.1773 28.7628 79.2204 28.9406 79.1716 29.1658C78.119 28.3899 77.0664 27.6369 76.044 26.8452C75.7127 26.5884 75.5033 26.61 75.1807 26.8552C74.141 27.6469 73.0726 28.3985 71.8809 29.2648C72.3097 27.9338 72.6654 26.7304 73.0927 25.5529C73.2748 25.0495 73.239 24.7856 72.7514 24.47C71.6988 23.7887 70.7108 23.0114 69.5377 22.1594C70.9804 22.1594 72.2638 22.1149 73.543 22.1809C74.075 22.2082 74.2313 22.0203 74.3661 21.5742C74.7375 20.3407 75.1534 19.1202 75.608 17.7246C76.0726 19.1603 76.4971 20.4053 76.87 21.666C76.9861 22.0619 77.1539 22.1852 77.5583 22.1766C78.8532 22.1508 80.1496 22.1666 81.4446 22.1666C81.4575 22.2125 81.4689 22.2584 81.4818 22.3057H81.4833Z" fill="#FECD00"></path>
+    <path d="M16.9085 54.3002C17.2699 53.2374 17.6313 52.1746 18.04 50.9727C18.4974 52.3739 18.9363 53.639 19.3149 54.9212C19.4253 55.2956 19.5773 55.4074 19.9473 55.4031C21.2522 55.3845 22.5572 55.396 24.0687 55.396C23.0663 56.1289 22.2116 56.7714 21.3397 57.3882C20.3588 58.0824 20.3531 58.0723 20.7116 59.2011C20.9769 60.0387 21.235 60.8792 21.5046 61.7168C21.5763 61.9377 21.6853 62.1471 21.5907 62.3795C20.5323 61.6092 19.4611 60.862 18.43 60.0631C18.1117 59.8164 17.9281 59.8437 17.6342 60.0645C16.5916 60.8448 15.529 61.5978 14.3043 62.4842C14.7732 61.0528 15.1647 59.8293 15.5777 58.6159C15.6996 58.2602 15.6939 58.0508 15.3239 57.8041C14.2269 57.0712 13.1757 56.2694 11.9855 55.4074C13.3779 55.4074 14.6241 55.416 15.8689 55.3988C16.1055 55.396 16.3865 55.5537 16.5859 55.2827C16.5959 54.9241 16.7207 54.6028 16.9057 54.3016L16.9085 54.3002Z" fill="#FECD00"></path>
+    <path d="M57.859 16.8986C58.2189 17.1639 58.6305 17.0076 59.0134 17.0176C60.0846 17.0434 61.1587 17.0262 62.4035 17.0262C61.7237 17.5311 61.1558 17.9556 60.5837 18.3759C59.9728 18.8248 59.0693 19.1547 58.8284 19.7513C58.586 20.3552 59.2127 21.1569 59.4092 21.887C59.5985 22.5869 59.9312 23.2481 60.0229 24.047C58.9919 23.2911 57.9909 22.6055 57.0487 21.8482C56.5468 21.4452 56.1926 21.4811 55.7094 21.8655C54.7629 22.6199 53.7662 23.3098 52.6878 24.1029C53.0894 22.8135 53.4536 21.6446 53.8179 20.4756C53.6917 20.1745 53.9899 19.9062 53.881 19.6065C52.7581 18.7803 51.6352 17.9542 50.3733 17.0262C51.7457 17.0262 52.9832 17.0348 54.2194 17.019C54.4632 17.0162 54.7442 17.1438 54.9522 16.8971C54.9866 16.5013 55.054 16.114 55.2949 15.7813C55.6491 14.773 56.0033 13.7647 56.3977 12.6431C56.8093 13.8479 57.1864 14.9523 57.5636 16.0581C57.7414 16.3105 57.8203 16.5974 57.8561 16.8986H57.859Z" fill="#FECD00"></path>
+    <path d="M55.0037 93.5391C55.4569 92.1779 55.9115 90.8154 56.3933 89.3696C56.7977 90.5601 57.182 91.6917 57.5664 92.8248C57.7499 93.0744 57.8101 93.3684 57.8761 93.661C58.8341 93.8819 59.8063 93.7083 60.7714 93.7556C61.2633 93.78 61.7581 93.7599 62.4822 93.7599C61.2791 94.6248 60.2652 95.3778 59.2227 96.0892C58.8441 96.3474 58.6835 96.5568 58.8685 97.0473C59.2614 98.0886 59.564 99.1629 59.9196 100.22C59.9813 100.404 60.0487 100.573 59.9784 100.774C58.923 100.005 57.8589 99.2532 56.825 98.4629C56.498 98.2134 56.2714 98.2234 55.9602 98.4629C55.1299 99.0983 54.2838 99.7136 53.4349 100.325C53.237 100.467 53.0778 100.71 52.7494 100.67C53.1366 99.4426 53.498 98.2263 53.9124 97.0272C54.0544 96.617 53.9985 96.3918 53.6371 96.1423C52.5802 95.4165 51.5491 94.6521 50.4664 93.8718C50.7073 93.6868 50.9683 93.7757 51.205 93.7628C52.454 93.6983 53.7102 93.8804 54.9564 93.6639C54.932 93.6065 54.9464 93.5635 55.0066 93.5391H55.0037Z" fill="#FECD00"></path>
+    <path d="M35.9569 21.5026C36.3555 20.3136 36.7528 19.1246 37.1815 17.8438C37.6175 18.6756 37.8068 19.5362 38.0706 20.3595C38.65 22.1667 38.6271 22.1738 40.4956 22.1724C41.3474 22.1724 42.1992 22.1724 43.16 22.1724C42.4817 22.8422 41.7145 23.2524 41.042 23.7802C40.5587 24.1603 39.8187 24.4242 39.6323 24.9076C39.466 25.3421 39.9062 26.0048 40.0668 26.5699C40.3106 27.4305 40.6935 28.2509 40.8469 29.2003C39.7356 28.3929 38.6701 27.6442 37.6361 26.8553C37.3092 26.6057 37.0898 26.6143 36.7743 26.8567C35.9268 27.5079 35.0577 28.1318 34.1887 28.7529C34.0109 28.8791 33.8689 29.1157 33.552 29.0411C33.9521 27.8234 34.3307 26.6143 34.7508 25.4196C34.9014 24.9922 34.8225 24.7756 34.431 24.5146C33.367 23.806 32.3474 23.0301 31.1586 22.1695C32.4779 22.1695 33.6395 22.181 34.801 22.1624C35.1208 22.1566 35.465 22.2828 35.7633 22.0534C35.7561 21.8439 35.8206 21.6604 35.9569 21.5012V21.5026Z" fill="#FECD00"></path>
+    <path d="M88.8041 34.1041C89.0651 33.3611 89.3246 32.6167 89.6143 31.7935C90.023 32.9896 90.4073 34.1199 90.7931 35.2501C90.9766 35.9758 91.4527 36.1451 92.164 36.1078C93.2768 36.0504 94.3954 36.0776 95.5111 36.0992C95.5842 36.2741 95.4781 36.3301 95.3462 36.4233C94.318 37.1533 93.3113 37.9149 92.2716 38.6278C91.9704 38.8343 91.936 38.9935 92.0479 39.3205C92.4422 40.4622 92.795 41.6182 93.1736 42.7671C93.2195 42.9077 93.2654 43.0353 93.2066 43.1931C92.1769 42.4387 91.1315 41.7129 90.1363 40.9226C89.7405 40.6085 89.4867 40.6128 89.1024 40.9097C88.0871 41.6943 87.0402 42.4387 85.8987 43.2777C86.3232 41.9367 86.6788 40.6946 87.1191 39.4855C87.2969 38.9964 87.1764 38.7497 86.7878 38.4872C85.9016 37.8863 85.0268 37.2681 84.1664 36.6298C83.98 36.4921 83.6444 36.4563 83.6659 36.1063C84.8963 36.0705 86.1296 36.0719 87.3586 36.1049C87.8963 36.1192 88.1831 35.9701 88.3165 35.4322C88.4298 34.9776 88.5488 34.5128 88.8026 34.1041H88.8041Z" fill="#FECD00"></path>
+    <path d="M88.8041 34.1043C88.6277 34.6881 88.4513 35.2718 88.2749 35.8556C88.219 36.0391 88.1688 36.1983 87.9092 36.1869C86.4953 36.1295 85.0784 36.2815 83.6659 36.1051C83.6716 35.7437 83.9398 35.9588 84.0574 35.9574C85.196 35.9373 86.3361 35.9258 87.4747 35.9574C87.8834 35.9689 88.0784 35.8269 88.1846 35.4497C88.3265 34.9491 88.5043 34.4586 88.6693 33.9652C88.6736 33.9508 88.6979 33.9451 88.7137 33.9351C88.7438 33.991 88.7739 34.0484 88.8041 34.1043Z" fill="#032599"></path>
+    <path d="M47.4048 64.449C47.227 64.3085 47.2643 64.1091 47.2628 63.9227C47.2628 60.4962 47.2628 57.0697 47.2628 53.6432C47.2628 53.5758 47.2886 53.5084 47.4048 53.4438V64.4476L47.4019 64.4505L47.4048 64.449Z" fill="#00229B"></path>
+    <path d="M95.5111 36.099C94.1244 36.2883 92.7305 36.1635 91.3409 36.1664C90.7831 36.1664 90.9078 35.5998 90.7931 35.2499C90.9508 35.2226 90.9666 35.2198 90.9852 35.3158C91.0842 35.8279 91.3911 35.9727 91.9002 35.9584C93.0847 35.924 94.2721 35.9484 95.458 35.9498C95.4767 35.9498 95.5111 35.9656 95.5125 35.9785C95.5182 36.0172 95.5125 36.0588 95.5111 36.099Z" fill="#03249A"></path>
+    <path d="M74.9111 86.0936C74.6817 86.8351 74.4293 87.5694 74.2314 88.3181C74.1496 88.6265 73.9905 88.6595 73.7295 88.6566C72.403 88.6408 71.0765 88.6365 69.75 88.6294C70.7667 88.3396 71.805 88.5017 72.8317 88.516C73.8929 88.5304 73.8915 88.5835 74.2314 87.5737C74.4121 87.0344 74.5942 86.4952 74.7777 85.9559C74.782 85.9415 74.8064 85.9344 74.8222 85.9243L74.9125 86.095L74.9111 86.0936Z" fill="#032699"></path>
+    <path d="M100.679 55.2941C99.2998 55.2999 97.9188 55.3042 96.5393 55.3099C96.3256 55.3099 96.1291 55.3386 96.0503 55.0402C95.8954 54.4465 95.5986 53.8943 95.5269 53.2747C95.5297 53.2517 95.5254 53.2216 95.5383 53.2058C95.5627 53.1757 95.5971 53.1527 95.6272 53.1255C95.7879 53.5931 95.9786 54.052 96.099 54.5296C96.2166 55.0001 96.4418 55.1751 96.9465 55.1536C97.969 55.1091 98.9944 55.1363 100.018 55.1435C100.245 55.145 100.503 55.0589 100.679 55.2955V55.2941Z" fill="#042699"></path>
+    <path d="M22.2073 73.0604C22.117 73.5523 21.9621 74.0228 21.7441 74.4731H17.3402C17.3402 74.4258 17.3402 74.3785 17.3402 74.3311C18.4215 74.3311 19.5056 74.2838 20.5826 74.3469C21.3412 74.3914 21.813 74.202 21.9205 73.3931C21.9435 73.2196 22.0496 73.0575 22.1184 72.8911C22.1371 72.9012 22.1672 72.9083 22.1729 72.9241C22.1901 72.9671 22.1973 73.0159 22.2088 73.0618L22.2073 73.0604Z" fill="#042699"></path>
+    <path d="M81.3442 88.6281C80.022 88.6367 78.6984 88.6353 77.3762 88.6583C77.0664 88.664 76.903 88.5937 76.8556 88.2595C76.8126 87.9612 76.6965 87.6729 76.6133 87.3803C76.6678 87.1336 76.7008 87.1508 76.7911 87.376C77.2213 88.4517 77.2328 88.3743 78.4044 88.4675C79.3853 88.5449 80.3819 88.3025 81.3442 88.6281Z" fill="#03259A"></path>
+    <path d="M55.2964 15.7813C55.2276 16.1672 55.153 16.5516 54.9537 16.8972C53.4924 16.8972 52.0296 16.8972 50.5684 16.8972C50.5684 16.8499 50.5684 16.8026 50.5684 16.7552C51.5378 16.7552 52.5086 16.7222 53.4766 16.7653C54.2754 16.8011 55.001 16.814 55.1329 15.7756C55.1358 15.7584 55.1659 15.7283 55.1759 15.7311C55.2175 15.7412 55.2562 15.7627 55.2964 15.7799V15.7813Z" fill="#03249A"></path>
+    <path d="M16.9085 54.3C16.8784 54.6529 16.7507 54.9727 16.5887 55.2811H12.1934V55.1377C13.1456 55.1377 14.0992 55.1233 15.0514 55.142C15.833 55.1577 16.6661 55.3026 16.7751 54.1566C16.7751 54.1466 16.8038 54.138 16.8196 54.1279C16.8483 54.1853 16.8784 54.2412 16.907 54.2986L16.9085 54.3Z" fill="#062898"></path>
+    <path d="M57.859 16.8983C57.6697 16.6502 57.5951 16.3619 57.5664 16.0579C57.7916 15.6247 57.7514 16.1195 57.7528 16.1281C57.8561 16.6488 58.1787 16.7807 58.6835 16.7664C59.8723 16.732 61.0626 16.7549 62.2557 16.8998H57.859V16.8983Z" fill="#03259A"></path>
+    <path d="M57.8762 93.6609C57.651 93.4271 57.6037 93.1274 57.5664 92.8247C57.7901 92.3916 57.7514 92.885 57.7528 92.895C57.8561 93.4128 58.1744 93.5476 58.6807 93.5333C59.8824 93.4988 61.087 93.5218 62.2887 93.6623H57.8747L57.8762 93.6609Z" fill="#03259A"></path>
+    <path d="M35.9554 88.0974C35.964 88.5133 35.7804 88.6711 35.3488 88.6611C34.0223 88.6324 32.6944 88.641 31.3665 88.6353C32.3588 88.3283 33.377 88.5549 34.3822 88.4976C34.9473 88.4646 35.5954 88.7041 35.8636 87.9253C35.8822 87.9368 35.9124 87.9425 35.9181 87.9597C35.9353 88.0042 35.9425 88.0515 35.9539 88.0974H35.9554Z" fill="#01239A"></path>
+    <path d="M88.381 73.7861C88.3896 74.0342 88.3136 74.2608 88.1903 74.4731H83.7906C83.7906 74.4258 83.7906 74.3784 83.7906 74.3311C84.8963 74.3311 86.0034 74.3153 87.109 74.3383C87.6238 74.3497 88.1014 74.3698 88.2634 73.7387C88.2634 73.733 88.3093 73.7316 88.328 73.7387C88.348 73.7473 88.3624 73.7703 88.3796 73.7861H88.381Z" fill="#03259A"></path>
+    <path d="M35.9569 21.5027C35.9726 21.715 35.8952 21.8943 35.7633 22.0549C34.2532 22.0549 32.7417 22.0549 31.2317 22.0549V21.9115C32.4392 21.9115 33.6452 21.9043 34.8526 21.9158C35.2958 21.9201 35.7346 21.9617 35.8221 21.3622C35.8235 21.3507 35.8522 21.3435 35.8679 21.3335C35.8981 21.3894 35.9267 21.4468 35.9569 21.5027Z" fill="#062798"></path>
+    <path d="M24.6222 74.476C24.4917 74.3656 24.473 74.2179 24.4816 74.0615C24.4931 74.0156 24.506 73.9697 24.5175 73.9238C24.9061 74.5248 25.5156 74.3125 26.0519 74.324C27.0486 74.3441 28.0452 74.3297 29.0419 74.476H24.6222Z" fill="#02249A"></path>
+    <path d="M47.4062 64.4463H52.5186C52.5186 64.4951 52.52 64.5424 52.5215 64.5912C51.347 64.5912 50.1711 64.6141 48.998 64.5811C48.4674 64.5668 47.9139 64.7532 47.4062 64.4492L47.4091 64.4463H47.4062Z" fill="#01239B"></path>
+    <path d="M43.1056 88.6352C41.7476 88.6409 40.391 88.6481 39.0329 88.6495C38.901 88.6495 38.7404 88.7055 38.6615 88.529C39.1362 88.3469 39.6237 88.5233 40.1099 88.4817C40.9947 88.4057 41.8938 88.4874 42.7858 88.5161C42.8933 88.519 42.998 88.595 43.1042 88.6366L43.1056 88.6352Z" fill="#00229B"></path>
+    <path d="M55.0038 93.5393C54.9865 93.5808 54.9708 93.6224 54.9536 93.664C53.4435 93.664 51.932 93.664 50.422 93.664C50.422 93.6167 50.422 93.5694 50.422 93.522C51.6753 93.522 52.9301 93.4962 54.182 93.5421C54.4574 93.5522 54.737 93.2323 55.0038 93.5393Z" fill="#00229B"></path>
+    <path d="M71.2113 64.4062C71.3848 63.2516 71.2414 62.0898 71.2887 60.9324C71.3031 60.5767 71.3117 60.221 71.3246 59.8667C71.3848 59.8954 71.4981 59.9255 71.4981 59.9542C71.4895 61.377 71.4752 62.7984 71.4494 64.2212C71.4494 64.3 71.359 64.3775 71.3103 64.4549C71.2515 64.4937 71.2185 64.4765 71.2127 64.4062H71.2113Z" fill="#00229B"></path>
+    <path d="M45.2107 58.269H40.8656V58.1973H45.238L45.2122 58.269H45.2107Z" fill="#02299A"></path>
+    <path d="M93.2338 55.2395C91.7553 55.3772 90.2754 55.3041 88.7969 55.2754C89.3103 54.9813 89.8667 55.175 90.4016 55.1463C91.2806 55.099 92.1611 55.1076 93.0416 55.086C93.1621 55.0832 93.2094 55.1377 93.2352 55.2381L93.2338 55.2395Z" fill="#00229B"></path>
+    <path d="M91.0685 74.4917C91.1631 74.3641 91.2965 74.3325 91.4456 74.3325C92.7979 74.3325 94.1502 74.3325 95.5039 74.4889C94.0254 74.4889 92.5469 74.4889 91.067 74.4889L91.0685 74.4917Z" fill="#00229B"></path>
+    <path d="M71.2113 64.406C71.2414 64.4275 71.2744 64.4448 71.3102 64.4548C70.5631 64.7273 69.7987 64.5724 69.0401 64.5423C69.0358 64.5423 69.0258 64.5007 69.0301 64.4835C69.0358 64.462 69.0559 64.4448 69.0688 64.4247C69.7815 64.3071 70.4971 64.3314 71.2113 64.406Z" fill="#00229B"></path>
+    <path d="M78.8992 64.5596H76.361C76.361 64.5381 76.361 64.5152 76.361 64.4937H78.8992C78.8992 64.5152 78.8992 64.5381 78.8992 64.5596Z" fill="#00229B"></path>
+    <path d="M60.8499 64.5611H58.8828C58.8828 64.5381 58.8828 64.5151 58.8828 64.4922H60.8226C60.8326 64.5151 60.8413 64.5381 60.8513 64.5611H60.8499Z" fill="#00229B"></path>
+    <path d="M40.4942 58.6074V60.2878C40.4712 60.2878 40.4482 60.2878 40.4253 60.2878V58.616C40.4482 58.6132 40.4712 58.6103 40.4942 58.6074Z" fill="#00229B"></path>
+    <path d="M43.1028 61.7013C43.0583 61.8233 42.9622 61.8692 42.8402 61.8793C42.899 61.4473 42.9593 61.014 43.0181 60.582C43.0468 60.582 43.0741 60.5849 43.1028 60.5863V61.7013Z" fill="#07289D"></path>
+    <path d="M53.8825 19.6064C54.2182 19.9221 53.8495 20.1862 53.8193 20.476C53.4348 20.156 53.8208 19.8934 53.8825 19.6064Z" fill="#04289A"></path>
+    <path d="M42.6443 53.2963C42.3229 53.236 42.0016 53.1743 41.6802 53.1141C42.0389 52.8385 42.3631 53.0638 42.6931 53.1858C42.7003 53.1887 42.6989 53.2289 42.6902 53.2475C42.6816 53.2676 42.6601 53.2805 42.6443 53.2977V53.2963Z" fill="#00249B"></path>
+    <path d="M55.6049 54.7022C55.4041 54.5013 55.2032 54.3005 55.0023 54.0996C55.4586 54.045 55.6594 54.2459 55.6049 54.7022Z" fill="#00249B"></path>
+    <path d="M53.1097 53.2891C52.8801 53.2777 52.6506 53.2648 52.421 53.2533C52.6721 53.0452 52.9748 53.1083 53.236 53.17C53.3436 53.1959 53.1642 53.2518 53.1097 53.2891Z" fill="#00229B"></path>
+    <path d="M73.0468 55.1781C73.5459 55.1781 74.0492 55.1336 74.5425 55.1881C75.38 55.2799 75.7715 55.7547 75.7643 56.5665C75.7572 57.3582 75.4001 57.7569 74.5712 57.8903C73.6018 58.0481 72.6252 57.9677 71.6515 57.9936C71.3604 58.0007 71.2815 57.8659 71.283 57.6063C71.2887 56.9164 71.2973 56.2251 71.2787 55.5366C71.2701 55.2225 71.3819 55.1193 71.6888 55.1336C72.1405 55.1537 72.5922 55.1394 73.0454 55.1394C73.0454 55.1523 73.0454 55.1652 73.0454 55.1781H73.0468Z" fill="#013398"></path>
+    <path d="M49.7437 58.8195C49.7437 57.7725 49.7667 56.7241 49.7337 55.6785C49.7194 55.2238 49.8728 55.099 50.3016 55.1306C50.8938 55.1751 51.4933 55.1349 52.0827 55.1937C53.3876 55.3242 54.1047 55.9008 54.337 57.1744C54.5664 58.438 54.5865 59.7303 54.2079 60.9853C53.9254 61.919 53.3159 62.3923 52.3307 62.4397C51.6209 62.4741 50.9082 62.4425 50.1969 62.4741C49.7925 62.4927 49.7323 62.3034 49.7366 61.9592C49.7523 60.9122 49.7423 59.8651 49.7423 58.8181L49.7437 58.8195Z" fill="#003398"></path>
+    <path d="M61.011 55.2826C62.0808 54.9957 63.1477 55.0416 64.1601 55.459C64.7495 55.7028 64.9331 56.2923 64.8657 56.8961C64.794 57.5373 64.424 57.9876 63.7801 58.1583C62.914 58.3878 62.0306 58.273 61.153 58.2673C60.9981 57.5028 61.1329 56.7298 61.0813 55.9624C61.0655 55.7358 61.1759 55.4934 61.011 55.2826Z" fill="#003398"></path>
+    <path d="M61.011 55.2827C61.1387 55.3028 61.2018 55.3415 61.1975 55.5064C61.1716 56.4272 61.1659 57.348 61.1544 58.2674C60.9981 58.2803 60.9479 58.1871 60.9508 58.0537C60.9709 57.13 60.9924 56.2064 61.0125 55.2812L61.011 55.2827Z" fill="#00229B"></path>
+  </g>
+</svg>
+
+              </a>
+            </div>
+            <a class="btn btn-neutral btn-neutral-frame before:w-7 after:w-7 normal-case text-lg font-medium text-white md:w-52 h-14" href="/contact">Contact Us</a>
+          </div>
+          <div class="mt-8 md:my-10">
+            <div class="flex flex-wrap md:divide-x divide-base-300">
+  <div class="w-1/2 md:w-[calc(20%-1.25rem)] pr-8 md:pr-8 2xl:pr-10 pb-6 md:py-0 border-b md:border-b-0 border-base-300">
+    <p class="text-base leading-6 text-base-900 font-medium">Solutions</p>
+    <ul class="mt-4 md:mt-6 space-y-3 md:space-y-4 text-sm leading-5 font-normal text-base-700">
+      <li>
+        <a href="/sign-documents-online">Sign Documents Online</a>
+      </li>
+      <li>
+        <a href="/signing-api">Document Signing API</a>
+      </li>
+      <li>
+        <a href="/enterprise">Enterprise</a>
+      </li>
+      <li>
+        <a href="/embedding">Embedding</a>
+      </li>
+      <li>
+        <a href="/blog/creating-fillable-pdf-document-forms-with-html">HTML to Document</a>
+      </li>
+      <li>
+        <a href="/blog/accept-payments-and-request-signatures-with-ease">Accept Payments</a>
+      </li>
+      <li>
+        <a href="/on-premises">On-premises</a>
+      </li>
+      <li>
+        <a href="/hipaa">HIPAA Compliance</a>
+      </li>
+      <li>
+        <a href="/soc">SOC 2 Compliance</a>
+      </li>
+      <li>
+        <a href="/cfr">21 CFR Part 11 Compliance</a>
+      </li>
+      <li>
+        <a href="/document-signing-for-saas">SaaS Integration</a>
+      </li>
+    </ul>
+  </div>
+  <div class="w-1/2 md:w-[calc(20%+0.825rem)] md:px-8 2xl:px-10 pb-6 md:py-0 border-b md:border-b-0 border-base-300">
+    <p class="text-base leading-6 font-medium text-base-900">Resources</p>
+    <ul class="mt-4 md:mt-6 space-y-3 md:space-y-4 text-sm leading-5 font-normal text-base-700">
+      <li>
+        <a href="/docs/api">API and Webhooks</a>
+      </li>
+      <li>
+        <a href="/docs">Documentation</a>
+      </li>
+      <li>
+        <a href="/guides">Developer Guides</a>
+      </li>
+      <li>
+        <a href="/resources">User Resources</a>
+      </li>
+      <li>
+        <a href="/gdpr">GDPR and EU Cloud</a>
+      </li>
+      <li>
+        <a href="/best-esignature-apis">Best eSignature APIs</a>
+      </li>
+      <li>
+        <a href="/qualified-electronic-signature">Qualified Electronic Signature</a>
+      </li>
+      <li>
+        <a href="/faq">FAQ</a>
+      </li>
+      <li>
+        <a href="/online-signature">Signature Maker</a>
+      </li>
+      <li>
+        <a href="/wordpress-integration">WordPress Integration</a>
+      </li>
+    </ul>
+  </div>
+  <div class="w-1/2 md:w-[calc(20%+0.825rem)] pr-8 md:px-8 2xl:px-10 py-6 md:py-0 border-b md:border-b-0 border-base-300">
+    <p class="text-base leading-6 font-medium text-base-900">For Developers</p>
+    <ul class="mt-4 md:mt-6 space-y-3 md:space-y-4 text-sm leading-5 font-normal text-base-700">
+      <li>
+        <a href="/react-document-signing">Sign PDF with React</a>
+      </li>
+      <li>
+        <a href="/vue-document-signing">Sign PDF with Vue</a>
+      </li>
+      <li>
+        <a href="/angular-document-signing">Sign PDF with Angular</a>
+      </li>
+      <li>
+        <a href="/nextjs-document-signing">Sign PDF with Next.js</a>
+      </li>
+        <li>
+          <a href="/guides/sign-pdf-with-php">Sign PDF with PHP</a>
+        </li>
+        <li>
+          <a href="/guides/sign-pdf-with-javascript">Sign PDF with JavaScript</a>
+        </li>
+        <li>
+          <a href="/guides/sign-pdf-with-python">Sign PDF with Python</a>
+        </li>
+        <li>
+          <a href="/guides/sign-pdf-with-ruby-on-rails">Sign PDF with Ruby</a>
+        </li>
+        <li>
+          <a href="/guides/sign-pdf-with-java">Sign PDF with Java</a>
+        </li>
+        <li>
+          <a href="/guides/sign-pdf-with-c-sharp">Sign PDF with C#</a>
+        </li>
+        <li>
+          <a href="/guides/sign-pdf-with-kotlin">Sign PDF with Kotlin</a>
+        </li>
+        <li>
+          <a href="/guides/sign-pdf-with-flutter">Sign PDF with Flutter</a>
+        </li>
+    </ul>
+  </div>
+  <div class="w-1/2 md:w-[calc(20%+0.825rem)] md:px-8 2xl:px-10 py-6 md:py-0 border-b md:border-b-0 border-base-300">
+    <p class="text-base leading-6 font-medium text-base-900">Company</p>
+    <ul class="mt-4 md:mt-6 space-y-3 md:space-y-4 text-sm leading-5 font-normal text-base-700">
+      <li>
+        <a href="/pricing">Pricing</a>
+      </li>
+      <li>
+        <a href="/blog">Blog</a>
+      </li>
+      <li>
+        <a href="/about">About Us</a>
+      </li>
+      <li>
+        <a href="/compliance">Compliance</a>
+      </li>
+      <li>
+        <a href="/esign-disclosure">eSign Disclosure</a>
+      </li>
+      <li>
+        <a href="/security">Security</a>
+      </li>
+      <li>
+        <a href="/privacy">Privacy Policy</a>
+      </li>
+      <li>
+        <a href="/privacy/gdpr">GDPR</a>
+      </li>
+      <li>
+        <a href="/terms">Terms and Conditions</a>
+      </li>
+      <li>
+        <a target="_blank" href="https://trust.docuseal.com/">Trust Center</a>
+      </li>
+    </ul>
+  </div>
+  <div class="w-full md:w-[calc(20%-1.25rem)] md:pl-8 2xl:pl-10 py-6 md:py-0">
+    <p class="text-base leading-6 font-medium text-base-900">Community</p>
+    <ul class="grid grid-cols-2 md:grid-cols-1 gap-4 mt-4 md:mt-6 text-sm leading-5 font-normal text-base-700">
+      <li>
+        <a class="flex items-center space-x-1" target="_blank" rel="noopener noreferrer nofollow" href="https://discord.gg/qygYCDGck9">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+  <path d="M8 12a1 1 0 1 0 2 0a1 1 0 0 0 -2 0"></path>
+  <path d="M14 12a1 1 0 1 0 2 0a1 1 0 0 0 -2 0"></path>
+  <path d="M15.5 17c0 1 1.5 3 2 3c1.5 0 2.833 -1.667 3.5 -3c.667 -1.667 .5 -5.833 -1.5 -11.5c-1.457 -1.015 -3 -1.34 -4.5 -1.5l-.972 1.923a11.913 11.913 0 0 0 -4.053 0l-.975 -1.923c-1.5 .16 -3.043 .485 -4.5 1.5c-2 5.667 -2.167 9.833 -1.5 11.5c.667 1.333 2 3 3.5 3c.5 0 2 -2 2 -3"></path>
+  <path d="M7 16.5c3.5 1 6.5 1 10 0"></path>
+</svg>
+
+          <span>Discord server</span>
+</a>      </li>
+      <li>
+        <a class="flex items-center space-x-1" target="_blank" rel="noopener noreferrer nofollow" href="https://twitter.com/docusealco">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c0 -.249 1.51 -2.772 1.818 -4.013z"></path>
+</svg>
+
+          <span>Twitter account</span>
+</a>      </li>
+      <li>
+        <a class="flex items-center space-x-1" target="_blank" rel="noopener noreferrer nofollow" href="https://bsky.app/profile/docuseal.com">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2">
+  <path d="M6.335 5.144c-1.654 -1.199 -4.335 -2.127 -4.335 .826c0 .59 .35 4.953 .556 5.661c.713 2.463 3.13 2.75 5.444 2.369c-4.045 .665 -4.889 3.208 -2.667 5.41c1.03 1.018 1.913 1.59 2.667 1.59c2 0 3.134 -2.769 3.5 -3.5c.333 -.667 .5 -1.167 .5 -1.5c0 .333 .167 .833 .5 1.5c.366 .731 1.5 3.5 3.5 3.5c.754 0 1.637 -.571 2.667 -1.59c2.222 -2.203 1.378 -4.746 -2.667 -5.41c2.314 .38 4.73 .094 5.444 -2.369c.206 -.708 .556 -5.072 .556 -5.661c0 -2.953 -2.68 -2.025 -4.335 -.826c-2.293 1.662 -4.76 5.048 -5.665 6.856c-.905 -1.808 -3.372 -5.194 -5.665 -6.856z"></path>
+</svg>
+
+          <span>Bluesky</span>
+</a>      </li>
+      <li>
+        <a class="flex items-center space-x-1" target="_blank" rel="noopener noreferrer nofollow" href="https://github.com/docusealco/docuseal">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+          <span>GitHub</span>
+</a>      </li>
+      <li>
+        <a class="flex items-center space-x-1" href="/contact">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2">
+  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+  <path d="M12 10m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+  <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855"></path>
+</svg>
+
+          <span>Contact Us</span>
+</a>      </li>
+      <li>
+        <a class="flex items-center space-x-1" target="_blank" rel="noopener noreferrer nofollow" href="https://status.docuseal.net/">
+          <span class="flex w-3 h-3 bg-teal-500 rounded-full ml-1 mr-1.5 flex-shrink-0"></span>
+          <span>Status</span>
+</a>      </li>
+    </ul>
+  </div>
+</div>
+
+          </div>
+          <div class="flex flex-col md:flex-row gap-4 md:justify-between md:items-center pt-4 border-t border-base-300">
+            <a href="/" class="flex items-center justify-center space-x-2">
+              <svg height="40px" width="40px" class="" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 511.998 511.998" xml:space="preserve">
+  <path style="fill:#AA968C;" d="M503.999,247.999c0,128.13-111.033,240-248,240S8,376.129,8,247.999s111.033-224,248-224
+    S503.999,119.869,503.999,247.999z" />
+  <path style="fill:#AA968C;" d="M255.999,23.999C119.033,23.999,8,119.868,8,247.999c0,24.631,4.138,48.647,11.74,71.397
+    c25.518,34.29,66.232,56.602,112.26,56.602c53.893,0,100.6-30.495,124-75.13c23.4,44.636,70.107,75.13,124,75.13
+    c46.028,0,86.743-22.312,112.26-56.602c7.602-22.75,11.74-46.767,11.74-71.397C503.999,119.868,392.966,23.999,255.999,23.999z" />
+  <circle style="fill:#C8AF9B;" cx="256" cy="351.999" r="136" />
+  <g>
+    <circle style="fill:#464655;" cx="132" cy="203.999" r="28" />
+    <circle style="fill:#464655;" cx="380" cy="203.999" r="28" />
+    <path style="fill:#464655;" d="M269.949,284.516c-7.672,10.741-20.227,10.741-27.899,0l-12.101-16.941
+      c-7.672-10.741-3.15-19.53,10.05-19.53h32c13.2,0,17.723,8.788,10.05,19.53L269.949,284.516z" />
+  </g>
+  <path style="fill:#AA968C;" d="M 350.964 399.998 C 316.628 399.998 299.021 351.998 255.882 351.998 C 212.742 351.998 195.135 399.998 160.801 399.998 C 145.395 399.998 131.723 394.147 120.621 374.798 C 131.595 439.03 187.893 487.998 255.881 487.998 C 323.868 487.998 380.168 439.03 391.14 374.798 C 380.04 394.148 366.368 399.998 350.964 399.998 Z" />
+  <g>
+    <path style="fill:#8C7873;" d="M32,423.998c-3.172,0-6.18-1.906-7.43-5.031c-1.641-4.105,0.359-8.758,4.461-10.402l160.008-64
+      c4.062-1.617,8.758,0.352,10.398,4.457s-0.359,8.758-4.461,10.402l-160.008,64C34,423.811,32.992,423.998,32,423.998z" />
+    <path style="fill:#8C7873;" d="M15.992,375.995c-3.547,0-6.781-2.375-7.727-5.965c-1.125-4.273,1.422-8.648,5.695-9.773l152-40
+      c4.289-1.121,8.648,1.426,9.773,5.703c1.125,4.273-1.422,8.648-5.695,9.773l-152,40C17.351,375.913,16.672,375.995,15.992,375.995z
+      " />
+    <path style="fill:#8C7873;" d="M7.992,335.995c-3.812,0-7.187-2.73-7.867-6.609c-0.773-4.352,2.133-8.5,6.484-9.27l136-24
+      c4.328-0.77,8.508,2.141,9.266,6.488c0.773,4.352-2.133,8.5-6.484,9.27l-136,24C8.922,335.956,8.453,335.995,7.992,335.995z" />
+    <path style="fill:#8C7873;" d="M480,423.998c3.172,0,6.18-1.906,7.43-5.031c1.641-4.105-0.359-8.758-4.461-10.402l-160.008-64
+      c-4.063-1.617-8.758,0.352-10.398,4.457s0.359,8.758,4.461,10.402l160.008,64C478,423.811,479.007,423.998,480,423.998z" />
+    <path style="fill:#8C7873;" d="M496.007,375.995c3.547,0,6.781-2.375,7.727-5.965c1.125-4.273-1.422-8.648-5.695-9.773l-152-40
+      c-4.289-1.121-8.648,1.426-9.773,5.703c-1.125,4.273,1.422,8.648,5.695,9.773l152,40
+      C494.648,375.913,495.328,375.995,496.007,375.995z" />
+    <path style="fill:#8C7873;" d="M504.007,335.995c3.813,0,7.188-2.73,7.867-6.609c0.773-4.352-2.133-8.5-6.484-9.27l-136-24
+      c-4.328-0.77-8.508,2.141-9.266,6.488c-0.773,4.352,2.133,8.5,6.484,9.27l136,24C503.078,335.956,503.546,335.995,504.007,335.995z
+      " />
+  </g>
+</svg>
+
+              <div class="text-2xl font-bold text-base-content">DocuSeal</div>
+            </a>
+            <div class="text-center md:text-left text-base-700 text-base">
+              © 2025 DocuSeal LLC 332 S Michigan Ave, Suite 121 #5896, Chicago IL 60604
+            </div>
+          </div>
+        </div>
+      <set-eu-link></set-eu-link>
+    </footer>
+  </body>
+</html>

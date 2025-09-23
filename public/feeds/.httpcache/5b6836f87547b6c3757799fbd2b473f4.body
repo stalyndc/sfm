@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es" xmlns:fb="http://www.facebook.com/2008/fbml" >
+ <head><link href="https://peru.ladevi.info/tdcss-6746cd5974c6da584d627db3fcd80e7fd9160bd1-5791" rel="stylesheet" />
+<script type="application/ld+json" xmlns:deferer="no">[{"@context":"http:\/\/schema.org","@type":"WebSite","name":"Ladevi - Noticias para Profesionales del Turismo en Per\u00fa","url":"https:\/\/peru.ladevi.info\/"}]</script>
+ 
+
+ 
+
+
+
+<meta property="description" content="Desde 2011, ofreciendo toda la información del sector turístico en Perú y el mundo respaldada por Ladevi Medios y Soluciones."/>
+<meta property="og:site_name" content="Ladevi"/>
+<meta property="og:description" content="Desde 2011, ofreciendo toda la información del sector turístico en Perú y el mundo respaldada por Ladevi Medios y Soluciones."/>
+<meta property="og:image" content="https://peru.ladevi.info/css-custom/276/images/mtg_image-276.png"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://peru.ladevi.info/"/>
+<meta property="og:title" content="Ladevi - Noticias para Profesionales del Turismo en Perú"/>
+<meta itemprop="url" content="https://peru.ladevi.info/"/>
+<meta itemprop="name" content="Ladevi"/>
+<meta itemprop="headline" content="Ladevi - Noticias para Profesionales del Turismo en Perú"/>
+<meta itemprop="description" content="Desde 2011, ofreciendo toda la información del sector turístico en Perú y el mundo respaldada por Ladevi Medios y Soluciones."/>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>  <meta charset="UTF-8">  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no"/>  <meta http-equiv="X-UA-Compatible" content="ie=edge">  <link rel="apple-touch-icon" sizes="180x180" href="https://peru.ladevi.info/css-custom/277/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://peru.ladevi.info/css-custom/277/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://peru.ladevi.info/css-custom/277/favicons/favicon-16x16.png">
+        <link rel="manifest" href="https://peru.ladevi.info/css-custom/277/favicons/site.webmanifest">
+        <link rel="mask-icon" href="https://peru.ladevi.info/css-custom/277/favicons/safari-pinned-tab.svg" color="#5bbad5">
+ <meta name="msapplication-TileColor" content="#ffc40d">
+ <meta name="theme-color" content="#ffffff">        
+        <link rel="shortcut icon" href="https://peru.ladevi.info/css-custom/277/favicons/favicon.ico"/>
+        
+        
+        
+ <!-- VIDEOJS -->
+        
+        
+        
+                    <title>Ladevi - Noticias para Profesionales del Turismo en Perú</title>                
+	<meta name="GENERATOR" content="Thinkindot 4.8"/><meta name="description" content="Desde 2011, ofreciendo toda la información del sector turístico en Perú y el mundo respaldada por Ladevi Medios y Soluciones."/>
+<meta name="robots" content="index, follow"/>
+<meta name="distribution" content="global"/>
+<meta name="rating" content="general"/>
+<meta name="language" content="es_PE"/>
+<link rel="canonical" href="https://peru.ladevi.info/"/>
+
+<meta http-equiv="refresh" content="600"/><!-- Speculation Rules --> 
+<script xmlns:deferer="no" type="speculationrules">
+{
+    "prefetch": [
+        {
+            "source": "document",
+            "where": {
+                "and": [
+                    { "href_matches": "https://peru.ladevi.info/*" },
+                    { "not": { "selector_matches": "[rel~='nofollow']" } },
+                    { "not": { "selector_matches": "[rel~='noreferrer']" } },
+                    { "not": { "selector_matches": "[rel~='noopener']" } },
+                    { "not": { "selector_matches": "[rel~='noindex']" } }
+                ]
+            },
+            "eagerness": "moderate"
+        }
+    ],
+    "prerender": [
+        {
+            "source": "document",
+            "where": {
+                "and": [
+                    { "selector_matches": "h1 a" },
+                    { "not": { "selector_matches": "[rel~='nofollow']" } },
+                    { "not": { "selector_matches": "[rel~='noreferrer']" } },
+                    { "not": { "selector_matches": "[rel~='noopener']" } },
+                    { "not": { "selector_matches": "[rel~='noindex']" } }
+                ]
+            },
+            "eagerness": "moderate"
+        }
+    ]
+}
+</script>
+<script xmlns:deferer="no" async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script> 
+<script xmlns:deferer="no"> window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+
+googletag.defineSlot('/21801313528/top_970x90_ladeviinfoperu', [970, 90], 'div-gpt-ad-1582052876273-0').addService(googletag.pubads());
+
+googletag.defineOutOfPageSlot('/21801313528/zocalo_mobile_940x80_lip', 'div-gpt-ad-1620076044994-0').addService(googletag.pubads());
+
+googletag.defineSlot('/21801313528/120x600_lip_flotantes', [120, 600], 'div-gpt-ad-1607823070387-1').addService(googletag.pubads());
+googletag.defineSlot('/21801313528/120x600_lip_flotantes', [120, 600], 'div-gpt-ad-1607823070387-2').addService(googletag.pubads());
+
+googletag.defineSlot('/21801313528/300x250_ladeviinfoperu_ban1', [300, 250], 'div-gpt-ad-1582905789013-0').addService(googletag.pubads());
+googletag.defineSlot('/21801313528/300x250_lip_ban2', [300, 250], 'div-gpt-ad-1586489470979-0').addService(googletag.pubads());
+googletag.defineSlot('/21801313528/300x250_lip_ban3', [300, 250], 'div-gpt-ad-1583347397867-0').addService(googletag.pubads());
+
+
+googletag.defineSlot('/21801313528/970x90_ladeviinfoperu_ban1', [970, 90], 'div-gpt-ad-1582904127976-0').addService(googletag.pubads());
+googletag.defineSlot('/21801313528/ladeviinfoperu_970x90_ban2', [970, 90], 'div-gpt-ad-1584844780474-0').addService(googletag.pubads());
+googletag.defineSlot('/21801313528/970x70_lip_ban3', [970, 90], 'div-gpt-ad-1584844838199-0').addService(googletag.pubads());
+
+googletag.defineSlot('/21801313528/300x250_lip_ban4', [300, 250], 'div-gpt-ad-1583347878880-0').addService(googletag.pubads());
+googletag.defineSlot('/21801313528/970x90_lip_ban4', [970, 90], 'div-gpt-ad-1584845068078-0').addService(googletag.pubads());
+
+googletag.defineSlot('/21801313528/300x250_lip_ban5', [300, 250], 'div-gpt-ad-1583348957202-0').addService(googletag.pubads());
+ googletag.defineSlot('/21801313528/970x90_lip_ban5', [970, 90], 'div-gpt-ad-1611341224733-0').addService(googletag.pubads());
+
+googletag.defineSlot('/21801313528/300x250_lip_ban6', [300, 250], 'div-gpt-ad-1584843935768-0').addService(googletag.pubads());
+googletag.defineSlot('/21801313528/970x90_lip_ban6', [970, 90], 'div-gpt-ad-1621272868440-0').addService(googletag.pubads());
+
+googletag.defineSlot('/21801313528/300x250_lip_ban7', [300, 250], 'div-gpt-ad-1648474184561-0').addService(googletag.pubads());
+googletag.defineSlot('/21801313528/970x90_lip_ban7', [970, 90], 'div-gpt-ad-1627843327734-0').addService(googletag.pubads());
+
+googletag.defineOutOfPageSlot('/21801313528/lip_interticial', 'div-gpt-ad-1708703717281-0').addService(googletag.pubads());
+
+
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</script>
+
+<!-- TAGS NO USAR
+
+googletag.defineSlot('/21801313528/ojito_lip_lip', [180, 70], 'div-gpt-ad-1584846417499-1').addService(googletag.pubads());
+googletag.defineSlot('/21801313528/ojito_lip_lip', [180, 70], 'div-gpt-ad-1584846417499-2').addService(googletag.pubads());
+-->
+
+<!-- Google tag (gtag.js) GA4 solo Peru -->
+<script xmlns:deferer="no" async src="https://www.googletagmanager.com/gtag/js?id=G-XS8MVZE4RJ"></script> 
+<script xmlns:deferer="no"> window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XS8MVZE4RJ');
+</script>
+
+<!-- Google tag (gtag.js)  GENERAL-->
+<script xmlns:deferer="no" async src="https://www.googletagmanager.com/gtag/js?id=G-2KDD3WT133"></script> 
+<script xmlns:deferer="no"> window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-2KDD3WT133');
+</script>
+
+<script xmlns:deferer="no" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2646680338574537" crossorigin="anonymous"></script>
+
+<meta property="fb:app_id" content="166288790213459"/>
+
+<script xmlns:deferer="no">
+window.googletag = window.googletag || {cmd: []};
+googletag.cmd.push(function() {
+
+
+googletag.defineSlot('/21801313528/970x90_ladeviinfoperu_ban1', [970, 90], 'div-gpt-ad-1582904127976-0').addService(googletag.pubads());
+googletag.defineSlot('/21801313528/ladeviinfoperu_970x90_ban2', [970, 90], 'div-gpt-ad-1584844780474-0').addService(googletag.pubads());
+googletag.defineSlot('/21801313528/970x70_lip_ban3', [970, 90], 'div-gpt-ad-1584844838199-0').addService(googletag.pubads());
+
+googletag.defineSlot('/21801313528/300x250_lip_ban4', [300, 250], 'div-gpt-ad-1583347878880-0').addService(googletag.pubads());
+googletag.defineSlot('/21801313528/970x90_lip_ban4', [970, 90], 'div-gpt-ad-1584845068078-0').addService(googletag.pubads());
+
+googletag.defineSlot('/21801313528/300x250_lip_ban5', [300, 250], 'div-gpt-ad-1583348957202-0').addService(googletag.pubads());
+ googletag.defineSlot('/21801313528/970x90_lip_ban5', [970, 90], 'div-gpt-ad-1611341224733-0').addService(googletag.pubads());
+
+googletag.defineSlot('/21801313528/300x250_lip_ban6', [300, 250], 'div-gpt-ad-1584843935768-0').addService(googletag.pubads());
+googletag.defineSlot('/21801313528/970x90_lip_ban6', [970, 90], 'div-gpt-ad-1621272868440-0').addService(googletag.pubads());
+
+googletag.defineSlot('/21801313528/300x250_lip_ban7', [300, 250], 'div-gpt-ad-1648474184561-0').addService(googletag.pubads());
+googletag.defineSlot('/21801313528/970x90_lip_ban7', [970, 90], 'div-gpt-ad-1627843327734-0').addService(googletag.pubads());
+
+googletag.defineSlot('/21801313528/120x600_lip_flotantes', [120, 600], 'div-gpt-ad-1607823070387-1').addService(googletag.pubads());
+googletag.defineSlot('/21801313528/120x600_lip_flotantes', [120, 600], 'div-gpt-ad-1607823070387-2').addService(googletag.pubads());
+
+
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</script>
+
+<script xmlns:deferer="no" type="application/ld+json"> {
+    "@context": "http://schema.org",
+    "@type": "NewsMediaOrganization",
+    "name": "Ladevi Medios y Soluciones",
+    "logo": {
+        "@context": "http://schema.org",
+        "@type": "ImageObject",
+        "url":" https://peru.ladevi.info/css-custom/350/images/mtg_image-350.png"
+    },
+    "url": "https://peru.ladevi.info/",
+    "@id": "https://peru.ladevi.info/#publisher",
+    "sameAs": [
+      "https://www.facebook.com/Ladeviperu",
+      "https://twitter.com/Ladevi_peru",
+      "https://www.instagram.com/ladeviperuok"]
+}
+</script>
+<link rel="manifest" href="/manifest.json">
+<script xmlns:deferer="no">window.TdOneSingalSetup = {"appId":"df2020c4-7fd1-43ec-a1ee-26f308b300c2","autoRegister":false,"promptOptions":{"actionMessage":"Nos gustar\u00eda mostrarle las \u00faltimas noticias.","exampleNotificationTitleDesktop":"Notificaci\u00f3n de ejemplo","exampleNotificationMessageDesktop":"As\u00ed aparecer\u00e1n las notificaciones","exampleNotificationCaption":"Pod\u00e9s desuscribirte en cualquier momento","acceptButtonText":"SUSCRIBIRME","cancelButtonText":"NO, GRACIAS"},"welcomeNotification":{"disable":false,"title":"Ladevi Peru","message":"Gracias por suscribirte"},"notifyButton":{"enable":true,"showCredit":false,"text":{"tip.state.unsubscribed":"Suscribirse a notificaciones","tip.state.subscribed":"Est\u00e1s suscripto a notificaciones","tip.state.blocked":"Bloqueaste notificaciones","message.prenotify":"Click para suscribirse a notificaciones","message.action.subscribed":"Gracias por suscribirse!","message.action.resubscribed":"Te suscribiste a notificaciones","message.action.unsubscribed":"No recibir\u00e1s m\u00e1s notificaciones","dialog.main.title":"Configurar notificaciones","dialog.main.button.subscribe":"SUSCRIBIRSE","dialog.main.button.unsubscribe":"DESUSCRIBIRSE","dialog.blocked.title":"Desbloquear notificaciones","dialog.blocked.message":"Segu\u00ed las instrucciones para recibir notificaciones:"},"colors":{"circle.background":"#4BC3D6"}},"notificationClickHandlerMatch":"origin","notificationClickHandlerAction":"focus","tracking":{"utm_source":"pushnotificationh","utm_medium":"web","utm_campaign":"editorselection"}}</script>
+<script xmlns:deferer="no">window.promptNotificationsPage = "home";</script><script xmlns:deferer="no" src="https://peru.ladevi.info/libs/OneSignalSDKFiles/TdWebPushv16-min-version-1756613162.js" async="true"></script> 
+<script xmlns:deferer="no" src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" async="true"></script></head>  <body class="home">
+<!-- /21801313528/zocalo_mobile_940x80_lip --> 
+<div id='div-gpt-ad-1620076044994-0'><script xmlns:deferer="no"> googletag.cmd.push(function() { googletag.display('div-gpt-ad-1620076044994-0'); });
+  </script></div>
+
+<!-- /21801313528/lip_interticial --> 
+<div id='div-gpt-ad-1708703717281-0'><script xmlns:deferer="no"> googletag.cmd.push(function() { googletag.display('div-gpt-ad-1708703717281-0'); });
+  </script></div>  <header class="main-header home-header">  
+ <div class="widgetContent none "><section class="section-top-header">  <div class="top-header"><div class="container">  <div class="row align-items-center justify-content-center"><div class="col-3 text-center d-flex align-items-center justify-content-center">  
+ <div class="banner-libre"><div style="width:180px;height:70px;">  <!-- /21801313528/ojito_lip_lip --> 
+<div id='div-gpt-ad-1584846417499-2' style='width:180px;height:70px;'><script xmlns:deferer="no"> googletag.cmd.push(function() { googletag.display('div-gpt-ad-1584846417499-2'); });
+  </script></div>  </div></div> 
+</div>  <div class="col-6">  
+ <div class="banner-libre"><div style="width:220px;height:100px;">  <a href="/" rel="noopener"><img xmlns:ll="no" xmlns:ll="no" src="https://media.viajando.travel/adjuntos/236/banners/000/772/0000772728.png" alt="Logo Ladevi Perú GENERAL" title="Logo Ladevi Perú GENERAL" style="" id="" border="0"\/></a>  </div></div> 
+</div>  <div class="col-3 text-center d-flex align-items-center justify-content-center">  
+ <div class="banner-libre"><div style="width:180px;height:70px;">  <!-- /21801313528/ojito_lip_lip --> 
+<div id='div-gpt-ad-1584846417499-1' style='width:180px;height:70px;'><script xmlns:deferer="no"> googletag.cmd.push(function() { googletag.display('div-gpt-ad-1584846417499-1'); });
+  </script></div>  </div></div> 
+</div>  </div></div>  </div></section>  <nav class="navbar  container-fluid"><div class="row w-100">  <div class="col-2"><div class="button-logo">  
+ <button class="navbar-toggler button-header" type="button" data-toggle="menuLeft" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="bars" aria-hidden="true"> 
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+ <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+  </svg></i>  </button>  <div class="collapse navbar-collapse" id="navbarSupportedContent">  <ul class="navbar-nav mr-auto main-menu">  <li class="nav-item active">  <a class="nav-link" href="https://peru.ladevi.info/actualidad" target="" title="Ladevi Medios y Soluciones | Actualidad" alt="Ladevi Medios y Soluciones | Actualidad">
+                Actualidad
+                </a></li>  <li class="nav-item active">  <a class="nav-link" href="https://peru.ladevi.info/ultimas-noticias" target="" title="Ladevi Medios y Soluciones | Lo último" alt="Ladevi Medios y Soluciones | Lo último">
+                Lo último
+                </a></li>  <li class="nav-item active">  <a class="nav-link" href="https://peru.ladevi.info/manuales" target="" title="Ladevi Medios y Soluciones | Manuales" alt="Ladevi Medios y Soluciones | Manuales">
+                Manuales
+                </a>  <span class="arrow-wrapper">  <i class="chevron-right">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 12">
+ <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/></svg> 
+</i></span>  <div class="submenu-wrapper"><ul class="submenu-list">  <li class="submenu-item">  <a href="https://peru.ladevi.info/manual-mice-y-bodas" target=""> Manual Mice y Bodas </a></li>  <li class="submenu-item">  <a href="https://peru.ladevi.info/manual-lgbtq" target=""> Manual LGBTQ </a></li>  <li class="submenu-item">  <a href="https://peru.ladevi.info/manual-cruceros" target=""> Manual Cruceros </a></li>  <li class="submenu-item">  <a href="https://peru.ladevi.info/manual-usa" target=""> Manual de USA </a></li>  <li class="submenu-item">  <a href="https://peru.ladevi.info/manual-de-europa" target=""> Manual de Europa </a></li>  <li class="submenu-item">  <a href="https://peru.ladevi.info/manual-alta-gama" target=""> Manual Alta Gama </a></li>  <li class="submenu-item">  <a href="https://peru.ladevi.info/manual-islas-y-playas" target=""> Manual Islas y Playas </a></li>  </ul></div>  </li>  <li class="nav-item active">  <a class="nav-link" href="https://peru.ladevi.info/negocios" target="" title="Ladevi Medios y Soluciones | Negocios" alt="Ladevi Medios y Soluciones | Negocios">
+                Negocios
+                </a>  <span class="arrow-wrapper">  <i class="chevron-right">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 12">
+ <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/></svg> 
+</i></span>  <div class="submenu-wrapper"><ul class="submenu-list">  <li class="submenu-item">  <a href="https://peru.ladevi.info/europamundo" target=""> Europamundo </a></li>  <li class="submenu-item">  <a href="https://peru.ladevi.info/sandals" target=""> Sandals </a></li>  <li class="submenu-item">  <a href="https://peru.ladevi.info/special-tours" target=""> Special Tours </a></li>  <li class="submenu-item">  <a href="https://peru.ladevi.info/fitur" target=""> Fitur </a></li>  <li class="submenu-item">  <a href="https://peru.ladevi.info/content-activation" target=""> Content Activation </a></li>  </ul></div>  </li>  <li class="nav-item active">  <a class="nav-link" href="https://peru.ladevi.info/transporte-turistico" target="" title="Ladevi Medios y Soluciones | Transporte" alt="Ladevi Medios y Soluciones | Transporte">
+                Transporte
+                </a>  <span class="arrow-wrapper">  <i class="chevron-right">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 12">
+ <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/></svg> 
+</i></span>  <div class="submenu-wrapper"><ul class="submenu-list">  <li class="submenu-item">  <a href="https://peru.ladevi.info/transporte-turistico/aeropuertos" target=""> Aeropuertos </a></li>  <li class="submenu-item">  <a href="https://peru.ladevi.info/transporte-turistico/companias-aereas" target=""> Compañías áereas </a></li>  <li class="submenu-item">  <a href="https://peru.ladevi.info/transporte-turistico/trenes" target=""> Trenes </a></li>  </ul></div>  </li>  <li class="nav-item active">  <a class="nav-link" href="https://peru.ladevi.info/tendencias" target="" title="Ladevi Medios y Soluciones | Tendencias" alt="Ladevi Medios y Soluciones | Tendencias">
+                Tendencias
+                </a></li>  <li class="nav-item active">  <a class="nav-link" href="https://peru.ladevi.info/cruceros" target="" title="Ladevi Medios y Soluciones | Cruceros" alt="Ladevi Medios y Soluciones | Cruceros">
+                Cruceros
+                </a></li>  <li class="nav-item active">  <a class="nav-link" href="https://peru.ladevi.info/horeca" target="" title="Ladevi Medios y Soluciones | Horeca" alt="Ladevi Medios y Soluciones | Horeca">
+                Horeca
+                </a></li>  <li class="nav-item active">  <a class="nav-link" href="https://peru.ladevi.info/opinion" target="" title="Ladevi Medios y Soluciones | Opinión" alt="Ladevi Medios y Soluciones | Opinión">
+                Opinión
+                </a></li>  <li class="nav-item active"><a class="nav-link" href="javascript:void(0)" target="" title="Ladevi Medios y Soluciones | E-Magazine" alt="Ladevi Medios y Soluciones | E-Magazine"> E-Magazine
+                </a>  <span class="arrow-wrapper">  <i class="chevron-right">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 12">
+ <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/></svg> 
+</i></span>  <div class="submenu-wrapper"><ul class="submenu-list">  <li class="submenu-item">  <a href="https://revistas.ladevi.travel/ladevi-peru-175" target="_blank"> eMagazine </a></li>  <li class="submenu-item">  <a href="https://publicaciones.ladevi.travel/hemeroteca.php?pid=37&country_id=177" target=""> Ediciones Anteriores Ladevi PER </a></li>  <li class="submenu-item">  <a href="https://revistas.ladevi.travel/manual-pe-mice-2025" target="_blank"> eMag Manual </a></li>  <li class="submenu-item">  <a href="https://publicaciones.ladevi.travel/hemeroteca.php?pid=37&country_id=177" target=""> Ediciones Anteriores Manuales PER </a></li>  </ul></div>  </li>  <li class="nav-item active">  <a class="nav-link" href="javascript:void(0)" target="" title="Ladevi Medios y Soluciones | Todos los Portales de Ladevi.info" alt="Ladevi Medios y Soluciones | Todos los Portales de Ladevi.info"> Todos los Portales de Ladevi.info
+                </a>  <span class="arrow-wrapper">  <i class="chevron-right">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 12">
+ <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/></svg> 
+</i></span>  <div class="submenu-wrapper"><ul class="submenu-list">  <li class="submenu-item">  <a href="https://argentina.ladevi.info/" target=""> Ladevi Argentina </a></li>  <li class="submenu-item">  <a href="https://chile.ladevi.info/" target=""> Ladevi Chile </a></li>  <li class="submenu-item">  <a href="https://colombia.ladevi.info/" target=""> Ladevi Colombia </a></li>  <li class="submenu-item">  <a href="https://mexico.ladevi.info/" target=""> Ladevi México </a></li>  <li class="submenu-item">  <a href="https://espana.ladevi.info/" target=""> Ladevi España </a></li>  <li class="submenu-item">  <a href="https://ecuador.ladevi.info/" target=""> Ladevi Ecuador </a></li>  </ul></div>  </li>  <li class="nav-item active">  <a class="nav-link" href="javascript:void(0)" target="" title="Ladevi Medios y Soluciones | Todos los Portales de Viajando.travel" alt="Ladevi Medios y Soluciones | Todos los Portales de Viajando.travel"> Todos los Portales de Viajando.travel
+                </a>  <span class="arrow-wrapper">  <i class="chevron-right">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 12">
+ <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/></svg> 
+</i></span>  <div class="submenu-wrapper"><ul class="submenu-list">  <li class="submenu-item">  <a href="https://argentina.viajando.travel/" target=""> Viajando Argentina </a></li>  <li class="submenu-item">  <a href="https://chile.viajando.travel/" target=""> Viajando Chile </a></li>  <li class="submenu-item">  <a href="https://colombia.viajando.travel/" target=""> Viajando Colombia  </a></li>  <li class="submenu-item">  <a href="https://mexico.viajando.travel/" target=""> Viajando México </a></li>  <li class="submenu-item">  <a href="https://ecuador.viajando.travel/" target=""> Viajando Ecuador </a></li>  </ul></div>  </li></ul>  </div>  
+ <div class="banner-libre"><div style="width:39px;height:30px;">  <a href="https://revistas.ladevi.travel/ladevi-peru-175" target="_blank" rel="noopener"><img src="https://media.viajando.travel/adjuntos/277/banners/000/333/0000333441.png" alt="" title="" style="" id="" border="0"/></a>  </div></div> 
+</div>  </div>  <div class="col-7">  <div class="top-header">  
+ <div class="attachments-logo-header logo-home-sticky d-none">
+        <a href="https://peru.ladevi.info" class="navbar-brand"><img xmlns:ll="no" class="logo-img" src="https://peru.ladevi.info/css-custom/277/images/logo_v1-2.svg?v 3092025011619" alt="Viajando" title="Viajando"></a>  </div>  <nav id="mainMenu">  <ul class="menu-top-header">  <li class="item active">  <a class="item-link" href="https://peru.ladevi.info/actualidad" target="" title="Ladevi Medios y Soluciones | Actualidad" alt="Ladevi Medios y Soluciones | Actualidad">
+                Actualidad
+                </a></li>  <li class="item active">  <a class="item-link" href="https://peru.ladevi.info/ultimas-noticias" target="" title="Ladevi Medios y Soluciones | Lo último" alt="Ladevi Medios y Soluciones | Lo último">
+                Lo último
+                </a></li>  <li class="item active">  <a class="item-link" href="https://peru.ladevi.info/manuales" target="" title="Ladevi Medios y Soluciones | Manuales" alt="Ladevi Medios y Soluciones | Manuales">
+                Manuales
+                </a>  <span class="arrow-wrapper">  <i class="chevron-right">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 12">
+ <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/></svg> 
+</i></span>  <div class="sub-items-wrapper"><ul class="sub-items-list">  <li class="sub-menu-item">  <a class="sub-item-link" target="" href="https://peru.ladevi.info/manual-mice-y-bodas"> Manual Mice y Bodas </a></li>  <li class="sub-menu-item">  <a class="sub-item-link" target="" href="https://peru.ladevi.info/manual-lgbtq"> Manual LGBTQ </a></li>  <li class="sub-menu-item">  <a class="sub-item-link" target="" href="https://peru.ladevi.info/manual-cruceros"> Manual Cruceros </a></li>  <li class="sub-menu-item">  <a class="sub-item-link" target="" href="https://peru.ladevi.info/manual-usa"> Manual de USA </a></li>  <li class="sub-menu-item">  <a class="sub-item-link" target="" href="https://peru.ladevi.info/manual-de-europa"> Manual de Europa </a></li>  <li class="sub-menu-item">  <a class="sub-item-link" target="" href="https://peru.ladevi.info/manual-alta-gama"> Manual Alta Gama </a></li>  <li class="sub-menu-item">  <a class="sub-item-link" target="" href="https://peru.ladevi.info/manual-islas-y-playas"> Manual Islas y Playas </a></li>  </ul></div>  </li>  <li class="item active">  <a class="item-link" href="https://peru.ladevi.info/negocios" target="" title="Ladevi Medios y Soluciones | Negocios" alt="Ladevi Medios y Soluciones | Negocios">
+                Negocios
+                </a>  <span class="arrow-wrapper">  <i class="chevron-right">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 12">
+ <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/></svg> 
+</i></span>  <div class="sub-items-wrapper"><ul class="sub-items-list">  <li class="sub-menu-item">  <a class="sub-item-link" target="" href="https://peru.ladevi.info/europamundo"> Europamundo </a></li>  <li class="sub-menu-item">  <a class="sub-item-link" target="" href="https://peru.ladevi.info/sandals"> Sandals </a></li>  <li class="sub-menu-item">  <a class="sub-item-link" target="" href="https://peru.ladevi.info/special-tours"> Special Tours </a></li>  <li class="sub-menu-item">  <a class="sub-item-link" target="" href="https://peru.ladevi.info/fitur"> Fitur </a></li>  <li class="sub-menu-item">  <a class="sub-item-link" target="" href="https://peru.ladevi.info/content-activation"> Content Activation </a></li>  </ul></div>  </li>  <li class="item active">  <a class="item-link" href="https://peru.ladevi.info/transporte-turistico" target="" title="Ladevi Medios y Soluciones | Transporte" alt="Ladevi Medios y Soluciones | Transporte">
+                Transporte
+                </a>  <span class="arrow-wrapper">  <i class="chevron-right">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 12">
+ <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/></svg> 
+</i></span>  <div class="sub-items-wrapper"><ul class="sub-items-list">  <li class="sub-menu-item">  <a class="sub-item-link" target="" href="https://peru.ladevi.info/transporte-turistico/aeropuertos"> Aeropuertos </a></li>  <li class="sub-menu-item">  <a class="sub-item-link" target="" href="https://peru.ladevi.info/transporte-turistico/companias-aereas"> Compañías áereas </a></li>  <li class="sub-menu-item">  <a class="sub-item-link" target="" href="https://peru.ladevi.info/transporte-turistico/trenes"> Trenes </a></li>  </ul></div>  </li>  <li class="item active">  <a class="item-link" href="https://peru.ladevi.info/tendencias" target="" title="Ladevi Medios y Soluciones | Tendencias" alt="Ladevi Medios y Soluciones | Tendencias">
+                Tendencias
+                </a></li>  <li class="item active">  <a class="item-link" href="https://peru.ladevi.info/cruceros" target="" title="Ladevi Medios y Soluciones | Cruceros" alt="Ladevi Medios y Soluciones | Cruceros">
+                Cruceros
+                </a></li>  <li class=" item item-link"><div class="dropdown">  <a class="nav-link item-link text-uppercase  border-none dropdown-toggle" style="cursor:pointer;" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"> Ver más
+                    </a>  <div class="dropdown-menu " aria-labelledby="dropdownMenu2" x-placement="bottom-start">  <ul class="">  <li class="item active">  <a class="item-link" href="https://peru.ladevi.info/horeca" target="" title="Ladevi Medios y Soluciones | Horeca" alt="Ladevi Medios y Soluciones | Horeca">
+                                        Horeca
+                                        </a></li>  <li class="item active">  <a class="item-link" href="https://peru.ladevi.info/opinion" target="" title="Ladevi Medios y Soluciones | Opinión" alt="Ladevi Medios y Soluciones | Opinión">
+                                        Opinión
+                                        </a></li>  <li class="item active">  <a class="item-link" href="https://peru.ladevi.info/revistas" target="" title="Ladevi Medios y Soluciones | Revistas" alt="Ladevi Medios y Soluciones | Revistas">
+                                        Revistas
+                                        </a></li>  </ul></div>  </div></li>  </ul></nav> 
+</div>  </div>  <div class="col-2">  <div class="fix-header-icon  d-flex align-items-center justify-content-left">  
+
+<div class="social-bar dropdown">  <div class="btn btn-white dropdown-toggle border-none font-italic" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Síguenos
+    </div>  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">  <div class="social-icon dropdown-item">  <a class="link social-link" title="Ladevi Medios y Soluciones | Twitter" href="https://x.com/ladevi_peru" target="" rel="nofollow">
+                
+                
+                <img xmlns:ll="no" xmlns:ll="no" src="https://media.viajando.travel/p/f955d9c2f87c5515eb564f6b6bce678b/adjuntos/277/imagenes/000/662/0000662527/x-logo.png" class="img" alt="Ladevi Medios y Soluciones | Twitter" title="Ladevi Medios y Soluciones | Twitter" \/>  <img xmlns:ll="no" xmlns:ll="no" src="https://media.viajando.travel/p/5fb317e11783eb92826dd0a5f9b8717a/adjuntos/277/imagenes/000/662/0000662528/x-logo.png" class="img_over" alt="Ladevi Medios y Soluciones | Twitter" title="Ladevi Medios y Soluciones | Twitter" \/> Twitter
+              </a></div>  <div class="social-icon dropdown-item">  <a class="link social-link" title="Ladevi Medios y Soluciones | Facebook" href="https://www.facebook.com/viajandotravelperuok" target="" rel="nofollow">
+                
+                
+                <img xmlns:ll="no" xmlns:ll="no" src="https://media.viajando.travel/adjuntos/277/imagenes/000/208/0000208100.svg" class="img" alt="Ladevi Medios y Soluciones | Facebook" title="Ladevi Medios y Soluciones | Facebook" \/>  <img xmlns:ll="no" xmlns:ll="no" src="https://media.viajando.travel/adjuntos/277/imagenes/000/208/0000208101.svg" class="img_over" alt="Ladevi Medios y Soluciones | Facebook" title="Ladevi Medios y Soluciones | Facebook" \/> Facebook
+              </a></div>  <div class="social-icon dropdown-item">  <a class="link social-link" title="Ladevi Medios y Soluciones | Instagram" href="https://www.instagram.com/ladevi.peru" target="" rel="nofollow">
+                
+                
+                <img xmlns:ll="no" xmlns:ll="no" src="https://media.viajando.travel/adjuntos/277/imagenes/000/208/0000208102.svg" class="img" alt="Ladevi Medios y Soluciones | Instagram" title="Ladevi Medios y Soluciones | Instagram" \/>  <img xmlns:ll="no" xmlns:ll="no" src="https://media.viajando.travel/adjuntos/277/imagenes/000/208/0000208103.svg" class="img_over" alt="Ladevi Medios y Soluciones | Instagram" title="Ladevi Medios y Soluciones | Instagram" \/> Instagram
+              </a></div>  <div class="social-icon dropdown-item">  <a class="link social-link" title="Ladevi Medios y Soluciones | Linkedin" href="https://peru.ladevi.info/contenidos/linkedin.html" target="" rel="nofollow">
+                
+                
+                <img xmlns:ll="no" xmlns:ll="no" src="https://media.viajando.travel/adjuntos/277/imagenes/000/241/0000241864.svg" class="img" alt="Ladevi Medios y Soluciones | Linkedin" title="Ladevi Medios y Soluciones | Linkedin" \/>  <img xmlns:ll="no" xmlns:ll="no" src="https://media.viajando.travel/adjuntos/277/imagenes/000/241/0000241865.svg" class="img_over" alt="Ladevi Medios y Soluciones | Linkedin" title="Ladevi Medios y Soluciones | Linkedin" \/> Linkedin
+              </a></div>  <div class="social-icon dropdown-item">  <a class="link social-link" title="Ladevi Medios y Soluciones | Youtube" href="https://www.youtube.com/ladevimediosysoluciones" target="" rel="nofollow">
+                
+                
+                <img xmlns:ll="no" xmlns:ll="no" src="https://media.viajando.travel/adjuntos/277/imagenes/000/345/0000345325.svg" class="img" alt="Ladevi Medios y Soluciones | Youtube" title="Ladevi Medios y Soluciones | Youtube" \/>  <img xmlns:ll="no" xmlns:ll="no" src="https://media.viajando.travel/adjuntos/277/imagenes/000/345/0000345326.svg" class="img_over" alt="Ladevi Medios y Soluciones | Youtube" title="Ladevi Medios y Soluciones | Youtube" \/> Youtube
+              </a></div>  <div class="social-icon dropdown-item">  <a class="link social-link" title="Ladevi Medios y Soluciones | Contáctanos" href="https://peru.ladevi.info/contenidos/contacto.html" target="" rel="nofollow">
+                
+                
+                <img xmlns:ll="no" xmlns:ll="no" src="https://media.viajando.travel/adjuntos/236/imagenes/000/808/0000808369.svg" class="img" alt="Ladevi Medios y Soluciones | Contáctanos" title="Ladevi Medios y Soluciones | Contáctanos" \/>  <img xmlns:ll="no" xmlns:ll="no" src="https://media.viajando.travel/adjuntos/236/imagenes/000/808/0000808370.svg" class="img_over" alt="Ladevi Medios y Soluciones | Contáctanos" title="Ladevi Medios y Soluciones | Contáctanos" \/> Contáctanos
+              </a></div>  <div class="social-icon dropdown-item">  <a class="link social-link" title="Ladevi Medios y Soluciones | Publicaciones Ladevi" href="https://publicaciones.ladevi.travel/?country_id=177&ref=ok" target="_blank" rel="nofollow">
+                
+                
+                <img xmlns:ll="no" xmlns:ll="no" src="https://media.viajando.travel/adjuntos/236/imagenes/000/806/0000806713.svg" class="img" alt="Ladevi Medios y Soluciones | Publicaciones Ladevi" title="Ladevi Medios y Soluciones | Publicaciones Ladevi" \/>  <img xmlns:ll="no" xmlns:ll="no" src="https://media.viajando.travel/adjuntos/236/imagenes/000/806/0000806714.svg" class="img_over" alt="Ladevi Medios y Soluciones | Publicaciones Ladevi" title="Ladevi Medios y Soluciones | Publicaciones Ladevi" \/> Publicaciones Ladevi
+              </a></div>  <div class="dropdown-divider"></div>  <a class="dropdown-item bg-dark py-3 text-white" href="https://suscripciones.ladevi.travel/" target="_blank"><i class="newspaper px-3"><svg xmlns="http://www.w3.org/2000/svg" fill="CurrentColor" width="20px" height="20px" viewBox="0 -100 576 576"><path d="M552 64H88c-13.255 0-24 10.745-24 24v8H24c-13.255 0-24 10.745-24 24v272c0 30.928 25.072 56 56 56h472c26.51 0 48-21.49 48-48V88c0-13.255-10.745-24-24-24zM56 400a8 8 0 0 1-8-8V144h16v248a8 8 0 0 1-8 8zm236-16H140c-6.627 0-12-5.373-12-12v-8c0-6.627 5.373-12 12-12h152c6.627 0 12 5.373 12 12v8c0 6.627-5.373 12-12 12zm208 0H348c-6.627 0-12-5.373-12-12v-8c0-6.627 5.373-12 12-12h152c6.627 0 12 5.373 12 12v8c0 6.627-5.373 12-12 12zm-208-96H140c-6.627 0-12-5.373-12-12v-8c0-6.627 5.373-12 12-12h152c6.627 0 12 5.373 12 12v8c0 6.627-5.373 12-12 12zm208 0H348c-6.627 0-12-5.373-12-12v-8c0-6.627 5.373-12 12-12h152c6.627 0 12 5.373 12 12v8c0 6.627-5.373 12-12 12zm0-96H140c-6.627 0-12-5.373-12-12v-40c0-6.627 5.373-12 12-12h360c6.627 0 12 5.373 12 12v40c0 6.627-5.373 12-12 12z"/></svg></i> Suscribirse al Newsletter</a></div> 
+</div>
+
+<div class="home-header-socials social-bar"></div> 
+  
+ <div class="home-header-tools">
+ <div class="user">
+ <a class="icon" href="javascript:void(0)">
+ <i class="fa fa-user"></i>  </a></div>  <button class="text-center btn btn-light h-100 p-relative pr-0"><a href="javascript:void(0)" id="btn-buscar"> <i class="search">  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+ <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                    </svg></i></a>  <form action="https://peru.ladevi.info/contenidos/resultado.html" method="get" class="search-form">
+ <input id="search" name="search" type="text" placeholder="Buscar">  <input id="search_submit" value="Rechercher" type="submit" class="hide">  </form></button>  <!-- <div class="en-vivo">
+            <a class="icon" href="#vivo">
+                <svg class="svg-inline--fa fa-w-16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill="currentColor"><path d="M336.2 64H47.8C21.4 64 0 85.4 0 111.8v288.4C0 426.6 21.4 448 47.8 448h288.4c26.4 0 47.8-21.4 47.8-47.8V111.8c0-26.4-21.4-47.8-47.8-47.8zm189.4 37.7L416 177.3v157.4l109.6 75.5c21.2 14.6 50.4-.3 50.4-25.8V127.5c0-25.4-29.1-40.4-50.4-25.8z"/></svg>
+            </a>
+        </div> --> 
+    </div>  </div></div>  <div class="col-1"><div class="banner-menu"></div></div>  </div></nav>  <div class="sticky-header container-fluid navbar"><div class="container">  <div class="row full-screen align-items-center no-gutters "><div class="col col-2">  <a class="logo-sticky" href="https://peru.ladevi.info" style="padding-left:16px">
+                <img src="https://peru.ladevi.info/css-custom/277/images/logo_v1-2.svg?v 3092025011619" alt="Ladevi Medios y Soluciones" title="Ladevi Medios y Soluciones" height="45"/></a>  </div>  <div class="col col-10">  <article class="sticky-title">  <p class="title" id="sticky-title"></p>  </article></div>  </div></div>  </div>  <section class="bottom-section">  <div class="container-fluid ">  <div class="row">  <div class="col-12">  
+
+<nav class="groupers-navigation " id="nav-grouper">  <div class="nav-wrapper clearfix container">		<ul id="nav-mobile" class="left hide-on-small-only groupers-list">		<li class="grouper title ">De interés:</li> 	<li class="grouper"><a href="https://peru.ladevi.info/mincetur-a4906" class="topic-link" title="Mincetur" alt="Mincetur">Mincetur</a></li> 	<li class="grouper"><a href="https://peru.ladevi.info/grupo-gea-a4162" class="topic-link" title="Grupo GEA" alt="Grupo GEA">Grupo GEA</a></li> 	<li class="grouper"><a href="https://peru.ladevi.info/machu-picchu-a5772" class="topic-link" title="Machu Picchu" alt="Machu Picchu">Machu Picchu</a></li> 	<li class="grouper"><a href="https://peru.ladevi.info/canatur-a5273" class="topic-link" title="Canatur" alt="Canatur">Canatur</a></li> 	<li class="grouper"><a href="https://peru.ladevi.info/capatur-a8767" class="topic-link" title="Capatur" alt="Capatur">Capatur</a></li> 	<li class="grouper"><a href="https://peru.ladevi.info/apavit-a5502" class="topic-link" title="Apavit" alt="Apavit">Apavit</a></li> 	<li class="grouper"><a href="https://peru.ladevi.info/mincul-a10486" class="topic-link" title="Mincul" alt="Mincul">Mincul</a></li> 	<li class="grouper"><a href="https://peru.ladevi.info/ahora-peru-a5654" class="topic-link" title="Ahora Perú" alt="Ahora Perú">Ahora Perú</a></li> 	</ul></div>  </nav>  </div></div>  </div></section>  </div>  </header>  <section class="openings-wrapper"></section>  <main><section class="main-content bg-ligth">  
+ <div class="banner-libre"><div style="width:970px;height:90px;">  <!-- /21801313528/top_970x90_ladeviinfoperu --> 
+<div id='div-gpt-ad-1582052876273-0' style='width:970px;height:90px;'><script xmlns:deferer="no"> googletag.cmd.push(function() { googletag.display('div-gpt-ad-1582052876273-0'); });
+  </script></div>  </div></div> 
+
+	<div class="banner-container">		<div class="banner-side-right">		<div class="banner-inside" style="width:120px;height:600px;">		<!-- /21801313528/120x600_lip_flotantes -->
+<div id='div-gpt-ad-1607823070387-1' style='width:120px;height:600px;'>  <script xmlns:deferer="no"> googletag.cmd.push(function() { googletag.display('div-gpt-ad-1607823070387-1'); });
+  </script></div>		</div></div>
+	</div>
+	<div class="banner-container"><div class="banner-side-left">		<div class="banner-inside" style="width:120px;height:600px;">		<!-- /21801313528/120x600_lip_flotantes --> 
+<div id='div-gpt-ad-1607823070387-2' style='width:120px;height:600px;'><script xmlns:deferer="no"> googletag.cmd.push(function() { googletag.display('div-gpt-ad-1607823070387-2'); });
+  </script></div>		</div></div>
+	</div>  <div class="widgetContent none "><div class="widget-content widget-color-" style="background-image:url('');">  <div class="container"><div class="row">  <div class="col col-sm-12">  
+    
+    
+</div>  </div>  <div class="row">  <div class="col col-sm-8"></div>  <div class="col col-sm-4"></div></div>  <div class="row"><div class="col col-sm-12"></div></div>  </div></div>  </div> 
+  <div class="widgetContent none "><div class="widget-content widget-color-" style="background-image:url('');">  <div class="container"><div class="row">  <div class="col col-sm-12"></div></div>  <div class="row"><div class="col col-sm-3">  
+ <div class="simple-list one-column-wrapper"><div class="row">  <p class="section-title hide"></p>  <div class="col col-sm-12">  <article class="article-badge-in-image square   ">  <figure class="figure">  <a href="https://peru.ladevi.info/negocios/vip-viajes-y-terrawind-sellan-alianza-estrategica-fortalecer-el-canal-agencias-viajes-n88378" target="" title="VIP Viajes y Terrawind sellan alianza estratégica" alt="VIP Viajes y Terrawind sellan alianza estratégica"><img xmlns:ll="no" xmlns:ll="no" src="https://media.viajando.travel/p/c3ff221dbc7d9edd10490df39fdbd0e8/adjuntos/236/imagenes/000/843/0000843503/350x197/smart/vip-viajes-y-terrawind.jpg" alt="Pablo Pastor, director comercial para el Cono Sur de Terrawind y Mary Guizado, gerente general de VIP Viajes." title="Pablo Pastor, director comercial para el Cono Sur de Terrawind y Mary Guizado, gerente general de VIP Viajes." width="350" height="194" srcset=  "" sizes=  "" \/></a>
+	<span class="badge agrup rojo">Alianzas</span></figure>  <div class="info-wrapper"><h2 class="title">  <a href="https://peru.ladevi.info/negocios/vip-viajes-y-terrawind-sellan-alianza-estrategica-fortalecer-el-canal-agencias-viajes-n88378" target="" >VIP Viajes y Terrawind sellan alianza estratégica </a></h2>  </div></article>  </div>  <div class="col col-sm-12">  <article class="article-badge-in-image square   ">  <figure class="figure">  <a href="https://peru.ladevi.info/negocios/tbocom-ingresa-peru-una-plataforma-integral-agencias-viajes-n88371" target="" title="TBO.COM aterriza en Perú con una plataforma integral para agencias" alt="TBO.COM aterriza en Perú con una plataforma integral para agencias"><img xmlns:ll="no" xmlns:ll="no" src="https://media.viajando.travel/p/7ed56b582b8938c717c8a996c61101c3/adjuntos/236/imagenes/000/843/0000843229/350x197/smart/tbocom-ladevi.jpg" alt="Mauricio Peralta de TBO.COM junto a los expositores de la presentación.&nbsp;" title="Mauricio Peralta de TBO.COM junto a los expositores de la presentación.&nbsp;" width="350" height="194" srcset=  "" sizes=  "" \/></a>
+	<span class="badge agrup rojo">Inauguración</span></figure>  <div class="info-wrapper"><h2 class="title">  <a href="https://peru.ladevi.info/negocios/tbocom-ingresa-peru-una-plataforma-integral-agencias-viajes-n88371" target="" >TBO.COM aterriza en Perú con una plataforma integral para agencias</a></h2>  </div></article>  </div></div>  </div>  </div>  <div class="col col-sm-6">  
+ <article class="article-highlight-square  principal  ">
+ <figure class="figure no-video">
+	<span class="badge agrup naranja">Apertura</span>  <a href="https://peru.ladevi.info/transporte/flybondi-llega-al-peru-vuelos-puerto-iguazu-lima-n88306" target="" title="Flybondi llega al Perú con vuelos desde Puerto Iguazú hacia Lima" alt="Flybondi llega al Perú con vuelos desde Puerto Iguazú hacia Lima">
+                
+                <img xmlns:ll="no" xmlns:ll="no" src="https://media.viajando.travel/p/7a684ba5380e490beb89e9d2a45b8d25/adjuntos/236/imagenes/000/758/0000758249/flybondi-dia-la-madre.png" alt="Flybondi iniciará operaciones en el Perú a partir de diciembre de 2025." title="Flybondi iniciará operaciones en el Perú a partir de diciembre de 2025." width="540" height="405" srcset=  "" sizes=  "" \/>  </a></figure>  <div class="info-wrapper"><h1 class="title">  <a href="https://peru.ladevi.info/transporte/flybondi-llega-al-peru-vuelos-puerto-iguazu-lima-n88306" target="" >Flybondi llega al Perú con vuelos desde Puerto Iguazú hacia Lima</a></h1>  </div></article> 
+</div>  <div class="col col-sm-3">  
+ <div class="simple-list one-column-wrapper"><div class="row">  <p class="section-title hide"></p>  <div class="col col-sm-12">  <article class="article-badge-in-image square   ">  <figure class="figure">  <a href="https://peru.ladevi.info/negocios/agencias-del-futuro-claves-y-herramientas-una-transicion-tecnologica-inevitable-n88469" rel="nofollow" target="" title="Agencias del futuro: claves para una transición tecnológica inevitable" alt="Agencias del futuro: claves para una transición tecnológica inevitable"><img xmlns:ll="no" xmlns:ll="no" src="https://media.viajando.travel/p/ce9431fd6b86c81c89f5ccf8e28e1121/adjuntos/236/imagenes/000/843/0000843776/350x197/smart/agencias-viajes-del-futuro.png" alt="Los líderes tech incentivan a las agencias de viajes a sumar tecnología para potenciar su actividad y ganar competitividad.&nbsp;" title="Los líderes tech incentivan a las agencias de viajes a sumar tecnología para potenciar su actividad y ganar competitividad.&nbsp;" width="350" height="194" srcset=  "" sizes=  "" \/></a>
+	<span class="badge agrup rojo">INDUSTRIA</span></figure>  <div class="info-wrapper"><h2 class="title">  <a href="https://peru.ladevi.info/negocios/agencias-del-futuro-claves-y-herramientas-una-transicion-tecnologica-inevitable-n88469" rel="nofollow" target="" >Agencias del futuro: claves para una transición tecnológica inevitable</a></h2>  </div></article>  </div>  <div class="col col-sm-12">  <article class="article-badge-in-image square   ">  <figure class="figure">  <a href="https://peru.ladevi.info/negocios-latam/de-la-comision-al-fee-la-revalorizacion-los-agentes-viajes-como-consultores-profesionales-n88259" rel="nofollow" target="" title="De la comisión al fee: la revalorización de los agentes profesionales" alt="De la comisión al fee: la revalorización de los agentes profesionales"><img xmlns:ll="no" xmlns:ll="no" src="https://media.viajando.travel/p/b8d73d8ddcc5ae814c3d3685cecae3f8/adjuntos/236/imagenes/000/842/0000842865/350x197/smart/fee-servicio-agente-viajes.png" alt="Los agentes de viajes pueden revalorizar su tiempo, su rol y su conocimiento con el modelo de honorarios, tal como lo hacen abogados y otros profesionales." title="Los agentes de viajes pueden revalorizar su tiempo, su rol y su conocimiento con el modelo de honorarios, tal como lo hacen abogados y otros profesionales." width="350" height="194" srcset=  "" sizes=  "" \/></a>
+	<span class="badge agrup verde">Negocios</span></figure>  <div class="info-wrapper"><h2 class="title">  <a href="https://peru.ladevi.info/negocios-latam/de-la-comision-al-fee-la-revalorizacion-los-agentes-viajes-como-consultores-profesionales-n88259" rel="nofollow" target="" >De la comisión al fee: la revalorización de los agentes profesionales</a></h2>  </div></article>  </div></div>  </div>  </div></div>  <div class="row"><div class="col col-sm-12"></div></div>  </div></div>  </div> 
+  <div class="widgetContent none "><div class="widget-content widget-color-" style="background-image:url('');">  <div class="container"><div class="row">  <div class="col col-sm-12">  
+    
+    
+</div>  </div>  <div class="row">  <div class="col col-sm-8"></div>  <div class="col col-sm-4"></div></div>  <div class="row"><div class="col col-sm-12"></div></div>  </div></div>  </div> 
+  <div class="widgetContent none "><div class="widget-content widget-color-" style="background-image:url('');">  <div class="container"><div class="row">  <div class="col col-sm-12">  
+    
+    
+</div>  </div>  <div class="row">  <div class="col col-sm-8"></div>  <div class="col col-sm-4"></div></div>  <div class="row"><div class="col col-sm-12"></div></div>  </div></div>  </div> 
+  <div class="banner-libre"><div style="width:970px;height:90px;">  <!-- /21801313528/970x90_ladeviinfoperu_ban1 --> 
+<div id='div-gpt-ad-1582904127976-0' style='width:970px;height:90px;'><script xmlns:deferer="no"> googletag.cmd.push(function() { googletag.display('div-gpt-ad-1582904127976-0'); });
+  </script></div>  </div></div> 
+  <div class="widgetContent none ">  <div class="widget-content widget-color-" style="background-image:url('');">  <div class="container">  <div class="row">  <div class="col col-sm-12">    </div></div>  <div class="row"><div class="col col-sm-8">  
+
+<div class="simple-list two-columns-wrapper"><div class="row">  <div class="col-md-6"><article class="article-badge-in-image   ">  <figure class="figure">  <a href="https://peru.ladevi.info/negocios/curazao-refuerza-su-posicionamiento-peru-vuelos-directos-y-oferta-turistica-diversificada-n87982">
+            
+            <img src="https://media.viajando.travel/p/2c6f1bf8af677949c77fcf81fc01fd9a/adjuntos/236/imagenes/000/841/0000841897/412x232/smart/workshop-cuarazao.jpg" class="figure-img img-fluid" alt="Curazao refuerza su llegada al Perú con vuelos directos " width="350" height="197"></a>
+	<span class="badge agrup rojo">Workshop</span></figure>  <div class="info-wrapper"><h2 class="title">  <a href="https://peru.ladevi.info/negocios/curazao-refuerza-su-posicionamiento-peru-vuelos-directos-y-oferta-turistica-diversificada-n87982" >Curazao refuerza su llegada al Perú con vuelos directos </a></h2>  </div></article>  </div>  <div class="col-md-6">  <article class="article-badge-in-image   ">  <figure class="figure">  <a href="https://peru.ladevi.info/actualidad/gobierno-impulsa-megaproyectos-turisticos-s-2-400-millones-dinamizar-la-oferta-nacional-n88041">
+            
+            <img src="https://media.viajando.travel/p/e4203a2c72f867d105a0932ad573d9e9/adjuntos/236/imagenes/000/842/0000842201/412x232/smart/mincetur.png" class="figure-img img-fluid" alt="Mincetur apuesta por infraestructura turística" width="350" height="197">  </a>
+	<span class="badge agrup verde">Turismo</span></figure>  <div class="info-wrapper"><h2 class="title">  <a href="https://peru.ladevi.info/actualidad/gobierno-impulsa-megaproyectos-turisticos-s-2-400-millones-dinamizar-la-oferta-nacional-n88041" >Mincetur apuesta por infraestructura turística</a></h2>  </div></article>  </div></div> 
+</div>  </div>  <div class="col col-sm-4">  
+ <div class="banner-libre">
+ <div style="width:300px;height:250px;">
+            <!-- /21801313528/300x250_ladeviinfoperu_ban1 -->
+<div id='div-gpt-ad-1582905789013-0' style='min-width:260px;min-height:217px;'>  <script xmlns:deferer="no"> googletag.cmd.push(function() { googletag.display('div-gpt-ad-1582905789013-0'); });
+  </script></div>  </div></div> 
+</div>  </div>  <div class="row">  <div class="col col-sm-12"></div>  </div></div>  </div></div> 
+
+  <div class="banner-libre">  <div style="width:970px;height:90px;">  <!-- /21801313528/ladeviinfoperu_970x90_ban2 -->
+<div id='div-gpt-ad-1584844780474-0' style='width:970px;height:90px;'>  <script xmlns:deferer="no"> googletag.cmd.push(function() { googletag.display('div-gpt-ad-1584844780474-0'); });
+  </script></div>  </div></div> 
+  <div class="widgetContent none ">  <div class="widget-content widget-color-" style="background-image:url('');">  <div class="container">  <div class="row">  <div class="col col-sm-12">  
+ <div class="banner-libre">
+ <div style="width:1111px;height:40px;">
+            <a href="https://peru.ladevi.info/negocios" rel="noopener"><img src="https://media.viajando.travel/adjuntos/277/banners/000/328/0000328067.jpg" alt="Barra Negocios" title="Barra Negocios" style="" id="" border="0"/></a>  </div></div> 
+  <div class="container simple-list four-columns-wrapper">  <div class="row">  <p class="section-title hide"></p>  <div class="col col-sm-3"><article class="article-badge-in-image square  azul  ">  <figure class="figure">  <a href="https://peru.ladevi.info/negocios/hampton-by-hilton-cusco-alto-nivel-confort-disfrutar-del-valle-sagrado-n88312" rel="nofollow" target="" title="Hampton by Hilton Cusco: alto confort en el Valle Sagrado" alt="Hampton by Hilton Cusco: alto confort en el Valle Sagrado"><img src="https://media.viajando.travel/p/d9daa20b5a6cf877db26ba8564072caa/adjuntos/236/imagenes/000/843/0000843017/255x144/smart/hampton-by-hilton-cusco-1.jpeg" alt="El hotel es una novedosa opción dentro del destino, con la garantía de calidad de Hampton y el respaldo de Hilton." title="El hotel es una novedosa opción dentro del destino, con la garantía de calidad de Hampton y el respaldo de Hilton." width="255" height="194" srcset=  "" sizes=  ""/></a>
+	<span class="badge agrup rojo">HOTELES</span></figure>  <div class="info-wrapper"><h3 class="title">  <a href="https://peru.ladevi.info/negocios/hampton-by-hilton-cusco-alto-nivel-confort-disfrutar-del-valle-sagrado-n88312" rel="nofollow" target="" >Hampton by Hilton Cusco: alto confort en el Valle Sagrado</a></h3>  </div></article>  </div>  <div class="col col-sm-3">  <article class="article-badge-in-image square  azul  ">  <figure class="figure">  <a href="https://peru.ladevi.info/negocios/vip-viajes-y-terrawind-sellan-alianza-estrategica-fortalecer-el-canal-agencias-viajes-n88378" target="" title="VIP Viajes y Terrawind sellan alianza estratégica" alt="VIP Viajes y Terrawind sellan alianza estratégica"><img src="https://media.viajando.travel/p/efe552555ce4447df3d0ba18ee1a7dbd/adjuntos/236/imagenes/000/843/0000843503/255x144/smart/vip-viajes-y-terrawind.jpg" alt="Pablo Pastor, director comercial para el Cono Sur de Terrawind y Mary Guizado, gerente general de VIP Viajes." title="Pablo Pastor, director comercial para el Cono Sur de Terrawind y Mary Guizado, gerente general de VIP Viajes." width="255" height="194" srcset=  "" sizes=  ""/></a>
+	<span class="badge agrup rojo">Alianzas</span></figure>  <div class="info-wrapper"><h3 class="title">  <a href="https://peru.ladevi.info/negocios/vip-viajes-y-terrawind-sellan-alianza-estrategica-fortalecer-el-canal-agencias-viajes-n88378" target="" >VIP Viajes y Terrawind sellan alianza estratégica </a></h3>  </div></article>  </div>  <div class="col col-sm-3">  <article class="article-badge-in-image square  azul  ">  <figure class="figure">  <a href="https://peru.ladevi.info/negocios/tbocom-ingresa-peru-una-plataforma-integral-agencias-viajes-n88371" target="" title="TBO.COM aterriza en Perú con una plataforma integral para agencias" alt="TBO.COM aterriza en Perú con una plataforma integral para agencias"><img src="https://media.viajando.travel/p/61bb01f7be6f16ac71b9918c1d8f30ea/adjuntos/236/imagenes/000/843/0000843229/255x144/smart/tbocom-ladevi.jpg" alt="Mauricio Peralta de TBO.COM junto a los expositores de la presentación.&nbsp;" title="Mauricio Peralta de TBO.COM junto a los expositores de la presentación.&nbsp;" width="255" height="194" srcset=  "" sizes=  ""/></a>
+	<span class="badge agrup rojo">Inauguración</span></figure>  <div class="info-wrapper"><h3 class="title">  <a href="https://peru.ladevi.info/negocios/tbocom-ingresa-peru-una-plataforma-integral-agencias-viajes-n88371" target="" >TBO.COM aterriza en Perú con una plataforma integral para agencias</a></h3>  </div></article>  </div>  <div class="col col-sm-3">  <article class="article-badge-in-image square  azul  ">  <figure class="figure">  <a href="https://peru.ladevi.info/negocios/europamundo-cultura-islas-y-sabores-grecia-n83513" rel="nofollow" target="" title="Europamundo: cultura, islas y sabores de Grecia" alt="Europamundo: cultura, islas y sabores de Grecia"><img src="https://media.viajando.travel/p/b3d0954167fb98cc87dc1b4d845403b7/adjuntos/236/imagenes/000/829/0000829874/255x144/smart/europamundo-grecia-2jpg.jpg" alt="Europamundo invita a recorrer Grecia de una manera auténtica, diversa y pausada a través de cualquiera de los 20 circuitos exclusivos que opera en ese país." title="Europamundo invita a recorrer Grecia de una manera auténtica, diversa y pausada a través de cualquiera de los 20 circuitos exclusivos que opera en ese país." width="255" height="194" srcset=  "" sizes=  ""/></a>
+	<span class="badge agrup rojo">PRODUCTOS</span></figure>  <div class="info-wrapper"><h3 class="title">  <a href="https://peru.ladevi.info/negocios/europamundo-cultura-islas-y-sabores-grecia-n83513" rel="nofollow" target="" >Europamundo: cultura, islas y sabores de Grecia</a></h3>  </div></article>  </div></div>  </div> 
+
+
+<div class="simple-list three-columns-wrapper"><div class="row">  <div class="col-md-4"><article class="article-badge-in-image   ">  <figure class="figure">  <a href="https://peru.ladevi.info/actualidad/mincetur-resalta-liderazgo-femenino-el-sector-turismo-n88612">
+                  
+                  <img src="https://media.viajando.travel/p/6ab6fd7c1a7cb2389e72d8e6905d2641/adjuntos/236/imagenes/000/844/0000844267/412x232/smart/afeet-peru.jpg" class="figure-img img-fluid" alt="Mincetur resalta el trabajo de Afeet Perú en el turismo" width="412" height="232"></a>
+	<span class="badge agrup verde">evento</span></figure>  <div class="info-wrapper"><h3 class="title">  <a href="https://peru.ladevi.info/actualidad/mincetur-resalta-liderazgo-femenino-el-sector-turismo-n88612" >Mincetur resalta el trabajo de Afeet Perú en el turismo</a></h3>  </div></article>  </div>  <div class="col-md-4">  <article class="article-badge-in-image   ">  <figure class="figure">  <a href="https://peru.ladevi.info/negocios/malasia-se-posiciona-el-radar-del-turismo-latinoamericano-n88608" rel="nofollow">
+                  
+                  <img src="https://media.viajando.travel/p/d43249ccb2720ac94d438010b61a0bd5/adjuntos/236/imagenes/000/844/0000844255/412x232/smart/executive_tourism_malaysia_on_logos.jpg" class="figure-img img-fluid" alt="Malasia se posiciona en el radar del turismo latinoamericano" width="412" height="232">  </a>
+	<span class="badge agrup rojo">Promoción</span></figure>  <div class="info-wrapper"><h3 class="title">  <a href="https://peru.ladevi.info/negocios/malasia-se-posiciona-el-radar-del-turismo-latinoamericano-n88608" rel="nofollow" >Malasia se posiciona en el radar del turismo latinoamericano</a></h3>  </div></article>  </div>  <div class="col-md-4">  <article class="article-badge-in-image   ">  <figure class="figure">  <a href="https://peru.ladevi.info/negocios/sandals-celebra-su-tradicional-torneo-golf-jamaica-agencias-viajes-america-latina-n88598" rel="nofollow">
+                  
+                  <img src="https://media.viajando.travel/p/e6daef7f419e987ecddf59a358738471/adjuntos/236/imagenes/000/844/0000844245/412x232/smart/sandals-golf-2025-bdms.jpeg" class="figure-img img-fluid" alt="Sandals celebra su tradicional Torneo de Golf en Jamaica con agencias de viajes de América Latina" width="412" height="232">  </a>
+	<span class="badge agrup rojo">Iniciativa</span></figure>  <div class="info-wrapper"><h3 class="title">  <a href="https://peru.ladevi.info/negocios/sandals-celebra-su-tradicional-torneo-golf-jamaica-agencias-viajes-america-latina-n88598" rel="nofollow" >Sandals celebra su tradicional Torneo de Golf en Jamaica con agencias de viajes de América Latina</a></h3>  </div></article>  </div></div> 
+</div>  </div></div>  <div class="row"><div class="col col-sm-8">  
+
+<div class="simple-list two-columns-wrapper"><div class="row">  <div class="col-md-6"><article class="article-badge-in-image   ">  <figure class="figure">  <a href="https://peru.ladevi.info/negocios/celebration-suites-recibio-una-distincion-como-hotel-ideal-familias-orlando-n88596" rel="nofollow">
+            
+            <img src="https://media.viajando.travel/p/acf55be9389f5b32f1f5f7a45ea44d4c/adjuntos/236/imagenes/000/844/0000844249/412x232/smart/celebration-suites.jpg" class="figure-img img-fluid" alt="Celebration Suites recibió una distinción como hotel ideal para familias en Orlando" width="350" height="197"></a>
+	<span class="badge agrup rojo">Hoteles</span></figure>  <div class="info-wrapper"><h2 class="title">  <a href="https://peru.ladevi.info/negocios/celebration-suites-recibio-una-distincion-como-hotel-ideal-familias-orlando-n88596" rel="nofollow" >Celebration Suites recibió una distinción como hotel ideal para familias en Orlando</a></h2>  </div></article>  </div>  <div class="col-md-6">  <article class="article-badge-in-image   ">  <figure class="figure">  <a href="https://peru.ladevi.info/transporte/aeropuerto-jauja-movilizo-22-mil-pasajeros-solo-50-dias-reanudar-operaciones-n88576">
+            
+            <img src="https://media.viajando.travel/p/e2ef98a931b2e252f76b70095d0a45c6/adjuntos/236/imagenes/000/844/0000844156/412x232/smart/aeropuerto-jauja.png" class="figure-img img-fluid" alt="Aeropuerto de Jauja movilizó 22 mil pasajeros tras reanudar operaciones" width="350" height="197">  </a>
+	<span class="badge agrup naranja">Transporte</span></figure>  <div class="info-wrapper"><h2 class="title">  <a href="https://peru.ladevi.info/transporte/aeropuerto-jauja-movilizo-22-mil-pasajeros-solo-50-dias-reanudar-operaciones-n88576" >Aeropuerto de Jauja movilizó 22 mil pasajeros tras reanudar operaciones</a></h2>  </div></article>  </div>  <div class="col-md-6">  <article class="article-badge-in-image   ">  <figure class="figure">  <a href="https://peru.ladevi.info/actualidad/turismo-receptivo-interes-peru-crece-el-visit-latin-america-workshop-2025-belgica-n88569">
+            
+            <img src="https://media.viajando.travel/p/1d627617f60e8622b8bb4722a4ffcecd/adjuntos/236/imagenes/000/844/0000844152/412x232/smart/peru-belgica.png" class="figure-img img-fluid" alt="Turismo receptivo: interés por Perú crece en el Visit Latin America Workshop 2025 en Bélgica" width="350" height="197">  </a>
+	<span class="badge agrup verde">Turismo</span></figure>  <div class="info-wrapper"><h2 class="title">  <a href="https://peru.ladevi.info/actualidad/turismo-receptivo-interes-peru-crece-el-visit-latin-america-workshop-2025-belgica-n88569" >Turismo receptivo: interés por Perú crece en el Visit Latin America Workshop 2025 en Bélgica</a></h2>  </div></article>  </div>  <div class="col-md-6">  <article class="article-badge-in-image   ">  <figure class="figure">  <a href="https://peru.ladevi.info/transporte/emirates-volara-pronto-peru-esto-es-lo-que-se-sabe-ahora-n88513">
+            
+            <img src="https://media.viajando.travel/p/4d67b97b39cc61bdffc3b4ef2cd3748d/adjuntos/236/imagenes/000/797/0000797970/412x232/smart/emirates-vuelos-ciudad-mexico-barcelona-dubaijpg.jpg" class="figure-img img-fluid" alt="¿Emirates volará pronto a Perú? Esto es lo que se sabe hasta ahora" width="350" height="197">  </a>
+	<span class="badge agrup naranja">Próximamente</span></figure>  <div class="info-wrapper"><h2 class="title">  <a href="https://peru.ladevi.info/transporte/emirates-volara-pronto-peru-esto-es-lo-que-se-sabe-ahora-n88513" >¿Emirates volará pronto a Perú? Esto es lo que se sabe hasta ahora</a></h2>  </div></article>  </div></div> 
+</div>  </div>  <div class="col col-sm-4">  
+ <div class="banner-libre">
+ <div style="width:350px;height:250px;">
+            <!-- /21801313528/300x250_lip_ban2 -->
+<div id='div-gpt-ad-1586489470979-0'style='min-width: 260px; min-height: 217px;'>
+<script xmlns:deferer="no">
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1586489470979-0'); });
+</script></div>  </div></div> 
+  <div class="banner-libre">  <div style="width:300px;height:250px;">  <!-- /21801313528/300x250_lip_ban3 -->
+<div id='div-gpt-ad-1583347397867-0' style='width:300px;height:250px;'>
+<script xmlns:deferer="no">
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1583347397867-0'); });
+</script></div>  </div></div> 
+</div>  </div>  <div class="row">  <div class="col col-sm-12"></div>  </div></div>  </div></div> 
+
+  <div class="banner-libre">  <div style="width:970px;height:90px;">  <!-- /21801313528/970x70_lip_ban3 -->
+<div id='div-gpt-ad-1584844838199-0' style='width:970px;height:90px;'>  <script xmlns:deferer="no"> googletag.cmd.push(function() { googletag.display('div-gpt-ad-1584844838199-0'); });
+  </script></div>  </div></div> 
+  <div class="container simple-list four-columns-wrapper">  <div class="row">  <p class="section-title hide"></p>  <div class="col col-sm-3"><article class="article-badge-in-image square   ">  <figure class="figure">  <a href="https://peru.ladevi.info/actualidad/tiktok-lanza-un-canal-reservar-hoteles-dentro-la-app-junto-bookingcom-n88571" rel="nofollow" target="" title="TikTok lanza un canal para reservar hoteles dentro de la app junto a Booking.com" alt="TikTok lanza un canal para reservar hoteles dentro de la app junto a Booking.com"><img src="https://media.viajando.travel/p/43859f44a79c101ceb387e515040e074/adjuntos/236/imagenes/000/825/0000825065/255x144/smart/redes-sociales-2png.png" alt="TikTok ha lanzado, en fase de prueba en Estados Unidos, un canal de reservas de hoteles" title="TikTok ha lanzado, en fase de prueba en Estados Unidos, un canal de reservas de hoteles" width="255" height="194" srcset=  "" sizes=  ""/></a>
+	<span class="badge agrup verde">Redes sociales</span></figure>  <div class="info-wrapper"><h3 class="title">  <a href="https://peru.ladevi.info/actualidad/tiktok-lanza-un-canal-reservar-hoteles-dentro-la-app-junto-bookingcom-n88571" rel="nofollow" target="" >TikTok lanza un canal para reservar hoteles dentro de la app junto a Booking.com</a></h3>  </div></article>  </div>  <div class="col col-sm-3">  <article class="article-badge-in-image square   ">  <figure class="figure">  <a href="https://peru.ladevi.info/negocios/priceagencies-fortalece-su-presencia-regional-evento-exclusivo-lima-n88464" target="" title="PriceAgencies refuerza su oferta tecnológica y comercial" alt="PriceAgencies refuerza su oferta tecnológica y comercial"><img src="https://media.viajando.travel/p/cb9b076ad4d5ea53d25e6ecc55588bf7/adjuntos/236/imagenes/000/844/0000844060/255x144/smart/priceagencies.jpg" alt="Harold Asca, Zoraida Cedeño y Diana Cuadros, equipo de PriceAgencies en el primer showcase en Lima." title="Harold Asca, Zoraida Cedeño y Diana Cuadros, equipo de PriceAgencies en el primer showcase en Lima." width="255" height="194" srcset=  "" sizes=  ""/></a>
+	<span class="badge agrup rojo">Presentación</span></figure>  <div class="info-wrapper"><h3 class="title">  <a href="https://peru.ladevi.info/negocios/priceagencies-fortalece-su-presencia-regional-evento-exclusivo-lima-n88464" target="" >PriceAgencies refuerza su oferta tecnológica y comercial</a></h3>  </div></article>  </div>  <div class="col col-sm-3">  <article class="article-badge-in-image square   ">  <figure class="figure">  <a href="https://peru.ladevi.info/actualidad/aeropuertos-la-escasez-slots-dispara-sus-precios-heathrow-n88553" rel="nofollow" target="" title="Aeropuertos: la escasez de slots dispara sus precios en Heathrow" alt="Aeropuertos: la escasez de slots dispara sus precios en Heathrow"><img src="https://media.viajando.travel/p/6d5a6b2a97e9b5ca559042ae2a44e437/adjuntos/236/imagenes/000/497/0000497106/aeropuerto-heathrowjpg.jpg" alt="Aeropuerto de Heathrow, en Londres." title="Aeropuerto de Heathrow, en Londres." width="255" height="194" srcset=  "" sizes=  ""/></a>  <!--[IF~WITHDESCRIPTION@params(ANÁLISIS,)]--> 
+<!--[ELSE IF~WITHDESCRIPTION]--> 	<span class="badge agrup verde">ANÁLISIS</span>
+<!--[END IF~WITHDESCRIPTION]--></figure>  <div class="info-wrapper"><h3 class="title">  <a href="https://peru.ladevi.info/actualidad/aeropuertos-la-escasez-slots-dispara-sus-precios-heathrow-n88553" rel="nofollow" target="" >Aeropuertos: la escasez de slots dispara sus precios en Heathrow</a></h3>  </div></article>  </div>  <div class="col col-sm-3">  <article class="article-badge-in-image square   ">  <figure class="figure">  <a href="https://peru.ladevi.info/actualidad/los-viajes-estados-unidos-caen-niveles-2023-los-aranceles-n88550" rel="nofollow" target="" title="Los viajes a Estados Unidos caen a niveles de 2023 por los aranceles" alt="Los viajes a Estados Unidos caen a niveles de 2023 por los aranceles"><img src="https://media.viajando.travel/p/5e47fbfdc202619f85d574219ce0cccc/adjuntos/236/imagenes/000/839/0000839287/255x144/smart/nueva-york-estados-unidos.png" alt="Estados Unidos ha visto cómo su turismo se desploma por culpa de los aranceles de Trump." title="Estados Unidos ha visto cómo su turismo se desploma por culpa de los aranceles de Trump." width="255" height="194" srcset=  "" sizes=  ""/></a>
+	<span class="badge agrup verde">BAJÓN</span></figure>  <div class="info-wrapper"><h3 class="title">  <a href="https://peru.ladevi.info/actualidad/los-viajes-estados-unidos-caen-niveles-2023-los-aranceles-n88550" rel="nofollow" target="" >Los viajes a Estados Unidos caen a niveles de 2023 por los aranceles</a></h3>  </div></article>  </div>  <div class="col col-sm-3">  <article class="article-badge-in-image square   ">  <figure class="figure">  <a href="https://peru.ladevi.info/negocios/tui-group-tui-americas-lanza-su-programacion-especial-el-continente-americano-n88549" rel="nofollow" target="" title="TUI Group: TUI Americas lanza su programación especial por el continente americano" alt="TUI Group: TUI Americas lanza su programación especial por el continente americano"><img src="https://media.viajando.travel/p/92db198e0e74079684a0074e3dc795ec/adjuntos/236/imagenes/000/844/0000844064/255x144/smart/cartel-promocional-la-22coleccion-tui22-lanzada-tui-americas-parte-tui-group.png" alt="Cartel promocional de la Colección TUI, lanzada por TUI Americas, parte de TUI Group." title="Cartel promocional de la Colección TUI, lanzada por TUI Americas, parte de TUI Group." width="255" height="194" srcset=  "" sizes=  ""/></a>
+	<span class="badge agrup rojo">PRODUCTOS</span></figure>  <div class="info-wrapper"><h3 class="title">  <a href="https://peru.ladevi.info/negocios/tui-group-tui-americas-lanza-su-programacion-especial-el-continente-americano-n88549" rel="nofollow" target="" >TUI Group: TUI Americas lanza su programación especial por el continente americano</a></h3>  </div></article>  </div>  <div class="col col-sm-3">  <article class="article-badge-in-image square   ">  <figure class="figure">  <a href="https://peru.ladevi.info/negocios/surland-proyecta-crecimiento-expansion-internacional-y-apoyo-agencias-n88254" rel="nofollow" target="" title="Surland proyecta crecimiento con expansión internacional y apoyo a agencias" alt="Surland proyecta crecimiento con expansión internacional y apoyo a agencias"><img src="https://media.viajando.travel/p/b40e6c9a04d2d328947643b1a780116b/adjuntos/236/imagenes/000/842/0000842825/255x144/smart/surland.jpg" alt="Sara Otero, CEO de Surland." title="Sara Otero, CEO de Surland." width="255" height="194" srcset=  "" sizes=  ""/></a>
+	<span class="badge agrup rojo">NOVEDADES</span></figure>  <div class="info-wrapper"><h3 class="title">  <a href="https://peru.ladevi.info/negocios/surland-proyecta-crecimiento-expansion-internacional-y-apoyo-agencias-n88254" rel="nofollow" target="" >Surland proyecta crecimiento con expansión internacional y apoyo a agencias</a></h3>  </div></article>  </div>  <div class="col col-sm-3">  <article class="article-badge-in-image square   ">  <figure class="figure">  <a href="https://peru.ladevi.info/negocios/hoteles-avanzan-un-modelo-mas-equilibrado-inclusivo-y-sostenible-n88506" rel="nofollow" target="" title="Hoteles avanzan hacia un modelo más equilibrado, inclusivo y sostenible" alt="Hoteles avanzan hacia un modelo más equilibrado, inclusivo y sostenible"><img src="https://media.viajando.travel/p/00b05e1449666011be5ccbc64a8e8e58/adjuntos/236/imagenes/000/844/0000844036/hoteles-turismo-sostenible-minor-hotels-shutterstock_2376701313.jpg" alt="Los hoteles están respondiendo a las demandas del mercado deun turismo sostenible, realizando acciones comprometidas con las comunidades yel medio ambiente.&nbsp;" title="Los hoteles están respondiendo a las demandas del mercado deun turismo sostenible, realizando acciones comprometidas con las comunidades yel medio ambiente.&nbsp;" width="255" height="194" srcset=  "" sizes=  ""/></a>
+	<span class="badge agrup rojo">sostenibilidad</span></figure>  <div class="info-wrapper"><h3 class="title">  <a href="https://peru.ladevi.info/negocios/hoteles-avanzan-un-modelo-mas-equilibrado-inclusivo-y-sostenible-n88506" rel="nofollow" target="" >Hoteles avanzan hacia un modelo más equilibrado, inclusivo y sostenible</a></h3>  </div></article>  </div>  <div class="col col-sm-3">  <article class="article-badge-in-image square   ">  <figure class="figure">  <a href="https://peru.ladevi.info/transporte/gol-linhas-aereas-retoma-vuelos-peru-un-plan-ambicioso-expansion-sudamerica-n88522" target="" title="Gol Linhas Aéreas retoma vuelos a Perú" alt="Gol Linhas Aéreas retoma vuelos a Perú"><img src="https://media.viajando.travel/p/d2f85f6359a5e60ca6f16d83a8359b57/adjuntos/236/imagenes/000/843/0000843959/255x144/smart/aerolinea-gol.jpg" alt="La aerolínea Gol Linhas Aéreas retoma vuelos en el Pacífico y refuerza su red en Sudamérica." title="La aerolínea Gol Linhas Aéreas retoma vuelos en el Pacífico y refuerza su red en Sudamérica." width="255" height="194" srcset=  "" sizes=  ""/></a>
+	<span class="badge agrup naranja">Transporte</span></figure>  <div class="info-wrapper"><h3 class="title">  <a href="https://peru.ladevi.info/transporte/gol-linhas-aereas-retoma-vuelos-peru-un-plan-ambicioso-expansion-sudamerica-n88522" target="" >Gol Linhas Aéreas retoma vuelos a Perú</a></h3>  </div></article>  </div></div>  </div> 
+  <div class="banner-libre"><div style="width:970px;height:90px;">  <!-- /21801313528/970x90_lip_ban4 --> 
+<div id='div-gpt-ad-1584845068078-0' style='width:970px;height:90px;'><script xmlns:deferer="no"> googletag.cmd.push(function() { googletag.display('div-gpt-ad-1584845068078-0'); });
+  </script></div>  </div></div> 
+  <div class="widgetContent none ">  <div class="widget-content widget-color-" style="background-image:url('');">  <div class="container">  <div class="row">  <div class="col col-sm-12">  
+ <div class="banner-libre">
+ <div style="width:1111px;height:40px;">
+            <a href="https://peru.ladevi.info/actualidad" rel="noopener"><img src="https://media.viajando.travel/adjuntos/277/banners/000/231/0000231668.jpg" alt="Barra Actualidad" title="Barra Actualidad" style="" id="" border="0"/></a>  </div></div> 
+
+
+<div class="simple-list three-columns-wrapper">  <div class="row">  <div class="col-md-4">  <article class="article-badge-in-image   ">  <figure class="figure">  <a href="https://peru.ladevi.info/actualidad/mincetur-resalta-liderazgo-femenino-el-sector-turismo-n88612">
+                  
+                  <img src="https://media.viajando.travel/p/6ab6fd7c1a7cb2389e72d8e6905d2641/adjuntos/236/imagenes/000/844/0000844267/412x232/smart/afeet-peru.jpg" class="figure-img img-fluid" alt="Mincetur resalta el trabajo de Afeet Perú en el turismo" width="412" height="232">  </a>
+	<span class="badge agrup verde">evento</span></figure>  <div class="info-wrapper"><h3 class="title">  <a href="https://peru.ladevi.info/actualidad/mincetur-resalta-liderazgo-femenino-el-sector-turismo-n88612" >Mincetur resalta el trabajo de Afeet Perú en el turismo</a></h3>  </div></article>  </div>  <div class="col-md-4">  <article class="article-badge-in-image   ">  <figure class="figure">  <a href="https://peru.ladevi.info/actualidad/turismo-receptivo-interes-peru-crece-el-visit-latin-america-workshop-2025-belgica-n88569">
+                  
+                  <img src="https://media.viajando.travel/p/1d627617f60e8622b8bb4722a4ffcecd/adjuntos/236/imagenes/000/844/0000844152/412x232/smart/peru-belgica.png" class="figure-img img-fluid" alt="Turismo receptivo: interés por Perú crece en el Visit Latin America Workshop 2025 en Bélgica" width="412" height="232">  </a>
+	<span class="badge agrup verde">Turismo</span></figure>  <div class="info-wrapper"><h3 class="title">  <a href="https://peru.ladevi.info/actualidad/turismo-receptivo-interes-peru-crece-el-visit-latin-america-workshop-2025-belgica-n88569" >Turismo receptivo: interés por Perú crece en el Visit Latin America Workshop 2025 en Bélgica</a></h3>  </div></article>  </div>  <div class="col-md-4">  <article class="article-badge-in-image   ">  <figure class="figure">  <a href="https://peru.ladevi.info/actualidad/tiktok-lanza-un-canal-reservar-hoteles-dentro-la-app-junto-bookingcom-n88571" rel="nofollow">
+                  
+                  <img src="https://media.viajando.travel/p/a0713959bac99df34673eb774744ff46/adjuntos/236/imagenes/000/825/0000825065/412x232/smart/redes-sociales-2png.png" class="figure-img img-fluid" alt="TikTok lanza un canal para reservar hoteles dentro de la app junto a Booking.com" width="412" height="232">  </a>
+	<span class="badge agrup verde">Redes sociales</span></figure>  <div class="info-wrapper"><h3 class="title">  <a href="https://peru.ladevi.info/actualidad/tiktok-lanza-un-canal-reservar-hoteles-dentro-la-app-junto-bookingcom-n88571" rel="nofollow" >TikTok lanza un canal para reservar hoteles dentro de la app junto a Booking.com</a></h3>  </div></article>  </div></div> 
+</div>  </div></div>  <div class="row"><div class="col col-sm-6"></div>  <div class="col col-sm-6"></div>  </div>  <div class="row">  <div class="col col-sm-12"></div>  </div></div>  </div></div> 
+
+  <div class="banner-libre">  <div style="width:970px;height:90px;">  <!-- /21801313528/970x90_lip_ban5 -->
+<div id='div-gpt-ad-1611341224733-0' style='width:970px;height:90px;'>  <script xmlns:deferer="no"> googletag.cmd.push(function() { googletag.display('div-gpt-ad-1611341224733-0'); });
+  </script></div>  </div></div> 
+  <div class="widgetContent none ">  <div class="widget-content widget-color-" style="background-image:url('');">  <div class="container">  <div class="row">  <div class="col col-sm-12">    </div></div>  <div class="row"><div class="col col-sm-8">  
+
+<div class="simple-list two-columns-wrapper"><div class="row">  <div class="col-md-6"><article class="article-badge-in-image   ">  <figure class="figure">  <a href="https://peru.ladevi.info/actualidad/los-viajes-estados-unidos-caen-niveles-2023-los-aranceles-n88550" rel="nofollow">
+            
+            <img src="https://media.viajando.travel/p/0a4768c77ce9c53341977297c07bf2ec/adjuntos/236/imagenes/000/839/0000839287/412x232/smart/nueva-york-estados-unidos.png" class="figure-img img-fluid" alt="Los viajes a Estados Unidos caen a niveles de 2023 por los aranceles" width="350" height="197"></a>
+	<span class="badge agrup verde">BAJÓN</span></figure>  <div class="info-wrapper"><h2 class="title">  <a href="https://peru.ladevi.info/actualidad/los-viajes-estados-unidos-caen-niveles-2023-los-aranceles-n88550" rel="nofollow" >Los viajes a Estados Unidos caen a niveles de 2023 por los aranceles</a></h2>  </div></article>  </div>  <div class="col-md-6">  <article class="article-badge-in-image   ">  <figure class="figure">  <a href="https://peru.ladevi.info/negocios/hoteles-avanzan-un-modelo-mas-equilibrado-inclusivo-y-sostenible-n88506" rel="nofollow">
+            
+            <img src="https://media.viajando.travel/p/5b1c554fc27d4c0e1052ebc2d8b2741b/adjuntos/236/imagenes/000/844/0000844039/hoteles-turismo-sostenible-minor-hotels-shutterstock_2376701313.jpg" class="figure-img img-fluid" alt="Hoteles avanzan hacia un modelo más equilibrado, inclusivo y sostenible" width="350" height="197">  </a>
+	<span class="badge agrup rojo">sostenibilidad</span></figure>  <div class="info-wrapper"><h2 class="title">  <a href="https://peru.ladevi.info/negocios/hoteles-avanzan-un-modelo-mas-equilibrado-inclusivo-y-sostenible-n88506" rel="nofollow" >Hoteles avanzan hacia un modelo más equilibrado, inclusivo y sostenible</a></h2>  </div></article>  </div>  <div class="col-md-6">  <article class="article-badge-in-image   ">  <figure class="figure">  <a href="https://peru.ladevi.info/actualidad/turismo-masas-solo-50-destinos-concentran-la-mitad-las-resenas-turisticas-n88412" rel="nofollow">
+            
+            <img src="https://media.viajando.travel/p/bd64ce75bef32944c89a0004d9820d16/adjuntos/236/imagenes/000/837/0000837791/412x232/smart/turismo-masas-barcelona.jpg" class="figure-img img-fluid" alt="Turismo de masas: solo 50 destinos concentran la mitad de las reseñas turísticas" width="350" height="197">  </a>
+	<span class="badge agrup verde">DESTINOS</span></figure>  <div class="info-wrapper"><h2 class="title">  <a href="https://peru.ladevi.info/actualidad/turismo-masas-solo-50-destinos-concentran-la-mitad-las-resenas-turisticas-n88412" rel="nofollow" >Turismo de masas: solo 50 destinos concentran la mitad de las reseñas turísticas</a></h2>  </div></article>  </div>  <div class="col-md-6">  <article class="article-badge-in-image   ">  <figure class="figure">  <a href="https://peru.ladevi.info/actualidad/phocuswright-da-muerto-el-marketing-tradicional-asi-funciona-el-b-to-ai-n88341" rel="nofollow">
+            
+            <img src="https://media.viajando.travel/p/1a6abe76d9ec5d521717afb9d8d19c6c/adjuntos/236/imagenes/000/837/0000837735/412x232/smart/agencias-viajes-inteligencia-artificial.jpeg" class="figure-img img-fluid" alt="Phocuswright da por muerto el marketing tradicional: así funciona el "B to AI"" width="350" height="197">  </a>
+	<span class="badge agrup verde">PREVISIONES</span></figure>  <div class="info-wrapper"><h2 class="title">  <a href="https://peru.ladevi.info/actualidad/phocuswright-da-muerto-el-marketing-tradicional-asi-funciona-el-b-to-ai-n88341" rel="nofollow" >Phocuswright da por muerto el marketing tradicional: así funciona el "B to AI"</a></h2>  </div></article>  </div></div> 
+</div>  </div>  <div class="col col-sm-4">  
+ <div class="banner-libre">
+ <div style="width:300px;height:250px;">
+            <!-- /21801313528/300x250_lip_ban4 -->
+<div id='div-gpt-ad-1583347878880-0' style='width:300px;height:250px;'>  <script xmlns:deferer="no"> googletag.cmd.push(function() { googletag.display('div-gpt-ad-1583347878880-0'); });
+  </script></div>  </div></div> 
+  <div class="banner-libre">  <div style="width:300px;height:250px;">  <!-- /21801313528/300x250_lip_ban5 -->
+<div id='div-gpt-ad-1583348957202-0' style='width:300px;height:250px;'>
+<script xmlns:deferer="no">
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1583348957202-0'); });
+</script></div>  </div></div> 
+</div>  </div>  <div class="row">  <div class="col col-sm-12"></div>  </div></div>  </div></div> 
+
+  <div class="banner-libre">  <div style="width:970px;height:90px;">  <!-- /21801313528/970x90_lip_ban6 -->
+<div id='div-gpt-ad-1621272868440-0' style='width:970px;height:90px;'>  <script xmlns:deferer="no"> googletag.cmd.push(function() { googletag.display('div-gpt-ad-1621272868440-0'); });
+  </script></div>  </div></div> 
+  <div class="widgetContent none ">  <div class="widget-content widget-color-" style="background-image:url('');">  <div class="container">  <div class="row">  <div class="col col-sm-12">  
+ <div class="banner-libre">
+ <div style="width:1111px;height:40px;">
+            <a href="https://peru.ladevi.info/tendencias" rel="noopener"><img src="https://media.viajando.travel/adjuntos/277/banners/000/328/0000328071.jpg" alt="Barra Tendencias" title="Barra Tendencias" style="" id="" border="0"/></a>  </div></div> 
+</div>  </div>  <div class="row">  <div class="col col-sm-3"></div>  <div class="col col-sm-6"></div>  <div class="col col-sm-3"></div>  </div>  <div class="row">  <div class="col col-sm-12">  
+
+<div class="simple-list three-columns-wrapper">  <div class="row">  <div class="col-md-4">  <article class="article-badge-in-image  fucsia  ">  <figure class="figure">  <a href="https://peru.ladevi.info/tendencias/turismofobia-la-batalla-contra-el-alojamiento-temporario-y-sus-efectos-n87449" rel="nofollow">
+                  
+                  <img src="https://media.viajando.travel/p/f697c86c4bf17d74fbb1684406c74569/adjuntos/236/imagenes/000/787/0000787869/412x232/smart/manifestantes-las-ultimas-protestas-relacionadas-la-turismofobia-andaluciapng.png" class="figure-img img-fluid" alt="Turismofobia: la batalla contra el alojamiento temporario y sus efectos" width="412" height="232">  </a>
+	<span class="badge agrup fucsia">Informe especial</span></figure>  <div class="info-wrapper"><h3 class="title">  <a href="https://peru.ladevi.info/tendencias/turismofobia-la-batalla-contra-el-alojamiento-temporario-y-sus-efectos-n87449" rel="nofollow" >Turismofobia: la batalla contra el alojamiento temporario y sus efectos</a></h3>  </div></article>  </div>  <div class="col-md-4">  <article class="article-badge-in-image  fucsia  ">  <figure class="figure">  <a href="https://peru.ladevi.info/manual-mice-y-bodas/turismo-mice-la-resiliencia-y-la-reinvencion-n86864" rel="nofollow">
+                  
+                  <img src="https://media.viajando.travel/p/ec82e4896439b7ce832b0a9099fc4a7b/adjuntos/236/imagenes/000/827/0000827799/412x232/smart/mice-2jpg.jpg" class="figure-img img-fluid" alt="Turismo MICE: entre la resiliencia y la reinvención" width="412" height="232">  </a>
+	<span class="badge agrup verde">Informe especial</span></figure>  <div class="info-wrapper"><h3 class="title">  <a href="https://peru.ladevi.info/manual-mice-y-bodas/turismo-mice-la-resiliencia-y-la-reinvencion-n86864" rel="nofollow" >Turismo MICE: entre la resiliencia y la reinvención</a></h3>  </div></article>  </div>  <div class="col-md-4">  <article class="article-badge-in-image  fucsia  ">  <figure class="figure">  <a href="https://peru.ladevi.info/tendencias/turismo-lgbtq-el-desafio-conectar-el-segmento-n85339" rel="nofollow">
+                  
+                  <img src="https://media.viajando.travel/p/46b9e29fe150daa50da3fecc7b3d3b26/adjuntos/236/imagenes/000/666/0000666083/412x232/smart/puerto-rico.jpg" class="figure-img img-fluid" alt="Turismo LGBTQ+: el desafío de conectar con el segmento" width="412" height="232">  </a>
+	<span class="badge agrup fucsia">Informe especial</span></figure>  <div class="info-wrapper"><h3 class="title">  <a href="https://peru.ladevi.info/tendencias/turismo-lgbtq-el-desafio-conectar-el-segmento-n85339" rel="nofollow" >Turismo LGBTQ+: el desafío de conectar con el segmento</a></h3>  </div></article>  </div></div> 
+</div>  </div></div>  </div></div>  </div> 
+  <div class="banner-libre"><div style="width:970px;height:90px;">  <!-- /21801313528/970x90_lip_ban7 --> 
+<div id='div-gpt-ad-1627843327734-0' style='min-width:970px;min-height:90px;'><script xmlns:deferer="no"> googletag.cmd.push(function() { googletag.display('div-gpt-ad-1627843327734-0'); });
+  </script></div>  </div></div> 
+  <div class="widgetContent none ">  <div class="widget-content widget-color-" style="background-image:url('');">  <div class="container">  <div class="row">  <div class="col col-sm-12">  
+ <div class="banner-libre">
+ <div style="width:1111px;height:40px;">
+            <a href="https://peru.ladevi.info/transporte-turistico" rel="noopener"><img src="https://media.viajando.travel/adjuntos/236/banners/000/799/0000799290.jpg" alt="Barra Transporte" title="Barra Transporte" style="" id="" border="0"/></a>  </div></div> 
+</div>  </div>  <div class="row">  <div class="col col-sm-8">  
+
+<div class="simple-list two-columns-wrapper con-copete">  <div class="row align-items-stretch align-self-start">  <div class="col-md-6">  <article class="article-badge-in-image    con-copete">  <figure class="figure">  <a href="https://peru.ladevi.info/transporte/aeropuerto-jauja-movilizo-22-mil-pasajeros-solo-50-dias-reanudar-operaciones-n88576">
+            
+            <img src="https://media.viajando.travel/p/57aa66c0afcf1749ffaaf2955e8a702d/adjuntos/236/imagenes/000/844/0000844156/350x197/smart/aeropuerto-jauja.png" class="figure-img img-fluid" alt="Aeropuerto de Jauja movilizó 22 mil pasajeros tras reanudar operaciones">  </a>
+	<span class="badge agrup naranja">Transporte</span></figure>  <div class="info-wrapper"><h2 class="title">  <a href="https://peru.ladevi.info/transporte/aeropuerto-jauja-movilizo-22-mil-pasajeros-solo-50-dias-reanudar-operaciones-n88576" >Aeropuerto de Jauja movilizó 22 mil pasajeros tras reanudar operaciones</a></h2>  <div class="preview"><a href="https://peru.ladevi.info/transporte/aeropuerto-jauja-movilizo-22-mil-pasajeros-solo-50-dias-reanudar-operaciones-n88576" target="" >Corpac reportó 112 vuelos y un alza sostenida en la demanda aérea, clave para conectar la sierra y selva central en la reapertura del Aeropuerto de Jauja.</a></div>  <!--[INCLUDE:incAuthor.html]--> 
+    </div></article>  </div>  <div class="col-md-6">  <article class="article-badge-in-image    con-copete">  <figure class="figure">  <a href="https://peru.ladevi.info/transporte/emirates-volara-pronto-peru-esto-es-lo-que-se-sabe-ahora-n88513">
+            
+            <img src="https://media.viajando.travel/p/04010d8956ca69dc0f828c2b18c7ed54/adjuntos/236/imagenes/000/797/0000797970/350x197/smart/emirates-vuelos-ciudad-mexico-barcelona-dubaijpg.jpg" class="figure-img img-fluid" alt="¿Emirates volará pronto a Perú? Esto es lo que se sabe hasta ahora">  </a>
+	<span class="badge agrup naranja">Próximamente</span></figure>  <div class="info-wrapper"><h2 class="title">  <a href="https://peru.ladevi.info/transporte/emirates-volara-pronto-peru-esto-es-lo-que-se-sabe-ahora-n88513" >¿Emirates volará pronto a Perú? Esto es lo que se sabe hasta ahora</a></h2>  <div class="preview"><a href="https://peru.ladevi.info/transporte/emirates-volara-pronto-peru-esto-es-lo-que-se-sabe-ahora-n88513" target="" ><p><strong> Perú </strong>podría convertirse en el próximo destino de <strong>Emirates </strong>en <strong>Sudamérica</strong>. La aerolínea considera rutas nuevas impulsadas por su nueva flota de largo alcance.</p></a></div>  <!--[INCLUDE:incAuthor.html]--> 
+    </div></article>  </div>  <div class="col-md-6">  <article class="article-badge-in-image    con-copete">  <figure class="figure">  <a href="https://peru.ladevi.info/actualidad/aeropuertos-la-escasez-slots-dispara-sus-precios-heathrow-n88553" rel="nofollow">
+            
+            <img src="https://media.viajando.travel/p/9d3aa14aef1cd4cef70f81348b695c27/adjuntos/236/imagenes/000/497/0000497107/aeropuerto-heathrowjpg.jpg" class="figure-img img-fluid" alt="Aeropuertos: la escasez de slots dispara sus precios en Heathrow">  </a>  <!--[IF~WITHDESCRIPTION@params(ANÁLISIS,)]-->
+<!--[ELSE IF~WITHDESCRIPTION]-->
+	<span class="badge agrup verde">ANÁLISIS</span>
+<!--[END IF~WITHDESCRIPTION]--></figure>  <div class="info-wrapper"><h2 class="title">  <a href="https://peru.ladevi.info/actualidad/aeropuertos-la-escasez-slots-dispara-sus-precios-heathrow-n88553" rel="nofollow" >Aeropuertos: la escasez de slots dispara sus precios en Heathrow</a></h2>  <div class="preview"><a href="https://peru.ladevi.info/actualidad/aeropuertos-la-escasez-slots-dispara-sus-precios-heathrow-n88553" rel="nofollow" target="" >Las aerolíneas tienen que pagar hasta 75 millones de dólares por los slots en uno de los aeropuertos más transitados de Europa.</a></div>  <!--[INCLUDE:incAuthor.html]--> 
+    </div></article>  </div>  <div class="col-md-6">  <article class="article-badge-in-image    con-copete">  <figure class="figure">  <a href="https://peru.ladevi.info/transporte/gol-linhas-aereas-retoma-vuelos-peru-un-plan-ambicioso-expansion-sudamerica-n88522">
+            
+            <img src="https://media.viajando.travel/p/ac39135f3b36b53736a7cc2c15d43402/adjuntos/236/imagenes/000/843/0000843959/350x197/smart/aerolinea-gol.jpg" class="figure-img img-fluid" alt="Gol Linhas Aéreas retoma vuelos a Perú">  </a>
+	<span class="badge agrup naranja">Transporte</span></figure>  <div class="info-wrapper"><h2 class="title">  <a href="https://peru.ladevi.info/transporte/gol-linhas-aereas-retoma-vuelos-peru-un-plan-ambicioso-expansion-sudamerica-n88522" >Gol Linhas Aéreas retoma vuelos a Perú</a></h2>  <div class="preview"><a href="https://peru.ladevi.info/transporte/gol-linhas-aereas-retoma-vuelos-peru-un-plan-ambicioso-expansion-sudamerica-n88522" target="" >La aerolínea brasileña Gol Linhas Aéreas busca reposicionarse en el mercado regional y aumentar su capacidad internacional al 2029.</a></div>  <!--[INCLUDE:incAuthor.html]--> 
+    </div></article>  </div></div> 
+</div>  </div>  <div class="col col-sm-4">  
+ <div class="banner-libre">
+ <div style="width:300px;height:250px;">
+            <!-- /21801313528/300x250_lip_ban6 -->
+<div id='div-gpt-ad-1584843935768-0' style='min-width:260px;min-height:217px;'>  <script xmlns:deferer="no"> googletag.cmd.push(function() { googletag.display('div-gpt-ad-1584843935768-0'); });
+  </script></div>  </div></div> 
+  <div class="banner-libre">  <div style="width:300px;height:250px;">  <!-- /21801313528/300x250_lip_ban7 -->
+<div id='div-gpt-ad-1648474184561-0' style='min-width:260px;min-height:217px;'>  <script xmlns:deferer="no"> googletag.cmd.push(function() { googletag.display('div-gpt-ad-1648474184561-0'); });
+  </script></div>  </div></div> 
+</div>  </div>  <div class="row">  <div class="col col-sm-12">  
+ <div class="container simple-list four-columns-wrapper">
+ <div class="row">
+ <p class="section-title hide"></p>  <div class="col col-sm-3"><article class="article-badge-in-image square   ">  <figure class="figure">  <a href="https://peru.ladevi.info/transporte/companias-aereas/ryanair-eleva-las-comisiones-sus-empleados-detectar-equipaje-mano-extra-n88488" rel="nofollow" target="" title="Ryanair eleva las comisiones de sus empleados por detectar equipaje de mano extra" alt="Ryanair eleva las comisiones de sus empleados por detectar equipaje de mano extra"><img src="https://media.viajando.travel/p/966b30d784317be128edebdc5c0749bc/adjuntos/236/imagenes/000/810/0000810848/255x144/smart/michael-oleary-ceo-ryanairpng.png" alt="Michael O’Leary, CEO de Ryanair." title="Michael O’Leary, CEO de Ryanair." width="255" height="194" srcset=  "" sizes=  ""/></a>
+	<span class="badge agrup rojo">AEROLÍNEAS</span></figure>  <div class="info-wrapper"><h3 class="title">  <a href="https://peru.ladevi.info/transporte/companias-aereas/ryanair-eleva-las-comisiones-sus-empleados-detectar-equipaje-mano-extra-n88488" rel="nofollow" target="" >Ryanair eleva las comisiones de sus empleados por detectar equipaje de mano "extra"</a></h3>  </div></article>  </div>  <div class="col col-sm-3">  <article class="article-badge-in-image square   ">  <figure class="figure">  <a href="https://peru.ladevi.info/home-transporte/spirit-airlines-vuelve-entrar-capitulo-11-segunda-vez-un-ano-n88479" rel="nofollow" target="" title="Spirit Airlines vuelve a entrar en Capítulo 11 por segunda vez en un año" alt="Spirit Airlines vuelve a entrar en Capítulo 11 por segunda vez en un año"><img src="https://media.viajando.travel/p/e5301632e0f297272a9d82bd88fd3f53/adjuntos/236/imagenes/000/746/0000746621/255x144/smart/como-cambiar-o-cancelar-un-vuelo-spirit-airlines.jpg" alt="Spirit Airlines buscó nuevamente la protección del Capítulo 11 de la Ley de Quiebras de Estados Unidos." title="Spirit Airlines buscó nuevamente la protección del Capítulo 11 de la Ley de Quiebras de Estados Unidos." width="255" height="194" srcset=  "" sizes=  ""/></a>
+	<span class="badge agrup verde">Último momento</span></figure>  <div class="info-wrapper"><h3 class="title">  <a href="https://peru.ladevi.info/home-transporte/spirit-airlines-vuelve-entrar-capitulo-11-segunda-vez-un-ano-n88479" rel="nofollow" target="" >Spirit Airlines vuelve a entrar en Capítulo 11 por segunda vez en un año</a></h3>  </div></article>  </div>  <div class="col col-sm-3">  <article class="article-badge-in-image square   ">  <figure class="figure">  <a href="https://peru.ladevi.info/transporte/companias-aereas/arajet-conectara-punta-cana-chicago-vuelos-directos-y-una-promocion-especial-n88465" rel="nofollow" target="" title="Arajet conectará Punta Cana con Chicago con vuelos directos y una promoción especial" alt="Arajet conectará Punta Cana con Chicago con vuelos directos y una promoción especial"><img src="https://media.viajando.travel/p/65805782714b8df02a4951d21da69968/adjuntos/236/imagenes/000/843/0000843735/255x144/smart/arajet-victor-pacheco-mendez-2.jpeg" alt="El vuelo inaugural de Arajet en la ruta Punta Cana-Chicago, está previsto para el 15 de noviembre del 2025,." title="El vuelo inaugural de Arajet en la ruta Punta Cana-Chicago, está previsto para el 15 de noviembre del 2025,." width="255" height="194" srcset=  "" sizes=  ""/></a>
+	<span class="badge agrup rojo">Conectividad</span></figure>  <div class="info-wrapper"><h3 class="title">  <a href="https://peru.ladevi.info/transporte/companias-aereas/arajet-conectara-punta-cana-chicago-vuelos-directos-y-una-promocion-especial-n88465" rel="nofollow" target="" >Arajet conectará Punta Cana con Chicago con vuelos directos y una promoción especial</a></h3>  </div></article>  </div>  <div class="col col-sm-3">  <article class="article-badge-in-image square   ">  <figure class="figure">  <a href="https://peru.ladevi.info/transporte/delta-air-lines-renovado-sitio-web-viajes-corporativos-n88451" rel="nofollow" target="" title="Delta Air Lines: renovado sitio web para viajes corporativos" alt="Delta Air Lines: renovado sitio web para viajes corporativos"><img src="https://media.viajando.travel/p/e98492db39d74ef8e8543b9cb909fe55/adjuntos/236/imagenes/000/843/0000843673/255x144/smart/delta-business.jpg" alt="Delta Air Lines presentó su nueva plataforma digital para viajes corporativos en el marco del evento Showcase." title="Delta Air Lines presentó su nueva plataforma digital para viajes corporativos en el marco del evento Showcase." width="255" height="194" srcset=  "" sizes=  ""/></a>
+	<span class="badge agrup naranja">EVENTO</span></figure>  <div class="info-wrapper"><h3 class="title">  <a href="https://peru.ladevi.info/transporte/delta-air-lines-renovado-sitio-web-viajes-corporativos-n88451" rel="nofollow" target="" >Delta Air Lines: renovado sitio web para viajes corporativos</a></h3>  </div></article>  </div></div>  </div>  </div></div>  </div></div>  </div> 
+  <div class="widgetContent none "><div class="widget-content widget-color-" style="background-image:url('');">  <div class="container"><div class="row">  <div class="col col-sm-12">  
+ <div class="banner-libre"><div style="width:1111px;height:40px;">  <a href="https://peru.ladevi.info/opinion" rel="noopener"><img src="https://media.viajando.travel/adjuntos/277/banners/000/328/0000328069.jpg" alt="Barra Opiniones" title="Barra Opiniones" style="" id="" border="0"/></a>  </div></div> 
+</div>  </div>  <div class="row">  <div class="col col-sm-8"></div>  <div class="col col-sm-4"></div></div>  <div class="row"><div class="col col-sm-12">  
+
+<div class="simple-list three-columns-wrapper con-copete"><div class="row align-items-stretch align-self-start">  <div class="col-md-4"><article class="article-badge-in-image    con-copete">  <figure class="figure">  <a href="https://peru.ladevi.info/opinion/estados-unidos-y-el-turismo-la-tormenta-perfecta-n87433" rel="nofollow">
+            
+            <img src="https://media.viajando.travel/p/28236edcf481f685bdde7b97c7afac01/adjuntos/236/imagenes/000/840/0000840092/350x197/smart/nueva-york.jpeg" class="figure-img img-fluid" alt="Estados Unidos y el turismo: la tormenta perfecta"></a>
+	<span class="badge agrup verde">PANORAMA</span></figure>  <div class="info-wrapper"><h2 class="title">  <a href="https://peru.ladevi.info/opinion/estados-unidos-y-el-turismo-la-tormenta-perfecta-n87433" rel="nofollow" >Estados Unidos y el turismo: la tormenta perfecta</a></h2>  <div class="preview"><a href="https://peru.ladevi.info/opinion/estados-unidos-y-el-turismo-la-tormenta-perfecta-n87433" rel="nofollow" target="" ><p>Tras ser uno de los países más visitados del mundo,<strong> Estados Unidos</strong> comienza a perder posicionamiento a gran velocidad. Razones de una caída histórica.</p></a></div>  <!--[INCLUDE:incAuthor.html]--> 
+    </div></article>  </div>  <div class="col-md-4">  <article class="article-badge-in-image    con-copete">  <figure class="figure">  <a href="https://peru.ladevi.info/actualidad/global-airlines-un-negocio-fallido-volando-airbus-a380-n84628" rel="nofollow">
+ <i class="player" style="position:absolute;right:10px;top:10px;background:none;">
+
+     <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="white" class="bi bi-play-circle" viewBox="0 0 16 16">
+ <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"></path>  <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"></path></svg> 
+</i>  <img src="https://media.viajando.travel/p/2e40f3ca72324c3898c3784703f38289/adjuntos/236/imagenes/000/831/0000831342/350x197/smart/global-airlinespng.png" class="figure-img img-fluid" alt="Global Airlines, un negocio fallido volando con Airbus A380">  </a>
+	<span class="badge agrup verde">PANORAMA</span></figure>  <div class="info-wrapper"><h2 class="title">  <a href="https://peru.ladevi.info/actualidad/global-airlines-un-negocio-fallido-volando-airbus-a380-n84628" rel="nofollow" >Global Airlines, un negocio fallido volando con Airbus A380</a></h2>  <div class="preview"><a href="https://peru.ladevi.info/actualidad/global-airlines-un-negocio-fallido-volando-airbus-a380-n84628" rel="nofollow" target="" ><p><em> Global Airlines prometía devolverle a la aviación comercial el glamour de los años dorados volando con Airbus A380, pero su lanzamiento fue un rotundo fracaso.</em></p></a></div>  <!--[INCLUDE:incAuthor.html]--> 
+    </div></article>  </div>  <div class="col-md-4">  <article class="article-badge-in-image    con-copete">  <figure class="figure">  <a href="https://peru.ladevi.info/transporte/companias-aereas-la-seguridad-primero-n83219" rel="nofollow">
+            
+            <img src="https://media.viajando.travel/p/069a7ce34e563574b554eef2f62d5272/adjuntos/236/imagenes/000/825/0000825510/350x197/smart/panoramajpg.jpg" class="figure-img img-fluid" alt="Compañías aéreas: ¿la seguridad primero?">  </a>
+	<span class="badge agrup naranja">PANORAMA</span></figure>  <div class="info-wrapper"><h2 class="title">  <a href="https://peru.ladevi.info/transporte/companias-aereas-la-seguridad-primero-n83219" rel="nofollow" >Compañías aéreas: ¿la seguridad primero?</a></h2>  <div class="preview"><a href="https://peru.ladevi.info/transporte/companias-aereas-la-seguridad-primero-n83219" rel="nofollow" target="" ><p>La frase “safety first” que suelen enarbolar las compañías aéreas alrededor del mundo tiene sus excepciones. Así lo indica la “lista negra” de la Unión Europea.</p></a></div>  <!--[INCLUDE:incAuthor.html]--> 
+    </div></article>  </div></div> 
+</div>  </div></div>  </div></div>  </div> 
+  <div class="widgetContent none "><div class="widget-content widget-color-" style="background-image:url('');">  <div class="container"><div class="row">  <div class="col col-sm-12">  
+ <div class="banner-libre"><div style="width:1111px;height:40px;">  <a href="https://peru.ladevi.info/cruceros" rel="noopener"><img src="https://media.viajando.travel/adjuntos/236/banners/000/781/0000781473.jpg" alt="Barra Cruceros" title="Barra Cruceros" style="" id="" border="0"/></a>  </div></div> 
+</div>  </div>  <div class="row">  <div class="col col-sm-8">  
+
+<div class="simple-list two-columns-wrapper">  <div class="row">  <div class="col-md-6">  <article class="article-badge-in-image  azul  ">  <figure class="figure">  <a href="https://peru.ladevi.info/cruceros/norwegian-cruise-line-presenta-las-mejoras-dique-seco-del-norwegian-jewel-y-el-norwegian-pearl-n87943" rel="nofollow">
+            
+            <img src="https://media.viajando.travel/p/f4a522543bf0ca05e18ba94199452f3b/adjuntos/236/imagenes/000/841/0000841688/412x232/smart/ncl-norwegian-jewel-norwegian-pearl-vibe-beach-club.jpg" class="figure-img img-fluid" alt="Norwegian Cruise Line presenta las mejoras en dique seco del Norwegian Jewel y el Norwegian Pearl" width="350" height="197">  </a>
+	<span class="badge agrup verde">Cruceros</span></figure>  <div class="info-wrapper"><h2 class="title">  <a href="https://peru.ladevi.info/cruceros/norwegian-cruise-line-presenta-las-mejoras-dique-seco-del-norwegian-jewel-y-el-norwegian-pearl-n87943" rel="nofollow" >Norwegian Cruise Line presenta las mejoras en dique seco del Norwegian Jewel y el Norwegian Pearl</a></h2>  </div></article>  </div>  <div class="col-md-6">  <article class="article-badge-in-image  azul  ">  <figure class="figure">  <a href="https://peru.ladevi.info/negocios/norwegian-cruise-line-sale-david-herrera-y-harry-sommer-toma-el-liderazgo-interinamente-n87931" rel="nofollow">
+            
+            <img src="https://media.viajando.travel/p/cd4d1330f85913d06121a9cb7da191a8/adjuntos/236/imagenes/000/841/0000841664/harry-sommer.jpg" class="figure-img img-fluid" alt="Norwegian Cruise Line: sale David Herrera y Harry Sommer toma el liderazgo interinamente" width="350" height="197">  </a>
+	<span class="badge agrup rojo">Cruceros</span></figure>  <div class="info-wrapper"><h2 class="title">  <a href="https://peru.ladevi.info/negocios/norwegian-cruise-line-sale-david-herrera-y-harry-sommer-toma-el-liderazgo-interinamente-n87931" rel="nofollow" >Norwegian Cruise Line: sale David Herrera y Harry Sommer toma el liderazgo interinamente</a></h2>  </div></article>  </div></div> 
+</div>  </div>  <div class="col col-sm-4">  
+ <div class="banner-libre">
+ <div style="width:300px;height:300px;">
+            <iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" style="border:0;width:100%;height:100%;" src="https://revistas.ladevi.travel/ladevi-peru-175"></iframe>  </div></div> 
+</div>  </div>  <div class="row">  <div class="col col-sm-12">  
+ <div class="container simple-list four-columns-wrapper">
+ <div class="row">
+ <p class="section-title hide"></p>  <div class="col col-sm-3"><article class="article-badge-in-image square  azul  ">  <figure class="figure">  <a href="https://peru.ladevi.info/negocios/regent-seven-seas-cruises-anuncia-la-temporada-despedida-seven-seas-navigator-n87828" rel="nofollow" target="" title="Regent Seven Seas Cruises anuncia la temporada de despedida de Seven Seas Navigator" alt="Regent Seven Seas Cruises anuncia la temporada de despedida de Seven Seas Navigator"><img src="https://media.viajando.travel/p/7240516c3f64a7c8a50bf9cbb4be0d32/adjuntos/236/imagenes/000/841/0000841406/255x144/smart/regent-seven-seas-cruises-1.jpg" alt="Regent Seven Seas Cruises despide al Seven Seas Navigator" title="Regent Seven Seas Cruises despide al Seven Seas Navigator" width="255" height="194" srcset=  "" sizes=  ""/></a>
+	<span class="badge agrup rojo">CRUCEROS</span></figure>  <div class="info-wrapper"><h3 class="title">  <a href="https://peru.ladevi.info/negocios/regent-seven-seas-cruises-anuncia-la-temporada-despedida-seven-seas-navigator-n87828" rel="nofollow" target="" >Regent Seven Seas Cruises anuncia la temporada de despedida de Seven Seas Navigator</a></h3>  </div></article>  </div>  <div class="col col-sm-3">  <article class="article-badge-in-image square  azul  ">  <figure class="figure">  <a href="https://peru.ladevi.info/cruceros/royal-caribbean-mantiene-apuesta-latinoamerica-cruceros-al-caribe-visa-n87691" rel="nofollow" target="" title="Royal Caribbean mantiene apuesta por Latinoamérica con cruceros al Caribe sin visa" alt="Royal Caribbean mantiene apuesta por Latinoamérica con cruceros al Caribe sin visa"><img src="https://media.viajando.travel/p/a7dd9d0b67c551efbe64c59ead7d8359/adjuntos/236/imagenes/000/840/0000840892/255x144/smart/royal-caribbean-itzel-valdes-web.jpg" alt="La vicepresidenta asociada de Ventas para Latinoamérica y el Caribe de Royal Caribbean, Itzel Valdés." title="La vicepresidenta asociada de Ventas para Latinoamérica y el Caribe de Royal Caribbean, Itzel Valdés." width="255" height="194" srcset=  "" sizes=  ""/></a>
+	<span class="badge agrup verde">cruceros</span></figure>  <div class="info-wrapper"><h3 class="title">  <a href="https://peru.ladevi.info/cruceros/royal-caribbean-mantiene-apuesta-latinoamerica-cruceros-al-caribe-visa-n87691" rel="nofollow" target="" >Royal Caribbean mantiene apuesta por Latinoamérica con cruceros al Caribe sin visa</a></h3>  </div></article>  </div>  <div class="col col-sm-3">  <article class="article-badge-in-image square  azul  ">  <figure class="figure">  <a href="https://peru.ladevi.info/cruceros/royal-caribbean-asi-es-el-star-of-the-seas-el-nuevo-crucero-la-clase-icon-n87674" rel="nofollow" target="" title="Royal Caribbean: así es el Star of the Seas, el nuevo crucero de la clase Icon" alt="Royal Caribbean: así es el Star of the Seas, el nuevo crucero de la clase Icon"><img src="https://media.viajando.travel/p/95256fa26b359326b190a99778b5405f/adjuntos/236/imagenes/000/840/0000840890/255x144/smart/royal-caribbean-star-of-the-seas-1.jpg" alt="Royal Caribbean convocó a un viaje pre inaugural para socios comerciales y medios de comunicación de Latinoamérica." title="Royal Caribbean convocó a un viaje pre inaugural para socios comerciales y medios de comunicación de Latinoamérica." width="255" height="194" srcset=  "" sizes=  ""/></a>
+	<span class="badge agrup verde">navieras</span></figure>  <div class="info-wrapper"><h3 class="title">  <a href="https://peru.ladevi.info/cruceros/royal-caribbean-asi-es-el-star-of-the-seas-el-nuevo-crucero-la-clase-icon-n87674" rel="nofollow" target="" >Royal Caribbean: así es el Star of the Seas, el nuevo crucero de la clase Icon</a></h3>  </div></article>  </div>  <div class="col col-sm-3">  <article class="article-badge-in-image square  azul  ">  <figure class="figure">  <a href="https://peru.ladevi.info/negocios-latam/cruceros-medida-asi-redefine-europamundo-el-producto-fluvial-latinoamerica-n87644" rel="nofollow" target="" title="Cruceros a medida: así redefine Europamundo el producto fluvial en Latinoamérica" alt="Cruceros a medida: así redefine Europamundo el producto fluvial en Latinoamérica"><img src="https://media.viajando.travel/p/f1f4b668c522dbc08e15c8a3e9509243/adjuntos/236/imagenes/000/840/0000840772/255x144/smart/europamundo-jordi-julia.jpeg" alt="Jordi Juliá es el responsable de Cruceros de Europamundo." title="Jordi Juliá es el responsable de Cruceros de Europamundo." width="255" height="194" srcset=  "" sizes=  ""/></a>
+	<span class="badge agrup verde">apuesta</span></figure>  <div class="info-wrapper"><h3 class="title">  <a href="https://peru.ladevi.info/negocios-latam/cruceros-medida-asi-redefine-europamundo-el-producto-fluvial-latinoamerica-n87644" rel="nofollow" target="" >Cruceros a medida: así redefine Europamundo el producto fluvial en Latinoamérica</a></h3>  </div></article>  </div></div>  </div>  </div></div>  </div></div>  </div> 
+  <div class="banner-libre"><div style="width:970px;height:150px;">  <a href="https://publicaciones.ladevi.travel/?country_id=177&ref=ok" rel="noopener"><img src="https://media.viajando.travel/adjuntos/236/banners/000/823/0000823092.png" alt="BANNER BOTTOM 970X150" title="BANNER BOTTOM 970X150" style="" id="" border="0"/></a>  </div></div> 
+  
+ <div class="banner-libre">
+ <div style=" ">
+            <script xmlns:deferer="no" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+<!-- LANDSCAPE LADEVI INFO --> 
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2646680338574537" data-ad-slot="5848770048" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script xmlns:deferer="no"> (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>  </div>  </section></main>  <footer class="footer">  
+ <div class="widgetContent none "><div class="footer-top">  <div class="container"><div class="row">  <div class="col-6">  <img class="logo-footer-top" src="https://peru.ladevi.info/css-custom/277/images/logo_v1-2.svg?v2" alt="Dos Al Cubo" class="logo-dac"></div>  <div class="col-6 fix-footer-icon"></div></div>  </div></div>  <div class="footer-midle"><div class="container">  <div class="row"><div class="col-4">  
+ <p>Secciones</p>  <div class="row">  <div class="col-6">  <ul class="list-m-footer">  <li>  <a href="https://peru.ladevi.info/actualidad" target="" title="Ladevi Medios y Soluciones | Actualidad" alt="Ladevi Medios y Soluciones | Actualidad">Actualidad</a></li>  <li>  <a href="https://peru.ladevi.info/ultimas-noticias" target="" title="Ladevi Medios y Soluciones | Lo último" alt="Ladevi Medios y Soluciones | Lo último">Lo último</a></li>  <li>  <a href="https://peru.ladevi.info/manuales" target="" title="Ladevi Medios y Soluciones | Manuales" alt="Ladevi Medios y Soluciones | Manuales">Manuales</a></li>  <li>  <a href="https://peru.ladevi.info/negocios" target="" title="Ladevi Medios y Soluciones | Negocios" alt="Ladevi Medios y Soluciones | Negocios">Negocios</a></li>  <li>  <a href="https://peru.ladevi.info/transporte-turistico" target="" title="Ladevi Medios y Soluciones | Transporte" alt="Ladevi Medios y Soluciones | Transporte">Transporte</a></li>  </ul></div>  <div class="col-6"><ul class="list-m-footer">  <li>  <a href="https://peru.ladevi.info/tendencias" target="" title="Ladevi Medios y Soluciones | Tendencias" alt="Ladevi Medios y Soluciones | Tendencias">Tendencias</a></li>  <li>  <a href="https://peru.ladevi.info/cruceros" target="" title="Ladevi Medios y Soluciones | Cruceros" alt="Ladevi Medios y Soluciones | Cruceros">Cruceros</a></li>  <li>  <a href="https://peru.ladevi.info/horeca" target="" title="Ladevi Medios y Soluciones | Horeca" alt="Ladevi Medios y Soluciones | Horeca">Horeca</a></li>  <li>  <a href="https://peru.ladevi.info/opinion" target="" title="Ladevi Medios y Soluciones | Opinión" alt="Ladevi Medios y Soluciones | Opinión">Opinión</a></li>  <li>  <a href="https://peru.ladevi.info/revistas" target="" title="Ladevi Medios y Soluciones | Revistas" alt="Ladevi Medios y Soluciones | Revistas">Revistas</a></li>  </ul></div>  </div>  </div>  <div class="col-4">  
+ <p>Síguenos</p>  <div class="row">  <div class="col-6">  <ul class="list-m-footer">  <li>  <a href="https://x.com/ladevi_peru" target="" title="Ladevi Medios y Soluciones | Twitter" alt="Ladevi Medios y Soluciones | Twitter">Twitter</a></li>  <li>  <a href="https://www.facebook.com/viajandotravelperuok" target="" title="Ladevi Medios y Soluciones | Facebook" alt="Ladevi Medios y Soluciones | Facebook">Facebook</a></li>  <li>  <a href="https://www.instagram.com/ladevi.peru" target="" title="Ladevi Medios y Soluciones | Instagram" alt="Ladevi Medios y Soluciones | Instagram">Instagram</a></li>  <li>  <a href="https://peru.ladevi.info/contenidos/linkedin.html" target="" title="Ladevi Medios y Soluciones | Linkedin" alt="Ladevi Medios y Soluciones | Linkedin">Linkedin</a></li>  <li>  <a href="https://www.youtube.com/ladevimediosysoluciones" target="" title="Ladevi Medios y Soluciones | Youtube" alt="Ladevi Medios y Soluciones | Youtube">Youtube</a></li>  </ul></div>  <div class="col-6"><ul class="list-m-footer">  <li>  <a href="https://peru.ladevi.info/contenidos/contacto.html" target="" title="Ladevi Medios y Soluciones | Contáctanos" alt="Ladevi Medios y Soluciones | Contáctanos">Contáctanos</a></li>  <li>  <a href="https://publicaciones.ladevi.travel/?country_id=177&ref=ok" target="_blank" title="Ladevi Medios y Soluciones | Publicaciones Ladevi" alt="Ladevi Medios y Soluciones | Publicaciones Ladevi">Publicaciones Ladevi</a></li>  </ul></div>  </div>  </div>  <div class="col-4">  <div class="row">  <div class="col-6"></div>  <div class="col-6 footer-sociales">  
+ <div class="banner-libre"><div style="width:220px;height:100px;">  <a href="/" rel="noopener"><img src="https://media.viajando.travel/adjuntos/236/banners/000/772/0000772728.png" alt="Logo Ladevi Perú GENERAL" title="Logo Ladevi Perú GENERAL" style="" id="" border="0"/></a>  </div></div> 
+  <div class="banner-libre">  <div style="width:180px;height:96px;">  <a href="https://peru.viajando.travel/" rel="noopener"><img src="https://media.viajando.travel/adjuntos/236/banners/000/659/0000659953.png" alt="Logo Viajando Blanco" title="Logo Viajando Blanco" style="" id="" border="0"/></a>  </div></div> 
+</div>  </div></div>  </div></div>  </div>  <div class="footer-bottom">  <div class="container">  <div class="row">  <div class="col-6 footer-terminos">  
+ <div class="footer-bottom-copy">
+ <p>Copyright ©Sistemas Comunicacionales SA / Ladevi. Todos los derechos reservados.</p></div> 
+
+  <div class="footer-terminos">  <ul>  <li>  <a href="https://peru.ladevi.info/contenidos/terminos.html" target="" title="Ladevi Medios y Soluciones | Términos y Condiciones" alt="Ladevi Medios y Soluciones | Términos y Condiciones" rel="nofollow">Términos y Condiciones</a></li>  </ul></div> 
+</div>  <div class="col-4 footer-top-copy">  
+ <p>
+      <a href="https://peru.ladevi.info/contenidos/contacto.html" target="" title="Ladevi Medios y Soluciones | Contáctanos" alt="Ladevi Medios y Soluciones | Contáctanos">Contáctanos</a></p>  <p>  <a href="https://peru.ladevi.info/contenidos/rss.html" target="" title="Ladevi Medios y Soluciones | RSS" alt="Ladevi Medios y Soluciones | RSS">RSS</a></p> 
+</div>  <div class="col-2">  <a href="https://www.dosalcubo.com/" target="_blank">
+                                <img src="https://static.thinkindot.com/images/powered-by-dos-al-cubo-blanco.svg" alt="Dos Al Cubo" class="logo-dac" width="197" height="40"></a>  </div></div>  </div></div>  </div>  </footer> 
+<div id="fb-root"></div><noscript id="tddefererjs"><tddeferernodes id="tddeferernodes"><script type="text/javascript" src="https://peru.ladevi.info/js/jquery.min-min-version-1756613489.js"></script>
+<script type="text/javascript" src="/js/cms.tools-min-version-1756613489.js"></script>
+<script type="text/javascript" src="https://peru.ladevi.info/vendor/lazyLoad/lazyLoad-td4-min-version-1756613504.js"></script>
+<script type="text/javascript">var lazyLoad = new LazyLoad({type : 'onDemand' , isBackend : false})</script>
+<script> window.fbAsyncInit = function() {
+          FB.init({
+            appId            : '1047830445574557',
+            autoLogAppEvents : false,
+            xfbml            : true,
+            version          : 'v8.0'
+          });
+        };
+        </script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js"></script>
+<script type="text/javascript"> window.arrCMSRegions = {  region1 : 'block' , region2 : 'none' , region3 : 'block' , region4 : 'block' , region5 : 'none' , region6 : 'none' , region7 : 'none' , region8 : 'none' , region9 : 'none' , region10 : 'none' , region11 : 'none' , region12 : 'block'  }; 
+</script>
+<script language="javascript" type="text/javascript" src="https://peru.ladevi.info/libs/videojs/video.min-min-version-1756613241.js"></script>
+<script language="javascript" type="text/javascript" src="https://peru.ladevi.info/libs/videojs/Youtube.min-min-version-1756613241.js"></script>
+<script language="javascript" type="text/javascript" src="https://peru.ladevi.info/libs/videojs/videojs-contrib-hls.min-min-version-1756613241.js"></script>
+<script src="//imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
+<script language="javascript" type="text/javascript" src="https://peru.ladevi.info/libs/videojs/ads/videojs.ads-min-version-1756613241.js"></script>
+<script language="javascript" type="text/javascript" src="https://peru.ladevi.info/libs/videojs/ima/videojs.ima-min-version-1756613241.js"></script>
+<script async src="https://peru.ladevi.info/js-custom/vendor/fontawesome/fontawesome-all.min-min-version-1756613227.js"></script>
+<script src="https://peru.ladevi.info/js-custom/vendor/jquery-3.3.1.min-min-version-1756613227.js" charset="utf-8"></script>
+<script> var jq = jQuery.noConflict();
+        </script>
+<script src="https://peru.ladevi.info/js-custom/vendor/bootstrap.min-min-version-1756613227.js"></script>
+<script src="https://peru.ladevi.info/js-custom/vendor/swiper.min-min-version-1756613227.js"></script>
+<script src="https://peru.ladevi.info/js-custom/236/main-min-version-1756613227.js"></script>
+<script src="https://peru.ladevi.info/js-custom/vendor/jquery.cookie.min-min-version-1756613227.js"></script>
+<script src="https://peru.ladevi.info/js-custom/vendor/polls-min-version-1756613227.js"></script>
+</tddeferernodes></noscript><script type="text/javascript" xmlns:deferer="no"> function loadTdDefererJs(i){
+      var s = document.createElement("script");
+      s.setAttribute("type", "text/javascript");
+      if(i >= window.defererList.length){
+        return false;
+      }
+
+      if(typeof(window.defererList[i].src) != "undefined" && window.defererList[i].src != ""){
+        //console.log("Add SRC =>",window.defererList[i].src);
+        s.onload = function() {
+          i++;
+          loadTdDefererJs(i);
+        };
+        s.onerror = function() {
+          i++;
+          loadTdDefererJs(i);
+        };
+        s.src = defererList[i].src;
+        document.getElementsByTagName("head")[0].appendChild(s);
+      }else{
+        //console.log("Add TEXT =>",window.defererList[i].innerText);
+        s.innerHTML = window.defererList[i].innerHTML;
+        try {
+          document.getElementsByTagName("head")[0].appendChild(s);
+        }catch(error) {
+          console.error(error);
+        }
+        i++;
+        loadTdDefererJs(i);
+      }
+    }
+
+
+    var defererList = document.getElementById("tddefererjs");
+    var replacement = document.createElement("div");
+    replacement.setAttribute("id", "tddefererdiv");
+    replacement.style.display = "none";
+    replacement.innerHTML = defererList.textContent;
+    document.body.appendChild(replacement);
+    window.defererList = document.getElementById("tddeferernodes").querySelectorAll("script");
+
+    var raf = requestAnimationFrame || mozRequestAnimationFrame || webkitRequestAnimationFrame || msRequestAnimationFrame;
+    if (raf){
+      raf(function() {
+        var time = 0;
+        window.setTimeout( function(){ loadTdDefererJs(0) }, time);
+      });
+    }else{
+      var time = 0;
+      window.addEventListener("load", function(){loadTdDefererJs(0)} );
+    }</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"979275886867de99","version":"2025.8.0","serverTiming":{"name":{"cfExtPri":true,"cfEdge":true,"cfOrigin":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"1dc6e1a990d34ce18933797418aa5a96","b":1}' crossorigin="anonymous"></script>
+</body> 
+</html>
+<!-- PI: 5791-->
+<!-- AF: 3286-->
+<!-- AFFT: 3286-->
+ <!-- GLOBALHTMLGEN: NONE IFGEN: ABC ==> ph-277-1-p:home-DGH  --><!-- home-desktop.html --><!-- 127.0.0.1 --><!-- Request Time: 2025-09-03 01:16:24 --><!-- HN: virginia-thinkindot-front-i-0435876878db48b14-->
+<!-- P: array (
+)-->
+<!-- G: array (
+)-->
+<!-- T: 2025-09-03 01:16:24-->
+<!-- AFV: 3286-->
+<!-- home-desktop.html --><!-- PI: 5791-->
+<!-- AF: 3286-->
+<!-- MS: NOT-->

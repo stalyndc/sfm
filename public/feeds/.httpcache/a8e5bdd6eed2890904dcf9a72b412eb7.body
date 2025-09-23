@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head><script src="/.nekoweb-api/static/site.js" type="text/javascript" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Archive Moment</title>
+      <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+      <link rel="icon" type="image/png" href="../hi_im_an_actual_pudding.png"/>
+        <meta property="og:title" content="Pudding's Cove: Blog Archive">
+        <meta property="og:description" content="Warning for lots of words!">
+        <meta property="og:image" content="https://puddingpudd.com/Status/Blog_Archive_Link.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="900">
+        <meta property="og:image:height" content="500">
+        <meta property="og:url" content="https://puddingpudd.com">
+        <meta property="twitter:card" content="summary_large_image">
+  </head>
+  <body class="scroll">
+   <div class="Body">
+    <div class="Header">
+      <img src="/Logo.gif" class="Logo">
+    </div>
+    <div class="Placestogo">
+     <ul>
+      <li>
+       <a href="/Home_Comfy_Home">Home</a></li>
+      <li>
+       <a href="/how_am_i">About</a></li>
+      <li>
+       <a href="/I_got_games_on_my_phone">Games</a></li>
+      <li>
+       <a href="/The_Power_of_Anime_and_Manga">Anime/Manga</a></li>
+      <li>
+       <a href="/Puddinacious_Blogs">Blog</a></li>
+      <li>
+       <a href="/Bureau">Writing</a></li>
+      <li>
+       <a href="/This_Page_Has_Too_Many_Random_Stuff">Misc</a></li>
+      <li>
+       <a href="/This_Is_A_Book_Where_You_Are_A_Guest">Guestbook</a></li>
+      <li>
+       <a href="/Theses_Links_Are_Not_Sus">Links</a></li>
+     </ul>
+    </div>
+      <div class="Title">
+      	<p>Blog Archive</p>
+      </div>
+       <div class="Middler">
+       	<p style="text-indent: 25px;"><strong>Blog Archive!</strong></p>
+         <p>Having troubles with the blog? Worry not! This page has your back!</p>
+         <p>Here you can access each page by themselves and not deal with the Iframe!</p>
+         <p>Click at the date below to see the blogs you want!</p>
+         <center>
+         <h1 class="Blogdate">2025</h1>
+          <h2 class="Blogpost"><a href="/Blog/September2025">September 2025</a></h2>
+          <h2 class="Blogpost"><a href="/Blog/August2025">August 2025</a></h2>
+          <h2 class="Blogpost"><a href="/Blog/July2025">July 2025</a></h2>
+          <h2 class="Blogpost"><a href="/Blog/June2025">June 2025</a></h2>
+          <h2 class="Blogpost"><a href="/Blog/May2025">May 2025</a></h2>
+          <h2 class="Blogpost"><a href="/Blog/April2025">April 2025</a></h2>
+          <h2 class="Blogpost"><a href="/Blog/March2025">March 2025</a></h2>
+          <h2 class="Blogpost"><a href="February2025">February 2025</a></h2>
+          <h2 class="Blogpost"><a href="January2025">January 2025</a></h2>
+           <br>
+            <hr>
+           <br>
+         <h1 class="Blogdate">2024</h1>
+          <h2 class="Blogpost"><a href="Current_Status2024">News Archive 2024</a></h2>
+          <h2 class="Blogpost"><a href="December2024">December 2024</a></h2>
+          <h2 class="Blogpost"><a href="November2024">November 2024</a></h2>
+          <h2 class="Blogpost"><a href="October2024">October 2024</a></h2>
+          <h2 class="Blogpost"><a href="Extras/Extra3_2nd_Website_Anniversary">2nd Anniversary</a></h2>
+          <h2 class="Blogpost"><a href="September2024">September 2024</a></h2>
+          <h2 class="Blogpost"><a href="August2024">August 2024</a></h2>
+          <h2 class="Blogpost"><a href="July2024">July 2024</a></h2>
+          <h2 class="Blogpost"><a href="June2024">June 2024</a></h2>
+          <h2 class="Blogpost"><a href="May2024">May 2024</a></h2>
+          <h2 class="Blogpost"><a href="April2024">April 2024</a></h2>
+          <h2 class="Blogpost"><a href="March2024">March 2024</a></h2>
+          <h2 class="Blogpost"><a href="February2024">February 2024</a></h2>
+          <h2 class="Blogpost"><a href="January2024">January 2024</a></h2>
+           <br>
+            <hr>
+           <br>
+         <h1 class="Blogdate">2023</h1>
+          <h2 class="Blogpost"><a href="Current_Status">News Archive 2023</a></h2>
+          <h2 class="Blogpost"><a href="December2023">December 2023</a></h2>
+          <h2 class="Blogpost"><a href="November2023">November 2023</a></h2>
+          <h2 class="Blogpost"><a href="October2023">October 2023</a></h2>
+          <h2 class="Blogpost"><a href="September2023">September 2023</a></h2>
+          <h2 class="Blogpost"><a href="August2023">August 2023</a></h2>
+          <h2 class="Blogpost"><a href="July2023">July 2023</a></h2>
+          <h2 class="Blogpost"><a href="Midyear_Recap">Midyear Recap</a></h2>
+          <h2 class="Blogpost"><a href="June2023">June 2023</a></h2>
+          <h2 class="Blogpost"><a href="May2023">May 2023</a></h2>
+          <h2 class="Blogpost"><a href="April2023">April 2023</a></h2>
+          <h2 class="Blogpost"><a href="March2023">March 2023</a></h2>
+          <h2 class="Blogpost"><a href="February2023">February 2023</a></h2>
+          <h2 class="Blogpost"><a href="January2023">January 2023</a></h2>
+           <br>
+            <hr>
+           <br>
+         <h1 class="Blogdate">2022</h1>
+          <h2 class="Blogpost"><a href="December2022">December 2022</a></h2>
+          <h2 class="Blogpost"><a href="November2022">November 2022</a></h2>
+          <h2 class="Blogpost"><a href="October2022">October 2022</a></h2>
+          <h2 class="Blogpost"><a href="September2022">September 2022</a></h2>
+         </center>
+       </div>
+       <div class="Bottomer">
+        <p>This website was lovingly made by Pudding! If there are any issues, report them at this email: puddingpuddpudds@gmail.com</p>
+      <!-- and this is a personal message to you snooping around the html and planning on using this code for your own website.
+           First, this code kind sucks, I would recommend going to other people BUT If you are going to do that with mine anyway, please credit my website!
+           Thank you! -->
+       </div>
+   </div>
+   <br>
+  </body>
+</html>

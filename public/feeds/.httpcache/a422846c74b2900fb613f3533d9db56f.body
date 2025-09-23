@@ -1,0 +1,55 @@
+<html>
+<meta charset="utf-8">
+<title> Devuan Download Zone </title>
+<link rel="stylesheet"
+      href="https://files.devuan.org/.assets/css/devuan.css">
+<link rel="icon" type="image/x-icon"
+      href="https://files.devuan.org/favicon.ico">
+</head> 
+<header>
+  <h1>
+    <a href="https://www.devuan.org/">
+      <img src="https://files.devuan.org/.assets/img/devuan-logo.png"
+	   style="display: inline-block; margin: 0 0.3rem -0.5rem -8rem"
+	   alt="Devuan"></a>
+    <span>Release Archive</span>
+  </h1>
+</header>
+<main class="container">
+<html>
+<head><title>Index of /devuan_excalibur/installer-iso/</title></head>
+<body>
+<h1>Index of /devuan_excalibur/installer-iso/</h1><hr><pre><a href="../">../</a>
+<a href="devuan_excalibur_6.0.0-rc1_amd64_cd2.iso">devuan_excalibur_6.0.0-rc1_amd64_cd2.iso</a>           13-Sep-2025 15:28    530M
+<a href="devuan_excalibur_6.0.0-rc1_amd64_cd2.iso.shasum">devuan_excalibur_6.0.0-rc1_amd64_cd2.iso.shasum</a>    13-Sep-2025 15:28     107
+<a href="devuan_excalibur_6.0.0-rc1_amd64_cd3.iso">devuan_excalibur_6.0.0-rc1_amd64_cd3.iso</a>           13-Sep-2025 03:29    510M
+<a href="devuan_excalibur_6.0.0-rc1_amd64_cd3.iso.shasum">devuan_excalibur_6.0.0-rc1_amd64_cd3.iso.shasum</a>    13-Sep-2025 03:29     107
+<a href="devuan_excalibur_6.0.0-rc1_amd64_cd4.iso">devuan_excalibur_6.0.0-rc1_amd64_cd4.iso</a>           13-Sep-2025 03:32    520M
+<a href="devuan_excalibur_6.0.0-rc1_amd64_cd4.iso.shasum">devuan_excalibur_6.0.0-rc1_amd64_cd4.iso.shasum</a>    13-Sep-2025 03:32     107
+<a href="devuan_excalibur_6.0.0-rc1_amd64_cd5.iso">devuan_excalibur_6.0.0-rc1_amd64_cd5.iso</a>           13-Sep-2025 04:13    638M
+<a href="devuan_excalibur_6.0.0-rc1_amd64_cd5.iso.shasum">devuan_excalibur_6.0.0-rc1_amd64_cd5.iso.shasum</a>    13-Sep-2025 04:13     107
+<a href="devuan_excalibur_6.0.0-rc1_amd64_desktop.iso">devuan_excalibur_6.0.0-rc1_amd64_desktop.iso</a>       13-Sep-2025 04:30      4G
+<a href="devuan_excalibur_6.0.0-rc1_amd64_desktop.iso.shasum">devuan_excalibur_6.0.0-rc1_amd64_desktop.iso.sh..&gt;</a> 13-Sep-2025 04:30     111
+<a href="devuan_excalibur_6.0.0-rc1_amd64_netinstall.iso">devuan_excalibur_6.0.0-rc1_amd64_netinstall.iso</a>    13-Sep-2025 03:20    650M
+<a href="devuan_excalibur_6.0.0-rc1_amd64_netinstall.iso.shasum">devuan_excalibur_6.0.0-rc1_amd64_netinstall.iso..&gt;</a> 13-Sep-2025 03:20     114
+<a href="devuan_excalibur_6.0.0-rc1_amd64_pool1.iso">devuan_excalibur_6.0.0-rc1_amd64_pool1.iso</a>         13-Sep-2025 04:32      6M
+<a href="devuan_excalibur_6.0.0-rc1_amd64_pool1.iso.shasum">devuan_excalibur_6.0.0-rc1_amd64_pool1.iso.shasum</a>  13-Sep-2025 04:32     109
+<a href="devuan_excalibur_6.0.0-rc1_amd64_server.iso">devuan_excalibur_6.0.0-rc1_amd64_server.iso</a>        13-Sep-2025 03:23    626M
+<a href="devuan_excalibur_6.0.0-rc1_amd64_server.iso.shasum">devuan_excalibur_6.0.0-rc1_amd64_server.iso.shasum</a> 13-Sep-2025 03:23     110
+</pre><hr></body>
+</html>
+ </main>
+<footer>
+  <center>
+  <section>
+    <h4><a href="https://www.devuan.org/donate">Please DONATE to Devuan</a> |
+      <a href="https://www.devuan.org/os/announce/daedalus-release-announce-2023-08-14">Current Release Announcement</a> |
+      <a href="https://www.devuan.org/os/filenaming">Release Naming Scheme</a> |
+      <a href="https://www.devuan.org/get-devuan">Mirrors</a>
+    </h4>
+  <p class="copyright">Copyright &copy; 2014-2025 Dyne.org Foundation</p>
+  </section>
+  </center>
+</footer>
+</body>
+</html>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>HTTPie blog</title>
+        <link>https://httpie.io/blog</link>
+        <description></description>
+        <lastBuildDate>Sat, 06 Sep 2025 03:24:46 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>pie-web</generator>
+        <item>
+            <title><![CDATA[Changelog #0027 — 📤 Export/import, path params, copy as command, and more]]></title>
+            <link>https://httpie.io/blog/changelog-0027</link>
+            <guid>https://httpie.io/blog/changelog-0027</guid>
+            <pubDate>Fri, 14 Mar 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Check out what’s new in HTTPie for Web & Desktop 2025.2.0]]></description>
+            <content:encoded><![CDATA[Check out what’s new in HTTPie for Web & Desktop 2025.2.0]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Changelog #0026 — 💇‍♀️️ UI refresh, IDE-like features, enhanced variable system]]></title>
+            <link>https://httpie.io/blog/changelog-0026</link>
+            <guid>https://httpie.io/blog/changelog-0026</guid>
+            <pubDate>Mon, 20 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Check out what’s new in HTTPie for Web & Desktop 2025.1.0]]></description>
+            <content:encoded><![CDATA[Check out what’s new in HTTPie for Web & Desktop 2025.1.0]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Changelog #0025 — ♻️ New sync protocol, docs, and more]]></title>
+            <link>https://httpie.io/blog/changelog-0025</link>
+            <guid>https://httpie.io/blog/changelog-0025</guid>
+            <pubDate>Wed, 03 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Check out what’s new in HTTPie for Web & Desktop 2024.1.1]]></description>
+            <content:encoded><![CDATA[Check out what’s new in HTTPie for Web & Desktop 2024.1.1]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Changelog #0024 — ✨️ Improved variables and more]]></title>
+            <link>https://httpie.io/blog/changelog-0024</link>
+            <guid>https://httpie.io/blog/changelog-0024</guid>
+            <pubDate>Mon, 29 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Check out what’s new in HTTPie for Web & Desktop 2023.3.0, and HTTPie for Terminal 3.2.2.]]></description>
+            <content:encoded><![CDATA[Check out what’s new in HTTPie for Web & Desktop 2023.3.0, and HTTPie for Terminal 3.2.2.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Changelog #0023 — 🛠️ Internal refactoring and improvements]]></title>
+            <link>https://httpie.io/blog/changelog-0023</link>
+            <guid>https://httpie.io/blog/changelog-0023</guid>
+            <pubDate>Fri, 19 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[HTTPie for Web & Desktop 2023.2.x with improved sync, bug fixes, and a comprehensive internal refactoring.]]></description>
+            <content:encoded><![CDATA[HTTPie for Web & Desktop 2023.2.x with improved sync, bug fixes, and a comprehensive internal refactoring.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Changelog #0022 — 🪄 HTTPie AI, methods in tabs, and more]]></title>
+            <link>https://httpie.io/blog/changelog-0022</link>
+            <guid>https://httpie.io/blog/changelog-0022</guid>
+            <pubDate>Wed, 04 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[AI assistant, HTTP methods in tabs, library context menu, cURL input mode, and more.]]></description>
+            <content:encoded><![CDATA[AI assistant, HTTP methods in tabs, library context menu, cURL input mode, and more.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[HTTPie AI]]></title>
+            <link>https://httpie.io/blog/ai</link>
+            <guid>https://httpie.io/blog/ai</guid>
+            <pubDate>Wed, 04 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Today we’re launching HTTPie AI, a new way to interact with APIs. HTTPie AI assistant uses state-of-the-art artificial intelligence to help you become more productive.]]></description>
+            <content:encoded><![CDATA[Today we’re launching HTTPie AI, a new way to interact with APIs. HTTPie AI assistant uses state-of-the-art artificial intelligence to help you become more productive.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Changelog #0021 — 📯 Advanced import, GraphQL schema support, and more]]></title>
+            <link>https://httpie.io/blog/changelog-0021</link>
+            <guid>https://httpie.io/blog/changelog-0021</guid>
+            <pubDate>Thu, 08 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[HTTPie for Web & Desktop v2022.16.0 with Postman and Insomnia import and GraphQL improvements.]]></description>
+            <content:encoded><![CDATA[HTTPie for Web & Desktop v2022.16.0 with Postman and Insomnia import and GraphQL improvements.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Changelog #0020 — 🔦 Data filtering, search & replace, RegExp, and more]]></title>
+            <link>https://httpie.io/blog/changelog-0020</link>
+            <guid>https://httpie.io/blog/changelog-0020</guid>
+            <pubDate>Fri, 21 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[A new release of HTTPie for Web & Desktop focused data navigating and processing.]]></description>
+            <content:encoded><![CDATA[A new release of HTTPie for Web & Desktop focused data navigating and processing.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Changelog #0019 — 🖐️ Library ordering, search, keyboard shortcuts, and more]]></title>
+            <link>https://httpie.io/blog/changelog-0019</link>
+            <guid>https://httpie.io/blog/changelog-0019</guid>
+            <pubDate>Tue, 27 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[A new major release of HTTPie for Web & Desktop with focus on developer productivity and streamlining the overall experience for our users.]]></description>
+            <content:encoded><![CDATA[A new major release of HTTPie for Web & Desktop with focus on developer productivity and streamlining the overall experience for our users.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Changelog #0018 — 🚀 GraphQL, custom HTTP method, interactive URLs, and more]]></title>
+            <link>https://httpie.io/blog/changelog-0018</link>
+            <guid>https://httpie.io/blog/changelog-0018</guid>
+            <pubDate>Mon, 29 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[We’re excited to announce GraphQL APIs testing and other improvements to our API testing clients to make your API development even smoother.]]></description>
+            <content:encoded><![CDATA[We’re excited to announce GraphQL APIs testing and other improvements to our API testing clients to make your API development even smoother.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Changelog #0017 — ☁️ Sync, variables, incognito, more features, and public beta!]]></title>
+            <link>https://httpie.io/blog/changelog-0017</link>
+            <guid>https://httpie.io/blog/changelog-0017</guid>
+            <pubDate>Wed, 03 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[After months of development, testing, and collecting feedback in private beta, we’re opening HTTPie for Web & Desktop to everyone today 🚀]]></description>
+            <content:encoded><![CDATA[After months of development, testing, and collecting feedback in private beta, we’re opening HTTPie for Web & Desktop to everyone today 🚀]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Changelog #0016 — ℹ️ OPTIONS method, 🔑 param auth, Terminal 3.2, and more]]></title>
+            <link>https://httpie.io/blog/changelog-0016</link>
+            <guid>https://httpie.io/blog/changelog-0016</guid>
+            <pubDate>Wed, 18 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[OPTIONS method, API key auth through parameters, HTTPie for Terminal 3.2, UI improvements, bug fixes, and more.]]></description>
+            <content:encoded><![CDATA[OPTIONS method, API key auth through parameters, HTTPie for Terminal 3.2, UI improvements, bug fixes, and more.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[What’s new in HTTPie for Terminal 3.2]]></title>
+            <link>https://httpie.io/blog/httpie-3.2.0</link>
+            <guid>https://httpie.io/blog/httpie-3.2.0</guid>
+            <pubDate>Mon, 16 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Refined UI, man pages, single binary executables, Debian releases, and more.]]></description>
+            <content:encoded><![CDATA[Refined UI, man pages, single binary executables, Debian releases, and more.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Changelog #0015 — 🐑 Duplicating collections and more]]></title>
+            <link>https://httpie.io/blog/changelog-0015</link>
+            <guid>https://httpie.io/blog/changelog-0015</guid>
+            <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Duplicating collections, UI improvements, and bug fixes.]]></description>
+            <content:encoded><![CDATA[Duplicating collections, UI improvements, and bug fixes.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Changelog #0014 — 🗄 Spaces, API key auth, UI improvements, and more]]></title>
+            <link>https://httpie.io/blog/changelog-0014</link>
+            <guid>https://httpie.io/blog/changelog-0014</guid>
+            <pubDate>Sat, 23 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Spaces, API key auth, contextual delete dialogs, unified create button, improved font, upcoming HTTPie for Terminal 3.2, and much more.]]></description>
+            <content:encoded><![CDATA[Spaces, API key auth, contextual delete dialogs, unified create button, improved font, upcoming HTTPie for Terminal 3.2, and much more.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[How we lost 54k GitHub stars]]></title>
+            <link>https://httpie.io/blog/stardust</link>
+            <guid>https://httpie.io/blog/stardust</guid>
+            <pubDate>Thu, 14 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[What we learned from losing a decade of stargazers and watchers, the biggest accidental community loss in open source history.]]></description>
+            <content:encoded><![CDATA[What we learned from losing a decade of stargazers and watchers, the biggest accidental community loss in open source history.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[What’s new in HTTPie for Terminal 3.1]]></title>
+            <link>https://httpie.io/blog/httpie-3.1.0</link>
+            <guid>https://httpie.io/blog/httpie-3.1.0</guid>
+            <pubDate>Tue, 15 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Improved cookie management, automatic session upgrades, nested JSON enhancements, and more.]]></description>
+            <content:encoded><![CDATA[Improved cookie management, automatic session upgrades, nested JSON enhancements, and more.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Changelog #0013 — 👁️ Browser preview, drag & drop, and more]]></title>
+            <link>https://httpie.io/blog/changelog-0013</link>
+            <guid>https://httpie.io/blog/changelog-0013</guid>
+            <pubDate>Sun, 06 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Browser preview, drag & drop in the library, improved help.]]></description>
+            <content:encoded><![CDATA[Browser preview, drag & drop in the library, improved help.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Changelog #0012 — 💎 Streamlined library, smarter request duplication, and more]]></title>
+            <link>https://httpie.io/blog/changelog-0012</link>
+            <guid>https://httpie.io/blog/changelog-0012</guid>
+            <pubDate>Tue, 08 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Streamlined library, improved request duplication, nested JSON improvements, new CLI description export command, and more.]]></description>
+            <content:encoded><![CDATA[Streamlined library, improved request duplication, nested JSON improvements, new CLI description export command, and more.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Changelog #0011 — ⚙️ Settings, auto redirects, and speed-ups]]></title>
+            <link>https://httpie.io/blog/changelog-0011</link>
+            <guid>https://httpie.io/blog/changelog-0011</guid>
+            <pubDate>Mon, 31 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dedicated settings tab, option to automatically follow redirects, speed-ups, HTTPie for Terminal 3.0.2, and more.]]></description>
+            <content:encoded><![CDATA[Dedicated settings tab, option to automatically follow redirects, speed-ups, HTTPie for Terminal 3.0.2, and more.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Changelog #0010 — 🪄 Prettify JSON, refined cursors, custom macOS window, and more]]></title>
+            <link>https://httpie.io/blog/changelog-0010</link>
+            <guid>https://httpie.io/blog/changelog-0010</guid>
+            <pubDate>Mon, 24 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Prettify JSON, custom macOS window, refined cursors, extra collection icons, and HTTPie for Terminal 3.0]]></description>
+            <content:encoded><![CDATA[Prettify JSON, custom macOS window, refined cursors, extra collection icons, and HTTPie for Terminal 3.0]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[What’s new in HTTPie for Terminal 3.0]]></title>
+            <link>https://httpie.io/blog/httpie-3.0.0</link>
+            <guid>https://httpie.io/blog/httpie-3.0.0</guid>
+            <pubDate>Mon, 24 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Nested JSON syntax, plugin manager, response metrics, speed-ups, improved UI/UX, other features, and bug fixes.]]></description>
+            <content:encoded><![CDATA[Nested JSON syntax, plugin manager, response metrics, speed-ups, improved UI/UX, other features, and bug fixes.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Changelog #0009 — 🌊 export cURL, HAR, and 30+ other formats]]></title>
+            <link>https://httpie.io/blog/changelog-0009</link>
+            <guid>https://httpie.io/blog/changelog-0009</guid>
+            <pubDate>Mon, 10 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[You can now export requests to 30+ formats in HTTPie for Web & Desktop, and enjoy a more robust and user-friendly nested JSON syntax in the CLI.]]></description>
+            <content:encoded><![CDATA[You can now export requests to 30+ formats in HTTPie for Web & Desktop, and enjoy a more robust and user-friendly nested JSON syntax in the CLI.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Changelog #0008 — 💟 Collection icons]]></title>
+            <link>https://httpie.io/blog/changelog-0008</link>
+            <guid>https://httpie.io/blog/changelog-0008</guid>
+            <pubDate>Sun, 02 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Personalized library with collection icons, preview improvements, request methods in sidebar, new library icon, and more.]]></description>
+            <content:encoded><![CDATA[Personalized library with collection icons, preview improvements, request methods in sidebar, new library icon, and more.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Changelog #0007 — 🔒 Auth at the collection level]]></title>
+            <link>https://httpie.io/blog/changelog-0007</link>
+            <guid>https://httpie.io/blog/changelog-0007</guid>
+            <pubDate>Fri, 24 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Collection-level auth, default User-Agent, timed responses in HTTPie for Terminal, and more.]]></description>
+            <content:encoded><![CDATA[Collection-level auth, default User-Agent, timed responses in HTTPie for Terminal, and more.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Changelog #0006 — 🎨 Unified style]]></title>
+            <link>https://httpie.io/blog/changelog-0006</link>
+            <guid>https://httpie.io/blog/changelog-0006</guid>
+            <pubDate>Sun, 19 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Celebrating 53K GitHub stars, unified code style across the platform, and more.]]></description>
+            <content:encoded><![CDATA[Celebrating 53K GitHub stars, unified code style across the platform, and more.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Changelog #0005 — 📚 Library]]></title>
+            <link>https://httpie.io/blog/changelog-0005</link>
+            <guid>https://httpie.io/blog/changelog-0005</guid>
+            <pubDate>Sat, 11 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week we shipped a library feature preview (collections, drafts, named requests), runnable terminal examples in the docs, and more.]]></description>
+            <content:encoded><![CDATA[This week we shipped a library feature preview (collections, drafts, named requests), runnable terminal examples in the docs, and more.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Changelog #0004 — 🖥️  Desktop app]]></title>
+            <link>https://httpie.io/blog/changelog-0004</link>
+            <guid>https://httpie.io/blog/changelog-0004</guid>
+            <pubDate>Sat, 04 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Announcing desktop app availability, support for nested JSON in the CLI, improvements across the platform.]]></description>
+            <content:encoded><![CDATA[Announcing desktop app availability, support for nested JSON in the CLI, improvements across the platform.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Changelog #0003 — 📦 HTTPie command generation]]></title>
+            <link>https://httpie.io/blog/changelog-0003</link>
+            <guid>https://httpie.io/blog/changelog-0003</guid>
+            <pubDate>Fri, 26 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week we added an HTTPie for Web & Desktop → Terminal command export, panel resizing, tabs reordering, a new plugin manager (CLI), and more.]]></description>
+            <content:encoded><![CDATA[This week we added an HTTPie for Web & Desktop → Terminal command export, panel resizing, tabs reordering, a new plugin manager (CLI), and more.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Changelog #0002 — 🗂️ Tabs]]></title>
+            <link>https://httpie.io/blog/changelog-0002</link>
+            <guid>https://httpie.io/blog/changelog-0002</guid>
+            <pubDate>Fri, 19 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week we shipped a new tabs feature, local persistence, and more.]]></description>
+            <content:encoded><![CDATA[This week we shipped a new tabs feature, local persistence, and more.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Changelog #0001 — 🌓 Light theme]]></title>
+            <link>https://httpie.io/blog/changelog-0001</link>
+            <guid>https://httpie.io/blog/changelog-0001</guid>
+            <pubDate>Fri, 12 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hello, World! Welcome to our weekly changelog. In this week’s edition, you’ll learn about our new light theme and other improvements across the platform.]]></description>
+            <content:encoded><![CDATA[Hello, World! Welcome to our weekly changelog. In this week’s edition, you’ll learn about our new light theme and other improvements across the platform.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[What’s new in HTTPie for Terminal 2.6.0]]></title>
+            <link>https://httpie.io/blog/httpie-2.6.0</link>
+            <guid>https://httpie.io/blog/httpie-2.6.0</guid>
+            <pubDate>Sat, 23 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Charset detection, display charset and mime overwrite, support for XSSI-prefixed JSON, and other improvements.]]></description>
+            <content:encoded><![CDATA[Charset detection, display charset and mime overwrite, support for XSSI-prefixed JSON, and other improvements.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[What’s new in HTTPie for Terminal 2.5.0]]></title>
+            <link>https://httpie.io/blog/httpie-2.5.0</link>
+            <guid>https://httpie.io/blog/httpie-2.5.0</guid>
+            <pubDate>Mon, 13 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[A new way to pass raw request data as an alternative to piping, XML pretty-printing, and improved packaging.]]></description>
+            <content:encoded><![CDATA[A new way to pass raw request data as an alternative to piping, XML pretty-printing, and improved packaging.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Navigating an API from the terminal]]></title>
+            <link>https://httpie.io/blog/cli-api-diving</link>
+            <guid>https://httpie.io/blog/cli-api-diving</guid>
+            <pubDate>Wed, 01 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Today, we'll be diving into The Movie Database with HTTPie, jq, and jid and learning how to navigate its API efficiently.]]></description>
+            <content:encoded><![CDATA[Today, we'll be diving into The Movie Database with HTTPie, jq, and jid and learning how to navigate its API efficiently.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Command-line API testing tricks]]></title>
+            <link>https://httpie.io/blog/cli-api-tricks</link>
+            <guid>https://httpie.io/blog/cli-api-tricks</guid>
+            <pubDate>Fri, 20 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Whether building or consuming APIs, you're definitely testing out API calls. The command line is a developer's best friend for quick checks and iterative development.]]></description>
+            <content:encoded><![CDATA[Whether building or consuming APIs, you're definitely testing out API calls. The command line is a developer's best friend for quick checks and iterative development.]]></content:encoded>
+        </item>
+    </channel>
+</rss>

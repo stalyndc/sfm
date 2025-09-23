@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>404 — SimpleFeedMaker</title>
+
+  <!-- Emoji favicon 📡 -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='90'%3E%F0%9F%93%A1%3C/text%3E%3C/svg%3E">
+
+  <!-- Work Sans (optional; safe to remove for absolute minimalism) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root { color-scheme: dark; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      display: grid;
+      place-items: center;
+      background: #0b0c0f;
+      color: #e8eaed;
+      font-family: "Work Sans", system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, "Helvetica Neue", Arial, sans-serif;
+    }
+    .wrap {
+      max-width: 680px;
+      padding: 2rem;
+      text-align: center;
+    }
+    .logo { font-weight: 700; letter-spacing: .2px; color: #e8eaed; text-decoration: none; }
+    h1 { margin: 1rem 0 .5rem; font-size: clamp(1.75rem, 2.5vw + 1rem, 2.5rem); }
+    p  { margin: .25rem 0; color: #9aa0a6; }
+    .actions { margin-top: 1.25rem; display: inline-flex; gap: .5rem; flex-wrap: wrap; }
+    .btn {
+      display: inline-block;
+      padding: .6rem .9rem;
+      border-radius: .5rem;
+      text-decoration: none;
+      font-weight: 600;
+      border: 1px solid rgba(255,255,255,.12);
+      color: #e8eaed;
+      background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(0,0,0,.1));
+    }
+    .btn:hover { border-color: rgba(255,255,255,.25); }
+    .btn.primary { border-color: rgba(30,144,255,.45); background: linear-gradient(180deg, rgba(30,144,255,.15), rgba(0,0,0,.1)); }
+    .small { margin-top: 1rem; font-size: .9rem; color: #80868b; }
+  </style>
+</head>
+<body>
+  <main class="wrap" role="main">
+    <a class="logo" href="/">SimpleFeedMaker</a>
+    <h1>Page not found</h1>
+    <p>The link you followed may be broken, or the page may have been moved.</p>
+    <div class="actions">
+      <a class="btn primary" href="/">Go home</a>
+      <a class="btn" href="javascript:history.back()">Go back</a>
+    </div>
+    <div class="small">If you think this is a mistake, try the homepage or check the URL for typos.</div>
+  </main>
+</body>
+</html>

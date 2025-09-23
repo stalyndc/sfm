@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="en" vocab="https://schema.org/"
+	data-area=""
+	data-page="/"
+	data-inputpath="index.njk"
+	
+>
+<head>
+	<meta charset="UTF-8"><title>
+		Home • Lea Verou</title>
+	<meta property="og:title" content="
+		Home • Lea Verou" />
+	<meta name="twitter:title" content="
+		Home • Lea Verou" />
+
+	<link rel="shortcut icon" href="./mark.svg" />
+	<link rel="dns-prefetch" href="https://kit.fontawesome.com">
+	<link rel="canonical" href="https://lea.verou.me/" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Lea Verou">
+	
+
+	
+
+	<link rel="stylesheet" href="./assets/style.css">
+	
+
+	<link rel="alternate" type="application/atom+xml" title="Lea Verou • Feed" href="./feed.xml" />
+	<script src="./assets/global.js" type="module"></script>
+	<link rel="stylesheet" href="https://kit.fontawesome.com/040e756b7e.css" crossorigin="anonymous" />
+
+	
+
+	
+	
+
+	
+
+	
+</head>
+<body class="language-css ">
+
+<header class="monitor-in-view">
+	<div class="site-meta">
+		<a href="./" class="site-logo">
+			<img property="image" src="./mark.svg" alt="">
+			<span class="site-title" title="Life at the bleeding edge (of the Web)">
+				Lea Verou<span class="phd">, PhD</span>
+			</span>
+		</a>
+		<div class="social gt-md"><a class="twitter"
+	href="http://twitter.com/leaverou"
+	target="_blank" rel="me"
+	aria-label="Twitter"
+	style="--color: #1DA1F2"><i class="fa-brands fa-twitter"></i></a><a class="github"
+	href="https://github.com/leaverou"
+	target="_blank" rel="me"
+	aria-label="GitHub"
+	style="--color: #333"><i class="fa-brands fa-github"></i></a><a class="bluesky"
+	href="https://bsky.app/profile/lea.verou.me"
+	target="_blank" rel="me"
+	aria-label="BlueSky"
+	style="--color: #1DA1F2"><i class="fa-brands fa-bluesky"></i></a><a class="mastodon"
+	href="https://front-end.social/@leaverou"
+	target="_blank" rel="me"
+	aria-label="Mastodon"
+	style="--color: rgb(99 100 255)"><i class="fa-brands fa-mastodon"></i></a><a class="linkedin"
+	href="https://www.linkedin.com/in/leaverou/"
+	target="_blank" rel="me"
+	aria-label="LinkedIn"
+	style="--color: #0A66C2"><i class="fa-brands fa-linkedin-in"></i></a><a class="dribbble"
+	href="https://dribbble.com/leaverou"
+	target="_blank" rel="me"
+	aria-label="Dribbble"
+	style="--color: #ea4c89"><i class="fa-brands fa-dribbble"></i></a>
+</div>
+		<nav class="gt-md">
+
+
+
+<a href="/./" class=selected>Home</a>
+
+
+
+
+<a href="/blog/">Blog</a>
+
+
+
+
+<a href="/specs/">Specs</a>
+
+
+
+
+<a href="/projects/">Open Source</a>
+
+
+
+
+<a href="/speaking/">Speaking</a>
+
+
+
+
+<a href="/publications/">Publications</a>
+
+
+
+
+<a href="/press/">Press</a>
+
+
+
+
+<a href="/about/">About</a>
+
+
+
+
+</nav>
+		<a href="#nav" class="🍔 lt-md"><i class="fa-solid fa-burger"></i></a>
+	</div>
+	<div class="page-meta">
+		
+		
+	</div>
+</header>
+
+<main>
+
+
+
+
+
+<div class="nutshell">
+
+<a href="/about"><img src="/about/images/lightsaber.jpg" alt="Photo of me with a lightsaber"></a>
+<p><strong>Hi, I’m Lea!</strong> 👋🏼
+I make things that help people make things.
+Ι <a href="/specs/">design web technologies</a> implemented in your browser,
+launch <a href="/projects/">open source dev tools</a> used by millions,
+and <a href="/consulting/">consult</a> on my areas of expertise.
+I hold a PhD in usability &amp; innovation from <a href="https://mit.edu">MIT</a> — but chose product over research.
+I love sharing knowledge and <a href="/speaking/">speak</a>, <a href="https://designftw.mit.edu">teach</a>, <a href="/publications/">write</a>,
+and <a href="/blog/">blog</a> about product design, web technologies, usability, and their intersection.</p>
+
+
+<p class="row">
+	<a class="cta" href="/about/" style="--icon: var(--icon-question);">More about me</a>
+	<a class="cta secondary work-with-me" href="/consulting/">Work with me</a>
+</p>
+</div>
+
+<h2><a href="/blog/">Blog</a> <a href="/feed.xml" title="Feed" class="feed"></a></h2>
+
+
+
+<ol class="subtle-markers posts compact" reversed start="237">
+
+	
+
+<li>
+	<a class="title" href="/blog/2025/state-of-html/">State of HTML 2025 now open!</a>
+	
+	
+	
+	
+
+	<time class="metabit dt-published" datetime="2025-07-22">22 Jul 2025</time>
+
+	
+
+	
+	<span class="metabit reading-time" title="1177 words">4 min</span>
+
+	
+
+	
+</li>
+
+
+	
+
+	
+
+<li>
+	<a class="title" href="/blog/2025/design-state-of-html/">Influence the State of HTML 2025 Survey!</a>
+	
+	
+	
+	
+
+	<time class="metabit dt-published" datetime="2025-07-08">8 Jul 2025</time>
+
+	
+
+	
+	<span class="metabit reading-time" title="1669 words">5 min</span>
+
+	
+
+	
+</li>
+
+
+	
+
+	
+
+<li>
+	<a class="title" href="/blog/2025/hovercar/">The Hovercar Framework for Deliberate Product Design</a>
+	
+	
+	
+	
+
+	<time class="metabit dt-published" datetime="2025-06-25">25 Jun 2025</time>
+
+	
+
+	
+	<span class="metabit reading-time" title="4217 words">13 min</span>
+
+	
+
+	
+</li>
+
+
+	
+
+	
+
+<li>
+	<a class="title" href="/blog/2025/bluesky-likes/">Bluesky Likes Web Components</a>
+	
+	
+	
+	
+
+	<time class="metabit dt-published" datetime="2025-06-17">17 Jun 2025</time>
+
+	
+
+	
+	<span class="metabit reading-time" title="4380 words">13 min</span>
+
+	
+
+	
+</li>
+
+
+	
+
+	
+
+<li>
+	<a class="title" href="/blog/2025/construction-lines/">Construction Lines</a>
+	
+	
+	
+	
+
+	<time class="metabit dt-published" datetime="2025-06-13">13 Jun 2025</time>
+
+	
+
+	
+	<span class="metabit reading-time" title="3928 words">12 min</span>
+
+	
+
+	
+</li>
+
+
+	
+
+	
+
+<li>
+	<a class="title" href="/blog/2025/style-observer/">Style-observer: JS to observe CSS property changes, for reals</a>
+	
+	
+	
+	
+
+	<time class="metabit dt-published" datetime="2025-02-12">12 Feb 2025</time>
+
+	
+
+	
+	<span class="metabit reading-time" title="964 words">3 min</span>
+
+	
+
+	
+</li>
+
+
+	
+
+	
+
+<li>
+	<a class="title" href="/blog/2024/context-chips/">Context Chips in Survey Design: “Okay, but how does it <em>feel</em>?”</a>
+	
+	
+	
+	
+
+	<time class="metabit dt-published" datetime="2024-12-27">27 Dec 2024</time>
+
+	
+
+	
+	<span class="metabit reading-time" title="5254 words">16 min</span>
+
+	
+
+	
+</li>
+
+
+	
+
+	
+
+<li>
+	<a class="title" href="/blog/2024/wcs-vs-frameworks/">Web Components are not Framework Components — and That’s Okay</a>
+	
+	
+	
+	
+
+	<time class="metabit dt-published" datetime="2024-10-01">1 Oct 2024</time>
+
+	
+
+	
+	<span class="metabit reading-time" title="1956 words">6 min</span>
+
+	
+
+	
+</li>
+
+
+	
+
+	
+
+<li>
+	<a class="title" href="/blog/2024/awesome/">Making the Web more Awesome — for everyone</a>
+	
+	
+	
+	
+
+	<time class="metabit dt-published" datetime="2024-09-16">16 Sept 2024</time>
+
+	
+
+	
+	<span class="metabit reading-time" title="826 words">3 min</span>
+
+	
+
+	
+</li>
+
+
+	
+
+	
+
+<li>
+	<a class="title" href="/blog/2024/engage-dont-show/">Forget “show, don’t tell”. Engage, don’t show!</a>
+	
+	
+	
+	
+
+	<time class="metabit dt-published" datetime="2024-07-03">3 Jul 2024</time>
+
+	
+
+	
+	<span class="metabit reading-time" title="1122 words">4 min</span>
+
+	
+
+	
+</li>
+
+
+	
+
+	
+
+<li>
+	<a class="title" href="/blog/2024/css-conditionals-now/">Inline conditionals in CSS, now?</a>
+	
+	
+	
+	
+
+	<time class="metabit dt-published" datetime="2024-06-21">21 Jun 2024</time>
+
+	
+
+	
+	<span class="metabit reading-time" title="6873 words">20 min</span>
+
+	
+
+	
+</li>
+
+
+	
+
+	
+
+<li>
+	<a class="title" href="/blog/2024/css-conditionals/">Inline conditionals in CSS?</a>
+	
+	
+	
+	
+
+	<time class="metabit dt-published" datetime="2024-06-18">18 Jun 2024</time>
+
+	
+
+	
+	<span class="metabit reading-time" title="1819 words">6 min</span>
+
+	
+
+	
+</li>
+
+
+	
+
+	
+
+<li>
+	<a class="title" href="/blog/2024/contrast-color/">On compliance vs readability: Generating text colors with CSS</a>
+	
+	
+	
+	
+
+	<time class="metabit dt-published" datetime="2024-05-17">17 May 2024</time>
+
+	
+
+	
+	<span class="metabit reading-time" title="6122 words">18 min</span>
+
+	
+
+	
+</li>
+
+
+	
+
+	
+
+<li>
+	<a class="title" href="/blog/2023/eigensolutions/">Eigensolutions: composability as the antidote to overfit</a>
+	
+	
+	
+	
+
+	<time class="metabit dt-published" datetime="2023-12-19">19 Dec 2023</time>
+
+	
+
+	
+	<span class="metabit reading-time" title="4641 words">14 min</span>
+
+	<span class="metabit disqus-comment-count comment-count" data-disqus-identifier="2023/eigensolutions">0 comments</span>
+	<script id="dsq-count-scr" src="https://leaverou.disqus.com/count.js" async></script>
+
+	
+</li>
+
+
+	
+
+	
+
+<li>
+	<a class="title" href="/blog/2023/minimalist-affordances/">Minimalist Affordances: Making the right tradeoffs</a>
+	
+	
+	
+	
+
+	<time class="metabit dt-published" datetime="2023-11-02">2 Nov 2023</time>
+
+	<time class="metabit dt-updated" datetime="2023-11-27" title="Last Updated">27 Nov 2023</time>
+
+	
+	<span class="metabit reading-time" title="1975 words">6 min</span>
+
+	<span class="metabit disqus-comment-count comment-count" data-disqus-identifier="2023/minimalist-affordances">0 comments</span>
+	<script id="dsq-count-scr" src="https://leaverou.disqus.com/count.js" async></script>
+
+	
+</li>
+
+
+	
+
+	
+
+<li>
+	<a class="title" href="/blog/2023/state-of-html-2023/">State of HTML 2023 now open!</a>
+	
+	
+	
+	
+
+	<time class="metabit dt-published" datetime="2023-09-22">22 Sept 2023</time>
+
+	
+
+	
+	<span class="metabit reading-time" title="1400 words">4 min</span>
+
+	<span class="metabit disqus-comment-count comment-count" data-disqus-identifier="2023/state-of-html-2023">0 comments</span>
+	<script id="dsq-count-scr" src="https://leaverou.disqus.com/count.js" async></script>
+
+	
+</li>
+
+
+	
+
+	
+
+<li>
+	<a class="title" href="/blog/2023/numbers-vs-brackets/">Numbers or Brackets for numeric questions?</a>
+	
+	
+	
+	
+
+	<time class="metabit dt-published" datetime="2023-08-03">3 Aug 2023</time>
+
+	<time class="metabit dt-updated" datetime="2023-08-07" title="Last Updated">7 Aug 2023</time>
+
+	
+	<span class="metabit reading-time" title="2114 words">7 min</span>
+
+	<span class="metabit disqus-comment-count comment-count" data-disqus-identifier="2023/numbers-vs-brackets">0 comments</span>
+	<script id="dsq-count-scr" src="https://leaverou.disqus.com/count.js" async></script>
+
+	
+</li>
+
+
+	
+
+	
+
+<li>
+	<a class="title" href="/blog/2023/design-state-of-html/">Help Design the Inaugural State of HTML Survey!</a>
+	
+	
+	
+	
+
+	<time class="metabit dt-published" datetime="2023-07-26">26 Jul 2023</time>
+
+	
+
+	
+	<span class="metabit reading-time" title="1106 words">4 min</span>
+
+	<span class="metabit disqus-comment-count comment-count" data-disqus-identifier="2023/design-state-of-html">0 comments</span>
+	<script id="dsq-count-scr" src="https://leaverou.disqus.com/count.js" async></script>
+
+	
+</li>
+
+
+	
+
+	
+
+<li>
+	<a class="title" href="/blog/2023/going-lean/">Going Lean</a>
+	
+	
+	
+	
+
+	<time class="metabit dt-published" datetime="2023-07-21">21 Jul 2023</time>
+
+	
+
+	
+	<span class="metabit reading-time" title="2691 words">8 min</span>
+
+	<span class="metabit disqus-comment-count comment-count" data-disqus-identifier="2023/going-lean">0 comments</span>
+	<script id="dsq-count-scr" src="https://leaverou.disqus.com/count.js" async></script>
+
+	
+</li>
+
+
+	
+
+	
+
+<li>
+	<a class="title" href="/blog/2023/rethinking-categorization/">Rethinking Categorization</a>
+	
+	
+	
+	
+
+	<time class="metabit dt-published" datetime="2023-07-20">20 Jul 2023</time>
+
+	
+
+	
+	<span class="metabit reading-time" title="1240 words">4 min</span>
+
+	<span class="metabit disqus-comment-count comment-count" data-disqus-identifier="2023/rethinking-categorization">0 comments</span>
+	<script id="dsq-count-scr" src="https://leaverou.disqus.com/count.js" async></script>
+
+	
+</li>
+
+
+	
+
+	
+
+<li>
+	<a class="title" href="/blog/2023/11ty-indices/">11ty: Index ALL the things!</a>
+	
+	
+	
+	
+
+	<time class="metabit dt-published" datetime="2023-07-19">19 Jul 2023</time>
+
+	
+
+	
+	<span class="metabit reading-time" title="1247 words">4 min</span>
+
+	<span class="metabit disqus-comment-count comment-count" data-disqus-identifier="2023/11ty-indices">0 comments</span>
+	<script id="dsq-count-scr" src="https://leaverou.disqus.com/count.js" async></script>
+
+	
+</li>
+
+
+	
+
+	
+
+<li>
+	<a class="title" href="/blog/2023/preserve-disqus/">Migrating Disqus from WP to 11ty</a>
+	
+	
+	
+	
+
+	<time class="metabit dt-published" datetime="2023-07-18">18 Jul 2023</time>
+
+	
+
+	
+	<span class="metabit reading-time" title="1335 words">4 min</span>
+
+	<span class="metabit disqus-comment-count comment-count" data-disqus-identifier="2023/preserve-disqus">0 comments</span>
+	<script id="dsq-count-scr" src="https://leaverou.disqus.com/count.js" async></script>
+
+	
+</li>
+
+
+	
+
+	
+
+<li>
+	<a class="title" href="/blog/2023/04/private-fields-considered-harmful/">JS private class fields considered harmful</a>
+	
+	
+	
+	
+
+	<time class="metabit dt-published" datetime="2023-04-28">28 Apr 2023</time>
+
+	
+
+	
+	<span class="metabit reading-time" title="532 words">2 min</span>
+
+	<span class="metabit disqus-comment-count comment-count" data-disqus-identifier="3599 https://lea.verou.me/?p=3599">0 comments</span>
+	<script id="dsq-count-scr" src="https://leaverou.disqus.com/count.js" async></script>
+
+	
+</li>
+
+
+	
+
+	
+
+<li>
+	<a class="title" href="/blog/2023/03/contrast-ratio-new-home/">Contrast Ratio has a new home — and this is great news!</a>
+	
+	
+	
+	
+
+	<time class="metabit dt-published" datetime="2023-03-18">18 Mar 2023</time>
+
+	
+
+	
+	<span class="metabit reading-time" title="330 words">1 min</span>
+
+	<span class="metabit disqus-comment-count comment-count" data-disqus-identifier="3592 https://lea.verou.me/?p=3592">0 comments</span>
+	<script id="dsq-count-scr" src="https://leaverou.disqus.com/count.js" async></script>
+
+	
+</li>
+
+
+	
+
+	
+
+<li>
+	<a class="title" href="/blog/2022/11/tag-2/">Position Statement for the 2022 W3C TAG Election</a>
+	
+	
+	
+	
+
+	<time class="metabit dt-published" datetime="2022-11-07">7 Nov 2022</time>
+
+	
+
+	
+	<span class="metabit reading-time" title="773 words">3 min</span>
+
+	<span class="metabit disqus-comment-count comment-count" data-disqus-identifier="3531 https://lea.verou.me/?p=3531">0 comments</span>
+	<script id="dsq-count-scr" src="https://leaverou.disqus.com/count.js" async></script>
+
+	
+</li>
+
+
+	
+
+	
+
+<li>
+	<a class="title" href="/blog/2022/10/state-of-css-2022-now-open/">State of CSS 2022 now open!</a>
+	
+	
+	
+	
+
+	<time class="metabit dt-published" datetime="2022-10-03">3 Oct 2022</time>
+
+	
+
+	
+	<span class="metabit reading-time" title="584 words">2 min</span>
+
+	<span class="metabit disqus-comment-count comment-count" data-disqus-identifier="3511 https://lea.verou.me/?p=3511">0 comments</span>
+	<script id="dsq-count-scr" src="https://leaverou.disqus.com/count.js" async></script>
+
+	
+</li>
+
+
+	
+
+	
+
+<li>
+	<a class="title" href="/blog/2022/08/on-ratings-and-meters/">On ratings and meters</a>
+	
+	
+	
+	
+
+	<time class="metabit dt-published" datetime="2022-08-12">12 Aug 2022</time>
+
+	
+
+	
+	<span class="metabit reading-time" title="671 words">2 min</span>
+
+	<span class="metabit disqus-comment-count comment-count" data-disqus-identifier="3502 https://lea.verou.me/?p=3502">0 comments</span>
+	<script id="dsq-count-scr" src="https://leaverou.disqus.com/count.js" async></script>
+
+	
+</li>
+
+
+	
+
+	
+
+<li>
+	<a class="title" href="/blog/2022/07/help-design-the-state-of-css-survey-2022/">Help design the State of CSS Survey 2022!</a>
+	
+	
+	
+	
+
+	<time class="metabit dt-published" datetime="2022-07-28">28 Jul 2022</time>
+
+	
+
+	
+	<span class="metabit reading-time" title="388 words">2 min</span>
+
+	<span class="metabit disqus-comment-count comment-count" data-disqus-identifier="3493 https://lea.verou.me/?p=3493">0 comments</span>
+	<script id="dsq-count-scr" src="https://leaverou.disqus.com/count.js" async></script>
+
+	
+</li>
+
+
+	
+
+	
+
+<li>
+	<a class="title" href="/blog/2022/07/button-group/">What is the best way to mark up an exclusive button group?</a>
+	
+	
+	
+	
+
+	<time class="metabit dt-published" datetime="2022-07-14">14 Jul 2022</time>
+
+	
+
+	
+	<span class="metabit reading-time" title="367 words">2 min</span>
+
+	<span class="metabit disqus-comment-count comment-count" data-disqus-identifier="3484 https://lea.verou.me/?p=3484">0 comments</span>
+	<script id="dsq-count-scr" src="https://leaverou.disqus.com/count.js" async></script>
+
+	
+</li>
+
+
+	
+
+	
+
+<li>
+	<a class="title" href="/blog/2022/07/rety/">Introducing Rety: live coding, without the stress</a>
+	
+	
+	
+	
+
+	<time class="metabit dt-published" datetime="2022-07-13">13 Jul 2022</time>
+
+	
+
+	
+	<span class="metabit reading-time" title="745 words">3 min</span>
+
+	<span class="metabit disqus-comment-count comment-count" data-disqus-identifier="3478 https://lea.verou.me/?p=3478">0 comments</span>
+	<script id="dsq-count-scr" src="https://leaverou.disqus.com/count.js" async></script>
+
+	
+</li>
+
+
+	
+
+</ol>
+
+
+<p><a class="cta secondary" href="/blog/page/3/">All blog posts</a></p>
+
+
+<footer>
+	
+	<div class="meta">
+
+<span class="metabit broken-page">
+	<a href="https://github.com/leaverou/lea.verou.me/issues/new?template=broken-page.yml&amp;amp;amp;title=Broken%20page:%20Home&amp;amp;amp;url=https://lea.verou.me/&amp;amp;oldurl=https://lea0.verou.me/" target="_blank">Report broken page</a>
+</span>
+
+			<a href="https://github.com/LeaVerou/lea.verou.me/edit/main/index.md" class="metabit edit-page">Edit page on GitHub</a>
+		
+	</div>
+
+	
+</footer>
+
+
+
+</main>
+
+<footer>
+	<section class="social">
+		<h4>Social Me</h4><a class="twitter"
+	href="http://twitter.com/leaverou"
+	target="_blank" rel="me"
+	aria-label="Twitter"
+	style="--color: #1DA1F2"><i class="fa-brands fa-twitter"></i></a><a class="github"
+	href="https://github.com/leaverou"
+	target="_blank" rel="me"
+	aria-label="GitHub"
+	style="--color: #333"><i class="fa-brands fa-github"></i></a><a class="bluesky"
+	href="https://bsky.app/profile/lea.verou.me"
+	target="_blank" rel="me"
+	aria-label="BlueSky"
+	style="--color: #1DA1F2"><i class="fa-brands fa-bluesky"></i></a><a class="mastodon"
+	href="https://front-end.social/@leaverou"
+	target="_blank" rel="me"
+	aria-label="Mastodon"
+	style="--color: rgb(99 100 255)"><i class="fa-brands fa-mastodon"></i></a><a class="linkedin"
+	href="https://www.linkedin.com/in/leaverou/"
+	target="_blank" rel="me"
+	aria-label="LinkedIn"
+	style="--color: #0A66C2"><i class="fa-brands fa-linkedin-in"></i></a><a class="dribbble"
+	href="https://dribbble.com/leaverou"
+	target="_blank" rel="me"
+	aria-label="Dribbble"
+	style="--color: #ea4c89"><i class="fa-brands fa-dribbble"></i></a>
+</section>
+	<nav id="nav">
+		<h4>About me</h4>
+		
+
+
+
+<a href="/./" class=selected>Home</a>
+
+
+
+
+<a href="/blog/">Blog</a>
+
+
+
+
+<a href="/specs/">Specs</a>
+
+
+
+
+<a href="/projects/">Open Source</a>
+
+
+
+
+<a href="/speaking/">Speaking</a>
+
+
+
+
+<a href="/publications/">Publications</a>
+
+
+
+
+<a href="/press/">Press</a>
+
+
+
+
+<a href="/about/">About</a>
+
+
+
+
+<a href="https://github.com/leaverou/lea.verou.me" target=&quot;_blank&quot;>Repo</a>
+
+
+
+	</nav>
+
+	<small>
+		<a href="./credits/#licensing" title="Licensing details" class="copyright">&copy;2009&ndash;2025 Lea Verou</a>
+		<span class="credits">Powered by <a href="https://11ty.dev/">Eleventy</a>, <a href="https://netlify.com">Netlify</a>, and <a href="./credits/">more</a></span>
+		<a href="#" class="to-top">
+			<span class="long-text">To the top</span>
+			<span class="short-text">Up</span>
+			<span class="arrow" aria-hidden="true">↑</span>
+		</a>
+	</small>
+</footer>
+
+
+<script async id="netlify-rum-container" src="/.netlify/scripts/rum" data-netlify-rum-site-id="93948a06-0877-4861-a637-9910c89f6436" data-netlify-deploy-branch="main" data-netlify-deploy-context="production" data-netlify-cwv-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaXRlX2lkIjoiOTM5NDhhMDYtMDg3Ny00ODYxLWE2MzctOTkxMGM4OWY2NDM2IiwiYWNjb3VudF9pZCI6IjU4ZjMzNmVjYzRkOWNjNDhmMmZiYzAwZSIsImRlcGxveV9pZCI6IjY4YWI0YWU0NmIwMjQ5MDAwOGU3ODA4MyIsImlzc3VlciI6Im5mc2VydmVyIn0.zMAcWIKcBnzKwhBcEkmx0O6iodpGqfPqxAbUFc8XYpA"></script></body>
+</html>

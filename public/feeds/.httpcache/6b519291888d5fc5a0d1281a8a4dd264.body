@@ -1,0 +1,1472 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>	
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	
+	<style type="text/css">
+/* Banner */
+.page-title-section .page-title h1 {
+	color: #fff;
+}
+/* Breadcrumb */
+
+/* Sidebar */
+body .sidebar .section-header .widget-title, body .sidebar .wp-block-search .wp-block-search__label, body .sidebar .widget.widget_block h1, body .sidebar .widget.widget_block h2, body .sidebar .widget.widget_block h3, body .sidebar .widget.widget_block h4, body .sidebar .widget.widget_block h5, body .sidebar .widget.widget_block h6, body .sidebar .widget.widget_block .wc-block-product-search__label {
+    color: #ffffff!important;
+}
+body .sidebar p, .sidebar .wp-block-latest-posts__post-excerpt {
+    color: #64646d!important;
+}
+.sidebar a {
+    color: #64646d!important;
+}
+
+/* Footer Widgets */
+    .site-footer p {
+        color: #fff;
+    }
+</style>
+<meta name='robots' content='noindex, nofollow' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+	<!-- This site is optimized with the Yoast SEO plugin v20.0 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Home - GISO RATP</title>
+	<meta name="description" content="Le GISO CGT RATP syndicat des agents de la maintenance de la RATP. Découvrez toute l&#039;actualité des départements de lamaintenance." />
+	<meta property="og:locale" content="fr_FR" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Home - GISO RATP" />
+	<meta property="og:description" content="Le GISO CGT RATP syndicat des agents de la maintenance de la RATP. Découvrez toute l&#039;actualité des départements de lamaintenance." />
+	<meta property="og:url" content="http://www.maintenance.cgt-ratp.fr/" />
+	<meta property="og:site_name" content="GISO RATP" />
+	<meta property="article:publisher" content="http://1858238897826000" />
+	<meta property="article:modified_time" content="2022-12-19T15:09:43+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"http://www.maintenance.cgt-ratp.fr/","url":"http://www.maintenance.cgt-ratp.fr/","name":"Home - GISO RATP","isPartOf":{"@id":"http://www.maintenance.cgt-ratp.fr/#website"},"about":{"@id":"http://www.maintenance.cgt-ratp.fr/#organization"},"datePublished":"2018-07-26T10:18:46+00:00","dateModified":"2022-12-19T15:09:43+00:00","description":"Le GISO CGT RATP syndicat des agents de la maintenance de la RATP. Découvrez toute l'actualité des départements de lamaintenance.","breadcrumb":{"@id":"http://www.maintenance.cgt-ratp.fr/#breadcrumb"},"inLanguage":"fr-FR","potentialAction":[{"@type":"ReadAction","target":["http://www.maintenance.cgt-ratp.fr/"]}]},{"@type":"BreadcrumbList","@id":"http://www.maintenance.cgt-ratp.fr/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil"}]},{"@type":"WebSite","@id":"http://www.maintenance.cgt-ratp.fr/#website","url":"http://www.maintenance.cgt-ratp.fr/","name":"GISO RATP","description":"Site de la maintenance RATP","publisher":{"@id":"http://www.maintenance.cgt-ratp.fr/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"http://www.maintenance.cgt-ratp.fr/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"fr-FR"},{"@type":"Organization","@id":"http://www.maintenance.cgt-ratp.fr/#organization","name":"GISO CGT RATP","url":"http://www.maintenance.cgt-ratp.fr/","logo":{"@type":"ImageObject","inLanguage":"fr-FR","@id":"http://www.maintenance.cgt-ratp.fr/#/schema/logo/image/","url":"http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2018/08/Logo-2017-V4.png","contentUrl":"http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2018/08/Logo-2017-V4.png","width":913,"height":1483,"caption":"GISO CGT RATP"},"image":{"@id":"http://www.maintenance.cgt-ratp.fr/#/schema/logo/image/"},"sameAs":["http://1858238897826000"]}]}</script>
+	<meta name="google-site-verification" content="95ktS9-kIYa-9TB0HlfRZyLlvyVFPu-uU1JUcgzvurw" />
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.maintenance.cgt-ratp.fr' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="GISO RATP &raquo; Flux" href="http://www.maintenance.cgt-ratp.fr/feed/" />
+<link rel="alternate" type="application/rss+xml" title="GISO RATP &raquo; Flux des commentaires" href="http://www.maintenance.cgt-ratp.fr/comments/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.maintenance.cgt-ratp.fr\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.2"}};
+/*! This file is auto-generated */
+!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='http://www.maintenance.cgt-ratp.fr/wp-includes/css/dist/block-library/style.min.css?ver=6.8.2' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='bbp-default-css' href='http://www.maintenance.cgt-ratp.fr/wp-content/plugins/bbpress/templates/default/css/bbpress.min.css?ver=2.6.9' type='text/css' media='all' />
+<link rel='stylesheet' id='spicepress-default-css' href='http://www.maintenance.cgt-ratp.fr/wp-content/themes/spicepress/css/default.css?ver=6.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css' href='http://www.maintenance.cgt-ratp.fr/wp-content/themes/spicepress/css/bootstrap.css?ver=6.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='spicepress-style-css' href='http://www.maintenance.cgt-ratp.fr/wp-content/themes/spicepress/style.css?ver=6.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='animate.min-css-css' href='http://www.maintenance.cgt-ratp.fr/wp-content/themes/spicepress/css/animate.min.css?ver=6.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='http://www.maintenance.cgt-ratp.fr/wp-content/themes/spicepress/css/font-awesome/css/font-awesome.min.css?ver=6.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='spicepress-media-responsive-css-css' href='http://www.maintenance.cgt-ratp.fr/wp-content/themes/spicepress/css/media-responsive.css?ver=6.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='spicepress-fonts-css' href='//fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%2C800%7CDosis%3A200%2C300%2C400%2C500%2C600%2C700%2C800%7Citalic%7CCourgette&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<style id='akismet-widget-style-inline-css' type='text/css'>
+
+			.a-stats {
+				--akismet-color-mid-green: #357b49;
+				--akismet-color-white: #fff;
+				--akismet-color-light-grey: #f6f7f7;
+
+				max-width: 350px;
+				width: auto;
+			}
+
+			.a-stats * {
+				all: unset;
+				box-sizing: border-box;
+			}
+
+			.a-stats strong {
+				font-weight: 600;
+			}
+
+			.a-stats a.a-stats__link,
+			.a-stats a.a-stats__link:visited,
+			.a-stats a.a-stats__link:active {
+				background: var(--akismet-color-mid-green);
+				border: none;
+				box-shadow: none;
+				border-radius: 8px;
+				color: var(--akismet-color-white);
+				cursor: pointer;
+				display: block;
+				font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen-Sans', 'Ubuntu', 'Cantarell', 'Helvetica Neue', sans-serif;
+				font-weight: 500;
+				padding: 12px;
+				text-align: center;
+				text-decoration: none;
+				transition: all 0.2s ease;
+			}
+
+			/* Extra specificity to deal with TwentyTwentyOne focus style */
+			.widget .a-stats a.a-stats__link:focus {
+				background: var(--akismet-color-mid-green);
+				color: var(--akismet-color-white);
+				text-decoration: none;
+			}
+
+			.a-stats a.a-stats__link:hover {
+				filter: brightness(110%);
+				box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06), 0 0 2px rgba(0, 0, 0, 0.16);
+			}
+
+			.a-stats .count {
+				color: var(--akismet-color-white);
+				display: block;
+				font-size: 1.5em;
+				line-height: 1.4;
+				padding: 0 13px;
+				white-space: nowrap;
+			}
+		
+</style>
+<style type='text/css'>@import url('https://fonts.googleapis.com/css?family=ABeeZee|Abel|Abril+Fatface|Aclonica|Acme|Actor|Adamina|Advent+Pro|Aguafina+Script|Akronim|Aladin|Aldrich|Alef|Alegreya|Alegreya+SC|Alegreya+Sans|Alegreya+Sans+SC|Alex+Brush|Alfa+Slab+One|Alice|Alike|Alike+Angular|Allan|Allerta|Allerta+Stencil|Allura|Almendra|Almendra+Display|Almendra+SC|Amarante|Amaranth|Amatic+SC|Amatica+SC|Amethysta|Amiko|Amiri|Amita|Anaheim|Andada|Andika|Angkor|Annie+Use+Your+Telescope|Anonymous+Pro|Antic|Antic+Didone|Antic+Slab|Anton|Arapey|Arbutus|Arbutus+Slab|Architects+Daughter|Archivo+Black|Archivo+Narrow|Aref+Ruqaa|Arima+Madurai|Arimo|Arizonia|Armata|Artifika|Arvo|Arya|Asap|Asar|Asset|Assistant|Astloch|Asul|Athiti|Atma|Atomic+Age|Aubrey|Audiowide|Autour+One|Average|Average+Sans|Averia+Gruesa+Libre|Averia+Libre|Averia+Sans+Libre|Averia+Serif+Libre|Bad+Script|Baloo|Baloo+Bhai|Baloo+Da|Baloo+Thambi|Balthazar|Bangers|Basic|Battambang|Baumans|Bayon|Belgrano|Belleza|BenchNine|Bentham|Berkshire+Swash|Bevan|Bigelow+Rules|Bigshot+One|Bilbo|Bilbo+Swash+Caps|BioRhyme|BioRhyme+Expanded|Biryani|Bitter|Black+Ops+One|Bokor|Bonbon|Boogaloo|Bowlby+One|Bowlby+One+SC|Brawler|Bree+Serif|Bubblegum+Sans|Bubbler+One|Buda|Buenard|Bungee|Bungee+Hairline|Bungee+Inline|Bungee+Outline|Bungee+Shade|Butcherman|Butterfly+Kids|Cabin|Cabin+Condensed|Cabin+Sketch|Caesar+Dressing|Cagliostro|Cairo|Calligraffitti|Cambay|Cambo|Candal|Cantarell|Cantata+One|Cantora+One|Capriola|Cardo|Carme|Carrois+Gothic|Carrois+Gothic+SC|Carter+One|Catamaran|Caudex|Caveat|Caveat+Brush|Cedarville+Cursive|Ceviche+One|Changa|Changa+One|Chango|Chathura|Chau+Philomene+One|Chela+One|Chelsea+Market|Chenla|Cherry+Cream+Soda|Cherry+Swash|Chewy|Chicle|Chivo|Chonburi|Cinzel|Cinzel+Decorative|Clicker+Script|Coda|Coda+Caption|Codystar|Coiny|Combo|Comfortaa|Coming+Soon|Concert+One|Condiment|Content|Contrail+One|Convergence|Cookie|Copse|Corben|Cormorant|Cormorant+Garamond|Cormorant+Infant|Cormorant+SC|Cormorant+Unicase|Cormorant+Upright|Courgette|Cousine|Coustard|Covered+By+Your+Grace|Crafty+Girls|Creepster|Crete+Round|Crimson+Text|Croissant+One|Crushed|Cuprum|Cutive|Cutive+Mono|Damion|Dancing+Script|Dangrek|David+Libre|Dawning+of+a+New+Day|Days+One|Dekko|Delius|Delius+Swash+Caps|Delius+Unicase|Della+Respira|Denk+One|Devonshire|Dhurjati|Didact+Gothic|Diplomata|Diplomata+SC|Domine|Donegal+One|Doppio+One|Dorsa|Dosis|Dr+Sugiyama|Droid+Sans|Droid+Sans+Mono|Droid+Serif|Duru+Sans|Dynalight|EB+Garamond|Eagle+Lake|Eater|Economica|Eczar|Ek+Mukta|El+Messiri|Electrolize|Elsie|Elsie+Swash+Caps|Emblema+One|Emilys+Candy|Engagement|Englebert|Enriqueta|Erica+One|Esteban|Euphoria+Script|Ewert|Exo|Exo+2|Expletus+Sans|Fanwood+Text|Farsan|Fascinate|Fascinate+Inline|Faster+One|Fasthand|Fauna+One|Federant|Federo|Felipa|Fenix|Finger+Paint|Fira+Mono|Fira+Sans|Fjalla+One|Fjord+One|Flamenco|Flavors|Fondamento|Fontdiner+Swanky|Forum|Francois+One|Frank+Ruhl+Libre|Freckle+Face|Fredericka+the+Great|Fredoka+One|Freehand|Fresca|Frijole|Fruktur|Fugaz+One|GFS+Didot|GFS+Neohellenic|Gabriela|Gafata|Galada|Galdeano|Galindo|Gentium+Basic|Gentium+Book+Basic|Geo|Geostar|Geostar+Fill|Germania+One|Gidugu|Gilda+Display|Give+You+Glory|Glass+Antiqua|Glegoo|Gloria+Hallelujah|Goblin+One|Gochi+Hand|Gorditas|Goudy+Bookletter+1911|Graduate|Grand+Hotel|Gravitas+One|Great+Vibes|Griffy|Gruppo|Gudea|Gurajada|Habibi|Halant|Hammersmith+One|Hanalei|Hanalei+Fill|Handlee|Hanuman|Happy+Monkey|Harmattan|Headland+One|Heebo|Henny+Penny|Herr+Von+Muellerhoff|Hind|Hind+Guntur|Hind+Madurai|Hind+Siliguri|Hind+Vadodara|Holtwood+One+SC|Homemade+Apple|Homenaje|IM+Fell+DW+Pica|IM+Fell+DW+Pica+SC|IM+Fell+Double+Pica|IM+Fell+Double+Pica+SC|IM+Fell+English|IM+Fell+English+SC|IM+Fell+French+Canon|IM+Fell+French+Canon+SC|IM+Fell+Great+Primer|IM+Fell+Great+Primer+SC|Iceberg|Iceland|Imprima|Inconsolata|Inder|Indie+Flower|Inika|Inknut+Antiqua|Irish+Grover|Istok+Web|Italiana|Italianno|Itim|Jacques+Francois|Jacques+Francois+Shadow|Jaldi|Jim+Nightshade|Jockey+One|Jolly+Lodger|Jomhuria|Josefin+Sans|Josefin+Slab|Joti+One|Judson|Julee|Julius+Sans+One|Junge|Jura|Just+Another+Hand|Just+Me+Again+Down+Here|Kadwa|Kalam|Kameron|Kanit|Kantumruy|Karla|Karma|Katibeh|Kaushan+Script|Kavivanar|Kavoon|Kdam+Thmor|Keania+One|Kelly+Slab|Kenia|Khand|Khmer|Khula|Kite+One|Knewave|Kotta+One|Koulen|Kranky|Kreon|Kristi|Krona+One|Kumar+One|Kumar+One+Outline|Kurale|La+Belle+Aurore|Laila|Lakki+Reddy|Lalezar|Lancelot|Lateef|Lato|League+Script|Leckerli+One|Ledger|Lekton|Lemon|Lemonada|Libre+Baskerville|Libre+Franklin|Life+Savers|Lilita+One|Lily+Script+One|Limelight|Linden+Hill|Lobster|Lobster+Two|Londrina+Outline|Londrina+Shadow|Londrina+Sketch|Londrina+Solid|Lora|Love+Ya+Like+A+Sister|Loved+by+the+King|Lovers+Quarrel|Luckiest+Guy|Lusitana|Lustria|Macondo|Macondo+Swash+Caps|Mada|Magra|Maiden+Orange|Maitree|Mako|Mallanna|Mandali|Marcellus|Marcellus+SC|Marck+Script|Margarine|Marko+One|Marmelad|Martel|Martel+Sans|Marvel|Mate|Mate+SC|Maven+Pro|McLaren|Meddon|MedievalSharp|Medula+One|Meera+Inimai|Megrim|Meie+Script|Merienda|Merienda+One|Merriweather|Merriweather+Sans|Metal|Metal+Mania|Metamorphous|Metrophobic|Michroma|Milonga|Miltonian|Miltonian+Tattoo|Miniver|Miriam+Libre|Mirza|Miss+Fajardose|Mitr|Modak|Modern+Antiqua|Mogra|Molengo|Molle|Monda|Monofett|Monoton|Monsieur+La+Doulaise|Montaga|Montez|Montserrat|Montserrat+Alternates|Montserrat+Subrayada|Moul|Moulpali|Mountains+of+Christmas|Mouse+Memoirs|Mr+Bedfort|Mr+Dafoe|Mr+De+Haviland|Mrs+Saint+Delafield|Mrs+Sheppards|Mukta+Vaani|Muli|Mystery+Quest|NTR|Neucha|Neuton|New+Rocker|News+Cycle|Niconne|Nixie+One|Nobile|Nokora|Norican|Nosifer|Nothing+You+Could+Do|Noticia+Text|Noto+Sans|Noto+Serif|Nova+Cut|Nova+Flat|Nova+Mono|Nova+Oval|Nova+Round|Nova+Script|Nova+Slim|Nova+Square|Numans|Nunito|Odor+Mean+Chey|Offside|Old+Standard+TT|Oldenburg|Oleo+Script|Oleo+Script+Swash+Caps|Open+Sans|Open+Sans+Condensed|Oranienbaum|Orbitron|Oregano|Orienta|Original+Surfer|Oswald|Over+the+Rainbow|Overlock|Overlock+SC|Ovo|Oxygen|Oxygen+Mono|PT+Mono|PT+Sans|PT+Sans+Caption|PT+Sans+Narrow|PT+Serif|PT+Serif+Caption|Pacifico|Palanquin|Palanquin+Dark|Paprika|Parisienne|Passero+One|Passion+One|Pathway+Gothic+One|Patrick+Hand|Patrick+Hand+SC|Pattaya|Patua+One|Pavanam|Paytone+One|Peddana|Peralta|Permanent+Marker|Petit+Formal+Script|Petrona|Philosopher|Piedra|Pinyon+Script|Pirata+One|Plaster|Play|Playball|Playfair+Display|Playfair+Display+SC|Podkova|Poiret+One|Poller+One|Poly|Pompiere|Pontano+Sans|Poppins|Port+Lligat+Sans|Port+Lligat+Slab|Pragati+Narrow|Prata|Preahvihear|Press+Start+2P|Pridi|Princess+Sofia|Prociono|Prompt|Prosto+One|Proza+Libre|Puritan|Purple+Purse|Quando|Quantico|Quattrocento|Quattrocento+Sans|Questrial|Quicksand|Quintessential|Qwigley|Racing+Sans+One|Radley|Rajdhani|Rakkas|Raleway|Raleway+Dots|Ramabhadra|Ramaraja|Rambla|Rammetto+One|Ranchers|Rancho|Ranga|Rasa|Rationale|Redressed|Reem+Kufi|Reenie+Beanie|Revalia|Rhodium+Libre|Ribeye|Ribeye+Marrow|Righteous|Risque|Roboto|Roboto+Condensed|Roboto+Mono|Roboto+Slab|Rochester|Rock+Salt|Rokkitt|Romanesco|Ropa+Sans|Rosario|Rosarivo|Rouge+Script|Rozha+One|Rubik|Rubik+Mono+One|Rubik+One|Ruda|Rufina|Ruge+Boogie|Ruluko|Rum+Raisin|Ruslan+Display|Russo+One+=>+Russo+One|Ruthie|Rye|Sacramento|Sahitya|Sail|Salsa|Sanchez|Sancreek|Sansita+One|Sarala|Sarina|Sarpanch|Satisfy|Scada|Scheherazade|Schoolbell|Scope+One|Seaweed+Script|Secular+One|Sevillana|Seymour+One|Shadows+Into+Light|Shadows+Into+Light+Two|Shanti|Share|Share+Tech|Share+Tech+Mono|Shojumaru|Short+Stack|Shrikhand|Siemreap|Sigmar+One|Signika|Signika+Negative|Simonetta|Sintony|Sirin+Stencil|Six+Caps|Skranji|Slabo+13px|Slabo+27px|Slackey|Smokum|Smythe|Sniglet|Snippet|Snowburst+One|Sofadi+One|Sofia|Sonsie+One|Sorts+Mill+Goudy|Source+Code+Pro|Source+Sans+Pro|Source+Serif+Pro|Space+Mono|Special+Elite|Spicy+Rice|Spinnaker|Spirax|Squada+One|Sree+Krushnadevaraya|Sriracha|Stalemate|Stalinist+One|Stardos+Stencil|Stint+Ultra+Condensed|Stint+Ultra+Expanded|Stoke|Strait|Sue+Ellen+Francisco|Suez+One|Sumana|Sunshiney|Supermercado+One|Sura|Suranna|Suravaram|Suwannaphum|Swanky+and+Moo+Moo|Syncopate|Tangerine|Taprom|Tauri|Taviraj|Teko|Telex|Tenali+Ramakrishna|Tenor+Sans|Text+Me+One|The+Girl+Next+Door|Tienne|Tillana|Timmana|Tinos|Titan+One|Titillium+Web|Trade+Winds|Trirong|Trocchi|Trochut|Trykker|Tulpen+One|Ubuntu|Ubuntu+Condensed|Ubuntu+Mono|Ultra|Uncial+Antiqua|Underdog|Unica+One|UnifrakturCook|UnifrakturMaguntia|Unkempt|Unlock|Unna|VT323|Vampiro+One|Varela|Varela+Round|Vast+Shadow|Vesper+Libre|Vibur|Vidaloka|Viga|Voces|Volkhov|Vollkorn|Voltaire|Waiting+for+the+Sunrise|Wallpoet|Walter+Turncoat|Warnes|Wellfleet|Wendy+One|Wire+One|Work+Sans|Yanone+Kaffeesatz|Yantramanav|Yatra+One|Yellowtail|Yeseva+One|Yesteryear|Yrsa|Zeyada');</style><script type="text/javascript" src="http://www.maintenance.cgt-ratp.fr/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="http://www.maintenance.cgt-ratp.fr/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="http://www.maintenance.cgt-ratp.fr/wp-content/themes/spicepress/js/bootstrap.min.js?ver=6.8.2" id="bootstrap-js"></script>
+<script type="text/javascript" id="spicepress-menu-js-js-extra">
+/* <![CDATA[ */
+var breakpoint_settings = {"menu_breakpoint":"1100"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://www.maintenance.cgt-ratp.fr/wp-content/themes/spicepress/js/menu/menu.js?ver=6.8.2" id="spicepress-menu-js-js"></script>
+<script type="text/javascript" src="http://www.maintenance.cgt-ratp.fr/wp-content/themes/spicepress/js/page-scroll.js?ver=6.8.2" id="spicepress-page-scroll-js-js"></script>
+<link rel="https://api.w.org/" href="http://www.maintenance.cgt-ratp.fr/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="http://www.maintenance.cgt-ratp.fr/wp-json/wp/v2/pages/19" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.maintenance.cgt-ratp.fr/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.2" />
+<link rel='shortlink' href='http://www.maintenance.cgt-ratp.fr/' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="http://www.maintenance.cgt-ratp.fr/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.maintenance.cgt-ratp.fr%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="http://www.maintenance.cgt-ratp.fr/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.maintenance.cgt-ratp.fr%2F&#038;format=xml" />
+<style type="text/css">
+
+
+@media (max-width: 1100px) { 
+	.navbar-custom .dropdown-menu {
+		border-top: none;
+		border-bottom: none;	
+		box-shadow: none !important;
+		border: none;
+	}		
+}
+
+@media (min-width: 1100px) {
+.navbar-nav li button { display: none;} 
+}
+
+@media (min-width: 1100px){
+.navbar-nav ul.dropdown-menu  .caret {
+        float: right;
+        border: none;
+}}
+
+@media (min-width: 1100px){
+.navbar-nav ul.dropdown-menu  .caret:after {
+        content: "\f0da";
+        font-family: "FontAwesome";
+        font-size: 10px;
+}}
+
+@media (max-width: 1100px){
+.caret {
+        position: absolute;
+        right: 0;
+        margin-top: 10px;
+        margin-right: 10px;
+}}
+
+
+@media (min-width: 100px) and (max-width: 1100px) { 
+	.navbar .navbar-nav > .active > a, 
+	.navbar .navbar-nav > .active > a:hover, 
+	.navbar .navbar-nav > .active > a:focus {
+		
+            color: ;
+            background-color: transparent;
+	}
+	.navbar .navbar-nav > .open > a,
+	.navbar .navbar-nav > .open > a:hover,
+	.navbar .navbar-nav > .open > a:focus { 
+		background-color: transparent; 
+		
+		 color: ;
+		border-bottom: 1px dotted #4c4a5f; 
+	}
+}
+
+/*===================================================================================*/
+/*	NAVBAR
+/*===================================================================================*/
+
+.navbar-custom {
+	background-color: #fff;
+	border: 0;
+	border-radius: 0;
+	z-index: 1000;
+	font-size: 1.000rem;
+	transition: background, padding 0.4s ease-in-out 0s;
+	margin: 0; 
+	min-height: 90px;
+}
+.navbar a { transition: color 0.125s ease-in-out 0s; }
+.navbar-custom .navbar-brand {
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 2.000rem;
+    line-height: 1.5;
+	color: #1b1b1b;
+	margin-left: 0px !important;
+	height: auto;
+	padding: 26px 30px 26px 15px;
+}
+.site-branding-text { float: left; margin: 0; padding: 13px 50px 13px 0; }
+.site-title { height: auto; font-size: 1.875rem; line-height: 1.3; font-weight: 600; margin: 0; padding: 0px; }
+.site-description { padding: 0; margin: 0; }
+.navbar-custom .navbar-nav li { margin: 0px; padding: 0; }
+.navbar-custom .navbar-nav li > a {
+	position: relative;
+	color: #1b1b1b;
+	font-weight: 600;
+	font-size: 0.875rem;
+	padding: 35px 17px;
+    transition: all 0.3s ease-in-out 0s;
+}
+.navbar-custom .navbar-nav li > a > i {
+    padding-left: 5px;
+}
+
+/*Dropdown Menu*/
+.navbar-custom .dropdown-menu {
+	border-radius: 0;
+	padding: 0;
+	min-width: 200px;
+    background-color: #21202e;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+	position: static;
+	float: none;
+	width: auto;
+	margin-top: 0;
+}
+.navbar-custom .dropdown-menu > li { padding: 0 10px; margin: 0; }
+.navbar-custom .dropdown-menu > li > a {
+	color: #d5d5d5;
+    border-bottom: 1px dotted #363544;
+    font-weight: 600;
+    font-size: 0.875rem;
+    padding: 12px 15px;
+    transition: all 0.2s ease-in-out 0s;
+    letter-spacing: 0.7px;	
+	white-space: normal;
+}
+.navbar-custom .dropdown-menu > li > a:hover, 
+.navbar-custom .dropdown-menu > li > a:focus {
+    padding: 12px 15px 12px 20px;
+}
+.navbar-custom .dropdown-menu > li > a:hover, 
+.navbar-custom .dropdown-menu > li > a:focus {
+    color: #ffffff;
+    background-color: #282737;
+}
+.navbar-custom .dropdown-menu .dropdown-menu {
+	left: 100%;
+	right: auto;
+	top: 0;
+	margin-top: 0;
+}
+.navbar-custom .dropdown-menu.left-side .dropdown-menu {
+	border: 0;
+	right: 100%;
+	left: auto;
+}
+.navbar-custom .dropdown-menu .open > a,
+.navbar-custom .dropdown-menu .open > a:focus,
+.navbar-custom .dropdown-menu .open > a:hover {
+	background: #282737;
+	color: #fff;
+}
+.nav .open > a, 
+.nav .open > a:hover, 
+.nav .open > a:focus { 
+	border-color: #363544;
+} 
+.navbar-custom .dropdown-menu > .active > a, 
+.navbar-custom .dropdown-menu > .active > a:hover, 
+.navbar-custom .dropdown-menu > .active > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-custom .navbar-toggle .icon-bar { background: #121213; width: 40px; height: 2px; }
+.navbar-toggle .icon-bar + .icon-bar { margin-top: 8px; }
+
+
+/*--------------------------------------------------------------
+	Menubar - Media Queries
+--------------------------------------------------------------*/
+
+@media (min-width: 1100px){
+
+	.navbar-collapse.collapse {
+		display: block !important;
+	}
+	.navbar-nav {
+		margin: 0;
+	}
+	.navbar-custom .navbar-nav > li {
+		float: left;
+	}
+	.navbar-header {
+		float: left;
+	}
+	.navbar-toggle {
+		display: none;
+	}
+}
+
+
+
+@media (min-width: 768px){
+	.navbar-custom .navbar-brand {
+		padding: 20px 50px 20px 0;
+	}
+}
+@media (min-width: 1100px) {
+	.navbar-transparent { background: transparent; padding-bottom: 0px; padding-top: 0px; margin: 0; }
+	.navbar-custom .open > .dropdown-menu { visibility: visible; opacity: 1; }
+	.navbar-right .dropdown-menu { right: auto; left: 0; }
+}
+ 
+
+@media (min-width: 1101px) {
+	.navbar-custom .container-fluid {
+		width: 970px;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	.navbar-custom .dropdown-menu { 
+		border-top: 2px solid #ce1b28 !important;
+		border-bottom: 2px solid #ce1b28 !important;
+		position: absolute !important; 
+		display: block; 
+		visibility: hidden; 
+		opacity: 0; 
+	}
+	.navbar-custom .dropdown-menu > li > a { padding: 12px 15px !important; }
+	.navbar-custom .dropdown-menu > li > a:hover, 
+	.navbar-custom .dropdown-menu > li > a:focus {
+		padding: 12px 15px 12px 20px !important;
+	}	
+	.navbar-custom .open .dropdown-menu { background-color: #21202e !important; }
+	
+	.navbar-custom .dropdown-menu > li > a i {
+        float: right;
+    }
+
+}
+@media (min-width: 1200px) {
+	.navbar-custom .container-fluid {
+		width: 1170px;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+
+/** BELOW MAX-WIDTH MEDIA QUERIES **/
+
+@media (max-width: 1100px) {
+	/* Navbar */
+	.navbar-custom .navbar-nav { letter-spacing: 0px; margin-top: 1px; margin-bottom: 0; }
+	.navbar-custom .navbar-nav li { margin: 0 15px; padding: 0; }
+	.navbar-custom .navbar-nav li > a { color: #bbb; padding: 12px 0px 12px 0px; }
+	.navbar-custom .navbar-nav > li > a:focus,
+	.navbar-custom .navbar-nav > li > a:hover {
+		background: transparent;
+		color: #fff;
+	}
+	.navbar-custom .dropdown-menu > li > a {
+		display: block;
+		clear: both;
+		font-weight: normal;
+	}
+	.navbar-custom .dropdown-menu > li > a:hover, 
+	.navbar-custom .dropdown-menu > li > a:focus {
+		background-color: #21202F;
+		color: #fff;
+		padding: 12px 0px 12px 0px;
+	}
+	.navbar-custom .open .dropdown-menu {
+		position: static;
+		float: none;
+		width: auto;
+		margin-top: 0;
+		background-color: transparent;
+		border: 0;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+	.navbar-custom .open .dropdown-menu > li > a {
+		line-height: 20px;
+	}
+	.navbar-custom .open .dropdown-menu .dropdown-header,
+	.navbar-custom .open .dropdown-menu > li > a {
+		padding: 12px 0px;
+	}
+	.navbar-custom .open .dropdown-menu .dropdown-menu .dropdown-header,
+	.navbar-custom .open .dropdown-menu .dropdown-menu > li > a {
+		padding: 12px 0px;
+	}
+	.navbar-custom li a,
+	.navbar-custom .dropdown-search {
+		border-bottom: 1px dotted #4c4a5f !important;
+	}
+	.navbar-header { padding: 0px 15px; float: none; }
+	.navbar-custom .navbar-brand { padding: 20px 50px 20px 0px; }
+	.navbar-toggle { display: block; margin: 24px 15px 24px 0; padding: 9px 0px; }
+	.site-branding-text { padding: 17px 50px 17px 15px; }
+	.navbar-collapse { border-top: 1px solid transparent; box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+	.navbar-collapse.collapse { display: none!important; }
+	.navbar-custom .navbar-nav { background-color: #21202e; float: none!important; margin: 0px }
+	.navbar-custom .navbar-nav > li { float: none; }
+	.navbar-collapse.collapse.in { display: block!important; }
+	.collapsing { overflow: hidden!important; }
+	
+}
+@media (max-width: 1100px) { 
+	.navbar-custom .dropdown a > i.fa {
+		font-size: 0.938rem;
+		position: absolute;
+		right: 0;
+		margin-top: -6px;
+		top: 50%;
+		padding-left: 7px;
+	}	
+}
+@media (max-width: 768px) {
+	.navbar-header { padding: 0 15px; }
+	.navbar-custom .navbar-brand { padding: 20px 50px 20px 15px; }
+}
+@media (max-width: 500px) { 
+	.navbar-custom .navbar-brand { float: none; display: block; text-align: center; padding: 25px 15px 12px 15px; }
+	.navbar-custom .navbar-brand img { margin: 0 auto; }
+	.site-branding-text { padding: 17px 15px 17px 15px; float: none; text-align: center; }
+	.navbar-toggle { float: none; margin: 10px auto 25px; }	
+}
+
+
+
+/*===================================================================================*/
+/*	CART ICON 
+/*===================================================================================*/
+.cart-header {
+	width: 40px;
+	height: 40px;
+	line-height: 1.6;
+	text-align: center;
+	background: transparent;
+	position: relative;
+	float: right;
+	margin: 25px 7px 25px 20px;
+}
+.cart-header > a.cart-icon {
+    -wekbit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    display: inline-block;
+    font-size: 1.125rem;
+    color: #202020;
+    width: 100%;
+    height: 100%;
+	border: 1px solid #eaeaea;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	padding: 4px;
+}
+.cart-header > a .cart-total {
+    font-family: 'Open Sans', Sans-serif;
+    font-size: 0.688rem;
+	line-height: 1.7;
+    color: #ffffff;
+	font-weight: 600;
+    position: absolute;
+    right: -7px;
+    top: -7px;
+	padding: 1px;
+    width: 1.225rem;
+    height: 1.225rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+	-wekbit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+@media (min-width: 100px) and (max-width: 1100px) { 
+.cart-header { float: left; margin: 20px 7px 20px 15px !important; }
+.cart-header > a.cart-icon { color: #fff; }
+}
+
+
+/*--------------------------------------------------------------
+	Navbar Overlapped & Stiky Header Css
+--------------------------------------------------------------*/ 
+body.blog .header-overlapped { 
+	margin: 0px; 
+}
+body.page-template-template-business .header-overlapped, 
+body.page-template-template-overlaped .header-overlapped { 
+    background-color: transparent; 
+    margin: 0; 
+    position: relative; 
+    z-index: 99; 
+}
+.header-overlapped .page-title-section { background-color: transparent !important; }
+.navbar-overlapped {
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	z-index: 20;
+	background-color: rgba(0,0,0,0.2);
+}
+@media (min-width:500px) {
+    body.page-template-template-business .navbar-overlapped { 
+        position: absolute; 
+        right: 0; 
+        left: 0; 
+        top: 0; 
+        z-index: 20;
+    }
+}
+.navbar-overlapped { min-height: 90px; position: relative; }
+.header-overlapped .page-seperate {display: none;}
+.navbar-overlapped .navbar-brand { padding: 20px 0px; color: #ffffff; }
+.navbar-overlapped .navbar-brand:hover, 
+.navbar-overlapped .navbar-brand:focus { 
+	color: #ffffff; 
+}
+.navbar-overlapped .site-title a, 
+.navbar-overlapped .site-title a:hover, 
+.navbar-overlapped .site-title a:focus, 
+.navbar-overlapped .site-description {
+    color: #fff;
+}
+.navbar-overlapped .navbar-nav > li > a {
+	color: #fff;
+	border-bottom: 2px solid transparent;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.navbar-overlapped .navbar-nav > li > a:hover, 
+.navbar-overlapped .navbar-nav > li > a:focus {
+    background-color: transparent;
+    color: #fff;
+    border-bottom: 2px solid rgba(255,255,255,1);
+}
+.navbar-overlapped .navbar-nav > .open > a,
+.navbar-overlapped .navbar-nav > .open > a:hover,
+.navbar-overlapped .navbar-nav > .open > a:focus { 
+	background-color: transparent; 
+	color: #fff; 
+	border-bottom: 2px solid transparent; 
+} 
+.navbar-overlapped .navbar-nav > .active > a, 
+.navbar-overlapped .navbar-nav > .active > a:hover, 
+.navbar-overlapped .navbar-nav > .active > a:focus { 
+	background-color: transparent !important;
+    color: #fff;
+    border-bottom: 2px solid rgba(255,255,255,1);
+}
+.navbar-overlapped .cart-header { width: 25px; height: 25px; margin: 33px 7px 32px 20px; }
+.navbar-overlapped .cart-header > a.cart-icon { color: #fff; border: 1px solid #ffffff; }
+.navbar-overlapped .cart-header > a.cart-icon { width: auto; height: auto; border: 0 none; padding: 0; }
+.navbar-overlapped .cart-header > a .cart-total { right: -11px; top: -4px; }
+
+/*Header Stiky Menu*/
+.stiky-header{
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+	background: #21202e;
+	transition: all 0.3s ease;
+	min-height: 70px;
+	box-shadow: 0 2px 3px rgba(0,0,0,.1)
+}
+.navbar-overlapped.stiky-header .navbar-brand { padding: 10px 0px; }
+.navbar-overlapped.stiky-header .site-branding-text { padding: 3px 50px 3px 15px; }
+.navbar-overlapped.stiky-header .navbar-nav > li > a { padding: 24px 10px; }
+.navbar-overlapped.stiky-header .cart-header { margin: 23px 7px 22px 20px; }
+
+/*--------------------------------------------------------------
+	Menubar - Media Queries
+--------------------------------------------------------------*/
+
+@media (min-width: 768px){
+	.navbar-custom .navbar-brand {
+		padding: 20px 50px 20px 0;
+	}
+}
+/** BELOW MAX-WIDTH MEDIA QUERIES **/
+
+@media (max-width: 768px) {
+	.navbar-custom .navbar-brand { padding: 20px 50px 20px 15px; }
+}
+@media (max-width: 500px) { 
+	.navbar-custom .navbar-brand { float: none; display: block; text-align: center; padding: 20px 15px 25px 15px; }
+	.navbar-custom .navbar-brand img { margin: 0 auto; }
+	.site-branding-text { padding: 17px 15px 17px 15px; float: none; text-align: center; }
+	.navbar-toggle { float: none; margin: 10px auto 25px; }
+	/*Navbar Overlapped*/
+	.navbar-overlapped { position: relative; background-color: #21202e; border-bottom: 1px solid #4c4a5f; }
+	.navbar-overlapped .navbar-collapse.in { bottom: 0px; }
+	.navbar-overlapped .navbar-collapse { bottom: 0px; }	
+	.navbar-overlapped.stiky-header .navbar-toggle { float: none; margin: 10px auto 25px; }
+	.navbar-overlapped.stiky-header .site-branding-text { 
+		padding: 17px 15px 17px 15px; 
+		float: none; 
+		text-align: center; 
+	}
+	body.blog .navbar-overlapped { position: relative; }
+	
+}
+
+/*--------------------------------------------------------------
+	Navbar Classic Header Css
+--------------------------------------------------------------*/
+
+
+.navbar-classic { z-index: 20; background-color: #21202e; }
+.navbar-classic { min-height: 60px; }
+.navbar-classic .navbar-nav { float: none !important; }
+.desktop-header .navbar-classic .navbar-nav > li > a { color: #fff; padding: 20px 25px; }
+.navbar-classic .navbar-collapse { border-top: 1px solid #434158; }
+.navbar-classic .cart-header { width: 25px; height: 25px; margin: 18px 10px 17px 20px; }
+.navbar-classic .cart-header > a.cart-icon { color: #fff; border: 1px solid #ffffff; }
+.navbar-classic .cart-header > a.cart-icon { width: auto; height: auto; border: 0 none; padding: 0; }
+.navbar-classic .cart-header > a .cart-total { right: -11px; top: -4px; }
+.header-widget-info .navbar-brand { height: auto; padding: 15px 0px; }
+
+/*--------------------------------------------------------------
+	Menubar - Media Queries
+--------------------------------------------------------------*/
+
+@media (min-width: 768px){
+	.navbar-custom .navbar-brand {
+		padding: 20px 50px 20px 0;
+	}
+	/* Navbar Classic */
+	.navbar-classic .navbar-nav { float: none !important; }
+}
+
+
+/*-------------------------------------------------------------------------
+/* Navbar - Logo Right Align with Menu
+-------------------------------------------------------------------------*/
+
+@media (min-width: 1101px) {
+	.navbar-header.align-right {
+		float: right;
+	}
+	.navbar-header.align-right ~ .navbar-collapse { padding-left: 0; }
+}
+@media (max-width: 1100px) {  
+	.navbar-header.align-right .navbar-toggle { 
+		float: left;
+		margin-left: 15px;
+	}
+}
+.navbar-brand.align-right, .site-branding-text.align-right {
+	float: right;
+	margin-right: 0px;
+	margin-left: 50px;
+	padding-right: 0px;
+}
+@media (max-width: 768px) {
+	.navbar-brand.align-right, .site-branding-text.align-right {
+		padding-right: 15px;
+	}
+}
+@media (max-width: 500px) {
+	.navbar-brand.align-right{ 
+		float: none;
+		padding: 10px 15px 30px 15px;
+	}
+    .site-branding-text.align-right { 
+		float: none;
+		padding: 10px 15px 30px 15px;
+		margin-left: 0;
+	}		
+	.navbar-header.align-right .navbar-toggle { 
+		float: none;
+		margin: 30px auto 10px; 
+	}
+}
+.p-lef-right-0 { padding-left: 0; padding-right: 0; }
+
+
+/*-------------------------------------------------------------------------
+/* Navbar - Logo Center Align with Menu
+-------------------------------------------------------------------------*/
+
+.mobile-header-center { display: none; }
+@media (max-width: 1100px){
+	.desktop-header-center {
+		display: none !important;
+	}
+	.mobile-header-center {
+		display: block !important;
+	}
+}
+.navbar-center-fullwidth .container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+	width: auto;
+}
+@media (min-width: 1101px) {
+	.navbar-center-fullwidth .logo-area { 
+		margin: 0 auto;
+		padding: 40px 0;
+		text-align: center;
+	}
+	.navbar-brand.align-center, .site-branding-text.align-center{
+		float: none;
+		padding: 0px;
+		display: inline-block;
+	}	
+	.navbar-center-fullwidth .navbar-nav {
+		float: none;
+		margin: 0 auto;
+		display: table;
+	}
+}
+.navbar-center-fullwidth .navbar-collapse {
+    border-top: 1px solid #e9e9e9;
+	border-bottom: 1px solid #e9e9e9;
+}
+.navbar-center-fullwidth .navbar-nav > .active > a, 
+.navbar-center-fullwidth .navbar-nav > .active > a:hover, 
+.navbar-center-fullwidth .navbar-nav > .active > a:focus {
+    color: #ce1b28 !important;
+    background-color: transparent !important;
+}
+.navbar-center-fullwidth .navbar-nav li > a {
+    padding: 20px;
+}
+.navbar-center-fullwidth .dropdown-menu > li > a {
+    padding: 12px 15px;
+}
+.navbar-center-fullwidth .sp-search-area {
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+</style>
+<style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style><link rel="icon" href="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2018/07/logo_cgt_ratp-150x150.png" sizes="32x32" />
+<link rel="icon" href="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2018/07/logo_cgt_ratp.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2018/07/logo_cgt_ratp.png" />
+<meta name="msapplication-TileImage" content="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2018/07/logo_cgt_ratp.png" />
+</head>
+<body class="home wp-singular page-template page-template-template-business page-template-template-business-php page page-id-19 wp-custom-logo wp-theme-spicepress wide" >
+<div id="wrapper">
+	
+<div id="page" class="site">
+	<a class="skip-link spicepress-screen-reader" href="#content">Skip to content</a>
+<!--Logo & Menu Section-->	
+<nav class=" navbar navbar-custom left">
+	<div class="container-fluid p-l-r-0">
+		<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			<a href="http://www.maintenance.cgt-ratp.fr/" class="navbar-brand " rel="home" aria-current="page"><img width="210" height="109" src="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2018/07/cropped-Logo-site-GISO.png" class="custom-logo" alt="GISO RATP" decoding="async" /></a>			<div class="site-branding-text">
+				<h1 class="site-title"><a href="http://www.maintenance.cgt-ratp.fr/" rel="home">GISO RATP</a></h1>
+									<p class="site-description">Site de la maintenance RATP</p>
+							</div>
+			<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse">
+				<span class="sr-only">Afficher/masquer la navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+	
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div id="custom-collapse" class="collapse navbar-collapse">
+					<ul id="menu-menu-du-site-giso" class="nav navbar-nav navbar-right"><li id="menu-item-49" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-49 active"><a href="http://www.maintenance.cgt-ratp.fr">Accueil</a></li>
+<li id="menu-item-157" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-157"><a href="http://www.maintenance.cgt-ratp.fr/category/tract/">Tracts</a></li>
+<li id="menu-item-52" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52"><a href="http://www.maintenance.cgt-ratp.fr/actualites/">Actualités</a></li>
+<li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="http://www.maintenance.cgt-ratp.fr/qui-nous-sommes/">Qui sommes-nous</a></li>
+<li id="menu-item-50" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-50"><a href="http://www.maintenance.cgt-ratp.fr/contact/">Contact</a></li>
+</ul>				
+		</div><!-- /.navbar-collapse -->
+	</div><!-- /.container-fluid -->
+</nav>	
+<!--/Logo & Menu Section-->	
+
+
+
+<div class="clearfix"></div><div id="content">	<section class="slider" style="position:relative;">
+		<div class="item" style="background-image:url(http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2025/04/2025_3_24_Visuel-Prudhommes.png); width: 100%; height: 90vh; background-position: center center; background-size: cover; z-index: 0;" >
+					<div class="container">
+					<div class="format-standard">
+												<div class="slide-text-bg1">
+												<h1>STOP AUX EXPOSITIONS DANGEREUSES</h1>
+												<p>Gagnons de meilleures conditions de travail ! La RATP doit protéger ses agents et ses salariés des expositions aux produits dangereux.</p>
+												</div>
+												<div class="slide-btn-area-sm">						
+						<a  href="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2025/04/2025_04_07_Flash-pollu.pdf" 
+						 target="_blank"  class="slide-btn-sm">
+						Lire le tract</a>
+						</div>
+												
+					</div>	
+				</div>	
+			</div>
+	</section>
+			    <!-- Section Title -->
+<section class="service-section">
+	<div class="container">		
+				<div class="row">
+			<div class="col-md-12">
+				<div class="section-header">
+										<h1 class="widget-title">
+					MAINTENANCE RATP					</h1>
+										<div class="widget-separator"><span></span></div>
+										<div class="separator"><span></span></div>
+					<p class="wow fadeInDown animated">
+					Le GISO, syndicat de la maintenance RATP					</p>
+									</div>
+			</div>
+		</div>
+		<!-- /Section Title -->
+			
+		<div class="row" id="service_content_section">				<div class="col-md-4 col-sm-6 col-xs-12">
+			<div class="post text-center wow flipInX animated" data-wow-delay=".5s">
+			
+								
+																<figure class="post-thumbnail">	
+								
+																			<a href="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2024/06/Echo-130-juin-2024.pdf" target="_blank">
+																		<img class="services_cols_mn_icon"
+										 src="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2024/06/Capture-decran-2024-06-19-153042.png"  alt="L&#039;écho des travailleurs N°130" title="L&#039;écho des travailleurs N°130"  />
+																			</a>
+																									</figure>
+										
+								
+								
+										<a href="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2024/06/Echo-130-juin-2024.pdf" target="_blank" >
+														
+								<div class="entry-header">
+								<h4 class="entry-title">L&#039;écho des travailleurs N°130</h4>
+								</div>
+													</a>
+										
+																	</a>
+											
+							<div class="entry-content">
+							<p>Spécial retraite</p>
+							</div>
+			
+							
+									</div>
+			</div>
+								<div class="col-md-4 col-sm-6 col-xs-12">
+			<div class="post text-center wow flipInX animated" data-wow-delay=".5s">
+			
+								
+																<figure class="post-thumbnail">	
+								
+																			<a href="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2024/06/2024_05_27_Livret-de-la-maintenance.pdf" target="_blank">
+																		<img class="services_cols_mn_icon"
+										 src="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2024/06/2024_05_15_Couverture-211x300.jpg"  alt="Livret d&#039;accueil GISO" title="Livret d&#039;accueil GISO"  />
+																			</a>
+																									</figure>
+										
+								
+								
+										<a href="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2024/06/2024_05_27_Livret-de-la-maintenance.pdf" target="_blank" >
+														
+								<div class="entry-header">
+								<h4 class="entry-title">Livret d&#039;accueil GISO</h4>
+								</div>
+													</a>
+										
+																	</a>
+											
+							<div class="entry-content">
+							<p>Tout savoir - ou presque - sur notre entreprise et notre organisation syndicale</p>
+							</div>
+			
+							
+									</div>
+			</div>
+								<div class="col-md-4 col-sm-6 col-xs-12">
+			<div class="post text-center wow flipInX animated" data-wow-delay=".5s">
+			
+								
+																<figure class="post-thumbnail">	
+								
+																			<a href="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2025/04/2025_01_14_Grille-salaires.pdf" target="_blank">
+																		<img class="services_cols_mn_icon"
+										 src="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2025/04/Capture-decran-2025-04-17-105440.png"  alt="Grille des salaires" title="Grille des salaires"  />
+																			</a>
+																									</figure>
+										
+								
+								
+										<a href="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2025/04/2025_01_14_Grille-salaires.pdf" target="_blank" >
+														
+								<div class="entry-header">
+								<h4 class="entry-title">Grille des salaires</h4>
+								</div>
+													</a>
+										
+																	</a>
+											
+							<div class="entry-content">
+							<p>Mise à jour à l'issue des NAO 2025</p>
+							</div>
+			
+							
+									</div>
+			</div>
+				</div><!-- /.row --><div class="row"></div>		
+			</div>
+</section>
+		
+<!-- Portfolio Section -->
+<section class="portfolio-section">
+	<div class="container">
+	
+				<!-- Section Title -->
+		<div class="row">
+			<div class="col-md-12">
+				<div class="section-header">
+					<h1 class="widget-title wow fadeInUp animated animated" data-wow-duration="500ms" data-wow-delay="0ms">Les photos de la maintenance</h1>
+					<div class="widget-separator"><span></span></div>
+					<p class="wow fadeInDown animated">Face à la crise du COVID-19 toutes les précautions doivent être prises !</p>
+				</div>
+			</div>
+		</div>
+		<!-- /Section Title -->
+						
+		<!-- Item Scroll -->	
+			<div class="row">
+				<div id="portfolio-carousel">
+					<div class="col-md-4 col-sm-6 col-xs-12 port1">						
+						<article class="post">
+							<figure class="post-thumbnail">
+								<img class="img-responsive" alt="img" src="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2023/03/Pierre-LEVENARD-7-scaled.jpg">
+							</figure>
+							<header class="entry-header">
+								<h4 class="entry-title"><a href="#">M2E Défense</a></h4>
+							</header>	
+							<div class="entry-content">
+								<p>Intervention sur les escaliers mécaniques</p>
+							</div>	
+						</article>
+					</div>
+					
+					<div class="col-md-4 col-sm-6 col-xs-12 port2">						
+						<article class="post">
+							<figure class="post-thumbnail">
+								<img class="img-responsive" alt="img" src="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2021/10/IMG_20211019_075733-1-scaled.jpg">
+							</figure>
+							<header class="entry-header">
+								<h4 class="entry-title"><a href="#">Péages et monétiques</a></h4>
+							</header>	
+							<div class="entry-content">
+								<p>Nation</p>
+							</div>	
+						</article>
+					</div>
+					
+					<div class="col-md-4 col-sm-6 col-xs-12 port3">						
+						<article class="post">
+							<figure class="post-thumbnail">
+								<img class="img-responsive" alt="img" src="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2024/03/9M9A8492-scaled.jpg">
+							</figure>
+							<header class="entry-header">
+								<h4 class="entry-title"><a href="#">Agents INFRA</a></h4>
+							</header>
+							<div class="entry-content">
+								<p>Travailleur de nuit</p>
+							</div>	
+						</article>
+					</div>
+					
+					
+				</div>			
+			</div>
+		<!-- /Item Scroll -->
+		
+	</div>
+</section>
+<!-- /Portfolio Section -->
+
+<div class="clearfix"></div>	
+<section class="testimonial-section" style="background-image:url('http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2018/07/28828532_1739698789426113_6220854999276735946_o.jpg'); background-repeat: no-repeat; background-position: top left;">
+		<div class="overlay"style="background-color:rgba(0,0,0,0.6)">
+	<div class="container">
+				
+		
+				
+			<!-- Section Title -->
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-header">
+						<h1 class="white wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="500ms">
+						La voix des sections syndicales						</h1>
+						<div class="widget-separator"><span></span></div>
+						<p class="white wow fadeInDown animated">
+						La parole est à nos secrétaires de sections dans vos attachements au plus près de vous						</p>
+					</div>
+				</div>
+			</div>
+						<!-- /Section Title -->
+			<!-- Testimonial -->
+			<div class="row">
+				 <div class="item">
+						<div class="media testmonial-area">
+														<div class="author-box">
+								<img src="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2018/08/20160531_112917-e1533215982541.jpg" class="img-circle" alt="img">
+							</div>
+														<div class="media-body">
+								<div class="description-box">
+									<div class="author-description">
+									<p>Les agents ont la possibilité extraordinaire de changer l'orientation de l'entreprise si peux qu'ils s'unissent.									</p>
+									</div>									
+								</div>
+																<h4>Pascal KERLEU  - <span class="designation">M2E CHANZY</span>
+								</h4>
+															</div>
+							
+								
+						</div>	
+					</div>
+			</div>
+			<!-- /Testimonial -->	
+			
+		</div>	
+	</div>	
+</section>
+<!-- /Testimonial Section -->
+<div class="clearfix"></div>
+
+		<!-- Latest News section -->
+<section class="home-news" id="blog">
+	<div class="container">
+			    <!-- Section Title -->
+		<div class="row">
+			<div class="col-md-12">
+				<div class="section-header">
+										<h1 class="widget-title wow fadeInUp animated animated" data-wow-duration="500ms" data-wow-delay="0ms">
+					Actualité des ateliers					</h1>
+										<div class="widget-separator"><span></span></div>
+										<p class="wow fadeInDown animated">
+					Les collectifs de départements nous donnent des brèves					</p>
+									</div>
+			</div>
+		</div>
+		<!-- /Section Title -->
+			
+		<div class="row">
+					
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<article class="post wow fadeInDown animated" data-wow-delay="0.4s">
+				    	<div class="entry-meta">
+		<span class="entry-date">
+			<a href="http://www.maintenance.cgt-ratp.fr/2025/07/"><time datetime="">16 juillet 2025</time></a>
+		</span>
+	</div>
+					<header class="entry-header">
+						<h4 class="entry-title"><a href="http://www.maintenance.cgt-ratp.fr/2025/07/16/mitry-massy-la-vigilance-de-la-cgt-ratp-pour-un-peu-plus-dans-le-porte-monnaie/">MITRY &#8211; MASSY, La vigilance de la CGT-RATP pour un peu plus dans le porte-monnaie !</a></h4>
+				    <div class="entry-meta">
+	<span class="author">Par  <a rel="tag" href="http://www.maintenance.cgt-ratp.fr/author/legiso2yves/">Secrétariat</a>
+	
+	</span>
+		<span class="cat-links">dans&nbsp;<a href="http://www.maintenance.cgt-ratp.fr/category/non-classe/" rel="category tag">Non classé</a></span>
+	
+</div>	 
+					</header>		
+										<figure class="post-thumbnail">												<a  class="post-thumbnail" href="http://www.maintenance.cgt-ratp.fr/2025/07/16/mitry-massy-la-vigilance-de-la-cgt-ratp-pour-un-peu-plus-dans-le-porte-monnaie/"><img width="2000" height="2000" src="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2025/07/Vigilance1.png" class="img-responsive wp-post-image" alt="" decoding="async" loading="lazy" srcset="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2025/07/Vigilance1.png 2000w, http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2025/07/Vigilance1-300x300.png 300w, http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2025/07/Vigilance1-1024x1024.png 1024w, http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2025/07/Vigilance1-150x150.png 150w, http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2025/07/Vigilance1-768x768.png 768w, http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2025/07/Vigilance1-1536x1536.png 1536w" sizes="auto, (max-width: 2000px) 100vw, 2000px" /></a>
+											</figure>
+										<div class="entry-content">
+						
+<p>En 2021, la CGT-RATP n’avait pas signé le protocole concernant l’organisation de l’atelier de Mitry et l’évolution de celui de Massy. <a href="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2025/07/2025_06_25_Tract-protocole-Massy_.pdf">lire le tract</a></p>
+					</div>						
+				</article>
+			</div>
+						
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<article class="post wow fadeInDown animated" data-wow-delay="0.4s">
+				    	<div class="entry-meta">
+		<span class="entry-date">
+			<a href="http://www.maintenance.cgt-ratp.fr/2025/07/"><time datetime="">16 juillet 2025</time></a>
+		</span>
+	</div>
+					<header class="entry-header">
+						<h4 class="entry-title"><a href="http://www.maintenance.cgt-ratp.fr/2025/07/16/pleyel-aubervilliers-mis-en-demeure/">PLEYEL &amp; AUBERVILLIERS, mis en demeure</a></h4>
+				    <div class="entry-meta">
+	<span class="author">Par  <a rel="tag" href="http://www.maintenance.cgt-ratp.fr/author/legiso2yves/">Secrétariat</a>
+	
+	</span>
+		<span class="cat-links">dans&nbsp;<a href="http://www.maintenance.cgt-ratp.fr/category/non-classe/" rel="category tag">Non classé</a></span>
+	
+</div>	 
+					</header>		
+										<figure class="post-thumbnail">												<a  class="post-thumbnail" href="http://www.maintenance.cgt-ratp.fr/2025/07/16/pleyel-aubervilliers-mis-en-demeure/"><img width="2480" height="1748" src="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2025/07/2025_3_24_Visuel-Prudhommes.jpg" class="img-responsive wp-post-image" alt="" decoding="async" loading="lazy" srcset="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2025/07/2025_3_24_Visuel-Prudhommes.jpg 2480w, http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2025/07/2025_3_24_Visuel-Prudhommes-300x211.jpg 300w, http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2025/07/2025_3_24_Visuel-Prudhommes-1024x722.jpg 1024w, http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2025/07/2025_3_24_Visuel-Prudhommes-768x541.jpg 768w, http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2025/07/2025_3_24_Visuel-Prudhommes-1536x1083.jpg 1536w, http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2025/07/2025_3_24_Visuel-Prudhommes-2048x1444.jpg 2048w" sizes="auto, (max-width: 2480px) 100vw, 2480px" /></a>
+											</figure>
+										<div class="entry-content">
+						
+<p>Le 22 mai 2025, l’inspection du travail venait dans l’atelier de Pleyel contrôler les dispositions prises par la Direction pour protéger les agents des expositions des gaz d’échappement. Le constat est sans appel : La Direction met plus d’énergie à la privatisation qu’à la préservation de la santé des agents. À Aubervilliers, la situation n’est pas plus glorieuse ! <a href="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2025/07/2025_07_04_Tract-IT-Pleyel_aubervilliers_c.pdf">lire le tract</a></p>
+					</div>						
+				</article>
+			</div>
+						
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<article class="post wow fadeInDown animated" data-wow-delay="0.4s">
+				    	<div class="entry-meta">
+		<span class="entry-date">
+			<a href="http://www.maintenance.cgt-ratp.fr/2025/07/"><time datetime="">16 juillet 2025</time></a>
+		</span>
+	</div>
+					<header class="entry-header">
+						<h4 class="entry-title"><a href="http://www.maintenance.cgt-ratp.fr/2025/07/16/filialisation-piege-a/">Filialisation, piège à….</a></h4>
+				    <div class="entry-meta">
+	<span class="author">Par  <a rel="tag" href="http://www.maintenance.cgt-ratp.fr/author/legiso2yves/">Secrétariat</a>
+	
+	</span>
+		<span class="cat-links">dans&nbsp;<a href="http://www.maintenance.cgt-ratp.fr/category/mrb/" rel="category tag">MRB</a></span>
+	
+</div>	 
+					</header>		
+										<figure class="post-thumbnail">												<a  class="post-thumbnail" href="http://www.maintenance.cgt-ratp.fr/2025/07/16/filialisation-piege-a/"><img width="2048" height="1536" src="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2025/07/Rassemblement-IDFm.jpg" class="img-responsive wp-post-image" alt="" decoding="async" loading="lazy" srcset="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2025/07/Rassemblement-IDFm.jpg 2048w, http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2025/07/Rassemblement-IDFm-300x225.jpg 300w, http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2025/07/Rassemblement-IDFm-1024x768.jpg 1024w, http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2025/07/Rassemblement-IDFm-768x576.jpg 768w, http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2025/07/Rassemblement-IDFm-1536x1152.jpg 1536w" sizes="auto, (max-width: 2048px) 100vw, 2048px" /></a>
+											</figure>
+										<div class="entry-content">
+						
+<p>eudi 10 juillet le conseil d’administration d’IDFM se réunissait pour valider l’appel d’offre sur le 3ème et avant-dernier lot du dépeçage du réseau BUS. Dans la même journée, l’inspection du travail met en demeure l’atelier de Pavillons sous Bois.. <a href="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2025/07/2025_07_11_Tract-rassemblement-IDFM_.pdf">lire le tract</a></p>
+					</div>						
+				</article>
+			</div>
+					</div>
+	</div>	
+</section>
+<!-- /Latest News Section -->
+<div class="clearfix"></div>
+</div><!-- Footer Section -->
+<footer class="site-footer">
+	<div class="container">
+				
+		<div class="row footer-sidebar">
+						<div class="col-md-4">		
+				
+		<aside id="recent-posts-1" class="widget widget_recent_entries wow fadeInDown animated" data-wow-delay="0.4s">
+		<div class="section-header"><h3 class="widget-title">Articles récents</h3><span></span></div>
+		<ul>
+											<li>
+					<a href="http://www.maintenance.cgt-ratp.fr/2025/07/16/mitry-massy-la-vigilance-de-la-cgt-ratp-pour-un-peu-plus-dans-le-porte-monnaie/">MITRY &#8211; MASSY, La vigilance de la CGT-RATP pour un peu plus dans le porte-monnaie !</a>
+									</li>
+											<li>
+					<a href="http://www.maintenance.cgt-ratp.fr/2025/07/16/pleyel-aubervilliers-mis-en-demeure/">PLEYEL &amp; AUBERVILLIERS, mis en demeure</a>
+									</li>
+											<li>
+					<a href="http://www.maintenance.cgt-ratp.fr/2025/07/16/filialisation-piege-a/">Filialisation, piège à….</a>
+									</li>
+					</ul>
+
+		</aside>			
+			</div>
+						
+						
+						<div class="col-md-4">		
+				<aside id="media_image-4" class="widget widget_media_image wow fadeInDown animated" data-wow-delay="0.4s"><div class="section-header"><h3 class="widget-title">Où nous trouver</h3><span></span></div><a href="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2018/08/CARTE-REP.jpg"><img width="300" height="196" src="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2018/08/CARTE-REP-1-300x196.jpg" class="image wp-image-305  attachment-medium size-medium" alt="" style="max-width: 100%; height: auto;" decoding="async" loading="lazy" srcset="http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2018/08/CARTE-REP-1-300x196.jpg 300w, http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2018/08/CARTE-REP-1-768x501.jpg 768w, http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2018/08/CARTE-REP-1-1024x667.jpg 1024w, http://www.maintenance.cgt-ratp.fr/wp-content/uploads/2018/08/CARTE-REP-1.jpg 1766w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a></aside>			
+			</div>
+					</div>
+		
+		<div class="row">
+			<div class="col-md-12">
+							<div class="site-info wow fadeIn animated" data-wow-delay="0.4s">
+				<p>Proudly powered by <a href="https://wordpress.org">WordPress</a> | Theme: <a href="https://spicethemes.com" rel="nofollow">SpicePress</a> by SpiceThemes</p>				</div>
+							</div>
+		</div>
+			</div>
+</footer>
+<!-- /Footer Section -->
+<div class="clearfix"></div>
+</div>
+<!--Close of wrapper-->
+<!--Scroll To Top-->
+<a href="#" class="hc_scrollup"><i class="fa fa-chevron-up"></i></a>
+<!--/Scroll To Top-->
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/spicepress\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script type="text/javascript" charset="utf-8">//<![CDATA[
+          function addEventsCrossBrowsers(elemenet,event,func){
+            if(elemenet.addEventListener){
+              elemenet.addEventListener(event,func,false);
+            }else if(elemenet.attachEvent){
+              elemenet.attachEvent("on"+event,func);
+            }
+          }
+          function getMystatXPath(elm){ 
+            var allNodes = document.getElementsByTagName('*'); 
+            for(var segs = []; elm && elm.nodeType == 1; elm = elm.parentNode){ 
+              if(elm.hasAttribute('id')){ 
+                var uniqueIdCount = 0; 
+                for(var n=0;n < allNodes.length;n++){ 
+                  if(allNodes[n].hasAttribute('id') && allNodes[n].id == elm.id){
+                    uniqueIdCount++;
+                  }
+                  if(uniqueIdCount > 1){break;}
+                } 
+                if( uniqueIdCount == 1){ 
+                  segs.unshift('id("' + elm.getAttribute('id') + '")'); 
+                  return segs.join('/'); 
+                }else{ 
+                  segs.unshift(elm.localName.toLowerCase() + '[@id="' + elm.getAttribute('id') + '"]'); 
+                } 
+              }else if(elm.hasAttribute('class')){ 
+                segs.unshift(elm.localName.toLowerCase() + '[@class="' + elm.getAttribute('class') + '"]'); 
+              }else{ 
+                for(i = 1, sib = elm.previousSibling; sib; sib = sib.previousSibling){ 
+                  if(sib.localName == elm.localName){i++;}
+                } 
+                segs.unshift(elm.localName.toLowerCase() + '[' + i + ']'); 
+              }
+            } 
+            return segs.length ? '/' + segs.join('/') : null; 
+          } 
+          function getMystatPathTo(element){
+            if(element.id!==''){
+              return 'id("'+element.id+'")';
+            }
+            if(element===document.body){
+              return element.tagName;
+            }
+            var ix= 0;
+            var siblings= element.parentNode.childNodes;
+            for(var i= 0; i<siblings.length; i++){
+              var sibling= siblings[i];
+              if(sibling===element){
+                return getMystatPathTo(element.parentNode)+'/'+element.tagName+'['+(ix+1)+']';
+              }
+              if(sibling.nodeType===1 && sibling.tagName===element.tagName){
+                ix++;
+              }
+            }
+          }
+          var myStatClickTimer = 0;
+          function runStatisticMyStatClick(e){
+            var touch = 'ontouchstart' in document.documentElement;
+            var myStat = {
+              id: 156417,
+              uri: "/",
+              touch: touch,
+              width: screen.width,
+              x: e.pageX,
+              y: e.pageY,
+              target: getMystatXPath(e.target)
+            };
+            return myStat;
+          }
+          addEventsCrossBrowsers(document.body,'click',function(e){
+            var clickTime = new Date();
+            if(clickTime.getTime() - myStatClickTimer < 1000){
+              return;
+            }
+            myStatClickTimer = clickTime.getTime();
+            var data = runStatisticMyStatClick(e);
+            if(data.x == 0 && data.y == 0){
+              return;
+            }
+            if(typeof runStatisticMyStatClickSend == 'function'){
+              runStatisticMyStatClickSend(data);
+            }
+          });
+//]]></script>    <script type="text/javascript" charset="utf-8">//<![CDATA[
+      var Base64={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",encode:function(e){var t="";var n,r,i,s,o,u,a;var f=0;e=Base64._utf8_encode(e);while(f<e.length){n=e.charCodeAt(f++);r=e.charCodeAt(f++);i=e.charCodeAt(f++);s=n>>2;o=(n&3)<<4|r>>4;u=(r&15)<<2|i>>6;a=i&63;if(isNaN(r)){u=a=64}else if(isNaN(i)){a=64}t=t+this._keyStr.charAt(s)+this._keyStr.charAt(o)+this._keyStr.charAt(u)+this._keyStr.charAt(a)}return t},decode:function(e){var t="";var n,r,i;var s,o,u,a;var f=0;e=e.replace(/[^A-Za-z0-9\+\/\=]/g,"");while(f<e.length){s=this._keyStr.indexOf(e.charAt(f++));o=this._keyStr.indexOf(e.charAt(f++));u=this._keyStr.indexOf(e.charAt(f++));a=this._keyStr.indexOf(e.charAt(f++));n=s<<2|o>>4;r=(o&15)<<4|u>>2;i=(u&3)<<6|a;t=t+String.fromCharCode(n);if(u!=64){t=t+String.fromCharCode(r)}if(a!=64){t=t+String.fromCharCode(i)}}t=Base64._utf8_decode(t);return t},_utf8_encode:function(e){e=e.replace(/\r\n/g,"\n");var t="";for(var n=0;n<e.length;n++){var r=e.charCodeAt(n);if(r<128){t+=String.fromCharCode(r)}else if(r>127&&r<2048){t+=String.fromCharCode(r>>6|192);t+=String.fromCharCode(r&63|128)}else{t+=String.fromCharCode(r>>12|224);t+=String.fromCharCode(r>>6&63|128);t+=String.fromCharCode(r&63|128)}}return t},_utf8_decode:function(e){var t="";var n=0;var r=c1=c2=0;while(n<e.length){r=e.charCodeAt(n);if(r<128){t+=String.fromCharCode(r);n++}else if(r>191&&r<224){c2=e.charCodeAt(n+1);t+=String.fromCharCode((r&31)<<6|c2&63);n+=2}else{c2=e.charCodeAt(n+1);c3=e.charCodeAt(n+2);t+=String.fromCharCode((r&15)<<12|(c2&63)<<6|c3&63);n+=3}}return t}}
+      var ajax = {};ajax.x = function() {if (typeof XMLHttpRequest !== 'undefined') {return new XMLHttpRequest();  }var versions = ["MSXML2.XmlHttp.5.0",   "MSXML2.XmlHttp.4.0",  "MSXML2.XmlHttp.3.0",   "MSXML2.XmlHttp.2.0",  "Microsoft.XmlHttp"];var xhr;for(var i = 0; i < versions.length; i++) {  try {  xhr = new ActiveXObject(versions[i]);  break;  } catch (e) {}}return xhr;};ajax.send = function(url, callback, method, data, sync) {var x = ajax.x();x.open(method, url, sync);x.onreadystatechange = function() {if (x.readyState == 4) {callback(x.responseText)}};if (method == 'POST') {x.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');}x.send(data)};ajax.get = function(url, data, callback, sync) {var query = [];for (var key in data) {query.push(encodeURIComponent(key) + '=' + encodeURIComponent(data[key]));}ajax.send(url + '?' + query.join('&'), callback, 'GET', null, sync)};ajax.post = function(url, data, callback, sync) {var query = [];for (var key in data) {query.push(encodeURIComponent(key) + '=' + encodeURIComponent(data[key]));}ajax.send(url, callback, 'POST', query.join('&'), sync)};
+      function lookupElementByXPath(path) { 
+        var evaluator = new XPathEvaluator(); 
+        var result = evaluator.evaluate(path, document.documentElement, null,XPathResult.FIRST_ORDERED_NODE_TYPE, null); 
+        return  result.singleNodeValue; 
+      } 
+      function runStatisticMyStatClickSend(data){
+        ajax.post('http://www.maintenance.cgt-ratp.fr/wp-admin/admin-ajax.php',{action: 'mystat',report: 'insertclick',data: Base64.encode(JSON.stringify(data)),coding: 'base64'},function(){},true);
+      }  
+    //]]></script><div><script type="text/javascript" charset="utf-8">//<![CDATA[
+        function runStatisticMyStat(){
+          var FlashDetect=new function(){var self=this;self.installed=false;self.raw="";self.major=-1;self.minor=-1;self.revision=-1;self.revisionStr="";var activeXDetectRules=[{"name":"ShockwaveFlash.ShockwaveFlash.7","version":function(obj){return getActiveXVersion(obj);}},{"name":"ShockwaveFlash.ShockwaveFlash.6","version":function(obj){var version="6,0,21";try{obj.AllowScriptAccess="always";version=getActiveXVersion(obj);}catch(err){}return version;}},{"name":"ShockwaveFlash.ShockwaveFlash","version":function(obj){return getActiveXVersion(obj);}}];var getActiveXVersion=function(activeXObj){var version=-1;try{version=activeXObj.GetVariable("$version");}catch(err){}return version;};var getActiveXObject=function(name){var obj=-1;try{obj=new ActiveXObject(name);}catch(err){obj={activeXError:true};}return obj;};var parseActiveXVersion=function(str){var versionArray=str.split(",");return{"raw":str,"major":parseInt(versionArray[0].split(" ")[1],10),"minor":parseInt(versionArray[1],10),"revision":parseInt(versionArray[2],10),"revisionStr":versionArray[2]};};var parseStandardVersion=function(str){var descParts=str.split(/ +/);var majorMinor=descParts[2].split(/\./);var revisionStr=descParts[3];return{"raw":str,"major":parseInt(majorMinor[0],10),"minor":parseInt(majorMinor[1],10),"revisionStr":revisionStr,"revision":parseRevisionStrToInt(revisionStr)};};var parseRevisionStrToInt=function(str){return parseInt(str.replace(/[a-zA-Z]/g,""),10)||self.revision;};self.majorAtLeast=function(version){return self.major>=version;};self.minorAtLeast=function(version){return self.minor>=version;};self.revisionAtLeast=function(version){return self.revision>=version;};self.versionAtLeast=function(major){var properties=[self.major,self.minor,self.revision];var len=Math.min(properties.length,arguments.length);for(i=0;i<len;i++){if(properties[i]>=arguments[i]){if(i+1<len&&properties[i]==arguments[i]){continue;}else{return true;}}else{return false;}}};self.FlashDetect=function(){if(navigator.plugins&&navigator.plugins.length>0){var type='application/x-shockwave-flash';var mimeTypes=navigator.mimeTypes;if(mimeTypes&&mimeTypes[type]&&mimeTypes[type].enabledPlugin&&mimeTypes[type].enabledPlugin.description){var version=mimeTypes[type].enabledPlugin.description;var versionObj=parseStandardVersion(version);self.raw=versionObj.raw;self.major=versionObj.major;self.minor=versionObj.minor;self.revisionStr=versionObj.revisionStr;self.revision=versionObj.revision;self.installed=true;}}else if(navigator.appVersion.indexOf("Mac")==-1&&window.execScript){var version=-1;for(var i=0;i<activeXDetectRules.length&&version==-1;i++){var obj=getActiveXObject(activeXDetectRules[i].name);if(!obj.activeXError){self.installed=true;version=activeXDetectRules[i].version(obj);if(version!=-1){var versionObj=parseActiveXVersion(version);self.raw=versionObj.raw;self.major=versionObj.major;self.minor=versionObj.minor;self.revision=versionObj.revision;self.revisionStr=versionObj.revisionStr;}}}}}();};
+          var myStat = {
+            id: 156417,
+            mystat: '3.11',
+            do: 'update',
+            geolocation: !!navigator.geolocation,
+            offline: !!window.applicationCache,
+            webworker: !!window.Worker,
+            localStorage: ('localStorage' in window) && window['localStorage'] !== null,
+            canvas: {
+              enable: !!document.createElement('canvas').getContext,
+              text2d: !!document.createElement('canvas').getContext?(typeof document.createElement('canvas').getContext('2d').fillText == 'function'):false
+            },
+            video: {
+              enable: !!document.createElement('video').canPlayType,
+              captions: 'track' in document.createElement('track'),
+              poster: 'poster' in document.createElement('video'),
+              mp4: !!(document.createElement('video').canPlayType && document.createElement('video').canPlayType('video/mp4; codecs="avc1.42E01E, mp4a.40.2"').replace(/no/, '')),
+              webm: !!(document.createElement('video').canPlayType && document.createElement('video').canPlayType('video/webm; codecs="vp8, vorbis"').replace(/no/, '')),
+              theora: !!(document.createElement('video').canPlayType && document.createElement('video').canPlayType('video/ogg; codecs="theora, vorbis"').replace(/no/, ''))
+            },
+            microdata: !!document.getItems,
+            history: !!(window.history && window.history.pushState && window.history.popState),
+            undo: typeof UndoManager !== 'undefined',
+            audio: {
+              enable: !!document.createElement('audio').canPlayType,
+              mp3: !!(document.createElement('audio').canPlayType && document.createElement('audio').canPlayType('audio/mpeg;').replace(/no/, '')),
+              vorbis: !!(document.createElement('audio').canPlayType && document.createElement('audio').canPlayType('audio/ogg; codecs="vorbis"').replace(/no/, '')),
+              wav: !!(document.createElement('audio').canPlayType && document.createElement('audio').canPlayType('audio/wav; codecs="1"').replace(/no/, '')),
+              aac: !!(document.createElement('audio').canPlayType && document.createElement('audio').canPlayType('audio/mp4; codecs="mp4a.40.2"').replace(/no/, ''))
+            },
+            command: 'type' in document.createElement('command'),
+            datalist: 'options' in document.createElement('datalist'),
+            details: 'open' in document.createElement('details'),
+            device: 'type' in document.createElement('device'),
+            validation: 'noValidate' in document.createElement('form'),
+            iframe: {
+              sandbox: 'sandbox' in document.createElement('iframe'),
+              srcdoc: 'srcdoc' in document.createElement('iframe')
+            },
+            input: {
+              autofocus: 'autofocus' in document.createElement('input'),
+              placeholder: 'placeholder' in document.createElement('input'),
+              type: {}
+            },
+            meter: 'value' in document.createElement('meter'),
+            output: 'value' in document.createElement('output'),
+            progress: 'value' in document.createElement('progress'),
+            time: 'valueAsDate' in document.createElement('time'),
+            editable: 'isContentEditable' in document.createElement('span'),
+            dragdrop: 'draggable' in document.createElement('span'),
+            documentmessage: !!window.postMessage,
+            fileapi: typeof FileReader != 'undefined',
+            serverevent: typeof EventSource !== 'undefined',
+            sessionstorage: false,
+            svg: !!(document.createElementNS && document.createElementNS('http://www.w3.org/2000/svg', 'svg').createSVGRect),
+            simpledb: !!window.indexedDB,
+            websocket: !!window.WebSocket,
+            websql: !!window.openDatabase,
+            cookies: navigator.cookieEnabled?true:false,
+            flash: {
+              enable: FlashDetect.installed?true:false,
+              version: FlashDetect.major+'.'+FlashDetect.minor
+            },
+            java: !!navigator.javaEnabled(),
+            title: document.title,
+            appname: navigator.appName,
+            screen: {
+              width: screen.width,
+              height: screen.height,
+              depth: (navigator.appName.substring(0,2)=='Mi')?screen.colorDepth:screen.pixelDepth
+            },
+            viewport: {
+              width: window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth,
+              height: window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight
+            }
+          };
+          var inputlist = new Array('color','email','number','range','search','tel','url','date','time','datetime','datetime-local','month','week');
+          var i = document.createElement('input');
+          for(var key=0;key<inputlist.length;key++){
+            var el = inputlist[key];
+            i.setAttribute('type', el);
+            myStat.input.type[el] = i.type !== 'text';
+          }
+          try{myStat.sessionstorage = (('sessionStorage' in window) && window['sessionStorage'] !== null);}catch(e){}
+          if(!document.cookie){
+            document.cookie = "testCookie=1; path=/";
+            myStat.cookies = document.cookie?1:0;
+          }
+          if(navigator.plugins && navigator.plugins.length){
+            for(var ii=0;ii<navigator.plugins.length;ii++){
+              if(navigator.plugins[ii].name.indexOf('Shockwave Flash')!=-1){
+                myStat.flash=parseFloat(navigator.plugins[ii].description.split('Shockwave Flash ')[1],10)>0;
+                break;
+              }
+            }
+          }else if(window.ActiveXObject){
+            for(var ii=10;ii>=2;ii--){
+              try{
+                var f=eval("new ActiveXObject('ShockwaveFlash.ShockwaveFlash."+ii+"');");
+                if(f){myStat.flash=parseFloat(ii+'.0')>0;break;}
+              }catch(ee){}
+            }
+            if((myStat.flash=='')&&(navigator.appVersion.indexOf("MSIE 5")>-1||navigator.appVersion.indexOf("MSIE 6")>-1)){
+              FV=clientInformation.appMinorVersion;
+              if(FV.indexOf('SP2') != -1)myStat.flash = true;
+            }
+          }
+          return myStat;
+        }
+//]]></script>    <noscript>
+      <img src="http://www.maintenance.cgt-ratp.fr/wp-admin/admin-ajax.php?action=mystat&report=image&id=156417" width="1px" height="1px" style="position:absolute;width:1px;height:1px;bottom:0px;right:0px;" />
+    </noscript>
+    <script type="text/javascript" charset="utf-8">//<![CDATA[
+      var addListener = document.addEventListener || document.attachEvent,
+        removeListener =  document.removeEventListener || document.detachEvent
+        eventName = document.addEventListener ? "DOMContentLoaded" : "onreadystatechange"
+
+      addListener.call(document, eventName, function(){
+        var img = new Image();
+        img.src = 'http://www.maintenance.cgt-ratp.fr/wp-admin/admin-ajax.php?action=mystat&report=image&id=156417';
+        img.width = '1px';
+        img.height = '1px';
+        img.style.position = 'absolute';
+        img.style.width = '1px';
+        img.style.height = '1px';
+        img.style.bottom = '0';
+        img.style.right = '0';
+        document.body.appendChild(img);
+        var stat = runStatisticMyStat();
+        ajax.post('http://www.maintenance.cgt-ratp.fr/wp-admin/admin-ajax.php',{action: 'mystat',report: 'insert',data: Base64.encode(JSON.stringify(stat)),coding: 'base64'},function(){},true);
+        removeListener( eventName, arguments.callee, false )
+      }, false )
+    //]]></script></div>

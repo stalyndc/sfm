@@ -1,0 +1,2 @@
+# Block direct web access to anything in /secure
+Require all denied

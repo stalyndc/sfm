@@ -1,0 +1,2556 @@
+
+<!DOCTYPE html>
+<html lang="fr-fr" dir="ltr"
+	  class='com_content view-featured itemid-56 home j38 mm-hover '>
+<head>
+<!-- <script type="text/javascript" src="https://cache.consentframework.com/js/pa/27045/c/UguLs/stub"></script>-->
+<!-- <script type="text/javascript" src="https://choices.consentframework.com/js/pa/27045/c/UguLs/cmp" async></script>-->
+<link href="/templates/first-min.css" rel="stylesheet" type="text/css" />
+<link href="/includes/css/lite-yt-embed.css" rel="stylesheet" type="text/css">
+<meta name="robots" content="all, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+	<base href="https://www.histoire-pour-tous.fr/" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="histoire, france, monde, guerre, magazine" />
+	<meta name="rights" content="Copyright © SF WebMedia. Tous droits réservés. ISSN 2270-9983." />
+	<meta property="og:title" content="Recherche et à découvrir (accueil)" />
+	<meta property="og:description" content="Histoire de France et de l'humanité des origines à nos jours: articles thématiques, guerres, livres, jeux, films, actualité, télé: l'Histoire pour Tous !" />
+	<meta name="description" content="Histoire de France et de l'humanité des origines à nos jours: articles thématiques, guerres, livres, jeux, films, actualité, télé: l'Histoire pour Tous !" />
+	<meta name="generator" content="HPTCMS" />
+	<title>Histoire pour Tous | de France et du Monde</title>
+	<link href="/templates/purity_iii/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="https://www.histoire-pour-tous.fr/component/search/?Itemid=56&amp;format=opensearch" rel="search" title="Rechercher sur Histoire pour Tous" type="application/opensearchdescription+xml" />
+	<link href="/t3-assets/css/css-f69b5-80843.css" rel="stylesheet" type="text/css" media="all" attribs="[]" />
+	<link href="/t3-assets/css/css-b2531-90495.css" rel="stylesheet" type="text/css" media="all" attribs="[]" />
+	<script src="/media/jui/js/jquery.min.js?650f86e2da4829a2ae033dd713979a3a" type="text/javascript" ></script>
+	<script src="/t3-assets/js/js-ce32c-51863.js" type="text/javascript" defer></script>
+	<script type="text/javascript">
+jQuery(window).on('load',  function() {
+				
+			});function do_nothing() { return; }
+	</script>
+
+	
+<!-- META FOR IOS & HANDHELD -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<style type="text/stylesheet">
+		@-webkit-viewport   { width: device-width; }
+		@-moz-viewport      { width: device-width; }
+		@-ms-viewport       { width: device-width; }
+		@-o-viewport        { width: device-width; }
+		@viewport           { width: device-width; }
+	</style>
+	<script type="text/javascript">
+		//<![CDATA[
+		if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+			var msViewportStyle = document.createElement("style");
+			msViewportStyle.appendChild(
+				document.createTextNode("@-ms-viewport{width:auto!important}")
+			);
+			document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+		}
+		//]]>
+	</script>
+<meta name="HandheldFriendly" content="true"/>
+<meta name="apple-mobile-web-app-capable" content="YES"/>
+<!-- //META FOR IOS & HANDHELD -->
+
+
+
+
+<!-- Le HTML5 shim and media query for IE8 support -->
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<script type="text/javascript" src="/plugins/system/t3/base-bs3/js/respond.min.js"></script>
+<![endif]-->
+
+<!-- You can add Google Analytics here or use T3 Injection feature -->
+
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="/templates/purity_iii/css/ie8.css" type="text/css" />
+<![endif]-->
+<!-- Google tag (gtag.js) -->
+<script async  src="https://www.googletagmanager.com/gtag/js?id=G-TE8P7WYQN6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-TE8P7WYQN6');
+</script>
+<script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({article:'auto'});
+  !function (e, f, u, i) {
+    if (!document.getElementById(i)){
+      e.async = 1;
+      e.src = u;
+      e.id = i;
+      f.parentNode.insertBefore(e, f);
+    }
+  }(document.createElement('script'),
+  document.getElementsByTagName('script')[0],
+  '//cdn.taboola.com/libtrc/histoirepourtous/loader.js',
+  'tb_loader_script');
+  if(window.performance && typeof window.performance.mark == 'function')
+    {window.performance.mark('tbl_ic');}
+</script>
+</head>
+<body>
+<!-- <script src="/templates/consent-min.js" type="text/javascript" ></script>-->
+
+<div class="t3-wrapper corporate"> <!-- Need this wrapper for off-canvas menu. Remove if you don't use of-canvas -->
+
+	
+<!-- MAIN NAVIGATION -->
+<header id="t3-mainnav" class="wrap navbar navbar-default navbar-fixed-top t3-mainnav">
+
+	<!-- OFF-CANVAS -->
+		<!-- //OFF-CANVAS -->
+
+		<div class="container" style="padding-left:0px;padding-right:0px">
+
+		<!-- NAVBAR HEADER -->
+		<div class="navbar-header">
+
+			<!-- LOGO -->
+			<div class="logo logo-image">
+				<div class="logo-image">
+					<a href="/" title="Histoire">
+													<img class="logo-img" src="/images/articles/hptv3-logo-medium.png" alt="Histoire" width="179" height="55"/>
+						
+												
+						<span>Histoire</span>
+					</a>
+				</div>
+			</div>
+			<!-- //LOGO -->
+
+											<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".t3-navbar-collapse">
+					<i class="fa fa-bars"></i>
+				</button>
+			
+	    	    <!-- HEAD SEARCH -->
+	    <div class="head-search">     
+	      <form class="form-search" action="/recherche-avancee.html" method="get">
+	<div class="search">
+		<label for="mod-search-searchword">Rechercher</label><i class="fa fa-search"></i><input name="q" maxlength="200"  class="form-control " type="text" size="20" />
+	</div>
+</form>
+
+	    </div>
+	    <!-- //HEAD SEARCH -->
+	    
+		</div>
+		<!-- //NAVBAR HEADER -->
+
+		<!-- NAVBAR MAIN -->
+				<nav class="t3-navbar-collapse navbar-collapse collapse"></nav>
+		
+		<nav class="t3-navbar navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+			<li class="item-207 deeper dropdown parent">				<a class="dropdown-toggle" href="/histoire-de-france.html"  data-toggle="dropdown">Histoire de France<em class="caret"></em></a>
+				<ul class="dropdown-menu" role="menu"><li class="item-471">				<a href="/histoire-de-france/203-de-la-prehistoire-a-la-gaule-romaine.html" >De la préhistoire à la Gaule Romaine</a>
+				</li><li class="item-472">				<a href="/histoire-de-france/204-la-periode-gallo-romaine.html" >La Période Gallo-Romaine</a>
+				</li><li class="item-473">				<a href="/histoire-de-france/205-les-royaumes-francs.html" >Les Royaumes Francs</a>
+				</li><li class="item-474">				<a href="/histoire-de-france/206-des-carolingiens-aux-capetiens.html" >Des Carolingiens aux Capétiens</a>
+				</li><li class="item-475">				<a href="/histoire-de-france/207-la-guerre-de-cent-ans.html" >La Guerre de Cent Ans</a>
+				</li><li class="item-476">				<a href="/histoire-de-france/208-la-france-de-la-renaissance.html" >La France de la Renaissance</a>
+				</li><li class="item-477">				<a href="/histoire-de-france/209-dhenri-iv-au-grand-siecle.html" >D'Henri IV au Grand Siècle</a>
+				</li><li class="item-478">				<a href="/histoire-de-france/210-la-france-des-lumieres.html" >La France des Lumières</a>
+				</li><li class="item-479">				<a href="/histoire-de-france/211-revolution-et-empire.html" >Révolution et Empire</a>
+				</li><li class="item-483">				<a href="/histoire-de-france/219-le-xixeme-siecle.html" >Le XIXème siècle</a>
+				</li><li class="item-480">				<a href="/histoire-de-france/212-dune-guerre-mondiale-a-lautre.html" >D'une guerre mondiale à l'autre</a>
+				</li><li class="item-481">				<a href="/histoire-de-france/213-la-france-depuis-1945.html" >La France depuis 1945</a>
+				</li><li class="item-482">				<a href="/histoire-de-france/214-souverains-et-chefs-detat.html" >Souverains et Chefs d'Etat</a>
+				</li><li class="item-484">				<a href="/histoire-de-france/223-femmes-celebres-de-histoire-de-france.html" >Femmes célèbres de l'histoire de France</a>
+				</li><li class="item-485">				<a href="/histoire-de-france/236-histoire-generale.html" >Histoire générale</a>
+				</li></ul></li><li class="item-61 deeper dropdown parent">				<a class="dropdown-toggle" href="/dossiers.html"  data-toggle="dropdown">Histoire Universelle<em class="caret"></em></a>
+				<ul class="dropdown-menu" role="menu"><li class="item-210">				<a href="/dossiers/84-prehistoire.html" >Préhistoire</a>
+				</li><li class="item-211">				<a href="/dossiers/85-antiquite.html" >Antiquité</a>
+				</li><li class="item-212">				<a href="/dossiers/91-mythologies.html" >Mythologies et Religions</a>
+				</li><li class="item-419">				<a href="/dossiers/95-moyen-age.html" >Moyen-âge</a>
+				</li><li class="item-213">				<a href="/dossiers/96-renaissance.html" >Renaissance</a>
+				</li><li class="item-214">				<a href="/dossiers/97-le-siecle-des-lumieres.html" >Les Lumières</a>
+				</li><li class="item-106">				<a href="/dossiers/98-xixe-siecle.html" >XIXe siècle</a>
+				</li><li class="item-215">				<a href="/dossiers/99-xxe-siecle.html" >XXe siècle</a>
+				</li><li class="item-104">				<a href="/dossiers/86-premiere-guerre-mondiale.html" >Première Guerre Mondiale</a>
+				</li><li class="item-384">				<a href="/dossiers/87-seconde-guerre-mondiale.html" >Seconde Guerre Mondiale</a>
+				</li><li class="item-105">				<a href="/dossiers/93-histoire-recente.html" >Histoire récente et contemporaine</a>
+				</li><li class="item-236">				<a href="/dossiers/92-histoire-de-la-conquete-spatiale.html" >Histoire de la conquête spatiale</a>
+				</li><li class="item-216">				<a href="/dossiers/90-histoire-de-la-construction-europeenne.html" >Histoire de la construction européenne</a>
+				</li><li class="item-217">				<a href="/dossiers/89-histoire-des-sciences-et-des-techniques.html" >Histoire des sciences techniques</a>
+				</li><li class="item-259">				<a href="/dossiers/241-la-guerre-de-secession.html" >La guerre de sécession</a>
+				</li><li class="item-235">				<a href="/dossiers/232-histoire-generale.html" >Histoire générale</a>
+				</li></ul></li><li class="item-194 deeper dropdown parent">				<a class="dropdown-toggle" href="#"  data-toggle="dropdown">Encyclopédie<em class="caret"></em></a>
+				<ul class="dropdown-menu" role="menu"><li class="item-180">				<a href="/anecdotes.html" >Anecdotes Historiques</a>
+				</li><li class="item-181">				<a href="/biographies.html" >Biographies</a>
+				</li><li class="item-240">				<a href="/chronologies.html" >Chronologies</a>
+				</li><li class="item-201">				<a href="/civilisations.html" >Civilisations et Empires</a>
+				</li><li class="item-425">				<a href="/education.html" >Education</a>
+				</li><li class="item-178">				<a href="/ephemeride.html" >Ephéméride du jour</a>
+				</li><li class="item-221">				<a href="/expressions-populaires.html" >Expressions populaires françaises</a>
+				</li><li class="item-193">				<a href="/inventions.html" >Inventions et découvertes</a>
+				</li><li class="item-268">				<a href="/prenoms.html" >Histoire des prénoms</a>
+				</li><li class="item-176">				<a href="/arts.html" >Histoire de l'Art</a>
+				</li><li class="item-224">				<a href="/histoire-par-pays.html" >Histoire par Pays</a>
+				</li><li class="item-185">				<a href="/batailles.html" >Les grandes batailles</a>
+				</li><li class="item-198">				<a href="/guerres.html" >Les guerres</a>
+				</li><li class="item-452">				<a href="/tourisme.html" >Patrimoine</a>
+				</li></ul></li>		</ul>
+	
+		</nav>
+    <!-- //NAVBAR MAIN -->
+
+	</div>
+</header>
+<!-- //MAIN NAVIGATION -->
+
+
+
+
+
+
+  
+
+
+  
+	<!-- SPOTLIGHT 1 -->
+	<div class="wrap t3-sl t3-sl-1">
+    <div class="container">
+  			<!-- SPOTLIGHT -->
+	<div class="t3-spotlight t3-spotlight-1  row">
+					<div class=" col-lg-6 col-md-6 col-sm-12 col-xs-12">
+								<div class="t3-module module " id="Mod100"><div class="module-inner"><div class="module-ct">
+
+<div class="custom"  >
+	<div style="font-weight: bold; font-size: 35px; color: #800000; font-family: book antiqua, Helvetica Neue, Helvetica, Arial, sans-serif;" align="left">
+<h1 style="display: inline; font-weight: bold; font-size: 35px; color: #800000; font-family: book antiqua, Helvetica Neue, Helvetica, Arial, sans-serif;">L'histoire de France et du Monde</h1>
+</div></div>
+</div></div></div>
+							</div>
+					<div class=" col-lg-6 col-md-6  col-sm-6 hidden-sm   col-xs-6 hidden-xs ">
+								<div class="t3-module module " id="Mod75"><div class="module-inner"><div class="module-ct">
+
+<div class="custom"  >
+	<div style="text-align: right; padding-bottom: 8px; padding-top: 6px;">HpT sur&nbsp;<a href="http://twitter.com/HistoirepTous" title="L'Histoire de France et du Monde sur Twitter !"> <img src="https://www.histoire-pour-tous.fr/images/hpt-twitter.png" alt="" align="absmiddle" border="0" /></a> | <a href="http://www.facebook.com/histoirepourtous" title="Toute l'Histoire de France et du Monde sur FaceBook !"><img src="/images/articles/facebook-histoire-pour-tous.gif" alt="" align="absmiddle" /></a></div></div>
+</div></div></div>
+							</div>
+			</div>
+<!-- SPOTLIGHT -->
+    </div>
+	</div>
+	<!-- //SPOTLIGHT 1 -->
+
+	
+
+<div id="t3-mainbody" class="container t3-mainbody">
+<div id="pub-no-h2"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4694215992374142"
+     crossorigin="anonymous"></script>
+<!-- HpT v3 - Intérieur articles (si pas de h2) -->
+<ins class="adsbygoogle"
+     style="display:block; min-height: 280px"
+     data-ad-client="ca-pub-4694215992374142"
+     data-ad-slot="6802683789"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><BR>
+	<div class="row">
+
+		<!-- MAIN CONTENT -->
+		<div id="t3-content" class="t3-content col-xs-12"><div class="page-header" style="font-size:20px; background-color: #630000; color:#FFFFFF;padding: 10px;"><i  class="fa fa-arrow-circle-right"></i> NOS DERNIERS ARTICLES</div>
+						<div id="system-message-container">
+	</div>
+
+						<div class="blog-featured">
+
+	
+		
+		<div class="items-row cols-2 row-0 row">
+					<div class="item column-1 col-md-6">
+			
+
+	<!-- Article -->
+	<article>
+
+					
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					<a style="font-size:20px; font-weight: bold; font-familly:Helvetica, Arial, sans-serif " href="/civilisations/5597-les-incas-une-civilisation-et-un-empire-dans-les-andes.html" itemprop="url" title="Les incas, un empire dans les Andes">
+				Les incas, un empire dans les Andes</a>
+			</h2>
+
+			</header>
+		
+		    <!-- Aside -->
+		    		    <aside class="article-aside clearfix">
+		      		      	<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													Détails							</dt>
+
+							
+<dd class="createdby hasTooltip" itemprop="author" itemscope itemtype="http://schema.org/Person" title="Écrit par ">
+	<i class="fa fa-user"></i>
+			<span itemprop="name">Lucrèce</span>	</dd>
+			
+										<dd class="parent-category-name hasTooltip" title="Catégorie parente: ">
+				<i class="fa fa-folder"></i>
+									<a href="/civilisations.html" ><span itemprop="genre">Civilisations et Empires</span></a>							</dd>			
+			
+										<dd class="published hasTooltip" title="Publication : ">
+				<i class="icon-calendar"></i>
+				<time datetime="2025-08-26T11:22:34+02:00" itemprop="datePublished">
+					26 août 2025				</time>
+			</dd>					
+					
+			
+						</dl>
+		      		      
+		      		    </aside>  
+		    		    <!-- //Aside -->
+
+				
+				
+				
+				<section class="article-intro clearfix">
+					<p style="text-align: justify;"><strong><img loading="lazy" src="/images/articles/dossiers/civilisations-empires/incas-andes.jpg" alt="incas andes" width="240" height="166" style="margin-top: 0px; margin-bottom: 10px; margin-right: 10px; margin-left: 0px; float: left; border: outset 1px #C4C4C4" title="Guerriers incas dans les Andes" /></strong>L’<strong>Empire inca</strong>&nbsp;a été fondé au XIIe siècle par les Quechuas, peuple originaire de la vallée de Cuzco, au Pérou.&nbsp;Cette <a href="/dossiers/3441-les-ameriques-avant-la-conquete.html">civilisation précolombienne</a> s’étendait le long des Andes sur près de 5 000 kilomètres, de l’équateur au chili central et était reliée par un réseau de routes et de ponts suspendus. Au XVe siècle, sous l’action du dieu souverain Vira cocha, il connaît une croissance importante et s’enrichit de nombreux territoires et de nouveaux peuples. Son apogée date du début du XVIe siècle. En dépit de sa richesse et de sa puissance, l’empire inca ne dura qu’un siècle avant de succomber <a href="/dossiers/221-la-capture-datahualpa-par-pizzaro-16-novembre-1532.html">sous les coups de Pizarro</a> et des conquistadors espagnols.&nbsp;Les principaux sites historiques des incas sont Cuzco, la capitale, où est construit un célèbre temple du Soleil, et la cité forteresse de Machu Picchu.</p>
+				</section>
+    
+		    <!-- footer -->
+		    		    <!-- //footer -->
+
+			    
+									<BR><section class="readmore">
+						<a class="btn btn-default" href="/civilisations/5597-les-incas-une-civilisation-et-un-empire-dans-les-andes.html">
+							<span>
+							 Les incas, un empire dans les Andes							</span>
+						</a>
+					</section>
+					</article>
+	<!-- //Article -->
+
+ 			</div>
+			
+			
+	
+					<div class="item column-2 col-md-6">
+			
+
+	<!-- Article -->
+	<article>
+
+					
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					<a style="font-size:20px; font-weight: bold; font-familly:Helvetica, Arial, sans-serif " href="/guerres/5601-la-guerre-franco-prussienne-de-1870.html" itemprop="url" title="Guerre franco-prussienne de 1870">
+				Guerre franco-prussienne de 1870</a>
+			</h2>
+
+			</header>
+		
+		    <!-- Aside -->
+		    		    <aside class="article-aside clearfix">
+		      		      	<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													Détails							</dt>
+
+							
+<dd class="createdby hasTooltip" itemprop="author" itemscope itemtype="http://schema.org/Person" title="Écrit par ">
+	<i class="fa fa-user"></i>
+			<span itemprop="name">Lazare Bonchamp</span>	</dd>
+			
+										<dd class="parent-category-name hasTooltip" title="Catégorie parente: ">
+				<i class="fa fa-folder"></i>
+									<a href="/guerres.html" ><span itemprop="genre">Guerres</span></a>							</dd>			
+			
+										<dd class="published hasTooltip" title="Publication : ">
+				<i class="icon-calendar"></i>
+				<time datetime="2025-08-26T10:42:36+02:00" itemprop="datePublished">
+					26 août 2025				</time>
+			</dd>					
+					
+			
+						</dl>
+		      		      
+		      		    </aside>  
+		    		    <!-- //Aside -->
+
+				
+				
+				
+				<section class="article-intro clearfix">
+					<p style="text-align: justify;"><img loading="lazy" src="/images/articles/dossiers/guerres/guerre-1870.jpg" alt="guerre 1870" width="220" height="164" style="margin-top: 0px; margin-bottom: 10px; margin-right: 10px; margin-left: 0px; float: left; border: outset 1px #C4C4C4" title="Guerre de 1870" />La <strong>guerre de 1870</strong>&nbsp;a opposé la France et la Prusse alliée à une coalition d'États allemands, de juillet 1870 à janvier 1871. Elle trouve son origine dans un incident diplomatique entre les deux pays au sujet de la succession de la couronne d'Espagne, l'ambitieux chancelier Bismarck ayant habilement piégé Napoléon III avec la fameuse dépêche d'Ems. Mal préparée, cette guerre va tourner au désastre pour la France, avec pour conséquence la chute du <a href="/histoire-de-france/5694-second-empire-1852-1870.html">Second Empire</a> et surtout la perte des territoires d’<strong>Alsace-Lorraine</strong>, qui se trouvent dès lors au centre du contentieux franco-allemand jusqu’en 1914. Humiliation suprême, l'empire allemand sera proclamé... dans la galerie des Glaces <a href="/tourisme/3003-le-chateau-de-versailles.html">du château de Versailles</a> le 18 janvier 1871.</p>
+				</section>
+    
+		    <!-- footer -->
+		    		    <!-- //footer -->
+
+			    
+									<BR><section class="readmore">
+						<a class="btn btn-default" href="/guerres/5601-la-guerre-franco-prussienne-de-1870.html">
+							<span>
+							 Guerre franco-prussienne de 1870							</span>
+						</a>
+					</section>
+					</article>
+	<!-- //Article -->
+
+ 			</div>
+			
+			
+		</div>
+		
+	
+		
+		<div class="items-row cols-2 row-1 row">
+					<div class="item column-1 col-md-6">
+			
+
+	<!-- Article -->
+	<article>
+
+					
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					<a style="font-size:20px; font-weight: bold; font-familly:Helvetica, Arial, sans-serif " href="/histoire-de-france/5694-second-empire-1852-1870.html" itemprop="url" title="Le Second Empire en France (1852-1870)">
+				Le Second Empire en France (1852-1870)</a>
+			</h2>
+
+			</header>
+		
+		    <!-- Aside -->
+		    		    <aside class="article-aside clearfix">
+		      		      	<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													Détails							</dt>
+
+							
+<dd class="createdby hasTooltip" itemprop="author" itemscope itemtype="http://schema.org/Person" title="Écrit par ">
+	<i class="fa fa-user"></i>
+			<span itemprop="name">Lazare Bonchamp</span>	</dd>
+			
+										<dd class="parent-category-name hasTooltip" title="Catégorie parente: ">
+				<i class="fa fa-folder"></i>
+									<a href="/histoire-de-france.html" ><span itemprop="genre">Histoire de France</span></a>							</dd>			
+			
+										<dd class="published hasTooltip" title="Publication : ">
+				<i class="icon-calendar"></i>
+				<time datetime="2025-08-26T10:30:38+02:00" itemprop="datePublished">
+					26 août 2025				</time>
+			</dd>					
+					
+			
+						</dl>
+		      		      
+		      		    </aside>  
+		    		    <!-- //Aside -->
+
+				
+				
+				
+				<section class="article-intro clearfix">
+					<p style="text-align: justify;"><img loading="lazy" src="/images/articles/dossiers/XIXe/second-empire-fete-imperiale.jpg" alt="second empire fete imperiale" width="260" height="189" style="margin-top: 0px; margin-bottom: 10px; margin-right: 10px; margin-left: 0px; float: left; border: outset 1px #C4C4C4" title="Le Second empire : la fête impériale" />Le <strong>Second Empire</strong>, dirigé par <a href="/histoire-de-france/3051-napoleon-iii-empereur-1808-1873.html">Napoléon III</a> du 2 décembre 1852 au 4 septembre 1870, a succédé à <a href="/histoire-de-france/5783-la-iie-republique-en-france-1848-1952.html">l'éphémère IIe République</a>. C'est une période de grand essor économique, notamment industriel, financier et bancaire, qui provoque des changements sociaux, tel le développement de la classe ouvrière. Après une phase autoritaire, marquée par la répression de l’opposition, se fait jour une certaine libéralisation du régime. Malgré plusieurs succès militaires et diplomatiques (guerre de Crimée, campagne d’Italie), l’échec de l’expédition mexicaine et surtout la défaite militaire face à la Prusse en 1870 entraînent la chute du second Empire.&nbsp;</p>
+				</section>
+    
+		    <!-- footer -->
+		    		    <!-- //footer -->
+
+			    
+									<BR><section class="readmore">
+						<a class="btn btn-default" href="/histoire-de-france/5694-second-empire-1852-1870.html">
+							<span>
+							 Le Second Empire en France (1852-1870)							</span>
+						</a>
+					</section>
+					</article>
+	<!-- //Article -->
+
+ 			</div>
+			
+			
+	
+					<div class="item column-2 col-md-6">
+			
+
+	<!-- Article -->
+	<article>
+
+					
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					<a style="font-size:20px; font-weight: bold; font-familly:Helvetica, Arial, sans-serif " href="/histoire-de-france/3051-napoleon-iii-empereur-1808-1873.html" itemprop="url" title="Napoléon III, empereur des français (1852-1870)">
+				Napoléon III, empereur des français (1852-1870)</a>
+			</h2>
+
+			</header>
+		
+		    <!-- Aside -->
+		    		    <aside class="article-aside clearfix">
+		      		      	<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													Détails							</dt>
+
+							
+<dd class="createdby hasTooltip" itemprop="author" itemscope itemtype="http://schema.org/Person" title="Écrit par ">
+	<i class="fa fa-user"></i>
+			<span itemprop="name">M. de Castelnau</span>	</dd>
+			
+										<dd class="parent-category-name hasTooltip" title="Catégorie parente: ">
+				<i class="fa fa-folder"></i>
+									<a href="/histoire-de-france.html" ><span itemprop="genre">Histoire de France</span></a>							</dd>			
+			
+										<dd class="published hasTooltip" title="Publication : ">
+				<i class="icon-calendar"></i>
+				<time datetime="2025-08-26T09:47:00+02:00" itemprop="datePublished">
+					26 août 2025				</time>
+			</dd>					
+					
+			
+						</dl>
+		      		      
+		      		    </aside>  
+		    		    <!-- //Aside -->
+
+				
+				
+				
+				<section class="article-intro clearfix">
+					<p style="text-align: justify;"><strong><img loading="lazy" src="/images/articles/dossiers/biographies/napoleonIII_nadar.jpg" alt="napoleonIII nadar" width="171" height="240" style="margin-top: 0px; margin-bottom: 10px; margin-right: 10px; margin-left: 0px; float: left; border: outset 1px #C4C4C4" title="Napoléon III (Empereur, 1808-1873) - Biographie" />Louis-Napoléon Bonaparte</strong> (1808-1873) a été le premier président de la République de 1849 à 1852, puis le dernier empereur des Français de 1852 à 1870, sous le nom de <strong>Napoléon III</strong>. Après avoir renforcé son pouvoir lors du&nbsp;coup d’État de 1851, il&nbsp;mène une politique autoritaire, réprimant les oppositions et contrôlant la presse. Son règne est cependant marqué par le développement économique de la France : le pays entre avec succès dans l’ère industrielle ; le chemin de fer se développe et pénètre dans les campagnes ; Paris se modernise grâce aux grands travaux du baron Haussmann. Son oeuvre, oscillant entre grandeur et décadence, fut longtemps occultée par sa défaite et sa chute lors de la guerre de 1870. Pourtant, le neveu de <a href="/histoire-de-france/3436-napoleon-ier-empereur-1769-1821.html"><strong>Napoléon</strong> <strong>Bonaparte</strong></a> peut être considéré comme l'un des bâtisseurs de la France moderne, et la&nbsp;Ve République est l'héritière directe de son « césarisme », tant critiqué à l'époque.</p>
+				</section>
+    
+		    <!-- footer -->
+		    		    <!-- //footer -->
+
+			    
+									<BR><section class="readmore">
+						<a class="btn btn-default" href="/histoire-de-france/3051-napoleon-iii-empereur-1808-1873.html">
+							<span>
+							 Napoléon III, empereur des français (1852-1870)							</span>
+						</a>
+					</section>
+					</article>
+	<!-- //Article -->
+
+ 			</div>
+			
+			
+		</div>
+		
+	
+		
+		<div class="items-row cols-2 row-2 row">
+					<div class="item column-1 col-md-6">
+			
+
+	<!-- Article -->
+	<article>
+
+					
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					<a style="font-size:20px; font-weight: bold; font-familly:Helvetica, Arial, sans-serif " href="/livres/4588-la-surprenante-prophetie-de-saint-malachie.html" itemprop="url" title="La surprenante prophétie de Saint Malachie">
+				La surprenante prophétie de Saint Malachie</a>
+			</h2>
+
+			</header>
+		
+		    <!-- Aside -->
+		    		    <aside class="article-aside clearfix">
+		      		      	<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													Détails							</dt>
+
+							
+<dd class="createdby hasTooltip" itemprop="author" itemscope itemtype="http://schema.org/Person" title="Écrit par ">
+	<i class="fa fa-user"></i>
+			<span itemprop="name">Desaix</span>	</dd>
+			
+										<dd class="parent-category-name hasTooltip" title="Catégorie parente: ">
+				<i class="fa fa-folder"></i>
+									<a href="/livres.html" ><span itemprop="genre">Livres</span></a>							</dd>			
+			
+										<dd class="published hasTooltip" title="Publication : ">
+				<i class="icon-calendar"></i>
+				<time datetime="2025-04-24T10:00:00+02:00" itemprop="datePublished">
+					24 avril 2025				</time>
+			</dd>					
+					
+			
+						</dl>
+		      		      
+		      		    </aside>  
+		    		    <!-- //Aside -->
+
+				
+				
+				
+				<section class="article-intro clearfix">
+					<p style="text-align: justify;"><img loading="lazy" src="/images/articles/livres/surprenante-prophetie-saint-malachie.jpg" alt="surprenante prophetie saint malachie" width="185" height="280" style="margin-top: 0px; margin-bottom: 10px; margin-right: 10px; margin-left: 0px; float: left; border: outset 1px #C4C4C4" title="La surprenante prophétie de Saint Malachie" />La <strong>prophétie de Saint Malachie</strong>, dite <strong>« prophétie des papes »</strong>, annonce qu’au terme d’une succession de 112 papes depuis Célestin II surviendrait Pierre le Romain, qui guidera les Chrétiens dans un <strong>contexte apocalyptique</strong> de persécutions et de destruction de la ville aux sept collines, prélude à l’arrivée du « juge terrible » ! Sauf que si on fait le calcul ce <strong>Pierre le Romain serait… Le nouveau Pape François !</strong>&nbsp;Dans un essai, Jean-Marie Beuzelin tente donc d’éclaircir cette prophétie pour que nous sachions à quoi nous attendre dans les années à venir.</p>
+<p>&nbsp;</p>
+				</section>
+    
+		    <!-- footer -->
+		    		    <!-- //footer -->
+
+			    
+									<BR><section class="readmore">
+						<a class="btn btn-default" href="/livres/4588-la-surprenante-prophetie-de-saint-malachie.html">
+							<span>
+							 La surprenante prophétie de Saint Malachie							</span>
+						</a>
+					</section>
+					</article>
+	<!-- //Article -->
+
+ 			</div>
+			
+			
+	
+					<div class="item column-2 col-md-6">
+			
+
+	<!-- Article -->
+	<article>
+
+					
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					<a style="font-size:20px; font-weight: bold; font-familly:Helvetica, Arial, sans-serif " href="/biographies/2617-la-biographie-dalbert-einstein-1879-1955.html" itemprop="url" title="Albert Einstein, biographie du plus célèbre physicien">
+				Albert Einstein, biographie du plus célèbre physicien</a>
+			</h2>
+
+			</header>
+		
+		    <!-- Aside -->
+		    		    <aside class="article-aside clearfix">
+		      		      	<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													Détails							</dt>
+
+							
+<dd class="createdby hasTooltip" itemprop="author" itemscope itemtype="http://schema.org/Person" title="Écrit par ">
+	<i class="fa fa-user"></i>
+			<span itemprop="name">Kara Iskandar</span>	</dd>
+			
+										<dd class="parent-category-name hasTooltip" title="Catégorie parente: ">
+				<i class="fa fa-folder"></i>
+									<a href="/biographies.html" ><span itemprop="genre">Biographies</span></a>							</dd>			
+			
+										<dd class="published hasTooltip" title="Publication : ">
+				<i class="icon-calendar"></i>
+				<time datetime="2025-02-25T10:00:00+01:00" itemprop="datePublished">
+					25 février 2025				</time>
+			</dd>					
+					
+			
+						</dl>
+		      		      
+		      		    </aside>  
+		    		    <!-- //Aside -->
+
+				
+				
+				
+				<section class="article-intro clearfix">
+					<p style="text-align: justify;"><img loading="lazy" src="/images/articles/dossiers/biographies/albert-einstein.png" alt="albert einstein" width="189" height="220" style="margin-top: 0px; margin-bottom: 10px; margin-right: 10px; margin-left: 0px; float: left; border: outset 1px #C4C4C4" title="Albert Einstein" />Physicien américain d'origine allemande,<strong> Albert Einstein</strong> (1879-1955) est mondialement connu pour sa <strong>théorie de la relativité</strong> et sa célèbre équation E = mc2. Mais au-delà de ces travaux révolutionnaires, qui sont à l'origine de la <a href="/dossiers/3577-lhistoire-de-la-physique.html">physique contemporaine</a>, la personnalité marginale d'Einstein et ses engagements politiques en ont fait un personnage mythique du XXe siècle.&nbsp;Pourtant à l’origine de la physique nucléaire, il luttera jusqu’à sa mort contre la prolifération des armes atomiques. Il obtient le prix Nobel de physique en 1922.</p>
+				</section>
+    
+		    <!-- footer -->
+		    		    <!-- //footer -->
+
+			    
+									<BR><section class="readmore">
+						<a class="btn btn-default" href="/biographies/2617-la-biographie-dalbert-einstein-1879-1955.html">
+							<span>
+							 Albert Einstein, biographie du plus célèbre physicien							</span>
+						</a>
+					</section>
+					</article>
+	<!-- //Article -->
+
+ 			</div>
+			
+			
+		</div>
+		
+	
+		
+		<div class="items-row cols-2 row-3 row">
+					<div class="item column-1 col-md-6">
+			
+
+	<!-- Article -->
+	<article>
+
+					
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					<a style="font-size:20px; font-weight: bold; font-familly:Helvetica, Arial, sans-serif " href="/civilisations/3067-la-civilisation-grecque-la-grece-antique.html" itemprop="url" title="Grèce antique et civilisation grecque">
+				Grèce antique et civilisation grecque</a>
+			</h2>
+
+			</header>
+		
+		    <!-- Aside -->
+		    		    <aside class="article-aside clearfix">
+		      		      	<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													Détails							</dt>
+
+							
+<dd class="createdby hasTooltip" itemprop="author" itemscope itemtype="http://schema.org/Person" title="Écrit par ">
+	<i class="fa fa-user"></i>
+			<span itemprop="name">Lucrèce</span>	</dd>
+			
+										<dd class="parent-category-name hasTooltip" title="Catégorie parente: ">
+				<i class="fa fa-folder"></i>
+									<a href="/civilisations.html" ><span itemprop="genre">Civilisations et Empires</span></a>							</dd>			
+			
+										<dd class="published hasTooltip" title="Publication : ">
+				<i class="icon-calendar"></i>
+				<time datetime="2025-02-18T11:19:45+01:00" itemprop="datePublished">
+					18 février 2025				</time>
+			</dd>					
+					
+			
+						</dl>
+		      		      
+		      		    </aside>  
+		    		    <!-- //Aside -->
+
+				
+				
+				
+				<section class="article-intro clearfix">
+					<p style="text-align: justify;"><img loading="lazy" src="/images/articles/dossiers/civilisations-empires/sanctuaire-delphes.jpg" alt="sanctuaire delphes" width="240" height="180" style="margin-top: 0px; margin-bottom: 10px; margin-right: 10px; margin-left: 0px; float: left; border: outset 1px #C4C4C4" title="Sanctuaire de Delphes" />La « <strong>Grèce antique</strong> » est le terme donné à la civilisation qui a débuté vers 700&nbsp;av. J.-C en Grèce et dans ses colonies et a connu son apogée au Ve siècle avant notre ère. Dans le domaine de l'art, en politique, en littérature, en philosophie ou en science, l'héritage de la&nbsp;Grèce antique&nbsp;influence encore notre monde. La <strong>civilisation grecque</strong> a presque tout inventé, à commencer par la démocratie. C’est pourtant au rythme des guerres que vivaient les cités grecques <a href="/dossiers/5696-athenes-cite-grecque-antique-d-exception.html">comme la puissante thalassocratie d'Athènes</a> ou la redoutable ville de <strong>Sparte</strong>.&nbsp;Malgré leurs divisions, les Grecs étaient unis par une culture, une religion et une langue commune. La culture grecque se répandra en Asie avec les conquêtes d'<a href="/biographies/1430-alexandre-le-grand.html">Alexandre le Grand</a>, puis en Europe au temps de la domination romaine.</p>
+				</section>
+    
+		    <!-- footer -->
+		    		    <!-- //footer -->
+
+			    
+									<BR><section class="readmore">
+						<a class="btn btn-default" href="/civilisations/3067-la-civilisation-grecque-la-grece-antique.html">
+							<span>
+							 Grèce antique et civilisation grecque							</span>
+						</a>
+					</section>
+					</article>
+	<!-- //Article -->
+
+ 			</div>
+			
+			
+	
+					<div class="item column-2 col-md-6">
+			
+
+	<!-- Article -->
+	<article>
+
+					
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					<a style="font-size:20px; font-weight: bold; font-familly:Helvetica, Arial, sans-serif " href="/dossiers/4984-histoire-du-mur-de-berlin-de-la-construction-a-la-chute.html" itemprop="url" title="Mur de Berlin, de la construction à la chute (1961-1989)">
+				Mur de Berlin, de la construction à la chute (1961-1989)</a>
+			</h2>
+
+			</header>
+		
+		    <!-- Aside -->
+		    		    <aside class="article-aside clearfix">
+		      		      	<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													Détails							</dt>
+
+							
+<dd class="createdby hasTooltip" itemprop="author" itemscope itemtype="http://schema.org/Person" title="Écrit par ">
+	<i class="fa fa-user"></i>
+			<span itemprop="name">Antony D. / Kara Iskandar</span>	</dd>
+			
+										<dd class="parent-category-name hasTooltip" title="Catégorie parente: ">
+				<i class="fa fa-folder"></i>
+									<a href="/dossiers.html" ><span itemprop="genre">Histoire Universelle</span></a>							</dd>			
+			
+										<dd class="published hasTooltip" title="Publication : ">
+				<i class="icon-calendar"></i>
+				<time datetime="2025-02-18T11:01:00+01:00" itemprop="datePublished">
+					18 février 2025				</time>
+			</dd>					
+					
+			
+						</dl>
+		      		      
+		      		    </aside>  
+		    		    <!-- //Aside -->
+
+				
+				
+				
+				<section class="article-intro clearfix">
+					<p style="text-align: justify;"><img loading="lazy" src="/images/articles/dossiers/mur01.jpg" alt="mur01" width="220" height="145" style="margin-top: 0px; margin-bottom: 10px; margin-right: 10px; margin-left: 0px; float: left; border: outset 1px #C4C4C4" title="Le mur de Berlin" />Construit au mois d'août 1961, le mur de Berlin est l’évocation la plus symbolique de<a href="/dossiers/5598-la-guerre-froide-1948-1991.html"> la Guerre froide</a>. Long de 45 km, hérissé de barbelés et surveillé par de nombreux miradors, il était avant tout destiné&nbsp;à empêcher les Allemands de l'Est de fuir le régime communiste.&nbsp;Entre 1961 et 1989, au moins soixante-dix personnes trouvent la mort en essayant de « passer le mur », à pied, en voiture-bélier, par les airs… La <strong>chute du mur</strong>&nbsp;dans la <strong>nuit du 9 au 10 novembre 1989</strong> provoque une vague d’enthousiasme et d’espoir dans le monde et surtout en Allemagne, qui peut enfin espérer une réunification attendue depuis la fin de la Seconde Guerre Mondiale.&nbsp;</p>
+				</section>
+    
+		    <!-- footer -->
+		    		    <!-- //footer -->
+
+			    
+									<BR><section class="readmore">
+						<a class="btn btn-default" href="/dossiers/4984-histoire-du-mur-de-berlin-de-la-construction-a-la-chute.html">
+							<span>
+							 Mur de Berlin, de la construction à la chute (1961-1989)							</span>
+						</a>
+					</section>
+					</article>
+	<!-- //Article -->
+
+ 			</div>
+			
+			
+		</div>
+		
+	
+		
+		<div class="items-row cols-2 row-4 row">
+					<div class="item column-1 col-md-6">
+			
+
+	<!-- Article -->
+	<article>
+
+					
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					<a style="font-size:20px; font-weight: bold; font-familly:Helvetica, Arial, sans-serif " href="/histoire-de-france/4508-charlemagne-roi-des-francs-et-empereur-doccident-biographie.html" itemprop="url" title="Charlemagne, roi des francs et empereur d'Occident">
+				Charlemagne, roi des francs et empereur d'Occident</a>
+			</h2>
+
+			</header>
+		
+		    <!-- Aside -->
+		    		    <aside class="article-aside clearfix">
+		      		      	<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													Détails							</dt>
+
+							
+<dd class="createdby hasTooltip" itemprop="author" itemscope itemtype="http://schema.org/Person" title="Écrit par ">
+	<i class="fa fa-user"></i>
+			<span itemprop="name">yoann.solirenne</span>	</dd>
+			
+										<dd class="parent-category-name hasTooltip" title="Catégorie parente: ">
+				<i class="fa fa-folder"></i>
+									<a href="/histoire-de-france.html" ><span itemprop="genre">Histoire de France</span></a>							</dd>			
+			
+										<dd class="published hasTooltip" title="Publication : ">
+				<i class="icon-calendar"></i>
+				<time datetime="2025-02-18T10:06:43+01:00" itemprop="datePublished">
+					18 février 2025				</time>
+			</dd>					
+					
+			
+						</dl>
+		      		      
+		      		    </aside>  
+		    		    <!-- //Aside -->
+
+				
+				
+				
+				<section class="article-intro clearfix">
+					<p style="text-align: justify;"><strong><img loading="lazy" src="/images/articles/dossiers/biographies/charlemagne-empereur-1.jpg" alt="charlemagne empereur 1" width="154" height="220" style="margin-top: 0px; margin-bottom: 10px; margin-right: 10px; margin-left: 0px; float: left; border: outset 1px #C4C4C4" title="Charlemagne, empereur carolingien" />Charlemagne</strong> (742-814) est un roi franc puis un <strong>empereur d’Occident</strong>&nbsp;qui a régné de 768 à 814 et a donné son nom à <a href="/histoire-de-france/206-des-carolingiens-aux-capetiens.html">la dynastie des carolingiens</a>.&nbsp;Fils aîné de Pépin le Bref, il règne seul après la mort de son frère Carloman en 771 sur un domaine qui recouvre alors la Gaule et une partie de la Germanie. En 774, il se proclame roi des Lombards et débute sa politique d’expansion, menant de nombreuses campagnes militaires. En 46 années de règne, il fait du royaume franc le plus vaste territoire depuis la chute de l’Empire romain. Soutenu par la papauté, car <a href="/histoire-de-france/2818-la-christianisation-de-la-societe-sous-charlemagne.html">il impose le christianisme aux peuples vaincus</a>, Charlemagne est couronné empereur d’Occident le jour de Noël 800. Appelé « l’empereur à la barbe fleurie », il est connu grâce à la description qu’en a donné le chroniqueur Eginhard, qui a rédigé vers 830 la <em>Vie de Charlemagne, </em>sa biographie.</p>
+				</section>
+    
+		    <!-- footer -->
+		    		    <!-- //footer -->
+
+			    
+									<BR><section class="readmore">
+						<a class="btn btn-default" href="/histoire-de-france/4508-charlemagne-roi-des-francs-et-empereur-doccident-biographie.html">
+							<span>
+							 Charlemagne, roi des francs et empereur d'Occident							</span>
+						</a>
+					</section>
+					</article>
+	<!-- //Article -->
+
+ 			</div>
+			
+			
+	
+					<div class="item column-2 col-md-6">
+			
+
+	<!-- Article -->
+	<article>
+
+					
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					<a style="font-size:20px; font-weight: bold; font-familly:Helvetica, Arial, sans-serif " href="/biographies/2967-la-biographie-de-guy-de-maupassant-1850-1893.html" itemprop="url" title="Guy de Maupassant - Biographie et œuvres">
+				Guy de Maupassant - Biographie et œuvres</a>
+			</h2>
+
+			</header>
+		
+		    <!-- Aside -->
+		    		    <aside class="article-aside clearfix">
+		      		      	<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													Détails							</dt>
+
+							
+<dd class="createdby hasTooltip" itemprop="author" itemscope itemtype="http://schema.org/Person" title="Écrit par ">
+	<i class="fa fa-user"></i>
+			<span itemprop="name">La Brinvilliers</span>	</dd>
+			
+										<dd class="parent-category-name hasTooltip" title="Catégorie parente: ">
+				<i class="fa fa-folder"></i>
+									<a href="/biographies.html" ><span itemprop="genre">Biographies</span></a>							</dd>			
+			
+										<dd class="published hasTooltip" title="Publication : ">
+				<i class="icon-calendar"></i>
+				<time datetime="2025-02-18T09:51:00+01:00" itemprop="datePublished">
+					18 février 2025				</time>
+			</dd>					
+					
+			
+						</dl>
+		      		      
+		      		    </aside>  
+		    		    <!-- //Aside -->
+
+				
+				
+				
+				<section class="article-intro clearfix">
+					<p style="text-align: justify;"><strong><img loading="lazy" src="/images/articles/dossiers/biographies/Maupassant.jpg" alt="Maupassant" width="166" height="220" style="margin-top: 0px; margin-bottom: 10px; margin-right: 10px; margin-left: 0px; float: left; border: outset 1px #C4C4C4" title="Guy de Maupassant" /></strong><strong>Guy de Maupassant&nbsp;(1850-1893)</strong>,<strong>&nbsp;</strong>écrivain français prolifique malgré sa courte existence nous a laissé <strong>six romans et près de trois cents nouvelles</strong>, dans un style qui mélange réalisme et fantastique. Publiés de 1880 à 1891, ces ouvrages décrivent avec réalisme les milieux mondains et ruraux. Son naturel <strong>profondément angoissé</strong> inspirera profondément le <strong>pessimisme</strong> et parfois l'horreur qui règnent dans ses œuvres (<em>Le Horla</em>, 1887). Il finit par perdre la raiso<strong>n</strong> en 1891 et mourra deux ans plus tard.</p>
+				</section>
+    
+		    <!-- footer -->
+		    		    <!-- //footer -->
+
+			    
+									<BR><section class="readmore">
+						<a class="btn btn-default" href="/biographies/2967-la-biographie-de-guy-de-maupassant-1850-1893.html">
+							<span>
+							 Guy de Maupassant - Biographie et œuvres							</span>
+						</a>
+					</section>
+					</article>
+	<!-- //Article -->
+
+ 			</div>
+			
+			
+		</div>
+		
+	
+		
+		<div class="items-row cols-2 row-5 row">
+					<div class="item column-1 col-md-6">
+			
+
+	<!-- Article -->
+	<article>
+
+					
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					<a style="font-size:20px; font-weight: bold; font-familly:Helvetica, Arial, sans-serif " href="/dossiers/3306-le-livre-une-passion-du-moyen-age.html" itemprop="url" title="Le livre au Moyen Age, une passion et un art">
+				Le livre au Moyen Age, une passion et un art</a>
+			</h2>
+
+			</header>
+		
+		    <!-- Aside -->
+		    		    <aside class="article-aside clearfix">
+		      		      	<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													Détails							</dt>
+
+							
+<dd class="createdby hasTooltip" itemprop="author" itemscope itemtype="http://schema.org/Person" title="Écrit par ">
+	<i class="fa fa-user"></i>
+			<span itemprop="name">viviane</span>	</dd>
+			
+										<dd class="parent-category-name hasTooltip" title="Catégorie parente: ">
+				<i class="fa fa-folder"></i>
+									<a href="/dossiers.html" ><span itemprop="genre">Histoire Universelle</span></a>							</dd>			
+			
+										<dd class="published hasTooltip" title="Publication : ">
+				<i class="icon-calendar"></i>
+				<time datetime="2025-02-11T10:55:00+01:00" itemprop="datePublished">
+					11 février 2025				</time>
+			</dd>					
+					
+			
+						</dl>
+		      		      
+		      		    </aside>  
+		    		    <!-- //Aside -->
+
+				
+				
+				
+				<section class="article-intro clearfix">
+					<p style="text-align: justify;"><img loading="lazy" src="/images/articles/dossiers/livre_ma5.jpg" alt="livre ma5" width="200" height="152" style="margin-top: 0px; margin-bottom: 10px; margin-right: 10px; margin-left: 0px; float: left; border: outset 1px #C4C4C4" title="Livre enluminé du Moyen Age" />Les <strong>livres</strong>&nbsp;du Moyen Age sont essentiellement l'oeuvre des moines copistes, qui ont pour misssion de transcrire les manuscrits. Le copiste prépare d’abord le parchemin en traçant des lignes. Il réserve des marges et des espaces pour les enluminures. Ces peintures qui apparaissent dans les ouvrages sont plus qu’une illustration, et ont souvent une fonction très précise : elles servent aussi à expliquer le texte à celui qui ne sait pas lire.La plupart des ouvrages sont des extraits de la Bible, des livres de culte ou des copies de textes classiques. ils&nbsp;ont des couvertures en bois, souvent renforcées par du métal et maintenues par des fermoirs. D’autres sont reliés avec des couvertures en cuir, parfois ornées d’or et d’argent, d'émaux et de pierres précieuses.</p>
+				</section>
+    
+		    <!-- footer -->
+		    		    <!-- //footer -->
+
+			    
+									<BR><section class="readmore">
+						<a class="btn btn-default" href="/dossiers/3306-le-livre-une-passion-du-moyen-age.html">
+							<span>
+							 Le livre au Moyen Age, une passion et un art							</span>
+						</a>
+					</section>
+					</article>
+	<!-- //Article -->
+
+ 			</div>
+			
+			
+	
+					<div class="item column-2 col-md-6">
+			
+
+	<!-- Article -->
+	<article>
+
+					
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					<a style="font-size:20px; font-weight: bold; font-familly:Helvetica, Arial, sans-serif " href="/chronologies/4964-chronologie-de-la-premiere-guerre-mondiale-14-18.html" itemprop="url" title="Guerre de 14 18 et dates de la Première Guerre mondiale">
+				Guerre de 14 18 et dates de la Première Guerre mondiale</a>
+			</h2>
+
+			</header>
+		
+		    <!-- Aside -->
+		    		    <aside class="article-aside clearfix">
+		      		      	<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													Détails							</dt>
+
+							
+<dd class="createdby hasTooltip" itemprop="author" itemscope itemtype="http://schema.org/Person" title="Écrit par ">
+	<i class="fa fa-user"></i>
+			<span itemprop="name">Lazare Bonchamp</span>	</dd>
+			
+										<dd class="parent-category-name hasTooltip" title="Catégorie parente: ">
+				<i class="fa fa-folder"></i>
+									<a href="/chronologies.html" ><span itemprop="genre">Chronologies</span></a>							</dd>			
+			
+										<dd class="published hasTooltip" title="Publication : ">
+				<i class="icon-calendar"></i>
+				<time datetime="2025-02-11T10:35:00+01:00" itemprop="datePublished">
+					11 février 2025				</time>
+			</dd>					
+					
+			
+						</dl>
+		      		      
+		      		    </aside>  
+		    		    <!-- //Aside -->
+
+				
+				
+				
+				<section class="article-intro clearfix">
+					<p style="text-align: justify;"><img loading="lazy" src="/images/articles/dossiers/guerres/14-18-tranchees.jpg" alt="14-18-tranchees" width="180" height="157" style="margin-top: 0px; margin-bottom: 10px; margin-right: 10px; margin-left: 0px; float: left; border: outset 1px #C4C4C4" />La <strong>Guerre de 14-18</strong> est le premier conflit mondial de tous les temps, opposant trente-deux nations, sur un champ de bataille couvrant trois continents et toutes les mers du globe. La Première Guerre mondiale a été terriblement meurtrière et a marqué une violente entrée de la planète dans le XXe siècle. Déclenchée le <strong>28 juillet 1914</strong> au prétexte <a href="/dossiers/5747-attentat-de-sarajevo-28-juin-1914.html">de l'assassinat de l'archiduc François-Ferdinand à Sarajevo</a>, ses causes sont autant politiques qu'économiques. Conçu pour être brève, elle durera finalement plus de quatre ans, faisant 18 millions de morts (civils et militaires). A son dénouement <a href="/dossiers/5546-11-novembre-1918-l-armistice-est-signee-a-rethondes.html">le <strong>11 novembre 1918</strong></a>, la Grande Guerre laissera le continent européen durablement affaibli et va semer les germes du conflit mondial suivant.&nbsp;</p>
+				</section>
+    
+		    <!-- footer -->
+		    		    <!-- //footer -->
+
+			    
+									<BR><section class="readmore">
+						<a class="btn btn-default" href="/chronologies/4964-chronologie-de-la-premiere-guerre-mondiale-14-18.html">
+							<span>
+							 Guerre de 14 18 et dates de la Première Guerre mondiale							</span>
+						</a>
+					</section>
+					</article>
+	<!-- //Article -->
+
+ 			</div>
+			
+			
+		</div>
+		
+	
+		
+		<div class="items-row cols-2 row-6 row">
+					<div class="item column-1 col-md-6">
+			
+
+	<!-- Article -->
+	<article>
+
+					
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					<a style="font-size:20px; font-weight: bold; font-familly:Helvetica, Arial, sans-serif " href="/biographies/2821-la-biographie-dauguste-empereur-romain-63-av-jc-14-apr-jc.html" itemprop="url" title="Octave Auguste, le premier empereur romain">
+				Octave Auguste, le premier empereur romain</a>
+			</h2>
+
+			</header>
+		
+		    <!-- Aside -->
+		    		    <aside class="article-aside clearfix">
+		      		      	<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													Détails							</dt>
+
+							
+<dd class="createdby hasTooltip" itemprop="author" itemscope itemtype="http://schema.org/Person" title="Écrit par ">
+	<i class="fa fa-user"></i>
+			<span itemprop="name">Cnaudin</span>	</dd>
+			
+										<dd class="parent-category-name hasTooltip" title="Catégorie parente: ">
+				<i class="fa fa-folder"></i>
+									<a href="/biographies.html" ><span itemprop="genre">Biographies</span></a>							</dd>			
+			
+										<dd class="published hasTooltip" title="Publication : ">
+				<i class="icon-calendar"></i>
+				<time datetime="2025-02-11T10:30:00+01:00" itemprop="datePublished">
+					11 février 2025				</time>
+			</dd>					
+					
+			
+						</dl>
+		      		      
+		      		    </aside>  
+		    		    <!-- //Aside -->
+
+				
+				
+				
+				<section class="article-intro clearfix">
+					<p style="text-align: justify;"><img loading="lazy" src="/images/articles/dossiers/civilisations-empires/statue-empereur-auguste.jpg" alt="statue empereur auguste" width="215" height="205" style="margin-top: 0px; margin-bottom: 10px; margin-right: 10px; margin-left: 0px; float: left; border: outset 1px #C4C4C4" title="Octave Auguste" />De son vrai nom&nbsp;<em>Caius Julius Caesar Octavius</em>, <strong>Auguste </strong>est le premier et le plus célèbre des empereurs romains<strong>.</strong>&nbsp;Lorsque son oncle Jules César meurt en 44 avant J.-C., Octave entame une longue lutte politique afin d’accéder au pouvoir.&nbsp;En 31 avant J.-C., <a href="/batailles/733-la-bataille-d-actium.html">il gagne la bataille navale d’Actium</a> contre ses principaux rivaux Marc Antoine et la reine Cléopâtre d’Égypte.&nbsp;De retour à Rome, Octave met en place les bases d’un nouveau régime en 27 avant J.-C. : le principat. Désormais appelé Auguste, il cumule peu à peu l’ensemble des pouvoirs, fondant ainsi <a href="/civilisations/5210-la-civilisation-romaine-3-lempire-romain.html">les bases de l’Empire romain</a>.&nbsp;Marquée par la paix et la prospérité dans le domaine des arts, sa période de règne est appelée&nbsp;le « siècle d’Auguste » et sera considéré comme l'âge d'or du classicisme romain.</p>
+				</section>
+    
+		    <!-- footer -->
+		    		    <!-- //footer -->
+
+			    
+									<BR><section class="readmore">
+						<a class="btn btn-default" href="/biographies/2821-la-biographie-dauguste-empereur-romain-63-av-jc-14-apr-jc.html">
+							<span>
+							 Octave Auguste, le premier empereur romain							</span>
+						</a>
+					</section>
+					</article>
+	<!-- //Article -->
+
+ 			</div>
+			
+			
+	
+					<div class="item column-2 col-md-6">
+			
+
+	<!-- Article -->
+	<article>
+
+					
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					<a style="font-size:20px; font-weight: bold; font-familly:Helvetica, Arial, sans-serif " href="/biographies/2644-la-biographie-de-nelson-mandela-1918.html" itemprop="url" title="Nelson Mandela - Biographie">
+				Nelson Mandela - Biographie</a>
+			</h2>
+
+			</header>
+		
+		    <!-- Aside -->
+		    		    <aside class="article-aside clearfix">
+		      		      	<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													Détails							</dt>
+
+							
+<dd class="createdby hasTooltip" itemprop="author" itemscope itemtype="http://schema.org/Person" title="Écrit par ">
+	<i class="fa fa-user"></i>
+			<span itemprop="name">Kara Iskandar</span>	</dd>
+			
+										<dd class="parent-category-name hasTooltip" title="Catégorie parente: ">
+				<i class="fa fa-folder"></i>
+									<a href="/biographies.html" ><span itemprop="genre">Biographies</span></a>							</dd>			
+			
+										<dd class="published hasTooltip" title="Publication : ">
+				<i class="icon-calendar"></i>
+				<time datetime="2025-02-06T11:20:00+01:00" itemprop="datePublished">
+					6 février 2025				</time>
+			</dd>					
+					
+			
+						</dl>
+		      		      
+		      		    </aside>  
+		    		    <!-- //Aside -->
+
+				
+				
+				
+				<section class="article-intro clearfix">
+					<p style="text-align: justify;"><img loading="lazy" src="/images/articles/dossiers/biographies/nelson_mandela.jpg" alt="nelson mandela" width="145" height="220" style="margin-top: 0px; margin-bottom: 10px; margin-right: 10px; margin-left: 0px; float: left; border: outset 1px #C4C4C4" title="Nelson Mandela" /><strong>Nelson Mandela</strong>&nbsp;est un homme politique sud-africain, figure symbolique de la lutte contre l’apartheid.&nbsp;Condamné à la prison à perpétuité en 1964, il est libéré en 1990 par le président Frederik De Klerk. Les deux hommes reçoivent ensemble le prix Nobel de la paix en 1993. En 1994, Nelson Mandela remporte l’élection présidentielle et devient le premier président noir de l’Afrique du Sud (1994-1999). A la tête d'une nation arc-en-ciel, il est le dernier des géants du XXe siècle. Après la publication de ses Mémoires sous le titre <em>Un long chemin vers la liberté</em>, il est devenu en 2005 ambassadeur de bonne volonté de l’Unesco et, en 2006, ambassadeur de la conscience pour Amnesty international. Sa disparition en 2013 donne lieu à des funérailles de portée internationale.</p>
+				</section>
+    
+		    <!-- footer -->
+		    		    <!-- //footer -->
+
+			    
+									<BR><section class="readmore">
+						<a class="btn btn-default" href="/biographies/2644-la-biographie-de-nelson-mandela-1918.html">
+							<span>
+							 Nelson Mandela - Biographie							</span>
+						</a>
+					</section>
+					</article>
+	<!-- //Article -->
+
+ 			</div>
+			
+			
+		</div>
+		
+	
+		
+		<div class="items-row cols-2 row-7 row">
+					<div class="item column-1 col-md-6">
+			
+
+	<!-- Article -->
+	<article>
+
+					
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					<a style="font-size:20px; font-weight: bold; font-familly:Helvetica, Arial, sans-serif " href="/dossiers/1569-la-condition-des-femmes-au-moyen-age.html" itemprop="url" title="Les femmes au Moyen Age">
+				Les femmes au Moyen Age</a>
+			</h2>
+
+			</header>
+		
+		    <!-- Aside -->
+		    		    <aside class="article-aside clearfix">
+		      		      	<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													Détails							</dt>
+
+							
+<dd class="createdby hasTooltip" itemprop="author" itemscope itemtype="http://schema.org/Person" title="Écrit par ">
+	<i class="fa fa-user"></i>
+			<span itemprop="name">Viviane</span>	</dd>
+			
+										<dd class="parent-category-name hasTooltip" title="Catégorie parente: ">
+				<i class="fa fa-folder"></i>
+									<a href="/dossiers.html" ><span itemprop="genre">Histoire Universelle</span></a>							</dd>			
+			
+										<dd class="published hasTooltip" title="Publication : ">
+				<i class="icon-calendar"></i>
+				<time datetime="2025-02-06T10:46:00+01:00" itemprop="datePublished">
+					6 février 2025				</time>
+			</dd>					
+					
+			
+						</dl>
+		      		      
+		      		    </aside>  
+		    		    <!-- //Aside -->
+
+				
+				
+				
+				<section class="article-intro clearfix">
+					<p style="text-align: justify;"><img loading="lazy" src="/images/articles/dossiers/Moyen-age/femme-miel-moyen-age.jpg" alt="femme miel moyen age" width="193" height="200" style="margin-top: 0px; margin-bottom: 10px; margin-right: 10px; margin-left: 0px; float: left; border: outset 1px #C4C4C4" title="Femme récoltant du miel au Moyen Age" />Quelle était la place et la vie<strong>&nbsp;des femmes au Moyen Age&nbsp;</strong>dans la société médiévale&nbsp;? Celle-ci se déclinait suivant la diversité des âges et des positions sociales, suivant la place occupée dans la famille, au sein du couple par rapport à la sexualité, et au rôle primordial de la maternité.&nbsp;Le simple mystère de l'enfantement inspire d'ailleurs la crainte des hommes&nbsp;et justifie à lui seul l'idée que la femme est un être démoniaque, capable de charmer et d'envoûter. De la petite-fille à la grand-mère, de la paysanne à la moniale en passant par la gente dame, c'est pourtant tout un univers méconnu que l'on redécouvre depuis peu.</p>
+				</section>
+    
+		    <!-- footer -->
+		    		    <!-- //footer -->
+
+			    
+									<BR><section class="readmore">
+						<a class="btn btn-default" href="/dossiers/1569-la-condition-des-femmes-au-moyen-age.html">
+							<span>
+							 Les femmes au Moyen Age							</span>
+						</a>
+					</section>
+					</article>
+	<!-- //Article -->
+
+ 			</div>
+			
+			
+	
+					<div class="item column-2 col-md-6">
+			
+
+	<!-- Article -->
+	<article>
+
+					
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					<a style="font-size:20px; font-weight: bold; font-familly:Helvetica, Arial, sans-serif " href="/inventions/307-invention-de-imprimerie.html" itemprop="url" title="Gutenberg et l'invention de l'imprimerie (1454)">
+				Gutenberg et l'invention de l'imprimerie (1454)</a>
+			</h2>
+
+			</header>
+		
+		    <!-- Aside -->
+		    		    <aside class="article-aside clearfix">
+		      		      	<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													Détails							</dt>
+
+							
+<dd class="createdby hasTooltip" itemprop="author" itemscope itemtype="http://schema.org/Person" title="Écrit par ">
+	<i class="fa fa-user"></i>
+			<span itemprop="name">Lucrèce</span>	</dd>
+			
+										<dd class="parent-category-name hasTooltip" title="Catégorie parente: ">
+				<i class="fa fa-folder"></i>
+									<a href="/inventions.html" ><span itemprop="genre">Inventions et découvertes</span></a>							</dd>			
+			
+										<dd class="published hasTooltip" title="Publication : ">
+				<i class="icon-calendar"></i>
+				<time datetime="2025-02-06T09:46:00+01:00" itemprop="datePublished">
+					6 février 2025				</time>
+			</dd>					
+					
+			
+						</dl>
+		      		      
+		      		    </aside>  
+		    		    <!-- //Aside -->
+
+				
+				
+				
+				<section class="article-intro clearfix">
+					<p style="text-align: justify;"><strong><img loading="lazy" src="/images/articles/dossiers/inventions-decouvertes/imprimerie-gutenberg.jpg" alt="imprimerie gutenberg" width="193" height="220" style="margin-top: 0px; margin-bottom: 10px; margin-right: 10px; margin-left: 0px; float: left; border: outset 1px #C4C4C4" title="L'imprimerie de Gutenberg" />Johannes Gutenberg</strong> est considéré comme l'<strong>inventeur de l'imprimerie</strong> occidentale moderne vers 1454. Avant lui, ce sont les chinois qui se sont intéressés les premiers au concept de l'impression dans le but de simplifier l'utilisation de leur écriture idéographique. Au XVe siècle, Gutenberg met au point un moyen d'accélerer la vitesse de reproduction avec deux inventions : les caractères mobiles en métal et la presse à bras. Dès lors, l'imprimerie va contribuer largement <a href="/dossiers/5763-la-renaissance-l-europe-a-la-redecouverte-de-l-antiquite.html">à la diffusion rapides des connaissances, de la pensée et des idées pendant la Renaissance</a>.&nbsp;Cette invention va permettre à des millions de livres de se répandre à travers le monde.&nbsp;Le célèbre allemand, mort en 1468 dans la misère, n’a jamais tiré profit de son invention.</p>
+				</section>
+    
+		    <!-- footer -->
+		    		    <!-- //footer -->
+
+			    
+									<BR><section class="readmore">
+						<a class="btn btn-default" href="/inventions/307-invention-de-imprimerie.html">
+							<span>
+							 Gutenberg et l'invention de l'imprimerie (1454)							</span>
+						</a>
+					</section>
+					</article>
+	<!-- //Article -->
+
+ 			</div>
+			
+			
+		</div>
+		
+	
+		
+		<div class="items-row cols-2 row-8 row">
+					<div class="item column-1 col-md-6">
+			
+
+	<!-- Article -->
+	<article>
+
+					
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					<a style="font-size:20px; font-weight: bold; font-familly:Helvetica, Arial, sans-serif " href="/civilisations/3052-la-civilisation-egyptienne-au-temps-des-pharaons.html" itemprop="url" title="La civilisation égyptienne : l'Égypte antique">
+				La civilisation égyptienne : l'Égypte antique</a>
+			</h2>
+
+			</header>
+		
+		    <!-- Aside -->
+		    		    <aside class="article-aside clearfix">
+		      		      	<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													Détails							</dt>
+
+							
+<dd class="createdby hasTooltip" itemprop="author" itemscope itemtype="http://schema.org/Person" title="Écrit par ">
+	<i class="fa fa-user"></i>
+			<span itemprop="name">Lucrèce</span>	</dd>
+			
+										<dd class="parent-category-name hasTooltip" title="Catégorie parente: ">
+				<i class="fa fa-folder"></i>
+									<a href="/civilisations.html" ><span itemprop="genre">Civilisations et Empires</span></a>							</dd>			
+			
+										<dd class="published hasTooltip" title="Publication : ">
+				<i class="icon-calendar"></i>
+				<time datetime="2025-02-06T09:40:00+01:00" itemprop="datePublished">
+					6 février 2025				</time>
+			</dd>					
+					
+			
+						</dl>
+		      		      
+		      		    </aside>  
+		    		    <!-- //Aside -->
+
+				
+				
+				
+				<section class="article-intro clearfix">
+					<p style="text-align: justify;"><img loading="lazy" src="/images/articles/dossiers/civilisations-empires/statue-ramsesII.jpg" alt="statue ramsesII" width="171" height="220" style="margin-top: 0px; margin-bottom: 10px; margin-right: 10px; margin-left: 0px; float: left; border: outset 1px #C4C4C4" title="Statue de Ramsès II" />La <strong>civilisation égyptienne</strong> est l'une des plus anciennes de l'antiquité. Redécouverte que tardivement par l'Occident, elle a débuté un peu avant 3000 avant J.-C., lorsque le roi Narmer réunit la Haute et la Basse-Égypte en un seul pays. Il est le premier pharaon d’une longue lignée de souverains qui va régner pendant plus de 2 500 ans. L’Égypte antique doit sa prospérité et son exceptionnelle longévité au Nil, qui apportait des inondations annuelles régulières, assurant des récoltes toujours plus abondantes. Principal axe de communication nord-sud, le fleuve était bordé par un immense désert qui protégeait la région des invasions et offrait pierres de construction et métaux précieux.&nbsp;Sans le Nil, l’Égypte ne serait donc qu’un désert, et la civilisation égyptienne n’aurait probablement pas pu naître. Comme le soulignera l’écrivain grec Hérodote dès le Ve siècle avant J.-C., « l’Égypte est un don du Nil ».</p>
+				</section>
+    
+		    <!-- footer -->
+		    		    <!-- //footer -->
+
+			    
+									<BR><section class="readmore">
+						<a class="btn btn-default" href="/civilisations/3052-la-civilisation-egyptienne-au-temps-des-pharaons.html">
+							<span>
+							 La civilisation égyptienne : l'Égypte antique							</span>
+						</a>
+					</section>
+					</article>
+	<!-- //Article -->
+
+ 			</div>
+			
+			
+	
+					<div class="item column-2 col-md-6">
+			
+
+	<!-- Article -->
+	<article>
+
+					
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					<a style="font-size:20px; font-weight: bold; font-familly:Helvetica, Arial, sans-serif " href="/biographies/248-la-biographie-de-christophe-colomb-1451-1506.html" itemprop="url" title="Christophe Colomb : sa biographie et ses voyages">
+				Christophe Colomb : sa biographie et ses voyages</a>
+			</h2>
+
+			</header>
+		
+		    <!-- Aside -->
+		    		    <aside class="article-aside clearfix">
+		      		      	<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													Détails							</dt>
+
+							
+<dd class="createdby hasTooltip" itemprop="author" itemscope itemtype="http://schema.org/Person" title="Écrit par ">
+	<i class="fa fa-user"></i>
+			<span itemprop="name">Bastet</span>	</dd>
+			
+										<dd class="parent-category-name hasTooltip" title="Catégorie parente: ">
+				<i class="fa fa-folder"></i>
+									<a href="/biographies.html" ><span itemprop="genre">Biographies</span></a>							</dd>			
+			
+										<dd class="published hasTooltip" title="Publication : ">
+				<i class="icon-calendar"></i>
+				<time datetime="2025-01-31T11:08:00+01:00" itemprop="datePublished">
+					31 janvier 2025				</time>
+			</dd>					
+					
+			
+						</dl>
+		      		      
+		      		    </aside>  
+		    		    <!-- //Aside -->
+
+				
+				
+				
+				<section class="article-intro clearfix">
+					<p style="text-align: justify;"><img loading="lazy" src="/images/articles/dossiers/biographies/christophe-colomb-portrait.jpg" alt="christophe colomb portrait" width="173" height="230" style="margin-top: 0px; margin-bottom: 10px; margin-right: 10px; margin-left: 0px; float: left; border: outset 1px #C4C4C4" title="Christophe Collomb" /><strong>Christophe Colomb</strong>, navigateur de nationalité espagnole d'origine génoise, est devenu célèbre pour avoir <strong>découvert le futur continent américain en 1492</strong>. Convaincu qu'il est possible d'atteindre les Indes par l'ouest et malgré les nombreuses réticences de ses contemporains, il avait fini par obtenir le soutien financier des souverains espagnols Ferdinand d'Aragon et Isabelle de Castille pour monter son expédition. Au cours de quatre voyages successifs, il va explorer les Caraïbes et même apercevoir le continent, mais restera convaincu jusqu'à la fin de sa vie d'avoir atteint l'Asie. Il échouera à établir une colonisation pérenne dans les îles découvertes, du fait de l'hostilité des indigènes, des exactions des espagnols et de ses piètres qualités d'administrateur. Contraint de retourner en Espagne, il y connaîtra la disgrâce, sombrant pour un temps dans l'oubli.</p>
+				</section>
+    
+		    <!-- footer -->
+		    		    <!-- //footer -->
+
+			    
+									<BR><section class="readmore">
+						<a class="btn btn-default" href="/biographies/248-la-biographie-de-christophe-colomb-1451-1506.html">
+							<span>
+							 Christophe Colomb : sa biographie et ses voyages							</span>
+						</a>
+					</section>
+					</article>
+	<!-- //Article -->
+
+ 			</div>
+			
+			
+		</div>
+		
+	
+		
+		<div class="items-row cols-2 row-9 row">
+					<div class="item column-1 col-md-6">
+			
+
+	<!-- Article -->
+	<article>
+
+					
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					<a style="font-size:20px; font-weight: bold; font-familly:Helvetica, Arial, sans-serif " href="/histoire-de-france/4893-la-revolution-francaise-1789.html" itemprop="url" title="Révolution française 1789-1799 : chronologie et résumé">
+				Révolution française 1789-1799 : chronologie et résumé</a>
+			</h2>
+
+			</header>
+		
+		    <!-- Aside -->
+		    		    <aside class="article-aside clearfix">
+		      		      	<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													Détails							</dt>
+
+							
+<dd class="createdby hasTooltip" itemprop="author" itemscope itemtype="http://schema.org/Person" title="Écrit par ">
+	<i class="fa fa-user"></i>
+			<span itemprop="name">Ninon du Plessy</span>	</dd>
+			
+										<dd class="parent-category-name hasTooltip" title="Catégorie parente: ">
+				<i class="fa fa-folder"></i>
+									<a href="/histoire-de-france.html" ><span itemprop="genre">Histoire de France</span></a>							</dd>			
+			
+										<dd class="published hasTooltip" title="Publication : ">
+				<i class="icon-calendar"></i>
+				<time datetime="2025-01-31T11:00:00+01:00" itemprop="datePublished">
+					31 janvier 2025				</time>
+			</dd>					
+					
+			
+						</dl>
+		      		      
+		      		    </aside>  
+		    		    <!-- //Aside -->
+
+				
+				
+				
+				<section class="article-intro clearfix">
+					<p style="text-align: justify;"><em><img loading="lazy" src="/images/articles/dossiers/histoire-de-france/prise-de-la-bastille-14-juillet-1789.jpg" alt="prise de la bastille 14 juillet 1789" width="230" height="187" style="margin: 10px; float: left;" title="La prise de la Bastille" /></em>Commencée avec <a href="/histoire-de-france/5752-les-etats-generaux-de-1789.html">l’ouverture des états généraux (mai 1789)</a>, la <strong>Révolution française</strong>&nbsp;a provoqué le renversement de la monarchie et de l’ordre social de l’Ancien Régime reposant sur trois classes distinctes dont les droits devant la loi et devant l’impôt étaient inégaux. Après une période modérée, marquée par l’abolition des privilèges et la <a href="/histoire-de-france/5632-declaration-des-droits-de-l-homme-et-du-citoyen-1789.html">Déclaration des droits de l’Homme et du Citoyen (août 1789)</a>, la Révolution se radicalise à partir de la fuite du roi à Varennes (juin 1791) et l’entrée en guerre contre les puissances européennes (avril 1792). Au lendemain de la chute de la monarchie (août 1792) et de l’instauration de la République (septembre 1792), la Terreur est à l’ordre du jour, mais les modérés renversent Robespierre (juillet 1794), puis instaurent le Directoire (octobre 1795). Lui succèdera enfin le Consulat en 1799, prélude de l'épopée napoléonienne.</p>
+				</section>
+    
+		    <!-- footer -->
+		    		    <!-- //footer -->
+
+			    
+									<BR><section class="readmore">
+						<a class="btn btn-default" href="/histoire-de-france/4893-la-revolution-francaise-1789.html">
+							<span>
+							 Révolution française 1789-1799 : chronologie et résumé							</span>
+						</a>
+					</section>
+					</article>
+	<!-- //Article -->
+
+ 			</div>
+			
+			
+	
+					<div class="item column-2 col-md-6">
+			
+
+	<!-- Article -->
+	<article>
+
+					
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					<a style="font-size:20px; font-weight: bold; font-familly:Helvetica, Arial, sans-serif " href="/inventions/287-invention-automobile.html" itemprop="url" title="Première voiture : invention et histoire de l’automobile ">
+				Première voiture : invention et histoire de l’automobile </a>
+			</h2>
+
+			</header>
+		
+		    <!-- Aside -->
+		    		    <aside class="article-aside clearfix">
+		      		      	<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													Détails							</dt>
+
+							
+<dd class="createdby hasTooltip" itemprop="author" itemscope itemtype="http://schema.org/Person" title="Écrit par ">
+	<i class="fa fa-user"></i>
+			<span itemprop="name">Esteban Moulinsard</span>	</dd>
+			
+										<dd class="parent-category-name hasTooltip" title="Catégorie parente: ">
+				<i class="fa fa-folder"></i>
+									<a href="/inventions.html" ><span itemprop="genre">Inventions et découvertes</span></a>							</dd>			
+			
+										<dd class="published hasTooltip" title="Publication : ">
+				<i class="icon-calendar"></i>
+				<time datetime="2025-01-31T10:30:00+01:00" itemprop="datePublished">
+					31 janvier 2025				</time>
+			</dd>					
+					
+			
+						</dl>
+		      		      
+		      		    </aside>  
+		    		    <!-- //Aside -->
+
+				
+				
+				
+				<section class="article-intro clearfix">
+					<p style="text-align: justify;"><img loading="lazy" src="/images/articles/dossiers/inventions-decouvertes/renault-4cv.jpg" alt="renault 4cv" width="220" height="214" style="margin-top: 0px; margin-bottom: 10px; margin-right: 10px; margin-left: 0px; float: left; border: outset 1px #C4C4C4" title="La Renault 4CV" />L'<strong>invention de l'automobile </strong>et la mise au point de la<strong> première voiture </strong>à la fin du XIXe siècle<strong>&nbsp;</strong>ont&nbsp;révolutionné&nbsp;<a href="/inventions/117-transports-terrestres.html">le domaine des transports</a>. Depuis les premières expériences de locomotion individuelle jusqu’aux voitures électriques autonomes et connectées, l’automobile ne cesse de se réinventer. Étape majeure de la <a href="/dossiers/5662-revolution-industrielle-en-france-et-dans-le-monde-xixe.html">révolution industrielle</a>, cette innovation a eu des conséquences économiques et sociales universelles difficilement comparables. Jamais peut-être un objet technique n’a été autant assimilé et apprivoisé, ni autant investi de passions et de mythologies, à titre personnel ou collectif.&nbsp;De nos jours, les constructeurs travaillent sur des modèles toujours plus compacts, dotés de nouveaux moteurs (électriques, solaire, à hydrogène, etc.) et de nouveaux équipements de sécurité (système anti-collision, voiture intelligente, etc.).</p>
+				</section>
+    
+		    <!-- footer -->
+		    		    <!-- //footer -->
+
+			    
+									<BR><section class="readmore">
+						<a class="btn btn-default" href="/inventions/287-invention-automobile.html">
+							<span>
+							 Première voiture : invention et histoire de l’automobile 							</span>
+						</a>
+					</section>
+					</article>
+	<!-- //Article -->
+
+ 			</div>
+			
+			
+		</div>
+		
+	
+		
+		<div class="items-row cols-2 row-10 row">
+					<div class="item column-1 col-md-6">
+			
+
+	<!-- Article -->
+	<article>
+
+					
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					<a style="font-size:20px; font-weight: bold; font-familly:Helvetica, Arial, sans-serif " href="/dossiers/4534-le-mythe-dhercule-et-ses-douze-travaux.html" itemprop="url" title="Hercule et ses douze travaux">
+				Hercule et ses douze travaux</a>
+			</h2>
+
+			</header>
+		
+		    <!-- Aside -->
+		    		    <aside class="article-aside clearfix">
+		      		      	<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													Détails							</dt>
+
+							
+<dd class="createdby hasTooltip" itemprop="author" itemscope itemtype="http://schema.org/Person" title="Écrit par ">
+	<i class="fa fa-user"></i>
+			<span itemprop="name">Bastet</span>	</dd>
+			
+										<dd class="parent-category-name hasTooltip" title="Catégorie parente: ">
+				<i class="fa fa-folder"></i>
+									<a href="/dossiers.html" ><span itemprop="genre">Histoire Universelle</span></a>							</dd>			
+			
+										<dd class="published hasTooltip" title="Publication : ">
+				<i class="icon-calendar"></i>
+				<time datetime="2025-01-31T10:19:00+01:00" itemprop="datePublished">
+					31 janvier 2025				</time>
+			</dd>					
+					
+			
+						</dl>
+		      		      
+		      		    </aside>  
+		    		    <!-- //Aside -->
+
+				
+				
+				
+				<section class="article-intro clearfix">
+					<p style="text-align: justify;"><img loading="lazy" src="/images/articles/Grece_antique/Hercule_combattant_lHydre_de_Lerne_Cramique_VIe_sicle_av.J.C.jpg" alt="Hercule combattant lHydre de Lerne Cramique VIe sicle av.J.C" width="270" height="124" style="margin-top: 0px; margin-bottom: 10px; margin-right: 10px; margin-left: 0px; float: left; border: outset 1px #C4C4C4" title="Hercule combattant l'Hydre de Lerne, Céramique VIe siècle av.J.C" /><strong>Hercule </strong>(Héraclès pour les grecs)&nbsp;est un héros de la mythologie gréco-romaine, célèbre pour avoir accompli une série de tâches extrêmement difficiles : les « <strong>douze travaux d'Hercule</strong>&nbsp;».&nbsp;Ces « douze travaux », qu'il réalise en expiation d'une crise de folie au cours de laquelle il a tué sa femme et ses enfants, lui ont été ordonnés par son cousin Eurysthée. Demi-dieu, fils de <strong>Zeus </strong>et d’Alcmène, symbole de courage et de force, il combattra sans relâche des créatures fantastiques et subira tout au long de sa vie le couroux de sa belle-mère : <strong>Héra.</strong> C’est ce que l’on retient principalement de lui mais <strong>qu’en est-il de sa part d’ombre ?</strong> Avidité, violence, intelligence modeste, accès de folie… Hercule possède aussi les pires défauts.</p>
+				</section>
+    
+		    <!-- footer -->
+		    		    <!-- //footer -->
+
+			    
+									<BR><section class="readmore">
+						<a class="btn btn-default" href="/dossiers/4534-le-mythe-dhercule-et-ses-douze-travaux.html">
+							<span>
+							 Hercule et ses douze travaux							</span>
+						</a>
+					</section>
+					</article>
+	<!-- //Article -->
+
+ 			</div>
+			
+			
+	
+					<div class="item column-2 col-md-6">
+			
+
+	<!-- Article -->
+	<article>
+
+					
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					<a style="font-size:20px; font-weight: bold; font-familly:Helvetica, Arial, sans-serif " href="/biographies/3411-elisabeth-ire-reine-dangleterre-1558-1603-biographie.html" itemprop="url" title="Élisabeth Ire, reine d'Angleterre (1558-1603) ">
+				Élisabeth Ire, reine d'Angleterre (1558-1603) </a>
+			</h2>
+
+			</header>
+		
+		    <!-- Aside -->
+		    		    <aside class="article-aside clearfix">
+		      		      	<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													Détails							</dt>
+
+							
+<dd class="createdby hasTooltip" itemprop="author" itemscope itemtype="http://schema.org/Person" title="Écrit par ">
+	<i class="fa fa-user"></i>
+			<span itemprop="name">Cnaudin</span>	</dd>
+			
+										<dd class="parent-category-name hasTooltip" title="Catégorie parente: ">
+				<i class="fa fa-folder"></i>
+									<a href="/biographies.html" ><span itemprop="genre">Biographies</span></a>							</dd>			
+			
+										<dd class="published hasTooltip" title="Publication : ">
+				<i class="icon-calendar"></i>
+				<time datetime="2025-01-24T10:24:00+01:00" itemprop="datePublished">
+					24 janvier 2025				</time>
+			</dd>					
+					
+			
+						</dl>
+		      		      
+		      		    </aside>  
+		    		    <!-- //Aside -->
+
+				
+				
+				
+				<section class="article-intro clearfix">
+					<p style="text-align: justify;"><img loading="lazy" src="/images/articles/dossiers/biographies/elisabeth1.jpg" alt="elisabeth1" width="192" height="240" style="margin-top: 0px; margin-bottom: 10px; margin-right: 10px; margin-left: 0px; float: left; border: outset 1px #C4C4C4" />Fille <a href="/biographies/3026-henri-viii-dangleterre-1491-1547-biographie.html">du roi Henri VIII</a> et d’Anne Boleyn, <strong>Élisabeth Ire</strong>&nbsp;(ou Elizabeth I) est <strong>reine d’Angleterre et d'Irlande de 1558 à 1603</strong>. Elle est la dernière représentante de la dynastie des Tudor. Surnommée parfois la « <strong>Reine Vierge</strong>&nbsp;», elle a longtemps bénéficié d’une image très positive, étant considérée comme la plus grande reine de l’histoire de l’Angleterre, et l’un de ses plus grands souverains. L’ère élisabéthaine est en effet une période exceptionnellement brillante dans l’histoire de l’Angleterre et correspond à une époque d’intense activité artistique et littéraire.&nbsp;Le règne d’Élisabeth Ire voit aussi&nbsp; l’expansion de l’industrie et du commerce, avec la création de la Bourse de Londres (1566) et la fondation de nombreuses compagnies à charte, notamment la Compagnie des Indes orientales.</p>
+				</section>
+    
+		    <!-- footer -->
+		    		    <!-- //footer -->
+
+			    
+									<BR><section class="readmore">
+						<a class="btn btn-default" href="/biographies/3411-elisabeth-ire-reine-dangleterre-1558-1603-biographie.html">
+							<span>
+							 Élisabeth Ire, reine d'Angleterre (1558-1603) 							</span>
+						</a>
+					</section>
+					</article>
+	<!-- //Article -->
+
+ 			</div>
+			
+			
+		</div>
+		
+	
+		
+		<div class="items-row cols-2 row-11 row">
+					<div class="item column-1 col-md-6">
+			
+
+	<!-- Article -->
+	<article>
+
+					
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					<a style="font-size:20px; font-weight: bold; font-familly:Helvetica, Arial, sans-serif " href="/inventions/309-invention-electricite.html" itemprop="url" title="Invention de l’électricité (1800)">
+				Invention de l’électricité (1800)</a>
+			</h2>
+
+			</header>
+		
+		    <!-- Aside -->
+		    		    <aside class="article-aside clearfix">
+		      		      	<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													Détails							</dt>
+
+							
+<dd class="createdby hasTooltip" itemprop="author" itemscope itemtype="http://schema.org/Person" title="Écrit par ">
+	<i class="fa fa-user"></i>
+			<span itemprop="name">Esteban Moulinsard</span>	</dd>
+			
+										<dd class="parent-category-name hasTooltip" title="Catégorie parente: ">
+				<i class="fa fa-folder"></i>
+									<a href="/inventions.html" ><span itemprop="genre">Inventions et découvertes</span></a>							</dd>			
+			
+										<dd class="published hasTooltip" title="Publication : ">
+				<i class="icon-calendar"></i>
+				<time datetime="2025-01-24T10:15:00+01:00" itemprop="datePublished">
+					24 janvier 2025				</time>
+			</dd>					
+					
+			
+						</dl>
+		      		      
+		      		    </aside>  
+		    		    <!-- //Aside -->
+
+				
+				
+				
+				<section class="article-intro clearfix">
+					<p style="text-align: justify;"><img loading="lazy" src="/images/articles/dossiers/inventions-decouvertes/electricite.jpg" alt="electricite" width="124" height="93" style="margin-top: 0px; margin-bottom: 10px; margin-right: 10px; margin-left: 0px; float: left; border: outset 1px #C4C4C4" /><strong>L'invention de l'électricité</strong>, ou plutôt l'élaboration de la science des phénomènes d'électrisation, a été matérialisée par la <strong>loi de Coulomb</strong> (1785), permettant à <strong>Volta</strong> de créer la première pile électrique (1800) puis à <strong>Thomas Edison</strong> d'éclairer usines et foyers (1879).&nbsp;Si les&nbsp;<strong>phénomènes électriques</strong>&nbsp;ont toujours existé et ont été observé dès l'antiquité, il aura fallu attendre&nbsp;<strong>la fin du XVIIIe</strong>&nbsp;pour les théoriser, et le XIXe siècle pour les maîtriser.</p>
+<p>&nbsp;</p>
+				</section>
+    
+		    <!-- footer -->
+		    		    <!-- //footer -->
+
+			    
+									<BR><section class="readmore">
+						<a class="btn btn-default" href="/inventions/309-invention-electricite.html">
+							<span>
+							 Invention de l’électricité (1800)							</span>
+						</a>
+					</section>
+					</article>
+	<!-- //Article -->
+
+ 			</div>
+			
+			
+	
+					<div class="item column-2 col-md-6">
+			
+
+	<!-- Article -->
+	<article>
+
+					
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					<a style="font-size:20px; font-weight: bold; font-familly:Helvetica, Arial, sans-serif " href="/biographies/3026-henri-viii-dangleterre-1491-1547-biographie.html" itemprop="url" title="Henri VIII, roi d'Angleterre (1509-1547)">
+				Henri VIII, roi d'Angleterre (1509-1547)</a>
+			</h2>
+
+			</header>
+		
+		    <!-- Aside -->
+		    		    <aside class="article-aside clearfix">
+		      		      	<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													Détails							</dt>
+
+							
+<dd class="createdby hasTooltip" itemprop="author" itemscope itemtype="http://schema.org/Person" title="Écrit par ">
+	<i class="fa fa-user"></i>
+			<span itemprop="name">Cnaudin</span>	</dd>
+			
+										<dd class="parent-category-name hasTooltip" title="Catégorie parente: ">
+				<i class="fa fa-folder"></i>
+									<a href="/biographies.html" ><span itemprop="genre">Biographies</span></a>							</dd>			
+			
+										<dd class="published hasTooltip" title="Publication : ">
+				<i class="icon-calendar"></i>
+				<time datetime="2025-01-24T09:42:00+01:00" itemprop="datePublished">
+					24 janvier 2025				</time>
+			</dd>					
+					
+			
+						</dl>
+		      		      
+		      		    </aside>  
+		    		    <!-- //Aside -->
+
+				
+				
+				
+				<section class="article-intro clearfix">
+					<p style="text-align: justify;"><img loading="lazy" src="/images/articles/dossiers/Moyen-age/henriviii-fin-regne.jpg" alt="henriviii fin regne" width="260" height="195" style="margin: 10px; float: left;" title="Henri VIII à la fin de son règne" /><strong>Roi d'Angleterre</strong> de 1509 à 1547, <strong>Henri VIII</strong> est surtout connu pour ses rapports compliqués avec ses épouses, puisqu’il en a fait exécuter deux, et que l’annulation de son premier mariage est à l’origine du schisme avec Rome. Néanmoins, Henri VIII fut aussi le roi d’une Angleterre ayant eu la volonté de se poser en arbitre dans la lutte entre Charles Quint et François Ier dans le contexte, décisif pour l’Europe, de la Réforme. La crise avec Rome allait amener à la création de l’anglicanisme, entériné sous le règne de la fille d’Henri VIII, <a href="/biographies/3411-elisabeth-ire-reine-dangleterre-1558-1603-biographie.html"><strong>Elisabeth Ire</strong></a>. Enfin c'est sous son règne que débuta l'expansion de la marine britannique.</p>
+				</section>
+    
+		    <!-- footer -->
+		    		    <!-- //footer -->
+
+			    
+									<BR><section class="readmore">
+						<a class="btn btn-default" href="/biographies/3026-henri-viii-dangleterre-1491-1547-biographie.html">
+							<span>
+							 Henri VIII, roi d'Angleterre (1509-1547)							</span>
+						</a>
+					</section>
+					</article>
+	<!-- //Article -->
+
+ 			</div>
+			
+			
+		</div>
+		
+	
+		
+		<div class="items-row cols-2 row-12 row">
+					<div class="item column-1 col-md-6">
+			
+
+	<!-- Article -->
+	<article>
+
+					
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					<a style="font-size:20px; font-weight: bold; font-familly:Helvetica, Arial, sans-serif " href="/chronologies/3302-chronologie-des-rois-de-france.html" itemprop="url" title="Rois de France - Liste et Chronologie">
+				Rois de France - Liste et Chronologie</a>
+			</h2>
+
+			</header>
+		
+		    <!-- Aside -->
+		    		    <aside class="article-aside clearfix">
+		      		      	<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													Détails							</dt>
+
+							
+<dd class="createdby hasTooltip" itemprop="author" itemscope itemtype="http://schema.org/Person" title="Écrit par ">
+	<i class="fa fa-user"></i>
+			<span itemprop="name">Ninon du Plessy</span>	</dd>
+			
+										<dd class="parent-category-name hasTooltip" title="Catégorie parente: ">
+				<i class="fa fa-folder"></i>
+									<a href="/chronologies.html" ><span itemprop="genre">Chronologies</span></a>							</dd>			
+			
+										<dd class="published hasTooltip" title="Publication : ">
+				<i class="icon-calendar"></i>
+				<time datetime="2025-01-24T09:25:07+01:00" itemprop="datePublished">
+					24 janvier 2025				</time>
+			</dd>					
+					
+			
+						</dl>
+		      		      
+		      		    </aside>  
+		    		    <!-- //Aside -->
+
+				
+				
+				
+				<section class="article-intro clearfix">
+					<p style="text-align: justify;"><img loading="lazy" src="/images/articles/dossiers/philippeauguste_couronnejpg.jpg" alt="philippeauguste couronnejpg" width="175" height="200" style="margin-top: 0px; margin-bottom: 10px; margin-right: 10px; margin-left: 0px; float: left; border: outset 1px #C4C4C4" title="Couronnement de Philippe Auguste" />Les <strong>rois de France</strong> sont étroitement liés à l'histoire de notre pays. Pendant quatorze siècles, 81 monarques vont se succéder sur le trône de France. A l’origine féodale, devenue absolue puis constitutionnelle, la monarchie en France a en effet connu une exceptionnelle longévité et relative continuité. Des mérovingiens au capétien Louis VII, les souverains portent le titre de "roi des francs". A la fin du XIIe siècle, Philippe Auguste est le premier d'une longue liste à prendre le titre de "roi de France" (R<em>ex Franciæ</em> en latin). Le caractère héréditaire et sacré du souverain va faire du <strong>roi en France</strong> le personnage central de la vie politique et le pivot de la société.</p>
+				</section>
+    
+		    <!-- footer -->
+		    		    <!-- //footer -->
+
+			    
+									<BR><section class="readmore">
+						<a class="btn btn-default" href="/chronologies/3302-chronologie-des-rois-de-france.html">
+							<span>
+							 Rois de France - Liste et Chronologie							</span>
+						</a>
+					</section>
+					</article>
+	<!-- //Article -->
+
+ 			</div>
+			
+			
+	
+					<div class="item column-2 col-md-6">
+			
+
+	<!-- Article -->
+	<article>
+
+					
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					<a style="font-size:20px; font-weight: bold; font-familly:Helvetica, Arial, sans-serif " href="/dossiers/2908-la-legende-et-le-tresor-des-nibelungen.html" itemprop="url" title="Siegfried et la légende des Nibelungen">
+				Siegfried et la légende des Nibelungen</a>
+			</h2>
+
+			</header>
+		
+		    <!-- Aside -->
+		    		    <aside class="article-aside clearfix">
+		      		      	<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													Détails							</dt>
+
+							
+<dd class="createdby hasTooltip" itemprop="author" itemscope itemtype="http://schema.org/Person" title="Écrit par ">
+	<i class="fa fa-user"></i>
+			<span itemprop="name">Ninon du Plessy</span>	</dd>
+			
+										<dd class="parent-category-name hasTooltip" title="Catégorie parente: ">
+				<i class="fa fa-folder"></i>
+									<a href="/dossiers.html" ><span itemprop="genre">Histoire Universelle</span></a>							</dd>			
+			
+										<dd class="published hasTooltip" title="Publication : ">
+				<i class="icon-calendar"></i>
+				<time datetime="2025-01-20T10:48:00+01:00" itemprop="datePublished">
+					20 janvier 2025				</time>
+			</dd>					
+					
+			
+						</dl>
+		      		      
+		      		    </aside>  
+		    		    <!-- //Aside -->
+
+				
+				
+				
+				<section class="article-intro clearfix">
+					<p style="text-align: justify;"><img loading="lazy" src="/images/articles/dossiers/Nibelungen.jpg" alt="Nibelungen" width="220" height="170" style="margin-top: 0px; margin-bottom: 10px; margin-right: 10px; margin-left: 0px; float: left; border: outset 1px #C4C4C4" title="Hagen jetant le trésor des Nibelungen dans le Rhin" />Le chevalier <strong>Siegfried</strong> est célèbre pour avoir triomphé d’un dragon et combattu deux chefs <a href="/histoire-de-france/3326-histoire-de-la-bourgogne-le-royaume-burgonde.html">burgondes</a> de la famille des Nibelung, famille à laquelle il a de plus dérobé son trésor, un glaive magique et la <em>tarnkappe</em>, une cape qui rend invisible celui qui la porte. Par la suite, Siegfried épouse la belle Kriemhild avant de se faire lâchement assassiner par le traître Hagen, son trésor disparaissant dans le Rhin. Cette épopée a pour origine&nbsp;<strong><em>La Chanson des Nibelungen</em></strong>, un&nbsp;poème écrit peu après 1200 en Autriche par un auteur anonyme. Inspirée de mythologies plus anciennes, notamment scandinave et germanique, la <em>Chanson des Nibelungen</em> est une histoire d’amour et de trahison, de cupidité et de vengeance, de bonheurs et de souffrances. Le musicien <a href="/biographies/3089-richard-wagner-1813-1883-biographie.html">Richard Wagner</a> en reprend les thèmes principaux pour composer sa Tétralogie (connue aussi sous le nom de l’Anneau du Nibelung).</p>
+				</section>
+    
+		    <!-- footer -->
+		    		    <!-- //footer -->
+
+			    
+									<BR><section class="readmore">
+						<a class="btn btn-default" href="/dossiers/2908-la-legende-et-le-tresor-des-nibelungen.html">
+							<span>
+							 Siegfried et la légende des Nibelungen							</span>
+						</a>
+					</section>
+					</article>
+	<!-- //Article -->
+
+ 			</div>
+			
+			
+		</div>
+		
+	
+		
+		<div class="items-row cols-2 row-13 row">
+					<div class="item column-1 col-md-6">
+			
+
+	<!-- Article -->
+	<article>
+
+					
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					<a style="font-size:20px; font-weight: bold; font-familly:Helvetica, Arial, sans-serif " href="/dossiers/5792-l-europe-des-origines.html" itemprop="url" title="L'Europe des origines">
+				L'Europe des origines</a>
+			</h2>
+
+			</header>
+		
+		    <!-- Aside -->
+		    		    <aside class="article-aside clearfix">
+		      		      	<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													Détails							</dt>
+
+							
+<dd class="createdby hasTooltip" itemprop="author" itemscope itemtype="http://schema.org/Person" title="Écrit par ">
+	<i class="fa fa-user"></i>
+			<span itemprop="name">Lucrèce</span>	</dd>
+			
+										<dd class="parent-category-name hasTooltip" title="Catégorie parente: ">
+				<i class="fa fa-folder"></i>
+									<a href="/dossiers.html" ><span itemprop="genre">Histoire Universelle</span></a>							</dd>			
+			
+										<dd class="published hasTooltip" title="Publication : ">
+				<i class="icon-calendar"></i>
+				<time datetime="2024-11-25T11:13:45+01:00" itemprop="datePublished">
+					25 novembre 2024				</time>
+			</dd>					
+					
+			
+						</dl>
+		      		      
+		      		    </aside>  
+		    		    <!-- //Aside -->
+
+				
+				
+				
+				<section class="article-intro clearfix">
+					<p style="text-align: justify;"><img loading="lazy" src="/images/articles/dossiers/Antiquite/menhirs-écosse.jpg" alt="menhirs écosse" width="300" height="183" style="margin-top: 0px; margin-bottom: 10px; margin-right: 10px; margin-left: 0px; float: left; border: outset 1px #C4C4C4" title="Site de Callanish, Ecosse" />L'homme moderne peuple <strong>l’Europe</strong> depuis 40 000 ans. Longtemps, il a vécu de la chasse et de la cueillette. Puis huit millénaires avant notre ère, l’agriculture fit son apparition dans le sud-est du continent. En seulement 3.000 ans elle se répandit dans presque toute l’Europe. Plus tard, l’introduction de la métallurgie favorisa le développement de sociétés guerrières plus complexes et l’émergence des premières civilisations européennes.</p>
+				</section>
+    
+		    <!-- footer -->
+		    		    <!-- //footer -->
+
+			    
+									<BR><section class="readmore">
+						<a class="btn btn-default" href="/dossiers/5792-l-europe-des-origines.html">
+							<span>
+							 L'Europe des origines							</span>
+						</a>
+					</section>
+					</article>
+	<!-- //Article -->
+
+ 			</div>
+			
+			
+	
+					<div class="item column-2 col-md-6">
+			
+
+	<!-- Article -->
+	<article>
+
+					
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					<a style="font-size:20px; font-weight: bold; font-familly:Helvetica, Arial, sans-serif " href="/dossiers/2871-bloody-sunday-de-la-tragedie-aux-excuses-officielles.html" itemprop="url" title="Bloody Sunday : De la tragédie aux excuses officielles">
+				Bloody Sunday : De la tragédie aux excuses officielles</a>
+			</h2>
+
+			</header>
+		
+		    <!-- Aside -->
+		    		    <aside class="article-aside clearfix">
+		      		      	<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													Détails							</dt>
+
+							
+<dd class="createdby hasTooltip" itemprop="author" itemscope itemtype="http://schema.org/Person" title="Écrit par ">
+	<i class="fa fa-user"></i>
+			<span itemprop="name">Kara Iskandar</span>	</dd>
+			
+										<dd class="parent-category-name hasTooltip" title="Catégorie parente: ">
+				<i class="fa fa-folder"></i>
+									<a href="/dossiers.html" ><span itemprop="genre">Histoire Universelle</span></a>							</dd>			
+			
+										<dd class="published hasTooltip" title="Publication : ">
+				<i class="icon-calendar"></i>
+				<time datetime="2024-11-25T08:58:54+01:00" itemprop="datePublished">
+					25 novembre 2024				</time>
+			</dd>					
+					
+			
+						</dl>
+		      		      
+		      		    </aside>  
+		    		    <!-- //Aside -->
+
+				
+				
+				
+				<section class="article-intro clearfix">
+					<p style="text-align: justify;"><img loading="lazy" src="/images/articles/actualite/bloodysundayrunningsoldier.jpg" alt="bloodysundayrunningsoldier" width="220" height="178" style="margin: 10px; float: left;" />Le "<strong>Bloody Sunday</strong>" fait référence à un évènement tragique qui a eu lieu le 30 janvier 1972 à Londonderry, en Irlande du Nord. Au cours d'une manifestation pacifique pour les droits civiques, des parachutistes de l'armée britannique ont ouvert le feu sur des civils désarmés, tuant 13 personnes et en blessant 15 autres. Cet &nbsp;drame, rendu célèbre par le groupe de rock U2, est devenu un tournant dans le conflit en Irlande du Nord, suscitant une indignation et des protestations généralisées. Près de quatre décennies plus tard, le gouvernement anglais a fini par reconnaître sa responsabilité dans cette tragédie et a presenté des excuses officielles.</p>
+				</section>
+    
+		    <!-- footer -->
+		    		    <!-- //footer -->
+
+			    
+									<BR><section class="readmore">
+						<a class="btn btn-default" href="/dossiers/2871-bloody-sunday-de-la-tragedie-aux-excuses-officielles.html">
+							<span>
+							 Bloody Sunday : De la tragédie aux excuses officielles							</span>
+						</a>
+					</section>
+					</article>
+	<!-- //Article -->
+
+ 			</div>
+			
+			
+		</div>
+		
+	
+		
+		<div class="items-row cols-2 row-14 row">
+					<div class="item column-1 col-md-6">
+			
+
+	<!-- Article -->
+	<article>
+
+					
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					<a style="font-size:20px; font-weight: bold; font-familly:Helvetica, Arial, sans-serif " href="/inventions/5790-invention-de-la-machine-a-ecrire-1868.html" itemprop="url" title="Invention de la machine à écrire (1868)">
+				Invention de la machine à écrire (1868)</a>
+			</h2>
+
+			</header>
+		
+		    <!-- Aside -->
+		    		    <aside class="article-aside clearfix">
+		      		      	<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													Détails							</dt>
+
+							
+<dd class="createdby hasTooltip" itemprop="author" itemscope itemtype="http://schema.org/Person" title="Écrit par ">
+	<i class="fa fa-user"></i>
+			<span itemprop="name">Lazare Bonchamp</span>	</dd>
+			
+										<dd class="parent-category-name hasTooltip" title="Catégorie parente: ">
+				<i class="fa fa-folder"></i>
+									<a href="/inventions.html" ><span itemprop="genre">Inventions et découvertes</span></a>							</dd>			
+			
+										<dd class="published hasTooltip" title="Publication : ">
+				<i class="icon-calendar"></i>
+				<time datetime="2024-10-03T10:00:57+02:00" itemprop="datePublished">
+					3 octobre 2024				</time>
+			</dd>					
+					
+			
+						</dl>
+		      		      
+		      		    </aside>  
+		    		    <!-- //Aside -->
+
+				
+				
+				
+				<section class="article-intro clearfix">
+					<p style="text-align: justify;"><img loading="lazy" src="/images/articles/dossiers/inventions-decouvertes/machine-ecrire-olivetti.jpg" alt="machine ecrire olivetti" width="240" height="204" style="margin-top: 0px; margin-bottom: 10px; margin-right: 10px; margin-left: 0px; float: left; border: outset 1px #C4C4C4" title="Machine à écrire portative Olivetti" />La <strong>machine à écrire</strong>, machine qui permet de produire un texte en pressant des touches, a été détrônée par l'ordinateur. Cette invention est pourtant récente. En 1868, les Américains Christopher Latham Sholes, Carlos Glidden et Samuel W. Soulé déposent un brevet pour la construction de la première machine à écrire vraiment fonctionnelle. La fabrication en sera réellement entreprise (sur la base d’un modèle légèrement modifié) par l’Américain Philo Remington, en 1873.</p>
+				</section>
+    
+		    <!-- footer -->
+		    		    <!-- //footer -->
+
+			    
+									<BR><section class="readmore">
+						<a class="btn btn-default" href="/inventions/5790-invention-de-la-machine-a-ecrire-1868.html">
+							<span>
+							 Invention de la machine à écrire (1868)							</span>
+						</a>
+					</section>
+					</article>
+	<!-- //Article -->
+
+ 			</div>
+			
+			
+	
+					<div class="item column-2 col-md-6">
+			
+
+	<!-- Article -->
+	<article>
+
+					
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					<a style="font-size:20px; font-weight: bold; font-familly:Helvetica, Arial, sans-serif " href="/histoire-de-france/3363-la-reine-margot-marguerite-de-valois-biographie.html" itemprop="url" title="La reine Margot (Marguerite de Valois)">
+				La reine Margot (Marguerite de Valois)</a>
+			</h2>
+
+			</header>
+		
+		    <!-- Aside -->
+		    		    <aside class="article-aside clearfix">
+		      		      	<dl class="article-info  muted">
+
+		
+			<dt class="article-info-term">
+													Détails							</dt>
+
+							
+<dd class="createdby hasTooltip" itemprop="author" itemscope itemtype="http://schema.org/Person" title="Écrit par ">
+	<i class="fa fa-user"></i>
+			<span itemprop="name">La Brinvilliers</span>	</dd>
+			
+										<dd class="parent-category-name hasTooltip" title="Catégorie parente: ">
+				<i class="fa fa-folder"></i>
+									<a href="/histoire-de-france.html" ><span itemprop="genre">Histoire de France</span></a>							</dd>			
+			
+										<dd class="published hasTooltip" title="Publication : ">
+				<i class="icon-calendar"></i>
+				<time datetime="2024-10-03T09:12:00+02:00" itemprop="datePublished">
+					3 octobre 2024				</time>
+			</dd>					
+					
+			
+						</dl>
+		      		      
+		      		    </aside>  
+		    		    <!-- //Aside -->
+
+				
+				
+				
+				<section class="article-intro clearfix">
+					<p style="text-align: justify;"><img loading="lazy" src="/images/articles/dossiers/histoire-de-france/Marguerite_de_Valois.jpg" alt="Marguerite de Valois" width="169" height="240" style="margin-top: 0px; margin-bottom: 10px; margin-right: 10px; margin-left: 0px; float: left; border: outset 1px #C4C4C4" title="Marguerite de valois" /><strong>Marguerite de Valois</strong> (1553-1615), dite la <strong>reine Margot</strong>, reine de France et de Navarre, était la fille <a href="/histoire-de-france/5659-henri-ii-roi-de-france-1547-1559.html">du roi Henri II</a> et de Catherine de Médicis et la sœur de Charles IX et Henri III. Le 18 août 1572, elle épouse le chef des huguenots, <a href="/histoire-de-france/3032-henri-iv-roi-de-france-1553-1610.html">Henri de Navarre (futur Henri IV)</a>, symbolisant une tentative de réconciliation entre les protestants et les catholiques. Immortalisée au cinéma par l'actrice Isabelle Adjani, la <strong>reine Margot</strong> n’était pas la « fille délurée » que les romanciers nous ont décrit.&nbsp;Utilisée trop souvent comme un « pion » par sa mère en pleine <a href="/guerres/2429-les-guerres-de-religion-en-france-1562-1598.html"><strong>guerres de religion</strong> du XVIe siècle</a>, elle reçut de nombreux hommages funèbres à sa mort en 1615 : «<em> la Reine des grandeurs, la grandeur des esprits, la noble des fleurs, la Marguerite de France</em> ».</p>
+				</section>
+    
+		    <!-- footer -->
+		    		    <!-- //footer -->
+
+			    
+									<BR><section class="readmore">
+						<a class="btn btn-default" href="/histoire-de-france/3363-la-reine-margot-marguerite-de-valois-biographie.html">
+							<span>
+							 La reine Margot (Marguerite de Valois)							</span>
+						</a>
+					</section>
+					</article>
+	<!-- //Article -->
+
+ 			</div>
+			
+			
+		</div>
+		
+	
+
+
+</div>
+		</div>
+		<!-- //MAIN CONTENT -->
+
+	</div>
+</div> 
+
+
+  
+
+
+  
+	<!-- SPOTLIGHT 2 -->
+	<div class="wrap t3-sl t3-sl-3">
+    <div class="container">
+		  	<!-- SPOTLIGHT -->
+	<div class="t3-spotlight t3-spotlight-3  row">
+					<div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="t3-module module " id="Mod324"><div class="module-inner"><div class="module-ct">
+<div class='article_anywhere'>
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+            <table style="width: 100%;">
+<tbody>
+<tr>
+<td><br />
+<div style="text-align: center;">Effectuez une recherche&nbsp;parmi nos milliers d'articles !&nbsp;</div>
+<br /><form action="/recherche-avancee.html" method="get" class="form-search">
+<div class="search" style="text-align: center;"><input maxlength="200" name="q" size="20" type="text" class="form-control" style="display: inline-block; height: 26px;" />&nbsp;&nbsp;&nbsp;<input type="submit" value="Rechercher" style="display: inline-block; border-color: #990000; background-color: #990000; border: 2px solid #990000; color: #ffffff;" />
+<div>&nbsp;</div>
+</div>
+</form></td>
+<td><br />
+<p style="text-align: center;"><strong>&nbsp; &nbsp; A découvrir&nbsp; en ce moment&nbsp;</strong>:</p>
+<p style="text-align: center;">Notre article sur l'<a href="/civilisations/3052-la-civilisation-egyptienne-au-temps-des-pharaons.html">Egypte Antique</a> et Ancienne</p>
+<p style="text-align: center;">La <a href="/biographies/2755-la-biographie-dabraham-lincoln-1809-1865.html">biographie du président&nbsp;Lincoln</a></p>
+<p style="text-align: center;">La <a href="/biographies/3199-pablo-picasso-1881-1973-biographie-courte.html">biographie de l'artiste Picasso</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<hr /> 
+        </div></div></div></div>
+							</div>
+			</div>
+<!-- SPOTLIGHT -->
+    </div>
+	</div>
+	<!-- //SPOTLIGHT 2 -->
+
+
+	
+<!-- BACK TOP TOP BUTTON -->
+<div id="back-to-top" data-spy="affix" data-offset-top="300" class="back-to-top hidden-xs hidden-sm affix-top">
+  <button class="btn btn-primary" title="Back to Top"><i class="fa fa-caret-up"></i></button>
+</div>
+<script type="text/javascript">
+(function($) {
+	// Back to top
+	$('#back-to-top').on('click', function(){
+		$("html, body").animate({scrollTop: 0}, 500);
+		return false;
+	});
+    $(window).on('load', function(){
+        // hide button to top if the document height not greater than window height*2;using window load for more accurate calculate.    
+        if ((parseInt($(window).height())*2)>(parseInt($(document).height()))) {
+            $('#back-to-top').hide();
+        } 
+    });
+})(jQuery);
+</script>
+<!-- BACK TO TOP BUTTON -->
+
+<!-- FOOTER -->
+<footer id="t3-footer" class="wrap t3-footer">
+
+			<!-- FOOTER SPOTLIGHT -->
+		<div class="container hidden-xs">
+				<!-- SPOTLIGHT -->
+	<div class="t3-spotlight t3-footer-sl  row">
+					<div class=" col-lg-4 col-md-4 col-sm-4 col-xs-6">
+								<div class="t3-module module " id="Mod311"><div class="module-inner"><h3 class="module-title "><span>Histoire pour Tous</span></h3><div class="module-ct"><ul class="nav menu">
+<li class="item-65"><a href="/qui-sommes-nous.html" class="">Editeur et Rédaction</a></li><li class="item-246"><a href="/hpt-dans-les-media.html" class="">Hpt dans les media</a></li><li class="item-487"><a href="https://www.facebook.com/histoirepourtous/" class="">Histoire pour Tous (Facebook) </a></li><li class="item-488"><a href="https://twitter.com/HistoirepTous" class="">Histoire pour Tous (Tweeter) </a></li><li class="item-461"><a href="/recherche-avancee.html" class="">Recherche avancée</a></li></ul>
+</div></div></div>
+							</div>
+					<div class=" col-lg-4 col-md-4 col-sm-4 col-xs-6">
+								<div class="t3-module module " id="Mod312"><div class="module-inner"><h3 class="module-title "><span>Actualités, Livres, Films, Partenaires</span></h3><div class="module-ct"><ul class="nav menu">
+<li class="item-56 default current active"><a href="/" class="">Histoire</a></li><li class="item-68"><a href="/actualite.html" class="">Actualité </a></li><li class="item-490"><a href="https://www.amazon.fr/shop/influencer-ae79301c" class="">Boutique en ligne </a></li><li class="item-417"><a href="/livres.html" class="">Livres </a></li><li class="item-206"><a href="/films-series.html" class="">Films et Séries </a></li><li class="item-257"><a href="/partenaires-histoire.html" class="">Nos partenaires / Annuaire</a></li></ul>
+</div></div></div>
+							</div>
+					<div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12">
+								<div class="t3-module module " id="Mod50"><div class="module-inner"><div class="module-ct">
+
+<div class="custom"  >
+	<div style="text-align: center;">Copyright © 2009-2024 HpT Media</div>
+<div>&nbsp;</div>
+<div style="text-align: center;">Tous droits réservés. ISSN 2270-9983.</div>
+<div style="text-align: center;">Site déclaré à la CNIL sous le numéro 1387308.</div>
+<div style="text-align: center;">Contenu protégé et <a href="/qui-sommes-nous.html" style="vertical-align: middle;" title="Copyright">déposé</a>.</div>
+<div>&nbsp;</div>
+<div style="text-align: center;">Nous contacter : redaction[arobase]histoire-pour-tous.fr</div>
+<p></p></div>
+</div></div></div><div class="t3-module module " id="Mod115"><div class="module-inner"><div class="module-ct">
+
+<div class="custom"  >
+	<p> 
+    <script type="text/javascript"> 
+function disableSelection(target){ 
+if (typeof target.onselectstart!="undefined") //IE route 
+    target.onselectstart=function(){return false} 
+else if (typeof target.style.MozUserSelect!="undefined") //Firefox route 
+    target.style.MozUserSelect="none" 
+else //All other route (ie: Opera) 
+    target.onmousedown=function(){return false} 
+target.style.cursor = "default" 
+} 
+disableSelection(document.body) 
+</script> 
+</p></div>
+</div></div></div><div class="t3-module module " id="Mod203"><div class="module-inner"><div class="module-ct">
+
+<div class="custom"  >
+	<p> 
+    <script language="JavaScript" type="Text/Javascript"> 
+do_nothing( function() { 
+    var TipsTele = new Tips($$('.TipsTele'), { 
+className: 'custom', 
+    initialize:function(){ 
+        this.fx = new Fx.Style(this.toolTip, 'opacity', {duration: 500, wait: false}).set(0); 
+    }, 
+    onShow: function(toolTip) { 
+        this.fx.start(1); 
+    }, 
+    onHide: function(toolTip) { 
+        this.fx.start(0); 
+    }, 
+fixed: true 
+}); 
+}); 
+</script> 
+</p></div>
+</div></div></div>
+							</div>
+			</div>
+<!-- SPOTLIGHT -->
+		</div>
+		<!-- //FOOTER SPOTLIGHT -->
+	
+	<section class="t3-copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 copyright ">
+					
+          
+				</div>
+							</div>
+		</div>
+	</section>
+
+</footer>
+<!-- //FOOTER -->
+
+</div>
+<!--<script src="/templates/ab-check-min.js" type="text/javascript" async></script>-->
+<!--<script src="/templates/passback-min.js" type="text/javascript" async></script>-->
+
+<!--Message GOOGLE CMP pour demander réactivation annonces-->
+<script async src="https://fundingchoicesmessages.google.com/i/pub-4694215992374142?ers=1" nonce="1FB_ydh2GxKPVxdYQXma1w"></script><script nonce="1FB_ydh2GxKPVxdYQXma1w">(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+
+<script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({flush: true});
+</script>
+</body>
+</html>

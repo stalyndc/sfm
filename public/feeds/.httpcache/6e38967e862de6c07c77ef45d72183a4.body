@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 11 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/custom/morningstar/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <title>Morning Star | The People’s Daily | Morning Star</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_Q1kO7Ul0_RBSV84zHiXI7Oz9nvcX8YVm68DflIiORYk.css?delta=0&amp;language=en&amp;theme=morningstar&amp;include=eJzLzS_Ky8xLLy5JLNJPz8lPSszRLS6pzAEK6RRXFpek5uonJRanAgAr1Q8n" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_MGu1SxJkr1-EjZKveucmCrtepp7Wj8Vypu-e4QkdD_o.css?delta=1&amp;language=en&amp;theme=morningstar&amp;include=eJzLzS_Ky8xLLy5JLNJPz8lPSszRLS6pzAEK6RRXFpek5uonJRanAgAr1Q8n" />
+
+    
+    <link rel="icon" href="/themes/custom/morningstar/favicon.ico" type="image/x-icon"/>
+		<link rel="apple-touch-icon" sizes="180x180" href="/themes/custom/morningstar/apple-touch-icon.png"/>
+		<link rel="icon" type="image/png" sizes="32x32" href="/themes/custom/morningstar/favicon-32x32.png"/>
+		<link rel="icon" type="image/png" sizes="16x16" href="/themes/custom/morningstar/favicon-16x16.png"/>
+		<link rel="manifest" href="/themes/custom/morningstar/site.webmanifest"/>
+		<meta property="og:title" content="Morning Star | The People’s Daily">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://morningstaronline.co.uk/">
+<meta property="og:description" content="This is just a dummy &amp;nbsp;placeholder for the homepage, nothing to edit here.">
+<meta property="og:image" content="/themes/custom/morningstar/images/default-article-image.jpg">
+<meta property="og:image:secure_url" content="/themes/custom/morningstar/images/default-article-image.jpg">
+<meta property="og:image:alt" content="Default article image">
+<meta property="og:site_name" content="Morning Star">
+<meta property="og:locale" content="en">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:title" content="Morning Star | The People’s Daily">
+<meta property="twitter:description" content="This is just a dummy &amp;nbsp;placeholder for the homepage, nothing to edit here.">
+<meta property="twitter:image" content="/themes/custom/morningstar/images/default-article-image.jpg">
+<meta property="twitter:image:alt" content="Default article image">
+<meta property="twitter:site" content="@M_Star_Online">
+
+  </head>
+  <body>
+    <a href="#main-content" class="visually-hidden focusable">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="main-wrapper">
+
+	<header role="banner">
+		  <div>
+    <div class="top-region">
+	<div class="top-menu">
+                <div class="top-menu-item">
+			<a class="ms-border-right-desktop" href="https://shop.morningstaronline.co.uk/">Shop</a>
+		</div>
+		<div class="top-menu-item">
+		<a id="logged-in" class="disabled" href="/user/manage">Your Account</a>
+		<a id="anonymous" class="enabled" href="/user/login">Sign In</a>
+		</div>
+		<div class="top-menu-item">
+			<a class="ms-border-left" href="/support">Support Us</a>
+		</div>
+		<div class="top-menu-item">
+			<a href="/subscribe" class="ms-button-red">Subscribe</a>
+		</div>
+		<div class="top-menu-item">
+			<a href="/search" class="ms-search-icon"><img src="/themes/custom/morningstar/assets/img/search.svg"></a>
+		</div>
+	</div>
+</div>
+
+  </div>
+
+	</header>
+
+	  <div>
+    <div class="primary-menu-region">
+	<div class="logo">
+		<a href="/"><img src="/themes/custom/morningstar/assets/img/MS_logo.svg"></a>
+	</div>
+	<div class="primary-menu">
+																			<span class="primary-menu-item menu-item active">
+						<a href="/category/britain">Britain</a>
+					</span>
+								<span class="primary-menu-items-divider"></span>
+																			<span class="primary-menu-item menu-item ">
+						<a href="/category/world">World</a>
+					</span>
+								<span class="primary-menu-items-divider"></span>
+																			<span class="primary-menu-item menu-item ">
+						<a href="/category/editorial">Editorial</a>
+					</span>
+								<span class="primary-menu-items-divider"></span>
+																			<span class="primary-menu-item menu-item ">
+						<a href="/category/features">Features</a>
+					</span>
+								<span class="primary-menu-items-divider"></span>
+																			<span class="primary-menu-item menu-item ">
+						<a href="/category/culture">Culture</a>
+					</span>
+								<span class="primary-menu-items-divider"></span>
+																			<span class="primary-menu-item menu-item ">
+						<a href="/category/sport">Sport</a>
+					</span>
+								<span class="primary-menu-items-divider"></span>
+			</div>
+	<div id="mobile-trigger" class="menu-toggle"></div>
+	<div id="mobile-close" class="menu-toggle"></div>
+</div>
+
+<div class="mobile-menu-container">
+	<div class="mobile-menu-primary-items">
+        			                    <span class="primary-menu-item menu-item"><a href="/category/britain">Britain</a></span>
+								                    <span class="primary-menu-item menu-item"><a href="/category/world">World</a></span>
+								                    <span class="primary-menu-item menu-item"><a href="/category/editorial">Editorial</a></span>
+								                    <span class="primary-menu-item menu-item"><a href="/category/features">Features</a></span>
+								                    <span class="primary-menu-item menu-item"><a href="/category/culture">Culture</a></span>
+								                    <span class="primary-menu-item menu-item"><a href="/category/sport">Sport</a></span>
+					    </div>
+	<div class="mobile-menu-secondary-items">
+    							<span class="secondary-menu-item menu-item">
+                    <span class="secondary-menu-item menu-item"><a href="/tags/climate-crisis-0">Climate Crisis</a></span>
+				</span>
+												<span class="secondary-menu-item menu-item">
+                    <span class="secondary-menu-item menu-item"><a href="/tags/far-right">Far Right</a></span>
+				</span>
+												<span class="secondary-menu-item menu-item">
+                    <span class="secondary-menu-item menu-item"><a href="/tags/gaza">Gaza</a></span>
+				</span>
+												<span class="secondary-menu-item menu-item">
+                    <span class="secondary-menu-item menu-item"><a href="/tags/workers-rights">Workers&#039; Rights</a></span>
+				</span>
+												<span class="secondary-menu-item menu-item">
+                    <span class="secondary-menu-item menu-item"><a href="/tags/labour-party">Labour Party</a></span>
+				</span>
+												<span class="secondary-menu-item menu-item">
+                    <span class="secondary-menu-item menu-item"><a href="/tags/womens-rugby-world-cup">Women’s Rugby World Cup</a></span>
+				</span>
+												<span class="secondary-menu-item menu-item">
+                    <span class="secondary-menu-item menu-item"><a href="/tags/morning-star-video-0">Morning Star Video</a></span>
+				</span>
+												<span class="secondary-menu-item menu-item">
+                    <span class="secondary-menu-item menu-item"><a href="/tags/tuc-congress-2025">TUC Congress 2025</a></span>
+				</span>
+					    </div>
+	<div class="mobile-menu-latest-editorial">
+	   <div class="mobile-menu-subheading">
+	    <img class="mobile-menu-latest-editorial-logo" alt="Decorative Morningstar paper image"src="/themes/custom/morningstar/assets/img/logo_mark–positive–red.svg">Latest editorial
+	   </div>
+	   <a href="/article/left-must-understand-and-challenge-rights-demagogy">The left must understand and challenge the right’s demagogy</a>
+	</div>
+	<div class="mobile-menu-ternary-items">
+									<span class="ternary-menu-item menu-item">
+					<a href="/page/advertising-rates-and-dimensions">Advertise</a>
+				</span>
+												<span class="ternary-menu-item menu-item">
+					<a href="/page/contact-us">Contact us</a>
+				</span>
+												<span class="ternary-menu-item menu-item">
+					<a href="https://shop.morningstaronline.co.uk/">Shop</a>
+				</span>
+												<span class="ternary-menu-item menu-item">
+					<a href="/subscribe">Subscribe</a>
+				</span>
+												<span class="ternary-menu-item menu-item">
+					<a href="/support">Support us</a>
+				</span>
+												<span class="ternary-menu-item menu-item">
+					<a href="https://morningstaronline.us19.list-manage.com/subscribe?u=896177e8893bb5ec9b3f0d8d7&amp;id=5fa846e5af">Daily Alert</a>
+				</span>
+					
+	</div>
+</div>
+
+  </div>
+
+	  <div>
+    <div class="secondary-menu-region">
+	<div class="secondary-menu">
+												<span class="secondary-menu-item menu-item">
+					<a href="/tags/climate-crisis-0">Climate Crisis</a>
+				</span>
+															<span class="secondary-menu-item menu-item">
+					<a href="/tags/far-right">Far Right</a>
+				</span>
+															<span class="secondary-menu-item menu-item">
+					<a href="/tags/gaza">Gaza</a>
+				</span>
+															<span class="secondary-menu-item menu-item">
+					<a href="/tags/workers-rights">Workers&#039; Rights</a>
+				</span>
+															<span class="secondary-menu-item menu-item">
+					<a href="/tags/labour-party">Labour Party</a>
+				</span>
+															<span class="secondary-menu-item menu-item">
+					<a href="/tags/womens-rugby-world-cup">Women’s Rugby World Cup</a>
+				</span>
+															<span class="secondary-menu-item menu-item">
+					<a href="/tags/morning-star-video-0">Morning Star Video</a>
+				</span>
+															<span class="secondary-menu-item menu-item">
+					<a href="/tags/tuc-congress-2025">TUC Congress 2025</a>
+				</span>
+						</div>
+</div>
+
+  </div>
+
+
+	
+
+	  <div>
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+
+	
+
+	<main role="main">
+		<a id="main-content" tabindex="-1"></a>
+		
+		<div class="main-container">
+			<div class="ms-ad ms-ad-homepage-top"><a href="https://shop.morningstaronline.co.uk/"><img src="https://morningstaronline.co.uk/sites/default/files/styles/wide/public/2025-06/The%20Morning%20Star%20Shop.jpg.webp?itok=h68kB8oy" alt="The Morning Star Shop"/></a></div>
+			<div class="grid-container latest">
+				<div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/Gaza_8.jpg.webp?itok=mDxGhOEY');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/Gaza_8.jpg.webp?itok=wktrU4tR" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/Gaza_8.jpg.webp?itok=jyZskfAb" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/Gaza_8.jpg.webp?itok=mDxGhOEY" class="high-res-image" alt="Palestinians run for cover during an Israeli airstrike on a high-rise building in Gaza City, September 5, 2025" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Gaza</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/we-cannot-allow-immense-unfathomable-suffering-palestinian-people-be-ignored-minute-longer">'We cannot allow the immense, unfathomable suffering of the Palestinian people to be ignored for a minute longer'</a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"><p>Britain's involvement in the Gaza genocide condemned by Amnesty International</p></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/AP25259411294795.jpg.webp?itok=Xlrx3SQt');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/AP25259411294795.jpg.webp?itok=MSB0Rpan" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/AP25259411294795.jpg.webp?itok=9_HgLsvN" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/AP25259411294795.jpg.webp?itok=Xlrx3SQt" class="high-res-image" alt="A boy carries a mattress from a destroyed apartment that was hit in an Israeli airstrike on Monday evening in Nabatiyeh town, south Lebanon, September 16, 2025" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Lebanon</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/israel-breaks-ceasefire-hezollah-and-resumes-bombing-campaign-lebanon">Israel breaks ceasefire with Hezollah and resumes bombing campaign of Lebanon </a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"><p>Meanwhile, Israeli troops prepare to advance on Gaza City after Tel Aviv cuts off its communication lines</p></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/Shabana%20Mahmood.jpg.webp?itok=EtAIS_S3');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/Shabana%20Mahmood.jpg.webp?itok=6rV6bqjZ" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/Shabana%20Mahmood.jpg.webp?itok=hqaXczVv" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/Shabana%20Mahmood.jpg.webp?itok=EtAIS_S3" class="high-res-image" alt="Home Secretary Shabana Mahmood leaves 10 Downing Street, London, following a Cabinet meeting, September 16, 2025" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Britain</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/anti-slavery-watchdog-accuses-shabana-mahmood-endangering-lives">Anti-slavery watchdog accuses Shabana Mahmood of endangering lives</a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/PA-81594824.jpg.webp?itok=GbO8Tu0h');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/PA-81594824.jpg.webp?itok=bLRIK6Vm" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/PA-81594824.jpg.webp?itok=gSYfILRA" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/PA-81594824.jpg.webp?itok=GbO8Tu0h" class="high-res-image" alt="People taking part in a Tommy Robinson-led Unite the Kingdom march and rally in Trafalgar Square, central London, September 13, 2025" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Editorial</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/left-must-understand-and-challenge-rights-demagogy">The left must understand and challenge the right’s demagogy</a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/Puntis%20piece%20webpic.jpg.webp?itok=rBwtW-wX');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/Puntis%20piece%20webpic.jpg.webp?itok=s7aMqx3q" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/Puntis%20piece%20webpic.jpg.webp?itok=Jlk5UlcM" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/Puntis%20piece%20webpic.jpg.webp?itok=rBwtW-wX" class="high-res-image" alt="COST CONTROL MODE: Health Secretary Wes Streeting during a visit to NHS National Operations Centre in London on July 25 2025 " loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Features</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/trump-not-only-threat-our-nhs">Trump is not the only threat to our NHS      </a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"><p>Politicians who continue to welcome contracts with US companies without considering the risks and consequences of total dependency in the years to come are undermining the raison d’etre of the NHS, argues Dr JOHN PUNTIS</p></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/fotw%20web.jpg.webp?itok=MaaIwn6c');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/fotw%20web.jpg.webp?itok=kSzKjEVm" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/fotw%20web.jpg.webp?itok=8QH15ZtO" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/fotw%20web.jpg.webp?itok=MaaIwn6c" class="high-res-image" alt="fotw" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Film of the week</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/good-teacher">The good teacher</a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"><p>MARIA DUARTE recommends the powerful study of an underfunded reform school and the staff who struggle to do good</p></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/PA-79686170.jpg.webp?itok=p2G3hhA-');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/PA-79686170.jpg.webp?itok=IaAYZeJd" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/PA-79686170.jpg.webp?itok=DMWIKiQL" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/PA-79686170.jpg.webp?itok=p2G3hhA-" class="high-res-image" alt="Former Manchester United forward Eric Cantona, June 10, 2028" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Men’s football</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/cantona-pressures-governing-bodies-suspend-israel">Cantona pressures governing bodies to suspend Israel</a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"></div>   </div></div></div>
+			</div>
+			<div class="ms-ad ms-ad-homepage"><a href="https://morningstaronline.co.uk/jobs"><img src="https://morningstaronline.co.uk/sites/default/files/styles/wide/public/2025-09/NEU%20Senior%20Solicitor%20job%20vacancy.jpg.webp?itok=0JFsAcra" alt="Job vacancy with the National Education Union"/></a></div>
+			<a name="Britain"></a>
+<div class="ms-section-header">
+	<span class="ms-section-header-title">Britain</span>
+	<span class="ms-section-header-link"><a href="/category/britain">See all in Britain ></a></span>
+</div>
+			<div class="grid-container britain">
+				<div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/Starmer%20Trump.jpg.webp?itok=Hulp2kMy');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/Starmer%20Trump.jpg.webp?itok=4HW60zo6" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/Starmer%20Trump.jpg.webp?itok=UhWjeIKn" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/Starmer%20Trump.jpg.webp?itok=Hulp2kMy" class="high-res-image" alt="Prime Minister Keir Starmer and US President Donald Trump during a bilateral meeting at Chequers, near Aylesbury in Buckinghamshire, on day two of the president's second state visit to the UK, September 18, 2025" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Britain</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/starmer-urges-trump-take-harder-line-russia">Starmer urges Trump to take a harder line on Russia</a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-07/Corbyn%20Sultana_0.jpg.webp?itok=oJtFJd-G');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-07/Corbyn%20Sultana_0.jpg.webp?itok=pHMmaQhW" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-07/Corbyn%20Sultana_0.jpg.webp?itok=GxRut-Lu" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-07/Corbyn%20Sultana_0.jpg.webp?itok=oJtFJd-G" class="high-res-image" alt="Jeremy Corbyn (second left) and Zarah Sultana, MP for Coventry South (second right) on the picket line outside London Euston train station, August 18, 2022" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Politics</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/your-party-divisions-explode-open">Your Party divisions explode into the open</a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/Models%20of%20men%20and%20women%20on%20a%20pile%20of%20coins%20and%20bank%20notes.jpg.webp?itok=0T8atByd');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/Models%20of%20men%20and%20women%20on%20a%20pile%20of%20coins%20and%20bank%20notes.jpg.webp?itok=9iFWN3xu" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/Models%20of%20men%20and%20women%20on%20a%20pile%20of%20coins%20and%20bank%20notes.jpg.webp?itok=xsYHdJYU" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/Models%20of%20men%20and%20women%20on%20a%20pile%20of%20coins%20and%20bank%20notes.jpg.webp?itok=0T8atByd" class="high-res-image" alt="Models of men and women on a pile of coins and bank notes" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Education</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/persistent-gender-pay-gap-teaching-grossly-unfair-union-says">Persistent gender pay gap in teaching ‘grossly unfair’, union says</a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/Passengers%20queue%20to%20board%20a%20bus%20in%20Cardiff.jpg.webp?itok=wUvIGyo9');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/Passengers%20queue%20to%20board%20a%20bus%20in%20Cardiff.jpg.webp?itok=npKqvqJe" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/Passengers%20queue%20to%20board%20a%20bus%20in%20Cardiff.jpg.webp?itok=u-JIEqZP" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/Passengers%20queue%20to%20board%20a%20bus%20in%20Cardiff.jpg.webp?itok=wUvIGyo9" class="high-res-image" alt="Passengers queue to board a bus in Cardiff" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Wales</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/urgent-need-transport-wales-tackle-poverty-says-think-tank">Urgent need for transport in Wales to tackle poverty, says think tank</a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/PA-79010684_1.jpg.webp?itok=zLzaU7PU');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/PA-79010684_1.jpg.webp?itok=NfO3gK8s" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/PA-79010684_1.jpg.webp?itok=BTtMr2r0" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/PA-79010684_1.jpg.webp?itok=zLzaU7PU" class="high-res-image" alt="A registration form and a stethoscope at the Temple Fortune " loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Wales</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/fund-gp-practices-properly-or-risk-losing-service-warns-bma-senedd-inquiry">Fund GP practices properly or risk losing the service, warns the BMA at Senedd inquiry </a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/PA-81657589.jpg.webp?itok=WTtetWzA');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/PA-81657589.jpg.webp?itok=GvYkaWZ_" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/PA-81657589.jpg.webp?itok=OS00fM2v" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/PA-81657589.jpg.webp?itok=WTtetWzA" class="high-res-image" alt="First Minister John Swinney during First Minister's Questions at the Scottish Parliament in Holyrood, Edinburgh, September 18, 2025" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Scotland</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/constance-defends-swinneys-attendance-trump-jamboree">Constance defends Swinney's attendance at Trump jamboree</a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/uniteflag_5.jpg.webp?itok=FS_91QAm');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/uniteflag_5.jpg.webp?itok=zhc1Stzr" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/uniteflag_5.jpg.webp?itok=hcAA0DX5" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/uniteflag_5.jpg.webp?itok=FS_91QAm" class="high-res-image" alt="" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Britain</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/offshore-workers-win-ps8000-award-after-threatening-strike-action">Offshore workers win up to £8,000 award after threatening strike action</a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/PA-78832187%20%281%29.jpg.webp?itok=-xezybkW');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/PA-78832187%20%281%29.jpg.webp?itok=EUV_xYdz" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/PA-78832187%20%281%29.jpg.webp?itok=263Y2jkt" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/PA-78832187%20%281%29.jpg.webp?itok=-xezybkW" class="high-res-image" alt="" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Workers' Rights</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/teachers-plan-further-walkouts-after-two-day-strike-flint-high-school">Teachers plan further walkouts after two-day strike at Flint High School</a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/Northern%20railway%20train.jpg.webp?itok=0dVZAPfa');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/Northern%20railway%20train.jpg.webp?itok=2GAXpgKM" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/Northern%20railway%20train.jpg.webp?itok=ZGHcopXH" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/Northern%20railway%20train.jpg.webp?itok=0dVZAPfa" class="high-res-image" alt="A general view of a Great Northern railway train at Hunt's Cross station, Liverpool" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Transport</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/rail-firm-contractor-faces-48-hour-strike-over-bullying-and-unfair-treatment-rmt-says">Rail firm contractor faces 48-hour strike over bullying and unfair treatment, RMT says</a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/A%20patient%20in%20a%20wheelchair.jpg.webp?itok=qGf4ev6Y');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/A%20patient%20in%20a%20wheelchair.jpg.webp?itok=Vuz20Nu2" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/A%20patient%20in%20a%20wheelchair.jpg.webp?itok=XFnXLFzj" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/A%20patient%20in%20a%20wheelchair.jpg.webp?itok=qGf4ev6Y" class="high-res-image" alt="A patient in a wheelchair" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Justice</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/disabled-victims-face-barriers-every-step-justice-process-victims-commissioner-review-finds">Disabled victims face barriers at every step of the justice process, Victims' Commissioner review finds</a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/PA-78774766.jpg.webp?itok=UcWgSvE4');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/PA-78774766.jpg.webp?itok=BKM_o4ab" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/PA-78774766.jpg.webp?itok=bMgViXzz" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/PA-78774766.jpg.webp?itok=UcWgSvE4" class="high-res-image" alt="Justice Secretary Angela Constance makes a statement to Parliament at Holyrood, Edinburgh, January 23, 2025" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Scotland</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/scrapping-not-proven-verdict-about-modernisation-not-boosting-convictions-says-justice">Scrapping 'Not proven' verdict about modernisation, not boosting convictions, says justice secretary</a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/A%20view%20of%20%C2%A35%2C%20%C2%A310%2C%20%C2%A320%20and%20%C2%A350%20bank%20notes.jpg.webp?itok=YJ4d3jmD');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/A%20view%20of%20%C2%A35%2C%20%C2%A310%2C%20%C2%A320%20and%20%C2%A350%20bank%20notes.jpg.webp?itok=6mJSSXJE" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/A%20view%20of%20%C2%A35%2C%20%C2%A310%2C%20%C2%A320%20and%20%C2%A350%20bank%20notes.jpg.webp?itok=pP-ahGwd" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/A%20view%20of%20%C2%A35%2C%20%C2%A310%2C%20%C2%A320%20and%20%C2%A350%20bank%20notes.jpg.webp?itok=YJ4d3jmD" class="high-res-image" alt="A view of £5, £10, £20 and £50 bank notes" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Cost-of-living Crisis</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/families-have-lost-ps20000-annual-earnings-over-two-decades-report-finds">Families have lost £20,000 in annual earnings over two decades, report finds</a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"></div>   </div></div></div>
+			</div>
+			
+			<a name="World"></a>
+<div class="ms-section-header">
+	<span class="ms-section-header-title">World</span>
+	<span class="ms-section-header-link"><a href="/category/world">See all in World ></a></span>
+</div>
+			<div class="grid-container world">
+				<div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/France.jpg.webp?itok=vOxOgddA');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/France.jpg.webp?itok=9vC9hkU6" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/France.jpg.webp?itok=sq10rRsD" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/France.jpg.webp?itok=vOxOgddA" class="high-res-image" alt="Demonstrators march during a protest called by major trade unions to oppose budget cuts, in Nantes, western France, September 18, 2025" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Western Europe</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/protests-against-macrons-austerity-measures-shut-france-down">Protests against Macron's austerity measures shut France down</a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/Saudi%20Arabia%20Pakistan.jpg.webp?itok=H3UrHr2h');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/Saudi%20Arabia%20Pakistan.jpg.webp?itok=_FCGRMeX" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/Saudi%20Arabia%20Pakistan.jpg.webp?itok=iolWpW_W" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/Saudi%20Arabia%20Pakistan.jpg.webp?itok=H3UrHr2h" class="high-res-image" alt="Pakistani Prime Minister Shehbaz Sharif (left) embracing Saudi Arabia's Crown Prince Mohammed bin Salman after signing a joint defense pact in Riyadh, Saudi Arabia, September 17, 2025. Photo: Saudi Press Agency via AP" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Middle East</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/saudi-arabia-signs-mutual-defence-pact-nuclear-armed-pakistan">Saudi Arabia signs mutual defence pact with nuclear-armed Pakistan </a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/Soldier%20F%20trial.jpg.webp?itok=U3CQA9T3');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/Soldier%20F%20trial.jpg.webp?itok=Ll1r3FFo" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/Soldier%20F%20trial.jpg.webp?itok=Fif1vPR4" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/Soldier%20F%20trial.jpg.webp?itok=U3CQA9T3" class="high-res-image" alt="Joe McKinney (second left), John McKinney (centre left), and Mickey McKinney (centre right), the brothers of William McKinney, one of the men killed on Bloody Sunday in 1972, arrive at Belfast Crown Court, September 18, 2025" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Bloody Sunday</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/lawyers-soldier-f-case-argue-over-decisive-evidence">Lawyers in Soldier F case argue over ‘decisive evidence’</a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/John%20Mahama.jpg.webp?itok=OAIbI1Xo');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/John%20Mahama.jpg.webp?itok=PP7QXlZU" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/John%20Mahama.jpg.webp?itok=OK1WQsOh" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/John%20Mahama.jpg.webp?itok=OAIbI1Xo" class="high-res-image" alt="Ghana's President John Mahama speaks to the media at the Jubilee House in Accra, Ghana, September 10, 2025. Photo: Ghana Presidency via AP" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Human Rights</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/us-deportees-sue-ghanaian-authorities-over-their-treatment">US deportees sue the Ghanaian authorities over their treatment</a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/Ukraine%20drone.jpg.webp?itok=gLZBDekF');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/Ukraine%20drone.jpg.webp?itok=0Th9QB42" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/Ukraine%20drone.jpg.webp?itok=rM7sBA0j" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/Ukraine%20drone.jpg.webp?itok=gLZBDekF" class="high-res-image" alt="A worker carries part of a combat drone at Fire Point's secret factory in Ukraine on, August 14, 2025" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Eastern Europe</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/polands-defence-chief-seeks-ukraines-help-drone-warfare">Poland's defence chief seeks Ukraine's help with drone warfare</a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/AP25261338225692.jpg.webp?itok=WzuWQmnc');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/AP25261338225692.jpg.webp?itok=_NdJE5eb" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/AP25261338225692.jpg.webp?itok=-QNQTAEo" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/AP25261338225692.jpg.webp?itok=WzuWQmnc" class="high-res-image" alt="Maldives President Mohamed Muizzu speaks during a plenary session at the COP29 U.N. Climate Summit, November 12, 2024, in Baku, Azerbaijan" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">World</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/world-brief-september-18-2025">World in brief: September 18, 2025</a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"></div>   </div></div></div>
+			</div>
+			<div class="ms-ad ms-ad-homepage"><a href="https://msd11.gn.apc.org/wills"><img src="https://morningstaronline.co.uk/sites/default/files/styles/wide/public/2025-04/Free%20will-writing%20service.jpg.webp?itok=6pFIUtA_" alt="Free will-writing service"/></a></div>
+			<a name="Features"></a>
+<div class="ms-section-header">
+	<span class="ms-section-header-title">Features</span>
+	<span class="ms-section-header-link"><a href="/category/features">See all in Features ></a></span>
+</div>
+			<div class="grid-container features">
+				<div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/Puntis%20piece%20webpic.jpg.webp?itok=rBwtW-wX');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/Puntis%20piece%20webpic.jpg.webp?itok=s7aMqx3q" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/Puntis%20piece%20webpic.jpg.webp?itok=Jlk5UlcM" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/Puntis%20piece%20webpic.jpg.webp?itok=rBwtW-wX" class="high-res-image" alt="COST CONTROL MODE: Health Secretary Wes Streeting during a visit to NHS National Operations Centre in London on July 25 2025 " loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Features</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/trump-not-only-threat-our-nhs">Trump is not the only threat to our NHS      </a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"><p>Politicians who continue to welcome contracts with US companies without considering the risks and consequences of total dependency in the years to come are undermining the raison d’etre of the NHS, argues Dr JOHN PUNTIS</p></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/MishRahmen_0035.jpg.webp?itok=8rma4wkL');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/MishRahmen_0035.jpg.webp?itok=vEJzvJ5c" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/MishRahmen_0035.jpg.webp?itok=rZJ_d91c" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/MishRahmen_0035.jpg.webp?itok=8rma4wkL" class="high-res-image" alt="Mish Rahman. Photo: Tom Oldham" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Features</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/why-new-left-party-needs-democratic-bloc">Why the new left party needs the Democratic Bloc</a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"><p>MISH RAHMAN introduces the platform of a new organisation within Your Party, which will campaign for the highest level of democracy, accountability and participation, having learned from the mistakes of Labour in the 2015-19 era</p></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/R%20McKenzie%20piece%20webpic.jpg.webp?itok=ioPwF2iZ');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/R%20McKenzie%20piece%20webpic.jpg.webp?itok=MKGtKtpe" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/R%20McKenzie%20piece%20webpic.jpg.webp?itok=9JTPjEcC" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/R%20McKenzie%20piece%20webpic.jpg.webp?itok=ioPwF2iZ" class="high-res-image" alt="A PROMISE RENEGED ON: Let Us Beat Swords Into Plowshares bronze sculpture by Soviet artist Evgeny Vuchetich which encapsules the UN charter. It was presented to the UN in December 1959 by the government of the USSR, it stands in the North Garden of UN HQ in New York Pic: Rodsan18/CC" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Features</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/un-useful-idiot-us">UN: a useful idiot for the US</a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"><p>The colonial mindset behind the governance of the UN is the reason for its inertia when it comes to conflict resolution, argues ROGER McKENZIE – but can China’s Global Governance Initiative point in a new direction of global equality?</p></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/AM%20feaqture%20webpic.jpg.webp?itok=JH6I3Myz');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/AM%20feaqture%20webpic.jpg.webp?itok=mQoQpXHm" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/AM%20feaqture%20webpic.jpg.webp?itok=67aQtJ_D" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/AM%20feaqture%20webpic.jpg.webp?itok=JH6I3Myz" class="high-res-image" alt="DECISIVE RESPONSE: Stand Up To Racism (SUTR) activists block the way of the Tommy Robinson-led Unite the Kingdom march on Whitehall in central London on September 13 2025. " loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Eyes Left</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">17 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/shades-70s-or-shades-30s-what-would-phil-piratin-have-said">Shades of the ’70s, or shades of the ’30s – what would Phil Piratin have said?</a></div>       <div class="ms-card-meta-date2">17 September 2025</div>       <div class="ms-card-lead"><p>ANDREW MURRAY wonders what the great communist foe of Oswald Mosley would make of today’s far-right surge, warning that while the triumph of Farage and ‘Robinson’ is far from inevitable, placing any faith in Starmer in an anti-fascist front is a fool’s errand&nbsp;</p></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-07/Corbyn%20Sultana_0.jpg.webp?itok=oJtFJd-G');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-07/Corbyn%20Sultana_0.jpg.webp?itok=pHMmaQhW" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-07/Corbyn%20Sultana_0.jpg.webp?itok=GxRut-Lu" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-07/Corbyn%20Sultana_0.jpg.webp?itok=oJtFJd-G" class="high-res-image" alt="Jeremy Corbyn (second left) and Zarah Sultana, MP for Coventry South (second right) on the picket line outside London Euston train station, August 18, 2022" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Features</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">17 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/your-party-hope-local-government">Your Party: the hope for local government</a></div>       <div class="ms-card-meta-date2">17 September 2025</div>       <div class="ms-card-lead"><p>LOTTE COLLETT welcomes the arrival of a new party for the left, a vehicle for councils to finally fight for progressive policies on housing, green spaces and public facilities, rather than administering cuts and misery from central government&nbsp;</p></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/9%20-%20delegation.jpg.webp?itok=RyldtNZ_');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/9%20-%20delegation.jpg.webp?itok=Ix8Lh_by" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/9%20-%20delegation.jpg.webp?itok=x2WQSUVt" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/9%20-%20delegation.jpg.webp?itok=RyldtNZ_" class="high-res-image" alt="INTERNATIONAL SOLIDARITY: The British delegation at the Vietnam Fatherland Front headquarters in Hanoi" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Features</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">17 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/vietnams-80th-anniversary-national-liberation-celebrated-style">Vietnam’s 80th anniversary of national liberation celebrated in style</a></div>       <div class="ms-card-meta-date2">17 September 2025</div>       <div class="ms-card-lead"><p>KEVAN NELSON reports back from a delegation to the epic celebrations for the anniversary of Vietnam’s 1945 revolution, where British communists found a thriving, prosperous socialist country, brimming with ambition and well-earned national pride</p></div>   </div></div></div>
+			</div>
+			
+			<a name="Sport"></a>
+<div class="ms-section-header">
+	<span class="ms-section-header-title">Sport</span>
+	<span class="ms-section-header-link"><a href="/category/sport">See all in Sport ></a></span>
+</div>
+			<div class="grid-container sport">
+				<div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/PA-81508906.jpg.webp?itok=AqnKaFs1');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/PA-81508906.jpg.webp?itok=fpnAOzW9" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/PA-81508906.jpg.webp?itok=QXEH3mZd" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/PA-81508906.jpg.webp?itok=AqnKaFs1" class="high-res-image" alt="England's Ellie Kildunne applauds supporters after the final whistle during the Women's Rugby World Cup 2025 pool A match at American Express Stadium, Brighton, September 6, 2025" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Women’s rugby union</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/red-roses-boosted-duos-return-semi-final-showdown-france">Red Roses boosted by duo’s return for semi-final showdown with France</a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/PA-81656969.jpg.webp?itok=1b9szBio');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/PA-81656969.jpg.webp?itok=HsO6XBW7" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/PA-81656969.jpg.webp?itok=3otMIkbY" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/PA-81656969.jpg.webp?itok=1b9szBio" class="high-res-image" alt="Keely Hodgkinson of Great Britain during the Women's 800m Heat 1 on day six of the 2025 World Athletics Championships at the Japan National Stadium, Tokyo, September 18, 2025" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Athletics</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/hodgkinson-cruises-800m-semi-finals-world-championships">Hodgkinson cruises into 800m semi-finals at World Championships</a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"><p>Hunter Bell also won her heat on the sixth night of competition in Japan</p></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/PA-80681039.jpg.webp?itok=voxKtD-l');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/PA-80681039.jpg.webp?itok=s01AF-JG" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/PA-80681039.jpg.webp?itok=hnwAU9SI" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/PA-80681039.jpg.webp?itok=voxKtD-l" class="high-res-image" alt="England's Grace Clinton during a training session at St George's Park, Burton upon Trent, June 16, 2025" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Women’s football</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/clinton-contention-make-man-city-debut-against-spurs">Clinton in contention to make Man City debut against Spurs</a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/PA-81659567.jpg.webp?itok=s8ZhQIHL');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/PA-81659567.jpg.webp?itok=lcJ_5cFE" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/PA-81659567.jpg.webp?itok=l3m98sws" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/PA-81659567.jpg.webp?itok=s8ZhQIHL" class="high-res-image" alt="Jose Mourinho, August 28, 2025" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Men’s football</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/mourinho-confirmed-benficas-new-head-coach">Mourinho confirmed as Benfica’s new head coach</a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"></div>   </div></div></div>
+			</div>
+			<a name="Culture"></a>
+<div class="ms-section-header">
+	<span class="ms-section-header-title">Culture</span>
+	<span class="ms-section-header-link"><a href="/category/culture">See all in Culture ></a></span>
+</div>
+			<div class="grid-container culture">
+				<div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/round%20up%20web.jpg.webp?itok=KDgWmuxV');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/round%20up%20web.jpg.webp?itok=KXwZDZ6H" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/round%20up%20web.jpg.webp?itok=czU3iOmS" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/round%20up%20web.jpg.webp?itok=KDgWmuxV" class="high-res-image" alt="round up" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Cinema</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/film-round-september-18-2025">Film round-up: September 18, 2025</a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"><p>ANDY HEDGECOCK, MARIA DUARTE and ANGUS REID review Ackroyd &amp; Harvey: The Art of Activism, The Lost Bus, A Big Bold Beautiful Journey, and Happyend</p></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/reunion%20web.jpg.webp?itok=9fot2lDp');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/reunion%20web.jpg.webp?itok=rJyE1eA0" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/reunion%20web.jpg.webp?itok=-aIicntu" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/reunion%20web.jpg.webp?itok=9fot2lDp" class="high-res-image" alt="reunion" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Theatre review</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">18 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/unhappy-families">Unhappy families</a></div>       <div class="ms-card-meta-date2">18 September 2025</div>       <div class="ms-card-lead"><p>MARY CONWAY relishes the spectacle of a domestic implosion in a setting strangely divorced from any social, political or cultural context</p></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/merlin%20web.jpg.webp?itok=BGGEzQEY');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/merlin%20web.jpg.webp?itok=rplE-CS1" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/merlin%20web.jpg.webp?itok=WLi-81K9" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/merlin%20web.jpg.webp?itok=BGGEzQEY" class="high-res-image" alt="merlin" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Ballet review</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">17 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/wizard-ballet">Wizard ballet</a></div>       <div class="ms-card-meta-date2">17 September 2025</div>       <div class="ms-card-lead"><p>SUSAN DARLINGTON appreciates a retelling of the Merlin myth that emphasises family and belonging</p></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/dr%20freud%20web.jpg.webp?itok=a5lkWMZg');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/dr%20freud%20web.jpg.webp?itok=_dVh_7hc" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/dr%20freud%20web.jpg.webp?itok=xlRQcoLm" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/dr%20freud%20web.jpg.webp?itok=a5lkWMZg" class="high-res-image" alt="Dr Freud" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Theatre review</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">16 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/put-nazi-couch">Put the Nazi on the couch</a></div>       <div class="ms-card-meta-date2">16 September 2025</div>       <div class="ms-card-lead"><p>JAN WOOLF is beguiled by the tempting notion that Freud psychoanalysed Hitler in a comedy that explores the vulnerability of a damaged individual</p></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/TB%20albums%20webpic_0.jpg.webp?itok=rUNVbXHT');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/TB%20albums%20webpic_0.jpg.webp?itok=aBxxGlQt" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/TB%20albums%20webpic_0.jpg.webp?itok=58ziEhmD" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/TB%20albums%20webpic_0.jpg.webp?itok=rUNVbXHT" class="high-res-image" alt="covers" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">Music Reviews</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">12 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/global-routes-september-12-2025">Global Routes: September 12, 2025</a></div>       <div class="ms-card-meta-date2">12 September 2025</div>       <div class="ms-card-lead"><p>TONY BURKE reviews new releases from Cheikh Lo, Mishra &amp; Deepa Shakthi, N’Faly Kouyate</p></div>   </div></div></div><div class="grid-item"><div class="article-card">   <div class="article-image">       <div class="ms-card-image">           <div class="image-3-2" style="background-image: url('https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/D%20O%27Brien%20piece%20webpic.jpg.webp?itok=nZL309O8');" />
+               <picture>                   <source media="(min-width: 768px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/desktop/public/2025-09/D%20O%27Brien%20piece%20webpic.jpg.webp?itok=gUJ93SvZ" />
+                   <source media="(max-width: 767px)" srcset="https://morningstaronline.co.uk/sites/default/files/styles/mobile/public/2025-09/D%20O%27Brien%20piece%20webpic.jpg.webp?itok=B9pAf2MC" />
+                   <img src=" https://morningstaronline.co.uk/sites/default/files/styles/low_resolution/public/2025-09/D%20O%27Brien%20piece%20webpic.jpg.webp?itok=nZL309O8" class="high-res-image" alt="Beer Street and Gin Lane, 1759 versions of Hogarth contrasting visions / Pic: Public domain" loading="lazy" />
+               </picture>
+           </div>
+       </div>   </div>  <div class="article-text">       <div class="ms-card-meta">           <span class="ms-card-meta-trumpet">History</span>           <span class="ms-card-meta-divider">/</span>           <span class="ms-card-meta-date">12 September 2025</span>       </div>       <div class="ms-card-title"><a href="/article/hollow-expenditure">A hollow expenditure</a></div>       <div class="ms-card-meta-date2">12 September 2025</div>       <div class="ms-card-lead"><p>Gin Lane by William Hogarth is a critique of 18th-century London’s growing funeral trade, posits DAN O’BRIEN</p></div>   </div></div></div>
+			</div>
+		</div>
+
+		
+		
+	</main>
+
+	
+
+</div>
+<footer role="contentinfo">
+			<div class="footer-wrapper">
+			  <div>
+    <div class="footer-wrapper" id="footercta1">
+	<div class='main-wrapper'>
+		<div class="footer-cta-support">
+			<div class="footer-cta-support-image">
+            <img class="footer-cta-support-support-image-img" alt="Decorative Morningstar paper image"src="/themes/custom/morningstar/assets/img/gaza.png">
+            </div>
+			<div class="footer-cta-support-text">
+				<div class="footer-cta-support-text-logo">
+					<a href="/"><img width="192" alt="Morningstar logo" src="/themes/custom/morningstar/assets/img/MS_logo_no_star_red.svg"></a>
+				</div>
+				<div class="footer-cta-support-text-title">
+					Owned by our readers
+				</div>
+				<div class="footer-cta-support-text-text">
+					We're a reader-owned co-operative, which means you can become part of the paper too by buying shares in the People’s Press Printing Society.
+				</div>
+				<div class="footer-cta-support-text-button">
+					<a href="/support" class="ms-button-red">Become a supporter</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="footer-wrapper" id="footercta2">
+	<div class='main-wrapper'>
+		<div class="footer-cta-social">
+			
+			<div class="footer-cta-social-label">
+				Join the conversation on Social Media
+			</div>
+            <div class="footer-cta-social-icons">
+				<a href="https://www.facebook.com/morningstaronline"><img src="/themes/custom/morningstar/assets/img/fb-white.svg"></a>
+				<a href="https://x.com/M_Star_Online"><img src="/themes/custom/morningstar/assets/img/x-white.svg"></a>
+			</div>
+		</div>
+	</div>
+</div><div class="footer-wrapper" id="footer1">
+	<div class='main-wrapper'>
+		<div class="footer-first">
+			<div class="footer-first-cta">
+				<div class="logo">
+					<a href="/"><img src="/themes/custom/morningstar/assets/img/MS_logo_no_star.svg"></a>
+				</div>
+				<div class="ms-card-meta-trumpet">Owned by Our Readers</div>
+				<div class="footer-first-text-para">
+				We're a reader-owned co-operative, which means you can become part of the paper too by buying shares in the People’s Press Printing Society.
+				</div>
+				<a href="/subscribe" class="ms-button-red">Subscribe</a>
+				<a href="/support" class="ms-button-white">Support us</a>
+
+			</div>
+			<div class="footer-first-menu">
+				<ul>
+					<li class="footer-first-subheadline">
+						<div class="ms-card-meta-trumpet">Sections</div>
+					</li>
+																		<li>
+								<a href="/category/britain">Britain</a>
+							</li>
+																								<li>
+								<a href="/category/world">World</a>
+							</li>
+																								<li>
+								<a href="/category/editorial">Editorial</a>
+							</li>
+																								<li>
+								<a href="/category/features">Features</a>
+							</li>
+																								<li>
+								<a href="/category/culture">Culture</a>
+							</li>
+																								<li>
+								<a href="/category/sport">Sport</a>
+							</li>
+															</ul>
+			</div>
+
+			<div class="footer-first-menu">
+				<ul>
+					<li class="footer-first-subheadline">
+						<div class="ms-card-meta-trumpet">Topics</div>
+					</li>
+																		<li>
+								<a href="/tags/climate-crisis-0">Climate Crisis</a>
+							</li>
+																								<li>
+								<a href="/tags/far-right">Far Right</a>
+							</li>
+																								<li>
+								<a href="/tags/gaza">Gaza</a>
+							</li>
+																								<li>
+								<a href="/tags/workers-rights">Workers&#039; Rights</a>
+							</li>
+																								<li>
+								<a href="/tags/labour-party">Labour Party</a>
+							</li>
+																								<li>
+								<a href="/tags/womens-rugby-world-cup">Women’s Rugby World Cup</a>
+							</li>
+																								<li>
+								<a href="/tags/morning-star-video-0">Morning Star Video</a>
+							</li>
+																								<li>
+								<a href="/tags/tuc-congress-2025">TUC Congress 2025</a>
+							</li>
+															</ul>
+			</div>
+			
+			<div class="footer-first-menu">
+				<ul>
+					<li class="footer-first-subheadline">
+					<div class="ms-card-meta-trumpet">Services</div>
+				</li>
+																		<li>
+								<a href="/page/advertising-rates-and-dimensions">Advertise</a>
+							</li>
+																								<li>
+								<a href="/page/contact-us">Contact us</a>
+							</li>
+																								<li>
+								<a href="https://shop.morningstaronline.co.uk/">Shop</a>
+							</li>
+																								<li>
+								<a href="/subscribe">Subscribe</a>
+							</li>
+																								<li>
+								<a href="/support">Support us</a>
+							</li>
+																								<li>
+								<a href="https://morningstaronline.us19.list-manage.com/subscribe?u=896177e8893bb5ec9b3f0d8d7&amp;id=5fa846e5af">Daily Alert</a>
+							</li>
+															</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="footer-wrapper" id="footer2">
+	<div class='main-wrapper'>
+		<div class="footer-second">
+			<div class="footer-second-socials">
+				<a href="https://www.facebook.com/morningstaronline"><img src="/themes/custom/morningstar/assets/img/fb-black.svg"></a>
+				<a href="https://x.com/M_Star_Online"><img src="/themes/custom/morningstar/assets/img/x-black.svg"></a>
+			</div>
+			<div class="footer-second-links">
+				<ul>
+					<li>© Morning Star
+						2025</li>
+					<li><a href="/privacy-policy">Privacy policies</a></li>
+					<li><a href="/terms-use">Terms of use</a></li>
+				
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+  </div>
+
+		</div>
+		</div>
+</footer>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/113914","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ms_chargebee":{"site":"morningstaronline"},"user":{"uid":0,"permissionsHash":"b3d16ae407fb70d6503b5e54f120d98f664f48b1c1354fc60a0245661cf5e2bd"}}</script>
+<script src="/sites/default/files/js/js_x1x9987I2uYiMDF3RMevFN8rwrf6xEtJLQHPWI7zOCg.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=morningstar&amp;include=eJxVjEEKwDAIBD_U0icFExYjGAX10t83x_Q6M8zyMDHOonjGpGB0oIkVOKjE7VpHweqd9M56daOfSh9C2nI_8AHDMSIw"></script>
+<script src="https://js.chargebee.com/v2/chargebee.js"></script>
+<script src="/sites/default/files/js/js_UM0iuWG4zunvlkOP-tmHhWhvylqgmDNvmzg13AJ2PmM.js?scope=footer&amp;delta=2&amp;language=en&amp;theme=morningstar&amp;include=eJxVjEEKwDAIBD_U0icFExYjGAX10t83x_Q6M8zyMDHOonjGpGB0oIkVOKjE7VpHweqd9M56daOfSh9C2nI_8AHDMSIw"></script>
+<script src="//cdn.jsdelivr.net/npm/sharer.js@0.5.2/sharer.min.js"></script>
+
+    <!-- Matomo -->
+		<script>
+			var _paq = window._paq = window._paq || [];
+/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+_paq.push(['disableCookies']);
+_paq.push(['trackPageView']);
+_paq.push(['enableLinkTracking']);
+(function () {
+var u = "https://stats.greennet.org.uk/";
+_paq.push([
+'setTrackerUrl',
+u + 'matomo.php'
+]);
+_paq.push(['setSiteId', '46']);
+var d = document,
+g = d.createElement('script'),
+s = d.getElementsByTagName('script')[0];
+g.async = true;
+g.src = u + 'matomo.js';
+s.parentNode.insertBefore(g, s);
+})();
+		</script>
+		<!-- End Matomo Code -->
+  <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9812efe9ae9c1600',t:'MTc1ODIyMDQ2Mw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

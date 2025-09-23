@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<meta content="text/html" />
+	<meta charset="utf-8" />
+	<meta property="og:description" content="Let's all ditch social media and go back to making our own websites ~" />
+	
+	<title>See bottom of page</title>
+	
+    <style type="text/css">
+        
+        html, body {
+        margin: 0;
+        padding: 0;
+        }
+		
+		::selection {
+    	background: #4B23A6;
+    	color: white;
+		}
+        
+        body {
+    	font-family: Courier New;    	
+       	}
+       	
+       	h2 {
+        color: #555;
+        font-size: 19px;
+        text-decoration: none;
+        }
+        
+    	div {
+        font-family: Courier New;
+        line-height: 1.4;
+        font-size: 17px;
+        text-align: justify;
+        width: 60%;
+        background-color: rgba(0, 6, 144, 0.4);
+        border-radius: 10px;
+        color: #fff;
+        margin: 0 auto;
+        padding: 10px;
+        }
+    	
+    	p {
+  		font-size: 17px;
+  		color: #50F2C4;
+  		margin-left: 5%;
+  		margin-right: 5%;
+		}
+		    	
+		hr {
+  		display: block;
+  		width: 50px;
+  		margin-top: 3.1em;
+  		margin-bottom: 3.1em;
+  		margin-left: auto;
+  		margin-right: auto;
+  		border-style: dashed;
+  		border-width: 1px;
+  		color: #F23DB3;
+		}
+    	
+    	A:link
+		{text-decoration: none; color:#F23DB3;}
+		A:visited
+		{text-decoration: none; color:#8C035C;}
+		A:active
+		{text-decoration: none; color:#F23DB3;}
+
+	</style>
+
+</head>
+
+<body>
+
+<p align="center"></p>
+
+
+<div>
+	<center><h2><font color="#Fff">September 2025</font></h2></center>
+	<p>We're here? We're live!? Hello!!!??</p>
+	<p>It's been a while since the last time I had my own website and I'm not entirely sure yet what I wanna do with this place. So I just stuck with the kind of content my site had like, 15 years ago: (links to) my fic, art and fanvids, a little bio page, random fun stuff for my lovely visitors, optional background music, a guestbook... those kinds of things :3 I'm sure there's more to come in future.</p>
+	<p>For now, I hope you have a nice time here and feel free to <s>like and subscribe</s> leave a note in the guestbook, before you leave!</p>
+</div>
+
+<hr>
+
+<div>
+	<center><h2><font color="#Fff">August/31/2025</font></h2></center>
+	<p>Been playing around with webdesign for a few days now and I think that idea of having my own homepage again might become reality sooner than I thought?</p>
+	<p>I lost my old site around 2010 when freenet.de stopped offering free ad-free webspace and have missed it more than once since then. I've tried Wordpress but for some reason never really vibed with it ¯\_(ツ)_/¯</p>
+	<p>Right now I'm reading through various tutorials and messing around with their code to refamiliarize myself again with html and get to know css a little better.</p>
+	<p>As of typing this I'm working on the updates/news section and since I need more than one entry to really see what I'm doing... you get this pre-launch entry :P</p>
+</div>
+
+<p></p>
+
+<br><br><br><br>
+
+<p align="right">
+  <font size="2" color="#000">
+    <a STYLE="COLOR:BLACK;" href="https://ssjumi.neocities.org/" target="_parent">Got lost?</a>
+  </font>
+</p>
+
+</body>
+
+</html>

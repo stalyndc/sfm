@@ -1,0 +1,24 @@
+# includes/.htaccess
+# Block direct web access to everything in /includes
+# Works on Apache 2.4+ and falls back for 2.2
+
+# No directory listings
+Options -Indexes
+
+# Deny all HTTP access
+<IfModule mod_authz_core.c>
+  Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+  Deny from all
+</IfModule>
+
+# Extra hardening: never serve these files if rules above are bypassed
+<FilesMatch "\.(php|phtml|phps|inc|ini|json|sql|yml|yaml|env|bak|backup)$">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Deny from all
+  </IfModule>
+</FilesMatch>

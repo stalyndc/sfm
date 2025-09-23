@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>{0} - Vietstock RSS</title>
+    <link>https://en.vietstock.vn/01/vietnam-stocks.rss</link>
+    <description>VietStock RSS</description>
+    <lastBuildDate>Wed, 03 Sep 2025 14:19:48 +0700</lastBuildDate>
+    <generator>Vietstock</generator>
+  </channel>
+</rss>

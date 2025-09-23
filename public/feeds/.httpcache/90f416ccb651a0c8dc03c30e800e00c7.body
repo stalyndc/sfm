@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html class="no-js mh-one-sb" lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<title>Spaceflight Now &#8211; The leading source for online space news</title>
+<meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Spaceflight Now &raquo; Feed" href="https://spaceflightnow.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Spaceflight Now &raquo; Comments Feed" href="https://spaceflightnow.com/comments/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/spaceflightnow.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.2"}};
+/*! This file is auto-generated */
+!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://spaceflightnow.com/wp-includes/css/dist/block-library/style.min.css?ver=6.8.2' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='mh-magazine-css' href='https://spaceflightnow.com/wp-content/themes/mh-magazine/style.css?ver=6.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mh-magazine-child-css' href='https://spaceflightnow.com/wp-content/themes/mh-magazine-child/style.css?ver=6.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mh-font-awesome-css' href='https://spaceflightnow.com/wp-content/themes/mh-magazine/includes/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mh-google-fonts-css' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,700' type='text/css' media='all' />
+<script type="text/javascript" src="https://spaceflightnow.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://spaceflightnow.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://spaceflightnow.com/wp-content/themes/mh-magazine/js/scripts.js?ver=3.9.13" id="mh-scripts-js"></script>
+<link rel="https://api.w.org/" href="https://spaceflightnow.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://spaceflightnow.com/wp-json/wp/v2/pages/28" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://spaceflightnow.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.2" />
+<link rel="canonical" href="https://spaceflightnow.com/" />
+<link rel='shortlink' href='https://spaceflightnow.com/' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://spaceflightnow.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fspaceflightnow.com%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://spaceflightnow.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fspaceflightnow.com%2F&#038;format=xml" />
+<script type="text/javascript">
+  (function(c) {
+    var script = document.createElement("script");
+    script.src = "https://js.memberful.com/embed.js";
+    script.onload = function() { Memberful.setup(c) };
+    document.head.appendChild(script);
+  })({
+    site: ["https:\/\/spaceflightnow.memberful.com"]  });
+</script>
+<style type="text/css">
+.mh-navigation li:hover, .mh-navigation ul li:hover > ul, .mh-main-nav-wrap, .mh-main-nav, .mh-social-nav li a:hover, .entry-tags li, .mh-slider-caption, .mh-widget-layout8 .mh-widget-title .mh-footer-widget-title-inner, .mh-widget-col-1 .mh-slider-caption, .mh-widget-col-1 .mh-posts-lineup-caption, .mh-carousel-layout1, .mh-spotlight-widget, .mh-social-widget li a, .mh-author-bio-widget, .mh-footer-widget .mh-tab-comment-excerpt, .mh-nip-item:hover .mh-nip-overlay, .mh-widget .tagcloud a, .mh-footer-widget .tagcloud a, .mh-footer, .mh-copyright-wrap, input[type=submit]:hover, #infinite-handle span:hover { background: #828282; }
+.mh-extra-nav-bg { background: rgba(130, 130, 130, 0.2); }
+.mh-slider-caption, .mh-posts-stacked-title, .mh-posts-lineup-caption { background: #828282; background: rgba(130, 130, 130, 0.8); }
+@media screen and (max-width: 900px) { #mh-mobile .mh-slider-caption, #mh-mobile .mh-posts-lineup-caption { background: rgba(130, 130, 130, 1); } }
+.slicknav_menu, .slicknav_nav ul, #mh-mobile .mh-footer-widget .mh-posts-stacked-overlay { border-color: #828282; }
+.mh-copyright, .mh-copyright a { color: #fff; }
+.mh-widget-layout4 .mh-widget-title { background: #990000; background: rgba(153, 0, 0, 0.6); }
+.mh-preheader, .mh-wide-layout .mh-subheader, .mh-ticker-title, .mh-main-nav li:hover, .mh-footer-nav, .slicknav_menu, .slicknav_btn, .slicknav_nav .slicknav_item:hover, .slicknav_nav a:hover, .mh-back-to-top, .mh-subheading, .entry-tags .fa, .entry-tags li:hover, .mh-widget-layout2 .mh-widget-title, .mh-widget-layout4 .mh-widget-title-inner, .mh-widget-layout4 .mh-footer-widget-title, .mh-widget-layout5 .mh-widget-title-inner, .mh-widget-layout6 .mh-widget-title, #mh-mobile .flex-control-paging li a.flex-active, .mh-image-caption, .mh-carousel-layout1 .mh-carousel-caption, .mh-tab-button.active, .mh-tab-button.active:hover, .mh-footer-widget .mh-tab-button.active, .mh-social-widget li:hover a, .mh-footer-widget .mh-social-widget li a, .mh-footer-widget .mh-author-bio-widget, .tagcloud a:hover, .mh-widget .tagcloud a:hover, .mh-footer-widget .tagcloud a:hover, .mh-posts-stacked-item .mh-meta, .page-numbers:hover, .mh-loop-pagination .current, .mh-comments-pagination .current, .pagelink, a:hover .pagelink, input[type=submit], #infinite-handle span { background: #990000; }
+.mh-main-nav-wrap .slicknav_nav ul, blockquote, .mh-widget-layout1 .mh-widget-title, .mh-widget-layout3 .mh-widget-title, .mh-widget-layout5 .mh-widget-title, .mh-widget-layout8 .mh-widget-title:after, #mh-mobile .mh-slider-caption, .mh-carousel-layout1, .mh-spotlight-widget, .mh-author-bio-widget, .mh-author-bio-title, .mh-author-bio-image-frame, .mh-video-widget, .mh-tab-buttons, textarea:hover, input[type=text]:hover, input[type=email]:hover, input[type=tel]:hover, input[type=url]:hover { border-color: #990000; }
+.mh-header-tagline, .mh-dropcap, .mh-carousel-layout1 .flex-direction-nav a, .mh-carousel-layout2 .mh-carousel-caption, .mh-posts-digest-small-category, .mh-posts-lineup-more, .bypostauthor .fn:after, .mh-comment-list .comment-reply-link:before, #respond #cancel-comment-reply-link:before { color: #990000; }
+.entry-content a { color: #000000; }
+a:hover, .entry-content a:hover, #respond a:hover, #respond #cancel-comment-reply-link:hover, #respond .logged-in-as a:hover, .mh-comment-list .comment-meta a:hover, .mh-ping-list .mh-ping-item a:hover, .mh-meta a:hover, .mh-breadcrumb a:hover, .mh-tabbed-widget a:hover { color: #cea45a; }
+</style>
+<!--[if lt IE 9]>
+<script src="https://spaceflightnow.com/wp-content/themes/mh-magazine/js/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+<body id="mh-mobile" class="home wp-singular page-template page-template-template-homepage page-template-template-homepage-php page page-id-28 wp-theme-mh-magazine wp-child-theme-mh-magazine-child mh-boxed-layout mh-right-sb mh-loop-layout1 mh-widget-layout1 mh-loop-hide-caption" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+<div class="mh-container mh-container-outer">
+<div class="mh-header-nav-mobile clearfix"></div>
+	<div class="mh-preheader">
+    	<div class="mh-container mh-container-inner mh-row clearfix">
+							<div class="mh-header-bar-content mh-header-bar-top-left mh-col-2-3 clearfix">
+											<div class="mh-header-date mh-header-date-top">
+							September 14, 2025						</div>
+									</div>
+										<div class="mh-header-bar-content mh-header-bar-top-right mh-col-1-3 clearfix">
+											<aside class="mh-header-search mh-header-search-top">
+							<form role="search" method="get" class="search-form" action="https://spaceflightnow.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>						</aside>
+									</div>
+					</div>
+	</div>
+<header class="mh-header" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+	<div class="mh-container mh-container-inner clearfix">
+		<div class="mh-custom-header clearfix">
+<a class="mh-header-image-link" href="https://spaceflightnow.com/" title="Spaceflight Now" rel="home">
+<img class="mh-header-image" src="https://spaceflightnow.com/wp-content/uploads/2015/09/SFN-Logo-Blue1.png" height="50" width="543" alt="Spaceflight Now" />
+</a>
+</div>
+	</div>
+	<div class="mh-main-nav-wrap">
+		<nav class="mh-navigation mh-main-nav mh-container mh-container-inner clearfix" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+			<div class="menu-navigation-container"><ul id="menu-navigation" class="menu"><li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-28 current_page_item menu-item-30"><a href="https://spaceflightnow.com/" aria-current="page">Home</a></li>
+<li id="menu-item-40" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40"><a href="https://spaceflightnow.com/category/news-archive/">News Archive</a></li>
+<li id="menu-item-60872" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60872"><a href="https://spaceflightnow.com/launch-schedule/">Launch Schedule</a></li>
+<li id="menu-item-51" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-51"><a href="https://spaceflightnow.com/category/mission-reports/">Mission Reports</a>
+<ul class="sub-menu">
+	<li id="menu-item-61028" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-61028"><a href="https://spaceflightnow.com/category/antares/">Antares Launcher</a></li>
+	<li id="menu-item-258" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-258"><a href="https://spaceflightnow.com/category/mission-reports/ariane-5/">Ariane 5</a></li>
+	<li id="menu-item-52" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-52"><a href="https://spaceflightnow.com/category/atlas5/">Atlas 5</a></li>
+	<li id="menu-item-58" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-58"><a href="https://spaceflightnow.com/category/delta-4/">Delta 4</a></li>
+	<li id="menu-item-13107" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13107"><a href="https://spaceflightnow.com/category/falcon-9/">Falcon 9</a></li>
+	<li id="menu-item-29391" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-29391"><a href="https://spaceflightnow.com/category/falcon-heavy/">Falcon Heavy</a></li>
+	<li id="menu-item-115" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-115"><a href="https://spaceflightnow.com/category/h-2a/">H-2A</a></li>
+	<li id="menu-item-212" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-212"><a href="https://spaceflightnow.com/category/soyuz/">Soyuz</a></li>
+	<li id="menu-item-211" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-211"><a href="https://spaceflightnow.com/category/space-station/">Space Station</a></li>
+</ul>
+</li>
+<li id="menu-item-9304" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-9304"><a href="https://spaceflightnow.com/category/members/">Members</a>
+<ul class="sub-menu">
+	<li id="menu-item-34943" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34943"><a href="https://spaceflightnow.com/?memberful_endpoint=auth">Sign in</a></li>
+	<li id="menu-item-11785" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11785"><a href="https://spaceflightnow.com/subscribe-to-spaceflight-now/">Become a member</a></li>
+	<li id="menu-item-34942" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-34942"><a href="https://spaceflightnow.com/category/members/">Members Content</a></li>
+</ul>
+</li>
+<li id="menu-item-62210" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62210"><a href="https://spaceflightnow.com/launch-pad-live/">Live</a></li>
+<li id="menu-item-17327" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17327"><a href="https://shop.spaceflightnow.com">Shop</a></li>
+</ul></div>		</nav>
+	</div>
+	</header>
+	<div class="mh-subheader">
+		<div class="mh-container mh-container-inner mh-row clearfix">
+							<div class="mh-header-bar-content mh-header-bar-bottom-left mh-col-2-3 clearfix">
+											<div class="mh-header-ticker mh-header-ticker-bottom">
+							<div class="mh-ticker-bottom">
+			<div class="mh-ticker-title mh-ticker-title-bottom">
+			Breaking News<i class="fa fa-chevron-right"></i>		</div>
+		<div class="mh-ticker-content mh-ticker-content-bottom">
+		<ul id="mh-ticker-loop-bottom">				<li class="mh-ticker-item mh-ticker-item-bottom">
+					<a href="https://spaceflightnow.com/2025/09/13/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-3/" title="SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB">
+						<span class="mh-ticker-item-date mh-ticker-item-date-bottom">
+                        	[ September 13, 2025 ]                        </span>
+						<span class="mh-ticker-item-title mh-ticker-item-title-bottom">
+							SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB						</span>
+													<span class="mh-ticker-item-cat mh-ticker-item-cat-bottom">
+								<i class="fa fa-caret-right"></i>
+																Falcon 9							</span>
+											</a>
+				</li>				<li class="mh-ticker-item mh-ticker-item-bottom">
+					<a href="https://spaceflightnow.com/2025/09/12/department-of-the-air-force-faa-clear-spacex-to-launch-up-to-120-falcon-9-rockets-annually-from-cape-canaveral/" title="Department of the Air Force, FAA clear SpaceX to launch up to 120 Falcon 9 rockets annually from Cape Canaveral">
+						<span class="mh-ticker-item-date mh-ticker-item-date-bottom">
+                        	[ September 12, 2025 ]                        </span>
+						<span class="mh-ticker-item-title mh-ticker-item-title-bottom">
+							Department of the Air Force, FAA clear SpaceX to launch up to 120 Falcon 9 rockets annually from Cape Canaveral						</span>
+													<span class="mh-ticker-item-cat mh-ticker-item-cat-bottom">
+								<i class="fa fa-caret-right"></i>
+																News							</span>
+											</a>
+				</li>				<li class="mh-ticker-item mh-ticker-item-bottom">
+					<a href="https://spaceflightnow.com/2025/09/12/new-u-s-military-satellite-constellation-takes-shape-with-first-launch-from-vandenberg-sfb/" title="New U.S. military satellite constellation takes shape with first launch from Vandenberg SFB">
+						<span class="mh-ticker-item-date mh-ticker-item-date-bottom">
+                        	[ September 12, 2025 ]                        </span>
+						<span class="mh-ticker-item-title mh-ticker-item-title-bottom">
+							New U.S. military satellite constellation takes shape with first launch from Vandenberg SFB						</span>
+													<span class="mh-ticker-item-cat mh-ticker-item-cat-bottom">
+								<i class="fa fa-caret-right"></i>
+																Falcon 9							</span>
+											</a>
+				</li>				<li class="mh-ticker-item mh-ticker-item-bottom">
+					<a href="https://spaceflightnow.com/2025/09/10/live-coverage-spacex-attempts-to-launch-indonesian-communications-satellite-following-back-to-back-weather-scrubs/" title="SpaceX launches Indonesian communications satellite following three days of scrubs">
+						<span class="mh-ticker-item-date mh-ticker-item-date-bottom">
+                        	[ September 10, 2025 ]                        </span>
+						<span class="mh-ticker-item-title mh-ticker-item-title-bottom">
+							SpaceX launches Indonesian communications satellite following three days of scrubs						</span>
+													<span class="mh-ticker-item-cat mh-ticker-item-cat-bottom">
+								<i class="fa fa-caret-right"></i>
+																Falcon 9							</span>
+											</a>
+				</li>				<li class="mh-ticker-item mh-ticker-item-bottom">
+					<a href="https://spaceflightnow.com/2025/09/10/live-coverage-space-development-agency-spacex-to-launch-next-gen-national-security-satellites/" title="Launch preview: Space Development Agency, SpaceX to launch next-gen national security satellites">
+						<span class="mh-ticker-item-date mh-ticker-item-date-bottom">
+                        	[ September 10, 2025 ]                        </span>
+						<span class="mh-ticker-item-title mh-ticker-item-title-bottom">
+							Launch preview: Space Development Agency, SpaceX to launch next-gen national security satellites						</span>
+													<span class="mh-ticker-item-cat mh-ticker-item-cat-bottom">
+								<i class="fa fa-caret-right"></i>
+																Falcon 9							</span>
+											</a>
+				</li>		</ul>
+	</div>
+</div>						</div>
+									</div>
+										<div class="mh-header-bar-content mh-header-bar-bottom-right mh-col-1-3 clearfix">
+									</div>
+					</div>
+	</div>
+<div class="mh-wrapper mh-home clearfix">
+	<div class="mh-main mh-home-main">
+							<div class="mh-home-columns clearfix">
+				<div id="main-content" class="mh-content mh-home-content">
+		    		<div id="mh_magazine_posts_large-2" class="mh-widget mh-home-2 mh-widget-col-2 mh_magazine_posts_large"><div class="mh-posts-large-widget mh-posts-large-hide-caption">
+<article class="mh-posts-large-item clearfix post-70795 post type-post status-publish format-standard has-post-thumbnail category-news-archive category-home-page-highlight tag-department-of-the-air-force tag-faa tag-falcon-9 tag-slc-40 tag-space-launch-delta-45 tag-spacex tag-u-s-space-force">
+	<figure class="mh-posts-large-thumb">
+		<a class="mh-thumb-icon" href="https://spaceflightnow.com/2025/09/12/department-of-the-air-force-faa-clear-spacex-to-launch-up-to-120-falcon-9-rockets-annually-from-cape-canaveral/" title="Department of the Air Force, FAA clear SpaceX to launch up to 120 Falcon 9 rockets annually from Cape Canaveral"><img width="678" height="381" src="https://spaceflightnow.com/wp-content/uploads/2024/09/20240928_Crew-9_launch_MC-1-678x381.jpg" class="attachment-mh-magazine-content size-mh-magazine-content wp-post-image" alt="" decoding="async" fetchpriority="high" />		</a>
+					<div class="mh-image-caption mh-posts-large-caption">
+				News			</div>
+			</figure>
+	<div class="mh-posts-large-content clearfix">
+		<header class="mh-posts-large-header">
+			<h3 class="entry-title mh-posts-large-title">
+				<a href="https://spaceflightnow.com/2025/09/12/department-of-the-air-force-faa-clear-spacex-to-launch-up-to-120-falcon-9-rockets-annually-from-cape-canaveral/" title="Department of the Air Force, FAA clear SpaceX to launch up to 120 Falcon 9 rockets annually from Cape Canaveral" rel="bookmark">
+					Department of the Air Force, FAA clear SpaceX to launch up to 120 Falcon 9 rockets annually from Cape Canaveral				</a>
+			</h3>
+			<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://spaceflightnow.com/2025/09/">September 12, 2025</a></span>
+</div>
+		</header>
+		<div class="mh-posts-large-excerpt clearfix">
+			<div class="mh-excerpt"><p>The move not only allows SpaceX to increase its allowed launches at pad 40 from 50 to 120, but it also permits the Texas-based company to construct a new landing site adjacent to the launch pad. <a class="mh-excerpt-more" href="https://spaceflightnow.com/2025/09/12/department-of-the-air-force-faa-clear-spacex-to-launch-up-to-120-falcon-9-rockets-annually-from-cape-canaveral/" title="Department of the Air Force, FAA clear SpaceX to launch up to 120 Falcon 9 rockets annually from Cape Canaveral"></a></p>
+</div>		</div>
+	</div>
+</article></div>
+</div>										<div id="mh_magazine_custom_posts-4" class="mh-widget mh-home-5 mh-widget-col-2 mh_magazine_custom_posts">			<ul class="mh-custom-posts-widget clearfix"> 						<li class="mh-custom-posts-item mh-custom-posts-large clearfix post-70865 post type-post status-publish format-standard has-post-thumbnail category-falcon-9 category-mission-reports category-news-archive category-x-sidebar tag-falcon-9 tag-spacex tag-starlink tag-starlink-17-10">
+							<div class="mh-custom-posts-large-inner clearfix">
+																	<figure class="mh-custom-posts-thumb-xl">
+										<a class="mh-thumb-icon mh-thumb-icon-small-mobile" href="https://spaceflightnow.com/2025/09/13/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-3/" title="SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB"><img width="326" height="245" src="https://spaceflightnow.com/wp-content/uploads/2025/09/20250913_Starlink_G17_10-326x245.jpg" class="attachment-mh-magazine-medium size-mh-magazine-medium wp-post-image" alt="" decoding="async" srcset="https://spaceflightnow.com/wp-content/uploads/2025/09/20250913_Starlink_G17_10-326x245.jpg 326w, https://spaceflightnow.com/wp-content/uploads/2025/09/20250913_Starlink_G17_10-80x60.jpg 80w" sizes="(max-width: 326px) 100vw, 326px" />										</a>
+																			</figure>
+																<div class="mh-custom-posts-content">
+									<div class="mh-custom-posts-header">
+										<h3 class="mh-custom-posts-xl-title">
+											<a href="https://spaceflightnow.com/2025/09/13/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-3/" title="SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB">
+												SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB											</a>
+										</h3>
+										<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://spaceflightnow.com/2025/09/">September 13, 2025</a></span>
+</div>
+									</div>
+									<div class="mh-excerpt">SpaceX achieved liftoff from pad 4 East at 10:55 a.m. PDT (1:55 p.m. EDT / 1755 UTC).</div>								</div>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-large clearfix post-70849 post type-post status-publish format-standard has-post-thumbnail category-falcon-9 category-mission-reports category-news-archive category-x-sidebar tag-falcon-9 tag-space-development-agency tag-space-systems-command tag-spacex tag-t1tl-b tag-tranche-1-transport-layer tag-u-s-space-force tag-york-space-systems">
+							<div class="mh-custom-posts-large-inner clearfix">
+																	<figure class="mh-custom-posts-thumb-xl">
+										<a class="mh-thumb-icon mh-thumb-icon-small-mobile" href="https://spaceflightnow.com/2025/09/12/new-u-s-military-satellite-constellation-takes-shape-with-first-launch-from-vandenberg-sfb/" title="New U.S. military satellite constellation takes shape with first launch from Vandenberg SFB"><img width="326" height="245" src="https://spaceflightnow.com/wp-content/uploads/2025/09/20250910_SDA_T1TL_B-326x245.jpg" class="attachment-mh-magazine-medium size-mh-magazine-medium wp-post-image" alt="" decoding="async" srcset="https://spaceflightnow.com/wp-content/uploads/2025/09/20250910_SDA_T1TL_B-326x245.jpg 326w, https://spaceflightnow.com/wp-content/uploads/2025/09/20250910_SDA_T1TL_B-80x60.jpg 80w" sizes="(max-width: 326px) 100vw, 326px" />										</a>
+																			</figure>
+																<div class="mh-custom-posts-content">
+									<div class="mh-custom-posts-header">
+										<h3 class="mh-custom-posts-xl-title">
+											<a href="https://spaceflightnow.com/2025/09/12/new-u-s-military-satellite-constellation-takes-shape-with-first-launch-from-vandenberg-sfb/" title="New U.S. military satellite constellation takes shape with first launch from Vandenberg SFB">
+												New U.S. military satellite constellation takes shape with first launch from Vandenberg SFB											</a>
+										</h3>
+										<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://spaceflightnow.com/2025/09/">September 12, 2025</a></span>
+</div>
+									</div>
+									<div class="mh-excerpt">The Space Development Agency’s Proliferated Warfighter Space Architecture constellation is expected to deliver global coverage beginning in 2027. Launch from Vandenberg Space Force Base occurred at 7:12 a.m. PDT (10:12 a.m. EDT / 1412 UTC).</div>								</div>
+							</div>
+						</li>			</ul></div><div id="mh_magazine_custom_posts-5" class="mh-widget mh-home-5 mh-widget-col-2 mh_magazine_custom_posts">			<ul class="mh-custom-posts-widget clearfix"> 						<li class="mh-custom-posts-item mh-custom-posts-large clearfix post-70837 post type-post status-publish format-standard has-post-thumbnail category-falcon-9 category-mission-reports category-news-archive tag-a-shortfall-of-gravitas tag-boeing tag-falcon-9 tag-nusantara-lima tag-psn tag-spacex">
+							<div class="mh-custom-posts-large-inner clearfix">
+																	<figure class="mh-custom-posts-thumb-xl">
+										<a class="mh-thumb-icon mh-thumb-icon-small-mobile" href="https://spaceflightnow.com/2025/09/10/live-coverage-spacex-attempts-to-launch-indonesian-communications-satellite-following-back-to-back-weather-scrubs/" title="SpaceX launches Indonesian communications satellite following three days of scrubs"><img width="326" height="245" src="https://spaceflightnow.com/wp-content/uploads/2025/09/20250911_Nusantara_Lima_streak-326x245.jpg" class="attachment-mh-magazine-medium size-mh-magazine-medium wp-post-image" alt="" decoding="async" srcset="https://spaceflightnow.com/wp-content/uploads/2025/09/20250911_Nusantara_Lima_streak-326x245.jpg 326w, https://spaceflightnow.com/wp-content/uploads/2025/09/20250911_Nusantara_Lima_streak-678x509.jpg 678w, https://spaceflightnow.com/wp-content/uploads/2025/09/20250911_Nusantara_Lima_streak-80x60.jpg 80w" sizes="(max-width: 326px) 100vw, 326px" />										</a>
+																			</figure>
+																<div class="mh-custom-posts-content">
+									<div class="mh-custom-posts-header">
+										<h3 class="mh-custom-posts-xl-title">
+											<a href="https://spaceflightnow.com/2025/09/10/live-coverage-spacex-attempts-to-launch-indonesian-communications-satellite-following-back-to-back-weather-scrubs/" title="SpaceX launches Indonesian communications satellite following three days of scrubs">
+												SpaceX launches Indonesian communications satellite following three days of scrubs											</a>
+										</h3>
+										<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://spaceflightnow.com/2025/09/">September 10, 2025</a></span>
+</div>
+									</div>
+									<div class="mh-excerpt">The launch faced long odds with poor weather in the forecast for a fourth day in a row, but SpaceX was able to launch from pad 40 at Cape Canaveral Space Force Station on Thursday, Sept. 11, at 9:56 p.m. EDT (0156 UTC).</div>								</div>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-large clearfix post-70822 post type-post status-publish format-standard has-post-thumbnail category-falcon-9 category-mission-reports category-news-archive tag-falcon-9 tag-of-course-i-still-love-you tag-space-development-agency tag-spacex tag-tranche-1-transport-layer tag-u-s-space-force">
+							<div class="mh-custom-posts-large-inner clearfix">
+																	<figure class="mh-custom-posts-thumb-xl">
+										<a class="mh-thumb-icon mh-thumb-icon-small-mobile" href="https://spaceflightnow.com/2025/09/10/live-coverage-space-development-agency-spacex-to-launch-next-gen-national-security-satellites/" title="Launch preview: Space Development Agency, SpaceX to launch next-gen national security satellites"><img width="326" height="245" src="https://spaceflightnow.com/wp-content/uploads/2025/09/20250909_SDA_T1TL-A_stack-326x245.jpg" class="attachment-mh-magazine-medium size-mh-magazine-medium wp-post-image" alt="" decoding="async" srcset="https://spaceflightnow.com/wp-content/uploads/2025/09/20250909_SDA_T1TL-A_stack-326x245.jpg 326w, https://spaceflightnow.com/wp-content/uploads/2025/09/20250909_SDA_T1TL-A_stack-80x60.jpg 80w" sizes="(max-width: 326px) 100vw, 326px" />										</a>
+																			</figure>
+																<div class="mh-custom-posts-content">
+									<div class="mh-custom-posts-header">
+										<h3 class="mh-custom-posts-xl-title">
+											<a href="https://spaceflightnow.com/2025/09/10/live-coverage-space-development-agency-spacex-to-launch-next-gen-national-security-satellites/" title="Launch preview: Space Development Agency, SpaceX to launch next-gen national security satellites">
+												Launch preview: Space Development Agency, SpaceX to launch next-gen national security satellites											</a>
+										</h3>
+										<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://spaceflightnow.com/2025/09/">September 10, 2025</a></span>
+</div>
+									</div>
+									<div class="mh-excerpt">The 21 satellites from York Space Systems are the first in the SDA’s Tranche 1 Transport Layer satellite constellation. SpaceX launched from pad 4 East at Vandenberg Space Force Base at 7:12 a.m. PDT (10:12 a.m. EDT / 1412 UTC).</div>								</div>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-large clearfix post-70808 post type-post status-publish format-standard has-post-thumbnail category-falcon-9 category-mission-reports category-news-archive tag-a-shortfall-of-gravitas tag-boeing tag-falcon-9 tag-nusantara-lima tag-psn tag-spacex">
+							<div class="mh-custom-posts-large-inner clearfix">
+																	<figure class="mh-custom-posts-thumb-xl">
+										<a class="mh-thumb-icon mh-thumb-icon-small-mobile" href="https://spaceflightnow.com/2025/09/08/live-coverage-spacex-to-launch-indonesian-communications-satellite-from-cape-canaveral/" title="Poor weather halts SpaceX launch attempt of Indonesian communications satellite for second day in a row"><img width="326" height="245" src="https://spaceflightnow.com/wp-content/uploads/2025/09/20250908_SNL-On-Orbit-Renderhires-326x245.jpeg" class="attachment-mh-magazine-medium size-mh-magazine-medium wp-post-image" alt="" decoding="async" srcset="https://spaceflightnow.com/wp-content/uploads/2025/09/20250908_SNL-On-Orbit-Renderhires-326x245.jpeg 326w, https://spaceflightnow.com/wp-content/uploads/2025/09/20250908_SNL-On-Orbit-Renderhires-678x509.jpeg 678w, https://spaceflightnow.com/wp-content/uploads/2025/09/20250908_SNL-On-Orbit-Renderhires-80x60.jpeg 80w" sizes="(max-width: 326px) 100vw, 326px" />										</a>
+																			</figure>
+																<div class="mh-custom-posts-content">
+									<div class="mh-custom-posts-header">
+										<h3 class="mh-custom-posts-xl-title">
+											<a href="https://spaceflightnow.com/2025/09/08/live-coverage-spacex-to-launch-indonesian-communications-satellite-from-cape-canaveral/" title="Poor weather halts SpaceX launch attempt of Indonesian communications satellite for second day in a row">
+												Poor weather halts SpaceX launch attempt of Indonesian communications satellite for second day in a row											</a>
+										</h3>
+										<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://spaceflightnow.com/2025/09/">September 8, 2025</a></span>
+</div>
+									</div>
+									<div class="mh-excerpt">The Nusantara Lima satellite is designed to augment communications in the region alongside Indonesia’s Satria satellite, which launched in June 2023. SpaceX is targeting liftoff from pad 40 at Cape Canaveral Space Force Base on Wednesday, Sept. 10, at 8 p.m. EDT (0000 UTC).</div>								</div>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-large clearfix post-70793 post type-post status-publish format-standard has-post-thumbnail category-falcon-9 category-mission-reports category-news-archive tag-b1075 tag-falcon-9 tag-of-course-i-still-love-you tag-spacex tag-starlink tag-starlink-17-9">
+							<div class="mh-custom-posts-large-inner clearfix">
+																	<figure class="mh-custom-posts-thumb-xl">
+										<a class="mh-thumb-icon mh-thumb-icon-small-mobile" href="https://spaceflightnow.com/2025/09/06/live-coverage-spacex-to-pass-2000-starlink-satellites-deployed-in-2025-with-saturday-launch/" title="SpaceX passes 2,000 Starlink satellites deployed in 2025 with Saturday launch"><img width="326" height="245" src="https://spaceflightnow.com/wp-content/uploads/2025/09/20250906_Starlink_17-9-326x245.jpeg" class="attachment-mh-magazine-medium size-mh-magazine-medium wp-post-image" alt="" decoding="async" srcset="https://spaceflightnow.com/wp-content/uploads/2025/09/20250906_Starlink_17-9-326x245.jpeg 326w, https://spaceflightnow.com/wp-content/uploads/2025/09/20250906_Starlink_17-9-678x509.jpeg 678w, https://spaceflightnow.com/wp-content/uploads/2025/09/20250906_Starlink_17-9-80x60.jpeg 80w" sizes="(max-width: 326px) 100vw, 326px" />										</a>
+																			</figure>
+																<div class="mh-custom-posts-content">
+									<div class="mh-custom-posts-header">
+										<h3 class="mh-custom-posts-xl-title">
+											<a href="https://spaceflightnow.com/2025/09/06/live-coverage-spacex-to-pass-2000-starlink-satellites-deployed-in-2025-with-saturday-launch/" title="SpaceX passes 2,000 Starlink satellites deployed in 2025 with Saturday launch">
+												SpaceX passes 2,000 Starlink satellites deployed in 2025 with Saturday launch											</a>
+										</h3>
+										<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://spaceflightnow.com/2025/09/">September 6, 2025</a></span>
+</div>
+									</div>
+									<div class="mh-excerpt">The Starlink 17-9 mission added another 24 broadband satellites to its low Earth orbit constellation of more than 8,300. Liftoff from pad 4E at Vandenberg Space Force Base happened at 11:06 a.m. PDT (2:06 p.m. EDT / 1806 UTC).</div>								</div>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-large clearfix post-70781 post type-post status-publish format-standard has-post-thumbnail category-falcon-9 category-mission-reports category-news-archive tag-b1069 tag-falcon-9 tag-just-read-the-instructions tag-spacex tag-starlink tag-starlink-10-57">
+							<div class="mh-custom-posts-large-inner clearfix">
+																	<figure class="mh-custom-posts-thumb-xl">
+										<a class="mh-thumb-icon mh-thumb-icon-small-mobile" href="https://spaceflightnow.com/2025/09/04/live-coverage-spacex-aims-for-500th-falcon-booster-landing-amid-sunrise-starlink-mission/" title="SpaceX aces 500th Falcon booster landing amid sunrise Starlink mission"><img width="326" height="245" src="https://spaceflightnow.com/wp-content/uploads/2025/09/20250905_Starlink_10-57_AB-1-326x245.jpg" class="attachment-mh-magazine-medium size-mh-magazine-medium wp-post-image" alt="" decoding="async" srcset="https://spaceflightnow.com/wp-content/uploads/2025/09/20250905_Starlink_10-57_AB-1-326x245.jpg 326w, https://spaceflightnow.com/wp-content/uploads/2025/09/20250905_Starlink_10-57_AB-1-678x509.jpg 678w, https://spaceflightnow.com/wp-content/uploads/2025/09/20250905_Starlink_10-57_AB-1-80x60.jpg 80w" sizes="(max-width: 326px) 100vw, 326px" />										</a>
+																			</figure>
+																<div class="mh-custom-posts-content">
+									<div class="mh-custom-posts-header">
+										<h3 class="mh-custom-posts-xl-title">
+											<a href="https://spaceflightnow.com/2025/09/04/live-coverage-spacex-aims-for-500th-falcon-booster-landing-amid-sunrise-starlink-mission/" title="SpaceX aces 500th Falcon booster landing amid sunrise Starlink mission">
+												SpaceX aces 500th Falcon booster landing amid sunrise Starlink mission											</a>
+										</h3>
+										<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://spaceflightnow.com/2025/09/">September 4, 2025</a></span>
+</div>
+									</div>
+									<div class="mh-excerpt">The Starlink 10-57 mission is also SpaceX’s 80th launch this year carrying Starlink satellites to low Earth obit. It’s targeting liftoff from pad 39A at NASA’s Kennedy Space Center is scheduled for 8:32 a.m. EDT (1232 UTC).</div>								</div>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-large clearfix post-70758 post type-post status-publish format-standard has-post-thumbnail category-falcon-9 category-mission-reports category-news-archive tag-falcon-9 tag-spacex tag-starlink tag-starlink-10-22">
+							<div class="mh-custom-posts-large-inner clearfix">
+																	<figure class="mh-custom-posts-thumb-xl">
+										<a class="mh-thumb-icon mh-thumb-icon-small-mobile" href="https://spaceflightnow.com/2025/09/02/live-coverage-spacex-to-launch-28-starlink-satellites-on-wednesday-sunrise-falcon-9-flight/" title="SpaceX launches 28 Starlink satellites on Wednesday sunrise Falcon 9 flight"><img width="326" height="245" src="https://spaceflightnow.com/wp-content/uploads/2025/09/20250903_Starlink_10-22_liftoff-AB-1-326x245.jpg" class="attachment-mh-magazine-medium size-mh-magazine-medium wp-post-image" alt="" decoding="async" srcset="https://spaceflightnow.com/wp-content/uploads/2025/09/20250903_Starlink_10-22_liftoff-AB-1-326x245.jpg 326w, https://spaceflightnow.com/wp-content/uploads/2025/09/20250903_Starlink_10-22_liftoff-AB-1-678x509.jpg 678w, https://spaceflightnow.com/wp-content/uploads/2025/09/20250903_Starlink_10-22_liftoff-AB-1-80x60.jpg 80w" sizes="(max-width: 326px) 100vw, 326px" />										</a>
+																			</figure>
+																<div class="mh-custom-posts-content">
+									<div class="mh-custom-posts-header">
+										<h3 class="mh-custom-posts-xl-title">
+											<a href="https://spaceflightnow.com/2025/09/02/live-coverage-spacex-to-launch-28-starlink-satellites-on-wednesday-sunrise-falcon-9-flight/" title="SpaceX launches 28 Starlink satellites on Wednesday sunrise Falcon 9 flight">
+												SpaceX launches 28 Starlink satellites on Wednesday sunrise Falcon 9 flight											</a>
+										</h3>
+										<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://spaceflightnow.com/2025/09/">September 2, 2025</a></span>
+</div>
+									</div>
+									<div class="mh-excerpt">The Starlink 10-22 mission will be the 75th orbital launch from Florida’s Space Coast in 2025. SpaceX launched from pad 40 at Cape Canaveral Space Force Station at 7:56 a.m. EDT (1156 UTC).</div>								</div>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-large clearfix post-70756 post type-post status-publish format-standard has-post-thumbnail category-falcon-9 category-mission-reports category-news-archive tag-falcon-9 tag-spacex tag-starlink tag-starlink-17-8">
+							<div class="mh-custom-posts-large-inner clearfix">
+																	<figure class="mh-custom-posts-thumb-xl">
+										<a class="mh-thumb-icon mh-thumb-icon-small-mobile" href="https://spaceflightnow.com/2025/09/02/live-coverage-spacexs-tuesday-night-starlink-features-rare-debut-of-a-falcon-booster/" title="SpaceX&#8217;s Tuesday night Starlink features rare debut of a Falcon booster"><img width="326" height="245" src="https://spaceflightnow.com/wp-content/uploads/2025/09/20250902_Starlink_17-8-326x245.jpeg" class="attachment-mh-magazine-medium size-mh-magazine-medium wp-post-image" alt="" decoding="async" srcset="https://spaceflightnow.com/wp-content/uploads/2025/09/20250902_Starlink_17-8-326x245.jpeg 326w, https://spaceflightnow.com/wp-content/uploads/2025/09/20250902_Starlink_17-8-678x509.jpeg 678w, https://spaceflightnow.com/wp-content/uploads/2025/09/20250902_Starlink_17-8-80x60.jpeg 80w" sizes="(max-width: 326px) 100vw, 326px" />										</a>
+																			</figure>
+																<div class="mh-custom-posts-content">
+									<div class="mh-custom-posts-header">
+										<h3 class="mh-custom-posts-xl-title">
+											<a href="https://spaceflightnow.com/2025/09/02/live-coverage-spacexs-tuesday-night-starlink-features-rare-debut-of-a-falcon-booster/" title="SpaceX&#8217;s Tuesday night Starlink features rare debut of a Falcon booster">
+												SpaceX&#8217;s Tuesday night Starlink features rare debut of a Falcon booster											</a>
+										</h3>
+										<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://spaceflightnow.com/2025/09/">September 2, 2025</a></span>
+</div>
+									</div>
+									<div class="mh-excerpt">The Starlink 17-8 mission was just the seventh new booster for the company out of more than 100 launches this year. SpaceX achieved liftoff from pad 4E at Vandenberg Space Force Base at 8:51 p.m. PDT (11:51 p.m. EDT / 0351 UTC).</div>								</div>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-large clearfix post-70746 post type-post status-publish format-standard has-post-thumbnail category-falcon-9 category-mission-reports category-news-archive tag-falcon-9 tag-spacex tag-starlink tag-starlink-10-14">
+							<div class="mh-custom-posts-large-inner clearfix">
+																	<figure class="mh-custom-posts-thumb-xl">
+										<a class="mh-thumb-icon mh-thumb-icon-small-mobile" href="https://spaceflightnow.com/2025/08/30/live-coverage-spacexs-sunday-morning-falcon-9-launch-will-send-1900th-starlink-to-orbit-in-2025/" title="SpaceX’s Sunday morning Falcon 9 launch sends 1,900th Starlink to orbit in 2025"><img width="326" height="245" src="https://spaceflightnow.com/wp-content/uploads/2025/08/20250831_Starlink_10-14_MC-1-326x245.jpg" class="attachment-mh-magazine-medium size-mh-magazine-medium wp-post-image" alt="" decoding="async" srcset="https://spaceflightnow.com/wp-content/uploads/2025/08/20250831_Starlink_10-14_MC-1-326x245.jpg 326w, https://spaceflightnow.com/wp-content/uploads/2025/08/20250831_Starlink_10-14_MC-1-678x509.jpg 678w, https://spaceflightnow.com/wp-content/uploads/2025/08/20250831_Starlink_10-14_MC-1-80x60.jpg 80w" sizes="(max-width: 326px) 100vw, 326px" />										</a>
+																			</figure>
+																<div class="mh-custom-posts-content">
+									<div class="mh-custom-posts-header">
+										<h3 class="mh-custom-posts-xl-title">
+											<a href="https://spaceflightnow.com/2025/08/30/live-coverage-spacexs-sunday-morning-falcon-9-launch-will-send-1900th-starlink-to-orbit-in-2025/" title="SpaceX’s Sunday morning Falcon 9 launch sends 1,900th Starlink to orbit in 2025">
+												SpaceX’s Sunday morning Falcon 9 launch sends 1,900th Starlink to orbit in 2025											</a>
+										</h3>
+										<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://spaceflightnow.com/2025/08/">August 30, 2025</a></span>
+</div>
+									</div>
+									<div class="mh-excerpt">SpaceX continued its blistering pace of orbital launches with its ninth and final Starlink launch of August. Liftoff of its Falcon 9 rocket from pad 40 at Cape Canaveral Space Force Station happened at 7:49 a.m. EDT (1149 UTC).</div>								</div>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-large clearfix post-70733 post type-post status-publish format-standard has-post-thumbnail category-falcon-9 category-mission-reports category-news-archive tag-falcon-9 tag-spacex tag-starlink tag-starlink-17-7">
+							<div class="mh-custom-posts-large-inner clearfix">
+																	<figure class="mh-custom-posts-thumb-xl">
+										<a class="mh-thumb-icon mh-thumb-icon-small-mobile" href="https://spaceflightnow.com/2025/08/29/live-coverage-spacex-to-launch-24-starlink-satellites-into-polar-orbit/" title="SpaceX launches 24 Starlink satellites into polar orbit"><img width="326" height="245" src="https://spaceflightnow.com/wp-content/uploads/2025/08/20250829_Falcon-9_sunset-326x245.jpg" class="attachment-mh-magazine-medium size-mh-magazine-medium wp-post-image" alt="" decoding="async" srcset="https://spaceflightnow.com/wp-content/uploads/2025/08/20250829_Falcon-9_sunset-326x245.jpg 326w, https://spaceflightnow.com/wp-content/uploads/2025/08/20250829_Falcon-9_sunset-80x60.jpg 80w" sizes="(max-width: 326px) 100vw, 326px" />										</a>
+																			</figure>
+																<div class="mh-custom-posts-content">
+									<div class="mh-custom-posts-header">
+										<h3 class="mh-custom-posts-xl-title">
+											<a href="https://spaceflightnow.com/2025/08/29/live-coverage-spacex-to-launch-24-starlink-satellites-into-polar-orbit/" title="SpaceX launches 24 Starlink satellites into polar orbit">
+												SpaceX launches 24 Starlink satellites into polar orbit											</a>
+										</h3>
+										<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://spaceflightnow.com/2025/08/">August 29, 2025</a></span>
+</div>
+									</div>
+									<div class="mh-excerpt">The Starlink 17-7 mission is the penultimate planned launch of these broadband satellites in August. SpaceX is targeting liftoff from pad 4E at 9:59 p.m. PDT (12:59 a.m. EDT / 0459 UTC).</div>								</div>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-large clearfix post-70722 post type-post status-publish format-standard has-post-thumbnail category-mission-reports category-news-archive tag-carruthers-geocorona-observatory tag-falcon-9 tag-imap tag-nasa tag-noaa tag-spacex tag-swfo-l1">
+							<div class="mh-custom-posts-large-inner clearfix">
+																	<figure class="mh-custom-posts-thumb-xl">
+										<a class="mh-thumb-icon mh-thumb-icon-small-mobile" href="https://spaceflightnow.com/2025/08/29/nasa-noaa-prep-spacecraft-trio-to-study-the-sun-and-its-impacts/" title="NASA, NOAA prep spacecraft trio to study the Sun and its impacts"><img width="326" height="245" src="https://spaceflightnow.com/wp-content/uploads/2025/08/20250828-IMAP_processing-1-326x245.jpg" class="attachment-mh-magazine-medium size-mh-magazine-medium wp-post-image" alt="" decoding="async" srcset="https://spaceflightnow.com/wp-content/uploads/2025/08/20250828-IMAP_processing-1-326x245.jpg 326w, https://spaceflightnow.com/wp-content/uploads/2025/08/20250828-IMAP_processing-1-678x509.jpg 678w, https://spaceflightnow.com/wp-content/uploads/2025/08/20250828-IMAP_processing-1-80x60.jpg 80w" sizes="(max-width: 326px) 100vw, 326px" />										</a>
+																			</figure>
+																<div class="mh-custom-posts-content">
+									<div class="mh-custom-posts-header">
+										<h3 class="mh-custom-posts-xl-title">
+											<a href="https://spaceflightnow.com/2025/08/29/nasa-noaa-prep-spacecraft-trio-to-study-the-sun-and-its-impacts/" title="NASA, NOAA prep spacecraft trio to study the Sun and its impacts">
+												NASA, NOAA prep spacecraft trio to study the Sun and its impacts											</a>
+										</h3>
+										<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://spaceflightnow.com/2025/08/">August 29, 2025</a></span>
+</div>
+									</div>
+									<div class="mh-excerpt">NASA’s Interstellar Mapping and Acceleration Probe (IMAP) will be the primary payload on a SpaceX Falcon 9 rocket launching no earlier than Sep. 23. The vehicle is joined by the Carruthers Geocorona Observatory and NOAA’s Space Weather Follow-On &#8211; Lagrange 1 (SWFO-L1) observatory.</div>								</div>
+							</div>
+						</li>			</ul></div>				</div>
+									<div class="mh-widget-col-1 mh-sidebar mh-home-sidebar mh-home-area-6">
+						<div id="mh_magazine_custom_pages-2" class="mh-widget mh-home-6 mh_magazine_custom_pages">			<ul class="mh-custom-posts-widget mh-custom-pages-widget clearfix">						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-2059 page type-page status-publish has-post-thumbnail">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://spaceflightnow.com/launch-pad-live/" title="Launch Pad Live – 24/7 views from Cape Canaveral"><img width="80" height="60" src="https://spaceflightnow.com/wp-content/uploads/2023/05/20230526-Launch-Pad-Live-Thumbnail-80x60.jpg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="" decoding="async" srcset="https://spaceflightnow.com/wp-content/uploads/2023/05/20230526-Launch-Pad-Live-Thumbnail-80x60.jpg 80w, https://spaceflightnow.com/wp-content/uploads/2023/05/20230526-Launch-Pad-Live-Thumbnail-300x225.jpg 300w, https://spaceflightnow.com/wp-content/uploads/2023/05/20230526-Launch-Pad-Live-Thumbnail-678x509.jpg 678w, https://spaceflightnow.com/wp-content/uploads/2023/05/20230526-Launch-Pad-Live-Thumbnail-768x576.jpg 768w, https://spaceflightnow.com/wp-content/uploads/2023/05/20230526-Launch-Pad-Live-Thumbnail-326x245.jpg 326w, https://spaceflightnow.com/wp-content/uploads/2023/05/20230526-Launch-Pad-Live-Thumbnail.jpg 800w" sizes="(max-width: 80px) 100vw, 80px" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://spaceflightnow.com/launch-pad-live/" title="Launch Pad Live – 24/7 views from Cape Canaveral">
+										Launch Pad Live – 24/7 views from Cape Canaveral									</a>
+								</div>
+							</div>
+						</li>			</ul></div><div id="mh_magazine_custom_posts-6" class="mh-widget mh-home-6 mh_magazine_custom_posts"><h4 class="mh-widget-title"><span class="mh-widget-title-inner"><a href="https://spaceflightnow.com/category/news-archive/" class="mh-widget-title-link">Stories you might have missed</a></span></h4>			<ul class="mh-custom-posts-widget clearfix"> 						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-70648 post type-post status-publish format-standard has-post-thumbnail category-mission-reports category-news-archive category-space-station tag-c211 tag-cargo-dragon tag-international-space-station">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://spaceflightnow.com/2025/08/25/cargo-ship-docks-with-international-space-station/" title="Cargo ship docks with International Space Station"><img width="80" height="60" src="https://spaceflightnow.com/wp-content/uploads/2025/08/20250825_crs33_docking-80x60.jpeg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="" decoding="async" srcset="https://spaceflightnow.com/wp-content/uploads/2025/08/20250825_crs33_docking-80x60.jpeg 80w, https://spaceflightnow.com/wp-content/uploads/2025/08/20250825_crs33_docking-326x245.jpeg 326w" sizes="(max-width: 80px) 100vw, 80px" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://spaceflightnow.com/2025/08/25/cargo-ship-docks-with-international-space-station/" title="Cargo ship docks with International Space Station">
+                                        Cargo ship docks with International Space Station									</a>
+								</div>
+								<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://spaceflightnow.com/2025/08/">August 25, 2025</a></span>
+</div>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-70641 post type-post status-publish format-standard has-post-thumbnail category-mission-reports category-news-archive category-starship">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://spaceflightnow.com/2025/08/24/live-coverage-spacex-gets-ready-for-crucial-10th-test-flight-of-starship/" title="SpaceX scrubs crucial 10th test flight of Starship"><img width="80" height="60" src="https://spaceflightnow.com/wp-content/uploads/2025/08/20250824-Starship-80x60.jpg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="" decoding="async" srcset="https://spaceflightnow.com/wp-content/uploads/2025/08/20250824-Starship-80x60.jpg 80w, https://spaceflightnow.com/wp-content/uploads/2025/08/20250824-Starship-326x245.jpg 326w" sizes="(max-width: 80px) 100vw, 80px" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://spaceflightnow.com/2025/08/24/live-coverage-spacex-gets-ready-for-crucial-10th-test-flight-of-starship/" title="SpaceX scrubs crucial 10th test flight of Starship">
+                                        SpaceX scrubs crucial 10th test flight of Starship									</a>
+								</div>
+								<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://spaceflightnow.com/2025/08/">August 24, 2025</a></span>
+</div>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-70635 post type-post status-publish format-standard has-post-thumbnail category-falcon-9 category-mission-reports category-news-archive category-space-station tag-c211 tag-cargo-dragon tag-falcon-9 tag-international-space-station tag-nasa tag-spacex">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://spaceflightnow.com/2025/08/24/nasa-spacex-launch-dragon-to-the-iss-on-extended-cargo-station-boosting-mission/" title="NASA, SpaceX launch Dragon to the ISS on extended cargo, station boosting mission"><img width="80" height="60" src="https://spaceflightnow.com/wp-content/uploads/2025/08/20250824_CRS-33_liftoff-80x60.jpg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="" decoding="async" srcset="https://spaceflightnow.com/wp-content/uploads/2025/08/20250824_CRS-33_liftoff-80x60.jpg 80w, https://spaceflightnow.com/wp-content/uploads/2025/08/20250824_CRS-33_liftoff-326x245.jpg 326w" sizes="(max-width: 80px) 100vw, 80px" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://spaceflightnow.com/2025/08/24/nasa-spacex-launch-dragon-to-the-iss-on-extended-cargo-station-boosting-mission/" title="NASA, SpaceX launch Dragon to the ISS on extended cargo, station boosting mission">
+                                        NASA, SpaceX launch Dragon to the ISS on extended cargo, station boosting mission									</a>
+								</div>
+								<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://spaceflightnow.com/2025/08/">August 24, 2025</a></span>
+</div>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-70624 post type-post status-publish format-standard has-post-thumbnail category-falcon-9 category-mission-reports category-news-archive tag-b1090 tag-c211 tag-cargo-dragon tag-falcon-9 tag-international-space-station tag-nasa tag-spacex">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://spaceflightnow.com/2025/08/23/live-coverage-nasa-spacex-to-launch-falcon-9-rocket-dragon-spacecraft-on-crs-33-from-cape-canaveral/" title="Launch preview: NASA, SpaceX to launch Cargo Dragon on a mission to boost space station orbit"><img width="80" height="60" src="https://spaceflightnow.com/wp-content/uploads/2025/08/20250823_CRS_33_full_rocket-80x60.jpg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="" decoding="async" srcset="https://spaceflightnow.com/wp-content/uploads/2025/08/20250823_CRS_33_full_rocket-80x60.jpg 80w, https://spaceflightnow.com/wp-content/uploads/2025/08/20250823_CRS_33_full_rocket-326x245.jpg 326w" sizes="(max-width: 80px) 100vw, 80px" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://spaceflightnow.com/2025/08/23/live-coverage-nasa-spacex-to-launch-falcon-9-rocket-dragon-spacecraft-on-crs-33-from-cape-canaveral/" title="Launch preview: NASA, SpaceX to launch Cargo Dragon on a mission to boost space station orbit">
+                                        Launch preview: NASA, SpaceX to launch Cargo Dragon on a mission to boost space station orbit									</a>
+								</div>
+								<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://spaceflightnow.com/2025/08/">August 23, 2025</a></span>
+</div>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-70601 post type-post status-publish format-standard has-post-thumbnail category-falcon-9 category-mission-reports category-news-archive tag-falcon-9 tag-spacex tag-starlink tag-starlink-17-6">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://spaceflightnow.com/2025/08/22/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-2/" title="SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB"><img width="80" height="60" src="https://spaceflightnow.com/wp-content/uploads/2025/08/20250823-Starlink-17-6-Launch-80x60.jpg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="" decoding="async" srcset="https://spaceflightnow.com/wp-content/uploads/2025/08/20250823-Starlink-17-6-Launch-80x60.jpg 80w, https://spaceflightnow.com/wp-content/uploads/2025/08/20250823-Starlink-17-6-Launch-326x245.jpg 326w" sizes="(max-width: 80px) 100vw, 80px" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://spaceflightnow.com/2025/08/22/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-2/" title="SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB">
+                                        SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB									</a>
+								</div>
+								<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://spaceflightnow.com/2025/08/">August 22, 2025</a></span>
+</div>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-70593 post type-post status-publish format-standard has-post-thumbnail category-falcon-9 category-mission-reports category-news-archive tag-boeing tag-falcon-9 tag-otv-8 tag-spacex tag-u-s-space-force tag-ussf-36 tag-x-37b">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://spaceflightnow.com/2025/08/22/spacex-launches-space-forces-x-37b-spaceplane-to-demo-laser-communications-quantum-navigation/" title="SpaceX launches Space Force’s X-37B spaceplane to demo laser communications, quantum navigation"><img width="80" height="60" src="https://spaceflightnow.com/wp-content/uploads/2025/08/20250821_USSF-36_streak_JP-1-80x60.jpg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="" decoding="async" srcset="https://spaceflightnow.com/wp-content/uploads/2025/08/20250821_USSF-36_streak_JP-1-80x60.jpg 80w, https://spaceflightnow.com/wp-content/uploads/2025/08/20250821_USSF-36_streak_JP-1-678x509.jpg 678w, https://spaceflightnow.com/wp-content/uploads/2025/08/20250821_USSF-36_streak_JP-1-326x245.jpg 326w" sizes="(max-width: 80px) 100vw, 80px" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://spaceflightnow.com/2025/08/22/spacex-launches-space-forces-x-37b-spaceplane-to-demo-laser-communications-quantum-navigation/" title="SpaceX launches Space Force’s X-37B spaceplane to demo laser communications, quantum navigation">
+                                        SpaceX launches Space Force’s X-37B spaceplane to demo laser communications, quantum navigation									</a>
+								</div>
+								<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://spaceflightnow.com/2025/08/">August 22, 2025</a></span>
+</div>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-70584 post type-post status-publish format-standard has-post-thumbnail category-falcon-9 category-mission-reports category-news-archive tag-air-force-rapid-capabilities-office tag-falcon-9 tag-fifth-space-operations-squadron tag-otv-8 tag-spacex tag-u-s-space-force tag-ussf-delta-9 tag-ussf-36 tag-x-37b">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://spaceflightnow.com/2025/08/20/live-coverage-spacex-to-launch-x-37b-military-spaceplane-on-falcon-9-rocket-from-the-kennedy-space-center/" title="Launch preview: SpaceX to launch X-37B military spaceplane on Falcon 9 rocket from the Kennedy Space Center"><img width="80" height="60" src="https://spaceflightnow.com/wp-content/uploads/2025/03/20250307-X37B-80x60.jpg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="" decoding="async" srcset="https://spaceflightnow.com/wp-content/uploads/2025/03/20250307-X37B-80x60.jpg 80w, https://spaceflightnow.com/wp-content/uploads/2025/03/20250307-X37B-326x245.jpg 326w" sizes="(max-width: 80px) 100vw, 80px" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://spaceflightnow.com/2025/08/20/live-coverage-spacex-to-launch-x-37b-military-spaceplane-on-falcon-9-rocket-from-the-kennedy-space-center/" title="Launch preview: SpaceX to launch X-37B military spaceplane on Falcon 9 rocket from the Kennedy Space Center">
+                                        Launch preview: SpaceX to launch X-37B military spaceplane on Falcon 9 rocket from the Kennedy Space Center									</a>
+								</div>
+								<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://spaceflightnow.com/2025/08/">August 20, 2025</a></span>
+</div>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-70568 post type-post status-publish format-standard has-post-thumbnail category-alpha category-mission-reports category-news-archive tag-alpha tag-firefly-aerospace tag-hokkaido-spaceport">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://spaceflightnow.com/2025/08/20/firefly-aerospace-explores-launching-its-alpha-rocket-from-japan/" title="Firefly Aerospace explores launching its Alpha rocket from Japan"><img width="80" height="60" src="https://spaceflightnow.com/wp-content/uploads/2025/08/20250818_FLA006_launch-80x60.jpeg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="" decoding="async" srcset="https://spaceflightnow.com/wp-content/uploads/2025/08/20250818_FLA006_launch-80x60.jpeg 80w, https://spaceflightnow.com/wp-content/uploads/2025/08/20250818_FLA006_launch-678x509.jpeg 678w, https://spaceflightnow.com/wp-content/uploads/2025/08/20250818_FLA006_launch-326x245.jpeg 326w" sizes="(max-width: 80px) 100vw, 80px" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://spaceflightnow.com/2025/08/20/firefly-aerospace-explores-launching-its-alpha-rocket-from-japan/" title="Firefly Aerospace explores launching its Alpha rocket from Japan">
+                                        Firefly Aerospace explores launching its Alpha rocket from Japan									</a>
+								</div>
+								<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://spaceflightnow.com/2025/08/">August 20, 2025</a></span>
+</div>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-70556 post type-post status-publish format-standard has-post-thumbnail category-falcon-9 category-mission-reports category-news-archive tag-falcon-9 tag-spacex tag-starlink tag-starlink-17-5">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://spaceflightnow.com/2025/08/17/live-coverage-24-starlink-satellites-to-launch-from-california-on-100th-falcon-9-rocket-of-the-year/" title="SpaceX flies 24 Starlink satellites on its 100th Falcon 9 rocket launch of 2025"><img width="80" height="60" src="https://spaceflightnow.com/wp-content/uploads/2025/08/20250818_Starlink_G17_5_SW_Hill-80x60.jpg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="" decoding="async" srcset="https://spaceflightnow.com/wp-content/uploads/2025/08/20250818_Starlink_G17_5_SW_Hill-80x60.jpg 80w, https://spaceflightnow.com/wp-content/uploads/2025/08/20250818_Starlink_G17_5_SW_Hill-326x245.jpg 326w" sizes="(max-width: 80px) 100vw, 80px" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://spaceflightnow.com/2025/08/17/live-coverage-24-starlink-satellites-to-launch-from-california-on-100th-falcon-9-rocket-of-the-year/" title="SpaceX flies 24 Starlink satellites on its 100th Falcon 9 rocket launch of 2025">
+                                        SpaceX flies 24 Starlink satellites on its 100th Falcon 9 rocket launch of 2025									</a>
+								</div>
+								<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://spaceflightnow.com/2025/08/">August 17, 2025</a></span>
+</div>
+							</div>
+						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix post-70549 post type-post status-publish format-standard has-post-thumbnail category-mission-reports category-news-archive category-starship tag-booster-16 tag-ship-37 tag-spacex tag-starship tag-super-heavy">
+															<figure class="mh-custom-posts-thumb">
+									<a class="mh-thumb-icon mh-thumb-icon-small" href="https://spaceflightnow.com/2025/08/16/spacex-schedules-starship-flight-10-details-recent-setbacks/" title="SpaceX schedules 10th test flight for Starship, details recent setbacks"><img width="80" height="60" src="https://spaceflightnow.com/wp-content/uploads/2025/08/20250815_Starship_Flight_10_Raptor_static_fire-80x60.jpg" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="" decoding="async" srcset="https://spaceflightnow.com/wp-content/uploads/2025/08/20250815_Starship_Flight_10_Raptor_static_fire-80x60.jpg 80w, https://spaceflightnow.com/wp-content/uploads/2025/08/20250815_Starship_Flight_10_Raptor_static_fire-326x245.jpg 326w" sizes="(max-width: 80px) 100vw, 80px" />									</a>
+								</figure>
+														<div class="mh-custom-posts-header">
+								<div class="mh-custom-posts-small-title">
+									<a href="https://spaceflightnow.com/2025/08/16/spacex-schedules-starship-flight-10-details-recent-setbacks/" title="SpaceX schedules 10th test flight for Starship, details recent setbacks">
+                                        SpaceX schedules 10th test flight for Starship, details recent setbacks									</a>
+								</div>
+								<div class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="https://spaceflightnow.com/2025/08/">August 16, 2025</a></span>
+</div>
+							</div>
+						</li>			</ul></div>					</div>
+							</div>
+									</div>
+	</div>
+	<div class="mh-footer-nav-mobile"></div>
+	<nav class="mh-navigation mh-footer-nav" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+		<div class="mh-container mh-container-inner clearfix">
+			<div class="menu-navigation-container"><ul id="menu-navigation-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-28 current_page_item menu-item-30"><a href="https://spaceflightnow.com/" aria-current="page">Home</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40"><a href="https://spaceflightnow.com/category/news-archive/">News Archive</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60872"><a href="https://spaceflightnow.com/launch-schedule/">Launch Schedule</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-51"><a href="https://spaceflightnow.com/category/mission-reports/">Mission Reports</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-61028"><a href="https://spaceflightnow.com/category/antares/">Antares Launcher</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-258"><a href="https://spaceflightnow.com/category/mission-reports/ariane-5/">Ariane 5</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-52"><a href="https://spaceflightnow.com/category/atlas5/">Atlas 5</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-58"><a href="https://spaceflightnow.com/category/delta-4/">Delta 4</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13107"><a href="https://spaceflightnow.com/category/falcon-9/">Falcon 9</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-29391"><a href="https://spaceflightnow.com/category/falcon-heavy/">Falcon Heavy</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-115"><a href="https://spaceflightnow.com/category/h-2a/">H-2A</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-212"><a href="https://spaceflightnow.com/category/soyuz/">Soyuz</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-211"><a href="https://spaceflightnow.com/category/space-station/">Space Station</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-9304"><a href="https://spaceflightnow.com/category/members/">Members</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34943"><a href="https://spaceflightnow.com/?memberful_endpoint=auth">Sign in</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11785"><a href="https://spaceflightnow.com/subscribe-to-spaceflight-now/">Become a member</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-34942"><a href="https://spaceflightnow.com/category/members/">Members Content</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62210"><a href="https://spaceflightnow.com/launch-pad-live/">Live</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17327"><a href="https://shop.spaceflightnow.com">Shop</a></li>
+</ul></div>		</div>
+	</nav>
+<div class="mh-copyright-wrap">
+	<div class="mh-container mh-container-inner clearfix">
+		<p class="mh-copyright">
+			© 1999-2025 Spaceflight Now Inc		</p>
+	</div>
+</div>
+<a href="#" class="mh-back-to-top"><i class="fa fa-chevron-up"></i></a>
+</div><!-- .mh-container-outer -->
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/mh-magazine-child\/*","\/wp-content\/themes\/mh-magazine\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+</body>
+</html>

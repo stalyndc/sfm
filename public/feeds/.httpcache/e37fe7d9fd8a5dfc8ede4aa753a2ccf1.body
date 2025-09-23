@@ -1,0 +1,1172 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+<!-- HEADER START HERE -->
+<head>
+            <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+            <link rel="icon" href="./apple-touch-icon.png" type="image/png" sizes="57x57">
+            <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+                    <style>
+            :root {--alink:black;--menu_head:#cedaea;--title_box:#0061a1;--button-color:#f9ba57;--menu_head_off:#9cb7d6;--title_box_text:#ffffff;--toplevel-color:#0061a1;--backpanel-color:#e0e0e0;--frontpanel-color:#ffffff;--title-menu-color:#ffffff;--shadowpanel-color:#999999;--profile-card-color:#ffffff;--title_gradien_stop:#0061a1;--lowlevel-menu-color:#f9ba57;--midlevel-menu-color:#f5f5f5;--title_gradien_start:#0061a1;--toplevel-menu-color:#0061a1;--highlevel-menu-color:#f9ba57;--lightshadowpanel-color:#b7b7b7}        </style>
+        <link href="https://cdnfiles2.biolovision.net/www.ornitho.de/css/styles_m.css" rel="stylesheet" type="text/css">
+        <link href="https://cdnfiles1.biolovision.net/common/css/btn-sprite_4349c908.css" rel="stylesheet" type="text/css">
+
+        
+        <meta name="google-site-verification" content="nZTtSUyudi8QJFYl-yX3b6Ret999zHtlp_VaA8825zc">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                <title>Latest news - www.ornitho.de</title>
+            <meta property="og:title" content="Latest news - www.ornitho.de">
+            <meta property="og:image" content="https://www.biolovision.net/logo_2021_small.png">
+            <meta property="twitter:card" content="summary">
+            <meta property="twitter:title" content="Latest news - www.ornitho.de">
+            <meta property="twitter:image" content="https://www.biolovision.net/logo_2021_small.png">
+            	<style type="text/css">
+        @media screen and (-webkit-min-device-pixel-ratio:0), screen and (min-resolution: 0.1dpi) { html { margin-left: 1px; } }
+
+.shadow1-n,
+.shadow2-n,
+.shadow3-n{
+	position: relative;
+	left: -1px;
+	top: -1px;
+}
+
+.container 
+{
+	text-align: left;
+	position: relative;
+	left: -2px;
+	top: -2px;
+	background: black;
+}
+.shadow1-n {background: #aaaaaa;}
+.shadow2-n {background: #555555;}
+.shadow3-n {background: #000000;}
+
+.shadow1-s,
+.shadow2-s,
+.shadow3-s{
+	position: relative;
+	left: -1px;
+	top: -1px;
+}
+
+.container 
+{
+	text-align: left;
+	position: relative;
+	left: -2px;
+	top: -2px;
+	background: black;
+}
+.shadow1-s {background: #fceccb;}
+.shadow2-s {background: #f9d896;}
+.shadow3-s {background: #f6c562;}
+
+.shadow1-d,
+.shadow2-d,
+.shadow3-d{
+	position: relative;
+	left: -1px;
+	top: -1px;
+}
+
+.container 
+{
+	text-align: left;
+	position: relative;
+	left: -2px;
+	top: -2px;
+	background: black;
+}
+.shadow1-d {background: #808493;}
+.shadow2-d {background: #40424a;}
+.shadow3-d {background: #000000;}
+	</style>
+        <script  src="https://cdnfiles1.biolovision.net/common/js/cookieconsent.min.js"></script>
+        <script>
+            function startGoogleAnalytics() {
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){window.dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'G-V5C7PZFP5Q', {
+                    cookie_flags: 'secure;SameSite=none'
+                });
+
+                var trackOutboundLink = function(url) {
+                    gtag('event', 'clic', {
+                        'event_category': 'sortant',
+                        'event_label': url,
+                        'transport_type': 'balise',
+                        'event_callback': function() { document.location = url; }
+                    });
+                };
+            }
+
+            function loadGoogleTagManager() {
+                var script = document.createElement('script');
+                script.async = true;
+                script.src = "https://www.googletagmanager.com/gtag/js?id=G-V5C7PZFP5Q";
+                document.head.appendChild(script);
+            }
+        </script>
+        <script>
+            //<![CDATA[
+            window.addEventListener("load", function(){
+
+                try {
+                    if (typeof window.cookieconsent === "undefined") {
+                        throw new Error("cookieconsent not loaded");
+                    }
+
+                    window.cookieconsent.initialise(
+                    {
+                        "palette": {
+                            "popup": {
+                                "background": "#efefef",
+                                "text": "#404040"
+                            },
+                            "button": {
+                                "background": "#8ec760",
+                                "text": "#ffffff"
+                            }
+                        },
+                        revokable:true,
+                        onStatusChange: function(status) {
+                            if(this.hasConsented()) {
+                                startGoogleAnalytics();
+                            }
+                            else {
+                                //Nothing to do because we don't use the cookies
+                            }
+                        },
+                        onRevokeChoice: function() {
+                            var type = this.options.type;
+
+                        },
+
+                        "theme": "edgeless",
+                        "position": "bottom-right",
+                        "type": "opt-out",
+                        "content": {
+                            "message": "This website uses cookies to ensure you get the best experience on our website.",
+                            "deny": "Deny",
+                            "dismiss": "Allow cookies",
+                            "policy": "Cookie management",
+                            "link": "Learn more",
+                            "href": "index.php?m_id=1120&item=11"
+                        }
+                    },
+                    function (popup) {
+                        window.cookieconsentpopup = popup;
+
+                        // Vérifie si l'utilisateur a consenti aux cookies
+                        if (window.cookieconsentpopup.hasConsented()) {
+                            loadGoogleTagManager();
+                            startGoogleAnalytics();
+                        }
+                    });
+                } catch (e) {
+                    console.log(e.message);
+                }
+            });
+            // ]]>
+        </script>
+        </head>
+
+<body style="margin: 0; text-align: center;overflow-y: scroll;" onload="if (window.OLinit){OLinit();} if (window.AEinit){AEinit();}">
+	<div id="ornithobody" style="margin-left: auto; margin-right: auto; width:980px; text-align: left;">
+		<!-- start main table -->
+		            <!--[if LT IE 10]>
+            <div class="ie6">
+            You are using an outdated browser. For a faster, safer browsing experience,             <a class="ie6" href="http://ie.microsoft.com/">upgrade for free today</a>.
+            </div>
+            <![endif]-->
+                <script src="https://cdnfiles1.biolovision.net/common/js/jquery-3.6.0.min.js"></script>
+	<div style="z-index:10; position:relative; width:980px; height:1px; top:0px; left:0px;">
+				<div style="z-index:5; position: absolute; top: 95px; left: 724px"><img border="0" alt="" src="https://cdnfiles2.biolovision.net/www.ornitho.de/images/flags/d_d_grad.png" width="150" height="30"/></div>
+		<div style="z-index:2;position:absolute;top:0px;left:0px;"><img alt="" border="0" src="https://cdnfiles2.biolovision.net/www.ornitho.de/images/header/SingschwanMPutze-6403.jpg" width="600" height="125"/></div>            
+		<div style="z-index:6; position: absolute; top: 0px; left: 300px"><img alt="" border="0"
+			src="https://cdnfiles2.biolovision.net/www.ornitho.de/images/header.png" width="680" height="125"/></div>
+                    <div style="z-index:7; position: absolute; top: 21px; left: 841px"><a href="http://www.dda-web.de/"><img alt="" border="0"
+                src="https://cdnfiles2.biolovision.net/www.ornitho.de/images/dda_new.png" width="139" height="81"/></a></div>
+				
+		<div style="z-index:12; position: absolute; top: 96px; left: 200px; width:524px;height:30px;background-color:#F0F0F0">
+			<div style="line-height:30px;float:left;width:124px">
+								<div style="margin-left:2px;margin-top:4px">
+					<div class="langButton" 
+											onmouseover="this.className='langButtonOver'" 
+											onmouseout="this.className='langButton'" 
+											onclick="location.href='https://www.ornitho.de/index.php?m_id=1164&amp;langu=fr'">
+											<a class="bvLangu" href="https://www.ornitho.de/index.php?m_id=1164&amp;langu=fr">fr</a>
+											</div><div class="langButton" 
+											onmouseover="this.className='langButtonOver'" 
+											onmouseout="this.className='langButton'" 
+											onclick="location.href='https://www.ornitho.de/index.php?m_id=1164&amp;langu=de'">
+											<a class="bvLangu" href="https://www.ornitho.de/index.php?m_id=1164&amp;langu=de">de</a>
+											</div><div class="langButtonSelected">en</div>					</div>
+								</div>
+			<div style="line-height:30px;float:left;width:400px;text-align:right;">
+                        <div style="line-height:30px;font-weight:bold;margin-right:10px" class="bodytext">Visitor&nbsp;Anonymous</div>
+        			</div>
+		</div>
+	</div>
+
+	<div id="maincontent" style="z-index:1; position:relative; width:980px; top:124px; left:0px;">
+		<table border="0" width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td bgcolor="#F0F0F0" valign="top">
+					<!-- LEFT START HERE -->
+
+ <script>
+// <![CDATA[
+var arrowArray = new Array(); 
+var bulletArray = new Array(); 
+
+if (document.images) 
+{ 
+   arrowArray[0] = new Image(25,18);
+   arrowArray[1] = new Image(25,18);
+   arrowArray[0].src = 'https://cdnfiles2.biolovision.net/www.ornitho.de/images/arrow_open.gif';
+   arrowArray[1].src = 'https://cdnfiles2.biolovision.net/www.ornitho.de/images/arrow_close.gif';
+ 
+   bulletArray[0] = new Image(25,18);
+   bulletArray[1] = new Image(25,18);
+   bulletArray[0].src = 'https://cdnfiles2.biolovision.net/www.ornitho.de/images/bullet_plus.gif';
+   bulletArray[1].src = 'https://cdnfiles2.biolovision.net/www.ornitho.de/images/bullet_minus.gif';
+}
+
+// Clears a cookie
+function clearCookie(cookieName) 
+{
+	var now = new Date();
+	var yesterday = new Date(now.getTime() - 1000 * 60 * 60 * 24);
+	setCookie(cookieName, 'cookieValue', '/', yesterday);
+}
+
+// Sets value in a cookie
+function setCookie(cookieName, cookieValue, path, expires, domain, secure) 
+{
+	document.cookie =
+		encodeURI(cookieName) + '=' + encodeURI(cookieValue)
+		+ (expires ? '; expires=' + expires.toGMTString() : '')
+		+ (path ? '; path=' + path : '; path=' + '/')
+		+ (domain ? '; domain=' + domain : '')
+		+ (secure ? '; secure' : '')
+        + '; SameSite=Strict';
+}
+
+// Gets a value from a cookie
+function getCookie(cookieName) 
+{
+	var cookieValue = '';
+	var posName = document.cookie.indexOf(encodeURI(cookieName) + '=');
+	if (posName != -1) 
+	{
+		var posValue = posName + (encodeURI(cookieName) + '=').length;
+		var endPos = document.cookie.indexOf(';', posValue);
+		if (endPos != -1) cookieValue = decodeURI(document.cookie.substring(posValue, endPos));
+		else cookieValue = decodeURI(document.cookie.substring(posValue));
+	}
+	return (cookieValue);
+}
+
+function notifyStatus(objid, value)
+{
+	var cOM = getCookie('currentOpenMenu').split('.');
+	
+	var newcOM = '';
+	
+	for (var n = 0; n < cOM.length; n++)
+	{
+		if (cOM[n] != '')
+		{
+			var c = cOM[n].split('-');
+			//if (cOM[n] != objid)
+			if (c[0] != objid)
+				newcOM += cOM[n] + ".";
+		}
+	}
+	
+	//if (value == 1)
+	newcOM += objid + "-" + value + ".";
+	
+	setCookie('currentOpenMenu', newcOM, '/');
+}
+
+function notifyOpen(objid)
+{
+	notifyStatus(objid, 1);
+}
+
+function notifyClose(objid)
+{
+	notifyStatus(objid, 0);
+}
+
+function toggleArrow(id,is_sub) 
+{
+	if (!id) 
+	return;
+	
+	var myli;
+	var is_open = 0;
+	
+	myli = eval("document.i"+id); 
+	
+	if (!myli) 
+	return;
+	
+	if (is_sub) 
+	{
+		if (myli.src.indexOf("minus") >=0)
+		{
+			is_open = 0;
+			myli.src = bulletArray[0].src;
+		}
+		else if (myli.src.indexOf("plus") >=0) 
+		{
+			is_open = 1;
+			myli.src = bulletArray[1].src;
+		}
+	} 
+	else 
+	{
+		if (myli.src.indexOf("close") >=0) 
+		{
+			is_open = 1;
+			myli.src = arrowArray[0].src;
+		}
+		else if (myli.src.indexOf("open") >=0) 		
+		{
+			is_open = 0;
+			myli.src = arrowArray[1].src;
+		}
+	}
+  
+	if (is_open == 1)
+		notifyOpen(id);
+	else
+		notifyClose(id);
+}
+
+function toggleSub(id,is_sub) 
+{
+   toggleArrow(id,is_sub);
+   var mye;
+
+   if (document.getElementById) 
+   {
+      mye = document.getElementById("t"+id);
+   } 
+   else if (document.all) 
+   {
+      mye = eval("document.all.t"+id);
+   }
+   
+   if (!mye) 
+   	return;
+   	
+   if (mye.style.display.indexOf("none") >=0)  
+   	mye.style.display = "";
+   else if (mye.style.display == "")  
+   	mye.style.display = "none";
+}
+// ]]>
+</script>
+
+<!-- LEFT START HERE -->
+
+<table style="text-align: left; width: 200px;" cellspacing="0" cellpadding="0" border="0" width="200">
+<tr>
+<td class="bvMenuHead" onmouseover="this.className='bvMenuHeadOFF'" 
+onmouseout="this.className='bvMenuHead'" 
+onclick="location.href='https://www.ornitho.de/index.php?m_id=1'"><a class="bvMenuHead" href="https://www.ornitho.de/index.php?m_id=1">Home ornitho.de / ornitho.lu</a>
+</td>
+</tr>
+<tr onclick="javascript:toggleSub('20',0);"><td class="bvMenuTitle">
+<div style="float:left;"><img alt="" src="https://cdnfiles2.biolovision.net/www.ornitho.de/images/arrow_open.gif" name="i20" border="0" height="12" width="18"/></div><div style="float:left;">Latest</div></td>
+</tr>
+<tr  id="t20">
+<td>
+<div class="bvMenuSub" onmouseover="this.className='bvMenuSubOver'" 
+onmouseout="this.className='bvMenuSub'" 
+onclick="location.href='https://www.ornitho.de/index.php?m_id=5&amp;sp_DOffset=5'"><div style="float: left;height:14px" >&nbsp;-&nbsp;</div><div>Current observations</div>
+</div>
+<div class="bvMenuSub" onmouseover="this.className='bvMenuSubOver'" 
+onmouseout="this.className='bvMenuSub'" 
+onclick="location.href='https://www.ornitho.de/index.php?m_id=7'"><div style="float: left;height:14px" >&nbsp;-&nbsp;</div><div>Photo and sound gallery</div>
+</div>
+<div onmouseover="this.className='bvMenuSubTitleOFF'" onmouseout="this.className='bvMenuSubTitle'" onclick="javascript:toggleSub('12',1);" class="bvMenuSubTitle">
+&nbsp;<img alt="" src="https://cdnfiles2.biolovision.net/www.ornitho.de/images/bullet_minus.gif" name="i12" border="0" height="9" width="9"/>&nbsp;Distribution</div><div  id="t12"><div class="bvMenuSub" onmouseover="this.className='bvMenuSubOver'" 
+onmouseout="this.className='bvMenuSub'" 
+onclick="location.href='https://www.ornitho.de/index.php?m_id=30411'"><div style="float: left;height:14px" >&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;</div><div>Black Redstart 2025</div>
+</div>
+<div class="bvMenuSub" onmouseover="this.className='bvMenuSubOver'" 
+onmouseout="this.className='bvMenuSub'" 
+onclick="location.href='https://www.ornitho.de/index.php?m_id=30014'"><div style="float: left;height:14px" >&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;</div><div>Red Kite 2025</div>
+</div>
+<div class="bvMenuSub" onmouseover="this.className='bvMenuSubOver'" 
+onmouseout="this.className='bvMenuSub'" 
+onclick="location.href='https://www.ornitho.de/index.php?m_id=30094'"><div style="float: left;height:14px" >&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;</div><div>Common Crane 2025</div>
+</div>
+<div class="bvMenuSub" onmouseover="this.className='bvMenuSubOver'" 
+onmouseout="this.className='bvMenuSub'" 
+onclick="location.href='https://www.ornitho.de/index.php?m_id=30315'"><div style="float: left;height:14px" >&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;</div><div>Eurasian Crag Martin 2025</div>
+</div>
+<div class="bvMenuSub" onmouseover="this.className='bvMenuSubOver'" 
+onmouseout="this.className='bvMenuSub'" 
+onclick="location.href='https://www.ornitho.de/index.php?m_id=30417'"><div style="float: left;height:14px" >&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;</div><div>Eurasian Dotterel 2025</div>
+</div>
+</div><div onmouseover="this.className='bvMenuSubTitleOFF'" onmouseout="this.className='bvMenuSubTitle'" onclick="javascript:toggleSub('400',1);" class="bvMenuSubTitle">
+&nbsp;<img alt="" src="https://cdnfiles2.biolovision.net/www.ornitho.de/images/bullet_minus.gif" name="i400" border="0" height="9" width="9"/>&nbsp;News & Events</div><div  id="t400"><div class="bvMenuSubOFF" onmouseover="this.className='bvMenuSubOFF'" 
+onmouseout="this.className='bvMenuSubOFF'" 
+onclick="location.href='https://www.ornitho.de/index.php?m_id=1164'"><div style="float: left;height:14px" >&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;</div><div>Latest news</div>
+</div>
+</div></td></tr><tr onclick="javascript:toggleSub('510',0);"><td class="bvMenuTitle">
+<div style="float:left;"><img alt="" src="https://cdnfiles2.biolovision.net/www.ornitho.de/images/arrow_close.gif" name="i510" border="0" height="12" width="18"/></div><div style="float:left;">Analyses</div></td>
+</tr>
+<tr style="display: none" id="t510">
+<td>
+<div onmouseover="this.className='bvMenuSubTitleOFF'" onmouseout="this.className='bvMenuSubTitle'" onclick="javascript:toggleSub('520',1);" class="bvMenuSubTitle">
+&nbsp;<img alt="" src="https://cdnfiles2.biolovision.net/www.ornitho.de/images/bullet_minus.gif" name="i520" border="0" height="9" width="9"/>&nbsp;Distribution grid-based</div><div  id="t520"><div class="bvMenuSub" onmouseover="this.className='bvMenuSubOver'" 
+onmouseout="this.className='bvMenuSub'" 
+onclick="location.href='https://www.ornitho.de/index.php?m_id=1119&amp;item=14'"><div style="float: left;height:14px" >&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;</div><div>Distribution of users</div>
+</div>
+</div><div onmouseover="this.className='bvMenuSubTitleOFF'" onmouseout="this.className='bvMenuSubTitle'" onclick="javascript:toggleSub('1184',1);" class="bvMenuSubTitle">
+&nbsp;<img alt="" src="https://cdnfiles2.biolovision.net/www.ornitho.de/images/bullet_minus.gif" name="i1184" border="0" height="9" width="9"/>&nbsp;Publications & Evaluations</div><div  id="t1184"><div class="bvMenuSub" onmouseover="this.className='bvMenuSubOver'" 
+onmouseout="this.className='bvMenuSub'" 
+onclick="location.href='https://www.ornitho.de/index.php?m_id=1127&amp;item=12'"><div style="float: left;height:14px" >&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;</div><div>Publications</div>
+</div>
+<div class="bvMenuSub" onmouseover="this.className='bvMenuSubOver'" 
+onmouseout="this.className='bvMenuSub'" 
+onclick="location.href='https://www.ornitho.de/index.php?m_id=1183&amp;item=126'"><div style="float: left;height:14px" >&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;</div><div>Annual reports, newsletters</div>
+</div>
+</div></td></tr><tr onclick="javascript:toggleSub('67',0);"><td class="bvMenuTitle">
+<div style="float:left;"><img alt="" src="https://cdnfiles2.biolovision.net/www.ornitho.de/images/arrow_close.gif" name="i67" border="0" height="12" width="18"/></div><div style="float:left;">Help</div></td>
+</tr>
+<tr style="display: none" id="t67">
+<td>
+<div class="bvMenuSub" onmouseover="this.className='bvMenuSubOver'" 
+onmouseout="this.className='bvMenuSub'" 
+onclick="location.href='https://www.ornitho.de/index.php?m_id=1124&amp;item=13'"><div style="float: left;height:14px" >&nbsp;-&nbsp;</div><div>Who is my regional coordinator?</div>
+</div>
+<div class="bvMenuSub" onmouseover="this.className='bvMenuSubOver'" 
+onmouseout="this.className='bvMenuSub'" 
+onclick="location.href='https://www.ornitho.de/index.php?m_id=41'"><div style="float: left;height:14px" >&nbsp;-&nbsp;</div><div>Symbols and abbreviations</div>
+</div>
+<div class="bvMenuSub" onmouseover="this.className='bvMenuSubOver'" 
+onmouseout="this.className='bvMenuSub'" 
+onclick="location.href='https://www.ornitho.de/index.php?m_id=125'"><div style="float: left;height:14px" >&nbsp;-&nbsp;</div><div>Frequently asked questions (FAQ)</div>
+</div>
+</td></tr><tr onclick="javascript:toggleSub('499',0);"><td class="bvMenuTitle">
+<div style="float:left;"><img alt="" src="https://cdnfiles2.biolovision.net/www.ornitho.de/images/arrow_close.gif" name="i499" border="0" height="12" width="18"/></div><div style="float:left;">Background</div></td>
+</tr>
+<tr style="display: none" id="t499">
+<td>
+<div class="bvMenuSub" onmouseover="this.className='bvMenuSubOver'" 
+onmouseout="this.className='bvMenuSub'" 
+onclick="location.href='https://www.ornitho.de/index.php?m_id=1116&amp;item=7'"><div style="float: left;height:14px" >&nbsp;-&nbsp;</div><div>About ornitho.de resp. ornitho.lu</div>
+</div>
+<div class="bvMenuSub" onmouseover="this.className='bvMenuSubOver'" 
+onmouseout="this.className='bvMenuSub'" 
+onclick="location.href='https://www.ornitho.de/index.php?m_id=1126&amp;c=PART'"><div style="float: left;height:14px" >&nbsp;-&nbsp;</div><div>Legal body and partners</div>
+</div>
+<div class="bvMenuSub" onmouseover="this.className='bvMenuSubOver'" 
+onmouseout="this.className='bvMenuSub'" 
+onclick="location.href='https://www.dda-web.de/unterstuetzen/spenden/spendenformular'"><div style="float: left;height:14px" >&nbsp;-&nbsp;</div><div>Donate to ornitho.de</div>
+</div>
+<div class="bvMenuSub" onmouseover="this.className='bvMenuSubOver'" 
+onmouseout="this.className='bvMenuSub'" 
+onclick="location.href='https://www.ornitho.de/index.php?m_id=1121&amp;item=3'"><div style="float: left;height:14px" >&nbsp;-&nbsp;</div><div>Terms and conditions of use</div>
+</div>
+<div class="bvMenuSub" onmouseover="this.className='bvMenuSubOver'" 
+onmouseout="this.className='bvMenuSub'" 
+onclick="location.href='https://www.ornitho.de/index.php?m_id=1115&amp;item=8'"><div style="float: left;height:14px" >&nbsp;-&nbsp;</div><div>Code of conduct</div>
+</div>
+<div class="bvMenuSub" onmouseover="this.className='bvMenuSubOver'" 
+onmouseout="this.className='bvMenuSub'" 
+onclick="location.href='https://www.ornitho.de/index.php?m_id=1129&amp;item=11'"><div style="float: left;height:14px" >&nbsp;-&nbsp;</div><div>Disclaimer</div>
+</div>
+<div onmouseover="this.className='bvMenuSubTitleOFF'" onmouseout="this.className='bvMenuSubTitle'" onclick="javascript:toggleSub('402',1);" class="bvMenuSubTitle">
+&nbsp;<img alt="" src="https://cdnfiles2.biolovision.net/www.ornitho.de/images/bullet_plus.gif" name="i402" border="0" height="9" width="9"/>&nbsp;Technical-organizational</div><div style="display: none" id="t402"><div class="bvMenuSub" onmouseover="this.className='bvMenuSubOver'" 
+onmouseout="this.className='bvMenuSub'" 
+onclick="location.href='https://www.ornitho.de/index.php?m_id=156'"><div style="float: left;height:14px" >&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;</div><div>Species protected automatically</div>
+</div>
+</div><div onmouseover="this.className='bvMenuSubTitleOFF'" onmouseout="this.className='bvMenuSubTitle'" onclick="javascript:toggleSub('404',1);" class="bvMenuSubTitle">
+&nbsp;<img alt="" src="https://cdnfiles2.biolovision.net/www.ornitho.de/images/bullet_plus.gif" name="i404" border="0" height="9" width="9"/>&nbsp;Data Usage</div><div style="display: none" id="t404"><div class="bvMenuSub" onmouseover="this.className='bvMenuSubOver'" 
+onmouseout="this.className='bvMenuSub'" 
+onclick="location.href='https://www.dda-web.de/ornitho/datennutzung'"><div style="float: left;height:14px" >&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;</div><div>Use of ornitho Data</div>
+</div>
+<div class="bvMenuSub" onmouseover="this.className='bvMenuSubOver'" 
+onmouseout="this.className='bvMenuSub'" 
+onclick="location.href='https://www.ornitho.de/index.php?m_id=1118&amp;item=15'"><div style="float: left;height:14px" >&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;</div><div>Reference lists, guide lines and forms</div>
+</div>
+<div class="bvMenuSub" onmouseover="this.className='bvMenuSubOver'" 
+onmouseout="this.className='bvMenuSub'" 
+onclick="location.href='https://www.ornitho.de/index.php?m_id=406&amp;item=92'"><div style="float: left;height:14px" >&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;</div><div>QR Codes from ornitho.de</div>
+</div>
+</div><div onmouseover="this.className='bvMenuSubTitleOFF'" onmouseout="this.className='bvMenuSubTitle'" onclick="javascript:toggleSub('407',1);" class="bvMenuSubTitle">
+&nbsp;<img alt="" src="https://cdnfiles2.biolovision.net/www.ornitho.de/images/bullet_plus.gif" name="i407" border="0" height="9" width="9"/>&nbsp;Research Projects</div><div style="display: none" id="t407"><div class="bvMenuSub" onmouseover="this.className='bvMenuSubOver'" 
+onmouseout="this.className='bvMenuSub'" 
+onclick="location.href='https://www.ornitho.de/index.php?m_id=408&amp;item=94'"><div style="float: left;height:14px" >&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;</div><div>Project Artenvielfalt</div>
+</div>
+</div></td></tr></table>
+
+<!-- LEFT END HERE -->
+				</td>				
+				<td width="100%" valign="top">
+				        <div id="ajaxErrorMessageDisplay"></div>
+         <script>
+            //<![CDATA[
+            //Global function that can be called by ajax functions to display error/result box
+            function errorMessageDisplay(json_result)
+            {
+                $('#ajaxErrorMessageDisplay').empty();
+                var nbre_message_success = 0;
+
+                if(Array.isArray(json_result)){
+                    json_result.forEach(function(entry) {
+                        var style = entry.style;
+                        var message = entry.text;
+                        var status = entry.status;
+
+                        if(typeof(style) !== "undefined" && typeof(message) !== "undefined" && typeof(status) !== "undefined")
+                        {
+
+                            if(status != "error" && status != "info" && status != "warning")
+                                nbre_message_success++;
+
+                            var class_name = 'errorMessage';
+
+                            switch(status)
+                            {
+                                case 'error':
+                                    class_name = 'errorError';
+                                    break;
+                                case 'info':
+                                    class_name = 'errorInfo';
+                                    break;
+                                case 'warning':
+                                    class_name = 'errorWarning';
+                                    break;
+                            }
+
+                            var display_style = ((class_name == 'errorMessage' && style == 'fade') || style == 'overlay') ? "style=\"position:absolute; z-index:100; width:745px\"" : '';
+
+                            var div_error_box = $('<div>',{'class' : class_name,'style':display_style});
+                            div_error_box.html(message);
+
+                            $('#ajaxErrorMessageDisplay').append(div_error_box);
+                        }
+                    });
+                }
+
+                if(nbre_message_success>0){
+                                            $(".errorMessage").delay(6000).slideToggle(1000);
+                                        }
+
+                return nbre_message_success;
+            }
+
+            //Global function that will do some ajax on the link (we expect the link to provide utf8 json result) and it will send json to errorMessageDisplay so we can have a display of error message
+            //beforeFct: function that will be called before doing any ajax call (to activate wait icon for example ...)
+            //link: the url used for ajax call
+            //callbackFct: function used after ajax call and after displaying ErrorMessages
+            function ajaxToLink(beforeFct,used_method,link,send_data,callbackFct,sentData_contentType,sentData_processData)
+            {
+                beforeFct();
+                $.ajax({
+                    url: link,
+                    method: used_method,
+                    type: used_method,
+                    data: send_data,
+                    success: function(json_result) {
+                        if(json_result===null)
+                        {
+                            callbackFct(0);
+                        }
+                        else{
+                            if(typeof(json_result['data'])!='undefined')
+                            {
+                                var nbre_message_success = errorMessageDisplay(json_result['data']['error_messages']);
+                                callbackFct(nbre_message_success,json_result['data']['result']);
+                            }
+                            else{
+                                callbackFct(0);
+                            }
+                        }
+                    },
+                    error: function(jqXHR, textStatus, errorThrown){
+                        callbackFct(0);
+                    },
+                    contentType: (typeof(sentData_contentType)=='undefined')?'application/x-www-form-urlencoded; charset=UTF-8':sentData_contentType,
+                    processData: (typeof(sentData_processData)=='undefined')?true:sentData_processData
+                });
+            }
+
+            function sendErrorToService(error) {
+                var errorMessage = error.message;
+                var errorLine = error.lineNumber || error.line || 'N/A';
+                var errorStack = error.stack || 'N/A';
+
+                var errorData = {
+                    message: errorMessage,
+                    line: errorLine,
+                    stack: errorStack,
+                    url: 'content/news',
+                    obid: '30'
+                };
+
+                console.log(errorData);
+
+                $.ajax({
+                    type: 'POST',
+                    url: 'index.php?m_id=1351&backlink=skip&content=debug',
+                    data: {data: JSON.stringify(errorData)},
+                    success: function(response) {
+                        console.log('error message sucessfully sent');
+                    },
+                    error: function(xhr, status, error) {
+                        console.log('error sending error message: ' + error);
+                    }
+                });
+            }
+
+            // ]]>
+        </script>
+        <!-- HEADER STOP HERE -->
+                    <table id="td-main-table" style="width:780px">
+                        <tr>
+                            <td>    <div class="pageTitle">Latest news</div>
+<tr><td colspan="2">    <div style="margin:5px;">
+   		<div class="aeMPContainer">
+			<div class="aeMPButtons aeMPItem"><div class="aeMPButtonActive">1</div><div class="aeMPButton" onclick="location.href='https://www.ornitho.de/index.php?m_id=1164&amp;mp_item_per_page=10&amp;mp_current_page=2'">2</div><div class="aeMPButton" onclick="location.href='https://www.ornitho.de/index.php?m_id=1164&amp;mp_item_per_page=10&amp;mp_current_page=3'">3</div><div class="aeMPButton" onclick="location.href='https://www.ornitho.de/index.php?m_id=1164&amp;mp_item_per_page=10&amp;mp_current_page=4'">4</div><div class="aeMPButton" onclick="location.href='https://www.ornitho.de/index.php?m_id=1164&amp;mp_item_per_page=10&amp;mp_current_page=5'">5</div><div class="aeMPButton" onclick="location.href='https://www.ornitho.de/index.php?m_id=1164&amp;mp_item_per_page=10&amp;mp_current_page=6'">6</div><div class="aeMPButton" onclick="location.href='https://www.ornitho.de/index.php?m_id=1164&amp;mp_item_per_page=10&amp;mp_current_page=7'">7</div><div class="aeMPButton" onclick="location.href='https://www.ornitho.de/index.php?m_id=1164&amp;mp_item_per_page=10&amp;mp_current_page=8'">8</div><div class="aeMPButton" onclick="location.href='https://www.ornitho.de/index.php?m_id=1164&amp;mp_item_per_page=10&amp;mp_current_page=9'">9</div><div class="aeMPButtonStep" onclick="location.href='https://www.ornitho.de/index.php?m_id=1164&amp;mp_item_per_page=10&amp;mp_current_page=2'">&gt;</div><div class="aeMPButtonStep" onclick="location.href='https://www.ornitho.de/index.php?m_id=1164&amp;mp_item_per_page=10&amp;mp_current_page=35'">&gt;|</div>					<select class="aeMPSelect" onchange="document.location.href='https://www.ornitho.de/index.php?m_id=1164&amp;mp_item_per_page=10&amp;mp_current_page=' + this.value">
+					<option value="1"  selected="selected">1</option>
+<option value="2" >2</option>
+<option value="3" >3</option>
+<option value="4" >4</option>
+<option value="5" >5</option>
+<option value="6" >6</option>
+<option value="7" >7</option>
+<option value="8" >8</option>
+<option value="9" >9</option>
+<option value="10" >10</option>
+<option value="11" >11</option>
+<option value="20" >20</option>
+<option value="25" >25</option>
+<option value="26" >26</option>
+<option value="27" >27</option>
+<option value="28" >28</option>
+<option value="29" >29</option>
+<option value="30" >30</option>
+<option value="31" >31</option>
+<option value="32" >32</option>
+<option value="33" >33</option>
+<option value="34" >34</option>
+<option value="35" >35</option>
+					</select>
+				</div>            <div class="aeMPItem">n/page : <select class="aeMPSelect" onchange="document.location.href='https://www.ornitho.de/index.php?m_id=1164&amp;mp_item_per_page=' + this.value"><option value="10"  selected="selected">10</option><option value="30" >30</option><option value="50" >50</option>            </select>
+            </div>            <div class="aeMPItem">count            : 342</div>		</div>
+
+		<div class='clearfix'></div>
+
+		    </div>
+    <div style="margin:5px;">
+               <div id="divboxN595_head" class="boxTitle" style="cursor:pointer;height:100%;padding:5px;margin:0px;">
+            <a name="FN595"></a><img style="float:left;padding-top:2px;padding-right:5px;" id="divboxN595_img" border="0" src="https://cdnfiles1.biolovision.net/common/images/ar_down.gif"/>&nbsp;<div style="float:left"><b>Thursday, September 4th, 2025</b></div><div style="float:right;font-weight:normal;width:80px;text-align:center;font-size:10px;margin:-5px;padding:5px;color:white;background-color:#CD6969;"><div style="float:right">technews</div></div><div style="clear:both"></div>            </div>
+             <script>
+            //<![CDATA[
+            $("#divboxN595_head").click(function()
+            {
+                if ($("#divboxN595").is(":hidden"))
+                {
+                    $("#divboxN595_img").attr("src", "https://cdnfiles1.biolovision.net/common/images/ar_down.gif")
+                    $("#divboxN595").slideDown();
+                }
+                else
+                {
+                    $("#divboxN595").slideUp(function() {$("#divboxN595_img").attr("src", "https://cdnfiles1.biolovision.net/common/images/ar_right.gif")});
+                }
+            });
+            // ]]>
+            </script>
+            <div class="draw_box_title" style="padding:5px;margin:0px;"><a name="FN595"></a>Technical problems when entering/changing data via the website</div>            <div style="padding:5px;margin:0px;" class="box_light" id="divboxN595">
+            <p>
+	As of today, there is a technical error that can lead to incorrect information being saved when entering or changing observations via the ornitho.de website.&nbsp;<span style="font-size: 0.75rem; letter-spacing: 0px;">The details &lsquo;Specifications (migration, roost etc.)&rsquo; and &lsquo;(resting) Habitat&rsquo; are automatically filled in or overwritten. Therefore, please note the following:</span></p>
+<p>
+	<strong>When entering or changing observation reports via the ornitho.de homepage, please correct the entries in the fields &lsquo;Specifications (migration, roost etc.)&rsquo; and &lsquo;(resting) Habitat&rsquo;.</strong>Otherwise, incorrect information may be saved.</p>
+<p>
+	We hope that this error, which currently exists internationally in all ornitho portals, can be quickly resolved and assume that the incorrect entries will be corrected automatically. Nevertheless, please help us to minimise the number of incorrect entries as directly as possible.</p>
+<p>
+	<strong>Entries made via the NaturaList app are not affected by this problem! </strong></p>
+<p>
+	Additional note: Due to some complex background calculations, there may be a delay in the transfer of observation lists from the app to the portal during the course of today. If the app confirms that the transfer was successful, you can be sure that this data will arrive in the portal sooner or later. So there is no cause for concern.</p>
+<p>
+	Thank you for your understanding!</p>
+            </div>
+        <div class="bodytextsmall" style="text-align:right">posted by Christopher König</div>
+<div class="box_empty"></div><div style="clear:both;margin-top:10px;"/></div>            <div id="divboxN592_head" class="boxTitle" style="cursor:pointer;height:100%;padding:5px;margin:0px;">
+            <a name="FN592"></a><img style="float:left;padding-top:2px;padding-right:5px;" id="divboxN592_img" border="0" src="https://cdnfiles1.biolovision.net/common/images/ar_down.gif"/>&nbsp;<div style="float:left"><b>Monday, August 18th, 2025</b></div><div style="float:right;font-weight:normal;width:80px;text-align:center;font-size:10px;margin:-5px;padding:5px;color:white;background-color:#69CD69;"><div style="float:right">avinews</div></div><div style="clear:both"></div>            </div>
+             <script>
+            //<![CDATA[
+            $("#divboxN592_head").click(function()
+            {
+                if ($("#divboxN592").is(":hidden"))
+                {
+                    $("#divboxN592_img").attr("src", "https://cdnfiles1.biolovision.net/common/images/ar_down.gif")
+                    $("#divboxN592").slideDown();
+                }
+                else
+                {
+                    $("#divboxN592").slideUp(function() {$("#divboxN592_img").attr("src", "https://cdnfiles1.biolovision.net/common/images/ar_right.gif")});
+                }
+            });
+            // ]]>
+            </script>
+            <div class="draw_box_title" style="padding:5px;margin:0px;"><a name="FN592"></a>Watch out for Eurasian Dotterels! (Please also report nil counts!)</div>            <div style="padding:5px;margin:0px;" class="box_light" id="divboxN592">
+            <p style="font-size: 12px; letter-spacing: normal;">
+	Das Brutgebiet des Mornellregenpfeifers liegt in den Fj&auml;llfl&auml;chen und Tundren von Skandinavien bis Ostsibirien. Die europ&auml;ischen Brutv&ouml;gel &uuml;berwintern in Nordafrika und &uuml;berqueren Europa auf dem Zug in sehr engen Zeitfenstern. Viele V&ouml;gel f&uuml;hren dabei vermutlich einen Nonstopzug durch, ein gewisser Teil rastet allerdings regelm&auml;&szlig;ig an meist traditionellen Rastpl&auml;tzen. Seit 2011 rufen wir zur gezielten Suche nach Mornellregenpfeifern w&auml;hrend des zeitlich eng begrenzten Durchzugfensters von Mitte August bis Mitte September auf. Die zahlreichen Meldungen vor allem &uuml;ber&nbsp;<em>ornitho</em>&nbsp;ergaben den wohl bundesweit bislang besten &Uuml;berblick &uuml;ber die Rastvorkommen. Dank der Differenzierung vieler Individuen in Alt- und Jungv&ouml;gel k&ouml;nnen der j&auml;hrilche Jungvogelanteil berechnet und so R&uuml;ckschl&uuml;sse auf den Bruterfolg gezogen werden. Die Ergebnisse wurden in den vergangenen Jahren in&nbsp;<a href="http://www.falke-journal.de/" style="color: rgb(9, 9, 9);" target="_blank">&bdquo;Der Falke&ldquo;</a>&nbsp;ver&ouml;ffentlicht. Diese Beitr&auml;ge k&ouml;nnen Sie&nbsp;<a href="https://www.ornitho.de/index.php?m_id=1127&amp;item=12" style="color: rgb(9, 9, 9);" target="_blank">hier als pdf herunterladen</a>. Gezielte Hinweise, wie und wo man Mornellregenpfeifer auf dem Herbstzug suchen (und hoffentlich auch finden) kann, finden Sie im Beitrag &bdquo;Leicht zu &uuml;bersehen: Herbstrast des Mornellregenpfeifers&ldquo; -&nbsp;<a href="https://www.dda-web.de/downloads/publications/falke/60/stuebing_et_al_2013_herbstrast_mornellregenpfeifer.pdf" style="color: rgb(9, 9, 9);" target="_blank">hier als PDF</a>.</p>
+<p style="font-size: 12px; letter-spacing: normal;">
+	<span style="font-weight: 600;">Wann?</span><br />
+	<span style="font-size: 0.75rem; letter-spacing: 0px;">Im Fr&uuml;hjahr zieht die Art in Deutschland in sehr kurzer Zeitspanne und nur geringer Zahl fast ausschlie&szlig;lich im Mai durch, vorj&auml;hrige Mornells verbleiben wie viele andere Zugv&ouml;gel meist im Winterquartier. Weit auff&auml;lliger ist der Durchzug im Herbst. Hier werden die meisten Individuen im Zeitraum 15. August bis 15. September beobachtet. Einzelne V&ouml;gel treten noch bis Oktober auf. Es gilt daher in diesen Wochen ganz gezielt geeignete Habitate zu kontrollieren! Aufgrund des Verhaltens der V&ouml;gel sind die Beobachtungsbedingungen am Morgen und Abend am besten. Zu dieser Zeit findet die Nahrungssuche statt, w&auml;hrend sich im weiteren Tagesverlauf ruhende, bewegungslose V&ouml;gel oft der Entdeckung entziehen. Auch die Chance, gegen Abend abziehende bzw. morgens zur Rast einfallende Tiere oder deren kleinr&auml;umige Ortswechsel bei der Suche nach geeigneten Rastfl&auml;chen zu beobachten, erh&ouml;ht den Beobachtungserfolg deutlich.</span></p>
+<p style="font-size: 12px; letter-spacing: normal;">
+	<span style="font-weight: 600;">Wo?</span><br />
+	<span style="font-size: 0.75rem; letter-spacing: 0px;">W&auml;hrend im Fr&uuml;hjahr vor allem k&uuml;stennahe Bereiche bevorzugt werden, tauchen Mornellregenpfeifer im Herbst vermehrt an Rastpl&auml;tzen im Binnenland auf. Bei den Gebieten handelt es sich in der Regel um weithin exponierte, sehr offene und damit an skandinavische Weiten erinnernde Fl&auml;chen mit kurzer Vegetation. Wurden urspr&uuml;nglich wohl vor allem Heiden und Brachen aufgesucht, sind heute abgeerntete Felder die Hauptrastpl&auml;tze. Besonders regelm&auml;&szlig;ig gelingen Nachweise vor allem auf Ackerfl&auml;chen auf kargen, windexponierten Hochfl&auml;chen mit weiter Sicht in Abzugrichtung S&uuml;d und S&uuml;dwest in gro&szlig;r&auml;umigen Agrarlandschaften, gerne im oberen Hangbereich an der S&uuml;dwestflanke kleiner H&uuml;gel. Es sollte mindestens ein Stoppelsturz stattgefunden haben, unbearbeitete Getreidestoppeln werden offenbar gemieden. Gro&szlig;e Vertikalstrukturen wirken sich negativ aus, wobei Einzelb&auml;ume und Erdaufsch&uuml;ttungen toleriert werden. Besonders lohnend kann die Suche direkt nach starken, gro&szlig;r&auml;umigen Regenschauern und Gewittern sein, wenn die von der Witterungslage zur &bdquo;Notrast&ldquo; gezwungenen V&ouml;gel schnell wieder abziehen und dann besonders auff&auml;llig sind. Unter solchen Witterungsbedingungen werden manchmal auch Fl&auml;chen zur Rast genutzt, die bei guter Witterung keine Beachtung finden, wie z.B. ebene, kleinere Ackerfl&auml;chen in Waldrandn&auml;he. Die momentan soweit bekannt gr&ouml;&szlig;ten und bedeutendsten Rastpl&auml;tze f&uuml;r Mornellregenpfeifer in Deutschland sind die nordrhein-westf&auml;lische Hellwegb&ouml;rde im Kreis Soest sowie das Maifeld im Kreis Mayen-Koblenz in Rheinland-Pfalz.</span></p>
+<p style="font-size: 12px; letter-spacing: normal;">
+	<span style="font-weight: 600;">Wie?</span><br />
+	<span style="font-size: 0.75rem; letter-spacing: 0px;">Nur selten werden die gerade einmal amsel-gro&szlig;en Mornellregenpfeifer zuf&auml;llig entdeckt. Erst das genaue Absuchen geeigneter Fl&auml;chen mit Fernglas oder Spektiv f&uuml;hrt in der Regel zum Erfolg. Die Art ist relativ leicht zu bestimmen und kaum mit anderen Arten zu verwechseln (Bestimmungshilfe [&nbsp;</span><a href="https://cdnfiles2.biolovision.net/www.ornitho.de/userfiles/news/pdf/BestimmungshilfeMornellregenpfeifer.pdf" style="color: rgb(9, 9, 9); font-size: 0.75rem; letter-spacing: 0px;" target="_blank">PDF</a><span style="font-size: 0.75rem; letter-spacing: 0px;">&nbsp;]). An den Rastpl&auml;tzen herrscht eine hohe Dynamik, viele V&ouml;gel verweilen nur kurz, so dass eine regelm&auml;&szlig;ige Kontrolle m&ouml;glicher Rastgebiete mit Angabe des Altersverh&auml;ltnisses wertvolle Zusatzinformationen zur Anzahl der insgesamt im Gebiet rastenden V&ouml;gel liefert. Auch die Kenntnis der Laut&auml;u&szlig;erungen kann daher hilfreich sein. Beim Abfliegen wird h&auml;ufig ein trillerndes, f&uuml;r eine Limikole unerwartet tief-melancholisches &bdquo;pj&uuml;rrr&ldquo; (</span><a href="http://www.xeno-canto.org/species/Charadrius-morinellus" style="color: rgb(9, 9, 9); font-size: 0.75rem; letter-spacing: 0px;" target="_blank">www.xeno-canto.org/species/Charadrius-morinellus</a><span style="font-size: 0.75rem; letter-spacing: 0px;">)&nbsp; ge&auml;u&szlig;ert. Mornellregenpfeifer rasten meist in artreinen Trupps, nur selten gemeinsam mit anderen Limikolen (z.B. Goldregenpfeifern). Im Rastgebiet verhalten sie sich in der Regel recht vertraut und verharren selbst auf wenige Meter Abstand. Besonders gr&ouml;&szlig;ere Trupps sind aber mitunter scheu und fliegen schon bei geringen St&ouml;rungen auf.&nbsp;</span><span style="font-weight: 600; font-size: 0.75rem; letter-spacing: 0px;">Wir m&ouml;chten deshalb noch einmal ausdr&uuml;cklich darauf hinweisen, dass jegliche St&ouml;rungen zu vermeiden sind und der allgemeine&nbsp;<a href="http://www.ornitho.de/index.php?m_id=1115&amp;item=8" style="color: rgb(9, 9, 9);" target="_blank">Verhaltenskodex</a>&nbsp;unbedingt zu beachten ist!</span></p>
+<p style="font-size: 12px; letter-spacing: normal;">
+	Bei der Meldung von Mornellregenpfeifern bitten wir um m&ouml;glichst detaillierte Informationen zu:</p>
+<ul>
+	<li>
+		Beobachtungsort (bitte immer punktgenau eingeben)</li>
+	<li>
+		Uhrzeit (im Datumsfeld, z.B. 18.08.2025 15:00)</li>
+	<li>
+		Alter der V&ouml;gel (Bestimmungshilfe [&nbsp;<a href="https://cdnfiles2.biolovision.net/www.ornitho.de/userfiles/news/pdf/BestimmungshilfeMornellregenpfeifer.pdf" style="color: rgb(9, 9, 9);" target="_blank">PDF</a>&nbsp;])</li>
+	<li>
+		Rasthabitat</li>
+	<li>
+		rastend oder ziehend (unter &quot;Pr&auml;zisierung der Beobachtung&quot;)</li>
+	<li>
+		<span style="font-weight: 600;">Bitte auch Negativkontrollen melden!</span><br />
+		Wenn geeignet erscheinende oder in den vergangenen Jahren von Mornells aufgesuchte Fl&auml;chen kontrolliert, aber keine V&ouml;gel gefunden wurden, bitte einen Bestand = 0 eintragen. F&uuml;r die Interpretation der Verbreitungskarte und die Datenauswertung sind 0-Nachweise eine wichtige Information. Bitte geben Sie dabei den groben Zeitaufwand im Bemerkungsfeld an.</li>
+</ul>
+<p style="font-size: 12px; letter-spacing: normal;">
+	Gerne k&ouml;nnen Sie weitere Angaben (z.B. zum Verhalten) im Bemerkungsfeld machen oder Fotos der V&ouml;gel anf&uuml;gen.<br />
+	<span style="font-size: 0.75rem; letter-spacing: 0px;">Eine Bestimmungshilfe mit zahlreichen Fotos und Erl&auml;uterungen sowie hilfreicher Literatur bietet das folgende [&nbsp;</span><a href="https://cdnfiles2.biolovision.net/www.ornitho.de/userfiles/news/pdf/BestimmungshilfeMornellregenpfeifer.pdf" style="color: rgb(9, 9, 9); font-size: 0.75rem; letter-spacing: 0px;" target="_blank">PDF</a><span style="font-size: 0.75rem; letter-spacing: 0px;">&nbsp;].</span></p>
+<p style="font-size: 12px; letter-spacing: normal;">
+	Vielen Dank f&uuml;r Ihre Unterst&uuml;tzung!<br />
+	<span style="font-size: 0.75rem; letter-spacing: 0px;">Das Team von&nbsp;</span><em style="font-size: 0.75rem; letter-spacing: 0px;">ornitho.de&nbsp;</em><span style="font-size: 0.75rem; letter-spacing: 0px;">und&nbsp;</span><em style="font-size: 0.75rem; letter-spacing: 0px;">ornitho.lu</em><br />
+	&nbsp;</p>
+<p style="font-size: 12px; letter-spacing: normal;">
+	Foto: ornitho.de/T. Rothe, 4.9.2024.</p>
+<p align="center"><img alt="" border="0" src="https://cdnfiles2.biolovision.net/www.ornitho.de/pdffiles/news/MornellTRothe-6631.jpg"/></p>            </div>
+        <div class="bodytextsmall" style="text-align:right">posted by Christopher König</div>
+<div class="box_empty"></div><div style="clear:both;margin-top:10px;"/></div>            <div id="divboxN587_head" class="boxTitle" style="cursor:pointer;height:100%;padding:5px;margin:0px;">
+            <a name="FN587"></a><img style="float:left;padding-top:2px;padding-right:5px;" id="divboxN587_img" border="0" src="https://cdnfiles1.biolovision.net/common/images/ar_down.gif"/>&nbsp;<div style="float:left"><b>Tuesday, July 1st, 2025</b></div><div style="float:right;font-weight:normal;width:80px;text-align:center;font-size:10px;margin:-5px;padding:5px;color:white;background-color:#ffcc66;"><div style="float:right">tipnews</div></div><div style="clear:both"></div>            </div>
+             <script>
+            //<![CDATA[
+            $("#divboxN587_head").click(function()
+            {
+                if ($("#divboxN587").is(":hidden"))
+                {
+                    $("#divboxN587_img").attr("src", "https://cdnfiles1.biolovision.net/common/images/ar_down.gif")
+                    $("#divboxN587").slideDown();
+                }
+                else
+                {
+                    $("#divboxN587").slideUp(function() {$("#divboxN587_img").attr("src", "https://cdnfiles1.biolovision.net/common/images/ar_right.gif")});
+                }
+            });
+            // ]]>
+            </script>
+            <div class="draw_box_title" style="padding:5px;margin:0px;"><a name="FN587"></a>Take part in the summer goose census in North Rhine-Westphalia and Lower Saxony/Bremen 12/13 July 2025!</div>            <div style="padding:5px;margin:0px;" class="box_light" id="divboxN587">
+            <p>
+	Im Juli 2025 findet in Nordrhein-Westfalen und Niedersachsen/Bremen eine landesweite Sommer-G&auml;nsez&auml;hlung statt, in NRW bereits zum 15. Mal, in Niedersachsen/Bremen ist es die 8. Z&auml;hlung dieser Art. Ziel ist es, landesweite Angaben zu Bestandsgr&ouml;&szlig;en und zur Verbreitung der G&auml;nse im Sommer zu bekommen sowie in m&ouml;glichst vielen Gebieten den Bruterfolg zu ermitteln. In Niedersachsen wird die Erfassung von der Staatlichen Vogelschutzwarte und der Nieders&auml;chsischen Ornithologischen Vereinigung (NOV) koordiniert, in NRW von der AG G&auml;nse der Nordrhein-Westf&auml;lischen Ornithologen-Gesellschaft (NWO) (Kontaktdaten weiter unten). Alle G&auml;nse, Halbg&auml;nse sowie alle anwesenden Schwanenarten sollen erfasst werden.</p>
+<p>
+	<strong>Wann wird gez&auml;hlt?</strong><br />
+	Die Sommer-G&auml;nsez&auml;hlung findet in beiden Bundesl&auml;ndern am Wochenende 12./13. Juli statt. Wer am Wochenende keine Zeit hat: Z&auml;hlungen von Freitag bis Montag werden in die Auswertungen mit einbezogen. Alternative L&ouml;sungen gerne in Absprache mit den Koordinatoren!</p>
+<p>
+	<strong>Wie wird gez&auml;hlt?</strong><br />
+	Bei der Sommer-G&auml;nsez&auml;hlung wird das Standard-Artenspektrum der &quot;G&auml;nse- und Schwanenz&auml;hlung&quot; erfasst, d.h. alle G&auml;nse und Halbg&auml;nse (Nilgans, Rostgans, Brandgans) sowie Schw&auml;ne (&uuml;berwiegend H&ouml;ckerschwan, vereinzelt auch die anderen Arten). Die Z&auml;hlungen sollten zwischen 9 und 18 Uhr durchgef&uuml;hrt werden, da sich zumindest G&auml;nse um diese Tageszeit &uuml;berwiegend an Gew&auml;ssern konzentrieren und sich dort leichter z&auml;hlen lassen. Schw&auml;ne werden einfach w&auml;hrend der G&auml;nsez&auml;hlung miterfasst.&nbsp;<strong>Bitte melden Sie unbedingt auch NULLZ&Auml;HLUNGEN</strong>&nbsp;(Hinweise s.u.)!&nbsp;</p>
+<p>
+	<strong>Wichtig bei der Unterscheidung der Altersklassen:</strong>&nbsp;Alt- und Jungv&ouml;gel (eventuell Pulli) sollen individuell ausgez&auml;hlt werden, s. unten. F&uuml;r weitere Einzelheiten ist ein&nbsp;Leitfaden verf&uuml;gbar auf den Projektseiten des <a href="https://www.nlwkn.niedersachsen.de/startseite/naturschutz/staatliche_vogelschutzwarte/aktuelles_zu_vogelarten/monitoring_von_gastvogeln/sommer_gansezahlung/7-niedersaechsische-sommer-gaensezaehlung-2024-233050.html" target="_blank">NLWKN</a>&nbsp;und der <a href="https://www.nw-ornithologen.de/images/textfiles/monitoring_downloads/Sommergaense_Leitfaden.pdf" target="_blank">NWO</a>&nbsp;sowie eine Bestimmungshilfe von Jung- und Altv&ouml;geln beim <a href="https://austausch.dda-web.de/s/8RxMngsL7eADkB4" target="_blank">DDA</a>. Letztere zeigt anhand von Fotos, welche Merkmale zur Altersbestimmung genutzt werden k&ouml;nnen, die zu dieser Jahreszeit noch gut machbar ist.</p>
+<p>
+	<strong>Wie werden die Daten &uuml;bermittelt?</strong></p>
+<ul>
+	<li>
+		TeilnehmerInnen der Wasservogelz&auml;hlung (WVZ) bzw. G&auml;nsez&auml;hlung benutzen bitte &ndash; sofern f&uuml;r Ihr Z&auml;hlgebiet verf&uuml;gbar &ndash; die Module in <em>NaturaList</em>&nbsp;oder <em>ornitho.de</em>&nbsp;zur Eingabe: &bdquo;Wasservogelz&auml;hlung&ldquo; bzw. &bdquo;Rastende G&auml;nse und Schw&auml;ne (Feldz&auml;hlung)&ldquo;. Beachten Sie allerdings, dass bei einer WVZ dann auch tats&auml;chlich&nbsp;<u>alle</u>&nbsp;Wasservogelarten erfasst werden sollen!</li>
+	<li>
+		Au&szlig;erhalb der Z&auml;hlgebietskulisse (oder wenn ihr Z&auml;hlgebiet noch nicht in ornitho.de enthalten ist oder Sie nicht alle Wasservogelarten erfassen m&ouml;chten) melden Sie Ihre Z&auml;hlergebnisse bitte &bdquo;ganz normal&ldquo; als Einzelbeobachtungen &uuml;ber&nbsp;<em>NaturaList</em> oder <em>ornitho.de.</em> Bei Nullz&auml;hlungen tragen Sie einfach Graugans mit Bestand = 0 ein. Damit wird bei der Auswertung klar, dass ein Gebiet aufgesucht, aber keine relevanten Arten angetroffen wurden.</li>
+</ul>
+<p style="margin-left:36.0pt;">
+	<strong>Wichtig: </strong>Bei der Eingabe von Einzelbeobachtungen &uuml;ber <em>NaturaList</em>, das Erfassungsprojekt bitte &uuml;ber den Button &bdquo;Erf.projekt&ldquo; zuordnen; in der Eingabemaske in&nbsp;<em>ornitho.de</em>&nbsp;unter &bdquo;Weitere Informationen&ldquo; &uuml;ber den Projekt-Code &bdquo;SoGaNRW/NI-25&ldquo;. Mit der Projektkennung lassen sich die Daten sp&auml;ter bei der Auswertung einfacher zuordnen.</p>
+<ul>
+	<li>
+		Bei der Z&auml;hlung sollten die Altersklassen m&ouml;glichst detailliert erfasst werden, also adulte Tiere, K1 f&uuml;r fl&uuml;gge Jungv&ouml;gel und Pulli f&uuml;r nicht-fl&uuml;gge Jungv&ouml;gel. Es ist kein Problem, wenn das nur bei einem Teil des Trupps klappt! Wichtig ist aber, <u>dass alle Altersklassen, die festgestellt wurden, eingetragen werden</u>. Beispiel: Unter 100 Graug&auml;nsen wurden 20 fl&uuml;gge Jungv&ouml;gel und 40 Altv&ouml;gel differenziert. Sie geben dann als Gesamtzahl 100 und unter den Detailangaben 40x adult und 20x 1. KJ / diesj&auml;hrig an.</li>
+	<li>
+		Weitere hilfreiche Informationen zur Verwendung der App finden Sie unter&nbsp;<a href="https://www.ornitho.de/index.php?m_id=20033">http://www.ornitho.de/index.php?m_id=20033</a>.</li>
+</ul>
+<p style="margin-left:18.0pt;">
+	Nat&uuml;rlich ist auch der Meldeweg &uuml;ber einen Z&auml;hlbogen m&ouml;glich (s. dazu die oben erw&auml;hnten Projektseiten).</p>
+<p>
+	<strong>Wie kann ich mitmachen?</strong><br />
+	Wer Interesse an einer Mitarbeit hat und in den letzten Jahren noch nicht an der Z&auml;hlung teilgenommen hat, m&ouml;ge sich in&nbsp;<strong>NRW</strong>&nbsp;bitte vorab bei Kees Koffijberg von der NWO (<a href="mailto:mailto:kees.koffijberg@t-online.de?subject=ornitho.de%3A%20Sommer-G%C3%A4nsez%C3%A4hlung%202024">kees.koffijberg@t-online.de</a>) melden, so dass Doppelerfassungen m&ouml;glichst vermieden werden. F&uuml;r&nbsp;<strong>Niedersachsen</strong>&nbsp;ist der Ansprechpartner Dr. Markus Nipkow von der Staatlichen Vogelschutzwarte (<a href="mailto:markus.nipkow@nlwkn.niedersachsen.de?subject=ornitho.de%3A%20Sommer-G%C3%A4nsez%C3%A4hlung%202024">markus.nipkow@nlwkn.niedersachsen.de</a>).</p>
+<p>
+	Herzlichen Dank f&uuml;r Ihre Unterst&uuml;tzung!</p>
+<p>
+	Kees Koffijberg, Markus Nipkow und das Team von&nbsp;<em>ornitho.de</em></p>
+<p>
+	&nbsp;</p>
+<p>
+	Foto Kanadag&auml;nse: K. Koffijberg</p>
+<p>
+	<br type="_moz" />
+	<br />
+	&nbsp;</p>
+<p align="center"><img alt="" border="0" src="https://cdnfiles2.biolovision.net/www.ornitho.de/pdffiles/news/KoffijbergKanadagaense-9228.jpg"/></p>            </div>
+        <div class="bodytextsmall" style="text-align:right">posted by Johannes Wahl</div>
+<div class="box_empty"></div><div style="clear:both;margin-top:10px;"/></div>            <div id="divboxN586_head" class="boxTitle" style="cursor:pointer;height:100%;padding:5px;margin:0px;">
+            <a name="FN586"></a><img style="float:left;padding-top:2px;padding-right:5px;" id="divboxN586_img" border="0" src="https://cdnfiles1.biolovision.net/common/images/ar_down.gif"/>&nbsp;<div style="float:left"><b>Friday, June 13th, 2025</b></div><div style="float:right;font-weight:normal;width:80px;text-align:center;font-size:10px;margin:-5px;padding:5px;color:white;background-color:#69CD69;"><div style="float:right">avinews</div></div><div style="clear:both"></div>            </div>
+             <script>
+            //<![CDATA[
+            $("#divboxN586_head").click(function()
+            {
+                if ($("#divboxN586").is(":hidden"))
+                {
+                    $("#divboxN586_img").attr("src", "https://cdnfiles1.biolovision.net/common/images/ar_down.gif")
+                    $("#divboxN586").slideDown();
+                }
+                else
+                {
+                    $("#divboxN586").slideUp(function() {$("#divboxN586_img").attr("src", "https://cdnfiles1.biolovision.net/common/images/ar_right.gif")});
+                }
+            });
+            // ]]>
+            </script>
+            <div class="draw_box_title" style="padding:5px;margin:0px;"><a name="FN586"></a>Gratulacje – 10 years ornitho.pl</div>            <div style="padding:5px;margin:0px;" class="box_light" id="divboxN586">
+            <p>
+	Our neighbouring portal <a href="https://www.ornitho.pl/" target="_blank"><em>ornitho.pl </em></a>went online 10 years ago - congratulations and thank you for the great work that the <a href="https://otop.org.pl/?lang=en" target="_blank">OTOP - BirdLife Poland</a> team has done: <em>Ornitho.pl </em>has developed into the largest data source for birds in Poland during this time and now includes almost 12 million observations!<br />
+	<br />
+	Incidentally, the secret &quot;heraldic bird&quot; of <em>ornitho.pl </em>is the White-crowned Wheatear: a few days after the launch of the portal - on 12 May 2015 - it was discovered in the village of Winduga near Włocławek. Fascinated, the observer called OTOP, two ornithologists travelled there directly, were able to confirm the bird and reported it on <em>ornitho.pl</em> - the first observation for Poland! The pretty wheatear stayed until 18 May and attracted observers from all over the country and beyond. That&#39;s why a White-crowned Wheatear adorns the shoulder bag that OTOP designed with artist Agnieszka Więckowska to mark the anniversary. It is available from the <a href="https://sklep.otop.org.pl/Torba-bawelniana-Ornitho-pl-z-wizerunkiem-bialorzytki-saharyjskiej-p270" target="_blank">OTOP shop</a> for around 12 euros. The proceeds will be used to support <em>ornitho.pl</em>. If you are interested in purchasing it, you can also contact ornitho@dda-web.de.</p>
+<p align="center"><img alt="" border="0" src="https://cdnfiles2.biolovision.net/www.ornitho.de/pdffiles/news/Torba-bawelniana-Ornitho-pl-z-wizerunkiem-bialorzytki-saharyjskiej9951200-2032-1039.jpg"/></p>            </div>
+        <div class="bodytextsmall" style="text-align:right">posted by Johannes Wahl</div>
+<div class="box_empty"></div><div style="clear:both;margin-top:10px;"/></div>            <div id="divboxN582_head" class="boxTitle" style="cursor:pointer;height:100%;padding:5px;margin:0px;">
+            <a name="FN582"></a><img style="float:left;padding-top:2px;padding-right:5px;" id="divboxN582_img" border="0" src="https://cdnfiles1.biolovision.net/common/images/ar_down.gif"/>&nbsp;<div style="float:left"><b>Wednesday, May 28th, 2025</b></div><div style="float:right;font-weight:normal;width:80px;text-align:center;font-size:10px;margin:-5px;padding:5px;color:white;background-color:#CD6969;"><div style="float:right">technews</div></div><div style="clear:both"></div>            </div>
+             <script>
+            //<![CDATA[
+            $("#divboxN582_head").click(function()
+            {
+                if ($("#divboxN582").is(":hidden"))
+                {
+                    $("#divboxN582_img").attr("src", "https://cdnfiles1.biolovision.net/common/images/ar_down.gif")
+                    $("#divboxN582").slideDown();
+                }
+                else
+                {
+                    $("#divboxN582").slideUp(function() {$("#divboxN582_img").attr("src", "https://cdnfiles1.biolovision.net/common/images/ar_right.gif")});
+                }
+            });
+            // ]]>
+            </script>
+            <div class="draw_box_title" style="padding:5px;margin:0px;"><a name="FN582"></a>Notes on optimising the route recording in NaturaList (Android)</div>            <div style="padding:5px;margin:0px;" class="box_light" id="divboxN582">
+            <p>
+	As part of the data recording for the second Atlas of Breeding Birds in Germany (ADEBAR 2), the use of the &lsquo;tracking function&rsquo; to record routes has increased significantly. This information is very helpful for observers, as it gives them an impression of which areas of the atlas squares have already been sufficiently covered. For the evaluation of the data, however, the route taken is also an important piece of information for estimating population density (distance sampling).</p>
+<p>
+	Unfortunately, in practice it turned out that some tracks were interrupted or only partial sections were recorded. Our developers have invested a lot of time in finding the cause of these problems. The reasons are related to certain (default) settings, which also vary from manufacturer to manufacturer.</p>
+<p>
+	Many manufacturers of Android phones use very strict battery optimisation guidelines. This goes so far that even services that are currently in use are sometimes switched off. This behaviour affects applications that rely on permanent background functions, including GPS tracking. However, these optimisations can be disabled in the smartphone settings. Below you will find device-specific instructions to help you configure your device correctly and keep background services stable.</p>
+<p>
+	We hope that these instructions will help you to save your distance/route more reliably and completely in future.</p>
+<p>
+	<em>Your ornitho.de and ADEBAR 2 team</em></p>
+<p>
+	<strong>Samsung (One UI)</strong></p>
+<ol>
+	<li>
+		<p>
+			Go to the <strong>Settings menu &gt; Battery</strong></p>
+	</li>
+	<li>
+		<p>
+			Click on <strong>Background usage limits</strong></p>
+	</li>
+	<li>
+		<p>
+			Click on <strong>&lsquo;Never automatically put apps in standby&rsquo; </strong>and select the NaturaList app</p>
+	</li>
+</ol>
+<p style="margin-left:18.0pt;">
+	Alternative method: Settings &gt; Apps &gt; NaturaList &gt; Battery and select &lsquo;Not restricted&rsquo;.</p>
+<p>
+	<strong>Xiaomi / Redmi / Poco (MIUI)</strong></p>
+<ol>
+	<li>
+		Go to the <strong>Settings menu &gt; Battery &amp; Performance&nbsp;</strong></li>
+	<li>
+		Click on <strong>Battery usage&nbsp;</strong></li>
+	<li>
+		Disable the option <strong>&quot;Close apps that drain the battery&quot;&nbsp;</strong></li>
+	<li>
+		Switch to the Settings &gt; Apps &gt; <strong>Manage apps menu&nbsp;</strong></li>
+	<li>
+		Click on <strong>&rsquo;Background autostart&lsquo; </strong>and then on <strong>&rsquo;Allow&quot;</strong></li>
+</ol>
+<p>
+	For other manufacturers, proceed in a similar manner (the menus usually have slightly different names) or contact hilfe@ornitho.de with your query.</p>
+<br />
+<p align="center"><img alt="" border="0" src="https://cdnfiles2.biolovision.net/www.ornitho.de/pdffiles/news/Route-7105.png"/></p>            </div>
+        <div class="bodytextsmall" style="text-align:right">posted by Christopher König</div>
+<div class="box_empty"></div><div style="clear:both;margin-top:10px;"/></div>            <div id="divboxN581_head" class="boxTitle" style="cursor:pointer;height:100%;padding:5px;margin:0px;">
+            <a name="FN581"></a><img style="float:left;padding-top:2px;padding-right:5px;" id="divboxN581_img" border="0" src="https://cdnfiles1.biolovision.net/common/images/ar_down.gif"/>&nbsp;<div style="float:left"><b>Saturday, May 24th, 2025</b></div><div style="float:right;font-weight:normal;width:80px;text-align:center;font-size:10px;margin:-5px;padding:5px;color:white;background-color:#69CD69;"><div style="float:right">avinews</div></div><div style="clear:both"></div>            </div>
+             <script>
+            //<![CDATA[
+            $("#divboxN581_head").click(function()
+            {
+                if ($("#divboxN581").is(":hidden"))
+                {
+                    $("#divboxN581_img").attr("src", "https://cdnfiles1.biolovision.net/common/images/ar_down.gif")
+                    $("#divboxN581").slideDown();
+                }
+                else
+                {
+                    $("#divboxN581").slideUp(function() {$("#divboxN581_img").attr("src", "https://cdnfiles1.biolovision.net/common/images/ar_right.gif")});
+                }
+            });
+            // ]]>
+            </script>
+            <div class="draw_box_title" style="padding:5px;margin:0px;"><a name="FN581"></a>Observation tip: Looking out for moulting waterbirds (now Greylag Geese)</div>            <div style="padding:5px;margin:0px;" class="box_light" id="divboxN581">
+            <p>
+	Falls Sie in den kommenden Tagen und Wochen gr&ouml;&szlig;ere, oft dicht gedr&auml;ngte Ansammlungen von adulten Graug&auml;nsen mit einem auff&auml;lligen wei&szlig;en &quot;Heck&quot; sehen (s. Foto): Es handelt sich um Graug&auml;nse in der Schwingenmauser. Die Informationen &uuml;ber die Mausergebiete und den Bestand mausernder Wasserv&ouml;gel sind in weiten Teilen Deutschlands noch l&uuml;ckenhaft. Wir w&uuml;rden uns deshalb sehr freuen, wenn Sie alle diesbez&uuml;glichen Beobachtungen melden und vielleicht sogar ihre Exkursionsziele entsprechend w&auml;hlen w&uuml;rden. Bitte versehen Sie die Meldungen mit der Zusatzangabe &quot;Mauserplatz&quot; unter &quot;Weitere Details&quot; in <em>NaturaList </em>bzw. unter &quot;Pr&auml;zisierung der Beobachtung&quot; auf <em>ornitho.de</em>. Und versuchen Sie mindestens eine Sch&auml;tzung der Anzahl anwesender V&ouml;gel. <em>Detailliertere Hinweise zur Meldung von Mauseransammlungen finden Sie am Ende der Nachricht.</em></p>
+<p>
+	Die Graugans beginnt als erste Wasservogelarten mit der Gro&szlig;gefiedermauser. Bereits Mitte Mai k&ouml;nnen erste flugunf&auml;hige Tiere beobachtet werden, um den Monatswechsel Mai/Juni haben die meisten V&ouml;gel mit der Schwingenmauser begonnen und in der ersten Juni-H&auml;lfte sind nahezu alle Graug&auml;nse flugunf&auml;hig. In den kommenden 2-3 Wochen ist somit der optimale Zeitpunkt, an geeigneten Gew&auml;ssern mausernde Graug&auml;nse zu erfassen.</p>
+<p>
+	Nach den Graug&auml;nsen folgen ab Mitte Juni Kanadagans, Stock- und Kn&auml;kente bei der Schwingenmauser, ab Juli dann die H&ouml;ckerschw&auml;ne, die &uuml;brigen Tauch- und Gr&uuml;ndelenten sowie die Lappentaucher.</p>
+<p>
+	<strong>Schwingenmauser bei Wasserv&ouml;geln - eine besonders sensible Phase im Jahresverlauf</strong><br />
+	Wasserv&ouml;gel erneuern wie die meisten Vogelarten allj&auml;hrlich ihre Schwungfedern. W&auml;hrend die meisten anderen Arten dabei stets flugf&auml;hig bleiben, werfen Schw&auml;ne, G&auml;nse, Enten, Taucher und Rallen alle Hand- und Armschwingen simultan ab. F&uuml;r drei bis f&uuml;nf Wochen sind sie flugunf&auml;hig, bis die neuen Schwingen nachgewachsen sind. Deshalb sind sie in dieser Zeit sehr scheu und auf nahrungsreiche, st&ouml;rungsarme Gew&auml;sser angewiesen. Viele Individuen suchen allj&auml;hrlich dieselben Gew&auml;sser auf, deren Einzugsgebiete mehr als tausend Kilometer umfassen k&ouml;nnen. Den Mausergebieten kommt aus Naturschutzsicht auch deshalb eine besondere Bedeutung zu, weil die Mauser der meisten Wasservogelarten im Anschluss an die Brutzeit im Hoch- und Sp&auml;tsommer stattfindet und damit in die Zeit des h&ouml;chsten Freizeitdrucks f&auml;llt. Mausergebiete ben&ouml;tigen einen besonders strengen Schutz, da sie von &uuml;berlebenswichtiger Bedeutung im Jahreszyklus von Wasserv&ouml;geln sind. Zu den international herausragenden Mausergebieten in Deutschland z&auml;hlen die schleswig-holsteinische Westk&uuml;ste (Graugans, Brandgans, Eider- und Trauerente), die ostholsteinische Seenplatte (Graugans, Schnatter-, Tafel-, Reiher- und Schellente), die Pommersche Bucht in der Ostsee (Trauerente) sowie der Ismaninger Speichersee mit Fischteichen bei M&uuml;nchen (Schnatter-, Tafel-, Reiher- und Kolbenente).</p>
+<p>
+	Bereits in den vergangenen Jahren hatten wir dazu aufgerufen, gezielt auf Mausertrupps zu achten und diese &uuml;ber <em>ornitho.de</em> zu melden. Die systematische Sammlung der Informationen brachte bereits wichtige neue Erkenntnisse und verdeutlichte die wachsende Bedeutung von <em>ornitho.de</em> als erg&auml;nzende Informationsquelle f&uuml;r das bundesweite Vogelmonitoring und naturschutzfachliche Fragestellungen.</p>
+<p>
+	<em>Wir w&uuml;nschen viele spannende Entdeckungen!</em></p>
+<p>
+	<strong>Tipps zur Erfassung mausernder Graug&auml;nse</strong></p>
+<ul>
+	<li>
+		Auff&auml;lliges Kennzeichnen mausernder Graug&auml;nse ist ihr wei&szlig;es &bdquo;Heck&ldquo;, da die wei&szlig;en Oberschwanzdecken nicht durch die Handschwingen verdeckt sind. Die Mausergruppen fallen zudem dadurch auf, dass sie dicht gedr&auml;ngt schwimmen und sich meist in Ufern&auml;he aufhalten (s. Foto).</li>
+	<li>
+		Die Mausergew&auml;sser weisen fast immer Inseln auf, die tags&uuml;ber Deckung bieten. Schwungfedern am Ufer sowie von der Wasserseite aus abgefressenes Jungschilf sind deutliche Hinweise auf mausernde Graug&auml;nse.</li>
+	<li>
+		Die beste Erfassungszeit ist abends ab 30 min. vor Sonnenuntergang, da die G&auml;nse in vielen Gebieten oft erst dann ans Ufer kommen, um dort zu fressen.</li>
+	<li>
+		&Uuml;brigens: Familien halten sich meist abseits der in der Regel aus Nichtbr&uuml;tern oder erfolglosen Brutv&ouml;geln bestehenden Mausergruppen auf. Erfolgreiche Altv&ouml;gel mausern w&auml;hrend der Jungenaufzucht das Gro&szlig;gefieder.</li>
+</ul>
+<p>
+	<em><strong>Eintragung von mausernden Wasserv&ouml;geln in ornitho:</strong></em><br />
+	Bitte beachten Sie bei der Meldung in&nbsp;<em>ornitho.de </em>Folgendes:</p>
+<ul>
+	<li>
+		Kennzeichnen Sie Beobachtungen Schwingen mausernder Wasserv&ouml;gel unter &bdquo;<strong>Pr&auml;zisierung der Beobachtung&ldquo;</strong> bzw. <strong>in <em>NaturaList</em> unter &quot;Weitere Details&quot; </strong>durch Auswahl der<strong> </strong>Kategorie<strong> &bdquo;Mauserplatz&ldquo;</strong>. Die entsprechenden Daten k&ouml;nnen dann f&uuml;r Auswertungen sehr einfach selektiert werden. Bitte tragen Sie aber &bdquo;Mauserplatz&ldquo; nur dann ein, wenn Sie entsprechende Merkmale erkannt haben (z.B. durch Fl&uuml;gel schlagende Ind.). Gro&szlig;e Ansammlungen zur Mauserzeit einer Art reichen als Nachweis noch nicht aus.</li>
+	<li>
+		In der Regel l&auml;sst sich nicht ermitteln, wie viele Individuen einer Ansammlung mausern. Tragen Sie deshalb bitte immer die gez&auml;hlte Gesamtsumme ein und machen ggf. entsprechende Bemerkungen.</li>
+	<li>
+		<strong>Familien</strong>, die sich oft getrennt von den Mausergruppen aufhalten (z.B. bei G&auml;nsen), tragen Sie <strong>bitte separat</strong> ein und versehen diese mit speziellen Hinweisen und Brutzeitcodes. Das erleichtert die Auswertung.</li>
+	<li>
+		F&uuml;r die Interpretation ist es sehr hilfreich, wenn Sie zus&auml;tzlich Hinweise im Bemerkungsfeld geben, z.B. zum Verhalten, zum Anteil in Schwingenmauser befindlicher V&ouml;gel etc.</li>
+	<li>
+		Falls Sie die Bef&uuml;rchtung haben, dass der Mauserplatz durch Ihre Meldung gest&ouml;rt werden k&ouml;nnte, sch&uuml;tzen Sie diese. Die Meldung kann dann nur von ArtspezialistInnen und RegionalkoordinatorInnen eingesehen werden.</li>
+</ul>
+<p>
+	&nbsp;</p>
+<p>
+	Foto: T. Heinicke</p><p align="center"><img alt="" border="0" src="https://cdnfiles2.biolovision.net/www.ornitho.de/pdffiles/news/Graugaense-mausernd-THeinicke-2721-6647-3658-1105-5715.jpg"/></p>            </div>
+        <div class="bodytextsmall" style="text-align:right">posted by Johannes Wahl</div>
+<div class="box_empty"></div><div style="clear:both;margin-top:10px;"/></div>            <div id="divboxN575_head" class="boxTitle" style="cursor:pointer;height:100%;padding:5px;margin:0px;">
+            <a name="FN575"></a><img style="float:left;padding-top:2px;padding-right:5px;" id="divboxN575_img" border="0" src="https://cdnfiles1.biolovision.net/common/images/ar_down.gif"/>&nbsp;<div style="float:left"><b>Thursday, March 20th, 2025</b></div><div style="float:right;font-weight:normal;width:80px;text-align:center;font-size:10px;margin:-5px;padding:5px;color:white;background-color:#ffcc66;"><div style="float:right">tipnews</div></div><div style="clear:both"></div>            </div>
+             <script>
+            //<![CDATA[
+            $("#divboxN575_head").click(function()
+            {
+                if ($("#divboxN575").is(":hidden"))
+                {
+                    $("#divboxN575_img").attr("src", "https://cdnfiles1.biolovision.net/common/images/ar_down.gif")
+                    $("#divboxN575").slideDown();
+                }
+                else
+                {
+                    $("#divboxN575").slideUp(function() {$("#divboxN575_img").attr("src", "https://cdnfiles1.biolovision.net/common/images/ar_right.gif")});
+                }
+            });
+            // ]]>
+            </script>
+            <div class="draw_box_title" style="padding:5px;margin:0px;"><a name="FN575"></a>ADEBAR takes off! - Online kick-off meeting for the National Breeding Bird Atlas ADEBAR </div>            <div style="padding:5px;margin:0px;" class="box_light" id="divboxN575">
+            <p>
+	Am Samstag, dem 29.03. von 11:00 bis 14:00 Uhr, m&ouml;chten wir mit Ihnen den Auftakt unseres Gemeinschaftsprojekts ADEBAR 2 feiern. Dazu laden wir Sie zu einem <a href="https://www.dda-web.de/aktuelles/meldungen/einladung-zur-ersten-adebar-runde" target="_blank">spannenden Programm mit Gru&szlig;worten und vier kurzweiligen Vortr&auml;gen</a> ein. Die Vortr&auml;ge dienen dazu, Sie f&uuml;r die Kartierungen einzustimmen, ein vorl&auml;ufiges Res&uuml;mee bereits durchgef&uuml;hrter Kartierungen und der gestarteten Saison zu ziehen sowie den ersten Erfahrungsberichten zu lauschen.</p>
+<p>
+	<span style="font-size: 0.75rem; letter-spacing: 0px;">Nach einer offiziellen Begr&uuml;&szlig;ung durch den Projekttr&auml;ger und die F&ouml;rderer von ADEBAR 2 freuen wir uns besonders, Johanna Romberg als Gastrednerin begr&uuml;&szlig;en zu k&ouml;nnen. Die Journalistin, Autorin, MhB- und jetzt selbstverst&auml;ndlich auch ADEBAR-Kartiererin, ist Ihnen vielleicht durch ihre Mitarbeit bei den &bdquo;Flugbegleitern&ldquo; der <em>Riffreporter </em>oder durch ihr Buch &bdquo;Federnlesen &ndash; vom Gl&uuml;ck, V&ouml;gel zu beobachten&ldquo; (2018) bekannt. In ihrem Vortrag: &bdquo;Im Fr&uuml;htau zum Feldschwirl - Was Vogelz&auml;hlen zum Abenteuer macht&ldquo; schildert sie die Freude und Herausforderungen von Vogelkartierungen und nimmt uns auf ihre ersten ADEBAR-Begehungen mit.</span></p>
+<p>
+	<span style="font-size: 0.75rem; letter-spacing: 0px;">Neben dem aktuellen Stand zu Methode und Technik rund um die Kartierungen, die der fachliche Projektkoordinator Jonas Br&uuml;ggeshemke pr&auml;sentiert, freuen wir uns auf die ersten Erfahrungsberichte aus Hessen von Fabian Hirschauer und Stefan St&uuml;bing sowie auf Markus Ritz &amp; Winfried Nachtigall, die von den bereits erfolgten erfolgreichen Brutvogelkartierungen in Sachsen berichten.</span></p>
+<p>
+	<span style="font-size: 0.75rem; letter-spacing: 0px;">Im Anschluss an die Redebeitr&auml;ge wird in moderierten Kleingruppen eine ADEBAR-Sprechstunde angeboten.</span></p>
+<p>
+	Die Veranstaltung wird live auf unserem YouTube-Kanal &uuml;bertragen (ohne Sprechstunde):&nbsp;<a href="https://www.youtube.com/@ddae.v.56" style="font-size: 0.75rem; letter-spacing: 0px;" target="_blank">https://www.youtube.com/@ddae.v.56</a><br />
+	<span style="font-size: 0.75rem; letter-spacing: 0px;">Eine Voranmeldung ist nicht n&ouml;tig.</span></p>
+<p align="center"><img alt="" border="0" src="https://cdnfiles2.biolovision.net/www.ornitho.de/pdffiles/news/ADEBAR_Runde_Programm1-7855.jpg"/></p>            </div>
+        <div class="bodytextsmall" style="text-align:right">posted by Christopher König</div>
+<div class="box_empty"></div><div style="clear:both;margin-top:10px;"/></div>            <div id="divboxN574_head" class="boxTitle" style="cursor:pointer;height:100%;padding:5px;margin:0px;">
+            <a name="FN574"></a><img style="float:left;padding-top:2px;padding-right:5px;" id="divboxN574_img" border="0" src="https://cdnfiles1.biolovision.net/common/images/ar_down.gif"/>&nbsp;<div style="float:left"><b>Tuesday, March 18th, 2025</b></div><div style="float:right;font-weight:normal;width:80px;text-align:center;font-size:10px;margin:-5px;padding:5px;color:white;background-color:#CD6969;"><div style="float:right">technews</div></div><div style="clear:both"></div>            </div>
+             <script>
+            //<![CDATA[
+            $("#divboxN574_head").click(function()
+            {
+                if ($("#divboxN574").is(":hidden"))
+                {
+                    $("#divboxN574_img").attr("src", "https://cdnfiles1.biolovision.net/common/images/ar_down.gif")
+                    $("#divboxN574").slideDown();
+                }
+                else
+                {
+                    $("#divboxN574").slideUp(function() {$("#divboxN574_img").attr("src", "https://cdnfiles1.biolovision.net/common/images/ar_right.gif")});
+                }
+            });
+            // ]]>
+            </script>
+            <div class="draw_box_title" style="padding:5px;margin:0px;"><a name="FN574"></a>Note on last week's technical issues (and solutions)</div>            <div style="padding:5px;margin:0px;" class="box_light" id="divboxN574">
+            <p>
+	In the first two weeks of March, <i>ornitho.de</i> received almost 700,000 observations. This represents an increase of almost 20% over the same period last year, which is not least due to the successful launch of the ADEBAR project. At the same time, many bird monitoring programmes are starting the new season.</p>
+<p>
+	As you know, you can&#39;t make an omelette without breaking eggs. The sunny start to the breeding season, coupled with updates, led to a few glitches, for which we apologise. At times, it took hours for observations transferred from the <i>NaturaList</i> app to become visible on the portal. The website sometimes ran so slowly that data entry was almost impossible. Finally, at the weekend, numerous observations were not assigned to a detailed location, but only to a central point in the municipality. The latter meant that data from observation lists were sometimes too far away from the reference point and were automatically marked as such.</p>
+<p>
+	The problems with the transfer and the speed of the portal have now been fixed. <i>Ornitho.de</i> is running smoothly again and data reported via the app are usually available on the portal within a short time. The problem of incorrect location assignment was also fixed after a few hours. The data that was only assigned to the centre of a municipality (technically as a kind of emergency anchor) due to the error will be corrected automatically in the near future. This also applies to messages that may now be marked with a yellow spanner indicating that &lsquo;the observation is too far away from the reference area of the observation list and should be checked.&rsquo; If you are affected by the problems mentioned, you do not need to take any action. Your point locations are also stored correctly, so there is no loss of information.</p>
+<p>
+	We apologise for any inconvenience and hope you have exciting observations during the spring of 2025!</p>
+            </div>
+        <div class="bodytextsmall" style="text-align:right">posted by Christopher König</div>
+<div class="box_empty"></div><div style="clear:both;margin-top:10px;"/></div>            <div id="divboxN569_head" class="boxTitle" style="cursor:pointer;height:100%;padding:5px;margin:0px;">
+            <a name="FN569"></a><img style="float:left;padding-top:2px;padding-right:5px;" id="divboxN569_img" border="0" src="https://cdnfiles1.biolovision.net/common/images/ar_down.gif"/>&nbsp;<div style="float:left"><b>Monday, February 24th, 2025</b></div><div style="float:right;font-weight:normal;width:80px;text-align:center;font-size:10px;margin:-5px;padding:5px;color:white;background-color:#CD6969;"><div style="float:right">technews</div></div><div style="clear:both"></div>            </div>
+             <script>
+            //<![CDATA[
+            $("#divboxN569_head").click(function()
+            {
+                if ($("#divboxN569").is(":hidden"))
+                {
+                    $("#divboxN569_img").attr("src", "https://cdnfiles1.biolovision.net/common/images/ar_down.gif")
+                    $("#divboxN569").slideDown();
+                }
+                else
+                {
+                    $("#divboxN569").slideUp(function() {$("#divboxN569_img").attr("src", "https://cdnfiles1.biolovision.net/common/images/ar_right.gif")});
+                }
+            });
+            // ]]>
+            </script>
+            <div class="draw_box_title" style="padding:5px;margin:0px;"><a name="FN569"></a>Launch of the ADEBAR dashboard</div>            <div style="padding:5px;margin:0px;" class="box_light" id="divboxN569">
+            <p>
+	The ADEBAR dashboard is now available on the website of the <a href="http://dbird.dda-web.de/" target="_blank">DDA database <em>dbird</em> (dbird.dda-web.de)</a>. Via a personal login area, where you can log in with your Ornitho access data, all those registered via the Participation Portal and those authorised by their coordinators will receive, among other things, a map overview of &lsquo;their&rsquo; TK/4. There you will find a variety of functions that simplify the planning of ADEBAR surveys, promote the exchange with other mappers in TK/4 and provide an overview of ADEBAR surveys already completed and thus also the mapping progress. It also provides information on monitoring activities already underway (MhB, MsB) in your TK/4, thus avoiding duplication of work in the context of ADEBAR mapping. A short video explaining how to use the dashboard can be accessed via the following link: <a href="https://youtu.be/f3dXZ_iOSEg" target="_blank">https://youtu.be/f3dXZ_iOSEg</a></p>
+<p align="center"><img alt="" border="0" src="https://cdnfiles2.biolovision.net/www.ornitho.de/pdffiles/news/Dashboard-5165.png"/></p>            </div>
+        <div class="bodytextsmall" style="text-align:right">posted by Christopher König</div>
+<div class="box_empty"></div><div style="clear:both;margin-top:10px;"/></div>            <div id="divboxN566_head" class="boxTitle" style="cursor:pointer;height:100%;padding:5px;margin:0px;">
+            <a name="FN566"></a><img style="float:left;padding-top:2px;padding-right:5px;" id="divboxN566_img" border="0" src="https://cdnfiles1.biolovision.net/common/images/ar_down.gif"/>&nbsp;<div style="float:left"><b>Friday, January 31st, 2025</b></div><div style="float:right;font-weight:normal;width:80px;text-align:center;font-size:10px;margin:-5px;padding:5px;color:white;background-color:#CD6969;"><div style="float:right">technews</div></div><div style="clear:both"></div>            </div>
+             <script>
+            //<![CDATA[
+            $("#divboxN566_head").click(function()
+            {
+                if ($("#divboxN566").is(":hidden"))
+                {
+                    $("#divboxN566_img").attr("src", "https://cdnfiles1.biolovision.net/common/images/ar_down.gif")
+                    $("#divboxN566").slideDown();
+                }
+                else
+                {
+                    $("#divboxN566").slideUp(function() {$("#divboxN566_img").attr("src", "https://cdnfiles1.biolovision.net/common/images/ar_right.gif")});
+                }
+            });
+            // ]]>
+            </script>
+            <div class="draw_box_title" style="padding:5px;margin:0px;"><a name="FN566"></a>Adjustments for the start of the breeding season: atlas code query and coloured dots</div>            <div style="padding:5px;margin:0px;" class="box_light" id="divboxN566">
+            <div id="cke_pastebin">
+	<span style="font-size: 0.75rem; letter-spacing: 0px;">For a few bird species, such as the Eagle Owl, the breeding season has already begun, and in the next few weeks more and more species will start forming territories and searching for mates. Just in time for the new season, we have made some important adjustments to ornitho.de in order to be able to collect data on breeding bird species even more accurately and purposefully in future.</span></div>
+<div>
+	&nbsp;</div>
+<div id="cke_pastebin">
+	<strong>Adjustments to the query periods for atlas codes</strong></div>
+<div id="cke_pastebin">
+	Atlas codes are among the most important additional information about an observation. They provide information on whether a bird species is possibly, probably or even definitely present as a breeding bird in the area under consideration. They therefore form the basis for visualising the breeding distribution. During the species-specific breeding season, you are automatically asked to enter an atlas code. The periods entered were previously based on the &bdquo;Methodenstandards zur Erfassung der Brutv&ouml;gel Deutschlands&ldquo; from 2005. Since then, there have been many changes in the avian world, so a revised new edition of this standard reference will be published in March 2025.&nbsp;<span style="font-size: 0.75rem; letter-spacing: 0px;">We took this revision and the start of the mapping phase for the second Atlas of German Breeding Birds (ADEBAR 2) as an opportunity to <u>review the query periods for the atlas codes of all species and adjust them where necessary</u>. For many species, the survey period was extended to take better account of second and subsequent broods. For some species, however, the period was also shortened in order to better exclude migration. The new, automatic survey periods apply from 1 February with the aim of maintaining them in the long term.</span></div>
+<div>
+	&nbsp;</div>
+<div id="cke_pastebin">
+	<strong>Colour coding of the species</strong></div>
+<div>
+	<div id="cke_pastebin">
+		Mapping for ADEBAR 2 will begin in spring 2025 in all federal states. In principle, exact numbers can be reported for all bird species, but quantitative information is particularly necessary for the less common and rarer species. These species are now labelled with a yellow dot in front of the species name both on <em>ornitho.de</em> and in the <em>NaturaList</em> app. This labelling is particularly important for mapping as part of the ADEBAR 2 project, but can also provide helpful orientation beyond the atlas project when reporting casual observations in ornitho.de.</div>
+	<div id="cke_pastebin">
+		Therefore, in future, please provide as precise information as possible on the number of individuals observed for each <u>species marked with a yellow dot</u>. This applies to single records as well as to records on observation lists. If it is not possible to provide exact information, the following principle applies: &lsquo;an estimate is better than no information&rsquo;.</div>
+	<div>
+		<u>Important:</u> To activate the new labelling in NaturaList, you need to change the species list in the app settings to the one from ornitho.de (again). Only then will the dots be visible.</div>
+	<div>
+		&nbsp;</div>
+	<div id="cke_pastebin">
+		<strong>Thank you!</strong></div>
+	<div id="cke_pastebin">
+		We would like to thank the Ernst-Commentz-Stiftung for their financial support of the work to adapt and define the new survey periods and the ornitho regional coordinators and the ornitho steering groups for their suggestions and discussions.</div>
+	<div id="cke_pastebin">
+		The colour coding of species is now also available in the iPhone version of NaturaList thanks to a grant from the Swiss Ornithological Institute.&nbsp;</div>
+	<div>
+		&nbsp;</div>
+	<div id="cke_pastebin">
+		Photo White-tailed Eagle: A. Heiland</div>
+</div>
+<p align="center"><img alt="" border="0" src="https://cdnfiles2.biolovision.net/www.ornitho.de/pdffiles/news/SeeadlerAHeiland-2885.jpg"/></p>            </div>
+        <div class="bodytextsmall" style="text-align:right">posted by Christopher König</div>
+<div class="box_empty"></div><div style="clear:both;margin-top:10px;"/></div>    </div>
+    <div style="margin:5px;">
+   		<div class="aeMPContainer">
+			<div class="aeMPButtons aeMPItem"><div class="aeMPButtonActive">1</div><div class="aeMPButton" onclick="location.href='https://www.ornitho.de/index.php?m_id=1164&amp;mp_item_per_page=10&amp;mp_current_page=2'">2</div><div class="aeMPButton" onclick="location.href='https://www.ornitho.de/index.php?m_id=1164&amp;mp_item_per_page=10&amp;mp_current_page=3'">3</div><div class="aeMPButton" onclick="location.href='https://www.ornitho.de/index.php?m_id=1164&amp;mp_item_per_page=10&amp;mp_current_page=4'">4</div><div class="aeMPButton" onclick="location.href='https://www.ornitho.de/index.php?m_id=1164&amp;mp_item_per_page=10&amp;mp_current_page=5'">5</div><div class="aeMPButton" onclick="location.href='https://www.ornitho.de/index.php?m_id=1164&amp;mp_item_per_page=10&amp;mp_current_page=6'">6</div><div class="aeMPButton" onclick="location.href='https://www.ornitho.de/index.php?m_id=1164&amp;mp_item_per_page=10&amp;mp_current_page=7'">7</div><div class="aeMPButton" onclick="location.href='https://www.ornitho.de/index.php?m_id=1164&amp;mp_item_per_page=10&amp;mp_current_page=8'">8</div><div class="aeMPButton" onclick="location.href='https://www.ornitho.de/index.php?m_id=1164&amp;mp_item_per_page=10&amp;mp_current_page=9'">9</div><div class="aeMPButtonStep" onclick="location.href='https://www.ornitho.de/index.php?m_id=1164&amp;mp_item_per_page=10&amp;mp_current_page=2'">&gt;</div><div class="aeMPButtonStep" onclick="location.href='https://www.ornitho.de/index.php?m_id=1164&amp;mp_item_per_page=10&amp;mp_current_page=35'">&gt;|</div>					<select class="aeMPSelect" onchange="document.location.href='https://www.ornitho.de/index.php?m_id=1164&amp;mp_item_per_page=10&amp;mp_current_page=' + this.value">
+					<option value="1"  selected="selected">1</option>
+<option value="2" >2</option>
+<option value="3" >3</option>
+<option value="4" >4</option>
+<option value="5" >5</option>
+<option value="6" >6</option>
+<option value="7" >7</option>
+<option value="8" >8</option>
+<option value="9" >9</option>
+<option value="10" >10</option>
+<option value="11" >11</option>
+<option value="20" >20</option>
+<option value="25" >25</option>
+<option value="26" >26</option>
+<option value="27" >27</option>
+<option value="28" >28</option>
+<option value="29" >29</option>
+<option value="30" >30</option>
+<option value="31" >31</option>
+<option value="32" >32</option>
+<option value="33" >33</option>
+<option value="34" >34</option>
+<option value="35" >35</option>
+					</select>
+				</div>            <div class="aeMPItem">n/page : <select class="aeMPSelect" onchange="document.location.href='https://www.ornitho.de/index.php?m_id=1164&amp;mp_item_per_page=' + this.value"><option value="10"  selected="selected">10</option><option value="30" >30</option><option value="50" >50</option>            </select>
+            </div>            <div class="aeMPItem">count            : 342</div>		</div>
+
+		<div class='clearfix'></div>
+
+		    </div></td>
+                        </tr>
+                    </table><!-- footer start here -->
+				</td>
+			</tr>
+		</table>
+	<div style="float:right;height:15px;background-color:#B9BFE1;width:980px;">
+	        <div  class="copyrightline"><a class="alink" href="https://www.biolovision.net">Biolovision S&#224;rl</a> (Switzerland), 2003-2025</div>
+        	</div><div style="clear:both"></div>
+		</div>
+		<!-- end main table -->
+
+	</div>
+
+	</body>
+<!-- footer end here -->
+</html>

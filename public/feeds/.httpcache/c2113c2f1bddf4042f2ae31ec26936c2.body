@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Królestwo Voxlandu, Mikronacja, wirtualne państwo" />
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+        <link rel="stylesheet" href="/css/styles.css?v=2025.09.07.15.29" />
+        <script defer
+            src="https://kit.fontawesome.com/bc503be772.js"
+            crossorigin="anonymous"
+        ></script>
+        <title>
+            Królestwo Voxlandu
+        </title>
+
+                
+                                    
+        <script
+            type="text/javascript"
+            src="https://www.gstatic.com/charts/loader.js"
+        ></script>
+
+         
+    
+
+    <link rel="stylesheet" href="/css/calendar.css?2025.09.07.15.29" />
+
+    <!-- MBP SCRIPT -->
+    <script type="text/javascript">
+        google.charts.load("current", { packages: ["corechart"] });
+        google.charts.setOnLoadCallback(drawMBPChart);
+
+        async function drawMBPChart() {
+            try {
+            // Pobieramy dane JSON przez fetch
+            const response = await fetch("/vox.php");
+            const voxData = await response.json();
+
+            // Zamieniamy obiekt na tablicę [klucz, wartość]
+            const voxDataArray = Object.entries(voxData.dane);
+
+            // Tworzymy DataTable
+            const data = new google.visualization.DataTable();
+            data.addColumn("string", "Data");
+            data.addColumn("number", "Kurs");
+
+            // Dodajemy wiersze
+            voxDataArray.forEach(([key, value]) => {
+                if (value > 0) data.addRow([key, parseFloat(value)]);
+            });
+
+            // Opcje wykresu
+            const options = {
+                chartArea: { left: 30, right: 0, top: 10, bottom: 10 },
+                title: "none",
+                curveType: "function",
+                legend: "none",
+            };
+
+            // Rysujemy wykres
+            const chart = new google.visualization.LineChart(
+                document.getElementById("mbp")
+            );
+            chart.draw(data, options);
+            } catch (error) {
+            console.error("Błąd przy pobieraniu danych:", error);
+            }
+        }
+
+        // Rysowanie wykresu przy zmianie rozmiaru okna
+        window.addEventListener("resize", drawMBPChart);
+    </script>
+
+
+    <!-- WEATHER SCRIPT -->
+    <script type="text/javascript">
+        var temp = document.getElementById('temp');
+
+        //Week days from start date
+        function dayOfTheWeek(Month, day, Year) {
+            const weekday = [
+                "Mondag",
+                "Diensdag",
+                "Mittdag",
+                "Donnersdag",
+                "Freedag",
+                "Samsdag",
+                "Sonnsdag"
+            ];
+            return weekday[new Date('${Month}/${day}/${Year}').getDay()];
+        };
+
+        //Function for fetching data from API
+        function fetchWeatherData() {
+            fetch(`https://api.weatherapi.com/v1/current.json?key=3e4f8dc7e4ca422e9f0191740241903&q=Ottawa`)
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+
+                //Temperature and weather condition
+                temp.innerHTML = data.current.temp_c + "&#176;"
+                conditionOutput.innerHTML = data.current.condition.text;
+
+                //Date with extracted M,d,Y into individual variables
+                const date = data.location.localtime;
+                const Y = parseInt(date.substr(0, 4));
+                const M = parseInt(date.substr(5, 2));
+                const d = parseInt(date.substr(8, 2));
+
+                //Reformating date from original format
+                dateOutput.innerHTML = `${dayOfTheWeek(M, d, Y)} ${M} ${d}. ${Y}`
+
+                //Getting corresponding icon url for the weather and extracting it
+                const iconId = data.current.condition.icon.substr("//cdn.weatherapi.com/weather/64x64/".length);
+
+                //Weather details
+                cloudOutput.innerHTML = data.current.cloud + "%";
+                humidityOutput.innerHTML = data.current.humidity + "%";
+                windOutput.innerHTML = data.current.wind_kph + "km/h";
+
+                //Default time of day
+                let timeOfDay = "day";
+
+                //Unique id for each weather condition
+                const code = data.current.condition.code;
+
+                //Change to night if its night time in the city
+                if(!data.current.is_day) {
+                    timeOfDay = "night";
+                }
+                app.style.opacity = "1";
+                    })
+                }
+    </script>
+
+    </head>
+
+    <body>
+        <div id="sidenav">
+            <div class="logo">
+                <a href="https://gov.voxland.org.pl"
+                    title="Strona główna"
+                    >
+                    <img src="/images/sitelogo.svg"
+                        alt="Logo Królestwa Voxlandu"
+                    />
+                </a>
+            </div>
+
+            <a href="JavaScript:void(0)" title="Zamknij nawigację" class="closebtn" onclick="closeNav()";>
+                <i class="fa-solid fa-xmark"></i>
+            </a>
+
+                        <a
+                href="https://forum.voxland.org.pl/ucp.php?mode=login"
+                target="_blank"
+                class="nav-item"
+            >
+                <i class="fa-solid fa-arrow-right-to-bracket"></i> Zaloguj się
+            </a>
+            
+            <a href="https://forum.voxland.org.pl" class="nav-item">
+                <i class="fa-solid fa-users-line"></i> Forum
+            </a>
+
+            <a href="/monitor/" class="nav-item">
+                <i class="fa-solid fa-file-lines"></i> Monitor Voxlandzki
+            </a>
+        </div>
+
+        <div
+            class="notifications"
+            id="notifications"
+            style="padding: 0; width: 380px"
+        >
+                        <p style="color: var(--gray); padding: 10px; text-align: center">
+                Brak powiadomień
+            </p>
+                    </div>
+
+        <main id="content" role="main">    <!-- HEADER -->
+    <!-- HEADER -->
+<header class="homepage-header">
+    <picture>
+        <!-- WebP -->
+        <source srcset="/images/header/header_autumn_768.webp" media="(max-width: 768px)" type="image/webp">
+        <source srcset="/images/header/header_autumn_1280.webp" media="(max-width: 1280px)" type="image/webp">
+        <source srcset="/images/header/header_autumn_1920.webp" type="image/webp">
+
+        <!-- Fallback img -->
+        <img src="/images/header/header_autumn_1920.webp"
+            alt="Voxland header"
+            width="1920"
+            height="600"
+            fetchpriority="high"
+            decoding="async"
+            style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+    </picture>
+    <span style="display:flex; justify-content:center; align-items:center; width:24px; height:24px; padding:0; margin-left:8px; text-shadow: 1px 1px 2px rgba(0,0,0,0.6); position:relative; cursor:pointer;" onclick="openNav()"><i class="fa-solid fa-bars"></i></span>
+    <div style="max-width: 1110px; width: 100%; height: 100%; display: flex; padding-bottom: 30px; padding-top: 30px; margin: auto; align-items: flex-end; justify-content: flex-start;position:relative;">
+        <div class="homepage-header-text" style="padding: 30px">
+            <h1 class="homepage-header-title" style="padding-top: 0px !important">
+                Willkommen ins Konigreich af Voxland!
+            </h1>
+            <p class="homepage-header-intro">
+                Oficjalna strona Królestwa Voxlandu - sprawdzone i pomocne informacje w jednym miejscu.
+            </p>
+        </div>
+    </div>
+</header>
+    <!-- MAIN CONTAINER -->
+    <main class="main-container">
+        <div class="width-container">
+    
+            <!-- PRESS -->
+    
+            <section class="homepage-section-info"></section>
+                <div class="homepage-section-header">
+                    <h2 class="h-margin-bot-10">Najnowsze wieści z Voxlandu</h2>
+                </div>
+    
+                <div class="row">
+                    <div class="col-12 col-md-8">
+                        <div class="row mb-2">
+                                                            <div class="col-12 col-sm-6 col-lg-6">
+                                    <div class="latest_article_home">
+                                        <a 
+                                            href="/articles/article/13/zrzutka-na-serwer-oraz-domene-krolestwa"
+                                            title="Artykuł Zrzutka na serwer oraz domenę Królestwa"
+                                            >
+                                            <img src="https://kustosz.stempel.org.pl/1148/101005704499831004_t.png" class="latest_img" loading="lazy" alt="Obraz artykułu" />
+                                            <p class="latest_a">Zrzutka na serwer oraz domenę Królestwa</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                                            <div class="col-12 col-sm-6 col-lg-6">
+                                    <div class="latest_article_home">
+                                        <a 
+                                            href="/articles/article/12/komunikat-krolewski-ws-rozwodu-jkw-krzysztofa-i-jkw-sophie"
+                                            title="Artykuł Komunikat Królewski ws. rozwodu JKW Krzysztofa i JKW Sophie"
+                                            >
+                                            <img src="https://kustosz.stempel.org.pl/1148/101005704499824463_t.png" class="latest_img" loading="lazy" alt="Obraz artykułu" />
+                                            <p class="latest_a">Komunikat Królewski ws. rozwodu JKW Krzysztofa i JKW Sophie</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="latest_articles">
+                            <h class="h-4">
+                                <i class="fa-regular fa-newspaper"></i> Najnowsze artykuły
+                            </h>
+                            <ul class="latest_articles_list">
+                                                                <li>
+                                    <a
+                                        href="/articles/article:13.html"
+                                        target="_blank"
+                                    >
+                                        Zrzutka na serwer oraz domenę Królestwa
+                                    </a>
+                                </li>
+                                                                <li>
+                                    <a
+                                        href="/articles/article:12.html"
+                                        target="_blank"
+                                    >
+                                        Komunikat Królewski ws. rozwodu JKW Krzysztofa i JKW Sophie
+                                    </a>
+                                </li>
+                                                                <li>
+                                    <a
+                                        href="/articles/article:11.html"
+                                        target="_blank"
+                                    >
+                                        Wystartował III Sezon Garamond Liga Nordaty
+                                    </a>
+                                </li>
+                                                                <li>
+                                    <a
+                                        href="/articles/article:10.html"
+                                        target="_blank"
+                                    >
+                                        Komunikat Królewski ws. aktualizacji strony głównej
+                                    </a>
+                                </li>
+                                                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <!-- VOXLAND -->
+    
+            <section class="homepage-section-info">
+                <div class="homepage-section-header">
+                    <h2 class="h-margin-bot-10">Poznaj Voxland!</h2>
+                </div>
+    
+                <div class="row">
+                    <div class="col-12 col-md-8">
+                        <div class="row mb-4">
+                            <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                                <div class="card">
+                                    <h4>
+                                        <a class="card-link" href="/system.php">
+                                            <i class="fa-solid fa-landmark"></i> Rząd i
+                                            ustrój</a
+                                        >
+                                    </h4>
+                                    <p class="card-desc">
+                                        Dowiedz się kto stoi na czele państwa, z kogo
+                                        składa się rząd i jakie ma on uprawnienia.
+                                        Poznaj system polityczny Królestwa w prosty i
+                                        przyjemny sposób przygotowany przez osobę, która
+                                        pomagała go tworzyć.
+                                    </p>
+                                </div>
+                            </div>
+    
+                            <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                                <div class="card">
+                                    <h4>
+                                        <a class="card-link" href="/armed-forces.php"
+                                            ><i
+                                                class="fa-solid fa-person-military-rifle"
+                                            ></i>
+                                            Siły Zbrojne</a
+                                        >
+                                    </h4>
+                                    <p class="card-desc">
+                                        Voxland Heimat Staatssicherheit to tarcza, która
+                                        chroni Voxland przed jakąkolwiek agresją. Poznaj
+                                        ludzi stojących za sprawnie działającym
+                                        wojskiem, jego wyposażenie, a także wiele innych
+                                        przydatnych informacji.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4">
+                                <div class="card">
+                                    <h4>
+                                        <a class="card-link" href="/geography.php"
+                                            ><i class="fa-solid fa-globe"></i>
+                                            Geografia</a
+                                        >
+                                    </h4>
+                                    <p class="card-desc">
+                                        Bez podstawowej wiedzy geograficzno-politycznej
+                                        ani rusz! Tutaj poznasz podział terytorialny
+                                        Królestwa, jego terytoria zależne, topografię
+                                        czy choćby faunę i florę oraz ciekawostki na
+                                        temat przyrody.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                                <div class="card">
+                                    <h4>
+                                        <a class="card-link" href="/history.php"
+                                            ><i
+                                                class="fa-solid fa-clock-rotate-left"
+                                            ></i>
+                                            Historia</a
+                                        >
+                                    </h4>
+                                    <p class="card-desc">
+                                        "Historia lubi się powtarzać." - słowa
+                                        prawdziwe, więc by uniknąć powtórek z jej
+                                        najczarniejszych godzin, ale też i poszukać
+                                        inspiracji dla rozpoczęcia nowej złotej ery
+                                        przestudiuj uważnie ten dział.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                                <div class="card">
+                                    <h4>
+                                        <a class="card-link" href="/orders.php"
+                                            ><i class="fa-solid fa-medal"></i>
+                                            Odznaczenia i wyróżnienia</a
+                                        >
+                                    </h4>
+                                    <p class="card-desc">
+                                        System odznaczeń Królestwa Voxlandu. Dowiedz się
+                                        jak wygląda hierarchia najważniejszych orderów i
+                                        medali oraz za co można je otrzymać. Oprócz tego
+                                        tytuły szlacheckie i ich przywileje.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4">
+                                <div class="card">
+                                    <h4>
+                                        <a class="card-link" href="/kda.php"
+                                            ><i class="fa-solid fa-user-tie"></i>
+                                            Królewski Urząd Pracy</a
+                                        >
+                                    </h4>
+                                    <p class="card-desc">
+                                        Szukasz pracy? Chcesz zacząć karierę, ale nie
+                                        wiesz gdzie szukać, kogo pytać? Czujesz, że to
+                                        czas by wziąć byka za rogi i spróbować czegoś
+                                        nowego? Tutaj znajdziesz nowe możliwości!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- NEWEST ON FORUM -->
+    
+                    <div class="col-12 col-md-4">
+                        <div class="forum-latest-posts">
+                            <h class="forum-h">
+                                Co słychać w kraju?
+                            </h>
+                            <ul class="latest-posts">
+                                                                <li>
+                                    <a
+                                        href="https://forum.voxland.org.pl/viewtopic.php?f=93&p=9688#p9688"
+                                        target="_blank"
+                                        title="Kwestie techniczne dot. serwera i hostingu"
+                                    >
+                                        Kwestie techniczne dot. serwera i hostingu
+                                    </a>
+                                    <span class="forum">Voxland Tekniker Servic</span>
+                                </li>
+                                                                <li>
+                                    <a
+                                        href="https://forum.voxland.org.pl/viewtopic.php?f=80&p=9687#p9687"
+                                        target="_blank"
+                                        title="CrashPollin TV"
+                                    >
+                                        CrashPollin TV
+                                    </a>
+                                    <span class="forum">Sportowy Voxland</span>
+                                </li>
+                                                                <li>
+                                    <a
+                                        href="https://forum.voxland.org.pl/viewtopic.php?f=18&p=9686#p9686"
+                                        target="_blank"
+                                        title="Co nowego na Pollinie?"
+                                    >
+                                        Co nowego na Pollinie?
+                                    </a>
+                                    <span class="forum">Voxlandzka codzienność</span>
+                                </li>
+                                                                <li>
+                                    <a
+                                        href="https://forum.voxland.org.pl/viewtopic.php?f=84&p=9684#p9684"
+                                        target="_blank"
+                                        title="Wieści z Księstwa Sarmacji"
+                                    >
+                                        Wieści z Księstwa Sarmacji
+                                    </a>
+                                    <span class="forum">Ambasada Księstwa Sarmacji</span>
+                                </li>
+                                                                <li>
+                                    <a
+                                        href="https://forum.voxland.org.pl/viewtopic.php?f=139&p=9683#p9683"
+                                        target="_blank"
+                                        title="Nowe publikacje w Monitorze"
+                                    >
+                                        Nowe publikacje w Monitorze
+                                    </a>
+                                    <span class="forum">Koniglich Gofferreich</span>
+                                </li>
+                                                                <li>
+                                    <a
+                                        href="https://forum.voxland.org.pl/viewtopic.php?f=80&p=9682#p9682"
+                                        target="_blank"
+                                        title="RMAW - temat ogólny"
+                                    >
+                                        RMAW - temat ogólny
+                                    </a>
+                                    <span class="forum">Sportowy Voxland</span>
+                                </li>
+                                                                <li>
+                                    <a
+                                        href="https://forum.voxland.org.pl/viewtopic.php?f=78&p=9677#p9677"
+                                        target="_blank"
+                                        title="[FRB] Karlhaus"
+                                    >
+                                        [FRB] Karlhaus
+                                    </a>
+                                    <span class="forum">Pozostałe regiony</span>
+                                </li>
+                                                                <li>
+                                    <a
+                                        href="https://forum.voxland.org.pl/viewtopic.php?f=93&p=9676#p9676"
+                                        target="_blank"
+                                        title="[Konsultacje] Styl forum"
+                                    >
+                                        [Konsultacje] Styl forum
+                                    </a>
+                                    <span class="forum">Voxland Tekniker Servic</span>
+                                </li>
+                                                                <li>
+                                    <a
+                                        href="https://forum.voxland.org.pl/viewtopic.php?f=103&p=9674#p9674"
+                                        target="_blank"
+                                        title="Historia Internetowa Królestwa Voxlandu"
+                                    >
+                                        Historia Internetowa Królestwa Voxlandu
+                                    </a>
+                                    <span class="forum">Instytut Humanistyczny</span>
+                                </li>
+                                                                <li>
+                                    <a
+                                        href="https://forum.voxland.org.pl/viewtopic.php?f=93&p=9669#p9669"
+                                        target="_blank"
+                                        title="Komunikaty Ogólne"
+                                    >
+                                        Komunikaty Ogólne
+                                    </a>
+                                    <span class="forum">Voxland Tekniker Servic</span>
+                                </li>
+                                                                <li>
+                                    <a
+                                        href="https://forum.voxland.org.pl/viewtopic.php?f=141&p=9667#p9667"
+                                        target="_blank"
+                                        title="Wniosek do Wydziału Osiedleńczego"
+                                    >
+                                        Wniosek do Wydziału Osiedleńczego
+                                    </a>
+                                    <span class="forum">Sambana</span>
+                                </li>
+                                                                <li>
+                                    <a
+                                        href="https://forum.voxland.org.pl/viewtopic.php?f=103&p=9664#p9664"
+                                        target="_blank"
+                                        title="Państwowe Archiwum Królestwa Voxlandu"
+                                    >
+                                        Państwowe Archiwum Królestwa Voxlandu
+                                    </a>
+                                    <span class="forum">Instytut Humanistyczny</span>
+                                </li>
+                                                                <li>
+                                    <a
+                                        href="https://forum.voxland.org.pl/viewtopic.php?f=18&p=9628#p9628"
+                                        target="_blank"
+                                        title="Voxland na microwiki"
+                                    >
+                                        Voxland na microwiki
+                                    </a>
+                                    <span class="forum">Voxlandzka codzienność</span>
+                                </li>
+                                                                <li>
+                                    <a
+                                        href="https://forum.voxland.org.pl/viewtopic.php?f=18&p=9624#p9624"
+                                        target="_blank"
+                                        title="Wojna z ptasią plagą"
+                                    >
+                                        Wojna z ptasią plagą
+                                    </a>
+                                    <span class="forum">Voxlandzka codzienność</span>
+                                </li>
+                                                                <li>
+                                    <a
+                                        href="https://forum.voxland.org.pl/viewtopic.php?f=103&p=9614#p9614"
+                                        target="_blank"
+                                        title="Rada Języka Voxlandzkiego - rozmowy o języku"
+                                    >
+                                        Rada Języka Voxlandzkiego - rozmowy o języku
+                                    </a>
+                                    <span class="forum">Instytut Humanistyczny</span>
+                                </li>
+                                                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <!-- LAW & WIDGETS -->
+    
+            <section class="homepage-section-info">
+                <div class="row">
+    
+                    <!-- LAW -->
+    
+                    <div class="col-12 col-md-6">
+                                                <div class="bill-box">
+                            <div class="bill-box-header">
+                                August 27. 2025 jahr
+                                                            </div>
+                            <div class="bill-title">
+                                <a 
+                                href="/monitor/akt/92/koniglich-akt-an-di-kanern-af-di-koniglich-akt-af-di-konigreich-af-voxland"
+                                style="
+                                    width: 100%;
+                                    white-space: nowrap;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                                                    ">
+                                <i class="fa-regular fa-file-lines"></i> Koniglich Akt</a>
+                            </div>
+    
+                            <div class="bill-subtitle"
+                            style="
+                                width: 100%;
+                                white-space: nowrap;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                padding-left: 1.4em;
+                                                            ">
+                            an di Kanern af di Koniglich Akt af di Konigreich af Voxland
+                            </div>
+                        </div>
+                                            <div class="bill-box">
+                            <div class="bill-box-header">
+                                August 16. 2025 jahr
+                                                            </div>
+                            <div class="bill-title">
+                                <a 
+                                href="/monitor/akt/91/koniglich-erlacret-an-di-voxlandske-protektorat-ins-sambanafrika"
+                                style="
+                                    width: 100%;
+                                    white-space: nowrap;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                                                    ">
+                                <i class="fa-regular fa-file-lines"></i> Koniglich Erlacret</a>
+                            </div>
+    
+                            <div class="bill-subtitle"
+                            style="
+                                width: 100%;
+                                white-space: nowrap;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                padding-left: 1.4em;
+                                                            ">
+                            an di Voxlandske Protektorat ins Sambanafrika
+                            </div>
+                        </div>
+                                            <div class="bill-box">
+                            <div class="bill-box-header">
+                                Juli 23. 2025 jahr
+                                                            </div>
+                            <div class="bill-title">
+                                <a 
+                                href="/monitor/akt/90/kroneminister-ferordnung-an-di-voxlandske-rundfunkgesellshaft"
+                                style="
+                                    width: 100%;
+                                    white-space: nowrap;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                                                    ">
+                                <i class="fa-regular fa-file-lines"></i> Kroneminister Ferordnung</a>
+                            </div>
+    
+                            <div class="bill-subtitle"
+                            style="
+                                width: 100%;
+                                white-space: nowrap;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                padding-left: 1.4em;
+                                                            ">
+                            an di Voxlandske Rundfunkgesellshaft
+                            </div>
+                        </div>
+                                            <div class="bill-box">
+                            <div class="bill-box-header">
+                                Juli 17. 2025 jahr
+                                                            </div>
+                            <div class="bill-title">
+                                <a 
+                                href="/monitor/akt/88/koniglich-akt-an-di-konigreich-af-voxland"
+                                style="
+                                    width: 100%;
+                                    white-space: nowrap;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                                                    ">
+                                <i class="fa-regular fa-file-lines"></i> Koniglich Akt</a>
+                            </div>
+    
+                            <div class="bill-subtitle"
+                            style="
+                                width: 100%;
+                                white-space: nowrap;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                padding-left: 1.4em;
+                                                            ">
+                            an di Konigreich af Voxland
+                            </div>
+                        </div>
+                                            <div class="bill-box">
+                            <div class="bill-box-header">
+                                Juli 17. 2025 jahr
+                                                            </div>
+                            <div class="bill-title">
+                                <a 
+                                href="/monitor/akt/89/kroneminister-ferordnung-an-di-nationalgetranke"
+                                style="
+                                    width: 100%;
+                                    white-space: nowrap;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                                                    ">
+                                <i class="fa-regular fa-file-lines"></i> Kroneminister Ferordnung</a>
+                            </div>
+    
+                            <div class="bill-subtitle"
+                            style="
+                                width: 100%;
+                                white-space: nowrap;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                padding-left: 1.4em;
+                                                            ">
+                            an di Nationalgetranke
+                            </div>
+                        </div>
+                                            <div class="bill-box">
+                            <div class="bill-box-header">
+                                Mai 25. 2025 jahr
+                                                            </div>
+                            <div class="bill-title">
+                                <a 
+                                href="/monitor/akt/86/koniglich-besklusion-an-di-festlegung-fon-kaufpreisen-for-villdorf"
+                                style="
+                                    width: 100%;
+                                    white-space: nowrap;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                                                    ">
+                                <i class="fa-regular fa-file-lines"></i> Koniglich Besklusion</a>
+                            </div>
+    
+                            <div class="bill-subtitle"
+                            style="
+                                width: 100%;
+                                white-space: nowrap;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                padding-left: 1.4em;
+                                                            ">
+                            an di Festlegung fon Kaufpreisen for Villdorf
+                            </div>
+                        </div>
+                                        </div>   
+    
+                    <!-- WIDGETS -->
+    
+                    <div class="col-12 col-md-6">
+                        <div class="row mb-4">
+                            <!-- WEATHER -->
+                            <div class="col-12 col-md-6 mb-4">
+                                <div class="info-card">
+                                    <div class="info-card-title">
+                                        <h4>
+                                            <a href="https://gov.voxland.org.pl/weather"
+                                                ><i class="fa-solid fa-cloud-sun"></i>
+                                                Dzisiejsza pogoda</a
+                                            >
+                                        </h4>
+                                    </div>
+                                        <div class="weather-info">
+                                            <img src="//cdn.weatherapi.com/weather/64x64/day/176.png" class="weather-icon" alt="Miejscowe opady deszczu w pobliżu" loading="lazy"/>
+                                            <div class="weather-details">
+                                                <div class="temp">
+                                                    23.8&#176;
+                                                </div>
+                                                <div class="desc">
+                                                    Miejscowe opady deszczu w pobliżu
+                                                </div>
+                                            </div>
+                                            <div class="weather-stats">
+                                                <div class="stat">
+                                                    <i class="fa-solid fa-cloud"></i>
+                                                    <span>72%</span>
+                                                </div>
+                                                <div class="stat">
+                                                    <i class="fa-solid fa-wind"></i>
+                                                    <span>12.6 <sup>km/h</sup></span>
+                                                </div>
+                                                <div class="stat">
+                                                    <i class="fa-solid fa-droplet"></i>
+                                                    <span>62%</span>
+                                                </div>
+                                            </div>
+                                            <div class="location">Koniglich Citad af Vox</div>
+                                        </div>
+                                </div>
+                            </div>
+                            <!-- MBP -->
+                            <div class="col-12 col-md-6 mb-4">
+                                <div class="info-card">
+                                    <div class="info-card-title">
+                                        <div class="h4">
+                                            <a href="https://bank.leocja.org" title="Bank Pollinu">
+                                                <i
+                                                    class="fa-solid fa-money-bill-trend-up"
+                                                ></i>
+                                                Kurs Voxa w MBP
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div id="mbp"></div>
+                                </div>
+                            </div>
+                            <!-- SZF -->
+                            <div class="col-12 col-md-6 mb-4">
+                                <div class="info-card">
+                                    <div class="info-card-title">
+                                        <h4>
+                                            <a href="https://szf.leocja.org"
+                                                ><i class="fa-regular fa-image"></i>
+                                                Emisje ŚZF</a
+                                            >
+                                        </h4>
+                                    </div>
+                                    <style>
+            .szf_item {
+                display: flex;
+                flex-direction: column;
+                max-width: 300px;
+                margin: auto;
+            }
+            .szf_item > .image {
+                display: flex; 
+                justify-content: center; 
+                align-items: center;
+            }
+    
+            .szf_item > .image > .stamp {
+                max-width: 100%;
+                margin: auto;
+                aspect-ratio: 25/19;
+                height: auto;
+            }
+    
+            .szf_item > .info {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                flex-grow: 1;
+                padding: 0.5rem 1rem;
+                min-width: 50%;
+                flex-shrink: 0;
+            }
+    
+            .szf_item > .info > .name > .flag {
+                height: 16px;
+                width: 26px;
+                object-fit: contain;
+                margin-bottom: -2px;
+            }
+    
+            .szf_item > .info > .name > .link {
+                font-weight: bold; 
+                font-size: large
+            }
+        </style>
+                                    <div id="szf">
+                                                                                    <center style="display:none">
+                                                <div>
+                                                    <img
+                                                    loading="lazy"
+                                                    src="https://stempel.org.pl/api/flag/420"
+                                                    alt="Flaga Kraju"
+                                                    style="
+                                                        height: 16px;
+                                                        width: 26px;
+                                                        object-fit: contain;
+                                                        margin-bottom: -2px;
+                                                    "
+                                                    />
+                                                    Koło ŚZF
+                                                </div>
+                                                </br>
+                                                <img
+                                                    loading="lazy"
+                                                    src="https://szf.leocja.org/znaczki/410.png"
+                                                    alt="Cerkwie Rusowii: 4"
+                                                    width="138"
+                                                    height="180"
+                                                    style="max-width: 100%; margin: auto"
+                                                />
+                                                <p>
+                                                    <a
+                                                        href="https://szf.leocja.org/znaczek.php?id=410"
+                                                        target="_blank"
+                                                    >
+                                                        Cerkwie Rusowii: 4
+                                                    </a>
+                                                </p>
+                                                <p style="max-width: 75%; margin: auto;">Nominał: </br>2,99 ₱</p></br>
+                                                <p style="max-width: 75%; margin: auto; margin-bottom: 5px;">Nakład: 50/2</p>
+                                            </center>
+                                            <div class="szf_item">
+                                                <div class="image">
+                                                    <img
+                                                        src="https://szf.leocja.org/znaczki/410.png"
+                                                        alt="Cerkwie Rusowii: 4"
+                                                        width="150"
+                                                        height="114"
+                                                        class="stamp"
+                                                        loading="lazy"
+                                                        />
+                                                </div>
+                                                <div class="info"">
+                                                    <div class="name">
+                                                        <img
+                                                            loading="lazy"
+                                                            src="https://stempel.org.pl/api/flag/420.png"
+                                                            alt="Flaga Kraju"
+                                                            class="flag" />
+                                                        <a
+                                                            href="https://szf.leocja.org/znaczek.php?id=410"
+                                                            target="_blank"
+                                                            class="link">
+                                                            Cerkwie Rusowii: 4
+                                                        </a>
+                                                    </div>
+                                                    <div>Nominał: 2,99 ₱</div>
+                                                    <div>Nakład: 50/2</div>
+                                                </div>
+                                            </div>
+                                         
+                                                                            </div>
+                                </div>
+                            </div>
+                            <!-- CALENDARS -->
+                            <div class="col-12 col-md-6 mb-4">
+                                <div class="info-card">
+                                    <div class="info-card-title">
+                                        <h4>
+                                            <!-- <div class="navbutt_prev">
+                                                <i class="fa-solid fa-circle-arrow-left"></i>
+                                            </div> -->
+                                            <i class="fa-regular fa-calendar-days"></i>
+                                            Kalendarz Pollinu
+                                            <!-- <div class="navbutt_next">
+                                                <i class="fa-solid fa-circle-arrow-right"></i>
+                                            </div> -->
+                                        </h4>
+                                        <div id="calendar" class="calendar">
+                                            <div class="header">
+                                                <div class="navbar">
+                                                    <div class="button prev">
+                                                        <span>&#8249;</span>
+                                                    </div>
+                                                    <div class="title">
+                                                        <div class="heading">
+                                                            <!-- wrzesień 2023 -->
+                                                        </div>
+                                                    </div>
+                                                    <div class="button next">
+                                                        <span>&#8250;</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+    
+                                            <div class="app">
+                                                <div class="week">
+                                                    <div class="weekday">Mo</div>
+                                                    <div class="weekday">Di</div>
+                                                    <div class="weekday">Mi</div>
+                                                    <div class="weekday">Do</div>
+                                                    <div class="weekday">Fr</div>
+                                                    <div class="weekday">Sa</div>
+                                                    <div class="weekday">So</div>
+                                                </div>
+    
+                                                <div class="month">
+                                                    <!-- Tu wyświetlają się dni miesiąca -->
+                                                </div>
+    
+                                                <div id="events" class="events"></div>
+                                            </div>
+                                        </div>
+                                        <!-- <script src="https://nowiny.stempel.org.pl/js/calendar.js?2025.09.07.15.29"></script> -->
+                                        <script src="/assets/js/calendar.js?2025.09.07.15.29"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+</main>
+
+        <footer class="footer">
+            <div class="width-container">
+                <div class="row px-4">
+                    <div class="footer-col col">
+                        <h4>Konigreich af Voxland</h4>
+                        <ul>
+                            <li>
+                                <a href="https://forum.voxland.org.pl"
+                                    ><i class="fa-solid fa-rectangle-list"></i>
+                                    Forum</a
+                                >
+                            </li>
+                            <li>
+                                <a href="https://discord.gg/cjNyVjKHtp"
+                                    ><i class="fa-brands fa-discord"></i>
+                                    Discord</a
+                                >
+                            </li>
+                            <li>
+                                <a href="https://nordatskeliga.voxland.org.pl/tables/"
+                                    ><i class="fa-solid fa-futbol"></i>
+                                    Liga Nordaty</a
+                                >
+                            </li>
+                            <li>
+                                <a href="https://kcv.voxland.org.pl"
+                                    ><i class="fa-solid fa-city"></i>
+                                    Królewskie Miasto Vox</a
+                                >
+                            </li>
+                            <li>
+                                <a href="https://kuw.voxland.org.pl"
+                                    ><i class="fa-solid fa-graduation-cap"></i>
+                                    Królewski Uniwersytet Nauk</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col">
+                        <h4>Pollin i Stempel</h4>
+                        <ul>
+                            <li>
+                                <a href="https://bank.leocja.org/"
+                                    ><i
+                                        class="fa-solid fa-money-bill-transfer"
+                                    ></i>
+                                    Bank</a
+                                >
+                            </li>
+                            <li>
+                                <a href="https://nowiny.stempel.org.pl/"
+                                    ><i class="fa-solid fa-newspaper"></i>
+                                    Nowiny</a
+                                >
+                            </li>
+                            <li>
+                                <a href="https://kustosz.stempel.org.pl/"
+                                    ><i class="fa-solid fa-image"></i>
+                                    Kustosz</a
+                                >
+                            </li>
+                            <li>
+                                <a href="https://stempel.org.pl/"
+                                    ><i class="fa-solid fa-passport"></i>
+                                    Stempel</a
+                                >
+                            </li>
+                            <li>
+                                <a href="https://radiomikronacje.pl"
+                                    ><i class="fa-solid fa-radio"></i> Radio
+                                    Mikronacje</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col col">
+                        <h4>Rozrywka i Sociale</h4>
+                        <ul>
+                            <li>
+                                <a
+                                    href="https://twitter.com/GovVoxland"
+                                    class="social-media"
+                                    ><i class="fa-brands fa-x-twitter"></i>
+                                    Twitter</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.facebook.com/gov.voxland"
+                                    class="social-media"
+                                    ><i class="fa-brands fa-facebook"></i>
+                                    Facebook</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.instagram.com/gov_voxland/"
+                                    class="social-media"
+                                    ><i class="fa-brands fa-instagram"></i>
+                                    Instagram</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col col">
+                        <h4>
+                            <i class="fa-solid fa-chart-line"></i> Aktywność w
+                            ciągu ostatnich 30 dni
+                        </h4>
+                        <div class="chart-border">
+                            <div id="ism_chart"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="copyrights">
+                    <p>WebDesign&Idea: AW Back-end Support: ShAR</p>
+                    <p>
+                        <i class="fa-regular fa-copyright"></i> Konigreich af
+                        Voxland 2022 - <span id="current-year">2025</span>
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="/assets/js/main.js"></script>
+
+        
+    </body>
+</html>

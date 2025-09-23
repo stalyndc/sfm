@@ -1,0 +1,1524 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta name="Googlebot-News" content="noindex">
+    <title>The Register: Enterprise Technology News and Analysis</title>
+    <meta name="robots" content="max-snippet:-1, max-image-preview:standard, max-video-preview:0">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
+    <meta name="description" content="Enterprise technology news for IT decision-makers and professionals">
+    <meta property="og:title" content="Enterprise Technology News and Analysis" />
+    <meta property="og:image" content="https://www.theregister.com/design_picker/621fa76b064a476dc713ebf25bbf16451c706c03/graphics/icons/reg_logo_og_image_1200x630.jpg"/>
+    <script>
+      var RegZoot = {  };
+      var RegCC = [  ];
+      var RegPageType = 'Index';
+      var RegTruePageType = 'www index';
+      var RegEagleType = 'RT-2F';
+      var RegBirds = ["buzzard","eagle","falcon","hawk","owl"];
+    </script>
+    <link rel="canonical" href="https://www.theregister.com/">
+<link rel=stylesheet type="text/css" href="/css/eac2ec4195a73df9b0d2e497e60918d3e1ea0033/scaffolding.css">
+<link rel=stylesheet type="text/css" href="/css/eac2ec4195a73df9b0d2e497e60918d3e1ea0033/design.css">
+
+    <style>
+        #nav_elem_none {
+          text-decoration: underline !important;
+        }
+    </style>
+
+<link rel=stylesheet type="text/css" href="/css/eac2ec4195a73df9b0d2e497e60918d3e1ea0033/rows.css">
+<link rel="preload" as="image" href="https://regmedia.co.uk/2021/02/01/shutterstock_chrome_icon.jpg?x=648&amp;y=324&amp;crop=1">
+    <link rel=alternate type="application/atom+xml" href="/headlines.atom" title="The Register: whole site">
+    
+    
+    <script>
+var RegCR = false;
+</script>
+
+    <script src="/design_picker/e714a636e007b97b937b69414caf9141f7a3cf27/javascript/_.js"></script>
+    <script>
+    RegGPT('reg_homepage/front','9b8af20c047ed52ab05670919930fa5d','9b8af20c047ed52ab05670919930fa5d');
+</script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js"></script>
+    <link rel=search href="https://search.theregister.com/">
+    <link rel=search type="application/opensearchdescription+xml" title="El Reg Search" href="/Design/page/search.osd">
+    <link rel="icon" href="/design_picker/13249a2e80709c7ff2e57dd3d49801cd534f2094/graphics/favicons/favicon.ico" sizes="any"><!-- 32×32 -->
+<link rel="icon" href="/design_picker/13249a2e80709c7ff2e57dd3d49801cd534f2094/graphics/favicons/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/design_picker/13249a2e80709c7ff2e57dd3d49801cd534f2094/graphics/favicons/apple-touch-icon.png"><!-- 180×180 -->
+<link rel="manifest" href="/design_picker/13249a2e80709c7ff2e57dd3d49801cd534f2094/graphics/favicons/site.webmanifest">
+<meta name="msapplication-TileColor" content="#ff0000">
+<meta name="msapplication-config" content="/design_picker/13249a2e80709c7ff2e57dd3d49801cd534f2094/graphics/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ff0000">
+
+</head>
+<body class="fullwidth" data-pagetype='Index'>
+<div id="page">
+        <div data-oop="1" data-pos="top" data-raptor="kite" aria-hidden="true" class="adun"></div>
+
+    <div id="masthead">
+    <div class="los_amigos">
+        <div class="left_nav">
+            <a id="mob_user_link" href="https://account.theregister.com/register/" aria-label="Your Account">
+                <img class="account_icon" width="16" height="16" src="/design_picker/ae01b183a707a7db8cd5f2c947715ed56d335138/graphics/std/user_icon_white_extents_16x16.png" srcset="/design_picker/ae01b183a707a7db8cd5f2c947715ed56d335138/graphics/std/user_icon_white_extents.svg" alt="">
+                <img class="filled_icon" width="16" height="16"  src="/design_picker/ae01b183a707a7db8cd5f2c947715ed56d335138/graphics/std/user_icon_white_filled_extents_16x16.png" srcset="/design_picker/ae01b183a707a7db8cd5f2c947715ed56d335138/graphics/std/user_icon_filled_white_extents.svg" alt="">
+                <span id="mob_user_text"><span>Sign in / up</span></span>
+            </a>
+        </div>
+        <div class="center_nav">
+            <a href="https://www.theregister.com/" class="logo">
+    <span class="visually_hidden">The Register</span>
+</a>
+
+        </div>
+        <div class="right_nav">
+            <a href="https://search.theregister.com/" class="nav_search topnav_elem" data-name="Search" aria-label="Search">
+                <img width="16" height="16" src="/design_picker/ae01b183a707a7db8cd5f2c947715ed56d335138/graphics/std/magnifying_glass_white_extents_16x16.png" srcset="/design_picker/ae01b183a707a7db8cd5f2c947715ed56d335138/graphics/std/magnifying_glass_white_extents.svg" alt="">
+            </a>
+            <div id="site_nav_mobile">
+                <noscript><div id="site_nav_mobile_hiding_stamp"></div></noscript>
+                <button id="mobile_menu_toggle" aria-label="Open menu" type="button">
+                    <img width="16" height="16" src="/design_picker/ae01b183a707a7db8cd5f2c947715ed56d335138/graphics/icon/burger_menu_white_16x16.png" srcset="/design_picker/ae01b183a707a7db8cd5f2c947715ed56d335138/graphics/icon/burger_menu_white_extents.svg" alt="">
+                    <img width="16" height="16" src="/design_picker/ae01b183a707a7db8cd5f2c947715ed56d335138/graphics/icon/burger_menu_white_close_16x16.png" srcset="/design_picker/ae01b183a707a7db8cd5f2c947715ed56d335138/graphics/icon/burger_menu_white_close_extents.svg" alt="">
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="top_panel_wrapper">
+        <div id="top_panel">
+            <div class="block_section nav">
+                
+
+
+<div class="nav_col first_col">
+    <div class="nav_top_group">
+        <div class="nav_topics">
+            <div class="nav_head_bk">
+                <h2 class="main_head">Topics</h2>
+            </div>
+            <div>
+                <nav>
+                    <div class="nav_elem">
+    <div class="cat_header">
+        <div id="nav-security">
+        <a href="#subnav-box-nav-security" data-toggle-for="subnav-box-nav-security" class="topnav_elem mob_only">Security</a>
+        <h2 class="desk_only section_nav-security">
+            <a href="#subnav-box-nav-security" data-toggle-for="subnav-box-nav-security" class="topnav_elem desk_only">Security</a>
+        </h2>
+        </div>
+    </div><div id="subnav-box-nav-security" class="subnav_box"><a href="https://www.theregister.com/security/" class="subnav_elem" id="nav-security-all"><span class="prefix_all">All </span>Security</a><a href="https://www.theregister.com/security/cyber_crime/" class="subnav_elem" id="nav-security-cyber_crime">Cyber-crime</a><a href="https://www.theregister.com/security/patches/" class="subnav_elem" id="nav-security-patches">Patches</a><a href="https://www.theregister.com/security/research/" class="subnav_elem" id="nav-security-research">Research</a><a href="https://www.theregister.com/security/cso/" class="subnav_elem" id="nav-security-cso">CSO</a>
+                <noscript><a href="#masthead" class="subnav_elem close_box" aria-label="Top navigation">(X)</a></noscript>
+            </div>
+</div><div class="nav_elem">
+    <div class="cat_header">
+        <div id="nav-off_prem">
+        <a href="#subnav-box-nav-off_prem" data-toggle-for="subnav-box-nav-off_prem" class="topnav_elem mob_only">Off-Prem</a>
+        <h2 class="desk_only section_nav-off_prem">
+            <a href="#subnav-box-nav-off_prem" data-toggle-for="subnav-box-nav-off_prem" class="topnav_elem desk_only">Off-Prem</a>
+        </h2>
+        </div>
+    </div><div id="subnav-box-nav-off_prem" class="subnav_box"><a href="https://www.theregister.com/off_prem/" class="subnav_elem" id="nav-off_prem-all"><span class="prefix_all">All </span>Off-Prem</a><a href="https://www.theregister.com/off_prem/edge_iot/" class="subnav_elem" id="nav-off_prem-edge_iot">Edge + IoT</a><a href="https://www.theregister.com/off_prem/channel/" class="subnav_elem" id="nav-off_prem-channel">Channel</a><a href="https://www.theregister.com/off_prem/paas_iaas/" class="subnav_elem" id="nav-off_prem-paas_iaas">PaaS + IaaS</a><a href="https://www.theregister.com/off_prem/saas/" class="subnav_elem" id="nav-off_prem-saas">SaaS</a>
+                <noscript><a href="#masthead" class="subnav_elem close_box" aria-label="Top navigation">(X)</a></noscript>
+            </div>
+</div><div class="nav_elem">
+    <div class="cat_header">
+        <div id="nav-on_prem">
+        <a href="#subnav-box-nav-on_prem" data-toggle-for="subnav-box-nav-on_prem" class="topnav_elem mob_only">On-Prem</a>
+        <h2 class="desk_only section_nav-on_prem">
+            <a href="#subnav-box-nav-on_prem" data-toggle-for="subnav-box-nav-on_prem" class="topnav_elem desk_only">On-Prem</a>
+        </h2>
+        </div>
+    </div><div id="subnav-box-nav-on_prem" class="subnav_box"><a href="https://www.theregister.com/on_prem/" class="subnav_elem" id="nav-on_prem-all"><span class="prefix_all">All </span>On-Prem</a><a href="https://www.theregister.com/on_prem/systems/" class="subnav_elem" id="nav-on_prem-systems">Systems</a><a href="https://www.theregister.com/on_prem/storage/" class="subnav_elem" id="nav-on_prem-storage">Storage</a><a href="https://www.theregister.com/on_prem/networks/" class="subnav_elem" id="nav-on_prem-networks">Networks</a><a href="https://www.theregister.com/on_prem/hpc/" class="subnav_elem" id="nav-on_prem-hpc">HPC</a><a href="https://www.theregister.com/on_prem/personal_tech/" class="subnav_elem" id="nav-on_prem-personal_tech">Personal Tech</a><a href="https://www.theregister.com/on_prem/cxo/" class="subnav_elem" id="nav-on_prem-cxo">CxO</a><a href="https://www.theregister.com/on_prem/public_sector/" class="subnav_elem" id="nav-on_prem-public_sector">Public Sector</a>
+                <noscript><a href="#masthead" class="subnav_elem close_box" aria-label="Top navigation">(X)</a></noscript>
+            </div>
+</div><div class="nav_elem">
+    <div class="cat_header">
+        <div id="nav-software">
+        <a href="#subnav-box-nav-software" data-toggle-for="subnav-box-nav-software" class="topnav_elem mob_only">Software</a>
+        <h2 class="desk_only section_nav-software">
+            <a href="#subnav-box-nav-software" data-toggle-for="subnav-box-nav-software" class="topnav_elem desk_only">Software</a>
+        </h2>
+        </div>
+    </div><div id="subnav-box-nav-software" class="subnav_box"><a href="https://www.theregister.com/software/" class="subnav_elem" id="nav-software-all"><span class="prefix_all">All </span>Software</a><a href="https://www.theregister.com/software/ai_ml/" class="subnav_elem" id="nav-software-ai_ml">AI + ML</a><a href="https://www.theregister.com/software/applications/" class="subnav_elem" id="nav-software-applications">Applications</a><a href="https://www.theregister.com/software/databases/" class="subnav_elem" id="nav-software-databases">Databases</a><a href="https://www.theregister.com/software/devops/" class="subnav_elem" id="nav-software-devops">DevOps</a><a href="https://www.theregister.com/software/oses/" class="subnav_elem" id="nav-software-oses">OSes</a><a href="https://www.theregister.com/software/virtualization/" class="subnav_elem" id="nav-software-virtualization">Virtualization</a>
+                <noscript><a href="#masthead" class="subnav_elem close_box" aria-label="Top navigation">(X)</a></noscript>
+            </div>
+</div><div class="nav_elem">
+    <div class="cat_header">
+        <div id="nav-offbeat">
+        <a href="#subnav-box-nav-offbeat" data-toggle-for="subnav-box-nav-offbeat" class="topnav_elem mob_only">Offbeat</a>
+        <h2 class="desk_only section_nav-offbeat">
+            <a href="#subnav-box-nav-offbeat" data-toggle-for="subnav-box-nav-offbeat" class="topnav_elem desk_only">Offbeat</a>
+        </h2>
+        </div>
+    </div><div id="subnav-box-nav-offbeat" class="subnav_box"><a href="https://www.theregister.com/offbeat/" class="subnav_elem" id="nav-offbeat-all"><span class="prefix_all">All </span>Offbeat</a><a href="https://www.theregister.com/Debates/" class="subnav_elem" id="nav-offbeat-debates">Debates</a><a href="https://www.theregister.com/offbeat/columnists/" class="subnav_elem" id="nav-offbeat-columnists">Columnists</a><a href="https://www.theregister.com/offbeat/science/" class="subnav_elem" id="nav-offbeat-science">Science</a><a href="https://www.theregister.com/offbeat/geeks_guide/" class="subnav_elem" id="nav-offbeat-geeks_guide">Geek's Guide</a><a href="https://www.theregister.com/offbeat/bofh/" class="subnav_elem" id="nav-offbeat-bofh">BOFH</a><a href="https://www.theregister.com/offbeat/legal/" class="subnav_elem" id="nav-offbeat-legal">Legal</a><a href="https://www.theregister.com/offbeat/bootnotes/" class="subnav_elem" id="nav-offbeat-bootnotes">Bootnotes</a><a href="https://www.theregister.com/offbeat/site_news/" class="subnav_elem" id="nav-offbeat-site_news">Site News</a><a href="https://www.theregister.com/offbeat/about_us/" class="subnav_elem" id="nav-offbeat-about_us">About Us</a>
+                <noscript><a href="#masthead" class="subnav_elem close_box" aria-label="Top navigation">(X)</a></noscript>
+            </div>
+</div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav_bottom_group">
+        <div class="nav_bottom_section nav_special_features">
+            <div class="nav_head_bk">
+                <a href="#subnav-box-nav-special_features" data-toggle-for="subnav-box-nav-special_features" id="nav-special_features" class="topnav_elem mob_only">Special Features</a>
+                <h2 class="main_head">
+                    <span class="topnav_elem desk_only">Special Features</span>
+                </h2>
+            </div>
+            <nav>
+                <div class="nav_elem">
+                    <div id="subnav-box-nav-special_features" class="subnav_box">
+                        <a href="https://www.theregister.com/special_features">All Special Features</a>
+                        <a href="https://www.theregister.com/special_features/vmware_explore">VMware Explore</a>
+                        <a href="https://www.theregister.com/special_features/cloud_infrastructure_month">Cloud Infrastructure Month</a>
+                        <a href="https://www.theregister.com/special_features/datacenter_networking_nexus/">Datacenter Networking Nexus</a>
+                        <a href="https://www.theregister.com/special_features/the_state_of_storage/">The State of Storage</a>
+                        <a href="https://www.theregister.com/special_features/european_supercomputing/">European Supercomputing</a>
+                        <a href="https://www.theregister.com/special_features/ai_infrastructure_month/">AI Infrastructure Month</a>
+                        <a href="https://www.theregister.com/special_features/spotlight_on_rsac/">Spotlight on RSAC</a>
+                        <a href="https://www.theregister.com/special_features/ai_software_development_week/">AI Software Development Week</a>
+                        <a href="https://www.theregister.com/special_features/disaster_recovery_week/">Disaster Recovery Week</a>
+                        <a href="https://www.theregister.com/special_features/nvidia_gtc/">Nvidia GTC</a>
+                        <a href="https://www.theregister.com/special_features/ransomware_in_focus/">Ransomware in Focus</a>
+                        <a href="https://www.theregister.com/special_features/future_of_the_datacenter">The Future of the Datacenter</a>
+                        <a href="https://www.theregister.com/special_features/cybersecurity_month">Cybersecurity Month</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="nav_bottom_section nav_elem nav_vendor_voice">
+            <div class="nav_head_bk">
+                <h2 class="main_head">
+                    <span class="topnav_elem desk_only">Vendor Voice</span>
+                </h2>
+            </div>
+            <nav>
+                <div class="nav_elem">
+    <div class="cat_header">
+        <div id="nav-tag-vendor-voice">
+            <a href="#subnav-box-nav-tag-vendor-voice" data-toggle-for="subnav-box-nav-tag-vendor-voice" class="topnav_elem mob_only">Vendor Voice</a>
+            <h2 class="desk_only section_nav-tag-vendor-voice">
+                <a href="#subnav-box-nav-tag-vendor-voice" data-toggle-for="subnav-box-nav-tag-vendor-voice" class="topnav_elem desk_only">Vendor Voice</a>
+            </h2>
+        </div>
+    </div>
+    <div id="subnav-box-nav-tag-vendor-voice" class="subnav_box">
+        <a href="https://www.theregister.com/VendorVoice/" class="subnav_elem" id="nav-tag-vendor-voice-all">
+            <span class="prefix_all">All </span>Vendor Voice
+        </a>
+        <a
+            href="https://www.theregister.com/VendorVoice/aws_siemens/"
+            class="subnav_elem"
+            id="nav-tag-vendor-voice-vv_aws_siemens">
+            Siemens and AWS
+        </a>
+        <a
+            href="https://www.theregister.com/VendorVoice/aws_mendix/"
+            class="subnav_elem"
+            id="nav-tag-vendor-voice-vv_aws_mendix">
+            Mendix and AWS
+        </a>
+        <a
+            href="https://www.theregister.com/VendorVoice/aws_fis/"
+            class="subnav_elem"
+            id="nav-tag-vendor-voice-vv_aws_fis">
+            Money Movement Hub
+        </a>
+        <a
+            href="https://www.theregister.com/VendorVoice/google_bigquery/"
+            class="subnav_elem"
+            id="nav-tag-vendor-voice-vv_google_bigquery">
+            The BigQuery Difference
+        </a>
+        <a
+            href="https://www.theregister.com/VendorVoice/aws_global_partner_security_initiative/"
+            class="subnav_elem"
+            id="nav-tag-vendor-voice-vv_aws_global_partner_security_initiative">
+            AWS Global Partner Security Initiative
+        </a>
+        <a
+            href="https://www.theregister.com/VendorVoice/aws_new_horizon_financial_services/"
+            class="subnav_elem"
+            id="nav-tag-vendor-voice-vv_aws_new_horizon_financial_services">
+            Amazon Web Services (AWS) New Horizon in Cloud Computing
+        </a>
+        <a
+            href="https://www.theregister.com/VendorVoice/aws_ge_vernova_manufacturing/"
+            class="subnav_elem"
+            id="nav-tag-vendor-voice-vv_aws_ge_vernova_manufacturing">
+            GE Vernova with AWS
+        </a>
+        <noscript>
+            <a href="#masthead" class="subnav_elem close_box" aria-label="Top navigation">(X)</a>
+        </noscript>
+    </div>
+</div>
+            </nav>
+        </div>
+        <div class="nav_bottom_section nav_resources">
+            <div class="nav_head_bk">
+                <a href="#subnav-box-nav-resources" data-toggle-for="subnav-box-nav-resources" id="nav-resources" class="topnav_elem mob_only">Resources</a>
+                <h2 class="main_head">
+                    <span class="topnav_elem desk_only">Resources</span>
+                </h2>
+            </div>
+                <nav id="top_nav">
+                    <div class="nav_elem">
+                        <div id="subnav-box-nav-resources" class="subnav_box">
+                            <a href="https://whitepapers.theregister.com/">Whitepapers</a>
+                            <a href="https://whitepapers.theregister.com/events/list/">Webinars &amp; Events</a>
+                            <a href="https://account.theregister.com/edit/newsletter/">Newsletters</a>
+                        </div>
+                    </div>
+                </nav>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+    
+
+    
+    <div aria-hidden="true" class="adun" data-pos="top" data-raptor="condor" data-lg=",fluid,leaderboard," data-xlg=",superleaderboard,billboard,fluid,leaderboard," data-xxlg=",superleaderboard,billboard,brandwidth,fluid,leaderboard,">
+        <noscript>
+            <a href="https://pubads.g.doubleclick.net/gampad/jump?co=1&amp;iu=/6978/reg_homepage/front&amp;sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&amp;tile=2&amp;c=2aNBL79YCH0DAbiarUjcJ9wAAAo4&amp;t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0" target="_blank">
+                <img src="https://pubads.g.doubleclick.net/gampad/ad?co=1&amp;iu=/6978/reg_homepage/front&amp;sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&amp;tile=2&amp;c=2aNBL79YCH0DAbiarUjcJ9wAAAo4&amp;t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0" alt="">
+            </a>
+        </noscript>
+    </div>
+
+<div id=main-col class="">
+    <div id="index_page" class=headlines>
+<div class="srow rt-3a">
+        <article>
+            <a href="/2025/09/18/google_emergency_patch_chrome_0_day/?td=rt-3a" class="story_link">
+                <div class="story_grid_img">
+                    <picture>
+    <source srcset="https://regmedia.co.uk/2021/02/01/shutterstock_chrome_icon.jpg?x=477&amp;y=239&amp;crop=1 477w, https://regmedia.co.uk/2021/02/01/shutterstock_chrome_icon.jpg?x=592&amp;y=296&amp;crop=1 592w, https://regmedia.co.uk/2021/02/01/shutterstock_chrome_icon.jpg?x=1184&amp;y=592&amp;crop=1 1184w" sizes="(max-width: 409px) 477px, (max-width: 649px) 592px, (max-width: 767px) 477px, 478px">
+    <img src="https://regmedia.co.uk/2021/02/01/shutterstock_chrome_icon.jpg?x=592&amp;y=296&amp;crop=1" alt="" width="592" height="296">
+</picture>
+
+                </div>
+                <div class="article_text_elements">
+                    <h4>Google pushes emergency patch for Chrome 0-day – check your browser version now</h4>
+                    <div class="standfirst">
+                        Sixth such Chrome flaw this year spotted by the Chocolate Factory, already in play
+                    </div>
+                </div>
+            </a>
+        </article>
+    <div class="other_stories">
+        <article>
+            <a href="/2025/09/19/scattered_spider_teen_cuffed/?td=rt-3a" class="story_link">
+                <div class="article_text_elements">
+                    <h4>Scattered Spider teen cuffed after buying games and meals with extortion bitcoin</h4>
+                    <div class="standfirst">
+                        Bad opsec
+                    </div>
+                </div>
+            </a>
+        </article>
+        <div class="line_separator"></div>
+        <article>
+            <a href="/2025/09/19/on_call/?td=rt-3a" class="story_link">
+                <div class="article_text_elements">
+                    <h4>Word to the wise: Don't tell your IT manager they're not in Excel</h4>
+                    <div class="standfirst">
+                        <span class="label">On Call</span>
+                        Contractor sneakily fired after pointing out odious ignorance
+                    </div>
+                </div>
+            </a>
+        </article>
+        <div class="line_separator"></div>
+        <article>
+            <a href="/2025/09/19/slack_nonprofit_license_hike_threat/?td=rt-3a" class="story_link">
+                <div class="article_text_elements">
+                    <h4>Slack threatened to delete nonprofit coding club’s data if it didn’t pay $50k in a week</h4>
+                    <div class="standfirst">
+                        Collaborationware CEO tried to smooth things over, but Hack Club now plans a strategy shift
+                    </div>
+                </div>
+            </a>
+        </article>
+    </div>
+</div>
+            <div aria-hidden="true" class="adun" data-pos="top" data-raptor="condor" data-xsm=",mpu," data-sm=",mpu," data-md=",mpu," data-xmd=",leaderboard,">
+                <noscript>
+                    <a href="https://pubads.g.doubleclick.net/gampad/jump?co=1&amp;iu=/6978/reg_homepage/front&amp;sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&amp;tile=2&amp;c=2aNBL79YCH0DAbiarUjcJ9wAAAo4&amp;t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0" target="_blank">
+                        <img src="https://pubads.g.doubleclick.net/gampad/ad?co=1&amp;iu=/6978/reg_homepage/front&amp;sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&amp;tile=2&amp;c=2aNBL79YCH0DAbiarUjcJ9wAAAo4&amp;t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0" alt="">
+                    </a>
+                </noscript>
+            </div>
+
+<div class="srow rt-1a">
+    <article>
+        <a href="/2025/09/21/windows_11_registry_hacks_regedit/" class=story_link>
+            <div class="article_text_elements has_trailer_top">
+                <h4>Make Windows 11 more useful and less annoying with these 11 Registry hacks</h4>
+                <div class=standfirst>
+        <span class="label">hands on</span> From pain-free shutdowns to crap-free search, these tweaks will improve your experience</div>
+                        <div class=time_comments>
+            <span class="section_name">OSes</span><span class="time_stamp" title="21 Sep 08:20" data-epoch="1758442812">21 Sep 2025</span> | <span class="comment light_bg_comments">40</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/20/saas_license_negotiation_advice/" class=story_link>
+            <div class="article_text_elements">
+                <h4>SaaS vendors are hiking costs faster than inflation, but squeaky wheels can still get deals</h4>
+                <div class=standfirst>And also force them to improve resilience</div>
+                        <div class=time_comments>
+            <span class="section_name">SaaS</span><span class="time_stamp" title="20 Sep 13:15" data-epoch="1758374107">20 Sep 2025</span> | <span class="comment light_bg_comments">4</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/20/uk_palantir_defense_pact/" class=story_link>
+            <div class="article_text_elements">
+                <h4>Britain jumps into bed with Palantir in £1.5B defense pact</h4>
+                <div class=standfirst>Arrangement follows big tech tie-ins claiming to offer £31B investment</div>
+                        <div class=time_comments>
+            <span class="section_name">Public Sector</span><span class="time_stamp" title="20 Sep 08:30" data-epoch="1758357009">20 Sep 2025</span> | <span class="comment light_bg_comments">37</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/20/visa_h1b_reform/" class=story_link>
+            <div class="article_text_elements">
+                <h4>Trump admin says tech companies are abusing H-1B visas, slaps $100k a year to allow entry</h4>
+                <div class=standfirst>It will hit outsourcing companies hardest</div>
+                        <div class=time_comments>
+            <span class="section_name">Legal</span><span class="time_stamp" title="20 Sep 01:14" data-epoch="1758330859">20 Sep 2025</span> | <span class="comment light_bg_comments">137</span></div>
+            </div>
+        </a>
+    </article>
+</div>
+<div class="srow rt-2f">
+    <article>
+        <a href="/2025/09/19/meta_wholesale_leccy/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="592" data-height="296" data-src="/2016/12/21/shutterstock_electric_grid.jpg"></div>
+            <div class="article_text_elements">
+                <h4>Zuck has the power! Meta applies to sell excess electricity</h4>
+                <div class=standfirst>With new electricity sources for AI datacenters, the company will have some juice left over</div>
+                        <div class=time_comments>
+            <span class="section_name">Off-Prem</span><span class="time_stamp" title="19 Sep 21:25" data-epoch="1758317128">19 Sep 2025</span> | <span class="comment light_bg_comments">20</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/19/how_to_trick_chatgpt_agents/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="592" data-height="296" data-src="/2023/06/07/shutterstock_2259037073.jpg"></div>
+            <div class="article_text_elements">
+                <h4>ChatGPT joins human league, now solves CAPTCHAs for the right prompt</h4>
+                <div class=standfirst>Could this bot-prevention technique now be obsolete?</div>
+                        <div class=time_comments>
+            <span class="section_name">Security</span><span class="time_stamp" title="19 Sep 18:20" data-epoch="1758306055">19 Sep 2025</span> | <span class="comment light_bg_comments">17</span></div>
+            </div>
+        </a>
+    </article>
+    <div class="bird ad-eagle">
+        <div class="bird_wrapper">
+            <div class="ad_inner_wrap">
+                
+                <div aria-hidden="true" class="adun" data-pos="top" data-raptor="eagle" data-xsm=",mpu,dmpu," data-sm=",mpu,dmpu," data-md=",mpu,dmpu," data-xmd=",mpu,dmpu," data-lg=",dmpu,mpu," data-xlg=",dmpu,mpu," data-xxlg=",dmpu,mpu,">
+                    <noscript>
+                        <a href="https://pubads.g.doubleclick.net/gampad/jump?co=1&amp;iu=/6978/reg_homepage/front&amp;sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&amp;tile=3&amp;c=33aNBL79YCH0DAbiarUjcJ9wAAAo4&amp;t=ct%3Dns%26unitnum%3D3%26raptor%3Deagle%26pos%3Dtop%26test%3D0" target="_blank">
+                            <img src="https://pubads.g.doubleclick.net/gampad/ad?co=1&amp;iu=/6978/reg_homepage/front&amp;sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&amp;tile=3&amp;c=33aNBL79YCH0DAbiarUjcJ9wAAAo4&amp;t=ct%3Dns%26unitnum%3D3%26raptor%3Deagle%26pos%3Dtop%26test%3D0" alt="">
+                        </a>
+                    </noscript>
+                </div>
+            </div>
+        </div>
+    </div>
+    <article>
+        <a href="/2025/09/19/deepseek_cost_train/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="592" data-height="296" data-src="/2025/01/27/shutterstock_deepseek_logo.jpg"></div>
+            <div class="article_text_elements">
+                <h4>Sorry, but DeepSeek didn’t really train its flagship model for $294,000</h4>
+                <div class=standfirst>Training costs detailed in R1 training report don't include 2.79 million GPU hours that laid its foundation</div>
+                        <div class=time_comments>
+            <span class="section_name">AI + ML</span><span class="time_stamp" title="19 Sep 17:48" data-epoch="1758304124">19 Sep 2025</span> | <span class="comment light_bg_comments">13</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/19/cisa_ivanti_bugs_exploited/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="592" data-height="296" data-src="/2025/09/19/shutterstock_2093054713.jpg"></div>
+            <div class="article_text_elements">
+                <h4>Ivanti EPMM holes let miscreants plant shady listeners, CISA says</h4>
+                <div class=standfirst>Unnamed org compromised with two malware sets</div>
+                        <div class=time_comments>
+            <span class="section_name">Cyber-crime</span><span class="time_stamp" title="19 Sep 17:23" data-epoch="1758302586">19 Sep 2025</span> | <span class="comment light_bg_no_comments"></span></div>
+            </div>
+        </a>
+    </article>
+</div>
+<div class="srow rt-1ar">
+    <article>
+        <a href="/2025/09/19/microsoft_copilot_marketing_blitz/" class=story_link>
+            <div class="article_text_elements has_trailer_top">
+                <h4>Microsoft insists Copilot+ PCs are 'empowering the future' – reality disagrees</h4>
+                <div class=standfirst>
+        <span class="label">Comment</span> Latest marketing blitz for a solution seeking a problem... and a killer app</div>
+                        <div class=time_comments>
+            <span class="section_name">AI + ML</span><span class="time_stamp" title="19 Sep 16:02" data-epoch="1758297727">19 Sep 2025</span> | <span class="comment light_bg_comments">72</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/19/hayabusa2_asteroid_measurements_refined/" class=story_link>
+            <div class="article_text_elements">
+                <h4>Turns out Hayabusa2's next asteroid target isn't much bigger than the probe itself</h4>
+                <div class=standfirst>It's also spinning twice as fast than thought, making a tricky rendezvous even trickier</div>
+                        <div class=time_comments>
+            <span class="section_name">Science</span><span class="time_stamp" title="19 Sep 15:15" data-epoch="1758294908">19 Sep 2025</span> | <span class="comment light_bg_comments">11</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/19/gortra_goanywhere_bug/" class=story_link>
+            <div class="article_text_elements">
+                <h4>Ding ding: Fortra rings the perfect-10 bell over latest GoAnywhere MFT bug</h4>
+                <div class=standfirst>Outside experts say the vulnerability has probably already been exploited</div>
+                        <div class=time_comments>
+            <span class="section_name">Patches</span><span class="time_stamp" title="19 Sep 14:30" data-epoch="1758292214">19 Sep 2025</span> | <span class="comment light_bg_comments">4</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/17/imaging_infrastructure_needs_catch/" class=story_link>
+            <div class="article_text_elements has_trailer_top">
+                <h4>Imaging infrastructure needs to catch up with how healthcare operates</h4>
+                <div class=standfirst>Overprovisioning and poor performance can be things of the past for healthcare providers who see the bigger picture</div>
+                <div class="time_comments"><span class="section_name">Partner Content</span></div>
+            </div>
+        </a>
+    </article>
+</div>
+<div class="srow rt-1b">
+    <article>
+        <a href="/2025/09/19/court_lets_nsf_keep_swinging/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2023/04/05/shutterstock_secretive_scientist.jpg"></div>
+            <div class="article_text_elements">
+                <h4>Court lets NSF keep swinging axe at $1B in research grants</h4>
+                <div class=standfirst>Judge rules there’s no quick fix for 1,700+ axed grants, leaving labs scrambling for cash while the lawsuit plays out</div>
+                        <div class=time_comments>
+            <span class="section_name">Science</span><span class="time_stamp" title="19 Sep 13:44" data-epoch="1758289455">19 Sep 2025</span> | <span class="comment light_bg_comments">8</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/19/scattered_spider_teen_cuffed/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2024/08/02/shutterstock_police_arrest.jpg"></div>
+            <div class="article_text_elements">
+                <h4>Scattered Spider teen cuffed after buying games and meals with extortion bitcoin</h4>
+                <div class=standfirst>Bad opsec</div>
+                        <div class=time_comments>
+            <span class="section_name">Cyber-crime</span><span class="time_stamp" title="19 Sep 13:02" data-epoch="1758286926">19 Sep 2025</span> | <span class="comment light_bg_comments">28</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/19/microsoft_entra_id_bug/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2021/08/03/shutterstock_one_ring.jpg"></div>
+            <div class="article_text_elements">
+                <h4>One token to pwn them all: Entra ID bug could have granted access to every tenant</h4>
+                <div class=standfirst>Until Microsoft lobbed it into a virtual volcano</div>
+                        <div class=time_comments>
+            <span class="section_name">Security</span><span class="time_stamp" title="19 Sep 12:30" data-epoch="1758285006">19 Sep 2025</span> | <span class="comment light_bg_comments">15</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/19/pope_vetoes_ai_avatar/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2025/09/19/shutterstock_pope_leo_xiv.jpg"></div>
+            <div class="article_text_elements">
+                <h4>Nice try, sinners: Pope nixes idea of AI pontiff blessing netizens</h4>
+                <div class=standfirst>Leo XIV voices concerns about AI taking jobs – and not just his own</div>
+                        <div class=time_comments>
+            <span class="section_name">Offbeat</span><span class="time_stamp" title="19 Sep 12:00" data-epoch="1758283209">19 Sep 2025</span> | <span class="comment light_bg_comments">42</span></div>
+            </div>
+        </a>
+    </article>
+</div>
+        
+
+
+    
+<div class="srow rt-1a">
+    <article>
+        <a href="/2025/09/19/sap_licensing_criticised_by_dsag_group/" class=story_link>
+            <div class="article_text_elements">
+                <h4>User group says SAP's licensing models make cloud migration harder</h4>
+                <div class=standfirst>DSAG criticizes separate regimes for public, private cloud, says users need more time to upgrade in uncertain times</div>
+                        <div class=time_comments>
+            <span class="section_name">Databases</span><span class="time_stamp" title="19 Sep 11:15" data-epoch="1758280515">19 Sep 2025</span> | <span class="comment light_bg_comments">2</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/19/openai_shadowleak_bug/" class=story_link>
+            <div class="article_text_elements">
+                <h4>OpenAI plugs ShadowLeak bug in ChatGPT that let miscreants raid inboxes</h4>
+                <div class=standfirst>Radware says flaw enabled hidden email prompts to trick Deep Research agent into exfiltrating sensitive data</div>
+                        <div class=time_comments>
+            <span class="section_name">Patches</span><span class="time_stamp" title="19 Sep 10:30" data-epoch="1758277811">19 Sep 2025</span> | <span class="comment light_bg_comments">5</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/19/ofcom_osa_enforcement/" class=story_link>
+            <div class="article_text_elements">
+                <h4>Charities warn Ofcom too soft on Online Safety Act violators</h4>
+                <div class=standfirst>Another blow for the legislation as Parliament continues to hear stakeholder views</div>
+                        <div class=time_comments>
+            <span class="section_name">Legal</span><span class="time_stamp" title="19 Sep 10:00" data-epoch="1758276038">19 Sep 2025</span> | <span class="comment light_bg_comments">42</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/19/uk_excel_champ_crowned/" class=story_link>
+            <div class="article_text_elements">
+                <h4>British spreadsheet wizard will take mad skillz to Vegas after taking national Excel crown</h4>
+                <div class=standfirst>Q: How many Excel users do you need to correctly set the number formatting of a cell? A: Monday, January 1st, 1900</div>
+                        <div class=time_comments>
+            <span class="section_name">Applications</span><span class="time_stamp" title="19 Sep 09:06" data-epoch="1758272795">19 Sep 2025</span> | <span class="comment light_bg_comments">57</span></div>
+            </div>
+        </a>
+    </article>
+</div>
+<div class="srow rt-4a">
+    <article>
+        <a href="/2025/09/15/who_me/?td=rt-4a" class=story_link>
+            <div class="article_text_elements">
+                <h4>After deleting a web server, I started checking what I typed before hitting 'Enter'</h4>
+                <div class=standfirst>
+        <span class="label">Who, Me?</span> Student thought she had the hang of this 'Linux' thing and its kooky CLI</div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/19/bofh_2025_episode_18/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2017/09/28/stuck_in_elevator_shutterstock.jpg"></div>
+            <div class="article_text_elements has_trailer_top">
+                <h4><abbr title="Bastard Operator from Hell">BOFH</abbr>: HR discovers the limits of vertical mobility</h4>
+                <div class=standfirst>
+        <span class="label">Episode 18</span> Ambitious relocation plan stalls between floors 5 and 6</div>
+                        <div class=time_comments>
+            <span class="section_name">BOFH</span><span class="time_stamp" title="19 Sep 08:15" data-epoch="1758269714">19 Sep 2025</span> | <span class="comment light_bg_comments">36</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/19/on_call/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2022/01/21/fired_shutterstock.jpg"></div>
+            <div class="article_text_elements has_trailer_top">
+                <h4>Word to the wise: Don't tell your IT manager they're not in Excel</h4>
+                <div class=standfirst>
+        <span class="label">On Call</span> Contractor sneakily fired after pointing out odious ignorance</div>
+                        <div class=time_comments>
+            <span class="section_name">Applications</span><span class="time_stamp" title="19 Sep 07:30" data-epoch="1758267015">19 Sep 2025</span> | <span class="comment light_bg_comments">159</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/19/mi6_darkweb_portal_upgrade/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2025/09/19/shutterstock_editorial_only_mi6_hq.jpg"></div>
+            <div class="article_text_elements">
+                <h4>MI6 reveals 'Silent Courier' dark web portal upgrade it hopes will help it recruit new spies</h4>
+                <div class=standfirst>YouTube vids explain digital tradecraft to reach spooks over Tor or VPN without blowing your cover</div>
+                        <div class=time_comments>
+            <span class="section_name">Security</span><span class="time_stamp" title="19 Sep 06:27" data-epoch="1758263275">19 Sep 2025</span> | <span class="comment light_bg_comments">14</span></div>
+            </div>
+        </a>
+    </article>
+</div>
+        
+
+    
+<div class="srow rt-2c">
+    <div class="bird ad-falcon">
+        <div class="bird_wrapper">
+            <div class="ad_inner_wrap">
+                
+                <div aria-hidden="true" class="adun" data-pos="top" data-raptor="falcon" data-xsm=",fluid,mpu," data-sm=",fluid,mpu," data-md=",fluid,mpu," data-xmd=",fluid,leaderboard,mpu," data-lg=",fluid,leaderboard,mpu," data-xlg=",fluid,billboard,superleaderboard,leaderboard,mpu," data-xxlg=",fluid,billboard,superleaderboard,brandwidth,brandimpact,leaderboard,mpu,">
+                    <noscript>
+                        <a href="https://pubads.g.doubleclick.net/gampad/jump?co=1&amp;iu=/6978/reg_homepage/front&amp;sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&amp;tile=4&amp;c=44aNBL79YCH0DAbiarUjcJ9wAAAo4&amp;t=ct%3Dns%26unitnum%3D4%26raptor%3Dfalcon%26pos%3Dmid%26test%3D0" target="_blank">
+                            <img src="https://pubads.g.doubleclick.net/gampad/ad?co=1&amp;iu=/6978/reg_homepage/front&amp;sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&amp;tile=4&amp;c=44aNBL79YCH0DAbiarUjcJ9wAAAo4&amp;t=ct%3Dns%26unitnum%3D426raptor%3Dfalcon%26pos%3Dmid%26test%3D0" alt="">
+                        </a>
+                    </noscript>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="srow rt-5c">
+
+        <div class="rhs_line">
+            <a class="nextplatform_logo" href="https://nextplatform.com/"><img loading="lazy" src="/design_picker/8abd5b416f4fff841c2ae741366892cf42e8fa79/graphics/icon/nextplatform_logo.svg" alt="The Next Platform" width="177" height="29"></a>
+        </div>
+        <div class="feed">
+            <article>
+        <a href="https://www.nextplatform.com/2025/09/18/nvidia-and-hyperscaler-friends-do-massive-ai-deals-in-the-uk/">
+            <h4>Nvidia And Hyperscaler Friends Do Massive AI Deals In The UK</h4>
+        </a>
+    </article><article>
+        <a href="https://www.nextplatform.com/2025/09/17/google-shows-off-its-inference-scale-and-prowess/">
+            <h4>Google Shows Off Its Inference Scale And Prowess</h4>
+        </a>
+    </article><article>
+        <a href="https://www.nextplatform.com/2025/09/16/nvidia-takes-the-commanding-lead-in-datacenter-ethernet-switching/">
+            <h4>Nvidia Takes The Commanding Lead In Datacenter Ethernet Switching</h4>
+        </a>
+    </article><article>
+        <a href="https://www.nextplatform.com/2025/09/15/field-of-gpus/">
+            <h4>Field Of GPUs</h4>
+        </a>
+    </article>
+
+        </div>
+
+</div>
+<div class="srow rt-1a">
+    <article>
+        <a href="/2025/09/19/slack_nonprofit_license_hike_threat/" class=story_link>
+            <div class="article_text_elements">
+                <h4>Slack threatened to delete nonprofit coding club’s data if it didn’t pay $50k in a week</h4>
+                <div class=standfirst>Collaborationware CEO tried to smooth things over, but Hack Club now plans a strategy shift</div>
+                        <div class=time_comments>
+            <span class="section_name">SaaS</span><span class="time_stamp" title="19 Sep 05:15" data-epoch="1758258958">19 Sep 2025</span> | <span class="comment light_bg_comments">48</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/19/uber_drone_delivery_trial/" class=story_link>
+            <div class="article_text_elements">
+                <h4>Pigs will fly: Uber Eats to trial drone delivery</h4>
+                <div class=standfirst>Teams with UAV operator Flytrex for service that moves meals in minutes</div>
+                        <div class=time_comments>
+            <span class="section_name">Personal Tech</span><span class="time_stamp" title="19 Sep 02:56" data-epoch="1758250569">19 Sep 2025</span> | <span class="comment light_bg_comments">33</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/19/jaxa_dawn_akatsuki_venus_mission_ends/" class=story_link>
+            <div class="article_text_elements">
+                <h4>Humanity now has zero active robots at Venus as Japan ends 15-year ‘Dawn’ mission</h4>
+                <div class=standfirst>Thanks for the memories, Akatsuki</div>
+                        <div class=time_comments>
+            <span class="section_name">Science</span><span class="time_stamp" title="19 Sep 01:18" data-epoch="1758244699">19 Sep 2025</span> | <span class="comment light_bg_comments">11</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/18/microsoft_datacenter_wisconsin/" class=story_link>
+            <div class="article_text_elements">
+                <h4>Microsoft boasts about humongous datacenter on abandoned Foxconn site in Wisconsin</h4>
+                <div class=standfirst>In a state known for dairy, football, and broken tech dreams</div>
+                        <div class=time_comments>
+            <span class="section_name">Off-Prem</span><span class="time_stamp" title="18 Sep 23:20" data-epoch="1758237651">18 Sep 2025</span> | <span class="comment light_bg_comments">26</span></div>
+            </div>
+        </a>
+    </article>
+</div>
+<div class="srow rt-1b">
+    <article>
+        <a href="/2025/09/18/nvidia_intel_deal_nvlink/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2025/09/18/jensenhuang.jpg"></div>
+            <div class="article_text_elements">
+                <h4>Intel and Nvidia sitting in a tree, NVLink-I-N-G</h4>
+                <div class=standfirst>But still no hero customer for Chipzilla's Foundry biz</div>
+                        <div class=time_comments>
+            <span class="section_name">Systems</span><span class="time_stamp" title="18 Sep 21:35" data-epoch="1758231330">18 Sep 2025</span> | <span class="comment light_bg_comments">6</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/18/google_chrome_ai_browser/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2025/09/18/chromegemini.jpg"></div>
+            <div class="article_text_elements">
+                <h4>Google stuffs Chrome full of AI features whether you like it or not</h4>
+                <div class=standfirst>Why browse the web yourself when an AI sidekick can spoon-feed it to you?</div>
+                        <div class=time_comments>
+            <span class="section_name">AI + ML</span><span class="time_stamp" title="18 Sep 20:44" data-epoch="1758228268">18 Sep 2025</span> | <span class="comment light_bg_comments">53</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/18/google_emergency_patch_chrome_0_day/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2021/02/01/shutterstock_chrome_icon.jpg"></div>
+            <div class="article_text_elements">
+                <h4>Google pushes emergency patch for Chrome 0-day – check your browser version now</h4>
+                <div class=standfirst>Sixth such Chrome flaw this year spotted by the Chocolate Factory, already in play</div>
+                        <div class=time_comments>
+            <span class="section_name">Patches</span><span class="time_stamp" title="18 Sep 18:17" data-epoch="1758219423">18 Sep 2025</span> | <span class="comment light_bg_comments">6</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/18/atlassian_dx_purchase/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2023/10/16/shutterstock_editorial_only_atlassian_teamwork.jpg"></div>
+            <div class="article_text_elements">
+                <h4>Atlassian drops $1B on company that helps measure dev productivity</h4>
+                <div class=standfirst>Aussie CEO promises AI everywhere, and clearer views of what your devs are up to</div>
+                        <div class=time_comments>
+            <span class="section_name">Devops</span><span class="time_stamp" title="18 Sep 17:31" data-epoch="1758216666">18 Sep 2025</span> | <span class="comment light_bg_comments">18</span></div>
+            </div>
+        </a>
+    </article>
+</div>
+<div class="srow rt-4a">
+    <article>
+        <a href="/2025/09/13/to_make_a_humanoid_robot/?td=rt-4a" class=story_link>
+            <div class="article_text_elements">
+                <h4>Inventor who encouraged Elon Musk to make Optimus says most humanoid robots today are 'terrifying'</h4>
+                <div class=standfirst>
+        <span class="label">interview</span> Scott LaValley, CEO of Cartwheel Robotics, says robot makers should prioritize social acceptance over capabilities</div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/18/researchers_just_created_a_working/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2025/09/18/shutterstock_199033223.jpg"></div>
+            <div class="article_text_elements">
+                <h4>AI can now design functional viruses – not the computer kind, either</h4>
+                <div class=standfirst>Inject this synthetic phage into E. coli and it kills better than the real thing</div>
+                        <div class=time_comments>
+            <span class="section_name">Science</span><span class="time_stamp" title="18 Sep 17:02" data-epoch="1758214975">18 Sep 2025</span> | <span class="comment light_bg_comments">33</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/18/sonicwall_breach/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2025/09/18/shutterstock_2476398703.jpg"></div>
+            <div class="article_text_elements">
+                <h4>Crims bust through SonicWall to grab sensitive config data</h4>
+                <div class=standfirst>Vendor pulls plug on cloud backup feature, urges admins to reset passwords and re-secure devices</div>
+                        <div class=time_comments>
+            <span class="section_name">Cyber-crime</span><span class="time_stamp" title="18 Sep 16:15" data-epoch="1758212110">18 Sep 2025</span> | <span class="comment light_bg_comments">5</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/18/got_a_copilot_pc_now/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2025/09/18/shutterstock_678350425.jpg"></div>
+            <div class="article_text_elements">
+                <h4>The Notepad that knew too much: Humble text editor gets unnecessary AI infusion</h4>
+                <div class=standfirst>Copilot+ PC users can run the AI models locally. Others may need a subscription.</div>
+                        <div class=time_comments>
+            <span class="section_name">Software</span><span class="time_stamp" title="18 Sep 15:39" data-epoch="1758209985">18 Sep 2025</span> | <span class="comment light_bg_comments">74</span></div>
+            </div>
+        </a>
+    </article>
+</div>
+<div class="srow rt-2d">
+    <div class="bird ad-hawk">
+        <div class="bird_wrapper">
+            <div class="ad_inner_wrap">
+                
+                <div aria-hidden="true" class="adun" data-pos="mid" data-raptor="hawk" data-xsm=",fluid,mpu," data-sm=",fluid,mpu," data-md=",fluid,mpu," data-xmd=",fluid,leaderboard,mpu," data-lg=",fluid,leaderboard,mpu," data-xlg=",fluid,billboard,superleaderboard,leaderboard,mpu," data-xxlg=",fluid,billboard,superleaderboard,brandwidth,brandimpact,leaderboard,mpu,"></div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="srow rt-1al">
+    <article>
+        <a href="/2025/09/15/security_begins_visibility_how/" class=story_link>
+            <div class="article_text_elements has_trailer_top">
+                <h4>Security begins with visibility: How IGA brings hidden access risks to light</h4>
+                <div class=standfirst>Who has access to what? Without centralized governance, orgs struggle to answer this simple question.</div>
+                <div class="time_comments"><span class="section_name">Partner Content</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/18/850k_americans_affected_by_medical/" class=story_link>
+            <div class="article_text_elements">
+                <h4>Cybercriminals pwn 850k+ Americans' healthcare data</h4>
+                <div class=standfirst>Three US medical centers fess up to serious breaches</div>
+                        <div class=time_comments>
+            <span class="section_name">Cyber-crime</span><span class="time_stamp" title="18 Sep 15:04" data-epoch="1758207871">18 Sep 2025</span> | <span class="comment light_bg_comments">10</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/18/workday_elliott_investment/" class=story_link>
+            <div class="article_text_elements">
+                <h4>Workday U-turns on rehiring pledge as activist investors take $2B stake</h4>
+                <div class=standfirst>Layoffs to stand following $1.1B AI acquisition</div>
+                        <div class=time_comments>
+            <span class="section_name">SaaS</span><span class="time_stamp" title="18 Sep 13:58" data-epoch="1758203919">18 Sep 2025</span> | <span class="comment light_bg_comments">7</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/18/two_teens_charged_in_tfl_case/" class=story_link>
+            <div class="article_text_elements">
+                <h4>Two Scattered Spider teens charged over attack on London’s transport network</h4>
+                <div class=standfirst>Decisive action comes nearly a year after the attack and first arrest took place</div>
+                        <div class=time_comments>
+            <span class="section_name">Cyber-crime</span><span class="time_stamp" title="18 Sep 13:00" data-epoch="1758200412">18 Sep 2025</span> | <span class="comment light_bg_comments">14</span></div>
+            </div>
+        </a>
+    </article>
+</div>
+<div class="srow rt-5b">
+
+        <div class="rhs_line">
+            <a class="blocksandfiles_logo" href="https://blocksandfiles.com/"><img loading="lazy" src="/design_picker/ee7b0d32b167268b4fca76bb55ac877e69d05813/graphics/icon/blocksandfiles_logo.svg" alt="Blocks and Files" width="200" height="29"></a>
+        </div>
+        <div class="feed">
+            <article>
+        <a href="https://blocksandfiles.com/2025/09/19/druva-graph-mapped-backup-admin-data-and-ai-agents/">
+            <h4>Druva rolls out AI agents to mine backup metadata in real time</h4>
+        </a>
+    </article><article>
+        <a href="https://blocksandfiles.com/2025/09/19/qumulo-cisco-deal/">
+            <h4>Qumulo and Cisco partner to store stranded enterprise data for AI</h4>
+        </a>
+    </article><article>
+        <a href="https://blocksandfiles.com/2025/09/19/nvidia-buys-enfabrica/">
+            <h4>Nvidia bids $900M+ for server fabric startup Enfabrica</h4>
+        </a>
+    </article><article>
+        <a href="https://blocksandfiles.com/2025/09/18/pure-ignoring-data-sovereignty-concerns-can-cause-unwanted-financial-loss/">
+            <h4>Pure: ignoring data sovereignty concerns can cause unwanted financial loss</h4>
+        </a>
+    </article>
+
+        </div>
+
+</div>
+<div class="srow rt-1ar">
+    <article>
+        <a href="/2025/09/18/cloudflare_ddosed_itself/" class=story_link>
+            <div class="article_text_elements">
+                <h4>Cloudflare DDoSed itself with React useEffect hook blunder</h4>
+                <div class=standfirst>Dashboard loop caused API outage that was hard to troubleshoot</div>
+                        <div class=time_comments>
+            <span class="section_name">Networks</span><span class="time_stamp" title="18 Sep 12:38" data-epoch="1758199090">18 Sep 2025</span> | <span class="comment light_bg_comments">6</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/18/atc_controller_falls_asleep/" class=story_link>
+            <div class="article_text_elements">
+                <h4>French jet left circling while Corsican controller caught Zs</h4>
+                <div class=standfirst>Wake-up call for dozed and confused chap who had to turn on runway lights</div>
+                        <div class=time_comments>
+            <span class="section_name">Offbeat</span><span class="time_stamp" title="18 Sep 12:03" data-epoch="1758196995">18 Sep 2025</span> | <span class="comment light_bg_comments">42</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/18/vc_giant_insight_partners_confirms/" class=story_link>
+            <div class="article_text_elements">
+                <h4>Insight Partners confirms ransomware hit, more than 12,000 caught in data dragnet</h4>
+                <div class=standfirst>VC giant rebuilt boxes, patched holes, and says it’s beefed up security – but won’t say who did it</div>
+                        <div class=time_comments>
+            <span class="section_name">Cyber-crime</span><span class="time_stamp" title="18 Sep 11:25" data-epoch="1758194700">18 Sep 2025</span> | <span class="comment light_bg_comments">3</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/09/ai_laptop_its_more/" class=story_link>
+            <div class="article_text_elements has_trailer_top">
+                <h4>AI on a laptop? It's more realistic than you think</h4>
+                <div class=standfirst>Inside the Snapdragon X Series quest to reinvent AI</div>
+                <div class="time_comments"><span class="section_name">Sponsored Feature</span></div>
+            </div>
+        </a>
+    </article>
+</div>
+<div class="srow rt-1b">
+    <article>
+        <a href="/2025/09/18/pandamonium_chinabacked_attackers_spoof_congressman/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2024/02/01/china_shutterstock.jpg"></div>
+            <div class="article_text_elements">
+                <h4>Panda-monium: China-backed cyber crew spoof Congressman to dig for dirt on US trade talks</h4>
+                <div class=standfirst>Proofpoint spots efforts to spy on US economic policy nerds</div>
+                        <div class=time_comments>
+            <span class="section_name">Security</span><span class="time_stamp" title="18 Sep 10:30" data-epoch="1758191414">18 Sep 2025</span> | <span class="comment light_bg_comments">9</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/18/chinas_deepseek_ai_reasoning_research/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2025/09/18/shutterstock_stumble.jpg"></div>
+            <div class="article_text_elements">
+                <h4>China's DeepSeek applying trial-and-error learning to its AI 'reasoning'</h4>
+                <div class=standfirst>Model can also explain its answers, researchers find</div>
+                        <div class=time_comments>
+            <span class="section_name">AI + ML</span><span class="time_stamp" title="18 Sep 09:30" data-epoch="1758187815">18 Sep 2025</span> | <span class="comment light_bg_comments">8</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/18/microsoft_fabric_google_oracle/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2025/09/17/shutterstock_weave.jpg"></div>
+            <div class="article_text_elements">
+                <h4>Microsoft weaves Oracle and BigQuery data mirroring into Fabric platform</h4>
+                <div class=standfirst>And knits a graph DB out of LinkedIn cast-offs</div>
+                        <div class=time_comments>
+            <span class="section_name">Databases</span><span class="time_stamp" title="18 Sep 09:00" data-epoch="1758186012">18 Sep 2025</span> | <span class="comment light_bg_comments">1</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/18/three_decades_in_of_linux/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2016/03/08/lone_penguin_image_via_shutterstock.jpg"></div>
+            <div class="article_text_elements has_trailer_top">
+                <h4>How and why Linux has thrived after three decades in Kernelland</h4>
+                <div class=standfirst>
+        <span class="label">Open Source Summit</span> 'Just a hobby, won't be big and professional like GNU...'</div>
+                        <div class=time_comments>
+            <span class="section_name">Bootnotes</span><span class="time_stamp" title="18 Sep 08:15" data-epoch="1758183314">18 Sep 2025</span> | <span class="comment light_bg_comments">67</span></div>
+            </div>
+        </a>
+    </article>
+</div>
+<div class="srow rt-1b">
+    <article>
+        <a href="/2025/09/18/toys_and_tech_futures/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2025/09/17/shutterstock_editorial_only_playstation_2.jpg"></div>
+            <div class="article_text_elements has_trailer_top">
+                <h4>Toys can tell us a lot about how tech will change our lives</h4>
+                <div class=standfirst>
+        <span class="label">Column</span> LEGO Mindstorms, PlayStation 2 and Furby all resonate today in their own way</div>
+                        <div class=time_comments>
+            <span class="section_name">Personal Tech</span><span class="time_stamp" title="18 Sep 07:30" data-epoch="1758180611">18 Sep 2025</span> | <span class="comment light_bg_comments">14</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/18/huawei_ascend_roadmap/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2020/04/01/huawei.jpg"></div>
+            <div class="article_text_elements">
+                <h4>Huawei lays out multi-year AI accelerator roadmap and claims it makes Earth’s mightiest clusters</h4>
+                <div class=standfirst>On the same day that fellow Chinese giant Tencent says its overseas cloud clientele doubled</div>
+                        <div class=time_comments>
+            <span class="section_name">Systems</span><span class="time_stamp" title="18 Sep 06:47" data-epoch="1758178063">18 Sep 2025</span> | <span class="comment light_bg_comments">3</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/18/microsoft_cloud_apps_omnissa_update/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2023/04/21/shutterstock_green_pc_cloud_pc.jpg"></div>
+            <div class="article_text_elements">
+                <h4>Microsoft thinks cloud PCs might be overkill, starts streaming just apps under Windows 365</h4>
+                <div class=standfirst>As old-school virtual desktop player Omnissa distances itself further from VMware</div>
+                        <div class=time_comments>
+            <span class="section_name">Virtualization</span><span class="time_stamp" title="18 Sep 03:15" data-epoch="1758165305">18 Sep 2025</span> | <span class="comment light_bg_comments">27</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/18/replit_agent3_pricing/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2024/09/02/shutterstock_frustrated_software_developer.jpg"></div>
+            <div class="article_text_elements">
+                <h4>Vibe coding platform Replit's latest update is infuriating customers with surprise cost overruns</h4>
+                <div class=standfirst>It's worst when going over older code, one user tells us</div>
+                        <div class=time_comments>
+            <span class="section_name">Devops</span><span class="time_stamp" title="18 Sep 01:47" data-epoch="1758160072">18 Sep 2025</span> | <span class="comment light_bg_comments">34</span></div>
+            </div>
+        </a>
+    </article>
+</div>
+<div class="srow rt-1a">
+    <article>
+        <a href="/2025/09/18/nvidia_china_ai_ban/" class=story_link>
+            <div class="article_text_elements">
+                <h4>Nvidia GeForced out of China as Beijing demands tech titans embrace homegrown silicon</h4>
+                <div class=standfirst>Huawei or another, we're gonna getcha off Nvidia</div>
+                        <div class=time_comments>
+            <span class="section_name">AI + ML</span><span class="time_stamp" title="18 Sep 00:12" data-epoch="1758154343">18 Sep 2025</span> | <span class="comment light_bg_comments">12</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/18/russian_fakenews_network/" class=story_link>
+            <div class="article_text_elements">
+                <h4>Russian fake-news network, led by an ex-Florida sheriff's deputy, storms back into action with 200+ new sites</h4>
+                <div class=standfirst>As the Trump administration guts efforts to counter election disinfo</div>
+                        <div class=time_comments>
+            <span class="section_name">Cyber-crime</span><span class="time_stamp" title="18 Sep 00:00" data-epoch="1758153607">18 Sep 2025</span> | <span class="comment light_bg_comments">44</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/17/us_uk_trade_deal/" class=story_link>
+            <div class="article_text_elements">
+                <h4>US tech giants pledge $42 billion in UK investment as Trump tours Blighty</h4>
+                <div class=standfirst>Datacenters galore, plus some vague cooperation on AI, nuclear, quantum, and more</div>
+                        <div class=time_comments>
+            <span class="section_name">Public Sector</span><span class="time_stamp" title="17 Sep 21:50" data-epoch="1758145811">17 Sep 2025</span> | <span class="comment light_bg_comments">44</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/17/dod_scale_ai_deal/" class=story_link>
+            <div class="article_text_elements">
+                <h4>Scale AI says 'tanks a lot' to Pentagon for data-classifying deal</h4>
+                <div class=standfirst>First up: $41M to use human annotators to label all that unstructured military data. What could go wrong?</div>
+                        <div class=time_comments>
+            <span class="section_name">Public Sector</span><span class="time_stamp" title="17 Sep 21:20" data-epoch="1758144009">17 Sep 2025</span> | <span class="comment light_bg_no_comments"></span></div>
+            </div>
+        </a>
+    </article>
+</div>
+<div class="srow rt-9bq has_label">
+        <h3 class="row_label has_lateral_ornaments">SPONSORED FEATURES</h3>
+    <article>
+        <a href="/2025/09/09/rethinking_application_delivery_hybrid/?td=rt-9bq" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2021/01/28/shutterstock_data.jpg"></div>
+            <div class="article_text_elements">
+                <h4>Rethinking application delivery for the hybrid world</h4>
+                <div class=standfirst>Why bake apps into your OS when you can deliver them as a side dish?</div>
+            </div>
+        </a>
+    </article><div class="other_stories"><div class="line_separator"></div>
+    <article>
+        <a href="/2025/08/26/vmware_customers_say_byebye/?td=rt-9bq" class=story_link>
+            <div class="article_text_elements">
+                <h4>VMware customers say bye-bye Broadcom and vote for Nutanix</h4>
+                <div class=standfirst>Many seeking a replacement for VMware are turning to Nutanix as a strategic choice</div>
+            </div>
+        </a>
+    </article><div class="line_separator"></div>
+    <article>
+        <a href="/2025/08/11/how_fixed_wireless_access/?td=rt-9bq" class=story_link>
+            <div class="article_text_elements">
+                <h4>How fixed wireless access can bridge the digital divide wherever you are</h4>
+                <div class=standfirst>Wireless reaches the parts fiber can’t</div>
+            </div>
+        </a>
+    </article><div class="line_separator"></div>
+    <article>
+        <a href="/2025/08/07/could_agentic_ai_save/?td=rt-9bq" class=story_link>
+            <div class="article_text_elements">
+                <h4>Could agentic AI save us from the cybercrisis?</h4>
+                <div class=standfirst>Many hands make light work in the SOC</div>
+            </div>
+        </a>
+    </article></div>
+</div>
+<div class="srow rt-2g">
+    <div class="bird ad-owl">
+        <div class="bird_wrapper">
+            <div class="ad_inner_wrap">
+                
+                <div aria-hidden="true" class="adun" data-pos="btm" data-raptor="owl" data-xsm=",fluid,mpu,dmpu," data-sm=",fluid,mpu,dmpu," data-md=",fluid,mpu,dmpu," data-xmd=",fluid,leaderboard,mpu," data-lg=",fluid,mpu,leaderboard," data-xlg=",fluid,billboard,superleaderboard,mpu,leaderboard," data-xxlg=",fluid,billboard,superleaderboard,brandwidth,brandimpact,mpu,leaderboard,"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="srow rt-1a">
+    <article>
+        <a href="/2025/09/17/amd_rocm_7_chases_nvidia_cuda/" class=story_link>
+            <div class="article_text_elements">
+                <h4>AMD tries to catch CUDA with performance-boosting ROCm 7 software</h4>
+                <div class=standfirst>House of Zen promises 3.5x improvement in inference and 3x uplift in training perf over last-gen software</div>
+                        <div class=time_comments>
+            <span class="section_name">Systems</span><span class="time_stamp" title="17 Sep 20:40" data-epoch="1758141631">17 Sep 2025</span> | <span class="comment light_bg_comments">5</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/17/scattered_spider_bank_attack/" class=story_link>
+            <div class="article_text_elements">
+                <h4>Scattered Spider gang feigns retirement, breaks into bank instead</h4>
+                <div class=standfirst>You didn't really trust the crims to keep their word, did you?</div>
+                        <div class=time_comments>
+            <span class="section_name">Cyber-crime</span><span class="time_stamp" title="17 Sep 18:37" data-epoch="1758134256">17 Sep 2025</span> | <span class="comment light_bg_comments">4</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/17/ssa_denies_doge_whistleblower_claim/" class=story_link>
+            <div class="article_text_elements">
+                <h4>Social Security admin denies DB data leak, DOGEs questions about a copy</h4>
+                <div class=standfirst>Carefully crafted response makes no mention of whether DOGE employees duplicated critical database</div>
+                        <div class=time_comments>
+            <span class="section_name">Public Sector</span><span class="time_stamp" title="17 Sep 18:01" data-epoch="1758132068">17 Sep 2025</span> | <span class="comment light_bg_comments">9</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/17/cygnus_xl_iss_resupply/" class=story_link>
+            <div class="article_text_elements">
+                <h4>Super-sized space freighter delayed on way to ISS, leaving snacks in jeopardy</h4>
+                <div class=standfirst>Crew will have to wait a little longer for science supplies, spares, and 'fun food'</div>
+                        <div class=time_comments>
+            <span class="section_name">Science</span><span class="time_stamp" title="17 Sep 17:30" data-epoch="1758130215">17 Sep 2025</span> | <span class="comment light_bg_comments">6</span></div>
+            </div>
+        </a>
+    </article>
+</div>
+<div class="srow rt-3c has_label">
+        <h3 class="row_label"><a class="row_title_link has_lateral_ornaments" href="/Popular/" aria-label="Popular Stories">Popular</a></h3><div class="horiz_scroll">
+    <article>
+        <a href="/2025/09/17/scattered_spider_bank_attack/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2025/09/17/shutterstock_1517048462.jpg"></div>
+            <div class="article_text_elements">
+                <h4>Scattered Spider gang feigns retirement, breaks into bank instead</h4>
+                <div class=standfirst>You didn't really trust the crims to keep their word, did you?</div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/19/on_call/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2022/01/21/fired_shutterstock.jpg"></div>
+            <div class="article_text_elements has_trailer_top">
+                <h4>Word to the wise: Don't tell your IT manager they're not in Excel</h4>
+                <div class=standfirst>
+        <span class="label">On Call</span> Contractor sneakily fired after pointing out odious ignorance</div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/18/cloudflare_ddosed_itself/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2021/06/29/shutterstock_foot_gun.jpg"></div>
+            <div class="article_text_elements">
+                <h4>Cloudflare DDoSed itself with React useEffect hook blunder</h4>
+                <div class=standfirst>Dashboard loop caused API outage that was hard to troubleshoot</div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/15/who_me/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2019/08/21/shutterstock_delete_key.jpg"></div>
+            <div class="article_text_elements has_trailer_top">
+                <h4>After deleting a web server, I started checking what I typed before hitting 'Enter'</h4>
+                <div class=standfirst>
+        <span class="label">Who, Me?</span> Student thought she had the hang of this 'Linux' thing and its kooky CLI</div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/16/safe_c_proposal_ditched/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2018/06/15/shutterstock_38621860.jpg"></div>
+            <div class="article_text_elements">
+                <h4>Rust-style safety model for C++ 'rejected' as profiles take priority</h4>
+                <div class=standfirst>Safe C++ proposal author claims that 'will not ever work'</div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/15/ransomware_recovery_codes_plaintext/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2017/10/24/password_shutterstock.jpg"></div>
+            <div class="article_text_elements">
+                <h4>Careless engineer stored recovery codes in plaintext, got whole org pwned</h4>
+                <div class=standfirst>Cautionary tale from the recent SonicWall attacks</div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/14/in_brief_infosec/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2021/04/27/shutterstock_beach.jpg"></div>
+            <div class="article_text_elements has_trailer_top">
+                <h4>15 ransomware gangs ‘go dark’ to enjoy 'golden parachutes'</h4>
+                <div class=standfirst>
+        <span class="label">Infosec In Brief</span> PLUS: China's Great Firewall springs a leak; FBI issues rare 'Flash Alert' of Salesforce attacks; $10m bounty for alleged Russian hacker; and more</div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/19/deepseek_cost_train/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2025/01/27/shutterstock_deepseek_logo.jpg"></div>
+            <div class="article_text_elements">
+                <h4>Sorry, but DeepSeek didn’t really train its flagship model for $294,000</h4>
+                <div class=standfirst>Training costs detailed in R1 training report don't include 2.79 million GPU hours that laid its foundation</div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/17/openai_hallucinations_incentives/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2024/01/10/shutterstock_ai_hallucination.jpg"></div>
+            <div class="article_text_elements">
+                <h4>OpenAI says models are programmed to make stuff up instead of admitting ignorance</h4>
+                <div class=standfirst>Even a wrong answer is right some of the time</div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/19/scattered_spider_teen_cuffed/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2024/08/02/shutterstock_police_arrest.jpg"></div>
+            <div class="article_text_elements">
+                <h4>Scattered Spider teen cuffed after buying games and meals with extortion bitcoin</h4>
+                <div class=standfirst>Bad opsec</div>
+            </div>
+        </a>
+    </article>
+        <a class="reg_btn_primary more_popular_stories" href="/Popular/">MORE<br>STORIES</a>
+        </div>
+    
+</div>
+<div class="srow rt-1ar">
+    <article>
+        <a href="/2025/09/17/tariffs_us_pc_market/" class=story_link>
+            <div class="article_text_elements has_trailer_top">
+                <h4>Tariff threat plays havoc with US PC market, economy not helping</h4>
+                <div class=standfirst>
+        <span class="label">World War Fee</span> American businesses join Win 10 upgrade train, consumers happy to sit on the platform</div>
+                        <div class=time_comments>
+            <span class="section_name">Personal Tech</span><span class="time_stamp" title="17 Sep 16:15" data-epoch="1758125710">17 Sep 2025</span> | <span class="comment light_bg_comments">18</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/17/gartner_ai_spending/" class=story_link>
+            <div class="article_text_elements">
+                <h4>AI in your toaster: Analyst predicts $1.5T global spend in 2025</h4>
+                <div class=standfirst>And we're paying for it piecemeal through the software, services, and devices we buy</div>
+                        <div class=time_comments>
+            <span class="section_name">AI + ML</span><span class="time_stamp" title="17 Sep 15:30" data-epoch="1758123006">17 Sep 2025</span> | <span class="comment light_bg_comments">41</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/17/axiom_space_aims_for_orbit/" class=story_link>
+            <div class="article_text_elements">
+                <h4>Axiom Space aims for orbit with its Orbital Data Center Node</h4>
+                <div class=standfirst>But will the International Space Station still be there to host its node?</div>
+                        <div class=time_comments>
+            <span class="section_name">Security</span><span class="time_stamp" title="17 Sep 14:51" data-epoch="1758120668">17 Sep 2025</span> | <span class="comment light_bg_no_comments"></span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/08/aipowered_future_work_arrives/" class=story_link>
+            <div class="article_text_elements has_trailer_top">
+                <h4>The AI-powered future of work arrives at Zoomtopia 2025</h4>
+                <div class=standfirst>This year's Zoomfest promises some exciting innovations</div>
+                <div class="time_comments"><span class="section_name">Sponsored Posts</span></div>
+            </div>
+        </a>
+    </article>
+</div>
+<div class="srow rt-1b">
+    <article>
+        <a href="/2025/09/17/openai_hallucinations_incentives/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2024/01/10/shutterstock_ai_hallucination.jpg"></div>
+            <div class="article_text_elements">
+                <h4>OpenAI says models are programmed to make stuff up instead of admitting ignorance</h4>
+                <div class=standfirst>Even a wrong answer is right some of the time</div>
+                        <div class=time_comments>
+            <span class="section_name">AI + ML</span><span class="time_stamp" title="17 Sep 14:03" data-epoch="1758117792">17 Sep 2025</span> | <span class="comment light_bg_comments">102</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/17/return_on_investment_for_copilot/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2020/01/17/shutterstock_calc.jpg"></div>
+            <div class="article_text_elements">
+                <h4>Return on investment for Copilot? Microsoft has work to do</h4>
+                <div class=standfirst>Jared Spataro, boss of modern work and biz apps division, says 'hard to make the ROI argument for it'</div>
+                        <div class=time_comments>
+            <span class="section_name">AI + ML</span><span class="time_stamp" title="17 Sep 13:26" data-epoch="1758115581">17 Sep 2025</span> | <span class="comment light_bg_comments">42</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/17/java_25_released/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2024/04/30/coffee_shutterstock.jpg"></div>
+            <div class="article_text_elements">
+                <h4>Strong Java LTS arrives with the release of 25</h4>
+                <div class=standfirst>But efforts to simplify popular programming language for beginners are unlikely to boost popularity</div>
+                        <div class=time_comments>
+            <span class="section_name">Software</span><span class="time_stamp" title="17 Sep 12:43" data-epoch="1758113038">17 Sep 2025</span> | <span class="comment light_bg_comments">8</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/17/breachforums_founder_prison/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2016/05/09/prison.jpg"></div>
+            <div class="article_text_elements">
+                <h4>BreachForums kingpin goes from walk-free deal to 3-year stretch</h4>
+                <div class=standfirst>Prosecutors say Conor Fitzpatrick's crimes caused 'incalculable' damage</div>
+                        <div class=time_comments>
+            <span class="section_name">Cyber-crime</span><span class="time_stamp" title="17 Sep 12:40" data-epoch="1758112815">17 Sep 2025</span> | <span class="comment light_bg_comments">4</span></div>
+            </div>
+        </a>
+    </article>
+</div>
+<div class="srow rt-2h">
+    <div class="bird ad-buzzard">
+        <div class="bird_wrapper">
+            <div class="ad_inner_wrap">
+                
+                <div aria-hidden="true" class="adun" data-pos="btm" data-raptor="buzzard" data-xsm=",fluid,mpu,dmpu," data-sm=",fluid,mpu,dmpu," data-md=",fluid,mpu,dmpu," data-xmd=",fluid,leaderboard,mpu," data-lg=",fluid,mpu,leaderboard," data-xlg=",fluid,billboard,superleaderboard,mpu,leaderboard," data-xxlg=",fluid,billboard,superleaderboard,brandwidth,brandimpact,mpu,leaderboard,"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="srow rt-1a">
+    <article>
+        <a href="/2025/09/17/uk_telco_colts_cyberattack_recovery/" class=story_link>
+            <div class="article_text_elements">
+                <h4>UK telco Colt’s recovery from August cyberattack pushes into November</h4>
+                <div class=standfirst>Pentesters confirm key system is safe but core products remain unavailable</div>
+                        <div class=time_comments>
+            <span class="section_name">Cyber-crime</span><span class="time_stamp" title="17 Sep 11:45" data-epoch="1758109514">17 Sep 2025</span> | <span class="comment light_bg_comments">3</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/17/sky_plans_to_ditch_up/" class=story_link>
+            <div class="article_text_elements has_trailer_top">
+                <h4>Sky plans to ditch up to 500 staff in the Technology Group</h4>
+                <div class=standfirst>
+        <span class="label">Exclusive</span> Insiders say AI trials involving 'critical network services' underway and some engineering roles being moved to India</div>
+                        <div class=time_comments>
+            <span class="section_name">Networks</span><span class="time_stamp" title="17 Sep 11:18" data-epoch="1758107888">17 Sep 2025</span> | <span class="comment light_bg_comments">45</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/17/microsoft_uk_ai_cash/" class=story_link>
+            <div class="article_text_elements">
+                <h4>Microsoft pens $15B love letter to the UK with 23,000 Nvidia GPUs attached</h4>
+                <div class=standfirst>Redmond woos Blighty with cloud and AI infrastructure splurge as Trump comes to town</div>
+                        <div class=time_comments>
+            <span class="section_name">On-Prem</span><span class="time_stamp" title="17 Sep 10:51" data-epoch="1758106262">17 Sep 2025</span> | <span class="comment light_bg_comments">7</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/17/chen_bluetooth_driver/" class=story_link>
+            <div class="article_text_elements">
+                <h4>Why Microsoft has the name of an old mouse hidden in its Bluetooth drivers</h4>
+                <div class=standfirst>Screw-up or conspiracy?</div>
+                        <div class=time_comments>
+            <span class="section_name">OSes</span><span class="time_stamp" title="17 Sep 09:30" data-epoch="1758101412">17 Sep 2025</span> | <span class="comment light_bg_comments">62</span></div>
+            </div>
+        </a>
+    </article>
+</div>
+<div class="srow rt-1bl">
+    <article>
+        <a href="/2025/09/02/build_cloud_infrastructure_secure/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2018/02/07/globemagnify.jpg"></div>
+            <div class="article_text_elements has_trailer_top">
+                <h4>Build cloud infrastructure – secure and sovereign for the future</h4>
+                <div class=standfirst>The future of Europe's digital economy is being decided now. Companies that continue to rely on cloud structures from overseas risk losing competitiveness and strategic control</div>
+                <div class="time_comments"><span class="section_name">Partner Content</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/17/leds_pnc_/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2022/08/31/police_shutterstock.jpg"></div>
+            <div class="article_text_elements">
+                <h4>Whitehall lobs £40M at 'critical' phase of police DB reboot</h4>
+                <div class=standfirst>Officials say there's no time to switch suppliers if they want the PNC off life support before March 2026</div>
+                        <div class=time_comments>
+            <span class="section_name">Public Sector</span><span class="time_stamp" title="17 Sep 08:45" data-epoch="1758098709">17 Sep 2025</span> | <span class="comment light_bg_comments">12</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/17/ai_arm_and_copilot_living/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2025/09/15/surface_laptop_7.jpg"></div>
+            <div class="article_text_elements has_trailer_top">
+                <h4>Microsoft Surface 7 laptop: Nice hardware, shame about the OS</h4>
+                <div class=standfirst>
+        <span class="label">hands on</span> Arm, AI, and Copilot, oh my!</div>
+                        <div class=time_comments>
+            <span class="section_name">Personal Tech</span><span class="time_stamp" title="17 Sep 08:00" data-epoch="1758096016">17 Sep 2025</span> | <span class="comment light_bg_comments">47</span></div>
+            </div>
+        </a>
+    </article>
+    <article>
+        <a href="/2025/09/17/uefi_secure_boot_for_linux/" class=story_link>
+            <div class="packed_img story_grid_img" data-width="378" data-height="250" data-src="/2016/06/16/shutterstock_red_shoes.jpg"></div>
+            <div class="article_text_elements">
+                <h4>UEFI Secure Boot for Linux Arm64 – where do we stand?</h4>
+                <div class=standfirst>Still exotic for now, but moves are afoot</div>
+                        <div class=time_comments>
+            <span class="section_name">OSes</span><span class="time_stamp" title="17 Sep 07:15" data-epoch="1758093309">17 Sep 2025</span> | <span class="comment light_bg_comments">30</span></div>
+            </div>
+        </a>
+    </article>
+</div>
+<a href="/earlier/1/" class="reg_btn_primary wide" data-unit-type="more_stories_link">MORE STORIES</a>
+
+    </div>
+</div>
+<div id=footer>
+    <div class="footer_slogan">
+        <div class="footer_wrapper">
+            <p>The Register  <img class="vulture_icon" src="/design_picker/d518b499f8a6e2c65d4d8c49aca8299d54b03012/graphics/icon/vulture_white.png" alt="icon"> Biting the hand that feeds IT</p>
+        </div>
+    </div>
+    <div class="footer_wrapper">
+        <div class=foot_wrapper>
+            <div class="left_block">
+                <div class="foot_list">
+                    <h4>About Us<img loading="lazy" width="7" height="11" alt="" src="/design_picker/d2e337b97204af4aa34dda04c4e5d56d954b216f/graphics/icon/footer_mob_nav_arrow_black.svg" class="expand_arrow"></h4>
+                    <ul>
+                        <li><a href="https://www.theregister.com/Profile/contact/">Contact us</a></li>
+                        <li><a target=_blank rel=noopener href="https://www.theregister.com/AdvertiseWithUs/">Advertise with us</a></li>
+                        <li><a href="https://www.theregister.com/Profile/about_the_register/">Who we are</a></li>
+                    </ul>
+                </div>
+
+                <div class="foot_list more_us">
+                    <h4>Our Websites<img loading="lazy" width="7" height="11" alt="" src="/design_picker/d2e337b97204af4aa34dda04c4e5d56d954b216f/graphics/icon/footer_mob_nav_arrow_black.svg" class="expand_arrow"></h4>
+                    <ul>
+                        <li><a href="https://www.nextplatform.com/">The Next Platform</a></li>
+                        <li><a href="https://devclass.com/">DevClass</a></li>
+                        <li><a href="https://blocksandfiles.com/">Blocks and Files</a></li>
+                    </ul>
+                </div>
+
+                <div class="foot_list privacy">
+                    <h4>Your Privacy<img loading="lazy" width="7" height="11" alt="" src="/design_picker/d2e337b97204af4aa34dda04c4e5d56d954b216f/graphics/icon/footer_mob_nav_arrow_black.svg" class="expand_arrow"></h4>
+                    <ul>
+                        <li><a href="https://www.theregister.com/Profile/cookies/">Cookies Policy</a></li>
+                        <li><a href="https://www.theregister.com/Profile/privacy/">Privacy Policy</a></li>
+                        <li><a href="https://www.theregister.com/Profile/terms_and_conditions_of_use/">Ts &amp; Cs</a></li>
+                        <li>
+    <a href="https://www.theregister.com/Profile/privacy_policy_california_residents/">Do not sell my personal information</a>
+</li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="right_block">
+                <div class="foot_list">
+                    <a href="https://situationpublishing.com/" id="sitpub_logo">
+                        <img loading="lazy" width="250"  alt="Situation Publishing" src="/design_picker/d2e337b97204af4aa34dda04c4e5d56d954b216f/graphics/std/sitpublogo_2022.png">
+                    </a>
+                    <p>
+                        Copyright. All rights reserved © 1998–2025
+
+                    </p>
+                </div>
+            </div>
+            <noscript><img width="1" height="1" src="/Design/graphics/std/transparent_pixel.png" alt="no-js"></noscript>
+        </div>
+    </div>
+</div>
+<div id=end_scripts>
+        <script>
+            if (typeof(ElReg.Ga.sendPageView) === 'function') {
+                ElReg.Ga.sendPageView('reg_homepage/front','9b8af20c047ed52ab05670919930fa5d','9b8af20c047ed52ab05670919930fa5d');
+            }
+        </script>
+    <script>
+        $(function() { RegUtils.set_bucket_group(486) });
+    </script>
+</div></div>
+</body>
+</html>

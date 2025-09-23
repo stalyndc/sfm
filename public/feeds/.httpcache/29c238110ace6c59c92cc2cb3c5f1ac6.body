@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Horoscope Poissons du jour gratuit</title>
+<meta name="description" content="Poissons: Horoscope du jour gratuit avec nos prévisions en humeur, amour, argent, travail et vos notes en étoiles / conseils pour aujourd'hui." />
+<link rel="stylesheet" href="/css/styles.min.css">
+<link rel="preload" href="/images/fonts/Heebo-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="/images/fonts/Heebo-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+<link rel="prefetch" href="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+
+<link rel="icon" sizes="192x192" href="/favicon/favicon-192x192.png">
+<link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png">
+<link rel="shortcut icon" href="/favicon/favicon.ico">
+
+<!-- Open Graph data -->
+<meta property="og:title" content="Horoscope Poissons du jour gratuit">
+<meta property="og:url" content="https://www.mon-horoscope-du-jour.com/horoscopes/quotidien/poissons.htm">
+<meta property="og:description" content="Poissons: Horoscope du jour gratuit avec nos prévisions en humeur, amour, argent, travail et vos notes en étoiles / conseils pour aujourd'hui." />
+
+<meta property="og:image" content="https://www.mon-horoscope-du-jour.com/images/webp/pl/15.webp" />
+<meta property="og:image:type" content="image/webp"/>
+<meta property="og:image:width" content="580"/>
+<meta property="og:image:height" content="300"/>
+
+<meta property="og:image" content="https://www.mon-horoscope-du-jour.com/images/webp/pxl/15.webp" />
+<meta property="og:image:type" content="image/webp"/>
+<meta property="og:image:width" content="1160"/>
+<meta property="og:image:height" content="600"/>
+
+<meta property="fb:app_id" content="392718834135352"/>
+<meta property="og:locale" content="fr_FR"/>
+
+<meta name="apple-itunes-app" content="app-id=323235598"><!-- iOS : Smart App Banner -->
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Horoscope Poissons du jour gratuit">
+<meta name="twitter:url" content="https://www.mon-horoscope-du-jour.com/horoscopes/quotidien/poissons.htm">
+<meta name="twitter:image" content="https://www.mon-horoscope-du-jour.com/images/pages/fbl/15.png">
+
+	<script type="application/ld+json">
+	{
+	"@context": "https://schema.org",
+	"@type": "BreadcrumbList",
+	"itemListElement": [
+		{
+	"@type": "ListItem",
+	"position": 1,
+	"name": "Horoscopes",
+	"item": "https://www.mon-horoscope-du-jour.com/"
+	}
+	,		{
+	"@type": "ListItem",
+	"position": 2,
+	"name": "Horoscope Quotidien",
+	"item": "https://www.mon-horoscope-du-jour.com/horoscopes/quotidien/"
+	}
+	,		{
+	"@type": "ListItem",
+	"position": 3,
+	"name": "Aujourd'hui",
+	"item": "https://www.mon-horoscope-du-jour.com/horoscopes/quotidien/poissons.htm"
+	}
+			]
+	}
+	</script>
+
+	
+
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "WebSite",
+	"url": "https://www.mon-horoscope-du-jour.com",
+	"potentialAction": 
+	{
+		"@type": "SearchAction",
+		"target": "https://www.mon-horoscope-du-jour.comsearch.htm?q={search_term}",
+		"query-input": "required name=search_term"
+	}
+}
+</script>
+
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "Organization",
+	"name": "Mon Horoscope du Jour",
+	"url": "https://www.mon-horoscope-du-jour.com",
+	"logo": "https://www.mon-horoscope-du-jour.comfavicon/favicon-192x192.png",
+	"sameAs": [
+		"https://www.facebook.com/MonHoroscopeDuJour/",
+		"https://twitter.com/HoroscopeFRANCE",
+		"https://www.instagram.com/monhoroscopedujour/",
+		"https://www.pinterest.fr/mhoroscope/",
+		"https://play.google.com/store/apps/details?id=com.apptitudes_client.sffactory_mhdj&hl=fr",
+		"https://apps.apple.com/fr/app/mon-horoscope-du-jour-tous/id323235598"
+	]
+}
+</script>
+
+<link rel="canonical" href="https://www.mon-horoscope-du-jour.com/horoscopes/quotidien/poissons.htm" />
+<link rel="alternate" href="https://www.free-horoscope.com/horoscopes/today/pisces.htm" hreflang="en" />
+<link rel="alternate" href="https://www.meu-horoscopo-do-dia.com/horoscopos/hoje/#sign_url_BR#.htm" hreflang="pt" />
+<link rel="alternate" href="https://www.mi-horoscopo-del-dia.com/horoscopos/diario/piscis.htm" hreflang="es" />
+
+<link rel="alternate" href="https://www.mon-horoscope-du-jour.com/horoscopes/quotidien/poissons.htm" hreflang="fr" />
+<link rel="alternate" href="https://www.mi-horoscopo-del-dia.com/horoscopos/diario/piscis.htm" hreflang="es" />
+<link rel="alternate" href="https://www.meu-horoscopo-do-dia.com/horoscopos/hoje/peixes.htm" hreflang="pt" />
+<link rel="alternate" href="https://www.ramalan-harian.com/ramalan-bintang/hara-ini/pisces.htm" hreflang="id" />
+<link rel="alternate" href="https://www.mio-oroscopo-del-giorno.com/oroscopi/oggi/pesci.htm" hreflang="it" />
+<link rel="alternate" href="https://www.japan-horoscope.com/horoscopes/today/pisces.htm" hreflang="ja" />
+<link rel="alternate" href="https://www.moj-codzienny-horoskop.com/horoskop/dzis/ryby.htm" hreflang="pl" />
+<link rel="alternate" href="https://www.meirixingzuo.com/horoscopes/today/pisces.htm" hreflang="zh" />
+<link rel="alternate" href="https://www.mein-horoskop-jeden-tag.com/horoskop/heute/fische.htm" hreflang="de" />
+<link rel="alternate" href="https://www.russia-horoscope.com/goroskopi/segodnya/ryby.htm" hreflang="ru" />
+<link rel="alternate" href="https://www.lasotuvi365.com/tu-vi/hom-nay/song-ngu.htm" hreflang="vi" />
+<link rel="alternate" href="https://www.free-horoscope.in/raashiphal/aaj/meen.htm" hreflang="hi" />
+<link rel="alternate" href="https://www.mijnhoroscoop.com/horoscopen/vandaag/vissen.htm" hreflang="nl" />
+<link rel="alternate" href="https://www.mithoroskop.com/horoskoper/i-dag/fiskene.htm" hreflang="da" />
+<link rel="alternate" href="https://www.mitthoroskop.com/horoskoper/i-dag/fiskene.htm" hreflang="no" />
+<link rel="alternate" href="https://www.dagens-horoskop.com/horoskop/idag/fiskarna.htm" hreflang="sv" />
+<link rel="alternate" href="https://www.muj-horoskop.com/horoskopy/dnes/ryby.htm" hreflang="cs" />
+<link rel="alternate" href="https://www.byeoljali.com/horoscopes/today/pisces.htm" hreflang="kr" />
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-22807092-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-22807092-1', { 'anonymize_ip': true });
+</script>
+
+</head>
+<body>
+	<header class="header"><div class="header-desktop">
+	<a href="/"><img src="/images/logo.png" width="150" height="75" alt="Mon Horoscope du Jour" loading="eager"></a>
+	<nav class="main-nav">
+		<ul>
+			<li><a href="/" class="current">Horoscopes</a></li><li><a href="/horoscopes-chinois/">Horoscopes Chinois</a></li><li><a href="/tarots/">Tarot</a></li><li><a href="/amour/">Amour</a></li><li><a href="/signes-astrologiques/">Signes Astro</a></li><li><a href="/astrologie/">Astrologie</a></li><li><a href="/consultations-en-ligne/">Consultations</a></li><li><a href="/numerologie/">Numérologie</a></li>
+		</ul>
+	</nav>
+</div>
+<div class="header-mobile">
+	<button class="menu-button menu-icon" id="menu-button" aria-label="Menu"></button>
+	<a href="/"><img src="/images/logo.png" width="100" height="50" alt="Mon Horoscope du Jour" loading="eager"></a>
+	<div class="header-icons">
+		<button class="menu-button newsletter-icon" id="newsletter-button" aria-label="Notre newsletter" onclick="scrollToAnchor('sub_mobile');"></button>
+		<button class="menu-button search-icon" id="search-button-mobile" aria-label="CHERCHER">
+		</button>
+	</div>
+</div>
+<nav class="sub-nav">
+	<ul class="sub-nav-links">
+		<li><a href="/horoscopes/annuel-2025/">Horoscope 2025</a></li><li><a href="/horoscopes/quotidien/" class="current">Horoscope Quotidien</a></li><li><a href="/horoscopes/hebdomadaire/">Hebdo</a></li><li><a href="/horoscopes/mensuel/">Mensuel</a></li><li><a href="/horoscopes/trimestriel/">Saisons</a></li><li><a href="/signes-astrologiques/zodiaque/calcul-ascendant.htm">Calcul ascendant</a></li><li><a href="/horoscopes/ambiance-astrale-carte-ciel.htm">Prévisions astrales</a></li><li><a href="/horoscopes/ephemeride-hebdomadaire/">Horoscope lunaire</a></li><li><a href="/horoscopes/ephemeride-mensuel/">Actu étoiles</a></li>
+	</ul>
+	<div class="sub-nav-icons">
+		<button class="menu-button newsletter-icon" id="newsletter-button" aria-label="Notre newsletter" onclick="scrollToAnchor('sub_desktop');"></button>
+		<button class="menu-button search-icon" id="search-button-desktop" aria-label="CHERCHER"></button>
+	</div>
+</nav></header>
+
+	<div class="mobile-menu" id="mobile-menu"><button class="close-button" id="close-button">&times;</button>
+<div class="mobile-menu-saint">Mardi 16 Septembre 2025 | Sainte&nbsp;<b>Edith</b></div>
+<div class="mobile-menu-header" id="menu-subscription" onclick="scrollToAnchor('sub_mobile');">Votre horoscope du jour par e-mail</div>
+<div class="mobile-menu-content">
+	<nav>
+		<div class="accordion">
+					<div class="accordion-item">
+			<button class="accordion-header">
+				<div>
+					<div class="horoscope-ico menu-ico-space"></div> Horoscopes				</div>
+				<span class="accordion-icon">&gt;</span>
+			</button>
+			<div class="accordion-content">
+				
+									<p><a href="/horoscopes/annuel-2025/">Horoscope 2025</a></p>
+										<p><a href="/horoscopes/quotidien/">Horoscope Quotidien</a></p>
+										<p><a href="/horoscopes/hebdomadaire/">Hebdo</a></p>
+										<p><a href="/horoscopes/lendemain/">Horoscope de demain</a></p>
+										<p><a href="/horoscopes/mensuel/">Mensuel</a></p>
+										<p><a href="/horoscopes/trimestriel/">Saisons</a></p>
+										<p><a href="/horoscopes/ambiance-astrale-carte-ciel.htm">Prévisions astrales</a></p>
+										<p><a href="/horoscopes/ephemeride-hebdomadaire/">Horoscope lunaire</a></p>
+										<p><a href="/horoscopes/ephemeride-mensuel/">Actu étoiles</a></p>
+					
+			</div>
+		</div>
+				<div class="accordion-item">
+			<button class="accordion-header">
+				<div>
+					<div class="horoscopech-ico menu-ico-space"></div> Horoscopes Chinois				</div>
+				<span class="accordion-icon">&gt;</span>
+			</button>
+			<div class="accordion-content">
+				
+									<p><a href="/horoscopes-chinois/annuel-2025/">Horoscope Chinois 2025</a></p>
+										<p><a href="/horoscopes-chinois/quotidien/">Quotidien</a></p>
+										<p><a href="/horoscopes-chinois/hebdomadaire/">Hebdo</a></p>
+										<p><a href="/horoscopes-chinois/mensuel/">Mensuel</a></p>
+										<p><a href="/horoscopes-chinois/cookie-chinois-fortune.htm">Cookie Chinois</a></p>
+										<p><a href="/horoscopes-chinois/glossaire-chinois/">Glossaire</a></p>
+					
+			</div>
+		</div>
+				<div class="accordion-item">
+			<button class="accordion-header">
+				<div>
+					<div class="tarot-ico menu-ico-space"></div> Tarot				</div>
+				<span class="accordion-icon">&gt;</span>
+			</button>
+			<div class="accordion-content">
+				
+									<p><a href="/tarots/tarot-carte-du-jour.htm">Tirage tarot</a></p>
+										<p><a href="/tarots/lame-tarot.htm">Lame de tarot</a></p>
+										<p><a href="/tarots/tirage-tarot-annuel.htm">Tarot Annuel</a></p>
+										<p><a href="/tarots/les-oracles/tirage-tarot-des-anges.htm">Tarot des Anges</a></p>
+										<p><a href="/tarots/tirage-tarot-amour-chinois/">Tarot amoureux chinois</a></p>
+										<p><a href="/tarots/tirage-tarot-en-maison/">Tarot des Maisons</a></p>
+										<p><a href="/tarots/tirage-oracle-belline.htm">Oracle de Belline</a></p>
+										<p><a href="/tarots/les-oracles/tirage-tarot-persan/">Tarot Persan</a></p>
+										<p><a href="/tarots/les-oracles/">Oracles</a></p>
+					
+			</div>
+		</div>
+				<div class="accordion-item">
+			<button class="accordion-header">
+				<div>
+					<div class="love-ico menu-ico-space"></div> Amour				</div>
+				<span class="accordion-icon">&gt;</span>
+			</button>
+			<div class="accordion-content">
+				
+									<p><a href="/amour/compatibilite-amoureuse/">Compatibilité amoureuse</a></p>
+										<p><a href="/amour/compatibilite-amoureuse-entre-prenoms.htm">Compatibilité prénoms</a></p>
+										<p><a href="/signes-astrologiques/psycho-astro/amour-celibataire-couple/">Conseils en Amour</a></p>
+										<p><a href="/amour/calendrier-venus/">Calendrier de Vénus</a></p>
+										<p><a href="/amour/couleur-jour.htm">Couleur du jour</a></p>
+					
+			</div>
+		</div>
+				<div class="accordion-item">
+			<button class="accordion-header">
+				<div>
+					<div class="signs-ico menu-ico-space"></div> Signes Astro				</div>
+				<span class="accordion-icon">&gt;</span>
+			</button>
+			<div class="accordion-content">
+				
+									<p><a href="/signes-astrologiques/zodiaque/">Signes astro</a></p>
+										<p><a href="/signes-astrologiques/elements-du-zodiaque/">Eléments Astro</a></p>
+										<p><a href="/signes-astrologiques/ascendant/">Ascendant</a></p>
+										<p><a href="/signes-astrologiques/descendant/">Descendant</a></p>
+										<p><a href="/signes-astrologiques/psycho-astro/">Psycho Astro</a></p>
+										<p><a href="/signes-astrologiques/chinois/">Signes Chinois</a></p>
+										<p><a href="/signes-astrologiques/elements-chinois/">Eléments Chinois</a></p>
+										<p><a href="/signes-astrologiques/bebes-enfants/">Astro Enfants</a></p>
+										<p><a href="/consultations-en-ligne/profil-signe-zodiaque-chinois/">Profil zodiacal & chinois</a></p>
+					
+			</div>
+		</div>
+				<div class="accordion-item">
+			<button class="accordion-header">
+				<div>
+					<div class="astro-ico menu-ico-space"></div> Astrologie				</div>
+				<span class="accordion-icon">&gt;</span>
+			</button>
+			<div class="accordion-content">
+				
+									<p><a href="/astrologie/actualite-astrologique/">Actualité astrologique</a></p>
+										<p><a href="/astrologie/transit-astrologique/">Transits Astro</a></p>
+										<p><a href="/astrologie/tout-savoir/">Dossier Astro</a></p>
+										<p><a href="/astrologie/astrologie-mondiale/">Astrologie Mondiale</a></p>
+										<p><a href="/astrologie/monde/">Astrologie dans le Monde</a></p>
+										<p><a href="/astrologie/planetes-astres/">Planètes et Astres</a></p>
+										<p><a href="/astrologie/glossaire-astro/">Glossaire Astro</a></p>
+					
+			</div>
+		</div>
+				<div class="accordion-item">
+			<button class="accordion-header">
+				<div>
+					<div class="consult-ico menu-ico-space"></div> Consultations				</div>
+				<span class="accordion-icon">&gt;</span>
+			</button>
+			<div class="accordion-content">
+				
+									<p><a href="/consultations-en-ligne/questions-reponses-zagon/">Consultation Astrologue</a></p>
+										<p><a href="/consultations-en-ligne/par-telephone-rapides-sans-cb/">Voyance par téléphone</a></p>
+										<p><a href="/consultations-en-ligne/compatibilite-amoureuse/">Compatibilité Amoureuse</a></p>
+										<p><a href="/consultations-en-ligne/compatibilite-amoureuse-astrale.htm">Compatibilité zodiacale</a></p>
+										<p><a href="/consultations-en-ligne/compatibilite-amoureuse-lgbt-homo-gay-lesbienne/">Compatibilité LGBTQA+</a></p>
+										<p><a href="/consultations-en-ligne/analyse-couple/">Analyse Couple</a></p>
+										<p><a href="/consultations-en-ligne/theme-natal/">Thème Natal</a></p>
+					
+			</div>
+		</div>
+				<div class="accordion-item">
+			<button class="accordion-header">
+				<div>
+					<div class="num-ico menu-ico-space"></div> Numérologie				</div>
+				<span class="accordion-icon">&gt;</span>
+			</button>
+			<div class="accordion-content">
+				
+									<p><a href="/numerologie/numerologie-annee-personnelle-2025/">Numérologie 2025</a></p>
+										<p><a href="/numerologie/calcul-biorythme/">Biorythme</a></p>
+										<p><a href="/numerologie/numerologie-amoureuse/">Numérologie Amour</a></p>
+										<p><a href="/numerologie/quotidien/numeros-de-la-chance/">Numéros Chance</a></p>
+										<p><a href="/numerologie/quotidien/tirage-grille-loto/">Loto</a></p>
+										<p><a href="/numerologie/quotidien/tirage-eurodreams/">EuroDreams</a></p>
+										<p><a href="/numerologie/quotidien/tirage-grille-quinte/">Quinté</a></p>
+										<p><a href="/numerologie/chemin-vie/">Chemin de vie</a></p>
+										<p><a href="/numerologie/nombre-expression/">Nombre d'expression</a></p>
+										<p><a href="/numerologie/quotidien/">Quotidien</a></p>
+										<p><a href="/numerologie/personnalite-numerologique/">Prédictions</a></p>
+					
+			</div>
+		</div>
+				<div class="accordion-item">
+			<button class="accordion-header">
+				<div>
+					<div class="work-ico menu-ico-space"></div> Qui sommes-nous?				</div>
+				<span class="accordion-icon">&gt;</span>
+			</button>
+			<div class="accordion-content">
+				
+									<p><a href="/qui-sommes-nous/nos-astrologues.htm">Nos astrologues</a></p>
+										<p><a href="/qui-sommes-nous/restez-connecte/">Restez connecté</a></p>
+										<p><a href="/qui-sommes-nous/charte-de-qualite.htm">Charte de qualité</a></p>
+										<p><a href="/qui-sommes-nous/mentions-legales.htm">Mentions légales</a></p>
+										<p><a href="/qui-sommes-nous/conditions-generales-utilisation.htm">Conditions d'utilisation</a></p>
+										<p><a href="/qui-sommes-nous/donnees-personnelles.htm">Données personnelles</a></p>
+										<p><a href="/qui-sommes-nous/reglementation-generale-sur-la-protection-des-donnees-rgpd.htm">Règlement RGPD</a></p>
+					
+			</div>
+		</div>
+		
+		</div>
+	</nav>
+	<div class="mobile-menu-social">
+		<div class="footer-icons">
+			<a href="https://www.facebook.com/MonHoroscopeDuJour/" target="_blank" rel="nofollow" aria-label="Facebook"><div class="mobile-icon-wrapper"><span class="facebook-logo"></span></div></a>
+			<a href="https://www.instagram.com/monhoroscopedujour/" target="_blank" rel="nofollow" aria-label="Instagram"><div class="mobile-icon-wrapper"><span class="instagram-logo"></span></div></a>
+			<a href="https://www.youtube.com/@monhoroscopedujour6134" target="_blank" rel="nofollow" aria-label="Youtube"><div class="mobile-icon-wrapper"><span class="youtube-logo"></span></div></a>
+			<a href="https://www.tiktok.com/@monhoroscopedujour?lang=fr" target="_blank" rel="nofollow" aria-label="Tik Tok"><div class="mobile-icon-wrapper"><span class="tiktok-logo"></span></div></a>
+			<a href="https://www.pinterest.fr/mhoroscope/" target="_blank" rel="nofollow" aria-label="Pinterest"><div class="mobile-icon-wrapper"><span class="pinterest-logo"></span></div></a>
+			<a href="https://twitter.com/HoroscopeFRANCE" target="_blank" rel="nofollow" aria-label="X / Twitter"><div class="mobile-icon-wrapper"><span class="twitter-logo"></span></div></a>
+			<a href="https://apps.apple.com/fr/app/mon-horoscope-du-jour-tous/id323235598" target="_blank" rel="nofollow" aria-label="App pour iPhone / iPad"><div class="mobile-icon-wrapper"><span class="apple-logo"></span></div></a>
+			<a href="https://play.google.com/store/apps/details?id=com.apptitudes_client.sffactory_mhdj&hl=fr" target="_blank" rel="nofollow" aria-label="App pour Android"><div class="mobile-icon-wrapper"><span class="android-logo"></span></div></a>
+		</div>
+		<div class="mobile-menu-copyright">
+			<p><a href="/qui-sommes-nous/restez-connecte/nouveau-site-alertez-nous.htm ">Nous contacter</a></p>
+			<p><a href="/qui-sommes-nous/conditions-generales-utilisation.htm">Conditions d'utilisation</a> - <span id="fcConsentRevocation" onclick="googlefc.callbackQueue.push(googlefc.showRevocationMessage)" >Confidentialité</span></p>
+			<p>&copy; Copyright 2006-2025 - Tous droits réservés</p>
+		</div>
+	</div>
+</div></div>
+
+	<main class="container">
+
+		<div id="search-bar" class="hidden"><form action="https://www.google.com/search" method="get" target="_blank">
+	<input type="hidden" name="cx" value="31db006ee4c295457">
+	<input type="text" id="search-input" name="q" placeholder="Chercher sur le site" required>
+	<button id="search-submit">CHERCHER</button>
+</form></div>
+
+		<div class="header-main">
+
+			<h1>Horoscope du Poissons aujourd'hui, 16 Septembre 2025</h1>
+			<p class="author">Rédigé par  Emmanuelle Sans</p>
+
+		</div>
+
+		<section class="main-content">
+			<div class="content">
+				
+				<div class="responsive-image-container-hq">
+					<div class="background-blur" style="background-image: url('/images/webp/hq/0916.webp');"></div>
+					<img loading="lazy" src="/images/horoscope-quotidien/horoscope-16-09-2025.png"
+					srcset="/images/webp/hq/0916.webp 300w" 
+					sizes="(min-width: 300px) 100vw" 
+					alt="Horoscope du Poissons aujourd'hui, 16 Septembre 2025" class="foreground-image" fetchpriority="high" width="680" height="280">
+				</div>
+
+				<div class="table-of-content">
+					<span class="table-of-content-title">Aller à:</span>
+					<div class="table-of-content-menu" id="table-of-contents">
+						<ul id="table-of-contents-list"></ul>
+					</div>
+				</div>
+
+				
+	<div class="mobile-only"><div class="adsense-ad"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7997378819215119" crossorigin="anonymous"></script><!-- mhdj_FR-UX_top --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7997378819215119" data-ad-slot="4741543719" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div>
+
+	
+	<div class="header-sign" style="margin: -15px 0px -5px 0px;"><img loading="lazy" src="/images/vectors/sign_color_11.png" width="70" height="70" fetchpriority="high" alt="Poissons"></div>
+	<p class="content-intro">La fin d'un souci arrive sans rien forcer. Cette facilité vous donne des ailes, dans le bon sens ! D'anciennes émotions jaillissent, ce sont elles qui vous empêchent de vous détendre nerveusement parlant. Faites les sortir de vous !</p>
+
+	<div class="summary">
+		<center>
+			<div class="summary-box">
+				<div class="summary-header">
+					
+					<div class="summary-transit-title">
+						<p>Venus en sextile avec Mars</p>
+					</div>
+
+					<div class="summary-transit-svg">
+						<a href="#transit">	<svg width="255" height="140" style="background-color: #2a9fbf">
+		
+		
+			<image x="10" y="15" width="70" height="70" xlink:href="https://www.mon-horoscope-du-jour.com/images/vectors/earth.svg" title="Terre"/>
+			<text x="45" y="95" text-anchor="middle" class="wstxt" fill="#ffffff">Terre</text>
+
+			<circle cx="170" cy="40" r="15" stroke="white" stroke-width="2" fill="#2a9fbf" />
+			<text x="195" y="45" text-anchor="start" class="wstxt" fill="#ffffff">Venus</text>
+			<line x1="76" y1="46" x2="145" y2="40" style="stroke:#fff;stroke-width:1"/>
+
+			<circle cx="165" cy="110" r="15" stroke="white" stroke-width="2" fill="#2a9fbf" />
+			<text x="190" y="117" text-anchor="start" class="wstxt" fill="#ffffff">Mars</text>
+			<line x1="69" y1="68" x2="140" y2="109" style="stroke:#fff;stroke-width:1"/>
+
+			<path d=" M 96 49 A 50 50 354 0 1 86 73" stroke="white" stroke-width="1" fill="none"/>
+			<text x="100" y="70" text-anchor="start" class="wstxt" fill="#ffffff">60&deg;</text>
+
+		
+		
+		
+		
+		
+	</svg>
+	</a>
+					</div>
+
+				</div>
+				
+				<p class="summary-text">Ce transit permet un dialogue entre les sentiments et le désir. Le contexte devient serein.</p>
+
+				<div class="summary-rating">
+
+					<div class="summary-card" onclick="scrollToAnchor('content1');">
+						<div class="horoscope-ico summary-ico"></div>
+						<div class="summary-title">Humeur</div>
+						<div class="summary-star"><span class="staron">★★★★★</span><span class="staroff"></span></div>
+					</div>
+
+					<div class="summary-card" onclick="scrollToAnchor('content2');">
+						<div class="love-ico summary-ico"></div>
+						<div class="summary-title">Amour</div>
+						<div class="summary-star"><span class="staron">★★★★★</span><span class="staroff"></span></div>
+					</div>
+
+					<div class="summary-card" onclick="scrollToAnchor('content3');">
+						<div class="money-ico summary-ico"></div>
+						<div class="summary-title">Argent</div>
+						<div class="summary-star"><span class="staron">★★★★★</span><span class="staroff"></span></div>
+					</div>
+
+					<div class="summary-card" onclick="scrollToAnchor('content4');">
+						<div class="work-ico summary-ico"></div>
+						<div class="summary-title">Travail</div>
+						<div class="summary-star"><span class="staron">★★★★★</span><span class="staroff"></span></div>
+					</div>
+
+					<div class="summary-card" onclick="scrollToAnchor('content5');">
+						<div class="leasures-ico summary-ico"></div>
+						<div class="summary-title">Loisirs</div>
+						<div class="summary-star"><span class="staron">★★★★★</span><span class="staroff"></span></div>
+					</div>
+
+				</div>
+				
+			</div>
+		</center>
+	</div>
+
+	
+	<div class="adsense-ad"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7997378819215119" crossorigin="anonymous"></script><!-- mhdj_FR-UX_content --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7997378819215119" data-ad-slot="6796915316" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+
+	<div class="horoscope-section">
+		<div class="horoscope-content">
+			
+			<div class="horoscope-card">
+			<a name="content1"></a><img src="/images/webp/hq/title_01.webp" alt="Poissons / Humeur" class="horoscope-picture" loading="lazy">
+			<div class="horoscope-content">
+				<div class="horoscope-header">
+					<h2>Humeur</h2>
+					<div class="horoscope-rating">
+						<span class="star staron">★★★★★</span><span class="star staroff"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		</div>
+
+		<div class="horoscope-bar" data-topic="11|mood|+ 0"></div>
+
+		<div class="horoscope-text">
+			
+			<p>Pour votre plus grand bonheur, votre vie relationnelle se teinte de nouvelles couleurs. La bonne humeur est de mise. Les joies familiales sont au rendez-vous. Les discussions sont harmonieuses. Avec un tel programme, vous devriez vous épanouir pleinement.</p>
+
+		</div>
+	</div>
+
+	<div class="horoscope-section">
+		<div class="horoscope-content">
+			
+			<div class="horoscope-card">
+			<a name="content2"></a><img src="/images/webp/hq/title_02.webp" alt="Poissons / Amour" class="horoscope-picture" loading="lazy">
+			<div class="horoscope-content">
+				<div class="horoscope-header">
+					<h2>Amour</h2>
+					<div class="horoscope-rating">
+						<span class="star staron">★★★★★</span><span class="star staroff"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		</div>
+
+		<div class="horoscope-bar" data-topic="11|love|+ 0"></div>
+
+		<div class="horoscope-text">
+			
+			<p>C'est une journée pour veiller au grain, pour préserver votre relation amoureuse, bref pour vous chouchouter un peu. Il y a un temps pour tout et actuellement il est temps de renforcer vos liens les plus précieux !</p>
+
+		</div>
+	</div>
+
+	<div class="adsense-ad"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7997378819215119" crossorigin="anonymous"></script><!-- mhdj_FR-UX_content --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7997378819215119" data-ad-slot="6796915316" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+
+	<div class="horoscope-section">
+		<div class="horoscope-content">
+			
+			<div class="horoscope-card">
+			<a name="content3"></a><img src="/images/webp/hq/title_03.webp" alt="Poissons / Argent" class="horoscope-picture" loading="lazy">
+			<div class="horoscope-content">
+				<div class="horoscope-header">
+					<h2>Argent</h2>
+					<div class="horoscope-rating">
+						<span class="star staron">★★★★★</span><span class="star staroff"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		</div>
+
+		<div class="horoscope-bar" data-topic="11|work|+ 0"></div>
+
+		<div class="horoscope-text">
+			
+			<p>C'est avec beaucoup de plaisir que vous utiliserez votre argent pour vous offrir une vie quotidienne plus confortable. Les achats en famille vous mettront du baume au cœur. Tout le monde sera satisfait de cette journée de détente.</p>
+
+		</div>
+	</div>
+
+	<div class="horoscope-section">
+		<div class="horoscope-content">
+			
+			<div class="horoscope-card">
+			<a name="content4"></a><img src="/images/webp/hq/title_04.webp" alt="Poissons / Travail" class="horoscope-picture" loading="lazy">
+			<div class="horoscope-content">
+				<div class="horoscope-header">
+					<h2>Travail</h2>
+					<div class="horoscope-rating">
+						<span class="star staron">★★★★★</span><span class="star staroff"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		</div>
+
+		<div class="horoscope-bar" data-topic="11|money|+ 0"></div>
+
+		<div class="horoscope-text">
+			
+			<p>Ce sera la bonne période pour faire démarrer une nouvelle entreprise, surtout si elle concerne des projets relatifs aux tout-petits, au commerce ou au patrimoine. Des conditions optimales sont réunies et doivent être saisies.</p>
+
+		</div>
+	</div>
+
+	<div class="horoscope-section">
+		<div class="horoscope-content">
+			
+			<div class="horoscope-card">
+			<a name="content5"></a><img src="/images/webp/hq/title_05.webp" alt="Poissons / Loisirs" class="horoscope-picture" loading="lazy">
+			<div class="horoscope-content">
+				<div class="horoscope-header">
+					<h2>Loisirs</h2>
+					<div class="horoscope-rating">
+						<span class="star staron">★★★★★</span><span class="star staroff"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		</div>
+
+		<div class="horoscope-bar" data-topic="11|leisure|+ 0"></div>
+
+		<div class="horoscope-text">
+			
+			<p>Cette journée va être très active et va vous inviter à accélérer le mouvement pour préparer vos initiatives qui promettent de renouveler votre activité ou au moins d'ouvrir un autre chapitre de votre évolution sociale. Vos élans sont encouragés, profitez-en !</p>
+
+		</div>
+	</div>
+
+	<div class="adsense-ad"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7997378819215119" crossorigin="anonymous"></script><!-- mhdj_FR-UX_content --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7997378819215119" data-ad-slot="6796915316" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+
+	<h2>Et votre Décan dans tout ça ?</h2>
+
+	<p>La lune est en Cancer, en position 19 degré(s),&nbsp;09 minute(s): Puissante, humeurs changeantes, déconcertantes, imagination et sensibilité, souvenirs susceptibilité.</p>
+
+	 <div class="decan-section">
+			
+		
+		<div class="decan-content">
+
+			<div class="decan-card">
+				<img src="/images/webp/hq/title_07.webp" alt="Poissons / La dynamique ambiance qui règne autour de vous, aujourd'hui, vous pousse à mettre les bouchées doubles pour effectuer vos diverses tâches et atteindre vos objectifs. Vous montrez une belle motivation qui a toutes les chances d'être fructueuse." class="horoscope-picture" loading="lazy">
+				<div class="horoscope-content">
+					<div class="horoscope-header">
+						<h2>1er Décan</h2>
+						<div class="horoscope-extra">
+							Né entre:  19 février au 28 février						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="horoscope-text">
+			
+				<p>La dynamique ambiance qui règne autour de vous, aujourd'hui, vous pousse à mettre les bouchées doubles pour effectuer vos diverses tâches et atteindre vos objectifs. Vous montrez une belle motivation qui a toutes les chances d'être fructueuse.</p>
+
+			</div>
+
+		</div>
+
+		
+		<div class="decan-content">
+
+			<div class="decan-card">
+				<img src="/images/webp/hq/title_08.webp" alt="Poissons / C'est dans une ambiance stimulante que la journée va se dérouler à vitesse grand V. Les vibrations du jour vous poussent à intensifier vos actions, à exposer vos compétences, à saisir des opportunités qui sont en osmose avec vos idéaux." class="horoscope-picture" loading="lazy">
+				<div class="horoscope-content">
+					<div class="horoscope-header">
+						<h2>2ème Décan</h2>
+						<div class="horoscope-extra">
+							Né entre:  01 mars au 10 mars						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="horoscope-text">
+			
+				<p>C'est dans une ambiance stimulante que la journée va se dérouler à vitesse grand V. Les vibrations du jour vous poussent à intensifier vos actions, à exposer vos compétences, à saisir des opportunités qui sont en osmose avec vos idéaux.</p>
+
+			</div>
+
+		</div>
+
+		
+		<div class="decan-content">
+
+			<div class="decan-card">
+				<img src="/images/webp/hq/title_09.webp" alt="Poissons / La présence de la lune vous stimule, vous dynamise, vous donne des ailes pour entreprendre de nouvelles choses, partir à la découverte de nouveaux horizons, oser franchir une nouvelle étape. Tout est possible !" class="horoscope-picture" loading="lazy">
+				<div class="horoscope-content">
+					<div class="horoscope-header">
+						<h2>3ème Décan</h2>
+						<div class="horoscope-extra">
+							Né entre:  11 mars au 20 mars						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="horoscope-text">
+			
+				<p>La présence de la lune vous stimule, vous dynamise, vous donne des ailes pour entreprendre de nouvelles choses, partir à la découverte de nouveaux horizons, oser franchir une nouvelle étape. Tout est possible !</p>
+
+			</div>
+
+		</div>
+
+		
+	</div>
+
+	<p class="content-intro">Laissez les efforts pour les journées plus difficiles. En ce moment vous n'avez qu'à vous baisser pour récolter les profits. Mettez un maximum de côté, ce sera très utile pour la suite.</p>
+
+	<div style="display: block; width: 100%; overflow: hidden;"><a href="/horoscopes/lendemain/poissons.htm"><button type="button" class="horoscope-button">Horoscope du Poissons<br>de demain</button></a></div>	
+	
+
+				<div class="share-container">
+	<p class="share-text"><b>Partager :</b></p>
+	<div class="share-icons">
+		<div class="ico-title-wrapper ico-title-wrapper-facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.mon-horoscope-du-jour.com%2Fhoroscopes%2Fquotidien%2Fpoissons.htm" target="_blank" rel="nofollow" aria-label="Facebook"><span class="facebook-logo"></span></a></div>
+		<div class="ico-title-wrapper ico-title-wrapper-whatsapp"><a href="https://api.whatsapp.com/send?text=Poissons%3A%20Horoscope%20du%20jour%20gratuit%20avec%20nos%20pr%C3%A9visions%20en%20humeur%2C%20amour%2C%20argent%2C%20travail%20et%20vos%20notes%20en%20%C3%A9toiles%20%2F%20conseils%20pour%20aujourd%27hui.%20https%3A%2F%2Fwww.mon-horoscope-du-jour.com%2Fhoroscopes%2Fquotidien%2Fpoissons.htm" target="_blank" rel="nofollow" aria-label="Whatsapp"><span class="whatsapp-logo"></span></a></div>
+		<div class="ico-title-wrapper ico-title-wrapper-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.mon-horoscope-du-jour.com%2Fhoroscopes%2Fquotidien%2Fpoissons.htm&text=Poissons%3A%20Horoscope%20du%20jour%20gratuit%20avec%20nos%20pr%C3%A9visions%20en%20humeur%2C%20amour%2C%20argent%2C%20travail%20et%20vos%20notes%20en%20%C3%A9toiles%20%2F%20conseils%20pour%20aujourd%27hui.&via=HoroscopeFRANCE&image=https://www.mon-horoscope-du-jour.com/images/pages/fbl/15.png" target="_blank" rel="nofollow" aria-label="Twitter / X"><span class="twitter-logo"></span></a></div>
+		<div class="ico-title-wrapper ico-title-wrapper-mail"><a href="/cdn-cgi/l/email-protection#754a0600171f1016014856051412102a0114122a011c0119102a071402000719101b161a11105653171a110c48251a1c06061a1b065046345047453d1a071a06161a051050474511005047451f1a000750474512071401001c01504745140310165047451b1a06504745050750364650344c031c061c1a1b06504745101b5047451d001810000750473650474514181a0007504736504745140712101b0150473650474501071403141c195047451001504745031a065047451b1a011006504745101b50474550364650344c011a1c191006504745504733504745161a1b06101c1906504745051a000750474514001f1a0007115047421d001c5b5047451d010105065046345047335047330202025b181a1b581d1a071a06161a0510581100581f1a00075b161a185047331d1a071a06161a05100650473304001a011c111c101b504733051a1c06061a1b065b1d0118" target="_blank" rel="nofollow" aria-label="Email"><span class="mail-logo"></span></a></div>
+	</div>
+</div>
+				<div class="link-container">
+	<div class="link-box"><div><a href="/horoscopes/quotidien/poissons.htm"><div class="horoscope-ico link-box-ico"></div> Horoscope Quotidien</a></div></div><div class="link-box"><div><a href="/horoscopes/lendemain/poissons.htm"><div class="signs-ico link-box-ico"></div> Horoscope de demain</a></div></div><div class="link-box"><div><a href="/horoscopes/surlendemain/poissons.htm"><div class="astro-ico link-box-ico"></div> Horoscope d'après-demain</a></div></div><div class="link-box"><div><a href="/horoscopes/hebdomadaire/poissons.htm"><div class="horoscope-ico link-box-ico"></div> Hebdo</a></div></div><div class="link-box"><div><a href="/horoscopes/mensuel/amour/poissons.htm"><div class="leasures-ico link-box-ico"></div> Mensuel</a></div></div><div class="link-box"><div><a href="/horoscopes/annuel-2025/amour/poissons.htm"><div class="horoscopech-ico link-box-ico"></div> Horoscope 2025</a></div></div><div class="link-box"><div><a href="/tarots/tarot-carte-du-jour.htm"><div class="tarot-ico link-box-ico"></div> Tirage tarot</a></div></div><div class="link-box"><div><a href="/numerologie/quotidien/numeros-de-la-chance/"><div class="num-ico link-box-ico"></div> Numéros Chance</a></div></div><div class="link-box"><div><a href="/amour/compatibilite-entre-signes-astrologiques.htm"><div class="love-ico link-box-ico"></div> Compatibilité entre signes</a></div></div><div class="link-box"><div><a href="/signes-astrologiques/zodiaque/"><div class="celebrity-ico link-box-ico"></div> Signes astro</a></div></div><div class="link-box"><div><a href="/consultations-en-ligne/"><div class="consult-ico link-box-ico"></div> Consultations</a></div></div>
+</div>
+				<p class="box-title">Les plus populaires du site</p>
+<p class="box-txt">Découvrez les horoscopes, articles et applis astro les plus consultés – l'occasion idéale de plonger dans l'univers de l'astrologie, entre infos et divertissement !</p>
+
+<div class="articles-list">
+			<div class="article-item">
+			<a href="/signes-astrologiques/chinois/dragon.htm"><img src="/images/webp/pm/84.webp" alt="Le Dragon, un natif qui adore séduire!" class="article-image" width="80" height="80" loading="lazy"></a>
+			<div class="article-content">
+				<a href="/signes-astrologiques/chinois/dragon.htm"><b>Le Dragon, un natif qui adore séduire!</b> <span>Le Dragon est un être charismatique, doté d'une grande force de caractère qui sait convaincre mais qui a plus de mal à rester concentré!</span></a>
+			</div>
+		</div>
+				<div class="article-item">
+			<a href="/signes-astrologiques/zodiaque/taureau.htm"><img src="/images/webp/pm/93.webp" alt="Taureau : Révélez leur force " class="article-image" width="80" height="80" loading="lazy"></a>
+			<div class="article-content">
+				<a href="/signes-astrologiques/zodiaque/taureau.htm"><b>Taureau : Révélez leur force </b> <span>Le Taureau (21 avril au 20 mai) est un épicurien, attaché à tous les plaisirs et très sensuel. C'est un signe de Terre attentif aux détails!</span></a>
+			</div>
+		</div>
+				<div class="article-item">
+			<a href="/signes-astrologiques/zodiaque/vierge.htm"><img src="/images/webp/pm/97.webp" alt="Vierge : Comprenez leur perfection " class="article-image" width="80" height="80" loading="lazy"></a>
+			<div class="article-content">
+				<a href="/signes-astrologiques/zodiaque/vierge.htm"><b>Vierge : Comprenez leur perfection </b> <span>La Vierge (23 aout au 22 septembre), signe de Terre, gouverné par Mercure, est lié à la Maison VI, maison de la vie quotidienne!</span></a>
+			</div>
+		</div>
+				<div class="article-item">
+			<a href="/signes-astrologiques/zodiaque/balance.htm"><img src="/images/webp/pm/98.webp" alt="Balance : Découvrez leur harmonie " class="article-image" width="80" height="80" loading="lazy"></a>
+			<div class="article-content">
+				<a href="/signes-astrologiques/zodiaque/balance.htm"><b>Balance : Découvrez leur harmonie </b> <span>La Balance (23 septembre au 23 octobre) évolue en plein automne. Ce signe, gouverné par Vénus, est lié à la Maison VII, maison des unions.</span></a>
+			</div>
+		</div>
+		
+</div>
+
+				<div class="newsletter-block-content"><a name="sub_mobile"></a><div class="subscription-box">
+		<div class="subscription-header lazyload" data-bg="/images/newsletter.png"></div>
+		<p class="box-title">Votre Horoscope Quotidien</p>
+		<p class="box-txt">Et aussi : cadeaux astro, tirages de tarot, biorythme... inscrivez-vous vite !</p>
+		<div id="responseContainer_mobile"></div>
+		<input type="email" name="email" id="email_mobile" placeholder="Votre e-mail pour vous abonner" autocomplete="on" required>
+		<select id="sign_mobile" name="sign" aria-label="Votre signe du zodiaque" required>
+			<option value="" disabled selected>Votre signe du zodiaque</option>
+			<option value="0">Bélier</option><option value="1">Taureau</option><option value="2">Gémeaux</option><option value="3">Cancer</option><option value="4">Lion</option><option value="5">Vierge</option><option value="6">Balance</option><option value="7">Scorpion</option><option value="8">Sagittaire</option><option value="9">Capricorne</option><option value="10">Verseau</option><option value="11">Poissons</option>
+		</select>
+		<button type="submit" id="subscribeButton_mobile">S'ABONNER</button>
+	</div></div>
+
+				<div class="adsense-ad"><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7997378819215119" crossorigin="anonymous"></script><!-- mhdj_FR-UX_bottom --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7997378819215119" data-ad-slot="9802298702" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+
+			</div>
+		</section>
+
+		<aside class="sidebar"><div class="box-sidebar">
+	<p class="box-title">Les incontournables du site</p>
+	<p class="box-txt">Parcourez les horoscopes, articles et applis astro les plus suivis, pensés pour enrichir vos connaissances et vous divertir avec tout ce que l'astrologie a à offrir !</p>
+			<div class="article">
+			<a href="/signes-astrologiques/zodiaque/poissons.htm"><img src="/images/webp/ps/103.webp" alt="Poissons : Explorez leur sensibilité" width="50" height="50" loading="lazy"></a>
+			<div class="content">
+				<p><a href="/signes-astrologiques/zodiaque/poissons.htm">Poissons : Explorez leur sensibilité				<span>Poissons (19 février au 20 mars) gouverné par Neptune</span></a></p>
+			</div>
+		</div>
+				<div class="article">
+			<a href="/numerologie/numerologie-amoureuse/"><img src="/images/webp/ps/165.webp" alt="Découvrez votre numéro amoureux" width="50" height="50" loading="lazy"></a>
+			<div class="content">
+				<p><a href="/numerologie/numerologie-amoureuse/">Découvrez votre numéro amoureux				<span>Tout savoir grâce à votre date de naissance</span></a></p>
+			</div>
+		</div>
+				<div class="article">
+			<a href="/numerologie/chemin-vie/"><img src="/images/webp/ps/317.webp" alt="Numérologie: Quel est votre chemin de vie ?" width="50" height="50" loading="lazy"></a>
+			<div class="content">
+				<p><a href="/numerologie/chemin-vie/">Numérologie: Quel est votre chemin de vie ?				<span>Etes-vous timide, aventurier, rangé? </span></a></p>
+			</div>
+		</div>
+				<div class="article">
+			<a href="/numerologie/nombre-expression/"><img src="/images/webp/ps/318.webp" alt="Nombre d\'expression : Qui êtes-vous ?" width="50" height="50" loading="lazy"></a>
+			<div class="content">
+				<p><a href="/numerologie/nombre-expression/">Nombre d'expression : Qui êtes-vous ?				<span>Votre trait de caractère, vos qualités et vos faiblesses</span></a></p>
+			</div>
+		</div>
+		
+</div>
+
+<!--
+<div class="adsense-ad ad-sidebar">
+	<! -- MHDJ_FR-300x600 -- >
+	<ins class="adsbygoogle lazyload"
+		 style="display:inline-block;width:300px;height:600px"
+		 data-ad-client="ca-pub-7997378819215119"
+		 data-ad-slot="2479530359"
+		 data-ad-format="auto"
+		 data-full-width-responsive="true"></ins>
+</div>
+-->
+
+<div class="sticky-div">
+
+	<a name="sub_desktop"></a><div class="subscription-box">
+		<div class="subscription-header lazyload" data-bg="/images/newsletter.png"></div>
+		<p class="box-title">Votre Horoscope Quotidien</p>
+		<p class="box-txt">Et aussi : cadeaux astro, tirages de tarot, biorythme... inscrivez-vous vite !</p>
+		<div id="responseContainer_desktop"></div>
+		<input type="email" name="email" id="email_desktop" placeholder="Votre e-mail pour vous abonner" autocomplete="on" required>
+		<select id="sign_desktop" name="sign" aria-label="Votre signe du zodiaque" required>
+			<option value="" disabled selected>Votre signe du zodiaque</option>
+			<option value="0">Bélier</option><option value="1">Taureau</option><option value="2">Gémeaux</option><option value="3">Cancer</option><option value="4">Lion</option><option value="5">Vierge</option><option value="6">Balance</option><option value="7">Scorpion</option><option value="8">Sagittaire</option><option value="9">Capricorne</option><option value="10">Verseau</option><option value="11">Poissons</option>
+		</select>
+		<button type="submit" id="subscribeButton_desktop">S'ABONNER</button>
+	</div>
+
+	<div class="box-sidebar">
+		<p class="box-title">Applis astro tendance</p>
+		<p class="box-txt">Découvrez les applications d'astrologie, de tarot et de numérologie les plus populaires du moment sur notre site :</p>
+				<div class="article">
+			<a href="/tarots/lame-tarot.htm"><img src="/images/webp/ps/332.webp" alt="Quelle est votre lame du tarot personnelle ?" width="50" height="50" loading="lazy"></a>
+			<div class="content">
+				<p><a href="/tarots/lame-tarot.htm">Quelle est votre lame du tarot personnelle ?				<span>Découvrez votre arcane majeure du tarot</span></a></p>
+			</div>
+		</div>
+				<div class="article">
+			<a href="/tarots/tarot-carte-du-jour.htm"><img src="/images/webp/ps/333.webp" alt="Choisissez votre carte du tarot" width="50" height="50" loading="lazy"></a>
+			<div class="content">
+				<p><a href="/tarots/tarot-carte-du-jour.htm">Choisissez votre carte du tarot				<span>Serez-vous l'Empereur, le Jugement ou la Lune ?</span></a></p>
+			</div>
+		</div>
+				<div class="article">
+			<a href="/signes-astrologiques/elements-chinois/quel-est-mon-element-chinois.htm"><img src="/images/webp/ps/337.webp" alt="Découvrez votre élément Chinois !" width="50" height="50" loading="lazy"></a>
+			<div class="content">
+				<p><a href="/signes-astrologiques/elements-chinois/quel-est-mon-element-chinois.htm">Découvrez votre élément Chinois !				<span>Etes-vous Bois, Métal, Eau, Terre ou Feu?</span></a></p>
+			</div>
+		</div>
+				<div class="article">
+			<a href="/numerologie/quotidien/numeros-de-la-chance/"><img src="/images/webp/ps/347.webp" alt="Obtenez vos numéros de la chance!" width="50" height="50" loading="lazy"></a>
+			<div class="content">
+				<p><a href="/numerologie/quotidien/numeros-de-la-chance/">Obtenez vos numéros de la chance!				<span>Chaque jour, obtenez vos numéros de la chance! </span></a></p>
+			</div>
+		</div>
+		
+	</div>
+
+</div></aside>
+
+	</main>
+
+	<footer class="footer"><div class="footer-info-icons-wrapper">
+	<div class="footer-info">
+		<ul class="footer-section">
+			<li><b>Mon Horoscope du Jour</b></li>
+			<li><a href="/qui-sommes-nous/">Qui sommes-nous?</a></li>
+			<li><a href="/qui-sommes-nous/nos-astrologues.htm">Nos astrologues</a></li>
+			<li><a href="/qui-sommes-nous/conditions-generales-utilisation.htm">Conditions d'utilisation</a></li>
+		</ul>
+		<ul class="footer-section">
+			<li><b>Restez connecté</b></li>
+			<li><a href="/qui-sommes-nous/restez-connecte/nouveau-site-alertez-nous.htm">Nous contacter</a></li>
+			<li><a href="/qui-sommes-nous/restez-connecte/">Nos apps mobiles</a></li>
+			<!-- <li onclick="scrollToAnchor('sub_mobile');">Notre newsletter</li> -->
+			<li><a href="/qui-sommes-nous/restez-connecte/instagram.htm">Réseaux sociaux</a></li>
+		</ul>
+	</div>
+	<div class="footer-icons">
+		<div class="icon-wrapper"><a href="https://www.facebook.com/MonHoroscopeDuJour/" target="_blank" rel="nofollow" aria-label="Facebook"><span class="facebook-logo"></span></a></div>
+		<div class="icon-wrapper"><a href="https://www.instagram.com/monhoroscopedujour/" target="_blank" rel="nofollow" aria-label="Instagram"><span class="instagram-logo"></span></a></div>
+		<div class="icon-wrapper"><a href="https://www.youtube.com/@monhoroscopedujour6134" target="_blank" rel="nofollow" aria-label="Youtube"><span class="youtube-logo"></span></a></div>
+		<div class="icon-wrapper"><a href="https://www.tiktok.com/@monhoroscopedujour?lang=fr" target="_blank" rel="nofollow" aria-label="Tik Tok"><span class="tiktok-logo"></span></a></div>
+		<div class="icon-wrapper"><a href="https://www.pinterest.fr/mhoroscope/" target="_blank" rel="nofollow" aria-label="Pinterest"><span class="pinterest-logo"></span></a></div>
+		<div class="icon-wrapper"><a href="https://twitter.com/HoroscopeFRANCE" target="_blank" rel="nofollow" aria-label="X / Twitter"><span class="twitter-logo"></span></a></div>
+		<div class="icon-wrapper"><a href="https://apps.apple.com/fr/app/mon-horoscope-du-jour-tous/id323235598" target="_blank" rel="nofollow" aria-label="App pour iPhone / iPad"><span class="apple-logo"></span></a></div>
+		<div class="icon-wrapper"><a href="https://play.google.com/store/apps/details?id=com.apptitudes_client.sffactory_mhdj&hl=fr" target="_blank" rel="nofollow" aria-label="App pour Android"><span class="android-logo"></span></a></div>
+	</div>
+</div>
+<div class="footer-copyright">
+	<a href="/qui-sommes-nous/conditions-generales-utilisation.htm">Conditions d'utilisation</a> - <span id="fcConsentRevocation" onclick="googlefc.callbackQueue.push(googlefc.showRevocationMessage)" >Confidentialité</span><br>&copy; Copyright 2006-2025 - Tous droits réservés
+</div>
+
+<div class="overlay_pop" id="overlay">
+	<div class="subscription-box_pop">
+		<div class="subscription-header_pop">
+			<span class="close-btn_pop" id="closePopup">&times;</span>
+		</div>
+		<div class="content_pop">
+			<p class="box-title" style="margin: 0px;">Votre Horoscope Quotidien</p>
+			<p class="box-txt">Et aussi : cadeaux astro, tirages de tarot, biorythme... inscrivez-vous vite !</p>
+			<div id="responseContainer_pop"></div>
+			<input type="email" name="email" id="email_pop" placeholder="Votre e-mail pour vous abonner" autocomplete="on" required>
+			<select id="sign_pop" name="sign" aria-label="Votre signe du zodiaque" required>
+				<option value="" disabled selected>Votre signe du zodiaque</option>
+				<option value="0">Bélier</option><option value="1">Taureau</option><option value="2">Gémeaux</option><option value="3">Cancer</option><option value="4">Lion</option><option value="5">Vierge</option><option value="6">Balance</option><option value="7">Scorpion</option><option value="8">Sagittaire</option><option value="9">Capricorne</option><option value="10">Verseau</option><option value="11">Poissons</option>			</select>
+			<button type="submit" id="subscribeButton_pop">S'ABONNER</button>
+		</div>
+	</div>
+</div>
+
+<script src="/includes/scripts.js"></script></footer>
+</body>
+</html>

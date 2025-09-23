@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html  lang="en-GB">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The web site of snollygoster-scunner</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+           <!--   <body background=”assets/NTX750PA_1989.png“> -->
+    <link media="all" rel="icon" type="image/x-icon" href="favicon.ico">
+ </head>
+  <body>
+<h3>Welcome to my wee home on the internet</h3> 
+<h1><b><i>"Snollygoster scunner"</i></b></h1>
+<h3>The site will be static! and very often broken as I learn and make changes.  </h3> 
+<p>In the best tradition of <a href=https://en.wikipedia.org/wiki/KISS_principle>"KISS".</a> You have a choice of "Home". That's this page for my blog or "Tech" for my tech stuff</p>
+<nav style="font-size: large">
+<a href="tech">Tech</a>
+</nav>  
+
+<hr /> 
+<h2>Blog</h2>
+<details>
+<summary>Blog summary</summary>
+ <h4>Me ..</h4><p>I'm just some no-name freetard that likes a quiet life. I lived in a beautiful garden and enjoyed watching the wildlife especially the around the <q>sputnik</q> bird table.  Birds in our garden this year include Dunoc, Great tits, coal tits, blue tits, long tail tits greater wood pecker, lots of finches, and wrens. We have a wrens nest that sits in the peak of the thatch of the <q>sitoutery.</q>Then we have a resident Buzzard that gets lots of hassle from my favorites- The jackdaws.</p>
+    <p>I also like my privacy so I'll remove anything that may compromise that. </p>
+    <h3>Here's a list of some of my interests</h3>
+    <p>Note external links have a NE (NorthEast Arrow). If I can be bothered<q>↗</q>  internal do not.</p>
+    <ul>
+      <li><a href="https://en.wikibooks.org/wiki/FLOSS_Concept_Booklet">↗ Floss</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Scottish_Greens">↗ Eco and Green stuff</a></li>
+      <li>Growing both inside as an individual and outside in the <a href="https://en.wikipedia.org/wiki/Organic_horticulture">↗ garden</a></li>
+      <li>Simplicity <a href="https://en.wikipedia.org/wiki/Slow_living">↗ slow living. The joy of dumping the rat race</a></li>
+      <li>Bikes <a href="https://en.wikipedia.org/wiki/Motorcycle">↗ with</a> and <a href="https://en.wikipedia.org/wiki/Bicycle">↗ without engines</a></li>
+    </ul>
+    
+    
+    <h4> Dyslexia and spelling</h4><p> I'm dyslexic so expect typos and poor grammer and the odd word going astray, arse about face etc. I'm afraid you'll have to live with it but I'll fix them if I feel the need when pointed out</p>
+ 
+     <p>Tech... I intend to try and only use html and if I use any css I'll test it in Dillo and links. The site will be view-able in any browser with no java script, cookies or other such crap or <a href="https://en.wikipedia.org/wiki/Enshittification">↗ Enshittification.</a> This site will have minimal images unless I do a gallery. There will be no AI. I aim to make it work on any device from i386 to an k750 mobile. As it should. I fully support the any browser campaign and less invasive tech like gemini xmpp irc and the like. The bloat that frequents most of the internet is making it nothing more than a big fat spying machine with the main objective being your money or you life! and screwing any idea of democracy with <a href=https://simple.wikipedia.org/wiki/Technofeudalism>↗ technofeudalism</a> </p>
+     <p>
+     <a href="http://www.anybrowser.org/campaign/"> <img src="/assets/abblue.gif" width="100" height="20" alt="Viewable With Any Browser" /></a>
+     <p>An explanation of the name for those that may need enlightenment
+     <a href="https://en.wiktionary.org/wiki/snollygoster">↗ snollygoster</a> is a shrewd, unprincipled person, especially a politician. People like "Lettuce Liz" Truss and "Donald Pillow ear" Trump. </p>
+    
+     <p> <a href="https://en.wiktionary.org/wiki/scunner">↗ scunner</a> to cause to loathing, or feel disgust at</p>   
+     
+    <p>So <b>"snollygoster scunner"</b> is someone that has strong feelings of disgust for unprincipled persons</p>
+
+<p>I thought if I'm actually going to add content with any regularity I should post things that interest me. I love notes as I have a shocking memory. I keep text notes with "sensible names" often with the date format of yyyymmdd. This logic formate allows me to retreve information with simple searches like this. <code> ls -R | grep search-term </code> followed by <code>locate search-term results</code>. A great way to find them on my Computer. I'm well aware of fuzzyfind but am happy with my system and if it aint broken don't fix it comes to mind. I also try and avoid <code>go</code> and <code>rust</code> which seem to be what they are written in. If i could find a <code>C</code> fuzzy finder I might be tempted to change my system but I feel no pressing need. Providing a sort of linier diary of my life events mundain or not. I've found it quite interesting to scroll back and read them. A similar thing happens with my photo logs. Great memory joggers. </p>
+<p> I guess it will evolve in time but after an big initial flurry I can see that the simpler the better and I've been busy removing reams of pages as I learn and rationalise. It should be easy for me to post and the reader to read.</p>
+<p>KISS and content need to be king not fancy css or javascript</p>
+<h4>Can you publish 100 posts on your blog in a year?</h4>
+<p> <a href="https://100daystooffload.com/">↗ 100 Days To Offload</a></p>
+<p> We shall see!</p>
+<hr>
+</details>
+
+<h2>September 2025</h2>
+
+<!-- assets i.e pictures, videos etc in 2025/202509 -->
+<!-- thumbnails in yyyy/mm/low 2025/202509/low/ -->
+<!-- maximised in yyyy/mm/mid 2025/202509/mid/ -->
+
+<details>
+<summary id="#20240931">gallery - template </summary>
+<p>
+this is a template blog post copy and paste every thing between the details and /details
+</p>
+
+<!-- this is the structure for a gallery 
+
+ <table align="bottom">
+ <tr>
+ <th>
+
+     mid sized image here              thumbnail image here
+      
+ <a href="2025/202509/mid/a.png"><img src="2025/202509/low/a.png"></a>
+ <a href="2025/202509/mid/b.jpg"><img src="2025/202509/low/b.jpg"></a>
+ <a href="2025/202509/mid/c.jpg"><img src="2025/202509/low/c.jpg"></a>
+ 
+ </th>
+ </tr>
+ </table>
+ <table align="bottom">
+ <tr>
+ <th>
+ 
+ -->
+  <label for="disk_c">Disk usage C:</label>
+<meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+
+<label for="disk_d">Disk usage D:</label>
+<meter id="disk_d" value="0.6">60%</meter> 
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<hr>
+</details>
+
+<details>
+<summary id="process">The processes I use to make my web pages </summary>
+<p>
+As I'm learning different methods of making this site. I thought I should share them.
+</p>
+<p>The structure I like: really simple and compliant. </p>
+<p>The structure for images </p>
+<p>The structure for video and how I capture and encode along with the tools i use </p>
+<ul>
+<li> First I transfer my photos to my Computer. I use <a href="https://ppareit.github.io/swiftp/"> swiftp </a> on my mobile for this and transfer it  as it has the camera. Then open <a href="https://github.com/masneyb/gftp"> gftp </a> on my Desktop computer. </li>
+<li> Then I transfer the images via ftp in to  ~/sites/2025/big/ </li>
+<li> Note that in unix and linux ~ is the sign for the user folder e.g. /home/jack  </li>
+<li> Then I make folders in my sites folder with this structure ~/sites/2025/big/ </li>
+<li> Then in the big folder I create 2 more folders mid and low. Like so  ~/sites/2025/big/mid &  ~/sites/2025/big/low </li>
+<li> Then I open a terminal in ~/sites/2025/big/ </li>
+<li> Then I run this command <code> "mogrify -path low/ -auto-orient -low 200x *.jpg" </code> </li>
+<li> Then I run this command <code> "mogrify -path mid/ -auto-orient -low 600x *.jpg" </code> </li>
+<li> When run from the source directory with the full size images and the sub directories low & Mid in it. This make copies of the images from the source directory and copies and shrinks them into either the mid or low folders  depending on which command you run.</li>
+<li> Then I up load the  reduced images to a similarly structured setup on my site  2025/202509/mid/001.jpg and 2025/202509/low/001.jpg etc"</li>
+</ul>
+
+<p> To see the code and how this works right click on the page and "view source" </p>
+
+<!--      mid images  :   low images --> 
+
+
+ <table>
+ <tr>
+ <th>    
+ <a href="2025/202509/mid/001.jpg"><img src="2025/202509/low/001.jpg"></a>
+ <a href="2025/202509/mid/002.jpg"><img src="2025/202509/low/002.jpg"></a>
+ <a href="2025/202509/mid/003.jpg"><img src="2025/202509/low/003.jpg"></a>
+ </th>
+ </tr>
+ </table>
+ 
+ <!-- example of site structure for images : clickable images in low.  expanded in mid -->
+<hr>
+
+</details>
+
+
+
+
+<h2>August 2025</h2>
+<!-- assets i.e pictures, videos etc in 2025/202508 -->
+
+<details>
+<summary id="every-meal">Every meal Gallery</summary>
+<p>
+This is a gallery of every meal I ate since the 5th of August to the 31st in date order. 
+</p>
+
+ <table>
+ <tr>
+ <th>
+ 
+ <!--      big image here                              src thumbnail image here-->
+ <a href="2025/202508/mid/IMG_20250805_153959.jpg"><img src="2025/202508/low/IMG_20250805_153959.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250806_200810.jpg"><img src="2025/202508/low/IMG_20250806_200810.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250807_123644.jpg"><img src="2025/202508/low/IMG_20250807_123644.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250807_191311.jpg"><img src="2025/202508/low/IMG_20250807_191311.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250807_194427.jpg"><img src="2025/202508/low/IMG_20250807_194427.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250808_123826.jpg"><img src="2025/202508/low/IMG_20250808_123826.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250808_194310.jpg"><img src="2025/202508/low/IMG_20250808_194310.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250808_195628.jpg"><img src="2025/202508/low/IMG_20250808_195628.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250809_123933.jpg"><img src="2025/202508/low/IMG_20250809_123933.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250809_190439.jpg"><img src="2025/202508/low/IMG_20250809_190439.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250809_192416.jpg"><img src="2025/202508/low/IMG_20250809_192416.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250810_090757.jpg"><img src="2025/202508/low/IMG_20250810_090757.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250810_141756.jpg"><img src="2025/202508/low/IMG_20250810_141756.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250810_183348.jpg"><img src="2025/202508/low/IMG_20250810_183348.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250810_185527.jpg"><img src="2025/202508/low/IMG_20250810_185527.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250810_185814.jpg"><img src="2025/202508/low/IMG_20250810_185814.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250811_120159.jpg"><img src="2025/202508/low/IMG_20250811_120159.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250811_192645.jpg"><img src="2025/202508/low/IMG_20250811_192645.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250811_194835.jpg"><img src="2025/202508/low/IMG_20250811_194835.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250812_125903.jpg"><img src="2025/202508/low/IMG_20250812_125903.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250812_200642.jpg"><img src="2025/202508/low/IMG_20250812_200642.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250813_124611.jpg"><img src="2025/202508/low/IMG_20250813_124611.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250813_201133.jpg"><img src="2025/202508/low/IMG_20250813_201133.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250814_074650.jpg"><img src="2025/202508/low/IMG_20250814_074650.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250814_183149.jpg"><img src="2025/202508/low/IMG_20250814_183149.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250814_185857.jpg"><img src="2025/202508/low/IMG_20250814_185857.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250815_122242.jpg"><img src="2025/202508/low/IMG_20250815_122242.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250815_185509.jpg"><img src="2025/202508/low/IMG_20250815_185509.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250816_130003.jpg"><img src="2025/202508/low/IMG_20250816_130003.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250816_201054.jpg"><img src="2025/202508/low/IMG_20250816_201054.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250817_131847.jpg"><img src="2025/202508/low/IMG_20250817_131847.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250817_201744.jpg"><img src="2025/202508/low/IMG_20250817_201744.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250818_110944.jpg"><img src="2025/202508/low/IMG_20250818_110944.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250818_164413.jpg"><img src="2025/202508/low/IMG_20250818_164413.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250818_200322.jpg"><img src="2025/202508/low/IMG_20250818_200322.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250819_123600.jpg"><img src="2025/202508/low/IMG_20250819_123600.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250820_144643.jpg"><img src="2025/202508/low/IMG_20250820_144643.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250820_193909.jpg"><img src="2025/202508/low/IMG_20250820_193909.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250821_121410.jpg"><img src="2025/202508/low/IMG_20250821_121410.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250821_220551.jpg"><img src="2025/202508/low/IMG_20250821_220551.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250822_134051.jpg"><img src="2025/202508/low/IMG_20250822_134051.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250822_134051.jpg"><img src="2025/202508/low/IMG_20250822_134051.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250822_190758.jpg"><img src="2025/202508/low/IMG_20250822_190758.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250823_134447.jpg"><img src="2025/202508/low/IMG_20250823_134447.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250823_193331.jpg"><img src="2025/202508/low/IMG_20250823_193331.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250824_120420.jpg"><img src="2025/202508/low/IMG_20250824_120420.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250824_191900.jpg"><img src="2025/202508/low/IMG_20250824_191900.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250825_135151.jpg"><img src="2025/202508/low/IMG_20250825_135151.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250825_191001.jpg"><img src="2025/202508/low/IMG_20250825_191001.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250826_132324.jpg"><img src="2025/202508/low/IMG_20250826_132324.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250826_133431.jpg"><img src="2025/202508/low/IMG_20250826_133431.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250826_202759.jpg"><img src="2025/202508/low/IMG_20250826_202759.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250827_125638.jpg"><img src="2025/202508/low/IMG_20250827_125638.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250827_175920.jpg"><img src="2025/202508/low/IMG_20250827_175920.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250828_132613.jpg"><img src="2025/202508/low/IMG_20250828_132613.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250828_185609.jpg"><img src="2025/202508/low/IMG_20250828_185609.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250829_121626.jpg"><img src="2025/202508/low/IMG_20250829_121626.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250829_193539.jpg"><img src="2025/202508/low/IMG_20250829_193539.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250830_124506.jpg"><img src="2025/202508/low/IMG_20250830_124506.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250830_192205.jpg"><img src="2025/202508/low/IMG_20250830_192205.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250830_194134.jpg"><img src="2025/202508/low/IMG_20250830_194134.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250831_123424.jpg"><img src="2025/202508/low/IMG_20250831_123424.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250831_190719.jpg"><img src="2025/202508/low/IMG_20250831_190719.jpg"></a>
+ <a href="2025/202508/mid/IMG_20250831_192804.jpg"><img src="2025/202508/low/IMG_20250831_192804.jpg"></a>
+ 
+ </th>
+ </tr>
+ </table>
+
+
+<hr>
+</details>
+
+
+
+<h2>July 2025</h2>
+<!-- assets i.e pictures, videos etc in 2025/202507 -->
+<details>
+<summary id="202507">202507 - template </summary>
+<p>
+this is a template blog post copy and paste every thing between the details and /details
+</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<hr>
+</details>
+
+
+
+<h2>June 2025</h2>
+<!-- assets i.e pictures, videos etc in 2025/202506 -->
+<details>
+<summary id="#20240931">june - template </summary>
+<p>
+this is a template blog post copy and paste every thing between the details and /details
+</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<hr>
+</details>
+
+
+
+
+<h2>May 2025</h2>
+<!-- assets i.e pictures, videos etc in 2025/202505 -->
+<details>
+<summary id="#202505">Sailing home </summary>
+<p>
+This is the epic tale of sailing home. Or rather being kicked off the mooring
+</p>
+<p>When I get around to writing it </p>
+<p>Fishermans tales. Whales, Whales and more whales and a porpose!  </p>
+<p>Must add gallery and videos </p>
+<p> </p>
+<hr>
+</details>
+
+
+<!-- assets i.e pictures, videos etc in 2025/202505 -->
+<details>
+<summary id="202505">We bought a boat! </summary>
+<p>
+this is a template blog post copy and paste every thing between the details and /details
+</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<hr>
+</details>
+
+
+
+
+
+
+<h2>April 2025</h2>
+<!-- assets i.e pictures, videos etc in 2025/202504 -->
+<details>
+<summary id="#202505">Sailing home </summary>
+<p>
+This is the epic tale of sailing home. Or rather being kicked off the mooring
+</p>
+<p>When I get around to writing it </p>
+<p>Fishermans tales. Whales, Whales and more whales and a porpose!  </p>
+<p> </p>
+<p> </p>
+<hr>
+</details>
+
+
+
+<h2>March 2025</h2>
+<!-- assets i.e pictures, videos etc in 2025/202503 -->
+<details>
+<summary id="#20240931">20240931 - template </summary>
+<p>
+this is a template blog post copy and paste every thing between the details and /details
+</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<hr>
+</details>
+
+
+
+<h2>Febuary 2025</h2>
+<!-- assets i.e pictures, videos etc in 2025/202502 -->
+<details>
+<summary id="#20240931">Feb - template </summary>
+<p>
+this is a template blog post copy and paste every thing between the details and /details
+</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<hr>
+</details>
+
+<details>
+<summary id="#20240931">20240931 - template </summary>
+<p>
+
+
+this is a template blog post copy and paste every thing between the details and /details
+</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<hr>
+</details>
+
+<h2>January 2025</h2>
+<!-- assets in 2025/202501 -->
+
+<details>
+<summary id="#20240931">My Bicycles </summary>
+
+<h5> My Bikes </h5>
+<ul>
+<li><p>Dahon</p><a href="http://www.foldsoc.co.uk/uffbp2004.html">Dahon jetstream</a></li>
+<li><p>Brompton</p><a href="https://www.brompton.com/bikes">Brompton</a><p>IMO Brompton make one of the best "folders" there is but they are grossley over priced for what they are. I wouldn't want to ride mime for more than 3 miles unlike both my Bickerton and jetstream which is easily the best to actually ride</p></li>
+<li><p>Bickerton</p><a href="https://www.bickertonportables.co.uk/heritage/">Bickerton history from the official bickerton site. Note that new "Bickertons" are basically a Dahon rebrand</a></li>
+<br>
+<li><a href="https://en.wikipedia.org/wiki/Bickerton_(bicycle)">Bickerton on wickipedia</a></li>
+
+<li><p>B-Twin</p><a href="https://www.cyclingweekly.com/reviews/road-bikes/btwin-triban-500se">B-Twin is my only "racer". Not that I race. Picked it up at an auction cheap</a></li>
+<li><p>Specialized</p><a href="https://www.retrobike.co.uk/gallery2/v/Manufacturer+Archive/Specialized+Archive/Catalogues/Specialized+Catalogue+1989/GroteFoto-7S7LPAGZ.jpg.html">Specialized hardrock 1989</a></li>
+<li><p>Univega</p><a href="https://en.wikipedia.org/wiki/Univega">Univega</a></li>
+
+<li><a href="https://www.retrobike.co.uk/threads/univega-so-underrated.414643/">Univega thread on retronbike</a></li>
+
+<li><a target="_blank" href="https://www.cyclingweekly.com/reviews/road-bikes/btwin-triban-500se">link text</a></li>
+
+<!--
+<a target="_blank" href="https://en.wikipedia.org/wiki/Cat"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field." /></a>
+-->
+
+<li><a target="_blank" href="/bikes/B-twin-500001.jpg" width="100px" height="auto" >
+ <img src="/assets/bikes/B-twin-500001.jpg" alt="b-twin"/> </a></li>
+</ul>
+
+<h5>"My Bike Gallery"</h5>
+
+<h3> To Do </h3>
+<p> add images after site rebuild </P>
+
+ <table>
+ <tr>
+ <th> 
+ 
+ <a href="2025/202509/mid/"><img src="2025/202509/low/"></a>
+ <a href="2025/202509/mid/"><img src="2025/202509/low/"></a>
+ <a href="2025/202509/mid/"><img src="2025/202509/low/"></a>
+ <a href="2025/202509/mid/"><img src="2025/202509/low/"></a>
+ <a href="2025/202509/mid/"><img src="2025/202509/low/"></a>
+ <a href="2025/202509/mid/"><img src="2025/202509/low/"></a>
+ <a href="2025/202509/mid/"><img src="2025/202509/low/"></a>
+ <a href="2025/202509/mid/"><img src="2025/202509/low/"></a>
+ <a href="2025/202509/mid/"><img src="2025/202509/low/"></a>
+ <a href="2025/202509/mid/"><img src="2025/202509/low/"></a>
+ <a href="2025/202509/mid/"><img src="2025/202509/low/"></a>
+ <a href="2025/202509/mid/"><img src="2025/202509/low/"></a>
+ 
+ 
+ </th>
+ </tr>
+ </table>
+
+ 
+ 
+<hr>
+</details>
+
+<details>
+<summary id="#20250102">Recipe for Oat Bread</summary>
+  
+        <p>This is how I make my Oat bread. </p>
+        <ol>
+        <li>1KG oats </li>
+        <li>1lt live yoghurt </li>
+        <li>2 eggs</li>
+        <li>3 teaspoons baking soda</li>
+        <li>pumpkin seeds </li>
+        <li>sun flower seeds </li>
+        </ol>
+        <h5> Method </h5>
+        <p>I have a <a href="https://nutribullet.co.uk/"> <q>Bullet</q></a> but any hand held liquidiser will do. </p>
+         <ol>
+        <li>Switch on the oven to Pre-heat it to 200C. (170c with a fan oven) Do this first and it will be ready to load by the time you're mix is done</li>
+        <li>Mill 200g of oats and add to a big mixing bowel</li>
+        <li>Add and mix the baking soda and 300g of the remaining oats and seeds</li>
+        <li>Break the 2 eggs in to a tall jug and add the yoghurt then liquidise</li>
+        <li>Add the yoghurt mix in to the bowel and gradually stir in the remaining oats until you have a consistent mix</li>
+        <li>Oil some bread tins to stop the mixture sticking when empting after cooking</li>
+        <li>Fill the bread tins and bake for 10 minutes at 200c (170 fan oven) then turn down to 180c (150c fan oven) for 35 minutes. I've found a large discrepancy with differet ovens so experiment!</li>
+        <li>Check the bread. If it's not cooked in side cover with foil to stop the outside crisping and cook longer</li>
+        <li>Once cooked remove from the oven and let it <q>rest</q> for 10 minutes before turning it out on to a rack</li>
+        <li>Once on the rack let it <q> rest </q> for at least 30 minutes before eating</li>
+        <li>Enjoy with butter and marmalade</li>
+        </ol>
+        
+        
+<table>
+ <tr>
+ <th>
+ <!--      big image here                              src thumbnail image here-->
+ <a href="2025/202508/mid/IMG_20250811_115421.jpg"><img src="2025/202508/low/IMG_20250811_115421.jpg"></a>
+ </th>
+ </tr>
+ </table>      
+        
+ <hr>
+</details>
+
+<details>
+<summary id="20250103">How to make a good cup of English Breakfast Tea </summary>
+
+<p> One thing I'm very fussy about is <q>tea.</q> When I'm talking about tea I'm meaning <q> English Breakfast Tea</q> Now if you think you've drunk that an it was horrid or nothing special, think again. As someone that has been brought up on <q>proper tea</q> I can assure you that the UK has the best tea in the world. It's a fortunate/unfortunate lagacy of Empire. We've had good tea for a long time and now demand only the best. Even the shop brand teas here are better than most European teas.</p> 
+<p> I used to live in Sweden. Lovely country but absolutly appalling tea. (Probobly why they all drink Coffee! </p>
+<p>If you have heard of the brand<q>PG Tips</q> the clue is in the name. The tips of the tea is the best bit. If you've ever had tea from India that the poor drink you will notice that it's very stalky. If you've ever had tea in Europe it's usually a weak flavour-less comparison</p>
+<h4>How to make a good pot of tea</h4>
+   <ol>
+        <li></li>
+        <li>Boil freshly drawn water. After it's boiled let it stand for a short while. Boiled water on tea makes it bitter</li>
+        <li>Warm the pot with hot water by half filling it and swirling the water</li>
+        <li>The general rule is a teaspoon of loose tea per person and one for the pot (same for tea bags)</li>
+        <li>Add the hot water to the pot and cover with a tea-cosy (a tea towel will do)</li>
+        <li>Stir and let it brew for 4-5 minutes</li>
+        <li>Alway add any sugar in to a cup first so the hot tea dissolves it. <q><b>NEVER ADD MILK FIRST</b></q> </li>
+        <li>Add milk carefully taking note of the colour change. It is critical to not over milk if you want the best flavour. There is a fine balance to be had here and even now I still get it wrong</li>
+        <li>If you don't or can't take milk don't drink Breakfast tea but rather something else. Unless you want to tanilise your insides. Apparently the molicules in the milk attach to tanin and prevent this </li>
+        <li>Enjoy with toasted oat bread with butter and marmalade</li>
+        </ol>
+<hr>
+</details>
+
+<details>
+<summary id="#20240931">20240931 - template </summary>
+<p>
+this is a template blog post copy and paste every thing between the details and /details
+</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<hr>
+</details>
+
+<details>
+<summary id="#20240931">20240931 - template </summary>
+<p>
+this is a template blog post copy and paste every thing between the details and /details
+</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<hr>
+</details>
+
+<h2>December 2024</h2>
+
+<details>
+<summary id="#20241207">20241207 - Settling in </summary>
+<p>
+We're in! Only the kitchen unit and relocate a couple radiators.
+</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<hr>
+</details>
+
+<h2>November 2024</h2>
+
+<details>
+<summary id="#20241129">20241129 - A tale of the screen </summary>
+<p>
+Well it's over 25 years since I've had a TV or used on line tv services like iplayer.
+</p>
+
+<p>What we do do is watch lots of movies via an old projector and pull down screen. This gives a screen size of about 2m wide.  Now the wife has said she'd quite like to get a TV and with the projector dying we thought a cheap TV could replace that setup. </p>
+<p>I was given the task of finding a TV. I found a Hisense 65 Inch 4K Smart TV 65A6NTUK - Dolby Vision, Game Mode PLUS with 60Hz VRR ALLM, Smooth Motion, AI Sports Mode, Vidaa OS with Freely, Youtube, Netflix and Disney+ & Now TV (2024 Model) [Energy Class G] </p>
+<p>
+TV arrived Wife see's the box and goes nuts about the size. It's enormous, it's horrid, she hates it. We get the tape measure out. Compare it to the mirror. Compare the screen to the wall size. It would take 10 screens to fill it.  Then we remove the TV from the box. There is a lot of padding in the box and the screen looks just right. We watch a movie and the picture is great. We both really love the new screen. 
+</p>
+<hr>
+</details>
+
+<details>
+<summary id="#20241120">20241120 - A tale of two pianos </summary>
+<p>
+Well, it looks like we're all set to complete the sale and purches of our old and new homes. All signed up. Emptying the flat. Which is essentualy getting the piano, sofa and a few boxes out. and we're good for the key and monies transfer. This should take about an hour according to the solicitor.
+</p>
+<p>My Ex moved last weekend and had a hold up with a piano. Removers said it was down as a keyboard. After playing back the telephone order they accepted it was their mistake but wanted another £400 to move it! the delay almost callapsed the chain as the buyer couldn't get vacant possession. Two hours after noon with the piano and boxes all over the pavement she completed.</p>
+<p>Because of the delay it was dark when they arrived at the new house. One guy tripped and dropped the piano against the door frame cracking the top! (and his hand).</p>
+<p>The Mrs says if they can't get the piano up the stairs we'll dump it! I say for £450 they can get it up the stairs because we could have had the place empty by now anyway. The only reason they got the job was because of the piano.</p>
+<p> </p>
+<hr>
+</details>
+
+<details>
+<summary id="#20241112">20241112 - Solicitors! </summary>
+<p>We're meant to be moving a week today. Yesterday after chasing up the solicitor about where we leave the keys and when we should start moving money as we can only transfer £20,000 per day so needs to start moving money.
+</p>
+<p>Suddenly we get a flurry of email's from the buyers agent. </p>
+<p>The flat is in a block of four. Two up two down. 46, 48A, 48B, 50 built around 1900. </p>
+<p>It seems that on her deeds on page 1 it says 48 upper flat east. But on page 12 it's just says 48. The council tax says 48 upper flat right. To be clear there is nor ever has been 48B. </p>
+<p>The plans are clear. </p>
+<p>Our solicitor says we'll have to change the 48 on page 12 to 48B on the land registry before we can complete. </p>
+<p>The thing that gets the wife's goat is she's used the same solicitor when she bought it 24 years ago and they have transferred to title 3 times in that period. Once when she purchased, once when she first married and again after her first husband passed away. 3 times she's paid them, this will be the fourth. </p>
+<p>She also had to point out they spelt her name incorrectly. They also tried to up the fees from what had been agreed in July by another 10% . We have sent them a copy of their own email stating the agreed fees saying we expect them to honour it. </p>
+<p>We're fuming because it may jepardies the sale and we may have to get a mortgage or loose our new dream home. </p>
+<p>Edit: It turns out that the magic B was somehow penciled in during on of the previous transactions by the solicitor! The good news is the deeds are correct no 48. This meant we didn't have to change thinks at the land registory which could have screwed up the sale. With both solicitors happy to proceed as the title was correct we're good to go. I removed the B from the door yesterday!</p>
+<hr>
+</details>
+
+<details>
+<summary id="#20241111">20241111 - To much stuff </summary>
+<p>
+As we get older there comes a point where we suddenly realise that after a life of trying to get stuff, all of a sudden we have way to much. </p>
+<p>Between us we currently have two propertys, and live in a rented house because it is cheap money wise if not time wise. It's in a beutiful location with a great garden, woodland and outbuildings. This means I have a decent workshop.</p> 
+<p>I own a small traditional flat with a garden in a pretty nice location but no off street parking or workshop. My Wife has a similar setup but with a bigger flat but without her own garden. </p>
+<p>Three homes full of stuff. 7 beds, 4 sofas, 6 dining tables, 3 kitchens full of cookers, fridges, washing machines etc. We also have 3 cars, 2 trailers, 7 motorbikes, 8 bycycles (would have been 9 but one was stolen!)  </p>
+<p>We've been taking a trailer to the dump and weighing in metal every week for several months. Giving stuff away, putting stuff in auctions. Trying to sell on Gumtree and we still have to much stuff.</p>
+<p>I put this down to several things. </p>
+<ol>
+<li>Merging two homes when we got married</li>
+<li>Me being a hoarder. Partly because I had a relativly poor childhood. partly because I'm a fixer and maker so repair and reuse a lot.</li> 
+<li>I've had the storage where we rent, so this has allowed me to hoard. </li> 
+<li>We try and not by new for Environmental reasons so have tended to keep <q>good usable things</q>   </li> 
+</ol>
+<hr>
+</details>
+
+<details>
+<summary id="#20241107">20241107 - Democracy is Dead </summary>
+<p>United states of Amatrixa is a real thing</p> 
+<p>Musk it seems is the emperor of the new world. Until he fucks off on his space rocket or meets his maker I think I'm done with politics </p>
+<p></p>
+
+<hr>
+</details>
+
+<details>
+<summary id="#20241106">20241106 - Wood stoves </summary>
+<p>
+Iv'e been using wood as my main source of heating for 25 years. The current stove is a 10kw morse. It's a big stove but big stoves are the most versitile and reduce the amount of work. Less splitting, sawing and cleaning, more control and heat should one require it.  
+</p> 
+<p>We'll now it looks like we'll be moving we started looking at wood stoves. I have a big home made stove that works very well but is a bit ugly, a bit to ugly for the living room so it'll end up in the workshop. </p>
+<p>The new home has two fireplaces. One in the dining room and one in the living room. Yesterday I spent 4 hours trying to reasemble a cheap chinese cast stove and discovered why it was still in bits. It was deformed and no amount of jiggery pokery could get it back together. it was crap. So after admiting defeat I went on to <q>Gumtree</q> to see if i could find a good stove. Bingo! as I was searching up cam a  5kw Firemaster just 4 miles away. Messages done I went round and bought it for the bargin price of £40 </p>
+<img src="/assets/20241106-fire-master-5kw.jpg" alt="image of 5kw Fire master wood stove"> 
+<p>It's very interesting looking at wood stoves. how they're designed, fitted and used. I see many very expensive stoves that are so badly fitted that they're little more than fasion items. Seeing this I guess I should state what my 25 years of experiance has shown to work in reguards to wood stoves.  </p>
+<ul>
+<li>Get a big stove. it's less work and a much bigger heat sink</li>
+<li>Use good wood. We fell our wood and have our wood seasoning in 5 bays. Fill one each year to replace the one used. </li> 
+<li>Fit the stove in the room so it radiates heat from all sides in to the room not tightly inside a fireplace or in a wall </li> 
+<li>We use fire bricks from old stoarage heaters stacked on top of the stove as a heat store. At most average tempretures this allows us to light the stove for cooking on in autum and stop feeding it by about eight o'clock. The fire bricks are up to temprture by then and have enough stored heat to release and keep us warm until midnight.   </li> 
+</ul>
+<hr>
+</details>
+
+<h2>October 2024</h2>
+
+<details>
+<summary id="#20241010">20241010 - Gnome and the mith if progress </summary>
+<p>
+Why is it that everyone that tries to improve things invarably makes thigs look prettier but work worse. Lets look at the Gnome desktop. Never have I come across such a bloated pile of pooh that uses all your resorces for no gain. It's incredably poorly designed from a user interface point of view even when trying to using like a pro and reading their docs. It's also really buggy and I don't think things will ever improve because the code base is so large. </p> 
+<ol>
+<li><a href="https://www.datagubbe.se/gnomefiles/">↗ external Gnome observations</a> </li>
+<li><a href="https://medium.com/@fulalas/gnome-mess-is-not-an-accident-4e301032670c"> ↗ external Gnome observations</a> </li> 
+<li><a href="https://woltman.com/gnome-bad/"> ↗ external Gnome observations</a> </li> 
+<li><a href="https://damnation.dynu.net/nextcloud/index.php/s/WANHjcmkzkPGX4N/preview"> ↗ external Gnome observations</a> </li> 
+</ol>
+
+<hr>
+</details>
+
+<details>
+<summary id="#202401004">20241004 - Out with the new and in with the old.... sort of </summary>
+<p>
+This morning we heard the wife had an offer on her flat so we might be moving. We're also getting older and looking towards retiring. We currently live in a late 80's eco-house. So not so eco by todays standards. I've been very fortunate to have lived where I am for such a long time. It's beautiful but also can be a grind. That said the last year or so has been wonderful. We've been loving just living here. The garden and grounds can be just stunning. </p>
+<p>We had planned to stay for a few more years but came across a property that whilst not perfect ticks 90% of what we <b>both</b> want. Walking distance from the park and beach, and the sea. Perfect for our wee kayaking trips. A walled garden though tiny in comparison to were we are now, a smaller flat with sea views and a very old and large workshop both dating from about 1840 </p>
+<p>The history of the property is quite interesting and it seems to have become a wee oasis of old in an ever changing city. I looked through old maps and it's been very interesting to see how the environment around the property has changed.</p>
+<p>The earliest good map shows both buildings were there in 1855. If you search the address the land registery says it was built in 1866 but this clearly refers to a newer larger building but mentions the workshop as a former byre. If you look at the stone works you can see it has been modified from a sloping roof to a much larger pithched roof. A best guestimate is 1840s but it could be older as the very old maps are way to crude and undetailed. </p>
+<p>Looking at the dates of the railway line I can see that 1845 was when the line was built along with a now defuct local station. This is interesting as it may be why the house was built as there were no buildings to the east or north for a good distance. In short it was literally the last house in the east of the town. apart from the <q><b>big house next door</b></q> which was built in 1830. interestinly the oldest map of the area dates 1832 does show the <q><b>big house next door</b></q> but not our property or the workshop</p>
+<h4>Edit</h4>
+<p>20241014 yesterday I discovered another map printed 1828. Surveyed 1826-27. It clearly shows a building in the street where our new property is but no out building and obviously no 1830 Big House. No idea if the outbuilding was just not drawn or if it wasn't built. Anyway quite an exciting find.</p>
+
+<hr>
+</details>
+
+<h2>September 2024</h2>
+
+<details>
+<summary id="#20240926">20240926 - Autum cleaning </summary>
+<p>
+This morning we started prepareing for doing skip runs. In my garden at my flat I had an almost garage sized workshop. A few yeas a go we had some very strong gales which pretty much distroyed it. I removed the items of value but there was an emence amount of detritus still there. The roof and walls were burnt but three years of rain and snow ment that there were many one tonne bags to be filled and carried down the steps and loaded on the trailer ready for taking to the recycling centre. </p>
+<p>We managed to get 4 bags and a load of scrap securely strapped on to the trailer ready for depositing tomorrow. We'll reuse the bags for the next load and once cleared well put <i>terram</i> and gravel down where the base was install the home made BBQ and a table and a couple chairs. Just to give a sence of what you can do in the garden. I'll also cut the grass and probably the nehbours while at it. 
+</p>
+<p>I'm planning on selling it come the spring and although my nehbour wants to buy it I want the home report to be as high as possible. Tidying up the low hanging fruit should help put a few extra grand on it's value I hope. </p> 
+<hr>
+</details>
+
+<details>
+<summary id="#20240922">20240922 - Doors open day West Fife </summary>
+<p>
+We went to see these 5 venues this Sunday. Afer working out the logistics of route and opening times we headed out to the
+<a href="https://salinedistrictheritagesociety.wordpress.com/">↗ Saline & District Heritage Society.</a> <p>Their exhibition on the history of Communication and Information Technology from across Saline & District was very interesting to me. Lots of tech people over 50 would recognise most if not all of them. Some of the artefacts on display were still usable and I remember using them and in some cases still do!</p> 
+
+<p>There was also a display of a selection of finds from their work in the Glebe field, right beside the Old Kirkyard. </p>
+
+<p>We were offered and enjoyed a guided tour of the Old Kirkyard, a few hundred meters from the exhibition with a very knowledgable guide. How the research and information gathered was used to peiced together where he old church lay and the information from their 'Headstone Workshops' recorded and stored was impressive as well as interesting to learn about.</p>
+
+<p>We then drove to <a href="https://www.shed47.org/">↗ Lathalmond Railway Museum</a> which is just at the rear of the <a href="https://www.svbm.online/about">↗ Scottish vintage bus museum</a> I did find it a tad confusing when turning up about what we were visiting and it felt like they were still learning the ropes. There was a mini train and a full sized one that would take you on a ride for $4. It was clear that the exhibition was a work in progress with not all bits completed. That said baby steps and all that. I think it will be much more impressive with just a little more polish.</p>
+<p>Off we headed to <a href="https://www.nqht.org/the-second-north-queensferry-station/">↗ North Queensferry Railway Station</a> Like many smaller rail stations, small and  quaint. There was a small exhibition of the life of the ferry boats that gave the places it's name before the rail and road bridges. There were a couple old men (brothers in their 90's) that used to opperate the last of the ferry boats. They were most happy to chat to visitors and even had the original plans of the old ferry scrolled out across the wall. On the table was a scale replica of said boat and if I understood correctly with plans a float to try and sail it!</p>
+<img src="/assets/20240922_north-queensferry-station-mural.jpg" alt="image of mural at north queensfreey station"> 
+
+<p>A short trip down the hill and we were at<a href="https://www.nqht.org/visit-the-chapel-of-st-james/">↗ St James chapel</a> Although no remains are to be seen so in effect it's an old grave yard. Like at Saline it was quite interesting to see the very old head stones with their skulls and cross bones and hour glasses and how the professions we carved on to them. There were plow shears sextents and other trade tools. In many ways the older 1700 century stones though simpler and more crude are more interesting than the later more uniform offerings. </p>
+
+<p>100 meters away stands<a href="https://www.nqht.org/visit-the-light-tower/">↗ the worlds smallest light tower</a> Tiny it is and a light tower as opposed to a light house as it's un-maned one would assume. One qurious feature was the small stove at the bottom of the tower with it flue traveling through the centre of the stonework of the spiral stair. It  emerges at the top of the stairs and makes an elegant swerve around the lamp reflector where the oil lamp flue joins the main stove flue. I would assume the purpose is to either stop the oil loosing viscosity with colder tempretures and affecting the un-maned lamps flame and hence brightness or perhaps even the ability to burn at all? I suspose it would also ensure the windows are kept clear from condensation or snow. Anyway most interesting</p>
+
+<img src="/assets/20240922_light-tower1.jpg" alt="image of the worlds smallest light tower Built by Robert Stevenson in 1817"> 
+<img src="/assets/20240922_light-tower2.jpg" alt="image of the worlds smallest light tower Built by Robert Stevenson in 1817"> 
+<img src="/assets/20240922_light-tower3.jpg" alt="image of the worlds smallest light tower Built by Robert Stevenson in 1817"> 
+<img src="/assets/20240922_light-tower4.jpg" alt="image of the worlds smallest light tower Built by Robert Stevenson in 1817"> 
+<img src="/assets/20240922_light-tower7.jpg" alt="image of the worlds smallest light tower Built by Robert Stevenson in 1817"> 
+<hr>
+</details>
+
+<details>
+<summary id="#20240916">20240916 - Doors open day Central Fife </summary>
+<p>
+Yesterday we continued our <q>Doors open Day</q> travels and went to the <a href="https://www.shbt.org.uk/our-buildings/laws-close/"> ↗ merchants house</a> in Kirkcaldy.  Very interesting fron an architectural point of view as well a being the oldest existing house in KirKcaldy. Below it is a nice wee cafe with a courtyard and quite large sloping garden going back up the hill. A lovely place to sit and enjoy a cup of something.
+</p>
+<p>Before that we went to the Adam Smith garden and down Adam Smith close which has a nice history time line carved in the flag-stones. This brings you to the <a href="https://www.adamsmithglobalfoundation.com/">↗ Adam Smith centre</a>. The garden was quite untidy but it's clear there are plans the conect it to the center and the close by opening up the pre-existing garden door and a new one through the center. </p>
+<p> As a staunch anti-capitalist I have mixed views of how some of Smiths <q>free market</q> thinkings have been interpreted but I don't believe he was as anti statist as some of his American followers would have us believe.</p>
+<p>Our next place to visit was the <a href="https://kirkcaldyallotments.wordpress.com/">↗ Ravenscraig park allotments.</a> A large walled garden allotment space that looked well managed. Nice sized plots 9x9m for a single and 9x18m for a double. Big waiting list of several years. The site also was home to <a href="https://www.greenerkirkcaldy.org.uk/"><q>↗ Greener Kirkcaldy</q></a> and  <a href="https://www.facebook.com/people/Kirkcaldy-District-Mens-Shed/61559122462264/"><q>↗ Kirkcaldy Mens shed.</q></a> A facebook page only I'm afraid but any one interested that like me dosen't do <q>FaceBook</q> can find details here <a href="https://scottishmsa.org.uk/find-a-shed/">↗</a>    It featured a community orchard and a very nice topiary elephant that looked very <i>Dumbo like</i></p>
+<p>Time was running out so we went to the <a href="https://www.kirkcaldyartclub.co.uk/about"><q>↗ Kirkcaldy Art Club</q></a> A very nice community feel about the place and plenty of hands on fun stuff to do with clay. A wee craft shop and cafe up the stairs. We bought a 2025 calendar of nice water colours of local points of interest.</p>
+<hr>
+</details>
+
+<details>
+<summary id="#20240908">20240908 - 100kb </summary>
+<p>
+Playing with this site has made me think about how to lay it out. Given I want it to be friendly for blind and poorly sighted users has meant I've had to think about it in such a way as to be easy to manage, and easy for users to navigate. Not everyone has good internet speed or connectivity. I want the loud speed of to be good so the size of each page are a concern to me. I'm also aware the css can aid in page size reduction and load speeds but do want to try and keep it as pure HTML centric if possible. 
+</p>
+<p>I'm also aware of the energy and hence environmental effect of the modern web. I want my site to be in the right zone when it comes to longevity and content. This is a tricky balance to find. Anyway I've decided to set 100kb as the maximum page size.</p>
+<p>I run a script that reduces images to 200 pixels wide which is big enough to give a viewer a clear image but small file size. I did find a minimalist site I really liked where each post was at the end of the day a .txt file.  I'm not sure yet if I want to go that route thoug i can see it would have several advantages in that I have years of already written content. it also makes editing way easier as the html is basicaly just the navigation method </p>
+<a href="https://simpleliving.neocities.org/">↗  The most minimal site I've found and like.</a>
+<p> The advantages are you link to a complete text document so once set up, very little messing around with HTML editing. The downside is you can't include images etc in the text document. though ther is no issue in linking to images but I guess then the minimilisum is lost. KISS is king either way.</p>  
+<a href="https://useplaintext.email/#why-plaintext">↗  Why plain text</a> <p>This site gives another reason why plain text is good. In this case in email but the principal is sound</p>
+<hr>
+</details>
+
+<details>
+<summary id="#20240907">20240907 - Doors Open Day East Fife</summary>
+<p>
+<I>I seem to have a doors theme going on!</i> Today was <a href="https://www.doorsopendays.org.uk/">↗ Doors Open Day</a> We went to <a href="https://www.doorsopendays.org.uk/regions/east-fife/cambo-gardens">↗ Cambo country gardens</a>. We were late leaving and the satnav sent us via St Andrews. I dislike the place, it stinks of money but is actually not that nice a place to visit unless you have to. Full of well to do students and tourists all prancing around trying to be cool, while simultaneously clogging up the town. Eventually we got through the town and on to the coastal road to Kingsbarns and found Cambo.   
+</p>
+<p> We entered the driveway and found the car park, walked to the entrance only to be told that to get free entrance <q> You have to go to the Mausoleum and get a sticker.</q> This entailed a treck back to the car park past the car and another few hundred meters in to the middle of a field along a track. If it had been raining or I'd been old or infirm I'd have gone back to the car and fucked off such was my mood. There we were met by a nice man that had obviously been practicing his Mausolem history. We then decided to follow his advice and go the long way around back to the entrance. The walk was nice but not for the reasons we were told to take it. A field off brasicas mixed with poppies and other flower lifted our spirits and we endevoured to put the bad start behind us and visit the gardens 
+</p>
+<p>I really like seeing other gardens and how the flowers and vegetables compare to ours. What have they done and why? Are their leeks better than ours? First we went to the veg garden where they use a <i>No dig approach.</i> Not my cup of tea but interesting non the less. They seem much more hands on (intensive) than I expected. I'm not sure it's less work or that you reap a better crop. Their courgettes were better than ours but most other things not so. The soil was noticably sandy. Being a few hundred meters from the sea it's hardly surprising. </p>
+<p>Into the flower garden we went. Given the time of year, like ours it was well past it's best but I suspect it would look rather fine earlier in the year. A nice wee orchard and very enjoyable stroll through the grounds then out in to the woods and on to the beach. Golfers galore. What one would expect being so close the the home of <q>Bullroarer TooK</q> where golf it's self was invented.... apparently ;-) </p>
+<p>A nice drive home using a map and avoiding St Andrew followed. Though Fife councils idea of road signs leaves something to be desired. We drove past one junction with no sign as we approached but I looked in the mirror and could see that if we'd been traveling from the other direction there was a sign to where we wanted to go! Anyone would think they don't want you the leave! </p>
+<hr>
+</details>
+
+<details>
+<summary id="#20240906">20240906 - The Doors</summary>
+<p>Not the 1960s Band, the ones you open and close </p> 
+<p>I've been renovating my flat on and off for serveral years with a view to renting it or selling it. Since I've been married we've become property rich as we were both single with our own moddest homes. One of the main jobs still to do was renovate the doors. All of them. Being an old traditional building not one door was the same size . No cheap off the shelf doors, as the required sizes are not avalible at a reasonable price. So I set about renovating them. Years and years of painting had left numorus layers of thick old paint. That along with the <i>moderisations</i> to make what are nice old solid wood doors look trendy. like hardboard skins to make them look <i>flat</i> in the 70's and newer type handles to replace the lovely old traditional ones.</p>
+<p>I started the job of removing all the doors and all their fittings. Several days later I had most of them looking pretty clean and ready for filling, sanding and repainting</p>
+<p>The first door to refit was the kitchen. It was the only odd door.  Being a cheap modern non solid hardboard and cardboard thing, as opposed to the other nice solid doors. It was the one door I really wanted changed. Having just about completed the kitchen and bathroom renovation these were the fist doors I contemplated fitting. The kitchen like many of the other doors needed to be rehung to open the other way. Like most of the doors they were hung for privacy as was the traditinal way. This is a right royal <i>PITA</i> as it makes the rooms smaller as you need to <q>walk around the doors</q> to get in the room. Therefore giving the rooms less usable space. It also makes the rooms look and feel smaller something I didn't want. I'd already moved the light switches to the other side of the doors so they would not be behind the doors when opening them.</p>
+<p>All these issues made me think I should replace the kitchen door and I set about searching for a glass paneled door. As luck would have it I found a free one on<q>Gumtree</q> but got no reply from my message. That turned out to be most fortunate as I found 7 doors at £5 each complete with hardware. I thought I only needed one but bought them all for the hardware. They had nice brass handles. An email followed by a wee trip with the trailer to collect them and £35 later I was the pleased owner of 3 solid glass panel doors and 4 solid 4 pane doors. Once I'd got them back to the flat i started to measure up. To my great pleasure I discovered that with a little jiggery pokery with rebuilding the locks, swapping hinges and trimming I will be able to replace all 5 interior doors in my flat with nice matching ones. Glass in the kitchen and living room, solid else where. There was even one with a bathroom door lock.</p>
+<p>Once I've completed the fitting I will have 6 interior doors to sell at the auction. Plus the very wide front door when I get around to fitting the new one. I also have a very good quality teak and glass front door that I'll sell on Gumtree. Happy days!</p> 
+<p><i><b>Two have been fitted pictures to follow</b></i></p>
+<hr>
+</details>
+
+<details>
+<summary id="greenslaw">20240904 - Communication</summary>
+<p>One of my pet hates is people trying to communicate via convoluted artificial means rather than something so simple like speaking</p>
+<p>Many people will assume you have whatsapp or messenger and facebook or instagram or some such <q><a href="/ref.html#slaveware">slaveware</a></q>. Even at our business meeting where we have <i>signal</i> I see the same banial actions. So much so I have the groups I'm in on silent. Of course when I do want to use <a href="https://molly.im/">&#11111; Molly</a> or Molly-foss in my case. Molly is a signal fork and molly-foss strips out all the google crap. Because oneline communication is really poor we get so much more tention and missunderstanding than in our real meeting where everyone is much more civilised and our  understanding of each other is at a much higher level. </p>
+<p>This afternoon a colleague came over for a chat and lamented how she was missing real meetings as nearly all her meeting are remote now. Off she went and 30 minutes later I see 2 corispondents that would require several more corispondents to answer properly. I found it really frustrating because she could have:</p>
+<ul>
+<li>Asked when she was sat next to me
+<li>Called
+<li>walked the 80 meters back over
+</ul>
+<p>
+I couldn't be arsed to jump through all the uneccasary hoops even though I have all the answers to the question because I couldn't see the point in wasting what's left of my life with yet another example of <q><a href="/ref.html#greenslaw">Greens law of debating</a></q> that it makes me want to scream! RTFM came to mind but as there's no obvious  manual at least do some cursory research before asking basic questions.
+</p>
+<p> Use the best means of communication avalible. i.e. Face to face if possible. Written words are best used in novels and court documents etc. They work best when stating fact. Not for asking questions. Especially when the two line question requires a 20 line answer because the questioner doesn't know what their writing about. </P>  
+<p>The same goes for sms or text messages as we call them in the United Kingdom. I know it stands for <q>Short Message Service</q> but you can write more than a few words. If I recall correctly it's 160 charactors per message. You can keep however keep typing and it sends the message but charges each 160 charactors as one message. As sms messages are very cheap and free in most of our phone contract deals you can write long and detailed messages if you need to. </p>
+<p>It used to be the case that communication via sms used many shortcuts and abreviations to save cost.</p>
+<p> sms are very eco as the data is very small. Quite often an sms will get through to a mobile with a poor signal where as a call or voice or video chat wont. </p>
+<p>Now we have the case with <q>unlimited data</q> that nobody gives a shit. Constant 3 word communication is the annoying norm. ping, ping, ping, bloody ping. Always at the most inaproprete moment. Watching a movie <B>PING</B> Having a snooze <b>PING</b> Just about to get your leg over and you can be sure of a bloddy <b>PING.</b> And you can be sure it'll be a friggin <q>thumbs up</q> or some other such waste of time, space and life.</p>
+<p>No wonder our children are growing up with such mental health issues. Constant bombardment of their brains with inane bullshit </p> 
+<p>I'm well aware that my dyslexia contributes to my strong dislike of poorly written communication and also might in others eyes contribute to it. But I believe the fragmentation caused by numorous <q>social media platforms</q> are a far bigger issue. When we're all singing from the same song sheet the sound is sweeter and the harmony is far improved.<p>
+<hr>
+</details>
+
+<details>
+<summary id="#20240901">20240901 - More Birds</summary>
+<p>We have a buzzard that's taken up residence locally. It frequently flys over the garden and sits in a tree at the end of it. Much to the consternation of the jackdaws that will mob it if it gets to close. Yesterday it flew quite low over the garden and was quickly joined by a squadroon of jackdaws that swooped close by until it was driven far enough away.</p>
+<p> If it was possible for a buzzard to look really pissed off, then this one did. If looks could speak it was saying <q>If I catch you I'll break your tiny little necks</q> Quite amusing.</p> 
+<p>While birds are on the table. We had 4 unwelcome visitors last night. Two peahens and two peacocks appeared in the garden. Escapees from the big house next. We hearded then out and back in to the woods that ajoin the property. Pretty they might be but they cause a lot of damage in the garden and crap everywhere!. It was interesting to note while shoowing them over the wall that the peahens seamed to be better flyers. I suspect those big fancy feathers the cocks have make then a little tail heavy.</p>
+<h4>Edit:20240910</h4>
+<p>I witnessed the buzzard being <q>mobbed</q> again today. What was interesting was it was by a single jackdaw. It flew alone but very high above the jackdaws roost staying above the climbing buzzard with the odd swoop at it. The buzzard was obviously circling on an updraft and not at all interested by the roost. The jackdaw was  but failed to realise the buzzard just wanted an easy climb. Eventually the buzzard drifted off and peace was returned. A couple things struck me. The jackdaw has some balls and how missunderstanding can lead to conflict.</p>
+<hr>
+</details>
+                <h2>August 2024</h2>
+              <details>
+<summary id="#20240831">20240831 - No TV</summary>
+<p>I have no TV. Not had one for over 20 years. It's great. A TV is a one of those things that slowly sucks the very life out of you. Much like social media and especially centralised social media. My daughter doesn't have a TV and the benefits to my grandaughter and how an out door life has created a vibrant strong, healthy and inquisitive child. Who at the age of 5 completed a 3 day 80 mile cycling holiday is a joy to see.</p>
+<p>The one thing I've notice over the later years is that more and more  people are loosing the TV... But and it's a big but. It's not because they've stopped watching it. It's because they're using a computer to access TV content. In no way is it comparable to not watching TV or TV programes via the likes of <i>iplayer</i> etc.</p>
+<p>For me no TV is more than the actual hardware the <q>TV set</q> as it were. It's seeing the content as generally poor and inane. For me it takes more out of life than it contributes to it. Like wise radio. I do like radio but only tend to listen when driving. The only stations I have tunned in are BBC R2, BBC Scotland, BBC R3, and my go to station BBC R4. I also have classic FM but it's pretty boring after listening for any length of time as it recycles the <i>classics</i> far to much. I guess you get what it says on the tin!</p>
+<hr>
+</details> 
+
+<details>          
+<summary id="#20240826">20240826 - Jackdaws </summary>
+<p> I used to dislike them but the more I watched the more there was to admire. From the waiting for me to plant beans.... for them. They'd wait for me to finish and monitor them. Waiting  for the little bean shoots to appear so they could come and dig them up for tea! <b><i>Bastards.</i></b> Then watching them chase the squirrels away if the ventured to close to their nests in the wall. Hopping madly after them on the top of the wall.</p>
+<p> Suddenly on a gusty day they'd reach for the sky as a joyous flock bobbing about on the air currents. Having just so much fun it simply wasn't fair. Then watching them fly back to their nests entering the hole in the wall with such speed that death would prevail should a gust take them of course for but an inch. </p>
+<p>I recall one day one returning at speed just as it's mate decided to leave. Air traffic collision was only just avoided. Whilst providing me with much merryment through out the remainder of the day as the vision insisted on reapearing in my mind.
+</p>
+<hr>
+</details>   
+             
+<details>
+<summary id="#20240821">20240821 - The Dresser </summary>
+<b><i>Tags:</i></b> auction# satisfaction# cooking# furniture#
+<p>One of my bar stools is missing</p>
+<p>
+We put some items into the auction. Loaded up the trailer and off we went. On arrival it was discovered that one of my bar stools was missing. Some how it chose an almost certain death and incineration rather than a new home. Basically it jumped out of the trailer at 50MPH. Quite how it managed such a feat I'm not 100% sure but suspect some sort of Eddie the eagle ramp up the side of the one of the mowers. </p>
+<p>It was while unloading that we noticed a nice little kitchen dresser. Well wifey noticed and I was tasked to come and bid for it! Her being away visiting her mother or on a wee holiday as I would say. </p>
+<p> On the way home I spotted the bashed and broken barstool on the verge. Back in the trailer it went, then chopped up and in to the kindleing shed </p> 
+<p> Anyway I arrived to early and had to sit through 200 items before the dresser came up. Only benefit was I scored a few nice <q><b><i>trunks</i></b></q> as in large suitcases type trunks not swimming trunks or briefs. No where to put them but I think they're nice quality, useful and were a steal at £20. Eventually the dresser came up I bid at £50 it went to £60 wavered I thought that would be it but it rose to £85 before I won it at £90. A fair price but more than I wantd to pay. Wifey had allowed up to £150 max.I'd not said about the <q>trunks</q> but while attempting to show them to my daughter on <q>Molly</q> accidentally posted the photos to the wife! There went my little suprise. Well it was a suprise to me once I realised what I'd done</p>
+<p><b><i><q>Note to self don't post a picture</q></i></b></p>
+<hr> 
+</details>
+                
+<details>
+<summary id="#20240819">20240819 - Cooking and music </summary>
+<b><i>Tags:</i></b> music# satisfaction# cooking#  icecream# dancing#
+<p> I came home and wanted to cook</p>
+<p>
+I was working on renovating my flat. Not a very good day as I was fitting a new oven and hob. The oven cabinet needed assembly first so that's what I set about doing. For an £80 cabinet there was not a lot to it. A few bits of <q>conti-board</q> some fixings and plastic legs. If the parts cost a tenner I'd be very surprised.</p>
+<p>Well the instructions were pretty clear and assembly went well. The only tricky bit was the oven floor that required hand measuring. Not sure why when the rest of the board had pre-drilled holes the shelf brackets didn't.</p>
+<p>Next step was fitting the oven in the cabinet. literally lift it in. It fitted fine so I guess my measuring was good. Next step was the plinth. Not predrilled again but straight forward</p>
+<p>The one thing I noticed was the oven had a standard 13amp plug! And there I was thinking I was clever and previously installing a proper 30amp cooker socket and switch in the wall ready. But no standard socket. Damn. That rather put the kibosh on things but rather than drive home and fetch sockets and cable to extend the ring I thought I'd look at the hob instead </p>
+<p>The hob was fine and came with a heavy cable. I read the booklet and it was very poorly written. <q> this hob is 3 phase</q> shit was my first thought. Reading on it became clear it could be made in to a single phase by fitting a <q>bridge</q> In a bit of a panic I turned it over and removed the very awkward cover only to discover the bridge was already in place! Could they have not said <q>this cooker is single phase but could be converted to three phase by removing the bridge</q> as it's a domestic hob.</p>
+<p> Anyway to save a trip and a hour I fitted the kitchen lights. Nice and shiny but on closer inspection <b>crap.</b> Job done I started to head home. Called the wife to see if she'd picked up milk. Nope. So a wee shop before my travels. On arriving home with all the ovens, hobs and shopping I felt like cooking. Now the fun begins. Onion mushroom and kidney bean curry with left over lambs liver creamy mash and our first bit of curly kale from the garden. It was raining and miserable as I picked it but I got a strangle feeling of satisfaction all the same as I lifted the nets and snapped off the dark green leaves. 30 pence per plant so £3 to keep me in kale all winter.</P>
+<p> Back in side cooking under way I stuck some <a href="https://en.wikipedia.org/wiki/ChumbawambaChumbawamba">↗ Chumbawamba</a> on and danced as I cooked and laid the table. Dancing while cooking is such fun. It just lifts the soul but in my case sometimes means I get carried away with the portion sizes. Not this time and after we'd eaten there was enough room for a nice bowel of ice cream. Vanilla for me vanilla and chocolate for the wife. Ice cream is a weakness of mine. I could eat a kilo tub at a sitting if I didn't have my new self imposed weight limit of 78KG. It used to be 80kg but I prefer to be vain. <b><q>No Pain No Vain!</q></b> 
+<p><b><i><q>Note to self don't post a picture</q></i></b></p>
+                    <hr>
+<!--
+
+
+
+
+The hob was fine and came with a heavy cable. I read the booklet and it was very poorly written. " this hob is 3 phase" shit was my first thought. Reading on it became clear it could be made in to a single phase by fitting a "bridge" In a bit of a panic I turned it over and removed the very awkward cover only to discover the bridge was already in place! Could they have not said "this cooker is single phase but could be converted to three phase by removing the bridge" as it's a domestic hob.
+
+
+Back in side cooking under way I stuck some Chumbawamba on and danced as I cooked and laid the table. Dancing while cooking is such fun. It just lifts the soul but in my case sometimes means I get carried away with the portion sizes. Not this time and after we'd eaten there was enough room for a nice bowel of ice cream. Vanilla for me vanilla and chocolate for the wife. Ice cream is a weakness of mine. I could eat a kilo tub at a sitting if I didn't have my new self imposed weight limit of 78KG. It used to be 80kg but I prefer to be vain. "No Pain No Vain!"
+-->                    
+                    
+                </details>
+                                <details>
+<summary id="#20240819">20240818 - The Gig </summary>
+                    <b><i>Tags:</i></b> music# satisfaction# football#  
+<p> Yesterday we hosted a wee gig</p>
+<p>100 plus people, 5 bands, some very new beginner bands. Some old timers. After more on-line grief than one would think possible for something so simple. They came played and were gone by 17.30. It was a success \o/ for everyone involved and to be fair rather<q>easy-peazy</q></p>
+<p>I was up prepping the site at 10.00 the co-coordinator arrived before 11.00. By 13.00 all was setup with tarps hung around the greenwood timber frame that would hold the bands and a wee gazebo and table for the tea urn and cakes. People started to arrive at around one and by two-PM it was rocking
+ </p> 
+<p>The better half had suggested running a tea/coffee and cake stall. She spent a few hours the night before cooking flap-jack because they're gluten free and vegan and have no need for plates! She also cooked some fruit cakes. £2 for a coffee and a flap-jack or slice of cake. She got it spot on as we sold out at the death. We gave a third of the profit to the bands which covered their venue hire. We really need to increase our prices :-)</p>
+<p> I not a real music fan so snuck off to watch the football.  On Saturdays I like to catch up with one of my sons via <a href="https://molly.im/"><b><i><q>↗ Molly-FOSS</q></i></b></a> and chat as our team plays. We won! I then snuck back to tidy up the site. To be fair a fair few stayed and helped and the site was back to normal very quickly</p> 
+<p><b><i><q>Note to self post picture</q></i></b></p>
+<img src="/assets/20240817_gig.jpg"  width="300" height="224" alt="a picture of the gig crowd">
+<hr>
+</details>
+<details>
+<summary id="#20240814">20240814 - The Seagul </summary>
+<b><i>Tags:</i></b> seagull# satisfaction#  
+<p> Awe struck by a seagull</p>
+<p>Today I marveled at a seagull. It was doing what seagulls do all the time. Flying...  well, gliding to be precise. I was traveling over the tay bridge at a leasurely 25MPH due to the never ending roadworks and happened to notice a seagull just ahead of me, gliding at just over roof hight about a meter or so over the side of the bridge. It didn't veer off one bit, just stayed just in front of the car, gliding. It was a beautiful thing to behold, the elegance and effortlessness was just stunning. It struck me that it's watching things like this that make men want to fly. It caused my mind to wander and think of all the crazy contraptions men made before the Wright brothers actually flew. And all the while this seagull still just sits there, cocking it's head to look at the cars. I edge foreword so I'm level, increasing my speed to 30MPH. I'm in awe and I dislike seagulls, noisy, aggessive and plain pests most of the time. Not today, not this one. I hit the slip road and we part. everywhere but in my mind.</p>
+<p><b><i><q>Note to self post picture</q></i></b></p>
+<hr>
+</details>
+
+<details>
+<summary id="#20240810">20240810 - Vegetable show </summary>
+<b><i>Tags:</i></b> vegetables# gardening# simplicity# potatoes# satisfaction# cider# wine# outstanding#
+<p> Local flower and industrial show</p>
+<p> Today we entered the local vegetable show. Spuds, beans, flowers, cider and wine</p>
+<p> Well our spuds were a fail. Our presentation was poor but who the heck polishes their potatoes! </p>
+<p> On the flower front we were scuppered once we'd read the rules. One entry for each household in certain categories that meant my winning display was doomed to rule the center of the kitchen table.</p>
+<p> Wifey will be upping her game next year I can see. She's already planning what to plant!</p>
+<p> We saw several categories we should have entered and several where we now know what to do. The spuds were poor this year mostly down to <a href="https://potatoes.ahdb.org.uk/knowledge-library/late-blight-disease-and-its-management-in-potatoes"> <q>↗ blight</q></a> Which meant we had to cut off the potato tops to preserve our crop but they hadn't finished growing so we had a lower yeald.</p>
+<p> We'll plant later next year in an effort to curb the blight. The thinking being that the ground will be less wet and cold. Though the guessing what the seasons will be like is getting harder as climate change has a greater and greater effect.</p>
+<ol>
+<li>
+Four white potatoes
+</li>
+<li>
+ Three types of red potatoes
+</li>
+<li>
+Four red potatoes
+</li>
+<li>
+Top Vase
+<li>
+Six runner beans <p style="border:2px solid green;background-color:black;color:cyan;"> Second prize</p>
+</li>
+<li>
+Six french beans
+</li>
+<li>
+Six pods of broad beans <p style="border:2px solid green;background-color:black;color:cyan;"> Second prize</p>
+</li>
+<li>
+Sweet peas
+</li>
+<li>
+Cider
+</li>
+<li>
+Grozet (gooseberry wine) <p style="border:2px solid green;background-color:black;color:red;"> First prize (outstanding in Wine & Beer) </p>
+<li>
+Black current wine
+</li>
+<li>
+Elder flower wine <p style="border:2px solid green;background-color:black;color:yellow;"> Third prize</p>
+</li>
+<li>
+Single dahlia <p style="border:2px solid green;background-color:black;color:cyan;"> Second prize</p>
+</li>
+</ol>
+<p> Local flower and industrial show</p>
+
+<p><b><i><q>Note to self post pictures</q></i></b></p> 
+<img src="/assets/20240810_out_standing.jpg"  width="300" height="224" alt="my deploma for my grozet wine">
+<hr>
+</details>
+<details>
+<summary id="#20240807">20240807 -  Le Creuset  </summary>
+<b><i>Tags:</i></b> Auction# tactics# simplisity# le creuset# satisfaction# Volcanic Orange#
+<p>Went to the local auction today after looking on-line and seeing some <a href="https://www.lecreuset.co.uk/en_GB/">↗ LeCreuset pots</a></p>
+<p>The first lot was 3 nice clean green pots and a hand coffee grinder. It was marked in the brochure as <q>Le Creuset</q> The auctioneer started high had no takers and the starting price fell to £5 as is the norm before rising sharply to over £40. I dropped out at £20</p>
+<p>The next lot was described as <q>Box of oven dishes</q> They were filthy but numerous. The auctioneer started at £45 dropping quickly to £20. I bid. Trying to kill a bidding war when it bottoms out a £3 and sure as hell once they start goes all the way back up to £45! It worked. Eight dirty Le Creuset pots were ours. </p>
+<p>The next step was the clean up. A big bowel of hot water, soda crystals and vinegar. After several hours of scrubbing we have 8 <q>Volcanic Orange pots</q> As opposed to some orangish but mostly black as soot.</p>
+<ol>
+<li>
+24cm casserole pot
+</li>
+<li>
+21cm casserole pot
+</li>
+<li>
+22cm casserole oval pot
+</li>
+<li>
+21cm sauce pan
+</li>
+<li>
+20cm baking dish
+</li>
+<li>
+20cm earthenware baking dish
+</li>
+<li>
+20cm earthenware baking dish
+</li>
+<li>
+24cm frying pan
+</li>
+</ol>
+<p>The satisfaction we gained from the whole exercise was interesting to behold. When buying property a few thousand here or there hardly crosses our minds. But the pleasure of the rescuing the pots along with the successful bidding maneuver and how they all cleaned up. was frankly crazily disproportionate.  Along with the fact we we looking for them as we wanted pots the work well with induction hotplates and when we cook on the log burner.</p>
+<p> We often do that in the winter and it heats the house with enough to cook and provide water for washing up and tea. Much more fuel efficient that the <q>Bosky</q> Which has to heat the whole house.</p> 
+<p><b><i><q>Note to self post picture</q></i></b></p>    
+<img src="/assets/20240809_creuset.jpg"  width="300" height="224" alt="a picture of the gig crowd">
+<hr>
+</details>
+<details>
+<summary id="#20240804">20240804 - Crap & BBQ  </summary>
+<b><i>Tags:</i></b> Crap# BBQ# simplisity# images#
+<p>I've been tasked by my better half to do a Workshop tidy today. Ready for Auctioning off all my crap. Very interesting where we classify <q><b>Crap.</b></q> As a certified hoarder. Very interesting to see the legacy of not so much poverty, but a distinct lack of money in our house-hold throughout most of my life.  Now I'm getting old and trying desperately to get rid of stuff. </p>
+<p>The wife came home yesterday and said she'd quite fancy a BBQ. Well the big BBQ seemed just to big for the two of us so when she went off for her swim I grabbed an old metal jam making pot some thick wire grid and made a small BBQ from my  <q><b>Crap.</b></q> :-) It worked great, I used my own home made charcoal.
+</p>
+<p>I'm getting low on charcoal so will need to make more this winter. That said it's a nice easy thing to make I'll post how it done when I get around to doing it, unless I can find some older pics, then I'll update here</p>
+<p> Note to self. Post a picture </p>
+<hr>
+</details>
+
+<details>
+<summary id="#20240801">20240801 - Hot minimalisum </summary>
+
+<p>Today was a scorcher... for Scotland at least. Awake at 6.20 so played with this site. I'm really liking all the minimal stuff. gemini, gopher, irc, plain text and bog standard html. I'm finding it really liberating.
+</p> 
+<hr>
+</details>
+
+<h2>July 2024</h2>
+<details>
+<summary id="#20240731">202400731 - Memorial thoughts  </summary>
+<b><i>Tags:</i></b> observations#
+<p>Today I went to a memorial of a dear friend. Very good turn out of people who's life she effected. Poets, makers, co-workers and thinkers. The makeup of those gathered was of interest to me. Their social economic background and economic status. I felt the turn out was skewed and those she helped most were not there. Their social economic status probably meant they'd moved on and had more pressing engagements, be it putting bread on the table or centralised social media. I pondered my life and death as I edge ever near to it's certainty. Who would come to remember me? Would I care. Dust to dust, ashes to ashes, atoms to atoms.
+</p>
+<hr>
+</details>              
+<h3>Odds n Sods</h3>
+<details>
+<summary>Cider</summary> tags: Apples# scratting# press# cider# crab# orchard#
+<p>Due to my <a href="#ibd"><q>IBD</q></a> I've been making cider. That's <q>hard Cider</q> to our American friends.</p>
+<p> First thing you need is apples. I'm luck in that where I live we have an orchard and I get loads <img src="barrows-of-apples.jpg" width="120" height="90" alt="picture of wheel barrows of apples"> You also need a <q> scratter</q> to chop them up and a press to get the juice.</p> 
+<hr>
+</details> 
+
+<details>
+<summary>license or licence </summary>
+<ul>
+<li>USA: license = noun, to license = verb</li>
+<li>Everywhere else: licence = noun, to license = verb</li>
+<li>Example:</li>
+<li>In the UK we say this is my driving licence </li>
+<li>In the USA we say this is my driving license</li>
+<li>In the UK we say I'm going to license this software as GLPv3</li>
+<li>In the USA we say I'm going to license this software as GLPv3</li>
+</ul>
+<hr>
+</details>
+
+<details>
+<summary>Bosky</summary>
+<p>I'm wood only heating. It can be cheap, carbon neutral, efficient and very warming.</p>
+<p>There's a saying that a wood stove warms you twice. Once when you split it and again when you burn it, (All our log splitters have two legs and arms ). It's a damn lot more than twice for me. Clear the ground, plant and protect, thin the woodland, fell and clear before we even get to that point.</p>
+<p>We have an old <a href="https://www.harworthheating.co.uk/documents/Brochures/Thermorossi/Thermorossi-Bosky%20Brochure%20issue%202%2029-06-22.pdf">↗ "Bosky"</a> it was old when we got it and it's been no trouble bar a chiminy clean every ten years and cleaning ash every now and that's in the past 30 years.</p>
+<p> You do need to learn how to operate it. Once learnt it's super easy and you can have the radiators hot through out the house in 30 minutes to an hour from lighting it. The time depending on if the hot water tank still has any hot water left in it. Without a doubt it has out lasted all the other central heating boilers I've ever had. They cost a fortune to service. Enevitably get screwed during the service and then condemed as either to expensive to repair or old to get the bits. </p>
+<hr>
+</details>
+
+<details>
+<summary>Dyslexia and spelling </summary>
+<p> A note to the <q><i> spelling nazis</i></q> I can't spell! My punctuation is apauling, grammer shite, and writing shocking. That said after 40 years of never writing anything I now do.</p>
+<h4> TLDR.</h4><P>Allowing some one with this disability to fail in public is a fantastic help. It's like allowing a one legged person to fall and it be OK, rather than shouting at them to watch their fucking step! Read between the lines </p>
+<p> The consiqueses of my dyslexia have had a prefound affect on my life. Some of it good most horrific.</p>
+<p> At the age of 43 I was tested for dyslexia. Forty fucking three! Two tests. I failed or passed both miserably depending on ones perspective. Then 35 years to late and doing a degree I didn't particulary want to do, But chose because it was mostly marked on the product created. Rather than my written work. I was offered help.  </p>
+<p> Waste of time for me mostly. All that coloured text. All that voice to text. All that fucking about with fonts. had a minimal positive benefit. For me at least.</p>
+<p> What did work for me was writing freely. In a safe environment free from critisisum. <q><b><i> I found that place on IRC </i></b></q> A small close knit group that <q>ignored my errors and read between the lines</q> so much so that my correcting my errors started to anoy them a bit. At least until I explained the fixes were for my benefit not theirs!</p>
+<p> My writting is immensly better than it was 10 years ago. For that I thank them.</p>  
+<ul>
+<h4>The Bad</h4>
+<li> Being treated as thick because I can't get the stuff in my head out because it must be in written form. This is one of my pet hates</li>
+<li> Because I can't <b><q>See</q></B> the obvious errors in simple lines of text it means I can't code (that includes write html). Something I'd love to do</li>
+<li> The disproportionate time I waste doing something that for most is so easy. This used to really anoy me until I realised that many of the things I found so <q> piss easy</q> were so friggin hard for others. There I was thinking it's obvious!
+<h4>The Good</h4>
+<li> I'm a great visual learner</li>
+<li> I have a very good emotional intilegence</li>
+<h4>The Consiquences</h4>
+<li> Great with hands and head sort of jobs</li>
+<li> Good at talking and listening</li>
+<li> In short my other skill sets are desirable</li>
+<li> I'm going to write from my feelings and not bother as much as I should about spelling and hope it gives others a boost, While giving me the freedom and time to write <q>SOMETHING</q>
+</ul>
+<hr>
+</details>
+
+<details>     
+<summary id="#ibd">IBD</summary>
+<p>This page is my thoughts and experiances of inflamitory bowel desease</p>
+<p>I have IBD. Not so much a <q>P.I.T.A</q> as one might think but truely life changing.</p>
+<p>After about 7 years of being fobbed off by my Dr, with <q>It's probabley your age!</q> And years of getting up at 5AM to have my 5 shits every morning to completely empty my bowels</p>
+<p> All this so I could get picked up and not worry about shitting myself on the journey to work. A journey that could be anything up to a 2.5 hour trip.</p>
+<p> Anyway long story short, I got a camera up the bum. 30 seconds in <q>Oh you've got IBD!</q> Five years on I'm 12KG lighter and I have a normal morning routeen.</p>
+<p>So what did I do, that, while not curing my IBD has got it in to such a state that I rarely even think about it.  </p>
+<p>Long story short I went on a motorbike camping trip. </p>
+<p> Now that didn't fix me but it put me in a non-standard environment. I had limited space so took no bread just rice. After a few days I though my guts haven't been quite so bad?</p>
+<p> Back home I went wheat free and saw an improvement. Less bleeding, less urgency. but not perfect </p>
+<p> Then I started to research. I found a <q>Youtube video</q> from some Dr in the USA talking about the gut lining. and how when it breaks down you get leakage and the body attacks and then you get inflamation </p>
+<p> It struck me that if I remove what ever was causing the gut lining to breakdown all would be fine. I did. Being a lazy sod I just went glutton free. After about 4 months I was much improved. I struggled with no bread, no spaggetti, no anything with glutton that I was so used to but it has<q><b> transformed my life</b></q> Now 5 years on no bleedig out my <i>harris</i> no more sprinting down the garden path, key in hand, belt half undone. No more <q> emergancy clothing kit in the van</q> Life if great again and I'm 12KG lighter with out even trying</p>
+<p> Like all diets they can be hard. Change is hard especially after decades. But once you find those little helpers that get you sticking to it life becomes so much easier.</p>
+<p> For me that was buckwheat. Which dispite it's name is not a wheat and has no glutton. It cooks quickly and can be used like rice. I made <q>Buckwheat spoons</q>Other things that helped we rice cakes and oat cakes. Both incredibly boring but can be loaded with nice stuff so you don't feel like you're eating cardboard all the time</p> 
+<h4>The knock on effect</h4>
+<p>Everything about my diet has changed. No Beer! was a biggie. I checked the celiac web sites to see what I could eat and drink. Wine, spirits, cider. (see my cider page. I'm self now sufficent in booze).   </p>
+<hr>
+</details>
+<br>
+<footer> 
+<a href="/index.html"> &uarr; Take me to the top of the Home page</a>
+<ul>
+<li><p>Powered by neocities and me: Click the "buttons" if they interest you.</p></li>
+<li><img src="/assets/neocities.png" alt="A neocities logo"/></li>
+<li><a href="https://sitesforpalestine.neocities.org/"> <img src="/assets/bufreepalestine.gif" alt="A free palestine logo"></a></li>
+<li><a herf="https://arachnoid.com/freezone/"> <img src="/assets/freezone1.jpg" alt="part of the internet freezone"></a></li>
+<li><a href="https://www.htmlhobbyist.com/">
+  <img src="/assets/html-hobbyist-badge.svg" height="100" width="100" alt="I am an HTML Hobbyist" /></a></li>
+  <li><img src="/assets/nowar.jpg" height="100" width="100" alt="No War!" /></li>
+</ul>
+</footer>
+</body>
+</html>

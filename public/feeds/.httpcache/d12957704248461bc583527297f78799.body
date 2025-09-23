@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8" />
+<noscript><style>form.antibot * :not(.antibot-message) { display: none !important; }</style>
+</noscript><link rel="canonical" href="https://france.cochrane.org/aggregator/sources/1" />
+<meta property="og:image" content="https://france.cochrane.org/assets/img/colors/logo-400-cyan.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://france.cochrane.org/assets/img/colors/logo-400-cyan.png" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<meta name="google-site-verification" content="hqNaE-zRKQ8-QR8O_2jQSo-016oLXslAyk5fQFjzJEQ" />
+<link rel="icon" href="/assets/img/colors/favicon-128-cyan.png" type="image/png" />
+<link rel="alternate" hreflang="fr" href="https://france.cochrane.org/aggregator/sources/1" />
+<link rel="shortcut icon" href="/assets/img/colors/favicon-128-cyan.png" type="image/png" />
+
+    <title>Derniers résumés en Français | Cochrane France</title>
+    <link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/align.module.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/fieldgroup.module.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/container-inline.module.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/clearfix.module.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/details.module.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/hidden.module.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/item-list.module.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/js.module.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/nowrap.module.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/position-container.module.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/reset-appearance.module.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/resize.module.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/system-status-counter.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/system-status-report-counters.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/system-status-report-general-info.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/tablesort.module.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/modules/custom/cochrane_cookies/assets/cochrane_cookies.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/modules/custom/cochrane_cse/css/search.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/core/assets/vendor/normalize-css/normalize.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/core/normalize-fixes.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/custom/cochrane/css/normalize.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/custom/cochrane/css/layout.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/action-links.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/breadcrumb.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/button.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/collapse-processed.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/container-inline.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/details.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/exposed-filters.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/field.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/form.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/icons.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/inline-form.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/item-list.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/link.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/links.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/menu.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/more-link.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/pager.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/tabledrag.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/tableselect.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/tablesort.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/tabs.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/textarea.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/ui-dialog.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/messages.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/custom/cochrane/css/colors/cyan.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/custom/cochrane/css/font.css?sz4jd5" />
+<link rel="stylesheet" media="all" href="/themes/custom/cochrane/css/styles.css?sz4jd5" />
+<link rel="stylesheet" media="print" href="/themes/custom/cochrane/css/print.css?sz4jd5" />
+
+    <script src="/libraries/fontawesome/js/all.min.js?v=6.4.0" defer></script>
+<script src="/libraries/fontawesome/js/v4-shims.min.js?v=6.4.0" defer></script>
+
+  </head>
+  <body class="path-aggregator one-sidebar sidebar-second">
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div id="page">
+  <div id="top-nav-wrapper"><div id="top-nav"><div id="top-nav-inner">
+            <section class="region region-top-nav">
+    <nav role="navigation" aria-labelledby="block-topmenu-menu" id="block-topmenu" class="block block-menu navigation menu--top-menu">
+            
+  <h2 class="visually-hidden" id="block-topmenu-menu">Top menu</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/node/45" data-drupal-link-system-path="node/45">Contactez-nous</a>
+              </li>
+              <li class="menu-item-cochranelogin">
+        <a href="/cochranelogin">Admin</a>
+      </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </section>
+
+      </div></div></div>
+<header class="header" id="header" role="banner">
+              <section class="region region-header">
+    <div id="block-cochrane-branding" class="logo-size-big">
+      <a id="logo" href="/" title="Home" rel="home">
+      <img id="logo-image" src="/assets/img/colors/logo-cyan.svg" alt="Home" />
+    </a>
+    <div id="name-and-slogan">
+    <h1 id="site-name">
+      <a id="site-name-link" href="/" title="Home" rel="home">
+        <div id="site-name-main">
+          Cochrane
+                  </div>
+                  <div id="site-name-line-2">France</div>
+                      </a>
+    </h1>
+    <div id="site-slogan" class="header__site-slogan">
+      <div class="slogan-line slogan-line-1">Des données probantes.</div>
+      <div class="slogan-line slogan-line-2">Des décisions éclairées.</div>
+      <div class="slogan-line slogan-line-3">Une meilleure santé.</div>
+    </div>
+  </div>
+</div>
+<div id="block-googlecse" class="block block-cochrane-cse clearfix">
+  
+    
+      <div id="custom-search">
+  <input id="google-cse-input" type="search" placeholder="Rechercher ...">
+  <input id="google-cse-submit" type="submit" value="Search">
+</div>
+
+<div id="google-cse-results">
+</div>
+
+  </div>
+
+  </section>
+
+        <div id="small-nav">
+    <div id="small-menu">
+      <div class="navicon-line"></div>
+      <div class="navicon-line"></div>
+      <div class="navicon-line"></div>
+    </div>
+  </div>
+</header>
+  <div id="main"><div id="main-inner">
+    <div id="content-wrapper"><div id="content" class="column main-container  js-quickedit-main-content" role="main">
+                                          <div class="highlighted">  <section class="region region-title">
+    <div id="block-cochrane-page-title" class="block block-core block-page-title-block clearfix">
+  
+    
+      
+  <h1 class="page-title">
+    
+    Derniers résumés en Français
+  </h1>
+
+
+  </div>
+
+  </section>
+</div>
+                                      <section id="content-inner">
+                                                        <section class="region region-help">
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </section>
+
+                                            <a id="main-content"></a>
+            <section class="region region-content">
+    <div id="block-cochrane-content" class="block block-system block-system-main-block clearfix">
+  
+    
+      <div class="aggregator-feed">
+
+  
+    
+
+  <article class="aggregator-item">
+  
+      <h3 class="feed-item-title">
+      <a href="https://www.cochrane.org/fr/CD013078/CENTRALED_les-exercices-de-renforcement-sont-ils-utiles-dans-le-traitement-des-personnes-souffrant-de">Les exercices de renforcement sont-ils utiles dans le traitement des personnes souffrant de tendinopathie rotulienne (genou du sauteur) ?</a>
+    </h3>
+    
+  
+            <div class="field field--name-fid field--type-entity-reference field--label-hidden field__item"><a href="/aggregator/sources/1" hreflang="fr">Derniers résumés en Français</a></div>
+      
+            <div class="field field--name-timestamp field--type-created field--label-hidden field__item">3 months ago</div>
+      <div class="item-description">Les exercices de renforcement sont-ils utiles dans le traitement des personnes souffrant de tendinopathie rotulienne (genou du sauteur) ? Principaux messages - Les données probantes concernant l'utilisation d'exercices de renforcement pour traiter la tendinopathie rotulienne (douleur à l'avant du genou impliquant le tendon) sont très incertaines, ce qui rend difficile de tirer des conclusions définitives. - Pour les athlètes, nous ne savons pas vraiment si l'exercice réduit la douleur par rapport à l'absence de traitement. Les exercices de renforcement peuvent n'avoir que peu ou pas d'effet...</div>
+</article>
+<article class="aggregator-item">
+  
+      <h3 class="feed-item-title">
+      <a href="https://www.cochrane.org/fr/CD014965/CENTRALED_les-antipsychotiques-atypiques-sont-ils-utiles-pour-traiter-lirritabilite-et-autres-symptomes-chez">Les antipsychotiques atypiques sont-ils utiles pour traiter l&#039;irritabilité et autres symptômes chez les personnes vivant avec un trouble du spectre de l’autisme ?</a>
+    </h3>
+    
+  
+            <div class="field field--name-fid field--type-entity-reference field--label-hidden field__item"><a href="/aggregator/sources/1" hreflang="fr">Derniers résumés en Français</a></div>
+      
+            <div class="field field--name-timestamp field--type-created field--label-hidden field__item">3 months 1 week ago</div>
+      <div class="item-description">Les antipsychotiques atypiques sont-ils utiles pour traiter l'irritabilité et autres symptômes chez les personnes vivant avec un trouble du spectre de l’autisme ? Principaux messages La rispéridone et l'aripiprazole peuvent réduire les symptômes d'irritabilité, tandis que la lurasidone n'entraîne probablement que peu ou pas de différence pour les enfants vivant avec un trouble du spectre de l’autisme. Il existe une incertitude significative quant aux effets de ces médicaments sur l'agressivité, la prise de poids et les mouvements anormaux (par exemple les tremblements) chez les enfants...</div>
+</article>
+<article class="aggregator-item">
+  
+      <h3 class="feed-item-title">
+      <a href="https://www.cochrane.org/fr/CD003594/CENTRALED_quels-traitements-aident-les-enfants-atteints-du-syndrome-nephrotique-corticoresistant">Quels traitements aident les enfants atteints du syndrome néphrotique corticorésistant ?</a>
+    </h3>
+    
+  
+            <div class="field field--name-fid field--type-entity-reference field--label-hidden field__item"><a href="/aggregator/sources/1" hreflang="fr">Derniers résumés en Français</a></div>
+      
+            <div class="field field--name-timestamp field--type-created field--label-hidden field__item">3 months 3 weeks ago</div>
+      <div class="item-description">Quels traitements aident les enfants atteints du syndrome néphrotique corticorésistant ? Principaux messages • Chez les enfants atteints du syndrome néphrotique corticorésistant (une pathologie dans laquelle le traitement aux stéroïdes n'arrête pas la fuite de protéines vers l'urine), les inhibiteurs de la calcineurine (des médicaments immunosuppresseurs qui diminuent la réponse immunitaire du corps) peuvent augmenter la probabilité d'une rémission complète ou partielle (une diminution ou une disparition des signes et des symptômes du syndrome néphrotique) par rapport au placebo (un...</div>
+</article>
+<article class="aggregator-item">
+  
+      <h3 class="feed-item-title">
+      <a href="https://www.cochrane.org/fr/CD013729/CENTRALED_le-regime-dash-aide-t-il-les-personnes-avec-des-maladies-cardiovasculaires-ou-risque">Le régime DASH aide-t-il les personnes avec des maladies cardiovasculaires ou à risque ?</a>
+    </h3>
+    
+  
+            <div class="field field--name-fid field--type-entity-reference field--label-hidden field__item"><a href="/aggregator/sources/1" hreflang="fr">Derniers résumés en Français</a></div>
+      
+            <div class="field field--name-timestamp field--type-created field--label-hidden field__item">3 months 3 weeks ago</div>
+      <div class="item-description">Le régime DASH aide-t-il les personnes avec des maladies cardiovasculaires ou à risque ? Principaux messages - Nous ne disposons pas de données probantes suffisantes pour affirmer que le régime DASH aide à prévenir les crises cardiaques, les accidents vasculaires cérébraux ou les décès dus aux maladies cardiaques. - Le régime DASH pourrait n'avoir que peu ou pas d’effets nocifs, mais nous n'en sommes pas certains en raison des données probantes limitées. - Nous avons besoin d'études plus larges et plus longues pour savoir si le régime DASH peut réellement prévenir les problèmes cardiaques...</div>
+</article>
+<article class="aggregator-item">
+  
+      <h3 class="feed-item-title">
+      <a href="https://www.cochrane.org/fr/CD010145/CENTRALED_pour-les-patients-atteints-de-cancer-quels-sont-les-benefices-et-risques-de-la-prise-de-melatonine">Pour les patients atteints de cancer, quels sont les bénéfices et risques de la prise de mélatonine ?</a>
+    </h3>
+    
+  
+            <div class="field field--name-fid field--type-entity-reference field--label-hidden field__item"><a href="/aggregator/sources/1" hreflang="fr">Derniers résumés en Français</a></div>
+      
+            <div class="field field--name-timestamp field--type-created field--label-hidden field__item">4 months ago</div>
+      <div class="item-description">Pour les patients atteints de cancer, quels sont les bénéfices et risques de la prise de mélatonine ? Principaux messages En raison d'un manque de données probantes robustes, les effets de la mélatonine sur la qualité de vie et de sommeil des personnes recevant un traitement contre le cancer sont indéterminés. Il se pourrait que la mélatonine n’augmente pas le risque d'événements indésirables, mais les données probantes disponibles ne sont pas assez solides pour nous permettre d'en être certains. Des études bien conçues utilisant la mélatonine sur une période allant jusqu'à trois mois sont...</div>
+</article>
+<article class="aggregator-item">
+  
+      <h3 class="feed-item-title">
+      <a href="https://www.cochrane.org/fr/CD006839/CENTRALED_quels-sont-les-effets-des-traitements-de-la-neuropathie-ulnaire-au-coude-nuc">Quels sont les effets des traitements de la neuropathie ulnaire au coude (NUC) ?</a>
+    </h3>
+    
+  
+            <div class="field field--name-fid field--type-entity-reference field--label-hidden field__item"><a href="/aggregator/sources/1" hreflang="fr">Derniers résumés en Français</a></div>
+      
+            <div class="field field--name-timestamp field--type-created field--label-hidden field__item">4 months ago</div>
+      <div class="item-description">Quels sont les effets des traitements de la neuropathie ulnaire au coude (NUC) ? Principaux messages • Les personnes ont obtenu des résultats similaires concernant les symptômes et les complications chirurgicales, que le nerf ait été simplement libéré (décompression simple) ou libéré et déplacé vers une nouvelle position sous la peau ou le muscle (transposition sous-cutanée ou sous-musculaire). Nous n’avons pas non plus trouvé de différences majeures en ce qui concerne les scores de symptômes et les complications chirurgicales entre la chirurgie réalisée avec une incision plus large...</div>
+</article>
+<article class="aggregator-item">
+  
+      <h3 class="feed-item-title">
+      <a href="https://www.cochrane.org/fr/CD012178/CENTRALED_les-supplements-comme-la-luteine-et-la-zeaxanthine-reduisent-ils-les-maladies-et-les-deces-chez-les">Les suppléments comme la lutéine et la zéaxanthine réduisent-ils les maladies et les décès chez les bébés prématurés ?</a>
+    </h3>
+    
+  
+            <div class="field field--name-fid field--type-entity-reference field--label-hidden field__item"><a href="/aggregator/sources/1" hreflang="fr">Derniers résumés en Français</a></div>
+      
+            <div class="field field--name-timestamp field--type-created field--label-hidden field__item">4 months ago</div>
+      <div class="item-description">Les suppléments comme la lutéine et la zéaxanthine réduisent-ils les maladies et les décès chez les bébés prématurés ? Principaux messages - Donner de la lutéine et de la zéaxanthine aux bébés prématurés peut réduire les maladies graves des yeux. - Nous n'avons pas trouvé de données probantes d'autres effets bénéfiques ou risques évidents des interventions sur la réduction des risques intestinaux (estomac/système digestif) ou cérébraux chez les bébés prématurés. Les études ont été menées en Italie et aux États-Unis. - Les études futures devraient être menées dans différents pays et dans...</div>
+</article>
+<article class="aggregator-item">
+  
+      <h3 class="feed-item-title">
+      <a href="https://www.cochrane.org/fr/CD012997/CENTRALED_existe-t-il-des-traitements-permettant-de-prevenir-le-syndrome-hemolytique-uremique-chez-des">Existe-t-il des traitements permettant de prévenir le syndrome hémolytique urémique chez des personnes déjà infectées par des bactéries à haut risque ?</a>
+    </h3>
+    
+  
+            <div class="field field--name-fid field--type-entity-reference field--label-hidden field__item"><a href="/aggregator/sources/1" hreflang="fr">Derniers résumés en Français</a></div>
+      
+            <div class="field field--name-timestamp field--type-created field--label-hidden field__item">4 months ago</div>
+      <div class="item-description">Existe-t-il des traitements permettant de prévenir le syndrome hémolytique urémique chez des personnes déjà infectées par des bactéries à haut risque ? Principaux messages - Il n’existe pas suffisamment de données probantes pour déterminer la meilleure méthode de prévention du syndrome hémolytique urémique (SHU) chez des patients souffrant de diarrhée associée à l’ Escherichia coli producteur de toxine de Shiga (STEC). - D'autres études portant sur un groupe de patients plus important sont nécessaires avant de pouvoir formuler une recommandation. Qu'est-ce que le syndrome hémolytique...</div>
+</article>
+<article class="aggregator-item">
+  
+      <h3 class="feed-item-title">
+      <a href="https://www.cochrane.org/fr/CD015721/CENTRALED_pour-les-personnes-beneficiant-dune-procedure-visant-deboucher-les-vaisseaux-apres-un-avc-ischemique">Pour les personnes bénéficiant d’une procédure visant à déboucher les vaisseaux après un AVC ischémique, la thrombolyse est-elle meilleure que l’absence de thrombolyse ?</a>
+    </h3>
+    
+  
+            <div class="field field--name-fid field--type-entity-reference field--label-hidden field__item"><a href="/aggregator/sources/1" hreflang="fr">Derniers résumés en Français</a></div>
+      
+            <div class="field field--name-timestamp field--type-created field--label-hidden field__item">4 months 1 week ago</div>
+      <div class="item-description">Pour les personnes bénéficiant d’une procédure visant à déboucher les vaisseaux après un AVC ischémique, la thrombolyse est-elle meilleure que l’absence de thrombolyse ? Principaux messages Pour les personnes ayant subi une intervention visant à déboucher les vaisseaux sanguins après un accident vasculaire cérébral ischémique, l'ajout d'un médicament destiné à éliminer les caillots : n'a pas montré de différence, en moyenne, sur leur capacité à effectuer seuls des activités quotidiennes avec un handicap léger ou modéré, pour le nombre de décès ou pour les hémorragies cérébrales avec ou sans...</div>
+</article>
+<article class="aggregator-item">
+  
+      <h3 class="feed-item-title">
+      <a href="https://www.cochrane.org/fr/CD012635/CENTRALED_les-differentes-manieres-de-donner-du-sang-ou-des-produits-sanguins-pour-traiter-les-hemorragies-ont">Les différentes manières de donner du sang ou des produits sanguins pour traiter les hémorragies ont-elles une incidence sur le risque de décès ou le risque de formation d&#039;un caillot sanguin chez les personnes qui saignent abondamment à la suite d&#039;un trau</a>
+    </h3>
+    
+  
+            <div class="field field--name-fid field--type-entity-reference field--label-hidden field__item"><a href="/aggregator/sources/1" hreflang="fr">Derniers résumés en Français</a></div>
+      
+            <div class="field field--name-timestamp field--type-created field--label-hidden field__item">4 months 1 week ago</div>
+      <div class="item-description">Les différentes manières de donner du sang ou des produits sanguins pour traiter les hémorragies ont-elles une incidence sur le risque de décès ou le risque de formation d'un caillot sanguin chez les personnes qui saignent abondamment à la suite d'un trau Principaux messages - Aucune stratégie transfusionnelle particulière (méthode d'administration des produits sanguins) ne semble modifier le risque global de décès ou de formation d'un caillot sanguin chez un patient. - Nous avons trouvé 18 études qui ont testé différentes manières d'administrer des transfusions sanguines. Cette...</div>
+</article>
+<article class="aggregator-item">
+  
+      <h3 class="feed-item-title">
+      <a href="https://www.cochrane.org/fr/CD015536/CENTRALED_lentecavir-est-il-plus-efficace-que-labsence-de-traitement-ou-le-placebo-pour-traiter-les-personnes">L&#039;entécavir est-il plus efficace que l&#039;absence de traitement ou le placebo pour traiter les personnes atteintes d&#039;hépatite B chronique ?</a>
+    </h3>
+    
+  
+            <div class="field field--name-fid field--type-entity-reference field--label-hidden field__item"><a href="/aggregator/sources/1" hreflang="fr">Derniers résumés en Français</a></div>
+      
+            <div class="field field--name-timestamp field--type-created field--label-hidden field__item">4 months 1 week ago</div>
+      <div class="item-description">L'entécavir est-il plus efficace que l'absence de traitement ou le placebo pour traiter les personnes atteintes d'hépatite B chronique ? Principaux messages Nous n'avons pas pu estimer les effets de l'entécavir (un médicament utilisé pour traiter les infections causées par des virus) sur les décès, toutes causes confondues, chez les personnes atteintes d'hépatite B chronique (une maladie hépatique courante), car il n'y a pas eu de décès. Aucune étude ne s'est intéressée à la qualité de vie liée à la santé (mesure de la satisfaction d'une personne à l'égard de sa vie et de sa...</div>
+</article>
+<article class="aggregator-item">
+  
+      <h3 class="feed-item-title">
+      <a href="https://www.cochrane.org/fr/CD014861/CENTRALED_ladministration-dun-traitement-anticancereux-au-domicile-des-patients-presente-t-elle-des-risques-et">L&#039;administration d&#039;un traitement anticancéreux au domicile des patients présente-t-elle des risques, et cette approche est-elle rentable ?</a>
+    </h3>
+    
+  
+            <div class="field field--name-fid field--type-entity-reference field--label-hidden field__item"><a href="/aggregator/sources/1" hreflang="fr">Derniers résumés en Français</a></div>
+      
+            <div class="field field--name-timestamp field--type-created field--label-hidden field__item">4 months 1 week ago</div>
+      <div class="item-description">L'administration d'un traitement anticancéreux au domicile des patients présente-t-elle des risques, et cette approche est-elle rentable ? Principaux messages 1. Comparé à un traitement anticancéreux intraveineux (directement dans une veine (IV)) administré dans les centres hospitaliers ambulatoires, nous ne savons pas si le fait de recevoir le même traitement à domicile a une incidence sur : la prise en charge des effets indésirables, l'admission à l'hôpital ou les visites aux urgences après le traitement et les complications liées aux dispositifs IV. 2. Les personnes recevant un...</div>
+</article>
+<article class="aggregator-item">
+  
+      <h3 class="feed-item-title">
+      <a href="https://www.cochrane.org/fr/CD015894/CENTRALED_quels-sont-les-effets-de-lacupuncture-sur-la-gestion-de-la-douleur-chez-les-bebes-soumis-des">Quels sont les effets de l&#039;acupuncture sur la gestion de la douleur chez les bébés soumis à des interventions douloureuses ?</a>
+    </h3>
+    
+  
+            <div class="field field--name-fid field--type-entity-reference field--label-hidden field__item"><a href="/aggregator/sources/1" hreflang="fr">Derniers résumés en Français</a></div>
+      
+            <div class="field field--name-timestamp field--type-created field--label-hidden field__item">4 months 1 week ago</div>
+      <div class="item-description">Quels sont les effets de l'acupuncture sur la gestion de la douleur chez les bébés soumis à des interventions douloureuses ? Principaux messages - En raison du manque de données probantes, les bénéfices et risques de l'acupuncture pour les bébés soumis à des interventions douloureuses ne sont pas clairs. - Des études bien réalisées et faisant l'objet de rapports détaillés sont nécessaires pour mettre en lumière d’éventuels bénéfices et risques de l'acupuncture, avec une comparaison aux médicaments, ou aux différentes méthodes d'acupuncture. Douleur chez les bébés et acupuncture Dans les...</div>
+</article>
+<article class="aggregator-item">
+  
+      <h3 class="feed-item-title">
+      <a href="https://www.cochrane.org/fr/CD015192/CENTRALED_quelles-sont-les-mesures-prendre-pour-prevenir-les-infections-apres-une-intervention-chirurgicale">Quelles sont les mesures à prendre pour prévenir les infections après une intervention chirurgicale visant à réparer le segment aortique ou aorto-iliaque (les plus grosses artères du corps) ?</a>
+    </h3>
+    
+  
+            <div class="field field--name-fid field--type-entity-reference field--label-hidden field__item"><a href="/aggregator/sources/1" hreflang="fr">Derniers résumés en Français</a></div>
+      
+            <div class="field field--name-timestamp field--type-created field--label-hidden field__item">4 months 1 week ago</div>
+      <div class="item-description">Quelles sont les mesures à prendre pour prévenir les infections après une intervention chirurgicale visant à réparer le segment aortique ou aorto-iliaque (les plus grosses artères du corps) ? Principaux messages - Les antibiotiques semblent réduire les infections du site opératoire chez les personnes subissant une chirurgie aortique ou aorto-iliaque. - Les autres interventions évaluées semblent n'avoir que peu ou pas d'effet sur la réduction de l'incidence des infections du site opératoire. - Les autres critères de jugement évalués ont été peu ou pas affectés par les interventions étudiées....</div>
+</article>
+<article class="aggregator-item">
+  
+      <h3 class="feed-item-title">
+      <a href="https://www.cochrane.org/fr/CD006913/CENTRALED_interventions-psychologiques-dans-les-maladies-inflammatoires-chroniques-de-lintestin">Interventions psychologiques dans les maladies inflammatoires chroniques de l&#039;intestin</a>
+    </h3>
+    
+  
+            <div class="field field--name-fid field--type-entity-reference field--label-hidden field__item"><a href="/aggregator/sources/1" hreflang="fr">Derniers résumés en Français</a></div>
+      
+            <div class="field field--name-timestamp field--type-created field--label-hidden field__item">4 months 2 weeks ago</div>
+      <div class="item-description">Interventions psychologiques dans les maladies inflammatoires chroniques de l'intestin Les personnes atteintes de maladies inflammatoires chroniques de l'intestin (MICI) se sentiront-elles mieux si elles bénéficient d'une prise en charge psychologique en plus de leur traitement habituel ? Principaux messages 1. Les traitements psychologiques ont probablement de faibles effets bénéfiques sur la qualité de vie et les symptômes de dépression et d'anxiété chez les adultes atteints de MICI. 2. Il est possible qu'il n'y ait pas d'effet sur l'inflammation et les symptômes physiques, mais ces...</div>
+</article>
+<article class="aggregator-item">
+  
+      <h3 class="feed-item-title">
+      <a href="https://www.cochrane.org/fr/CD015551/CENTRALED_quels-sont-les-benefices-et-risques-des-vaccins-pour-la-prevention-des-maladies-infectieuses-chez">Quels sont les bénéfices et risques des vaccins pour la prévention des maladies infectieuses chez les adultes atteints de cancer (tumeurs solides) ?</a>
+    </h3>
+    
+  
+            <div class="field field--name-fid field--type-entity-reference field--label-hidden field__item"><a href="/aggregator/sources/1" hreflang="fr">Derniers résumés en Français</a></div>
+      
+            <div class="field field--name-timestamp field--type-created field--label-hidden field__item">4 months 2 weeks ago</div>
+      <div class="item-description">Quels sont les bénéfices et risques des vaccins pour la prévention des maladies infectieuses chez les adultes atteints de cancer (tumeurs solides) ? Principaux messages Chez les adultes atteints de cancer (tumeurs solides), les vaccins destinés à prévenir le zona réduisent la fréquence du zona mais augmentent les effets indésirables tels que la douleur ou la rougeur au point d'injection. Nous ne sommes pas certains des effets des vaccins antigrippaux sur les décès, quelle qu'en soit la cause, sur les effets indésirables, quelle qu'en soit la gravité, et sur les effets indésirables graves....</div>
+</article>
+<article class="aggregator-item">
+  
+      <h3 class="feed-item-title">
+      <a href="https://www.cochrane.org/fr/CD011689/CENTRALED_quel-est-le-medicament-le-plus-efficace-pour-reduire-la-perte-de-sang-excessive-apres-laccouchement">Quel est le médicament le plus efficace pour réduire la perte de sang excessive après l&#039;accouchement et qui a le moins d&#039;effets indésirables ?</a>
+    </h3>
+    
+  
+            <div class="field field--name-fid field--type-entity-reference field--label-hidden field__item"><a href="/aggregator/sources/1" hreflang="fr">Derniers résumés en Français</a></div>
+      
+            <div class="field field--name-timestamp field--type-created field--label-hidden field__item">4 months 2 weeks ago</div>
+      <div class="item-description">Quel est le médicament le plus efficace pour réduire la perte de sang excessive après l'accouchement et qui a le moins d'effets indésirables ? Principaux messages La plupart des médicaments (utérotoniques) destinés à prévenir la perte de sang excessive après l'accouchement (hémorragie du post-partum (HPP)) sont plus efficaces que l'absence de traitement. L'ergométrine associée à l'oxytocine et le misoprostol associé à l'oxytocine sont plus efficaces que l'oxytocine (traitement standard). Tous les utérotoniques, à l'exception de la carbétocine, sont associés à un risque accru...</div>
+</article>
+<article class="aggregator-item">
+  
+      <h3 class="feed-item-title">
+      <a href="https://www.cochrane.org/fr/CD015314/CENTRALED_quels-sont-les-meilleurs-moyens-daider-les-personnes-arreter-de-consommer-du-tabac-sans-combustion">Quels sont les meilleurs moyens d&#039;aider les personnes à arrêter de consommer du tabac sans combustion ?</a>
+    </h3>
+    
+  
+            <div class="field field--name-fid field--type-entity-reference field--label-hidden field__item"><a href="/aggregator/sources/1" hreflang="fr">Derniers résumés en Français</a></div>
+      
+            <div class="field field--name-timestamp field--type-created field--label-hidden field__item">4 months 2 weeks ago</div>
+      <div class="item-description">Quels sont les meilleurs moyens d'aider les personnes à arrêter de consommer du tabac sans combustion ? Principaux messages Le conseil, les conseils brefs, la varénicline et les thérapies de remplacement de la nicotine peuvent tous être des moyens efficaces d'aider les gens à arrêter de fumer. Nous avons besoin de plus de recherches dans les pays d'Asie du Sud et du Sud-Est, où le tabac sans combustion est le plus couramment utilisé et où il existe le plus grand nombre de types de tabac sans combustion. Qu'est-ce que le tabac sans combustion ? Le tabac sans combustion (sans fumée) est...</div>
+</article>
+<article class="aggregator-item">
+  
+      <h3 class="feed-item-title">
+      <a href="https://www.cochrane.org/fr/CD013430/CENTRALED_quels-sont-les-facteurs-qui-influencent-les-opinions-et-les-pratiques-des-soignants-et-des">Quels sont les facteurs qui influencent les opinions et les pratiques des soignants et des adolescents concernant la vaccination des adolescents contre le papillomavirus humain (HPV) ?</a>
+    </h3>
+    
+  
+            <div class="field field--name-fid field--type-entity-reference field--label-hidden field__item"><a href="/aggregator/sources/1" hreflang="fr">Derniers résumés en Français</a></div>
+      
+            <div class="field field--name-timestamp field--type-created field--label-hidden field__item">4 months 2 weeks ago</div>
+      <div class="item-description">Quels sont les facteurs qui influencent les opinions et les pratiques des soignants et des adolescents concernant la vaccination des adolescents contre le papillomavirus humain (HPV) ? Principaux messages - De nombreux facteurs peuvent influencer les opinions et les actions des soignants et des adolescents concernant la vaccination contre le virus du papillomavirus humain (HPV). Nous les avons regroupés en 8 thèmes relatifs aux connaissances et perceptions individuelles, aux relations familiales et sociales, et aux contextes plus larges dans lesquels vivent les soignants et les adolescents....</div>
+</article>
+<article class="aggregator-item">
+  
+      <h3 class="feed-item-title">
+      <a href="https://www.cochrane.org/fr/CD014844/CENTRALED_antibiotiques-pour-prevenir-une-infection-apres-une-intervention-chirurgicale-pour-la-gestion-dune">Antibiotiques pour prévenir une infection après une intervention chirurgicale pour la gestion d’une fausse couche</a>
+    </h3>
+    
+  
+            <div class="field field--name-fid field--type-entity-reference field--label-hidden field__item"><a href="/aggregator/sources/1" hreflang="fr">Derniers résumés en Français</a></div>
+      
+            <div class="field field--name-timestamp field--type-created field--label-hidden field__item">4 months 2 weeks ago</div>
+      <div class="item-description">Antibiotiques pour prévenir une infection après une intervention chirurgicale pour la gestion d’une fausse couche Principaux messages Nous ne savons pas avec certitude si l’administration systématique d’antibiotiques a un effet sur le risque de contracter une infection utérine (infection de l'utérus) après une intervention chirurgicale pour traiter une fausse couche, d’après les résultats combinés des six essais cliniques. Toutefois, sur la base des résultats des seuls essais bien menés (85 % du nombre total de femmes dans les études), nous sommes convaincus que la prise systématique...</div>
+</article>
+  <nav class="pager" role="navigation" aria-labelledby="pagination-heading">
+    <h4 id="pagination-heading" class="visually-hidden">Pagination</h4>
+    <ul class="pager__items js-pager__items">
+                                                        <li class="pager__item is-active">
+                                          <a href="?page=0" title="Current page" aria-current="page">
+            <span class="visually-hidden">
+              Current page
+            </span>1</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=1" title="Go to page 2">
+            <span class="visually-hidden">
+              Page
+            </span>2</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=2" title="Go to page 3">
+            <span class="visually-hidden">
+              Page
+            </span>3</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=3" title="Go to page 4">
+            <span class="visually-hidden">
+              Page
+            </span>4</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=4" title="Go to page 5">
+            <span class="visually-hidden">
+              Page
+            </span>5</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=5" title="Go to page 6">
+            <span class="visually-hidden">
+              Page
+            </span>6</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=6" title="Go to page 7">
+            <span class="visually-hidden">
+              Page
+            </span>7</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=7" title="Go to page 8">
+            <span class="visually-hidden">
+              Page
+            </span>8</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=8" title="Go to page 9">
+            <span class="visually-hidden">
+              Page
+            </span>9</a>
+        </li>
+                          <li class="pager__item pager__item--ellipsis" role="presentation">&hellip;</li>
+                          <li class="pager__item pager__item--next">
+          <a href="?page=1" title="Go to next page" rel="next">
+            <span class="visually-hidden">Next page</span>
+            <span aria-hidden="true">Next ›</span>
+          </a>
+        </li>
+                          <li class="pager__item pager__item--last">
+          <a href="?page=67" title="Go to last page">
+            <span class="visually-hidden">Last page</span>
+            <span aria-hidden="true">Last »</span>
+          </a>
+        </li>
+          </ul>
+  </nav>
+
+  <div class="field field--name-checked field--type-timestamp field--label-inline clearfix">
+    <div class="field__label">Checked</div>
+              <div class="field__item">7 hours 9 minutes ago</div>
+          </div>
+<div class="feed-description">Search on cochrane.org for:</div>
+  <div class="field field--name-link field--type-uri field--label-inline clearfix">
+    <div class="field__label">URL</div>
+              <div class="field__item"><a href="https://www.cochrane.org/fr/search/site/?f%5B0%5D=bundle%3Areview" target="_blank" class="external">https://www.cochrane.org/fr/search/site/?f%5B0%5D=bundle%3Areview</a></div>
+          </div>
+<a href="https://www.cochrane.org/fr/rss?f%5B0%5D=bundle%3Areview" class="feed-icon">
+  Subscribe to Derniers résumés en Français feed
+</a>
+
+
+</div>
+
+  </div>
+
+  </section>
+
+              </section>
+                    <aside class="sidebars">
+                                      
+                                                          <section class="region region-sidebar-second">
+    <div id="block-cochrane-abonnezvousanoslettresdinformation" class="block block-block-content block-block-contente3e48124-0fc9-4cf7-b2c7-7954ea75ba9f clearfix">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><table><tbody><tr><td><a href="https://france.cochrane.org/node/118"><img src="/sites/france.cochrane.org/files/uploads/inline-images/email_1324159.png" data-entity-uuid="8712d790-18f3-418b-a46b-207b97cc85b0" data-entity-type="file" width="47" height="47" class="align-right"></a></td><td><p class="text-align-center"><a href="https://france.cochrane.org/node/118">Abonnez-vous à nos lettres d'information !</a></p></td></tr></tbody></table></div>
+      
+  </div>
+<div id="block-cochrane-benevolat" class="block block-block-content block-block-contentb4914c1c-4f2f-49aa-9dd1-892bd54a147d clearfix">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p class="text-align-center">Nos <strong>partenaires </strong>peuvent nous contacter via<a href="https://france.cochrane.org/form/contactez-nous" title="contactez-nous"> ce formulaire&nbsp;</a></p></div>
+      
+  </div>
+<div id="block-cochrane-benevolat-3" class="block block-block-content block-block-content1da3c7b2-4ece-4888-bf1b-93637e407b95 clearfix">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p class="text-align-center"><a href="https://france.cochrane.org/node/15">Devenez bénévole Cochrane !</a></p></div>
+      
+  </div>
+<div id="block-custom-2" class="block block-block-content block-block-content47236e8f-16c4-4d42-ad7d-2acf5f212b54 clearfix">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p class="text-align-center"><a href="https://bsky.app/profile/cochranefrance.bsky.social" target="_blank" class="external has-img" rel="external"><img src="/sites/france.cochrane.org/files/uploads/inline-images/bluesky_logo.svg_.png" data-entity-uuid="609b1d99-531d-4614-846c-f9fd8106b6d4" data-entity-type="file" width="41" height="36"></a> &nbsp;<a href="https://www.instagram.com/cochrane_france/" target="_blank" class="external has-img" rel="external"><img src="/sites/france.cochrane.org/files/uploads/logo_instagram.jpg" data-entity-uuid="d812629d-eab4-46e9-9bc1-8a40b8a088cc" data-entity-type="file" alt width="40" height="40"></a> &nbsp;<a href="https://www.linkedin.com/company/cochrane-france/" target="_blank" class="external has-img" rel="external"><img src="/sites/france.cochrane.org/files/uploads/linkedin_logo.png" data-entity-uuid="8d8222bc-a7a8-46ae-95f9-356a84f9b484" data-entity-type="file" alt width="39" height="39"></a> &nbsp;&nbsp;<a href="https://www.youtube.com/@cochranefrance2656" target="_blank" class="external has-img" rel="external"><img src="/sites/france.cochrane.org/files/uploads/inline-images/youtube_logo_1.png" data-entity-uuid="d3ad4eaa-41e6-4eb4-a790-fd1a68e61130" data-entity-type="file" width="55" height="38"></a></p></div>
+      
+  </div>
+
+  </section>
+
+                          </aside>
+          </div></div>
+              <div id="main-navigation-wrapper"><div id="navigation">
+        <nav id="main-menu" role="navigation" tabindex="-1">
+            <section class="region region-navigation">
+    <nav role="navigation" aria-labelledby="block-cochrane-main-menu-menu" id="block-cochrane-main-menu" class="block block-menu navigation menu--main">
+            
+  <h2 class="visually-hidden" id="block-cochrane-main-menu-menu">Main navigation</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item menu-item--collapsed">
+        <a href="/propos-0" data-drupal-link-system-path="node/8">Qui sommes-nous ?</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/22" data-drupal-link-system-path="node/22">Nos activités</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/95" data-drupal-link-system-path="node/95">Nos formations</a>
+              </li>
+                <li class="menu-item">
+        <a href="/node/12" data-drupal-link-system-path="node/12">Revues Cochrane</a>
+              </li>
+                <li class="menu-item">
+        <a href="/news" data-drupal-link-system-path="news">Nos actualités </a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/node/29" data-drupal-link-system-path="node/29">Nous rejoindre</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </section>
+
+          
+        </nav>
+      </div></div>
+      </div></div>
+      <footer id="footer" class="footer " role="contentinfo">
+        <section class="region region-footer">
+    <div id="block-funders" class="block block-cochrane-all-sites block-cochrane-all-sites-funders clearfix">
+  
+    
+      <div id="funders"><div class="funder"><a href="https://sante.gouv.fr/" class="hide-external external" target="_blank"><img class="funder-logo image-style-funder" src="/sites/france.cochrane.org/files/styles/funder/public/uploads/funders/ministere.png?itok=Ikn6tY8w" alt="Ministère de la santé" title="Ministère de la santé" />
+
+</a></div>
+<div class="funder more"><a href="https://france.cochrane.org/node/52" target="_blank" class="external">Voir nos autres partenaires</a></div>
+</div>
+
+  </div>
+<div id="block-cochranemetanavigation" class="block block-cochrane-all-sites block-cochrane-all-sites-metanav clearfix">
+  
+    
+      <div id="meta-nav-wrapper">
+  <div id="meta-nav" class="menu-open">
+    <div id="meta-logo">Cochrane</div>
+    <nav id="meta-menu">
+      <ul>
+        <li class="has-children">
+          <a href="#about-cochrane" name="about-cochrane">A propos de Cochrane</a>
+          <ul>
+            <li><a href="https://links.cochrane.org/home" target="_blank">Cochrane.org</a></li>
+            <li><a href="https://links.cochrane.org/who-we-are" target="_blank">Qui sommes-nous</a></li>
+            <li><a href="https://links.cochrane.org/get-involved" target="_blank">S'impliquer</a></li>
+            <li><a href="https://links.cochrane.org/patient-and-public-network" target="_blank">Patient and Public Network</a></li>
+            <li><a href="https://links.cochrane.org/partners" target="_blank">Partenaires</a></li>
+            <li><a href="https://links.cochrane.org/colloquium" target="_blank">Colloque</a></li>
+            <li><a href="https://links.cochrane.org/news" target="_blank">Nouvelles</a></li>
+          </ul>
+        </li>
+        <li class="has-children">
+          <a href="#publications" name="publications">Publications</a>
+          <ul>
+            <li class="has-children">
+              <a href="https://www.cochranelibrary.com/" target="_blank">Bibliothèque Cochrane</a>
+              <ul>
+                <li><a href="https://www.cochranelibrary.com/cdsr/about-cdsr" target="_blank">Revues Cochrane (CDSR)</a></li>
+                <li><a href="https://www.cochranelibrary.com/central/about-central" target="_blank">Essais (CENTRAL)</a></li>
+                <li><a href="https://www.cochranelibrary.com/cca/about" target="_blank">Cochrane Clinical Answers</a></li>
+              </ul>
+            </li>
+            <li><a href="https://links.cochrane.org/cesm" target="_blank">Cochrane Evidence Synthesis and Methods</a></li>
+          </ul>
+        </li>
+        <li class="has-children break">
+          <a href="#community" name="community">Communauté</a>
+          <ul>
+            <li><a href="https://links.cochrane.org/community" target="_blank">Communauté</a></li>
+            <li><a href="https://links.cochrane.org/account" target="_blank">Cochrane Account</a></li>
+            <li><a href="https://links.cochrane.org/training" target="_blank">Training</a></li>
+            <li><a href="https://links.cochrane.org/support" target="_blank">Support</a></li>
+            <li><a href="https://links.cochrane.org/methods" target="_blank">Méthodes</a></li>
+            <li><a href="https://links.cochrane.org/software" target="_blank">Logiciels</a></li>
+            <li><a href="https://links.cochrane.org/jobs" target="_blank">Emploi et opportunités</a></li>
+          </ul>
+        </li>
+        <li class="has-children">
+          <a href="#contact" name="contact">Nous contacter</a>
+          <ul>
+            <li><a href="https://links.cochrane.org/enquiries" target="_blank">Demandes de renseignement</a></li>
+            <li><a href="https://www.cochranelibrary.com/help/contact-us" target="_blank">Assistance de la Bibliothèque Cochrane</a></li>
+            <li><a href="https://links.cochrane.org/our-global-community" target="_blank">Groupes Cochrane</a></li>
+            <li><a href="https://links.cochrane.org/media" target="_blank">Médias</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div id="meta-social">
+      <a href="https://links.cochrane.org/rss" target="_blank"><img alt="RSS" title="RSS" width="20" height="20" src="/assets/img/social/rss-white.png"></a>
+      <a href="https://links.cochrane.org/facebook" target="_blank"><img alt="Facebook" title="Facebook" width="20" height="20" src="/assets/img/social/facebook-white.png"></a>
+      <a href="https://links.cochrane.org/youtube" target="_blank"><img alt="YouTube" title="YouTube" width="20" height="20" src="/assets/img/social/youtube-white.png"></a>
+      <a href="https://links.cochrane.org/instagram" target="_blank"><img alt="Instagram" title="Instagram" width="20" height="20" src="/assets/img/social/instagram-white.png"></a>
+      <a href="https://links.cochrane.org/linkedin" target="_blank"><img alt="LinkedIn" title="LinkedIn" width="20" height="20" src="/assets/img/social/linkedin-white.png"></a>
+    </div>
+    <div id="site-slogan-footer">
+      <div class="slogan-line slogan-line-1">Trusted evidence.</div>
+      <div class="slogan-line slogan-line-2">Informed decisions.</div>
+      <div class="slogan-line slogan-line-3">Better health.</div>
+    </div>
+    <div style="clear: both"> </div>
+  </div>
+</div>
+</section>
+<div id="bottom-links">
+  <div id="copyright">Copyright &copy; 2025 The Cochrane Collaboration</div>
+  <div id="disclaimer">
+    <a href="/sitemap">Index</a> | 
+    <a href="https://links.cochrane.org/website-terms-and-conditions">Website Terms & Conditions</a> | 
+    <a href="https://www.cochrane.org/disclaimer">Avertissement</a> | 
+    <a href="https://www.cochrane.org/privacy">Confidentialité</a> | 
+    <a href="https://www.cochrane.org/disclaimer#cookies-policy">Politique d’utilisation des cookies</a>
+  </div>
+</div>
+<div id="cookie-warning" style="display: none;">We use cookies to improve your experience on our site.<a href="#" class="cookie-button close">OK</a> <a href="https://links.cochrane.org/data-policy#appendix-b" target="_blank" class="cookie-button">More information</a></div>
+  </div>
+
+  </section>
+
+    </footer>
+  </div>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"aggregator\/sources\/1","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"fr"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"cochrane_cookies":{"settings":{"title":"Notre utilisation des cookies","description":"Nous utilisons les cookies n\u00e9cessaires au fonctionnement de notre site. Nous aimerions \u00e9galement mettre en place des cookies analytiques optionnels pour nous aider \u00e0 l\u0027am\u00e9liorer. Nous n\u0027installerons pas de cookies optionnels \u00e0 moins que vous ne les activiez. L\u0027utilisation de cet outil permettra d\u0027installer un cookie sur votre appareil pour m\u00e9moriser vos pr\u00e9f\u00e9rences. Vous pouvez toujours modifier vos pr\u00e9f\u00e9rences en mati\u00e8re de cookies \u00e0 tout moment en cliquant sur le lien \u00ab Param\u00e8tres des cookies \u00bb en bas de chaque page. \u003Cbr\u003EVous pouvez voir plus d\u0027informations concernant les cookies que nous utilisons sur notre \u003Ca href=\u0022https:\/\/www.cochrane.org\/cookies-policy\u0022 class=\u0022external\u0022 target=\u0022_blank\u0022 title=\u0022nouvelle fen\u00eatre\u0022\u003E  page sur les Cookies\u003C\/a\u003E","description_no_optional":"We only use cookies that are necessary to enable core functionality such as security, network management, and accessibility. You may disable these by changing your browser settings, but this may affect how the website functions. Clicking on \u0027OK\u0027 will set a cookie on your device to remember you read this message.\u003Cbr\u003EFor more detailed information about the cookies we use, see our \u003Ca href=\u0022https:\/\/www.cochrane.org\/cookies-policy\u0022 class=\u0022external\u0022 target=\u0022_blank\u0022 title=\u0022Opens in new window\u0022\u003ECookies page\u003C\/a\u003E.","accept_all":"Accepter tout","accept_selected":"Accepter la s\u00e9lection","configure":"Configurer","ok":"OK","cookiesettings":"Param\u00e8tres des cookies","expiration":365,"delay":10000,"necessary":{"label":"Les cookies n\u00e9cessaires","value":"n","description":"Les cookies n\u00e9cessaires permettent d\u0027activer des fonctionnalit\u00e9s de base telles que la s\u00e9curit\u00e9, la gestion du r\u00e9seau et l\u0027accessibilit\u00e9. Vous pouvez les d\u00e9sactiver en modifiant les param\u00e8tres de votre navigateur, mais cela pourrait affecter le fonctionnement du site."},"other":[],"d":"france.cochrane.org","p":"aggregator\/sources\/1","l":"fr"}},"user":{"uid":0,"permissionsHash":"4f1bbf6cd1e26ebc406b0a780cb6d46230453e58e94d089b80617a23a18bbeae"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.7.1"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/sites/france.cochrane.org/files/languages/fr_Osucs5R1vYQoOIgBQl4mY1E6otb6Ju2Ec0ou-Q3xIYg.js?sz4jd5"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=10.4.5"></script>
+<script src="/core/misc/drupal.js?v=10.4.5"></script>
+<script src="/core/misc/drupal.init.js?v=10.4.5"></script>
+<script src="/themes/custom/cochrane/js/global.js?v=1.x"></script>
+<script src="/modules/custom/cochrane_all_sites/js/metanav.js?v=1.x"></script>
+<script src="/modules/custom/cochrane_cookies/assets/cochrane_cookies.min.js?v=1.x"></script>
+<script src="/modules/custom/cochrane_cse/js/search.min.js?v=1.x"></script>
+
+  </body>
+</html>

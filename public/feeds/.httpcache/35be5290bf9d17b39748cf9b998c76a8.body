@@ -1,0 +1,1376 @@
+<!DOCTYPE html>
+<html class=" responsive DesktopUI" lang="en"  >
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+			<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="theme-color" content="#171a21">
+		<title>Free Games Sharing Thread :: Free Games Finders</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	
+	
+	<link href="https://community.fastly.steamstatic.com/public/shared/css/motiva_sans.css?v=-yZgCk0Nu7kH&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/shared/css/buttons.css?v=0Ihq-pAoptBq&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/shared/css/shared_global.css?v=7Ip_Bj7qxKo8&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/css/globalv2.css?v=9RV1KkrS040q&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/css/skin_1/calendar.css?v=tJwT7D4vxxNm&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/css/skin_1/modalContent.css?v=WXAusLHclDIt&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/css/skin_1/forums.css?v=qovsuYh7_YiX&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/css/skin_1/groupv2.css?v=g_gl6XhB6Uuk&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/shared/css/shared_responsive.css?v=rijC4Tgz7VhK&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<link href="https://community.fastly.steamstatic.com/public/css/skin_1/header.css?v=EM4kCu67DNda&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+	var __PrototypePreserve=[];
+	__PrototypePreserve[0] = Array.from;
+	__PrototypePreserve[1] = Array.prototype.filter;
+	__PrototypePreserve[2] = Array.prototype.flatMap;
+	__PrototypePreserve[3] = Array.prototype.find;
+	__PrototypePreserve[4] = Array.prototype.some;
+	__PrototypePreserve[5] = Function.prototype.bind;
+	__PrototypePreserve[6] = HTMLElement.prototype.scrollTo;
+</script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/prototype-1.7.js?v=npJElBnrEO6W&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript">
+	Array.from = __PrototypePreserve[0] || Array.from;
+	Array.prototype.filter = __PrototypePreserve[1] || Array.prototype.filter;
+	Array.prototype.flatMap = __PrototypePreserve[2] || Array.prototype.flatMap;
+	Array.prototype.find = __PrototypePreserve[3] || Array.prototype.find;
+	Array.prototype.some = __PrototypePreserve[4] || Array.prototype.some;
+	Function.prototype.bind = __PrototypePreserve[5] || Function.prototype.bind;
+	HTMLElement.prototype.scrollTo = __PrototypePreserve[6] || HTMLElement.prototype.scrollTo;
+</script>
+<script type="text/javascript">
+	var __ScriptaculousPreserve=[];
+	__ScriptaculousPreserve[0] = Array.from;
+	__ScriptaculousPreserve[1] = Function.prototype.bind;
+	__ScriptaculousPreserve[2] = HTMLElement.prototype.scrollTo;
+</script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/scriptaculous/_combined.js?v=pbdAKOcDIgbC&amp;l=english&amp;_cdn=fastly&amp;load=effects,controls,slider,dragdrop"></script>
+<script type="text/javascript">
+	Array.from = __ScriptaculousPreserve[0] || Array.from;
+	Function.prototype.bind = __ScriptaculousPreserve[1] || Function.prototype.bind;
+	HTMLElement.prototype.scrollTo = __ScriptaculousPreserve[2] || HTMLElement.prototype.scrollTo;
+delete String['__parseStyleElement'];  Prototype.Browser.WebKit = true;</script>
+<script type="text/javascript">VALVE_PUBLIC_PATH = "https:\/\/community.fastly.steamstatic.com\/public\/";</script><script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/global.js?v=cMt-H-zOgNUp&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/jquery-1.11.1.min.js?v=gQHVlrK4-jX-&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/shared/javascript/tooltip.js?v=4dCbm51EojU9&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/shared/javascript/shared_global.js?v=m3dNaWDVC2YM&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/shared/javascript/auth_refresh.js?v=w6QbwI-5-j2S&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript">Object.seal && [ Object, Array, String, Number ].map( function( builtin ) { Object.seal( builtin.prototype ); } );</script><script type="text/javascript">$J = jQuery.noConflict();
+if ( typeof JSON != 'object' || !JSON.stringify || !JSON.parse ) { document.write( "<scr" + "ipt type=\"text\/javascript\" src=\"https:\/\/community.fastly.steamstatic.com\/public\/javascript\/json2.js?v=54NKNglvGTO8&amp;l=english&amp;_cdn=fastly\"><\/script>\n" ); };
+</script>
+		<script type="text/javascript">
+			document.addEventListener('DOMContentLoaded', function(event) {
+				SetupTooltips( { tooltipCSSClass: 'community_tooltip'} );
+		});
+		</script><script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/modalv2.js?v=zBXEuexVQ0FZ&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/calendar.js?v=Dyeq3pn7LkSW&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/group.js?v=1S7--W9BlZA3&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/forums.js?v=WjGE15Nto7BN&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/modalContent.js?v=uqf5ttWTRe7l&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/reportedcontent.js?v=-lZqrarogJr8&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/webui/clientcom.js?v=ayOYdBZ3Qd4z&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/shared/javascript/shared_responsive_adapter.js?v=dZsqAsxKrnLL&amp;l=english&amp;_cdn=fastly"></script>
+
+						<meta name="twitter:card" content="summary">
+					<meta name="Description" content="If your post does not contain a giveaway link, this is the wrong place for it. This thread is only for posting legitimate (legal) links to free games and giveaways. Use the Discussion thread to discuss giveaways and to avoid spamming notifications. ːwyesː How to use this thread: All posts should include: The title of the game and a Link to the giveaway. Please do not post comments, questions, or replies in this thread. Use the Discussion thread for giveaway issues, updates, and questions.">
+			
+	<meta name="twitter:site" content="@steam" />
+
+						<meta property="og:title" content="Free Games Sharing Thread :: Free Games Finders">
+					<meta property="twitter:title" content="Free Games Sharing Thread :: Free Games Finders">
+					<meta property="og:type" content="website">
+					<meta property="fb:app_id" content="105386699540688">
+					<meta property="og:description" content="If your post does not contain a giveaway link, this is the wrong place for it. This thread is only for posting legitimate (legal) links to free games and giveaways. Use the Discussion thread to discuss giveaways and to avoid spamming notifications. ːwyesː How to use this thread: All posts should include: The title of the game and a Link to the giveaway. Please do not post comments, questions, or replies in this thread. Use the Discussion thread for giveaway issues, updates, and questions.">
+					<meta property="twitter:description" content="If your post does not contain a giveaway link, this is the wrong place for it. This thread is only for posting legitimate (legal) links to free games and giveaways. Use the Discussion thread to discuss giveaways and to avoid spamming notifications. ːwyesː How to use this thread: All posts should include: The title of the game and a Link to the giveaway. Please do not post comments, questions, or replies in this thread. Use the Discussion thread for giveaway issues, updates, and questions.">
+			
+	
+			<link rel="image_src" href="https://avatars.fastly.steamstatic.com/cebef01be773032093af3b4b453bb25ae85e0c93_full.jpg">
+		<meta property="og:image" content="https://avatars.fastly.steamstatic.com/cebef01be773032093af3b4b453bb25ae85e0c93_full.jpg">
+		<meta name="twitter:image" content="https://avatars.fastly.steamstatic.com/cebef01be773032093af3b4b453bb25ae85e0c93_full.jpg" />
+				
+	
+	
+	
+	
+	</head>
+<body class="flat_page responsive_page ">
+
+
+<div class="responsive_page_frame with_header">
+						<div role="navigation" class="responsive_page_menu_ctn mainmenu" aria-label="Mobile Menu">
+				<div class="responsive_page_menu"  id="responsive_page_menu">
+										<div class="mainmenu_contents">
+						<div class="mainmenu_contents_items">
+															<a class="menuitem" href="https://steamcommunity.com/login/home/?goto=groups%2Ffreegamesfinders%2Fdiscussions%2F0%2F648814395937189891%2F">
+									Login								</a>
+															<a class="menuitem supernav" href="https://store.steampowered.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
+				Store			</a>
+			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
+														<a class="submenuitem" href="https://store.steampowered.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/explore/">
+						Discovery Queue											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/my/wishlist/">
+						Wishlist											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/points/shop/">
+						Points Shop											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/news/">
+						News											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/stats/">
+						Stats											</a>
+							</div>
+										<a class="menuitem supernav supernav_active" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
+				Community			</a>
+			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
+														<a class="submenuitem" href="https://steamcommunity.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/discussions/">
+						Discussions											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/workshop/">
+						Workshop											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/market/">
+						Market											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+						Broadcasts											</a>
+							</div>
+										<a class="menuitem " href="https://store.steampowered.com/about/">
+				About			</a>
+										<a class="menuitem " href="https://help.steampowered.com/en/">
+				Support			</a>
+			
+							<div class="minor_menu_items">
+																								<div class="menuitem change_language_action">
+									Change language								</div>
+																																	<a class="menuitem" href="https://store.steampowered.com/mobile" target="_blank" rel="noreferrer">Get the Steam Mobile App</a>
+																									<div class="menuitem" role="link" onclick="Responsive_RequestDesktopView();">
+										View desktop website									</div>
+															</div>
+						</div>
+						<div class="mainmenu_footer_spacer  "></div>
+						<div class="mainmenu_footer">
+															<div class="mainmenu_footer_logo"><img src="https://community.fastly.steamstatic.com/public/shared/images/responsive/logo_valve_footer.png"></div>
+								© Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.								<span class="mainmenu_valve_links">
+									<a href="https://store.steampowered.com/privacy_agreement/" target="_blank">Privacy Policy</a>
+									&nbsp;| &nbsp;<a href="http://www.valvesoftware.com/legal.htm" target="_blank">Legal</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/subscriber_agreement/" target="_blank">Steam Subscriber Agreement</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/steam_refunds/" target="_blank">Refunds</a>
+								</span>
+													</div>
+					</div>
+									</div>
+			</div>
+		
+		<div class="responsive_local_menu_tab"></div>
+
+		<div class="responsive_page_menu_ctn localmenu">
+			<div class="responsive_page_menu"  id="responsive_page_local_menu" data-panel="{&quot;onOptionsActionDescription&quot;:&quot;#filter_toggle&quot;,&quot;onOptionsButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;,&quot;onCancelButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;}">
+				<div class="localmenu_content" data-panel="{&quot;maintainY&quot;:true,&quot;bFocusRingRoot&quot;:true,&quot;flow-children&quot;:&quot;column&quot;}">
+				</div>
+			</div>
+		</div>
+
+
+
+					<div class="responsive_header">
+				<div class="responsive_header_content">
+					<div id="responsive_menu_logo">
+						<img src="https://community.fastly.steamstatic.com/public/shared/images/responsive/header_menu_hamburger.png" height="100%">
+											</div>
+					<div class="responsive_header_logo">
+						<a href="https://store.steampowered.com/">
+															<img src="https://community.fastly.steamstatic.com/public/shared/images/responsive/header_logo.png" height="36" border="0" alt="STEAM">
+													</a>
+					</div>
+									</div>
+			</div>
+		
+		<div class="responsive_page_content_overlay">
+
+		</div>
+
+		<div class="responsive_fixonscroll_ctn nonresponsive_hidden ">
+		</div>
+	
+	<div class="responsive_page_content">
+
+		<div role="banner" id="global_header" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+	<div class="content">
+		<div class="logo">
+			<span id="logo_holder">
+									<a href="https://store.steampowered.com/" aria-label="Link to the Steam Homepage">
+						<img src="https://community.fastly.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" width="176" height="44" alt="Link to the Steam Homepage">
+					</a>
+							</span>
+		</div>
+
+			<div role="navigation" class="supernav_container" aria-label="Global Menu">
+								<a class="menuitem supernav" href="https://store.steampowered.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Store">
+				STORE			</a>
+			<div class="submenu_Store" style="display: none;" data-submenuid="Store">
+														<a class="submenuitem" href="https://store.steampowered.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/explore/">
+						Discovery Queue											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/my/wishlist/">
+						Wishlist											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/points/shop/">
+						Points Shop											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/news/">
+						News											</a>
+														<a class="submenuitem" href="https://store.steampowered.com/stats/">
+						Stats											</a>
+							</div>
+										<a class="menuitem supernav supernav_active" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community">
+				COMMUNITY			</a>
+			<div class="submenu_Community" style="display: none;" data-submenuid="Community">
+														<a class="submenuitem" href="https://steamcommunity.com/">
+						Home											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/discussions/">
+						Discussions											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/workshop/">
+						Workshop											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/market/">
+						Market											</a>
+														<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">
+						Broadcasts											</a>
+							</div>
+										<a class="menuitem " href="https://store.steampowered.com/about/">
+				About			</a>
+										<a class="menuitem " href="https://help.steampowered.com/en/">
+				SUPPORT			</a>
+				</div>
+	<script type="text/javascript">
+		jQuery(function($) {
+			$('#global_header .supernav').v_tooltip({'location':'bottom', 'destroyWhenDone': false, 'tooltipClass': 'supernav_content', 'offsetY':-6, 'offsetX': 1, 'horizontalSnap': 4, 'tooltipParent': '#global_header .supernav_container', 'correctForScreenSize': false});
+		});
+	</script>
+
+		<div id="global_actions">
+			<div role="navigation" id="global_action_menu" aria-label="Account Menu">
+									<a class="header_installsteam_btn header_installsteam_btn_green" href="https://store.steampowered.com/about/">
+						<div class="header_installsteam_btn_content">
+							Install Steam						</div>
+					</a>
+				
+				
+									<a class="global_action_link" href="https://steamcommunity.com/login/home/?goto=groups%2Ffreegamesfinders%2Fdiscussions%2F0%2F648814395937189891%2F">login</a>
+											&nbsp;|&nbsp;
+						<span class="pulldown global_action_link" id="language_pulldown" onclick="ShowMenu( this, 'language_dropdown', 'right' );">language</span>
+						<div class="popup_block_new" id="language_dropdown" style="display: none;">
+							<div class="popup_body popup_menu">
+																																					<a class="popup_menu_item tight" href="?l=schinese" onclick="ChangeLanguage( 'schinese' ); return false;">简体中文 (Simplified Chinese)</a>
+																													<a class="popup_menu_item tight" href="?l=tchinese" onclick="ChangeLanguage( 'tchinese' ); return false;">繁體中文 (Traditional Chinese)</a>
+																													<a class="popup_menu_item tight" href="?l=japanese" onclick="ChangeLanguage( 'japanese' ); return false;">日本語 (Japanese)</a>
+																													<a class="popup_menu_item tight" href="?l=koreana" onclick="ChangeLanguage( 'koreana' ); return false;">한국어 (Korean)</a>
+																													<a class="popup_menu_item tight" href="?l=thai" onclick="ChangeLanguage( 'thai' ); return false;">ไทย (Thai)</a>
+																													<a class="popup_menu_item tight" href="?l=bulgarian" onclick="ChangeLanguage( 'bulgarian' ); return false;">Български (Bulgarian)</a>
+																													<a class="popup_menu_item tight" href="?l=czech" onclick="ChangeLanguage( 'czech' ); return false;">Čeština (Czech)</a>
+																													<a class="popup_menu_item tight" href="?l=danish" onclick="ChangeLanguage( 'danish' ); return false;">Dansk (Danish)</a>
+																													<a class="popup_menu_item tight" href="?l=german" onclick="ChangeLanguage( 'german' ); return false;">Deutsch (German)</a>
+																																							<a class="popup_menu_item tight" href="?l=spanish" onclick="ChangeLanguage( 'spanish' ); return false;">Español - España (Spanish - Spain)</a>
+																													<a class="popup_menu_item tight" href="?l=latam" onclick="ChangeLanguage( 'latam' ); return false;">Español - Latinoamérica (Spanish - Latin America)</a>
+																													<a class="popup_menu_item tight" href="?l=greek" onclick="ChangeLanguage( 'greek' ); return false;">Ελληνικά (Greek)</a>
+																													<a class="popup_menu_item tight" href="?l=french" onclick="ChangeLanguage( 'french' ); return false;">Français (French)</a>
+																													<a class="popup_menu_item tight" href="?l=italian" onclick="ChangeLanguage( 'italian' ); return false;">Italiano (Italian)</a>
+																													<a class="popup_menu_item tight" href="?l=indonesian" onclick="ChangeLanguage( 'indonesian' ); return false;">Bahasa Indonesia (Indonesian)</a>
+																													<a class="popup_menu_item tight" href="?l=hungarian" onclick="ChangeLanguage( 'hungarian' ); return false;">Magyar (Hungarian)</a>
+																													<a class="popup_menu_item tight" href="?l=dutch" onclick="ChangeLanguage( 'dutch' ); return false;">Nederlands (Dutch)</a>
+																													<a class="popup_menu_item tight" href="?l=norwegian" onclick="ChangeLanguage( 'norwegian' ); return false;">Norsk (Norwegian)</a>
+																													<a class="popup_menu_item tight" href="?l=polish" onclick="ChangeLanguage( 'polish' ); return false;">Polski (Polish)</a>
+																													<a class="popup_menu_item tight" href="?l=portuguese" onclick="ChangeLanguage( 'portuguese' ); return false;">Português (Portuguese - Portugal)</a>
+																													<a class="popup_menu_item tight" href="?l=brazilian" onclick="ChangeLanguage( 'brazilian' ); return false;">Português - Brasil (Portuguese - Brazil)</a>
+																													<a class="popup_menu_item tight" href="?l=romanian" onclick="ChangeLanguage( 'romanian' ); return false;">Română (Romanian)</a>
+																													<a class="popup_menu_item tight" href="?l=russian" onclick="ChangeLanguage( 'russian' ); return false;">Русский (Russian)</a>
+																													<a class="popup_menu_item tight" href="?l=finnish" onclick="ChangeLanguage( 'finnish' ); return false;">Suomi (Finnish)</a>
+																													<a class="popup_menu_item tight" href="?l=swedish" onclick="ChangeLanguage( 'swedish' ); return false;">Svenska (Swedish)</a>
+																													<a class="popup_menu_item tight" href="?l=turkish" onclick="ChangeLanguage( 'turkish' ); return false;">Türkçe (Turkish)</a>
+																													<a class="popup_menu_item tight" href="?l=vietnamese" onclick="ChangeLanguage( 'vietnamese' ); return false;">Tiếng Việt (Vietnamese)</a>
+																													<a class="popup_menu_item tight" href="?l=ukrainian" onclick="ChangeLanguage( 'ukrainian' ); return false;">Українська (Ukrainian)</a>
+																									<a class="popup_menu_item tight" href="https://www.valvesoftware.com/en/contact?contact-person=Translation%20Team%20Feedback" target="_blank">Report a translation problem</a>
+							</div>
+						</div>
+												</div>
+					</div>
+			</div>
+</div>
+<script type="text/javascript">
+	g_sessionID = "2e48082076ab8b51d0cced21";
+	g_steamID = false;
+	g_strLanguage = "english";
+	g_SNR = '2_groups_100006_';
+	g_bAllowAppImpressions = true;
+		g_ContentDescriptorPreferences = [1,3,4];
+
+	
+
+	// We always want to have the timezone cookie set for PHP to use
+	setTimezoneCookies();
+
+	$J( function() {
+
+		InitMiniprofileHovers(( 'https%3A%2F%2Fsteamcommunity.com' ));
+		InitEmoticonHovers();
+		ApplyAdultContentPreferences();
+	});
+
+	$J( function() { InitEconomyHovers( "https:\/\/community.fastly.steamstatic.com\/public\/css\/skin_1\/economy.css?v=rHY9Ei5pf10z&l=english&_cdn=fastly", "https:\/\/community.fastly.steamstatic.com\/public\/javascript\/economy_common.js?v=GYFVZLtXyAJC&l=english&_cdn=fastly", "https:\/\/community.fastly.steamstatic.com\/public\/javascript\/economy.js?v=OPargPQnfWEK&l=english&_cdn=fastly" );});</script>
+	<div id="webui_config" style="display: none;"
+		 data-config="{&quot;EUNIVERSE&quot;:1,&quot;WEB_UNIVERSE&quot;:&quot;public&quot;,&quot;LANGUAGE&quot;:&quot;english&quot;,&quot;COUNTRY&quot;:&quot;US&quot;,&quot;MEDIA_CDN_COMMUNITY_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/steamcommunity\/public\/&quot;,&quot;MEDIA_CDN_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/&quot;,&quot;VIDEO_CDN_URL&quot;:&quot;https:\/\/video.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_URL&quot;:&quot;https:\/\/community.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_ASSET_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/steamcommunity\/public\/assets\/&quot;,&quot;STORE_CDN_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/&quot;,&quot;PUBLIC_SHARED_URL&quot;:&quot;https:\/\/community.fastly.steamstatic.com\/public\/shared\/&quot;,&quot;COMMUNITY_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;CHAT_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;STORE_BASE_URL&quot;:&quot;https:\/\/store.steampowered.com\/&quot;,&quot;STORE_CHECKOUT_BASE_URL&quot;:&quot;https:\/\/checkout.steampowered.com\/&quot;,&quot;IMG_URL&quot;:&quot;https:\/\/community.fastly.steamstatic.com\/public\/images\/&quot;,&quot;STEAMTV_BASE_URL&quot;:&quot;https:\/\/steam.tv\/&quot;,&quot;HELP_BASE_URL&quot;:&quot;https:\/\/help.steampowered.com\/&quot;,&quot;PARTNER_BASE_URL&quot;:&quot;https:\/\/partner.steamgames.com\/&quot;,&quot;STATS_BASE_URL&quot;:&quot;https:\/\/partner.steampowered.com\/&quot;,&quot;INTERNAL_STATS_BASE_URL&quot;:&quot;https:\/\/steamstats.valve.org\/&quot;,&quot;IN_CLIENT&quot;:false,&quot;USE_POPUPS&quot;:false,&quot;STORE_ICON_BASE_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/&quot;,&quot;STORE_ITEM_BASE_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/&quot;,&quot;WEBAPI_BASE_URL&quot;:&quot;https:\/\/api.steampowered.com\/&quot;,&quot;TOKEN_URL&quot;:&quot;https:\/\/steamcommunity.com\/chat\/clientjstoken&quot;,&quot;BUILD_TIMESTAMP&quot;:1758310124,&quot;PAGE_TIMESTAMP&quot;:1758357842,&quot;IN_TENFOOT&quot;:false,&quot;IN_GAMEPADUI&quot;:false,&quot;IN_CHROMEOS&quot;:false,&quot;IN_MOBILE_WEBVIEW&quot;:false,&quot;PLATFORM&quot;:&quot;unknown&quot;,&quot;BASE_URL_STORE_CDN_ASSETS&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/store\/&quot;,&quot;EREALM&quot;:1,&quot;LOGIN_BASE_URL&quot;:&quot;https:\/\/login.steampowered.com\/&quot;,&quot;AVATAR_BASE_URL&quot;:&quot;https:\/\/avatars.fastly.steamstatic.com\/&quot;,&quot;FROM_WEB&quot;:true,&quot;WEBSITE_ID&quot;:&quot;Community&quot;,&quot;BASE_URL_SHARED_CDN&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/&quot;,&quot;CLAN_CDN_ASSET_URL&quot;:&quot;https:\/\/clan.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_ASSETS_BASE_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/community_assets\/&quot;,&quot;SNR&quot;:&quot;2_groups_100006_&quot;}"
+		 data-userinfo="[]">
+	</div>
+<div id="application_config" style="display: none;"  data-config="{&quot;EUNIVERSE&quot;:1,&quot;WEB_UNIVERSE&quot;:&quot;public&quot;,&quot;LANGUAGE&quot;:&quot;english&quot;,&quot;COUNTRY&quot;:&quot;US&quot;,&quot;MEDIA_CDN_COMMUNITY_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/steamcommunity\/public\/&quot;,&quot;MEDIA_CDN_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/&quot;,&quot;VIDEO_CDN_URL&quot;:&quot;https:\/\/video.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_URL&quot;:&quot;https:\/\/community.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_ASSET_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/steamcommunity\/public\/assets\/&quot;,&quot;STORE_CDN_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/&quot;,&quot;PUBLIC_SHARED_URL&quot;:&quot;https:\/\/community.fastly.steamstatic.com\/public\/shared\/&quot;,&quot;COMMUNITY_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;CHAT_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;STORE_BASE_URL&quot;:&quot;https:\/\/store.steampowered.com\/&quot;,&quot;STORE_CHECKOUT_BASE_URL&quot;:&quot;https:\/\/checkout.steampowered.com\/&quot;,&quot;IMG_URL&quot;:&quot;https:\/\/community.fastly.steamstatic.com\/public\/images\/&quot;,&quot;STEAMTV_BASE_URL&quot;:&quot;https:\/\/steam.tv\/&quot;,&quot;HELP_BASE_URL&quot;:&quot;https:\/\/help.steampowered.com\/&quot;,&quot;PARTNER_BASE_URL&quot;:&quot;https:\/\/partner.steamgames.com\/&quot;,&quot;STATS_BASE_URL&quot;:&quot;https:\/\/partner.steampowered.com\/&quot;,&quot;INTERNAL_STATS_BASE_URL&quot;:&quot;https:\/\/steamstats.valve.org\/&quot;,&quot;IN_CLIENT&quot;:false,&quot;USE_POPUPS&quot;:false,&quot;STORE_ICON_BASE_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/&quot;,&quot;STORE_ITEM_BASE_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/&quot;,&quot;WEBAPI_BASE_URL&quot;:&quot;https:\/\/api.steampowered.com\/&quot;,&quot;TOKEN_URL&quot;:&quot;https:\/\/steamcommunity.com\/chat\/clientjstoken&quot;,&quot;BUILD_TIMESTAMP&quot;:1758310124,&quot;PAGE_TIMESTAMP&quot;:1758357842,&quot;IN_TENFOOT&quot;:false,&quot;IN_GAMEPADUI&quot;:false,&quot;IN_CHROMEOS&quot;:false,&quot;IN_MOBILE_WEBVIEW&quot;:false,&quot;PLATFORM&quot;:&quot;unknown&quot;,&quot;BASE_URL_STORE_CDN_ASSETS&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/store\/&quot;,&quot;EREALM&quot;:1,&quot;LOGIN_BASE_URL&quot;:&quot;https:\/\/login.steampowered.com\/&quot;,&quot;AVATAR_BASE_URL&quot;:&quot;https:\/\/avatars.fastly.steamstatic.com\/&quot;,&quot;FROM_WEB&quot;:true,&quot;WEBSITE_ID&quot;:&quot;Community&quot;,&quot;BASE_URL_SHARED_CDN&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/&quot;,&quot;CLAN_CDN_ASSET_URL&quot;:&quot;https:\/\/clan.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_ASSETS_BASE_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/community_assets\/&quot;,&quot;SNR&quot;:&quot;2_groups_100006_&quot;}" data-userinfo="[]" data-community="[]" data-loyaltystore="{&quot;webapi_token&quot;:&quot;&quot;}" data-steam_notifications="null"></div><link href="https://community.fastly.steamstatic.com/public/css/applications/community/main.css?v=xGQ2fYwVZ1xP&amp;l=english&amp;_cdn=fastly" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/applications/community/manifest.js?v=PU33sk4crNva&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/applications/community/libraries~b28b7af69.js?v=i5jYO5MH4XMN&amp;l=english&amp;_cdn=fastly"></script>
+<script type="text/javascript" src="https://community.fastly.steamstatic.com/public/javascript/applications/community/main.js?v=BT7RNMCxGO77&amp;l=english&amp;_cdn=fastly"></script>
+<div data-featuretarget="apphub-events"></div><div data-featuretarget="community-awards"></div>	<div id="application_root"></div>
+
+		<div role="main" class="responsive_page_template_content" id="responsive_page_template_content" data-panel="{&quot;autoFocus&quot;:true}" >
+
+			<div class="pagecontent ">
+	<div class="maincontent grouppage_header_content">
+				<div class="grouppage_header">
+	<div class="responsive_hidden">
+		<div class="grouppage_member_tiles">
+			<div class="grouppage_membertiles_overlay"></div>
+							<div class="member_tile_row">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/120c6d04b9a80df738313e63ed5105fb87d3803d_medium.jpg" alt="">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/e1398dfe3c36d0f0961a13bb8e408fdc862d8ab2_medium.jpg" alt="">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/198ed93138de7d5c317c955955837dbfeae203f1_medium.jpg" alt="">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/8ce6900f2421a5c909e91d5a3450b1aca129554d_medium.jpg" alt="">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/c29dd52f133ab2c8580b686cb94ab2060c81f248_medium.jpg" alt="">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/e0fc84c959c90ccabe1b4681fe8887503e38008e_medium.jpg" alt="">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/5bcec758fefd4dc76c303d6478b61bb01d32ca96_medium.jpg" alt="">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/3ce2f38c706cccf66055e8de8f847748bcabedf8_medium.jpg" alt="">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/d8b2720b8d81d0b0b4d34da5f878167fc0e9864a_medium.jpg" alt="">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/d71bf8aab508cc9e60172d2c8634ee4686506b3c_medium.jpg" alt="">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/a396d0521b602ec70ad5f2a10ad0b615a086277d_medium.jpg" alt="">
+									</div>
+							<div class="member_tile_row">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/2b6cf5d4cd2df144f68f3b569f2b83de435d90b0_medium.jpg" alt="">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/cba488db7999a1fa82e9c738b44bc8d4f533b496_medium.jpg" alt="">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/c1f16bf9617103338681899ea120fd0956371508_medium.jpg" alt="">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/5d7560e63e15c19e9739df52b22c97fa1e4551c4_medium.jpg" alt="">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/f9a15d61d7a42c178afa2f402078506e78898b74_medium.jpg" alt="">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/408cf6038cdf995d3ed371ed5c629825020a4496_medium.jpg" alt="">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/df43788bfcc182dad462762b26aec1605c0c43a6_medium.jpg" alt="">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/61f2521b6f7df4a4f55aaa4daae477380efcc10b_medium.jpg" alt="">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/dcd8dfe5a923aef678a6e41d38d7a8a27b0908e2_medium.jpg" alt="">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/550406b09cbd56fc3ddedb88ad9f1816321a1f40_medium.jpg" alt="">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/303617a22721845a4c3b79b7cbc2ffbeb2a0bfcc_medium.jpg" alt="">
+									</div>
+							<div class="member_tile_row">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/6a7d45a664fca729035b1dd4d5fd14ca56955b62_medium.jpg" alt="">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/a4988a16ee2d35cdb4aa535bf44562923d8148ad_medium.jpg" alt="">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/23a0eef1f70e4a887a0eedd3cf6be2a6083a95a5_medium.jpg" alt="">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/35bf1693a0d3e996f9b251be9313eb36701796b4_medium.jpg" alt="">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/01d1cae5211f26ad9a4425bc87914267e0eb959f_medium.jpg" alt="">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/5bcec758fefd4dc76c303d6478b61bb01d32ca96_medium.jpg" alt="">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/426490a277d8cb28ea547b1e3f39dd593497f3b6_medium.jpg" alt="">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/db6a2376ef02f6c5d8c0f236ae800bad9f08fa72_medium.jpg" alt="">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/2451c455560850e308c6db0117fc2309f5affdd1_medium.jpg" alt="">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/34b9bd2172f753cf179723666400d7dc785e06de_medium.jpg" alt="">
+											<img class="member_tile" src="https://community.fastly.steamstatic.com/public/shared/images/trans.gif" data-delayed-image-group="member_tiles" data-delayed-image="https://avatars.fastly.steamstatic.com/56e348b41aa9ac271662c00acb54e97a46be3990_medium.jpg" alt="">
+									</div>
+					</div>
+
+		<div class="grouppage_header_top">
+			<div class="grouppage_logo">
+				<img src="https://avatars.fastly.steamstatic.com/cebef01be773032093af3b4b453bb25ae85e0c93_full.jpg">
+			</div>
+			<div class="grouppage_header_label">
+				STEAM GROUP			</div>
+			<div class="grouppage_header_name" style="font-size: 31px;">
+				Free Games Finders				<span class="grouppage_header_abbrev" style="font-size: 22px;">F G F</span>
+			</div>
+
+			<div class="responsive_local_menu">
+				<form name="join_group_form" id="join_group_form" method="POST" action="https://steamcommunity.com/groups/freegamesfinders">
+					<input type="hidden" name="action" value="join">
+					<input type="hidden" name="sessionID" value="2e48082076ab8b51d0cced21">
+				</form>
+									<div class="grouppage_join_area">
+						<a href="javascript:document.forms['join_group_form'].submit();" class="btn_green_white_innerfade btn_medium">
+														<span>Join Group</span>
+												</a>
+					</div>
+							</div>
+
+					</div>
+	</div>
+
+	<div class="nonresponsive_hidden grouppage_resp_header">
+				<div class="grouppage_resp_logo">
+			<img src="https://avatars.fastly.steamstatic.com/cebef01be773032093af3b4b453bb25ae85e0c93_full.jpg">
+		</div>
+		<div class="grouppage_resp_title_ctn">
+			<div>
+				<div class="grouppage_header_label">
+					STEAM GROUP				</div>
+			</div>
+			<div class="grouppage_resp_title ellipsis">
+				Free Games Finders				<span class="grouppage_header_abbrev" >F G F</span>
+			</div>
+		</div>
+		<div class="grouppage_resp_stats">
+			<div class="responsive_group_stats membercounts responsive_membercounts">
+								<div class="membercount members">
+					<a href="https://steamcommunity.com/groups/freegamesfinders/members">
+						<span class="count ">29,650</span><br>
+						<span class="label">MEMBERS</span>
+					</a>
+				</div>
+				<div class="membercount ingame">
+					<div class="count ">784</div>
+					<div class="label">IN-GAME</div>
+				</div>
+				<div class="membercount online">
+					<div class="count ">5,598</div>
+					<div class="label">ONLINE</div>
+				</div>
+				<div style="clear: left;"></div>
+			</div>
+			<div class="responsive_group_stats">
+				<div class="groupstat">
+					<div class="label">Founded</div>
+					<div class="data">December 13, 2013</div>
+				</div>
+									<div class="groupstat">
+						<div class="label">Language</div>
+						<div class="data">English</div>
+					</div>
+												<div style="clear: both;"></div>
+			</div>
+		</div>
+		<div style="clear: left;"></div>
+	</div>
+
+	<div class="group_tabs">
+		<div class="group_tabs_scroll responsive_hidden">
+							<a class="group_tab " id="group_tab_overview" href="https://steamcommunity.com/groups/freegamesfinders">
+					<span>Overview</span>
+				</a>
+							<a class="group_tab " id="group_tab_announcements" href="https://steamcommunity.com/groups/freegamesfinders/announcements/listing">
+					<span>Announcements</span>
+				</a>
+							<a class="group_tab active" id="group_tab_discussions" href="https://steamcommunity.com/groups/freegamesfinders/discussions">
+					<span>Discussions</span>
+				</a>
+							<a class="group_tab " id="group_tab_events" href="https://steamcommunity.com/groups/freegamesfinders#events">
+					<span>Events</span>
+				</a>
+							<a class="group_tab " id="group_tab_members" href="https://steamcommunity.com/groups/freegamesfinders#members">
+					<span>Members</span>
+				</a>
+							<a class="group_tab " id="group_tab_comments" href="https://steamcommunity.com/groups/freegamesfinders#comments">
+					<span>Comments</span>
+				</a>
+							<a class="group_tab " id="group_tab_curation" href="https://steamcommunity.com/groups/freegamesfinders#curation">
+					<span>Curator</span>
+				</a>
+					</div>
+		<div class="nonresponsive_hidden sharedfiles_responsive_tab responsive_tab_ctn">
+			<div class="responsive_tab_control">
+								<select class="responsive_tab_select" id="responsive_tab_select68ce6952af767">
+											<option data-tab-name="overview" value="https://steamcommunity.com/groups/freegamesfinders" >
+							Overview						</option>
+											<option data-tab-name="announcements" value="https://steamcommunity.com/groups/freegamesfinders#announcements" >
+							Announcements						</option>
+											<option data-tab-name="discussions" value="https://steamcommunity.com/groups/freegamesfinders/discussions" selected>
+							Discussions						</option>
+											<option data-tab-name="events" value="https://steamcommunity.com/groups/freegamesfinders#events" >
+							Events						</option>
+											<option data-tab-name="members" value="https://steamcommunity.com/groups/freegamesfinders#members" >
+							Members						</option>
+											<option data-tab-name="comments" value="https://steamcommunity.com/groups/freegamesfinders#comments" >
+							Comments						</option>
+											<option data-tab-name="curation" value="https://steamcommunity.com/groups/freegamesfinders#curation" >
+							Curator						</option>
+									</select>
+			</div>
+		</div>
+	</div>
+</div>
+	</div>
+
+	<div class="grouppage_content_area thread" id="group_tab_content_discussions">
+	<div class="maincontent">
+		<div class="leftcol">
+							<div>
+					<div class="group_breadcrumbs group_content_bodytext">
+						<a href="https://steamcommunity.com/groups/freegamesfinders/discussions">All Discussions</a> &gt;
+						<a href="https://steamcommunity.com/groups/freegamesfinders/discussions/0/">FGF General Discussions</a> &gt;
+						<span>Topic Details</span>
+					</div>
+				</div>
+			
+						
+	<div class="forum_topic_pinned_notice forum_newtopic_box">
+		<img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_pinned.png"> &nbsp;This topic has been pinned, so it's probably important	</div>
+	<div data-panel="{&quot;type&quot;:&quot;PanelGroup&quot;}" class="forum_op" id="forum_op_648814395937189891">
+
+						<div class="forum_op_header" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+
+							<div class="forum_op_avatar playerAvatar offline">
+										<a href="https://steamcommunity.com/id/jbondguy007">
+						<img src="https://avatars.fastly.steamstatic.com/426490a277d8cb28ea547b1e3f39dd593497f3b6.jpg" data-miniprofile="113498348">
+					</a>
+				</div>
+			
+			<div class="authorline">
+													<a class="hoverunderline forum_op_author commentthread_author_officer" href="https://steamcommunity.com/id/jbondguy007" onclick="return Forum_AuthorMenu( this, 113498348, -1 );"  data-miniprofile="113498348">
+						jbondguy007<span class="forum_author_action_pulldown"></span></a>
+							<div id="author_menu_113498348_-1" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/jbondguy007">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/groups/freegamesfinders/discussions/search/?author=113498348">View Posts</a>
+															</div>
+		</div>
+							<img width="12" height="12" src="https://community.fastly.steamstatic.com/public/images/skin_1/comment_modindicator_officer.png" title="Officer">													<span class="date" title="December 14, 2013 @ 12:56:49 pm PDT" data-timestamp="1387054609">
+					Dec 14, 2013 @ 12:56pm				</span>
+				<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_forum_topic_648814395937189891">						<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="community_award tooltip" onClick="Forum_ShowAwardDialogForTopic( '648814395937189891', 17 )" data-reaction="17" data-reactioncount="1" data-tooltip-html="		&lt;div&gt;
+			&lt;div class=&quot;reaction_award_icon&quot;&gt;
+				&lt;img src=&quot;https://store.fastly.steamstatic.com/public/images/loyalty/reactions/animated/17.png?v=5&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;reaction_award_info&quot;&gt;
+				&lt;div class=&quot;reaction_award_name&quot;&gt;Take My Points&lt;/div&gt;
+				&lt;div class=&quot;reaction_award_desc&quot;&gt;Shut up and take my Steam Points!&lt;/div&gt;
+				&lt;div class=&quot;reaction_award_points&quot;&gt;Award gives creators 1,600 Steam Points.&amp;nbsp;Given by 1 person.&lt;/span&gt;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		" data-tooltip-class="reaction_award_hover">
+							<img class="community_award_icon" src="https://store.fastly.steamstatic.com/public/images/loyalty/reactions/still/17.png?v=5"/>
+							<span class="community_award_count hidden">1</span>
+						</div>
+												<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="community_award tooltip" onClick="Forum_ShowAwardDialogForTopic( '648814395937189891', 11 )" data-reaction="11" data-reactioncount="1" data-tooltip-html="		&lt;div&gt;
+			&lt;div class=&quot;reaction_award_icon&quot;&gt;
+				&lt;img src=&quot;https://store.fastly.steamstatic.com/public/images/loyalty/reactions/animated/11.png?v=5&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;reaction_award_info&quot;&gt;
+				&lt;div class=&quot;reaction_award_name&quot;&gt;Golden Unicorn&lt;/div&gt;
+				&lt;div class=&quot;reaction_award_desc&quot;&gt;Shine on Golden Unicorn, shine on.&lt;/div&gt;
+				&lt;div class=&quot;reaction_award_points&quot;&gt;Award gives creators 800 Steam Points.&amp;nbsp;Given by 1 person.&lt;/span&gt;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		" data-tooltip-class="reaction_award_hover">
+							<img class="community_award_icon" src="https://store.fastly.steamstatic.com/public/images/loyalty/reactions/still/11.png?v=5"/>
+							<span class="community_award_count hidden">1</span>
+						</div>
+												<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="community_award tooltip" onClick="Forum_ShowAwardDialogForTopic( '648814395937189891', 14 )" data-reaction="14" data-reactioncount="1" data-tooltip-html="		&lt;div&gt;
+			&lt;div class=&quot;reaction_award_icon&quot;&gt;
+				&lt;img src=&quot;https://store.fastly.steamstatic.com/public/images/loyalty/reactions/animated/14.png?v=5&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;reaction_award_info&quot;&gt;
+				&lt;div class=&quot;reaction_award_name&quot;&gt;Warm Blanket&lt;/div&gt;
+				&lt;div class=&quot;reaction_award_desc&quot;&gt;Oh to be a cozy blob in a blanket.&lt;/div&gt;
+				&lt;div class=&quot;reaction_award_points&quot;&gt;Award gives creators 200 Steam Points.&amp;nbsp;Given by 1 person.&lt;/span&gt;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		" data-tooltip-class="reaction_award_hover">
+							<img class="community_award_icon" src="https://store.fastly.steamstatic.com/public/images/loyalty/reactions/still/14.png?v=5"/>
+							<span class="community_award_count hidden">1</span>
+						</div>
+												<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="community_award tooltip" onClick="Forum_ShowAwardDialogForTopic( '648814395937189891', 2 )" data-reaction="2" data-reactioncount="1" data-tooltip-html="		&lt;div&gt;
+			&lt;div class=&quot;reaction_award_icon&quot;&gt;
+				&lt;img src=&quot;https://store.fastly.steamstatic.com/public/images/loyalty/reactions/animated/2.png?v=5&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;reaction_award_info&quot;&gt;
+				&lt;div class=&quot;reaction_award_name&quot;&gt;Heartwarming&lt;/div&gt;
+				&lt;div class=&quot;reaction_award_desc&quot;&gt;Makes you want to go out and show a rainbow to a kitten.&lt;/div&gt;
+				&lt;div class=&quot;reaction_award_points&quot;&gt;Award gives creators 100 Steam Points.&amp;nbsp;Given by 1 person.&lt;/span&gt;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		" data-tooltip-class="reaction_award_hover">
+							<img class="community_award_icon" src="https://store.fastly.steamstatic.com/public/images/loyalty/reactions/still/2.png?v=5"/>
+							<span class="community_award_count hidden">1</span>
+						</div>
+												<div data-panel="{&quot;focusable&quot;:true,&quot;clickOnActivate&quot;:true}" role="button" class="community_award more_btn tooltip" onClick="Forum_ShowMoreAwardsForTopic( '648814395937189891' )"
+							data-count="1" data-tooltip-text="View the other 1 Community Awards">
+							<img class="community_award_icon" src="https://community.fastly.steamstatic.com/public/shared/images//award_icon_blue.svg"/>
+							<span class="community_award_count">1</span>
+						</div>
+						</div>			</div>
+									
+		</div>
+
+		<div class="topic">
+		Free Games Sharing Thread	</div>
+	<div class="content">
+		<div class="bb_h1">If your post does not contain a giveaway link, this is the wrong place for it.</div>This thread is only for posting legitimate (legal) links to free games and giveaways.<br>Use the <a class="bb_link" href="http://steamcommunity.com/groups/freegamesfinders/discussions/0/626329820631384143/?tscn=999999999999" target="_blank" rel="" >Discussion</a> thread to discuss giveaways and to avoid spamming notifications.<br><br><img src="https://community.fastly.steamstatic.com/economy/emoticon/wyes" alt=":wyes:" class="emoticon"> <b>How to use this thread:</b><br><ul class="bb_ul"><li><i>All posts should include: <b>The title of the game</b> and a <b>Link to the giveaway.</b></i><br></li><li><i>Please do not post comments, questions, or replies in this thread.</i><br></li><li><i>Use the <a class="bb_link" href="http://steamcommunity.com/groups/freegamesfinders/discussions/0/626329820631384143/?tscn=999999999999" target="_blank" rel="" ><b>Discussion</b></a> thread for giveaway issues, updates, and questions.</i><br></li><li><i>Use the <a class="bb_link" href="https://steamcommunity.com/groups/freegamesfinders/discussions/0/1864993937061347652/?tscn=999999999999" target="_blank" rel="" ><b>Free Items &amp; DLC</b></a> thread for posting free Software and DLC.</i><br></li><li><i>Use the <a class="bb_link" href="https://steamcommunity.com/groups/freegamesfinders/discussions/0/2140840224659352976/?tscn=999999999999" target="_blank" rel="" ><b>Upcoming Free Games</b></a> thread for scheduled / distant giveaways.</i><br></li><li><i>Subscribe to get new-post notifications in your Steam inbox.</i></li></ul><img src="https://community.fastly.steamstatic.com/economy/emoticon/wno" alt=":wno:" class="emoticon"> <b>How <u>NOT</u> to use this thread:</b><br><ul class="bb_ul"><li><i>Do not post giveaways that have already been linked or <b><a class="bb_link" href="https://steamcommunity.com/groups/freegamesfinders/announcements" target="_blank" rel="" >Announced.</a></b></i><br></li><li><i>Do not post Free-to-Play titles, Free Weekends, Raffles, Betas, or Demos.</i><br></li><li><i>Do not beg. The sole purpose of this thread is to post links to free games.</i><br></li><li><i>Do not post referrals. Make sure your URL does not contain one before posting.</i><br></li><li><i>Do not reply to rule-breakers. Report them and we'll take care of it.</i></li></ul>Thanks for helping us keep this thread clean and informative! :)	</div>
+		<div class="forum_audit">
+			Last edited by <a href="https://steamcommunity.com/id/jbondguy007" class="hoverunderline">jbondguy007</a>;
+		<span  title="January 21, 2021 @ 8:58:16 pm PDT" data-timestamp="1611291496">Jan 21, 2021 @ 8:58pm</span>		</div></div>
+<div data-featuretarget="community-awards"></div>
+<script type="text/javascript">
+	$J( function() {
+		InitializeForumTopic( {"owner":"5384139","type":"General","feature":"0","gidforum":"648814395934604326","forum_display_name":"FGF General Discussions","forum_url":"https:\/\/steamcommunity.com\/groups\/freegamesfinders\/discussions\/0\/","forum_search_url":"https:\/\/steamcommunity.com\/groups\/freegamesfinders\/discussions\/search\/","is_public":0,"permissions":{"can_view":1,"can_post":0,"can_reply":0,"is_banned":0,"can_delete":0,"can_edit":0}}, "https:\/\/steamcommunity.com\/forum\/5384139\/General\/",
+		"648814395937189891", {"author":"jbondguy007","text":"[H1]If your post does not contain a giveaway link, this is the wrong place for it.[\/H1]\nThis thread is only for posting legitimate (legal) links to free games and giveaways.\nUse the [URL=http:\/\/steamcommunity.com\/groups\/freegamesfinders\/discussions\/0\/626329820631384143\/?tscn=999999999999]Discussion[\/URL] thread to discuss giveaways and to avoid spamming notifications.\n\n\u02d0wyes\u02d0 [B]How to use this thread:[\/B]\n[list]\n[*][i]All posts should include: [B]The title of the game[\/B] and a [B]Link to the giveaway.[\/B][\/i]\n[*][i]Please do not post comments, questions, or replies in this thread.[\/i]\n[*][i]Use the [URL=http:\/\/steamcommunity.com\/groups\/freegamesfinders\/discussions\/0\/626329820631384143\/?tscn=999999999999][B]Discussion[\/B][\/URL] thread for giveaway issues, updates, and questions.[\/i]\n[*][i]Use the [URL=https:\/\/steamcommunity.com\/groups\/freegamesfinders\/discussions\/0\/1864993937061347652\/?tscn=999999999999][B]Free Items & DLC[\/B][\/URL] thread for posting free Software and DLC.[\/i]\n[*][i]Use the [URL=https:\/\/steamcommunity.com\/groups\/freegamesfinders\/discussions\/0\/2140840224659352976\/?tscn=999999999999][B]Upcoming Free Games[\/B][\/URL] thread for scheduled \/ distant giveaways.[\/i]\n[*][i]Subscribe to get new-post notifications in your Steam inbox.[\/i]\n[\/list]\n\u02d0wno\u02d0 [B]How [U]NOT[\/U] to use this thread:[\/B]\n[list]\n[*][i]Do not post giveaways that have already been linked or [B][URL=https:\/\/steamcommunity.com\/groups\/freegamesfinders\/announcements]Announced.[\/URL][\/B][\/i]\n[*][i]Do not post Free-to-Play titles, Free Weekends, Raffles, Betas, or Demos.[\/i]\n[*][i]Do not beg. The sole purpose of this thread is to post links to free games.[\/i]\n[*][i]Do not post referrals. Make sure your URL does not contain one before posting.[\/i]\n[*][i]Do not reply to rule-breakers. Report them and we'll take care of it.[\/i]\n[\/list]\nThanks for helping us keep this thread clean and informative! :)"}		);
+			} );
+</script>
+						<script type="text/javascript">
+$J( function() { InitializeCommentThread( "ForumTopic", "ForumTopic_103582791434905547_648814395934604326_648814395937189891", {"feature":"648814395934604326","feature2":"648814395937189891","owner":"103582791434905547","total_count":5145,"start":0,"pagesize":15,"has_upvoted":0,"upvotes":0,"votecountid":null,"voteupid":null,"commentcountid":null,"subscribed":false,"extended_data":"{\"topic_permissions\":{\"can_view\":1,\"can_post\":0,\"can_reply\":0,\"is_banned\":0,\"can_delete\":0,\"can_edit\":0},\"original_poster\":113498348,\"topic_gidanswer\":\"0\",\"forum_appid\":0,\"forum_public\":0,\"forum_type\":\"General\",\"forum_gidfeature\":\"0\"}","oldestfirst":true,"comments_raw":{"648814395944761819":{"text":"Just to kick things off.  You may already know about the free Fallouts from GOG.com but you should also visit the site every day during the 2013 Winter sale (thru 29 Dec) and select a gift box for a chance to win a free game from their catalog.  They have been giving away some good games.","author":"LH"},"648814395964657780":{"text":"There's a list of free games available on Desura here.  The list is old and out of date and in dire need of updating, but most of the games on it are still freely available:\n\nhttp:\/\/www.desura.com\/groups\/bundeals\/forum\/thread\/all-free-games-on-desura-courtesy-of-agtv","author":"oogla"},"648814395968025930":{"text":"[quote=oogla;648814395964657780]There's a list of free games available on Desura here.  The list is old and out of date and in dire need of updating, but most of the games on it are still freely available:\n\nhttp:\/\/www.desura.com\/groups\/bundeals\/forum\/thread\/all-free-games-on-desura-courtesy-of-agtv [\/quote]\n\nThanks, nice list.","author":"jbondguy007"},"648814395978411098":{"text":"You can get free game your choice of Portal 2\/Fifa 13\/SimCity4\/PvZ\/etc from Code.org. Some non-game choices too (Requires completing course)","author":"Madjoki"},"648814843004406663":{"text":"Left 4 Dead 2 is free. If you don't have this game, it will be parmanently added to your account.\n\nhttp:\/\/store.steampowered.com\/app\/550\/","author":"The Marx Brother"},"648814843005484946":{"text":"[quote=The Marx Brother;648814843004406663]Left 4 Dead 2 is free. If you don't have this game, it will be parmanently added to your account.\n\nhttp:\/\/store.steampowered.com\/app\/550\/ [\/quote]\nAlready announced [url=http:\/\/steamcommunity.com\/groups\/freegamesfinders#announcements\/detail\/1819750745814116335]here[\/url], but thanks! ^_^\nMerry Christmas!","author":"jbondguy007"},"648814845281882048":{"text":"http:\/\/store.steampowered.com\/app\/247120\/  \nits free but need a $200 camera to play. just register that into your library. who doesn't like freebies.","author":"ipoyyyy"},"648816742407330579":{"text":"The first link should be Humble Bundle DRM free link, other DRM free game to test if you guy waiting it to be bundle to buy it, can be find in GoG and maybe some other bundle site, anyone know more?","author":"IronMarks"},"558746017877713997":{"text":"Not a game, but pretty nice.\n\n[url=https:\/\/hitfilm.com\/express\/free]https:\/\/hitfilm.com\/express\/free[\/url]\nGet a free copy of HitFilm 2 Express film editing software worth $150, for a week only.\n\nDetails:\n- Account needed\n- Facebook needed (must share)\n- 100% free\n\nEnjoy.","author":"jbondguy007"},"558746017878080334":{"text":"... And PhotoKey 6 Lite (if you're into that sort of thing).\n\nhttps:\/\/fxhome.com\/photokey\/free\n\nYou can get it with the same registration used for Hitfilm.","author":"LH"},"558746017884732332":{"text":"It also seems that the free Enclave key mass giveaway from DLH didn't end yet. Create an account to get a key.\n[url=http:\/\/www.dlh.net\/de\/]http:\/\/www.dlh.net\/de\/[\/url]\n\nDetails:\n- Not sure if actually expired, might not work\n- Account needed\n- 100% free","author":"jbondguy007"},"558746017976251820":{"text":"If you missed the announcement,\nThere's a 40k copies of The Dark Eye: Chains of Satinav GOG giveaway on Reddit.","author":"jbondguy007"},"558746089590160821":{"text":"[h1][b]Chess the Gathering Prototype Access[\/b][\/h1]\n\nTo receive steam key\n\n[url]http:\/\/ctg.misfitsattic.com\/[\/url]\n\nInsert email and submit\n\nConfirm your account with the confirmation email\n\nAfter confirmation, you will recieve a welcome email for getting your steam key.","author":"Zeph3r"},"558747218105665311":{"text":"Don't forget to check out thefreebundle.com, a new free bundle has been released.\n\nDetails:\n- Non-Steam, DRM free\n- 100% free","author":"jbondguy007"},"558747218166513876":{"text":"Sims 3 is giving away The Sims 3 Town Life Stuff with proof of purchase (registeration key) on Origin.\n\nGet yours over [b][url=http:\/\/www.thesims.com\/en-us\/anniversary]here[\/url][\/b].\n\nI've tried getting mine using my Sims 3 Steam key, and had no problem so far.","author":"jbondguy007"}},"track_navigation":true}, 'https://steamcommunity.com/comment/ForumTopic/', 40 ); } );
+</script>
+<div class="commentthread_area forumtopic_comments" id="commentthread_ForumTopic_103582791434905547_648814395934604326_648814395937189891_area">
+	        <div id="commentthread_ForumTopic_103582791434905547_648814395934604326_648814395937189891_pagectn" class="forum_paging" style="">
+            <div class="forum_paging_controls" id="commentthread_ForumTopic_103582791434905547_648814395934604326_648814395937189891_pagecontrols">
+                <a href="javascript:void(0);" id="commentthread_ForumTopic_103582791434905547_648814395934604326_648814395937189891_pagebtn_prev" class="pagebtn">&lt;</a>
+                <span id="commentthread_ForumTopic_103582791434905547_648814395934604326_648814395937189891_pagelinks" class="commentthread_pagelinks"></span>
+                <span id="commentthread_ForumTopic_103582791434905547_648814395934604326_648814395937189891_pagedropdown" class="commentthread_pagedropdown"></span>
+                <a href="javascript:void(0);" id="commentthread_ForumTopic_103582791434905547_648814395934604326_648814395937189891_pagebtn_next" class="pagebtn">&gt;</a>
+            </div>
+            <div class="forum_paging_summary ellipsis">
+                Showing <span id="commentthread_ForumTopic_103582791434905547_648814395934604326_648814395937189891_pagestart">1</span>-<span id="commentthread_ForumTopic_103582791434905547_648814395934604326_648814395937189891_pageend">15</span> of <span id="commentthread_ForumTopic_103582791434905547_648814395934604326_648814395937189891_pagetotal">5,145</span> comments            </div>
+            <div style="clear: both;"></div>
+        </div>
+        	<div class="commentthread_comment_container" id="commentthread_ForumTopic_103582791434905547_648814395934604326_648814395937189891_postcontainer">
+		<div data-panel="{&quot;noFocusRing&quot;:true}" class="commentthread_comments" id="commentthread_ForumTopic_103582791434905547_648814395934604326_648814395937189891_posts">
+					
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_648814395944761819" style="">
+				<div class="commentthread_comment_avatar playerAvatar offline">
+						<a href="https://steamcommunity.com/profiles/76561197995443256" data-miniprofile="35177528">
+									<img src="https://avatars.fastly.steamstatic.com/34b9bd2172f753cf179723666400d7dc785e06de.jpg" srcset="https://avatars.fastly.steamstatic.com/34b9bd2172f753cf179723666400d7dc785e06de.jpg 1x, https://avatars.fastly.steamstatic.com/34b9bd2172f753cf179723666400d7dc785e06de_medium.jpg 2x">							</a>
+		</div>
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+				<a class="hoverunderline commentthread_author_link commentthread_author_officer" href="https://steamcommunity.com/profiles/76561197995443256" onclick="return Forum_AuthorMenu( this, 35177528, '648814395944761819' );" data-miniprofile="35177528">
+					<bdi>LH<span class="forum_author_action_pulldown"></span></bdi></a>
+
+											<div id="author_menu_35177528_648814395944761819" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561197995443256">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/groups/freegamesfinders/discussions/search/?author=35177528">View Posts</a>
+															</div>
+		</div>
+						
+				<img width="12" height="12" src="https://community.fastly.steamstatic.com/public/images/skin_1/comment_modindicator_officer.png" title="Officer">
+				
+				
+				
+				<span class="commentthread_comment_timestamp" title="December 14, 2013 @ 1:53:17 pm PDT" data-timestamp="1387057997">
+					Dec 14, 2013 @ 1:53pm&nbsp;
+				</span>
+								<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_648814395944761819"></div>				<div class="commentthread_comment_actions" >
+									</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_648814395944761819">
+				Just to kick things off.  You may already know about the free Fallouts from <a class="bb_link" href="https://steamcommunity.com/linkfilter/?u=http%3A%2F%2FGOG.com" target="_blank" rel=" noopener" >GOG.com</a> but you should also visit the site every day during the 2013 Winter sale (thru 29 Dec) and select a gift box for a chance to win a free game from their catalog.  They have been giving away some good games.			</div>
+								</div>
+					<div class="forum_comment_permlink">
+								<a data-panel="{&quot;focusable&quot;:false}" href="#c648814395944761819">#1</a>
+			</div>
+			</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_648814395964657780" style="">
+				<div class="commentthread_comment_avatar playerAvatar offline">
+						<a href="https://steamcommunity.com/id/oogla" data-miniprofile="97539354">
+									<img src="https://avatars.fastly.steamstatic.com/5ca7548d22dedc00e2260565c72a9c403566fb2c.jpg" srcset="https://avatars.fastly.steamstatic.com/5ca7548d22dedc00e2260565c72a9c403566fb2c.jpg 1x, https://avatars.fastly.steamstatic.com/5ca7548d22dedc00e2260565c72a9c403566fb2c_medium.jpg 2x">							</a>
+		</div>
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+				<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/id/oogla" onclick="return Forum_AuthorMenu( this, 97539354, '648814395964657780' );" data-miniprofile="97539354">
+					<bdi>oogla<span class="forum_author_action_pulldown"></span></bdi></a>
+
+											<div id="author_menu_97539354_648814395964657780" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/oogla">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/groups/freegamesfinders/discussions/search/?author=97539354">View Posts</a>
+															</div>
+		</div>
+						
+				
+				
+				
+				
+				<span class="commentthread_comment_timestamp" title="December 14, 2013 @ 4:42:36 pm PDT" data-timestamp="1387068156">
+					Dec 14, 2013 @ 4:42pm&nbsp;
+				</span>
+								<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_648814395964657780"></div>				<div class="commentthread_comment_actions" >
+									</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_648814395964657780">
+				There's a list of free games available on Desura here.  The list is old and out of date and in dire need of updating, but most of the games on it are still freely available:<br><br><a class="bb_link" href="https://steamcommunity.com/linkfilter/?u=http%3A%2F%2Fwww.desura.com%2Fgroups%2Fbundeals%2Fforum%2Fthread%2Fall-free-games-on-desura-courtesy-of-agtv" target="_blank" rel=" noopener" >http://www.desura.com/groups/bundeals/forum/thread/all-free-games-on-desura-courtesy-of-agtv</a>			</div>
+								</div>
+					<div class="forum_comment_permlink">
+								<a data-panel="{&quot;focusable&quot;:false}" href="#c648814395964657780">#2</a>
+			</div>
+			</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_648814395968025930" style="">
+				<div class="commentthread_comment_avatar playerAvatar offline">
+						<a href="https://steamcommunity.com/id/jbondguy007" data-miniprofile="113498348">
+									<img src="https://avatars.fastly.steamstatic.com/426490a277d8cb28ea547b1e3f39dd593497f3b6.jpg" srcset="https://avatars.fastly.steamstatic.com/426490a277d8cb28ea547b1e3f39dd593497f3b6.jpg 1x, https://avatars.fastly.steamstatic.com/426490a277d8cb28ea547b1e3f39dd593497f3b6_medium.jpg 2x">							</a>
+		</div>
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+				<a class="hoverunderline commentthread_author_link commentthread_author_officer" href="https://steamcommunity.com/id/jbondguy007" onclick="return Forum_AuthorMenu( this, 113498348, '648814395968025930' );" data-miniprofile="113498348">
+					<bdi>jbondguy007<span class="forum_author_action_pulldown"></span></bdi></a>
+
+											<div id="author_menu_113498348_648814395968025930" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/jbondguy007">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/groups/freegamesfinders/discussions/search/?author=113498348">View Posts</a>
+															</div>
+		</div>
+						
+				<img width="12" height="12" src="https://community.fastly.steamstatic.com/public/images/skin_1/comment_modindicator_officer.png" title="Officer">
+				
+				
+				
+				<span class="commentthread_comment_timestamp" title="December 14, 2013 @ 5:15:49 pm PDT" data-timestamp="1387070149">
+					Dec 14, 2013 @ 5:15pm&nbsp;
+				</span>
+								<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_648814395968025930"></div>				<div class="commentthread_comment_actions" >
+									</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_648814395968025930">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Originally posted by <b><a href="#c648814395964657780">oogla</a></b>:</div>There's a list of free games available on Desura here.  The list is old and out of date and in dire need of updating, but most of the games on it are still freely available:<br><br><a class="bb_link" href="https://steamcommunity.com/linkfilter/?u=http%3A%2F%2Fwww.desura.com%2Fgroups%2Fbundeals%2Fforum%2Fthread%2Fall-free-games-on-desura-courtesy-of-agtv" target="_blank" rel=" noopener" >http://www.desura.com/groups/bundeals/forum/thread/all-free-games-on-desura-courtesy-of-agtv</a> </blockquote><br>Thanks, nice list.			</div>
+								</div>
+					<div class="forum_comment_permlink">
+								<a data-panel="{&quot;focusable&quot;:false}" href="#c648814395968025930">#3</a>
+			</div>
+			</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_648814395978411098" style="">
+				<div class="commentthread_comment_avatar playerAvatar online">
+						<a href="https://steamcommunity.com/id/madjoki" data-miniprofile="42834588">
+									<img src="https://avatars.fastly.steamstatic.com/c8b5e1a4320376939e8577053646d5ff4f045df5.jpg" srcset="https://avatars.fastly.steamstatic.com/c8b5e1a4320376939e8577053646d5ff4f045df5.jpg 1x, https://avatars.fastly.steamstatic.com/c8b5e1a4320376939e8577053646d5ff4f045df5_medium.jpg 2x">							</a>
+		</div>
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+				<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/id/madjoki" onclick="return Forum_AuthorMenu( this, 42834588, '648814395978411098' );" data-miniprofile="42834588">
+					<bdi>Madjoki<span class="forum_author_action_pulldown"></span></bdi></a>
+
+											<div id="author_menu_42834588_648814395978411098" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/madjoki">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/groups/freegamesfinders/discussions/search/?author=42834588">View Posts</a>
+															</div>
+		</div>
+						
+				
+				
+				
+				
+				<span class="commentthread_comment_timestamp" title="December 14, 2013 @ 7:05:06 pm PDT" data-timestamp="1387076706">
+					Dec 14, 2013 @ 7:05pm&nbsp;
+				</span>
+								<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_648814395978411098"></div>				<div class="commentthread_comment_actions" >
+									</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_648814395978411098">
+				You can get free game your choice of Portal 2/Fifa 13/SimCity4/PvZ/etc from <a class="bb_link" href="https://steamcommunity.com/linkfilter/?u=http%3A%2F%2FCode.org" target="_blank" rel=" noopener" >Code.org</a>. Some non-game choices too (Requires completing course)			</div>
+							<div class="forum_audit">
+			Last edited by <a href="https://steamcommunity.com/id/madjoki" class="hoverunderline">Madjoki</a>;
+		<span  title="December 14, 2013 @ 7:05:23 pm PDT" data-timestamp="1387076723">Dec 14, 2013 @ 7:05pm</span>		</div>								</div>
+					<div class="forum_comment_permlink">
+								<a data-panel="{&quot;focusable&quot;:false}" href="#c648814395978411098">#4</a>
+			</div>
+			</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_648814843004406663" style="">
+				<div class="commentthread_comment_avatar playerAvatar offline">
+						<a href="https://steamcommunity.com/profiles/76561198009725350" data-miniprofile="49459622">
+									<img src="https://avatars.fastly.steamstatic.com/038d951597f99ee8d2396fc32a0de6afc2a9fd72.jpg" srcset="https://avatars.fastly.steamstatic.com/038d951597f99ee8d2396fc32a0de6afc2a9fd72.jpg 1x, https://avatars.fastly.steamstatic.com/038d951597f99ee8d2396fc32a0de6afc2a9fd72_medium.jpg 2x">							</a>
+		</div>
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+				<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/profiles/76561198009725350" onclick="return Forum_AuthorMenu( this, 49459622, '648814843004406663' );" data-miniprofile="49459622">
+					<bdi>The Marx Brother<span class="forum_author_action_pulldown"></span></bdi></a>
+
+											<div id="author_menu_49459622_648814843004406663" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198009725350">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/groups/freegamesfinders/discussions/search/?author=49459622">View Posts</a>
+															</div>
+		</div>
+						
+				
+				
+				
+				
+				<span class="commentthread_comment_timestamp" title="December 25, 2013 @ 10:34:05 am PDT" data-timestamp="1387996445">
+					Dec 25, 2013 @ 10:34am&nbsp;
+				</span>
+								<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_648814843004406663"></div>				<div class="commentthread_comment_actions" >
+									</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_648814843004406663">
+				Left 4 Dead 2 is free. If you don't have this game, it will be parmanently added to your account.<br><br><a class="bb_link" href="http://store.steampowered.com/app/550/" target="_blank" rel=""  id="dynamiclink_0">http://store.steampowered.com/app/550/</a>			</div>
+								</div>
+					<div class="forum_comment_permlink">
+								<a data-panel="{&quot;focusable&quot;:false}" href="#c648814843004406663">#5</a>
+			</div>
+			</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_648814843005484946" style="">
+				<div class="commentthread_comment_avatar playerAvatar offline">
+						<a href="https://steamcommunity.com/id/jbondguy007" data-miniprofile="113498348">
+									<img src="https://avatars.fastly.steamstatic.com/426490a277d8cb28ea547b1e3f39dd593497f3b6.jpg" srcset="https://avatars.fastly.steamstatic.com/426490a277d8cb28ea547b1e3f39dd593497f3b6.jpg 1x, https://avatars.fastly.steamstatic.com/426490a277d8cb28ea547b1e3f39dd593497f3b6_medium.jpg 2x">							</a>
+		</div>
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+				<a class="hoverunderline commentthread_author_link commentthread_author_officer" href="https://steamcommunity.com/id/jbondguy007" onclick="return Forum_AuthorMenu( this, 113498348, '648814843005484946' );" data-miniprofile="113498348">
+					<bdi>jbondguy007<span class="forum_author_action_pulldown"></span></bdi></a>
+
+											<div id="author_menu_113498348_648814843005484946" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/jbondguy007">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/groups/freegamesfinders/discussions/search/?author=113498348">View Posts</a>
+															</div>
+		</div>
+						
+				<img width="12" height="12" src="https://community.fastly.steamstatic.com/public/images/skin_1/comment_modindicator_officer.png" title="Officer">
+				
+				
+				
+				<span class="commentthread_comment_timestamp" title="December 25, 2013 @ 10:37:45 am PDT" data-timestamp="1387996665">
+					Dec 25, 2013 @ 10:37am&nbsp;
+				</span>
+								<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_648814843005484946"></div>				<div class="commentthread_comment_actions" >
+									</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_648814843005484946">
+				<blockquote class="bb_blockquote with_author"><div class="bb_quoteauthor">Originally posted by <b><a href="#c648814843004406663">The Marx Brother</a></b>:</div>Left 4 Dead 2 is free. If you don't have this game, it will be parmanently added to your account.<br><br><a class="bb_link" href="http://store.steampowered.com/app/550/" target="_blank" rel=""  id="dynamiclink_1">http://store.steampowered.com/app/550/</a> </blockquote>Already announced <a class="bb_link" href="http://steamcommunity.com/groups/freegamesfinders#announcements/detail/1819750745814116335" target="_blank" rel="" >here</a>, but thanks! ^_^<br>Merry Christmas!			</div>
+								</div>
+					<div class="forum_comment_permlink">
+								<a data-panel="{&quot;focusable&quot;:false}" href="#c648814843005484946">#6</a>
+			</div>
+			</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_648814845281882048" style="">
+				<div class="commentthread_comment_avatar playerAvatar in-game">
+						<a href="https://steamcommunity.com/id/pierrot_ipoy" data-miniprofile="134814392">
+									<img src="https://avatars.fastly.steamstatic.com/0920ed8e67855eeea1849505df509d08a614dd6a.jpg" srcset="https://avatars.fastly.steamstatic.com/0920ed8e67855eeea1849505df509d08a614dd6a.jpg 1x, https://avatars.fastly.steamstatic.com/0920ed8e67855eeea1849505df509d08a614dd6a_medium.jpg 2x">							</a>
+		</div>
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+				<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/id/pierrot_ipoy" onclick="return Forum_AuthorMenu( this, 134814392, '648814845281882048' );" data-miniprofile="134814392">
+					<bdi>ipoyyyy<span class="forum_author_action_pulldown"></span></bdi></a>
+
+											<div id="author_menu_134814392_648814845281882048" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/pierrot_ipoy">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/groups/freegamesfinders/discussions/search/?author=134814392">View Posts</a>
+															</div>
+		</div>
+						
+				
+				
+				
+				
+				<span class="commentthread_comment_timestamp" title="January 4, 2014 @ 9:37:26 pm PDT" data-timestamp="1388900246">
+					Jan 4, 2014 @ 9:37pm&nbsp;
+				</span>
+								<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_648814845281882048"></div>				<div class="commentthread_comment_actions" >
+									</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_648814845281882048">
+				<a class="bb_link" href="http://store.steampowered.com/app/247120/" target="_blank" rel=""  id="dynamiclink_2">http://store.steampowered.com/app/247120/</a>  <br>its free but need a $200 camera to play. just register that into your library. who doesn't like freebies.			</div>
+								</div>
+					<div class="forum_comment_permlink">
+								<a data-panel="{&quot;focusable&quot;:false}" href="#c648814845281882048">#7</a>
+			</div>
+			</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_648816742407330579" style="">
+				<div class="commentthread_comment_avatar playerAvatar offline">
+						<a href="https://steamcommunity.com/id/IronMarks" data-miniprofile="146287818">
+									<img src="https://avatars.fastly.steamstatic.com/3216dcfefe842e47ea8357dcbd677cd447bb03e2.jpg" srcset="https://avatars.fastly.steamstatic.com/3216dcfefe842e47ea8357dcbd677cd447bb03e2.jpg 1x, https://avatars.fastly.steamstatic.com/3216dcfefe842e47ea8357dcbd677cd447bb03e2_medium.jpg 2x">							</a>
+		</div>
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+				<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/id/IronMarks" onclick="return Forum_AuthorMenu( this, 146287818, '648816742407330579' );" data-miniprofile="146287818">
+					<bdi>76561198106553546<span class="forum_author_action_pulldown"></span></bdi></a>
+
+											<div id="author_menu_146287818_648816742407330579" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/IronMarks">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/groups/freegamesfinders/discussions/search/?author=146287818">View Posts</a>
+															</div>
+		</div>
+						
+				
+				
+				
+				
+				<span class="commentthread_comment_timestamp" title="January 8, 2014 @ 2:29:35 am PDT" data-timestamp="1389176975">
+					Jan 8, 2014 @ 2:29am&nbsp;
+				</span>
+								<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_648816742407330579"></div>				<div class="commentthread_comment_actions" >
+									</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_648816742407330579">
+				The first link should be Humble Bundle DRM free link, other DRM free game to test if you guy waiting it to be bundle to buy it, can be find in GoG and maybe some other bundle site, anyone know more?			</div>
+								</div>
+					<div class="forum_comment_permlink">
+								<a data-panel="{&quot;focusable&quot;:false}" href="#c648816742407330579">#8</a>
+			</div>
+			</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_558746017877713997" style="">
+				<div class="commentthread_comment_avatar playerAvatar offline">
+						<a href="https://steamcommunity.com/id/jbondguy007" data-miniprofile="113498348">
+									<img src="https://avatars.fastly.steamstatic.com/426490a277d8cb28ea547b1e3f39dd593497f3b6.jpg" srcset="https://avatars.fastly.steamstatic.com/426490a277d8cb28ea547b1e3f39dd593497f3b6.jpg 1x, https://avatars.fastly.steamstatic.com/426490a277d8cb28ea547b1e3f39dd593497f3b6_medium.jpg 2x">							</a>
+		</div>
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+				<a class="hoverunderline commentthread_author_link commentthread_author_officer" href="https://steamcommunity.com/id/jbondguy007" onclick="return Forum_AuthorMenu( this, 113498348, '558746017877713997' );" data-miniprofile="113498348">
+					<bdi>jbondguy007<span class="forum_author_action_pulldown"></span></bdi></a>
+
+											<div id="author_menu_113498348_558746017877713997" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/jbondguy007">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/groups/freegamesfinders/discussions/search/?author=113498348">View Posts</a>
+															</div>
+		</div>
+						
+				<img width="12" height="12" src="https://community.fastly.steamstatic.com/public/images/skin_1/comment_modindicator_officer.png" title="Officer">
+				
+				
+				
+				<span class="commentthread_comment_timestamp" title="January 21, 2014 @ 6:02:46 pm PDT" data-timestamp="1390356166">
+					Jan 21, 2014 @ 6:02pm&nbsp;
+				</span>
+								<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_558746017877713997"></div>				<div class="commentthread_comment_actions" >
+									</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_558746017877713997">
+				Not a game, but pretty nice.<br><br><a class="bb_link" href="https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Fhitfilm.com%2Fexpress%2Ffree" target="_blank" rel=" noopener" >https://hitfilm.com/express/free</a><br>Get a free copy of HitFilm 2 Express film editing software worth $150, for a week only.<br><br>Details:<br>- Account needed<br>- Facebook needed (must share)<br>- 100% free<br><br>Enjoy.			</div>
+							<div class="forum_audit">
+			Last edited by <a href="https://steamcommunity.com/id/jbondguy007" class="hoverunderline">jbondguy007</a>;
+		<span  title="January 21, 2014 @ 6:05:24 pm PDT" data-timestamp="1390356324">Jan 21, 2014 @ 6:05pm</span>		</div>								</div>
+					<div class="forum_comment_permlink">
+								<a data-panel="{&quot;focusable&quot;:false}" href="#c558746017877713997">#9</a>
+			</div>
+			</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_558746017878080334" style="">
+				<div class="commentthread_comment_avatar playerAvatar offline">
+						<a href="https://steamcommunity.com/profiles/76561197995443256" data-miniprofile="35177528">
+									<img src="https://avatars.fastly.steamstatic.com/34b9bd2172f753cf179723666400d7dc785e06de.jpg" srcset="https://avatars.fastly.steamstatic.com/34b9bd2172f753cf179723666400d7dc785e06de.jpg 1x, https://avatars.fastly.steamstatic.com/34b9bd2172f753cf179723666400d7dc785e06de_medium.jpg 2x">							</a>
+		</div>
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+				<a class="hoverunderline commentthread_author_link commentthread_author_officer" href="https://steamcommunity.com/profiles/76561197995443256" onclick="return Forum_AuthorMenu( this, 35177528, '558746017878080334' );" data-miniprofile="35177528">
+					<bdi>LH<span class="forum_author_action_pulldown"></span></bdi></a>
+
+											<div id="author_menu_35177528_558746017878080334" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561197995443256">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/groups/freegamesfinders/discussions/search/?author=35177528">View Posts</a>
+															</div>
+		</div>
+						
+				<img width="12" height="12" src="https://community.fastly.steamstatic.com/public/images/skin_1/comment_modindicator_officer.png" title="Officer">
+				
+				
+				
+				<span class="commentthread_comment_timestamp" title="January 21, 2014 @ 6:06:30 pm PDT" data-timestamp="1390356390">
+					Jan 21, 2014 @ 6:06pm&nbsp;
+				</span>
+								<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_558746017878080334"></div>				<div class="commentthread_comment_actions" >
+									</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_558746017878080334">
+				... And PhotoKey 6 Lite (if you're into that sort of thing).<br><br><a class="bb_link" href="https://steamcommunity.com/linkfilter/?u=https%3A%2F%2Ffxhome.com%2Fphotokey%2Ffree" target="_blank" rel=" noopener" >https://fxhome.com/photokey/free</a><br><br>You can get it with the same registration used for Hitfilm.			</div>
+								</div>
+					<div class="forum_comment_permlink">
+								<a data-panel="{&quot;focusable&quot;:false}" href="#c558746017878080334">#10</a>
+			</div>
+			</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_558746017884732332" style="">
+				<div class="commentthread_comment_avatar playerAvatar offline">
+						<a href="https://steamcommunity.com/id/jbondguy007" data-miniprofile="113498348">
+									<img src="https://avatars.fastly.steamstatic.com/426490a277d8cb28ea547b1e3f39dd593497f3b6.jpg" srcset="https://avatars.fastly.steamstatic.com/426490a277d8cb28ea547b1e3f39dd593497f3b6.jpg 1x, https://avatars.fastly.steamstatic.com/426490a277d8cb28ea547b1e3f39dd593497f3b6_medium.jpg 2x">							</a>
+		</div>
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+				<a class="hoverunderline commentthread_author_link commentthread_author_officer" href="https://steamcommunity.com/id/jbondguy007" onclick="return Forum_AuthorMenu( this, 113498348, '558746017884732332' );" data-miniprofile="113498348">
+					<bdi>jbondguy007<span class="forum_author_action_pulldown"></span></bdi></a>
+
+											<div id="author_menu_113498348_558746017884732332" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/jbondguy007">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/groups/freegamesfinders/discussions/search/?author=113498348">View Posts</a>
+															</div>
+		</div>
+						
+				<img width="12" height="12" src="https://community.fastly.steamstatic.com/public/images/skin_1/comment_modindicator_officer.png" title="Officer">
+				
+				
+				
+				<span class="commentthread_comment_timestamp" title="January 21, 2014 @ 7:16:57 pm PDT" data-timestamp="1390360617">
+					Jan 21, 2014 @ 7:16pm&nbsp;
+				</span>
+								<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_558746017884732332"></div>				<div class="commentthread_comment_actions" >
+									</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_558746017884732332">
+				It also seems that the free Enclave key mass giveaway from DLH didn't end yet. Create an account to get a key.<br><a class="bb_link" href="https://steamcommunity.com/linkfilter/?u=http%3A%2F%2Fwww.dlh.net%2Fde%2F" target="_blank" rel=" noopener" >http://www.dlh.net/de/</a><br><br>Details:<br>- Not sure if actually expired, might not work<br>- Account needed<br>- 100% free			</div>
+								</div>
+					<div class="forum_comment_permlink">
+								<a data-panel="{&quot;focusable&quot;:false}" href="#c558746017884732332">#11</a>
+			</div>
+			</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_558746017976251820" style="">
+				<div class="commentthread_comment_avatar playerAvatar offline">
+						<a href="https://steamcommunity.com/id/jbondguy007" data-miniprofile="113498348">
+									<img src="https://avatars.fastly.steamstatic.com/426490a277d8cb28ea547b1e3f39dd593497f3b6.jpg" srcset="https://avatars.fastly.steamstatic.com/426490a277d8cb28ea547b1e3f39dd593497f3b6.jpg 1x, https://avatars.fastly.steamstatic.com/426490a277d8cb28ea547b1e3f39dd593497f3b6_medium.jpg 2x">							</a>
+		</div>
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+				<a class="hoverunderline commentthread_author_link commentthread_author_officer" href="https://steamcommunity.com/id/jbondguy007" onclick="return Forum_AuthorMenu( this, 113498348, '558746017976251820' );" data-miniprofile="113498348">
+					<bdi>jbondguy007<span class="forum_author_action_pulldown"></span></bdi></a>
+
+											<div id="author_menu_113498348_558746017976251820" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/jbondguy007">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/groups/freegamesfinders/discussions/search/?author=113498348">View Posts</a>
+															</div>
+		</div>
+						
+				<img width="12" height="12" src="https://community.fastly.steamstatic.com/public/images/skin_1/comment_modindicator_officer.png" title="Officer">
+				
+				
+				
+				<span class="commentthread_comment_timestamp" title="January 22, 2014 @ 10:17:59 am PDT" data-timestamp="1390414679">
+					Jan 22, 2014 @ 10:17am&nbsp;
+				</span>
+								<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_558746017976251820"></div>				<div class="commentthread_comment_actions" >
+									</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_558746017976251820">
+				If you missed the announcement,<br>There's a 40k copies of The Dark Eye: Chains of Satinav GOG giveaway on Reddit.			</div>
+								</div>
+					<div class="forum_comment_permlink">
+								<a data-panel="{&quot;focusable&quot;:false}" href="#c558746017976251820">#12</a>
+			</div>
+			</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_558746089590160821" style="">
+				<div class="commentthread_comment_avatar playerAvatar online">
+						<a href="https://steamcommunity.com/id/Zeph3r" data-miniprofile="144263353">
+									<img src="https://avatars.fastly.steamstatic.com/be7dbe63eb50fa3b59cea02a9f9562998147cb23.jpg" srcset="https://avatars.fastly.steamstatic.com/be7dbe63eb50fa3b59cea02a9f9562998147cb23.jpg 1x, https://avatars.fastly.steamstatic.com/be7dbe63eb50fa3b59cea02a9f9562998147cb23_medium.jpg 2x">							</a>
+		</div>
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+				<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/id/Zeph3r" onclick="return Forum_AuthorMenu( this, 144263353, '558746089590160821' );" data-miniprofile="144263353">
+					<bdi>Zeph3r<span class="forum_author_action_pulldown"></span></bdi></a>
+
+											<div id="author_menu_144263353_558746089590160821" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/Zeph3r">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/groups/freegamesfinders/discussions/search/?author=144263353">View Posts</a>
+															</div>
+		</div>
+						
+				
+				
+				
+				
+				<span class="commentthread_comment_timestamp" title="January 27, 2014 @ 7:59:16 am PDT" data-timestamp="1390838356">
+					Jan 27, 2014 @ 7:59am&nbsp;
+				</span>
+								<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_558746089590160821"></div>				<div class="commentthread_comment_actions" >
+									</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_558746089590160821">
+				<div class="bb_h1"><b>Chess the Gathering Prototype Access</b></div><br>To receive steam key<br><br><a class="bb_link" href="https://steamcommunity.com/linkfilter/?u=http%3A%2F%2Fctg.misfitsattic.com%2F" target="_blank" rel=" noopener" >http://ctg.misfitsattic.com/</a><br><br>Insert email and submit<br><br>Confirm your account with the confirmation email<br><br>After confirmation, you will recieve a welcome email for getting your steam key.			</div>
+								</div>
+					<div class="forum_comment_permlink">
+								<a data-panel="{&quot;focusable&quot;:false}" href="#c558746089590160821">#13</a>
+			</div>
+			</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_558747218105665311" style="">
+				<div class="commentthread_comment_avatar playerAvatar offline">
+						<a href="https://steamcommunity.com/id/jbondguy007" data-miniprofile="113498348">
+									<img src="https://avatars.fastly.steamstatic.com/426490a277d8cb28ea547b1e3f39dd593497f3b6.jpg" srcset="https://avatars.fastly.steamstatic.com/426490a277d8cb28ea547b1e3f39dd593497f3b6.jpg 1x, https://avatars.fastly.steamstatic.com/426490a277d8cb28ea547b1e3f39dd593497f3b6_medium.jpg 2x">							</a>
+		</div>
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+				<a class="hoverunderline commentthread_author_link commentthread_author_officer" href="https://steamcommunity.com/id/jbondguy007" onclick="return Forum_AuthorMenu( this, 113498348, '558747218105665311' );" data-miniprofile="113498348">
+					<bdi>jbondguy007<span class="forum_author_action_pulldown"></span></bdi></a>
+
+											<div id="author_menu_113498348_558747218105665311" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/jbondguy007">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/groups/freegamesfinders/discussions/search/?author=113498348">View Posts</a>
+															</div>
+		</div>
+						
+				<img width="12" height="12" src="https://community.fastly.steamstatic.com/public/images/skin_1/comment_modindicator_officer.png" title="Officer">
+				
+				
+				
+				<span class="commentthread_comment_timestamp" title="February 4, 2014 @ 7:08:28 am PDT" data-timestamp="1391526508">
+					Feb 4, 2014 @ 7:08am&nbsp;
+				</span>
+								<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_558747218105665311"></div>				<div class="commentthread_comment_actions" >
+									</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_558747218105665311">
+				Don't forget to check out <a class="bb_link" href="https://steamcommunity.com/linkfilter/?u=http%3A%2F%2Fthefreebundle.com" target="_blank" rel=" noopener" >thefreebundle.com</a>, a new free bundle has been released.<br><br>Details:<br>- Non-Steam, DRM free<br>- 100% free			</div>
+								</div>
+					<div class="forum_comment_permlink">
+								<a data-panel="{&quot;focusable&quot;:false}" href="#c558747218105665311">#14</a>
+			</div>
+			</div>
+		
+	
+	<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;,&quot;type&quot;:&quot;PanelGroup&quot;}" class="commentthread_comment responsive_body_text   " id="comment_558747218166513876" style="">
+				<div class="commentthread_comment_avatar playerAvatar offline">
+						<a href="https://steamcommunity.com/id/jbondguy007" data-miniprofile="113498348">
+									<img src="https://avatars.fastly.steamstatic.com/426490a277d8cb28ea547b1e3f39dd593497f3b6.jpg" srcset="https://avatars.fastly.steamstatic.com/426490a277d8cb28ea547b1e3f39dd593497f3b6.jpg 1x, https://avatars.fastly.steamstatic.com/426490a277d8cb28ea547b1e3f39dd593497f3b6_medium.jpg 2x">							</a>
+		</div>
+		<div class="commentthread_comment_content">
+			<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="commentthread_comment_author">
+				<a class="hoverunderline commentthread_author_link commentthread_author_officer" href="https://steamcommunity.com/id/jbondguy007" onclick="return Forum_AuthorMenu( this, 113498348, '558747218166513876' );" data-miniprofile="113498348">
+					<bdi>jbondguy007<span class="forum_author_action_pulldown"></span></bdi></a>
+
+											<div id="author_menu_113498348_558747218166513876" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/jbondguy007">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/groups/freegamesfinders/discussions/search/?author=113498348">View Posts</a>
+															</div>
+		</div>
+						
+				<img width="12" height="12" src="https://community.fastly.steamstatic.com/public/images/skin_1/comment_modindicator_officer.png" title="Officer">
+				
+				
+				
+				<span class="commentthread_comment_timestamp" title="February 4, 2014 @ 3:46:51 pm PDT" data-timestamp="1391557611">
+					Feb 4, 2014 @ 3:46pm&nbsp;
+				</span>
+								<div data-panel="{&quot;flow-children&quot;:&quot;row&quot;}" class="community_award_ctn" id="community_awards_comment_558747218166513876"></div>				<div class="commentthread_comment_actions" >
+									</div>
+			</div>
+			<div class="commentthread_comment_text" id="comment_content_558747218166513876">
+				Sims 3 is giving away The Sims 3 Town Life Stuff with proof of purchase (registeration key) on Origin.<br><br>Get yours over <b><a class="bb_link" href="https://steamcommunity.com/linkfilter/?u=http%3A%2F%2Fwww.thesims.com%2Fen-us%2Fanniversary" target="_blank" rel=" noopener" >here</a><span class="bb_link_host">[www.thesims.com]</span></b>.<br><br>I've tried getting mine using my Sims 3 Steam key, and had no problem so far.			</div>
+								</div>
+					<div class="forum_comment_permlink">
+								<a data-panel="{&quot;focusable&quot;:false}" href="#c558747218166513876">#15</a>
+			</div>
+			</div>
+		</div>
+	</div>
+	        <div id="commentthread_ForumTopic_103582791434905547_648814395934604326_648814395937189891_fpagectn" class="forum_paging" style="">
+            <div class="forum_paging_controls" id="commentthread_ForumTopic_103582791434905547_648814395934604326_648814395937189891_fpagecontrols">
+                <a href="javascript:void(0);" id="commentthread_ForumTopic_103582791434905547_648814395934604326_648814395937189891_fpagebtn_prev" class="pagebtn">&lt;</a>
+                <span id="commentthread_ForumTopic_103582791434905547_648814395934604326_648814395937189891_fpagelinks" class="commentthread_pagelinks"></span>
+                <span id="commentthread_ForumTopic_103582791434905547_648814395934604326_648814395937189891_fpagedropdown" class="commentthread_pagedropdown"></span>
+                <a href="javascript:void(0);" id="commentthread_ForumTopic_103582791434905547_648814395934604326_648814395937189891_fpagebtn_next" class="pagebtn">&gt;</a>
+            </div>
+            <div class="forum_paging_summary ellipsis">
+                Showing <span id="commentthread_ForumTopic_103582791434905547_648814395934604326_648814395937189891_fpagestart">1</span>-<span id="commentthread_ForumTopic_103582791434905547_648814395934604326_648814395937189891_fpageend">15</span> of <span id="commentthread_ForumTopic_103582791434905547_648814395934604326_648814395937189891_fpagetotal">5,145</span> comments            </div>
+            <div style="clear: both;"></div>
+        </div>
+        			<div class="commentthread_pagination_ctn" style="float: right;">
+			<div class="forum_pagesize_options topic_replies">Per page: <span class="commentthread_pagination_link">15</span><a class="whiteLink commentthread_pagination_link" href="javascript:Forum_SetTopicRepliesPerPage( 30 );">30</a> <a class="whiteLink commentthread_pagination_link" href="javascript:Forum_SetTopicRepliesPerPage( 50 );">50</a> </div>		</div>
+		<br clear="both">
+			<div style="clear: right;"></div>
+</div>			
+							<div class="bottom_breadcrumbs">
+					<div class="group_breadcrumbs group_content_bodytext">
+						<a href="https://steamcommunity.com/groups/freegamesfinders/discussions">All Discussions</a> &gt;
+						<a href="https://steamcommunity.com/groups/freegamesfinders/discussions/0/">FGF General Discussions</a> &gt;
+						<span>Topic Details</span>
+					</div>
+				</div>
+					</div>
+
+
+		<div class="rightcol responsive_local_menu">
+			<div class="rightbox_header"></div>
+			<div class="rightbox">
+				<div class="content">
+					<div class="topicstats"><span class="topicstats_label">Date Posted:</span> <span class="topicstats_value">Dec 14, 2013 @ 12:56pm</span></div><div class="topicstats"><span class="topicstats_label">Posts:</span> <span class="topicstats_value">5,145</span></div>				</div>
+
+
+				
+									<div class="rule"></div>
+					<div class="content">
+						<a href="https://steamcommunity.com/groups/freegamesfinders/discussions/0/?newdiscussion=1" class="btn_darkblue_white_innerfade btn_medium"><span>Start a New Discussion</span></a>
+					</div>
+				
+			</div>
+			<div class="rightbox_footer"></div>
+
+			<form class="" method="GET" name="DiscussionSearchForm" id="DiscussionSearchForm" action="https://steamcommunity.com/groups/freegamesfinders/discussions/search/" >
+				<div class="discussionSearchTextContainer">
+										<input type="hidden" name="gidtopic" value="648814395937189891">
+					<!-- the negative tab index prevents users from tabbing here while they are trying to write a post -->
+					<input tabindex="-1" class="discussionSearchText searchText" type="text" name="q" value="" placeholder="Search this topic">
+					<img onclick="$('DiscussionSearchForm').submit()" class="discussionSearchTextSubmitImg" src="https://community.fastly.steamstatic.com/public/images/sharedfiles/searchbox_workshop_submit.gif" width="23" height="18" border="0">
+				</div>
+			</form>
+			<br>
+
+
+			<div class="rightbox_header"></div>
+			<div class="rightbox rules">
+				<div class="content">
+					<div class="weblink">
+					<a class="whiteLink" href="https://support.steampowered.com/kb_article.php?ref=4045-USHJ-3810" target="_blank" rel="" ><img src="https://community.fastly.steamstatic.com/public/images/skin_1/iconRules.png"> Discussions Rules and Guidelines</a>
+						</div>
+				</div>
+			</div>
+			<div class="rightbox_footer"></div>
+
+			
+			
+			
+							<div class=""></div>
+				<div class="">
+					<div class="rightSectionTopTitle">More discussions</div>
+										<div class="forum_topic forum_topic_mini  unread">
+						<div class="forum_topic_details">
+							<div class="forum_topic_reply_count" title="5,814 replies">
+								<img src="https://community.fastly.steamstatic.com/public/images/skin_1/comment_quoteicon.png"> 5814							</div>
+						</div>
+						<div class="forum_topic_name" title="In light of recent discussions, I wanted to provide a bit of insight into the decisions about the sort of things that get allowed or deleted in the main thread.  The thing is, as much as I'd like to spell out a simple set of rules, it often comes down to a judgement call.  There are a bunch of factors to consider (e.g. game desireability, game format, effort to obtain, reliabilty of source, time constraints, etc...) and every situation seems to bring new complications.
+
+The main thread is for freebie posts">
+							<a href="https://steamcommunity.com/groups/freegamesfinders/discussions/0/626329820631384143/">
+								Questions, Feedback, and Discussion							</a>
+						</div>
+					</div>
+										<div class="forum_topic forum_topic_mini  unread">
+						<div class="forum_topic_details">
+							<div class="forum_topic_reply_count" title="864 replies">
+								<img src="https://community.fastly.steamstatic.com/public/images/skin_1/comment_quoteicon.png"> 864							</div>
+						</div>
+						<div class="forum_topic_name" title="Here you can post other free digital or physical items which don't quite belong to the Free Games Sharing Thread.
+
+For example:
+[list]
+[*][i]DLC[/i]
+[*][i]e-books[/i]
+[*][i]Software[/i]
+[*][i]Misc physical items[/i]
+[/list]
+
+Please only post legit, safe and reliable links.
+As always, group rules apply to this discussion as well.">
+							<a href="https://steamcommunity.com/groups/freegamesfinders/discussions/0/1864993937061347652/">
+								Share Other Free Items &amp; DLCs Here							</a>
+						</div>
+					</div>
+										<div class="forum_topic forum_topic_mini  unread">
+						<div class="forum_topic_details">
+							<div class="forum_topic_reply_count" title="49 replies">
+								<img src="https://community.fastly.steamstatic.com/public/images/skin_1/comment_quoteicon.png"> 49							</div>
+						</div>
+						<div class="forum_topic_name" title="A lot of small developers are getting in on the free games during lockdown action and with the new way that Steam is doing promotional packages, it makes it very easy to [url=https://steamdb.info/search/?a=sub&amp;q=Limited+Free+Promotional+Package]mine Steamdb[/url] and learn about them ahead of time.  I'm going to try and keep a list here just for reference.  This is mainly just to help me keep track of what's going on but I figure people might find it useful.  The list may not be 100% current but it will at">
+							<a href="https://steamcommunity.com/groups/freegamesfinders/discussions/0/2140840224659352976/">
+								Upcoming Free Steam games							</a>
+						</div>
+					</div>
+										<div class="forum_topic forum_topic_mini  unread">
+						<div class="forum_topic_details">
+							<div class="forum_topic_reply_count" title="2 replies">
+								<img src="https://community.fastly.steamstatic.com/public/images/skin_1/comment_quoteicon.png"> 2							</div>
+						</div>
+						<div class="forum_topic_name" title="@STEAM GROUP Free Games Finders F G F ːdelsmileːːsteamthumbsupːːsteamhappyː">
+							<a href="https://steamcommunity.com/groups/freegamesfinders/discussions/0/592908590021466289/">
+								Good Find							</a>
+						</div>
+					</div>
+									</div>
+				<div class=""></div>
+			
+
+		</div>
+
+		<div style="clear: both;"></div>
+	</div>
+</div>
+<div id="forum_modal" class="modal_frame" style="display:none;">
+	<div class="modal_top_band">
+		<div class="modal_close"><a href="javascript:hideModal( 'forum_modal' )"><img src="https://community.fastly.steamstatic.com/public/images/x9x9.gif" width="9" height="9" border="0" alt="Close" /></a></div>
+	</div>
+	<div class="modal_box">
+		<div class="modal_box_ctn">
+				</div>
+	</div>
+</div>
+
+	<div id="report_modal_content" style="display: none;">
+		<h2><img src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag.png"> Report this post</h2>
+		<div class="forum_newtopic_header">REASON</div>
+		<form id="forum_reportpost_form">
+			<input type="hidden" name="sessionid" value="2e48082076ab8b51d0cced21">
+			<input type="hidden" name="author" value="">
+			<input type="hidden" name="gidcomment" value="">
+			<input type="hidden" name="gidtopic" value="">
+
+			<div class="gray_bevel">
+				<textarea rows="3" cols="40" class="forumtopic_reply_textarea" name="report_reason" id="forum_report_reason"></textarea>
+			</div>
+		</form>
+		<div class="forum_report_instructions">Note: This is ONLY to be used to report spam, advertising, and problematic (harassment, fighting, or rude) posts.</div>
+	</div>
+<div id="modalBG" style="display: none;"></div>
+<!-- screenshot viewer -->
+<div id="modalContentScrollbarHack" style="display: none"></div>
+
+<div id="modalContent" class="modal_frame" style="display: none">
+	<div id="modalContentTitleBar">
+		<a id="modalContentTitleBarLink" href="" target="_blank">&nbsp;</a>
+		<a id="modalContentTitleBarImageLink" href="" target="_blank"><img src="https://community.fastly.steamstatic.com/public/images/skin_1/ico_external_link.gif" alt=""></a>
+		<div id="modalContentDismiss" class="modalContentDismissImage" onclick="HideModalContent();">
+			<img src="https://community.fastly.steamstatic.com/public/images/x9x9.gif" width="9" height="9" border="0" alt="Close">
+		</div>
+	</div>
+	<div id="modalContentWait"><img src="https://community.fastly.steamstatic.com/public/images/login/throbber.gif" alt="Loading"></div>
+	<div id="modalContentFrameContainer"></div>
+</div><!-- /screenshot viewer -->
+
+</div>
+
+
+		</div>	<!-- responsive_page_legacy_content -->
+
+			<div id="footer_spacer" class=""></div>
+	<div id="footer_responsive_optin_spacer"></div>
+	<div id="footer">
+					<div class="footer_content">
+				<span id="footerLogo"><img src="https://community.fastly.steamstatic.com/public/images/skin_1/footerLogo_valve.png?v=1" width="96" height="26" border="0" alt="Valve Logo" /></span>
+				<span id="footerText">
+					&copy; Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.<br/>Some geospatial data on this website is provided by <a href="https://steamcommunity.com/linkfilter/?u=http%3A%2F%2Fwww.geonames.org" target="_blank" rel=" noopener">geonames.org</a>.					<br>
+											<span class="valve_links">
+							<a href="http://store.steampowered.com/privacy_agreement/" target="_blank">Privacy Policy</a>
+							&nbsp; | &nbsp;<a href="https://store.steampowered.com/legal/" target="_blank">Legal</a>
+							&nbsp;| &nbsp;<a href="http://store.steampowered.com/subscriber_agreement/" target="_blank">Steam Subscriber Agreement</a>
+                            &nbsp;| &nbsp;<a href="http://store.steampowered.com/account/cookiepreferences/" target="_blank">Cookies</a>
+						</span>
+									</span>
+			</div>
+							<div class="responsive_optin_link">
+				<div class="btn_medium btnv6_grey_black" role="link" onclick="Responsive_RequestMobileView()">
+					<span>View mobile website</span>
+				</div>
+			</div>
+			</div>
+	<script type="text/javascript">$J( function() {ReplaceDynamicLink( 'dynamiclink_0', "<iframe src=\"https:\/\/store.steampowered.com\/widget\/550\/?dynamiclink=1&hidebuttons=0\" frameborder=\"0\" width=\"100%\" height=\"190\"><\/iframe>" );ReplaceDynamicLink( 'dynamiclink_1', "<iframe src=\"https:\/\/store.steampowered.com\/widget\/550\/?dynamiclink=1&hidebuttons=0\" frameborder=\"0\" width=\"100%\" height=\"190\"><\/iframe>" );ReplaceDynamicLink( 'dynamiclink_2', "<iframe src=\"https:\/\/store.steampowered.com\/widget\/247120\/?dynamiclink=1&hidebuttons=0\" frameborder=\"0\" width=\"100%\" height=\"190\"><\/iframe>" );} );</script><script type="text/javascript">g_rgDelayedLoadImages={"member_tiles":true};</script>
+	</div>	<!-- responsive_page_content -->
+
+</div>	<!-- responsive_page_frame -->
+</body>
+</html>

@@ -1,0 +1,22 @@
+# SimpleFeedMaker robots.txt — keep app crawlable, hide internals
+
+User-agent: *
+# Allow the site and static feeds
+Allow: /
+
+# Hide internals
+Disallow: /includes/
+Disallow: /secure/
+Disallow: /storage/
+Disallow: /vendor/
+Disallow: /tmp/
+Disallow: /tests/
+
+# Hide utility endpoints
+Disallow: /health.php
+Disallow: /generate.php
+
+# (Optional) Be nice to small servers
+# Crawl-delay: 2
+
+Sitemap: https://simplefeedmaker.com/sitemap.xml

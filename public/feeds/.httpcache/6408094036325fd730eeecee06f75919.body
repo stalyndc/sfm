@@ -1,0 +1,3584 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- <meta name="apple-itunes-app" content="app-id=622432954"> -->
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>        
+    	蘋果發佈會懶人包｜iPhone 17規格價錢全整理！新款Air史上最薄！ | ezone
+	</title>
+    <meta property="fb:pages" content="112334455049" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="keywords" content="Win8,Win8.1,Windows8,Windows8.1,Win7,Windows7,ITnews,tablet,notebook,mobile,smartphone,apps,jetso,mac,hdtv,lcd,led,diy,pc,dc,dslr,m4/3,office,web,price,knowledge,technology,科技,新聞,即時新聞,科技新聞,流動,電腦,數碼,潮流,平板,電話,智能手機,相機,單反,通識,軟件,高清,着數,優惠,格價,報價,遊戲,電玩,香港討論區,論壇,搜尋,知識,獎賞,提問" />
+    <meta property="og:site_name" content="ezone.hk 即時科技生活" />
+    <meta property="og:type" content="website">
+    <link href="/images/favicon.ico" type="image/x-icon" rel="shortcut icon">
+	<link href="/images/favicon.ico" type="image/x-icon" rel="icon">
+	<!-- Modernizr JS -->
+	<script src="/js/jquery.min.js"></script>
+    <script async defer src="/js/modernizr-2.6.2.min.js"></script>
+    <script async defer src="/js/moment.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+	<script async defer src="/js/respond.min.js"></script>
+	<![endif]-->
+	
+	<script>
+	var onload_queue = [];
+var dom_loaded = false;
+
+function loadScriptAsync(src, callback) {
+  var script = document.createElement('script'); 
+  script.type = "text/javascript";
+  script.async = true;
+  script.src = src;
+  script.onload = script.onreadystatechange = function() {
+    if (dom_loaded) 
+      callback();
+    else 
+      onload_queue.push(callback);
+    // clean up for IE and Opera
+    script.onload = null;
+    script.onreadystatechange = null;
+  };
+  var head = document.getElementsByTagName('head')[0];
+  head.appendChild(script);
+}
+
+function domLoaded() {
+   dom_loaded = true;
+   var len = onload_queue.length;
+   for (var i = 0; i < len; i++) {
+     onload_queue[i]();
+   }
+   onload_queue = null;
+};
+
+// Dean's dom:loaded code goes here
+// do stuff
+domLoaded();
+	</script>    
+	<meta name="cPage" content="article"/>
+<meta name="cPageDetail" content="detail"/>
+		
+	<meta name="title" content="蘋果發佈會懶人包｜iPhone 17規格價錢全整理！新款Air史上最薄！ | ezone" />
+	<meta property="og:title" content="蘋果發佈會懶人包｜iPhone 17規格價錢全整理！新款Air史上最薄！ | ezone" />
+<meta name="description" content="時間進入 2025 年，iPhone 17 系列終於在Apple 2025 秋季發佈會如期登場，在凌晨1點的蘋果發佈會，Apple正式揭曉新一代 iPhone 17四款新機，分別是 iPhone 17、iPhone 17 Air、iPhone 17 Pro 及 iPhone 17 Pro Max；另外還有主打極致纖薄的 iPhone Air，Apple Watch 迎來突破性健康監測功能，而 AirPods Pro 則加入了即時翻譯功能。錯過Apple發佈會直播？今次帶大家5分鐘看清蘋果發佈會重點，助果迷掌握Apple新品特點、售價、型號、發售日期等！"/>
+<meta name="publisher" content="Ezone"/>
+<meta name="author"
+		content="黃俊翔"
+/>
+<meta name="robots" content="max-image-preview:large">
+<meta name="thumbnail" content="https://resource02.ulifestyle.com.hk/ulcms/content/article/ogimage/2025/09/20250910032256_35313e375dfa8960769b33b015db971325f044df.jpg"/>
+<meta property="og:image" content="https://resource02.ulifestyle.com.hk/ulcms/content/article/ogimage/2025/09/20250910032256_35313e375dfa8960769b33b015db971325f044df.jpg" />
+<!--<meta property="og:image:width" content="1350" />-->
+<!--<meta property="og:image:height" content="1013" />-->
+
+
+<meta property="al:ios:url" content="fbulapp://ezone.hk/article/20057123"/>
+<meta property="al:ios:app_store_id" content="511267431"/>
+<meta property="al:ios:app_name" content="U Lifestyle：最Hit優惠及生活資訊平台"/>
+<meta property="al:android:url" content="fbulapp://ezone.hk/article/20057123"/>
+<meta property="al:android:package" content="com.hket.android.up"/>
+<meta property="al:web:should_fallback" content="true"/>
+
+	<meta property="og:description" content="時間進入 2025 年，iPhone 17 系列終於在Apple 2025 秋季發佈會如期登場，在凌晨1點的蘋果發佈會，Apple正式揭曉新一代 iPhone 17四款新機，分別是 iPhone 17、iPhone 17 Air、iPhone 17 Pro 及 iPhone 17 Pro Max；另外還有主打極致纖薄的 iPhone Air，Apple Watch 迎來突破性健康監測功能，而 AirPods Pro 則加入了即時翻譯功能。錯過Apple發佈會直播？今次帶大家5分鐘看清蘋果發佈會重點，助果迷掌握Apple新品特點、售價、型號、發售日期等！" />
+	<meta name="twitter:description" content="時間進入 2025 年，iPhone 17 系列終於在Apple 2025 秋季發佈會如期登場，在凌晨1點的蘋果發佈會，Apple正式揭曉新一代 iPhone 17四款新機，分別是 iPhone 17、iPhone 17 Air、iPhone 17 Pro 及 iPhone 17 Pro Max；另外還有主打極致纖薄的 iPhone Air，Apple Watch 迎來突破性健康監測功能，而 AirPods Pro 則加入了即時翻譯功能。錯過Apple發佈會直播？今次帶大家5分鐘看清蘋果發佈會重點，助果迷掌握Apple新品特點、售價、型號、發售日期等！" />
+	<meta name="twitter:title" content="蘋果發佈會懶人包｜iPhone 17規格價錢全整理！新款Air史上最薄！" />
+<meta name="twitter:image" content="https://resource02.ulifestyle.com.hk/ulcms/content/article/ogimage/2025/09/20250910032256_35313e375dfa8960769b33b015db971325f044df.jpg" />
+<meta property="og:url" content="https://ezone.hk/article/20057123/iphone17-重點規格-效能-顏色-外觀-型號-屏幕尺寸預告">
+<meta name="twitter:url" content="https://ezone.hk/article/20057123/iphone17-重點規格-效能-顏色-外觀-型號-屏幕尺寸預告">
+<script>
+	//$('head').append( '<meta property="og:url" content="'+window.location.href+'">' );
+	//$('head').append( '<meta name="twitter:url" content="'+window.location.href+'">' );
+</script>
+<meta name="twitter:card" content="summary " />
+<meta name="twitter:site" content="@ezoneNews" />
+<meta property="article:published_time" content="2025-09-10T03:37:00+0800"/>
+<meta property="article:modified_time" content="2025-09-10T17:38:00+0800" />
+<script async defer src="/js/jquery.unveil.js"></script>
+<link rel="stylesheet" href="/css/photoswipe.css"> 
+<link rel="stylesheet" href="/css/default-skin/default-skin.css"> 
+<script async defer src="/js/photoswipe.min.js"></script> 
+<script async defer src="/js/photoswipe-ui-default.min.js"></script>
+<link rel="canonical" href="https://ezone.hk/article/20057123/iphone17-%E9%87%8D%E9%BB%9E%E8%A6%8F%E6%A0%BC-%E6%95%88%E8%83%BD-%E9%A1%8F%E8%89%B2-%E5%A4%96%E8%A7%80-%E5%9E%8B%E8%99%9F-%E5%B1%8F%E5%B9%95%E5%B0%BA%E5%AF%B8%E9%A0%90%E5%91%8A"/>
+<link rel="stylesheet" href="/css/photoswipe.css"> 
+<link rel="stylesheet" type="text/css" href="/css/v5/photoswipe/photoswipe.css?v=202002241500" />
+<link rel="stylesheet" type="text/css" href="/css/v5/photoswipe/custom-style.css" />
+<script type="text/javascript" src="/js/MediaElement/matomo-media-analytics.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/video.js@7/dist/video-js.min.css,npm/videojs-ima@1/dist/videojs.ima.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/videojs-contrib-ads@6/dist/videojs-contrib-ads.min.css">
+<script type="text/javascript" src="https://imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/combine/npm/video.js@7/dist/video.min.js,npm/video.js@7/dist/lang/zh-TW.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/combine/npm/videojs-contrib-ads@6/dist/videojs-contrib-ads.min.js,npm/videojs-ima@1"></script>
+<script type="text/javascript" src="/js/jqueryVisible.js"></script>
+<link rel="stylesheet" href="/css/font-awesome.min.css?v=202210111200"> 
+<script type="text/javascript" src="/js/videoTracking.js"></script>
+<script type="text/javascript" src="/js/open-in-modal.js"></script>
+<script>
+		window.dataLayer = window.dataLayer || [];
+		window.dataLayer.push({
+			'gatrackingid': 'UA-45611067-1',
+			'matomositeid': '5',
+			'matomo' : {
+				'channelCode' : '504'
+			},
+			'ga4measurementid': 'G-Q25TF8BEJ2'
+		});
+		
+</script>
+<script>
+    var ga4ShareButtonModel = {
+        channel: 'ezone',
+        category: "科技",
+        content: {id:'20057123',type:'article'},
+        service: 'article',
+        position: 'footer',
+        reward: {
+            id: 'NA',
+            name: 'NA'
+        }
+    };
+    var ga4OpenInAppButtonModel = {
+        channel: 'ezone',
+        category: "科技",
+        content: {id:'20057123',type:'article'},
+        service: 'article',
+        pageurl: window.location.href,
+        position:'overlay'
+    };
+    var ga4RelatedArticleModel = {
+        category: "科技",
+        content: {'id':'20057123','type':'article'},
+        service: 'article',
+        function: 'related_article',
+        pageurl: window.location.href,
+        section: '相關文章',
+        channel: 'ezone'
+    }
+    let ga4ImageGalleryModel = {
+        pageview_event_name: 'image_gallery',
+        service: 'article',
+        content: {'id':'20057123','type':'image'},
+        category: "科技",
+        video: {'program':'NA'},
+        author: '黃俊翔',
+        taglist: "科技,蘋果發佈會", 
+        publishdate: 'NA',
+        primary: {main: ' ',sub: 'NA'}
+    }
+</script>		
+<script>
+function initializeGMap(lat, long) {
+	 	 // The location of Uluru
+
+	 	const uluru = { lat: -25.344, lng: 131.031 };
+		var location = { lat: +lat, lng: +long};
+		  // The map, centered at Uluru
+		  const map = new google.maps.Map(document.getElementById("map_canvas"), {
+			zoom: 16,
+			center: location,
+		  });
+
+		  // The marker, positioned at Uluru
+		  const marker = new google.maps.Marker({
+			position: location,
+			map: map,
+		  });
+	}
+$( document ).ready(function() {
+
+	
+	
+	var position = $(window).scrollTop(); 
+
+	$(window).scroll(function() {
+	    var scroll = $(window).scrollTop();
+	    $('video[id*=native_hls]').each(function() {
+	        if ($(this).visible() == false) {
+	   			if (!$(this)[0].paused){
+		            $(this)[0].pause();
+		            console.log('pause');
+	   			}
+	        } else {
+	            if(scroll > position) {
+		   			if ($(this)[0].paused){
+			            $(this)[0].play();
+			            console.log('play');
+		   			}
+	                console.log('scrollDown');
+	            }
+	        }
+	    })
+	    position = scroll;
+	})
+});
+</script>
+
+<script>
+	var lastKnownScrollPosition = 0;
+	function ulVideo() {
+	    var ulvideos = document.querySelectorAll('.ulvideo');
+	    if (ulvideos.length) {
+	    	console.log("ulVideo");
+	        for (var index = 0; index < ulvideos.length; index++) {
+	            var element = ulvideos[index];
+	            if (!element.getAttribute('loaded')) {
+	                var videoNode = element.querySelector('video');
+	
+	                var player = videojs(videoNode, {
+	                    language: 'zh-TW',
+	                    controlBar: {
+	                        volumePanel: {
+	                            inline: false
+	                        },
+	                        subsCapsButton: false,
+	                        pictureInPictureToggle: false,
+	                    },
+	                    html5: {
+	                        vhs: {
+	                            overrideNative: !videojs.browser.IS_SAFARI
+	                        },
+	                        nativeAudioTracks: false,
+	                        nativeVideoTracks: false
+	                    }
+	                });
+	                var contentId = 20057123;
+					var videoId = videoNode.getAttribute("data-id");
+					var formalTags = videoNode.getAttribute("data-formalTags").replaceAll(",", "%2C");
+					var section = videoNode.getAttribute("data-section");
+					//var audienceEncoded = audience.replaceAll(",", "%2C");
+					var title = "蘋果發佈會懶人包｜iPhone 17規格價錢全整理！新款Air史上最薄！";
+					var pubDate = videoNode.getAttribute("data-publish-date");
+					var channelId = videoNode.getAttribute("data-channel");
+					var audienceEncoded = "123";
+	                if (index == 0 && typeof player.ima === "function") {
+	                    var options = {
+						adTagUrl: 'https://pubads.g.doubleclick.net/gampad/ads?iu=/183518426/ezone2_WebRP_Video_PreRoll&description_url=' + encodeURI(window.location.href) + '&tfcd=0&npa=0&sz=640x480%7C640x360%7C400x300&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&vpmute=1&correlator=' + Math.round(Math.random() * 10000000000)
+						+ '&cust_params=videoId%3D$' + videoId + '%26audience%3D' + audienceEncoded + '%26formal_tag%3D' + formalTags + '%26section%3D' + section + '%26live%3Dfalse',
+	                        locale: 'zh_hk',
+	                        adLabel: '廣告',
+	                        // adWillAutoplay: true, 
+	                        // adWillPlayMuted: false
+	                    };
+	
+	                    player.ima(options);
+	                    player.ima.initializeAdDisplayContainer();
+	                    // Bypass settings deprecation checking
+	                    player.ima.controller.setSetting('adWillAutoplay', true);
+	                    player.ima.controller.setSetting('adWillPlayMuted', false);
+	                }
+					const ga4EventModel = {
+						channel: channelId == '10' ? 'ec' : 'ezone',
+						video: {
+							content: {id:videoId},
+							program: section == null?"NA":section,
+							duration: undefined,
+							title: title==null?"NA":title,
+							publishdate: pubDate,
+						},
+						content: { id: contentId == null?"NA":contentId ,type:'video'},
+						category: formalTags == null?"NA":formalTags,
+						pagename: title == null ?"NA":title,
+						screen: "article_detail",
+					};
+					videoTracking(player,ga4EventModel)
+	                // player.httpSourceSelector({
+	                //     default: 'auto'
+	                // })
+	
+	                element.setAttribute('loaded', true);
+	            }
+	        }
+	        window.matomoMediaAnalyticsAsyncInit();
+	    }
+	}
+		
+	function autoPlayVideoHandler() {
+	    if (!document.pictureInPictureElement) {
+	        var allPlayers1 = videojs.getAllPlayers();
+	        for (var index1 = 0; index1 < allPlayers1.length; index1++) {
+	            var player = allPlayers1[index1];
+	            var container = player.contentEl();
+	            var bound = container.getBoundingClientRect();
+	            if (bound.top >= 0 && bound.left >= 0 && bound.bottom <= (window.innerHeight || document.documentElement.clientHeight) && bound.right <= (window.innerWidth || document.documentElement.clientWidth)) {
+	                if (window.pageYOffset > lastKnownScrollPosition && !container.getAttribute('autoplayed')) {
+	                    if (typeof player.ads === 'object' && player.ads.isAdPlaying()) {
+	                        player.ima.resumeAd();
+	                    } else {
+	                        var startPlayPromise = player.play();
+	                        if (startPlayPromise !== undefined) {
+	                            startPlayPromise.then(function (player) {
+	                                var allPlayers2 = videojs.getAllPlayers();
+	                                for (var index2 = 0; index2 < allPlayers2.length; index2++) {
+	                                    var element = allPlayers2[index2];
+	                                    if (element.id() != player.id()) {
+	                                        if (!element.paused()) {
+	                                            element.pause();
+	                                        } else if (typeof element.ima === 'object' && element.ima.controller.sdkImpl.isAdPlaying()) {
+	                                            element.ima.pauseAd();
+	                                        }
+	                                    }
+	                                }
+	                            }).catch(function (error) {
+	                                // console.error(error)
+	                                // alert(error.name + ": " + error.message)
+	                                if (error.name === "NotAllowedError") {
+	
+	                                } else {
+	
+	                                }
+	                            });
+	                        }
+	                    }
+	                    container.setAttribute('autoplayed', true);
+	                }
+	            } else {
+	                if (!player.paused()) {
+	                    player.pause();
+	                } else if (typeof player.ima === 'object' && player.ima.controller.sdkImpl.isAdPlaying()) {
+	                    player.ima.pauseAd();
+	                }
+	                container.removeAttribute('autoplayed');
+	            }
+	        }
+	    }
+	    lastKnownScrollPosition = window.pageYOffset;
+	}
+	console.log("scroll");
+	document.addEventListener('scroll', autoPlayVideoHandler);
+	$( document ).ready(function() {
+		ulVideo();
+		autoPlayVideoHandler();
+		//updateURLLanding();
+		updateToc('20057123');
+	});
+	
+</script>
+
+<script>
+	function updateToc(articleId) {
+		function updatePosition(tocElement) {
+			var headerHeight = document.querySelector("#ezone-page header").clientHeight;
+
+			if (window.innerWidth <= 767) {
+				if ($(window).scrollTop() <= 42) {
+					//tocElement.style.top = parseInt(headerHeight - $(window).scrollTop()) + "px";
+					tocElement.style.height = parseInt(window.innerHeight - headerHeight + $(window).scrollTop() - 200) + "px";
+				} else {
+					tocElement.style.height = parseInt(window.innerHeight) + "px";
+				}
+				if (!tocElement.classList.contains("active")) {
+					tocElement.style.right = "-" + tocElement.offsetWidth + "px";
+				}
+			} else {
+				tocElement.style.height = "";
+				tocElement.style.top = "";
+				tocElement.style.right = "";
+			}
+		}
+
+		function cleanEmptyItems(tocElement) {
+			tocElement.querySelectorAll("li")?.forEach(function(listItem) {
+				if (listItem.innerHTML === "" || /^(?: )+$/.test(listItem.innerHTML)) {
+					listItem.remove();
+				}
+			});
+		}
+
+		$('.article[data-docid="' + articleId + '"] .page-left div.mce-toc').each(function() {
+			var tocElement = this;
+			var articleContainer = document.querySelector(".infinite-container");
+
+			cleanEmptyItems(tocElement);
+			updatePosition(tocElement);
+
+			if (window.innerWidth <= 767) {
+				tocElement.style.right = "-" + tocElement.offsetWidth + "px";
+			}
+
+			if (!(this.querySelector("ul").offsetHeight <= 300)) {
+				var closeIcon = document.createElement("img");
+				closeIcon.src = "/images/toc-close.png";
+				closeIcon.classList = "toc-close";
+				closeIcon.onclick = function() {
+					tocElement.querySelector("ul").classList.remove("opened");
+					tocElement.querySelector("ul").classList.add("closed");
+					this.style.display = "none";
+					this.parentNode.querySelector(".toc-more").style.display = "block";
+				};
+
+				var moreIcon = document.createElement("img");
+				moreIcon.src = "/images/toc-more.png";
+				moreIcon.classList = "toc-more";
+				moreIcon.onclick = function() {
+					tocElement.querySelector("ul").classList.remove("closed");
+					tocElement.querySelector("ul").classList.add("opened");
+					this.style.display = "none";
+					this.parentNode.querySelector(".toc-close").style.display = "block";
+				};
+
+				//document.querySelector("section#section-bar").style.zIndex = "96";
+
+				var backdrop = document.createElement("div");
+				backdrop.classList = "toc-backdrop showed hided";
+
+				var toggleContainer = document.createElement("div");
+				toggleContainer.classList = "toc-toggle";
+				toggleContainer.appendChild(moreIcon);
+				toggleContainer.appendChild(closeIcon);
+				this.appendChild(toggleContainer);
+
+				var mobileToggle2 = document.createElement("div");
+				mobileToggle2.classList = "toc-mobile2";
+				mobileToggle2.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="13" height="24" viewBox="0 0 13 24"><g fill="none" fill-rule="evenodd"><path d="M0 0h13v24H0z"></path><path d="M0 11.2h13v1.6H0zm0-4h13v1.6H0V7.2zm0 8h13v1.6H0v-1.6z" fill="#FFF" fill-rule="nonzero"></path></g></svg>';
+				mobileToggle2.style.display = "none";
+				mobileToggle2.onclick = function() {
+					if (this.classList.contains("active")) {
+						tocElement.classList.remove("active");
+						this.classList.remove("active");
+						this.style.right = "0";
+						tocElement.style.right = "-" + tocElement.offsetWidth + "px";
+						backdrop.classList.add("hided");
+					}
+				};
+				mobileToggle2.addEventListener("transitionend", function() {
+					this.classList.contains("active") ? this.style.display = "inline-flex" : this.style.display = "none";
+				});
+
+				var mobileToggle = document.createElement("div");
+				mobileToggle.classList = "toc-mobile";
+				mobileToggle.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="13" height="24" viewBox="0 0 13 24"><g fill="none" fill-rule="evenodd"><path d="M0 0h13v24H0z"></path><path d="M0 11.2h13v1.6H0zm0-4h13v1.6H0V7.2zm0 8h13v1.6H0v-1.6z" fill="#FFF" fill-rule="nonzero"></path></g></svg><p>目錄</p>';
+				mobileToggle.onclick = function() {
+					var tocWidth = tocElement.offsetWidth;
+					mobileToggle2.classList.add("active");
+					mobileToggle2.style.display = "inline-flex";
+					mobileToggle2.style.right = "0";
+					if (backdrop.classList.contains("hided")) {
+						backdrop.classList.remove("hided");
+					}
+					setTimeout(function() {
+						tocElement.classList.add("active");
+						tocElement.style.right = "0";
+						mobileToggle2.style.right = tocWidth + "px";
+					}, 1);
+					updatePosition(tocElement);
+					window.dataLayer.push({
+						'event': 'btnEventTrigger',
+						'ga4' : {
+							'event_name' : 'menu_expand',
+							'author' : '黃俊翔',
+							'category' : 'iPhone',
+							'channel' : 'ezone',
+							'content' : { 'id' : articleId},
+							'service' : 'article',
+							'screen' : 'article_detail',
+							'click_url' : window.location.href,
+							'page_url' : window.location.href,
+							'published_date' : '2025-09-10 03:37:50',
+							'position' : 'article_side',
+							'text' : '目錄'
+						}
+					});
+				};
+
+				$(window).resize(function() {
+					if (window.innerWidth > 767) {
+						mobileToggle.classList.remove("active");
+						tocElement.classList.remove("active");
+						tocElement.style.right = "";
+						mobileToggle.style.right = "0";
+						mobileToggle.style.left = "";
+						mobileToggle.style.float = "";
+						if (mobileToggle2.classList.contains("active")) {
+							mobileToggle2.classList.remove("active");
+							mobileToggle2.style.right = "0";
+							mobileToggle2.style.display = "none";
+						}
+						backdrop.classList.add("hided");
+					}
+					updatePosition(tocElement);
+				});
+
+				var articleContent = document.querySelector('.article[data-docid="' + articleId + '"]');
+				window.addEventListener("scroll", function() {
+					if (articleContent.getBoundingClientRect().bottom < 300 || articleContent.getBoundingClientRect().top > 300) {
+						mobileToggle.classList.remove("active");
+						tocElement.classList.remove("active");
+						if (window.innerWidth < 767) {
+							tocElement.style.right = "-" + tocElement.offsetWidth + "px";
+						}
+						mobileToggle.style.right = "0";
+						mobileToggle.style.left = "";
+						mobileToggle.style.float = "";
+						if (mobileToggle2.classList.contains("active")) {
+							mobileToggle2.classList.remove("active");
+							mobileToggle2.style.right = "0";
+						}
+						backdrop.classList.add("hided");
+					}
+					updatePosition(tocElement);
+				});
+
+				var tocToggles = this.querySelectorAll(".toc-toggle");
+				tocToggles.forEach(function(toc) {
+					toc.onclick = function() {
+						var pos = 'article_top';
+						var parentElement = toc.parentElement;
+						while (parentElement) {
+							if (parentElement.classList && parentElement.classList.contains('side-component')) {
+								pos = 'article_side';
+								break;
+							}
+							parentElement = parentElement.parentElement;
+						}
+						var tocMore = toc.querySelector(".toc-more");
+						var tocClose = toc.querySelector(".toc-close");
+						var tocText = "";
+						if (tocMore && tocMore.style.display === "block") {
+							tocText = "收起";
+						} else if (tocClose && tocClose.style.display === "block") {
+							tocText = "更多目錄";
+						}
+						window.dataLayer = window.dataLayer || [];
+						window.dataLayer.push({
+							ga4: void 0
+					  	});
+						window.dataLayer.push({
+							'event': 'btnEventTrigger',
+							'ga4' : {
+								'event_name' : 'menu_expand',
+								'author' : '黃俊翔',
+								'category' : 'iPhone',
+								'channel' : 'ezone',
+								'content' : { 'id' : articleId},
+								'service' : 'article',
+								'screen' : 'article_detail',
+								'click_url' : window.location.href,
+								'page_url' : window.location.href,
+								'published_date' : '10-09-2025 03:37',
+								'position' : pos,
+								'text' : window.innerWidth <= 768 ? '目錄' : tocText
+
+							}
+						});
+						console.log('push');
+					};
+				});
+
+				var tocLinks = this.querySelectorAll("a");
+				tocLinks.forEach(function(link) {
+					link.onclick = function() {
+						var pos = 'article_top';
+						var parentElement = link.parentElement;
+						while (parentElement) {
+							if (parentElement.classList && parentElement.classList.contains('side-component')) {
+								pos = 'article_side';
+								break;
+							}
+							parentElement = parentElement.parentElement;
+						}
+						mobileToggle.classList.remove("active");
+						tocElement.classList.remove("active");
+						mobileToggle.style.right = "0";
+						mobileToggle.style.left = "";
+						mobileToggle.style.float = "";
+						if (mobileToggle2.classList.contains("active")) {
+							mobileToggle2.classList.remove("active");
+							mobileToggle2.style.right = "0";
+						}
+						backdrop.classList.add("hided");
+						window.dataLayer = window.dataLayer || [];
+						window.dataLayer.push({
+							ga4: void 0
+					  	});
+						window.dataLayer.push({
+							'event': 'btnEventTrigger',
+							'ga4' : {
+								'event_name': 'menu_tap',
+								'author' : '黃俊翔',
+								'category' : 'iPhone',
+								'channel' : 'ezone',
+								'content' : { 'id' : articleId},
+								'service' : 'article',
+								'screen' : 'article_detail',
+								'click_url' : window.location.href,
+								'page_url' : window.location.href,
+								'published_date' : '2025-09-10 03:37:50',
+								'position' : window.innerWidth <= 768 ? 'article_side' : pos,
+								'text' : link.text
+							}
+						});
+						console.log('push');
+					};
+				});
+
+				document.querySelector('.article[data-docid="' + articleId + '"] .ezone-heading').classList.add("with-toc");
+				articleContent.insertBefore(mobileToggle, articleContent.firstChild);
+				this.querySelector("ul").classList.add("closed");
+				//articleContainer.appendChild(backdrop);
+				tocElement.after(backdrop);
+				tocElement.after(mobileToggle2);
+			}
+		});
+
+		$('.page-right div.mce-toc').each(function() {
+			var tocElement = this;
+			cleanEmptyItems(tocElement);
+
+			var menuHeight = document.querySelector("#ezone-header").clientHeight;
+			var headingHeight = tocElement.querySelector("h2").clientHeight;
+
+			tocElement.style.maxHeight = (window.innerHeight - menuHeight - 500) + "px";
+			tocElement.style.overflowY = "auto";
+			tocElement.style.position = "fixed";
+			tocElement.setAttribute('data-articleId', articleId);
+
+			var listElement = tocElement.querySelector("ul");
+			if (listElement.offsetHeight > 300) {
+				var toggleContainer = document.createElement("div");
+				toggleContainer.className = "toc-toggle";
+
+				var closeIcon = document.createElement("img");
+				closeIcon.src = "/images/toc-close.png";
+				closeIcon.className = "toc-close";
+				closeIcon.onclick = function() {
+					var menuHeightInner = document.querySelector("#ezone-header").clientHeight;
+					var headingHeightInner = tocElement.querySelector("h2").clientHeight;
+					tocElement.querySelector("ul").classList.remove("opened");
+					tocElement.querySelector("ul").classList.add("closed");
+					tocElement.classList.add("closed");
+					tocElement.style.maxHeight = parseInt(window.innerHeight - menuHeightInner - 500) + "px";
+					tocElement.querySelector("ul").style.maxHeight = parseInt(window.innerHeight - menuHeightInner - 550) + "px";
+					this.style.display = "none";
+					this.parentNode.querySelector(".toc-more").style.display = "block";
+					toggleContainer.style.position = "absolute";
+				};
+
+				var moreIcon = document.createElement("img");
+				moreIcon.src = "/images/toc-more.png";
+				moreIcon.className = "toc-more";
+				moreIcon.onclick = function() {
+					tocElement.classList.remove("closed");
+					tocElement.querySelector("ul").classList.remove("closed");
+					tocElement.querySelector("ul").classList.add("opened");
+					this.style.display = "none";
+					this.parentNode.querySelector(".toc-close").style.display = "block";
+					var menuHeightInner = document.querySelector("#ezone-header").clientHeight;
+					var headingHeightInner = tocElement.querySelector("h2").clientHeight;
+					tocElement.style.maxHeight = parseInt(window.innerHeight - menuHeightInner - 500) + "px";
+					toggleContainer.style.position = "relative";
+					tocElement.querySelector("ul").style.maxHeight = "none";
+				};
+
+				toggleContainer.appendChild(moreIcon);
+				toggleContainer.appendChild(closeIcon);
+				tocElement.appendChild(toggleContainer);
+				listElement.classList.add("closed");
+				tocElement.querySelector("ul").style.maxHeight = parseInt(window.innerHeight - 600) + "px";
+			}
+			var tocToggles = this.querySelectorAll(".toc-toggle");
+			tocToggles.forEach(function(toc) {
+				toc.onclick = function() {
+					var pos = 'article_top';
+					var parentElement = toc.parentElement;
+					while (parentElement) {
+						if (parentElement.classList && parentElement.classList.contains('side-component')) {
+							pos = 'article_side';
+							break;
+						}
+						parentElement = parentElement.parentElement;
+					}
+					var tocMore = toc.querySelector(".toc-more");
+					var tocClose = toc.querySelector(".toc-close");
+					var tocText = "";
+					if (tocMore && tocMore.style.display === "block") {
+						tocText = "收起";
+					} else if (tocClose && tocClose.style.display === "block") {
+						tocText = "更多目錄";
+					}
+					window.dataLayer = window.dataLayer || [];
+					window.dataLayer.push({
+						ga4: void 0
+					});
+					window.dataLayer.push({
+						'event': 'btnEventTrigger',
+						'ga4' : {
+							'event_name': 'menu_expand',
+							'author' : '黃俊翔',
+							'category' : 'iPhone',
+							'channel' : 'ezone',
+							'content' : { 'id' : '20057123'},
+							'service' : 'article',
+							'screen' : 'article_detail',
+							'click_url' : window.location.href,
+							'page_url' : window.location.href,
+							'published_date' : '2025-09-10 03:37:50',
+							'position' : pos,
+							'text' : window.innerWidth <= 768 ? '目錄' : tocText
+						}
+					});
+					console.log('push');
+				};
+			});
+
+			var tocLinks = this.querySelectorAll("a");
+			tocLinks.forEach(function(link) {
+				link.onclick = function() {
+					var pos = 'article_top';
+					var parentElement = link.parentElement;
+					while (parentElement) {
+						if (parentElement.classList && parentElement.classList.contains('side-component')) {
+							pos = 'article_side';
+							break;
+						}
+						parentElement = parentElement.parentElement;
+					}
+					window.dataLayer = window.dataLayer || [];
+					window.dataLayer.push({
+						ga4: void 0
+					});
+					window.dataLayer.push({
+						'event': 'btnEventTrigger',
+						'ga4' : {
+							'event_name': 'menu_tap',
+							'author' : '黃俊翔',
+							'category' : 'iPhone',
+							'channel' : 'ezone',
+							'content' : { 'id' : '20057123'},
+							'service' : 'article',
+							'screen' : 'article_detail',
+							'click_url' : window.location.href,
+							'page_url' : window.location.href,
+							'published_date' : '2025-09-10 03:37:50',
+							'position' : window.innerWidth <= 768 ? 'article_side' : pos,
+							'text' : link.text
+						}
+					});
+					console.log('push');
+				};
+			});
+		});
+	}
+</script>
+<script>
+
+	window.dataLayer = window.dataLayer || [];
+	/*window.dataLayer.push({
+		'gapageview' : {
+		'dimension11': "黃俊翔",
+		'matomoDimension2' :  "20057123",
+		'page' : '/article/'+"20057123"+'/'+"蘋果發佈會懶人包｜iPhone 17規格價錢全整理！新款Air史上最薄！"+'?ref=scroll',
+		'title' : "蘋果發佈會懶人包｜iPhone 17規格價錢全整理！新款Air史上最薄！ - ezone.hk - iPhone - iPhone - D250910",
+		}
+	});*/
+	
+	var ga4PageViewModel= {
+	'channel': 'ezone',
+	'service': 'article', 
+	'title': " 蘋果發佈會懶人包｜iPhone 17規格價錢全整理！新款Air史上最薄！ - ezone.hk - iPhone - iPhone - D250910",
+	'content': {'id':'20057123','type':'article'},
+	'category': '科技', 'video':{'program':'NA'},
+	'author': '黃俊翔',
+	'taglist':"科技,蘋果發佈會",
+	'publishdate': '2025-09-10 03:37:50',
+	'primary':{'main': '','sub': 'NA'},
+	'pageurl': window.location.href,
+	'pagename':  "蘋果發佈會懶人包｜iPhone 17規格價錢全整理！新款Air史上最薄！ - ezone.hk - iPhone - iPhone - D250910",
+	'screen': 'article_detail'}
+
+
+	/*window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({
+		'ga4' :  ga4PageViewModel
+	});*/
+
+	</script>
+
+
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-KGZHX8');</script>
+	<!-- End Google Tag Manager -->
+	
+	<script type="application/ld+json">
+	{
+	"@context": "http://schema.org",
+	"@type": "NewsArticle",
+	"headline" : "蘋果發佈會懶人包｜iPhone 17規格價錢全整理！新款Air史上最薄！ - ezone.hk - iPhone - iPhone - D250910",
+	"author": 
+			{"@type": "Person", "name": "黃俊翔"}
+,
+	"datePublished": "2025-09-10T03:37:00+0800",
+	"dateModified": "2025-09-10T17:38:00+0800",
+	"isAccessibleForFree": "true",
+	"publisher": {"@type": "Organization", "name": "Ezone", "logo": { "@type": "ImageObject", "url": "https://ezone.hk/images/logo.png" }},
+	"image": {"@type" : "ImageObject", "url" : "https://resource02.ulifestyle.com.hk/ulcms/content/article/ogimage/2025/09/20250910032256_35313e375dfa8960769b33b015db971325f044df.jpg", "width" : 1280, "height" : 720},
+	"thumbnailUrl" : "https://resource02.ulifestyle.com.hk/ulcms/content/article/ogimage/2025/09/20250910032256_35313e375dfa8960769b33b015db971325f044df.jpg",
+	"description": "時間進入 2025 年，iPhone 17 系列終於在Apple 2025 秋季發佈會如期登場，在凌晨1點的蘋果發佈會，Apple正式揭曉新一代 iPhone 17四款新機，分別是 iPhone 17、iPhone 17 Air、iPhone 17 Pro 及 iPhone 17 Pro Max；另外還有主打極致纖薄的 iPhone Air，Apple Watch 迎來突破性健康監測功能，而 AirPods Pro 則加入了即時翻譯功能。錯過Apple發佈會直播？今次帶大家5分鐘看清蘋果發佈會重點，助果迷掌握Apple新品特點、售價、型號、發售日期等！",
+		"keywords": "蘋果發佈會",
+
+	"mainEntityOfPage": {"@type": "WebPage", "@id": "https://ezone.hk/article/20057123/%E8%98%8B%E6%9E%9C%E7%99%BC%E4%BD%88%E6%9C%83%E6%87%B6%E4%BA%BA%E5%8C%85%EF%BD%9CiPhone%2017%E8%A6%8F%E6%A0%BC%E5%83%B9%E9%8C%A2%E5%85%A8%E6%95%B4%E7%90%86%EF%BC%81%E6%96%B0%E6%AC%BEAir%E5%8F%B2%E4%B8%8A%E6%9C%80%E8%96%84%EF%BC%81"}
+	} </script>
+
+			<script type="application/ld+json">
+				{
+					"@context": "https://schema.org",
+					"@type": "FAQPage",
+					"mainEntity": [
+								{
+									"type" : "Question",
+									"name" : "新款iPhone 17系列有哪些新機型？",
+									"acceptedAnswer" : {
+										"@type" : "Answer",
+										"text" : "<p>Apple 2025蘋果發佈會推出iPhone 17 4款新機型，包括 iPhone 17、iPhone 17 Air、iPhone 17 Pro 及 iPhone 17 Pro Max 四款新機，各自有升級及吸引之處。<\/p>"
+									}
+								},
+								{
+									"type" : "Question",
+									"name" : "iPhone 17 Pro Max 相機升級後有什麼新特色？",
+									"acceptedAnswer" : {
+										"@type" : "Answer",
+										"text" : "iPhone 17 Pro Max 採用三顆 48MP Fusion 相機，提供相當於 8 顆鏡頭的焦段，並新增 8 倍光學變焦長焦鏡頭，讓遠距離拍攝更輕鬆。"
+									}
+								},
+								{
+									"type" : "Question",
+									"name" : "iPhone 17 和全新 iPhone 17 Air 有什麼分別？",
+									"acceptedAnswer" : {
+										"@type" : "Answer",
+										"text" : "<ul>\r\n<li>iPhone 17 Air：極致纖薄，更強性能。它是史上最薄的 iPhone，但搭載了與 Pro 型號同級的 A19 Pro 晶片，性能更強。適合追求頂級設計和不在意相機系統（只有單鏡頭廣角）但又想要 Pro 級速度的用戶。<\/li>\r\n<li>iPhone 17：全面均衡。雖然使用 A19 晶片（比 A19 Pro 稍次一級），但擁有更全面的 48MP 雙鏡頭系統（主鏡頭+超廣角），並首次加入了 ProMotion 螢幕。適合大部分追求高性價比、看重攝影功能和日常流暢體驗的用戶。<\/li>\r\n<\/ul>"
+									}
+								},
+								{
+									"type" : "Question",
+									"name" : "我正在使用 iPhone 16 Pro，值得換新iPhone17嗎？",
+									"acceptedAnswer" : {
+										"@type" : "Answer",
+										"text" : "<p>小編認為如果你多使用手機影相，就非常值得換新iPhone 17 Pro。iPhone 17 Pro三顆鏡頭全部升級至 4800 萬像素，加上全新8 倍光學變焦，睇演唱會影相拍片都一流。<\/p>"
+									}
+								},
+								{
+									"type" : "Question",
+									"name" : "AirPods Pro 3 的實時翻譯功能支援廣東話嗎？",
+									"acceptedAnswer" : {
+										"@type" : "Answer",
+										"text" : "<p>首批支援的語言包含英語、法語、德語、葡萄牙語、西班牙語，年底前預計還會加入簡體中文、日語、韓語和義大利語。<\/p>"
+									}
+								},
+								{
+									"type" : "Question",
+									"name" : "Apple Watch 的「高血壓通知」功能可以取代傳統血壓計嗎？",
+									"acceptedAnswer" : {
+										"@type" : "Answer",
+										"text" : "<p>絕對不能。Apple 特別強調，這是一項健康趨勢監測與通知功能，而非醫療診斷設備。它透過長期數據分析，在偵測到可能存在高血壓持續跡象時發出提醒，旨在讓你及早關注健康並諮詢醫生。它不能提供即時的血壓讀數，更不能取代醫生建議的定期血壓測量。<\/p>"
+									}
+								},
+								{
+									"type" : "Question",
+									"name" : "iPhone Air 的「eSIM-only」設計對香港用戶有什麼影響？去旅行怎麼辦？",
+									"acceptedAnswer" : {
+										"@type" : "Answer",
+										"text" : "<p>「eSIM-only」意味著手機沒有實體 SIM 卡插槽。<\/p>\r\n<p>香港使用：你需要聯絡本地電訊商（如 SmarTone, CSL, 3HK 等），將現有的實體 SIM 卡轉換為 eSIM 服務，過程通常很快捷。<\/p>\r\n<p>外遊使用：現在越來越多的旅遊數據卡都提供 eSIM 版本，你可以在出發前上網購買，透過掃描 QR Code 即可安裝，無需再更換實體卡，非常方便。<\/p>"
+									}
+								},
+								{
+									"type" : "Question",
+									"name" : "什麼是「直拍橫相」功能？",
+									"acceptedAnswer" : {
+										"@type" : "Answer",
+										"text" : "<p>這是 iPhone 17 系列前置鏡頭的新功能。當垂直拿著手機自拍時，相機感光元件能捕捉到更廣闊的橫向畫面。即使在狹窄空間，無需將手機橫過來，也能輕鬆拍出橫向構圖的合照，容納更多人或背景。<\/p>"
+									}
+								},
+								{
+									"type" : "Question",
+									"name" : "Apple Watch Series 11 可以兼容舊款錶帶嗎？",
+									"acceptedAnswer" : {
+										"@type" : "Answer",
+										"text" : "<p>可以。 Apple Watch 錶帶接口規格保持高度兼容性。只要尺寸對應（例如 41mm/45mm），原有的錶帶可以完美適配新款 Apple Watch。<\/p>"
+									}
+								},
+								{
+									"type" : "Question",
+									"name" : "想在 9 月 19 日第一時間拿到新 iPhone，有什麼預訂貼士？",
+									"acceptedAnswer" : {
+										"@type" : "Answer",
+										"text" : "<p>根據過往經驗，最快的方式是使用 Apple Store App。建議您在 9 月 12 日晚上 8 時前：<\/p>\r\n<ul>\r\n<li>提前在 App 內將心儀的型號、顏色、容量加入「我的收藏」。<\/li>\r\n<li>確保 Apple ID 已登入，並設定好付款方式（信用卡）和送貨地址。<\/li>\r\n<li>在 8 時正，立即從收藏夾中將商品加入購物車並結帳，爭分奪秒完成交易。<\/li>\r\n<\/ul>"
+									}
+								}
+					]
+				}
+			</script>
+
+	<!-- Handle sticky header hidden the section -->
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			  function scrollToSection(section) {
+			  const targetId = section.getAttribute("href");
+			  const targetElement = document.getElementById(targetId.slice(1));
+			  if (targetElement) {
+			  	targetElement.style.cssText += 'scroll-margin-top:5.2rem';
+			  }
+			}
+
+			// Add click event listener to all links that start with "#mcetoc_"
+			const links = document.querySelectorAll('a[href^="#mcetoc_"]');
+			if (jQuery(window).width() < 768) {
+				links.forEach(link => scrollToSection(link));
+			}
+		});
+	</script>
+	<!-- End of Handle sticky header -->
+
+	<!-- Handle long table -->
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+            let tables = document.querySelectorAll("table.table-seo");
+
+            tables.forEach(function(table) {
+                let div = document.createElement("div");
+                div.classList.add("table-responsive-xl", "responsive-table");
+
+                table.parentNode.insertBefore(div, table);
+                div.appendChild(table);
+            });
+        });
+	</script>
+	<!-- Handle long table -->
+	
+<style>
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.col-lg-3-v2{
+	position: relative;
+    width: 100%;
+	min-height: 1px;
+	padding-left: 15px;
+    padding-right: 15px
+}
+
+
+
+@media (min-width:1000px) {
+	.col-lg-3-v2{
+		flex: 0 0 25%;
+		max-width: 25%;
+		float: left;
+	}
+}
+
+.overlay-text-v2
+{
+	font-size: 34px;
+    text-shadow: 0 0 10px rgba(0,0,0,.4);
+    font-weight: 500;
+}
+
+.disable{
+	display:none;
+
+}
+button.cta>div {
+    border-radius: 25px;
+    padding: 10px 30px;
+    position: relative;
+}
+button.cta>div:before {
+    content: "";
+    position: absolute;
+    border: 2px solid #fff;
+    width: 100%;
+    height: 100%;
+    transition: all .15s ease-out;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 25px;
+}
+
+button.cta>div span.link:after {
+    background: url(/images/arrow-link.svg) center;
+    background-repeat: no-repeat;
+    right: -10px;
+    top: 2px;
+}
+
+button.cta>div span {
+    font-family: "Noto Sans TC","lucida grande",tahoma,verdana,arial,sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 25px;
+    position: relative;
+}
+
+button.cta>div span.ctaIcon:after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+button.cta {
+    min-height: 50px;
+    min-width: 245px;
+    border-radius: 30px;
+    background: linear-gradient(90deg,#f54c53 0,#f77f84 100%);
+    box-shadow: 0 2px 5px 0 rgb(199 56 62 / 30%);
+    padding: 5px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+</style>
+
+
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/icomoon.css"/>
+	
+	<noscript id="deferred-styles">
+      <link rel="stylesheet" type="text/css" href="/css/animate.css"/>
+    </noscript>
+    <noscript id="deferred-styles">
+      <link rel="stylesheet" type="text/css" href="/css/flexslider.css"/>
+    </noscript>
+    <noscript id="deferred-styles">
+      <link rel="stylesheet" type="text/css" href="/css/owl.carousel.min.css"/>
+    </noscript>
+    <noscript id="deferred-styles">
+      <link rel="stylesheet" type="text/css" href="/css/owl.theme.default.min.css"/>
+    </noscript>
+    
+	
+<!-- Begin comScore Tag -->
+<script src="/js/js.cookie.js"></script>
+
+	<meta name="google-site-verification" content="pBS1JMgqKpXQcZ_IJMT_Ok_0FUvCAscU-cjx0ABCdcg" />
+<!-- DFP -->
+<div id="cpageplaceholder" data-cpage="article" data-cpagedetail="detail"></div>
+	<script>
+	function downloadfancybox() {
+		var splashlink = document.createElement( "link" );
+		splashlink.href = "/css/dfp/style.splash.css";
+		splashlink.type = "text/css";
+		splashlink.rel = "stylesheet";
+		splashlink.media = "screen";
+		document.head.appendChild(splashlink);
+		var fancyboxlink = document.createElement( "link" );
+		fancyboxlink.href = "/css/dfp/jquery.fancybox.css";
+		fancyboxlink.type = "text/css";
+		fancyboxlink.rel = "stylesheet";
+		fancyboxlink.media = "screen";
+		document.head.appendChild(fancyboxlink);
+    	var fancyboxmin = document.createElement("script");
+    	fancyboxmin.src = "/js/dfp/jquery.fancybox.min.js";
+    	document.head.appendChild(fancyboxmin);
+    	var facyboxdfp = document.createElement("script");
+    	facyboxdfp.src = "/js/dfp/fancybox-dfp.js";
+    	document.head.appendChild(facyboxdfp);
+    }
+    if (jQuery(window).width() <= 768) {
+    	downloadfancybox();
+    }
+	</script>
+
+<script src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+<script type='text/javascript'>
+
+  window.gptAdSlots = [];
+  
+  var scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+	var adUnitsSizeMap = {
+		"1720": 1720 - scrollbarWidth > 0 ? 1720 - scrollbarWidth : 1,
+		"900": 900 - scrollbarWidth > 0 ? 900 - scrollbarWidth : 1,
+		"768": 768 - scrollbarWidth > 0 ? 768 - scrollbarWidth : 1,
+		"1": 1 - scrollbarWidth > 0 ? 1 - scrollbarWidth : 1
+	};
+  
+
+  googletag.cmd.push(function() {
+	  
+	var fullPageMapping = googletag.sizeMapping()
+	  .addSize([0, 0], [[300, 250],[300, 100],[320, 100],[320, 50]])
+      .addSize([768, 200], [[728, 90]])
+      .addSize([992, 200], [[970, 90],[970, 160],[728, 90]]).build();
+      
+    var fullPageMappingArticleDetail = googletag.sizeMapping()
+	  .addSize([0, 0], [])
+      .addSize([768, 200], [[728, 90]])
+      .addSize([992, 200], [[970, 90],[970, 160],[728, 90]]).build();
+      
+    var pageRightMapping = googletag.sizeMapping()
+      .addSize([0, 0], [[300, 250],[300, 100],[320, 100],[320, 50]])
+      .addSize([992, 200], [[300, 600],[300, 250],[300, 100]]).build();
+      
+     var mobileOnlyMapping = googletag.sizeMapping()
+      .addSize([0, 0], [[300, 250],[300, 100],[320, 100],[320, 50]])
+      .addSize([768, 200], []).build();
+      
+     var hamburgerOnlyMapping = googletag.sizeMapping()
+      .addSize([0, 0], [[300, 250],[300, 100],[320, 100],[320, 50]])
+      .addSize([992, 200], []).build();
+      
+     var pageLeftMapping = googletag.sizeMapping()
+      .addSize([0, 0], [[300, 250],[300, 100],[320, 100],[320, 50]])
+      .addSize([1200, 200], [[728, 90]]).build();
+      
+     var splashMapping = googletag.sizeMapping()
+      .addSize([0, 0], [[320, 480]])
+      .addSize([768, 200], []).build();
+	
+	var flyingCarpetAdMapping = googletag.sizeMapping().addSize([320, 100], [[1, 1], [300, 100], [300, 250], [320, 480]]).build();
+    var flyingCarpetAdDesktopMapping = googletag.sizeMapping().addSize([768, 200], [[300, 250], [320, 480]]).build();
+	
+	
+	//Hamburger Menu
+	//var fixedBanner1HamburgerMenu = googletag.defineSlot('/183518426/ezone2_webrp_detail_lightboxtop', [[320, 50], [320, 100]], 'div-gpt-ad-1489114148559-0').defineSizeMapping(hamburgerOnlyMapping).addService(googletag.pubads());
+	var cPage = $("#cpageplaceholder").attr("data-cpage");
+	var cPageDetail = $("#cpageplaceholder").attr("data-cpagedetail");
+	var webRPRefresh = googletag.defineSlot('/183518426/ezone2_WebRP_Refresh', [1, 1], 'webRPRefresh').addService(googletag.pubads()).setTargeting("article_id", "20057123").setTargeting("section", "").setTargeting("formal_tag", ["科技通訊","網絡通訊","5G","科技通訊","硬件","攝影器材","科技通訊","硬件","移動裝置","科技通訊","軟件","手機Apps","消費","消費種類","科技產品","實體詞","科技硬件","相機","實體詞","服務","App Store","實體詞","產品","iPhone","實體詞","品牌","Apple","實體詞","品牌","Qualcomm","實體詞","IT技術","eSIM","實體詞","產品","AirPods"]);
+	switch (cPage) {
+  		case 'article':
+
+  			//var lightbox = googletag.defineSlot('/183518426/ezone2_webrp_detail_lightboxtop', [320, 50], 'lightboxdfp').addService(googletag.pubads()).setTargeting("article_id", "20057123").setTargeting("section", "").setTargeting("formal_tag", ["科技通訊","網絡通訊","5G","科技通訊","硬件","攝影器材","科技通訊","硬件","移動裝置","科技通訊","軟件","手機Apps","消費","消費種類","科技產品","實體詞","科技硬件","相機","實體詞","服務","App Store","實體詞","產品","iPhone","實體詞","品牌","Apple","實體詞","品牌","Qualcomm","實體詞","IT技術","eSIM","實體詞","產品","AirPods"]);
+			var fixedBanner2Article = googletag.defineSlot('/183518426/ezone2_webrp_detail_fixed02', [[300, 100], [300, 250], [320, 100], [300, 600], [320, 50]], 'div-gpt-ad-1489113900426-1').defineSizeMapping(pageRightMapping).addService(googletag.pubads()).setTargeting("article_id", "20057123").setTargeting("section", "").setTargeting("formal_tag", ["科技通訊","網絡通訊","5G","科技通訊","硬件","攝影器材","科技通訊","硬件","移動裝置","科技通訊","軟件","手機Apps","消費","消費種類","科技產品","實體詞","科技硬件","相機","實體詞","服務","App Store","實體詞","產品","iPhone","實體詞","品牌","Apple","實體詞","品牌","Qualcomm","實體詞","IT技術","eSIM","實體詞","產品","AirPods"]);
+			var fixedBanner5Article = googletag.defineSlot('/183518426/ezone2_webrp_detail_fixed05', [[300, 100], [300, 250], [320, 100], [300, 600], [320, 50]], 'div-gpt-ad-1489113900426-4').defineSizeMapping(pageRightMapping).addService(googletag.pubads()).setTargeting("article_id", "20057123").setTargeting("section", "").setTargeting("formal_tag", ["科技通訊","網絡通訊","5G","科技通訊","硬件","攝影器材","科技通訊","硬件","移動裝置","科技通訊","軟件","手機Apps","消費","消費種類","科技產品","實體詞","科技硬件","相機","實體詞","服務","App Store","實體詞","產品","iPhone","實體詞","品牌","Apple","實體詞","品牌","Qualcomm","實體詞","IT技術","eSIM","實體詞","產品","AirPods"]);
+			var fixedBanner6Article = googletag.defineSlot('/183518426/ezone2_webrp_detail_fixed06', [[300, 100], [300, 250], [320, 100], [300, 600], [320, 50]], 'div-gpt-ad-1489113900426-5').defineSizeMapping(pageRightMapping).addService(googletag.pubads()).setTargeting("article_id", "20057123").setTargeting("section", "").setTargeting("formal_tag", ["科技通訊","網絡通訊","5G","科技通訊","硬件","攝影器材","科技通訊","硬件","移動裝置","科技通訊","軟件","手機Apps","消費","消費種類","科技產品","實體詞","科技硬件","相機","實體詞","服務","App Store","實體詞","產品","iPhone","實體詞","品牌","Apple","實體詞","品牌","Qualcomm","實體詞","IT技術","eSIM","實體詞","產品","AirPods"]);
+			var fixedBanner7Article = googletag.defineSlot('/183518426/ezone2_webrp_detail_fixed07', [[300, 100], [300, 250], [320, 100], [300, 600], [320, 50]], 'div-gpt-ad-1489113900426-6').defineSizeMapping(pageRightMapping).addService(googletag.pubads()).setTargeting("article_id", "20057123").setTargeting("section", "").setTargeting("formal_tag", ["科技通訊","網絡通訊","5G","科技通訊","硬件","攝影器材","科技通訊","硬件","移動裝置","科技通訊","軟件","手機Apps","消費","消費種類","科技產品","實體詞","科技硬件","相機","實體詞","服務","App Store","實體詞","產品","iPhone","實體詞","品牌","Apple","實體詞","品牌","Qualcomm","實體詞","IT技術","eSIM","實體詞","產品","AirPods"]);
+			var fixedBanner8Article = googletag.defineSlot('/183518426/ezone2_webrp_detail_fixed08', [[300, 100], [728, 90], [300, 250], [320, 100], [320, 50], [970, 90], [970, 160]], 'div-gpt-ad-1489113900426-7').defineSizeMapping(pageLeftMapping).addService(googletag.pubads()).setTargeting("article_id", "20057123").setTargeting("section", "").setTargeting("formal_tag", ["科技通訊","網絡通訊","5G","科技通訊","硬件","攝影器材","科技通訊","硬件","移動裝置","科技通訊","軟件","手機Apps","消費","消費種類","科技產品","實體詞","科技硬件","相機","實體詞","服務","App Store","實體詞","產品","iPhone","實體詞","品牌","Apple","實體詞","品牌","Qualcomm","實體詞","IT技術","eSIM","實體詞","產品","AirPods"]);
+			var fixedBannerSkinnerArticle = googletag.defineSlot('/183518426/ezone2_webrp_detail_special', [1, 1], 'div-gpt-ad-1489113900426-8').addService(googletag.pubads()).setTargeting("article_id", "20057123").setTargeting("section", "").setTargeting("formal_tag", ["科技通訊","網絡通訊","5G","科技通訊","硬件","攝影器材","科技通訊","硬件","移動裝置","科技通訊","軟件","手機Apps","消費","消費種類","科技產品","實體詞","科技硬件","相機","實體詞","服務","App Store","實體詞","產品","iPhone","實體詞","品牌","Apple","實體詞","品牌","Qualcomm","實體詞","IT技術","eSIM","實體詞","產品","AirPods"]);
+    		//var webRPRefresh = googletag.defineSlot('/183518426/ezone2_WebRP_Refresh', [1, 1], 'webRPRefresh').addService(googletag.pubads()).setTargeting("article_id", "20057123").setTargeting("section", "").setTargeting("formal_tag", ["科技通訊","網絡通訊","5G","科技通訊","硬件","攝影器材","科技通訊","硬件","移動裝置","科技通訊","軟件","手機Apps","消費","消費種類","科技產品","實體詞","科技硬件","相機","實體詞","服務","App Store","實體詞","產品","iPhone","實體詞","品牌","Apple","實體詞","品牌","Qualcomm","實體詞","IT技術","eSIM","實體詞","產品","AirPods"]);
+
+    		if (jQuery(window).width() >= 768) {
+		    	var flyingCarpetAdDesktop = googletag.defineSlot('/183518426/ezone2_WebRP_Details_DesktopInArticle', [[300, 250],[320, 480]], 'flyingCarpetAdDesktop').defineSizeMapping(flyingCarpetAdDesktopMapping).addService(googletag.pubads()).setTargeting("article_id", "20057123").setTargeting("section", "").setTargeting("formal_tag", ["科技通訊","網絡通訊","5G","科技通訊","硬件","攝影器材","科技通訊","硬件","移動裝置","科技通訊","軟件","手機Apps","消費","消費種類","科技產品","實體詞","科技硬件","相機","實體詞","服務","App Store","實體詞","產品","iPhone","實體詞","品牌","Apple","實體詞","品牌","Qualcomm","實體詞","IT技術","eSIM","實體詞","產品","AirPods"]);
+				window.gptAdSlots.push(flyingCarpetAdDesktop,fixedBanner2Article,fixedBanner5Article, fixedBanner6Article, fixedBanner7Article, fixedBanner8Article, fixedBannerSkinnerArticle);
+			} else {
+			  	var flyingCarpetAd = googletag.defineSlot('/183518426/ezone2_WebRP_Details_MobileInArticle', [[1, 1], [320,480], [300, 100], [300, 250]], 'flyingCarpetAd').defineSizeMapping(flyingCarpetAdMapping).addService(googletag.pubads()).setTargeting("article_id", "20057123").setTargeting("section", "").setTargeting("formal_tag", ["科技通訊","網絡通訊","5G","科技通訊","硬件","攝影器材","科技通訊","硬件","移動裝置","科技通訊","軟件","手機Apps","消費","消費種類","科技產品","實體詞","科技硬件","相機","實體詞","服務","App Store","實體詞","產品","iPhone","實體詞","品牌","Apple","實體詞","品牌","Qualcomm","實體詞","IT技術","eSIM","實體詞","產品","AirPods"]);
+				window.gptAdSlots.push(flyingCarpetAd,fixedBanner2Article,fixedBanner5Article, fixedBanner6Article, fixedBanner7Article, fixedBanner8Article, fixedBannerSkinnerArticle);
+			}
+	    	break;
+	  	case 'index':
+		  	var lightbox = googletag.defineSlot('/183518426/ezone2_webrp_detail_lightboxtop', [320, 50], 'lightboxdfp').addService(googletag.pubads());
+	    	var fixedBanner1Index = googletag.defineSlot('/183518426/ezone2_webrp_homepage_fixed01', [[728, 90], [300, 100], [320, 100], [320, 50], [970, 160], [970, 90], [300, 250]], 'div-gpt-ad-1489113126380-0').defineSizeMapping(fullPageMapping).addService(googletag.pubads());
+	    	var fixedBanner2Index = googletag.defineSlot('/183518426/ezone2_webrp_homepage_fixed02', [[300, 600], [300, 250], [300, 100], [320, 100], [320, 50]], 'div-gpt-ad-1489113126380-1').defineSizeMapping(pageRightMapping).addService(googletag.pubads());
+	    	var fixedBanner3Index = googletag.defineSlot('/183518426/ezone2_webrp_homepage_fixed03', [[728, 90], [300, 100], [320, 100], [320, 50], [970, 160], [970, 90], [300, 250]], 'div-gpt-ad-1489113126380-2').defineSizeMapping(pageLeftMapping).addService(googletag.pubads());
+	    	var fixedBanner4Index = googletag.defineSlot('/183518426/ezone2_webrp_homepage_fixed04', [[728, 90], [300, 100], [320, 100], [320, 50], [970, 160], [970, 90], [300, 250]], 'div-gpt-ad-1489113126380-3').defineSizeMapping(pageLeftMapping).addService(googletag.pubads());
+	    	var fixedBanner5Index = googletag.defineSlot('/183518426/ezone2_webrp_homepage_fixed05', [[300, 600], [300, 250], [300, 100], [320, 100], [320, 50]], 'div-gpt-ad-1489113126380-4').defineSizeMapping(pageRightMapping).addService(googletag.pubads());
+	    	var fixedBanner6Index = googletag.defineSlot('/183518426/ezone2_webrp_homepage_fixed06', [[728, 90], [300, 100], [320, 100], [320, 50], [970, 160], [970, 90], [300, 250]], 'div-gpt-ad-1489113126380-5').defineSizeMapping(pageLeftMapping).addService(googletag.pubads());
+			var fixedBanner7Index = googletag.defineSlot('/183518426/ezone2_webrp_homepage_fixed07', [[728, 90], [300, 100], [320, 100], [320, 50], [970, 160], [970, 90], [300, 250]], 'div-gpt-ad-1489113126380-6').defineSizeMapping(pageLeftMapping).addService(googletag.pubads());
+			var fixedBanner8Index = googletag.defineSlot('/183518426/ezone2_webrp_homepage_fixed08', [[300, 600], [300, 250], [300, 100], [320, 100], [320, 50]], 'div-gpt-ad-1489113126380-7').defineSizeMapping(pageRightMapping).addService(googletag.pubads());
+			var fixedBanner9Index = googletag.defineSlot('/183518426/ezone2_webrp_homepage_fixed09', [[728, 90], [300, 100], [320, 100], [320, 50], [970, 160], [970, 90], [300, 250]], 'div-gpt-ad-1489113126380-8').defineSizeMapping(pageLeftMapping).addService(googletag.pubads());
+			var fixedBanner10Index = googletag.defineSlot('/183518426/ezone2_webrp_homepage_fixed10', [[728, 90], [300, 100], [320, 100], [320, 50], [970, 160], [970, 90], [300, 250]], 'div-gpt-ad-1489113126380-9').defineSizeMapping(pageLeftMapping).addService(googletag.pubads());
+			var fixedBanner11Index = googletag.defineSlot('/183518426/ezone2_webrp_homepage_fixed11', [[300, 600], [300, 250], [300, 100], [320, 100], [320, 50]], 'div-gpt-ad-1489113126380-10').defineSizeMapping(pageRightMapping).addService(googletag.pubads());
+			var fixedBannerSkinnerIndex = googletag.defineSlot('/183518426/ezone2_webrp_homepage_special', [1, 1], 'div-gpt-ad-1489113126380-11').addService(googletag.pubads());
+	    	window.gptAdSlots.push(  fixedBanner1Index, fixedBanner2Index, fixedBanner3Index, fixedBanner4Index, fixedBanner5Index, fixedBanner6Index, fixedBanner7Index, fixedBanner8Index, fixedBanner9Index, fixedBanner10Index, fixedBanner11Index, fixedBannerSkinnerIndex);
+	  		break;
+	  	case 'section':
+		  	var lightbox = googletag.defineSlot('/183518426/ezone2_webrp_detail_lightboxtop', [320, 50], 'lightboxdfp').addService(googletag.pubads());
+			var fixedBanner1Section = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed01', [[970, 90], [300, 250], [320, 50], [970, 160], [320, 100], [300, 100], [728, 90]], 'div-gpt-ad-1489113419924-0').defineSizeMapping(fullPageMapping).addService(googletag.pubads());
+			var fixedBanner2Section = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed02', [[300, 100], [300, 250], [320, 50], [320, 100]], 'div-gpt-ad-1489113419924-1').defineSizeMapping(mobileOnlyMapping).addService(googletag.pubads());
+			var fixedBanner3Section = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed03', [[300, 600], [300, 100], [300, 250], [320, 50], [320, 100]], 'div-gpt-ad-1489113419924-2').defineSizeMapping(pageRightMapping).addService(googletag.pubads());
+			var fixedBanner4Section = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed04', [[970, 90], [300, 250], [320, 50], [970, 160], [320, 100], [300, 100], [728, 90]], 'div-gpt-ad-1489113419924-3').defineSizeMapping(pageLeftMapping).addService(googletag.pubads());
+			var fixedBanner5Section = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed05', [[970, 90], [300, 250], [320, 50], [970, 160], [320, 100], [300, 100], [728, 90]], 'div-gpt-ad-1489113419924-4').defineSizeMapping(pageLeftMapping).addService(googletag.pubads());
+			var fixedBanner6Section = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed06', [[300, 600], [300, 100], [300, 250], [320, 50], [320, 100]], 'div-gpt-ad-1489113419924-5').defineSizeMapping(pageRightMapping).addService(googletag.pubads());
+			var fixedBanner7Section = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed07', [[970, 90], [300, 250], [320, 50], [970, 160], [320, 100], [300, 100], [728, 90]], 'div-gpt-ad-1489113419924-6').defineSizeMapping(pageLeftMapping).addService(googletag.pubads());
+			var fixedBanner8Section = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed08', [[970, 90], [300, 250], [320, 50], [970, 160], [320, 100], [300, 100], [728, 90]], 'div-gpt-ad-1489113419924-7').defineSizeMapping(pageLeftMapping).addService(googletag.pubads());
+			var fixedBanner9Section = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed09', [[300, 600], [300, 100], [300, 250], [320, 50], [320, 100]], 'div-gpt-ad-1489113419924-8').defineSizeMapping(pageRightMapping).addService(googletag.pubads());
+			var fixedBanner10Section = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed10', [[970, 90], [300, 250], [320, 50], [970, 160], [320, 100], [300, 100], [728, 90]], 'div-gpt-ad-1489113419924-9').defineSizeMapping(pageLeftMapping).addService(googletag.pubads());
+			var fixedBanner11Section = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed11', [[300, 600], [300, 100], [300, 250], [320, 50], [320, 100]], 'div-gpt-ad-1489113419924-10').defineSizeMapping(pageRightMapping).addService(googletag.pubads());
+			var fixedBannerSkinnerSection = googletag.defineSlot('/183518426/ezone2_webrp_listing_special', [1, 1], 'div-gpt-ad-1489113419924-11').addService(googletag.pubads());
+	    	window.gptAdSlots.push(fixedBanner1Section, fixedBanner2Section, fixedBanner3Section,fixedBanner4Section, fixedBanner5Section, fixedBanner6Section, fixedBanner7Section, fixedBanner8Section, fixedBanner9Section, fixedBanner10Section, fixedBanner11Section, fixedBannerSkinnerSection);
+	    	break;
+	    case 'search':
+		    var lightbox = googletag.defineSlot('/183518426/ezone2_webrp_detail_lightboxtop', [320, 50], 'lightboxdfp').addService(googletag.pubads());
+			var fixedBanner1Search = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed01', [[300, 100], [300, 250], [728, 90], [320, 100], [970, 90], [320, 50], [970, 160]], 'div-gpt-ad-1489114037879-0').defineSizeMapping(fullPageMapping).addService(googletag.pubads());
+			var fixedBanner2Search = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed02', [[300, 100], [300, 250], [320, 100], [300, 600], [320, 50]], 'div-gpt-ad-1489114037879-1').addService(googletag.pubads());
+			var fixedBanner3Search = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed03', [[300, 100], [300, 250], [728, 90], [320, 100], [970, 90], [320, 50], [970, 160]], 'div-gpt-ad-1489114037879-2').defineSizeMapping(fullPageMapping).addService(googletag.pubads());
+			var fixedBanner4Search = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed04', [[300, 100], [300, 250], [728, 90], [320, 100], [970, 90], [320, 50], [970, 160]], 'div-gpt-ad-1489114037879-3').defineSizeMapping(fullPageMapping).addService(googletag.pubads());
+			var fixedBanner5Search = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed05', [[300, 100], [300, 250], [320, 100], [300, 600], [320, 50]], 'div-gpt-ad-1489114037879-4').addService(googletag.pubads());
+			var fixedBanner6Search = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed06', [[300, 100], [300, 250], [728, 90], [320, 100], [970, 90], [320, 50], [970, 160]], 'div-gpt-ad-1489114037879-5').defineSizeMapping(fullPageMapping).addService(googletag.pubads());
+			var fixedBanner7Search = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed07', [[300, 100], [300, 250], [728, 90], [320, 100], [970, 90], [320, 50], [970, 160]], 'div-gpt-ad-1489114037879-6').defineSizeMapping(fullPageMapping).addService(googletag.pubads());
+			var fixedBanner8Search = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed08', [[300, 100], [300, 250], [320, 100], [300, 600], [320, 50]], 'div-gpt-ad-1489114037879-7').addService(googletag.pubads());
+			var fixedBanner9Search = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed09', [[300, 100], [300, 250], [728, 90], [320, 100], [970, 90], [320, 50], [970, 160]], 'div-gpt-ad-1489114037879-8').defineSizeMapping(fullPageMapping).addService(googletag.pubads());
+			var fixedBanner10Search = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed10', [[300, 100], [300, 250], [320, 100], [300, 600], [320, 50]], 'div-gpt-ad-1489114037879-9').addService(googletag.pubads());
+			var fixedBannerSkinnerSearch = googletag.defineSlot('/183518426/ezone2_webrp_listing_special', [1, 1], 'div-gpt-ad-1489114037879-10').addService(googletag.pubads());
+	    	window.gptAdSlots.push(fixedBanner1Search,fixedBanner2Search, fixedBanner3Search, fixedBanner4Search, fixedBanner5Search, fixedBanner6Search,fixedBanner7Search, fixedBanner8Search, fixedBanner9Search, fixedBanner10Search, fixedBannerSkinnerSearch);
+	    	break;
+	    case 'columnist':
+		    var lightbox = googletag.defineSlot('/183518426/ezone2_webrp_detail_lightboxtop', [320, 50], 'lightboxdfp').addService(googletag.pubads());
+			var fixedBanner1ColumnistDetails = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed01', [[300, 100], [728, 90], [320, 100], [300, 250], [320, 50], [970, 90], [970, 160]], 'div-gpt-ad-1489113829469-0').defineSizeMapping(fullPageMapping).addService(googletag.pubads());
+			var fixedBanner2ColumnistDetails = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed02', [[300, 100], [320, 100], [300, 250], [320, 50]], 'div-gpt-ad-1489113829469-1').defineSizeMapping(mobileOnlyMapping).addService(googletag.pubads());
+			var fixedBanner3ColumnistDetails = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed03', [[300, 100], [320, 100], [300, 250], [300, 600], [320, 50]], 'div-gpt-ad-1489113829469-2').defineSizeMapping(pageRightMapping).addService(googletag.pubads());
+			var fixedBanner4ColumnistDetails = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed04', [[300, 100], [728, 90], [320, 100], [300, 250], [320, 50], [970, 90], [970, 160]], 'div-gpt-ad-1489113829469-3').defineSizeMapping(pageLeftMapping).addService(googletag.pubads());
+			var fixedBanner5ColumnistDetails = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed05', [[300, 100], [728, 90], [320, 100], [300, 250], [320, 50], [970, 90], [970, 160]], 'div-gpt-ad-1489113829469-4').defineSizeMapping(pageLeftMapping).addService(googletag.pubads());
+			var fixedBanner6ColumnistDetails = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed06', [[300, 100], [728, 90], [320, 100], [300, 250], [320, 50], [970, 90], [970, 160]], 'div-gpt-ad-1489113829469-5').defineSizeMapping(pageLeftMapping).addService(googletag.pubads());
+			var fixedBanner7ColumnistDetails = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed07', [[300, 100], [728, 90], [320, 100], [300, 250], [320, 50], [970, 90], [970, 160]], 'div-gpt-ad-1489113829469-6').defineSizeMapping(pageLeftMapping).addService(googletag.pubads());
+			var fixedBanner8ColumnistDetails = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed08', [[300, 100], [320, 100], [300, 250], [300, 600], [320, 50]], 'div-gpt-ad-1489113829469-7').defineSizeMapping(pageRightMapping).addService(googletag.pubads());
+			var fixedBanner9ColumnistDetails = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed09', [[300, 100], [320, 100], [300, 250], [300, 600], [320, 50]], 'div-gpt-ad-1489113829469-8').defineSizeMapping(pageRightMapping).addService(googletag.pubads());
+			var fixedBanner10ColumnistDetails = googletag.defineSlot('/183518426/ezone2_webrp_listing_fixed10', [[300, 100], [320, 100], [300, 250], [300, 600], [320, 50]], 'div-gpt-ad-1489113829469-9').defineSizeMapping(pageRightMapping).addService(googletag.pubads());
+			var fixedBannerSkinnerColumnistDetails = googletag.defineSlot('/183518426/ezone2_webrp_listing_special', [1, 1], 'div-gpt-ad-1489113829469-10').addService(googletag.pubads());
+	    	window.gptAdSlots.push(fixedBanner1ColumnistDetails, fixedBanner2ColumnistDetails, fixedBanner3ColumnistDetails, fixedBanner4ColumnistDetails,fixedBanner5ColumnistDetails, fixedBanner6ColumnistDetails, fixedBanner7ColumnistDetails, fixedBanner8ColumnistDetails,fixedBanner9ColumnistDetails, fixedBanner10ColumnistDetails, fixedBannerSkinnerColumnistDetails);
+	    	break;
+	  	default:
+	}
+
+    //var splash = googletag.defineSlot('/183518426/Test_EZ_Splash', [320, 480], 'div-gpt-ad-1498104784941-0').defineSizeMapping(splashMapping).addService(googletag.pubads());
+
+    googletag.pubads().enableSingleRequest();
+	// googletag.pubads().enableLazyLoad({
+	//   fetchMarginPercent: 500,
+	//   renderMarginPercent: 200,
+	//   mobileScaling: 2.0,
+	// });
+    googletag.pubads().collapseEmptyDivs();
+    //googletag.pubads().enableSyncRendering();
+    /*
+    googletag.pubads().addEventListener('slotRenderEnded', function(event) {
+ 		console.log('Creative with id: ' + event.creativeId +
+  		' is rendered to slot of size: ' + event.size[0] + 'x' + event.size[1] + ' advertiserId: ' + event.advertiserId +
+  		' campaignId: ' + event.campaignId + ' slot: ' + event.slot + ' sourceAgnosticCreativeId: ' + event.sourceAgnosticCreativeId  + 
+  		' sourceAgnosticLineItemId: ' + event.sourceAgnosticLineItemId + ' isEmpty: ' + event.isEmpty);
+  		});
+  	*/
+    googletag.enableServices();
+
+    if (jQuery(window).width() <= 768) {
+	switch (cPage) {
+  		case 'article':
+  			var fixedBannerArticleSplash = googletag.pubads().defineOutOfPagePassback('/183518426/ezone2_webrp_detail_splash', 'div-gpt-ad-1494474039564-0').display();
+	    	break;
+	  	case 'index':
+	  		var fixedBannerIndexSplash =  googletag.pubads().defineOutOfPagePassback('/183518426/ezone2_webrp_homepage_splash', 'div-gpt-ad-1500886183764-0').display();
+	  		break;
+	  	case 'section':
+	  		var fixedBannerSectionSplash = googletag.pubads().defineOutOfPagePassback('/183518426/ezone2_webrp_listing_splash', 'div-gpt-ad-1494473862347-0').display();
+	    	break;
+	  	default:
+	}
+
+    }
+    
+  });
+  
+  
+  var delay = function(fn, wait, immediate){
+    if(window.timeout) return;
+    var later = function(){
+      if(typeof fn === 'function') fn();
+        clearTimeout(window.timeout); window.timeout = null;
+    };
+    if (!window.timeout) {
+      window.timeout = setTimeout(later, wait);
+    }
+  }
+    
+  function winSize(){
+    if (jQuery(window).width() >= 1200) {
+      return 'desktop';
+    }
+    else if (jQuery(window).width() >= 925) {
+    	return 'desktop2';
+    }
+    else if (jQuery(window).width() >= 768) {
+    	return 'tablet';
+    } else {
+      return 'mobile';
+    }
+  }
+
+$(document).ready(function () {
+
+  	setUpSectionFirstAd();
+   	var windowWidth = $(window).width();
+	var size = winSize();
+	
+    // Resize Event
+    $(window).resize(function(){
+
+        // Check window width has actually changed and it's not just iOS triggering a resize event on scroll
+        if ($(window).width() != windowWidth) {
+
+            // Update the window width for next time
+            windowWidth = $(window).width();
+
+            // Do stuff here
+            delay(function(){
+      			setUpSectionFirstAd();		
+      			for(i=0;i<window.gptAdSlots.length;i++){
+						googletag.pubads().refresh([window.gptAdSlots[i]]);
+					}
+      			if(window.articleGptAdSlots!=null && window.articleGptAdSlots.length>0){
+					for(i=0;i<window.articleGptAdSlots.length;i++){
+						googletag.pubads().refresh([window.articleGptAdSlots[i]]);
+					}
+      			}			
+    			}, 500);
+
+        }
+
+        // Otherwise do nothing
+
+    });
+});
+
+function setUpSectionFirstAd(){
+	var size = winSize();
+	if(size != 'desktop'){
+      	$("#firstAdSection").css('display','block');
+      }else{
+      	$("#firstAdSection").css('display','none');
+      }
+}
+
+</script>
+<!-- DFP End -->
+<script>
+    var cPage = $("#cpageplaceholder").attr("data-cpage");
+    var ga4SearchModel = {
+        pageurl: window.location.href,
+        screen: cPage=="index"?'Homepage':cPage+'_detail'
+    };
+    var ga4WebNotiButtonModel = {
+        screen: "artilce_detail",
+        pageurl: window.location.href
+    };
+    var ga4BannerTapButtonModel = {
+        screen: cPage=="index"?'Homepage':cPage+'_detail',
+        position: "floating_button",
+        service: 'article',
+    };
+    var ga4MenuBarTapButtonModel = {
+        pageurl: window.location.href,
+		screen: cPage=="index"?'Homepage':cPage+'_detail'
+    }
+    var ga4SliderTapButtonModel  = {
+		position: 'top_slider'
+    }
+    </script>	<script>
+		window.dataLayer = window.dataLayer || [];
+		window.dataLayer.push({
+			'gatrackingid': 'UA-45611067-1',
+			'matomositeid': '5',
+			'matomo' : {
+				'channelCode' : '504'
+			}
+		});
+	</script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		if (typeof ga4PageViewModel !== 'undefined') {
+			window.dataLayer.push({
+				//'event' : 'ultriggerpageview',
+				'ga4' :  ga4PageViewModel
+			});
+		} else {
+			/*window.dataLayer.push({
+				'event' : 'ultriggerpageview',
+				'ga4' :  {
+					'pageview_event_name': 'page_view',
+					'service': 'listing',
+					'pageurl': window.location.href
+				}
+			});*/
+		}
+	</script>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-KGZHX8');</script>
+	<!-- End Google Tag Manager -->
+
+	<script>
+		if ("null" != 'null') {
+            window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push({
+                'ga4' : {'utm' : 'null'}
+            });
+        }
+	</script>
+</head>
+<body>
+	<!-- Facebook Pixel Code -->
+	<script>
+	  !function(f,b,e,v,n,t,s)
+	  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+	  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+	  n.queue=[];t=b.createElement(e);t.async=!0;
+	  t.src=v;s=b.getElementsByTagName(e)[0];
+	  s.parentNode.insertBefore(t,s)}(window, document,'script',
+	  'https://connect.facebook.net/en_US/fbevents.js');
+	  fbq('init', '718681868746187');
+	  fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+	  src="https://www.facebook.com/tr?id=718681868746187&ev=PageView&noscript=1"
+	/></noscript>
+	<!-- End Facebook Pixel Code -->
+
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KGZHX8"
+	 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	<script>
+		function getCookie(key) {
+			var ck = document.cookie.split(';');
+			for (var i = 0; i < ck.length; i++) {
+				var item = ck[i].replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g, '');
+				if ((new RegExp('^' + key + '=')).test(item)) {
+					return item.replace(/^[^=]+=/, '');
+				}
+			}
+			return undefined;
+		}
+		var audience = getCookie('hket_tm');
+		if (audience != null) {
+			var audienceValueArray = audience.split(',');
+			if(audienceValueArray.length >1){
+				audienceValueArray.shift();
+				googletag.cmd.push(function() {
+					googletag.pubads().setTargeting("audience", audienceValueArray);
+				});
+			}
+		}
+	</script>
+	
+<div id="fb-root"></div>
+    <script>
+    
+    	var page_like_callback = function(url, html_element) {
+  			if(url=="https://www.facebook.com/ezoneclub"){
+  				//ga('send', 'event', 'Facebook_like', 'Click', 'like');
+  				window.dataLayer = window.dataLayer || [];
+                window.dataLayer.push({
+                        'event': 'uleventtrigger',
+                        'ul': {
+                                'event':{
+                                        'category': 'Facebook_like',
+                                        'action': 'Click',
+                                        'label': 'like'
+                                }       
+                        }
+                });
+  			}
+		}
+		var page_unlike_callback = function(url, html_element) {
+  			if(url=="https://www.facebook.com/ezoneclub"){
+  				//ga('send', 'event', 'Facebook_like', 'Click', 'unlike');
+  				window.dataLayer = window.dataLayer || [];
+                window.dataLayer.push({
+                        'event': 'uleventtrigger',
+                        'ul': {
+                                'event':{
+                                        'category': 'Facebook_like',
+                                        'action': 'Click',
+                                        'label': 'unlike'
+                                }       
+                        }
+                });
+
+  			}
+		}
+    
+    	window.fbAsyncInit = function() {
+    		FB.init({
+      			appId      : '134643510061773',
+      			xfbml      : true,
+     			version    : 'v2.9'
+    		});
+    		FB.AppEvents.logPageView();
+    		FB.Event.subscribe('edge.create', page_like_callback);
+			FB.Event.subscribe('edge.remove', page_unlike_callback);		
+  		};
+    
+        (function(d, s, id){
+     		var js, fjs = d.getElementsByTagName(s)[0];
+     		if (d.getElementById(id)) {return;}
+     		js = d.createElement(s); js.id = id;
+     		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=134643510061773";
+     		fjs.parentNode.insertBefore(js, fjs);
+   		}(document, 'script', 'facebook-jssdk'));
+
+    </script>
+    
+    <div id="ezone-page">
+    
+
+<header id="ezone-header" role="banner">
+            <div class="container">
+                <div class="header-inner">
+                    <p><a href="/"><img src="/images/logo2.png"></a></p>
+<!--                     
+                    <div class="facebooklikebtn"> Follow Us &nbsp;
+                        <div class="fb-like" data-href=" https://www.facebook.com/ePlay.ezone" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+                    </div>
+                     -->
+                    <nav role="navigation">
+                    	<a href="/">
+                            <div class="off-canvas-logo"></div>
+                        </a>
+                        
+                        <div id="off-canvas-search" class="visible-xs visbile-sm">
+                            <form name="searchForm" id="searchForm" action="/search" method="GET">
+            					<input type="hidden" name="dis" value="advanced">
+                				<input type="search" name="keywords" id="keywordsField" placeholder="請輸入關鍵字" />         	
+                				<button type="submit" class="btn btn-primary" onClick="return searchCheck('keywordsField');sendGa4ButtonEventWithCustomParam(ga4SearchModel,'search',{});">搜尋</button> 
+            				</form>      			
+                        </div>
+                       
+                        <ul class="nav-shortcut visible-xs visible-sm">
+                            <li>
+                                <a href="https://www.facebook.com/ezoneclub" onclick="sendGa4ButtonEventWithCustomParam({},'social_follow',{position:'hamburger_menu',pageurl: window.location.href,function : 'facebook_follow',outbound:this.href})"><img src="/images/icons-02w.png">Facebook</a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/ezone.hk/" onclick="sendGa4ButtonEventWithCustomParam({},'social_follow',{position:'hamburger_menu',pageurl: window.location.href,function : 'instagram_follow',outbound:this.href})"><img src="/images/icons-03w.png">Instagram</a>
+                            </li>
+                        </ul>
+ 						
+                    		<div id='div-gpt-ad-1489114148559-0' class="center-block">
+                    			<script>
+                        			googletag.cmd.push(function() { googletag.display('div-gpt-ad-1489114148559-0'); });
+                    			</script>
+                			</div>
+            			
+                        <ul class="nav-main">
+                        	<li class="dropdown "> <a href="/srae001/科技焦點" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'科技焦點'});">科技焦點</a> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="caret"></span></a>
+                                <ul class="dropdown-menu navmenu-nav" role="menu">
+                                    <li><a href="/srae002/iPhone" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'iPhone'});">iPhone</a></li>
+                                    <li><a href="/srae003/電腦" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'電腦'});">電腦</a></li>
+                                    <li><a href="/srae004/智能家居" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'智能家居'});">智能家居</a></li>
+                                    <li><a href="/srae005/5G流動" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'5G流動'});">5G流動</a></li>
+                                    <li><a href="/srae006/數碼" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'數碼'});">數碼</a></li>
+                                    <li><a href="/srae007/科技" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'科技'});">科技</a></li>
+                                    <li><a href="/srae028/汽車" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'汽車'});">汽車</a></li>
+                                    <li><a href="/srae029/人工智能" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'人工智能'});">人工智能</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown "> <a href="/srae008/網絡生活" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'網絡生活'});">網絡生活</a> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+                                <ul class="dropdown-menu navmenu-nav" role="menu">
+                                    <li><a href="/srae009/網絡熱話" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'網絡熱話'});">網絡熱話</a></li>
+                                    <li><a href="/srae010/筍買情報" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'筍買情報'});">筍買情報</a></li>
+                                    <li><a href="/srae011/生活情報" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'生活情報'});">生活情報</a></li>
+                                    <li><a href="/srae012/旅遊筍料" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'旅遊筍料'});">旅遊筍料</a></li>
+                                     <li><a href="/srae027/熱門話題" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'熱門話題'});">熱門話題</a></li>
+                                </ul>
+                            </li>
+                            
+                            <li class="dropdown "> <a href="/srae013/遊戲動漫" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'遊戲動漫'});">遊戲動漫</a> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+                                <ul class="dropdown-menu navmenu-nav" role="menu">
+                                    <li><a href="/srae014/熱門遊戲" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'熱門遊戲'});">熱門遊戲</a></li>
+                                    <li><a href="/srae015/電競裝備" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'電競裝備'});">電競裝備</a></li>
+                                    <li><a href="/srae016/動漫玩具" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'動漫玩具'});">動漫玩具</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown "> <a href="/srae017/教學評測" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'教學評測'});">教學評測</a> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+                                <ul class="dropdown-menu navmenu-nav" role="menu">
+                                    <li><a href="/srae018/應用秘技" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'應用秘技'});">應用秘技</a></li>
+                                    <li><a href="/srae019/新品測試" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'新品測試'});">新品測試</a></li>
+                                    <li><a href="/srae020/Apps-情報" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'Apps 情報'});">Apps 情報</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown "> <a href="/srae030/EduTech" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'EduTech'});">EduTech</a> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+                                <ul class="dropdown-menu navmenu-nav" role="menu">
+                                    <li><a href="/srae033/EduTech-Today" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'EduTech Today'});">EduTech Today</a></li>
+                                    <li><a href="/srae031/EduTech-Pro" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'EduTech Pro'});">EduTech Pro</a></li>
+                                    <li><a href="/srae032/EduTech@School" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'EduTech@School'});">EduTech@School</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown "> <a href="/srae021/IT-Times" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'IT Times'});">IT Times</a> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+                                <ul class="dropdown-menu navmenu-nav" role="menu">
+                                    <li><a href="/srae022/業界頭條" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'業界頭條'});">業界頭條</a></li>
+                                    <li><a href="/srae023/AI-策略" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'AI 策略'});">AI 策略</a></li>
+                                    <li><a href="/srae024/名家專欄" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'名家專欄'});">名家專欄</a></li>
+                                </ul>
+                            </li>
+                             <!--<li class=""><a href="/srae025/活動獎賞" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'活動獎賞'});">活動獎賞</a></li>-->
+                            <li class=""><a href="/srae034/生成式AI與雲端應用" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'生成式AI與雲端應用'});">生成式AI與雲端應用</a></li>
+                            <li class=""><a href="/srae026/特集" onClick="sendGa4ButtonEventWithCustomParam(ga4MenuBarTapButtonModel,'menu_bar_tap',{text:'特集'});">特集</a></li>
+                            
+                            <!--						<li class="cta"><a href="#">Get started</a></li>-->
+                            <li class="search">
+                                <a href="#search" onClick="sendGa4ButtonEventWithCustomParam(ga4SearchModel,'search',{});"><img src="/images/icon-search.png"></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <script>
+        	$('#onesignal-slidedown-allow-button').click(function(){
+				sendGa4ButtonEvent('web_noti_subscrible',ga4WebNotiButtonModel);
+			})
+        </script>
+     
+       <div id="search">
+            <button type="button" class="close">×</button>
+            	<form name="searchForm" id="searchForm" action="/search" method="GET">
+            		<input type="hidden" name="dis" value="advanced">
+                	<input type="search" name="keywords"  id="keywordsField2" placeholder="請輸入關鍵字" />         	
+                	<button type="submit" class="btn btn-primary" onClick="return searchCheck('keywordsField2')">搜尋</button> 
+            	</form>
+        </div>
+
+        
+ <div id='div-gpt-ad-1489113900426-8' class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+	<script>
+		googletag.cmd.push(function() {googletag.display('div-gpt-ad-1489113900426-8'); });
+ 	</script>
+</div>
+ <!-- /183518426/ezone2_webrp_detail_splash -->
+<div id='div-gpt-ad-1494474039564-0'>
+	<script>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1494474039564-0'); });
+	</script>
+</div>      
+
+<div class="v-photo-swiper">
+		<div class="pswp-dfp-wrapper">
+			<div class="lightboxdfpadbox" id="lightboxdfp">
+				<script>
+	                googletag.cmd.push(function() { googletag.display('lightboxdfp'); });
+	        	</script>
+        	</div>
+		</div>
+		<div class="pswp-wrapper">
+			<!-- Root element of PhotoSwipe. Must have class pswp. -->
+			<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+				<!-- Background of PhotoSwipe. 
+				It's a separate element as animating opacity is faster than rgba(). -->
+				<div class="pswp__bg"></div>
+				<!-- Slides wrapper with overflow:hidden. -->
+				<div class="pswp__scroll-wrap">
+				<!-- Container that holds slides. 
+				PhotoSwipe keeps only 3 of them in the DOM to save memory.
+				Don't modify these 3 pswp__item elements, data is added later on. -->
+					<div class="pswp__container">
+						<div class="pswp__item"></div>
+						<div class="pswp__item"></div>
+						<div class="pswp__item"></div>
+					</div>
+		
+					<!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+					<div class="pswp__ui pswp__ui--hidden">
+						<div class="pswp__top-bar">
+							<!--  Controls are self-explanatory. Order can be changed. -->
+							<div class="pswp__counter"></div>
+							<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+							<button class="pswp__button pswp__button--share" title="Share"></button>
+							<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+							<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+							<!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+							<!-- element will get class pswp__preloader--active when preloader is running -->
+							<div class="pswp__preloader">
+								<div class="pswp__preloader__icn">
+									<div class="pswp__preloader__cut">
+										<div class="pswp__preloader__donut"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+							<div class="pswp__share-tooltip"></div>
+						</div>
+						<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+						</button>
+						<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+						</button>
+						<div class="pswp__caption">
+						<div class="pswp__caption__center"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+
+
+
+
+
+        <div class="ezone-post">
+            <div class="container">
+                <div class="row">
+                    
+                    	<div id='div-gpt-ad-1489113900426-0' class="col-md-12 text-center center-block" style="margin-bottom:20px;padding:0;">
+                    		<script>
+                        		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1489113900426-0'); });
+                    		</script>
+                		</div>
+                	
+                </div>
+                <div class="row">
+                    <div class="col-md-8 animate-box">
+					
+						<div id="infinite-container" class="infinite-container">
+          				<div class="infinite-item">         	
+                        <div class="article" data-docId="20057123" data-headline="蘋果發佈會懶人包｜iPhone 17規格價錢全整理！新款Air史上最薄！" data-seourltitle=" iphone17-重點規格-效能-顏色-外觀-型號-屏幕尺寸預告 " data-metatitle="時間進入 2025 年，iPhone 17 系列終於在Apple 2025 秋季發佈會如期登場，在凌晨1點的蘋果發佈會，Apple正式揭曉新一代 iPhone 17四款新機，分別是 iPhone 17、iPhone 17 Air、iPhone 17 Pro 及 iPhone 17 Pro Max；另外還有主打極致纖薄的 iPhone Air，Apple Watch 迎來突破性健康監測功能，而 AirPods Pro 則加入了即時翻譯功能。錯過Apple發佈會直播？今次帶大家5分鐘看清蘋果發佈會重點，助果迷掌握Apple新品特點、售價、型號、發售日期等！"
+                        					 data-sectionname="" data-subsectionname=""
+							 				 data-author="黃俊翔"
+ 											 data-matomochannelcode="6"
+											 data-formaltag="[&quot;科技通訊&quot;,&quot;網絡通訊&quot;,&quot;5G&quot;,&quot;科技通訊&quot;,&quot;硬件&quot;,&quot;攝影器材&quot;,&quot;科技通訊&quot;,&quot;硬件&quot;,&quot;移動裝置&quot;,&quot;科技通訊&quot;,&quot;軟件&quot;,&quot;手機Apps&quot;,&quot;消費&quot;,&quot;消費種類&quot;,&quot;科技產品&quot;,&quot;實體詞&quot;,&quot;科技硬件&quot;,&quot;相機&quot;,&quot;實體詞&quot;,&quot;服務&quot;,&quot;App Store&quot;,&quot;實體詞&quot;,&quot;產品&quot;,&quot;iPhone&quot;,&quot;實體詞&quot;,&quot;品牌&quot;,&quot;Apple&quot;,&quot;實體詞&quot;,&quot;品牌&quot;,&quot;Qualcomm&quot;,&quot;實體詞&quot;,&quot;IT技術&quot;,&quot;eSIM&quot;,&quot;實體詞&quot;,&quot;產品&quot;,&quot;AirPods&quot;]"
+                        					 data-keywords=""
+                        					 data-publishdate="10-09-2025 03:37"
+                        					 data-tags="科技,蘋果發佈會">
+                            <div class="col-md-12  text-center ezone-heading">
+                                <h1>蘋果發佈會懶人包｜iPhone 17規格價錢全整理！新款Air史上最薄！</h1>
+                                <h5 class="date"><span class="icon icon-tag icon-blue"> </span>
+                                  | <span>
+                                			黃俊翔
+                                	</span>
+                                 | <span id="publishDate">10-09-2025 03:37</span> | <a class="icon icon-search-plus"></a> <a class="icon icon-search-minus"></a> <!--| <span class="facebooklike">-->
+		<!--<iframe src="http://www.facebook.com/plugins/like.php?href=https%3A//ezone.hk/article/20057123/%E8%98%8B%E6%9E%9C%E7%99%BC%E4%BD%88%E6%9C%83%E6%87%B6%E4%BA%BA%E5%8C%85%EF%BD%9CiPhone%2017%E8%A6%8F%E6%A0%BC%E5%83%B9%E9%8C%A2%E5%85%A8%E6%95%B4%E7%90%86%EF%BC%81%E6%96%B0%E6%AC%BEAir%E5%8F%B2%E4%B8%8A%E6%9C%80%E8%96%84%EF%BC%81;layout=button_count&amp;show_faces=false&amp;width=90&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=20" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:20px;" allowTransparency="true"></iframe>-->
+			<!--<div class="fb-share-button"
+			data-href="https://ezone.hk/article/20057123"
+			data-layout="button_count">
+			</div>-->
+			<!--<div class="fb-like" data-href="https://ezone.hk/article/20057123" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>-->
+
+		
+		</span> 
+        
+                     </div>
+                            <div class="content page-left" style="word-wrap: break-word;">
+									<figure><a class="photoSwipeGallery20057123" data-href="https://resource02.ulifestyle.com.hk/ulcms/content/article/thumbnail/1280x720/2025/09/20250910032256_35313e375dfa8960769b33b015db971325f044df.jpg" data-photoindex="0" onclick="showPhotoSwipe($(this));return false;" ><picture><source srcset=https://resource02.ulifestyle.com.hk/ulcms/content/article/thumbnail/1280x720/2025/09/20250910032256_35313e375dfa8960769b33b015db971325f044df.webp type="image/webp"><img alt="蘋果發佈會懶人包｜iPhone 17規格價錢全整理！新款Air史上最薄！" src="https://resource02.ulifestyle.com.hk/ulcms/content/article/thumbnail/1280x720/2025/09/20250910032256_35313e375dfa8960769b33b015db971325f044df.jpg" data-src="https://resource02.ulifestyle.com.hk/ulcms/content/article/thumbnail/1280x720/2025/09/20250910032256_35313e375dfa8960769b33b015db971325f044df.jpg" class="img-responsive" style="margin-left:auto;margin-right:auto;"></picture></a></figure>
+          						<script>
+          						googletag.cmd.push(function() {
+          							var fullPageMappingArticleDetail = googletag.sizeMapping()
+	 	 									.addSize([0, 0], [[320, 50], [320, 100]])
+      										.addSize([768, 200], [[728, 90],[320, 50]])
+      										.addSize([992, 200], [[970, 90],[970, 160],[728, 90],[320, 50], [970, 250]]).build();
+      								var pageLeftMapping = googletag.sizeMapping()
+      										.addSize([0, 0], [[300, 250],[300, 100],[320, 100],[320, 50]])
+      										.addSize([1200, 200], [[728, 90]]).build();
+      								var fixedBanner1Article = googletag.defineSlot('/183518426/ezone2_webrp_detail_fixed01', [[728, 90], [970, 90], [970, 160], [320, 50], [320, 100], [970, 250]], 'div-gpt-ad-1489113900426-0').defineSizeMapping(fullPageMappingArticleDetail).addService(googletag.pubads()).setTargeting("article_id", "20057123").setTargeting("section", "").setTargeting("formal_tag", ["科技通訊","網絡通訊","5G","科技通訊","硬件","攝影器材","科技通訊","硬件","移動裝置","科技通訊","軟件","手機Apps","消費","消費種類","科技產品","實體詞","科技硬件","相機","實體詞","服務","App Store","實體詞","產品","iPhone","實體詞","品牌","Apple","實體詞","品牌","Qualcomm","實體詞","IT技術","eSIM","實體詞","產品","AirPods"]);
+      								var fixedBanner3Article = googletag.defineSlot('/183518426/ezone2_webrp_detail_fixed03', [[300, 100], [728, 90], [300, 250], [320, 100], [320, 50], [970, 90], [970, 160]], 'div-gpt-ad-1489113900426-2').defineSizeMapping(pageLeftMapping).addService(googletag.pubads()).setTargeting("article_id", "20057123").setTargeting("section", "").setTargeting("formal_tag", ["科技通訊","網絡通訊","5G","科技通訊","硬件","攝影器材","科技通訊","硬件","移動裝置","科技通訊","軟件","手機Apps","消費","消費種類","科技產品","實體詞","科技硬件","相機","實體詞","服務","App Store","實體詞","產品","iPhone","實體詞","品牌","Apple","實體詞","品牌","Qualcomm","實體詞","IT技術","eSIM","實體詞","產品","AirPods"]);
+									var fixedBanner4Article = googletag.defineSlot('/183518426/ezone2_webrp_detail_fixed04', [[300, 100], [728, 90], [300, 250], [320, 100], [320, 50], [970, 90], [970, 160]], 'div-gpt-ad-1489113900426-3').defineSizeMapping(pageLeftMapping).addService(googletag.pubads()).setTargeting("article_id", "20057123").setTargeting("section", "").setTargeting("formal_tag", ["科技通訊","網絡通訊","5G","科技通訊","硬件","攝影器材","科技通訊","硬件","移動裝置","科技通訊","軟件","手機Apps","消費","消費種類","科技產品","實體詞","科技硬件","相機","實體詞","服務","App Store","實體詞","產品","iPhone","實體詞","品牌","Apple","實體詞","品牌","Qualcomm","實體詞","IT技術","eSIM","實體詞","產品","AirPods"]);
+									window.gptAdSlots.push(fixedBanner1Article);
+    								window.gptAdSlots.push(fixedBanner3Article);
+  									window.gptAdSlots.push(fixedBanner4Article);									
+  								});
+          						</script>
+          							<div>
+										<div id='div-gpt-ad-1489113900426-2' class="col-md-12 text-center center-block" style="margin-bottom:20px;padding:0;">
+											<script>
+												googletag.cmd.push(function() { googletag.display('div-gpt-ad-1489113900426-2'); });
+											</script>
+										</div>
+									</div>
+									<p>時間進入 2025 年，iPhone 17 系列終於在Apple 2025 秋季發佈會如期登場，在凌晨1點的蘋果發佈會，Apple正式揭曉新一代 iPhone 17四款新機，分別是 iPhone 17、iPhone 17 Air、iPhone 17 Pro 及 iPhone 17 Pro Max；另外還有主打極致纖薄的 iPhone Air，Apple Watch 迎來突破性健康監測功能，而 AirPods Pro 則加入了即時翻譯功能。錯過Apple發佈會直播？今次帶大家5分鐘看清蘋果發佈會重點，助果迷掌握Apple新品特點、售價、型號、發售日期等！</p>
+          							<h2 id="mcetoc_1j4p0k8k54tt"><strong><a class="navbar-brand"><span id="pageheader"></span></a></strong></h2> 
+<h2><strong>蘋果發佈會重點懶人包</strong></h2> 
+<ul> 
+ <li><strong>iPhone 17 系列：</strong> 共推出四款機型——iPhone 17、iPhone 17 Air、iPhone 17 Pro 及 iPhone 17 Pro Max。</li> 
+ <li><strong>iPhone 17 Pro 系列：</strong> 迎來革命性攝影升級，三顆鏡頭均提升至 4800 萬像素，支援 8 倍光學變焦及 Wi-Fi 7。</li> 
+ <li><strong>iPhone Air：</strong> 全新成員，以 5.6mm 成為史上最薄 iPhone，搭載 A19 Pro 晶片。</li> 
+ <li><strong>Apple Watch Series 11：</strong> 新增「高血壓通知」及「睡眠分數」等重磅健康功能。</li> 
+ <li><strong>AirPods Pro 3：</strong> 搭載 Apple Intelligence，支援實時語音及文字翻譯。</li> 
+ <li><strong>統一發售日期：</strong> 所有 iPhone 新機均於 <strong>9月12日晚上8時</strong> 開始預售，<strong>9月19日</strong> 正式發售。</li> 
+</ul> 
+<h2><strong>蘋果發佈會 Apple iPhone 17 系列總覽連香港售價</strong></h2> 
+<div class="horizontal-scroll-wrapper"> 
+ <div class="table-block-component"> 
+  <div class="table-block has-export-button"> 
+   <div class="table-content not-end-of-paragraph"> 
+    <table style="border-collapse: collapse; width: 100%;" border="1"> 
+     <thead> 
+      <tr> 
+       <td>特點</td> 
+       <td>iPhone 17</td> 
+       <td>iPhone 17 Air</td> 
+       <td>iPhone 17 Pro</td> 
+       <td>iPhone 17 Pro Max</td> 
+      </tr> 
+     </thead> 
+     <tbody> 
+      <tr> 
+       <td><strong>螢幕尺寸</strong></td> 
+       <td>6.3 吋</td> 
+       <td>6.5 吋</td> 
+       <td>6.3 吋</td> 
+       <td>6.9 吋</td> 
+      </tr> 
+      <tr> 
+       <td><strong>處理器</strong></td> 
+       <td>A19</td> 
+       <td>A19 Pro</td> 
+       <td>A19 Pro</td> 
+       <td>A19 Pro</td> 
+      </tr> 
+      <tr> 
+       <td><strong>相機</strong></td> 
+       <td>4800萬像素雙鏡頭系統</td> 
+       <td>4800萬像素廣角鏡頭</td> 
+       <td>4800萬像素三鏡頭系統</td> 
+       <td>4800萬像素三鏡頭系統</td> 
+      </tr> 
+      <tr> 
+       <td><strong>主要特點</strong></td> 
+       <td>入門級型號，性能全面升級</td> 
+       <td>超薄設計，史上最薄iPhone</td> 
+       <td>專業級攝影，效能再進化</td> 
+       <td>頂級旗艦，最強規格</td> 
+      </tr> 
+      <tr> 
+       <td><strong>顏色</strong></td> 
+       <td>薰衣草紫／鼠尾草綠／霧藍／黑／白</td> 
+       <td>天藍／淺金／浮雲白／太空黑</td> 
+       <td>銀／宇宙橙／深墨藍</td> 
+       <td>銀／宇宙橙／深墨藍</td> 
+      </tr> 
+      <tr> 
+       <td><strong>香港售價</strong></td> 
+       <td>256GB HK$6,899 / 512GB HK$8,599</td> 
+       <td>256GB HK$8,599 / 512GB HK$10,299 / 1TB HK $11,999</td> 
+       <td>256GB HK$9,399 / 512GB HK＄11,099/1TB HK$12,799</td> 
+       <td>256GB HK$11,099/512GB HK$11,899/1TB HK$13,599/2TB HK$16,999</td> 
+      </tr> 
+      <tr> 
+       <td><strong>預售日期</strong></td> 
+       <td>2025年9月12日</td> 
+       <td>2025年9月12日</td> 
+       <td>2025年9月12日</td> 
+       <td>2025年9月12日</td> 
+      </tr> 
+      <tr> 
+       <td><strong>發售日期</strong></td> 
+       <td>2025年9月19日</td> 
+       <td>2025年9月19日</td> 
+       <td>2025年9月19日</td> 
+       <td>2025年9月19日</td> 
+      </tr> 
+     </tbody> 
+    </table> 
+   </div> 
+   <div class="table-footer hide-from-message-actions ng-star-inserted">
+     &nbsp; 
+   </div> 
+  </div> 
+ </div> 
+</div> 
+<div class="horizontal-scroll-wrapper"> 
+ <div class="table-block-component"> 
+  <div class="table-block has-export-button"> 
+   <div class="table-content not-end-of-paragraph"> 
+    <p>&nbsp;</p> 
+   </div> 
+  </div> 
+ </div> 
+</div> 
+<h3 id="mcetoc_1j4p0k8k54tv"></h3> 
+<h2 id="mcetoc_1j4p0k8k54u0">2025蘋果發佈會｜iPhone 17重大升級媲美旗艦</h2> 
+<p>&nbsp;</p> 
+<p> </p> 
+<div class="clear"></div> 
+<div class="photoSwipe-container img-align-center uf-images-container"> 
+ <i class="arrows"></i> 
+ <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"> 
+  <a class="photoSwipeGallery20057123" data-href="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w1280/2025/09/20250910085449_eefd4ce4bb7f481acc18df9c2c7ef27b7adbf215.jpeg" data-photoindex="1" data-title="" onclick="showPhotoSwipe($(this));return false;"> 
+   <picture> 
+    <source srcset="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w600/2025/09/20250910085449_eefd4ce4bb7f481acc18df9c2c7ef27b7adbf215.webp" type="image/webp"> 
+    <source srcset="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w600/2025/09/20250910085449_eefd4ce4bb7f481acc18df9c2c7ef27b7adbf215.jpeg"> 
+    <img class="img-responsive" src="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w600/2025/09/20250910085449_eefd4ce4bb7f481acc18df9c2c7ef27b7adbf215.jpeg" alt="蘋果發佈會懶人包｜iPhone 17規格價錢全整理！新款Air史上最薄！" style="margin-left:auto;margin-right:auto" loading="lazy" onerror="this.onerror = null;this.parentNode.children[0].srcset = this.parentNode.children[1].srcset = this.src;">  
+   </picture></a> 
+  <figcaption></figcaption> 
+ </figure> 
+</div> 
+<p></p> 
+<p> </p> 
+<div class="clear"></div> 
+<div class="photoSwipe-container img-align-center uf-images-container"> 
+ <i class="arrows"></i> 
+ <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"> 
+  <a class="photoSwipeGallery20057123" data-href="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w1280/2025/09/20250910085449_43bd8d7e4a56114f5c51ea16823614375e58d3e0.jpeg" data-photoindex="2" data-title="" onclick="showPhotoSwipe($(this));return false;"> 
+   <picture> 
+    <source srcset="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w600/2025/09/20250910085449_43bd8d7e4a56114f5c51ea16823614375e58d3e0.webp" type="image/webp"> 
+    <source srcset="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w600/2025/09/20250910085449_43bd8d7e4a56114f5c51ea16823614375e58d3e0.jpeg"> 
+    <img class="img-responsive" src="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w600/2025/09/20250910085449_43bd8d7e4a56114f5c51ea16823614375e58d3e0.jpeg" alt="蘋果發佈會懶人包｜iPhone 17規格價錢全整理！新款Air史上最薄！" style="margin-left:auto;margin-right:auto" loading="lazy" onerror="this.onerror = null;this.parentNode.children[0].srcset = this.parentNode.children[1].srcset = this.src;">  
+   </picture></a> 
+  <figcaption></figcaption> 
+ </figure> 
+</div>
+<div style="display: block;text-align: center;">
+ <div id="flyingCarpetAd">
+  <script>googletag.cmd.push(function() { googletag.display('flyingCarpetAd'); });</script>
+ </div>
+</div>
+<div style="display: block;text-align: center;">
+ <div id="flyingCarpetAdDesktop">
+  <script>googletag.cmd.push(function() { googletag.display('flyingCarpetAdDesktop'); });</script>
+ </div>
+</div> 
+<div style="display: block;text-align: center;"> 
+ <div id="flyingCarpetAd"> 
+  <script>googletag.cmd.push(function() { googletag.display('flyingCarpetAd'); });</script> 
+ </div> 
+</div> 
+<div style="display: block;text-align: center;"> 
+ <div id="flyingCarpetAdDesktop"> 
+  <script>googletag.cmd.push(function() { googletag.display('flyingCarpetAdDesktop'); });</script> 
+ </div> 
+</div> 
+<p></p> 
+<h3 id="mcetoc_1j4ous8v443c">iPhone 17規格升級</h3> 
+<p>Apple在最新蘋果發佈會正式揭曉全新 iPhone 17，為非 Pro 系列手機帶來多項重大升級。iPhone 17 換上全新 6.3 吋螢幕，並首次支援 ProMotion 技術，帶來更流暢的視覺體驗。</p> 
+<p>這款新機搭載了最新的 <strong>A19 晶片</strong>，無論剪片、打機，持續效能比iPhone 16 Pro提升高達40%，為用戶提供更高效能與更長久的電池續航力。</p> 
+<p>起步儲存容量也從 128GB 加倍至 <strong>256GB</strong>，並提供五款全新配色選擇，全面提升了用戶的日常使用體驗。</p> 
+<h3 id="mcetoc_1j4ous8v443d">iPhone 17相機升級</h3> 
+<p>攝影方面，iPhone 17 相機系統也有全面升級，首次採用4800萬畫素的雙融合相機系統，包括一顆 48MP 主鏡頭和一顆 48MP 超廣角鏡頭，大幅提升了照片細節與低光表現。iPhone 17 首度引入 <strong>Center Stage 前置相機</strong>，這顆 18MP 的前鏡頭採用獨特的方形感光元件，能在視訊通話時自動將用戶保持在畫面中央，並提供更廣的視野。最驚喜的是創新的「直拍橫相」功能，使用iPhone 17前置鏡頭影相，打直也能拍打橫的照片，多人自拍更方便。</p> 
+<h3 id="mcetoc_1j4ous8v443e">iPhone 17顯示螢幕升級</h3> 
+<p>顯示螢幕也獲得升級，全新的 6.3 吋 <strong>Super Retina XDR 顯示器</strong>終於支援 <strong>ProMotion 技術</strong>，能根據內容自動調整更新率，帶來更流暢的視覺體驗。螢幕材質更升級為 <strong>Ceramic Shield 2</strong>，提供比上一代高出三倍的抗刮性能。</p> 
+<ul> 
+ <li>iPhone 17價錢：256GB HK$6,899 / 512GB HK＄8,599</li> 
+ <li>機身顏色：薰衣草紫／鼠尾草綠／霧藍／黑／白</li> 
+ <li>iPhone 17發售日期：9 月 12 日晚上 8 時起接受預訂，最快9月19日出貨</li> 
+</ul> 
+<h2 id="mcetoc_1j4ous8v443f">2025蘋果發佈會｜iPhone 17 Pro / Pro Max 宇宙橙新色鏡頭再進化</h2> 
+<p> </p> 
+<div class="clear"></div> 
+<div class="photoSwipe-container img-align-center uf-images-container"> 
+ <i class="arrows"></i> 
+ <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"> 
+  <a class="photoSwipeGallery20057123" data-href="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w1280/2025/09/20250910024211_05e7c684f2698fecc953604cc707134fdcdde705.png" data-photoindex="3" data-title="" onclick="showPhotoSwipe($(this));return false;"> 
+   <picture> 
+    <source srcset="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w600/2025/09/20250910024211_05e7c684f2698fecc953604cc707134fdcdde705.webp" type="image/webp"> 
+    <source srcset="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w600/2025/09/20250910024211_05e7c684f2698fecc953604cc707134fdcdde705.png"> 
+    <img class="img-responsive" src="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w600/2025/09/20250910024211_05e7c684f2698fecc953604cc707134fdcdde705.png" alt="蘋果發佈會懶人包｜iPhone 17規格價錢全整理！新款Air史上最薄！" style="margin-left:auto;margin-right:auto" loading="lazy" onerror="this.onerror = null;this.parentNode.children[0].srcset = this.parentNode.children[1].srcset = this.src;">  
+   </picture></a> 
+  <figcaption></figcaption> 
+ </figure> 
+</div> 
+<p></p> 
+<p>Pro 系列再次定義旗艦手機的標準。iPhone 17 Pro 及 Pro Max 搭載更強的 A19 Pro 晶片，CPU 和 GPU 效能均有顯著提升；並首度引入雷射焊接氣化室技術，散熱效能顯著提升。機身設計上採用航天級 7000 系列鋁合金打造一體式機身，並帶來了搶眼的「宇宙橙」新配色。</p> 
+<p>攝影系統迎來了革命性升級，廣角、超廣角、長焦三顆鏡頭全部提升至 4800 萬像素，其中長焦鏡頭更支援全新的 8 倍光學變焦。配合強大的 Fusion 相機技術，Pro 系列可提供相當於 8 顆鏡頭的焦段，從微距到超遠攝均能輕鬆駕馭。此外，新機也支援多項專業影片功能，如 ProRes RAW、Apple Log 2 等，為電影製作提供強大工具。</p> 
+<p>在連接技術上，新機配備 N1 無線網路晶片，首次支援 Wi-Fi 7 標準，提供更快的傳輸速度與更低的延遲。</p> 
+<ul> 
+ <li>iPhone 17 Pro (6.3")價錢：256GB HK$9,399 / 512GB HK＄11,099/1TB HK$12,799</li> 
+ <li>iPhone 17 Pro Max (6.9")價錢：256GB HK＄11,099/512GB HK$11,899/1TB HK$13,599/2TB HK$16,999</li> 
+ <li>機身顏色：銀／宇宙橙／深墨藍</li> 
+ <li>iPhone 17 Pro發售日期：9 月 12 日晚上 8 時起接受預訂，最快9月19日出貨</li> 
+</ul> 
+<p>&nbsp;</p> 
+<div class="article-fragment margin-b contentBody" data-index="0"> 
+ <div class="recommended-links"> 
+  <div class="link"> 
+   <ul> 
+    <li class="related-article"><a href="https://ezone.hk/article/20076006/iphone-pro-pro-max-%E6%96%B0%E6%A9%9F%E6%87%B6%E4%BA%BA%E5%8C%85-a-pro-%E9%95%B7%E7%84%A6%E8%B7%9D%E9%8F%A1%E9%A0%AD-%E6%96%B0%E5%A2%9E-%E5%AE%87%E5%AE%99%E6%A9%99-%E6%90%B6%E7%9C%BC%E9%85%8D%E8%89%B2" target="_blank">iPhone 17 Pro/Pro Max 新增「宇宙橙」搶眼配色 A19 Pro 晶片 ＋ 三鏡 48MP Fusion 相機</a></li> 
+   </ul> 
+  </div> 
+ </div> 
+</div> 
+<h2 id="mcetoc_1j4nvgbij4bi">2025蘋果發佈會｜iPhone 17 Air 纖巧橫空出世</h2> 
+<p> </p> 
+<div class="clear"></div> 
+<div class="photoSwipe-container img-align-center uf-images-container"> 
+ <i class="arrows"></i> 
+ <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"> 
+  <a class="photoSwipeGallery20057123" data-href="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w1280/2025/09/20250910085230_b00db052052295ea8c52a6a1561c7ade11b93b45.jpg" data-photoindex="4" data-title="" onclick="showPhotoSwipe($(this));return false;"> 
+   <picture> 
+    <source srcset="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w600/2025/09/20250910085230_b00db052052295ea8c52a6a1561c7ade11b93b45.webp" type="image/webp"> 
+    <source srcset="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w600/2025/09/20250910085230_b00db052052295ea8c52a6a1561c7ade11b93b45.jpg"> 
+    <img class="img-responsive" src="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w600/2025/09/20250910085230_b00db052052295ea8c52a6a1561c7ade11b93b45.jpg" alt="蘋果發佈會懶人包｜iPhone 17規格價錢全整理！新款Air史上最薄！" style="margin-left:auto;margin-right:auto" loading="lazy" onerror="this.onerror = null;this.parentNode.children[0].srcset = this.parentNode.children[1].srcset = this.src;">  
+   </picture></a> 
+  <figcaption></figcaption> 
+ </figure> 
+</div> 
+<p></p> 
+<p> </p> 
+<div class="clear"></div> 
+<div class="photoSwipe-container img-align-center uf-images-container"> 
+ <i class="arrows"></i> 
+ <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"> 
+  <a class="photoSwipeGallery20057123" data-href="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w1280/2025/09/20250910084854_75d14ebe9c58e8a0cf32a30f972bc9e7ffa953ae.jpeg" data-photoindex="5" data-title="" onclick="showPhotoSwipe($(this));return false;"> 
+   <picture> 
+    <source srcset="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w600/2025/09/20250910084854_75d14ebe9c58e8a0cf32a30f972bc9e7ffa953ae.webp" type="image/webp"> 
+    <source srcset="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w600/2025/09/20250910084854_75d14ebe9c58e8a0cf32a30f972bc9e7ffa953ae.jpeg"> 
+    <img class="img-responsive" src="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w600/2025/09/20250910084854_75d14ebe9c58e8a0cf32a30f972bc9e7ffa953ae.jpeg" alt="蘋果發佈會懶人包｜iPhone 17規格價錢全整理！新款Air史上最薄！" style="margin-left:auto;margin-right:auto" loading="lazy" onerror="this.onerror = null;this.parentNode.children[0].srcset = this.parentNode.children[1].srcset = this.src;">  
+   </picture></a> 
+  <figcaption></figcaption> 
+ </figure> 
+</div> 
+<p></p> 
+<p>本次蘋果發佈會最大驚喜無疑是 iPhone 17 Air，以僅 5.6mm 的厚度成為 Apple 史上最薄的 iPhone，採用航天級鈦金屬框架，兼具輕巧與耐用。機身正面和背面分別使用 Ceramic Shield 2 和 Ceramic Shield 材質，抗刮能力提升三倍。</p> 
+<p>iPhone Air 與 Pro 系列看齊，同樣搭載了 A19 Pro 晶片，並配備了 N1 和 C1X 晶片，性能不容小覷，在效能和電源效率方面表現出色。它擁有一個創新的 48MP Fusion 主相機和一個 18MP 的 Center Stage 前置鏡頭，讓用戶在不旋轉手機的情況下也能拍攝橫向自拍。此外，新機採用了 eSIM-only 設計，並加入了操作按鈕和相機控制功能。</p> 
+<p>電池續航力方面，Apple就沒有著墨太多，只提及iPhone Air 內部架構經過重新設計，以最大化電池空間，確保全天候的電池續航力。</p> 
+<ul> 
+ <li><a href="https://ezone.hk/article/20076004/iphone-air-iphone-17-%E8%9E%A2%E5%B9%95%E7%9B%B8%E6%A9%9F%E5%85%A8%E9%9D%A2%E5%8D%87%E7%B4%9A">iPhone Air 橫空出世 Apple 史上最薄！iPhone 17 螢幕相機全面升級</a></li> 
+</ul> 
+<p>&nbsp;</p> 
+<ul> 
+ <li>iPhone Air價錢：256GB HK$8,599 / 512GB HK$10,299 / 1TB HK $11,999</li> 
+ <li>機身顏色：天藍／淺金／浮雲白／太空黑</li> 
+ <li>iPhone Air發售日期：9 月 12 日晚上 8 時起接受預訂，最快9月19日出貨</li> 
+</ul> 
+<h2 id="mcetoc_1j4nvgbij4bk">2025蘋果發佈會｜Apple Watch 全線更新 健康功能大幅強化</h2> 
+<p> </p> 
+<div class="clear"></div> 
+<div class="photoSwipe-container img-align-center uf-images-container"> 
+ <i class="arrows"></i> 
+ <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"> 
+  <a class="photoSwipeGallery20057123" data-href="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w1280/2025/09/20250910015743_3738216d4087f6fb8c3f17d958c9534ebdef9449.jpeg" data-photoindex="6" data-title="" onclick="showPhotoSwipe($(this));return false;"> 
+   <picture> 
+    <source srcset="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w600/2025/09/20250910015743_3738216d4087f6fb8c3f17d958c9534ebdef9449.webp" type="image/webp"> 
+    <source srcset="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w600/2025/09/20250910015743_3738216d4087f6fb8c3f17d958c9534ebdef9449.jpeg"> 
+    <img class="img-responsive" src="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w600/2025/09/20250910015743_3738216d4087f6fb8c3f17d958c9534ebdef9449.jpeg" alt="蘋果發佈會懶人包｜iPhone 17規格價錢全整理！新款Air史上最薄！" style="margin-left:auto;margin-right:auto" loading="lazy" onerror="this.onerror = null;this.parentNode.children[0].srcset = this.parentNode.children[1].srcset = this.src;">  
+   </picture></a> 
+  <figcaption></figcaption> 
+ </figure> 
+</div> 
+<p></p> 
+<p>全新的 Apple Watch Series 11 帶來了多項突破性升級，特別是在健康監測功能上。新一代手錶引入了「高血壓通知」功能，它會透過光學心率感應器持續監測用戶在 30 天內血管對心跳的反應，若偵測到高血壓的持續跡象，便會發出警報。這項功能基於超過 10 萬名參與者的數據進行機器學習開發，並在 2000 多名參與者的臨床研究中獲得驗證。</p> 
+<p>此外，Series 11 還新增了「睡眠分數」功能，幫助用戶更全面地了解睡眠品質。手錶會追蹤睡眠時長、就寢時間的一致性以及各個睡眠階段，並給予整體評分，從而協助用戶改善睡眠。在硬體方面，手錶續航力提升至至單次充電後可使用 42 小時，並支援快速充電。鋁金屬型號的 Ion-X 玻璃螢幕因採用全新陶瓷塗層，抗刮能力提升兩倍；鈦金屬型號則配備藍寶石玻璃。新機還支援 5G 行動網路，並搭載 watchOS 26，帶來由 Apple Intelligence 驅動的「Workout Buddy」等新功能。</p> 
+<h3 id="mcetoc_1j4ous8v443g">2025最新Apple Watch價錢</h3> 
+<ul> 
+ <li>Apple Watch Series 11：鋁合金 HK$3,199起 ／ 鈦合金 HK$5,799起</li> 
+ <li>Apple Watch SE 3：40mm HK$1,999起 / 42mm HK$2,199起</li> 
+ <li>Apple Watch Ultra 3：HK$6,499 起</li> 
+</ul> 
+<p>&nbsp;</p> 
+<div class="article-fragment margin-b contentBody" data-index="1"> 
+ <div class="recommended-links"> 
+  <div class="link"> 
+   <ul> 
+    <li class="related-article"><a href="https://ezone.hk/article/20076003/apple-watch-series-11-apple-watch-se-3-apple-watch-ultra-3-%E4%B8%89%E7%B7%9A%E9%BD%8A%E7%99%BC" target="_blank">Apple Watch健康守護/連線再升級！Apple Watch Series 11、Apple Watch SE 3、Apple Watch Ultra 3三線齊發</a></li> 
+   </ul> 
+  </div> 
+ </div> 
+</div> 
+<h2 id="mcetoc_1j4nvgbij4bl"><span data-v-fc5b1862="">2025蘋果發佈會｜Apple AirPods Pro 3登場 實時翻譯超驚喜！</span></h2> 
+<p> </p> 
+<div class="clear"></div> 
+<div class="photoSwipe-container img-align-center uf-images-container"> 
+ <i class="arrows"></i> 
+ <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"> 
+  <a class="photoSwipeGallery20057123" data-href="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w1280/2025/09/20250910085646_7ac1ccc2e51a8836ea4c5e1d56ceb614df3f554e.jpeg" data-photoindex="7" data-title="" onclick="showPhotoSwipe($(this));return false;"> 
+   <picture> 
+    <source srcset="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w600/2025/09/20250910085646_7ac1ccc2e51a8836ea4c5e1d56ceb614df3f554e.webp" type="image/webp"> 
+    <source srcset="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w600/2025/09/20250910085646_7ac1ccc2e51a8836ea4c5e1d56ceb614df3f554e.jpeg"> 
+    <img class="img-responsive" src="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w600/2025/09/20250910085646_7ac1ccc2e51a8836ea4c5e1d56ceb614df3f554e.jpeg" alt="蘋果發佈會懶人包｜iPhone 17規格價錢全整理！新款Air史上最薄！" style="margin-left:auto;margin-right:auto" loading="lazy" onerror="this.onerror = null;this.parentNode.children[0].srcset = this.parentNode.children[1].srcset = this.src;">  
+   </picture></a> 
+  <figcaption></figcaption> 
+ </figure> 
+</div> 
+<p></p> 
+<p><span data-v-fc5b1862="">作為全球最受歡迎的耳機，AirPods早已不僅是聽音樂的工具，更是融入日常生活的時尚配件。從無縫連接Apple產品的便捷，到標誌性的設計與音質，它不斷為用家帶來驚喜。Apple全新一代AirPods Pro 3最大的亮點，就是加入了由 Apple Intelligence 驅動的實時翻譯功能，即時翻譯功能可在耳機中聽到翻譯，配合手機上的翻譯 app，你所說的話也會被自動轉換成對方的語言顯示在螢幕上。無論是聆聽外語演講，還是與外國人對話，都能即時進行語音或文字翻譯，打破語言隔膜</span>，<span data-v-fc5b1862="">勢必成為外遊愛好者與商務人士的隨行恩物。</span></p> 
+<h3 id="mcetoc_1j4ous8v443h">AirPods Pro 3價錢：HK$1,849</h3> 
+<p> </p> 
+<div class="clear"></div> 
+<div class="photoSwipe-container img-align-center uf-images-container"> 
+ <i class="arrows"></i> 
+ <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"> 
+  <a class="photoSwipeGallery20057123" data-href="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w1280/2025/09/20250910085645_ee9cd9e43c4ac90d9b137fe2afd77f0264689b8e.jpeg" data-photoindex="8" data-title="" onclick="showPhotoSwipe($(this));return false;"> 
+   <picture> 
+    <source srcset="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w600/2025/09/20250910085645_ee9cd9e43c4ac90d9b137fe2afd77f0264689b8e.webp" type="image/webp"> 
+    <source srcset="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w600/2025/09/20250910085645_ee9cd9e43c4ac90d9b137fe2afd77f0264689b8e.jpeg"> 
+    <img class="img-responsive" src="https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w600/2025/09/20250910085645_ee9cd9e43c4ac90d9b137fe2afd77f0264689b8e.jpeg" alt="蘋果發佈會懶人包｜iPhone 17規格價錢全整理！新款Air史上最薄！" style="margin-left:auto;margin-right:auto" loading="lazy" onerror="this.onerror = null;this.parentNode.children[0].srcset = this.parentNode.children[1].srcset = this.src;">  
+   </picture></a> 
+  <figcaption></figcaption> 
+ </figure> 
+</div> 
+<p></p> 
+<div class="article-fragment margin-b contentBody" data-index="2"> 
+ <div class="recommended-links"> 
+  <div class="link"> 
+   <ul> 
+    <li class="related-article"><a href="https://ezone.hk/article/20076002/%E6%96%B0%E4%B8%80%E4%BB%A3apple-airpods-pro-3" target="_blank">旅遊達人福音！新一代Apple AirPods Pro 3登場 實時翻譯打破語言隔膜</a></li> 
+   </ul> 
+  </div> 
+ </div> 
+</div> 
+<p>&nbsp;</p> 
+<h2 class="mb-module-gap text-px22 font-bold lg:text-px24 text-batcave"><strong>Apple 發佈會直播重溫</strong></h2> 
+<p></p> 
+<div class="videoWrapper" id="H3KnMyojEQU"> 
+ <iframe width="600" height="400" id="player" allowfullscreen="1" type="text/html" src="https://www.youtube.com/embed/H3KnMyojEQU?autoplay=0&amp;playsinline=0&amp;enablejsapi=1&amp;origin=http://webapp.hket.com&amp;widgetid=2" frameborder="0"></iframe> 
+</div> 
+<p></p> 
+<p><strong>相關報道</strong></p> 
+<div class="article-fragment margin-b contentBody" data-index="3"> 
+ <div class="recommended-links"> 
+  <div class="link"> 
+   <ul> 
+    <li class="related-article"><a href="https://ezone.hk/article/20076005/apple-iphone-17-iphone-air-iphone-17-pro-iphone-17-pro-max-%E9%A6%99%E6%B8%AF%E5%94%AE%E5%83%B9" target="_blank">Apple 發佈 iPhone 17 全系列香港售價 $6899 起！全新 iPhone Air 驚喜亮相</a></li> 
+    <li class="related-article"><a href="https://ezone.hk/article/20076004/iphone-air-iphone-17-%E8%9E%A2%E5%B9%95%E7%9B%B8%E6%A9%9F%E5%85%A8%E9%9D%A2%E5%8D%87%E7%B4%9A" target="_blank">iPhone Air 橫空出世 Apple 史上最薄！iPhone 17 螢幕相機全面升級</a></li> 
+    <li class="related-article"><a href="https://ezone.hk/article/20076003/apple-watch-series-11-apple-watch-se-3-apple-watch-ultra-3-%E4%B8%89%E7%B7%9A%E9%BD%8A%E7%99%BC" target="_blank">Apple Watch健康守護/連線再升級！Apple Watch Series 11、Apple Watch SE 3、Apple Watch Ultra 3三線齊發</a></li> 
+    <li class="related-article"><a href="https://ezone.hk/article/20076002/%E6%96%B0%E4%B8%80%E4%BB%A3apple-airpods-pro-3" target="_blank">旅遊達人福音！新一代Apple AirPods Pro 3登場 實時翻譯打破語言隔膜</a></li> 
+   </ul> 
+  </div> 
+ </div> 
+</div> 
+<h2 id="mcetoc_1j4nrnirib5"></h2> 
+<p>Source : ezone.hk</p>				          
+                                
+                            </div>
+                            
+                                 
+                                	<div id='div-gpt-ad-1489113900426-3' class="col-md-12 text-center center-block" style="margin-bottom:20px;padding:0;">
+                    					<script>
+                        					googletag.cmd.push(function() { googletag.display('div-gpt-ad-1489113900426-3'); });
+                    					</script>
+                					</div> 
+                					<div style="margin-bottom:20px;" class="visible-xs"></div>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLsYWOMKDCHGFqxLV1scIS2aURRJTvIQc&sensor=true"></script>
+<script src="/js/faq-section.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/faq.css?v=202211091600" />
+<div class="faq-content">
+	<div class="accordion" id="faq">
+			<div class="faq-card">
+				<div class="faq-card-header" id="question0">
+					<h2 class="mb-0">
+						<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#answer0" aria-expanded="true" aria-controls="answer0" onclick="toggleFAQ(this); gaEventHandler('Detail Page Links','FAQ-expand/collapse',window.location.href)">
+							<span class="faq-question" style="font-size: large;">新款iPhone 17系列有哪些新機型？</span>
+							<i class="fa fa-angle-up"></i>
+						</button>
+					</h2>
+				</div>
+				<div id="answer0" class="collapse show" aria-labelledby="question0" >
+					<div class="card-body">
+						<p>Apple 2025蘋果發佈會推出iPhone 17 4款新機型，包括 iPhone 17、iPhone 17 Air、iPhone 17 Pro 及 iPhone 17 Pro Max 四款新機，各自有升級及吸引之處。</p>
+					</div>
+				</div>
+			</div>
+			<div class="faq-card">
+				<div class="faq-card-header" id="question1">
+					<h2 class="mb-0">
+						<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#answer1" aria-expanded="true" aria-controls="answer1" onclick="toggleFAQ(this); gaEventHandler('Detail Page Links','FAQ-expand/collapse',window.location.href)">
+							<span class="faq-question" style="font-size: large;">iPhone 17 Pro Max 相機升級後有什麼新特色？</span>
+							<i class="fa fa-angle-down"></i>
+						</button>
+					</h2>
+				</div>
+				<div id="answer1" class="collapse" aria-labelledby="question1" >
+					<div class="card-body">
+						iPhone 17 Pro Max 採用三顆 48MP Fusion 相機，提供相當於 8 顆鏡頭的焦段，並新增 8 倍光學變焦長焦鏡頭，讓遠距離拍攝更輕鬆。
+					</div>
+				</div>
+			</div>
+			<div class="faq-card">
+				<div class="faq-card-header" id="question2">
+					<h2 class="mb-0">
+						<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#answer2" aria-expanded="true" aria-controls="answer2" onclick="toggleFAQ(this); gaEventHandler('Detail Page Links','FAQ-expand/collapse',window.location.href)">
+							<span class="faq-question" style="font-size: large;">iPhone 17 和全新 iPhone 17 Air 有什麼分別？</span>
+							<i class="fa fa-angle-down"></i>
+						</button>
+					</h2>
+				</div>
+				<div id="answer2" class="collapse" aria-labelledby="question2" >
+					<div class="card-body">
+						<ul>
+<li>iPhone 17 Air：極致纖薄，更強性能。它是史上最薄的 iPhone，但搭載了與 Pro 型號同級的 A19 Pro 晶片，性能更強。適合追求頂級設計和不在意相機系統（只有單鏡頭廣角）但又想要 Pro 級速度的用戶。</li>
+<li>iPhone 17：全面均衡。雖然使用 A19 晶片（比 A19 Pro 稍次一級），但擁有更全面的 48MP 雙鏡頭系統（主鏡頭+超廣角），並首次加入了 ProMotion 螢幕。適合大部分追求高性價比、看重攝影功能和日常流暢體驗的用戶。</li>
+</ul>
+					</div>
+				</div>
+			</div>
+			<div class="faq-card">
+				<div class="faq-card-header" id="question3">
+					<h2 class="mb-0">
+						<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#answer3" aria-expanded="true" aria-controls="answer3" onclick="toggleFAQ(this); gaEventHandler('Detail Page Links','FAQ-expand/collapse',window.location.href)">
+							<span class="faq-question" style="font-size: large;">我正在使用 iPhone 16 Pro，值得換新iPhone17嗎？</span>
+							<i class="fa fa-angle-down"></i>
+						</button>
+					</h2>
+				</div>
+				<div id="answer3" class="collapse" aria-labelledby="question3" >
+					<div class="card-body">
+						<p>小編認為如果你多使用手機影相，就非常值得換新iPhone 17 Pro。iPhone 17 Pro三顆鏡頭全部升級至 4800 萬像素，加上全新8 倍光學變焦，睇演唱會影相拍片都一流。</p>
+					</div>
+				</div>
+			</div>
+			<div class="faq-card">
+				<div class="faq-card-header" id="question4">
+					<h2 class="mb-0">
+						<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#answer4" aria-expanded="true" aria-controls="answer4" onclick="toggleFAQ(this); gaEventHandler('Detail Page Links','FAQ-expand/collapse',window.location.href)">
+							<span class="faq-question" style="font-size: large;">AirPods Pro 3 的實時翻譯功能支援廣東話嗎？</span>
+							<i class="fa fa-angle-down"></i>
+						</button>
+					</h2>
+				</div>
+				<div id="answer4" class="collapse" aria-labelledby="question4" >
+					<div class="card-body">
+						<p>首批支援的語言包含英語、法語、德語、葡萄牙語、西班牙語，年底前預計還會加入簡體中文、日語、韓語和義大利語。</p>
+					</div>
+				</div>
+			</div>
+			<div class="faq-card">
+				<div class="faq-card-header" id="question5">
+					<h2 class="mb-0">
+						<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#answer5" aria-expanded="true" aria-controls="answer5" onclick="toggleFAQ(this); gaEventHandler('Detail Page Links','FAQ-expand/collapse',window.location.href)">
+							<span class="faq-question" style="font-size: large;">Apple Watch 的「高血壓通知」功能可以取代傳統血壓計嗎？</span>
+							<i class="fa fa-angle-down"></i>
+						</button>
+					</h2>
+				</div>
+				<div id="answer5" class="collapse" aria-labelledby="question5" >
+					<div class="card-body">
+						<p>絕對不能。Apple 特別強調，這是一項健康趨勢監測與通知功能，而非醫療診斷設備。它透過長期數據分析，在偵測到可能存在高血壓持續跡象時發出提醒，旨在讓你及早關注健康並諮詢醫生。它不能提供即時的血壓讀數，更不能取代醫生建議的定期血壓測量。</p>
+					</div>
+				</div>
+			</div>
+			<div class="faq-card">
+				<div class="faq-card-header" id="question6">
+					<h2 class="mb-0">
+						<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#answer6" aria-expanded="true" aria-controls="answer6" onclick="toggleFAQ(this); gaEventHandler('Detail Page Links','FAQ-expand/collapse',window.location.href)">
+							<span class="faq-question" style="font-size: large;">iPhone Air 的「eSIM-only」設計對香港用戶有什麼影響？去旅行怎麼辦？</span>
+							<i class="fa fa-angle-down"></i>
+						</button>
+					</h2>
+				</div>
+				<div id="answer6" class="collapse" aria-labelledby="question6" >
+					<div class="card-body">
+						<p>「eSIM-only」意味著手機沒有實體 SIM 卡插槽。</p>
+<p>香港使用：你需要聯絡本地電訊商（如 SmarTone, CSL, 3HK 等），將現有的實體 SIM 卡轉換為 eSIM 服務，過程通常很快捷。</p>
+<p>外遊使用：現在越來越多的旅遊數據卡都提供 eSIM 版本，你可以在出發前上網購買，透過掃描 QR Code 即可安裝，無需再更換實體卡，非常方便。</p>
+					</div>
+				</div>
+			</div>
+			<div class="faq-card">
+				<div class="faq-card-header" id="question7">
+					<h2 class="mb-0">
+						<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#answer7" aria-expanded="true" aria-controls="answer7" onclick="toggleFAQ(this); gaEventHandler('Detail Page Links','FAQ-expand/collapse',window.location.href)">
+							<span class="faq-question" style="font-size: large;">什麼是「直拍橫相」功能？</span>
+							<i class="fa fa-angle-down"></i>
+						</button>
+					</h2>
+				</div>
+				<div id="answer7" class="collapse" aria-labelledby="question7" >
+					<div class="card-body">
+						<p>這是 iPhone 17 系列前置鏡頭的新功能。當垂直拿著手機自拍時，相機感光元件能捕捉到更廣闊的橫向畫面。即使在狹窄空間，無需將手機橫過來，也能輕鬆拍出橫向構圖的合照，容納更多人或背景。</p>
+					</div>
+				</div>
+			</div>
+			<div class="faq-card">
+				<div class="faq-card-header" id="question8">
+					<h2 class="mb-0">
+						<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#answer8" aria-expanded="true" aria-controls="answer8" onclick="toggleFAQ(this); gaEventHandler('Detail Page Links','FAQ-expand/collapse',window.location.href)">
+							<span class="faq-question" style="font-size: large;">Apple Watch Series 11 可以兼容舊款錶帶嗎？</span>
+							<i class="fa fa-angle-down"></i>
+						</button>
+					</h2>
+				</div>
+				<div id="answer8" class="collapse" aria-labelledby="question8" >
+					<div class="card-body">
+						<p>可以。 Apple Watch 錶帶接口規格保持高度兼容性。只要尺寸對應（例如 41mm/45mm），原有的錶帶可以完美適配新款 Apple Watch。</p>
+					</div>
+				</div>
+			</div>
+			<div class="faq-card">
+				<div class="faq-card-header" id="question9">
+					<h2 class="mb-0">
+						<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#answer9" aria-expanded="true" aria-controls="answer9" onclick="toggleFAQ(this); gaEventHandler('Detail Page Links','FAQ-expand/collapse',window.location.href)">
+							<span class="faq-question" style="font-size: large;">想在 9 月 19 日第一時間拿到新 iPhone，有什麼預訂貼士？</span>
+							<i class="fa fa-angle-down"></i>
+						</button>
+					</h2>
+				</div>
+				<div id="answer9" class="collapse" aria-labelledby="question9" >
+					<div class="card-body">
+						<p>根據過往經驗，最快的方式是使用 Apple Store App。建議您在 9 月 12 日晚上 8 時前：</p>
+<ul>
+<li>提前在 App 內將心儀的型號、顏色、容量加入「我的收藏」。</li>
+<li>確保 Apple ID 已登入，並設定好付款方式（信用卡）和送貨地址。</li>
+<li>在 8 時正，立即從收藏夾中將商品加入購物車並結帳，爭分奪秒完成交易。</li>
+</ul>
+					</div>
+				</div>
+			</div>
+	</div>
+</div>
+<!-- FAQ section end -->
+                            	<div>
+                            		<h5 class="tags">
+                            			<a href="/search?dis=advanced&adhoctag=科技">科技</a>
+                            			<a href="/search?dis=advanced&adhoctag=蘋果發佈會">蘋果發佈會</a>
+                            		</h5>
+                            	</div>
+
+                            <div class="row">
+                                <div class="col-md-12 text-center ezone-heading  ">
+                                    <h4>相關文章</h4> 
+                                </div>
+                            </div>
+                            <div class="row" id="ezone-related">
+
+       											<div class="col-xs-12  ">
+                                    				<a href="/article/20075801/%E5%B0%8F%E7%B1%B316%E6%B8%B2%E6%9F%93%E5%9C%96%E6%B5%81%E5%87%BA-%E6%8C%91%E6%88%B0%E6%89%8B%E6%A9%9F%E5%8F%B2%E4%B8%8A%E6%9C%80%E7%AA%84%E9%82%8A%E6%A1%86" class="item-grid text-center" target="_blank" onclick="sendGa4ButtonEventWithCustomParam(ga4RelatedArticleModel,'ai_related_content',{row:'1',clickurl:this.href})">
+                                        				<div class="v-align">
+                                            				<div class="v-align-middle">
+                                                				<h3 class="title">小米16渲染圖流出 挑戰手機史上最窄邊框</h3>
+                                                				<h5 class="category"></h5>
+                                                			</div>
+                                        				</div>
+                                    				</a>
+                                				</div>
+                            </div>
+                            <div class="row" id="ezone-related">
+
+       											<div class="col-xs-12  ">
+                                    				<a href="/article/20075903/Apple-iPhone-17-%E7%B3%BB%E5%88%97%E7%99%BC%E5%B8%83%E5%9C%A8%E5%8D%B3-%E5%85%A8%E7%B7%9A%E5%9E%8B%E8%99%9F%E9%9B%BB%E9%87%8F%E6%B5%81%E5%87%BA" class="item-grid text-center" target="_blank" onclick="sendGa4ButtonEventWithCustomParam(ga4RelatedArticleModel,'ai_related_content',{row:'2',clickurl:this.href})">
+                                        				<div class="v-align">
+                                            				<div class="v-align-middle">
+                                                				<h3 class="title">Apple iPhone 17 系列發布在即！ 全線型號電量流出</h3>
+                                                				<h5 class="category"></h5>
+                                                			</div>
+                                        				</div>
+                                    				</a>
+                                				</div>
+                            </div>
+                            <div class="row" id="ezone-related">
+
+       											<div class="col-xs-12  ">
+                                    				<a href="/article/20075578/%E4%B8%8A%E6%89%8B%E8%A9%A6-Samsung-Galaxy-Tab-S11-%E7%B3%BB%E5%88%97%E7%99%BB%E5%A0%B4-14-6-%E5%90%8B%E5%B7%A8%E5%B1%8F%E6%A5%B5%E7%B7%BB%E7%BA%96%E8%96%84-5-1mm-%E6%A9%9F%E8%BA%AB" class="item-grid text-center" target="_blank" onclick="sendGa4ButtonEventWithCustomParam(ga4RelatedArticleModel,'ai_related_content',{row:'3',clickurl:this.href})">
+                                        				<div class="v-align">
+                                            				<div class="v-align-middle">
+                                                				<h3 class="title">【上手試】Samsung Galaxy Tab S11 系列登場 14.6 吋巨屏極緻纖薄 5.1mm 機身</h3>
+                                                				<h5 class="category"></h5>
+                                                			</div>
+                                        				</div>
+                                    				</a>
+                                				</div>
+                            </div>
+                            <div class="row" id="ezone-related">
+
+       											<div class="col-xs-12  ">
+                                    				<a href="/article/20075965/iPhone-17-%E5%85%A8%E7%B3%BB%E5%88%97%E8%A6%8F%E6%A0%BC%E5%94%AE%E5%83%B9%E9%9B%BB%E8%A8%8A%E5%95%86%E6%84%8F%E5%A4%96%E6%9B%9D%E5%85%89-A19-Pro-%E6%99%B6%E7%89%87-5000mAh-%E5%A4%A7%E9%9B%BB-8K-%E6%8B%8D%E7%89%87" class="item-grid text-center" target="_blank" onclick="sendGa4ButtonEventWithCustomParam(ga4RelatedArticleModel,'ai_related_content',{row:'4',clickurl:this.href})">
+                                        				<div class="v-align">
+                                            				<div class="v-align-middle">
+                                                				<h3 class="title">iPhone 17 全系列規格售價電訊商意外曝光 A19 Pro 晶片、5000mAh 大電、8K 拍片？</h3>
+                                                				<h5 class="category"></h5>
+                                                			</div>
+                                        				</div>
+                                    				</a>
+                                				</div>
+                            </div>
+                            	<script>
+                            	$( document ).ready(function() {
+    								wordResize();
+                            		setUpPhotoSwipe();
+								});                          		
+                           	 	</script>                  
+						</div>						
+					</div>
+					</div>
+            		<a class="infinite-more-link" href="/article/20057123/20057123/p=2" value="1">
+              			Page <span id="currentPage">1</span> of <span id="totalPage">9</span>       
+            		</a>
+                        <div class="article" id="loadingAnimation" style="display:none;">
+                            <div class="sk-folding-cube">
+                                <div class="sk-cube1 sk-cube"></div>
+                                <div class="sk-cube2 sk-cube"></div>
+                                <div class="sk-cube4 sk-cube"></div>
+                                <div class="sk-cube3 sk-cube"></div>
+                            </div>
+                            <div class="  content"> </div>
+                        </div>
+                        
+                        
+                        	<div id='div-gpt-ad-1489113900426-7' class="col-md-12 text-center center-block" style="margin-bottom:20px;padding:0;">
+                    			<script>
+                        			googletag.cmd.push(function() { googletag.display('div-gpt-ad-1489113900426-7'); });
+                    			</script>
+                			</div>  
+                        	<div style="margin-bottom:20px;" class="visible-xs"></div>
+                        
+				</div>
+                    <div class="page-right col-md-4 visible-md visible-lg" >
+<div class="row">
+	<div class="col-md-12">
+		<div class="  visible-md visible-lg banner-ad"> 
+  			<div class="col-md-12 text-center   banner-ad">
+    			<div id='div-gpt-ad-1489113900426-1' class="center-block">
+            		<script>
+                		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1489113900426-1'); });
+               	 	</script>
+            	</div>
+            </div>
+            <div class="mb30 hidden-md hidden-lg"></div>
+		</div>
+    </div>
+</div>
+
+<!--
+<div class="row">
+	<div class="col-md-12 text-center ezone-heading  ">
+		<h2>排行榜</h2> 
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="col-md-12 text-left  ">
+		<ol class="list-group order-list" id="hotChart">
+			
+        </ol>
+    </div>
+</div>
+-->
+
+		
+		
+
+
+<div class="row">
+	<div class="col-md-12 text-center ezone-heading" id="latestNewsTitle">
+ 
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-12 text-left  ">
+		<div class="list-group" id="latestNews">
+			                         
+        </div>
+    </div>
+</div>
+
+  			<div class="col-md-12 text-center   banner-ad">
+    			<div id='div-gpt-ad-1489113900426-4' class="center-block">
+            		<script>
+                		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1489113900426-4'); });
+               	 	</script>
+            	</div>
+            </div>
+            <div class="mb30 hidden-md hidden-lg"></div>
+  			<div class="col-md-12 text-center   banner-ad">
+    			<div id='div-gpt-ad-1489113900426-5' class="center-block">
+            		<script>
+                		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1489113900426-5'); });
+               	 	</script>
+            	</div>
+           	</div>
+           	<div class="mb30 hidden-md hidden-lg"></div>
+		
+		<div class="row">
+			<div class="col-md-12 text-center ezone-heading" id="specialTitle">
+
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12 text-left  ">
+				<div class="list-group" id="special">
+			                         
+        		</div>
+    		</div>
+		</div>
+		
+		<div class="col-md-12 text-center   banner-ad">
+			<div id='div-gpt-ad-1489113900426-6' class="center-block">
+            		<script>
+                		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1489113900426-6'); });
+               	 	</script>
+        	</div>
+        </div>
+        <div class="mb30 hidden-md hidden-lg"></div>
+	
+<script>
+	function getUrlHeadline(title) {
+	  let urlHeadline = title.replace(/[\s~`！!@#$%^&*()_+\-={[}\]|\\:;：【】《》「」│｜（）.‧＄"'<,>.、。“”?？/]+/g, "-");
+	  urlHeadline = urlHeadline.replace(/^-/, "");
+	  urlHeadline = urlHeadline.replace(/-$/, "");
+	  return urlHeadline;
+	}	  
+          //getPageRight("hotChart","/getLastestPageRight/hotChart", $("#hotChart"));        
+          getPageRight("news","/getLastestPageRight/latestNews", $("#latestNews"));  
+          getPageRight("editorRecommand","/getLastestPageRight/editorRecommand", $("#editorRecommand"));    
+          	getPageRight("special","/getLastestPageRight/special", $("#special"));
+        
+  function getPageRight(category, url, element){
+    jQuery.ajax({
+      type:"get",
+      async:true,
+      url:url,
+      contentType:"application/json; charset=UTF-8",
+      cache: true,
+      headers: {
+     	'Cache-Control': 'max-age=600, public'
+	  },
+      dataType:"json",
+      success: function(data,textStatus,errorThrown){
+        	listLayout(category, data, element);   	
+      },
+      error: function(data,textStatus,errorThrown){
+        	console.log(data);
+            console.log(textStatus);
+            console.log(errorThrown);
+      },
+    });
+  }
+              
+  function listLayout(category, data, element){
+
+  	var str="";
+  	
+  	switch(category) {
+    case "hotChart":
+    	//console.log(data.items);
+        //for(i=0;i<data.items.length;i++){
+    	//	str+="<li type='button' class='list-group-item'><a href='#'>"+data.items.items[i].headline+"</a></li>";
+ 		//}    
+        break;
+    case "editorRecommand":
+    	var manualList;
+    	var autoList;
+    	console.log(data)
+    	console.log(data[0][1])
+		console.log(data[1][1])
+		str+=listOutPageRightWithPhoto(data);
+		if(data[0][1]!=null || data[1][1]!=null){
+			$("#editorRecommandTitle").html("<h2>編輯推介</h2> ");
+		}
+        break;
+    case "news":
+    	var manualList;
+    	var autoList;
+    	for(i=0;i<data.length;i++){
+    		if(data[i][0]=="autoList" && data[i][1]!=null){
+    			autoList = data[i][1];
+    			for(i=0;i<autoList.items.length;i++){
+    				str+="<button type='button' class='list-group-item' onclick='location.href=\"/article/"+autoList.items[i].standardDocumentId+"/"+encodeURI(getUrlHeadline(getStandardDocumentHeadline(autoList.items[i].headlines.items)))+"\";'>";
+    				str+=getStandardDocumentHeadline(autoList.items[i].headlines.items)+"</button>";
+ 				}
+    		}else if(data[i][0]=="manualList" && data[i][1]!=null){
+    			manualList = data[i][1];
+    			for(i=0;i<manualList.manualItems.items.length;i++){
+    				str+="<button type='button' class='list-group-item'onclick='location.href=\"/article/"+manualList.manualItems.items[i].id+"/"+encodeURI(getUrlHeadline(manualList.manualItems.items[i].headline))+"\";'>";
+    				str+=manualList.manualItems.items[i].headline+"</button>";
+ 				}
+    		}
+    	}
+    	if(data[0][1]!=null || data[1][1]!=null){
+        	$("#latestNewsTitle").html("<h2>最新內容</h2>");
+        }
+        break;
+    case "special":
+    	var manualList;
+    	var autoList;
+    	str+=listOutPageRightWithPhoto(data);
+    	if(data[0][1]!=null || data[1][1]!=null){
+    		$("#specialTitle").html("<h2>特約</h2>");
+    	}
+        break;
+    default:
+        break;
+}
+        element.html(str);
+        loadScriptAsync(
+  				"/js/jquery.unveil.js", 
+  				function() {
+      				 $("img").unveil();
+        			 setTimeout(function(){$("img").unveil();}, 1000);
+   				}
+			);  
+        
+}
+	function listOutPageRightWithPhoto(data){
+			var str="";
+		    for(i=0;i<data.length;i++){
+    		if(data[i][0]=="autoList" && data[i][1]!=null){
+    			autoList = data[i][1];
+    			for(i=0;i<autoList.items.length;i++){
+    				if(autoList.items[i].hasOwnProperty('standardMedia')){
+							var autoListImageName = autoList.items[i].standardMedia.mediaThumbnail.items[0].small;
+							var autoListImageSplit = autoListImageName.split('.');
+							if(autoListImageSplit!=null && autoListImageSplit.length>0){
+								var finalAutoListImageName = autoListImageSplit[0] + "_135." + autoListImageSplit[1];
+								var documentId= autoList.items[i].standardDocumentId;
+								var imageId = Math.floor(documentId/5000);
+								var imageUrl = "https://resource01.ulifestyle.com.hk/res/v3/image/content/"+imageId*5000+"/"+documentId+"/"+finalAutoListImageName+"";
+							}
+					}else{
+						var imageUrl="";
+					}	
+    				str+="<button type='button' class='list-group-item' onclick='location.href=\"/article/"+autoList.items[i].standardDocumentId+"/"+encodeURI(getUrlHeadline(getStandardDocumentHeadline(autoList.items[i].headlines.items)))+"\";'>";
+					str+="<img src='/images/loader.gif' data-src='"+imageUrl+"' class='list-thumb'>"+getStandardDocumentHeadline(autoList.items[i].headlines.items)+"</button>";
+ 				}
+ 				}else if(data[i][0]=="manualList" && data[i][1]!=null){
+    			manualList = data[i][1];
+    			for(i=0;i<manualList.manualItems.items.length;i++){
+    				var type = manualList.manualItems.items[i].type;
+        			if(manualList.manualItems.items[i].hasOwnProperty('manualItemImages')){
+							//var manualListImageName =manualList.manualItems.items[i].manualItemImages.items[0].large;
+							//var manualListImageSplit = manualListImageName.split('.');
+							var imageUrl = manualList.manualItems.items[i].manualItemImages.items[0].large;
+							//if(manualListImageSplit!=null && manualListImageSplit.length>0){
+								//var finalManualListImageName = manualListImageSplit[0] + "_135." + manualListImageSplit[1];
+								//var documentId= manualList.id;
+								//var imageId = Math.floor(documentId/5000);
+								//var imageUrl = "https://resource01-proxy.ulifestyle.com.hk/res/v3/image/manual-list/highlight/"+imageId*5000+"/"+documentId+"/"+finalManualListImageName+"";
+							//}
+							
+					}else{
+						var imageUrl="";
+					}
+					if(type=="video"){
+						str+="<button type='button' class='list-group-item' onclick='location.href=\"https://www.ulifestyle.com.hk/video/"+manualList.manualItems.items[i].id+"\";'>";	
+    				}else{
+    					str+="<button type='button' class='list-group-item' onclick='location.href=\"/article/"+manualList.manualItems.items[i].id+"/"+encodeURI(getUrlHeadline(manualList.manualItems.items[i].headline))+"\";'>";
+    			
+    				}
+					str+="<img src='/images/loader.gif' data-src='"+imageUrl+"' class='list-thumb'>"+manualList.manualItems.items[i].headline+"</button>";
+ 				}			
+    		}
+    	}
+    	return str;
+	}
+	
+	function getStandardDocumentHeadline(headlinesItem){
+		for(j=0;j<headlinesItem.length;j++){
+			if(headlinesItem[j].type=="main"){
+				return headlinesItem[j].name;
+			}
+		}
+	}
+</script>                                
+					</div>           
+	         
+            </div>
+            <!-- AddToAny BEGIN -->
+            <div class="a2a_kit a2a_kit_size_32 a2a_style">
+                <!--                <a class="a2a_dd" href="https://www.addtoany.com/share"></a>-->
+                <a class="a2a_button_whatsapp" onclick="sendGa4ButtonEventWithCustomParam(ga4ShareButtonModel,'social_share',{'function':'whatsapp_share'});"></a>
+                <a class="a2a_button_facebook" onclick="sendGa4ButtonEventWithCustomParam(ga4ShareButtonModel,'social_share',{'function':'facebook_share'});"></a>
+                <!--                <a class="a2a_button_telegram"></a>-->
+				<a class="a2a_button_threads" onclick="sendGa4ButtonEventWithCustomParam(ga4ShareButtonModel,'social_share',{'function':'threads_share'});"></a>
+				<!--                <a class="a2a_button_facebook_messenger"></a>-->
+                <a class="a2a_button_copy_link" onclick="sendGa4ButtonEventWithCustomParam(ga4ShareButtonModel,'social_share',{'function':'copy_link'});"></a>
+            </div>
+            <script>
+                var a2a_config = a2a_config || {};
+                a2a_config.locale = "zh-TW";
+				function getUrl(e){
+						return $('.'+e.target.className).attr('href')
+				}
+				var share_url = window.location.href;
+				share_url = share_url.substring(0, share_url.lastIndexOf("/"))
+				function addUtmToUrl(share_data) {
+					var old_url = share_data.url;
+					if (share_data.serviceCode == "facebook") {
+						old_url = share_url + "?utm_source=facebook_share&utm_medium=share&utm_content=ez";
+					} else if (share_data.serviceCode == "whatsapp") {
+						old_url = share_url +  "?utm_source=whatsapp_share&utm_medium=share&utm_content=ez";
+					} else if (share_data.serviceCode == "line") {
+						old_url = share_url + "?utm_source=line_share&utm_medium=share&utm_content=ez";
+					} else {
+						old_url = share_url + "?utm_source=clipboard_share&utm_medium=share&utm_content=ez";
+					}
+					var new_url = old_url;
+					return {
+						url: new_url,
+					};
+				}
+				a2a_config.callbacks = a2a_config.callbacks || [];
+				a2a_config.callbacks.push({
+					share: addUtmToUrl
+				});
+
+				a2a_config.templates = a2a_config.templates || {};
+				a2a_config.templates.whatsapp = {
+					text: "蘋果發佈會懶人包｜iPhone 17規格價錢全整理！新款Air史上最薄！ " + " | " + share_url + "?utm_source=whatsapp_share&utm_medium=share&utm_content=ez" + " \uD83D\uDCCC\u3010\u793E\u7FA4\u3011\u96C6\u5408\u5168\u7403\u65C5\u904A\u4E36\u7F8E\u98DF\u4E36\u89AA\u5B50\u4E36\u5973\u751F\u626E\u975A\u653B\u7565\u3001\u751F\u6D3B\u4E3B\u984C\u8207\u4EBA\u6C23\u71B1\u8A71\uD83D\uDCCC\u5373\u7747\r\nhttps:\/\/ulapp.hk\/w4gf4\r\n\r\n\u300CAPP\u9650\u6642\u6436\u300D\u5927\u6D3E\u79AE\u54C1\uD83C\uDF8A\u9022\u661F\u671F\u4E093PM\u5165App\u63DB\u9818\uFF01\r\n\u25B6 https:\/\/ulapp.hk\/jg1wb"
+				};
+
+				a2a_config.templates.line = {
+					text:  "蘋果發佈會懶人包｜iPhone 17規格價錢全整理！新款Air史上最薄！ " + " | "  + share_url + "?utm_source=line_share&utm_medium=share&utm_content=ez" + " \u3010\u570D\u7210\uD83D\uDCAC\u3011\u300A\u793E\u7FA4\u300B\u96C6\u5408\u5168\u7403\u65C5\u904A\u653B\u7565\u3001\u7F8E\u98DF\u751F\u6D3B\u4E3B\u984C\u8207\u4EBA\u6C23\u71B1\u8A71\uFF01\u7ACB\u5373\u5165\u569F\u5C55\u958B\u6FC0\u70C8\u8A0E\u8AD6 \r\n\u25B6 https:\/\/bit.ly\/4aNy1vp\r\n\t\r\n\u300CAPP\u9650\u6642\u6436\u300D\u5927\u6D3E\u79AE\u54C1\uD83C\uDF8A\u9022\u661F\u671F\u4E093PM\u5165App\u63DB\u9818\uFF01\r\n\u25B6 https:\/\/bit.ly\/3Dg7u9P"
+				};
+
+
+            </script>
+            <script async src="https://static.addtoany.com/menu/page.js"></script>
+            <!-- AddToAny END -->
+        </div>
+
+<script>
+window.addEventListener('load', function() {
+	var currentItem = $('.infinite-item:last-child .article');
+	if (currentItem != null && currentItem.attr("data-seourltitle") != null) {
+	    var urlTitle = currentItem.attr("data-seourltitle").trim();
+	    if (urlTitle != null && urlTitle != "") {
+	    	var docId = currentItem.attr("data-docid");
+			var documentId = docId;
+			urlTitle = urlTitle.replace(/[" !！「」\【\】\《\》\〔\〕\［\］\[\]\【\】\〖\〗\、\＼\\｜\『\』\.\‧\＄\："&$#%(（）)*+,./:;<=>?？@[\\\]^`{|│｜}~–—]+/g, "-");
+			urlTitle = urlTitle.replace(/^-+/, '').replace(/-+$/, '');
+			history.pushState(null, null, '/article/'+documentId+'/'+urlTitle);
+	    }
+	}
+});
+</script>
+    <script>
+
+   window.articleGptAdSlots = [];
+
+		function isEmptyOrSpaces(str){
+		    return str === null || String(str).match(/^ *$/) !== null;
+		}
+  // http://imakewebthings.com/waypoints/shortcuts/infinite-scroll/
+  jQuery(function($){
+    var infinite = new Waypoint.Infinite({
+      element: $('.infinite-container')[0],
+      onBeforePageLoad: function(){
+		$('div#loadingAnimation').show();
+      },
+      onAfterPageLoad: function(items){   	
+      	wordResize();
+      	setUpPhotoSwipe();
+      	FB.XFBML.parse();
+      	$("img").unveil();
+      	var pageNum = $('.infinite-item').length;
+      	var infiniteItem = items[0];
+      	var docId = $(infiniteItem).find('.article').data("docid");
+      	var documentId = docId;
+      	var headline = $(infiniteItem).find('.article').data("headline");
+      	var urlTitle = $(infiniteItem).find(".article").data("seourltitle").trim();
+        urlTitle = urlTitle.replace(/[" !！「」\【\】\《\》\〔\〕\［\］\[\]\【\】\〖\〗\、\＼\\｜\『\』\.\‧\＄\："&$#%(（）)*+,./:;<=>?？@[\\\]^`{|│｜}~–—]+/g, "-");
+		urlTitle = urlTitle.replace(/^-+/, '').replace(/-+$/, '');
+      	var sectionname = $(infiniteItem).find('.article').data("sectionname");
+      	var subsectionname = $(infiniteItem).find('.article').data("subsectionname");
+      	var sectionNameForDfp = sectionname;
+        if(!isEmptyOrSpaces(subsectionname)){
+        	sectionNameForDfp = sectionNameForDfp + "," + subsectionname;
+        }
+      	var formaltag = $(infiniteItem).find('.article').data("formaltag");
+      	var dfp = $(infiniteItem).find('#div-gpt-ad-1489113900426-2');
+      	var dfpDiv = "div-gpt-ad-1489113900426-2-"+pageNum;
+      	var dfp2 = $(infiniteItem).find('#div-gpt-ad-1489113900426-3');
+      	var dfpDiv2 = "div-gpt-ad-1489113900426-3-"+pageNum;
+      	var keywords = $(infiniteItem).find('.article').data("keywords");
+		var lastKnownScrollPosition = 0;
+		urlChange(documentId);
+		updateToc(documentId);
+		function ulVideo() {
+		    var ulvideos = document.querySelectorAll('.ulvideo');
+		    if (ulvideos.length) {
+		    	console.log("ulVideo");
+		        for (var index = 0; index < ulvideos.length; index++) {
+		            var element = ulvideos[index];
+		            if (!element.getAttribute('loaded')) {
+		                var videoNode = element.querySelector('video');
+		
+		                var player = videojs(videoNode, {
+		                    language: 'zh-TW',
+		                    controlBar: {
+		                        volumePanel: {
+		                            inline: false
+		                        },
+		                        subsCapsButton: false,
+		                        pictureInPictureToggle: false,
+		                    },
+		                    html5: {
+		                        vhs: {
+		                            overrideNative: !videojs.browser.IS_SAFARI
+		                        },
+		                        nativeAudioTracks: false,
+		                        nativeVideoTracks: false
+		                    }
+		                });
+
+		                var contentId = 20057123;
+						var videoId = videoNode.getAttribute("data-id");
+						var formalTags = videoNode.getAttribute("data-formalTags").replaceAll(",", "%2C");
+						var section = videoNode.getAttribute("data-section");
+						//var audienceEncoded = audience.replaceAll(",", "%2C");
+						var title = "蘋果發佈會懶人包｜iPhone 17規格價錢全整理！新款Air史上最薄！";
+						var pubDate = videoNode.getAttribute("data-publish-date");
+						var channelId = videoNode.getAttribute("data-channel");
+						var audienceEncoded = "123";
+		                if (index == 0 && typeof player.ima === "function") {
+		                    var options = {
+							adTagUrl: 'https://pubads.g.doubleclick.net/gampad/ads?iu=/183518426/ezone2_WebRP_Video_PreRoll&description_url=' + encodeURI(window.location.href) + '&tfcd=0&npa=0&sz=640x480%7C640x360%7C400x300&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&vpmute=1&correlator=' + Math.round(Math.random() * 10000000000)
+							+ '&cust_params=videoId%3D$' + videoId + '%26audience%3D' + audienceEncoded + '%26formal_tag%3D' + formalTags + '%26section%3D' + section + '%26live%3Dfalse',
+		                        locale: 'zh_hk',
+		                        adLabel: '廣告',
+		                        // adWillAutoplay: true, 
+		                        // adWillPlayMuted: false
+		                    };
+		
+		                    player.ima(options);
+		                    player.ima.initializeAdDisplayContainer();
+		                    // Bypass settings deprecation checking
+		                    player.ima.controller.setSetting('adWillAutoplay', true);
+		                    player.ima.controller.setSetting('adWillPlayMuted', false);
+		                }
+		
+						const ga4EventModel = {
+							channel: channelId == '10' ? 'ec' : 'ezone',
+							video: {
+								content: {id:videoId},
+								program: section == null?"NA":section,
+								duration: undefined,
+								title: title==null?"NA":title,
+								publishdate: pubDate,
+							},
+							content: { id: contentId == null?"NA":contentId ,type:'video'},
+							category: formalTags == null?"NA":formalTags,
+							pagename: title == null ?"NA":title,
+							screen: "article_detail",
+						};
+						videoTracking(player,ga4EventModel)
+		                // player.httpSourceSelector({
+		                //     default: 'auto'
+		                // })
+		
+		                element.setAttribute('loaded', true);
+		            }
+		        }
+		        window.matomoMediaAnalyticsAsyncInit();
+		    }
+		}
+		
+		function autoPlayVideoHandler() {
+		    if (!document.pictureInPictureElement) {
+		        var allPlayers1 = videojs.getAllPlayers();
+		        for (var index1 = 0; index1 < allPlayers1.length; index1++) {
+		            var player = allPlayers1[index1];
+		            var container = player.contentEl();
+		            var bound = container.getBoundingClientRect();
+		            if (bound.top >= 0 && bound.left >= 0 && bound.bottom <= (window.innerHeight || document.documentElement.clientHeight) && bound.right <= (window.innerWidth || document.documentElement.clientWidth)) {
+		                if (window.pageYOffset > lastKnownScrollPosition && !container.getAttribute('autoplayed')) {
+		                    if (typeof player.ads === 'object' && player.ads.isAdPlaying()) {
+		                        player.ima.resumeAd();
+		                    } else {
+		                        var startPlayPromise = player.play();
+		                        if (startPlayPromise !== undefined) {
+		                            startPlayPromise.then(function (player) {
+		                                var allPlayers2 = videojs.getAllPlayers();
+		                                for (var index2 = 0; index2 < allPlayers2.length; index2++) {
+		                                    var element = allPlayers2[index2];
+		                                    if (element.id() != player.id()) {
+		                                        if (!element.paused()) {
+		                                            element.pause();
+		                                        } else if (typeof element.ima === 'object' && element.ima.controller.sdkImpl.isAdPlaying()) {
+		                                            element.ima.pauseAd();
+		                                        }
+		                                    }
+		                                }
+		                            }).catch(function (error) {
+		                                // console.error(error)
+		                                // alert(error.name + ": " + error.message)
+		                                if (error.name === "NotAllowedError") {
+		
+		                                } else {
+		
+		                                }
+		                            });
+		                        }
+		                    }
+		                    container.setAttribute('autoplayed', true);
+		                }
+		            } else {
+		                if (!player.paused()) {
+		                    player.pause();
+		                } else if (typeof player.ima === 'object' && player.ima.controller.sdkImpl.isAdPlaying()) {
+		                    player.ima.pauseAd();
+		                }
+		                container.removeAttribute('autoplayed');
+		            }
+		        }
+		    }
+		    lastKnownScrollPosition = window.pageYOffset;
+		}
+		console.log("scroll");
+		document.addEventListener('scroll', autoPlayVideoHandler);
+		$( document ).ready(function() {
+			ulVideo();
+			autoPlayVideoHandler();
+		});
+      	googletag.cmd.push(function() {
+      		var pageLeftMapping = googletag.sizeMapping()
+      		.addSize([0, 0], [[300, 250],[300, 100],[320, 100],[320, 50]])
+      		.addSize([1200, 200], [[728, 90]]).build();
+      		if(isEmptyOrSpaces(formaltag)){
+        		var firstAd = googletag.defineSlot('/183518426/ezone2_webrp_detail_fixed03', [[300, 100], [728, 90], [300, 250], [320, 100], [320, 50], [970, 90], [970, 160]], dfpDiv)
+	      		.defineSizeMapping(pageLeftMapping).addService(googletag.pubads())
+	      		.setTargeting("article_id", docId)
+	      		.setTargeting("section", sectionNameForDfp)
+	      		.setTargeting("keyword", keywords);
+	      		var secondAd = googletag.defineSlot('/183518426/ezone2_webrp_detail_fixed04', [[300, 100], [728, 90], [300, 250], [320, 100], [320, 50], [970, 90], [970, 160]], dfpDiv2)
+	      		.defineSizeMapping(pageLeftMapping).addService(googletag.pubads())
+	      		.setTargeting("article_id", docId)
+	      		.setTargeting("section", sectionNameForDfp)
+	      		.setTargeting("keyword", keywords);
+	    		window.articleGptAdSlots.push(firstAd);
+	  			window.articleGptAdSlots.push(secondAd);
+        	}else{
+        		var firstAd = googletag.defineSlot('/183518426/ezone2_webrp_detail_fixed03', [[300, 100], [728, 90], [300, 250], [320, 100], [320, 50], [970, 90], [970, 160]], dfpDiv)
+	      		.defineSizeMapping(pageLeftMapping).addService(googletag.pubads())
+	      		.setTargeting("article_id", docId)
+	      		.setTargeting("section", sectionNameForDfp)
+	      		.setTargeting("formal_tag", formaltag)
+	      		.setTargeting("keyword", keywords);
+	      		var secondAd = googletag.defineSlot('/183518426/ezone2_webrp_detail_fixed04', [[300, 100], [728, 90], [300, 250], [320, 100], [320, 50], [970, 90], [970, 160]], dfpDiv2)
+	      		.defineSizeMapping(pageLeftMapping).addService(googletag.pubads())
+	      		.setTargeting("article_id", docId)
+	      		.setTargeting("section", sectionNameForDfp)
+	      		.setTargeting("formal_tag", formaltag)
+	      		.setTargeting("keyword", keywords);
+	    		window.articleGptAdSlots.push(firstAd);
+	  			window.articleGptAdSlots.push(secondAd);
+        	}		
+  		});
+      	var str = "<div id=\""+dfpDiv+"\" class=\"col-md-12 text-center center-block\" style=\"margin-bottom:20px;padding:0;\"><script>googletag.cmd.push(function() { googletag.display(\""+dfpDiv+"\");});<\/script></div>";
+      	var str2 = "<div id=\""+dfpDiv2+"\" class=\"col-md-12 text-center center-block\" style=\"margin-bottom:20px;padding:0;\"><script>googletag.cmd.push(function() { googletag.display(\""+dfpDiv2+"\");});<\/script></div>";
+      	$(dfp).replaceWith(str);
+      	$(dfp2).replaceWith(str2);  	
+
+      	infiniteItem.setAttribute('pageNum', pageNum);
+      	//ga('send', 'event', '載入更多', 'Load', docId);
+      	
+      	var link = 'https://ezone.hk/article/'+docId+'/'+headline;
+      	var _comscore = _comscore || [];
+      	_comscore.push({  c1: "2", c2: "19001509", c4: link});
+  		(function() {
+    		var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    		s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    		el.parentNode.insertBefore(s, el);
+  		})();
+  		
+		$('div#loadingAnimation').hide();
+      }
+    });
+  });
+	document.addEventListener('DOMContentLoaded', function () {
+            // Function to handle link clicks for smooth scrolling
+            function handleLinkClick(event) {
+                const href = event.target.getAttribute('href');
+                if (event.target.tagName === 'A' && href.startsWith('#mcetoc')) {
+                    // Prevent the default action
+                    event.preventDefault();
+
+                    // Find the target section using the href
+                    const targetSection = document.querySelector(href);
+                    if (targetSection) {
+                        // Scroll smoothly to the target section
+                        targetSection.scrollIntoView({ behavior: 'smooth' });
+                    }
+                }
+            }
+
+            // Attach the click event listener to the document
+            document.addEventListener('click', handleLinkClick);
+    });
+  	/*window.dataLayer.push({
+		'event':'ultriggerpageview',
+		'ga4': {
+		'pageview_event_name': 'page_view',
+		'service': 'article',
+		'title': "蘋果發佈會懶人包｜iPhone 17規格價錢全整理！新款Air史上最薄！ - ezone.hk - iPhone - iPhone - D250910",
+		'content': {'id':"20057123", 'type':'article'},
+		'category': '科技', 'video':{'program':'NA'},
+		'author': '黃俊翔',
+		'taglist':"科技,蘋果發佈會",
+		'publishdate': '2025-09-10 03:37:50',
+		'primary':{'main': '','sub': 'NA'},
+		'pageurl': window.location.href,
+		'pagename':  "蘋果發佈會懶人包｜iPhone 17規格價錢全整理！新款Air史上最薄！ - ezone.hk - iPhone - iPhone - D250910"}
+	});*/
+    $(function(){
+    $(window).bind('scroll', function() {
+        $('.infinite-item').each(function() {
+            var infiniteItem = $(this);
+            var documentId = infiniteItem.find(".article").data("docid");
+            var headline = infiniteItem.find(".article").data("headline");
+            var urlTitle = infiniteItem.find(".article").data("seourltitle").trim();
+            urlTitle = urlTitle.replace(/[" !！「」\【\】\《\》\〔\〕\［\］\[\]\【\】\〖\〗\、\＼\\｜\『\』\.\‧\＄\："&$#%(（）)*+,./:;<=>?？@[\\\]^`{|│｜}~–—]+/g, "-");
+			urlTitle = urlTitle.replace(/^-+/, '').replace(/-+$/, '');
+            var metatitle = infiniteItem.find(".article").data("metatitle");
+            var position = infiniteItem.position().top - $(window).scrollTop();
+            var author = infiniteItem.find(".article").data("author");
+            var main_cate = infiniteItem.find(".article").data("sectionname");
+            var sub_cate = infiniteItem.find(".article").data("subsectionname");
+            var taglist = infiniteItem.find(".article").data("formaltag");
+            var publishdate = infiniteItem.find(".article").data("publishdate");
+            const pDate = publishdate.split(" ");
+            const reformDate = pDate[0].split("-");
+            var formDate = reformDate[2]+'-'+reformDate[1]+'-'+reformDate[0];
+            
+            var tags = infiniteItem.find(".article").data("tags");
+            var pageurl = window.location.origin +'/article/'+ documentId +'/'+ headline +'?ref=scroll';
+			var ga4Channel = infiniteItem.find(".article").data("matomochannelcode");
+
+			let model = {
+				'pageview_event_name': 'infinite_scroll',
+				'service': 'article',
+				'title': metatitle,
+				'content': {'id':documentId == null ?'NA':documentId.toString(),'type':'article'},
+				'category': '科技', 'video':{'program':'NA'},
+				'author': author==null||author==''?'NA':author,
+				'taglist':tags==null||tags==''?'NA':tags,
+				'publishdate': formDate==null||formDate==''?'NA':formDate,
+				'primary': {
+					'main': main_cate == null||main_cate =='' ? 'NA' : main_cate,
+					'sub': sub_cate == null||sub_cate ==''? 'NA' : sub_cate
+				},
+				'pageurl': pageurl,
+				'pagename':metatitle,
+				'screen': 'article_detail'
+			}
+			var tocDiv = $('.page-right');
+			if (tocDiv) {
+				tocDivId = tocDiv[0].getAttribute('data-articleId');
+				if (window.location.href.indexOf(tocDivId) == -1) {
+					if (tocDiv.find('.mce-toc')[0]) {
+						tocDiv.find('.mce-toc')[0].style.display = 'none';
+					}
+					if (infiniteItem.find('.toc-mobile')[0]) {
+						infiniteItem.find('.toc-mobile')[0].style.display = 'none';
+					}
+				} else {
+					if (tocDiv.find('.mce-toc')[0]) {
+						tocDiv.find('.mce-toc')[0].style.display = 'block';
+					}
+					if (infiniteItem.find('.toc-mobile')[0]) {
+						infiniteItem.find('.toc-mobile')[0].style.display = 'inline-flex';
+					}
+				}
+			}
+            if ((position <= 0) &&(position>-200)){
+            	var page;
+            	page = infiniteItem.attr('pageNum');
+            	if (page === undefined || page === null) {
+            		page = 1;
+            	}
+            	var currentUrl = window.location.href;
+            	if(currentUrl.indexOf(documentId) == -1){
+            		$(document).attr("title", metatitle);
+            		window.history.replaceState('nextPage', 'Title', '/article/'+documentId+'/'+urlTitle);
+            		$('meta[property=og\\:url]').attr('content', window.location.href);
+            		$('meta[name=twitter\\:url]').attr('content', window.location.href);
+     				//ga('send', 'pageview', {'page': '/article/'+documentId+'/'+headline+'?ref=scroll', 'title': metatitle});
+     				console.log("gaInfinite: " + metatitle);
+     				if (ga4Channel == '10') {
+						model.channel = 'ec';
+					}
+					if (page == 1) {
+						model.pageview_event_name = 'page_view';
+					}
+					window.dataLayer.push({
+						'event':'ultriggerpageview',
+						'ga4': model
+					});
+	                window.dataLayer.push({
+						'gapageview' : {
+								'dimension11': author,
+								'matomoDimension2' :  documentId,
+								'page' : '/article/'+documentId+'/'+headline+'?ref=scroll',
+								'title' : metatitle
+						},
+						'matomo' : {
+							'channelCode' : "test",
+							'referrerUrl' : currentUrl,
+							'customUrl' : '/article/'+documentId+'/'+headline+'?ref=scroll',
+							'documentTitle' : metatitle
+						}
+	                });
+	                window.dataLayer.push({
+						'event' : 'infinitescroll'
+					});
+            	}
+            } else {
+            	var page;
+            	page = infiniteItem.attr('pageNum');
+            	if (page === undefined || page === null) {
+            		page = 1;
+            	}
+            	var currentUrl = window.location.href;
+            	if (currentUrl.indexOf(documentId) != -1) {
+            		var passedCount = 0;
+            		var updateUrl = '/article/'+documentId+'/'+urlTitle;
+            	    var figureCount = infiniteItem.find('figure').length;
+					var galleryWrapperCount = infiniteItem.find('.gallery-container').length;
+					var photoSwipeContainerCount = infiniteItem.find('.photoSwipe-container').length;
+					var figuresOutsidePhotoSwipe = infiniteItem.find('figure').filter(function() {
+						return !$(this).closest('.photoSwipe-container').length;
+					});
+					var figuresOutsidePhotoSwipeCount = figuresOutsidePhotoSwipe.length;
+					var figureContainers = infiniteItem.find('figure');
+					var galleryWrappers = infiniteItem.find('gallery-wrapper');
+					var photoSwipeContainers = infiniteItem.find('figure');
+					var totalSetsOfImages = figuresOutsidePhotoSwipeCount + galleryWrapperCount + photoSwipeContainerCount - 1;
+					if (totalSetsOfImages > 2) {
+						function checkPassedElements() {
+							var scrollTop = $(window).scrollTop();
+							var windowHeight = $(window).height();
+
+							// Check each figure
+							/*infiniteItem.find('figure').each(function(index) {
+								if (index === 0) {
+									return;
+								}
+								var elementTop = $(this).offset().top;
+								var elementBottom = elementTop + $(this).outerHeight();
+								if (elementBottom < scrollTop) {
+									passedCount++;
+								}
+							});*/
+
+							// Check each gallery-wrapper
+							infiniteItem.find('.gallery-container').each(function(index) {
+								var elementTop = $(this).offset().top;
+								var elementBottom = elementTop + $(this).outerHeight();
+								if (elementBottom < scrollTop) {
+									passedCount++;
+								}
+							});
+
+							// Check each photoSwipe-container
+							infiniteItem.find('.photoSwipe-container').each(function() {
+								var elementTop = $(this).offset().top;
+								var elementBottom = elementTop + $(this).outerHeight();
+								if (elementBottom < scrollTop) {
+									passedCount++;
+								}
+							});
+						}
+						checkPassedElements();
+						//console.log('passedCount ' + passedCount);
+						var passed = Math.floor(passedCount / 2);
+						if (passed == 0) {
+							passed = -1;
+						}
+						if (passed > 0) {
+							updateUrl += '/' + passed;
+						}
+						//console.log("updateUrl " + updateUrl);
+						const currentUrl = window.location.href;
+						if (currentUrl.indexOf(encodeURI(updateUrl)) == -1) {
+							window.history.replaceState('samePage', 'Title', updateUrl);
+							if (ga4Channel == '10') {
+								model.channel = 'ec';
+							}
+							if (page == 1) {
+								model.pageview_event_name = 'page_view';
+							}
+							model.pageurl = updateUrl;
+							window.dataLayer.push({
+								'event':'ultriggerpageview',
+								'ga4': model
+							});
+						}
+					} else {
+						const headerStickyInner = infiniteItem.find('.ezone-heading');
+						const articleBottom = infiniteItem.find('.tags');
+						const rect = articleBottom[0].getBoundingClientRect();
+						//console.log(window.scrollY + " " + headerStickyInner[0].offsetTop + " " + rect.bottom + " " + window.innerHeight);
+						if (window.scrollY > headerStickyInner[0].offsetTop && rect.bottom  >= window.innerHeight) {
+							updateUrl += '/' + 1;
+						} else if (rect.bottom  <= window.innerHeight) {
+							updateUrl += '/' + 2;
+						}
+						const currentUrl = window.location.href;
+						if (currentUrl.indexOf(encodeURI(updateUrl)) == -1) {
+							window.history.replaceState('samePage', 'Title', updateUrl);
+							//console.log("page " + page);
+							//console.log(page != 1);
+							if (ga4Channel == '10') {
+								model.channel = 'ec';
+							}
+							if (page == 1) {
+								model.pageview_event_name = 'page_view';
+							}
+							model.pageurl = updateUrl;
+							window.dataLayer.push({
+								'event':'ultriggerpageview',
+								'ga4': model
+							});
+						}
+					}
+            	}
+            }
+        });        
+    });
+});
+    function setUpPhotoSwipe(){
+
+			var pageNum = $('.infinite-item').length;
+			var className = "photoSwipe" + pageNum;
+			$('.photoSwipe').each( function() {
+				$(this).attr('class', className);				
+			});
+    }
+    
+    function setCookie(c_name,value,expiredays){
+		document.cookie=c_name+ "=" +escape(value)+ ";path=/";
+	}
+
+	
+	function getCookie(c_name){
+		if (document.cookie.length>0){
+			c_start=document.cookie.indexOf(c_name + "=")
+			if (c_start!=-1){
+				c_start=c_start + c_name.length+1
+				c_end=document.cookie.indexOf(";",c_start)
+				if (c_end==-1) c_end=document.cookie.length
+					return unescape(document.cookie.substring(c_start,c_end))
+			}
+		}
+		return ""
+	}
+	
+    function updateClass(contentClass,ezoneHeadingClass){
+    	$('.infinite-item').children().each(function() {
+    		//console.log( $('.infinite-item').children().find('.ezone-heading') );
+    		var content = $('.infinite-item').children().find('.content');
+    		content.attr("class", "content " + contentClass);
+    		var ezoneHeading = $('.infinite-item').children().find('.ezone-heading');
+    		ezoneHeading.attr("class", "col-md-12  text-center ezone-heading " + ezoneHeadingClass);
+    	});
+    }
+    
+    function wordResize(){
+    
+    	var contentClass = getCookie("article__contentClass");
+    	var ezoneHeadingClass = getCookie("article__ezoneHeadingClass");
+    	
+    	if(contentClass!=null && contentClass!=""){
+    		updateClass(contentClass,ezoneHeadingClass);
+    	} else {
+    		setCookie("article__contentClass","");
+    		setCookie("article__ezoneHeadingClass","");
+    	}
+    	
+    	//console.log("contentClass(wordResize): " + contentClass);
+    	//console.log("ezoneHeadingClass(wordResize): " + ezoneHeadingClass);
+    	
+	    	$('.icon-search-minus').on('click', function (event) {
+	    		//if ($('.content').hasClass('content-large-large')) {
+	    		if(contentClass=="content-large-large") {
+	    			$('.content').removeClass('content-large-large');
+	    			$('.content').addClass('content-large');
+	    			$('.ezone-heading').removeClass('ezone-heading-large-large');
+	    			$('.ezone-heading').addClass('ezone-heading-large');
+	    			contentClass = "content-large";
+                    ezoneHeadingClass = "ezone-heading-large";
+	    		} else if(contentClass=="content-large") {
+	    			$('.content').removeClass('content-large');
+	    			$('.ezone-heading').removeClass('ezone-heading-large');
+	    			contentClass = "";
+                    ezoneHeadingClass = "";
+	    		} else if(contentClass=="content-small") {
+	    			$('.content').removeClass('content-small');
+	    			$('.content').addClass('content-small-small');
+	    			$('.ezone-heading').removeClass('ezone-heading-small');
+	    			$('.ezone-heading').addClass('ezone-heading-small-small');
+	    			contentClass = "content-small-small";
+                    ezoneHeadingClass = "ezone-heading-small-small";
+	    		} else if(contentClass=="content-small-small") {
+	    		} else {
+	    			$('.content').addClass('content-small');
+	    			$('.ezone-heading').addClass('ezone-heading-small');
+	    			contentClass = "content-small";
+                    ezoneHeadingClass = "ezone-heading-small";
+	    		}
+	    		setCookie("article__contentClass",contentClass);
+                setCookie("article__ezoneHeadingClass",ezoneHeadingClass);
+	    		console.log("contentClass: " + contentClass);
+	    		//console.log("ezoneHeadingClass: " + ezoneHeadingClass);
+	    		updateClass(contentClass,ezoneHeadingClass);
+	    	});
+    	
+            $('.icon-search-plus').on('click', function (event) {
+                if (contentClass=="content-small-small") {
+                    $('.content').removeClass('content-small-small');
+                    $('.content').addClass('content-small');
+                    $('.ezone-heading').removeClass('ezone-heading-small-small');
+                    $('.ezone-heading').addClass('ezone-heading-small');
+                    contentClass = "content-small";
+                    ezoneHeadingClass = "ezone-heading-small";
+                } else if (contentClass=="content-small") {
+                    $('.content').removeClass('content-small');
+                    $('.ezone-heading').removeClass('ezone-heading-small');
+                    contentClass = "";
+                    ezoneHeadingClass = "";
+                } else if (contentClass=="content-large") {
+                    $('.content').removeClass('content-large');
+                    $('.content').addClass('content-large-large');
+                    $('.ezone-heading').removeClass('ezone-heading-large');
+                    $('.ezone-heading').addClass('ezone-heading-large-large');
+                    contentClass = "content-large-large";
+                    ezoneHeadingClass = "ezone-heading-large-large";
+                } else if (contentClass=="content-large-large") {
+                } else {
+                    $('.content').addClass('content-large');
+                    $('.ezone-heading').addClass('ezone-heading-large');
+                    contentClass = "content-large";
+                    ezoneHeadingClass = "ezone-heading-large";
+                }
+                setCookie("article__contentClass",contentClass);
+                setCookie("article__ezoneHeadingClass",ezoneHeadingClass);
+                console.log("contentClass: " + contentClass);
+                //console.log("ezoneHeadingClass: " + ezoneHeadingClass);
+                updateClass(contentClass,ezoneHeadingClass);
+            });
+    }
+
+</script>
+<div class="modal fade" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="mapModalLabel" aria-hidden="true" style="display: none;">
+				<div class="modal-dialog modal-lg" style="top:30%">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="map-close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+							<h4 class="map-modal-title" id="mapModalLabel"></h4>
+						</div>
+						<div class="modal-body">
+							<div class="location-map" id="location-map">
+								<div style="width: 600px; height: 400px;" id="map_canvas"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			
+			<div id="ezone-footer" role="contentinfo">
+<div class="container">
+
+	<div class="col-md-2 col-xs-6">
+		<h3><a href="/srae001/科技焦點">科技焦點</a></h3>
+        <ul class="">
+        	<li><a href="/srae002/iPhone">iPhone</a></li>
+        	<li><a href="/srae005/5G流動">5G流動</a></li>
+        	<li><a href="/srae003/電腦">電腦</a></li>
+        	<li><a href="/srae006/數碼">數碼</a></li>
+        	<li><a href="/srae004/智能家居">智能家居</a></li>
+        	<li><a href="/srae007/科技">科技</a></li>
+        	<li><a href="/srae028/汽車">汽車</a></li>
+        	<li><a href="/srae029/人工智能">人工智能</a></li>
+        </ul>
+     </div>
+     
+     <div class="col-md-2 col-xs-6">
+     	<h3><a href="/srae008/網絡生活">網絡生活</a></h3>
+        <ul class="">
+        	<li><a href="/srae009/網絡熱話">網絡熱話</a></li>
+            <li><a href="/srae011/生活情報">生活情報</a></li>
+            <li><a href="/srae010/筍買着數">筍買着數</a></li>
+            <li><a href="/srae012/旅遊筍料">旅遊筍料</a></li>
+            <li><a href="/srae027/熱門話題">熱門話題</a></li>
+            <li><a href="#">&nbsp;</a></li>
+            <li><a href="#">&nbsp;</a></li>
+        </ul>
+     </div>
+     
+     <div class="col-md-2 col-xs-6">
+     	<h3><a href="/srae013/遊戲動漫">遊戲動漫</a></h3>
+        <ul class="">
+        	<li><a href="/srae014/熱門遊戲">熱門遊戲</a></li>
+            <li><a href="/srae015/電競裝備">電競裝備</a></li>
+            <li><a href="/srae016/動漫玩具">動漫玩具</a></li>
+        </ul>
+     </div>
+     
+	<div class="col-md-2 col-xs-6">
+    	<h3><a href="/srae017/教學評測">教學評測</a></h3>
+    	<ul class="">
+        	<li><a href="/srae018/應用秘技">應用秘技</a></li>
+            <li><a href="/srae019/新品測試">新品測試</a></li>
+            <li><a href="/srae020/Apps 情報">Apps 情報 </a> </li>
+        </ul>
+    </div>
+    
+	<div class="col-md-2 col-xs-6">
+    	<h3><a href="/srae021/IT Times">IT Times </a></h3>
+        <ul class="">
+        	<li><a href="/srae022/業界頭條">業界頭條</a></li>
+            <li><a href="/srae023/AI 策略">AI 策略</a></li>
+            <li><a href="/srae024/名家專欄">名家專欄 </a></li>
+        </ul>
+    </div>
+    
+	<div class="col-md-2 col-xs-6">
+    	<h3><a>其他</a></h3>
+        <ul class="">
+            <li><a href="https://www.ulifestyle.com.hk/aboutus">私隱政策</a></li>
+            <li><a href="https://www.ulifestyle.com.hk/aboutus">免責聲明</a></li>
+            <li><a href="/aboutus">聯絡/關於我們</a></li>
+        </ul>
+    </div>
+    
+    <div class="col-md-12 col-xs-12 ezone-copyright text-center">
+    	<p>&copy; 2025 e-zone. All Rights Reserved. </p>
+    </div>
+    
+</div>
+			</div>
+			
+			
+
+		<!-- /183518426/Test_EZ_Splash 
+		<div id='div-gpt-ad-1498104784941-0' style='height:480px; width:320px;'>
+			<script>
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-1498104784941-0'); });
+			</script>
+		</div>	
+		-->
+		 <div id='webRPRefresh' class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			 <script>
+				googletag.cmd.push(function() { googletag.display('webRPRefresh'); });
+		 	</script>
+ 		</div>
+    </div>
+	 
+<!-- jQuery -->
+		
+        <!-- jQuery Easing -->
+        <script async defer src="/js/jquery.easing.1.3.js"></script>
+        <!-- Bootstrap -->
+        <script src="/js/bootstrap.min.js"></script>
+        <script async defer src="/js/owl.carousel.min.js"></script>  
+        <script async defer src="/js/jquery.flexslider-min.js"></script>
+        <script src="/js/detail-util.js?v=202307051000"></script>
+            <script src="/js/waypoints/jquery.waypoints.min.js"></script>
+        	<script src="/js/waypoints/shortcuts/infinite.min.js"></script> 	
+        <script async defer src="/js/main.js"></script>
+        
+
+        
+        <script>
+            $('#myTabs a').click(function (e) {
+                e.preventDefault()
+                $(this).tab('show')
+            })
+        </script>
+        <script>
+            $(function () {
+                $('a[href="#search"]').on('click', function (event) {
+                    event.preventDefault();
+                    $('#search').addClass('open');
+                    $('#search > form > input[type="search"]').focus();
+                    $('body').removeClass('offcanvas-visible');
+                });
+                $('#search, #search button.close').on('click keyup', function (event) {
+                    if (event.target == this || event.target.className == 'close' || event.keyCode == 27) {
+                        $(this).removeClass('open');
+                    }
+                });
+                    // Sets interval...what is transition slide speed?
+                $('#fullcarousel-example').carousel({
+                    interval: 3000
+                });         
+                
+            });
+
+			loadScriptAsync(
+  				"/js/jquery.unveil.js", 
+  				function() {
+      				$("img").unveil();
+   				}
+			);
+
+            function searchCheck(keywordFieldId) {
+				var x = document.getElementById(keywordFieldId).value;
+				if (x == "") {
+					return false;
+				};
+			}
+
+        </script>
+        
+    <script>
+      var loadDeferredStyles = function() {
+        var addStylesNode = document.getElementById("deferred-styles");
+        var replacement = document.createElement("div");
+        replacement.innerHTML = addStylesNode.textContent;
+        document.body.appendChild(replacement)
+        addStylesNode.parentElement.removeChild(addStylesNode);
+      };
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+      else window.addEventListener('load', loadDeferredStyles);
+      
+	function sendGa4ButtonEventWithCustomParam(model, event_name, map) {
+		model.event_name = event_name	
+		for (const key in map){
+		    model[key]= map[key]
+		}
+		model.channel = 'ezone'
+		console.log(model)
+		window.google_tag_manager["GTM-KGZHX8"].dataLayer.set('ga4', undefined)
+		window.dataLayer = window.dataLayer || [];
+		window.dataLayer.push({
+			event: "btnEventTrigger",
+			ga4: model,
+		});	
+	}
+	
+	function sendGa4ImageGalleryEvent(ele,url) {
+        var infiniteItem =$(ele).closest('.infinite-item');
+        var documentId = infiniteItem.find(".article").data("docid");
+        var headline = infiniteItem.find(".article").data("headline");
+        headline = encodeURI(headline);
+        var channelCode = infiniteItem.find(".article").data("matomochannelcode");
+        var metatitle = infiniteItem.find(".article").data("metatitle");
+        var position = infiniteItem.position().top - $(window).scrollTop();
+        var author = infiniteItem.find(".article").data("author");
+        var main_cate = infiniteItem.find(".article").data("sectionname");
+        var sub_cate = infiniteItem.find(".article").data("subsectionname");
+        var taglist = infiniteItem.find(".article").data("formaltag");
+        var publishdate = infiniteItem.find(".article").data("publishdate");
+        const pDate = publishdate.split(" ");
+        const reformDate = pDate[0].split("-");
+        var formDate = reformDate[2]+'-'+reformDate[1]+'-'+reformDate[0];
+        var tags = infiniteItem.find(".article").data("tags");
+	    let model = {
+	            'channel': channelCode == '10' ? 'ec' : 'ezone',
+		        'pageview_event_name': 'image_gallery',
+		        'service': 'article',
+		        'content': {'id':documentId == null ?'NA':documentId.toString(),'type':'image'},
+				'category': '科技', 
+				'video':{'program':'NA'},
+				'author': author==null||author==''?'NA':author, 
+				'taglist':tags==null||tags==''?'NA':tags, 
+				'publishdate': formDate==null||formDate==''?'NA':formDate,
+		        'primary': {
+						'main': main_cate == null||main_cate =='' ? 'NA' : main_cate,
+						'sub': sub_cate == null||sub_cate ==''? 'NA' : sub_cate
+				},
+				'pagename':metatitle
+		    }
+		//let model = ga4ImageGalleryModel
+		model.pageurl = url
+        console.log(model)
+		window.dataLayer = window.dataLayer || [];
+		window.dataLayer.push({
+		    'channel': 'ezone',
+			'event': "ultriggerpageview",
+			'ga4': model,
+		});
+	}
+
+    </script>
+        
+        <style>
+        .infinite-more-link {
+          display: none;
+        }
+      	</style>
+    	
+
+</body>
+</html>

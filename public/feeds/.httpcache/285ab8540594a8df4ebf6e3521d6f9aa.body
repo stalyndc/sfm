@@ -1,0 +1,1037 @@
+	<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<!--
+TYPO3 Programming by Radio/Tele FFH GmbH und Co. Betriebs KG
+This website is powered by TYPO3 - inspiring people to share!
+TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+TYPO3 is copyright 1998-2025 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+Information and contribution at https://typo3.org/
+-->
+<base href="https://www.ffh.de">
+<meta http-equiv="x-ua-compatible" content="IE=edge" />
+<meta name="generator" content="TYPO3 CMS" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, minimum-scale=1, viewport-fit=cover" />
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="description" content="Aktuelle Nachrichten aus der Landespolitik in Hessen: Meldungen zur Landesregierung, Infos zu Wahlen und News von Ministerinnen und Ministern" />
+<meta property="og:locale" content="de_DE" />
+<meta property="og:site_name" content="HIT RADIO FFH" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.ffh.de/nachrichten/themen/landespolitik.html" />
+<meta property="og:image" content="https://www.ffh.de/fileadmin/_processed_/0/d/csm_ffh_news_1000x563_84fad56ff1.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="675" />
+<meta property="og:title" content="Landespolitik News: Aktuelle Nachrichten im Überblick" />
+<meta property="og:description" content="Aktuelle Nachrichten aus der Landespolitik in Hessen: Meldungen zur Landesregierung, Infos zu Wahlen und News von Ministerinnen und Ministern" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@FFHde" />
+<meta name="twitter:site:id" content="60961508" />
+<meta name="twitter:image" content="https://www.ffh.de/fileadmin/_processed_/0/d/csm_ffh_news_1000x563_84fad56ff1.jpg" />
+<meta property="fb:pages" content="85822949683" />
+<link rel="stylesheet" href="https://static.ffh.de/typo3temp/assets/compressed/merged-e8f418cce3fc7427a7e3b39914bcf4ed-3994b34431709a55690db0523bba496d.css.gzip?1756908452" media="all">
+<link rel="stylesheet" href="https://static.ffh.de/typo3temp/assets/compressed/merged-107a8a707bcc4bbf30f5c0a632a4bd02-7a73112a072981e076f822d95992bce1.css.gzip?1756908452" media="print">
+<script src="https://static.ffh.de/typo3temp/assets/compressed/merged-94775fd61bd8fb027f8b240c662fec74-d9e976d172e26c6bfc4117b8629da719.js.gzip?1756908452"></script>
+<script>if(typeof webapps == 'undefined' || (typeof webapps != 'undefined' && webapps.cmp.isAvailable())) { window.gdprAppliesGlobally=true;if(!("cmp_id" in window)||window.cmp_id<1){window.cmp_id=0}if(!("cmp_cdid" in window)){window.cmp_cdid="613eb02602e8"}if(!("cmp_params" in window)){window.cmp_params=""}if(!("cmp_host" in window)){window.cmp_host="a.delivery.consentmanager.net"}if(!("cmp_cdn" in window)){window.cmp_cdn="cdn.consentmanager.net"}if(!("cmp_proto" in window)){window.cmp_proto="https:"}if(!("cmp_codesrc" in window)){window.cmp_codesrc="1"}window.cmp_getsupportedLangs=function(){var b=["DE","EN","FR","IT","NO","DA","FI","ES","PT","RO","BG","ET","EL","GA","HR","LV","LT","MT","NL","PL","SV","SK","SL","CS","HU","RU","SR","ZH","TR","UK","AR","BS"];if("cmp_customlanguages" in window){for(var a=0;a<window.cmp_customlanguages.length;a++){b.push(window.cmp_customlanguages[a].l.toUpperCase())}}return b};window.cmp_getRTLLangs=function(){var a=["AR"];if("cmp_customlanguages" in window){for(var b=0;b<window.cmp_customlanguages.length;b++){if("r" in window.cmp_customlanguages[b]&&window.cmp_customlanguages[b].r){a.push(window.cmp_customlanguages[b].l)}}}return a};window.cmp_getlang=function(j){if(typeof(j)!="boolean"){j=true}if(j&&typeof(cmp_getlang.usedlang)=="string"&&cmp_getlang.usedlang!==""){return cmp_getlang.usedlang}var g=window.cmp_getsupportedLangs();var c=[];var f=location.hash;var e=location.search;var a="languages" in navigator?navigator.languages:[];if(f.indexOf("cmplang=")!=-1){c.push(f.substr(f.indexOf("cmplang=")+8,2).toUpperCase())}else{if(e.indexOf("cmplang=")!=-1){c.push(e.substr(e.indexOf("cmplang=")+8,2).toUpperCase())}else{if("cmp_setlang" in window&&window.cmp_setlang!=""){c.push(window.cmp_setlang.toUpperCase())}else{if(a.length>0){for(var d=0;d<a.length;d++){c.push(a[d])}}}}}if("language" in navigator){c.push(navigator.language)}if("userLanguage" in navigator){c.push(navigator.userLanguage)}var h="";for(var d=0;d<c.length;d++){var b=c[d].toUpperCase();if(g.indexOf(b)!=-1){h=b;break}if(b.indexOf("-")!=-1){b=b.substr(0,2)}if(g.indexOf(b)!=-1){h=b;break}}if(h==""&&typeof(cmp_getlang.defaultlang)=="string"&&cmp_getlang.defaultlang!==""){return cmp_getlang.defaultlang}else{if(h==""){h="EN"}}h=h.toUpperCase();return h};(function(){var p=document;var r=p.getElementsByTagName;var t=window;var g="";var b="_en";if("cmp_getlang" in t){g=t.cmp_getlang().toLowerCase();if("cmp_customlanguages" in t){for(var k=0;k<t.cmp_customlanguages.length;k++){if(t.cmp_customlanguages[k].l.toUpperCase()==g.toUpperCase()){g="en";break}}}b="_"+g}function j(i,e){var w="";i+="=";var s=i.length;var d=location;if(d.hash.indexOf(i)!=-1){w=d.hash.substr(d.hash.indexOf(i)+s,9999)}else{if(d.search.indexOf(i)!=-1){w=d.search.substr(d.search.indexOf(i)+s,9999)}else{return e}}if(w.indexOf("&")!=-1){w=w.substr(0,w.indexOf("&"))}return w}var m=("cmp_proto" in t)?t.cmp_proto:"https:";if(m!="http:"&&m!="https:"){m="https:"}var n=("cmp_ref" in t)?t.cmp_ref:location.href;var v=p.createElement("script");v.setAttribute("data-cmp-ab","1");var f=j("cmpdesign","cmp_design" in t?t.cmp_design:"");var a=j("cmpregulationkey","cmp_regulationkey" in t?t.cmp_regulationkey:"");var q=j("cmpatt","cmp_att" in t?t.cmp_att:"");v.src=m+"//"+t.cmp_host+"/delivery/cmp.php?"+("cmp_id" in t&&t.cmp_id>0?"id="+t.cmp_id:"")+("cmp_cdid" in t?"&cdid="+t.cmp_cdid:"")+"&h="+encodeURIComponent(n)+(f!=""?"&cmpdesign="+encodeURIComponent(f):"")+(a!=""?"&cmpregulationkey="+encodeURIComponent(a):"")+(q!=""?"&cmpatt="+encodeURIComponent(q):"")+("cmp_params" in t?"&"+t.cmp_params:"")+(p.cookie.length>0?"&__cmpfcc=1":"")+"&l="+g.toLowerCase()+"&o="+(new Date()).getTime();v.type="text/javascript";v.async=true;if(p.currentScript&&p.currentScript.parentElement){p.currentScript.parentElement.appendChild(v)}else{if(p.body){p.body.appendChild(v)}else{var o=r("body");if(o.length==0){o=r("div")}if(o.length==0){o=r("span")}if(o.length==0){o=r("ins")}if(o.length==0){o=r("script")}if(o.length==0){o=r("head")}if(o.length>0){o[0].appendChild(v)}}}var c="js";var h=j("cmpdebugunminimized","cmpdebugunminimized" in t?t.cmpdebugunminimized:0)>0?"":".min";var u=j("cmpdebugcoverage","cmp_debugcoverage" in t?t.cmp_debugcoverage:"");if(u=="1"){c="instrumented";h=""}var v=p.createElement("script");v.src=m+"//"+t.cmp_cdn+"/delivery/"+c+"/cmp"+b+h+".js";v.type="text/javascript";v.setAttribute("data-cmp-ab","1");v.async=true;if(p.currentScript&&p.currentScript.parentElement){p.currentScript.parentElement.appendChild(v)}else{if(p.body){p.body.appendChild(v)}else{var o=r("body");if(o.length==0){o=r("div")}if(o.length==0){o=r("span")}if(o.length==0){o=r("ins")}if(o.length==0){o=r("script")}if(o.length==0){o=r("head")}if(o.length>0){o[0].appendChild(v)}}}})();window.cmp_addFrame=function(b){if(!window.frames[b]){if(document.body){var a=document.createElement("iframe");a.style.cssText="display:none";if("cmp_cdn" in window&&"cmp_ultrablocking" in window&&window.cmp_ultrablocking>0){a.src="//"+window.cmp_cdn+"/delivery/empty.html"}a.name=b;document.body.appendChild(a)}else{window.setTimeout(window.cmp_addFrame,10,b)}}};window.cmp_rc=function(h){var b=document.cookie;var f="";var d=0;while(b!=""&&d<100){d++;while(b.substr(0,1)==" "){b=b.substr(1,b.length)}var g=b.substring(0,b.indexOf("="));if(b.indexOf(";")!=-1){var c=b.substring(b.indexOf("=")+1,b.indexOf(";"))}else{var c=b.substr(b.indexOf("=")+1,b.length)}if(h==g){f=c}var e=b.indexOf(";")+1;if(e==0){e=b.length}b=b.substring(e,b.length)}return(f)};window.cmp_stub=function(){var a=arguments;__cmp.a=__cmp.a||[];if(!a.length){return __cmp.a}else{if(a[0]==="ping"){if(a[1]===2){a[2]({gdprApplies:gdprAppliesGlobally,cmpLoaded:false,cmpStatus:"stub",displayStatus:"hidden",apiVersion:"2.0",cmpId:31},true)}else{a[2](false,true)}}else{if(a[0]==="getUSPData"){a[2]({version:1,uspString:window.cmp_rc("")},true)}else{if(a[0]==="getTCData"){__cmp.a.push([].slice.apply(a))}else{if(a[0]==="addEventListener"||a[0]==="removeEventListener"){__cmp.a.push([].slice.apply(a))}else{if(a.length==4&&a[3]===false){a[2]({},false)}else{__cmp.a.push([].slice.apply(a))}}}}}}};window.cmp_gpp_ping=function(){return{gppVersion:"1.0",cmpStatus:"stub",cmpDisplayStatus:"hidden",supportedAPIs:["tcfca","usnat","usca","usva","usco","usut","usct"],cmpId:31}};window.cmp_gppstub=function(){var a=arguments;__gpp.q=__gpp.q||[];if(!a.length){return __gpp.q}var g=a[0];var f=a.length>1?a[1]:null;var e=a.length>2?a[2]:null;if(g==="ping"){return window.cmp_gpp_ping()}else{if(g==="addEventListener"){__gpp.e=__gpp.e||[];if(!("lastId" in __gpp)){__gpp.lastId=0}__gpp.lastId++;var c=__gpp.lastId;__gpp.e.push({id:c,callback:f});return{eventName:"listenerRegistered",listenerId:c,data:true,pingData:window.cmp_gpp_ping()}}else{if(g==="removeEventListener"){var h=false;__gpp.e=__gpp.e||[];for(var d=0;d<__gpp.e.length;d++){if(__gpp.e[d].id==e){__gpp.e[d].splice(d,1);h=true;break}}return{eventName:"listenerRemoved",listenerId:e,data:h,pingData:window.cmp_gpp_ping()}}else{if(g==="getGPPData"){return{sectionId:3,gppVersion:1,sectionList:[],applicableSections:[0],gppString:"",pingData:window.cmp_gpp_ping()}}else{if(g==="hasSection"||g==="getSection"||g==="getField"){return null}else{__gpp.q.push([].slice.apply(a))}}}}}};window.cmp_msghandler=function(d){var a=typeof d.data==="string";try{var c=a?JSON.parse(d.data):d.data}catch(f){var c=null}if(typeof(c)==="object"&&c!==null&&"__cmpCall" in c){var b=c.__cmpCall;window.__cmp(b.command,b.parameter,function(h,g){var e={__cmpReturn:{returnValue:h,success:g,callId:b.callId}};d.source.postMessage(a?JSON.stringify(e):e,"*")})}if(typeof(c)==="object"&&c!==null&&"__uspapiCall" in c){var b=c.__uspapiCall;window.__uspapi(b.command,b.version,function(h,g){var e={__uspapiReturn:{returnValue:h,success:g,callId:b.callId}};d.source.postMessage(a?JSON.stringify(e):e,"*")})}if(typeof(c)==="object"&&c!==null&&"__tcfapiCall" in c){var b=c.__tcfapiCall;window.__tcfapi(b.command,b.version,function(h,g){var e={__tcfapiReturn:{returnValue:h,success:g,callId:b.callId}};d.source.postMessage(a?JSON.stringify(e):e,"*")},b.parameter)}if(typeof(c)==="object"&&c!==null&&"__gppCall" in c){var b=c.__gppCall;window.__gpp(b.command,function(h,g){var e={__gppReturn:{returnValue:h,success:g,callId:b.callId}};d.source.postMessage(a?JSON.stringify(e):e,"*")},"parameter" in b?b.parameter:null,"version" in b?b.version:1)}};window.cmp_setStub=function(a){if(!(a in window)||(typeof(window[a])!=="function"&&typeof(window[a])!=="object"&&(typeof(window[a])==="undefined"||window[a]!==null))){window[a]=window.cmp_stub;window[a].msgHandler=window.cmp_msghandler;window.addEventListener("message",window.cmp_msghandler,false)}};window.cmp_setGppStub=function(a){if(!(a in window)||(typeof(window[a])!=="function"&&typeof(window[a])!=="object"&&(typeof(window[a])==="undefined"||window[a]!==null))){window[a]=window.cmp_gppstub;window[a].msgHandler=window.cmp_msghandler;window.addEventListener("message",window.cmp_msghandler,false)}};window.cmp_addFrame("__cmpLocator");if(!("cmp_disableusp" in window)||!window.cmp_disableusp){window.cmp_addFrame("__uspapiLocator")}if(!("cmp_disabletcf" in window)||!window.cmp_disabletcf){window.cmp_addFrame("__tcfapiLocator")}if(!("cmp_disablegpp" in window)||!window.cmp_disablegpp){window.cmp_addFrame("__gppLocator")}window.cmp_setStub("__cmp");if(!("cmp_disabletcf" in window)||!window.cmp_disabletcf){window.cmp_setStub("__tcfapi")}if(!("cmp_disableusp" in window)||!window.cmp_disableusp){window.cmp_setStub("__uspapi")}if(!("cmp_disablegpp" in window)||!window.cmp_disablegpp){window.cmp_setGppStub("__gpp")}; } if(typeof webapps != 'undefined') { webapps.cmp.initAppConsent(); }</script>    <link rel="shortcut icon" href="https://www.ffh.de/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="https://www.ffh.de/apple-touch-icon.png">
+<link rel="icon" sizes="192x192" href="https://www.ffh.de/android-icon-hd.png">
+<link rel="icon" sizes="128x128" href="https://www.ffh.de/android-icon.png">  	<script type="application/ld+json">
+{
+"@type": "NewsMediaOrganization",
+"@context":"https://schema.org",
+"name": "HIT RADIO FFH",
+"url":"https://www.ffh.de/",
+"logo": {
+"@type": "ImageObject",
+"url": "https://static.ffh.de/fileadmin/templates/ffh.de/images/logo-snippets.png",
+"width": 600,
+"height": 60
+},
+"sameAs":[
+"https://www.instagram.com/hitradioffh/",
+"https://twitter.com/FFHde/",
+"https://www.facebook.com/FFH/",
+"https://www.youtube.com/@ffhde",
+"https://www.tiktok.com/@hitradioffh"
+]
+}
+</script><link rel="radioepg" href="https://www.ffh.de/radiodns/spi/3.1/SI.xml" />  <script type="text/javascript">
+var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+var oms_screen_width = document.documentElement != 'undefined' ? document.documentElement.clientWidth : window.innerWidth;
+var omsv_centered = true;
+var adlWallPaperTop = oms_sbwp_top = 100;
+var oms_wp_div_ids = ['adLayerTop', 'pageWrapper'];
+if(oms_screen_width >= 1500) {
+adlWallPaperTop = oms_sbwp_top = 115;
+}
+</script>
+<script type="text/javascript" src="https://cdn.stroeerdigitalgroup.de/metatag/live/OMS_radioffh/metaTag.min.js"></script><title>Landespolitik News: Aktuelle Nachrichten im Überblick</title><script type="text/javascript">evaTax={'tOne': 'News', 'tTwo': 'Local News', 'tThree': '', 'tFour': '', 'tFive': '', 'tSix': ''};</script><script src="https://resource.ffh.de/rms-eva/244752-spa-rms.min.js"></script><!-- Matomo -->
+<script type="text/javascript">
+var _paq = window._paq || [];
+/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+_paq.push(['enableLinkTracking']);
+(function() {
+var u="//analytics.ffh.de/";
+_paq.push(['setTrackerUrl', u+'matomo.php']);
+_paq.push(['setSiteId', '1']);
+_paq.push(['enableHeartBeatTimer']);
+_paq.push(['MediaAnalytics::removePlayer', 'html5']);
+if(window.innerWidth < 1080) {
+_paq.push(['setCustomDimension', 2, 'mobile']);
+} else {
+_paq.push(['setCustomDimension', 2, 'desktop']);
+}
+var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+})();
+</script>
+<!-- End Matomo Code --><meta name="theme-color" content="#669900"><script type="module" src="https://static.ffh.de/fileadmin/templates/common/js/thirdparty/lazysizes/lazysizes.min.js?62135"></script><script type="module" src="https://static.ffh.de/fileadmin/templates/common/js/app.js?62135"></script>
+<link rel="canonical" href="https://www.ffh.de/nachrichten/themen/landespolitik.html"/>
+</head>
+<body class="" data-cijobid="62135" data-station="ffh">
+<div id="oms_gpt_outofpage"></div>
+<header class="opensearchserver.ignore">
+<div id="headerContainer">
+<div id="headerContainerInner" class="row">
+<div id="logoDesktop">
+<a href="/index.html"><img src="https://static.ffh.de/fileadmin/templates/ffh.de/images/logo.svg" alt="HIT RADIO FFH"></a>
+</div>
+<div id="menuWrapper">
+<div id="serviceBarContainer" class="row hidden-mobile">
+<div class="loadjs" data-type="module" data-src="https://static.ffh.de/fileadmin/templates/common/js/modules/onair/webradios.js" data-class="Webradios" data-scope="#currentStationHeader"></div>
+<div id="currentStationHeader" class="col-desktop-60 hidden-mobile" data-webradio="ffh">
+<div id="webradioOnAir">
+<span id="currentStationOnAirLabel">ON AIR:</span>
+<a href="/musik/playlist.html">
+<span id="currentStationSong" class="needsSongInfo webradioStreamTeaser-ffh">
+<span class="artist inline"></span><span class="titleSeperator"> - </span><span class="title"></span>
+</span>
+</a>
+</div>
+</div>
+<div id="serviceBarDesktop" class="col-desktop-40 col-mobile-100">
+</div>
+</div>
+<nav id="mainNavContainer">
+<ul id="navigation"><li id="loginNavigation" class="hidden-desktop">
+<div id="loginNavigationImageContainer">
+<a href="/login.html?mode=settings">
+<img class="loginProfilePicture" data-type="app" data-placeholder="" data-size="medium" src="https://static.ffh.de/fileadmin/templates/ffh.de/images/spezialseiten/login/loggedoutAvatar.svg" alt="Jetzt einloggen" />
+<span></span>
+</a>
+</div>
+<div id="loginNavigationCircleContainer">
+<a class="login_circle" href="/login.html?mode=achievements" data-background="#669900" data-foreground="#ffff00" data-size="88" data-stroke="6" alt=""></a>
+</div>
+<div id="callToActionButtonContainer">
+<a class="loginNavigationActionButton loginActionLogin loggedout" href="/login.html">Login</a>
+<a class="loginNavigationActionButton loggedout" href="/login.html?mode=signup">Registrieren</a>
+<a class="loginNavigationActionButton loggedin" href="/login.html">Mein FFH</a>
+</div>
+<div class="clearBoth"></div>
+</li><li id="fle_news" class="hasSub current"><a href="/nachrichten/top-meldungen.html">Nachrichten</a><ul class="subnav hidden-desktop"><li><a href="/nachrichten/top-meldungen.html">Top-Meldungen</a></li><li><a href="/nachrichten/hessen.html">Hessen</a></li><li><a href="/nachrichten/wirtschaft-aktuell.html">Wirtschaft aktuell</a></li><li><a href="/nachrichten/sport.html">Sport</a></li><li><a href="/nachrichten/sport/tabellen-ergebnisse/fussball.html">Fußball-Ergebnisse</a></li><li><a href="/nachrichten/magazin.html">Magazin</a></li><li><a href="/nachrichten/wetter.html">Wetter</a></li></ul></li><li class="hasSub" id="fle_verkehr"><a href="/verkehr/staupilot.html">Verkehr</a><ul class="subnav hidden-desktop"><li><a href="/verkehr/staupilot.html">Verkehrsservice</a></li><li><a href="/verkehr/blitzer.html">Blitzer</a></li><li><a href="/nachrichten/top-meldungen/405082-dauerbaustellen-in-hessen.html">Baustellen</a></li><li><a href="/verkehr/schulausfaelle.html">Schulausfälle</a></li><li><a href="/verkehr/sprit-spion.html">Sprit-Spion</a></li><li><a href="/verkehr/parkhaeuser.html">Parkhäuser</a></li><li><a href="/verkehr/flugplan.html">Flugplan</a></li></ul></li><li class="hasSub" id="fle_horoskop"><a href="/horoskop/heute.html">Horoskop</a><ul class="subnav hidden-desktop"><li><a href="/horoskop/heute.html">Heute</a></li><li><a href="/horoskop/morgen.html">Morgen</a></li><li><a href="/horoskop/woche.html">Woche</a></li><li><a href="/horoskop/monat.html">Monat</a></li><li><a href="/horoskop/jahr.html">Jahr</a></li><li><a href="/horoskop/aszendenten-rechner.html">Aszendenten-Rechner</a></li><li><a href="/horoskop/partner-check.html">Partner-Check</a></li></ul></li><li class="hasSub" id="fle_onair"><a href="/on-air/guten-morgen-hessen.html">On Air</a><ul class="subnav hidden-desktop"><li><a href="/on-air/guten-morgen-hessen.html">Guten Morgen Hessen</a></li><li><a href="/on-air/sendungen/echt-evren.html">Echt Evren</a></li><li><a href="/on-air/sendungen.html">Sendungen</a></li><li><a href="/on-air/webcam.html">Webcam</a></li><li><a href="/on-air/moderatoren-team.html">Moderatoren &amp; Team</a></li><li><a href="/podcast.html">Podcasts</a></li><li><a href="/on-air/themen-ticker.html">Themen-Ticker</a></li></ul></li><li class="hasSub" id="fle_musik"><a href="/musik.html">Musik</a><ul class="subnav hidden-desktop"><li><a href="/musik.html">Webradios</a></li><li><a href="/musik/playlist.html">Playlist</a></li><li><a href="/musik/webradio/13-ffh-top-40.html">Top 40</a></li><li><a href="/musik/webradio/66-ffh-top-1000.html">Top 1000</a></li><li><a href="/musik/webradio/42-ffh-leider-geil.html">Leider geil</a></li><li><a href="https://www.ffh.de/login.html?mode=bookmarks">Mein Musikmix</a></li><li><a href="/musik/hit-news.html">Hit-News</a></li><li><a href="/musik/hit-wuenschen.html">Hit wünschen</a></li><li><a href="/musik/hit-quiz.html">Hit-Quiz</a></li><li><a href="/musik/neu-bei-ffh.html">Neu bei FFH</a></li></ul></li><li class="hasSub" id="fle_aktionen"><a href="/aktionen/ffh-aktionen.html">Aktionen</a><ul class="subnav hidden-desktop"><li><a href="/aktionen/ffh-aktionen.html">FFH-Aktionen</a></li><li><a href="/aktionen/ffh-just-white-2025.html">Just White</a></li><li><a href="/aktionen/2025/wuensch-dir-was-dann-kriegste-das.html">Wünsch dir was</a></li><li><a href="/aktionen/echte-macher.html">Echte Macher</a></li><li><a href="/aktionen/cheffe-versenken.html">Cheffe versenken</a></li><li><a href="/video/augenzeugen.html">Augenzeugen</a></li><li><a href="/aktionen/punkte-aktionen.html">Punkte-Aktionen</a></li></ul></li><li id="fle_video"><a href="/video.html">Video</a></li><li id="fle_"><a href="/podcast.html">Podcast</a></li><li class="hasSub" id="fle_freizeit"><a href="/freizeit/ticketshop.html">Freizeit</a><ul class="subnav hidden-desktop"><li><a href="/freizeit/ticketshop.html">Ticketshop</a></li><li><a href="/freizeit/was-ist-los.html">Was ist los</a></li><li><a href="/freizeit/100-dinge.html">100 Dinge</a></li><li><a href="/freizeit/hessens-lieblingsspielplaetze.html">Spielplätze</a></li><li><a href="/freizeit/wohlfuehlzeit.html">Wohlfühlzeit</a></li><li><a href="/on-air/ffh-rezepte.html">Rezepte</a></li><li><a href="/freizeit/spiele.html">Spiele</a></li><li><a href="/freizeit/quiz.html">Quiz</a></li><li><a href="/freizeit/radio-on-tour.html">Radio on Tour</a></li><li><a href="/freizeit/just-party.html">Just Party</a></li><li><a href="/freizeit/just-kids.html">Just Kids</a></li></ul></li><li class="hasSub" id="fle_ffhwelt"><a href="/ffh-welt/app.html">FFH-Welt</a><ul class="subnav hidden-desktop"><li><a href="/ffh-welt/app.html">App</a></li><li><a href="/ffh-welt/frequenzen.html">Frequenzen</a></li><li><a href="/ffh-welt/chat.html">Chat</a></li><li><a href="/ffh-welt/kontakt.html">Kontakt</a></li><li><a href="/ffh-welt/newsletter.html">Newsletter</a></li><li><a href="/ffh-welt/jobs.html">Jobs</a></li><li><a href="/ffh-welt/fuehrungen.html">Führungen</a></li><li><a href="/ffh-welt/fussballteam.html">Fußballteam</a></li><li><a href="https://academy.ffh.de" target="_blank" rel="noreferrer">FFH Academy</a></li><li><a href="https://www.ffh-mediengruppe.de/presse/presseanfragen-media-kits.html" target="_blank">Presse</a></li><li><a href="https://www.ffh-mediengruppe.de" target="_blank">Werbung</a></li><li><a href="/index/impressum-und-datenschutz.html">Impressum</a></li></ul></li></ul>
+</nav>
+</div>
+</div>
+<div id="channelNavContainer" class="hidden-desktop"></div>
+</div>
+<div id="subNavContainer" class="hidden-mobile">
+<div id="subNavContainerInner"></div>
+</div>
+</header>
+<div id="pageWrapper" data-azone="nationalnews" data-section="content" data-evatax="{'tOne': 'News', 'tTwo': 'Local News', 'tThree': '', 'tFour': '', 'tFive': '', 'tSix': ''}" data-livestatsid="12129" data-updateallstationsurl="/update-onair-info?tx_ffhonair_pi2%5Baction%5D=getallsonginfo&amp;tx_ffhonair_pi2%5Bcontroller%5D=Webradio&amp;tx_ffhonair_pi2%5Bformat%5D=json&amp;type=210&amp;cHash=072a80f1588be6728ef4213e76c4f4eb" data-updatecurrentstationinfourl="/update-onair-info?tx_ffhonair_pi1%5Baction%5D=updatecurrentstationinfo&amp;tx_ffhonair_pi1%5Bcontroller%5D=Onair&amp;tx_ffhonair_pi1%5Bformat%5D=json&amp;type=220&amp;cHash=57b55653ef79b84022cd0230af993f95" data-updateserviceverkehr="/update-traffic-info?tx_ffhtraffic_pi1%5Baction%5D=updateservicebarchannel&amp;tx_ffhtraffic_pi1%5Bcontroller%5D=Traffic&amp;tx_ffhtraffic_pi1%5Bformat%5D=json&amp;type=1120&amp;cHash=08d8f17ccf59fb3f7819fffd7e21b4fd" class="">
+<!-- NAVIGATION ENDE -->
+<!-- SERVICE BAR MOBILE -->
+<div id="serviceBarMobileContainer" class="hidden-desktop">
+<div id="serviceBarMobile">
+<div id="logo">
+<a href="/index.html"><img src="https://static.ffh.de/fileadmin/templates/ffh.de/images/logo.svg" alt="HIT RADIO FFH"></a>
+</div>
+<ul id="serviceIcons" class="serviceBar wide">
+<li>
+<form action="/suche.html" method="post" class="search">
+<div class="serviceIcon" id="serviceSuche"></div>
+<input type="search" name="tx_ffhgooglemini_pi1[query]" id="suche" placeholder="Suche" />
+<input type="submit" name="tx_ffhgooglemini_pi1[submit_button]" value="Suchen" style="display:none; "/>
+</form>
+</li>
+<li>
+<a class="playlist" title="Playlist" href="/musik/playlist.html">
+Playlist
+</a>
+</li>
+<li id="serviceVerkehr">
+<a class="traffic" title="Verkehr" href="/verkehr/staupilot.html">
+Staupilot
+</a>
+<span class="badge"></span>
+</li>
+<li>
+<a class="weather" title="Wetter" href="/nachrichten/wetter.html">
+Wetter
+</a>
+</li>
+<li>
+<a class="webcam" title="Webcam" href="/on-air/webcam.html">
+Webcam
+</a>
+</li>
+<li class="loginAvatar">
+<a class="login loginActionLogin" title="Mein FFH" href="/login.html">
+Mein FFH
+</a>
+<span class="badge serviceLoginBadge">Eingeloggt</span>
+</li>
+</ul>
+</div>
+</div>
+<!-- SERVICE BAR MOBILE ENDE -->
+<!-- ADS ANFANG -->
+<div id="aContainer">
+<div id="aLayerTop">
+<div id="oms_gpt_superbanner"></div>
+</div>
+<div id="aLayerRight">
+<div id="oms_gpt_skyscraper"></div>
+</div>
+</div>
+<!-- ADS ENDE -->
+<div id="contentWrapper">
+
+<div id="contentWrapperInner">
+<div id="mainContent">
+<main class="noAside">
+</main>
+<div id="bottomContent">
+<div id="c388372" class="frame frame-default frame-type-list frame-layout-0">
+<section class="contentSection">
+<div class="articleBreadrumb">
+<a href="/nachrichten/top-meldungen.html">Nachrichten</a>
+&gt; <a href="/nachrichten/themen.html">Themen</a>
+<span class="lastSpacer">&gt;</span>
+<h1>
+Landespolitik News: Aktuelle Nachrichten im Überblick
+</h1>
+</div>
+<div id="c" class="frame frame- frame-type- frame-layout-">
+<h2 class="articleHeadline">
+<span class="intro">Landespolitik</span> <span class="separator">-</span>
+<span class="headline">Nachrichten</span>
+</h2>
+</div>
+<div class="socialMediaButtons" data-shareintro="" data-socialtext="" data-socialdesc="" data-mailsubject="" data-mailbody="" data-media="" data-url="" data-fbrecommend="" data-headline="" data-forcecounter="false"  data-socialcountmobile="false"></div>
+<p>Aktuelle Nachrichten aus der Landespolitik in Hessen: Meldungen zur Landesregierung, Infos zu Wahlen und News von Ministerinnen und Ministern</p>
+<script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "CollectionPage",
+"title": "Landespolitik",
+"description": "Aktuelle Nachrichten aus der Landespolitik in Hessen: Meldungen zur Landesregierung, Infos zu Wahlen und News von Ministerinnen und Ministern",
+"url": "https:\/\/www.ffh.de\/nachrichten\/themen\/landespolitik.html",
+"significantLink": [
+"https:\/\/www.ffh.de\/nachrichten\/top-meldungen\/443314-hessischer-landtag-plant-verfassungstreue-check-fuer-mitarbeiter.html",
+"https:\/\/www.ffh.de\/nachrichten\/top-meldungen\/442605-neue-elektro-fussfessel-hessen-zieht-erste-positive-bilanz.html",
+"https:\/\/www.ffh.de\/nachrichten\/top-meldungen\/441752-fruehalarmsystem-schuetzt-hessen-vor-starkregen-fluten.html",
+"https:\/\/www.ffh.de\/nachrichten\/top-meldungen\/441480-rhein-fordert-stabile-strompreise-fuer-ganz-deutschland.html",
+"https:\/\/www.ffh.de\/nachrichten\/top-meldungen\/441113-hessischer-landtag-will-keine-steuergelder-fuer-extremisten-ausgeben.html",
+"https:\/\/www.ffh.de\/nachrichten\/top-meldungen\/440582-staedtetag-finanzierung-fuer-deutschlandticket-2026-nicht-gesichert.html",
+"https:\/\/www.ffh.de\/nachrichten\/hessen\/wiesbaden\/438668-rekord-beim-landes-abi-in-hessen-so-viele-10er-schueler-wie-noch-nie.html",
+"https:\/\/www.ffh.de\/nachrichten\/top-meldungen\/438508-boris-rhein-aeussert-sich-zu-james-bond-frau-als-naechster-007.html",
+"https:\/\/www.ffh.de\/nachrichten\/hessen\/rhein-main\/438346-streit-um-einwohnerzahl-hanau-klagt-gegen-das-land-hessen.html",
+"https:\/\/www.ffh.de\/nachrichten\/top-meldungen\/437860-reichsbuerger-in-hessen-alternativwirtschaft-im-aufwind.html",
+"https:\/\/www.ffh.de\/nachrichten\/hessen\/rhein-main\/437104-fuer-opfer-haeuslicher-gewalt-kassen-zahlen-kuenftig-spurensicherung.html",
+"https:\/\/www.ffh.de\/nachrichten\/top-meldungen\/436568-hessischer-landtag-entscheidet-heute-ueber-handyverbot-an-schulen.html",
+"https:\/\/www.ffh.de\/nachrichten\/top-meldungen\/436525-streit-um-bevoelkerungsgroesse-hanau-gegen-statistisches-landesamt.html",
+"https:\/\/www.ffh.de\/nachrichten\/hessen\/wiesbaden\/436424-streit-in-hessen-um-personalie-becker-fdp-fordert-karenzzeit.html",
+"https:\/\/www.ffh.de\/nachrichten\/top-meldungen\/435855-bundeslaender-sollen-finanzielle-entlastung-durch-bund-erhalten.html",
+"https:\/\/www.ffh.de\/nachrichten\/top-meldungen\/435449-fuer-weniger-buerokratie-hessens-buerger-liefern-700-vorschlaege.html",
+"https:\/\/www.ffh.de\/nachrichten\/hessen\/wiesbaden\/434321-hessen-beschleunigt-asylverfahren-durch-gerichtsspezialisierung.html",
+"https:\/\/www.ffh.de\/nachrichten\/hessen\/wiesbaden\/432536-fronleichnam-feiertag-und-doch-bald-lkw-verkehr.html",
+"https:\/\/www.ffh.de\/nachrichten\/hessen\/wiesbaden\/431386-anhebung-der-altersgrenze-bei-hessens-feuerwehr.html",
+"https:\/\/www.ffh.de\/nachrichten\/top-meldungen\/431097-fdp-hessen-thorsten-lieb-uebernimmt-parteivorsitz.html",
+"https:\/\/www.ffh.de\/nachrichten\/hessen\/wiesbaden\/430732-hilfe-fuer-firmen-antragsphase-fuer-hessenfonds-gestartet.html"
+]
+}
+</script>
+<script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "ItemList",
+"itemListElement": [
+{
+"@type": "ListItem",
+"position": 1,
+"url": "https:\/\/www.ffh.de\/nachrichten\/top-meldungen\/443314-hessischer-landtag-plant-verfassungstreue-check-fuer-mitarbeiter.html"
+},
+{
+"@type": "ListItem",
+"position": 2,
+"url": "https:\/\/www.ffh.de\/nachrichten\/top-meldungen\/442605-neue-elektro-fussfessel-hessen-zieht-erste-positive-bilanz.html"
+},
+{
+"@type": "ListItem",
+"position": 3,
+"url": "https:\/\/www.ffh.de\/nachrichten\/top-meldungen\/441752-fruehalarmsystem-schuetzt-hessen-vor-starkregen-fluten.html"
+},
+{
+"@type": "ListItem",
+"position": 4,
+"url": "https:\/\/www.ffh.de\/nachrichten\/top-meldungen\/441480-rhein-fordert-stabile-strompreise-fuer-ganz-deutschland.html"
+},
+{
+"@type": "ListItem",
+"position": 5,
+"url": "https:\/\/www.ffh.de\/nachrichten\/top-meldungen\/441113-hessischer-landtag-will-keine-steuergelder-fuer-extremisten-ausgeben.html"
+},
+{
+"@type": "ListItem",
+"position": 6,
+"url": "https:\/\/www.ffh.de\/nachrichten\/top-meldungen\/440582-staedtetag-finanzierung-fuer-deutschlandticket-2026-nicht-gesichert.html"
+},
+{
+"@type": "ListItem",
+"position": 7,
+"url": "https:\/\/www.ffh.de\/nachrichten\/hessen\/wiesbaden\/438668-rekord-beim-landes-abi-in-hessen-so-viele-10er-schueler-wie-noch-nie.html"
+},
+{
+"@type": "ListItem",
+"position": 8,
+"url": "https:\/\/www.ffh.de\/nachrichten\/top-meldungen\/438508-boris-rhein-aeussert-sich-zu-james-bond-frau-als-naechster-007.html"
+},
+{
+"@type": "ListItem",
+"position": 9,
+"url": "https:\/\/www.ffh.de\/nachrichten\/hessen\/rhein-main\/438346-streit-um-einwohnerzahl-hanau-klagt-gegen-das-land-hessen.html"
+},
+{
+"@type": "ListItem",
+"position": 10,
+"url": "https:\/\/www.ffh.de\/nachrichten\/top-meldungen\/437860-reichsbuerger-in-hessen-alternativwirtschaft-im-aufwind.html"
+},
+{
+"@type": "ListItem",
+"position": 11,
+"url": "https:\/\/www.ffh.de\/nachrichten\/hessen\/rhein-main\/437104-fuer-opfer-haeuslicher-gewalt-kassen-zahlen-kuenftig-spurensicherung.html"
+},
+{
+"@type": "ListItem",
+"position": 12,
+"url": "https:\/\/www.ffh.de\/nachrichten\/top-meldungen\/436568-hessischer-landtag-entscheidet-heute-ueber-handyverbot-an-schulen.html"
+},
+{
+"@type": "ListItem",
+"position": 13,
+"url": "https:\/\/www.ffh.de\/nachrichten\/top-meldungen\/436525-streit-um-bevoelkerungsgroesse-hanau-gegen-statistisches-landesamt.html"
+},
+{
+"@type": "ListItem",
+"position": 14,
+"url": "https:\/\/www.ffh.de\/nachrichten\/hessen\/wiesbaden\/436424-streit-in-hessen-um-personalie-becker-fdp-fordert-karenzzeit.html"
+},
+{
+"@type": "ListItem",
+"position": 15,
+"url": "https:\/\/www.ffh.de\/nachrichten\/top-meldungen\/435855-bundeslaender-sollen-finanzielle-entlastung-durch-bund-erhalten.html"
+},
+{
+"@type": "ListItem",
+"position": 16,
+"url": "https:\/\/www.ffh.de\/nachrichten\/top-meldungen\/435449-fuer-weniger-buerokratie-hessens-buerger-liefern-700-vorschlaege.html"
+},
+{
+"@type": "ListItem",
+"position": 17,
+"url": "https:\/\/www.ffh.de\/nachrichten\/hessen\/wiesbaden\/434321-hessen-beschleunigt-asylverfahren-durch-gerichtsspezialisierung.html"
+},
+{
+"@type": "ListItem",
+"position": 18,
+"url": "https:\/\/www.ffh.de\/nachrichten\/hessen\/wiesbaden\/432536-fronleichnam-feiertag-und-doch-bald-lkw-verkehr.html"
+},
+{
+"@type": "ListItem",
+"position": 19,
+"url": "https:\/\/www.ffh.de\/nachrichten\/hessen\/wiesbaden\/431386-anhebung-der-altersgrenze-bei-hessens-feuerwehr.html"
+},
+{
+"@type": "ListItem",
+"position": 20,
+"url": "https:\/\/www.ffh.de\/nachrichten\/top-meldungen\/431097-fdp-hessen-thorsten-lieb-uebernimmt-parteivorsitz.html"
+},
+{
+"@type": "ListItem",
+"position": 21,
+"url": "https:\/\/www.ffh.de\/nachrichten\/hessen\/wiesbaden\/430732-hilfe-fuer-firmen-antragsphase-fuer-hessenfonds-gestartet.html"
+}
+]
+}
+</script>
+</section>
+<div class="teaserContainer teaserContainerGrid">
+<div class="teaserColumn">
+<div class="teaser teaserSmall opensearchserver.ignore" >
+<div class="teaserImage ratioContainer ratioContainer16To9">
+<a href="/nachrichten/top-meldungen/443314-hessischer-landtag-plant-verfassungstreue-check-fuer-mitarbeiter.html">
+<picture >
+<source sizes="(min-width: 1500px) 261px, (min-width: 880px) 214px, 33vw" data-srcset="https://static.ffh.de/fileadmin/_processed_/9/3/csm_weblines04ea92d98abc0d67833dfb43dced69de_6d6098b23a.jpg 320w, https://static.ffh.de/fileadmin/_processed_/9/3/csm_weblines04ea92d98abc0d67833dfb43dced69de_a43ae54c12.jpg 573w" srcset="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif 1w">
+<img class="lazyload" src="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif" data-src="https://static.ffh.de/fileadmin/_processed_/9/3/csm_weblines04ea92d98abc0d67833dfb43dced69de_6d6098b23a.jpg" alt="Hessischer Landtag plant Verfassungstreue-Check für Mitarbeiter">
+</picture>
+</a>
+</div>
+<div class="teaserWrapper">
+<span class="date">03.09.2025</span>
+<span class="teaserIcon teaserIcon_news"><a href="/nachrichten/top-meldungen/443314-hessischer-landtag-plant-verfassungstreue-check-fuer-mitarbeiter.html">&nbsp;</a></span>
+<h4>
+<a href="/nachrichten/top-meldungen/443314-hessischer-landtag-plant-verfassungstreue-check-fuer-mitarbeiter.html">
+<span class="intro">Gesetzentwurf von vier Parteien</span>
+<span class="headline">Verfassungstreue-Check soll kommen</span>
+</a>
+</h4>
+<div class="teaserText">
+<p>Der Landtag will verhindern, dass Staatsgeld an Verfassungsfeinde fließt. Welche…</p>
+</div>
+</div>
+<div class="clearBoth"></div>
+</div>
+<div class="teaser teaserSmall opensearchserver.ignore" >
+<div class="teaserImage ratioContainer ratioContainer16To9">
+<a href="/nachrichten/top-meldungen/442605-neue-elektro-fussfessel-hessen-zieht-erste-positive-bilanz.html">
+<picture >
+<source sizes="(min-width: 1500px) 261px, (min-width: 880px) 214px, 33vw" data-srcset="https://static.ffh.de/fileadmin/_processed_/e/d/csm_weblinesc09a77b564f6ee690b19bbd6b7229252_39fe10275e.jpg 320w, https://static.ffh.de/fileadmin/_processed_/e/d/csm_weblinesc09a77b564f6ee690b19bbd6b7229252_6759e28656.jpg 573w" srcset="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif 1w">
+<img class="lazyload" src="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif" data-src="https://static.ffh.de/fileadmin/_processed_/e/d/csm_weblinesc09a77b564f6ee690b19bbd6b7229252_39fe10275e.jpg" alt="Neue Elektro-Fußfessel - Hessen zieht erste positive Bilanz">
+</picture>
+</a>
+</div>
+<div class="teaserWrapper">
+<span class="date">27.08.2025</span>
+<span class="teaserIcon teaserIcon_news"><a href="/nachrichten/top-meldungen/442605-neue-elektro-fussfessel-hessen-zieht-erste-positive-bilanz.html">&nbsp;</a></span>
+<h4>
+<a href="/nachrichten/top-meldungen/442605-neue-elektro-fussfessel-hessen-zieht-erste-positive-bilanz.html">
+<span class="intro">Elektro-Fußfessel für Täter</span>
+<span class="headline">Hessen zieht erste positive Bilanz</span>
+</a>
+</h4>
+<div class="teaserText">
+<p>Elektronischen Fußfesseln nach dem sogenannten spanischen Modell erkennen, wenn…</p>
+</div>
+</div>
+<div class="clearBoth"></div>
+</div>
+<div class="teaser teaserSmall opensearchserver.ignore" >
+<div class="teaserImage ratioContainer ratioContainer16To9">
+<a href="/nachrichten/top-meldungen/441752-fruehalarmsystem-schuetzt-hessen-vor-starkregen-fluten.html">
+<picture >
+<source sizes="(min-width: 1500px) 261px, (min-width: 880px) 214px, 33vw" data-srcset="https://static.ffh.de/fileadmin/_processed_/4/2/csm_weblines2377e54515db205d82696959c6049cd8_41ce8e9d4e.jpg 320w, https://static.ffh.de/fileadmin/_processed_/4/2/csm_weblines2377e54515db205d82696959c6049cd8_66b9d25a3a.jpg 573w" srcset="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif 1w">
+<img class="lazyload" src="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif" data-src="https://static.ffh.de/fileadmin/_processed_/4/2/csm_weblines2377e54515db205d82696959c6049cd8_41ce8e9d4e.jpg" alt="Frühalarmsystem schützt Hessen vor Starkregen-Fluten">
+</picture>
+</a>
+</div>
+<div class="teaserWrapper">
+<span class="date">18.08.2025</span>
+<span class="teaserIcon teaserIcon_news"><a href="/nachrichten/top-meldungen/441752-fruehalarmsystem-schuetzt-hessen-vor-starkregen-fluten.html">&nbsp;</a></span>
+<h4>
+<a href="/nachrichten/top-meldungen/441752-fruehalarmsystem-schuetzt-hessen-vor-starkregen-fluten.html">
+<span class="intro">Frühalarmsystem in Hessen</span>
+<span class="headline">Warnung vor Starkregen und Fluten</span>
+</a>
+</h4>
+<div class="teaserText">
+<p>Ein neues Alarmsystem soll rechtzeitig über Starkregen und Fluten informieren -…</p>
+</div>
+</div>
+<div class="clearBoth"></div>
+</div>
+<div class="teaser teaserSmall opensearchserver.ignore" >
+<div class="teaserImage ratioContainer ratioContainer16To9">
+<a href="/nachrichten/top-meldungen/441480-rhein-fordert-stabile-strompreise-fuer-ganz-deutschland.html">
+<picture >
+<source sizes="(min-width: 1500px) 261px, (min-width: 880px) 214px, 33vw" data-srcset="https://static.ffh.de/fileadmin/_processed_/e/9/csm_weblinese50cc0f40ea954a7f916456134b0cafa_9ba6e67e2b.jpg 320w, https://static.ffh.de/fileadmin/_processed_/e/9/csm_weblinese50cc0f40ea954a7f916456134b0cafa_4840a4bf4c.jpg 573w" srcset="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif 1w">
+<img class="lazyload" src="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif" data-src="https://static.ffh.de/fileadmin/_processed_/e/9/csm_weblinese50cc0f40ea954a7f916456134b0cafa_9ba6e67e2b.jpg" alt="Boris Rhein fordert stabile Strompreise für ganz Deutschland">
+</picture>
+</a>
+</div>
+<div class="teaserWrapper">
+<span class="date">15.08.2025</span>
+<span class="teaserIcon teaserIcon_news"><a href="/nachrichten/top-meldungen/441480-rhein-fordert-stabile-strompreise-fuer-ganz-deutschland.html">&nbsp;</a></span>
+<h4>
+<a href="/nachrichten/top-meldungen/441480-rhein-fordert-stabile-strompreise-fuer-ganz-deutschland.html">
+<span class="intro">Keine Nachteile für Hessen</span>
+<span class="headline">Rhein fordert einheitlichen Strompreis</span>
+</a>
+</h4>
+<div class="teaserText">
+<p>Norddeutsche Bundesländer machen sich für unterschiedliche Strompreiszonen…</p>
+</div>
+</div>
+<div class="clearBoth"></div>
+</div>
+<div class="teaser teaserSmall opensearchserver.ignore" >
+<div class="teaserImage ratioContainer ratioContainer16To9">
+<a href="/nachrichten/top-meldungen/441113-hessischer-landtag-will-keine-steuergelder-fuer-extremisten-ausgeben.html">
+<picture >
+<source sizes="(min-width: 1500px) 261px, (min-width: 880px) 214px, 33vw" data-srcset="https://static.ffh.de/fileadmin/_processed_/6/9/csm_weblinesf0988e4530138ad55e45fbb84c42a452_8557ce7c2a.jpg 320w, https://static.ffh.de/fileadmin/_processed_/6/9/csm_weblinesf0988e4530138ad55e45fbb84c42a452_b8bcd316a9.jpg 573w" srcset="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif 1w">
+<img class="lazyload" src="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif" data-src="https://static.ffh.de/fileadmin/_processed_/6/9/csm_weblinesf0988e4530138ad55e45fbb84c42a452_8557ce7c2a.jpg" alt="Hessischer Landtag will keine Steuergelder für Extremisten ausgeben">
+</picture>
+</a>
+</div>
+<div class="teaserWrapper">
+<span class="date">12.08.2025</span>
+<span class="teaserIcon teaserIcon_news"><a href="/nachrichten/top-meldungen/441113-hessischer-landtag-will-keine-steuergelder-fuer-extremisten-ausgeben.html">&nbsp;</a></span>
+<h4>
+<a href="/nachrichten/top-meldungen/441113-hessischer-landtag-will-keine-steuergelder-fuer-extremisten-ausgeben.html">
+<span class="intro">Pläne des Hessischen Landtags</span>
+<span class="headline">Keine Steuergelder mehr für Extremisten</span>
+</a>
+</h4>
+<div class="teaserText">
+<p>Ein mehrstufiges Verfahren soll künftig sicherstellen, dass Mitarbeiter von…</p>
+</div>
+</div>
+<div class="clearBoth"></div>
+</div>
+<div class="teaser teaserSmall opensearchserver.ignore" >
+<div class="teaserImage ratioContainer ratioContainer16To9">
+<a href="/nachrichten/top-meldungen/440582-staedtetag-finanzierung-fuer-deutschlandticket-2026-nicht-gesichert.html">
+<picture >
+<source sizes="(min-width: 1500px) 261px, (min-width: 880px) 214px, 33vw" data-srcset="https://static.ffh.de/fileadmin/_processed_/d/a/csm_Deutschlandticket_8ca58057f4.jpg 320w, https://static.ffh.de/fileadmin/_processed_/d/a/csm_Deutschlandticket_aed63ba9d1.jpg 573w" srcset="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif 1w">
+<img class="lazyload" src="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif" data-src="https://static.ffh.de/fileadmin/_processed_/d/a/csm_Deutschlandticket_8ca58057f4.jpg" alt="Städtetag: Finanzierung für Deutschlandticket 2026 nicht gesichert">
+</picture>
+</a>
+</div>
+<div class="teaserWrapper">
+<span class="date">06.08.2025</span>
+<span class="teaserIcon teaserIcon_news"><a href="/nachrichten/top-meldungen/440582-staedtetag-finanzierung-fuer-deutschlandticket-2026-nicht-gesichert.html">&nbsp;</a></span>
+<h4>
+<a href="/nachrichten/top-meldungen/440582-staedtetag-finanzierung-fuer-deutschlandticket-2026-nicht-gesichert.html">
+<span class="intro">Städtetag fordert Einigung</span>
+<span class="headline">Finanzierung für Deutschlandticket unklar</span>
+</a>
+</h4>
+<div class="teaserText">
+<p>Für das Deutschlandticket gibt es in diesem Jahr Bekenntnisse aus Bund und…</p>
+</div>
+</div>
+<div class="clearBoth"></div>
+</div>
+<div class="teaser teaserSmall opensearchserver.ignore" >
+<div class="teaserImage ratioContainer ratioContainer16To9">
+<a href="/nachrichten/hessen/wiesbaden/438668-rekord-beim-landes-abi-in-hessen-so-viele-10er-schueler-wie-noch-nie.html">
+<picture >
+<source sizes="(min-width: 1500px) 261px, (min-width: 880px) 214px, 33vw" data-srcset="https://static.ffh.de/fileadmin/_processed_/7/c/csm_abitur_symbol_dpa_156c9d965e.jpg 320w, https://static.ffh.de/fileadmin/_processed_/7/c/csm_abitur_symbol_dpa_03f5509688.jpg 573w" srcset="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif 1w">
+<img class="lazyload" src="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif" data-src="https://static.ffh.de/fileadmin/_processed_/7/c/csm_abitur_symbol_dpa_156c9d965e.jpg" alt="Rekord beim Landes-Abi in Hessen: So viele 1,0er-Schüler wie noch nie">
+</picture>
+</a>
+</div>
+<div class="teaserWrapper">
+<span class="date">17.07.2025</span>
+<span class="teaserIcon teaserIcon_wiesbaden"><a href="/nachrichten/hessen/wiesbaden/438668-rekord-beim-landes-abi-in-hessen-so-viele-10er-schueler-wie-noch-nie.html">&nbsp;</a></span>
+<h4>
+<a href="/nachrichten/hessen/wiesbaden/438668-rekord-beim-landes-abi-in-hessen-so-viele-10er-schueler-wie-noch-nie.html">
+<span class="intro">Rekord beim Hessen-Abi</span>
+<span class="headline">So viele 1,0er-Schüler wie noch nie</span>
+</a>
+</h4>
+<div class="teaserText">
+<p>Rekord bei den Abi-Prüfungen in Hessen: So viele Schülerinnen und Schüler wie…</p>
+</div>
+</div>
+<div class="clearBoth"></div>
+</div>
+<div class="teaser teaserSmall opensearchserver.ignore" >
+<div class="teaserImage ratioContainer ratioContainer16To9">
+<a href="/nachrichten/top-meldungen/438508-boris-rhein-aeussert-sich-zu-james-bond-frau-als-naechster-007.html">
+<picture >
+<source sizes="(min-width: 1500px) 261px, (min-width: 880px) 214px, 33vw" data-srcset="https://static.ffh.de/fileadmin/_processed_/1/1/csm_weblines6b1bfff9cb565c3bb81b3654b6f36997_3dc6dffb4b.jpg 320w, https://static.ffh.de/fileadmin/_processed_/1/1/csm_weblines6b1bfff9cb565c3bb81b3654b6f36997_b84b05360f.jpg 573w" srcset="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif 1w">
+<img class="lazyload" src="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif" data-src="https://static.ffh.de/fileadmin/_processed_/1/1/csm_weblines6b1bfff9cb565c3bb81b3654b6f36997_3dc6dffb4b.jpg" alt="Boris Rhein äußert sich zu James Bond: Frau als nächster 007?">
+</picture>
+</a>
+</div>
+<div class="teaserWrapper">
+<span class="date">16.07.2025</span>
+<span class="teaserIcon teaserIcon_news"><a href="/nachrichten/top-meldungen/438508-boris-rhein-aeussert-sich-zu-james-bond-frau-als-naechster-007.html">&nbsp;</a></span>
+<h4>
+<a href="/nachrichten/top-meldungen/438508-boris-rhein-aeussert-sich-zu-james-bond-frau-als-naechster-007.html">
+<span class="intro">Rätselraten um James Bond</span>
+<span class="headline">Boris Rhein: Frau als nächster Agent 007?</span>
+</a>
+</h4>
+<div class="teaserText">
+<p>Wer wird der nächste Hauptdarsteller von James Bond? Oder vielleicht auch…</p>
+</div>
+</div>
+<div class="clearBoth"></div>
+</div>
+<div class="teaser teaserSmall opensearchserver.ignore" >
+<div class="teaserImage ratioContainer ratioContainer16To9">
+<a href="/nachrichten/hessen/rhein-main/438346-streit-um-einwohnerzahl-hanau-klagt-gegen-das-land-hessen.html">
+<picture >
+<source sizes="(min-width: 1500px) 261px, (min-width: 880px) 214px, 33vw" data-srcset="https://static.ffh.de/fileadmin/_processed_/f/0/csm_weblines09e0be6de544b2780880d5278f63a1c5_5bade4fe43.jpg 320w, https://static.ffh.de/fileadmin/_processed_/f/0/csm_weblines09e0be6de544b2780880d5278f63a1c5_53762b6ffe.jpg 573w" srcset="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif 1w">
+<img class="lazyload" src="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif" data-src="https://static.ffh.de/fileadmin/_processed_/f/0/csm_weblines09e0be6de544b2780880d5278f63a1c5_5bade4fe43.jpg" alt="Streit um Einwohnerzahl: Hanau klagt gegen das Land Hessen">
+</picture>
+</a>
+</div>
+<div class="teaserWrapper">
+<span class="date">14.07.2025</span>
+<span class="teaserIcon teaserIcon_rheinmain"><a href="/nachrichten/hessen/rhein-main/438346-streit-um-einwohnerzahl-hanau-klagt-gegen-das-land-hessen.html">&nbsp;</a></span>
+<h4>
+<a href="/nachrichten/hessen/rhein-main/438346-streit-um-einwohnerzahl-hanau-klagt-gegen-das-land-hessen.html">
+<span class="intro">Streit um Einwohnerzahl</span>
+<span class="headline">Hanau klagt gegen das Land Hessen</span>
+</a>
+</h4>
+<div class="teaserText">
+<p>Die Stadt Hanau will den Streit um die Einwohnerzahl gerichtlich klären lassen.…</p>
+</div>
+</div>
+<div class="clearBoth"></div>
+</div>
+<div class="teaser teaserSmall opensearchserver.ignore" >
+<div class="teaserImage ratioContainer ratioContainer16To9">
+<a href="/nachrichten/top-meldungen/437860-reichsbuerger-in-hessen-alternativwirtschaft-im-aufwind.html">
+<picture >
+<source sizes="(min-width: 1500px) 261px, (min-width: 880px) 214px, 33vw" data-srcset="https://static.ffh.de/fileadmin/_processed_/1/5/csm_weblines8cafe9bd94b1fed56d08bba12c22f50a_d12c0a646b.jpg 320w, https://static.ffh.de/fileadmin/_processed_/1/5/csm_weblines8cafe9bd94b1fed56d08bba12c22f50a_63026a61e4.jpg 573w" srcset="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif 1w">
+<img class="lazyload" src="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif" data-src="https://static.ffh.de/fileadmin/_processed_/1/5/csm_weblines8cafe9bd94b1fed56d08bba12c22f50a_d12c0a646b.jpg" alt="Reichsbürger in Hessen: Alternativwirtschaft im Aufwind">
+</picture>
+</a>
+</div>
+<div class="teaserWrapper">
+<span class="date">09.07.2025</span>
+<span class="teaserIcon teaserIcon_news"><a href="/nachrichten/top-meldungen/437860-reichsbuerger-in-hessen-alternativwirtschaft-im-aufwind.html">&nbsp;</a></span>
+<h4>
+<a href="/nachrichten/top-meldungen/437860-reichsbuerger-in-hessen-alternativwirtschaft-im-aufwind.html">
+<span class="intro">Eigenes Geld und Firmen</span>
+<span class="headline">Reichsbürger in Hessen</span>
+</a>
+</h4>
+<div class="teaserText">
+<p>Eigene Währungen, Fantasiedokumente und ein Online-Shop: "Reichsbürger"…</p>
+</div>
+</div>
+<div class="clearBoth"></div>
+</div>
+<div class="teaser teaserSmall opensearchserver.ignore" >
+<div class="teaserImage ratioContainer ratioContainer16To9">
+<a href="/nachrichten/hessen/rhein-main/437104-fuer-opfer-haeuslicher-gewalt-kassen-zahlen-kuenftig-spurensicherung.html">
+<picture >
+<source sizes="(min-width: 1500px) 261px, (min-width: 880px) 214px, 33vw" data-srcset="https://static.ffh.de/fileadmin/_processed_/2/e/csm_IMG_9418_636778a776.jpg 320w, https://static.ffh.de/fileadmin/_processed_/2/e/csm_IMG_9418_7230364f7f.jpg 573w" srcset="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif 1w">
+<img class="lazyload" src="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif" data-src="https://static.ffh.de/fileadmin/_processed_/2/e/csm_IMG_9418_636778a776.jpg" alt="Für Opfer häuslicher Gewalt: Kassen zahlen künftig Spurensicherung">
+</picture>
+</a>
+</div>
+<div class="teaserWrapper">
+<span class="date">01.07.2025</span>
+<span class="teaserIcon teaserIcon_play"><a href="/nachrichten/hessen/rhein-main/437104-fuer-opfer-haeuslicher-gewalt-kassen-zahlen-kuenftig-spurensicherung.html">&nbsp;</a></span>
+<h4>
+<a href="/nachrichten/hessen/rhein-main/437104-fuer-opfer-haeuslicher-gewalt-kassen-zahlen-kuenftig-spurensicherung.html">
+<span class="intro">Für Opfer häuslicher Gewalt</span>
+<span class="headline">Kassen zahlen künftig Spurensicherung</span>
+</a>
+</h4>
+<div class="teaserText">
+<p>Unterstützung nach der Tat: Hessen regelt die Kostenübernahme für vertrauliche…</p>
+</div>
+</div>
+<div class="clearBoth"></div>
+</div>
+<div class="teaser teaserSmall opensearchserver.ignore" >
+<div class="teaserImage ratioContainer ratioContainer16To9">
+<a href="/nachrichten/top-meldungen/436568-hessischer-landtag-entscheidet-heute-ueber-handyverbot-an-schulen.html">
+<picture >
+<source sizes="(min-width: 1500px) 261px, (min-width: 880px) 214px, 33vw" data-srcset="https://static.ffh.de/fileadmin/_processed_/9/6/csm_weblines66c2c2b291843f8dc437df1d4f9f84f1_438b945539.jpg 320w, https://static.ffh.de/fileadmin/_processed_/9/6/csm_weblines66c2c2b291843f8dc437df1d4f9f84f1_96c885f5a5.jpg 573w" srcset="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif 1w">
+<img class="lazyload" src="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif" data-src="https://static.ffh.de/fileadmin/_processed_/9/6/csm_weblines66c2c2b291843f8dc437df1d4f9f84f1_438b945539.jpg" alt="Handyverbot an Hessens Schulen ist beschlossene Sache">
+</picture>
+</a>
+</div>
+<div class="teaserWrapper">
+<span class="date">26.06.2025</span>
+<span class="teaserIcon teaserIcon_news"><a href="/nachrichten/top-meldungen/436568-hessischer-landtag-entscheidet-heute-ueber-handyverbot-an-schulen.html">&nbsp;</a></span>
+<h4>
+<a href="/nachrichten/top-meldungen/436568-hessischer-landtag-entscheidet-heute-ueber-handyverbot-an-schulen.html">
+<span class="intro">Jetzt ist es final beschlossen</span>
+<span class="headline">Handyverbot an Hessens Schulen kommt</span>
+</a>
+</h4>
+<div class="teaserText">
+<p>Vom kommenden Schuljahr an dürfen private Smartphones oder Tablets in der Schule…</p>
+</div>
+</div>
+<div class="clearBoth"></div>
+</div>
+<div class="teaser teaserSmall opensearchserver.ignore" >
+<div class="teaserImage ratioContainer ratioContainer16To9">
+<a href="/nachrichten/top-meldungen/436525-streit-um-bevoelkerungsgroesse-hanau-gegen-statistisches-landesamt.html">
+<picture >
+<source sizes="(min-width: 1500px) 261px, (min-width: 880px) 214px, 33vw" data-srcset="https://static.ffh.de/fileadmin/_processed_/8/2/csm_weblines526df50f484812d2be5c85f8d7f42517_f0251df40a.jpg 320w, https://static.ffh.de/fileadmin/_processed_/8/2/csm_weblines526df50f484812d2be5c85f8d7f42517_570d1469e0.jpg 573w" srcset="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif 1w">
+<img class="lazyload" src="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif" data-src="https://static.ffh.de/fileadmin/_processed_/8/2/csm_weblines526df50f484812d2be5c85f8d7f42517_f0251df40a.jpg" alt="Streit um Bevölkerungsgröße: Hanau gegen Statistisches Landesamt">
+</picture>
+</a>
+</div>
+<div class="teaserWrapper">
+<span class="date">25.06.2025</span>
+<span class="teaserIcon teaserIcon_news"><a href="/nachrichten/top-meldungen/436525-streit-um-bevoelkerungsgroesse-hanau-gegen-statistisches-landesamt.html">&nbsp;</a></span>
+<h4>
+<a href="/nachrichten/top-meldungen/436525-streit-um-bevoelkerungsgroesse-hanau-gegen-statistisches-landesamt.html">
+<span class="intro">Streit um Bevölkerungsgröße</span>
+<span class="headline">Hanau plant wohl Klage wegen Zensus</span>
+</a>
+</h4>
+<div class="teaserText">
+<p>Der Streit um die korrekte Einwohnerzahl zwischen Hanau und dem Statistischen…</p>
+</div>
+</div>
+<div class="clearBoth"></div>
+</div>
+<div class="teaser teaserSmall opensearchserver.ignore" >
+<div class="teaserImage ratioContainer ratioContainer16To9">
+<a href="/nachrichten/hessen/wiesbaden/436424-streit-in-hessen-um-personalie-becker-fdp-fordert-karenzzeit.html">
+<picture >
+<source sizes="(min-width: 1500px) 261px, (min-width: 880px) 214px, 33vw" data-srcset="https://static.ffh.de/fileadmin/_processed_/e/7/csm_weblinesa2e11344a58f30fa519ba2591d720dfa_574dbcfc5f.jpg 320w, https://static.ffh.de/fileadmin/_processed_/e/7/csm_weblinesa2e11344a58f30fa519ba2591d720dfa_bdfc118fcc.jpg 573w" srcset="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif 1w">
+<img class="lazyload" src="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif" data-src="https://static.ffh.de/fileadmin/_processed_/e/7/csm_weblinesa2e11344a58f30fa519ba2591d720dfa_574dbcfc5f.jpg" alt="Streit in Hessen um Personalie Becker: FDP fordert Karenzzeit">
+</picture>
+</a>
+</div>
+<div class="teaserWrapper">
+<span class="date">24.06.2025</span>
+<span class="teaserIcon teaserIcon_wiesbaden"><a href="/nachrichten/hessen/wiesbaden/436424-streit-in-hessen-um-personalie-becker-fdp-fordert-karenzzeit.html">&nbsp;</a></span>
+<h4>
+<a href="/nachrichten/hessen/wiesbaden/436424-streit-in-hessen-um-personalie-becker-fdp-fordert-karenzzeit.html">
+<span class="intro">FDP fordert Karenzzeit</span>
+<span class="headline">Becker soll Rechnungshofpräsident werden</span>
+</a>
+</h4>
+<div class="teaserText">
+<p>Per Gesetz will die Landesregierung es dem designierten neuen…</p>
+</div>
+</div>
+<div class="clearBoth"></div>
+</div>
+<div class="teaser teaserSmall opensearchserver.ignore" >
+<div class="teaserImage ratioContainer ratioContainer16To9">
+<a href="/nachrichten/top-meldungen/435855-bundeslaender-sollen-finanzielle-entlastung-durch-bund-erhalten.html">
+<picture >
+<source sizes="(min-width: 1500px) 261px, (min-width: 880px) 214px, 33vw" data-srcset="https://static.ffh.de/fileadmin/_processed_/7/6/csm_weblinesc913b2651071d595fcb495358fdbd6aa_ad0ea223bd.jpg 320w, https://static.ffh.de/fileadmin/_processed_/7/6/csm_weblinesc913b2651071d595fcb495358fdbd6aa_ebfefbff3f.jpg 573w" srcset="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif 1w">
+<img class="lazyload" src="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif" data-src="https://static.ffh.de/fileadmin/_processed_/7/6/csm_weblinesc913b2651071d595fcb495358fdbd6aa_ad0ea223bd.jpg" alt="Bundesländer sollen finanzielle Entlastung durch Bund erhalten">
+</picture>
+</a>
+</div>
+<div class="teaserWrapper">
+<span class="date">18.06.2025</span>
+<span class="teaserIcon teaserIcon_news"><a href="/nachrichten/top-meldungen/435855-bundeslaender-sollen-finanzielle-entlastung-durch-bund-erhalten.html">&nbsp;</a></span>
+<h4>
+<a href="/nachrichten/top-meldungen/435855-bundeslaender-sollen-finanzielle-entlastung-durch-bund-erhalten.html">
+<span class="intro">Investitionsprogramm Wirtschaft</span>
+<span class="headline">Bund sagt Ländern Entlastungen zu</span>
+</a>
+</h4>
+<div class="teaserText">
+<p>Der Bund beschließt Steuerentlastungen - doch Länder und Kommunen zahlen den…</p>
+</div>
+</div>
+<div class="clearBoth"></div>
+</div>
+<div class="teaser teaserSmall opensearchserver.ignore" >
+<div class="teaserImage ratioContainer ratioContainer16To9">
+<a href="/nachrichten/top-meldungen/435449-fuer-weniger-buerokratie-hessens-buerger-liefern-700-vorschlaege.html">
+<picture >
+<source sizes="(min-width: 1500px) 261px, (min-width: 880px) 214px, 33vw" data-srcset="https://static.ffh.de/fileadmin/_processed_/b/6/csm_weblines9b06fa95d5a7b0c8b30245aad5bc5692_a489dc5f29.jpg 320w, https://static.ffh.de/fileadmin/_processed_/b/6/csm_weblines9b06fa95d5a7b0c8b30245aad5bc5692_b6075d115c.jpg 573w" srcset="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif 1w">
+<img class="lazyload" src="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif" data-src="https://static.ffh.de/fileadmin/_processed_/b/6/csm_weblines9b06fa95d5a7b0c8b30245aad5bc5692_a489dc5f29.jpg" alt="Für weniger Bürokratie: Hessens Bürger liefern 700 Vorschläge">
+</picture>
+</a>
+</div>
+<div class="teaserWrapper">
+<span class="date">15.06.2025</span>
+<span class="teaserIcon teaserIcon_news"><a href="/nachrichten/top-meldungen/435449-fuer-weniger-buerokratie-hessens-buerger-liefern-700-vorschlaege.html">&nbsp;</a></span>
+<h4>
+<a href="/nachrichten/top-meldungen/435449-fuer-weniger-buerokratie-hessens-buerger-liefern-700-vorschlaege.html">
+<span class="intro">Für weniger Bürokratie</span>
+<span class="headline">Hessens Bürger liefern 700 Vorschläge</span>
+</a>
+</h4>
+<div class="teaserText">
+<p>Wer sich in Hessen über zu viel Bürokratie oder Ineffizienz ärgert, kann dies…</p>
+</div>
+</div>
+<div class="clearBoth"></div>
+</div>
+<div class="teaser teaserSmall opensearchserver.ignore" >
+<div class="teaserImage ratioContainer ratioContainer16To9">
+<a href="/nachrichten/hessen/wiesbaden/434321-hessen-beschleunigt-asylverfahren-durch-gerichtsspezialisierung.html">
+<picture >
+<source sizes="(min-width: 1500px) 261px, (min-width: 880px) 214px, 33vw" data-srcset="https://static.ffh.de/fileadmin/_processed_/f/d/csm_symbol_justiz10_Justizia_Urteil_Gericht_Verhandlung_Prozess_27e275f77f.jpg 320w, https://static.ffh.de/fileadmin/_processed_/f/d/csm_symbol_justiz10_Justizia_Urteil_Gericht_Verhandlung_Prozess_be1230b461.jpg 573w" srcset="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif 1w">
+<img class="lazyload" src="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif" data-src="https://static.ffh.de/fileadmin/_processed_/f/d/csm_symbol_justiz10_Justizia_Urteil_Gericht_Verhandlung_Prozess_27e275f77f.jpg" alt="Hessen beschleunigt Asylverfahren durch Gerichtsspezialisierung">
+</picture>
+</a>
+</div>
+<div class="teaserWrapper">
+<span class="date">03.06.2025</span>
+<span class="teaserIcon teaserIcon_wiesbaden"><a href="/nachrichten/hessen/wiesbaden/434321-hessen-beschleunigt-asylverfahren-durch-gerichtsspezialisierung.html">&nbsp;</a></span>
+<h4>
+<a href="/nachrichten/hessen/wiesbaden/434321-hessen-beschleunigt-asylverfahren-durch-gerichtsspezialisierung.html">
+<span class="intro">Gerichte spezialisieren sich</span>
+<span class="headline">Hessen beschleunigt Asylverfahren</span>
+</a>
+</h4>
+<div class="teaserText">
+<p>Hessen plant, Asylverfahren gezielter auf seine Verwaltungsgerichte zu…</p>
+</div>
+</div>
+<div class="clearBoth"></div>
+</div>
+<div class="teaser teaserSmall opensearchserver.ignore" >
+<div class="teaserImage ratioContainer ratioContainer16To9">
+<a href="/nachrichten/hessen/wiesbaden/432536-fronleichnam-feiertag-und-doch-bald-lkw-verkehr.html">
+<picture >
+<source sizes="(min-width: 1500px) 261px, (min-width: 880px) 214px, 33vw" data-srcset="https://static.ffh.de/fileadmin/_processed_/3/0/csm_lastwagen_symbolbild_dpa_91d1cceccc.jpg 320w, https://static.ffh.de/fileadmin/_processed_/3/0/csm_lastwagen_symbolbild_dpa_78aaefd247.jpg 573w" srcset="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif 1w">
+<img class="lazyload" src="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif" data-src="https://static.ffh.de/fileadmin/_processed_/3/0/csm_lastwagen_symbolbild_dpa_91d1cceccc.jpg" alt="Fronleichnam Feiertag und doch bald LKW-Verkehr?">
+</picture>
+</a>
+</div>
+<div class="teaserWrapper">
+<span class="date">13.05.2025</span>
+<span class="teaserIcon teaserIcon_wiesbaden"><a href="/nachrichten/hessen/wiesbaden/432536-fronleichnam-feiertag-und-doch-bald-lkw-verkehr.html">&nbsp;</a></span>
+<h4>
+<a href="/nachrichten/hessen/wiesbaden/432536-fronleichnam-feiertag-und-doch-bald-lkw-verkehr.html">
+<span class="intro">Fronleichnam in Hessen</span>
+<span class="headline">Bald kein LKW-Fahrverbot mehr?</span>
+</a>
+</h4>
+<div class="teaserText">
+<p>An Feiertagen gilt in Deutschland ein Fahrverbot für LKW - allerdings haben…</p>
+</div>
+</div>
+<div class="clearBoth"></div>
+</div>
+<div class="teaser teaserSmall opensearchserver.ignore" >
+<div class="teaserImage ratioContainer ratioContainer16To9">
+<a href="/nachrichten/hessen/wiesbaden/431386-anhebung-der-altersgrenze-bei-hessens-feuerwehr.html">
+<picture >
+<source sizes="(min-width: 1500px) 261px, (min-width: 880px) 214px, 33vw" data-srcset="https://static.ffh.de/fileadmin/_processed_/2/3/csm_autobrand_hammersbach_feuerwehr_4_42166dd151.jpg 320w, https://static.ffh.de/fileadmin/_processed_/2/3/csm_autobrand_hammersbach_feuerwehr_4_ee76a16a7c.jpg 573w" srcset="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif 1w">
+<img class="lazyload" src="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif" data-src="https://static.ffh.de/fileadmin/_processed_/2/3/csm_autobrand_hammersbach_feuerwehr_4_42166dd151.jpg" alt="Anhebung der Altersgrenze bei Hessens Feuerwehr">
+</picture>
+</a>
+</div>
+<div class="teaserWrapper">
+<span class="date">30.04.2025</span>
+<span class="teaserIcon teaserIcon_wiesbaden"><a href="/nachrichten/hessen/wiesbaden/431386-anhebung-der-altersgrenze-bei-hessens-feuerwehr.html">&nbsp;</a></span>
+<h4>
+<a href="/nachrichten/hessen/wiesbaden/431386-anhebung-der-altersgrenze-bei-hessens-feuerwehr.html">
+<span class="intro">Gegen Feuerwehr-Nachwuchsmangel</span>
+<span class="headline">Hessen will Altersgrenze auf 67 anheben</span>
+</a>
+</h4>
+<div class="teaserText">
+<p>Hessens Innenminister Roman Poseck&nbsp;plant die Altersgrenze für den…</p>
+</div>
+</div>
+<div class="clearBoth"></div>
+</div>
+<div class="teaser teaserSmall opensearchserver.ignore" >
+<div class="teaserImage ratioContainer ratioContainer16To9">
+<a href="/nachrichten/top-meldungen/431097-fdp-hessen-thorsten-lieb-uebernimmt-parteivorsitz.html">
+<picture >
+<source sizes="(min-width: 1500px) 261px, (min-width: 880px) 214px, 33vw" data-srcset="https://static.ffh.de/fileadmin/_processed_/6/b/csm_weblines15a77bafd7d2ccbc1d9b648ab7d59620_b9f20f7c3d.jpg 320w, https://static.ffh.de/fileadmin/_processed_/6/b/csm_weblines15a77bafd7d2ccbc1d9b648ab7d59620_413c6fc482.jpg 573w" srcset="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif 1w">
+<img class="lazyload" src="https://static.ffh.de/fileadmin/templates/ffh.de/images/pixel.gif" data-src="https://static.ffh.de/fileadmin/_processed_/6/b/csm_weblines15a77bafd7d2ccbc1d9b648ab7d59620_b9f20f7c3d.jpg" alt="FDP Hessen: Thorsten Lieb übernimmt Parteivorsitz">
+</picture>
+</a>
+</div>
+<div class="teaserWrapper">
+<span class="date">27.04.2025</span>
+<span class="teaserIcon teaserIcon_news"><a href="/nachrichten/top-meldungen/431097-fdp-hessen-thorsten-lieb-uebernimmt-parteivorsitz.html">&nbsp;</a></span>
+<h4>
+<a href="/nachrichten/top-meldungen/431097-fdp-hessen-thorsten-lieb-uebernimmt-parteivorsitz.html">
+<span class="intro">Wahlen zum Landesvorstand</span>
+<span class="headline">Thorsten Lieb neuer Chef der FDP Hessen</span>
+</a>
+</h4>
+<div class="teaserText">
+<p>Die hessischen Liberalen stellen sich neu auf. Nach dem Rückzug von Bettina…</p>
+</div>
+</div>
+<div class="clearBoth"></div>
+</div>
+</div>
+</div>
+<div class="teaserBottomLabel">
+<a class="arrowRight" href="/nachrichten/themen/landespolitik-1.html">mehr</a>
+</div>
+</div>
+</div>
+</div>
+<!-- FOOTER ANFANG -->
+<footer class="opensearchserver.ignore">
+<div id="footerWrapper">
+<p id="breadcrumbText">Du bist hier: <a href="/">www.FFH.de</a>&nbsp;<span class="breadcrumbSpacer">&gt;&gt;&gt;</span> <a href="/nachrichten/top-meldungen.html">Nachrichten</a></p><script type="application/ld+json">{ "@context": "http://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "item": {"@id": "https://www.ffh.de/nachrichten/top-meldungen.html","name": "Nachrichten"},"position": 1}] }</script>
+<div id="sitemapContainer">
+<ul id="footerSitemap"><li><a href="/musik.html">Radio</a><ul><li><a href="/musik/webradio/2-hitradio-ffh.html">FFH Live</a></li><li><a href="/musik/webradio/11-ffh-die-80er-das-80er-hits-radio-von-ndw-bis-pop.html">80er Radio</a></li><li><a href="/musik/webradio/10-just-90s-online-radio-spielt-die-90er-hits.html">90er Radio</a></li><li><a href="/musik/webradio/55-2000er-radio-hits-00er-jahre.html">2000er Radio</a></li><li><a href="/musik/webradio/18-rock-radio-und-radiosender-online-hoeren.html">Rock Radio</a></li><li><a href="/musik/webradio/57-ffh-oldies-das-oldies-but-goldies-radio-mit-60er-70er-hits.html">Oldie Radio</a></li><li><a href="/musik/webradio/118-radio-schlagerherz.html">Schlager Radio</a></li><li><a href="/musik/webradio/15-party-feiern-mit-der-perfekten-partymusik-webradio.html">Party Radio</a></li><li><a href="/musik/webradio/16-ffh-lounge-relaxen-und-chillen.html">Lounge Radio</a></li><li><a href="/musik/webradio/33-ffh-weihnachtsradio-die-schoensten-weihnachtslieder-online-hoeren.html">Weihnachtsradio</a></li><li><a href="/musik/webradio/121-wohlfuehlzeit-webradio-meditation-entspannung-kostenlos.html">Meditationsradio</a></li><li><a href="/musik/webradio/13-ffh-top-40.html">Top 40</a></li><li><a href="/musik/playlist.html">Playlist</a></li></ul></li><li><a href="/nachrichten/top-meldungen.html">News</a><ul><li><a href="/nachrichten/hessen.html">Hessen News</a></li><li><a href="/nachrichten/orte/frankfurt-am-main.html">Frankfurt News</a></li><li><a href="/nachrichten/orte/wiesbaden.html">Wiesbaden News</a></li><li><a href="/nachrichten/orte/mainz.html">Mainz News</a></li><li><a href="/nachrichten/orte/kassel.html">Kassel News</a></li><li><a href="/nachrichten/orte/darmstadt.html">Darmstadt News</a></li><li><a href="/nachrichten/orte/offenbach-am-main.html">Offenbach News</a></li><li><a href="/nachrichten/orte/giessen.html">Gießen News</a></li><li><a href="/nachrichten/orte/fulda.html">Fulda News</a></li><li><a href="/nachrichten/sport.html">Sport</a></li><li><a href="/nachrichten/sport/tabellen-ergebnisse/fussball.html">Fußballtabellen</a></li><li><a href="/nachrichten/wetter.html">Wetter</a></li><li><a href="/nachrichten/orte.html">Alle Orte</a></li></ul></li><li><a href="/nachrichten/hessen.html">Regionen</a><ul><li><a href="/nachrichten/hessen/nordhessen.html">Nordhessen News</a></li><li><a href="/nachrichten/hessen/osthessen.html">Osthessen News</a></li><li><a href="/nachrichten/hessen/mittelhessen.html">Mittelhessen News</a></li><li><a href="/nachrichten/hessen/rhein-main.html">Rhein-Main News</a></li><li><a href="/nachrichten/hessen/suedhessen.html">Südhessen News</a></li></ul></li><li><a href="/verkehr/staupilot.html">Verkehr</a><ul><li><a href="/verkehr/staupilot.html">Staus Hessen</a></li><li><a href="/verkehr/blitzer.html">Blitzer Hessen</a></li><li><a href="/nachrichten/themen/verkehrsunfall.html">Unfälle Hessen</a></li><li><a href="/nachrichten/themen/autobahn-a3.html">A3 News</a></li><li><a href="/nachrichten/themen/autobahn-a5.html">A5 News</a></li><li><a href="/nachrichten/themen/autobahn-a661.html">A661 News</a></li><li><a href="/verkehr/sprit-spion.html">Günstig tanken</a></li><li><a href="/verkehr/parkhaeuser.html">Parkhäuser</a></li><li><a href="/verkehr/flugplan.html">Flugplan Frankfurt</a></li><li><a href="/verkehr/schulausfaelle.html">Schulausfälle</a></li></ul></li><li><a href="/horoskop/heute.html">Horoskop</a><ul><li><a href="/horoskop/heute.html">Horoskop Heute</a></li><li><a href="/horoskop/morgen.html">Horoskop Morgen</a></li><li><a href="/horoskop/woche.html">Wochenhoroskop</a></li><li><a href="/horoskop/monat.html">Monatshoroskop</a></li><li><a href="/horoskop/jahr.html">Jahreshoroskop</a></li><li><a href="/horoskop/partner-check.html">Partnerhoroskop</a></li><li><a href="/horoskop/aszendenten-rechner.html">Aszendent</a></li></ul></li><li><a href="/on-air/guten-morgen-hessen.html">On Air</a><ul><li><a href="/on-air/sendungen.html">Sendungen</a></li><li><a href="/aktionen/ffh-aktionen.html">Aktionen</a></li><li><a href="/video.html">Videos</a></li><li><a href="/on-air/webcam.html">Webcams</a></li><li><a href="/on-air/moderatoren-team.html">Moderatoren &amp; Team</a></li><li><a href="/podcast.html">Podcasts</a></li><li><a href="/podcast/283477-die-ffh-nachrichten.html">News-Podcast</a></li><li><a href="/on-air/themen-ticker.html">Themen-Ticker</a></li><li><a href="/on-air/voting.html">Voting</a></li></ul></li><li><a href="/freizeit/ticketshop.html">Freizeit</a><ul><li><a href="/freizeit/was-ist-los.html">Veranstaltungen</a></li><li><a href="/freizeit/hessens-lieblingsspielplaetze.html">Spielplätze</a></li><li><a href="/on-air/ffh-rezepte.html">Rezepte</a></li><li><a href="/freizeit/wohlfuehlzeit.html">Meditation</a></li><li><a href="/freizeit/100-dinge.html">Ausflugsziele</a></li><li><a href="/nachrichten/magazin.html">Freizeit-Tipps</a></li><li><a href="/freizeit/ticketshop.html">Ticketshop</a></li><li><a href="/nachrichten/themen/lotto.html">Lotto Hessen</a></li><li><a href="/freizeit/spiele.html">Spiele</a></li><li><a href="/freizeit/spiele/spiele/mahjong.html">Mahjong</a></li><li><a href="/freizeit/spiele/spiele/backgammon.html">Backgammon</a></li><li><a href="/freizeit/quiz.html">Quiz</a></li><li><a href="/freizeit/just-party.html">Partys</a></li></ul></li><li><a href="/ffh-welt/app.html">FFH-Welt</a><ul><li><a href="/ffh-welt/app.html">FFH-App</a></li><li><a href="/ffh-welt/newsletter.html">Newsletter</a></li><li><a href="/ffh-welt/kontakt.html">Kontakt</a></li><li><a href="/ffh-welt/frequenzen.html">Frequenzen</a></li><li><a href="/ffh-welt/jobs.html">Jobs</a></li><li><a href="/ffh-welt/fuehrungen.html">Führungen</a></li><li><a href="https://www.ffh-mediengruppe.de/presse/updates.html" target="_blank">Presse</a></li><li><a href="https://www.ffh-mediengruppe.de" target="_blank">Radiowerbung</a></li><li><a href="https://academy.ffh.de" target="_blank" rel="noreferrer">Weiterbildung</a></li><li><a href="/login.html">Login</a></li></ul></li></ul><div class="clearBoth"></div>
+</div>
+</div>
+<div id="footerNav">
+<ul><li id="footerNav_impressum"><a href="/index/impressum-und-datenschutz.html">Impressum und Datenschutz</a></li><li id="footerNav_cookies"><a href="/index/impressum-und-datenschutz.html">Cookie-Einstellungen</a></li></ul><div class="clearBoth"></div>
+</div>
+</footer>
+<!-- FOOTER ENDE -->
+</div>
+</div>
+<a class="opensearchserver.ignore" id="backToTopButton">nach oben</a>
+</div>
+<div id="tabNav">
+<ul>
+<li>
+<a class="content" href="/index.html"><span class="icon"></span>Home</a>
+</li>
+<li>
+<a class="music" href="/musik.html"><span class="icon"></span>Musik</a>
+</li>
+<li>
+<a class="podcast" href="/podcast.html"><span class="icon"></span>Podcast</a>
+</li>
+<li>
+<a class="video" href="/video.html"><span class="icon"></span>Video</a>
+</li>
+<li>
+<a id="toggleMenu" class="menu" href="#"><span class="icon"></span>Menü</a>
+</li>
+</ul>
+</div>
+<div id="controlHeight" style="width:0px;height:100vh;position:absolute"></div>
+<div class="loadcss" data-src="https://static.ffh.de/fileadmin/templates/common/css/webplayer.css" data-class="WebPlayer"></div>
+<div class="loadjs" data-type="script" data-src="https://static.ffh.de/fileadmin/templates/common/js/thirdparty/adswizz/adswizzsdk.min.js" data-class="AdswizzSdk"></div>
+<div id="webPlayer" class="hidden_on_default" data-playlisteventapi="/update-onair-info?tx_ffhonair_pi2%5Baction%5D=getplaylistevent&amp;tx_ffhonair_pi2%5Bcontroller%5D=Webradio&amp;tx_ffhonair_pi2%5Bformat%5D=json&amp;type=210&amp;cHash=e3d33f059bddaa28265ab7d5e0ef0be5">
+<div id="webPlayerInner">
+<div id="webPlayerWebradio">
+<audio controls crossorigin="use-credentials" id="webPlayerAudio"></audio>
+<a href="/musik/webradio/2-hitradio-ffh.html">
+<img id="webPlayerLogo" src="https://static.ffh.de/fileadmin/_processed_/8/6/csm_FFH_600x600_153043cb53.jpg" alt="" />
+</a>
+<div id="webPlayerMetaContainer">
+<p id="webPlayerStation"></p>
+<p id="webPlayerArtist">HIT RADIO FFH</p>
+<p id="webPlayerTitle">Jetzt einschalten</p>
+</div>
+<div id="webPlayerControls">
+<a href="#" id="webPlayerVolume" title="Lautstärke"></a>
+<a href="#" class="webPlayerVoteButton like disabled" data-action="like" id="webPlayerVoteUp" title="Ich mag diesen Song"></a>
+<a href="#" id="webPlayerPlay" title="Webradio starten/stoppen"></a>
+<a href="#" class="webPlayerVoteButton dislike disabled" data-action="dislike" id="webPlayerVoteDown" title="Ich mag diesen Song nicht"></a>
+</div>
+<div id="webPlayerVolumeSlider">
+<ul>
+<li data-volume="1.0"></li>
+<li data-volume="0.9"></li>
+<li data-volume="0.8"></li>
+<li data-volume="0.7"></li>
+<li data-volume="0.6"></li>
+<li data-volume="0.5"></li>
+<li data-volume="0.4"></li>
+<li data-volume="0.3"></li>
+<li data-volume="0.2"></li>
+<li data-volume="0.1"></li>
+</ul>
+</div>
+<div id="webPlayerStations">
+<div class="station" data-station="ffh" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/radioffh/hqlivestream.mp3" data-name="HIT RADIO FFH" data-logo="https://static.ffh.de/fileadmin/_processed_/8/6/csm_FFH_600x600_153043cb53.jpg" data-defaultartist="HIT RADIO FFH" data-defaulttitle="Der FFH-Mix: Musik wie wir sie lieben" data-landingpage="/musik/webradio/2-hitradio-ffh.html">HIT RADIO FFH</div>
+<div class="station" data-station="ffhplus80er" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhplus/hq80er.mp3" data-name="FFH+ 80ER" data-logo="https://static.ffh.de/fileadmin/_processed_/2/e/csm_ffh_80er_600x600_9d247e2c21.jpg" data-defaultartist="FFH+ 80ER" data-defaulttitle="Noch mehr Hits aus den 80ern" data-landingpage="/musik/webradio/50-ffh-plus-80er.html">FFH+ 80ER</div>
+<div class="station" data-station="ffhplus90er" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhplus/hq90er.mp3" data-name="FFH+ 90ER" data-logo="https://static.ffh.de/fileadmin/_processed_/6/1/csm_ffh_90er_600x600_a417d2fdf9.jpg" data-defaultartist="FFH+ 90ER" data-defaulttitle="Noch mehr Hits aus den 90ern" data-landingpage="/musik/webradio/53-ffh-90er-radio-musik-nonstop.html">FFH+ 90ER</div>
+<div class="station" data-station="ffhpluscharts" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhplus/hqcharts.mp3" data-name="FFH+ CHARTS" data-logo="https://static.ffh.de/fileadmin/_processed_/a/7/csm_ffh_charts_600x600_01_8677831210.jpg" data-defaultartist="FFH+ CHARTS" data-defaulttitle="Noch mehr Chart-Hits" data-landingpage="/musik/webradio/52-ffh-charts-musik-radio.html">FFH+ CHARTS</div>
+<div class="station" data-station="ffhplusrock" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhplus/hqrock.mp3" data-name="FFH+ ROCK" data-logo="https://static.ffh.de/fileadmin/_processed_/c/c/csm_ffh_rock_600x600_01_7343340a6f.jpg" data-defaultartist="FFH+ ROCK" data-defaulttitle="Noch mehr Rockmusik" data-landingpage="/musik/webradio/51-ffh-plus-rock.html">FFH+ ROCK</div>
+<div class="station" data-station="ffhplusxmas" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhplus/hqxmas.mp3" data-name="FFH+ WEIHNACHTEN" data-logo="https://static.ffh.de/fileadmin/_processed_/8/0/csm_ffh_xmas_600x600_fecb30bd2a.jpg" data-defaultartist="FFH+ WEIHNACHTEN" data-defaulttitle="Noch mehr Weihnachtslieder" data-landingpage="/musik/webradio/54-ffh-plus-weihnachten.html">FFH+ WEIHNACHTEN</div>
+<div class="station" data-station="ffhmeditation" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hqmeditation.mp3" data-name="WOHLFÜHLZEIT" data-logo="https://static.ffh.de/fileadmin/_processed_/4/b/csm_wohlfuelzeit_600x600_68dcfc7c7f.jpg" data-defaultartist="WOHLFÜHLZEIT" data-defaulttitle="Meditation &amp; Entspannung" data-landingpage="/musik/webradio/121-wohlfuehlzeit-webradio-meditation-entspannung-kostenlos.html">WOHLFÜHLZEIT</div>
+<div class="station" data-station="ffhtop40live" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hqtop40.mp3" data-name="FFH TOP 40" data-logo="https://static.ffh.de/fileadmin/_processed_/c/a/csm_top40_600x600_68683dc127.jpg" data-defaultartist="FFH TOP 40" data-defaulttitle="Deutschlands erste Charts in Echtzeit" data-landingpage="/musik/webradio/13-ffh-top-40.html">FFH TOP 40</div>
+<div class="station" data-station="ffhleidergeil" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hqvoting.mp3" data-name="FFH LEIDER GEIL" data-logo="https://static.ffh.de/fileadmin/_processed_/4/7/csm_leidergeil_600x600_17685cccb9.jpg" data-defaultartist="FFH LEIDER GEIL" data-defaulttitle="Dein Voting-Channel" data-landingpage="/musik/webradio/42-ffh-leider-geil.html">FFH LEIDER GEIL</div>
+<div class="station" data-station="ffhcountry" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hqcountry.mp3" data-name="FFH COUNTRY RADIO" data-logo="https://static.ffh.de/fileadmin/_processed_/c/1/csm_ffh_countryRadio_600x600_9ee54abba3.jpg" data-defaultartist="COUNTRY RADIO" data-defaulttitle="Die besten Country-Songs" data-landingpage="/musik/webradio/120-deutschlands-country-radio.html">FFH COUNTRY RADIO</div>
+<div class="station" data-station="ffhfeierbiest" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hqfeierbiest.mp3" data-name="RADIO FEIERBIEST" data-logo="https://static.ffh.de/fileadmin/_processed_/2/4/csm_ffh_feierbiest_600x600_3c54044db1.jpg" data-defaultartist="RADIO FEIERBIEST" data-defaulttitle="Deine Mallorca-, Hütten-, Festzelt-Party" data-landingpage="/musik/webradio/119-radio-feierbiest.html">RADIO FEIERBIEST</div>
+<div class="station" data-station="ffhparty" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hqparty.mp3" data-name="FFH JUST PARTY" data-logo="https://static.ffh.de/fileadmin/_processed_/0/9/csm_justparty_600x600_241ed659ce.jpg" data-defaultartist="FFH JUST PARTY" data-defaulttitle="Die coolsten Dance-Floor-Hits" data-landingpage="/musik/webradio/15-party-feiern-mit-der-perfekten-partymusik-webradio.html">FFH JUST PARTY</div>
+<div class="station" data-station="ffhkuschelrock" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hqkuschelrock.mp3" data-name="FFH KUSCHELROCK" data-logo="https://static.ffh.de/fileadmin/_processed_/0/d/csm_ffhkuschelrock_600x600_f8aff69cb3.jpg" data-defaultartist="FFH KUSCHELROCK" data-defaulttitle="Softrock für schöne Stunden zu zweit" data-landingpage="/musik/webradio/68-ffh-kuschelrock.html">FFH KUSCHELROCK</div>
+<div class="station" data-station="ffhkuschelpop" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hqkuschelpop.mp3" data-name="FFH KUSCHELPOP" data-logo="https://static.ffh.de/fileadmin/_processed_/1/a/csm_ffhkuschelpop_600x600_bb427623b5.jpg" data-defaultartist="FFH KUSCHELPOP" data-defaulttitle="Die schönsten Lovesongs zum Kuscheln" data-landingpage="/musik/webradio/69-ffh-kuschelpop.html">FFH KUSCHELPOP</div>
+<div class="station" data-station="ffhlounge" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hqlounge.mp3" data-name="FFH LOUNGE" data-logo="https://static.ffh.de/fileadmin/_processed_/7/a/csm_ffh_lounge_600x600_4f432dd4b1.jpg" data-defaultartist="FFH LOUNGE" data-defaulttitle="Just relax!" data-landingpage="/musik/webradio/16-ffh-lounge-relaxen-und-chillen.html">FFH LOUNGE</div>
+<div class="station" data-station="ffhbestof" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hqbestof.mp3" data-name="FFH BEST OF 2024" data-logo="https://static.ffh.de/fileadmin/_processed_/3/6/csm_bestof2024_600x600_0868b570c1.jpg" data-defaultartist="FFH BEST OF 2024" data-defaulttitle="Die besten Hits des Jahres 2024" data-landingpage="/musik/webradio/67-ffh-best-of-2022-die-besten-hits-des-jahres-2022-als-webradio.html">FFH BEST OF 2024</div>
+<div class="station" data-station="ffhhappyhits" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hqhappyhits.mp3" data-name="FFH HAPPY HITS" data-logo="https://static.ffh.de/fileadmin/_processed_/2/1/csm_ffh_happyhits_600x600_16065397c2.jpg" data-defaultartist="FFH HAPPY HITS" data-defaulttitle="Dein Gute-Laune Channel" data-landingpage="/musik/webradio/65-ffh-happy-hits-radio-mit-gute-laune-musik.html">FFH HAPPY HITS</div>
+<div class="station" data-station="ffhtop1000" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hqtop1000.mp3" data-name="FFH TOP 1000" data-logo="https://static.ffh.de/fileadmin/_processed_/5/b/csm_ffhtop1000_600x600_ee1648801c.jpg" data-defaultartist="FFH TOP 1000" data-defaulttitle="Die besten Hits aller Zeiten im Mega-Countdown" data-landingpage="/musik/webradio/66-ffh-top-1000.html">FFH TOP 1000</div>
+<div class="station" data-station="ffholdies" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hqoldies.mp3" data-name="FFH OLDIES" data-logo="https://static.ffh.de/fileadmin/_processed_/1/0/csm_ffh_oldies_600x600_1e5fd57c77.jpg" data-defaultartist="FFH OLDIES" data-defaulttitle="Oldies but Goldies aus den 60ern und 70ern" data-landingpage="/musik/webradio/57-ffh-oldies-das-oldies-but-goldies-radio-mit-60er-70er-hits.html">FFH OLDIES</div>
+<div class="station" data-station="ffhjustwhite" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hqjustwhite.mp3" data-name="FFH JUST WHITE" data-logo="https://static.ffh.de/fileadmin/_processed_/a/4/csm_ffhjustwhite_600x600_a12305c308.jpg" data-defaultartist="FFH JUST WHITE" data-defaulttitle="Einschalten - abtanzen" data-landingpage="/musik/webradio/61-ffh-just-white-festival-house-edm-dance.html">FFH JUST WHITE</div>
+<div class="station" data-station="ffh80er" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hq80er.mp3" data-name="FFH DIE 80ER" data-logo="https://static.ffh.de/fileadmin/_processed_/0/3/csm_ffh_die_80er_600x600_df1711417d.jpg" data-defaultartist="FFH DIE 80ER" data-defaulttitle="Nonstop 80er-Kulthits!" data-landingpage="/musik/webradio/11-ffh-die-80er-das-80er-hits-radio-von-ndw-bis-pop.html">FFH DIE 80ER</div>
+<div class="station" data-station="ffh90er" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hq90er.mp3" data-name="FFH JUST 90s" data-logo="https://static.ffh.de/fileadmin/_processed_/5/d/csm_Just90s_600x600_fe78a36334.jpg" data-defaultartist="FFH JUST 90s" data-defaulttitle="Das Jahrzehnt der Piercings, Tattoos und Inliner" data-landingpage="/musik/webradio/10-just-90s-online-radio-spielt-die-90er-hits.html">FFH JUST 90s</div>
+<div class="station" data-station="ffh2000er" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hq2000er.mp3" data-name="FFH DIE 2000ER" data-logo="https://static.ffh.de/fileadmin/_processed_/d/6/csm_ffh2000er_600x600_7986e7cff4.jpg" data-defaultartist="FFH DIE 2000ER" data-defaulttitle="Die Hits aus deinem MP3-Player" data-landingpage="/musik/webradio/55-2000er-radio-hits-00er-jahre.html">FFH DIE 2000ER</div>
+<div class="station" data-station="ffh2010er" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hq2010er.mp3" data-name="FFH DIE 2010ER" data-logo="https://static.ffh.de/fileadmin/_processed_/7/d/csm_ffh2010er_600x600_dc4e5c9bd6.jpg" data-defaultartist="FFH DIE 2010ER" data-defaulttitle="Das Jahrzehnt der Pokemons und DJ Tracks" data-landingpage="/musik/webradio/56-die-2010er-hits-im-kostenlosen-livestream.html">FFH DIE 2010ER</div>
+<div class="station" data-station="ffhchillandgrill" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hqchillandgrill.mp3" data-name="FFH CHILL &amp; GRILL" data-logo="https://static.ffh.de/fileadmin/_processed_/8/c/csm_ffhchillgrill_600x600_248f07c9ee.jpg" data-defaultartist="FFH CHILL &amp; GRILL" data-defaulttitle="Dein Webradio für den Sommer" data-landingpage="/musik/webradio/63-ffh-chill-grill-sommer-hits.html">FFH CHILL &amp; GRILL</div>
+<div class="station" data-station="ffhfruehlingsfeeling" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hqfruehlingsfeeling.mp3" data-name="FFH FRÜHLINGS FEELING" data-logo="https://static.ffh.de/fileadmin/_processed_/7/4/csm_ffh_fruehling_600x600_01_5f6d5895ac.jpg" data-defaultartist="FFH FRÜHLINGS FEELING" data-defaulttitle="Dein Soundtrack für den Frühling" data-landingpage="/musik/webradio/70-ffh-fruehlings-feeling-playlist.html">FFH FRÜHLINGS FEELING</div>
+<div class="station" data-station="ffhsummerfeeling" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hqsummerfeeling.mp3" data-name="FFH SUMMER FEELING" data-logo="https://static.ffh.de/fileadmin/_processed_/b/9/csm_summer_600x600_8d7b05c004.jpg" data-defaultartist="FFH SUMMER FEELING" data-defaulttitle="Mit den sonnigsten Sommer-Songs" data-landingpage="/musik/webradio/47-summer-feeling-radio-sommerhits-online-hoeren.html">FFH SUMMER FEELING</div>
+<div class="station" data-station="ffheurodance" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hqeurodance.mp3" data-name="FFH EURODANCE" data-logo="https://static.ffh.de/fileadmin/_processed_/c/b/csm_ffh_eurodance_600x600_d8e5d073f8.jpg" data-defaultartist="FFH EURODANCE" data-defaulttitle="Von SNAP! bis Captain Jack" data-landingpage="/musik/webradio/12-eurodance-dancefloor-lieder-90er-aktuell-edm.html">FFH EURODANCE</div>
+<div class="station" data-station="ffhrock" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hqrock.mp3" data-name="FFH ROCK" data-logo="https://static.ffh.de/fileadmin/_processed_/0/5/csm_ffh_rock_600x600_0fc13983e0.jpg" data-defaultartist="FFH ROCK" data-defaulttitle="Nur echt mit Gitarre!" data-landingpage="/musik/webradio/18-rock-radio-und-radiosender-online-hoeren.html">FFH ROCK</div>
+<div class="station" data-station="ffhworkout" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hqworkout.mp3" data-name="FFH WORKOUT" data-logo="https://static.ffh.de/fileadmin/_processed_/0/b/csm_workout_600x600_4688879e0e.jpg" data-defaultartist="FFH WORKOUT" data-defaulttitle="Die besten Beats für dein Training" data-landingpage="/musik/webradio/48-ffh-workout-radio-musik-sport-fitness.html">FFH WORKOUT</div>
+<div class="station" data-station="ffhschlagerherz" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hqschlagerherz.mp3" data-name="RADIO SCHLAGERHERZ" data-logo="https://static.ffh.de/fileadmin/_processed_/a/2/csm_ffh_schlagerherz_600x600_f446c1e633.jpg" data-defaultartist="RADIO SCHLAGERHERZ" data-defaulttitle="Schlager-Playlist voller Leidenschaft und Herz" data-landingpage="/musik/webradio/118-radio-schlagerherz.html">RADIO SCHLAGERHERZ</div>
+<div class="station" data-station="ffhschlager" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hqschlager.mp3" data-name="FFH SCHLAGERKULT" data-logo="https://static.ffh.de/fileadmin/_processed_/7/c/csm_ffh_schlager_kult_600x600_0b46c29db5.jpg" data-defaultartist="FFH SCHLAGERKULT" data-defaulttitle="Der Sender mit Gute-Laune-Garantie" data-landingpage="/musik/webradio/20-schlagerkult-dein-schlager-radio-im-webstream.html">FFH SCHLAGERKULT</div>
+<div class="station" data-station="ffhdeutschpur" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hqdeutsch.mp3" data-name="FFH DEUTSCH PUR" data-logo="https://static.ffh.de/fileadmin/_processed_/7/9/csm_deutsch_600x600_a59e70e723.jpg" data-defaultartist="FFH DEUTSCH PUR" data-defaulttitle="Das Beste aus deutschem Rock &amp; Pop" data-landingpage="/musik/webradio/45-ffh-deutsch-pur-radio-deutsche-hits-online-hoeren.html">FFH DEUTSCH PUR</div>
+<div class="station" data-station="ffhbrandneu" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hqbrandneu.mp3" data-name="FFH BRANDNEU" data-logo="https://static.ffh.de/fileadmin/_processed_/b/b/csm_brandneu_600x600_c3fcdaf31c.jpg" data-defaultartist="FFH BRANDNEU" data-defaulttitle="Immer die allerneusten Songs" data-landingpage="/musik/webradio/43-ffh-brandneu-neue-musik-und-die-besten-aktuellen-hits.html">FFH BRANDNEU</div>
+<div class="station" data-station="ffhacoustichits" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hqacoustichits.mp3" data-name="FFH ACOUSTIC HITS" data-logo="https://static.ffh.de/fileadmin/_processed_/b/2/csm_acoustic_600x600_6b47b1db38.jpg" data-defaultartist="FFH ACOUSTIC HITS" data-defaulttitle="Zum Relaxen im Alltag" data-landingpage="/musik/webradio/46-acoustic-hits-radio-handgemacht.html">FFH ACOUSTIC HITS</div>
+<div class="station" data-station="ffhsoundtrack" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hqsoundtrack.mp3" data-name="FFH SOUNDTRACK" data-logo="https://static.ffh.de/fileadmin/_processed_/c/c/csm_ffh_soundtrack_600x600_268c30621d.jpg" data-defaultartist="FFH SOUNDTRACK" data-defaulttitle="Die ergreifendsten Momente aus Ihren Lieblingsfilmen" data-landingpage="/musik/webradio/14-ffh-soundtrack-radiosender-fuer-filmmusik-musical-und-serien.html">FFH SOUNDTRACK</div>
+<div class="station" data-station="ffhxmas" data-stationgroup="ffh" data-streamurl="http://mp3.ffh.de/ffhchannels/hqxmas.mp3" data-name="FFH WEIHNACHTSRADIO" data-logo="https://static.ffh.de/fileadmin/_processed_/5/a/csm_xmas_600x600_9bfeae7dd9.jpg" data-defaultartist="FFH WEIHNACHTSRADIO" data-defaulttitle="Die schönsten Weihnachtslieder" data-landingpage="/musik/webradio/33-ffh-weihnachtsradio-die-schoensten-weihnachtslieder-online-hoeren.html">FFH WEIHNACHTSRADIO</div>
+<div class="station" data-station="planet" data-stationgroup="planetradio" data-streamurl="http://mp3.planetradio.de/planetradio/hqlivestream.mp3" data-name="planet radio" data-logo="https://static.ffh.de/fileadmin/_processed_/7/0/csm_planet_simulcast_1x1_6362baa9c1.jpg" data-defaultartist="planet radio" data-defaulttitle="entdecke neue musik" data-landingpage="/musik/webradio/29-planet-radio.html">planet radio</div>
+<div class="station" data-station="plrplusfun" data-stationgroup="planetradio" data-streamurl="http://mp3.planetradio.de/plrplus/hqfun.mp3" data-name="planet plus fun" data-logo="https://static.ffh.de/fileadmin/_processed_/6/5/csm_planet__fun_1400x1400_4d7ecc12c5.jpg" data-defaultartist="planet radio plus fun" data-defaulttitle="planet und feelgood-songs on top" data-landingpage="/musik/webradio/71-planet-plus-fun.html">planet plus fun</div>
+<div class="station" data-station="plrpluspower" data-stationgroup="planetradio" data-streamurl="http://mp3.planetradio.de/plrplus/hqpower.mp3" data-name="planet plus power" data-logo="https://static.ffh.de/fileadmin/_processed_/c/4/csm_planet__power_600x600_dc59890621.jpg" data-defaultartist="planet radio plus power" data-defaulttitle="planet plus extra-viel beats" data-landingpage="/musik/webradio/74-planet-plus-power.html">planet plus power</div>
+<div class="station" data-station="plrplusliebe" data-stationgroup="planetradio" data-streamurl="http://mp3.planetradio.de/plrplus/hqliebe.mp3" data-name="planet plus liebe" data-logo="https://static.ffh.de/fileadmin/_processed_/8/f/csm_planet__liebe_1400x1400_a776b830d0.jpg" data-defaultartist="planet radio plus liebe" data-defaulttitle="planet mit der extra-portion lovesongs" data-landingpage="/musik/webradio/72-planet-plus-liebe.html">planet plus liebe</div>
+<div class="station" data-station="plrplusheartbreak" data-stationgroup="planetradio" data-streamurl="http://mp3.planetradio.de/plrplus/hqheartbreak.mp3" data-name="planet plus heartbreak" data-logo="https://static.ffh.de/fileadmin/_processed_/d/4/csm_planet__heartbreak_1400x1400_97257c8c06.jpg" data-defaultartist="planet radio plus heartbreak" data-defaulttitle="planet und dazu mehr herzschmerz-songs" data-landingpage="/musik/webradio/73-planet-plus-heartbreak.html">planet plus heartbreak</div>
+<div class="station" data-station="plrplusxmas" data-stationgroup="planetradio" data-streamurl="http://mp3.planetradio.de/plrplus/hqxmas.mp3" data-name="planet plus weihnachten" data-logo="https://static.ffh.de/fileadmin/_processed_/3/d/csm_planet_xmas_1400x1400_dadf20537f.jpg" data-defaultartist="planet radio plus weihnachten" data-defaulttitle="planet und christmas-songs on top" data-landingpage="/musik/webradio/117-planet-plus-xmas.html">planet plus weihnachten</div>
+<div class="station" data-station="plrlivecharts" data-stationgroup="planetradio" data-streamurl="http://mp3.planetradio.de/plrchannels/hqitunes.mp3" data-name="planet livecharts" data-logo="https://static.ffh.de/fileadmin/_processed_/6/6/csm_planet_livecharts_1400x1400_20cdfdd531.jpg" data-defaultartist="planet radio livecharts" data-defaulttitle="aktuelle charts in echtzeit" data-landingpage="/musik/webradio/40-planet-livecharts.html">planet livecharts</div>
+<div class="station" data-station="plrdeutschrap" data-stationgroup="planetradio" data-streamurl="http://mp3.planetradio.de/plrchannels/hqdeutschrap.mp3" data-name="deutschrap finest" data-logo="https://static.ffh.de/fileadmin/_processed_/f/b/csm_planet_deutschrap_1400x1400_eb47b38067.jpg" data-defaultartist="planet deutschrap finest" data-defaulttitle="das beste aus deutschrap" data-landingpage="/musik/webradio/115-planet-deutschrap-finest.html">deutschrap finest</div>
+<div class="station" data-station="plrflashbackfriday" data-stationgroup="planetradio" data-streamurl="http://mp3.planetradio.de/plrchannels/hqflashbackfriday.mp3" data-name="planet flashback friday" data-logo="https://static.ffh.de/fileadmin/_processed_/7/c/csm_planet_flashbackfriday_1400x1400_d21b76deea.jpg" data-defaultartist="flashback friday" data-defaulttitle="beste songs zu coolen erinnerungen" data-landingpage="/musik/webradio/75-planet-flashback-friday.html">planet flashback friday</div>
+<div class="station" data-station="plrtheclub" data-stationgroup="planetradio" data-streamurl="http://mp3.planetradio.de/plrchannels/hqtheclub.mp3" data-name="planet the club" data-logo="https://static.ffh.de/fileadmin/_processed_/5/6/csm_planet_theclub_1400x1400_0c9687df49.jpg" data-defaultartist="planet radio the club" data-defaulttitle="die neuesten tracks aus den clubs der partymetropolen" data-landingpage="/musik/webradio/26-planet-the-club.html">planet the club</div>
+<div class="station" data-station="plrearlymorningbreaks" data-stationgroup="planetradio" data-streamurl="http://mp3.planetradio.de/plrchannels/hqearlymorningbreaks.mp3" data-name="planet early morning breaks" data-logo="https://static.ffh.de/fileadmin/_processed_/6/d/csm_planet_emb_1400x1400_dbeebbdb4c.jpg" data-defaultartist="early morning breaks" data-defaulttitle="lässige chillout beats und loungige deep house tracks im mix" data-landingpage="/musik/webradio/76-planet-early-morning-breaks.html">planet early morning breaks</div>
+<div class="station" data-station="plroldschool" data-stationgroup="planetradio" data-streamurl="http://mp3.planetradio.de/plrchannels/hqoldschool.mp3" data-name="planet oldschool" data-logo="https://static.ffh.de/fileadmin/_processed_/4/2/csm_planet_oldschool_1400x1400_2dd304a1bf.jpg" data-defaultartist="planet radio oldschool" data-defaulttitle="die coolen sounds der 90er und 2000er" data-landingpage="/musik/webradio/44-planet-oldschool.html">planet oldschool</div>
+<div class="station" data-station="plrnightwax" data-stationgroup="planetradio" data-streamurl="http://mp3.planetradio.de/plrchannels/hqnightwax.mp3" data-name="planet nightwax" data-logo="https://static.ffh.de/fileadmin/_processed_/3/2/csm_planet_nightwax_1400x1400_5c91e11c83.jpg" data-defaultartist="planet radio nightwax" data-defaulttitle="elektronische beats von internationalen djs" data-landingpage="/musik/webradio/27-planet-nightwax.html">planet nightwax</div>
+<div class="station" data-station="plrblackbeats" data-stationgroup="planetradio" data-streamurl="http://mp3.planetradio.de/plrchannels/hqblackbeats.mp3" data-name="planet black beats" data-logo="https://static.ffh.de/fileadmin/_processed_/1/5/csm_planet_blackbeats_1400x1400_f836a7cc85.jpg" data-defaultartist="planet radio black beats" data-defaulttitle="die neuesten hip hop-tracks" data-landingpage="/musik/webradio/28-planet-black-beats.html">planet black beats</div>
+<div class="station" data-station="plrtaylorswift" data-stationgroup="planetradio" data-streamurl="http://mp3.planetradio.de/plrchannels/hqstars12.mp3" data-name="taylor swift &amp; friends" data-logo="https://static.ffh.de/fileadmin/_processed_/5/2/csm_planet_swift-friends_1400x1400_188bebc489.jpg" data-defaultartist="taylor swift &amp; friends" data-defaulttitle="planet radio" data-landingpage="/musik/webradio/88-taylor-swift-and-friends-radio.html">taylor swift &amp; friends</div>
+<div class="station" data-station="plredsheeran" data-stationgroup="planetradio" data-streamurl="http://mp3.planetradio.de/plrchannels/hqstars01.mp3" data-name="ed sheeran &amp; friends" data-logo="https://static.ffh.de/fileadmin/_processed_/f/d/csm_planet_sheeran-friends_1400x1400_0f94c7d979.jpg" data-defaultartist="ed sheeran &amp; friends" data-defaulttitle="planet radio" data-landingpage="/musik/webradio/77-ed-sheeran-and-friends-radio.html">ed sheeran &amp; friends</div>
+<div class="station" data-station="plrtheweeknd" data-stationgroup="planetradio" data-streamurl="http://mp3.planetradio.de/plrchannels/hqstars13.mp3" data-name="the weeknd &amp; friends" data-logo="https://static.ffh.de/fileadmin/_processed_/9/c/csm_planet_weeknd-friends_1400x1400_6357801521.jpg" data-defaultartist="the weeknd &amp; friends" data-defaulttitle="planet radio" data-landingpage="/musik/webradio/89-the-weeknd-and-friends-radio.html">the weeknd &amp; friends</div>
+<div class="station" data-station="plrdavidguetta" data-stationgroup="planetradio" data-streamurl="http://mp3.planetradio.de/plrchannels/hqstars07.mp3" data-name="david guetta &amp; friends" data-logo="https://static.ffh.de/fileadmin/_processed_/0/a/csm_planet_guetta-friends_1400x1400_e4b2741255.jpg" data-defaultartist="david guetta &amp; friends" data-defaulttitle="planet radio" data-landingpage="/musik/webradio/83-david-guetta-and-friends-radio.html">david guetta &amp; friends</div>
+<div class="station" data-station="plrcoldplay" data-stationgroup="planetradio" data-streamurl="http://mp3.planetradio.de/plrchannels/hqstars11.mp3" data-name="coldplay &amp; friends" data-logo="https://static.ffh.de/fileadmin/_processed_/1/f/csm_planet_coldplay-friends_1400x1400_1f3ae89fcf.jpg" data-defaultartist="coldplay &amp; friends" data-defaulttitle="planet radio" data-landingpage="/musik/webradio/87-coldplay-and-friends-radio.html">coldplay &amp; friends</div>
+<div class="station" data-station="plrharrystyles" data-stationgroup="planetradio" data-streamurl="http://mp3.planetradio.de/plrchannels/hqstars19.mp3" data-name="harry styles &amp; friends" data-logo="https://static.ffh.de/fileadmin/_processed_/c/3/csm_planet_styles-friends_1400x1400_c051f30681.jpg" data-defaultartist="harry styles &amp; friends" data-defaulttitle="planet radio" data-landingpage="/musik/webradio/96-harry-styles-and-friends-radio.html">harry styles &amp; friends</div>
+<div class="station" data-station="plrdualipa" data-stationgroup="planetradio" data-streamurl="http://mp3.planetradio.de/plrchannels/hqstars03.mp3" data-name="dua lipa &amp; friends" data-logo="https://static.ffh.de/fileadmin/_processed_/0/0/csm_planet_lipa-friends_1400x1400_c8c4e98b55.jpg" data-defaultartist="dua lipa &amp; friends" data-defaulttitle="planet radio" data-landingpage="/musik/webradio/79-dua-lipa-and-friends-radio.html">dua lipa &amp; friends</div>
+<div class="station" data-station="plrjustinbieber" data-stationgroup="planetradio" data-streamurl="http://mp3.planetradio.de/plrchannels/hqstars14.mp3" data-name="justin bieber &amp; friends" data-logo="https://static.ffh.de/fileadmin/_processed_/9/1/csm_planet_bieber-friends_1400x1400_e720a89dae.jpg" data-defaultartist="justin bieber &amp; friends" data-defaulttitle="planet radio" data-landingpage="/musik/webradio/90-justin-bieber-and-friends-radio.html">justin bieber &amp; friends</div>
+<div class="station" data-station="plrbeyonce" data-stationgroup="planetradio" data-streamurl="http://mp3.planetradio.de/plrchannels/hqstars17.mp3" data-name="beyoncé &amp; friends" data-logo="https://static.ffh.de/fileadmin/_processed_/8/8/csm_planet_beyonce-friends_1400x1400_0cb05779f8.jpg" data-defaultartist="beyoncé &amp; friends" data-defaulttitle="planet radio" data-landingpage="/musik/webradio/93-beyonce-and-friends-radio.html">beyoncé &amp; friends</div>
+<div class="station" data-station="hrmnational" data-stationgroup="harmonyfm" data-streamurl="http://mp3.harmonyfm.de/harmonyfm/hqlivestream.mp3" data-name="80er-Radio harmony" data-logo="https://static.ffh.de/fileadmin/_processed_/8/d/csm_harmony_simulcast_1400x1400_2424c1e327.jpg" data-defaultartist="harmony" data-defaulttitle="Wir lieben die 80er." data-landingpage="/musik/webradio/32-harmonyfm.html">80er-Radio harmony</div>
+<div class="station" data-station="hrmplus70er" data-stationgroup="harmonyfm" data-streamurl="http://mp3.harmonyfm.de/hrmplus/hq70er.mp3" data-name="harmony +70er" data-logo="https://static.ffh.de/fileadmin/_processed_/3/f/csm_harmony_70er_1400x1400_0015337d13.jpg" data-defaultartist="harmony +70er" data-defaulttitle="Wir lieben die 70er und 80er." data-landingpage="/musik/webradio/59-harmony-plus-70er.html">harmony +70er</div>
+<div class="station" data-station="hrmplus90er" data-stationgroup="harmonyfm" data-streamurl="http://mp3.harmonyfm.de/hrmplus/hq90er.mp3" data-name="harmony +90er" data-logo="https://static.ffh.de/fileadmin/_processed_/3/7/csm_harmony_90er_1400x1400_dfdaa7d6fd.jpg" data-defaultartist="harmony +90er" data-defaulttitle="Wir lieben die 80er und 90er." data-landingpage="/musik/webradio/60-harmony-plus-90er.html">harmony +90er</div>
+<div class="station" data-station="hrmpluskarneval" data-stationgroup="harmonyfm" data-streamurl="http://mp3.harmonyfm.de/hrmplus/hqkarneval.mp3" data-name="harmony +Karneval" data-logo="https://static.ffh.de/fileadmin/_processed_/6/3/csm_harmony_karneval_1400x1400_601961627b.jpg" data-defaultartist="harmony +Karneval" data-defaulttitle="Wir lieben 80er und Karneval." data-landingpage="/musik/webradio/116-harmony-plus-karneval.html">harmony +Karneval</div>
+<div class="station" data-station="hrmplusxmas" data-stationgroup="harmonyfm" data-streamurl="http://mp3.harmonyfm.de/hrmplus/hqxmas.mp3" data-name="harmony +Weihnachten" data-logo="https://static.ffh.de/fileadmin/_processed_/5/8/csm_harmony_xmas_1400x1400_6bab31fdb6.jpg" data-defaultartist="harmony +Weihnachten" data-defaulttitle="Wir lieben die 80er." data-landingpage="/musik/webradio/95-harmony-plus-weihnachten.html">harmony +Weihnachten</div>
+<div class="station" data-station="hrmndw" data-stationgroup="harmonyfm" data-streamurl="http://mp3.harmonyfm.de/hrmchannels/hqndw.mp3" data-name="Neue Deutsche Welle" data-logo="https://static.ffh.de/fileadmin/_processed_/f/2/csm_harmony_ndw_1400x1400_15516cbba5.jpg" data-defaultartist="harmony NDW" data-defaulttitle="Die besten Hits der Neuen Deutschen Welle" data-landingpage="/musik/webradio/114-harmony-neue-deutsche-welle.html">Neue Deutsche Welle</div>
+<div class="station" data-station="hrm80erkultnight" data-stationgroup="harmonyfm" data-streamurl="http://mp3.harmonyfm.de/hrmchannels/hq80erkultnight.mp3" data-name="80er Kultnight" data-logo="https://static.ffh.de/fileadmin/_processed_/8/2/csm_harmony_kult80_600x600_a746dcb317.jpg" data-defaultartist="80er Kultnight" data-defaulttitle="Die besten Partysongs der 80er" data-landingpage="/musik/webradio/100-80er-kultnight.html">80er Kultnight</div>
+<div class="station" data-station="hrm70er80erkultnight" data-stationgroup="harmonyfm" data-streamurl="http://mp3.harmonyfm.de/hrmchannels/hq70er80erkultnight.mp3" data-name="70er-80er Kultnight" data-logo="https://static.ffh.de/fileadmin/_processed_/2/0/csm_harmony_kult70-80_600x600_4aa15c4ec8.jpg" data-defaultartist="70er-80er Kultnight" data-defaulttitle="Die besten Partysongs der 70er und 80er" data-landingpage="/musik/webradio/98-70er-80er-kultnight.html">70er-80er Kultnight</div>
+<div class="station" data-station="hrm80er90erkultnight" data-stationgroup="harmonyfm" data-streamurl="http://mp3.harmonyfm.de/hrmchannels/hq80er90erkultnight.mp3" data-name="80er-90er Kultnight Radio" data-logo="https://static.ffh.de/fileadmin/_processed_/9/2/csm_harmony_kult80-90_600x600_e0c2ee6d09.jpg" data-defaultartist="80er-90er Kultnight" data-defaulttitle="Die besten Partysongs der 80er und 90er" data-landingpage="/musik/webradio/99-80er-90er-kultnight.html">80er-90er Kultnight Radio</div>
+<div class="station" data-station="hrmfeelings" data-stationgroup="harmonyfm" data-streamurl="http://mp3.harmonyfm.de/hrmchannels/hqfeelings.mp3" data-name="harmony Feelings" data-logo="https://static.ffh.de/fileadmin/_processed_/8/a/csm_harmony_feelings_600x600_b63eceb7e8.jpg" data-defaultartist="harmony Feelings" data-defaulttitle="Die größten Lovesongs der 80er" data-landingpage="/musik/webradio/97-harmony-feelings.html">harmony Feelings</div>
+<div class="station" data-station="hrmschlager" data-stationgroup="harmonyfm" data-streamurl="http://mp3.harmonyfm.de/hrmchannels/hqschlager.mp3" data-name="harmony Schlager Radio" data-logo="https://static.ffh.de/fileadmin/_processed_/3/3/csm_harmony_schlager_1400x1400_35940b66d5.jpg" data-defaultartist="harmony.fm Schlager Radio" data-defaulttitle="Kultig und 100 Prozent deutsch" data-landingpage="/musik/webradio/30-harmony-schlager-radio.html">harmony Schlager Radio</div>
+<div class="station" data-station="hrmtinaturner" data-stationgroup="harmonyfm" data-streamurl="http://mp3.harmonyfm.de/hrmchannels/hqstars01.mp3" data-name="80er Divas" data-logo="https://static.ffh.de/fileadmin/_processed_/9/d/csm_harmony_divas_1400x1400_9ee8c61702.jpg" data-defaultartist="80er Divas" data-defaulttitle="80er-Radio harmony" data-landingpage="/musik/webradio/101-80er-divas-radio-die-erfolgreichsten-saengerinnen-der-80er-jahre.html">80er Divas</div>
+<div class="station" data-station="hrmphilcollins" data-stationgroup="harmonyfm" data-streamurl="http://mp3.harmonyfm.de/hrmchannels/hqstars02.mp3" data-name="80er Superstars" data-logo="https://static.ffh.de/fileadmin/_processed_/f/e/csm_harmony_superstars_1400x1400_bee3972985.jpg" data-defaultartist="80er Superstars" data-defaulttitle="80er-Radio harmony" data-landingpage="/musik/webradio/102-80er-superstars-radio-die-besten-saenger-der-80er.html">80er Superstars</div>
+<div class="station" data-station="hrmqueen" data-stationgroup="harmonyfm" data-streamurl="http://mp3.harmonyfm.de/hrmchannels/hqstars10.mp3" data-name="80er Superbands" data-logo="https://static.ffh.de/fileadmin/_processed_/4/b/csm_harmony_superbands_1400x1400_7d323b0fcc.jpg" data-defaultartist="80er Superbands" data-defaulttitle="80er-Radio harmony" data-landingpage="/musik/webradio/110-80er-superbands-radio-queen-co-die-erfolgreichsten-bands-der-80er.html">80er Superbands</div>
+<div class="station" data-station="hrmdepechemode" data-stationgroup="harmonyfm" data-streamurl="http://mp3.harmonyfm.de/hrmchannels/hqstars03.mp3" data-name="80er Wave Pop" data-logo="https://static.ffh.de/fileadmin/_processed_/8/e/csm_harmony_wavepop_1400x1400_95b8f9ea64.jpg" data-defaultartist="80er Wave Pop" data-defaulttitle="80er-Radio harmony" data-landingpage="/musik/webradio/103-80er-wave-pop-radio-die-besten-new-wave-hits-der-80er.html">80er Wave Pop</div>
+<div class="station" data-station="hrmpetshopboys" data-stationgroup="harmonyfm" data-streamurl="http://mp3.harmonyfm.de/hrmchannels/hqstars05.mp3" data-name="80er Synthie Pop" data-logo="https://static.ffh.de/fileadmin/_processed_/6/6/csm_harmony_synthiepop_1400x1400_69d6cc8ced.jpg" data-defaultartist="80er Synthie Pop" data-defaulttitle="80er-Radio harmony" data-landingpage="/musik/webradio/105-80er-synthie-pop-radio-die-besten-synth-pop-bands-hits.html">80er Synthie Pop</div>
+</div>
+</div>
+<div id="webPlayerNavigation">
+<ul>
+<li>
+<a class="home" href="/index.html" title="Zur Homepage"><span class="icon"></span>Home</a>
+</li>
+<li>
+<a class="music" href="/musik.html" title="Zur Musikwelt"><span class="icon"></span>Musik</a>
+</li>
+<li>
+<a class="podcast" href="/podcast.html" title="Zu den Podcasts"><span class="icon"></span>Podcast</a>
+</li>
+<li>
+<a class="video" href="/video.html" title="Zur Mediathek"><span class="icon"></span>Video</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="webPlayerCompanion"></div>
+<script type="text/javascript" src="https://livestats.ffh.de/server/tracker/tracker.js"></script>
+<img alt="tracker" id="livestatTrackingPixel" style="display: none;" />    <script type="text/javascript">
+var impTrack = new ImpressionTracker();
+impTrack.setServerURL("https://livestats.ffh.de/server");
+impTrack.setProject("1");impTrack.setPageIdentifier("12129");      impTrack.init();
+</script>
+<script src="https://static.ffh.de/typo3temp/assets/compressed/merged-40ccb11e7ca0d5b094d50c783f2d9a92-6182b24ba3e00e11773df09360feb402.js.gzip?1751955657"></script>
+</body>
+</html>

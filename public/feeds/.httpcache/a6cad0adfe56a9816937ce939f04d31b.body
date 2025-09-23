@@ -1,0 +1,1361 @@
+
+<!doctype html>
+<html lang="it-IT">
+
+<head>
+
+  <title>AltamuraLive.it - Le notizie da Altamura - Altamura News</title>
+<meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel="canonical" href="https://altamuralive.it/">
+<meta name="description" content="Tutto su Altamura: cronaca da Altamura, politica Altamura, attualità Altamura, cultura e spettacoli Altamura, sport, eventi, notizie Altamura.">
+<meta property="og:title" content="AltamuraLive.it - Le notizie da Altamura - Altamura News">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://altamuralive.it/wp-content/uploads/sites/9/2022/07/live-share-altamura.jpg">
+<meta property="og:image:width" content="1921">
+<meta property="og:image:height" content="1081">
+<meta property="og:image:alt" content="live-share-altamura">
+<meta property="og:description" content="Tutto su Altamura: cronaca da Altamura, politica Altamura, attualità Altamura, cultura e spettacoli Altamura, sport, eventi, notizie Altamura.">
+<meta property="og:url" content="https://altamuralive.it/">
+<meta property="og:locale" content="it_IT">
+<meta property="og:site_name" content="AltamuraLive.it">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://altamuralive.it/wp-content/uploads/sites/9/2022/07/live-share-altamura.jpg">
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/altamuralive.it\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.2"}};
+/*! This file is auto-generated */
+!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<!-- altamuralive.it is managing ads with Advanced Ads 2.0.11 – https://wpadvancedads.com/ --><script id="liveb-ready">
+			window.advanced_ads_ready=function(e,a){a=a||"complete";var d=function(e){return"interactive"===a?"loading"!==e:"complete"===e};d(document.readyState)?e():document.addEventListener("readystatechange",(function(a){d(a.target.readyState)&&e()}),{once:"interactive"===a})},window.advanced_ads_ready_queue=window.advanced_ads_ready_queue||[];		</script>
+		<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://altamuralive.it/wp-includes/css/dist/block-library/style.min.css?ver=6.8.2' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='wpa-css-css' href='https://altamuralive.it/wp-content/plugins/honeypot/includes/css/wpa.css?ver=2.3.02' type='text/css' media='all' />
+<link rel='stylesheet' id='addtocalendar-css' href='https://altamuralive.it/wp-content/plugins/addtocalendar/public/css/addtocalendar.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='cmplz-general-css' href='https://altamuralive.it/wp-content/plugins/complianz-gdpr-premium-multisite/assets/css/cookieblocker.min.css?ver=1753297637' type='text/css' media='all' />
+<link rel='stylesheet' id='live-fonts-css' href='//fonts.googleapis.com/css2?family=Unna%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700&#038;display=swap&#038;ver=6.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='live-wi-css' href='https://altamuralive.it/wp-content/themes/livenetwork-template/assets/vendors/weather-icons/weather-icons.min.css?ver=2.0.10' type='text/css' media='all' />
+<link rel='stylesheet' id='live-fontawesome-css' href='https://altamuralive.it/wp-content/themes/livenetwork-template/assets/vendors/fontawesome/css/all.min.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='halkabox-css' href='https://altamuralive.it/wp-content/themes/livenetwork-template/assets/vendors/halkaBox/halkaBox.min.css?ver=1.6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='swiper-css' href='https://altamuralive.it/wp-content/themes/livenetwork-template/assets/vendors/swiper/swiper-bundle.min.css?ver=8.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='plyr-css' href='//cdnjs.cloudflare.com/ajax/libs/plyr/3.7.2/plyr.min.css?ver=3.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='live-css' href='https://altamuralive.it/wp-content/themes/livenetwork-template/style.css?ver=1.0.23' type='text/css' media='all' />
+<link rel='stylesheet' id='live-adv-overlay-css' href='https://altamuralive.it/wp-content/themes/livenetwork-template/adv-overlay.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='um_modal-css' href='https://altamuralive.it/wp-content/plugins/ultimate-member/assets/css/um-modal.min.css?ver=2.10.5' type='text/css' media='all' />
+<link rel='stylesheet' id='um_ui-css' href='https://altamuralive.it/wp-content/plugins/ultimate-member/assets/libs/jquery-ui/jquery-ui.min.css?ver=1.13.2' type='text/css' media='all' />
+<link rel='stylesheet' id='um_tipsy-css' href='https://altamuralive.it/wp-content/plugins/ultimate-member/assets/libs/tipsy/tipsy.min.css?ver=1.0.0a' type='text/css' media='all' />
+<link rel='stylesheet' id='um_raty-css' href='https://altamuralive.it/wp-content/plugins/ultimate-member/assets/libs/raty/um-raty.min.css?ver=2.6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='select2-css' href='https://altamuralive.it/wp-content/plugins/ultimate-member/assets/libs/select2/select2.min.css?ver=4.0.13' type='text/css' media='all' />
+<link rel='stylesheet' id='um_fileupload-css' href='https://altamuralive.it/wp-content/plugins/ultimate-member/assets/css/um-fileupload.min.css?ver=2.10.5' type='text/css' media='all' />
+<link rel='stylesheet' id='um_confirm-css' href='https://altamuralive.it/wp-content/plugins/ultimate-member/assets/libs/um-confirm/um-confirm.min.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='um_datetime-css' href='https://altamuralive.it/wp-content/plugins/ultimate-member/assets/libs/pickadate/default.min.css?ver=3.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='um_datetime_date-css' href='https://altamuralive.it/wp-content/plugins/ultimate-member/assets/libs/pickadate/default.date.min.css?ver=3.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='um_datetime_time-css' href='https://altamuralive.it/wp-content/plugins/ultimate-member/assets/libs/pickadate/default.time.min.css?ver=3.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='um_fonticons_ii-css' href='https://altamuralive.it/wp-content/plugins/ultimate-member/assets/libs/legacy/fonticons/fonticons-ii.min.css?ver=2.10.5' type='text/css' media='all' />
+<link rel='stylesheet' id='um_fonticons_fa-css' href='https://altamuralive.it/wp-content/plugins/ultimate-member/assets/libs/legacy/fonticons/fonticons-fa.min.css?ver=2.10.5' type='text/css' media='all' />
+<link rel='stylesheet' id='um_fontawesome-css' href='https://altamuralive.it/wp-content/plugins/ultimate-member/assets/css/um-fontawesome.min.css?ver=6.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='um_common-css' href='https://altamuralive.it/wp-content/plugins/ultimate-member/assets/css/common.min.css?ver=2.10.5' type='text/css' media='all' />
+<link rel='stylesheet' id='um_responsive-css' href='https://altamuralive.it/wp-content/plugins/ultimate-member/assets/css/um-responsive.min.css?ver=2.10.5' type='text/css' media='all' />
+<link rel='stylesheet' id='um_styles-css' href='https://altamuralive.it/wp-content/plugins/ultimate-member/assets/css/um-styles.min.css?ver=2.10.5' type='text/css' media='all' />
+<link rel='stylesheet' id='um_crop-css' href='https://altamuralive.it/wp-content/plugins/ultimate-member/assets/libs/cropper/cropper.min.css?ver=1.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='um_profile-css' href='https://altamuralive.it/wp-content/plugins/ultimate-member/assets/css/um-profile.min.css?ver=2.10.5' type='text/css' media='all' />
+<link rel='stylesheet' id='um_account-css' href='https://altamuralive.it/wp-content/plugins/ultimate-member/assets/css/um-account.min.css?ver=2.10.5' type='text/css' media='all' />
+<link rel='stylesheet' id='um_misc-css' href='https://altamuralive.it/wp-content/plugins/ultimate-member/assets/css/um-misc.min.css?ver=2.10.5' type='text/css' media='all' />
+<link rel='stylesheet' id='um_default_css-css' href='https://altamuralive.it/wp-content/plugins/ultimate-member/assets/css/um-old-default.min.css?ver=2.10.5' type='text/css' media='all' />
+<script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/complianz-gdpr-premium-multisite/pro/tcf-stub/build/index.js?ver=1753297636" id="cmplz-tcf-stub-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/stop-user-enumeration/frontend/js/frontend.js?ver=1.7.5" id="stop-user-enumeration-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="cmplz-tcf-js-extra">
+/* <![CDATA[ */
+var cmplz_tcf = {"cmp_url":"https:\/\/altamuralive.it\/wp-content\/uploads\/sites\/9\/complianz\/","retention_string":"Conservazioni in giorni","undeclared_string":"Non dichiarato","isServiceSpecific":"1","excludedVendors":{"15":15,"46":46,"56":56,"66":66,"110":110,"119":119,"139":139,"141":141,"174":174,"192":192,"262":262,"295":295,"375":375,"377":377,"387":387,"415":415,"427":427,"431":431,"435":435,"508":508,"512":512,"521":521,"527":527,"531":531,"544":544,"569":569,"581":581,"587":587,"615":615,"626":626,"644":644,"667":667,"713":713,"733":733,"734":734,"736":736,"748":748,"756":756,"776":776,"806":806,"822":822,"836":836,"856":856,"876":876,"879":879,"882":882,"888":888,"890":890,"894":894,"901":901,"909":909,"970":970,"986":986,"996":996,"1013":1013,"1015":1015,"1018":1018,"1022":1022,"1039":1039,"1044":1044,"1051":1051,"1075":1075,"1078":1078,"1079":1079,"1094":1094,"1107":1107,"1121":1121,"1124":1124,"1139":1139,"1141":1141,"1149":1149,"1156":1156,"1164":1164,"1167":1167,"1173":1173,"1181":1181,"1199":1199,"1211":1211,"1216":1216,"1252":1252,"1263":1263,"1293":1293,"1294":1294,"1298":1298,"1305":1305,"1319":1319,"1342":1342,"1343":1343,"1351":1351,"1355":1355,"1365":1365,"1366":1366,"1368":1368,"1371":1371,"1373":1373,"1383":1383,"1387":1387,"1391":1391,"1405":1405,"1418":1418,"1423":1423,"1425":1425,"1428":1428,"1440":1440,"1442":1442,"1482":1482,"1485":1485},"purposes":[1,2,3,4,5,6,7,8,9,10,11],"specialPurposes":[1,2,3],"features":[1,2,3],"specialFeatures":[],"publisherCountryCode":"IT","lspact":"N","ccpa_applies":"","ac_mode":"1","debug":"","prefix":"cmplz_"};
+/* ]]> */
+</script>
+<script defer type="text/javascript" src="https://altamuralive.it/wp-content/plugins/complianz-gdpr-premium-multisite/pro/tcf/build/index.js?ver=19bc4da4da0039b340b0" id="cmplz-tcf-js"></script>
+<script type="text/javascript" id="advanced-ads-advanced-js-js-extra">
+/* <![CDATA[ */
+var advads_options = {"blog_id":"9","privacy":{"custom-cookie-name":"","custom-cookie-value":"","consent-method":"iab_tcf_20","enabled":false,"state":"not_needed"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/advanced-ads/public/assets/js/advanced.min.js?ver=2.0.11" id="advanced-ads-advanced-js-js"></script>
+<script type="text/javascript" id="advanced_ads_pro/visitor_conditions-js-extra">
+/* <![CDATA[ */
+var advanced_ads_pro_visitor_conditions = {"referrer_cookie_name":"advanced_ads_pro_visitor_referrer","referrer_exdays":"365","page_impr_cookie_name":"advanced_ads_page_impressions","page_impr_exdays":"3650"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/advanced-ads-pro/modules/advanced-visitor-conditions/inc/conditions.min.js?ver=3.0.7" id="advanced_ads_pro/visitor_conditions-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/ultimate-member/assets/js/um-gdpr.min.js?ver=2.10.5" id="um-gdpr-js"></script>
+<link rel="https://api.w.org/" href="https://altamuralive.it/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://altamuralive.it/wp-json/wp/v2/pages/71193" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://altamuralive.it/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.2" />
+<link rel='shortlink' href='https://altamuralive.it/' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://altamuralive.it/wp-json/oembed/1.0/embed?url=https%3A%2F%2Faltamuralive.it%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://altamuralive.it/wp-json/oembed/1.0/embed?url=https%3A%2F%2Faltamuralive.it%2F&#038;format=xml" />
+<meta name="generator" content="performance-lab 4.0.0; plugins: ">
+			<style>.cmplz-hidden {
+					display: none !important;
+				}</style>		<script type="text/javascript">
+			var advadsCfpQueue = [];
+			var advadsCfpAd = function( adID ) {
+				if ( 'undefined' === typeof advadsProCfp ) {
+					advadsCfpQueue.push( adID )
+				} else {
+					advadsProCfp.addElement( adID )
+				}
+			}
+		</script>
+		<script  async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9473877772814641" crossorigin="anonymous"></script><link rel="icon" href="https://altamuralive.it/wp-content/uploads/sites/9/2022/06/cropped-favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://altamuralive.it/wp-content/uploads/sites/9/2022/06/cropped-favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://altamuralive.it/wp-content/uploads/sites/9/2022/06/cropped-favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://altamuralive.it/wp-content/uploads/sites/9/2022/06/cropped-favicon-270x270.png" />
+		<style type="text/css" id="wp-custom-css">
+			.live-total-views {
+    display: none !important;
+}
+		</style>
+		
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script type="text/plain" data-service="acf-custom-maps" data-category="marketing" data-cmplz-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8ktnCkjZWnzMBEspw2dafoq3lpOJA9jQ"></script>
+
+  
+
+
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+
+    var AdvFullWidthMapping = googletag.sizeMapping()
+                                .addSize([1024, 0], [[970, 250], [1, 1]])
+                                .addSize([768, 0], [[728, 90], [1, 1]])
+                                .addSize([0, 0], [[300, 250], [1, 1]])
+                                .build();
+
+    googletag.defineSlot('/4257129/test_live_5_970x250_1', [[970,250],[728,90],[320,100]], 'div-gpt-ad-live_5_970x250_1_home')
+      .defineSizeMapping(AdvFullWidthMapping)
+      .addService(googletag.pubads());
+
+    googletag.defineSlot('/4257129/test_live_5_970x250_2', [[970,250],[728,90],[320,100]], 'div-gpt-ad-live_5_970x250_2_home')
+      .defineSizeMapping(AdvFullWidthMapping)
+      .addService(googletag.pubads());
+
+    googletag.defineSlot('/4257129/test_live_5_970x250_3', [[970,250], [728,90], [320,100]], 'div-gpt-ad-live_5_970x250_3_home')
+      .defineSizeMapping(AdvFullWidthMapping)
+      .addService(googletag.pubads());
+
+    googletag.defineSlot('/4257129/test_live_5_970x250_4', [[970,250], [728,90], [320,100]], 'div-gpt-ad-live_5_970x250_4_home')
+      .defineSizeMapping(AdvFullWidthMapping)
+      .addService(googletag.pubads());
+
+    googletag.defineSlot('/4257129/test_live_5_300x250', [[300,250]], 'div-gpt-ad-live_5_300x250_home')
+      .addService(googletag.pubads());
+
+    googletag.defineSlot('/4257129/test_live_5_300x250_2', [[300,250]], 'div-gpt-ad-live_5_300x250_2_home')
+      .addService(googletag.pubads());
+
+    googletag.defineSlot('/4257129/test_live_5_300x250_3', [[300,250]], 'div-gpt-ad-live_5_300x250_3_home')
+      .addService(googletag.pubads());
+
+    googletag.defineSlot('/4257129/test_live_5_300x250_4', [[300,250]], 'div-gpt-ad-live_5_300x250_4_home')
+      .addService(googletag.pubads());
+
+    googletag.defineSlot('/4257129/live_5_300x250_5', [[300,250]], 'div-gpt-ad-live_5_300x250_5_home')
+      .addService(googletag.pubads());
+
+    googletag.defineSlot('/4257129/test_live_5_manchette_sx', [[185,90]], 'div-gpt-ad-live_5_manchette_sx')
+      .addService(googletag.pubads());
+
+    googletag.defineSlot('/4257129/test_live_5_manchette_dx', [[185,90]], 'div-gpt-ad-live_5_manchette_dx')
+      .addService(googletag.pubads());
+
+    googletag.defineSlot('/4257129/live_5_manchette_mobile', [[300,250]], 'div-gpt-ad-live_5_manchette_mobile')
+      .addService(googletag.pubads());
+
+    googletag.defineSlot('/4257129/live_5_banner_bandone_300x250', [[300,250]], 'div-gpt-ad-live_5_banner_bandone_300x250')
+      .addService(googletag.pubads());
+
+    googletag.defineSlot('/4257129/live_5_skin', [[1,1]], 'div-gpt-ad-live_5_skin_home')
+      .addService(googletag.pubads());
+
+    googletag.defineSlot('/4257129/test_live_5_overlay', [[1,1]], 'div-gpt-ad-live_5_overlay_home')
+      .addService(googletag.pubads());
+
+    googletag.pubads().enableSingleRequest();
+    googletag.pubads().setTargeting('portale', ['altamuralive.it']).setTargeting('posizione', ['home']);
+    googletag.pubads().addEventListener('slotRenderEnded', function(event) {
+        var slot = event.slot;
+        var slotID = slot.getSlotElementId();
+
+        if (slotID == "div-gpt-ad-live_5_manchette_mobile") {
+          if (event.isEmpty) {
+            var live_5_970x250_1_home = document.getElementById("div-gpt-ad-live_5_970x250_1_home");
+            live_5_970x250_1_home.className = '';
+
+            var live_5_manchette_mobile = document.getElementById("div-gpt-ad-live_5_manchette_mobile");
+            live_5_manchette_mobile.className = '';
+            live_5_manchette_mobile.classList.add("hive-adv");
+          }
+        }
+    });
+    //googletag.pubads().disableInitialLoad();
+    googletag.enableServices();
+  });
+</script>
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5B97B9W');</script>
+<!-- End Google Tag Manager -->
+  <!-- taboola -->
+  <script type="text/javascript">
+    window._taboola = window._taboola || [];
+    _taboola.push({article:'auto'});
+    !function (e, f, u, i) {
+      if (!document.getElementById(i)){
+        e.async = 1;
+        e.src = u;
+        e.id = i;
+        f.parentNode.insertBefore(e, f);
+      }
+    }(document.createElement('script'),
+    document.getElementsByTagName('script')[0],
+    '//cdn.taboola.com/libtrc/coratolivenetwork/loader.js',
+    'tb_loader_script');
+    if(window.performance && typeof window.performance.mark == 'function')
+      {window.performance.mark('tbl_ic');}
+  </script> 
+
+</head>
+
+<body data-cmplz=2 class="home wp-singular page-template-default page page-id-71193 wp-custom-logo wp-theme-livenetwork-template">
+  
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5B97B9W"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="live-background-overlay"></div>
+
+<div id="SidebarLeft" class="live-sidebar">
+  <div class="live-sidebar-inner">
+    <div class="cls-sidebar">
+      <a href="javascript:void(0)" id="btnClsSidebarLeft"></a>
+    </div>
+
+    <div class="live-logo-sidebar">
+            <a href="https://altamuralive.it" title="AltamuraLive.it">
+        <img src="https://altamuralive.it/wp-content/uploads/sites/9/2022/06/logo.svg" alt="AltamuraLive.it" class="live-logo" />
+      </a>
+    </div>
+
+    <div class="live-search-form-sidebar">
+      <form class="live-search-form " method="get" action="https://altamuralive.it/">
+  <div class="live-search-form-container">
+    <input type="search" name="s" placeholder="Cerca tra gli articoli o tra le rubriche" value="">
+    <button type="submit"></button>
+  </div>
+</form>
+    </div>
+
+    <div class="live-title-section-sidebar">
+      Sezioni
+    </div>
+
+    <div class="live-menu-sidebar">
+      <ul id="menu-menu-principale" class="live-menu-sezioni"><li id="menu-item-262501" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-262501"><a href="https://altamuralive.it/notizie/news/attualita/">Attualità</a></li>
+<li id="menu-item-262502" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-262502"><a href="https://altamuralive.it/notizie/news/cronaca/">Cronaca</a></li>
+<li id="menu-item-262515" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-262515"><a href="https://altamuralive.it/notizie/news/politica/">Politica</a></li>
+<li id="menu-item-262516" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-262516"><a href="https://altamuralive.it/notizie/news/cultura/">Cultura</a></li>
+<li id="menu-item-262517" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-262517"><a href="https://altamuralive.it/notizie/news/spettacolo/">Spettacolo</a></li>
+<li id="menu-item-262518" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-262518"><a href="https://altamuralive.it/notizie/sport/">Sport</a></li>
+<li id="menu-item-262519" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-262519"><a href="https://altamuralive.it/notizie/eventi/">Eventi</a></li>
+<li id="menu-item-262520" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-262520"><a href="https://altamuralive.it/notizie/rubrica/">Rubriche</a></li>
+<li id="menu-item-265787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-265787"><a href="https://altamuralive.it/mondo-imprese/">Mondo Imprese</a></li>
+</ul>    </div>
+
+    <div class="live-title-section-sidebar">
+      In evidenza
+    </div>
+
+    <div class="live-menu-sidebar">
+      <ul id="menu-menu-evidenza-sidebar" class="live-menu-evidenza"><li id="menu-item-262558" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-262558"><a href="https://altamuralive.it/la-notizia-dei-lettori/">La notizia dei lettori</a></li>
+<li id="menu-item-262513" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-262513"><a href="https://altamuralive.it/necrologi/">Necrologi</a></li>
+<li id="menu-item-263203" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-263203"><a href="https://altamuralive.it/ringraziamenti/">Ringraziamenti</a></li>
+</ul>    </div>
+
+    <div class="live-title-section-sidebar">Argomenti</div><div class='live-tag-topics'></div>
+    <div class="live-title-section-sidebar">
+      Il Network
+    </div>
+
+    <div class="live-menu-sidebar">
+      <ul id="menu-menu-network" class="live-menu-network"><li id="menu-item-262521" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262521"><a target="_blank" href="https://acquavivalive.it/">Acquaviva</a></li>
+<li id="menu-item-262522" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-262522"><a target="_blank" href="https://altamuralive.it/" aria-current="page">Altamura</a></li>
+<li id="menu-item-262523" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262523"><a target="_blank" href="https://andrialive.it/">Andria</a></li>
+<li id="menu-item-262524" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262524"><a target="_blank" href="https://barilive.it/">Bari</a></li>
+<li id="menu-item-262525" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262525"><a target="_blank" href="https://barlettalive.it/">Barletta</a></li>
+<li id="menu-item-262526" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262526"><a target="_blank" href="https://bisceglielive.it/">Bisceglie</a></li>
+<li id="menu-item-262527" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262527"><a target="_blank" href="https://bitontolive.it/">Bitonto</a></li>
+<li id="menu-item-262528" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262528"><a target="_blank" href="https://canosalive.com/">Canosa</a></li>
+<li id="menu-item-262529" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262529"><a target="_blank" href="https://cassanolive.it/">Cassano</a></li>
+<li id="menu-item-262530" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262530"><a target="_blank" href="https://coratolive.it/">Corato</a></li>
+<li id="menu-item-262531" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262531"><a href="https://fasanolive.com/">Fasano</a></li>
+<li id="menu-item-262532" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262532"><a target="_blank" href="https://gioialive.it/">Gioia</a></li>
+<li id="menu-item-262533" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262533"><a target="_blank" href="https://giovinazzolive.it/">Giovinazzo</a></li>
+<li id="menu-item-270469" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-270469"><a href="https://melfilive.it/">Melfi</a></li>
+<li id="menu-item-262536" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262536"><a target="_blank" href="https://minervinolive.it/">Minervino</a></li>
+<li id="menu-item-262537" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262537"><a target="_blank" href="https://molfettalive.it/">Molfetta</a></li>
+<li id="menu-item-270955" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-270955"><a href="https://palolive.it/">Palo</a></li>
+<li id="menu-item-262538" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262538"><a target="_blank" href="https://ruvolive.it/">Ruvo</a></li>
+<li id="menu-item-262539" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262539"><a target="_blank" href="https://santeramolive.it/">Santeramo</a></li>
+<li id="menu-item-262540" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262540"><a target="_blank" href="https://terlizzilive.it/">Terlizzi</a></li>
+<li id="menu-item-262541" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262541"><a target="_blank" href="https://tranilive.it/">Trani</a></li>
+</ul>    </div>
+
+  </div>
+</div>
+<div id="SidebarRight" class="live-sidebar right">
+  <div class="live-sidebar-inner">
+    <div class="cls-sidebar">
+      <a href="javascript:void(0)" id="btnClsSidebarRight"></a>
+    </div>
+
+    <div class="live-msg">
+      <div class="live-msg-inner">
+        <p>
+          Vuoi che anche la tua città faccia parte del Network? Inviaci una e-mail all’indirizzo
+          <a href="mailto:info@livenetwork.it">info@livenetwork.it</a>
+        </p>
+      </div>      
+    </div>
+
+    <div class="live-title-section-sidebar">
+      Il Network
+    </div>
+
+    <div class="live-menu-sidebar">
+      <ul id="menu-menu-network-1" class="live-menu-network"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262521"><a target="_blank" href="https://acquavivalive.it/">Acquaviva</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-262522"><a target="_blank" href="https://altamuralive.it/" aria-current="page">Altamura</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262523"><a target="_blank" href="https://andrialive.it/">Andria</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262524"><a target="_blank" href="https://barilive.it/">Bari</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262525"><a target="_blank" href="https://barlettalive.it/">Barletta</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262526"><a target="_blank" href="https://bisceglielive.it/">Bisceglie</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262527"><a target="_blank" href="https://bitontolive.it/">Bitonto</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262528"><a target="_blank" href="https://canosalive.com/">Canosa</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262529"><a target="_blank" href="https://cassanolive.it/">Cassano</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262530"><a target="_blank" href="https://coratolive.it/">Corato</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262531"><a href="https://fasanolive.com/">Fasano</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262532"><a target="_blank" href="https://gioialive.it/">Gioia</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262533"><a target="_blank" href="https://giovinazzolive.it/">Giovinazzo</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-270469"><a href="https://melfilive.it/">Melfi</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262536"><a target="_blank" href="https://minervinolive.it/">Minervino</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262537"><a target="_blank" href="https://molfettalive.it/">Molfetta</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-270955"><a href="https://palolive.it/">Palo</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262538"><a target="_blank" href="https://ruvolive.it/">Ruvo</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262539"><a target="_blank" href="https://santeramolive.it/">Santeramo</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262540"><a target="_blank" href="https://terlizzilive.it/">Terlizzi</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262541"><a target="_blank" href="https://tranilive.it/">Trani</a></li>
+</ul>    </div>
+  </div>
+</div>
+
+<div class="live-adv-skin">
+  <!-- live_5_skin -->
+  <div id='div-gpt-ad-live_5_skin_home'>
+    <script>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-live_5_skin_home'); });
+    </script>
+  </div>
+
+  <!-- live_5_overlay_home -->
+  <div id='div-gpt-ad-live_5_overlay_home'>
+    <script>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-live_5_overlay_home'); });
+    </script>
+  </div>
+</div>
+
+<header class="header-live">
+  <section class="top-header">
+    <div class="live-header-col">
+      <a href="javascript:void(0)" id="btnSidebarLeft" class="btn menu">Menu</a>
+      <a href="javascript:void(0)" id="btnSearch" class="btn search">Cerca</a>
+    </div>
+    <div class="live-header-col col-center">
+      <div class="meteo"><i class="meteo-icon wi wi-day-sunny"></i><span class="meteo-city">altamura</span> | <span class="meteo-temp">27.2°</span> - <small><span class="meteo-descr">cielo sereno</span></small></div>    </div>
+    <div class="live-header-col col-end">
+      <a href="javascript:void(0)" id="btnSidebarRight" class="btn">Network</a>
+      <ul id="menu-menu-user" class="live-top-menu"><li id="menu-item-262563" class="live-logged-user menu-item menu-item-type-post_type menu-item-object-page menu-item-262563"><a href="https://altamuralive.it/login/"><img src="https://coratolive.it/wp-content/uploads/sites/2/2022/02/live-default-avatar.png" width="40" height="40" alt="Accedi"> <span>Accedi</span></a></li>
+<li id="menu-item-262565" class="live-logged-user-mb menu-item menu-item-type-post_type menu-item-object-page menu-item-262565"><a href="https://altamuralive.it/login/"><img src="https://coratolive.it/wp-content/uploads/sites/2/2022/02/live-default-avatar.png" width="40" height="40" alt="Accedi"></a></li>
+</ul>    </div>
+  </section>
+  <div class="live-main-search-box">
+    <div class="live-seach">
+      <form class="live-search-form " method="get" action="https://altamuralive.it/">
+  <div class="live-search-form-container">
+    <input type="search" name="s" placeholder="Cerca tra gli articoli o tra le rubriche" value="">
+    <button type="submit"></button>
+  </div>
+</form>
+      <a href="javascript:void(0)" id="btnSearchInner" class="btn-search-close"></a>
+    </div>
+  </div>
+  <section class="adv-logo">
+    <div class="live-header-col live-adv-manchette">
+      <!-- live_5_manchette_sx -->
+<div id='div-gpt-ad-live_5_manchette_sx'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-live_5_manchette_sx'); });
+  </script>
+</div>
+    </div>
+    <div class="live-header-col col-center direction-col">
+            <a class="live-logo" href="https://altamuralive.it" title="AltamuraLive.it">
+        <img src="https://altamuralive.it/wp-content/uploads/sites/9/2022/06/logo.svg" alt="AltamuraLive.it" class="live-logo-img" />
+      </a>
+      <div class="live-last-update">
+        lunedì, 22 Settembre 2025              </div>
+    </div>
+    <div class="live-header-col col-end live-adv-manchette">
+      <!-- live_5_manchette_dx -->
+<div id='div-gpt-ad-live_5_manchette_dx'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-live_5_manchette_dx'); });
+  </script>
+</div>
+    </div>
+  </section>
+  <section class="main-menu">
+    <nav class="live-main-menu-container"><ul id="menu-menu-in-evidenza" class="live-main-menu"><li id="menu-item-262504" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-262504"><a href="https://altamuralive.it/notizie/news/attualita/">Attualità</a></li>
+<li id="menu-item-262505" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-262505"><a href="https://altamuralive.it/notizie/news/cronaca/">Cronaca</a></li>
+<li id="menu-item-262506" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-262506"><a href="https://altamuralive.it/notizie/news/cultura/">Cultura</a></li>
+<li id="menu-item-262507" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-262507"><a href="https://altamuralive.it/notizie/news/politica/">Politica</a></li>
+<li id="menu-item-262503" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-262503"><a href="https://altamuralive.it/notizie/eventi/">Eventi</a></li>
+<li id="menu-item-263439" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-263439"><a href="https://altamuralive.it/notizie/rubrica/">Rubriche</a></li>
+<li id="menu-item-262511" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-262511"><a href="https://altamuralive.it/necrologi/">Necrologi</a></li>
+<li id="menu-item-265786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-265786"><a href="https://altamuralive.it/mondo-imprese/">Mondo Imprese</a></li>
+</ul></nav>  </section>
+  <div class="live-adv-full-width live-adv-top">
+    <!-- live_5_970x250_1_home -->
+<div id='div-gpt-ad-live_5_970x250_1_home' class="hide-adv-mobile">
+  <script> googletag.cmd.push(function() { googletag.display('div-gpt-ad-live_5_970x250_1_home'); }); </script>
+</div>
+
+<!-- live_5_manchette_mobile -->
+<div id='div-gpt-ad-live_5_manchette_mobile' class="show-adv-mobile hide-machette-mobile">
+  <script> googletag.cmd.push(function() { googletag.display('div-gpt-ad-live_5_manchette_mobile'); }); </script>
+</div>
+  </div>
+</header>
+
+<main id="content" class="site-main" role="main">
+	<div class="page-content">
+		<section class="live-home-focus">
+	<article class="live-home-post live-focus-news ">
+			<figure class="live-entry-media live-image-news">
+			<a href="https://altamuralive.it/2025/09/19/cani-di-taglia-grande-in-aereo-dal-23-settembre-potranno-viaggiare-in-cabina/">
+
+				<img width="1260" height="758" src="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Cani-di-taglia-grande-in-aereo.jpg" class="attachment-news-focus-img size-news-focus-img wp-post-image" alt="La novità" decoding="async" fetchpriority="high" srcset="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Cani-di-taglia-grande-in-aereo.jpg 1260w, https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Cani-di-taglia-grande-in-aereo-840x505.jpg 840w" sizes="(max-width: 1260px) 100vw, 1260px" />
+							</a>
+		</figure>
+			<div class="live-entry-content live-category-news">
+			<div class="live-col live-col-1">
+				<div class="live-focus-content">
+					<span class="live-etichetta">La novità</span>
+					<a href="https://altamuralive.it/2025/09/19/cani-di-taglia-grande-in-aereo-dal-23-settembre-potranno-viaggiare-in-cabina/" class="live-title live-title-news"><h2>Cani di taglia grande in aereo. Dal 23 settembre potranno viaggiare in cabina</h2></a>															<div class="live-summary live-summary-news">Storica svolta nei trasporti aerei: dal 23 settembre i cani di taglia grande potranno viaggiare in cabina grazie alla delibera ENAC (Ente Nazionale per l'Aviazione Civile). Trasportini omologati, sicurezza e benessere degli animali al centro delle nuove regole. </div>					<div class="live-article-footer">
+					<span class="live-comments"><a href="https://altamuralive.it/2025/09/19/cani-di-taglia-grande-in-aereo-dal-23-settembre-potranno-viaggiare-in-cabina/#respond">scrivi un commento</a></span>					</div>
+				</div>
+			</div>
+			<div class="live-col live-col-2">
+        <div class="live-adv-square">
+          <!-- live_5_300x250_home -->
+<div id='div-gpt-ad-live_5_300x250_home'>
+  <script> googletag.cmd.push(function() { googletag.display('div-gpt-ad-live_5_300x250_home'); }); </script>
+</div>
+        </div>
+			</div>
+		</div>
+	</article>
+</section>
+		<section class="live-home-section live-section-evidenza">
+			<div class="live-col-1">
+        
+<article class="live-home-post live-evidenza live-evidenza-news ">
+	<figure class="live-entry-media live-image-news">
+		<a href="https://altamuralive.it/2025/09/18/abbandono-rifiuti-altamura-uomo-individuato-e-multato-grazie-alle-fototrappole/">
+			<img width="1260" height="758" src="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Abbandono-rifiuti-fototrappole-.jpg" class="attachment-news-focus-img size-news-focus-img wp-post-image" alt="Ambiente&amp;Legalità" decoding="async" srcset="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Abbandono-rifiuti-fototrappole-.jpg 1260w, https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Abbandono-rifiuti-fototrappole--840x505.jpg 840w" sizes="(max-width: 1260px) 100vw, 1260px" />
+					</a>
+	</figure>
+	<div class="live-entry-content live-category-news">
+		
+						<span class="live-etichetta">Ambiente&amp;Legalità</span>
+					
+		<a href="https://altamuralive.it/2025/09/18/abbandono-rifiuti-altamura-uomo-individuato-e-multato-grazie-alle-fototrappole/" class="live-title live-title-news"><h2>Abbandono rifiuti Altamura: uomo individuato e multato grazie alle fototrappole</h2></a>				<div class="live-summary live-summary-news">Grazie alle fototrappole attive sul territorio, un cittadino è stato individuato e sanzionato per abbandono illecito di rifiuti. L’Amministrazione ricorda che, con il Decreto 116/2025, le sanzioni vanno da 1.500 a 18.000 euro, con sospensione patente e fino a 5 anni di reclusione nei casi più gravi.</div>		
+		<div class="live-article-footer">
+			<span class="live-comments"><a href="https://altamuralive.it/2025/09/18/abbandono-rifiuti-altamura-uomo-individuato-e-multato-grazie-alle-fototrappole/#respond">scrivi un commento</a></span>		</div>
+	</div>
+</article>
+			</div>
+			<div class="live-col-2">
+				<article class="live-home-post live-spalla live-spalla-news news ">
+			<figure class="live-entry-media news live-image-news-mobile">
+			<a href="https://altamuralive.it/2025/09/18/altamura-investimenti-per-57-milioni-due-elettrodotti-tra-altamura-nord-e-matera-e-opere-idriche-fognarie-nella-zona-industriale-in-via-gravina/">
+				<img width="410" height="245" src="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Planimetria-zona-industriale-Via-Gravina-410x245.jpg" class="attachment-news-thumb-img size-news-thumb-img wp-post-image" alt="Infrastrutture &amp; Territorio" decoding="async" srcset="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Planimetria-zona-industriale-Via-Gravina-410x245.jpg 410w, https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Planimetria-zona-industriale-Via-Gravina-840x505.jpg 840w" sizes="(max-width: 410px) 100vw, 410px" />
+							</a>
+		</figure>
+			<div class="live-entry-content live-category-news">
+
+								<span class="live-etichetta">Infrastrutture &amp; Territorio</span>
+							
+			<a href="https://altamuralive.it/2025/09/18/altamura-investimenti-per-57-milioni-due-elettrodotti-tra-altamura-nord-e-matera-e-opere-idriche-fognarie-nella-zona-industriale-in-via-gravina/" class="live-title live-title-news"><h2>Altamura, investimenti per 57 milioni: due elettrodotti tra Altamura Nord e Matera e opere idriche-fognarie nella zona industriale in via Gravina</h2></a>		</div>
+					<figure class="live-entry-media live-image-news live-image-news-desktop">
+				<a href="https://altamuralive.it/2025/09/18/altamura-investimenti-per-57-milioni-due-elettrodotti-tra-altamura-nord-e-matera-e-opere-idriche-fognarie-nella-zona-industriale-in-via-gravina/">
+					<img width="410" height="245" src="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Planimetria-zona-industriale-Via-Gravina-410x245.jpg" class="attachment-news-thumb-img size-news-thumb-img wp-post-image" alt="Infrastrutture &amp; Territorio" decoding="async" srcset="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Planimetria-zona-industriale-Via-Gravina-410x245.jpg 410w, https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Planimetria-zona-industriale-Via-Gravina-840x505.jpg 840w" sizes="(max-width: 410px) 100vw, 410px" />									</a>
+			</figure>
+				<div class="live-entry-content live-category-news">
+						<div class="live-article-footer">
+			<span class="live-comments"><a href="https://altamuralive.it/2025/09/18/altamura-investimenti-per-57-milioni-due-elettrodotti-tra-altamura-nord-e-matera-e-opere-idriche-fognarie-nella-zona-industriale-in-via-gravina/#respond">scrivi un commento</a></span>			</div>
+		</div>
+</article>
+        <div class="live-adv-square">
+          <!-- live_5_300x250_2_home -->
+<div id='div-gpt-ad-live_5_300x250_2_home'>
+  <script> googletag.cmd.push(function() { googletag.display('div-gpt-ad-live_5_300x250_2_home'); }); </script>
+</div>
+        </div>
+			</div>
+		</section>
+		<section class="live-home-section live-three-news">
+	    <article class="live-home-post live-block-news ">
+			<figure class="live-entry-media live-image-news">
+			<a href="https://altamuralive.it/2025/09/17/altamura-celebra-la-giornata-mondiale-del-turismo-con-un-tour-tra-storia-arte-e-tradizione/">
+				<img width="410" height="245" src="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/ALTAMURALIVE-IMMAGINI8-410x245.jpg" class="attachment-news-thumb-img size-news-thumb-img wp-post-image" alt="Il tour" decoding="async" srcset="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/ALTAMURALIVE-IMMAGINI8-410x245.jpg 410w, https://altamuralive.it/wp-content/uploads/sites/9/2025/09/ALTAMURALIVE-IMMAGINI8-840x505.jpg 840w" sizes="(max-width: 410px) 100vw, 410px" />							</a>
+		</figure>
+		<div class="live-entry-content live-category-news">
+		
+						<span class="live-etichetta">Il tour</span>
+					
+		<a href="https://altamuralive.it/2025/09/17/altamura-celebra-la-giornata-mondiale-del-turismo-con-un-tour-tra-storia-arte-e-tradizione/" class="live-title live-title-news"><h2>Altamura celebra la Giornata Mondiale del Turismo con un tour tra storia, arte e tradizione</h2></a>				
+		<div class="live-article-footer">
+			<span class="live-comments"><a href="https://altamuralive.it/2025/09/17/altamura-celebra-la-giornata-mondiale-del-turismo-con-un-tour-tra-storia-arte-e-tradizione/#respond">scrivi un commento</a></span>		</div>
+	</div>
+</article>
+<article class="live-home-post live-block-news ">
+			<figure class="live-entry-media live-image-news">
+			<a href="https://altamuralive.it/2025/09/17/mense-scolastiche-media-di-662-euro-allanno-a-bambino-in-puglia-1-genitore-su-4-lamenta-scarsa-qualita/">
+				<img width="410" height="245" src="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Mensa-scolastica-Altamura-1-410x245.jpg" class="attachment-news-thumb-img size-news-thumb-img wp-post-image" alt="Scuola &amp; Comunità" decoding="async" srcset="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Mensa-scolastica-Altamura-1-410x245.jpg 410w, https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Mensa-scolastica-Altamura-1-840x505.jpg 840w" sizes="(max-width: 410px) 100vw, 410px" />							</a>
+		</figure>
+		<div class="live-entry-content live-category-news">
+		
+						<span class="live-etichetta">Scuola &amp; Comunità</span>
+					
+		<a href="https://altamuralive.it/2025/09/17/mense-scolastiche-media-di-662-euro-allanno-a-bambino-in-puglia-1-genitore-su-4-lamenta-scarsa-qualita/" class="live-title live-title-news"><h2>Mense scolastiche: media di 662 euro all’anno a bambino in Puglia. 1 genitore su 4 lamenta scarsa qualità</h2></a>				
+		<div class="live-article-footer">
+			<span class="live-comments"><a href="https://altamuralive.it/2025/09/17/mense-scolastiche-media-di-662-euro-allanno-a-bambino-in-puglia-1-genitore-su-4-lamenta-scarsa-qualita/#respond">scrivi un commento</a></span>		</div>
+	</div>
+</article>
+<article class="live-home-post live-block-news ">
+			<figure class="live-entry-media live-image-news">
+			<a href="https://altamuralive.it/2025/09/17/altamura-accoglie-levento-gratuito-note-sapori-dautore-musica-storia-tradizioni-e-degustazioni-nel-cuore-della-citta/">
+				<img width="410" height="245" src="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/WhatsApp-Image-2025-09-16-at-11.10.19-410x245.jpeg" class="attachment-news-thumb-img size-news-thumb-img wp-post-image" alt="Cultura &amp; Tradizioni" decoding="async" srcset="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/WhatsApp-Image-2025-09-16-at-11.10.19-410x245.jpeg 410w, https://altamuralive.it/wp-content/uploads/sites/9/2025/09/WhatsApp-Image-2025-09-16-at-11.10.19-840x505.jpeg 840w" sizes="(max-width: 410px) 100vw, 410px" />							</a>
+		</figure>
+		<div class="live-entry-content live-category-news">
+		
+						<span class="live-etichetta">Cultura &amp; Tradizioni</span>
+					
+		<a href="https://altamuralive.it/2025/09/17/altamura-accoglie-levento-gratuito-note-sapori-dautore-musica-storia-tradizioni-e-degustazioni-nel-cuore-della-citta/" class="live-title live-title-news"><h2>Altamura accoglie l&#8217;evento gratuito “Note &amp; Sapori d’Autore”: musica, storia, tradizioni e degustazioni nel cuore della città</h2></a>				
+		<div class="live-article-footer">
+			<span class="live-comments"><a href="https://altamuralive.it/2025/09/17/altamura-accoglie-levento-gratuito-note-sapori-dautore-musica-storia-tradizioni-e-degustazioni-nel-cuore-della-citta/#respond">scrivi un commento</a></span>		</div>
+	</div>
+</article>
+		</section>
+		<section class="live-adv-container">
+      <div class="live-adv-full-width">
+        <!-- live_5_970x250_2_home -->
+<div id='div-gpt-ad-live_5_970x250_2_home'>
+  <script> googletag.cmd.push(function() { googletag.display('div-gpt-ad-live_5_970x250_2_home'); }); </script>
+</div>
+      </div>
+		</section>
+
+    		
+		<section class="live-home-section live-long-section" id="long-section-1">
+			<div class="live-col-1">
+        
+<article class="live-home-post live-evidenza live-evidenza-news ">
+	<figure class="live-entry-media live-image-news">
+		<a href="https://altamuralive.it/2025/09/15/porta-futuro-altamura-lancia-un-corso-gratuito-di-inglese-per-il-lavoro-dal-24-settembre-al-22-ottobre/">
+			<img width="1260" height="758" src="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Corso-inglese-per-lavoro.jpg" class="attachment-news-focus-img size-news-focus-img wp-post-image" alt="Il corso gratuito" decoding="async" srcset="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Corso-inglese-per-lavoro.jpg 1260w, https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Corso-inglese-per-lavoro-840x505.jpg 840w" sizes="(max-width: 1260px) 100vw, 1260px" />
+					</a>
+	</figure>
+	<div class="live-entry-content live-category-news">
+		
+						<span class="live-etichetta">Il corso gratuito</span>
+					
+		<a href="https://altamuralive.it/2025/09/15/porta-futuro-altamura-lancia-un-corso-gratuito-di-inglese-per-il-lavoro-dal-24-settembre-al-22-ottobre/" class="live-title live-title-news"><h2>Porta Futuro Altamura lancia un corso gratuito di inglese per il lavoro dal 24 settembre al 22 ottobre</h2></a>				<div class="live-summary live-summary-news">Dal 24 settembre al 22 ottobre, ogni mercoledì, Porta Futuro Altamura propone un corso di inglese pratico e mirato al mondo del lavoro. Dieci ore di formazione per migliorare grammatica, vocabolario e conversazioni tipiche in ambito professionale. Iscrizioni online tramite modulo dedicato.</div>		
+		<div class="live-article-footer">
+			<span class="live-comments"><a href="https://altamuralive.it/2025/09/15/porta-futuro-altamura-lancia-un-corso-gratuito-di-inglese-per-il-lavoro-dal-24-settembre-al-22-ottobre/#respond">scrivi un commento</a></span>		</div>
+	</div>
+</article>
+
+<article class="live-home-post live-evidenza live-evidenza-news ">
+	<figure class="live-entry-media live-image-news">
+		<a href="https://altamuralive.it/2025/09/12/carta-dedicata-a-te-500-euro-per-le-famiglie-con-isee-sotto-i-15mila-euro/">
+			<img width="1260" height="758" src="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Carta-DEDICATA-A-TE.jpg" class="attachment-news-focus-img size-news-focus-img wp-post-image" alt="Il contributo economico" decoding="async" srcset="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Carta-DEDICATA-A-TE.jpg 1260w, https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Carta-DEDICATA-A-TE-840x505.jpg 840w" sizes="(max-width: 1260px) 100vw, 1260px" />
+					</a>
+	</figure>
+	<div class="live-entry-content live-category-news">
+		
+						<span class="live-etichetta">Il contributo economico</span>
+					
+		<a href="https://altamuralive.it/2025/09/12/carta-dedicata-a-te-500-euro-per-le-famiglie-con-isee-sotto-i-15mila-euro/" class="live-title live-title-news"><h2>Carta “Dedicata a te”: 500 euro per le famiglie con ISEE sotto i 15mila euro</h2></a>				<div class="live-summary live-summary-news">Confermato il fondo per l’acquisto di beni alimentari di prima necessità. Ogni nucleo familiare con ISEE inferiore a 15.000 euro riceverà una carta Postepay ricaricata con 500 euro. Nessuna domanda da presentare: l’elenco dei beneficiari sarà pubblicato dal Comune di Altamura ad ottobre 2025.</div>		
+		<div class="live-article-footer">
+			<span class="live-comments"><a href="https://altamuralive.it/2025/09/12/carta-dedicata-a-te-500-euro-per-le-famiglie-con-isee-sotto-i-15mila-euro/#respond">scrivi un commento</a></span>		</div>
+	</div>
+</article>
+
+<article class="live-home-post live-evidenza live-evidenza-news ">
+	<figure class="live-entry-media live-image-news">
+		<a href="https://altamuralive.it/2025/09/12/aeroporti-di-puglia-da-bari-nuove-rotte-verso-maldive-messico-kenya-repubblica-dominicana-e-zanzibar-a-gennaio-2026/">
+			<img width="1260" height="758" src="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Aeroporti-di-Puglia-Bari.jpg" class="attachment-news-focus-img size-news-focus-img wp-post-image" alt="Trasporti e Turismo" decoding="async" srcset="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Aeroporti-di-Puglia-Bari.jpg 1260w, https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Aeroporti-di-Puglia-Bari-840x505.jpg 840w" sizes="(max-width: 1260px) 100vw, 1260px" />
+					</a>
+	</figure>
+	<div class="live-entry-content live-category-news">
+		
+						<span class="live-etichetta">Trasporti e Turismo</span>
+					
+		<a href="https://altamuralive.it/2025/09/12/aeroporti-di-puglia-da-bari-nuove-rotte-verso-maldive-messico-kenya-repubblica-dominicana-e-zanzibar-a-gennaio-2026/" class="live-title live-title-news"><h2>Aeroporti di Puglia: da Bari nuove rotte verso Maldive, Messico, Kenya, Repubblica Dominicana e Zanzibar a gennaio 2026</h2></a>				<div class="live-summary live-summary-news">Aeroporti di Puglia annuncia 5 nuove rotte intercontinentali con partenze dal Karol Wojtyla di Bari tra gennaio e marzo 2026. Cancún, Maldive, Zanzibar, Mombasa e Punta Cana saranno raggiungibili grazie alla collaborazione con NEOS e Alpitour World, dopo il successo del volo Bari-New York.</div>		
+		<div class="live-article-footer">
+			<span class="live-comments"><a href="https://altamuralive.it/2025/09/12/aeroporti-di-puglia-da-bari-nuove-rotte-verso-maldive-messico-kenya-repubblica-dominicana-e-zanzibar-a-gennaio-2026/#respond">scrivi un commento</a></span>		</div>
+	</div>
+</article>
+
+<article class="live-home-post live-evidenza live-evidenza-news ">
+	<figure class="live-entry-media live-image-news">
+		<a href="https://altamuralive.it/2025/09/12/scuola-ottavio-serena-chiusa-dal-16-settembre-al-2-ottobre-studenti-trasferiti-alla-madre-teresa-di-calcutta/">
+			<img width="1260" height="758" src="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Scuola-Ottavio-Serena-Altamura.jpg" class="attachment-news-focus-img size-news-focus-img wp-post-image" alt="L&#039;ordinanza" decoding="async" srcset="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Scuola-Ottavio-Serena-Altamura.jpg 1260w, https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Scuola-Ottavio-Serena-Altamura-840x505.jpg 840w" sizes="(max-width: 1260px) 100vw, 1260px" />
+					</a>
+	</figure>
+	<div class="live-entry-content live-category-news">
+		
+						<span class="live-etichetta">L'ordinanza</span>
+					
+		<a href="https://altamuralive.it/2025/09/12/scuola-ottavio-serena-chiusa-dal-16-settembre-al-2-ottobre-studenti-trasferiti-alla-madre-teresa-di-calcutta/" class="live-title live-title-news"><h2>Scuola “Ottavio Serena” chiusa dal 16 settembre al 2 ottobre: studenti trasferiti alla “Madre Teresa di Calcutta”</h2></a>				<div class="live-summary live-summary-news">Le lezioni si svolgeranno nei locali della scuola primaria “Madre Teresa di Calcutta" e in orario pomeridiano, dal lunedì al venerdì dalle ore 15:00 alle ore 19:00 e il sabato dalle ore 8:15 alle ore 12:15. L'ordinanza è stata disposta per consentire il completamento in sicurezza dei lavori in corso</div>		
+		<div class="live-article-footer">
+			<span class="live-comments"><a href="https://altamuralive.it/2025/09/12/scuola-ottavio-serena-chiusa-dal-16-settembre-al-2-ottobre-studenti-trasferiti-alla-madre-teresa-di-calcutta/#respond">scrivi un commento</a></span>		</div>
+	</div>
+</article>
+			</div>
+			<div class="live-col-2">
+                  <!-- <div class="live-list-advertorial-title">            
+            <h4>In collaborazione con Regione Puglia</h4>            
+          </div>
+          <div class="live-adv-square">
+            <a href="https://radicieali.livenetwork.it" target="_blank" title="Regione Puglia - Radici e Ali">
+              <img src="https://coratolive.it/wp-content/uploads/sites/2/2023/06/radici-300x250-ruvo.gif" alt="Regione Puglia - Radici e Ali" style="margin: 0 auto; margin-top: 20px;" />
+            </a>          
+          </div> -->
+        				<div class="live-aside-wrapper">
+          		      <article class="live-home-post live-spalla live-spalla-news news ">
+			<figure class="live-entry-media news live-image-news-mobile">
+			<a href="https://altamuralive.it/2025/09/10/il-gruppo-ciclistico-altamurano-murgia-bikes-alla-spoleto-norcia-in-mtb-2025/">
+				<img width="410" height="245" src="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/gruppo-ciclistico-Murgia-Bikes-410x245.jpg" class="attachment-news-thumb-img size-news-thumb-img wp-post-image" alt="la partecipazione" decoding="async" srcset="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/gruppo-ciclistico-Murgia-Bikes-410x245.jpg 410w, https://altamuralive.it/wp-content/uploads/sites/9/2025/09/gruppo-ciclistico-Murgia-Bikes-840x505.jpg 840w" sizes="(max-width: 410px) 100vw, 410px" />
+							</a>
+		</figure>
+			<div class="live-entry-content live-category-news">
+
+								<span class="live-etichetta">la partecipazione</span>
+							
+			<a href="https://altamuralive.it/2025/09/10/il-gruppo-ciclistico-altamurano-murgia-bikes-alla-spoleto-norcia-in-mtb-2025/" class="live-title live-title-news"><h2>Il gruppo ciclistico altamurano Murgia Bikes alla “Spoleto Norcia in MTB 2025” <span class="live-has-media">Le foto</span></h2></a>		</div>
+					<figure class="live-entry-media live-image-news live-image-news-desktop">
+				<a href="https://altamuralive.it/2025/09/10/il-gruppo-ciclistico-altamurano-murgia-bikes-alla-spoleto-norcia-in-mtb-2025/">
+					<img width="410" height="245" src="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/gruppo-ciclistico-Murgia-Bikes-410x245.jpg" class="attachment-news-thumb-img size-news-thumb-img wp-post-image" alt="la partecipazione" decoding="async" srcset="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/gruppo-ciclistico-Murgia-Bikes-410x245.jpg 410w, https://altamuralive.it/wp-content/uploads/sites/9/2025/09/gruppo-ciclistico-Murgia-Bikes-840x505.jpg 840w" sizes="(max-width: 410px) 100vw, 410px" />									</a>
+			</figure>
+				<div class="live-entry-content live-category-news">
+						<div class="live-article-footer">
+			<span class="live-comments"><a href="https://altamuralive.it/2025/09/10/il-gruppo-ciclistico-altamurano-murgia-bikes-alla-spoleto-norcia-in-mtb-2025/#respond">scrivi un commento</a></span>			</div>
+		</div>
+</article>
+<div class="live-adv-square"><!-- live_5_300x250_3_home -->
+<div id='div-gpt-ad-live_5_300x250_3_home'>
+  <script> googletag.cmd.push(function() { googletag.display('div-gpt-ad-live_5_300x250_3_home'); }); </script>
+</div>
+</div><article class="live-home-post live-spalla live-spalla-news news ">
+			<figure class="live-entry-media news live-image-news-mobile">
+			<a href="https://altamuralive.it/2025/09/09/parco-nazionale-alta-murgia-nominato-giuseppe-colucci-nuovo-presidente/">
+				<img width="410" height="245" src="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/ALTAMURALIVE-IMMAGINI-3-410x245.png" class="attachment-news-thumb-img size-news-thumb-img wp-post-image" alt="La nomina" decoding="async" srcset="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/ALTAMURALIVE-IMMAGINI-3-410x245.png 410w, https://altamuralive.it/wp-content/uploads/sites/9/2025/09/ALTAMURALIVE-IMMAGINI-3-840x505.png 840w" sizes="(max-width: 410px) 100vw, 410px" />
+							</a>
+		</figure>
+			<div class="live-entry-content live-category-news">
+
+								<span class="live-etichetta">La nomina</span>
+							
+			<a href="https://altamuralive.it/2025/09/09/parco-nazionale-alta-murgia-nominato-giuseppe-colucci-nuovo-presidente/" class="live-title live-title-news"><h2>Parco Nazionale Alta Murgia: nominato Giuseppe Colucci nuovo presidente</h2></a>		</div>
+					<figure class="live-entry-media live-image-news live-image-news-desktop">
+				<a href="https://altamuralive.it/2025/09/09/parco-nazionale-alta-murgia-nominato-giuseppe-colucci-nuovo-presidente/">
+					<img width="410" height="245" src="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/ALTAMURALIVE-IMMAGINI-3-410x245.png" class="attachment-news-thumb-img size-news-thumb-img wp-post-image" alt="La nomina" decoding="async" srcset="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/ALTAMURALIVE-IMMAGINI-3-410x245.png 410w, https://altamuralive.it/wp-content/uploads/sites/9/2025/09/ALTAMURALIVE-IMMAGINI-3-840x505.png 840w" sizes="(max-width: 410px) 100vw, 410px" />									</a>
+			</figure>
+				<div class="live-entry-content live-category-news">
+						<div class="live-article-footer">
+			<span class="live-comments"><a href="https://altamuralive.it/2025/09/09/parco-nazionale-alta-murgia-nominato-giuseppe-colucci-nuovo-presidente/#respond">scrivi un commento</a></span>			</div>
+		</div>
+</article>
+<div class="live-adv-square"><!-- live_5_300x250_4_home -->
+<div id='div-gpt-ad-live_5_300x250_4_home'>
+  <script> googletag.cmd.push(function() { googletag.display('div-gpt-ad-live_5_300x250_4_home'); }); </script>
+</div>
+</div>          <div class="live-call-to-action-box">
+  <div class="live-call-to-action-wrapper">
+    <div class="live-call-to-action-header">
+      <h2>Scrivi il tuo articolo</h2>
+    </div>
+    <div class="live-call-to-action-content">
+      Hai una notizia da condividere con gli altri lettori? Scrivi ora il tuo articolo.
+    </div>
+    <div class="live-call-to-action-footer">
+      <a href="/la-notizia-dei-lettori" class="live-call-to-action-button">Scrivi il tuo articolo</a>
+    </div>
+  </div>
+</div>
+				</div>
+			</div>
+		</section>
+    <section class="live-adv-container">
+      <div class="live-adv-full-width">
+        <!-- live_5_970x250_3_home -->
+<div id='div-gpt-ad-live_5_970x250_3_home'>
+  <script> googletag.cmd.push(function() { googletag.display('div-gpt-ad-live_5_970x250_3_home'); }); </script>
+</div>
+      </div>
+		</section>
+		<section class="live-home-section live-long-section" id="long-section-2">
+			<div class="live-col-1">
+	      
+<article class="live-home-post live-evidenza live-evidenza-news ">
+	<figure class="live-entry-media live-image-news">
+		<a href="https://altamuralive.it/2025/09/09/nuovo-palazzetto-dello-sport-omologato-per-competizioni-agonistiche-ad-altamura/">
+			<img width="1260" height="758" src="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Palazzetto-dello-sport-Trentacapilli.jpg" class="attachment-news-focus-img size-news-focus-img wp-post-image" alt="Altamura - Sport " decoding="async" srcset="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Palazzetto-dello-sport-Trentacapilli.jpg 1260w, https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Palazzetto-dello-sport-Trentacapilli-840x505.jpg 840w" sizes="(max-width: 1260px) 100vw, 1260px" />
+					</a>
+	</figure>
+	<div class="live-entry-content live-category-news">
+		
+						<span class="live-etichetta">Altamura - Sport </span>
+					
+		<a href="https://altamuralive.it/2025/09/09/nuovo-palazzetto-dello-sport-omologato-per-competizioni-agonistiche-ad-altamura/" class="live-title live-title-news"><h2>Nuovo palazzetto dello sport omologato per competizioni agonistiche ad Altamura <span class="live-has-media">Le foto</span></h2></a>				<div class="live-summary live-summary-news">Altamura ottiene 3 mln di euro dal bando “Sport e Periferie 2025” per un nuovo palazzetto dello sport in località Trentacapilli. La struttura, accessibile e a energia quasi zero, ospiterà discipline agonistiche e paralimpiche. Il Comune investirà altri 1,23 mln per completare l’opera da 4,23 mln.</div>		
+		<div class="live-article-footer">
+			<span class="live-comments"><a href="https://altamuralive.it/2025/09/09/nuovo-palazzetto-dello-sport-omologato-per-competizioni-agonistiche-ad-altamura/#respond">scrivi un commento</a></span>		</div>
+	</div>
+</article>
+
+<article class="live-home-post live-evidenza live-evidenza-news ">
+	<figure class="live-entry-media live-image-news">
+		<a href="https://altamuralive.it/2025/09/08/treni-fal-tratta-altamura-matera-circolazione-rimandata-al-15-settembre-intanto-bus-sostitutivi/">
+			<img width="1260" height="758" src="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Stazione-Altamura.jpg" class="attachment-news-focus-img size-news-focus-img wp-post-image" alt="L&#039;avviso alla cittadinanza" decoding="async" srcset="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Stazione-Altamura.jpg 1260w, https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Stazione-Altamura-840x505.jpg 840w" sizes="(max-width: 1260px) 100vw, 1260px" />
+					</a>
+	</figure>
+	<div class="live-entry-content live-category-news">
+		
+						<span class="live-etichetta">L'avviso alla cittadinanza</span>
+					
+		<a href="https://altamuralive.it/2025/09/08/treni-fal-tratta-altamura-matera-circolazione-rimandata-al-15-settembre-intanto-bus-sostitutivi/" class="live-title live-title-news"><h2>Treni FAL tratta Altamura-Matera: circolazione rimandata al 15 settembre. Intanto bus sostitutivi</h2></a>				<div class="live-summary live-summary-news">La circolazione ferroviaria sulla tratta Altamura–Matera riprenderà il 15 settembre, dopo la conclusione dei lavori di rinnovo e le ultime prove tecniche. Resteranno attivi i bus sostitutivi. Interventi da 9,75 milioni finanziati dalla Regione Puglia per garantire viaggi più moderni e confortevoli.</div>		
+		<div class="live-article-footer">
+			<span class="live-comments"><a href="https://altamuralive.it/2025/09/08/treni-fal-tratta-altamura-matera-circolazione-rimandata-al-15-settembre-intanto-bus-sostitutivi/#respond">scrivi un commento</a></span>		</div>
+	</div>
+</article>
+
+<article class="live-home-post live-evidenza live-evidenza-news ">
+	<figure class="live-entry-media live-image-news">
+		<a href="https://altamuralive.it/2025/09/08/altamura-tornano-i-quaderni-solidali-handy-insieme-per-il-sociale/">
+			<img width="1260" height="758" src="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Quaderni-HANDY-2025.jpg" class="attachment-news-focus-img size-news-focus-img wp-post-image" alt="Solidarietà" decoding="async" srcset="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Quaderni-HANDY-2025.jpg 1260w, https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Quaderni-HANDY-2025-840x505.jpg 840w" sizes="(max-width: 1260px) 100vw, 1260px" />
+					</a>
+	</figure>
+	<div class="live-entry-content live-category-news">
+		
+						<span class="live-etichetta">Solidarietà</span>
+					
+		<a href="https://altamuralive.it/2025/09/08/altamura-tornano-i-quaderni-solidali-handy-insieme-per-il-sociale/" class="live-title live-title-news"><h2>Altamura, tornano i quaderni solidali HANDY– Insieme per il Sociale <span class="live-has-media">Le foto</span></h2></a>				<div class="live-summary live-summary-news">Dall'8 settembre ad Altamura tornano i quaderni HANDY, l’iniziativa solidale che unisce scuola e beneficenza. Con solo 1€ si porta a casa un quaderno di qualità superiore e si sostiene la donazione di materiale scolastico e attrezzature a Onlus ed enti ospedalieri.</div>		
+		<div class="live-article-footer">
+			<span class="live-comments"><a href="https://altamuralive.it/2025/09/08/altamura-tornano-i-quaderni-solidali-handy-insieme-per-il-sociale/#respond">scrivi un commento</a></span>		</div>
+	</div>
+</article>
+
+<article class="live-home-post live-evidenza live-evidenza-news ">
+	<figure class="live-entry-media live-image-news">
+		<a href="https://altamuralive.it/2025/09/08/aggressione-allequipaggio-del-118-di-altamura-4-operatori-sanitari-feriti/">
+			<img width="1260" height="758" src="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/pronto-soccorso-118-aggressione.jpg" class="attachment-news-focus-img size-news-focus-img wp-post-image" alt="Il fatto " decoding="async" srcset="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/pronto-soccorso-118-aggressione.jpg 1260w, https://altamuralive.it/wp-content/uploads/sites/9/2025/09/pronto-soccorso-118-aggressione-840x505.jpg 840w" sizes="(max-width: 1260px) 100vw, 1260px" />
+					</a>
+	</figure>
+	<div class="live-entry-content live-category-news">
+		
+						<span class="live-etichetta">Il fatto </span>
+					
+		<a href="https://altamuralive.it/2025/09/08/aggressione-allequipaggio-del-118-di-altamura-4-operatori-sanitari-feriti/" class="live-title live-title-news"><h2>Aggressione all&#8217;equipaggio del 118 di Altamura: 4 operatori sanitari feriti <span class="live-has-media">Le foto</span></h2></a>				<div class="live-summary live-summary-news">Nuovo episodio di violenza contro gli operatori del 118 nella serata di sabato 6 settembre, un paziente e un individuo estraneo hanno aggredito i sanitari, costringendo quattro di loro a ricorrere a cure mediche. La ASL Bari condanna con forza l’accaduto ed esprime solidarietà alle vittime.</div>		
+		<div class="live-article-footer">
+			<span class="live-comments"><a href="https://altamuralive.it/2025/09/08/aggressione-allequipaggio-del-118-di-altamura-4-operatori-sanitari-feriti/#respond">scrivi un commento</a></span>		</div>
+	</div>
+</article>
+			</div>
+			<div class="live-col-2">
+				<div class="live-aside-wrapper">
+          		      <article class="live-home-post live-spalla live-spalla-news news ">
+			<figure class="live-entry-media news live-image-news-mobile">
+			<a href="https://altamuralive.it/2025/09/06/domenica-7-settembre-arriva-la-luna-rossa-spettacolare-eclissi-totale-visibile-anche-ad-altamura/">
+				<img width="410" height="245" src="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Eclissi-totale-di-Luna-Luna-Rossa-410x245.jpg" class="attachment-news-thumb-img size-news-thumb-img wp-post-image" alt="L&#039;eclissi totale di Luna " decoding="async" srcset="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Eclissi-totale-di-Luna-Luna-Rossa-410x245.jpg 410w, https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Eclissi-totale-di-Luna-Luna-Rossa-840x505.jpg 840w" sizes="(max-width: 410px) 100vw, 410px" />
+							</a>
+		</figure>
+			<div class="live-entry-content live-category-news">
+
+								<span class="live-etichetta">L'eclissi totale di Luna </span>
+							
+			<a href="https://altamuralive.it/2025/09/06/domenica-7-settembre-arriva-la-luna-rossa-spettacolare-eclissi-totale-visibile-anche-ad-altamura/" class="live-title live-title-news"><h2>Domenica 7 settembre arriva la “Luna Rossa”. Spettacolare eclissi totale visibile anche ad Altamura <span class="live-has-media">Le foto</span></h2></a>		</div>
+					<figure class="live-entry-media live-image-news live-image-news-desktop">
+				<a href="https://altamuralive.it/2025/09/06/domenica-7-settembre-arriva-la-luna-rossa-spettacolare-eclissi-totale-visibile-anche-ad-altamura/">
+					<img width="410" height="245" src="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Eclissi-totale-di-Luna-Luna-Rossa-410x245.jpg" class="attachment-news-thumb-img size-news-thumb-img wp-post-image" alt="L&#039;eclissi totale di Luna " decoding="async" srcset="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Eclissi-totale-di-Luna-Luna-Rossa-410x245.jpg 410w, https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Eclissi-totale-di-Luna-Luna-Rossa-840x505.jpg 840w" sizes="(max-width: 410px) 100vw, 410px" />									</a>
+			</figure>
+				<div class="live-entry-content live-category-news">
+						<div class="live-article-footer">
+			<span class="live-comments"><a href="https://altamuralive.it/2025/09/06/domenica-7-settembre-arriva-la-luna-rossa-spettacolare-eclissi-totale-visibile-anche-ad-altamura/#respond">scrivi un commento</a></span>			</div>
+		</div>
+</article>
+<div class="live-adv-square"><!-- live_5_300x250_5_home -->
+<div id='div-gpt-ad-live_5_300x250_5_home'>
+  <script> googletag.cmd.push(function() { googletag.display('div-gpt-ad-live_5_300x250_5_home'); }); </script>
+</div>
+</div><article class="live-home-post live-spalla live-spalla-news news ">
+			<figure class="live-entry-media news live-image-news-mobile">
+			<a href="https://altamuralive.it/2025/09/05/visite-oculistiche-gratuite-sabato-6-settembre-in-piazza-della-resistenza-ad-altamura/">
+				<img width="410" height="245" src="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Screening-oculistico-gratuito--410x245.jpg" class="attachment-news-thumb-img size-news-thumb-img wp-post-image" alt="Salute e prevenzione" decoding="async" srcset="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Screening-oculistico-gratuito--410x245.jpg 410w, https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Screening-oculistico-gratuito--840x505.jpg 840w" sizes="(max-width: 410px) 100vw, 410px" />
+							</a>
+		</figure>
+			<div class="live-entry-content live-category-news">
+
+								<span class="live-etichetta">Salute e prevenzione</span>
+							
+			<a href="https://altamuralive.it/2025/09/05/visite-oculistiche-gratuite-sabato-6-settembre-in-piazza-della-resistenza-ad-altamura/" class="live-title live-title-news"><h2>Visite oculistiche gratuite sabato 6 settembre in Piazza della Resistenza ad Altamura</h2></a>		</div>
+					<figure class="live-entry-media live-image-news live-image-news-desktop">
+				<a href="https://altamuralive.it/2025/09/05/visite-oculistiche-gratuite-sabato-6-settembre-in-piazza-della-resistenza-ad-altamura/">
+					<img width="410" height="245" src="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Screening-oculistico-gratuito--410x245.jpg" class="attachment-news-thumb-img size-news-thumb-img wp-post-image" alt="Salute e prevenzione" decoding="async" srcset="https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Screening-oculistico-gratuito--410x245.jpg 410w, https://altamuralive.it/wp-content/uploads/sites/9/2025/09/Screening-oculistico-gratuito--840x505.jpg 840w" sizes="(max-width: 410px) 100vw, 410px" />									</a>
+			</figure>
+				<div class="live-entry-content live-category-news">
+						<div class="live-article-footer">
+			<span class="live-comments"><a href="https://altamuralive.it/2025/09/05/visite-oculistiche-gratuite-sabato-6-settembre-in-piazza-della-resistenza-ad-altamura/#respond">scrivi un commento</a></span>			</div>
+		</div>
+</article>
+<div class="live-adv-square"><!-- adsense_300x250 -->
+<div style="margin-left: auto;margin-right: auto;text-align: center;" class="live-adv" id="liveb-2881429370"><!-- altamura_live_5_300x250 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-9473877772814641"
+     data-ad-slot="6068494336"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div>					<div class="live-most-commented">
+	<div class="live-list-highlight-title">
+		<div class="live-list-highlight-title-wrapper">
+			<h4>Le più commentate della settimana</h4>
+		</div>
+	</div>
+		<article class="live-list-highlight-news">
+		<div class="live-list-highlight-news-wrapper">
+			<a href="https://altamuralive.it/2025/09/19/cani-di-taglia-grande-in-aereo-dal-23-settembre-potranno-viaggiare-in-cabina/" class="live-title live-title-news"><h2>Cani di taglia grande in aereo. Dal 23 settembre potranno viaggiare in cabina</h2></a>		</div>
+	</article>
+		<article class="live-list-highlight-news">
+		<div class="live-list-highlight-news-wrapper">
+			<a href="https://altamuralive.it/2025/09/17/altamura-accoglie-levento-gratuito-note-sapori-dautore-musica-storia-tradizioni-e-degustazioni-nel-cuore-della-citta/" class="live-title live-title-news"><h2>Altamura accoglie l&#8217;evento gratuito “Note &amp; Sapori d’Autore”: musica, storia, tradizioni e degustazioni nel cuore della città</h2></a>		</div>
+	</article>
+		<article class="live-list-highlight-news">
+		<div class="live-list-highlight-news-wrapper">
+			<a href="https://altamuralive.it/2025/09/17/mense-scolastiche-media-di-662-euro-allanno-a-bambino-in-puglia-1-genitore-su-4-lamenta-scarsa-qualita/" class="live-title live-title-news"><h2>Mense scolastiche: media di 662 euro all’anno a bambino in Puglia. 1 genitore su 4 lamenta scarsa qualità</h2></a>		</div>
+	</article>
+		<article class="live-list-highlight-news">
+		<div class="live-list-highlight-news-wrapper">
+			<a href="https://altamuralive.it/2025/09/17/altamura-celebra-la-giornata-mondiale-del-turismo-con-un-tour-tra-storia-arte-e-tradizione/" class="live-title live-title-news"><h2>Altamura celebra la Giornata Mondiale del Turismo con un tour tra storia, arte e tradizione</h2></a>		</div>
+	</article>
+	</div>
+				</div>
+			</div>
+		</section>
+    <section class="live-adv-container">
+      <div class="live-adv-full-width">
+        <!-- live_5_970x250_4_home -->
+<div id='div-gpt-ad-live_5_970x250_4_home'>
+  <script> googletag.cmd.push(function() { googletag.display('div-gpt-ad-live_5_970x250_4_home'); }); </script>
+</div>
+      </div>
+    </section>
+	</div>
+</main>
+
+    
+    <footer class="live-footer ">
+      <section class="inner-live-footer">
+        <div class="live-footer-col w-100 mb-50">
+          <form class="live-search-form " method="get" action="https://altamuralive.it/">
+  <div class="live-search-form-container">
+    <input type="search" name="s" placeholder="Cerca tra gli articoli o tra le rubriche" value="">
+    <button type="submit"></button>
+  </div>
+</form>
+        </div>
+      </section>
+      <section class="inner-live-footer">
+        <div class="live-footer-col">
+          <h6>Link utili</h6>
+          <ul id="menu-footer-menu" class="live-menu-link-utili"><li id="menu-item-262495" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-262495"><a href="https://altamuralive.it/chi-siamo/">Chi siamo</a></li>
+<li id="menu-item-262498" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-262498"><a href="https://altamuralive.it/la-redazione/">La redazione</a></li>
+<li id="menu-item-271325" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-271325"><a href="https://altamuralive.it/cookie-policy-ue/">Cookie Policy (UE)</a></li>
+<li id="menu-item-262499" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-262499"><a rel="privacy-policy" href="https://altamuralive.it/privacy-policy/">Privacy policy</a></li>
+<li id="menu-item-262496" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-262496"><a href="https://altamuralive.it/contatti/">Contatti</a></li>
+</ul>
+          <!-- Evolution ADV | Link privacy -->
+          
+
+          <h6>In evidenza</h6>
+          <ul id="menu-menu-evidenza-sidebar-1" class="live-menu-evidenza"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-262558"><a href="https://altamuralive.it/la-notizia-dei-lettori/">La notizia dei lettori</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-262513"><a href="https://altamuralive.it/necrologi/">Necrologi</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-263203"><a href="https://altamuralive.it/ringraziamenti/">Ringraziamenti</a></li>
+</ul>        </div>
+        <div class="live-footer-col">
+          <h6>Argomenti</h6>
+                  </div>
+        <div class="live-footer-col">
+          <h6>Il Network</h6>
+          <ul id="menu-menu-network-2" class="live-menu-network"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262521"><a target="_blank" href="https://acquavivalive.it/">Acquaviva</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-262522"><a target="_blank" href="https://altamuralive.it/" aria-current="page">Altamura</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262523"><a target="_blank" href="https://andrialive.it/">Andria</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262524"><a target="_blank" href="https://barilive.it/">Bari</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262525"><a target="_blank" href="https://barlettalive.it/">Barletta</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262526"><a target="_blank" href="https://bisceglielive.it/">Bisceglie</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262527"><a target="_blank" href="https://bitontolive.it/">Bitonto</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262528"><a target="_blank" href="https://canosalive.com/">Canosa</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262529"><a target="_blank" href="https://cassanolive.it/">Cassano</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262530"><a target="_blank" href="https://coratolive.it/">Corato</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262531"><a href="https://fasanolive.com/">Fasano</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262532"><a target="_blank" href="https://gioialive.it/">Gioia</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262533"><a target="_blank" href="https://giovinazzolive.it/">Giovinazzo</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-270469"><a href="https://melfilive.it/">Melfi</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262536"><a target="_blank" href="https://minervinolive.it/">Minervino</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262537"><a target="_blank" href="https://molfettalive.it/">Molfetta</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-270955"><a href="https://palolive.it/">Palo</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262538"><a target="_blank" href="https://ruvolive.it/">Ruvo</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262539"><a target="_blank" href="https://santeramolive.it/">Santeramo</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262540"><a target="_blank" href="https://terlizzilive.it/">Terlizzi</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262541"><a target="_blank" href="https://tranilive.it/">Trani</a></li>
+</ul>        </div>
+      </section>
+      <div class="inner-live-footer top-portal-info">
+        <div class="live-footer-col w-50 mb-0 portal-info">
+          <a href="https://livenetworkitalia.it" target="_blank" class="logo-live-footer">
+            <img src="https://altamuralive.it/wp-content/themes/livenetwork-template/assets/images/livenetwork.svg" alt="LiveNetworkItalia.it" />
+          </a>
+          <p>
+            AltamuraLive.it <br />Testata giornalistica <br />reg. n. 5/12, Trib. di Trani in data 06/02/2012 <br />Editore: 2 Round SNC - P.Iva: 07653460720 <br />Direttore Responsabile: Barbara Colapinto          </p>
+        </div>
+        <div class="live-footer-col social_user-login_wa w-50 mb-0">
+          
+          <div class="social_user-login">
+            <div class="inner-social_user-login">
+              <span class="follow-us">Seguici</span>
+              <ul class='social-link'><li><a href='https://www.facebook.com/pages/AltamuraLiveit/192765067453029' target='_blank'><i class='fa-brands fa-facebook-f'></i></a></li><li><a href='https://twitter.com/AltamuraLiveit' target='_blank'><i class='fa-brands fa-twitter'></i></a></li><li><a href='https://www.youtube.com/user/LiveNetworkPortali' target='_blank'><i class='fa-brands fa-youtube'></i></a></li></ul>              <span class="sep-login_social"></span>
+              <a href="#" class="btn-login_register">
+                Accedi
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="inner-live-footer">
+        <div class="live-footer-col w-100 mb-0 credits">
+          <p>
+            &copy; 2025 Tutti i diritti sono riservati - Credits: <a href="https://livenetworkitalia.it/" target="_blank" title="LiveNetwork.it">LiveNetwork.it</a>
+          </p>
+          <a href="https://www.anso.it" target="_blank" class="anso-logo">
+            <img src="https://altamuralive.it/wp-content/themes/livenetwork-template/assets/images/anso.svg" alt="Anso" />
+          </a>
+        </div>
+      </section>
+    </footer>
+    
+<div id="um_upload_single" style="display:none;"></div>
+
+<div id="um_view_photo" style="display:none;">
+	<a href="javascript:void(0);" data-action="um_remove_modal" class="um-modal-close" aria-label="Close view photo modal">
+		<i class="um-faicon-times"></i>
+	</a>
+
+	<div class="um-modal-body photo">
+		<div class="um-modal-photo"></div>
+	</div>
+</div>
+<script>(function(){var advanced_ads_ga_UID="live_JXycaR6t",advanced_ads_ga_anonymIP=!!1;window.advanced_ads_check_adblocker=function(){var t=[],n=null;function e(t){var n=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||function(t){return setTimeout(t,16)};n.call(window,t)}return e((function(){var a=document.createElement("div");a.innerHTML="&nbsp;",a.setAttribute("class","ad_unit ad-unit text-ad text_ad pub_300x250"),a.setAttribute("style","width: 1px !important; height: 1px !important; position: absolute !important; left: 0px !important; top: 0px !important; overflow: hidden !important;"),document.body.appendChild(a),e((function(){var e,o,i=null===(e=(o=window).getComputedStyle)||void 0===e?void 0:e.call(o,a),d=null==i?void 0:i.getPropertyValue("-moz-binding");n=i&&"none"===i.getPropertyValue("display")||"string"==typeof d&&-1!==d.indexOf("about:");for(var c=0,r=t.length;c<r;c++)t[c](n);t=[]}))})),function(e){"undefined"==typeof advanced_ads_adblocker_test&&(n=!0),null!==n?e(n):t.push(e)}}(),(()=>{function t(t){this.UID=t,this.analyticsObject="function"==typeof gtag;var n=this;return this.count=function(){gtag("event","AdBlock",{event_category:"Advanced Ads",event_label:"Yes",non_interaction:!0,send_to:n.UID})},function(){if(!n.analyticsObject){var e=document.createElement("script");e.src="https://www.googletagmanager.com/gtag/js?id="+t,e.async=!0,document.body.appendChild(e),window.dataLayer=window.dataLayer||[],window.gtag=function(){dataLayer.push(arguments)},n.analyticsObject=!0,gtag("js",new Date)}var a={send_page_view:!1,transport_type:"beacon"};window.advanced_ads_ga_anonymIP&&(a.anonymize_ip=!0),gtag("config",t,a)}(),this}advanced_ads_check_adblocker((function(n){n&&new t(advanced_ads_ga_UID).count()}))})();})();</script><script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/sites\/9\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/livenetwork-template\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+
+<!-- Consent Management powered by Complianz | GDPR/CCPA Cookie Consent https://wordpress.org/plugins/complianz-gdpr -->
+<div id="cmplz-cookiebanner-container"><div class="cmplz-cookiebanner cmplz-hidden banner-1 banner-a optin cmplz-center cmplz-categories-type-view-preferences" aria-modal="true" data-nosnippet="true" role="dialog" aria-live="polite" aria-labelledby="cmplz-header-1-optin" aria-describedby="cmplz-message-1-optin">
+	<div class="cmplz-header">
+		<div class="cmplz-logo"><a href="https://altamuralive.it/" class="custom-logo-link" rel="home" aria-current="page"><img width="1" height="1" src="https://altamuralive.it/wp-content/uploads/sites/9/2022/06/logo.svg" class="custom-logo" alt="AltamuraLive.it" decoding="async" /></a></div>
+		<div class="cmplz-title" id="cmplz-header-1-optin">Gestisci la tua privacy</div>
+		<div class="cmplz-close" tabindex="0" role="button" aria-label="Chiudere dialogo">
+			<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+		</div>
+	</div>
+
+	<div class="cmplz-divider cmplz-divider-header"></div>
+	<div class="cmplz-body">
+		<div class="cmplz-message" id="cmplz-message-1-optin"><p>Per fornire le migliori esperienze, noi e i nostri partner utilizziamo tecnologie come i cookie per memorizzare e/o accedere alle informazioni del dispositivo. Il consenso a queste tecnologie permetterà a noi e ai nostri partner di elaborare dati personali come il comportamento durante la navigazione o gli ID univoci su questo sito e di mostrare annunci (non) personalizzati. Non acconsentire o ritirare il consenso può influire negativamente su alcune caratteristiche e funzioni.</p><p>Clicca qui sotto per acconsentire a quanto sopra o per fare scelte dettagliate.&nbsp;Le tue scelte saranno applicate solamente a questo sito.&nbsp;È possibile modificare le impostazioni in qualsiasi momento, compreso il ritiro del consenso, utilizzando i pulsanti della Cookie Policy o cliccando sul pulsante di gestione del consenso nella parte inferiore dello schermo.</p></div>
+		<!-- categories start -->
+		<div class="cmplz-categories">
+			<details class="cmplz-category cmplz-functional" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Funzionale</span>
+							<span class='cmplz-always-active'>
+								<span class="cmplz-banner-checkbox">
+									<input type="checkbox"
+										   id="cmplz-functional-optin"
+										   data-category="cmplz_functional"
+										   class="cmplz-consent-checkbox cmplz-functional"
+										   size="40"
+										   value="1"/>
+									<label class="cmplz-label" for="cmplz-functional-optin"><span class="screen-reader-text">Funzionale</span></label>
+								</span>
+								Sempre attivo							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-functional">L'archiviazione tecnica o l'accesso sono strettamente necessari al fine legittimo di consentire l'uso di un servizio specifico esplicitamente richiesto dall'abbonato o dall'utente, o al solo scopo di effettuare la trasmissione di una comunicazione su una rete di comunicazione elettronica.</span>
+				</div>
+			</details>
+
+			<details class="cmplz-category cmplz-preferences" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Preferenze</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-preferences-optin"
+									   data-category="cmplz_preferences"
+									   class="cmplz-consent-checkbox cmplz-preferences"
+									   size="40"
+									   value="1"/>
+								<label class="cmplz-label" for="cmplz-preferences-optin"><span class="screen-reader-text">Preferenze</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-preferences">L'archiviazione tecnica o l'accesso sono necessari per lo scopo legittimo di memorizzare le preferenze che non sono richieste dall'abbonato o dall'utente.</span>
+				</div>
+			</details>
+
+			<details class="cmplz-category cmplz-statistics" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Statistiche</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-statistics-optin"
+									   data-category="cmplz_statistics"
+									   class="cmplz-consent-checkbox cmplz-statistics"
+									   size="40"
+									   value="1"/>
+								<label class="cmplz-label" for="cmplz-statistics-optin"><span class="screen-reader-text">Statistiche</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-statistics">L'archiviazione tecnica o l'accesso che viene utilizzato esclusivamente per scopi statistici.</span>
+					<span class="cmplz-description-statistics-anonymous">L'archiviazione tecnica o l'accesso che viene utilizzato esclusivamente per scopi statistici anonimi. Senza un mandato di comparizione, una conformità volontaria da parte del vostro Fornitore di Servizi Internet, o ulteriori registrazioni da parte di terzi, le informazioni memorizzate o recuperate per questo scopo da sole non possono di solito essere utilizzate per l'identificazione.</span>
+				</div>
+			</details>
+			<details class="cmplz-category cmplz-marketing" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Marketing</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-marketing-optin"
+									   data-category="cmplz_marketing"
+									   class="cmplz-consent-checkbox cmplz-marketing"
+									   size="40"
+									   value="1"/>
+								<label class="cmplz-label" for="cmplz-marketing-optin"><span class="screen-reader-text">Marketing</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-marketing">L'archiviazione tecnica o l'accesso sono necessari per creare profili di utenti per inviare pubblicità, o per tracciare l'utente su un sito web o su diversi siti web per scopi di marketing simili.</span>
+				</div>
+			</details>
+		</div><!-- categories end -->
+		
+<div class="cmplz-categories cmplz-tcf">
+
+	<div class="cmplz-category cmplz-statistics">
+		<div class="cmplz-category-header">
+			<div class="cmplz-title">Statistiche</div>
+			<div class='cmplz-always-active'></div>
+			<p class="cmplz-description"></p>
+		</div>
+	</div>
+
+	<div class="cmplz-category cmplz-marketing">
+		<div class="cmplz-category-header">
+			<div class="cmplz-title">Marketing</div>
+			<div class='cmplz-always-active'></div>
+			<p class="cmplz-description"></p>
+		</div>
+	</div>
+
+	<div class="cmplz-category cmplz-features">
+		<div class="cmplz-category-header">
+			<div class="cmplz-title">Funzionalità</div>
+			<div class='cmplz-always-active'>Sempre attivo</div>
+			<p class="cmplz-description"></p>
+		</div>
+	</div>
+
+	<div class="cmplz-category cmplz-specialfeatures">
+		<div class="cmplz-category-header">
+			<div class="cmplz-title"></div>
+			<div class='cmplz-always-active'></div>
+		</div>
+	</div>
+
+	<div class="cmplz-category cmplz-specialpurposes">
+		<div class="cmplz-category-header">
+			<div class="cmplz-title"></div>
+			<div class='cmplz-always-active'>Sempre attivo</div>
+		</div>
+	</div>
+
+</div>
+	</div>
+
+	<div class="cmplz-links cmplz-information">
+		<a class="cmplz-link cmplz-manage-options cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">Gestisci opzioni</a>
+		<a class="cmplz-link cmplz-manage-third-parties cookie-statement" href="#" data-relative_url="#cmplz-cookies-overview">Gestisci servizi</a>
+		<a class="cmplz-link cmplz-manage-vendors tcf cookie-statement" href="#" data-relative_url="#cmplz-tcf-wrapper">Gestisci {vendor_count} fornitori</a>
+		<a class="cmplz-link cmplz-external cmplz-read-more-purposes tcf" target="_blank" rel="noopener noreferrer nofollow" href="https://cookiedatabase.org/tcf/purposes/">Per saperne di più su questi scopi</a>
+			</div>
+
+	<div class="cmplz-divider cmplz-footer"></div>
+
+	<div class="cmplz-buttons">
+		<button class="cmplz-btn cmplz-accept">Accetta</button>
+		<button class="cmplz-btn cmplz-deny">Nega</button>
+		<button class="cmplz-btn cmplz-view-preferences">Gestisci opzioni</button>
+		<button class="cmplz-btn cmplz-save-preferences">Salva preferenze</button>
+		<a class="cmplz-btn cmplz-manage-options tcf cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">Gestisci opzioni</a>
+			</div>
+
+	<div class="cmplz-links cmplz-documents">
+		<a class="cmplz-link cookie-statement" href="#" data-relative_url="">{title}</a>
+		<a class="cmplz-link privacy-statement" href="#" data-relative_url="">{title}</a>
+		<a class="cmplz-link impressum" href="#" data-relative_url="">{title}</a>
+			</div>
+
+</div>
+</div>
+					<div id="cmplz-manage-consent" data-nosnippet="true"><button class="cmplz-btn cmplz-hidden cmplz-manage-consent manage-consent-1">Gestisci consenso</button>
+
+</div><script type="application/ld+json" id="slim-seo-schema">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://altamuralive.it/#website","url":"https://altamuralive.it/","name":"AltamuraLive.it","description":"Più vita in comune","inLanguage":"it-IT","potentialAction":{"@id":"https://altamuralive.it/#searchaction"},"publisher":{"@id":"https://altamuralive.it/#organization"}},{"@type":"SearchAction","@id":"https://altamuralive.it/#searchaction","target":"https://altamuralive.it/?s={search_term_string}","query-input":"required name=search_term_string"},{"@type":"WebPage","@id":"https://altamuralive.it/#webpage","url":"https://altamuralive.it/","inLanguage":"it-IT","name":"AltamuraLive.it - Le notizie da Altamura - Altamura News","description":"Tutto su Altamura: cronaca da Altamura, politica Altamura, attualità Altamura, cultura e spettacoli Altamura, sport, eventi, notizie Altamura.","datePublished":"2022-06-30T10:50:17+02:00","dateModified":"2023-01-18T16:37:45+01:00","isPartOf":{"@id":"https://altamuralive.it/#website"},"potentialAction":{"@id":"https://altamuralive.it/#readaction"},"about":{"@id":"https://altamuralive.it/#organization"}},{"@type":"ReadAction","@id":"https://altamuralive.it/#readaction","target":"https://altamuralive.it/"},{"@type":"Organization","@id":"https://altamuralive.it/#organization","url":"https://altamuralive.it/","name":"AltamuraLive.it"}]}</script><script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/honeypot/includes/js/wpa.js?ver=2.3.02" id="wpascript-js"></script>
+<script type="text/javascript" id="wpascript-js-after">
+/* <![CDATA[ */
+wpa_field_info = {"wpa_field_name":false,"wpa_field_value":980850,"wpa_add_test":"no"}
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/addtocalendar/public/js/jquery.addtocalendar.min.js?ver=1.0.0" id="addtocalendar-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/themes/livenetwork-template/assets/vendors/halkaBox/halkaBox.min.js?ver=1.6.0" id="halkabox-scripts-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/themes/livenetwork-template/assets/vendors/swiper/swiper-bundle.min.js?ver=8.1.0" id="swiper-scripts-js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/plyr/3.7.2/plyr.min.js?ver=3.7.2" id="plyr-scripts-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/themes/livenetwork-template/assets/vendors/resizesensor/ResizeSensor.js?ver=1.0.0" id="resize-sensor-scripts-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/themes/livenetwork-template/assets/vendors/resizesensor/ElementQueries.js?ver=1.0.0" id="element-queries-scripts-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/themes/livenetwork-template/assets/vendors/hc-sticky/hc-sticky.js?ver=2.2.7" id="hc-sticky-scripts-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/themes/livenetwork-template/assets/vendors/lazysizes/lazysizes.min.js?ver=2.2.7" id="lazysizes-scripts-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/themes/livenetwork-template/assets/js/main.js?ver=1.0.0" id="live-scripts-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/themes/livenetwork-template/assets/js/functions.js?ver=1.0.3" id="live-fn-scripts-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/advanced-ads/admin/assets/js/advertisement.js?ver=2.0.11" id="advanced-ads-find-adblocker-js"></script>
+<script type="text/javascript" id="advanced-ads-pro-main-js-extra">
+/* <![CDATA[ */
+var advanced_ads_cookies = {"cookie_path":"\/","cookie_domain":"altamuralive.it"};
+var advadsCfpInfo = {"cfpExpHours":"3","cfpClickLimit":"3","cfpBan":"7","cfpPath":"","cfpDomain":"","cfpEnabled":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/advanced-ads-pro/assets/dist/advanced-ads-pro.js?ver=3.0.7" id="advanced-ads-pro-main-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-includes/js/underscore.min.js?ver=1.13.7" id="underscore-js"></script>
+<script type="text/javascript" id="wp-util-js-extra">
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://altamuralive.it/wp-includes/js/wp-util.min.js?ver=6.8.2" id="wp-util-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/ultimate-member/assets/libs/tipsy/tipsy.min.js?ver=1.0.0a" id="um_tipsy-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/ultimate-member/assets/libs/um-confirm/um-confirm.min.js?ver=1.0" id="um_confirm-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/ultimate-member/assets/libs/pickadate/picker.min.js?ver=3.6.2" id="um_datetime-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/ultimate-member/assets/libs/pickadate/picker.date.min.js?ver=3.6.2" id="um_datetime_date-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/ultimate-member/assets/libs/pickadate/picker.time.min.js?ver=3.6.2" id="um_datetime_time-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/ultimate-member/assets/libs/pickadate/translations/it_IT.min.js?ver=3.6.2" id="um_datetime_locale-js"></script>
+<script type="text/javascript" id="um_common-js-extra">
+/* <![CDATA[ */
+var um_common_variables = {"locale":"it_IT"};
+var um_common_variables = {"locale":"it_IT"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/ultimate-member/assets/js/common.min.js?ver=2.10.5" id="um_common-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/ultimate-member/assets/libs/cropper/cropper.min.js?ver=1.6.1" id="um_crop-js"></script>
+<script type="text/javascript" id="um_frontend_common-js-extra">
+/* <![CDATA[ */
+var um_frontend_common_variables = [];
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/ultimate-member/assets/js/common-frontend.min.js?ver=2.10.5" id="um_frontend_common-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/ultimate-member/assets/js/um-modal.min.js?ver=2.10.5" id="um_modal-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/ultimate-member/assets/libs/jquery-form/jquery-form.min.js?ver=2.10.5" id="um_jquery_form-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/ultimate-member/assets/libs/fileupload/fileupload.js?ver=2.10.5" id="um_fileupload-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/ultimate-member/assets/js/um-functions.min.js?ver=2.10.5" id="um_functions-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/ultimate-member/assets/js/um-responsive.min.js?ver=2.10.5" id="um_responsive-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/ultimate-member/assets/js/um-conditional.min.js?ver=2.10.5" id="um_conditional-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/ultimate-member/assets/libs/select2/select2.full.min.js?ver=4.0.13" id="select2-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/ultimate-member/assets/libs/select2/i18n/it.js?ver=4.0.13" id="um_select2_locale-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/ultimate-member/assets/libs/raty/um-raty.min.js?ver=2.6.0" id="um_raty-js"></script>
+<script type="text/javascript" id="um_scripts-js-extra">
+/* <![CDATA[ */
+var um_scripts = {"max_upload_size":"10485760","nonce":"807eb0c69c"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/ultimate-member/assets/js/um-scripts.min.js?ver=2.10.5" id="um_scripts-js"></script>
+<script type="text/javascript" id="um_profile-js-translations">
+/* <![CDATA[ */
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "ultimate-member", {"translation-revision-date":"2022-05-18 15:21+0000","generator":"Loco https:\/\/localise.biz\/","source":"assets\/js\/um-profile.min.js","domain":"ultimate-member","locale_data":{"ultimate-member":{"":{"domain":"ultimate-member","lang":"it_IT","plural-forms":"nplurals=2; plural=n != 1;"}}}} );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/ultimate-member/assets/js/um-profile.min.js?ver=2.10.5" id="um_profile-js"></script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/ultimate-member/assets/js/um-account.min.js?ver=2.10.5" id="um_account-js"></script>
+<script type="text/javascript" id="cmplz-cookiebanner-js-extra">
+/* <![CDATA[ */
+var complianz = {"prefix":"cmplz_","user_banner_id":"1","set_cookies":[],"block_ajax_content":"0","banner_version":"95","version":"7.5.4.1","store_consent":"","do_not_track_enabled":"1","consenttype":"optin","region":"eu","geoip":"1","dismiss_timeout":"","disable_cookiebanner":"","soft_cookiewall":"","dismiss_on_scroll":"","cookie_expiry":"365","url":"https:\/\/altamuralive.it\/wp-json\/complianz\/v1\/","locale":"lang=it&locale=it_IT","set_cookies_on_root":"0","cookie_domain":"","current_policy_id":"52","cookie_path":"\/","categories":{"statistics":"statistiche","marketing":"marketing"},"tcf_active":"1","placeholdertext":"<div class=\"cmplz-blocked-content-notice-body\">Fai clic su \"Accetto\" per abilitare {service}\u00a0<div class=\"cmplz-links\"><a href=\"#\" class=\"cmplz-link cookie-statement\">{title}<\/a><\/div><\/div><button class=\"cmplz-accept-service\">Accetto<\/button>","css_file":"https:\/\/altamuralive.it\/wp-content\/uploads\/sites\/9\/complianz\/css\/banner-{banner_id}-{type}.css?v=95","page_links":{"eu":{"cookie-statement":{"title":"Cookie Policy ","url":"https:\/\/altamuralive.it\/cookie-policy-ue\/"},"privacy-statement":{"title":"Dichiarazione sulla Privacy","url":"https:\/\/altamuralive.it\/privacy-policy\/"}}},"tm_categories":"1","forceEnableStats":"","preview":"","clean_cookies":"1","aria_label":"Clicca questo pulsante per abilitare {service}","tcf_regions":["us","ca","eu","uk","au","za","br"]};
+/* ]]> */
+</script>
+<script defer type="text/javascript" src="https://altamuralive.it/wp-content/plugins/complianz-gdpr-premium-multisite/cookiebanner/js/complianz.min.js?ver=1753297636" id="cmplz-cookiebanner-js"></script>
+<script type="text/javascript" id="atc_script_handle-js-extra">
+/* <![CDATA[ */
+var atc_option = "{\"filename\":\"sample\",\"target\":\"_blank\",\"providers\":{\"google\":\"Google Calendar\",\"outlook\":\"Calendario di Outlook\",\"other\":\"Calendario del tuo dispositivo\"}}";
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://altamuralive.it/wp-content/plugins/addtocalendar/public/js/main.js?ver=1.0.0" id="atc_script_handle-js"></script>
+		<script type="text/javascript">
+			var visualizerUserInteractionEvents = [
+				"scroll",
+				"mouseover",
+				"keydown",
+				"touchmove",
+				"touchstart"
+			];
+
+			visualizerUserInteractionEvents.forEach(function(event) {
+				window.addEventListener(event, visualizerTriggerScriptLoader, { passive: true });
+			});
+
+			function visualizerTriggerScriptLoader() {
+				visualizerLoadScripts();
+				visualizerUserInteractionEvents.forEach(function(event) {
+					window.removeEventListener(event, visualizerTriggerScriptLoader, { passive: true });
+				});
+			}
+
+			function visualizerLoadScripts() {
+				document.querySelectorAll("script[data-visualizer-script]").forEach(function(elem) {
+					jQuery.getScript( elem.getAttribute("data-visualizer-script") )
+					.done( function( script, textStatus ) {
+						elem.setAttribute("src", elem.getAttribute("data-visualizer-script"));
+						elem.removeAttribute("data-visualizer-script");
+						setTimeout( function() {
+							visualizerRefreshChart();
+						} );
+					} );
+				});
+			}
+
+			function visualizerRefreshChart() {
+				jQuery( '.visualizer-front:not(.visualizer-chart-loaded)' ).resize();
+				if ( jQuery( 'div.viz-facade-loaded:not(.visualizer-lazy):empty' ).length > 0 ) {
+					visualizerUserInteractionEvents.forEach( function( event ) {
+						window.addEventListener( event, function() {
+							jQuery( '.visualizer-front:not(.visualizer-chart-loaded)' ).resize();
+						}, { passive: true } );
+					} );
+				}
+			}
+		</script>
+			<script>window.advads_admin_bar_items = [{"title":"adsense_300x250","type":"ad","count":1}];</script><script>!function(){window.advanced_ads_ready_queue=window.advanced_ads_ready_queue||[],advanced_ads_ready_queue.push=window.advanced_ads_ready;for(var d=0,a=advanced_ads_ready_queue.length;d<a;d++)advanced_ads_ready(advanced_ads_ready_queue[d])}();</script>
+    <link rel="stylesheet" src="/wp-content/themes/livenetwork-template/style-in-footer.css" />
+  </body>
+</html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Object Caching 229/662 objects using Redis
+Database Caching 2/125 queries in 1.474 seconds using Redis
+
+Served from: altamuralive.it @ 2025-09-22 11:27:39 by W3 Total Cache
+-->

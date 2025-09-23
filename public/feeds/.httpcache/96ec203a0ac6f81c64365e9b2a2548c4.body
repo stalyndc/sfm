@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns="http://purl.org/rss/1.0/"
+         xmlns:cc="http://web.resource.org/cc/"
+         xmlns:content="http://purl.org/rss/1.0/modules/content/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:enc="http://purl.oclc.org/net/rss_2.0/enc/"
+         xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/">
+   <channel rdf:about="https://www.science.org/loi/science?af=R">
+      <title>AAAS: Science: Table of Contents</title>
+      <description>Table of Contents for Science. List of articles from both the latest and ahead of print issues.</description>
+      <link>https://www.science.org/loi/science?af=R</link>
+      <dc:publisher>AAAS</dc:publisher>
+      <dc:language>en-US</dc:language>
+      <prism:publicationName>Science</prism:publicationName>
+      <items>
+         <rdf:Seq>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.adz8298?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.aea5217?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.adl2356?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.adp3528?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.ads3004?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.adu7710?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.adv2064?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.adv2132?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.adw6854?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.ady0241?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.ady0247?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.ady1723?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.adv7088?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.adu9828?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.ads1957?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.adr6450?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.ado5609?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.adv4420?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.aec0804?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.aec1443?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.aea7430?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.aea8966?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.aeb2961?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.adn4935?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.adz2859?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.adz6251?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.adz4176?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.aec1765?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.aec1769?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.aec1770?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.aec1768?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.aec1441?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.aec1766?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.aec1767?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.aeb0393?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.aec0488?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.adz7229?af=R"/>
+            <rdf:li rdf:resource="https://www.science.org/doi/abs/10.1126/science.aec1442?af=R"/>
+         </rdf:Seq>
+      </items>
+   </channel>
+   <image rdf:about="https://www.science.org/cms/asset/452bcf50-e9f4-4360-beae-a2ed59281b21/default_cover.png">
+      <title>Science</title>
+      <url>https://www.science.org/cms/asset/452bcf50-e9f4-4360-beae-a2ed59281b21/default_cover.png</url>
+      <link>https://www.science.org/loi/science?af=R</link>
+   </image>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.adz8298?af=R">
+      <title>Restoring trust in science</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.adz8298?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, Page 1095-1095, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, Page 1095-1095, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.adz8298</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T06:00:15Z</dc:date>
+      <dc:type>Books et al.</dc:type>
+      <dc:creator>Megan L. Ranney</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:startingPage>1095</prism:startingPage>
+      <prism:endingPage>1095</prism:endingPage>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.adz8298</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.adz8298?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.aea5217?af=R">
+      <title>Behind the scenes of scientific fraud</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.aea5217?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, Page 1096-1096, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, Page 1096-1096, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.aea5217</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T06:00:15Z</dc:date>
+      <dc:type>Books et al.</dc:type>
+      <dc:creator>Daniele Fanelli</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:startingPage>1096</prism:startingPage>
+      <prism:endingPage>1096</prism:endingPage>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.aea5217</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.aea5217?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.adl2356?af=R">
+      <title>Rapid establishment of species barriers in plants compared with that in animals</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.adl2356?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, Page 1147-1150, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, Page 1147-1150, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.adl2356</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T06:00:15Z</dc:date>
+      <dc:type>Research Article</dc:type>
+      <dc:creator>François Monnet, Zoé Postel, Pascal Touzet, Christelle Fraïsse, Yves Van de Peer, Xavier Vekemans, Camille Roux</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:startingPage>1147</prism:startingPage>
+      <prism:endingPage>1150</prism:endingPage>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.adl2356</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.adl2356?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.adp3528?af=R">
+      <title>Dual-cycle CO2 fixation enhances growth and lipid synthesis in Arabidopsis thaliana</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.adp3528?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.adp3528</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T07:00:00Z</dc:date>
+      <dc:type>Research Article</dc:type>
+      <dc:creator>Kuan-Jen Lu, Chia-Wei Hsu, Wann-Neng Jane, Mien-Hao Peng, Ya-Wen Chou, Pin-Hsuan Huang, Kuo-Chen Yeh, Shu-Hsing Wu, James C. Liao</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.adp3528</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.adp3528?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.ads3004?af=R">
+      <title>Genomic signatures indicate biodiversity loss in an endemic island ant fauna</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.ads3004?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, Page 1133-1136, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, Page 1133-1136, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.ads3004</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T06:00:15Z</dc:date>
+      <dc:type>Research Article</dc:type>
+      <dc:creator>Cong Liu, Eli Sarnat, Jo Ann Tan, Julia Janicki, John Deyrup, Masako Ogasawara, Miquel L. Grau, Lijun Qiu, Francisco Hita Garcia, Georg Fischer, Akanisi Caginitoba, Nitish Narula, Clive T. Darwell, Yasuhiro Kubota, Naomi E. Pierce, Alexander S. Mikheyev, Evan P. Economo</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:startingPage>1133</prism:startingPage>
+      <prism:endingPage>1136</prism:endingPage>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.ads3004</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.ads3004?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.adu7710?af=R">
+      <title>Directly observing replica symmetry breaking in a vector quantum-optical spin glass</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.adu7710?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, Page 1122-1126, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, Page 1122-1126, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.adu7710</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-08-14T05:59:00Z</dc:date>
+      <dc:type>Research Article</dc:type>
+      <dc:creator>Ronen M. Kroeze, Brendan P. Marsh, David Atri Schuller, Henry S. Hunt, Alexander N. Bourzutschky, Michael Winer, Sarang Gopalakrishnan, Jonathan Keeling, Benjamin L. Lev</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:startingPage>1122</prism:startingPage>
+      <prism:endingPage>1126</prism:endingPage>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.adu7710</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.adu7710?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.adv2064?af=R">
+      <title>E. coli transcription factors regulate promoter activity by a universal, homeostatic mechanism</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.adv2064?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.adv2064</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T07:00:00Z</dc:date>
+      <dc:type>Research Article</dc:type>
+      <dc:creator>Vinuselvi Parisutham, Sunil Guharajan, Melina Lian, Md Zulfikar Ali, Hannah Rogers, Shannon Joyce, Mariana Noto Guillen, Robert C. Brewster</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.adv2064</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.adv2064?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.adv2132?af=R">
+      <title>Structure and function of a huge photosystem I–fucoxanthin chlorophyll supercomplex from a coccolithophore</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.adv2132?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.adv2132</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T07:00:00Z</dc:date>
+      <dc:type>Research Article</dc:type>
+      <dc:creator>Lili Shen, Fei Ren, Yin-Chu Wang, Zhenhua Li, Mengyuan Zheng, Xiaoyi Li, Wenzheng Fan, Yanyan Yang, Min Sang, Cheng Liu, Guangye Han, Song Qin, Jianhua Fan, Lijin Tian, Tingyun Kuang, Jian-Ren Shen, Wenda Wang</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.adv2132</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.adv2132?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.adw6854?af=R">
+      <title>Drop-printing with dynamic stress release for conformal wrap of bioelectronic interfaces</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.adw6854?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, Page 1127-1132, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, Page 1127-1132, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.adw6854</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T06:00:15Z</dc:date>
+      <dc:type>Research Article</dc:type>
+      <dc:creator>An Li, Wenjianlong Zhou, Huizeng Li, Wei Fang, Yifei Luo, Zheng Li, Qingrong Zhang, Quan Liu, Qin Xu, Luanluan Xue, Kaixuan Li, Renxuan Yuan, Wanling Liu, Wang Jia, Xiaodong Chen, Yanlin Song</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:startingPage>1127</prism:startingPage>
+      <prism:endingPage>1132</prism:endingPage>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.adw6854</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.adw6854?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.ady0241?af=R">
+      <title>Cryo-EM structure of endogenous Plasmodium falciparum Pfs230 and Pfs48/45 fertilization complex</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.ady0241?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.ady0241</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T07:00:00Z</dc:date>
+      <dc:type>Research Article</dc:type>
+      <dc:creator>Melanie H. Dietrich, Jill Chmielewski, Li-Jin Chan, Li Lynn Tan, Amy Adair, Frankie M. T. Lyons, Mikha Gabriela, Sash Lopaticki, Toby A. Dite, Laura F. Dagley, Lucia Pazzagli, Priya Gupta, Mohd Kamil, Ashley M. Vaughan, Rattanaporn Rojrung, Anju Abraham, Ramin Mazhari, Rhea J. Longley, Kathleen Zeglinski, Quentin Gouil, Ivo Mueller, Stewart A. Fabb, Rekha Shandre-Mugan, Colin W. Pouton, Alisa Glukhova, Shabih Shakeel, Wai-Hong Tham</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.ady0241</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.ady0241?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.ady0247?af=R">
+      <title>A main-group metal carbonyl complex: Structure and isomerization to a carbene-stabilized tin atom</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.ady0247?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, Page 1118-1121, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, Page 1118-1121, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.ady0247</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T06:00:15Z</dc:date>
+      <dc:type>Research Article</dc:type>
+      <dc:creator>Maximilian Dietz, Andrey V. Protchenko, Agamemnon E. Crumpton, Surendar Karwasara, Matthew M. D. Roy, James Stewart-Moreno, Christiane Timmel, Simon Aldridge</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:startingPage>1118</prism:startingPage>
+      <prism:endingPage>1121</prism:endingPage>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.ady0247</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.ady0247?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.ady1723?af=R">
+      <title>Microcanonical kinetics of water-mediated proton transfer in microhydrated 4-aminobenzoic acid</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.ady1723?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, Page 1143-1146, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, Page 1143-1146, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.ady1723</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T06:00:15Z</dc:date>
+      <dc:type>Research Article</dc:type>
+      <dc:creator>Abhijit Rana, Payten A. Harville, Thien Khuu, Mark A. Johnson</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:startingPage>1143</prism:startingPage>
+      <prism:endingPage>1146</prism:endingPage>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.ady1723</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.ady1723?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.adv7088?af=R">
+      <title>Structural basis for LZTR1 recognition of RAS GTPases for degradation</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.adv7088?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, Page 1112-1117, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, Page 1112-1117, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.adv7088</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T06:00:15Z</dc:date>
+      <dc:type>Research Article</dc:type>
+      <dc:creator>Srisathiyanarayanan Dharmaiah, Daniel A. Bonsor, Stephanie P. Mo, Alvaro Fernandez-Cabrera, Albert H. Chan, Simon Messing, Matthew Drew, Martha Vega, Dwight V. Nissley, Dominic Esposito, Pau Castel, Dhirendra K. Simanshu</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:startingPage>1112</prism:startingPage>
+      <prism:endingPage>1117</prism:endingPage>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.adv7088</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.adv7088?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.adu9828?af=R">
+      <title>Visual objects refine head direction coding</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.adu9828?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.adu9828</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T07:00:00Z</dc:date>
+      <dc:type>Research Article</dc:type>
+      <dc:creator>Dominique Siegenthaler, Henry Denny, Sofía Skromne Carrasco, Johanna Luise Mayer, Daniel Levenstein, Adrien Peyrache, Stuart Trenholm, Émilie Macé</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.adu9828</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.adu9828?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.ads1957?af=R">
+      <title>Fire heat affects the impacts of wildfires on air pollution in the United States</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.ads1957?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, Page 1137-1142, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, Page 1137-1142, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.ads1957</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T06:00:15Z</dc:date>
+      <dc:type>Research Article</dc:type>
+      <dc:creator>Qihan Ma, Linyi Wei, Yong Wang, Guang J. Zhang, Xinlin Zhou, Bin Wang</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:startingPage>1137</prism:startingPage>
+      <prism:endingPage>1142</prism:endingPage>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.ads1957</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.ads1957?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.adr6450?af=R">
+      <title>Fragmentation increased in over half of global forests from 2000 to 2020</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.adr6450?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, Page 1151-1156, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, Page 1151-1156, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.adr6450</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T06:00:15Z</dc:date>
+      <dc:type>Research Article</dc:type>
+      <dc:creator>Yibiao Zou, Thomas W. Crowther, Gabriel Reuben Smith, Haozhi Ma, Lidong Mo, Lalasia Bialic-Murphy, Peter Potapov, Klementyna A. Gawecka, Chi Xu, Pablo J. Negret, Thomas Lauber, Zhaofei Wu, Dominic Rebindaine, Constantin M. Zohner</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:startingPage>1151</prism:startingPage>
+      <prism:endingPage>1156</prism:endingPage>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.adr6450</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.adr6450?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.ado5609?af=R">
+      <title>Oxytocin signaling regulates maternally directed behavior during early life</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.ado5609?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.ado5609</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T07:00:00Z</dc:date>
+      <dc:type>Research Article</dc:type>
+      <dc:creator>Daniel D. Zelmanoff, Rebecca Bornstein, Menachem Kaufman, Julien Dine, 
+
+
+Jonas Wietek, Anna Litvin, Shaked Abraham, Savanna Cohen, Ayelet Atzmon, Ido Porat, Ofer Yizhar</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.ado5609</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.ado5609?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.adv4420?af=R">
+      <title>Noncanonical circuits, states, and computations of the hippocampus</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.adv4420?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.adv4420</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T07:00:00Z</dc:date>
+      <dc:type>Review</dc:type>
+      <dc:creator>Jordan S. Farrell and Ivan Soltesz</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.adv4420</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.adv4420?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.aec0804?af=R">
+      <title>My lucky detour</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.aec0804?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, Page 1158-1158, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, Page 1158-1158, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.aec0804</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T06:00:15Z</dc:date>
+      <dc:type>Working Life</dc:type>
+      <dc:creator>Henry C. Henson</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:startingPage>1158</prism:startingPage>
+      <prism:endingPage>1158</prism:endingPage>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.aec0804</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.aec0804?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.aec1443?af=R">
+      <title>In Other Journals</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.aec1443?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, Page 1105-1105, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, Page 1105-1105, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.aec1443</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T06:00:15Z</dc:date>
+      <dc:type>Research Highlights</dc:type>
+      <dc:creator>Corinne Simonti, and Jesse Smith, L. Bryan Ray, Sacha Vignieri, Jesse Smith, Madeleine Seale, Brad Wible, Di Jiang, and Jelena Stajic</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:startingPage>1105</prism:startingPage>
+      <prism:endingPage>1105</prism:endingPage>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.aec1443</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.aec1443?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.aea7430?af=R">
+      <title>Burning questions on wildfire</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.aea7430?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, Page 1086-1087, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, Page 1086-1087, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.aea7430</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T06:00:15Z</dc:date>
+      <dc:type>Perspective</dc:type>
+      <dc:creator>Yun Qian</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:startingPage>1086</prism:startingPage>
+      <prism:endingPage>1087</prism:endingPage>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.aea7430</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.aea7430?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.aea8966?af=R">
+      <title>Cries into ties</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.aea8966?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, Page 1088-1089, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, Page 1088-1089, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.aea8966</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T06:00:15Z</dc:date>
+      <dc:type>Perspective</dc:type>
+      <dc:creator>Camilla Bellone</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:startingPage>1088</prism:startingPage>
+      <prism:endingPage>1089</prism:endingPage>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.aea8966</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.aea8966?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.aeb2961?af=R">
+      <title>Gene flow stops sooner in plants than in animals</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.aeb2961?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, Page 1087-1088, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, Page 1087-1088, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.aeb2961</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T06:00:15Z</dc:date>
+      <dc:type>Perspective</dc:type>
+      <dc:creator>Yaniv Brandvain</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:startingPage>1087</prism:startingPage>
+      <prism:endingPage>1088</prism:endingPage>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.aeb2961</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.aeb2961?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.adn4935?af=R">
+      <title>Illusions of AI consciousness</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.adn4935?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, Page 1090-1091, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, Page 1090-1091, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.adn4935</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T06:00:15Z</dc:date>
+      <dc:type>Perspective</dc:type>
+      <dc:creator>Yoshua Bengio, and Eric Elmoznino</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:startingPage>1090</prism:startingPage>
+      <prism:endingPage>1091</prism:endingPage>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.adn4935</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.adn4935?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.adz2859?af=R">
+      <title>Safe food: A human right amid climate change</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.adz2859?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, Page 1099-1099, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, Page 1099-1099, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.adz2859</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T06:00:15Z</dc:date>
+      <dc:type>Letter</dc:type>
+      <dc:creator>Christopher J. Knight, Theresa L. U. Burnham, Larry B. Crowder, Jacob G. Eurich, Nicole Franz, Christopher D. Golden, and Fiorenza Micheli</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:startingPage>1099</prism:startingPage>
+      <prism:endingPage>1099</prism:endingPage>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.adz2859</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.adz2859?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.adz6251?af=R">
+      <title>Bolivia must prioritize biodiversity</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.adz6251?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, Page 1098-1098, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, Page 1098-1098, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.adz6251</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T06:00:15Z</dc:date>
+      <dc:type>Letter</dc:type>
+      <dc:creator>Oswaldo Maillard</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:startingPage>1098</prism:startingPage>
+      <prism:endingPage>1098</prism:endingPage>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.adz6251</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.adz6251?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.adz4176?af=R">
+      <title>Include scorpions in global conservation plans</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.adz4176?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, Page 1099-1100, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, Page 1099-1100, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.adz4176</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T06:00:15Z</dc:date>
+      <dc:type>Letter</dc:type>
+      <dc:creator>Javier Blasco-Aróstegui, Jairo A. Moreno-González, Stephanie F. Loria, Leonardo S. Carvalho, Tharina L. Bird, Ahn D. Nguyen, Hossein Barahoei, Charles R. Haddad, and Lorenzo Prendini</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:startingPage>1099</prism:startingPage>
+      <prism:endingPage>1100</prism:endingPage>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.adz4176</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.adz4176?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.aec1765?af=R">
+      <title>Mosquito-borne viruses surge in a warming Europe</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.aec1765?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, Page 1072-1073, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, Page 1072-1073, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.aec1765</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T06:00:15Z</dc:date>
+      <dc:type>In Depth</dc:type>
+      <dc:creator>Meredith Wadman</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:startingPage>1072</prism:startingPage>
+      <prism:endingPage>1073</prism:endingPage>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.aec1765</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.aec1765?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.aec1769?af=R">
+      <title>Strongest black hole collision yet resonates with Einstein</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.aec1769?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, Page 1078-1079, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, Page 1078-1079, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.aec1769</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T06:00:15Z</dc:date>
+      <dc:type>In Depth</dc:type>
+      <dc:creator>Adrian Cho</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:startingPage>1078</prism:startingPage>
+      <prism:endingPage>1079</prism:endingPage>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.aec1769</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.aec1769?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.aec1770?af=R">
+      <title>Harvard court victory leaves scientists feeling vindicated but uncertain</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.aec1770?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, Page 1080-1080, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, Page 1080-1080, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.aec1770</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T06:00:15Z</dc:date>
+      <dc:type>In Depth</dc:type>
+      <dc:creator>Phie Jacobs</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:startingPage>1080</prism:startingPage>
+      <prism:endingPage>1080</prism:endingPage>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.aec1770</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.aec1770?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.aec1768?af=R">
+      <title>Did Great Britain’s economy shrug off the end of Roman rule?</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.aec1768?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, Page 1077-1078, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, Page 1077-1078, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.aec1768</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T06:00:15Z</dc:date>
+      <dc:type>In Depth</dc:type>
+      <dc:creator>Ann Gibbons</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:startingPage>1077</prism:startingPage>
+      <prism:endingPage>1078</prism:endingPage>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.aec1768</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.aec1768?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.aec1441?af=R">
+      <title>In the loop</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.aec1441?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, Page 1081-1085, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, Page 1081-1085, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.aec1441</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T06:00:15Z</dc:date>
+      <dc:type>Feature</dc:type>
+      <dc:creator>Elie Dolgin</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:startingPage>1081</prism:startingPage>
+      <prism:endingPage>1085</prism:endingPage>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.aec1441</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.aec1441?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.aec1766?af=R">
+      <title>New picture of Mars’s interior emerges from lander data</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.aec1766?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, Page 1074-1075, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, Page 1074-1075, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.aec1766</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T06:00:15Z</dc:date>
+      <dc:type>In Depth</dc:type>
+      <dc:creator>Paul Voosen</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:startingPage>1074</prism:startingPage>
+      <prism:endingPage>1075</prism:endingPage>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.aec1766</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.aec1766?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.aec1767?af=R">
+      <title>Florida plan to nix vaccine mandates raises alarm</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.aec1767?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, Page 1075-1076, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, Page 1075-1076, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.aec1767</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T06:00:15Z</dc:date>
+      <dc:type>In Depth</dc:type>
+      <dc:creator>Jon Cohen</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:startingPage>1075</prism:startingPage>
+      <prism:endingPage>1076</prism:endingPage>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.aec1767</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.aec1767?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.aeb0393?af=R">
+      <title>An ELSI for AI: Learning from genetics to govern algorithms</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.aeb0393?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.aeb0393</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T07:00:00Z</dc:date>
+      <dc:type>Expert Voices</dc:type>
+      <dc:creator>Alondra Nelson</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.aeb0393</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.aeb0393?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.aec0488?af=R">
+      <title>Unburden American science</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.aec0488?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, Page 1071-1071, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, Page 1071-1071, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.aec0488</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T06:00:15Z</dc:date>
+      <dc:type>Editorial</dc:type>
+      <dc:creator>Alan I. Leshner and Alex M. Helman</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:startingPage>1071</prism:startingPage>
+      <prism:endingPage>1071</prism:endingPage>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.aec0488</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.aec0488?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.adz7229?af=R">
+      <title>The precarious future of consumer genetic privacy</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.adz7229?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, Page 1092-1094, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, Page 1092-1094, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.adz7229</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T06:00:15Z</dc:date>
+      <dc:type>Policy Forum</dc:type>
+      <dc:creator>Natalie Ram, Anya E. R. Prince, Jessica L. Roberts, Dov Fox, and Kayte Spector-Bagdady</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:startingPage>1092</prism:startingPage>
+      <prism:endingPage>1094</prism:endingPage>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.adz7229</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.adz7229?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+   <item rdf:about="https://www.science.org/doi/abs/10.1126/science.aec1442?af=R">
+      <title>In Science Journals</title>
+      <link>https://www.science.org/doi/abs/10.1126/science.aec1442?af=R</link>
+      <content:encoded>Science, &lt;a href="https://www.science.org/toc/science/389/6765"&gt;Volume 389, Issue 6765&lt;/a&gt;, Page 1103-1105, September 2025. &lt;br/&gt;</content:encoded>
+      <description>Science, Volume 389, Issue 6765, Page 1103-1105, September 2025. &lt;br/&gt;</description>
+      <dc:identifier>doi:10.1126/science.aec1442</dc:identifier>
+      <dc:source>Science</dc:source>
+      <dc:date>2025-09-11T06:00:15Z</dc:date>
+      <dc:type>Research Highlights</dc:type>
+      <dc:creator>Michael Funk, and Bianca Lopez, L. Bryan Ray, Brandon Berry, Jake S. Yeston, Jelena Stajic, Colleen McBride, Marc S. Lavine, Sacha Vignieri, Mattia Maroso, Stella M. Hurtley, Madeleine Seale, Di Jiang, Peter Stern, Jesse Smith, Corinne Simonti, Leslie Ferrarelli, Yi Yin, and Claire Olingy</dc:creator>
+      <prism:publicationName>Science</prism:publicationName>
+      <prism:volume>389</prism:volume>
+      <prism:number>6765</prism:number>
+      <prism:startingPage>1103</prism:startingPage>
+      <prism:endingPage>1105</prism:endingPage>
+      <prism:coverDate>2025-09-11T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2025-09-11T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1126/science.aec1442</prism:doi>
+      <prism:url>https://www.science.org/doi/abs/10.1126/science.aec1442?af=R</prism:url>
+      <prism:copyright/>
+   </item>
+</rdf:RDF>

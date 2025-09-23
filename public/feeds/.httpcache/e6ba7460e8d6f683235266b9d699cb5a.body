@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>rachelbythebay</title>
+<link rel="stylesheet" type="text/css" href="main.css">
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+</head>
+<body>
+<div class="translucent">
+<div class="contents">
+<h1>rachelbythebay</h1>
+
+<ul>
+<li><a href="/w/">Writing</a> - Almost 1500 posts on software, technology, sysadmin war stories, and more.
+<li><a href="/frb/">Feed Reader Behavior project</a> - Be a good netizen: things to do and things to avoid.
+<li><a href="/store/#bozoloop">The Bozo Loop</a> - catch up on the /w/ posts from 2011 in convenient eBook form.  No DRM!
+<li><a href="/store/">The Stupid Hour</a> - the /w/ collection for 2012.  Also no DRM, of course!
+<li><a href="https://scanner.rachelbythebay.com/">Super Trunking Scanner</a> - Parallel scanning with Software Defined Radio (2011-2016).
+<li><a href="/bb/">A different approach to building C++ projects</a> - life after Makefiles.
+<li><a href="/protolog/">protolog</a> - Apache httpd binary logging in Protocol Buffer format.
+<li><a href="/fun/">fun</a> - Assorted ways to waste CPU time and bandwidth.
+<!-- <li><a href="/go/">Go</a> - Short, memorable links for your Intranet. -->
+<!-- <li><a href="/gone/">Gone</a> -->
+</ul>
+
+<p>
+Not finding what you need?  <a href="/contact/">Send me a note instead</a>.
+</p>
+
+</div>
+</div>
+
+<a href="http://rachelbythebay.com/__null__" rel="nofollow"></a>
+
+</body>
+</html>

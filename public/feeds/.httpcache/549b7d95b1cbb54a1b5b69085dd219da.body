@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <title>
+    A Random Walk Through Geek-Space
+  </title>
+
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="generator" content="Hugo 0.30.2" />
+
+  <meta property="og:title" content="A Random Walk Through Geek-Space" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:url" content="https://www.sebastiansylvan.com/" />
+
+
+  
+ <link rel="stylesheet" href="https://www.sebastiansylvan.com/css/combinedcss_full.css">
+
+  
+  <link rel="shortcut icon" href="/favicon.png">
+
+    
+  <link href=" https://www.sebastiansylvan.com/index.xml " rel="alternate" type="application/rss+xml" title="A Random Walk Through Geek-Space" />
+ 
+  
+  
+
+</head>
+
+<body>
+    <div id="layout" class="pure-g">
+        <div class="sidebar pure-u-1 pure-u-md-1-4">
+  <div class="header">
+    
+
+	
+	  <img src="/img/swedishchef.jpg" class="sidebarphoto">
+	
+
+    <h1 class="brand-title">A Random Walk Through Geek-Space</h1>
+    <h2 class="brand-tagline">Brain dumps and other ramblings from Sebastian Sylvan</h2>
+
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><span class="nav-item-separator">//</span><a href="https://www.sebastiansylvan.com">Home</a></li>
+        <li class="nav-item"><span class="nav-item-separator">//</span><a href="https://www.sebastiansylvan.com/about">About</a></li>
+      </ul>
+    </nav>
+    
+   <div class="social-buttons"> 
+    <a href="/index.xml" target="_blank">
+        <div style="display:inline-block; width:20px; height: 20px; background-size:20px 20px; background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik01NzYgMTM0NHEwIDgwLTU2IDEzNnQtMTM2IDU2LTEzNi01Ni01Ni0xMzYgNTYtMTM2IDEzNi01NiAxMzYgNTYgNTYgMTM2em01MTIgMTIzcTIgMjgtMTcgNDgtMTggMjEtNDcgMjFoLTEzNXEtMjUgMC00My0xNi41dC0yMC00MS41cS0yMi0yMjktMTg0LjUtMzkxLjV0LTM5MS41LTE4NC41cS0yNS0yLTQxLjUtMjB0LTE2LjUtNDN2LTEzNXEwLTI5IDIxLTQ3IDE3LTE3IDQzLTE3aDVxMTYwIDEzIDMwNiA4MC41dDI1OSAxODEuNXExMTQgMTEzIDE4MS41IDI1OXQ4MC41IDMwNnptNTEyIDJxMiAyNy0xOCA0Ny0xOCAyMC00NiAyMGgtMTQzcS0yNiAwLTQ0LjUtMTcuNXQtMTkuNS00Mi41cS0xMi0yMTUtMTAxLTQwOC41dC0yMzEuNS0zMzYtMzM2LTIzMS41LTQwOC41LTEwMnEtMjUtMS00Mi41LTE5LjV0LTE3LjUtNDMuNXYtMTQzcTAtMjggMjAtNDYgMTgtMTggNDQtMThoM3EyNjIgMTMgNTAxLjUgMTIwdDQyNS41IDI5NHExODcgMTg2IDI5NCA0MjUuNXQxMjAgNTAxLjV6IiBmaWxsPSJ3aGl0ZSIvPjwvc3ZnPg==);" ></div></a>
+    <a href="http://www.twitter.com/ssylvan" target="_blank">
+        <div style="display:inline-block; width:20px; height: 20px; background-size:20px 20px; 	background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xNjg0IDQwOHEtNjcgOTgtMTYyIDE2NyAxIDE0IDEgNDIgMCAxMzAtMzggMjU5LjV0LTExNS41IDI0OC41LTE4NC41IDIxMC41LTI1OCAxNDYtMzIzIDU0LjVxLTI3MSAwLTQ5Ni0xNDUgMzUgNCA3OCA0IDIyNSAwIDQwMS0xMzgtMTA1LTItMTg4LTY0LjV0LTExNC0xNTkuNXEzMyA1IDYxIDUgNDMgMCA4NS0xMS0xMTItMjMtMTg1LjUtMTExLjV0LTczLjUtMjA1LjV2LTRxNjggMzggMTQ2IDQxLTY2LTQ0LTEwNS0xMTV0LTM5LTE1NHEwLTg4IDQ0LTE2MyAxMjEgMTQ5IDI5NC41IDIzOC41dDM3MS41IDk5LjVxLTgtMzgtOC03NCAwLTEzNCA5NC41LTIyOC41dDIyOC41LTk0LjVxMTQwIDAgMjM2IDEwMiAxMDktMjEgMjA1LTc4LTM3IDExNS0xNDIgMTc4IDkzLTEwIDE4Ni01MHoiIGZpbGw9IndoaXRlIi8+PC9zdmc+);" ></div></a>
+	<a href="mailto:sebastian.sylvan@gmail.com" target="_blank">
+        <div style="display:inline-block; width:20px; height: 20px; background-size:20px 20px; background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xNzkyIDcxMHY3OTRxMCA2Ni00NyAxMTN0LTExMyA0N2gtMTQ3MnEtNjYgMC0xMTMtNDd0LTQ3LTExM3YtNzk0cTQ0IDQ5IDEwMSA4NyAzNjIgMjQ2IDQ5NyAzNDUgNTcgNDIgOTIuNSA2NS41dDk0LjUgNDggMTEwIDI0LjVoMnE1MSAwIDExMC0yNC41dDk0LjUtNDggOTIuNS02NS41cTE3MC0xMjMgNDk4LTM0NSA1Ny0zOSAxMDAtODd6bTAtMjk0cTAgNzktNDkgMTUxdC0xMjIgMTIzcS0zNzYgMjYxLTQ2OCAzMjUtMTAgNy00Mi41IDMwLjV0LTU0IDM4LTUyIDMyLjUtNTcuNSAyNy01MCA5aC0ycS0yMyAwLTUwLTl0LTU3LjUtMjctNTItMzIuNS01NC0zOC00Mi41LTMwLjVxLTkxLTY0LTI2Mi0xODIuNXQtMjA1LTE0Mi41cS02Mi00Mi0xMTctMTE1LjV0LTU1LTEzNi41cTAtNzggNDEuNS0xMzB0MTE4LjUtNTJoMTQ3MnE2NSAwIDExMi41IDQ3dDQ3LjUgMTEzeiIgZmlsbD0id2hpdGUiLz48L3N2Zz4=);" ></div></a>
+    </div>  
+  </div>
+</div>
+
+
+        <div class="content pure-u-1 pure-u-md-3-4">
+            <a name="top"></a>
+            
+
+          <div class="posts">
+            
+			
+			
+		
+			
+            
+            <section  class="post">
+                <header class="post-header">
+                    
+                    <h1 class="post-title">
+                      <a href="/post/header_hygiene/">Header Hygiene</a>
+                  </h1>
+              </header>
+              <p class="post-meta">
+                  
+                  <span class="post-date">
+                    <span class="post-date-day"><sup>25</sup></span><span class="post-date-separator">/</span><span class="post-date-month">May</span> <span class="post-date-year">2022</span>
+                </span>
+                
+                
+                    
+                
+                
+                    <span class="post-reading-time"><i class="fa fa-clock-o"></i> <em>3 min. read</em></span>
+                
+                
+            </p>
+            <article class="post-summary">
+                  Quick note on one approach for maintaining fast compile times, inspired by Sebastian Aaltonen&rsquo;s tweet here.
+This is something that we used to do at Rare when I was there ages ago. It&rsquo;s been a long time so I may be misrepresenting it, and it wasn&rsquo;t rigidly followed even then, but I always thought it was a good idea.
+The key point is to split the header for a .cpp file into two headers.
+              </article>
+              <div class="read-more-link">
+                  <a href="/post/header_hygiene/"><span class="read-more-slashes">//</span>Read More...</a>
+              </div>
+          </section>
+          
+            <section  class="post">
+                <header class="post-header">
+                    
+                    <h1 class="post-title">
+                      <a href="/post/sudoku/">A Fast Sudoku Solver</a>
+                  </h1>
+              </header>
+              <p class="post-meta">
+                  
+                  <span class="post-date">
+                    <span class="post-date-day"><sup>16</sup></span><span class="post-date-separator">/</span><span class="post-date-month">Aug</span> <span class="post-date-year">2018</span>
+                </span>
+                
+                
+                    
+                
+                
+                    <span class="post-reading-time"><i class="fa fa-clock-o"></i> <em>11 min. read</em></span>
+                
+                
+            </p>
+            <article class="post-summary">
+                  Everyone has to write a Sudoku solver! A few months back I was in an hotel room at 4 am in the morning when the thermostat inexplicably decided to heat my room to 90 degrees Fahrenheit. That woke me up, and since I had nothing to do for a few hours I decided to write a Sudoku solver (because everyone has to write one).
+I hadn&rsquo;t thought about it since then, until I ran across this post on reddit and decided to run the same puzzles through my solver and see how it did.
+              </article>
+              <div class="read-more-link">
+                  <a href="/post/sudoku/"><span class="read-more-slashes">//</span>Read More...</a>
+              </div>
+          </section>
+          
+            <section  class="post">
+                <header class="post-header">
+                    
+                    <h1 class="post-title">
+                      <a href="/post/light_culling/">Thoughts on light culling for clustered shading</a>
+                  </h1>
+              </header>
+              <p class="post-meta">
+                  
+                  <span class="post-date">
+                    <span class="post-date-day"><sup>5</sup></span><span class="post-date-separator">/</span><span class="post-date-month">Dec</span> <span class="post-date-year">2017</span>
+                </span>
+                
+                
+                    
+                
+                
+                    <span class="post-reading-time"><i class="fa fa-clock-o"></i> <em>8 min. read</em></span>
+                
+                
+            </p>
+            <article class="post-summary">
+                  A while back I came across the presentation Improved Culling for Tiled and Clustered Shading by Michal Drobot and it&rsquo;s really clever. It inspired a bunch of thoughts that I&rsquo;ve been meaning to try out but since it&rsquo;s now several months later and I still haven&rsquo;t got around to it, I figured I&rsquo;d just jot down some notes here instead (in other words: Caution, untested braindumps ahead!).
+Review First, let&rsquo;s review the basic idea.
+              </article>
+              <div class="read-more-link">
+                  <a href="/post/light_culling/"><span class="read-more-slashes">//</span>Read More...</a>
+              </div>
+          </section>
+          
+            <section  class="post">
+                <header class="post-header">
+                    
+                    <h1 class="post-title">
+                      <a href="/post/matrix_naming_convention/">Naming Convention for Matrix Math</a>
+                  </h1>
+              </header>
+              <p class="post-meta">
+                  
+                  <span class="post-date">
+                    <span class="post-date-day"><sup>27</sup></span><span class="post-date-separator">/</span><span class="post-date-month">Jul</span> <span class="post-date-year">2017</span>
+                </span>
+                
+                
+                    
+                
+                
+                    <span class="post-reading-time"><i class="fa fa-clock-o"></i> <em>4 min. read</em></span>
+                
+                
+            </p>
+            <article class="post-summary">
+                  There&rsquo;s a fairly common naming convention for matrix math which makes most of the matrix math used in games as simple as slotting together Legos. This is by far the biggest bang-for-buck coding convention I know of. Ever randomly inverted a matrix or swapped the order of a matrix multiply until things look right? Yeah no, you never have to do that again. This really should be taught in graphics programming 101 because it pretty much eliminates all matrix transform headaches.
+              </article>
+              <div class="read-more-link">
+                  <a href="/post/matrix_naming_convention/"><span class="read-more-slashes">//</span>Read More...</a>
+              </div>
+          </section>
+          
+            <section  class="post">
+                <header class="post-header">
+                    
+                    <h1 class="post-title">
+                      <a href="/post/importancesampling/">Efficient Weighted Sampling</a>
+                  </h1>
+              </header>
+              <p class="post-meta">
+                  
+                  <span class="post-date">
+                    <span class="post-date-day"><sup>28</sup></span><span class="post-date-separator">/</span><span class="post-date-month">Jan</span> <span class="post-date-year">2017</span>
+                </span>
+                
+                
+                    
+                
+                
+                    <span class="post-reading-time"><i class="fa fa-clock-o"></i> <em>5 min. read</em></span>
+                
+                
+            </p>
+            <article class="post-summary">
+                  <p>Here&rsquo;s a really simple and cheap way to do importance sampling that I came across a few months ago (while learning about <a href="https://en.wikipedia.org/wiki/Particle_filter">particle filters</a>, incicentally). It&rsquo;s simple enough that I have no idea how I went so long without ever knowing about it! In case anyone else is in the same boat - let me walk you through it. </p>
+              </article>
+              <div class="read-more-link">
+                  <a href="/post/importancesampling/"><span class="read-more-slashes">//</span>Read More...</a>
+              </div>
+          </section>
+          
+            <section  class="post">
+                <header class="post-header">
+                    
+                    <h1 class="post-title">
+                      <a href="/post/robustestimation/">Robust estimation</a>
+                  </h1>
+              </header>
+              <p class="post-meta">
+                  
+                  <span class="post-date">
+                    <span class="post-date-day"><sup>10</sup></span><span class="post-date-separator">/</span><span class="post-date-month">Aug</span> <span class="post-date-year">2016</span>
+                </span>
+                
+                
+                    
+                
+                
+                    <span class="post-reading-time"><i class="fa fa-clock-o"></i> <em>9 min. read</em></span>
+                
+                
+            </p>
+            <article class="post-summary">
+                  Least squares optimization is a super useful technique, and indeed I&rsquo;ve used it twice on this blog before.
+However, it has a major down side - it&rsquo;s very susceptible to pollution by outliers. In one of my previous posts using least squares optimization I used a technique called RANSAC to deal with outliers, today I want to talk about a different approach.
+The issue with least squares First, let&rsquo;s recap the issue with least squares by working through a simple example.
+              </article>
+              <div class="read-more-link">
+                  <a href="/post/robustestimation/"><span class="read-more-slashes">//</span>Read More...</a>
+              </div>
+          </section>
+          
+            <section  class="post">
+                <header class="post-header">
+                    
+                    <h1 class="post-title">
+                      <a href="/post/GCWithoutUniformRepr/">Doing Garbage Collection Without Requiring Uniform Representation</a>
+                  </h1>
+              </header>
+              <p class="post-meta">
+                  
+                  <span class="post-date">
+                    <span class="post-date-day"><sup>6</sup></span><span class="post-date-separator">/</span><span class="post-date-month">Jul</span> <span class="post-date-year">2016</span>
+                </span>
+                
+                
+                    
+                
+                
+                    <span class="post-reading-time"><i class="fa fa-clock-o"></i> <em>7 min. read</em></span>
+                
+                
+            </p>
+            <article class="post-summary">
+                  After some discussion on reddit recently the issue of uniform representation came up, and how it&rsquo;s seemingly necessary to do GC, and what problems it causes. While I&rsquo;m 99% sure I didn&rsquo;t invent any of this, I can&rsquo;t seem to find it while searching so I&rsquo;ll just write down a quite note about how to do GC without enfocing uniform representation of objects.
+Uniform representation So what is uniform representation?
+              </article>
+              <div class="read-more-link">
+                  <a href="/post/GCWithoutUniformRepr/"><span class="read-more-slashes">//</span>Read More...</a>
+              </div>
+          </section>
+          
+            <section  class="post">
+                <header class="post-header">
+                    
+                    <h1 class="post-title">
+                      <a href="/post/trackingspheres/">Tracking spheres in images (aka Let&#39;s Build a Half-Assed Playstation Move tracker!)</a>
+                  </h1>
+              </header>
+              <p class="post-meta">
+                  
+                  <span class="post-date">
+                    <span class="post-date-day"><sup>22</sup></span><span class="post-date-separator">/</span><span class="post-date-month">May</span> <span class="post-date-year">2016</span>
+                </span>
+                
+                
+                    
+                
+                
+                    <span class="post-reading-time"><i class="fa fa-clock-o"></i> <em>18 min. read</em></span>
+                
+                
+            </p>
+            <article class="post-summary">
+                  For fun, I decided to write basically a Playstation Move tracker. The idea is that you have some kind of glowing sphere with a known radius, take a picture of it with a camera, and infer where it is in 3D space. I bought these glowy balls since I don&rsquo;t actually own a Playstation Move controller.
+I ended up having some issues with my camera (possibly caused by running an internal windows build!
+              </article>
+              <div class="read-more-link">
+                  <a href="/post/trackingspheres/"><span class="read-more-slashes">//</span>Read More...</a>
+              </div>
+          </section>
+          
+            <section  class="post">
+                <header class="post-header">
+                    
+                    <h1 class="post-title">
+                      <a href="/post/usingauto/">On using &#39;auto&#39; and &#39;var&#39;</a>
+                  </h1>
+              </header>
+              <p class="post-meta">
+                  
+                  <span class="post-date">
+                    <span class="post-date-day"><sup>17</sup></span><span class="post-date-separator">/</span><span class="post-date-month">Mar</span> <span class="post-date-year">2016</span>
+                </span>
+                
+                
+                    
+                
+                
+                    <span class="post-reading-time"><i class="fa fa-clock-o"></i> <em>3 min. read</em></span>
+                
+                
+            </p>
+            <article class="post-summary">
+                  Programmers love to argue about coding standards, and one of the most contentious points is whether or not it should be allowed to use the equivalen to the &ldquo;auto&rdquo; keyword in C++ (in C# it&rsquo;s called &ldquo;var&rdquo;, other language shave similar things). This is a keyword that does simple type propagation and lets you name a value without explicitly giving its type.
+I don&rsquo;t actually care all that much about coding standards, but this one bugs me because it seems to me that the main argument against allowing &ldquo;auto&rdquo; is a very transparent post-hoc justifications for &ldquo;It&rsquo;s unfamiliar to me, therefore bad&rdquo;.
+              </article>
+              <div class="read-more-link">
+                  <a href="/post/usingauto/"><span class="read-more-slashes">//</span>Read More...</a>
+              </div>
+          </section>
+          
+            <section  class="post">
+                <header class="post-header">
+                    
+                    <h1 class="post-title">
+                      <a href="/post/scalarsseintrinsics/">Using SSE intrinsics to optimize scalar code</a>
+                  </h1>
+              </header>
+              <p class="post-meta">
+                  
+                  <span class="post-date">
+                    <span class="post-date-day"><sup>23</sup></span><span class="post-date-separator">/</span><span class="post-date-month">Feb</span> <span class="post-date-year">2016</span>
+                </span>
+                
+                
+                    
+                
+                
+                    <span class="post-reading-time"><i class="fa fa-clock-o"></i> <em>3 min. read</em></span>
+                
+                
+            </p>
+            <article class="post-summary">
+                  Just a quick note on optimizing scalar code using approximate SSE instructions. Now, first off let me just say that it&rsquo;s rarely useful to micro-optimize scalar code (e.g. implementing Vector3 addition using SSE is probably a net loss, or at least wasted effort). If you really want to go fast, what you need to do is find hotspots which operates on a lot of data in a loop and turning that whole thing into SSE code.
+              </article>
+              <div class="read-more-link">
+                  <a href="/post/scalarsseintrinsics/"><span class="read-more-slashes">//</span>Read More...</a>
+              </div>
+          </section>
+          
+        </div>
+
+		<center>
+		<nav class="pagination" role="navigation">
+		
+			<br/><br/>
+		
+		
+		  <span style="font-size:0.8rem;">Page 1 of 4</span>
+		
+		<a style="font-size:0.8rem;" href="/page/2/">Older Posts <span aria-hidden="true">&raquo;</span></a>
+		
+		</nav>
+		</center>
+
+        <div class="footer">
+	<hr class="thin" />
+
+
+	<p>&copy; 2022. All rights reserved.</p>
+</div>
+
+
+
+
+
+		
+        </div>
+    </div>
+    
+</body>
+</html>

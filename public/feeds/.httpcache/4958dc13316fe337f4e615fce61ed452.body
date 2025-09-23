@@ -1,0 +1,895 @@
+ <!DOCTYPE html> <html lang="en"> <head> <!-- meta starts --> <meta charset="utf-8" /> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=Edge"> <title>
+	News, opinion and blogs | Murdoch University
+</title> <!-- meta ends --> <!-- stylesheet starts --> <link href="/ResourcePackages/Murdoch2021/assets/dist/css/styles.min.css?v=B%2fh4Zb7sHLca%2flIvvv6Q%2fQ%3d%3d" rel="stylesheet" type="text/css" /> <!-- stylesheet ends --> <!-- header script starts -->  <script src="https://kit.fontawesome.com/c3caf2885e.js" crossorigin="anonymous"></script> <!-- header script ends --> <meta property="og:title" content="News, opinion and blogs | Murdoch University" /><meta property="og:description" content="Stay updated with the latest stories, research breakthroughs, and opinion pieces. " /><meta property="og:url" content="https://www.murdoch.edu.au/news" /><meta property="og:type" content="website" /><meta property="og:site_name" content="News Portal" /><style type="text/css" media="all">.main-nav img {
+  max-height: 100%;
+}</style><style type="text/css" media="all">.affiliated-logo:empty {
+  margin-bottom: 3rem;
+}
+
+.hero-carousel .carousel-item__cta {
+  justify-content: left;
+}</style><script type="text/javascript">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5FGW9L5');
+</script><script type="text/javascript">
+var url = window.location.href;
+var result;
+
+if(url.match("course/"))
+    result = 1;
+else if(url.match("scholarship/"))
+    result = 2;
+
+window.dataLayer = window.dataLayer || [];
+
+switch(result) {
+    case 1:
+        var Cname = document.querySelector('meta[name="course_name"]').content;
+        var Ccode = document.querySelector('meta[name="course_code"]').content;
+        var Sarea = document.querySelector('meta[name="course_study_area"]').content;
+        var Slevel = document.querySelector('meta[name="course_study_level"]').content;
+        var Smode = document.querySelector('meta[name="course_study_mode"]').content;
+        var Ctype = document.querySelector('meta[name="curriculum_item_type"]').content;
+
+        dataLayer.push ({
+            'event': 'cdl_page-navigate',
+            'page' : {
+                'destinationUrl' : document.documentURI,
+                'referringUrl': document.referrer
+            },
+            'study' : {
+                'courseType' : Ctype,
+                'courseName' : Cname,
+                'courseCode': Ccode,
+                'studyArea' : Sarea,
+                'studyLevel': Slevel,
+                'studyMode' : Smode
+            },
+            'user': {
+                'authState': 'unauth'
+            },
+            'debug': {
+                'environment': 'production',
+                'platform': 'Sitefinity'
+            }
+        });
+        break;
+    case 2:
+        var Sname = document.title;
+        var SSarea = document.querySelector('meta[name="study_area"]').content;
+        var SSlevel = document.querySelector('meta[name="study_level"]').content;
+
+        dataLayer.push ({
+            'event': 'cdl_page-navigate',
+            'page' : {
+                'destinationUrl' : document.documentURI,
+                'referringUrl': document.referrer
+            },
+            'scholarship' : {
+                'scholarshipName' : Sname,
+                'studyArea' : SSarea,
+                'studyLevel': SSlevel
+            },
+            'user': {
+                'authState': 'unauth'
+            },
+            'debug': {
+                'environment': 'production',
+                'platform': 'Sitefinity'
+            }
+        });
+        break;
+    default:
+        dataLayer.push ({
+            'event': 'cdl_page-navigate',
+            'page' : {
+                'destinationUrl' : document.documentURI,
+                'referringUrl': document.referrer
+            },
+            'user': {
+                'authState': 'unauth'
+            },
+            'debug': {
+                'environment': 'production',
+                'platform': 'Sitefinity'
+            }
+        });
+        break;
+}
+</script><meta name="Generator" content="Sitefinity 15.3.8522.0 DX" /><link rel="canonical" href="https://www.murdoch.edu.au/news" /><script type="text/javascript">
+var otDisable = false;
+var url = window.location.href.toLowerCase();
+if(url.indexOf('?muot=') != -1) {
+    otDisable = true;
+} else if (url.indexOf('&muot=') != -1) {
+    otDisable = true;
+}
+
+var otAutoBlock_script = document.createElement('script');
+otAutoBlock_script.setAttribute('src','https://cdn-au.onetrust.com/consent/1fd4a1ff-b38d-4f8f-9c11-5683db215a91/OtAutoBlock.js');
+otAutoBlock_script.setAttribute('type','text/javascript');
+var otStub_script = document.createElement('script');
+otStub_script.setAttribute('src','https://cdn-au.onetrust.com/scripttemplates/otSDKStub.js');
+otStub_script.setAttribute('type','text/javascript');
+otStub_script.setAttribute('charset','UTF-8');
+otStub_script.setAttribute('data-domain-script','1fd4a1ff-b38d-4f8f-9c11-5683db215a91');
+var otNonWrapper_script = document.createElement('script');
+otNonWrapper_script.Body = 'function OptanonWrapper(){ }';
+
+if(!otDisable){
+  document.head.appendChild(otAutoBlock_script);
+  document.head.appendChild(otStub_script);
+  document.head.appendChild(otNonWrapper_script);
+
+}
+</script><style>
+    article.mu-featured-news .card-footer,
+    .mu-news-card .card-footer,
+    .mu-blog-card .card-footer {
+        display: none;
+    }
+</style><script type='text/javascript'>
+	                var appInsights=window.appInsights||function(a){
+		                function b(a){c[a]=function(){var b=arguments;c.queue.push(function(){c[a].apply(c,b)})}}var c={config:a},d=document,e=window;setTimeout(function(){var b=d.createElement('script');b.src=a.url||'https://az416426.vo.msecnd.net/scripts/a/ai.0.js',d.getElementsByTagName('script')[0].parentNode.appendChild(b)});try{c.cookie=d.cookie}catch(a){}c.queue=[];for(var f=['Event','Exception','Metric','PageView','Trace','Dependency'];f.length;)b('track'+f.pop());if(b('setAuthenticatedUserContext'),b('clearAuthenticatedUserContext'),b('startTrackEvent'),b('stopTrackEvent'),b('startTrackPage'),b('stopTrackPage'),b('flush'),!a.disableExceptionTracking){f='onerror',b('_'+f);var g=e[f];e[f]=function(a,b,d,e,h){var i=g&&g(a,b,d,e,h);return!0!==i&&c['_'+f](a,b,d,e,h),i}}return c
+	                }({
+		                instrumentationKey: 'b9838476-d1af-416a-a424-d9ac1901e066'
+	                });
+
+	                window.appInsights=appInsights,appInsights.queue&&0===appInsights.queue.length&&appInsights.trackPageView();
+            </script><meta name="description" content="Stay updated with the latest stories, research breakthroughs, and opinion pieces. " /></head> <body> <noscript> <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FGW9L5"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe> </noscript> <!-- top script starts --> <script src="/ResourcePackages/Murdoch2021/assets/dist/js/bundle-top.js?v=pgdCfE%2bOjXlIDgqiOWmbMQ%3d%3d" type="text/javascript"></script> <!-- top script ends --> <!-- header starts --> <header data-elastic-exclude class="header"> <!-- alerts placeholder --> 
+
+
+
+
+
+<script type="text/javascript">
+/**
+   * detect IE
+   * returns version of IE or false, if browser is not Internet Explorer
+   */
+  (function($) {
+    var ua = window.navigator.userAgent;
+    var msie = ua.indexOf('MSIE ');
+    if (msie > 0) {
+      // IE 11 or older => return version number
+      var ieV = parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 11);
+      document.querySelector('body').className += ' IE';
+    }
+
+    var trident = ua.indexOf('Trident/');
+    if (trident > 0) {
+      // IE 11 => return version number
+      var rv = ua.indexOf('rv:');
+      var ieV = parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
+      document.querySelector('body').className += ' IE';
+    }
+
+    var edge = ua.indexOf('Edge/');
+    if (edge > 0) {
+      // IE 12 (aka Edge) => return version number
+      var ieV = parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
+      document.querySelector('body').className += ' IEE';
+    }
+
+    // other browser
+    return false;
+  })(jQuery);
+
+  // add div if has class
+  (function($) {
+    if ($('body').hasClass('IE')) {
+      $('body').prepend('<div class="alert-banner alert-banner--warning alert-dismissible fade show" role="alert"><h4>Internet Explorer browser not supported</h4><p>Please upgrade or switch to an alternative browser for the best experience on our website.</p></div>');
+    }
+  })(jQuery);
+
+</script>
+
+
+ <a href="#mainContent" tabindex="0" class="sr-only skip-to-content">Skip to main content</a> <!-- utility nav starts --> <div class="nav-utility d-none d-xl-block"> <div class="container-fluid h-100"> <div class="row h-100"> <!-- Search class start --> <div class="col-md-12 dropdown d-flex align-items-center justify-content-end"> <!-- Navigation utility link start --> 
+
+<div class="mu-content-block">
+   <ul><li><a class="utility-nav__link" href="https://goto.murdoch.edu.au/Students" data-event="site-interaction" data-category="utility navigation" data-type="link" data-value="Current Students">Current Students</a></li><li><a class="utility-nav__link" href="https://goto.murdoch.edu.au/Alumni" data-event="site-interaction" data-category="utility navigation" data-type="link" data-value="Alumni">Alumni</a></li><li><a class="utility-nav__link" href="https://goto.murdoch.edu.au/StaffInfo" data-event="site-interaction" data-category="utility navigation" data-type="link" data-value="Staff">Staff</a></li><li><a class="utility-nav__link" href="https://goto.murdoch.edu.au/Library" data-event="site-interaction" data-category="utility navigation" data-type="link" data-value="Library">Library</a></li><li><a class="utility-nav__link" href="https://goto.murdoch.edu.au/ContactUs" data-event="site-interaction" data-category="utility navigation" data-type="link" data-value="Contact">Contact</a></li></ul>  
+</div>
+ <!-- Navigation utility link end --> <!-- Search button start --> <button type="button" class="search" id="nav-desktop-search" data-toggle="dropdown" aria-expanded="false"> <span aria-hidden="true" class="search__icon"></span> </button> <!-- Search button end --> <!-- Search dropdown start --> <div class="dropdown-menu mega-menu"> <div class="row justify-content-center"> <div class="col-6 text-center"> <form id="desktop_search_form" enctype="application/x-www-form-urlencoded" method="get" action="https://search.murdoch.edu.au/s/search.html" name="search_form"> <label for="desktop-search__input" class="h3">What are you looking for?</label> <div class="search-bar mb-5"> <div class="search-box"> <input class="site-search__input form-control" id="desktop-search__input" type="search" placeholder="Search for a keyword or topic" name="query" autocomplete="off" data-event="site-interaction" data-category="search" data-type="form field" data-value="search field"> <ul class="search-suggestion"></ul> </div> <div class="tt-menu tt-horizontal" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none;"> <div class="tt-dataset tt-dataset-organic" style="width: 50%;"></div> </div> <button type="submit" class="search-bar__button btn btn-dark btn-icon-dark" value="Search" data-event="site-interaction" data-category="search" data-type="button" data-value="search" id="search-submit" name="search-submit" search-field="search-submit"> <span class="sr-only">Search</span> <em class="far fa-search" aria-hidden="true"></em> </button> <input type="hidden" name="collection" value="mu-meta"> </div> </form> </div> </div> </div> <!-- Search dropdown end --> </div> <!-- Search class end --> </div> </div> </div> <!-- End utility nav --> <!-- main nav starts --> <div class="main-nav container-fluid p-0"> <!-- Header logo --> <!-- Switch logo if child is empty --> <script>
+                $(document).ready(function() {
+                    if ($("ul.header-logo").children().not(":first-child").html().trim() != "") {
+                        $(".logo span").removeClass("mu-logo");
+                        $(".logo span").addClass("mu-logo-mobile");
+                    }
+                    else {
+                        $(".logo span").addClass("mu-logo");
+                        $(".logo span").removeClass("mu-logo-mobile");
+                    }
+                });
+            </script> <ul class="header-logo"> <li> <a href="/" class="logo" aria-label="Home link"> <span class="mu-logo" alt="Murdoch University logo"></span> </a> </li> <li>
+
+</li> </ul> <!-- End header logo --> <!-- mobile nav starts --> <nav class="navbar navbar-mobile ml-auto" mu-nav-mobile> <!-- Search panel modal start --> <div class="modal fade" id="mu-search" aria-labelledby="Search" aria-hidden="true"> <div class="modal-dialog" role="document"> <div class="modal-content"> <div class="modal-header"> <form id="mobile_search_form" enctype="application/x-www-form-urlencoded" method="get" action="https://search.murdoch.edu.au/s/search.html" name="search_form"> <div class="search-bar"> <label for="mobile-search__input" class="sr-only">What are you looking for?</label> <input class="site-search__input form-control" id="mobile-search__input" type="text" placeholder="Search for a keyword or topic" name="query" autocomplete="off" data-event="site-interaction" data-category="search" data-type="form field" data-value="search field"> <button type="submit" class="search-bar__button border-0" value="Search" data-event="site-interaction" data-category="search" data-type="button" data-value="search" id="search-submit" name="search-submit" search-field="search-submit"> <span class="sr-only">Search</span> <em class="far fa-search" aria-hidden="true"></em> </button> <input type="hidden" name="collection" value="mu-meta"> </div> </form> <button type="button" class="close" data-dismiss="modal" aria-label="Close dialog"> <span class="bars"></span> </button> </div> <div class="modal-body"> <ul class="search-suggestion"></ul> </div> </div> </div> </div> <!-- Search panel modal end --> <!-- Hamburger button start --> <button tabindex="0" class="nav-hamburger" type="button" aria-expanded="false"
+                        aria-label="Toggle the main navigation" mu-hamburger> <span class="bars"></span> </button> <!-- Hamburger button end --> <!-- Hamburger navigation panel start --> <div class="nav nav-primary"> <a tabindex="-1" class="nav-mobile-home" href="/" aria-label="Home link"></a> <!-- Search button start --> <button tabindex="0" class="search" id="nav-mobile-search" type="button" data-toggle="modal" data-target="#mu-search" aria-label="Toggle the site search"> <span class="sr-only">Toggle search</span> <span aria-hidden="true" class="search__icon"></span> </button> <!-- Search button end --> 
+
+<div class="mu-content-block nav-utility">
+   <ul>
+    <li><a class="utility-nav__link" href="https://goto.murdoch.edu.au/Students" data-event="site-interaction" data-category="utility navigation" data-type="link" data-value="Current Students">Current Students</a></li>
+    <li><a class="utility-nav__link" href="https://goto.murdoch.edu.au/Alumni" data-event="site-interaction" data-category="utility navigation" data-type="link" data-value="Alumni">Alumni</a></li>
+    <li><a class="utility-nav__link" href="https://goto.murdoch.edu.au/StaffInfo" data-event="site-interaction" data-category="utility navigation" data-type="link" data-value="Staff">Staff</a></li>
+    <li><a class="utility-nav__link" href="https://goto.murdoch.edu.au/Library" data-event="site-interaction" data-category="utility navigation" data-type="link" data-value="Library">Library</a></li>
+    <li><a class="utility-nav__link" href="https://goto.murdoch.edu.au/ContactUs" data-event="site-interaction" data-category="utility navigation" data-type="link" data-value="Contact">Contact</a></li>
+</ul>  
+</div>
+ </div> <!-- Hamburger navigation panel end --> </nav> <!-- mobile nav ends --> <!-- desktop nav starts --> <nav class="navbar navbar-desktop navbar-expand-lg w-100"> <button tabindex="0" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarSupportedContent"> 
+
+
+<ul class="navbar-nav ml-auto">
+        <li class="nav-item mr-5">
+            <a class="nav-link menu__title active" href="/news" target="_self" data-event="site interaction" data-category="navbar" data-type="link" data-value="Home">Home</a>
+        </li>
+        <li class="nav-item mr-5">
+            <a class="nav-link menu__title " href="/news/articles" target="_self" data-event="site interaction" data-category="navbar" data-type="link" data-value="News">News</a>
+        </li>
+        <li class="nav-item mr-5">
+            <a class="nav-link menu__title " href="/news/blogs" target="_self" data-event="site interaction" data-category="navbar" data-type="link" data-value="Blogs">Blogs</a>
+        </li>
+        <li class="nav-item mr-5">
+            <a class="nav-link menu__title " href="/news/contact" target="_self" data-event="site interaction" data-category="navbar" data-type="link" data-value="Contact the Media team">Contact the Media team</a>
+        </li>
+</ul>
+
+
+
+
+
+ </div> </nav> <!-- desktop nav ends --> </div> <!-- main nav ends --> </header> <!-- header ends --> <!-- main section starts --> <main id="mainContent" class="main-content"> 
+<div id="Body_T4982312D001_Col00" class="sf_colsIn mu-landing-layout" data-sf-element="Landing page banner" data-placeholder-label="Landing page banner">
+
+
+<div class="container-fluid title-banner--dark" style="background-image: url('https://cdn.murdoch.edu.au/mu-images/default-source/default-album/mu-watermark.jpg?sfvrsn=515f5ada_4')">
+    <div class="container-xl">
+        <div class="row title-banner" data-sf-element="Row">
+            <div class="sf_colsIn col-lg-9" data-sf-element="Column 2">
+                <div class="page-title" role="banner" aria-label="Page Title Banner">
+                    <h1>Murdoch University News</h1>
+                </div>
+            </div>
+            <div class="sf_colsIn col-lg-3" data-sf-element="Column 3">
+                &nbsp;
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<div class="container-fluid">
+    <div class="container-xl">
+        <div class="row landing-page-content" data-sf-element="Row">
+            <div id="Body_T4982312D001_Col01" class="sf_colsIn col-lg-12" data-sf-element="Column 1" data-placeholder-label="Body"><div id="Body_C016_Col00" class="container sf_colsIn" data-sf-element="Container" data-placeholder-label="Container"><div class="row" data-sf-element="Row">
+    <div id="Body_C030_Col00" class="sf_colsIn col-lg-4" data-sf-element="Column 1" data-placeholder-label="Column 1">
+<div class="mu-content-block">
+   <h2>In the spotlight<br></h2>  
+</div>
+
+    </div>
+    <div id="Body_C030_Col01" class="sf_colsIn col-lg-8" data-sf-element="Column 2" data-placeholder-label="Column 2">
+    </div>
+</div>
+
+
+<div class="container-xl">
+            <div class="row">
+                <article class="mu-featured-news">
+                    <div class="d-flex flex-column-reverse flex-md-row">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    <span class="text-red text-uppercase"><strong>News</strong></span>
+                                    <time datetime="2025-08-07T00:00:00.0000000" class="card-date text-uppercase">07 Aug 2025</time>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-title h4">
+                                        Unprecedented $100m gift to transform veterinary research and education
+                                    </p>
+                                    <p class="card-text">Murdoch University’s iconic veterinary school will undergo a complete redevelopment thanks to an unprecedented $100 million gift.</p>
+                                    <p><a class="link--underline" href="https://www.murdoch.edu.au/news/articles/unprecedented--100m-gift-to-transform-veterinary-research-and-education">Read more</a></p>
+                                </div>
+                                <div class="card-footer">
+                                        <p>
+                                                <a data-event='site interaction'
+                                                    data-category='news topic'
+                                                    data-type='link'
+                                                    data-value='{topic.Title}'
+                                                    href='/news/home/-in-newstopic/news-topics/community-and-partnerships'>
+                                                    Community and Partnerships</a>,                                                 <a data-event='site interaction'
+                                                    data-category='news topic'
+                                                    data-type='link'
+                                                    data-value='{topic.Title}'
+                                                    href='/news/home/-in-newstopic/news-topics/general'>
+                                                    General</a>,                                                 <a data-event='site interaction'
+                                                    data-category='news topic'
+                                                    data-type='link'
+                                                    data-value='{topic.Title}'
+                                                    href='/news/home/-in-newstopic/news-topics/research'>
+                                                    Research</a>,                                                 <a data-event='site interaction'
+                                                    data-category='news topic'
+                                                    data-type='link'
+                                                    data-value='{topic.Title}'
+                                                    href='/news/home/-in-newstopic/news-topics/science'>
+                                                    Science</a>,                                                 <a data-event='site interaction'
+                                                    data-category='news topic'
+                                                    data-type='link'
+                                                    data-value='{topic.Title}'
+                                                    href='/news/home/-in-newstopic/news-topics/teaching'>
+                                                    Teaching</a>                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-8">
+                                <img class="card-img ratio ratio-16x9"
+                                    src="https://cdn.murdoch.edu.au/mu-images/newsportallibraries/default-album/vet-school-feature.tmb-960-banner.jpg?Culture=en&amp;sfvrsn=becf5bdc_1"
+                                    title="Unprecedented $100m gift to transform veterinary research and education"
+                                    alt="Artists impression of the new vet school" />
+                        </div>
+                    </div>
+                </article>
+            </div>
+    </div>
+<div id="Body_C003_Col00" class="sf_colsIn container mt-5 pt-5" data-sf-element="Container" data-placeholder-label="Container"><div class="row" data-sf-element="Row">
+    <div id="Body_C052_Col00" class="sf_colsIn col-lg-6" data-sf-element="Column 1" data-placeholder-label="Column 1">
+<div class="mu-content-block">
+   <h2>Latest news articles<br></h2>  
+</div>
+
+    </div>
+    <div id="Body_C052_Col01" class="sf_colsIn col-lg-6" data-sf-element="Column 2" data-placeholder-label="Column 2">
+<form class="form w-100" action="https://search.murdoch.edu.au" method="get">
+  <div class="search-bar">
+    <label class="sr-only" for="q">Enter a keyword</label>
+    <input class="search-bar__input form-control" name="q" placeholder="Search news" title="q" type="search">
+    <input name="size" type="hidden" value="n_10_n">
+    <input name="filters[0][field]" type="hidden" value="facet_label">
+    <input name="filters[0][values][0]" type="hidden" value="News">
+    <input name="filters[0][type]" type="hidden" value="any">
+    <button class="search-bar__button btn btn-dark btn-icon-dark" type="submit" aria-label="Search"><i class="far fa-search" aria-hidden="true"></i></button>
+  </div>
+</form>
+
+    </div>
+</div>
+
+
+<div class="mu-news-listing row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+        <div class="col pb-4">
+            <article class="mu-news-card card">
+                <a href="https://www.murdoch.edu.au/news/articles/new-human-rights-major-to-be-developed-by-leading-global-justice-advocate"
+                    data-event="site interaction"
+                    data-category="news listing"
+                    data-type="link"
+                    data-value="New Human Rights major to be developed by leading global justice advocate">
+                        <img class="card-img ratio ratio-16x9"
+                            src="https://cdn.murdoch.edu.au/mu-images/newsportallibraries/default-album/dr-simon-adams.tmb-630-53crop.jpg?Culture=en&amp;sfvrsn=bf923ea9_1"
+                            title="New Human Rights major to be developed by leading global justice advocate"
+                            alt="Dr Simon Adams standing amongst greenery on the Murdoch University campus." />
+                    <div class="card-content">
+                        <div class="card-header">
+                            <span class="text-red text-uppercase"><strong>News</strong></span>
+                            <time datetime="2025-09-19T00:00:00.0000000" class="card-date text-uppercase">19 Sep 2025</time>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title h5">
+                                New Human Rights major to be developed by leading global justice advocate
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                                <p>
+                                    <a data-event='site interaction' data-category='news topic' data-type='link' data-value='Equity, Diversity and Inclusion' href='/news/home/-in-newstopic/news-topics/equity-diversity-inclusion'>Equity, Diversity and Inclusion</a>, <a data-event='site interaction' data-category='news topic' data-type='link' data-value='General' href='/news/home/-in-newstopic/news-topics/general'>General</a>, <a href="#" data-toggle="tooltip" title="<a data-event='site interaction' data-category='news topic' data-type='link' data-value='Humanities and Social Sciences' href='/news/home/-in-newstopic/news-topics/humanities-and-social-sciences'>Humanities and Social Sciences</a>, <a data-event='site interaction' data-category='news topic' data-type='link' data-value='Social and Cultural Studies' href='/news/home/-in-newstopic/news-topics/social-and-cultural-studies'>Social and Cultural Studies</a>, <a data-event='site interaction' data-category='news topic' data-type='link' data-value='Teaching' href='/news/home/-in-newstopic/news-topics/teaching'>Teaching</a>">...</a>
+                                        <div class="tooltip" role="tooltip" aria-hidden="true" x-placement="top">
+                                            <div class="tooltip-inner">
+                                                <a data-event='site interaction' data-category='news topic' data-type='link' data-value='Humanities and Social Sciences' href='/news/home/-in-newstopic/news-topics/humanities-and-social-sciences'>Humanities and Social Sciences</a>, <a data-event='site interaction' data-category='news topic' data-type='link' data-value='Social and Cultural Studies' href='/news/home/-in-newstopic/news-topics/social-and-cultural-studies'>Social and Cultural Studies</a>, <a data-event='site interaction' data-category='news topic' data-type='link' data-value='Teaching' href='/news/home/-in-newstopic/news-topics/teaching'>Teaching</a>
+                                            </div>
+                                        </div>
+                                </p>
+                        </div>
+                    </div>
+                </a>
+            </article>
+        </div>
+        <div class="col pb-4">
+            <article class="mu-news-card card">
+                <a href="https://www.murdoch.edu.au/news/articles/murdoch-uni-the-healthiest-campus-in-wa"
+                    data-event="site interaction"
+                    data-category="news listing"
+                    data-type="link"
+                    data-value="Murdoch Uni the healthiest campus in WA">
+                        <img class="card-img ratio ratio-16x9"
+                            src="https://cdn.murdoch.edu.au/mu-images/newsportallibraries/default-album/murdoch-university-staff-games.tmb-630-53crop.jpg?Culture=en&amp;sfvrsn=2989c1af_1"
+                            title="Murdoch Uni the healthiest campus in WA"
+                            alt="Two teams of people in a gym playing tug-o-war with a rope." />
+                    <div class="card-content">
+                        <div class="card-header">
+                            <span class="text-red text-uppercase"><strong>News</strong></span>
+                            <time datetime="2025-09-16T00:00:00.0000000" class="card-date text-uppercase">16 Sep 2025</time>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title h5">
+                                Murdoch Uni the healthiest campus in WA
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                                <p>
+                                    <a data-event='site interaction' data-category='news topic' data-type='link' data-value='Community and Partnerships' href='/news/home/-in-newstopic/news-topics/community-and-partnerships'>Community and Partnerships</a>, <a data-event='site interaction' data-category='news topic' data-type='link' data-value='General' href='/news/home/-in-newstopic/news-topics/general'>General</a>, <a href="#" data-toggle="tooltip" title="<a data-event='site interaction' data-category='news topic' data-type='link' data-value='Health' href='/news/home/-in-newstopic/news-topics/health'>Health</a>, <a data-event='site interaction' data-category='news topic' data-type='link' data-value='Studying and Campus Life' href='/news/home/-in-newstopic/news-topics/studying-and-campus-life'>Studying and Campus Life</a>">...</a>
+                                        <div class="tooltip" role="tooltip" aria-hidden="true" x-placement="top">
+                                            <div class="tooltip-inner">
+                                                <a data-event='site interaction' data-category='news topic' data-type='link' data-value='Health' href='/news/home/-in-newstopic/news-topics/health'>Health</a>, <a data-event='site interaction' data-category='news topic' data-type='link' data-value='Studying and Campus Life' href='/news/home/-in-newstopic/news-topics/studying-and-campus-life'>Studying and Campus Life</a>
+                                            </div>
+                                        </div>
+                                </p>
+                        </div>
+                    </div>
+                </a>
+            </article>
+        </div>
+        <div class="col pb-4">
+            <article class="mu-news-card card">
+                <a href="https://www.murdoch.edu.au/news/articles/new-tech-to-combat-toxic-algal-blooms-and-fish-death-events"
+                    data-event="site interaction"
+                    data-category="news listing"
+                    data-type="link"
+                    data-value="New tech to combat toxic algal blooms and fish death events">
+                        <img class="card-img ratio ratio-16x9"
+                            src="https://cdn.murdoch.edu.au/mu-images/newsportallibraries/default-album/dr-alan-cottingham-with-his-spyvalve-technology.tmb-630-53crop.jpg?Culture=en&amp;sfvrsn=ff696233_1"
+                            title="New tech to combat toxic algal blooms and fish death events"
+                            alt="Dr Alan Cottingham wading in the water with his Spyvalve sensors attached to mussels." />
+                    <div class="card-content">
+                        <div class="card-header">
+                            <span class="text-red text-uppercase"><strong>News</strong></span>
+                            <time datetime="2025-09-11T00:00:00.0000000" class="card-date text-uppercase">11 Sep 2025</time>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title h5">
+                                New tech to combat toxic algal blooms and fish death events
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                                <p>
+                                    <a data-event='site interaction' data-category='news topic' data-type='link' data-value='General' href='/news/home/-in-newstopic/news-topics/general'>General</a>, <a data-event='site interaction' data-category='news topic' data-type='link' data-value='Research' href='/news/home/-in-newstopic/news-topics/research'>Research</a>, <a href="#" data-toggle="tooltip" title="<a data-event='site interaction' data-category='news topic' data-type='link' data-value='Science' href='/news/home/-in-newstopic/news-topics/science'>Science</a>, <a data-event='site interaction' data-category='news topic' data-type='link' data-value='Sustainability' href='/news/home/-in-newstopic/news-topics/sustainability'>Sustainability</a>, <a data-event='site interaction' data-category='news topic' data-type='link' data-value='Technology' href='/news/home/-in-newstopic/news-topics/technology'>Technology</a>">...</a>
+                                        <div class="tooltip" role="tooltip" aria-hidden="true" x-placement="top">
+                                            <div class="tooltip-inner">
+                                                <a data-event='site interaction' data-category='news topic' data-type='link' data-value='Science' href='/news/home/-in-newstopic/news-topics/science'>Science</a>, <a data-event='site interaction' data-category='news topic' data-type='link' data-value='Sustainability' href='/news/home/-in-newstopic/news-topics/sustainability'>Sustainability</a>, <a data-event='site interaction' data-category='news topic' data-type='link' data-value='Technology' href='/news/home/-in-newstopic/news-topics/technology'>Technology</a>
+                                            </div>
+                                        </div>
+                                </p>
+                        </div>
+                    </div>
+                </a>
+            </article>
+        </div>
+        <div class="col pb-4">
+            <article class="mu-news-card card">
+                <a href="https://www.murdoch.edu.au/news/articles/australia-has-some-new-marsupial-species---but-they-re-already-extinct"
+                    data-event="site interaction"
+                    data-category="news listing"
+                    data-type="link"
+                    data-value="Australia has some new marsupial species – but they’re already extinct">
+                        <img class="card-img ratio ratio-16x9"
+                            src="https://cdn.murdoch.edu.au/mu-images/newsportallibraries/default-album/a-mummified-specimen-of-the-newly-identified-extinct-species-bettongia-haoucharae-or-the-little-bettong-found-in-a-nullarbor-cave-the-arm-and-leg-bones-have-been-removed-for-identification-jake-newman-martin-cc-by-nc.tmb-630-53crop.jpg?Culture=en&amp;sfvrsn=8276352c_1"
+                            title="Australia has some new marsupial species – but they’re already extinct"
+                            alt="A mummified specimen of the newly identified extinct species Bettongia haoucharae, or the little bettong, found in a Nullarbor cave. The arm and leg bones have been removed for identification. Jake Newman-Martin, CC BY-NC" />
+                    <div class="card-content">
+                        <div class="card-header">
+                            <span class="text-red text-uppercase"><strong>Opinion</strong></span>
+                            <time datetime="2025-09-11T00:00:00.0000000" class="card-date text-uppercase">11 Sep 2025</time>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title h5">
+                                Australia has some new marsupial species – but they’re already extinct
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                                <p>
+                                    <a data-event='site interaction' data-category='news topic' data-type='link' data-value='General' href='/news/home/-in-newstopic/news-topics/general'>General</a>, <a data-event='site interaction' data-category='news topic' data-type='link' data-value='Research' href='/news/home/-in-newstopic/news-topics/research'>Research</a>, <a href="#" data-toggle="tooltip" title="<a data-event='site interaction' data-category='news topic' data-type='link' data-value='Science' href='/news/home/-in-newstopic/news-topics/science'>Science</a>, <a data-event='site interaction' data-category='news topic' data-type='link' data-value='Sustainability' href='/news/home/-in-newstopic/news-topics/sustainability'>Sustainability</a>">...</a>
+                                        <div class="tooltip" role="tooltip" aria-hidden="true" x-placement="top">
+                                            <div class="tooltip-inner">
+                                                <a data-event='site interaction' data-category='news topic' data-type='link' data-value='Science' href='/news/home/-in-newstopic/news-topics/science'>Science</a>, <a data-event='site interaction' data-category='news topic' data-type='link' data-value='Sustainability' href='/news/home/-in-newstopic/news-topics/sustainability'>Sustainability</a>
+                                            </div>
+                                        </div>
+                                </p>
+                        </div>
+                    </div>
+                </a>
+            </article>
+        </div>
+
+</div>
+<div class="row" data-sf-element="Row">
+    <div id="Body_C048_Col00" class="sf_colsIn col-lg-4" data-sf-element="Column 1" data-placeholder-label="Column 1">
+    </div>
+    <div id="Body_C048_Col01" class="sf_colsIn col-lg-4" data-sf-element="Column 2" data-placeholder-label="Column 2">
+    </div>
+    <div id="Body_C048_Col02" class="sf_colsIn col-lg-4" data-sf-element="Column 3" data-placeholder-label="Column 3"><a data-event="site-interaction" data-category="cta" data-type="button" data-value="See all news" href="https://www.murdoch.edu.au/news/articles" class="btn btn--theme-white mt-5 float-right" >See all news</a>
+    </div>
+</div>
+
+<div class="mu-content-block mt-5 pt-5">
+   <h2>Latest blog posts<br></h2>  
+</div>
+
+
+
+<div class="mu-blog-listing row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+        <div class="col pb-4">
+            <article class="mu-blog-card card">
+                <a href="https://www.murdoch.edu.au/news/blogs/blog-posts/campus-and-community/what-does-a-career-as-a-chiropractor-look-like"
+                   data-event="site interaction"
+                   data-category="blog listing"
+                   data-type="link"
+                   data-value="What does a career as a chiropractor look like?">
+                        <img class="card-img ratio ratio-16x9"
+                             src="https://cdn.murdoch.edu.au/mu-images/newsportallibraries/default-album/chiro_feature_960x480.tmb-630-53crop.jpg?Culture=en&amp;sfvrsn=a6046ca4_1"
+                             title="Chiro_Feature_960x480"
+                             alt="Murdoch Chiropractic student showing a spine to a patient" />
+                    <div class="card-content">
+                        <div class="card-header">
+                            <span class="text-red text-uppercase"><strong>Blog</strong></span>
+                            <time datetime="YYYY-MM-DDT" class="card-date text-uppercase">
+                                05 Sep 2025
+                            </time>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title h5">
+                                What does a career as a chiropractor look like?
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                                <p>
+                                    <a data-event='site interaction' data-category='blog topic' data-type='link' data-value='Allied Health' href='/news/home/-in-blogtopic/blog-topics/allied-health'>Allied Health</a>, <a data-event='site interaction' data-category='blog topic' data-type='link' data-value='Physical Sciences and Mathematics' href='/news/home/-in-blogtopic/blog-topics/physical-sciences-and-mathematics'>Physical Sciences and Mathematics</a>                                </p>
+                        </div>
+                    </div>
+                </a>
+            </article>
+        </div>
+        <div class="col pb-4">
+            <article class="mu-blog-card card">
+                <a href="https://www.murdoch.edu.au/news/blogs/blog-posts/murdoch-university-alumni---supporters/supporting-the-future-of-veterinary-science"
+                   data-event="site interaction"
+                   data-category="blog listing"
+                   data-type="link"
+                   data-value="Supporting the Future of Veterinary Science">
+                        <img class="card-img ratio ratio-16x9"
+                             src="https://cdn.murdoch.edu.au/mu-images/newsportallibraries/default-album/vet-fund-pic.tmb-630-53crop.png?Culture=en&amp;sfvrsn=b1815c3c_1"
+                             title="Vet Fund Pic"
+                             alt="Vet surgery" />
+                    <div class="card-content">
+                        <div class="card-header">
+                            <span class="text-red text-uppercase"><strong>Blog</strong></span>
+                            <time datetime="YYYY-MM-DDT" class="card-date text-uppercase">
+                                12 Aug 2025
+                            </time>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title h5">
+                                Supporting the Future of Veterinary Science
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                                <p>
+                                    <a data-event='site interaction' data-category='blog topic' data-type='link' data-value='Veterinary Science' href='/news/home/-in-blogtopic/blog-topics/veterinary-science'>Veterinary Science</a>                                </p>
+                        </div>
+                    </div>
+                </a>
+            </article>
+        </div>
+        <div class="col pb-4">
+            <article class="mu-blog-card card">
+                <a href="https://www.murdoch.edu.au/news/blogs/blog-posts/murdoch-university-alumni---supporters/opening-the-door-to-veterinary-science--murdoch-s-waardong-program"
+                   data-event="site interaction"
+                   data-category="blog listing"
+                   data-type="link"
+                   data-value="Opening the Door to Veterinary Science: Murdoch University’s Waardong Program">
+                        <img class="card-img ratio ratio-16x9"
+                             src="https://cdn.murdoch.edu.au/mu-images/newsportallibraries/default-album/barbara-hostalek.tmb-630-53crop.png?Culture=en&amp;sfvrsn=221f5f89_1"
+                             title="Barbara Hostalek"
+                             alt="Waardong program" />
+                    <div class="card-content">
+                        <div class="card-header">
+                            <span class="text-red text-uppercase"><strong>Blog</strong></span>
+                            <time datetime="YYYY-MM-DDT" class="card-date text-uppercase">
+                                12 Aug 2025
+                            </time>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title h5">
+                                Opening the Door to Veterinary Science: Murdoch University’s Waardong Program
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                                <p>
+                                    <a data-event='site interaction' data-category='blog topic' data-type='link' data-value='Veterinary Science' href='/news/home/-in-blogtopic/blog-topics/veterinary-science'>Veterinary Science</a>                                </p>
+                        </div>
+                    </div>
+                </a>
+            </article>
+        </div>
+        <div class="col pb-4">
+            <article class="mu-blog-card card">
+                <a href="https://www.murdoch.edu.au/news/blogs/blog-posts/murdoch-university-alumni---supporters/model-patients"
+                   data-event="site interaction"
+                   data-category="blog listing"
+                   data-type="link"
+                   data-value="Model Patients">
+                        <img class="card-img ratio ratio-16x9"
+                             src="https://cdn.murdoch.edu.au/mu-images/newsportallibraries/default-album/untitled-design-(4).tmb-630-53crop.png?Culture=en&amp;sfvrsn=754cd301_1"
+                             title="Untitled design (4)"
+                             alt="Dog spey image" />
+                    <div class="card-content">
+                        <div class="card-header">
+                            <span class="text-red text-uppercase"><strong>Blog</strong></span>
+                            <time datetime="YYYY-MM-DDT" class="card-date text-uppercase">
+                                12 Aug 2025
+                            </time>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title h5">
+                                Model Patients
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                                <p>
+                                    <a data-event='site interaction' data-category='blog topic' data-type='link' data-value='Veterinary Science' href='/news/home/-in-blogtopic/blog-topics/veterinary-science'>Veterinary Science</a>                                </p>
+                        </div>
+                    </div>
+                </a>
+            </article>
+        </div>
+
+</div>
+<div class="row" data-sf-element="Row">
+    <div id="Body_C049_Col00" class="sf_colsIn col-lg-4" data-sf-element="Column 1" data-placeholder-label="Column 1">
+    </div>
+    <div id="Body_C049_Col01" class="sf_colsIn col-lg-4" data-sf-element="Column 2" data-placeholder-label="Column 2">
+    </div>
+    <div id="Body_C049_Col02" class="sf_colsIn col-lg-4" data-sf-element="Column 3" data-placeholder-label="Column 3"><a data-event="site-interaction" data-category="cta" data-type="button" data-value="See all blogs" href="https://www.murdoch.edu.au/news/blogs" class="btn btn--theme-white mt-5 float-right" >See all blogs</a>
+    </div>
+</div>
+
+
+<div class="cta-banner theme-light-grey right">
+
+    <div class="cta-banner__img">
+        <img class="img-fluid" src="https://cdn.murdoch.edu.au/mu-images/newsportallibraries/default-album/190731-0304-chantelconcei.tmb-960-banner.jpg?Culture=en&amp;sfvrsn=5693d3c4_1" alt="test">
+    </div>
+
+    <div class="cta-banner__content p-y1 p-xl-y2">
+        <p class="cta-banner__title" id="title_MjVhMzQxNDMtOTc0MS00NDI1LWEwZTctMGQxNmRjMzgzZWUy">
+            Find an expert
+        </p>
+        <p>Our scientists, researchers and academics offer a wealth of expertise and can provide specialist insight on the significant social and scientific challenges of our time.</p>
+            <a class="btn btn--theme-light-grey cta-banner__button"
+               href="https://www.murdoch.edu.au/news/contact"
+               data-event="site interaction"
+               data-category="cta banner default"
+               data-type="button"
+               data-value="find an expert - connect now"
+               
+               aria-labelledby="title_MjVhMzQxNDMtOTc0MS00NDI1LWEwZTctMGQxNmRjMzgzZWUy">
+                Connect now
+            </a>
+    </div>
+</div>
+
+</div>
+
+</div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+ </main> <!-- main section ends --> <!-- footer starts --> <footer data-elastic-exclude> <!-- main footer starts --> <div class="main-footer accordion" id="main-footer__accordion" data-allow-multiple="" data-allow-toggle=""> <div class="container"> <!-- main row starts--> 
+<div class="row" data-sf-element="Row">
+    <div id="Contentplaceholder_Footer_Main_Quick_Links_Flexible_T8F2DCC6B017_Col00" class="sf_colsIn col-12 col-xxl-3 mb-sm-5 mb-xxl-0" data-sf-element="Column 1" data-placeholder-label="Column 1"><div class="row" data-sf-element="Row">
+    <div id="Contentplaceholder_Footer_Main_Quick_Links_Flexible_T8F2DCC6B025_Col00" class="sf_colsIn col-12 col-sm-6 col-xxl-12" data-sf-element="Column 1" data-placeholder-label="Column 1">
+<div class="mu-content-block">
+   <div class="main-footer__logo">
+    <figure class="figure"><img src="https://cdn.murdoch.edu.au/mu-images/default-source/logos/ngalakwopbiddi.png?sfvrsn=69a04644_1" title="Ngala Kwop Biddi" alt="Ngala Kwop Biddi"></figure>
+</div>  
+</div>
+
+    </div>
+    <div id="Contentplaceholder_Footer_Main_Quick_Links_Flexible_T8F2DCC6B025_Col01" class="sf_colsIn col-12 col-sm-6 col-xxl-12" data-sf-element="Column 2" data-placeholder-label="Column 2">
+<div class="mu-content-block main-footer__social">
+   <a href="https://www.facebook.com/MurdochUniversity/" target="_blank" data-event="site-interaction" data-category="social media footer" data-type="link" data-value="Facebook" data-sf-ec-immutable=""><i class="fa-brands fa-facebook"></i></a>
+<a href="https://instagram.com/MurdochUniversity/" target="_blank" data-event="site-interaction" data-category="social media footer" data-type="link" data-value="Instagram" data-sf-ec-immutable="">
+    <i class="fa-brands fa-instagram"></i></a>
+<a href="https://twitter.com/murdochuni" target="_blank" data-event="site-interaction" data-category="social media footer" data-type="link" data-value="Twitter" data-sf-ec-immutable="">
+    <i class="fa-brands fa-x-twitter"></i></a>
+<a href="https://www.youtube.com/user/murdochdigitalmedia" target="_blank" data-event="site-interaction" data-category="social media footer" data-type="link" data-value="YouTube" data-sf-ec-immutable="">
+    <i class="fa-brands fa-youtube"></i></a>
+<a href="https://www.tiktok.com/@murdochuni" target="_blank" data-event="site-interaction" data-category="social media footer" data-type="link" data-value="TikTok" data-sf-ec-immutable="">
+    <i class="fa-brands fa-tiktok"></i></a>  
+</div>
+
+    </div>
+</div>
+
+    </div>
+    <div id="Contentplaceholder_Footer_Main_Quick_Links_Flexible_T8F2DCC6B017_Col01" class="sf_colsIn col-12 col-md" data-sf-element="Column 2" data-placeholder-label="Column 2"><div class="row" data-sf-element="Row">
+    <div id="Contentplaceholder_Footer_Main_Quick_Links_Flexible_T8F2DCC6B021_Col00" class="sf_colsIn col-md-6 col-lg-6" data-sf-element="Column 1" data-placeholder-label="Column 1">
+<button class="d-block d-md-none main-footer__toggle accordion__trigger collapsed" type="button" data-toggle="collapse" data-target="#information-for" aria-expanded="false" aria-controls="information-for">
+    <div>Information for</div>
+</button>
+<div class="collapse dont-collapse-sm" id="information-for" data-parent="#main-footer__accordion">
+    <span class="main-footer__header">Information for</span>
+    <ul>
+        <li>
+            <a href="https://goto.murdoch.edu.au/FutureStudents" data-event="site-interaction" data-category="main footer" data-type="link" data-value="Future students">Future students</a>
+        </li>
+        <li>
+            <a href="https://goto.murdoch.edu.au/InternationalStudents" data-event="site-interaction" data-category="main footer" data-type="link" data-value="International students">International students</a>
+        </li>
+        <li>
+            <a href="http://goto.murdoch.edu.au/Parents" data-event="site-interaction" data-category="main footer" data-type="link" data-value="Parents and families">Parents &amp; families</a>
+        </li>
+        <li>
+            <a href="https://goto.murdoch.edu.au/Alumni" data-event="site-interaction" data-category="main footer" data-type="link" data-value="Alumni">Alumni</a>
+        </li>
+        <li>
+            <a href="https://goto.murdoch.edu.au/Collaborate" data-event="site-interaction" data-category="main footer" data-type="link" data-value="Industry and community">Industry &amp; community</a>
+        </li>
+    </ul>
+</div>
+    </div>
+    <div id="Contentplaceholder_Footer_Main_Quick_Links_Flexible_T8F2DCC6B021_Col01" class="sf_colsIn col-md-6 col-lg-6" data-sf-element="Column 2" data-placeholder-label="Column 2">
+<button class="d-block d-md-none main-footer__toggle accordion__trigger collapsed" type="button" data-toggle="collapse" data-target="#quick-links" aria-expanded="false" aria-controls="quick-links">
+    <div>Quick Links</div>
+</button>
+<div class="collapse dont-collapse-sm" id="quick-links" data-parent="#main-footer__accordion">
+    <span class="main-footer__header">Quick Links</span>
+        <ul>
+            <li><a href="https://goto.murdoch.edu.au/ApplyingToMurdoch" data-event="site-interaction" data-category="main footer" data-type="link" data-value="Apply to Murdoch" data-sf-ec-immutable="">Apply to Murdoch</a></li>
+            <li><a href="https://www.murdoch.edu.au/schools/" data-event="site-interaction" data-category="main footer" data-type="link" data-value="Explore our Schools" data-sf-ec-immutable="">Explore our Schools </a></li>
+            <li><a href="https://goto.murdoch.edu.au/Events" data-event="site-interaction" data-category="main footer" data-type="link" data-value="Events" data-sf-ec-immutable="">Events</a></li>
+            <li><a href="https://search.murdoch.edu.au/s/search.html?f.Type%7C3=Contacts+%28All+staff%29&amp;collection=mu-meta" data-event="site-interaction" data-category="main footer" data-type="link" data-value="Staff directory" data-sf-ec-immutable="">Staff Directory</a></li>
+            <li><a href="https://goto.murdoch.edu.au/CareersAtMurdoch" data-event="site-interaction" data-category="main footer" data-type="link" data-value="Work at Murdoch" data-sf-ec-immutable="">Work at Murdoch</a></li>
+            <li><a href="https://www.murdoch.edu.au/contact-us/send-us-feedback" data-event="site-interaction" data-category="main footer" data-type="link" data-value="Provide feedback">Provide feedback</a></li>
+        </ul>
+</div>
+    </div>
+</div>
+
+    </div>
+    <div id="Contentplaceholder_Footer_Main_Quick_Links_Flexible_T8F2DCC6B017_Col02" class="sf_colsIn col-12 col-md" data-sf-element="Column 3" data-placeholder-label="Column 3"><div class="row" data-sf-element="Row">
+    <div id="Contentplaceholder_Footer_Main_Quick_Links_Flexible_T8F2DCC6B022_Col00" class="sf_colsIn col-md-6 col-lg-6" data-sf-element="Column 1" data-placeholder-label="Column 1">
+<button class="d-block d-md-none main-footer__toggle accordion__trigger collapsed" type="button" data-toggle="collapse" data-target="#our-locations" aria-expanded="false" aria-controls="our-locations">
+    <div>Our Locations</div>
+</button>
+<div class="collapse dont-collapse-sm" id="our-locations" data-parent="#main-footer__accordion">
+    <span class="main-footer__header">Our Locations</span>
+        <ul>
+            <li><a href="https://goto.murdoch.edu.au/PerthCampus" data-event="site-interaction" data-category="main footer" data-type="link" data-value="Perth" data-sf-ec-immutable="">Perth</a></li>
+            <li><a href="https://goto.murdoch.edu.au/RockinghamCampus" data-event="site-interaction" data-category="main footer" data-type="link" data-value="Rockingham" data-sf-ec-immutable="">Rockingham</a></li>
+            <li><a href="https://goto.murdoch.edu.au/MandurahCampus" data-event="site-interaction" data-category="main footer" data-type="link" data-value="Mandurah" data-sf-ec-immutable="">Mandurah</a></li>
+            <li><a href="https://goto.murdoch.edu.au/KaplanHigherEducation" data-event="site-interaction" data-category="main footer" data-type="link" data-value="Singapore" data-sf-ec-immutable="">Singapore</a></li>
+            <li><a href="https://goto.murdoch.edu.au/InternationalStudyCentreDubai" data-event="site-interaction" data-category="main footer" data-type="link" data-value="Dubai" data-sf-ec-immutable="">Dubai</a></li>
+            <li><a href="https://goto.murdoch.edu.au/UCSICollege" data-event="site-interaction" data-category="main footer" data-type="link" data-value="Malaysia" data-sf-ec-immutable="">Malaysia</a></li>
+        </ul>
+</div>
+    </div>
+    <div id="Contentplaceholder_Footer_Main_Quick_Links_Flexible_T8F2DCC6B022_Col01" class="sf_colsIn col-md-6 col-lg-6" data-sf-element="Column 2" data-placeholder-label="Column 2">
+<button class="d-block d-md-none main-footer__toggle accordion__trigger collapsed" type="button" data-toggle="collapse" data-target="#general-enquiries" aria-expanded="false" aria-controls="general-enquiries">
+    <div>General Enquiries</div>
+</button>
+<div class="collapse dont-collapse-sm" id="general-enquiries" data-parent="#main-footer__accordion">
+    <span class="main-footer__header">General Enquiries</span>
+        <ul>
+            <li><span class="fal fa-phone" aria-hidden="true"></span><span class="sr-only">Phone</span><a href="tel:+61893606000" data-event="site-interaction" data-category="main footer - phone link" data-type="link" data-value="+61893606000" data-sf-ec-immutable="">+61 8 9360 6000</a></li>
+            <li><a href="https://goto.murdoch.edu.au/FutureStudentsEnquiries" data-event="site-interaction" data-category="main footer" data-type="link" data-value="Future student enquiries" data-sf-ec-immutable="">Future student enquiries</a></li>
+            <li><a href="https://goto.murdoch.edu.au/Emergencies" data-event="site-interaction" data-category="main footer" data-type="link" data-value="Help and emergencies" data-sf-ec-immutable="">Help &amp; emergencies</a></li>
+        </ul>
+</div>
+
+
+<button class="d-block d-md-none main-footer__toggle accordion__trigger collapsed" type="button" data-toggle="collapse" data-target="#collapse-information" aria-expanded="false" aria-controls="collapse-information">
+    <div>Get Directions</div>
+</button>
+<div class="collapse dont-collapse-sm" id="collapse-information" data-parent="#main-footer__accordion">
+    <span class="main-footer__header">Get Directions</span>
+        <ul>
+            <li><a href="https://goto.murdoch.edu.au/MurdochCampusMap" data-event="site-interaction" data-category="main footer" data-type="link" data-value="Murdoch Maps" data-sf-ec-immutable="">Murdoch Maps</a></li>
+        </ul>
+</div>
+    </div>
+</div>
+
+    </div>
+</div>
+ <!-- main row ends--> <!-- Affiliated logo row starts --> 
+<div class="row" data-sf-element="Row">
+    <div id="Contentplaceholder_Footer_Main_Affiliate_Logos_Flexible_T8F2DCC6B028_Col00" class="sf_colsIn col-12 col-sm-6 affiliated-logo" data-sf-element="Column 1" data-placeholder-label="Column 1"><div id="Contentplaceholder_Footer_Main_Affiliate_Logos_Flexible_T4677A736064_Col00" class="sf_colsIn col-4" data-sf-element="Column" data-placeholder-label="Column">
+<figure class="figure">
+        <img loading="lazy" src="https://cdn.murdoch.edu.au/mu-images/default-source/logos/athena-swan-bronze-award.jpg?sfvrsn=52211b7b_1" title="athena-swan-bronze-award" alt="Logo Athena Swan Bronze Award"
+             
+              />
+        </figure>
+
+</div><div id="Contentplaceholder_Footer_Main_Affiliate_Logos_Flexible_T4677A736066_Col00" class="sf_colsIn col-4" data-sf-element="Column" data-placeholder-label="Column">
+<figure class="figure">
+        <img loading="lazy" src="https://cdn.murdoch.edu.au/mu-images/default-source/logos/international-association-of-universities.jpg?sfvrsn=407a5a72_1" title="international-association-of-universities" alt="Logo International Association Of Universities"
+             
+              />
+        </figure>
+
+</div><div id="Contentplaceholder_Footer_Main_Affiliate_Logos_Flexible_T4677A736065_Col00" class="sf_colsIn col-4" data-sf-element="Column" data-placeholder-label="Column">
+<figure class="figure">
+        <img loading="lazy" src="https://cdn.murdoch.edu.au/mu-images/default-source/logos/united-nations-development-programmef56247c3157948ea99bf08ba149b00eb.png?sfvrsn=e81b0fc2_0" title="united-nations-development-programme" alt="united-nations-development-programme"
+             
+              />
+        </figure>
+
+</div>
+    </div>
+    <div id="Contentplaceholder_Footer_Main_Affiliate_Logos_Flexible_T8F2DCC6B028_Col01" class="sf_colsIn col-12 col-sm-6 affiliated-logo" data-sf-element="Column 2" data-placeholder-label="Column 2"><div id="Contentplaceholder_Footer_Main_Affiliate_Logos_Flexible_T4677A736067_Col00" class="sf_colsIn col-4" data-sf-element="Column" data-placeholder-label="Column">
+<figure class="figure">
+        <img loading="lazy" src="https://cdn.murdoch.edu.au/mu-images/default-source/logos/australia-universities.jpg?sfvrsn=ea6013ba_1" title="australia-universities" alt="Logo Australia Universities"
+             
+              />
+        </figure>
+
+</div><div id="Contentplaceholder_Footer_Main_Affiliate_Logos_Flexible_T4677A736068_Col00" class="sf_colsIn col-4" data-sf-element="Column" data-placeholder-label="Column">
+<figure class="figure">
+        <img loading="lazy" src="https://cdn.murdoch.edu.au/mu-images/default-source/logos/innovative-research-universities.jpg?sfvrsn=51003e69_1" title="innovative-research-universities" alt="Logo Innovative Research Universities"
+             
+              />
+        </figure>
+
+</div><div id="Contentplaceholder_Footer_Main_Affiliate_Logos_Flexible_T4677A736069_Col00" class="sf_colsIn col-4" data-sf-element="Column" data-placeholder-label="Column">
+<figure class="figure">
+        <img loading="lazy" src="https://cdn.murdoch.edu.au/mu-images/default-source/logos/australia-africa-univerisities-network.jpg?sfvrsn=b8607b81_1" title="australia-africa-univerisities-network" alt="Logo Australia Africa Univerisities Network"
+             
+              />
+        </figure>
+
+</div>
+    </div>
+</div>
+ <!-- Affiliated logo row ends --> </div> </div> <!-- main footer ends --> <!-- acknowledgement starts --> <div class="footer-acknowledgement--gradient"> <div class="container"> 
+
+<div class="mu-content-block">
+   <p>We acknowledge that Murdoch University is situated on the lands of the Whadjuk and Binjareb Noongar people. We pay our respect to their enduring and dynamic culture and the leadership of Noongar Elders past and present. The Boodjar (Country) on which Murdoch University is located has, for thousands of years, been a place of learning. We at Murdoch University are proud to continue this long tradition.</p><p><a href="https://goto.murdoch.edu.au/AboriginalTorresStraitCommitment" data-sf-ec-immutable="">Find out more about our commitment to the Aboriginal and Torres Strait Islander community.</a></p>  
+</div>
+ </div> </div> <!-- acknowledgement ends --> <!-- legal starts --> <div class="footer-legal"> <div class="container"> 
+<div class="row" data-sf-element="Row">
+    <div id="Contentplaceholder_Footer_Legal_Flexible_T8F2DCC6B012_Col00" class="sf_colsIn col-12 col-sm-6 col-xl-3 mu-footer-crest" data-sf-element="Column 1" data-placeholder-label="Column 1">
+<figure class="figure">
+        <a href="/home" title="mu-crest-footer" data-event="site-interaction" data-category="Image link" data-type="link" data-value="News, opinion and blogs | Murdoch University">
+                    <img loading="lazy" src="https://cdn.murdoch.edu.au/mu-images/default-source/logos/mu-crest-footer.png?sfvrsn=17d522d_3" title="mu-crest-footer" alt="MU Crest Footer"
+             
+              />
+
+        </a>
+        </figure>
+
+<div class="mu-content-block">
+   © Murdoch University  
+</div>
+
+    </div>
+    <div id="Contentplaceholder_Footer_Legal_Flexible_T8F2DCC6B012_Col01" class="sf_colsIn col-12 col-sm-6 col-xl-9 mu-footer-code" data-sf-element="Column 2" data-placeholder-label="Column 2">
+<div class="mu-content-block">
+   <ul><li><a href="https://goto.murdoch.edu.au/CRICOSCode" data-event="site-interaction" data-category="legal footer" data-type="link" data-value="CRICOS Code: 00125" data-sf-ec-immutable="" data-sf-marked="">CRICOS 00125J</a> | <a href="https://goto.murdoch.edu.au/TEQSANumber" data-event="site-interaction" data-category="legal footer" data-type="link" data-value="TEQSA number: PRV12163" data-sf-ec-immutable="">PRV12163</a></li><li>Australian University</li></ul><ul><li><a href="https://goto.murdoch.edu.au/CopyrightNotice" data-event="site-interaction" data-category="legal footer" data-type="link" data-value="Copyright &amp; Disclaimer" data-sf-ec-immutable="">Copyright &amp; Disclaimer</a></li><li><a href="https://goto.murdoch.edu.au/Privacy" data-event="site-interaction" data-category="legal footer" data-type="link" data-value="Privacy" data-sf-ec-immutable="">Privacy</a>
+ </li></ul>  
+</div>
+
+    </div>
+</div> </div> </div> <!-- legal ends --> </footer> <!-- footer ends --> 
+
+
+
+
+ <!-- bottom script starts --> <script src="/ResourcePackages/Murdoch2021/assets/dist/js/bundle-bottom.js?v=LkuggASLxd%2buoXRL%2fe7DUw%3d%3d" type="text/javascript"></script><script src="/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Scripts/AlertBanner/alert-banners.min.js?package=Murdoch2021&amp;v=LTE4MzU1MjI0NDQ%3d" type="text/javascript"></script><script type="application/json" id="PersonalizationTracker">
+	{"IsPagePersonalizationTarget":false,"IsUrlPersonalizationTarget":false,"PageId":"05e521af-9e2f-41f5-ad19-918d0d6ad00a"}
+</script><script type="text/javascript" src="/WebResource.axd?d=NjxTqR2bqTw1rewxxlkHPgFvOVq9Oo-VZXrKlHjhDXgqpx64JeZVOBZHZgW9AFIeGAibZQPmrX2GSAIWzRYD_KneFHUo3P4IMZW-j6cfrxBGGjruf6fe_M_51h-cKNeTMOACWbsqsWexnRHi6x7j3JpRjQ6SuHjA1ANuoIPd9UZXfYpiDu-UsXVe81BmEuo2MnvPKVK-3nI-9j1jxcKuK0YG--UXpV2rm-Ux2omG2Uc1&amp;t=638834957340000000">
+
+</script> <!-- bottom script ends --> </body> </html>

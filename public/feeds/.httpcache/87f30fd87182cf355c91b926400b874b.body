@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "utf-8">
+<meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+<title>Popular 24 hours TV Torrents | 1337x</title>
+<meta name = "description" content = "Browse last 24 hours most downloaded tv torrents. ">
+<meta name = "viewport" content = "width=device-width, initial-scale=1">
+
+<link rel = "stylesheet" href = "/css/jquery-ui.css">
+<link rel = "stylesheet" href = "/css/icons.css">
+<link rel = "stylesheet" href = "/css/fancySelect.css">
+<link rel="stylesheet" href="/css/style10.2025-09-19-12.css">
+
+<link rel="shortcut icon" href="/favicon.ico">
+<!--[if lt IE 9]><script src = "/js/html5shiv.js"></script><![endif]-->
+
+<style id="antiClickjack">body{display:none !important;}</style>
+<script type="text/javascript" id="antiClickjackJS">
+if (self === top) {
+var antiClickjack = document.getElementById("antiClickjack");
+antiClickjack.parentNode.removeChild(antiClickjack);
+} else {
+top.location = self.location;
+}
+</script>
+</head>
+<body>
+  <div class="mobile-menu"></div>
+  <div class="top-bar">
+    <div class="container">
+      <ul class="top-bar-nav">
+      
+        <li><a href="/register">Register</a></li>
+        <li class="active"><a href="/login">Login</a></li>
+
+            </ul>
+    </div>
+  </div>
+  <header>
+    <div class="container">
+      <div class="clearfix">
+         <div class="logo"><a href="/home/"><img alt="logo" src="/images/logo.svg"></a></div>
+                <a href="#" class="navbar-menu"><span></span><span></span><span></span></a>
+        <div class="search-box">
+          <form id="search-form" method="get" action="/srch">
+            <input type="search" placeholder="Search for torrents.." id="autocomplete" name="search" class="ui-autocomplete-input form-control" autocomplete="off">
+            <button type="submit" class="btn btn-search"><i class="flaticon-search"></i><span>Search</span></button>
+          </form>
+        </div><!-- search-box -->
+      </div><!-- for Clear the Floats -->
+      <nav>
+        <ul class="main-navigation">
+          <li class="active"><a href="/home/" title="Go to Home">Home</a></li>
+          <li><a href="/upload" title="Upload Torrent File">Upload</a></li>
+          <li><a href="/rules" title="Rules">Rules</a></li>
+          <li><a href="/contact" title="Contact 1337x">Contact</a></li>
+          <li><a href="/about" title="About us">About us</a></li>
+        </ul>
+      </nav>
+    </div><!-- container -->
+  </header>
+
+<main class="container">
+  <div class="row">
+    <aside class="col-3 pull-right">
+      <div class="list-box">
+        <h2>Browse torrents</h2>
+        <ul>
+                               <li><a href="/trending" title="Trending Torrents"><i class="flaticon-trending"></i> Trending Torrents</a></li>
+                    <li><a href="/movie-library/1/" title="Movie Library"><i class="flaticon-movie-library"></i> Movie library</a></li>
+                               <li><a href="/top-100" title="Top 100 Torrents"><i class="flaticon-top"></i> Top 100 Torrents</a></li>
+          <li><a href="/cat/Anime/1/" title="Anime"><i class="flaticon-ninja-portrait"></i> Anime</a></li>
+          <li><a href="/cat/Apps/1/" title="Applications"><i class="flaticon-apps"></i> Applications</a></li>
+          <li><a href="/cat/Documentaries/1/" title="Documentaries"><i class="flaticon-documentary"></i> Documentaries</a></li>
+          <li><a href="/cat/Games/1/" title="Games"><i class="flaticon-games"></i> Games</a></li>
+          <li><a href="/cat/Movies/1/" title="Movies"><i class="flaticon-movies"></i> Movies</a></li>
+          <li><a href="/cat/Music/1/" title="Movies"><i class="flaticon-music"></i> Music</a></li>
+          <li><a href="/cat/Other/1/" title="Others"><i class="flaticon-other"></i> Other</a></li>
+          <li><a href="/cat/TV/1/" title="Television"><i class="flaticon-tv"></i> Television</a></li>
+          <li><a href="/cat/XXX/1/" title="XXX"><i class="flaticon-xxx"></i> XXX</a></li>
+        </ul>
+      </div><!-- list-box -->
+      
+      <div class="list-box hidden-sm">
+        <h2>1337x Links</h2>
+        <ul class="list">
+          <li><a target="_blank" href="https://1337x-status.org/"> 1337x Status</a></li>
+                    <li><a target="_blank" href="https://chat.1337x.to"> 1337x Chat</a></li>
+          <li><a target="_blank" href="https://torrentz9.org">Torrentz9</a></li>
+          <li><a target="_blank" href="https://uFlix.to">uFlix</a></li>
+          <li><a target="_blank" href="https://njal.la">Njalla</a></li>
+          <li><a target="_blank" href="https://prq.se">PRQ</a></li>
+                              <li><a target="_blank" href="https://www.limetorrents.cc">Limetorrents</a></li>
+          <li><a target="_blank" href="https://www.torrentfunk.com">TorrentFunk</a></li>
+          <li><a target="_blank" rel="nofollow"  href="https://theporndude.com/">ThePornDude</a></li>
+                    <li><a target="_blank" href="https://www.torlock.com">Torlock</a></li>
+        </ul>
+      </div><!-- list-box -->
+    </aside>
+    <div class="col-9 page-content trending-torrent-explore">
+
+      <div class="box-info filter-list">
+        <div class="box-info-heading">
+          <ul class="clearfix">
+            <li><a title="Popular Today" href="/popular-tv"><span class="icon"><i class="flaticon-tv"></i></span> Popular Today</a></li>
+            <li><a title="Popular This Week" href="/popular-tv-week"><span class="icon"><i class="flaticon-tv"></i></span> Popular This Week</a></li>
+                        <li><a title="Trending Today" href="/trending/d/tv/"><span class="icon"><i class="flaticon-trending"></i></span> Trending Today</a></li>
+            <li><a title="Trending This Week" href="/trending/w/tv/"><span class="icon"><i class="flaticon-trending"></i></span> Trending This Week</a></li>
+            <li><a title="Top 100 This Month" href="/top-100-television"><span class="icon"><i class="flaticon-top"></i></span> Top 100 This Month</a></li>
+          </ul>
+        </div>
+      </div><!-- box-info -->
+
+    
+<center>
+<div id="bdbebadddefccacdfbff"></div>
+<script type="text/javascript" charset="UTF-8">
+var badcebbecfaccdf = '<div style="width:auto; text-align:center;"><a href="https://limeiptv.to?ref=lb"><img style="max-width: 100%;object-fit: contain; " src="https://limeiptv.to/static/b2.gif"></a></div>';
+
+document.getElementById('bdbebadddefccacdfbff').innerHTML = badcebbecfaccdf;
+</script>
+</center>
+<br>
+
+      <div class="box-info trending">
+        <div class="box-info-heading clearfix">
+          <h1><span class="featured-icon"><i class="flaticon-tv"></i></span> Download Most Popular TV Torrents Last 24 Hours</h1>
+        </div>
+      </div><!-- box-info -->
+
+      <div class="featured-list">
+        <div class="table-list-wrap">
+          <table class="table-list table table-responsive table-striped">
+            <thead>
+              <tr>
+                <th class="coll-1 name">name</th>
+                <th class="coll-2">se</th>
+                <th class="coll-3">le</th>
+                <th class="coll-date">time</th>
+                <th class="coll-4"><span class="size">size</span> <span class="info">info</span></th>
+                <th class="coll-5">uploader</th>
+              </tr>
+            </thead>
+            <tbody>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/71/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6484841/The-Terminal-List-Dark-Wolf-S01E06-1080p-x265-ELiTE/">The.Terminal.List.Dark.Wolf.S01E06.1080p.x265-ELiTE</a></td>
+                  <td class="coll-2 seeds">486</td>
+                  <td class="coll-3 leeches">373</td>
+                  <td class="coll-date">11am Sep. 17th</td>
+                  <td class="coll-4 size mob-uploader">699.1 MB<span class="seeds">486</span></td>
+                  <td class="coll-5 uploader"><a href="/user/Saturn5x/">Saturn5x</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/41/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485443/The-Ba-ds-of-Bollywood-2025-Hindi-1080p-WEBRip-x265-DD-5-1-ESub/">The Ba***ds of Bollywood (2025) Hindi 1080p WEBRip x265 DD 5.1 ESub</a></td>
+                  <td class="coll-2 seeds">826</td>
+                  <td class="coll-3 leeches">1029</td>
+                  <td class="coll-date">10am Sep. 18th</td>
+                  <td class="coll-4 size mob-uploader">3.5 GB<span class="seeds">826</span></td>
+                  <td class="coll-5 uploader"><a href="/user/krishh1337/">krishh1337</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/71/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485774/Peacemaker-2022-S02E05-1080p-x265-ELiTE/">Peacemaker.2022.S02E05.1080p.x265-ELiTE</a><span class="comments"><i class="flaticon-message"></i>2</span></td>
+                  <td class="coll-2 seeds">1001</td>
+                  <td class="coll-3 leeches">574</td>
+                  <td class="coll-date">3:20am</td>
+                  <td class="coll-4 size mob-uploader">843.5 MB<span class="seeds">1001</span></td>
+                  <td class="coll-5 uploader"><a href="/user/Saturn5x/">Saturn5x</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/71/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6484832/High-Potential-S02E01-1080p-x265-ELiTE/">High.Potential.S02E01.1080p.x265-ELiTE</a><span class="comments"><i class="flaticon-message"></i>1</span></td>
+                  <td class="coll-2 seeds">415</td>
+                  <td class="coll-3 leeches">286</td>
+                  <td class="coll-date">11am Sep. 17th</td>
+                  <td class="coll-4 size mob-uploader">851.6 MB<span class="seeds">415</span></td>
+                  <td class="coll-5 uploader"><a href="/user/Saturn5x/">Saturn5x</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/41/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485371/Black-Rabbit-S01-COMPLETE-1080p-NF-WEB-DL-H-264-EniaHD/">Black.Rabbit.S01.COMPLETE.1080p.NF.WEB-DL.H.264-EniaHD</a></td>
+                  <td class="coll-2 seeds">808</td>
+                  <td class="coll-3 leeches">535</td>
+                  <td class="coll-date">8am Sep. 18th</td>
+                  <td class="coll-4 size mob-uploader">30.6 GB<span class="seeds">808</span></td>
+                  <td class="coll-5 uploader"><a href="/user/ReXStAr/">ReXStAr</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/41/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485536/Black-Rabbit-2025-Eng-1080p-AV1-WEB-DL-DD-5-1-ESub/">Black Rabbit (2025) Eng 1080p AV1 WEB DL DD 5.1 ESub</a></td>
+                  <td class="coll-2 seeds">325</td>
+                  <td class="coll-3 leeches">338</td>
+                  <td class="coll-date">2pm Sep. 18th</td>
+                  <td class="coll-4 size mob-uploader">4.3 GB<span class="seeds">325</span></td>
+                  <td class="coll-5 uploader"><a href="/user/krishh1337/">krishh1337</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/41/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485767/Peacemaker-2022-S02E05-720p-x264-FENiX/">Peacemaker.2022.S02E05.720p.x264-FENiX</a></td>
+                  <td class="coll-2 seeds">411</td>
+                  <td class="coll-3 leeches">218</td>
+                  <td class="coll-date">2:36am</td>
+                  <td class="coll-4 size mob-uploader">599.2 MB<span class="seeds">411</span></td>
+                  <td class="coll-5 uploader"><a href="/user/Saturn5x/">Saturn5x</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/71/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485549/Atomic-S01E05-1080p-x265-ELiTE/">Atomic.S01E05.1080p.x265-ELiTE</a></td>
+                  <td class="coll-2 seeds">306</td>
+                  <td class="coll-3 leeches">130</td>
+                  <td class="coll-date">3pm Sep. 18th</td>
+                  <td class="coll-4 size mob-uploader">736.9 MB<span class="seeds">306</span></td>
+                  <td class="coll-5 uploader"><a href="/user/Saturn5x/">Saturn5x</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/41/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485325/NCIS-Tony-and-Ziva-S01E05-720p-x264-FENiX/">NCIS.Tony.and.Ziva.S01E05.720p.x264-FENiX</a></td>
+                  <td class="coll-2 seeds">118</td>
+                  <td class="coll-3 leeches">39</td>
+                  <td class="coll-date">6am Sep. 18th</td>
+                  <td class="coll-4 size mob-uploader">488.2 MB<span class="seeds">118</span></td>
+                  <td class="coll-5 uploader"><a href="/user/Saturn5x/">Saturn5x</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/71/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485586/Black-Rabbit-S01-1080p-ENG-ITA-H265-TheBlackKing/">Black.Rabbit.S01.1080p.ENG.ITA.H265-TheBlackKing</a></td>
+                  <td class="coll-2 seeds">349</td>
+                  <td class="coll-3 leeches">313</td>
+                  <td class="coll-date">4pm Sep. 18th</td>
+                  <td class="coll-4 size mob-uploader">10.8 GB<span class="seeds">349</span></td>
+                  <td class="coll-5 uploader"><a href="/user/LittleMouse/">LittleMouse</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/71/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485332/NCIS-Tony-and-Ziva-S01E05-1080p-x265-ELiTE/">NCIS.Tony.and.Ziva.S01E05.1080p.x265-ELiTE</a></td>
+                  <td class="coll-2 seeds">137</td>
+                  <td class="coll-3 leeches">45</td>
+                  <td class="coll-date">6am Sep. 18th</td>
+                  <td class="coll-4 size mob-uploader">616.3 MB<span class="seeds">137</span></td>
+                  <td class="coll-5 uploader"><a href="/user/Saturn5x/">Saturn5x</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/41/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485446/The-Bads-of-Bollywood-2025-S01-EP01-07-1080p-Tam-Tel-Hin-DDP-192Kbps-ESub/">The Bads of Bollywood (2025) S01 EP01-07 1080p [Tam+Tel+Hin] DDP 192Kbps ESub</a></td>
+                  <td class="coll-2 seeds">85</td>
+                  <td class="coll-3 leeches">135</td>
+                  <td class="coll-date">10am Sep. 18th</td>
+                  <td class="coll-4 size mob-trial-uploader">5.5 GB<span class="seeds">85</span></td>
+                  <td class="coll-5 trial-uploader"><a href="/user/rogates/">rogates</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/71/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485776/Chief-of-War-S01E09-1080p-x265-ELiTE/">Chief.of.War.S01E09.1080p.x265-ELiTE</a><span class="comments"><i class="flaticon-message"></i>2</span></td>
+                  <td class="coll-2 seeds">294</td>
+                  <td class="coll-3 leeches">286</td>
+                  <td class="coll-date">4:01am</td>
+                  <td class="coll-4 size mob-uploader">1.3 GB<span class="seeds">294</span></td>
+                  <td class="coll-5 uploader"><a href="/user/Saturn5x/">Saturn5x</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/41/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485771/Chief-of-War-S01E09-720p-x264-FENiX/">Chief.of.War.S01E09.720p.x264-FENiX</a></td>
+                  <td class="coll-2 seeds">218</td>
+                  <td class="coll-3 leeches">258</td>
+                  <td class="coll-date">3:04am</td>
+                  <td class="coll-4 size mob-uploader">813.8 MB<span class="seeds">218</span></td>
+                  <td class="coll-5 uploader"><a href="/user/Saturn5x/">Saturn5x</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/41/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6484857/Gen-V-S02E01-1080p-ITA-ENG-H264-TheBlackKing/">Gen.V.S02E01.1080p.ITA.ENG.H264-TheBlackKing</a></td>
+                  <td class="coll-2 seeds">122</td>
+                  <td class="coll-3 leeches">24</td>
+                  <td class="coll-date">12pm Sep. 17th</td>
+                  <td class="coll-4 size mob-uploader">3.5 GB<span class="seeds">122</span></td>
+                  <td class="coll-5 uploader"><a href="/user/LittleMouse/">LittleMouse</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/71/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485769/Invasion-2021-S03E05-1080p-x265-ELiTE/">Invasion.2021.S03E05.1080p.x265-ELiTE</a></td>
+                  <td class="coll-2 seeds">262</td>
+                  <td class="coll-3 leeches">128</td>
+                  <td class="coll-date">2:52am</td>
+                  <td class="coll-4 size mob-uploader">548.8 MB<span class="seeds">262</span></td>
+                  <td class="coll-5 uploader"><a href="/user/Saturn5x/">Saturn5x</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/41/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6484858/Gen-V-S02E02-1080p-ITA-ENG-H264-TheBlackKing/">Gen.V.S02E02.1080p.ITA.ENG.H264-TheBlackKing</a></td>
+                  <td class="coll-2 seeds">115</td>
+                  <td class="coll-3 leeches">20</td>
+                  <td class="coll-date">12pm Sep. 17th</td>
+                  <td class="coll-4 size mob-uploader">3.2 GB<span class="seeds">115</span></td>
+                  <td class="coll-5 uploader"><a href="/user/LittleMouse/">LittleMouse</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/41/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6484860/Gen-V-S02E03-1080p-ITA-ENG-H264-TheBlackKing/">Gen.V.S02E03.1080p.ITA.ENG.H264-TheBlackKing</a></td>
+                  <td class="coll-2 seeds">100</td>
+                  <td class="coll-3 leeches">21</td>
+                  <td class="coll-date">12pm Sep. 17th</td>
+                  <td class="coll-4 size mob-uploader">4.0 GB<span class="seeds">100</span></td>
+                  <td class="coll-5 uploader"><a href="/user/LittleMouse/">LittleMouse</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/71/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485111/Alien-Earth-S01E07-Emergenza-ITA-ENG-2160p-DSNP-WEB-DL-DDP5-1-DV-HDR-H-265-MeM-GP-mkv/">Alien.Earth.S01E07.Emergenza.ITA.ENG.2160p.DSNP.WEB-DL.DDP5.1.DV.HDR.H.265-MeM.G...</a></td>
+                  <td class="coll-2 seeds">145</td>
+                  <td class="coll-3 leeches">38</td>
+                  <td class="coll-date">9pm Sep. 17th</td>
+                  <td class="coll-4 size mob-vip">4.6 GB<span class="seeds">145</span></td>
+                  <td class="coll-5 vip"><a href="/user/ppb1/">ppb1</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/71/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485119/Gen-V-S02E01-Nuovo-anno-nuova-God-U-ITA-ENG-2160p-AMZN-WEB-DL-DDP5-1-DV-HDR-H-265-MeM-GP-mkv/">Gen.V.S02E01.Nuovo.anno.nuova.God.U.ITA.ENG.2160p.AMZN.WEB-DL.DDP5.1.DV.HDR.H.26...</a></td>
+                  <td class="coll-2 seeds">160</td>
+                  <td class="coll-3 leeches">112</td>
+                  <td class="coll-date">10pm Sep. 17th</td>
+                  <td class="coll-4 size mob-vip">5.2 GB<span class="seeds">160</span></td>
+                  <td class="coll-5 vip"><a href="/user/ppb1/">ppb1</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/71/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485612/The-Bads-of-Bollywood-S01-720p-10bit-DS4K-NF-WEBRip-x265-HEVC-Hindi-AAC-5-1-ESub-Immortal/">The Bads of Bollywood S01 720p 10bit DS4K NF WEBRip x265 HEVC Hindi AAC 5.1 ESub...</a></td>
+                  <td class="coll-2 seeds">158</td>
+                  <td class="coll-3 leeches">263</td>
+                  <td class="coll-date">4pm Sep. 18th</td>
+                  <td class="coll-4 size mob-uploader">3.2 GB<span class="seeds">158</span></td>
+                  <td class="coll-5 uploader"><a href="/user/iMMoRTaL69/">iMMoRTaL69</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/71/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485474/Atomic-2025-S01-720p-WEB-DL-HEVC-x265-BONE/">Atomic 2025 S01 720p WEB-DL HEVC x265 BONE</a></td>
+                  <td class="coll-2 seeds">145</td>
+                  <td class="coll-3 leeches">100</td>
+                  <td class="coll-date">11am Sep. 18th</td>
+                  <td class="coll-4 size mob-vip">1.7 GB<span class="seeds">145</span></td>
+                  <td class="coll-5 vip"><a href="/user/bone111/">bone111</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/41/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485464/AEW-September-to-Remember-2025-09-17-720p-WEB-h264-HEEL-TJET/">AEW September to Remember 2025 09 17 720p WEB h264-HEEL [TJET]</a></td>
+                  <td class="coll-2 seeds">141</td>
+                  <td class="coll-3 leeches">32</td>
+                  <td class="coll-date">11am Sep. 18th</td>
+                  <td class="coll-4 size mob-uploader">2.8 GB<span class="seeds">141</span></td>
+                  <td class="coll-5 uploader"><a href="/user/EZZT/">EZZT</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/71/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6484898/The-Morning-Show-S04E01-1080p-ENG-ITA-H265-TheBlackKing/">The.Morning.Show.S04E01.1080p.ENG.ITA.H265-TheBlackKing</a></td>
+                  <td class="coll-2 seeds">91</td>
+                  <td class="coll-3 leeches">6</td>
+                  <td class="coll-date">1pm Sep. 17th</td>
+                  <td class="coll-4 size mob-uploader">1.3 GB<span class="seeds">91</span></td>
+                  <td class="coll-5 uploader"><a href="/user/LittleMouse/">LittleMouse</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/71/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6484862/The-Terminal-List-Dark-Wolf-S01E06-1080p-ENG-ITA-H265-TheBlackKing/">The.Terminal.List.Dark.Wolf.S01E06.1080p.ENG.ITA.H265-TheBlackKing</a></td>
+                  <td class="coll-2 seeds">92</td>
+                  <td class="coll-3 leeches">24</td>
+                  <td class="coll-date">12pm Sep. 17th</td>
+                  <td class="coll-4 size mob-uploader">1.4 GB<span class="seeds">92</span></td>
+                  <td class="coll-5 uploader"><a href="/user/LittleMouse/">LittleMouse</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/71/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485120/Gen-V-S02E02-La-giustizia-non-dimentica-ITA-ENG-2160p-AMZN-WEB-DL-DDP5-1-DV-HDR-H-265-MeM-GP-mkv/">Gen.V.S02E02.La.giustizia.non.dimentica.ITA.ENG.2160p.AMZN.WEB-DL.DDP5.1.DV.HDR....</a></td>
+                  <td class="coll-2 seeds">142</td>
+                  <td class="coll-3 leeches">60</td>
+                  <td class="coll-date">10pm Sep. 17th</td>
+                  <td class="coll-4 size mob-vip">4.7 GB<span class="seeds">142</span></td>
+                  <td class="coll-5 vip"><a href="/user/ppb1/">ppb1</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/41/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485532/Atomic-S01E05-720p-x264-FENiX/">Atomic.S01E05.720p.x264-FENiX</a></td>
+                  <td class="coll-2 seeds">97</td>
+                  <td class="coll-3 leeches">41</td>
+                  <td class="coll-date">2pm Sep. 18th</td>
+                  <td class="coll-4 size mob-uploader">531.1 MB<span class="seeds">97</span></td>
+                  <td class="coll-5 uploader"><a href="/user/Saturn5x/">Saturn5x</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/41/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485798/Peacemaker-2022-S02E05-1080p-WEB-h264-ETHEL/">Peacemaker.2022.S02E05.1080p.WEB.h264-ETHEL</a></td>
+                  <td class="coll-2 seeds">222</td>
+                  <td class="coll-3 leeches">76</td>
+                  <td class="coll-date">4:44am</td>
+                  <td class="coll-4 size mob-uploader">2.4 GB<span class="seeds">222</span></td>
+                  <td class="coll-5 uploader"><a href="/user/leojeniva/">leojeniva</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/41/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485839/Peacemaker-S02E05-2025-1080p-HMAX-WEBRip-AAC5-1-10bits-x265-Rapta/">Peacemaker.S02E05.2025.1080p.HMAX.WEBRip.AAC5.1.10bits.x265-Rapta</a></td>
+                  <td class="coll-2 seeds">317</td>
+                  <td class="coll-3 leeches">176</td>
+                  <td class="coll-date">5:26am</td>
+                  <td class="coll-4 size mob-uploader">598.4 MB<span class="seeds">317</span></td>
+                  <td class="coll-5 uploader"><a href="/user/RaptaG/">RaptaG</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/41/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485459/Atomic-S01E05-The-Path-Of-Totality-720p-H-264/">Atomic.S01E05.The.Path.Of.Totality.720p.H.264</a></td>
+                  <td class="coll-2 seeds">118</td>
+                  <td class="coll-3 leeches">13</td>
+                  <td class="coll-date">10am Sep. 18th</td>
+                  <td class="coll-4 size mob-uploader">438.2 MB<span class="seeds">118</span></td>
+                  <td class="coll-5 uploader"><a href="/user/platypusp/">platypusp</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/71/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485121/Gen-V-S02E3-U-come-umano-ITA-ENG-2160p-AMZN-WEB-DL-DDP5-1-DV-HDR-H-265-MeM-GP-mkv/">Gen.V.S02E3.U.come.umano.ITA.ENG.2160p.AMZN.WEB-DL.DDP5.1.DV.HDR.H.265-MeM.GP.mk...</a></td>
+                  <td class="coll-2 seeds">130</td>
+                  <td class="coll-3 leeches">50</td>
+                  <td class="coll-date">10pm Sep. 17th</td>
+                  <td class="coll-4 size mob-vip">5.8 GB<span class="seeds">130</span></td>
+                  <td class="coll-5 vip"><a href="/user/ppb1/">ppb1</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/41/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485766/Invasion-2021-S03E05-720p-x264-FENiX/">Invasion.2021.S03E05.720p.x264-FENiX</a></td>
+                  <td class="coll-2 seeds">105</td>
+                  <td class="coll-3 leeches">65</td>
+                  <td class="coll-date">2:33am</td>
+                  <td class="coll-4 size mob-uploader">433.2 MB<span class="seeds">105</span></td>
+                  <td class="coll-5 uploader"><a href="/user/Saturn5x/">Saturn5x</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/71/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485742/Black-Rabbit-S01-1080p-WEBRip-x265-KONTRAST/">Black.Rabbit.S01.1080p.WEBRip.x265-KONTRAST</a></td>
+                  <td class="coll-2 seeds">159</td>
+                  <td class="coll-3 leeches">178</td>
+                  <td class="coll-date">12:31am</td>
+                  <td class="coll-4 size mob-uploader">10.3 GB<span class="seeds">159</span></td>
+                  <td class="coll-5 uploader"><a href="/user/rondobym/">rondobym</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/41/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485465/AEW-September-to-Remember-2025-09-17-1080p-WEB-h264-HEEL-TJET/">AEW September to Remember 2025 09 17 1080p WEB h264-HEEL [TJET]</a></td>
+                  <td class="coll-2 seeds">102</td>
+                  <td class="coll-3 leeches">12</td>
+                  <td class="coll-date">11am Sep. 18th</td>
+                  <td class="coll-4 size mob-uploader">7.5 GB<span class="seeds">102</span></td>
+                  <td class="coll-5 uploader"><a href="/user/EZZT/">EZZT</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/41/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6484849/WWE-NXT-2025-09-16-720p-WEB-h264-KYR-TJET/">WWE NXT 2025 09 16 720p WEB h264-KYR [TJET]</a></td>
+                  <td class="coll-2 seeds">77</td>
+                  <td class="coll-3 leeches">9</td>
+                  <td class="coll-date">12pm Sep. 17th</td>
+                  <td class="coll-4 size mob-uploader">2.1 GB<span class="seeds">77</span></td>
+                  <td class="coll-5 uploader"><a href="/user/EZZT/">EZZT</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/71/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485713/The-Rumour-2025-S01-720p-WEB-DL-HEVC-x265-BONE/">The Rumour 2025 S01 720p WEB-DL HEVC x265 BONE</a><span class="comments"><i class="flaticon-message"></i>1</span></td>
+                  <td class="coll-2 seeds">123</td>
+                  <td class="coll-3 leeches">54</td>
+                  <td class="coll-date">9pm Sep. 18th</td>
+                  <td class="coll-4 size mob-vip">1.7 GB<span class="seeds">123</span></td>
+                  <td class="coll-5 vip"><a href="/user/bone111/">bone111</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/41/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485110/Alien-Earth-S01E07-Emergenza-ITA-ENG-1080p-DSNP-WEB-DL-DDP5-1-H-264-MeM-GP-mkv/">Alien.Earth.S01E07.Emergenza.ITA.ENG.1080p.DSNP.WEB-DL.DDP5.1.H.264-MeM.GP.mkv</a></td>
+                  <td class="coll-2 seeds">184</td>
+                  <td class="coll-3 leeches">24</td>
+                  <td class="coll-date">9pm Sep. 17th</td>
+                  <td class="coll-4 size mob-vip">1.8 GB<span class="seeds">184</span></td>
+                  <td class="coll-5 vip"><a href="/user/ppb1/">ppb1</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/71/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485476/The-Client-List-2012-S01-S02-1080p-WEB-DL-x265-10bit-EAC3-5-1-Celdra-QxR/">The Client List (2012) S01-S02 (1080p WEB-DL x265 10bit EAC3 5.1 Celdra) [QxR]</a><span class="comments"><i class="flaticon-message"></i>4</span></td>
+                  <td class="coll-2 seeds">67</td>
+                  <td class="coll-3 leeches">45</td>
+                  <td class="coll-date">11am Sep. 18th</td>
+                  <td class="coll-4 size mob-vip">37.9 GB<span class="seeds">67</span></td>
+                  <td class="coll-5 vip"><a href="/user/QxR/">QxR</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/71/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485668/Futurama-S13-1080p-x265-AMBER/">Futurama.S13.1080p.x265-AMBER</a></td>
+                  <td class="coll-2 seeds">225</td>
+                  <td class="coll-3 leeches">76</td>
+                  <td class="coll-date">7pm Sep. 18th</td>
+                  <td class="coll-4 size mob-uploader">4.2 GB<span class="seeds">225</span></td>
+                  <td class="coll-5 uploader"><a href="/user/battlestar/">battlestar</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/75/0/" class="icon"><i class="flaticon-h264"></i></a><a href="/torrent/6484901/Person-Of-Interest-2011-2016-The-Complete-Series/">Person Of Interest (2011-2016) The Complete Series</a></td>
+                  <td class="coll-2 seeds">45</td>
+                  <td class="coll-3 leeches">45</td>
+                  <td class="coll-date">1pm Sep. 17th</td>
+                  <td class="coll-4 size mob-trial-uploader">15.5 GB<span class="seeds">45</span></td>
+                  <td class="coll-5 trial-uploader"><a href="/user/marcomegaman/">marcomegaman</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/41/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485794/The-Trail-S02-2025-Hindi-1080p-WEBRip-x265-DD-5-1-ESub/">The Trail S02 (2025) Hindi 1080p WEBRip x265 DD 5.1 ESub</a></td>
+                  <td class="coll-2 seeds">56</td>
+                  <td class="coll-3 leeches">106</td>
+                  <td class="coll-date">4:42am</td>
+                  <td class="coll-4 size mob-uploader">2.3 GB<span class="seeds">56</span></td>
+                  <td class="coll-5 uploader"><a href="/user/krishh1337/">krishh1337</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/41/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485665/Black-Rabbit-Season-1-Mp4-x264-AC3-1080p/">Black Rabbit - Season 1 - Mp4 x264 AC3 1080p</a></td>
+                  <td class="coll-2 seeds">150</td>
+                  <td class="coll-3 leeches">102</td>
+                  <td class="coll-date">7pm Sep. 18th</td>
+                  <td class="coll-4 size mob-uploader">11.9 GB<span class="seeds">150</span></td>
+                  <td class="coll-5 uploader"><a href="/user/TruthPhoenix/">TruthPhoenix</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/41/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485116/Gen-V-S02E03-U-come-umano-ITA-ENG-1080p-AMZN-WEB-DL-DDP5-1-H-264-MeM-GP-mkv/">Gen.V.S02E03.U.come.umano.ITA.ENG.1080p.AMZN.WEB-DL.DDP5.1.H.264-MeM.GP.mkv</a></td>
+                  <td class="coll-2 seeds">103</td>
+                  <td class="coll-3 leeches">26</td>
+                  <td class="coll-date">10pm Sep. 17th</td>
+                  <td class="coll-4 size mob-vip">3.9 GB<span class="seeds">103</span></td>
+                  <td class="coll-5 vip"><a href="/user/ppb1/">ppb1</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/71/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485865/Outlander-Blood-of-My-Blood-S01E08-1080p-x265-ELiTE/">Outlander.Blood.of.My.Blood.S01E08.1080p.x265-ELiTE</a></td>
+                  <td class="coll-2 seeds">95</td>
+                  <td class="coll-3 leeches">92</td>
+                  <td class="coll-date">5:56am</td>
+                  <td class="coll-4 size mob-uploader">898.9 MB<span class="seeds">95</span></td>
+                  <td class="coll-5 uploader"><a href="/user/Saturn5x/">Saturn5x</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/41/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485461/AEW-Dynamite-S06E51-September-To-Remember-FiteTv-Triller-2025-09-17-1080p-AVCHD-SC-SDH/">AEW Dynamite S06E51 September To Remember FiteTv-Triller 2025-09-17 1080p AVCHD-...</a></td>
+                  <td class="coll-2 seeds">27</td>
+                  <td class="coll-3 leeches">13</td>
+                  <td class="coll-date">11am Sep. 18th</td>
+                  <td class="coll-4 size mob-uploader">6.7 GB<span class="seeds">27</span></td>
+                  <td class="coll-5 uploader"><a href="/user/SCSA420/">SCSA420</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/41/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485025/moon-aka-Charlie-Sheen-1080p-WEBRip-x265-AC3-MultiSubs/">[moon] aka Charlie Sheen 1080p WEBRip x265 AC3 MultiSubs</a></td>
+                  <td class="coll-2 seeds">30</td>
+                  <td class="coll-3 leeches">17</td>
+                  <td class="coll-date">5pm Sep. 17th</td>
+                  <td class="coll-4 size mob-trial-uploader">4.8 GB<span class="seeds">30</span></td>
+                  <td class="coll-5 trial-uploader"><a href="/user/fromthemoon/">fromthemoon</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/41/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485107/Coronation-street-17th-Sep-2025-1080-Deep70/">Coronation street 17th Sep 2025 1080 (Deep70)</a></td>
+                  <td class="coll-2 seeds">41</td>
+                  <td class="coll-3 leeches">4</td>
+                  <td class="coll-date">9pm Sep. 17th</td>
+                  <td class="coll-4 size mob-vip">908.7 MB<span class="seeds">41</span></td>
+                  <td class="coll-5 vip"><a href="/user/deep70/">deep70</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/41/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485113/Gen-V-S02E01-Nuovo-anno-nuova-God-U-ITA-ENG-1080p-AMZN-WEB-DL-DDP5-1-H-264-MeM-GP-mkv/">Gen.V.S02E01.Nuovo.anno.nuova.God.U.ITA.ENG.1080p.AMZN.WEB-DL.DDP5.1.H.264-MeM.G...</a></td>
+                  <td class="coll-2 seeds">111</td>
+                  <td class="coll-3 leeches">28</td>
+                  <td class="coll-date">9pm Sep. 17th</td>
+                  <td class="coll-4 size mob-vip">3.4 GB<span class="seeds">111</span></td>
+                  <td class="coll-5 vip"><a href="/user/ppb1/">ppb1</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/41/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485115/Gen-V-S02E02-La-giustizia-non-dimentica-ITA-ENG-1080p-AMZN-WEB-DL-DDP5-1-H-264-MeM-GP-mkv/">Gen.V.S02E02.La.giustizia.non.dimentica.ITA.ENG.1080p.AMZN.WEB-DL.DDP5.1.H.264-M...</a></td>
+                  <td class="coll-2 seeds">113</td>
+                  <td class="coll-3 leeches">25</td>
+                  <td class="coll-date">10pm Sep. 17th</td>
+                  <td class="coll-4 size mob-vip">3.2 GB<span class="seeds">113</span></td>
+                  <td class="coll-5 vip"><a href="/user/ppb1/">ppb1</a></td>
+                </tr>
+                                <tr>
+                  <td class="coll-1 name"><a href="/sub/71/0/" class="icon"><i class="flaticon-hd"></i></a><a href="/torrent/6485489/Foundation-S03-1080p-WEBRip-x265-KONTRAST/">Foundation.S03.1080p.WEBRip.x265-KONTRAST</a></td>
+                  <td class="coll-2 seeds">65</td>
+                  <td class="coll-3 leeches">37</td>
+                  <td class="coll-date">12pm Sep. 18th</td>
+                  <td class="coll-4 size mob-uploader">11.1 GB<span class="seeds">65</span></td>
+                  <td class="coll-5 uploader"><a href="/user/rondobym/">rondobym</a></td>
+                </tr>
+                            </tbody>
+          </table>
+        </div><!-- table-list-wrap -->
+      </div><!-- featured-list -->
+        
+    </div><!-- page-content -->
+  </div><!-- .row -->
+</main>
+
+<footer>
+  <div class="bitcoin">
+    <div class="bitcoin-icon-wrap">
+      <span class="bitcoin-icon"><i class="flaticon-bitcoin red"></i></span>
+    </div>
+    <span class="bitcoin-text"><span>Bitcoin Donate: </span><a href="bitcoin:3Q1337xL2i6jXrXqZ5aMfhN4wp366GQc44">3Q1337xL2i6jXrXqZ5aMfhN4wp366GQc44</a></span>
+  </div>
+  <a class="scroll-top" href="#"><i class="flaticon-up"></i></a>    
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li class="active"><a href="/home/">Full Home Page</a></li>
+    <li><a href="/contact">Dmca</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+  <p class="info">1337x  2007 - 2025</p>
+</footer>
+<script src = "/js/jquery-1.11.0.min.js"></script>
+<script src = "/js/jquery-ui.js"></script>
+<script src = "/js/auto-searchv2.js"></script>
+
+<script src = "/js/fancySelect.js"></script>
+<script src = "/js/main.js"></script> 
+<script>
+
+  $(window).load(function() {
+    $('.select').fancySelect();
+  });
+</script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'98184ee8eab9e351',t:'MTc1ODI3Njc4Mw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

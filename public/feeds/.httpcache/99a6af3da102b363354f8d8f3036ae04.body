@@ -1,0 +1,3004 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover">
+
+        
+        
+                    <link rel="apple-touch-icon" sizes="57x57" href="https://cdn-st1.smotrim.ru/smotrimru/i/favicon/apple-touch-icon-57x57.png">
+            <link rel="apple-touch-icon" sizes="72x72" href="https://cdn-st1.smotrim.ru/smotrimru/i/favicon/apple-touch-icon-72x72.png">
+            <link rel="apple-touch-icon" sizes="76x76" href="https://cdn-st1.smotrim.ru/smotrimru/i/favicon/apple-touch-icon-76x76.png">
+            <link rel="apple-touch-icon" sizes="114x114" href="https://cdn-st1.smotrim.ru/smotrimru/i/favicon/apple-touch-icon-114x114.png">
+            <link rel="apple-touch-icon" sizes="120x120" href="https://cdn-st1.smotrim.ru/smotrimru/i/favicon/apple-touch-icon-120x120.png">
+            <link rel="apple-touch-icon" sizes="144x144" href="https://cdn-st1.smotrim.ru/smotrimru/i/favicon/apple-touch-icon-144x144.png">
+            <link rel="apple-touch-icon" sizes="152x152" href="https://cdn-st1.smotrim.ru/smotrimru/i/favicon/apple-touch-icon-152x152.png">
+            <link rel="apple-touch-icon" sizes="180x180" href="https://cdn-st1.smotrim.ru/smotrimru/i/favicon/apple-touch-icon-180x180.png">
+            <link href="https://cdn-st1.smotrim.ru/smotrimru/i/favicon/safari-pinned-tab.svg" rel="mask-icon" color="#960000"/>
+            <link rel="icon" type="image/png" sizes="32x32" href="https://cdn-st1.smotrim.ru/smotrimru/i/favicon/favicon-32x32.png?v=1">
+            <link rel="icon" type="image/png" sizes="16x16" href="https://cdn-st1.smotrim.ru/smotrimru/i/favicon/favicon-16x16.png?v=1">
+            <link rel="icon" href="https://cdn-st1.smotrim.ru/smotrimru/i/favicon/favicon.ico" type="image/x-icon">
+        
+
+
+
+
+        
+        <meta name="msapplication-TileColor" content="#960000">
+        <meta name="theme-color" content="#960000"/>
+        
+
+
+        <title>Все новости : события в Москве, России и мире сегодня|Смотрим прямой эфир</title>
+
+
+
+
+<meta name="description" content="Смотреть последние новости и события, происходящие в России и мире сейчас, а также комментарии экспертов, прогноз, обзоры, прямой эфир">
+
+<link rel="canonical" href="https://smotrim.ru/articles" />
+
+
+<meta property="og:site_name" content="smotrim.ru">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://smotrim.ru/articles">
+<meta property="og:image" content="https://smotrim.ru/i/smotrim_logo_soc_new.png">
+<meta property="og:title" content="Все новости : события в Москве, России и мире сегодня|Смотрим прямой эфир">
+<meta property="og:description" content="Смотреть последние новости и события, происходящие в России и мире сейчас, а также комментарии экспертов, прогноз, обзоры, прямой эфир">
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://smotrim.ru/articles">
+<meta name="twitter:image" content="https://smotrim.ru/i/smotrim_logo_soc_new.png">
+<meta name="twitter:title" content="Все новости : события в Москве, России и мире сегодня|Смотрим прямой эфир">
+<meta name="twitter:description" content="Смотреть последние новости и события, происходящие в России и мире сейчас, а также комментарии экспертов, прогноз, обзоры, прямой эфир">
+
+
+
+        
+        <!-- Adv slot 292 [ -->
+    
+
+    
+        
+        
+        
+                <script async src="https://yandex.ru/ads/system/header-bidding.js"></script>
+<script>
+var adfoxBiddersMap = {
+        "adfox_imho-video":  "2123526",
+        "hybrid": "2923215",
+        "adfox_adsmart":     "962449",
+        "adfox_roden-media": "2109701",
+        "adfox_NAMENAME":    "1963432"
+};
+
+if (window.innerWidth > 1025) {
+        var adUnits = [
+            {
+                "code":  "adfox_159706077566131331", /*1000х90*/
+                "sizes": [
+                    [
+                        970,
+                        250
+                    ],
+                    [
+                        1280,
+                        250
+                    ]
+                ],
+                "bids":  [
+                    {
+                        "bidder": "adfox_imho-video",
+                        "params": {
+                            "p1": "cqrzj",
+                            "p2": "hity"
+                        }
+                    },
+                   {
+                        "bidder": "hybrid",
+                        "params": {
+                            "placementId": "65ddfbc27bc72f10b8a264de"
+                        }
+                    },
+                    {
+                        "bidder": "adfox_roden-media",
+                        "params": {
+                            "p1": "cvufp",
+                            "p2": "hfln"
+                        }
+                    },
+                    {
+                        "bidder": "adfox_adsmart",
+                        "params": {
+                            "p1": "cvhvw",
+                            "p2": "ul"
+                        }
+                    }
+                ]
+            },
+            {
+                "code":     "adfox_16088855316344568", /*inpage combo_desktop*/
+                "codeType": "combo",
+                "sizes":      [
+                    [
+                        640,
+                        480
+                    ]
+                ],
+                "bids":     [
+                   {
+                        "bidder": "adfox_NAMENAME",
+                        "params": {
+                            "p1": "cysgk",
+                            "p2": "imal"
+                        }
+                    },
+                    {
+                        "bidder": "adfox_roden-media",
+                        "params": {
+                            "p1": "cvufr",
+                            "p2": "gzpa"
+                        }
+                    }
+                ]
+            },
+            {
+                "code": "adfox_165953868811526418", /*middle*/
+                "bids": [
+                    {
+                        "bidder": "adfox_adsmart",
+                        "params": {
+                            "p1": "cvhvx",
+                            "p2": "ul"
+                        }
+                    }
+                ]
+            },
+            {
+                "code":     "pl-yd-video", /*multiroll*/
+                "codeType": "instream",
+                "bids":     [
+                    {
+                        "bidder":       "adfox_roden-media",
+                        "params":       {
+                            "p1": "cvufv",
+                            "p2": "gjlz"
+                        },
+                        "adBreakTypes": [
+                            "preroll",
+                            "midroll",
+                            "postroll"
+                        ]
+                    }
+                ]
+            }
+        ];
+
+        var syncPixels = [
+            {
+                "bidder": "hybrid",
+                "pixels": [
+                    "https://www.tns-counter.ru/V13a****idsh_ad/ru/CP1251/tmsec=idsh_dis/",
+                    "https://www.tns-counter.ru/V13a****idsh_vid/ru/CP1251/tmsec=idsh_smotrimru-hbrdis/",
+                    "https://mc.yandex.ru/watch/66716692?page-url=smotrimru%3Futm_source=dis_hybrid_default%26utm_medium=%26utm_campaign=%26utm_content=%26utm_term=&page-ref="+window.location.href
+                ]
+            }
+        ]
+} 
+else if (window.innerWidth <= 1024) {
+        var adUnits = [
+            {
+                "code":  "adfox_16560706973329040", /*topbanner_smartphone*/
+                "sizes": [
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                "bids":  [
+                    {
+                        "bidder": "adfox_imho-video",
+                        "params": {
+                            "p1": "cqsmo",
+                            "p2": "hiua"
+                        }
+                    },
+                   {
+                        "bidder": "hybrid",
+                        "params": {
+                            "placementId": "65ddfbc37bc72f10b8a264e0"
+                        }
+                    },
+                    {
+                        "bidder": "adfox_adsmart",
+                        "params": {
+                            "p1": "cvhvy",
+                            "p2": "ul"
+                        }
+                    },
+                    {
+                        "bidder": "adfox_roden-media",
+                        "params": {
+                            p1: "cvufs",
+                            p2: "hbts"
+                        }
+                    },
+                    {
+                        "bidder": "adfox_NAMENAME",
+                        "params": {
+                            "p1": "cukmo",
+                            "p2": "hajj"
+                        }
+                    }
+                ]
+            },
+            {
+                "code": "adfox_160888808039868553", /*mobile middle*/
+                "bids": [
+                    {
+                        "bidder": "adfox_imho-video",
+                        "params": {
+                            "p1": "cxkzf",
+                            "p2": "hiuc"
+                        }
+                    },
+                    {
+                        "bidder": "adfox_adsmart",
+                        "params": {
+                            "p1": "cvhvx",
+                            "p2": "ul"
+                        }
+                    }
+                ]
+            },
+            {
+                "code":     "adfox_160888596368771928", /*inpage combo_mobile*/
+                "codeType": "combo",
+                "sizes":      [
+                    [
+                        300,
+                        250
+                    ],
+                    [
+                        366,
+                        280
+                    ],
+                    [
+                        300,
+                        300
+                    ]
+                ],
+                "bids":     [
+                   {
+                        "bidder": "adfox_NAMENAME",
+                        "params": {
+                            "p1": "cysgk",
+                            "p2": "imal"
+                        }
+                    },
+                    {
+                        "bidder": "adfox_roden-media",
+                        "params": {
+                            "p1": "cvuft",
+                            "p2": "hjsx"
+                        }
+                    }
+                ]
+            },
+            {
+                "code":     "pl-yd-video", /*multiroll*/
+                "codeType": "instream",
+                "bids":     [
+                    {
+                        "bidder":       "adfox_roden-media",
+                        "params":       {
+                            "p1": "cvufv",
+                            "p2": "gjlz"
+                        },
+                        "adBreakTypes": [
+                            "preroll",
+                            "midroll",
+                            "postroll"
+                        ]
+                    }
+                ]
+            }
+        ];
+    var syncPixels = [
+            {
+                "bidder": "hybrid",
+                "pixels": [
+                    "https://www.tns-counter.ru/V13a****idsh_ad/ru/CP1251/tmsec=idsh_mob/",
+                    "https://www.tns-counter.ru/V13a****idsh_vid/ru/CP1251/tmsec=idsh_smotrimru-hbrmob/",
+                    "https://mc.yandex.ru/watch/66716692?page-url=smotrimru%3Futm_source=mob_hybrid_default%26utm_medium=%26utm_campaign=%26utm_content=%26utm_term=&page-ref="+window.location.href
+                ]
+            }
+        ]
+};
+
+var userTimeout = 2000;
+
+window.YaHeaderBiddingSettings = {
+            biddersMap: adfoxBiddersMap,
+            adUnits:    adUnits,
+            timeout:    userTimeout,
+            syncPixels: syncPixels
+};
+</script>
+        
+        
+    
+        
+        
+        
+                <script>window.yaContextCb = window.yaContextCb || []</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script>
+        
+        
+    
+
+
+    <!-- ] Adv slot 292 -->
+
+        <script src="/js/media-scope.js"></script>
+        <script>
+            window.sm          = window.sm || {};
+            window.sm.highload = false;
+
+            window.mediaScope = window.mediaScope || new window.MSC({
+                cid: 'smotrim',
+                tms: 'smotrim',
+                idc: 113,
+            });
+        </script>
+        <script src="/js/websdk.js"></script>
+        <link href="/css/smotrim.css?v1394421" rel="stylesheet" type="text/css">
+                <style>
+        .r_offset_-1  {display: none;}
+        .r_KGD .r_offset_-1  {display: inline;}
+        .r_offset_0  {display: none;}
+        .r_MOW .r_offset_0, .r_SPE .r_offset_0, .r_AD .r_offset_0, .r_ARK .r_offset_0, .r_BEL .r_offset_0, .r_BRY .r_offset_0, .r_VLA .r_offset_0, .r_VGG .r_offset_0, .r_VLG .r_offset_0, .r_VOR .r_offset_0, .r_DA .r_offset_0, .r_DOK .r_offset_0, .r_OZH .r_offset_0, .r_IVA .r_offset_0, .r_IN .r_offset_0, .r_KB .r_offset_0, .r_KL .r_offset_0, .r_KLU .r_offset_0, .r_KC .r_offset_0, .r_KR .r_offset_0, .r_KIR .r_offset_0, .r_KO .r_offset_0, .r_KOS .r_offset_0, .r_KDA .r_offset_0, .r_CR .r_offset_0, .r_KRS .r_offset_0, .r_LIP .r_offset_0, .r_VSG .r_offset_0, .r_ME .r_offset_0, .r_MO .r_offset_0, .r_MOS .r_offset_0, .r_MUR .r_offset_0, .r_NEN .r_offset_0, .r_NIZ .r_offset_0, .r_NGR .r_offset_0, .r_ORL .r_offset_0, .r_PNZ .r_offset_0, .r_PSK .r_offset_0, .r_ROS .r_offset_0, .r_RYA .r_offset_0, .r_SEV .r_offset_0, .r_SE .r_offset_0, .r_SMO .r_offset_0, .r_SOC .r_offset_0, .r_STA .r_offset_0, .r_TAM .r_offset_0, .r_TA .r_offset_0, .r_TVE .r_offset_0, .r_TUL .r_offset_0, .r_KHE .r_offset_0, .r_CE .r_offset_0, .r_CU .r_offset_0, .r_YAR .r_offset_0  {display: inline;}
+        .r_offset_1  {display: none;}
+        .r_AST .r_offset_1, .r_SAM .r_offset_1, .r_SAR .r_offset_1, .r_UD .r_offset_1, .r_ULY .r_offset_1  {display: inline;}
+        .r_offset_2  {display: none;}
+        .r_BA .r_offset_2, .r_SVE .r_offset_2, .r_KGN .r_offset_2, .r_ORE .r_offset_2, .r_PER .r_offset_2, .r_TYU .r_offset_2, .r_CHE .r_offset_2, .r_KHM .r_offset_2, .r_YAN .r_offset_2  {display: inline;}
+        .r_offset_3  {display: none;}
+        .r_OMS .r_offset_3  {display: inline;}
+        .r_offset_4  {display: none;}
+        .r_ALT .r_offset_4, .r_AL .r_offset_4, .r_KEM .r_offset_4, .r_KYA .r_offset_4, .r_NVS .r_offset_4, .r_AMU .r_offset_4, .r_TOM .r_offset_4, .r_TY .r_offset_4, .r_KK .r_offset_4  {display: inline;}
+        .r_offset_5  {display: none;}
+        .r_BU .r_offset_5, .r_IRK .r_offset_5  {display: inline;}
+        .r_offset_6  {display: none;}
+        .r_ZAB .r_offset_6, .r_SA .r_offset_6  {display: inline;}
+        .r_offset_7  {display: none;}
+        .r_YEV .r_offset_7, .r_PRI .r_offset_7, .r_KHA .r_offset_7  {display: inline;}
+        .r_offset_8  {display: none;}
+        .r_MAG .r_offset_8, .r_SAK .r_offset_8  {display: inline;}
+        .r_offset_9  {display: none;}
+        .r_KAM .r_offset_9, .r_CHU .r_offset_9  {display: inline;}
+        .r_UNKNOWN .r_offset_0 {display: inline;}
+</style>
+        <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(67731175, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/67731175" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ 
+   ym(55382026, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/55382026" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<link rel="preconnect" href="//cdnmg-st.smotrim.ru/" crossorigin />
+<link rel="preconnect" href="//cdnapi.smotrim.ru/" crossorigin />
+<link rel="preconnect" href="//cdn-st1.smotrim.ru" crossorigin />
+<link rel="preconnect" href="//cdn-st2.smotrim.ru" crossorigin />
+<link rel="preconnect" href="//cdn-st3.smotrim.ru" crossorigin />
+<link rel="preconnect" href="//cdn-st4.smotrim.ru" crossorigin />
+<meta name="apple-itunes-app" content="app-id=1526501534" />
+<meta name="yandex-verification" content="947693d7e236def8" />
+<meta name="yandex-verification" content="0c599b7aa3d1f8d2" />
+<meta name="yandex-verification" content="fcf214245a82748d" />
+<meta name="no-splash" content="/article/2662578,/brand/67430" />
+<style> .vgtrk-widget-form-container select.vgtrk-widget-form-field-el { padding: 0 9px !important; } </style>
+<script async src="https://creatives.al-adtech.com/SmartPixel/2024/VGTRK_pixel.js"></script>
+    </head>
+    
+    <body id="articles" class="app body--articles  app--light r_UNKNOWN">
+
+        <main id="reloadable" class="app__holder">
+            <aside class="sidenav filter">
+    <div class="sidenav__container">
+        <div class="sidenav__logo">
+            <a href="/" aria-label="Смотрим. Логотип. Главная">
+                <div class="sidenav__link"></div>
+            </a>
+        </div>
+        <div class="sidenav__navigation top bottom" role="navigation" aria-label="Разделы сайта">
+            <div class="sidenav__scroll-up"></div>
+            <ul class="filter__list navigation__list">
+                                    <li class="navigation__item">
+                        <a class="navigation__link"
+                           href="/?utm_source=internal&amp;utm_medium=tabbar-menu&amp;utm_campaign=tabbar-menu"
+                           aria-label="Главное"
+                           
+                        >
+                                                            <div class="navigation__image"><img src="https://cdn-st2.smotrim.ru/vh/pictures/svg/460/616/9.svg"
+                                                                    height="100%"
+                                                                    width="100%"
+                                                                    title="Главное"
+                                                                    alt="Раздел Главное"></div>
+                                <div class="navigation__title">Главное</div>
+                                                    </a>
+                    </li>
+                                    <li class="navigation__item">
+                        <a class="navigation__link"
+                           href="/vesti?utm_source=internal&amp;utm_medium=tabbar-menu&amp;utm_campaign=tabbar-menu"
+                           aria-label="Вести"
+                           
+                        >
+                                                            <div class="navigation__image"><img src="https://cdn-st1.smotrim.ru/vh/pictures/svg/326/116/8.svg"
+                                                                    height="100%"
+                                                                    width="100%"
+                                                                    title="Вести"
+                                                                    alt="Раздел Вести"></div>
+                                <div class="navigation__title">Вести</div>
+                                                    </a>
+                    </li>
+                                    <li class="navigation__item">
+                        <a class="navigation__link"
+                           href="/channels?utm_source=internal&amp;utm_medium=tabbar-menu&amp;utm_campaign=tabbar-menu"
+                           aria-label="Эфир"
+                           
+                        >
+                                                            <div class="navigation__image"><img src="https://cdn-st3.smotrim.ru/vh/pictures/svg/326/121/8.svg"
+                                                                    height="100%"
+                                                                    width="100%"
+                                                                    title="Эфир"
+                                                                    alt="Раздел Эфир"></div>
+                                <div class="navigation__title">Эфир</div>
+                                                    </a>
+                    </li>
+                                    <li class="navigation__item">
+                        <a class="navigation__link"
+                           href="/pick/special-podpiska?utm_source=internal&amp;utm_medium=tabbar-menu&amp;utm_campaign=tabbar-menu"
+                           aria-label="Подписка"
+                           
+                        >
+                                                            <div class="navigation__image"><img src="https://cdn-st4.smotrim.ru/vh/pictures/svg/460/625/1.svg"
+                                                                    height="100%"
+                                                                    width="100%"
+                                                                    title="Подписка"
+                                                                    alt="Раздел Подписка"></div>
+                                <div class="navigation__title">Подписка</div>
+                                                    </a>
+                    </li>
+                                    <li class="navigation__item">
+                        <a class="navigation__link"
+                           href="/radio?utm_source=internal&amp;utm_medium=tabbar-menu&amp;utm_campaign=tabbar-menu"
+                           aria-label="Радио"
+                           
+                        >
+                                                            <div class="navigation__image"><img src="https://cdn-st4.smotrim.ru/vh/pictures/svg/326/119/9.svg"
+                                                                    height="100%"
+                                                                    width="100%"
+                                                                    title="Радио"
+                                                                    alt="Раздел Радио"></div>
+                                <div class="navigation__title">Радио</div>
+                                                    </a>
+                    </li>
+                                    <li class="navigation__item">
+                        <a class="navigation__link"
+                           href="/movie?utm_source=internal&amp;utm_medium=tabbar-menu&amp;utm_campaign=tabbar-menu"
+                           aria-label="Кино"
+                           
+                        >
+                                                            <div class="navigation__image"><img src="https://cdn-st2.smotrim.ru/vh/pictures/svg/460/656/9.svg"
+                                                                    height="100%"
+                                                                    width="100%"
+                                                                    title="Кино"
+                                                                    alt="Раздел Кино"></div>
+                                <div class="navigation__title">Кино</div>
+                                                    </a>
+                    </li>
+                                    <li class="navigation__item">
+                        <a class="navigation__link"
+                           href="/serials?utm_source=internal&amp;utm_medium=tabbar-menu&amp;utm_campaign=tabbar-menu"
+                           aria-label="Сериалы"
+                           
+                        >
+                                                            <div class="navigation__image"><img src="https://cdn-st4.smotrim.ru/vh/pictures/svg/460/617/1.svg"
+                                                                    height="100%"
+                                                                    width="100%"
+                                                                    title="Сериалы"
+                                                                    alt="Раздел Сериалы"></div>
+                                <div class="navigation__title">Сериалы</div>
+                                                    </a>
+                    </li>
+                                    <li class="navigation__item">
+                        <a class="navigation__link"
+                           href="/show?utm_source=internal&amp;utm_medium=tabbar-menu&amp;utm_campaign=tabbar-menu"
+                           aria-label="Шоу"
+                           
+                        >
+                                                            <div class="navigation__image"><img src="https://cdn-st4.smotrim.ru/vh/pictures/svg/361/186/3.svg"
+                                                                    height="100%"
+                                                                    width="100%"
+                                                                    title="Шоу"
+                                                                    alt="Раздел Шоу"></div>
+                                <div class="navigation__title">Шоу</div>
+                                                    </a>
+                    </li>
+                                    <li class="navigation__item">
+                        <a class="navigation__link"
+                           href="/pick/kultura?utm_source=internal&amp;utm_medium=tabbar-menu&amp;utm_campaign=tabbar-menu"
+                           aria-label="Культура"
+                           
+                        >
+                                                            <div class="navigation__image"><img src="https://cdn-st2.smotrim.ru/vh/pictures/svg/331/022/9.svg"
+                                                                    height="100%"
+                                                                    width="100%"
+                                                                    title="Культура"
+                                                                    alt="Раздел Культура"></div>
+                                <div class="navigation__title">Культура</div>
+                                                    </a>
+                    </li>
+                                    <li class="navigation__item">
+                        <a class="navigation__link"
+                           href="/pick/special-programs?utm_source=internal&amp;utm_medium=tabbar-menu&amp;utm_campaign=tabbar-menu"
+                           aria-label="Программы"
+                           
+                        >
+                                                            <div class="navigation__image"><img src="https://cdn-st1.smotrim.ru/vh/pictures/svg/460/622/4.svg"
+                                                                    height="100%"
+                                                                    width="100%"
+                                                                    title="Программы"
+                                                                    alt="Раздел Программы"></div>
+                                <div class="navigation__title">Программы</div>
+                                                    </a>
+                    </li>
+                                    <li class="navigation__item">
+                        <a class="navigation__link"
+                           href="/pick/special-kids?utm_source=internal&amp;utm_medium=tabbar-menu&amp;utm_campaign=tabbar-menu"
+                           aria-label="Детям"
+                           
+                        >
+                                                            <div class="navigation__image"><img src="https://cdn-st4.smotrim.ru/vh/pictures/svg/460/624/7.svg"
+                                                                    height="100%"
+                                                                    width="100%"
+                                                                    title="Детям"
+                                                                    alt="Раздел Детям"></div>
+                                <div class="navigation__title">Детям</div>
+                                                    </a>
+                    </li>
+                                    <li class="navigation__item">
+                        <a class="navigation__link"
+                           href="/pick/special-documentaries?utm_source=internal&amp;utm_medium=tabbar-menu&amp;utm_campaign=tabbar-menu"
+                           aria-label="Доккино"
+                           
+                        >
+                                                            <div class="navigation__image"><img src="https://cdn-st2.smotrim.ru/vh/pictures/svg/414/085/3.svg"
+                                                                    height="100%"
+                                                                    width="100%"
+                                                                    title="Доккино"
+                                                                    alt="Раздел Доккино"></div>
+                                <div class="navigation__title">Доккино</div>
+                                                    </a>
+                    </li>
+                                    <li class="navigation__item">
+                        <a class="navigation__link"
+                           href="/pick/special-gtrf?utm_source=internal&amp;utm_medium=tabbar-menu&amp;utm_campaign=tabbar-menu"
+                           aria-label="ТВ СССР"
+                           
+                        >
+                                                            <div class="navigation__image"><img src="https://cdn-st4.smotrim.ru/vh/pictures/svg/331/027/9.svg"
+                                                                    height="100%"
+                                                                    width="100%"
+                                                                    title="ТВ СССР"
+                                                                    alt="Раздел ТВ СССР"></div>
+                                <div class="navigation__title">ТВ СССР</div>
+                                                    </a>
+                    </li>
+                                    <li class="navigation__item">
+                        <a class="navigation__link"
+                           href="/pick/special-projects?utm_source=internal&amp;utm_medium=tabbar-menu&amp;utm_campaign=tabbar-menu"
+                           aria-label="Спецпроекты"
+                           
+                        >
+                                                            <div class="navigation__image"><img src="https://cdn-st3.smotrim.ru/vh/pictures/svg/415/292/2.svg"
+                                                                    height="100%"
+                                                                    width="100%"
+                                                                    title="Спецпроекты"
+                                                                    alt="Раздел Спецпроекты"></div>
+                                <div class="navigation__title">Спецпроекты</div>
+                                                    </a>
+                    </li>
+                                    <li class="navigation__item">
+                        <a class="navigation__link"
+                           href="/podcast?utm_source=internal&amp;utm_medium=tabbar-menu&amp;utm_campaign=tabbar-menu"
+                           aria-label="Подкасты"
+                           
+                        >
+                                                            <div class="navigation__image"><img src="https://cdn-st2.smotrim.ru/vh/pictures/svg/429/961/7.svg"
+                                                                    height="100%"
+                                                                    width="100%"
+                                                                    title="Подкасты"
+                                                                    alt="Раздел Подкасты"></div>
+                                <div class="navigation__title">Подкасты</div>
+                                                    </a>
+                    </li>
+                                    <li class="navigation__item">
+                        <a class="navigation__link"
+                           href="/audiobooks?utm_source=internal&amp;utm_medium=tabbar-menu&amp;utm_campaign=tabbar-menu"
+                           aria-label="Аудиокниги"
+                           
+                        >
+                                                            <div class="navigation__image"><img src="https://cdn-st2.smotrim.ru/vh/pictures/svg/430/238/9.svg"
+                                                                    height="100%"
+                                                                    width="100%"
+                                                                    title="Аудиокниги"
+                                                                    alt="Раздел Аудиокниги"></div>
+                                <div class="navigation__title">Аудиокниги</div>
+                                                    </a>
+                    </li>
+                                    <li class="navigation__item">
+                        <a class="navigation__link"
+                           href="/performance?utm_source=internal&amp;utm_medium=tabbar-menu&amp;utm_campaign=tabbar-menu"
+                           aria-label="Спектакли"
+                           
+                        >
+                                                            <div class="navigation__image"><img src="https://cdn-st3.smotrim.ru/vh/pictures/svg/460/622/6.svg"
+                                                                    height="100%"
+                                                                    width="100%"
+                                                                    title="Спектакли"
+                                                                    alt="Раздел Спектакли"></div>
+                                <div class="navigation__title">Спектакли</div>
+                                                    </a>
+                    </li>
+                            </ul>
+            <div class="sidenav__scroll-down"></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </div>
+</aside>
+
+
+            <section id="top-slot">
+    
+    <div class="slot slot--before-header">
+    <!-- Adv slot 293 [ -->
+    
+
+    
+        
+        
+        
+                <!--AdFox START--> 
+<!--vgtrk.com--> 
+<!--Площадка: smotrim.ru / Главная/весь сайт / Фулл | desktop--> 
+<!--Категория: <не задана>--> 
+<!--Тип баннера: Фулскрин--> 
+<div id="adfox_162011972866799506"></div> 
+<script> 
+    window.yaContextCb.push(()=>{
+   Ya.adfoxCode.createAdaptive({
+   ownerId: 166267, 
+        containerId: 'adfox_162011972866799506', 
+        params: { 
+            p1: 'cozwp', 
+            p2: 'errz', 
+            puid2: '', 
+            puid3: '', 
+            puid4: '', 
+            puid10: '', 
+            puid11: '', 
+            puid12: window.tags, 
+            pk: window.tagsTitle, 
+            pke: '1' 
+        } 
+    }, ['desktop'], { 
+        tabletWidth: 1024, 
+        phoneWidth: 736, 
+        isAutoReloads: false 
+    })
+})
+</script>
+        
+        
+    
+        
+        
+        
+                <!--AdFox START--> 
+<!--vgtrk.com--> 
+<!--Площадка: smotrim.ru / * / *--> 
+<!--Тип баннера: Мобильный фуллскрин--> 
+<!--Расположение: <верх страницы>--> 
+<div id="adfox_160892143432481306"></div> 
+<script> 
+  window.yaContextCb.push(()=>{
+        Ya.adfoxCode.createAdaptive({
+            ownerId: 166267,
+            containerId: 'adfox_160892143432481306',
+            params: {
+                p1: 'cnuqj',
+                p2: 'fddh',
+            puid2: '', 
+            puid3: '', 
+            puid4: '', 
+            puid10: '', 
+            puid11: '', 
+            puid12: window.tags, 
+            pk: window.tagsTitle, 
+            pke: '1' 
+        } 
+    }, ['phone', 'tablet'], { 
+        tabletWidth: 1024, 
+        phoneWidth: 736, 
+        isAutoReloads: false 
+    })
+}) 
+</script>
+        
+        
+    
+        
+        
+        
+                <!--AdFox START-->
+<!--vgtrk.com-->
+<!--Площадка: _Смотрим / Тест / перетяжка в шапке | desktop-->
+<!--Категория: <не задана>-->
+<!--Тип баннера: 1000x90-->
+<div id="adfox_159706077566131331"></div>
+<script>
+     window.yaContextCb.push(()=>{
+     Ya.adfoxCode.createAdaptive({
+        ownerId:     166267,
+        containerId: 'adfox_159706077566131331',
+        params:      {
+            p1:     'clvim',
+            p2:     'eroq',
+            puid2:  '',
+            puid3:  '',
+            puid4:  '',
+            puid10: '',
+            puid11: '',
+            puid12: window.tags,
+            pk:     window.tagsTitle,
+            pke:    '1'
+        },
+        onLoad: function(data) {
+            var event = new Event('slot.top.load');
+            window.dispatchEvent(event);
+        },
+        onRender: function() {
+            var event = new Event('slot.top.render');
+            window.dispatchEvent(event);
+
+            var slotHeader = document.getElementById("adfox_159706077566131331");
+            slotHeader.style.marginTop = "16px";
+            slotHeader.style.borderRadius = "8px";
+            slotHeader.style.overflow = "hidden";
+        },
+        onError: function(error) {
+            var event = new Event('slot.top.error');
+            window.dispatchEvent(event);
+        },
+        onStub: function() {
+            var event = new Event('slot.top.stub');
+            window.dispatchEvent(event);
+
+            var slotHeader = document.getElementById("adfox_159706077566131331");
+            slotHeader.style.marginTop = "0";
+        }
+    }, [ 'desktop' ], {
+        tabletWidth:   1024,
+        phoneWidth:    736,
+        isAutoReloads: false
+    })
+})
+</script>
+<style>
+
+    .slot {
+        width: 100%;
+    }
+
+
+</style>
+        
+        
+    
+        
+        
+                    <div class="vgtrk-a1" data-id="687">
+        
+                <!--AdFox START-->
+<!--vgtrk.com-->
+<!--Площадка: smotrim.ru / Главная/весь сайт / 1х1 не забыть таргет, если кнопка-->
+<!--Категория: <не задана>-->
+<!--Тип баннера: 1x1-->
+<div id="adfox_167033963993967038"></div>
+<script>
+    window.yaContextCb.push(()=>{
+        Ya.adfoxCode.create({
+            ownerId: 166267,
+            containerId: 'adfox_167033963993967038',
+            params: {
+                p1: 'coqaq',
+                p2: 'frfe',
+                puid2: '',
+                puid3: '',
+                puid4: '',
+                puid10: '',
+                puid11: '',
+                puid12: '',
+                puid14: ''
+            }
+        })
+    })
+</script>
+
+                    </div>
+        
+        
+    
+        
+        
+        
+                <!--AdFox START-->
+<!--vgtrk.com-->
+<!--Площадка: smotrim.ru / * / *-->
+<!--Тип баннера: 1x1_R-->
+<!--Расположение: <верх страницы>-->
+<div id="adfox_160892056771289736"></div>
+<script>
+    window.yaContextCb.push(()=>{
+    Ya.adfoxCode.create({
+        ownerId: 166267,
+        containerId: 'adfox_160892056771289736',
+        params: {
+            pp: 'g',
+            ps: 'egyd',
+            p2: 'gbcy',
+            puid2: '',
+            puid3: '',
+            puid4: '',
+            puid10: '',
+            puid11: '',
+            puid12: window.tags,
+            pk: window.tagsTitle,
+            pke: '1'
+        }
+    })
+})
+</script>
+        
+        
+    
+        
+        
+        
+                <!--AdFox START-->
+<!--vgtrk.com-->
+<!--Площадка: smotrim.ru / Главная/весь сайт / 1х1_2-->
+<!--Категория: <не задана>-->
+<!--Тип баннера: 1x1_R-->
+<div id="adfox_162513991204161174"></div>
+<script>
+    window.yaContextCb.push(()=>{
+    Ya.adfoxCode.create({
+        ownerId: 166267,
+        containerId: 'adfox_162513991204161174',
+        params: {
+            p1: 'cqabr',
+            p2: 'gbcy',
+            puid2: '',
+            puid3: '',
+            puid4: '',
+            puid10: '',
+            puid11: '',
+            puid12: window.tags,
+            pk: window.tagsTitle,
+            pke: '1'
+        }
+    })
+ })
+</script>
+        
+        
+    
+        
+        
+                    <div class="vgtrk-a1" data-id="671">
+        
+                <!--AdFox START-->
+<!--vgtrk.com-->
+<!--Площадка: smotrim.ru / Главная/весь сайт / перетяжка верх | mobile-->
+<!--Категория: <не задана>-->
+<!--Тип баннера: topbanner_smartphone-->
+<div id="adfox_16560706973329040"></div>
+<script>
+    window.yaContextCb.push(()=>{
+        Ya.adfoxCode.createAdaptive({
+            ownerId: 166267,
+            containerId: 'adfox_16560706973329040',
+            params: {
+                p1: 'cuqxk',
+                p2: 'fctl',
+                puid2: '',
+                puid3: '',
+                puid4: '',
+                puid10: '',
+                puid11: '',
+                puid12: window.tags,
+            pk: window.tagsTitle,
+            pke: '1'
+            },
+            onRender: function() {
+              var slotHeader = document.getElementById("adfox_16560706973329040");
+              slotHeader.style.margin = "8px auto";
+              slotHeader.style.borderRadius = "8px";
+              slotHeader.style.overflow = "hidden";
+              slotHeader.style.textAlign = "center";
+            },
+            onStub: function() {
+              var slotHeader = document.getElementById("adfox_16560706973329040");
+              slotHeader.style.margin = "0";
+            }
+        },['phone'], {
+        tabletWidth: 1024,
+        phoneWidth: 736,
+        isAutoReloads: false
+        })
+    })
+</script>
+
+                    </div>
+        
+        
+    
+
+
+    <!-- ] Adv slot 293 -->
+</div>
+</section>
+<header class="header has-ticker">
+    <div class="header__wrapper">
+        <div class="header__logo">
+            <a class="header__link" href="/" aria-label="Смотрим. Логотип. Главная"></a>
+        </div>
+        <div class="header__wrapper--inner">
+            
+            
+            
+            <div class="header__search">
+                <i class="search-icon" role="img" tabindex="0" aria-label="Поиск"></i>
+                <div class="header__search__container">
+                    <div class="search-form">
+
+
+
+
+
+    <div class="search-form__content">
+        <form class="search-form__form" role="search" method="get" action="/search" autocomplete="off">
+            <input class="search-form__query" type="text" aria-label="Поиск" value="" placeholder="Найти" name="q">
+            <input class="search-form__button search-form__button--submit" type="submit">
+        </form>
+ <button class="input-close-icon" aria-label="Очистить поле поиска" />
+    </div>
+    </div>
+<div class="search-autocomplete"></div>
+                    <div class="search-overlay">
+                        <div class="search-overlay__background"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__archive">
+                <div class="datepicker" data-link-template="">
+            <div class="datepicker__button">
+            <a class="datepicker__title" aria-label="Архив" href="https://smotrim.ru/2025/09/21">Архив</a>
+        </div>
+    </div>
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                            <div class="header__ticker">
+                    <ul class="slider__list" role="presentation">
+                        <li class="list-item"><a class="list-item__link ticker-subscribe"
+                                href="/tariffs?redirect=%2Farticles"
+                                aria-label="Смотрим без рекламы"><b>Смотрим</b> без рекламы</a></li>
+                    </ul>
+                </div>
+                    </div>
+                    <div class="header__user">
+                <div class="user-control">
+    <div class="user-control__content">
+        <ul class="user-control__list" role="presentation">
+                            <li class="user-control__item">
+                    <a class="user-control__link user-control__link--favorites" aria-label="Избранное" href="/tariffs?redirect=%2Farticles"></a>
+                </li>
+                <li class="user-control__item">
+                    <a class="user-control__link user-control__link--user user-control__link--user-unregistered" aria-label="Профиль" href="/tariffs?redirect=%2Farticles"></a>
+                </li>
+                    </ul>
+    </div>
+</div>
+
+
+<script>
+    window.isLogged = false;
+    window.isSubscribed = false;
+    error404 = false;
+</script>
+            </div>
+                <div class="header__burger">
+            <button><span></span></button>
+        </div>
+    </div>
+</header>
+                <main class="layout layout--articles">
+
+        <section class="layout__holder layout__holder--content">
+            <section class="layout__wrapper">
+                <section class="layout__column layout__column--full">
+                                    </section>
+            </section>
+
+            <section class="layout__wrapper layout__wrapper--main">
+                <section class="layout__column layout__column--full">
+                    <section
+    class="
+        section section--light
+        section--tmpl-mixed
+        
+        
+        
+        "
+    
+>
+    <aside class="section__background" style="--section-background: #FFFFFF"></aside>
+
+            <header class="section__header">
+                                        <h2 class="section__title">
+                                            <span>
+                            Новости
+                        </span>
+                                    </h2>
+                                        
+            
+                                
+            
+            
+        </header>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+                <section
+            id="all-articles"
+            class="section__content section__content--active
+                          section__content--has-more"
+            
+        >
+
+            
+
+            
+                
+                <div class="tile">
+        <div class="tile__wrapper">
+            <div class="tile__content">
+                <ul class="tile__list">
+                                            <li
+    class="list-item list-item--article
+    
+    
+    
+    
+    
+    
+    
+    
+    "
+    data-number="0"
+    >
+    <div class="list-item__box">
+                    <div class="list-item__box-link">
+                <a class="list-item__link"
+                   title=""
+                   href="/article/4696816"
+                    
+                    aria-hidden="true" tabindex="-1"                 >Землетрясение магнитудой 6,1 произошло на Камчатке</a>
+            </div>
+                <div class="list-item__preview">
+                        
+            
+                            <div class="list-item__picture">
+                                            <a class="list-item__link" href="/article/4696816"
+                           aria-label="Землетрясение магнитудой 6,1 произошло на Камчатке"
+                                                   >
+                            <img
+    class="lazy-image"
+    src="https://cdn-st4.smotrim.ru/vh/pictures/mw/526/788/3.jpg"
+    data-src="https://cdn-st4.smotrim.ru/vh/pictures/xw/526/788/3.jpg"
+    data-id="5267883"
+    title="Землетрясение магнитудой 6,1 произошло на Камчатке"
+    alt="Землетрясение магнитудой 6,1 произошло на Камчатке"
+/>
+<div class="lazy-preloader"></div>
+                                                    </a>
+                                    </div>
+            
+        </div>
+                    <div class="list-item__info">
+                                    <h3 class="list-item__title">
+                                                    <a class="list-item__link" href="/article/4696816" tabindex="-1" aria-hidden="true">
+                                                                    Землетрясение магнитудой 6,1 произошло на Камчатке
+                                                            </a>
+                                            </h3>
+
+                    
+                    
+                    
+                    
+                                            <div class="list-item__category">
+                                                            <a class="list-item__link" href="/article/4696816" tabindex="-1" aria-hidden="true">
+                                    землетрясение
+                                </a>
+                                                    </div>
+                    
+                    
+                                            <div class="list-item__date">
+                                                            <a class="list-item__link" href="/article/4696816" aria-hidden="true" tabindex="-1">
+                                    04:50
+                                </a>
+                                                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                                </div>
+        
+        
+            </div>
+</li>
+                                            <li
+    class="list-item list-item--article
+    
+    
+    
+    
+    
+    
+    
+    
+    "
+    data-number="1"
+    >
+    <div class="list-item__box">
+                    <div class="list-item__box-link">
+                <a class="list-item__link"
+                   title=""
+                   href="/article/4696815"
+                    
+                    aria-hidden="true" tabindex="-1"                 >В Приамурье прокуратура помогла инвалиду вернуть потраченные на лекарства деньги</a>
+            </div>
+                <div class="list-item__preview">
+                        
+            
+                            <div class="list-item__picture">
+                                            <a class="list-item__link" href="/article/4696815"
+                           aria-label="В Приамурье прокуратура помогла инвалиду вернуть потраченные на лекарства деньги"
+                                                   >
+                            <img
+    class="lazy-image"
+    src="https://cdn-st1.smotrim.ru/vh/pictures/mw/640/954/8.jpg"
+    data-src="https://cdn-st1.smotrim.ru/vh/pictures/xw/640/954/8.jpg"
+    data-id="6409548"
+    title="В Приамурье прокуратура помогла инвалиду вернуть потраченные на лекарства деньги"
+    alt="В Приамурье прокуратура помогла инвалиду вернуть потраченные на лекарства деньги"
+/>
+<div class="lazy-preloader"></div>
+                                                    </a>
+                                    </div>
+            
+        </div>
+                    <div class="list-item__info">
+                                    <h3 class="list-item__title">
+                                                    <a class="list-item__link" href="/article/4696815" tabindex="-1" aria-hidden="true">
+                                                                    В Приамурье прокуратура помогла инвалиду вернуть потраченные на лекарства деньги
+                                                            </a>
+                                            </h3>
+
+                    
+                    
+                    
+                    
+                                            <div class="list-item__category">
+                                                            <a class="list-item__link" href="/article/4696815" tabindex="-1" aria-hidden="true">
+                                    суд
+                                </a>
+                                                    </div>
+                    
+                    
+                                            <div class="list-item__date">
+                                                            <a class="list-item__link" href="/article/4696815" aria-hidden="true" tabindex="-1">
+                                    04:41
+                                </a>
+                                                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                                </div>
+        
+        
+            </div>
+</li>
+                                            <li
+    class="list-item list-item--article
+    
+    
+    
+    
+    
+    
+    
+    
+    "
+    data-number="2"
+    >
+    <div class="list-item__box">
+                    <div class="list-item__box-link">
+                <a class="list-item__link"
+                   title=""
+                   href="/article/4696790"
+                    
+                    aria-hidden="true" tabindex="-1"                 >Режиссер Умаров объяснил значение эпизодов с рэпом в фильме о Пушкине</a>
+            </div>
+                <div class="list-item__preview">
+                        
+            
+                            <div class="list-item__picture">
+                                            <a class="list-item__link" href="/article/4696790"
+                           aria-label="Режиссер Умаров объяснил значение эпизодов с рэпом в фильме о Пушкине"
+                                                   >
+                            <img
+    class="lazy-image"
+    src="https://cdn-st3.smotrim.ru/vh/pictures/mw/610/808/2.jpg"
+    data-src="https://cdn-st3.smotrim.ru/vh/pictures/xw/610/808/2.jpg"
+    data-id="6108082"
+    title="Режиссер Умаров объяснил значение эпизодов с рэпом в фильме о Пушкине"
+    alt="Режиссер Умаров объяснил значение эпизодов с рэпом в фильме о Пушкине"
+/>
+<div class="lazy-preloader"></div>
+                                                    </a>
+                                    </div>
+            
+        </div>
+                    <div class="list-item__info">
+                                    <h3 class="list-item__title">
+                                                    <a class="list-item__link" href="/article/4696790" tabindex="-1" aria-hidden="true">
+                                                                    Режиссер Умаров объяснил значение эпизодов с рэпом в фильме о Пушкине
+                                                            </a>
+                                            </h3>
+
+                    
+                    
+                    
+                    
+                                            <div class="list-item__category">
+                                                            <a class="list-item__link" href="/article/4696790" tabindex="-1" aria-hidden="true">
+                                    фильм
+                                </a>
+                                                    </div>
+                    
+                    
+                                            <div class="list-item__date">
+                                                            <a class="list-item__link" href="/article/4696790" aria-hidden="true" tabindex="-1">
+                                    04:30
+                                </a>
+                                                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                                </div>
+        
+        
+            </div>
+</li>
+                                            <li
+    class="list-item list-item--article
+    
+    
+    
+    
+    
+    
+    
+    
+    "
+    data-number="3"
+    >
+    <div class="list-item__box">
+                    <div class="list-item__box-link">
+                <a class="list-item__link"
+                   title=""
+                   href="/article/4696814"
+                    
+                    aria-hidden="true" tabindex="-1"                 >БПЛА &quot;Молния-2&quot; научились противодействовать средствам РЭБ ВСУ</a>
+            </div>
+                <div class="list-item__preview">
+                        
+            
+                            <div class="list-item__picture">
+                                            <a class="list-item__link" href="/article/4696814"
+                           aria-label="БПЛА &quot;Молния-2&quot; научились противодействовать средствам РЭБ ВСУ"
+                                                   >
+                            <img
+    class="lazy-image"
+    src="https://cdn-st3.smotrim.ru/vh/pictures/mw/561/945/0.jpg"
+    data-src="https://cdn-st3.smotrim.ru/vh/pictures/xw/561/945/0.jpg"
+    data-id="5619450"
+    title="БПЛА &quot;Молния-2&quot; научились противодействовать средствам РЭБ ВСУ"
+    alt="БПЛА &quot;Молния-2&quot; научились противодействовать средствам РЭБ ВСУ"
+/>
+<div class="lazy-preloader"></div>
+                                                    </a>
+                                    </div>
+            
+        </div>
+                    <div class="list-item__info">
+                                    <h3 class="list-item__title">
+                                                    <a class="list-item__link" href="/article/4696814" tabindex="-1" aria-hidden="true">
+                                                                    БПЛА &quot;Молния-2&quot; научились противодействовать средствам РЭБ ВСУ
+                                                            </a>
+                                            </h3>
+
+                    
+                    
+                    
+                    
+                    
+                    
+                                            <div class="list-item__date">
+                                                            <a class="list-item__link" href="/article/4696814" aria-hidden="true" tabindex="-1">
+                                    04:25
+                                </a>
+                                                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                                </div>
+        
+        
+            </div>
+</li>
+                                            <li
+    class="list-item list-item--article
+    
+    
+    
+    
+    
+    
+    
+    
+    "
+    data-number="4"
+    >
+    <div class="list-item__box">
+                    <div class="list-item__box-link">
+                <a class="list-item__link"
+                   title=""
+                   href="/article/4696739"
+                    
+                    aria-hidden="true" tabindex="-1"                 >Депутат ГД: жителям новых регионов в 2022 г. было стыдно опоздать на референдум</a>
+            </div>
+                <div class="list-item__preview">
+                        
+            
+                            <div class="list-item__picture">
+                                            <a class="list-item__link" href="/article/4696739"
+                           aria-label="Депутат ГД: жителям новых регионов в 2022 г. было стыдно опоздать на референдум"
+                                                   >
+                            <img
+    class="lazy-image"
+    src="https://cdn-st2.smotrim.ru/vh/pictures/mw/368/266/9.jpg"
+    data-src="https://cdn-st2.smotrim.ru/vh/pictures/xw/368/266/9.jpg"
+    data-id="3682669"
+    title="Депутат ГД: жителям новых регионов в 2022 г. было стыдно опоздать на референдум"
+    alt="Депутат ГД: жителям новых регионов в 2022 г. было стыдно опоздать на референдум"
+/>
+<div class="lazy-preloader"></div>
+                                                    </a>
+                                    </div>
+            
+        </div>
+                    <div class="list-item__info">
+                                    <h3 class="list-item__title">
+                                                    <a class="list-item__link" href="/article/4696739" tabindex="-1" aria-hidden="true">
+                                                                    Депутат ГД: жителям новых регионов в 2022 г. было стыдно опоздать на референдум
+                                                            </a>
+                                            </h3>
+
+                    
+                    
+                    
+                    
+                                            <div class="list-item__category">
+                                                            <a class="list-item__link" href="/article/4696739" tabindex="-1" aria-hidden="true">
+                                    Госдума/Государственная дума
+                                </a>
+                                                    </div>
+                    
+                    
+                                            <div class="list-item__date">
+                                                            <a class="list-item__link" href="/article/4696739" aria-hidden="true" tabindex="-1">
+                                    04:23
+                                </a>
+                                                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                                </div>
+        
+        
+            </div>
+</li>
+                                            <li
+    class="list-item list-item--article
+    
+    
+    
+    
+    
+    
+    
+    
+    "
+    data-number="5"
+    >
+    <div class="list-item__box">
+                    <div class="list-item__box-link">
+                <a class="list-item__link"
+                   title=""
+                   href="/article/4696778"
+                    
+                    aria-hidden="true" tabindex="-1"                 >Названы регионы-лидеры по числу совершенных в 2024 году рецидивов преступлений</a>
+            </div>
+                <div class="list-item__preview">
+                        
+            
+                            <div class="list-item__picture">
+                                            <a class="list-item__link" href="/article/4696778"
+                           aria-label="Названы регионы-лидеры по числу совершенных в 2024 году рецидивов преступлений"
+                                                   >
+                            <img
+    class="lazy-image"
+    src="https://cdn-st1.smotrim.ru/vh/pictures/mw/632/785/2.jpg"
+    data-src="https://cdn-st1.smotrim.ru/vh/pictures/xw/632/785/2.jpg"
+    data-id="6327852"
+    title="Названы регионы-лидеры по числу совершенных в 2024 году рецидивов преступлений"
+    alt="Названы регионы-лидеры по числу совершенных в 2024 году рецидивов преступлений"
+/>
+<div class="lazy-preloader"></div>
+                                                    </a>
+                                    </div>
+            
+        </div>
+                    <div class="list-item__info">
+                                    <h3 class="list-item__title">
+                                                    <a class="list-item__link" href="/article/4696778" tabindex="-1" aria-hidden="true">
+                                                                    Названы регионы-лидеры по числу совершенных в 2024 году рецидивов преступлений
+                                                            </a>
+                                            </h3>
+
+                    
+                    
+                    
+                    
+                                            <div class="list-item__category">
+                                                            <a class="list-item__link" href="/article/4696778" tabindex="-1" aria-hidden="true">
+                                    преступление
+                                </a>
+                                                    </div>
+                    
+                    
+                                            <div class="list-item__date">
+                                                            <a class="list-item__link" href="/article/4696778" aria-hidden="true" tabindex="-1">
+                                    04:13
+                                </a>
+                                                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                                </div>
+        
+        
+            </div>
+</li>
+                                            <li
+    class="list-item list-item--article
+    
+    
+    
+    
+    
+    
+    
+    
+    "
+    data-number="6"
+    >
+    <div class="list-item__box">
+                    <div class="list-item__box-link">
+                <a class="list-item__link"
+                   title=""
+                   href="/article/4696789"
+                    
+                    aria-hidden="true" tabindex="-1"                 >Пушков: урегулирование украинского конфликта возможно только с согласия России</a>
+            </div>
+                <div class="list-item__preview">
+                        
+            
+                            <div class="list-item__picture">
+                                            <a class="list-item__link" href="/article/4696789"
+                           aria-label="Пушков: урегулирование украинского конфликта возможно только с согласия России"
+                                                   >
+                            <img
+    class="lazy-image"
+    src="https://cdn-st1.smotrim.ru/vh/pictures/mw/383/886/8.jpg"
+    data-src="https://cdn-st1.smotrim.ru/vh/pictures/xw/383/886/8.jpg"
+    data-id="3838868"
+    title="Пушков: урегулирование украинского конфликта возможно только с согласия России"
+    alt="Пушков: урегулирование украинского конфликта возможно только с согласия России"
+/>
+<div class="lazy-preloader"></div>
+                                                    </a>
+                                    </div>
+            
+        </div>
+                    <div class="list-item__info">
+                                    <h3 class="list-item__title">
+                                                    <a class="list-item__link" href="/article/4696789" tabindex="-1" aria-hidden="true">
+                                                                    Пушков: урегулирование украинского конфликта возможно только с согласия России
+                                                            </a>
+                                            </h3>
+
+                    
+                    
+                    
+                    
+                    
+                    
+                                            <div class="list-item__date">
+                                                            <a class="list-item__link" href="/article/4696789" aria-hidden="true" tabindex="-1">
+                                    04:10
+                                </a>
+                                                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                                </div>
+        
+        
+            </div>
+</li>
+                                            <li
+    class="list-item list-item--article
+    
+    
+    
+    
+    
+    
+    
+    
+    "
+    data-number="7"
+    >
+    <div class="list-item__box">
+                    <div class="list-item__box-link">
+                <a class="list-item__link"
+                   title=""
+                   href="/article/4696812"
+                    
+                    aria-hidden="true" tabindex="-1"                 >ВСУ пытались контратаковать на сумском направлении</a>
+            </div>
+                <div class="list-item__preview">
+                        
+            
+                            <div class="list-item__picture">
+                                            <a class="list-item__link" href="/article/4696812"
+                           aria-label="ВСУ пытались контратаковать на сумском направлении"
+                                                   >
+                            <img
+    class="lazy-image"
+    src="https://cdn-st3.smotrim.ru/vh/pictures/mw/526/126/2.jpg"
+    data-src="https://cdn-st3.smotrim.ru/vh/pictures/xw/526/126/2.jpg"
+    data-id="5261262"
+    title="ВСУ пытались контратаковать на сумском направлении"
+    alt="ВСУ пытались контратаковать на сумском направлении"
+/>
+<div class="lazy-preloader"></div>
+                                                    </a>
+                                    </div>
+            
+        </div>
+                    <div class="list-item__info">
+                                    <h3 class="list-item__title">
+                                                    <a class="list-item__link" href="/article/4696812" tabindex="-1" aria-hidden="true">
+                                                                    ВСУ пытались контратаковать на сумском направлении
+                                                            </a>
+                                            </h3>
+
+                    
+                    
+                    
+                    
+                    
+                    
+                                            <div class="list-item__date">
+                                                            <a class="list-item__link" href="/article/4696812" aria-hidden="true" tabindex="-1">
+                                    04:06
+                                </a>
+                                                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                                </div>
+        
+        
+            </div>
+</li>
+                                            <li
+    class="list-item list-item--article
+    
+    
+    
+    
+    
+    
+    
+    
+    "
+    data-number="8"
+    >
+    <div class="list-item__box">
+                    <div class="list-item__box-link">
+                <a class="list-item__link"
+                   title=""
+                   href="/article/4696811"
+                    
+                    aria-hidden="true" tabindex="-1"                 >Панеш: проработаем статуса фермеров с &quot;двойным адресом&quot; в прифронтовых регионах</a>
+            </div>
+                <div class="list-item__preview">
+                        
+            
+                            <div class="list-item__picture">
+                                            <a class="list-item__link" href="/article/4696811"
+                           aria-label="Панеш: проработаем статуса фермеров с &quot;двойным адресом&quot; в прифронтовых регионах"
+                                                   >
+                            <img
+    class="lazy-image"
+    src="https://cdn-st3.smotrim.ru/vh/pictures/mw/682/041/8.jpg"
+    data-src="https://cdn-st3.smotrim.ru/vh/pictures/xw/682/041/8.jpg"
+    data-id="6820418"
+    title="Панеш: проработаем статуса фермеров с &quot;двойным адресом&quot; в прифронтовых регионах"
+    alt="Панеш: проработаем статуса фермеров с &quot;двойным адресом&quot; в прифронтовых регионах"
+/>
+<div class="lazy-preloader"></div>
+                                                    </a>
+                                    </div>
+            
+        </div>
+                    <div class="list-item__info">
+                                    <h3 class="list-item__title">
+                                                    <a class="list-item__link" href="/article/4696811" tabindex="-1" aria-hidden="true">
+                                                                    Панеш: проработаем статуса фермеров с &quot;двойным адресом&quot; в прифронтовых регионах
+                                                            </a>
+                                            </h3>
+
+                    
+                    
+                    
+                    
+                                            <div class="list-item__category">
+                                                            <a class="list-item__link" href="/article/4696811" tabindex="-1" aria-hidden="true">
+                                    Госдума/Государственная дума
+                                </a>
+                                                    </div>
+                    
+                    
+                                            <div class="list-item__date">
+                                                            <a class="list-item__link" href="/article/4696811" aria-hidden="true" tabindex="-1">
+                                    04:00
+                                </a>
+                                                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                                </div>
+        
+        
+            </div>
+</li>
+                                            <li
+    class="list-item list-item--article
+    
+    
+    
+    
+    
+    
+    
+    
+    "
+    data-number="9"
+    >
+    <div class="list-item__box">
+                    <div class="list-item__box-link">
+                <a class="list-item__link"
+                   title=""
+                   href="/article/4696810"
+                    
+                    aria-hidden="true" tabindex="-1"                 >На Сахалине сошли с рельсов 8 вагонов с углем</a>
+            </div>
+                <div class="list-item__preview">
+                        
+            
+                            <div class="list-item__picture">
+                                            <a class="list-item__link" href="/article/4696810"
+                           aria-label="На Сахалине сошли с рельсов 8 вагонов с углем"
+                                                   >
+                            <img
+    class="lazy-image"
+    src="https://cdn-st2.smotrim.ru/vh/pictures/mw/682/044/5.jpg"
+    data-src="https://cdn-st2.smotrim.ru/vh/pictures/xw/682/044/5.jpg"
+    data-id="6820445"
+    title="На Сахалине сошли с рельсов 8 вагонов с углем"
+    alt="На Сахалине сошли с рельсов 8 вагонов с углем"
+/>
+<div class="lazy-preloader"></div>
+                                                    </a>
+                                    </div>
+            
+        </div>
+                    <div class="list-item__info">
+                                    <h3 class="list-item__title">
+                                                    <a class="list-item__link" href="/article/4696810" tabindex="-1" aria-hidden="true">
+                                                                    На Сахалине сошли с рельсов 8 вагонов с углем
+                                                            </a>
+                                            </h3>
+
+                    
+                    
+                    
+                    
+                                            <div class="list-item__category">
+                                                            <a class="list-item__link" href="/article/4696810" tabindex="-1" aria-hidden="true">
+                                    уголь
+                                </a>
+                                                    </div>
+                    
+                    
+                                            <div class="list-item__date">
+                                                            <a class="list-item__link" href="/article/4696810" aria-hidden="true" tabindex="-1">
+                                    04:00
+                                </a>
+                                                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                                </div>
+        
+        
+            </div>
+</li>
+                                            <li
+    class="list-item list-item--article
+    
+    
+    
+    
+    
+    
+    
+    
+    "
+    data-number="10"
+    >
+    <div class="list-item__box">
+                    <div class="list-item__box-link">
+                <a class="list-item__link"
+                   title=""
+                   href="/article/4696776"
+                    
+                    aria-hidden="true" tabindex="-1"                 >Умершего фигуранта дела о поставке сухпайков для МО хотят оправдать</a>
+            </div>
+                <div class="list-item__preview">
+                        
+            
+                            <div class="list-item__picture">
+                                            <a class="list-item__link" href="/article/4696776"
+                           aria-label="Умершего фигуранта дела о поставке сухпайков для МО хотят оправдать"
+                                                   >
+                            <img
+    class="lazy-image"
+    src="https://cdn-st2.smotrim.ru/vh/pictures/mw/211/318/1.jpg"
+    data-src="https://cdn-st2.smotrim.ru/vh/pictures/xw/211/318/1.jpg"
+    data-id="2113181"
+    title="Умершего фигуранта дела о поставке сухпайков для МО хотят оправдать"
+    alt="Умершего фигуранта дела о поставке сухпайков для МО хотят оправдать"
+/>
+<div class="lazy-preloader"></div>
+                                                    </a>
+                                    </div>
+            
+        </div>
+                    <div class="list-item__info">
+                                    <h3 class="list-item__title">
+                                                    <a class="list-item__link" href="/article/4696776" tabindex="-1" aria-hidden="true">
+                                                                    Умершего фигуранта дела о поставке сухпайков для МО хотят оправдать
+                                                            </a>
+                                            </h3>
+
+                    
+                    
+                    
+                    
+                                            <div class="list-item__category">
+                                                            <a class="list-item__link" href="/article/4696776" tabindex="-1" aria-hidden="true">
+                                    суд
+                                </a>
+                                                    </div>
+                    
+                    
+                                            <div class="list-item__date">
+                                                            <a class="list-item__link" href="/article/4696776" aria-hidden="true" tabindex="-1">
+                                    03:56
+                                </a>
+                                                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                                </div>
+        
+        
+            </div>
+</li>
+                                            <li
+    class="list-item list-item--article
+    
+    
+    
+    
+    
+    
+    
+    
+    "
+    data-number="11"
+    >
+    <div class="list-item__box">
+                    <div class="list-item__box-link">
+                <a class="list-item__link"
+                   title=""
+                   href="/article/4696808"
+                    
+                    aria-hidden="true" tabindex="-1"                 >Ученый Завьялов: опасность афтершоков на Камчатке может сохраняться больше года</a>
+            </div>
+                <div class="list-item__preview">
+                        
+            
+                            <div class="list-item__picture">
+                                            <a class="list-item__link" href="/article/4696808"
+                           aria-label="Ученый Завьялов: опасность афтершоков на Камчатке может сохраняться больше года"
+                                                   >
+                            <img
+    class="lazy-image"
+    src="https://cdn-st4.smotrim.ru/vh/pictures/mw/592/043/5.jpg"
+    data-src="https://cdn-st4.smotrim.ru/vh/pictures/xw/592/043/5.jpg"
+    data-id="5920435"
+    title="Ученый Завьялов: опасность афтершоков на Камчатке может сохраняться больше года"
+    alt="Ученый Завьялов: опасность афтершоков на Камчатке может сохраняться больше года"
+/>
+<div class="lazy-preloader"></div>
+                                                    </a>
+                                    </div>
+            
+        </div>
+                    <div class="list-item__info">
+                                    <h3 class="list-item__title">
+                                                    <a class="list-item__link" href="/article/4696808" tabindex="-1" aria-hidden="true">
+                                                                    Ученый Завьялов: опасность афтершоков на Камчатке может сохраняться больше года
+                                                            </a>
+                                            </h3>
+
+                    
+                    
+                    
+                    
+                                            <div class="list-item__category">
+                                                            <a class="list-item__link" href="/article/4696808" tabindex="-1" aria-hidden="true">
+                                    землетрясение
+                                </a>
+                                                    </div>
+                    
+                    
+                                            <div class="list-item__date">
+                                                            <a class="list-item__link" href="/article/4696808" aria-hidden="true" tabindex="-1">
+                                    03:48
+                                </a>
+                                                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                                </div>
+        
+        
+            </div>
+</li>
+                                            <li
+    class="list-item list-item--article
+    
+    
+    
+    
+    
+    
+    
+    
+    "
+    data-number="12"
+    >
+    <div class="list-item__box">
+                    <div class="list-item__box-link">
+                <a class="list-item__link"
+                   title=""
+                   href="/article/4696807"
+                    
+                    aria-hidden="true" tabindex="-1"                 >Трамп сообщил о планах встретиться с лидерами 20 стран на Генассамблее ООН</a>
+            </div>
+                <div class="list-item__preview">
+                        
+            
+                            <div class="list-item__picture">
+                                            <a class="list-item__link" href="/article/4696807"
+                           aria-label="Трамп сообщил о планах встретиться с лидерами 20 стран на Генассамблее ООН"
+                                                   >
+                            <img
+    class="lazy-image"
+    src="https://cdn-st2.smotrim.ru/vh/pictures/mw/622/090/9.jpg"
+    data-src="https://cdn-st2.smotrim.ru/vh/pictures/xw/622/090/9.jpg"
+    data-id="6220909"
+    title="Трамп сообщил о планах встретиться с лидерами 20 стран на Генассамблее ООН"
+    alt="Трамп сообщил о планах встретиться с лидерами 20 стран на Генассамблее ООН"
+/>
+<div class="lazy-preloader"></div>
+                                                    </a>
+                                    </div>
+            
+        </div>
+                    <div class="list-item__info">
+                                    <h3 class="list-item__title">
+                                                    <a class="list-item__link" href="/article/4696807" tabindex="-1" aria-hidden="true">
+                                                                    Трамп сообщил о планах встретиться с лидерами 20 стран на Генассамблее ООН
+                                                            </a>
+                                            </h3>
+
+                    
+                    
+                    
+                    
+                                            <div class="list-item__category">
+                                                            <a class="list-item__link" href="/article/4696807" tabindex="-1" aria-hidden="true">
+                                    ООН
+                                </a>
+                                                    </div>
+                    
+                    
+                                            <div class="list-item__date">
+                                                            <a class="list-item__link" href="/article/4696807" aria-hidden="true" tabindex="-1">
+                                    03:45
+                                </a>
+                                                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                                </div>
+        
+        
+            </div>
+</li>
+                                            <li
+    class="list-item list-item--article
+    
+    
+    
+    
+    
+    
+    
+    
+    "
+    data-number="13"
+    >
+    <div class="list-item__box">
+                    <div class="list-item__box-link">
+                <a class="list-item__link"
+                   title=""
+                   href="/article/4696736"
+                    
+                    aria-hidden="true" tabindex="-1"                 >Чукотка стала регионом РФ с наименьшим числом ДТП по вине водителей за 8 месяцев</a>
+            </div>
+                <div class="list-item__preview">
+                        
+            
+                            <div class="list-item__picture">
+                                            <a class="list-item__link" href="/article/4696736"
+                           aria-label="Чукотка стала регионом РФ с наименьшим числом ДТП по вине водителей за 8 месяцев"
+                                                   >
+                            <img
+    class="lazy-image"
+    src="https://cdn-st3.smotrim.ru/vh/pictures/mw/637/673/8.jpg"
+    data-src="https://cdn-st3.smotrim.ru/vh/pictures/xw/637/673/8.jpg"
+    data-id="6376738"
+    title="Чукотка стала регионом РФ с наименьшим числом ДТП по вине водителей за 8 месяцев"
+    alt="Чукотка стала регионом РФ с наименьшим числом ДТП по вине водителей за 8 месяцев"
+/>
+<div class="lazy-preloader"></div>
+                                                    </a>
+                                    </div>
+            
+        </div>
+                    <div class="list-item__info">
+                                    <h3 class="list-item__title">
+                                                    <a class="list-item__link" href="/article/4696736" tabindex="-1" aria-hidden="true">
+                                                                    Чукотка стала регионом РФ с наименьшим числом ДТП по вине водителей за 8 месяцев
+                                                            </a>
+                                            </h3>
+
+                    
+                    
+                    
+                    
+                                            <div class="list-item__category">
+                                                            <a class="list-item__link" href="/article/4696736" tabindex="-1" aria-hidden="true">
+                                    ДТП
+                                </a>
+                                                    </div>
+                    
+                    
+                                            <div class="list-item__date">
+                                                            <a class="list-item__link" href="/article/4696736" aria-hidden="true" tabindex="-1">
+                                    03:40
+                                </a>
+                                                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                                </div>
+        
+        
+            </div>
+</li>
+                                            <li
+    class="list-item list-item--article
+    
+    
+    
+    
+    
+    
+    
+    
+    "
+    data-number="14"
+    >
+    <div class="list-item__box">
+                    <div class="list-item__box-link">
+                <a class="list-item__link"
+                   title=""
+                   href="/article/4696787"
+                    
+                    aria-hidden="true" tabindex="-1"                 >В МВД назвали признак, позволяющий распознать мошенника на сайте знакомств</a>
+            </div>
+                <div class="list-item__preview">
+                        
+            
+                            <div class="list-item__picture">
+                                            <a class="list-item__link" href="/article/4696787"
+                           aria-label="В МВД назвали признак, позволяющий распознать мошенника на сайте знакомств"
+                                                   >
+                            <img
+    class="lazy-image"
+    src="https://cdn-st4.smotrim.ru/vh/pictures/mw/638/963/9.jpg"
+    data-src="https://cdn-st4.smotrim.ru/vh/pictures/xw/638/963/9.jpg"
+    data-id="6389639"
+    title="В МВД назвали признак, позволяющий распознать мошенника на сайте знакомств"
+    alt="В МВД назвали признак, позволяющий распознать мошенника на сайте знакомств"
+/>
+<div class="lazy-preloader"></div>
+                                                    </a>
+                                    </div>
+            
+        </div>
+                    <div class="list-item__info">
+                                    <h3 class="list-item__title">
+                                                    <a class="list-item__link" href="/article/4696787" tabindex="-1" aria-hidden="true">
+                                                                    В МВД назвали признак, позволяющий распознать мошенника на сайте знакомств
+                                                            </a>
+                                            </h3>
+
+                    
+                    
+                    
+                    
+                                            <div class="list-item__category">
+                                                            <a class="list-item__link" href="/article/4696787" tabindex="-1" aria-hidden="true">
+                                    мошенничество
+                                </a>
+                                                    </div>
+                    
+                    
+                                            <div class="list-item__date">
+                                                            <a class="list-item__link" href="/article/4696787" aria-hidden="true" tabindex="-1">
+                                    03:38
+                                </a>
+                                                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                                </div>
+        
+        
+            </div>
+</li>
+                                            <li
+    class="list-item list-item--article
+    
+    
+    
+    
+    
+    
+    
+    
+    "
+    data-number="15"
+    >
+    <div class="list-item__box">
+                    <div class="list-item__box-link">
+                <a class="list-item__link"
+                   title=""
+                   href="/article/4696806"
+                    
+                    aria-hidden="true" tabindex="-1"                 >Онищенко: пик заболеваемости ОРВИ и гриппом в РФ начнется в декабре</a>
+            </div>
+                <div class="list-item__preview">
+                        
+            
+                            <div class="list-item__picture">
+                                            <a class="list-item__link" href="/article/4696806"
+                           aria-label="Онищенко: пик заболеваемости ОРВИ и гриппом в РФ начнется в декабре"
+                                                   >
+                            <img
+    class="lazy-image"
+    src="https://cdn-st2.smotrim.ru/vh/pictures/mw/325/862/5.jpg"
+    data-src="https://cdn-st2.smotrim.ru/vh/pictures/xw/325/862/5.jpg"
+    data-id="3258625"
+    title="Онищенко: пик заболеваемости ОРВИ и гриппом в РФ начнется в декабре"
+    alt="Онищенко: пик заболеваемости ОРВИ и гриппом в РФ начнется в декабре"
+/>
+<div class="lazy-preloader"></div>
+                                                    </a>
+                                    </div>
+            
+        </div>
+                    <div class="list-item__info">
+                                    <h3 class="list-item__title">
+                                                    <a class="list-item__link" href="/article/4696806" tabindex="-1" aria-hidden="true">
+                                                                    Онищенко: пик заболеваемости ОРВИ и гриппом в РФ начнется в декабре
+                                                            </a>
+                                            </h3>
+
+                    
+                    
+                    
+                    
+                                            <div class="list-item__category">
+                                                            <a class="list-item__link" href="/article/4696806" tabindex="-1" aria-hidden="true">
+                                    эпидемия
+                                </a>
+                                                    </div>
+                    
+                    
+                                            <div class="list-item__date">
+                                                            <a class="list-item__link" href="/article/4696806" aria-hidden="true" tabindex="-1">
+                                    03:37
+                                </a>
+                                                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                                </div>
+        
+        
+            </div>
+</li>
+                                            <li
+    class="list-item list-item--article
+    
+    
+    
+    
+    
+    
+    
+    
+    "
+    data-number="16"
+    >
+    <div class="list-item__box">
+                    <div class="list-item__box-link">
+                <a class="list-item__link"
+                   title=""
+                   href="/article/4696786"
+                    
+                    aria-hidden="true" tabindex="-1"                 >NYT: США могут проиграть Китаю в лунной гонке из-за SpaceX</a>
+            </div>
+                <div class="list-item__preview">
+                        
+            
+                            <div class="list-item__picture">
+                                            <a class="list-item__link" href="/article/4696786"
+                           aria-label="NYT: США могут проиграть Китаю в лунной гонке из-за SpaceX"
+                                                   >
+                            <img
+    class="lazy-image"
+    src="https://cdn-st4.smotrim.ru/vh/pictures/mw/655/033/9.jpg"
+    data-src="https://cdn-st4.smotrim.ru/vh/pictures/xw/655/033/9.jpg"
+    data-id="6550339"
+    title="NYT: США могут проиграть Китаю в лунной гонке из-за SpaceX"
+    alt="NYT: США могут проиграть Китаю в лунной гонке из-за SpaceX"
+/>
+<div class="lazy-preloader"></div>
+                                                    </a>
+                                    </div>
+            
+        </div>
+                    <div class="list-item__info">
+                                    <h3 class="list-item__title">
+                                                    <a class="list-item__link" href="/article/4696786" tabindex="-1" aria-hidden="true">
+                                                                    NYT: США могут проиграть Китаю в лунной гонке из-за SpaceX
+                                                            </a>
+                                            </h3>
+
+                    
+                    
+                    
+                    
+                                            <div class="list-item__category">
+                                                            <a class="list-item__link" href="/article/4696786" tabindex="-1" aria-hidden="true">
+                                    космос
+                                </a>
+                                                    </div>
+                    
+                    
+                                            <div class="list-item__date">
+                                                            <a class="list-item__link" href="/article/4696786" aria-hidden="true" tabindex="-1">
+                                    03:34
+                                </a>
+                                                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                                </div>
+        
+        
+            </div>
+</li>
+                                            <li
+    class="list-item list-item--article
+    
+    
+    
+    
+    
+    
+    
+    
+    "
+    data-number="17"
+    >
+    <div class="list-item__box">
+                    <div class="list-item__box-link">
+                <a class="list-item__link"
+                   title=""
+                   href="/article/4696774"
+                    
+                    aria-hidden="true" tabindex="-1"                 >Трамп заявил, что ждет от Кабула немедленной передачи США базы Баграм</a>
+            </div>
+                <div class="list-item__preview">
+                        
+            
+                            <div class="list-item__picture">
+                                            <a class="list-item__link" href="/article/4696774"
+                           aria-label="Трамп заявил, что ждет от Кабула немедленной передачи США базы Баграм"
+                                                   >
+                            <img
+    class="lazy-image"
+    src="https://cdn-st1.smotrim.ru/vh/pictures/mw/623/141/2.jpg"
+    data-src="https://cdn-st1.smotrim.ru/vh/pictures/xw/623/141/2.jpg"
+    data-id="6231412"
+    title="Трамп заявил, что ждет от Кабула немедленной передачи США базы Баграм"
+    alt="Трамп заявил, что ждет от Кабула немедленной передачи США базы Баграм"
+/>
+<div class="lazy-preloader"></div>
+                                                    </a>
+                                    </div>
+            
+        </div>
+                    <div class="list-item__info">
+                                    <h3 class="list-item__title">
+                                                    <a class="list-item__link" href="/article/4696774" tabindex="-1" aria-hidden="true">
+                                                                    Трамп заявил, что ждет от Кабула немедленной передачи США базы Баграм
+                                                            </a>
+                                            </h3>
+
+                    
+                    
+                    
+                    
+                                            <div class="list-item__category">
+                                                            <a class="list-item__link" href="/article/4696774" tabindex="-1" aria-hidden="true">
+                                    Афганистан
+                                </a>
+                                                    </div>
+                    
+                    
+                                            <div class="list-item__date">
+                                                            <a class="list-item__link" href="/article/4696774" aria-hidden="true" tabindex="-1">
+                                    03:24
+                                </a>
+                                                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                                </div>
+        
+        
+            </div>
+</li>
+                                            <li
+    class="list-item list-item--article
+    
+    
+    
+    
+    
+    
+    
+    
+    "
+    data-number="18"
+    >
+    <div class="list-item__box">
+                    <div class="list-item__box-link">
+                <a class="list-item__link"
+                   title=""
+                   href="/article/4696735"
+                    
+                    aria-hidden="true" tabindex="-1"                 >Ликвидирован пожар в частично расселенном доме в Якутске</a>
+            </div>
+                <div class="list-item__preview">
+                        
+            
+                            <div class="list-item__picture">
+                                            <a class="list-item__link" href="/article/4696735"
+                           aria-label="Ликвидирован пожар в частично расселенном доме в Якутске"
+                                                   >
+                            <img
+    class="lazy-image"
+    src="https://cdn-st3.smotrim.ru/vh/pictures/mw/682/014/2.jpg"
+    data-src="https://cdn-st3.smotrim.ru/vh/pictures/xw/682/014/2.jpg"
+    data-id="6820142"
+    title="Ликвидирован пожар в частично расселенном доме в Якутске"
+    alt="Ликвидирован пожар в частично расселенном доме в Якутске"
+/>
+<div class="lazy-preloader"></div>
+                                                    </a>
+                                    </div>
+            
+        </div>
+                    <div class="list-item__info">
+                                    <h3 class="list-item__title">
+                                                    <a class="list-item__link" href="/article/4696735" tabindex="-1" aria-hidden="true">
+                                                                    Ликвидирован пожар в частично расселенном доме в Якутске
+                                                            </a>
+                                            </h3>
+
+                    
+                    
+                    
+                    
+                                            <div class="list-item__category">
+                                                            <a class="list-item__link" href="/article/4696735" tabindex="-1" aria-hidden="true">
+                                    пожар
+                                </a>
+                                                    </div>
+                    
+                    
+                                            <div class="list-item__date">
+                                                            <a class="list-item__link" href="/article/4696735" aria-hidden="true" tabindex="-1">
+                                    03:23
+                                </a>
+                                                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                                </div>
+        
+        
+            </div>
+</li>
+                                            <li
+    class="list-item list-item--article
+    
+    
+    
+    
+    
+    
+    
+    
+    "
+    data-number="19"
+    >
+    <div class="list-item__box">
+                    <div class="list-item__box-link">
+                <a class="list-item__link"
+                   title=""
+                   href="/article/4696805"
+                    
+                    aria-hidden="true" tabindex="-1"                 >ВСУ отправляют на фронт неподготовленных колумбийских наемников</a>
+            </div>
+                <div class="list-item__preview">
+                        
+            
+                            <div class="list-item__picture">
+                                            <a class="list-item__link" href="/article/4696805"
+                           aria-label="ВСУ отправляют на фронт неподготовленных колумбийских наемников"
+                                                   >
+                            <img
+    class="lazy-image"
+    src="https://cdn-st4.smotrim.ru/vh/pictures/mw/642/749/9.jpg"
+    data-src="https://cdn-st4.smotrim.ru/vh/pictures/xw/642/749/9.jpg"
+    data-id="6427499"
+    title="ВСУ отправляют на фронт неподготовленных колумбийских наемников"
+    alt="ВСУ отправляют на фронт неподготовленных колумбийских наемников"
+/>
+<div class="lazy-preloader"></div>
+                                                    </a>
+                                    </div>
+            
+        </div>
+                    <div class="list-item__info">
+                                    <h3 class="list-item__title">
+                                                    <a class="list-item__link" href="/article/4696805" tabindex="-1" aria-hidden="true">
+                                                                    ВСУ отправляют на фронт неподготовленных колумбийских наемников
+                                                            </a>
+                                            </h3>
+
+                    
+                    
+                    
+                    
+                                            <div class="list-item__category">
+                                                            <a class="list-item__link" href="/article/4696805" tabindex="-1" aria-hidden="true">
+                                    наемник
+                                </a>
+                                                    </div>
+                    
+                    
+                                            <div class="list-item__date">
+                                                            <a class="list-item__link" href="/article/4696805" aria-hidden="true" tabindex="-1">
+                                    03:15
+                                </a>
+                                                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                                </div>
+        
+        
+            </div>
+</li>
+                                    </ul>
+            </div>
+        </div>
+    </div>
+            
+                                                <div class="section__control">
+                        <button class="section__link section__link--more" value="/api/articles/regionmix?page=2&amp;tags=3515">
+                            Показать еще
+                        </button>
+                    </div>
+                                                    </section>
+    </section>
+                    <footer class="footer">
+    <div class="footer__wrapper">
+        <div class="footer__app-store">
+            <div class="app-store">
+    <div class="app-store__preview">
+        <a href="/apps" class="app-store__picture" aria-hidden="true" tabindex="-1"></a>
+    </div>
+    <div class="app-store__info">
+
+        <ul class="app-store__list">
+            <li class="app-store__item">
+                <a class="app-store__link" href="/apps">
+                    Установите наше приложение
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+        </div>
+
+        <div class="footer__channels">
+            <p>Информация о телеканалах и радиостанциях на сайте <a href="https://vgtrk.ru/" target="_blank">ВГТРК</a></p>
+            <div class="footer__tv">
+                <p>Телевидение</p>
+                <ul>
+                    <li><a href="https://vgtrk.ru/russiatv">РОССИЯ 1</a></li>
+                    <li><a href="https://vgtrk.ru/tvkultura">РОССИЯ К</a></li>
+                    <li><a href="https://vgtrk.ru/russia24">РОССИЯ 24</a></li>
+                    <li><a href="https://vgtrk.ru/rtrplaneta">РОССИЯ РТР</a></li>
+                    <li><a href="https://vgtrk.ru/karuseltv">КАРУСЕЛЬ</a></li>
+                </ul>
+            </div>
+            <div class="footer__radio">
+                <p>Радио</p>
+                <ul>
+                    <li><a href="https://vgtrk.ru/radiomayak">МАЯК</a></li>
+                    <li><a href="https://vgtrk.ru/radiorus">РАДИО РОССИИ</a></li>
+                    <li><a href="https://vgtrk.ru/radiovesti">ВЕСТИ FM</a></li>
+                    <li><a href="https://vgtrk.ru/cultradio">РАДИО КУЛЬТУРА</a></li>
+                    <li><a href="https://vgtrk.ru/radiounost">ЮНОСТЬ</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer__social-groups">
+            <div class="social-groups">
+    <div class="social-groups__content">
+        <ul class="social-groups__list">
+                                            <li class="social-groups__item">
+                    <a class="social-groups__link social-groups__link--vkontakte" href="https://vk.com/smotrim" target="_blank" aria-label="Мы в vkontakte"></a>
+                </li>
+                                                                                                                    <li class="social-groups__item">
+                    <a class="social-groups__link social-groups__link--odnoklassniki" href="https://ok.ru/group/68835016835126" target="_blank" aria-label="Мы в odnoklassniki"></a>
+                </li>
+                                                                                                                                                                                                                                <li class="social-groups__item">
+                    <a class="social-groups__link social-groups__link--yzen" href="https://dzen.ru/smotrimru" target="_blank" aria-label="Мы в yzen"></a>
+                </li>
+                                            <li class="social-groups__item">
+                    <a class="social-groups__link social-groups__link--telegram" href="https://t.me/smotrim_ru" target="_blank" aria-label="Мы в telegram"></a>
+                </li>
+                                            <li class="social-groups__item">
+                    <a class="social-groups__link social-groups__link--tiktok" href="https://www.tiktok.com/@smotrimru" target="_blank" aria-label="Мы в tiktok"></a>
+                </li>
+                                                                                            </ul>
+    </div>
+</div>
+        </div>
+        <div class="footer__search">
+            <div class="search-form">
+
+
+
+
+
+    <div class="search-form__content">
+        <form class="search-form__form" role="search" method="get" action="/search" autocomplete="off">
+            <input class="search-form__query" type="text" aria-label="Поиск" value="" placeholder="Найти" name="q">
+            <input class="search-form__button search-form__button--submit" type="submit">
+        </form>
+ <button class="input-close-icon" aria-label="Очистить поле поиска" />
+    </div>
+    </div>
+<div class="search-autocomplete"></div>
+        </div>
+
+        <div class="footer__menu">
+            <div class="menu">
+    <div class="menu__content" role="navigation">
+        <ul class="menu__list">
+                            <li class="menu__item">
+                    <a class="menu__link" href="/article/2491124?utm_source=internal&amp;utm_medium=menu-group&amp;utm_campaign=menu-footer-docs" >
+                        О платформе
+                    </a>
+                </li>
+                            <li class="menu__item">
+                    <a class="menu__link" href="/article/2469904?utm_source=internal&amp;utm_medium=menu-group&amp;utm_campaign=menu-footer-docs" >
+                        Пользовательское соглашение сервиса &quot;Смотрим&quot;
+                    </a>
+                </li>
+                            <li class="menu__item">
+                    <a class="menu__link" href="mailto:support@smotrim.ru?utm_source=internal&amp;utm_medium=menu-group&amp;utm_campaign=menu-footer-docs" >
+                        Обратная связь
+                    </a>
+                </li>
+                            <li class="menu__item">
+                    <a class="menu__link" href="https://rosreklama.vgtrk.ru/?utm_source=internal&amp;utm_medium=menu-group&amp;utm_campaign=menu-footer-docs" target=&quot;_blank&quot;>
+                        Реклама на сайте
+                    </a>
+                </li>
+                    </ul>
+    </div>
+</div>
+        </div>
+
+        
+        
+        
+        <div class="footer__main-info">
+            <p>Учредитель: Федеральное государственное унитарное предприятие "Всероссийская государственная телевизионная и радиовещательная компания" (<a href="https://vgtrk.ru/" target="_blank">ВГТРК</a>).</p>
+                            <p>Главный редактор: Филипповский А. А. Адрес электронной почты редакции: <a href="mailto:info@smotrim.ru" aria-label="Написать электронное письмо в редакцию" role="button">info@smotrim.ru</a>,<span> <a href="tel:+74952326333" aria-label="Позвонить в редакцию" role="button">+7 495 232-63-33</a></span>.</p>
+                    </div>
+        <div class="footer__age-restriction-info">
+            <p>Все права на любые материалы, опубликованные на сайте, защищены в соответствии с российским и международным законодательством об интеллектуальной собственности. Любое использование текстовых, фото, аудио и видеоматериалов возможно только с согласия правообладателя (<a href="https://vgtrk.ru/" target="_blank">ВГТРК</a>).</p>
+        </div>
+        <div class="footer__age-restriction">
+            <div class="footer__sitemaps">
+                <ul class="menu__list">
+                    <li class="menu__item"><a class="menu__link" href="/sitemap-kino">Карта сайта по фильмам</a></li>
+                    <li class="menu__item"><a class="menu__link" href="/sitemap-serials">Карта сайта по сериалам</a></li>
+                    <li class="menu__item"><a class="menu__link" href="/sitemap-kids">Карта сайта по мультфильмам</a></li>
+                    <li class="menu__item"><a class="menu__link" href="/sitemap-peredacha">Карта сайта по передачам</a></li>
+                    <li class="menu__item"><a class="menu__link" href="/sitemap-audio">Карта сайта по аудио</a></li>
+                    <li class="menu__item"><a class="menu__link" href="/sitemap-genre">Карта сайта по жанрам</a></li>
+                </ul>
+            </div>
+            <i class="footer__icon">16+</i>
+        </div>
+
+        <div class="footer__bottom-info">
+            
+            <p>
+                Информируем о возможности просмотра в непрерывном режиме, круглосуточно и без взимания платы общероссийских обязательных общедоступных телеканалов (<a href="https://smotrim.ru/channel/270">Первый канал</a>, <a href="https://smotrim.ru/channel/1">Телеканал "Россия" (Россия-1)</a>, <a href="https://smotrim.ru/channel/263">Телеканал "Матч ТВ"</a>, <a href="https://smotrim.ru/channel/267">Телекомпания НТВ</a>, <a href="https://smotrim.ru/channel/255">Петербург - 5 канал</a>, <a href="https://smotrim.ru/channel/4">Телеканал "Россия - Культура" (Россия-К)</a>, <a href="https://smotrim.ru/channel/3">Российский информационный канал "Россия-24" (Россия-24)</a>, <a href="https://smotrim.ru/channel/70">Детско-юношеский телеканал "Карусель"</a>, <a href="https://smotrim.ru/channel/363">Телеканал "Общественное телевидение России"</a>, <a href="https://smotrim.ru/channel/260">ТВ ЦЕНТР — Москва</a>) и телеканалов, получивших право на осуществление эфирного цифрового наземного вещания с использованием позиций в мультиплексах на всей территории Российской Федерации (<a href="https://smotrim.ru/channel/256">Телесеть REN TV</a>, <a href="https://smotrim.ru/channel/257">Первый общественный православный телеканал "СПАС""</a>, <a href="https://smotrim.ru/channel/258">Первый развлекательный СТС</a>, <a href="https://smotrim.ru/channel/250">Домашний</a>, <a href="https://smotrim.ru/channel/264">ТВ-3 Россия</a>, <a href="https://smotrim.ru/channel/265">Телекомпания ПЯТНИЦА</a>, <a href="https://smotrim.ru/channel/251">Национальная телевизионная компания "ЗВЕЗДА" (НТК "ЗВЕЗДА"")</a>, <a href="https://smotrim.ru/channel/253">МИР</a>, <a href="https://smotrim.ru/channel/266">ТНТ</a>, <a href="https://smotrim.ru/channel/254">МУЗ</a>) на специальной странице платформы "Смотрим" — "<a href="https://smotrim.ru/channels">Эфир</a>".<br><br>
+                                    СМИ сетевое издание "Смотрим" зарегистрировано Федеральной службой по надзору в сфере связи, информационных технологий и массовых коммуникаций, регистрационный номер серии ЭЛ № ФС77-78574 от 08.07.2020. <br><br>
+                                ВГТРК/ГТК "Телеканал "Россия"<br>
+                ИНН 7714072839<br>
+                ОГРН 1027700310076<br>
+                115162, город Москва, улица Шаболовка, дом 37<br><br>
+
+                © 2025 Сетевое издание "Смотрим".<br><br>
+                Для лиц старше 16 лет.
+            </p>
+        </div>
+    </div>
+    <div class="footer__counters">
+        <div class="counters">
+            <!-- footer counters web -->
+
+<script type="text/javascript" >
+   if (error404) {
+     var ref = document.referrer;
+     var url = document.location.href;
+     var params404 = {'404 ошибка': {'URL-адрес': url, 'Реферер': ref}};
+     ym(67731175, 'reachGoal', '404error', params404);
+   }
+   setTimeout('yaCounter67731175.reachGoal("time_left");', 10000);
+</script>
+
+<!-- tns-counter -->
+<!--script language="JavaScript">
+    var img = new Image();
+    img.src = 'https://www.tns-counter.ru/V13a***R>' + document.referrer.replace(/\*/g,'%2a') + '*vgtrk_ru/ru/CP1251/tmsec=smotrim_total/';
+</script>
+<noscript>
+    <img src="https://www.tns-counter.ru/V13a****vgtrk_ru/ru/CP1251/tmsec=smotrim_total/" width="1" height="1" alt="" />
+</noscript-->
+<!-- /tns-counter -->
+<!-- Rating Mail.ru counter -->
+<script type="text/javascript">
+var _tmr = window._tmr || (window._tmr = []);
+_tmr.push({id: "3203839", type: "pageView", start: (new Date()).getTime()});
+(function (d, w, id) {
+  if (d.getElementById(id)) return;
+  var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+  ts.src = "https://top-fwz1.mail.ru/js/code.js";
+  var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+  if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window, "topmailru-code");
+</script><noscript><div>
+<img src="https://top-fwz1.mail.ru/counter?id=3203839;js=na" style="border:0;position:absolute;left:-9999px;" alt="Top.Mail.Ru" />
+</div></noscript>
+<!-- //Rating Mail.ru counter -->
+
+<script>
+    ((counterHostname) => {
+        window.MSCounter = {
+            counterHostname: counterHostname
+        };
+        window.mscounterCallbacks = window.mscounterCallbacks || [];
+        window.mscounterCallbacks.push(() => {
+            msCounterExampleCom = new MSCounter.counter({
+                    'account':'smotrim',
+                    'tmsec': 'smotrim',
+                    'autohit' : true
+                });
+        });
+  
+        const newScript = document.createElement('script');
+        newScript.async = true;
+        newScript.src = `${counterHostname}/ncc/counter.js`;
+  
+        const referenceNode = document.querySelector('script');
+        if (referenceNode) {
+            referenceNode.parentNode.insertBefore(newScript, referenceNode);
+        } else {
+            document.firstElementChild.appendChild(newScript);
+        }
+    })('https://tns-counter.ru/');
+</script>
+        </div>
+    </div>
+</footer>
+<!-- footer misc code -->
+                </section>
+            </section>
+        </section>
+    </main>
+                        <section id="confirm-form" data-action="/ajax/email/add"></section>
+        </main>
+
+        <section id="pop-up"></section>
+        <div class="geo geo--global">
+    <div class="geo__content">
+        <div class="geo__auto" tabindex="0" aria-label="Автоопределение геолокации">
+            <span class="geo__title">Авто-геолокация</span>
+            <input type="checkbox" id="geo-auto-switcher">
+            <label class="geo__auto-switcher" for="geo-auto-switcher"></label>
+        </div>
+
+        <div class="geo__current">
+            <input type="text" value="" aria-label="Текущая геолокация">
+        </div>
+
+        <div class="geo__scroll">
+            <ul class="geo__list" aria-label="Список регионов">
+                
+            </ul>
+        </div>
+    </div>
+</div>
+        <section id="audio-player" class="audio-player">
+</section>
+
+        <aside class="app__loader"></aside>
+
+        <script src="/js/piwik.js"></script>
+        <script src="/js/smotrim.js?v1394421" type="text/javascript"></script>
+
+        <script>
+            window._txq = window._txq || [];
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//st.hybrid.ai/txsp.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(s);
+            _txq.push(['createPixel', '65bb642c4d506e52707bd0ab']);
+            _txq.push(['track', 'PageView']);
+
+            metrika_lk = document.querySelector('.user-control__link--user');
+            if (metrika_lk) {
+                metrika_lk.addEventListener('click', event => {
+                    _txq.push(['track', 'lk']);
+                });
+            }
+
+            metrika_favorites = document.querySelector('.user-control__link--favorites');
+            if (metrika_favorites) {
+                metrika_favorites.addEventListener('click', event => {
+                    _txq.push(['track', 'izbrannoe']);
+                });
+            }
+
+            metrika_subscription = document.querySelectorAll('.user-subscription__link');
+            if (metrika_subscription) {
+                metrika_subscription.forEach(function(elem) {
+                    elem.addEventListener("click", function() {
+                        _txq.push(['track', 'loginorpodkl']);
+                    });
+                });
+            }
+
+            metrika_login_sms_p = document.querySelector('#login-sms-code');
+            if (metrika_login_sms_p) {
+                metrika_login_sms = metrika_login_sms_p.querySelector('.pop-up__button--submit');
+                _txq.push(['track', 'vhod']);
+            }
+
+            metrika_podpiska = document.querySelector('.ticker-subscribe');
+            if (metrika_podpiska) {
+                metrika_podpiska.addEventListener('click', event => {
+                    _txq.push(['track', 'podpiska']);
+                });
+            }
+
+            ym(67731175, 'params', {
+                is_registered: window.isLogged ? 1 : 0,
+                is_subscriber: window.isSubscribed ? 1 : 0,
+                is_uid: window.isLogged ? window.userUid : 0
+            });
+
+        </script>
+    </body>
+</html>

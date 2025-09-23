@@ -1,0 +1,25 @@
+/* TEAM */
+Site: SimpleFeedMaker
+Role: Independent project
+Builders: You + GPT-5 Thinking
+Location: Internet
+Contact: (add a contact URL or email if you’d like)
+
+/* SITE */
+Stack: HTML5, CSS3, JavaScript (ES modules), PHP 8.x, Bootstrap 5
+Hosting: Hostinger (shared)
+CDN: jsDelivr (Bootstrap), Google Fonts
+Design: Dark by default, text-only logo (Work Sans)
+Privacy: No tracking beyond Google Analytics (optional); no accounts.
+
+/* TECHNICAL */
+Security: HTTPS, basic CSP, no directory listing, JSON Feed served as application/feed+json
+Feeds: Static files in /feeds (opaque IDs)
+Standards: RSS 2.0, Atom 1.0, JSON Feed 1.1
+Last update: 2025-08-30
+
+/* THANKS */
+Thanks to open standards & the web community.
+
+/* POLICY */
+Robots: see /robots.txt
