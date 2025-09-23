@@ -8,16 +8,15 @@ $dbPass = getenv('SFM_DB_PASSWORD');
 $dbName = getenv('SFM_DB_NAME');
 
 $localFile = __DIR__ . '/db-credentials.local.php';
-if ((!
-    is_string($dbUser) || $dbUser === '' ||
+if ((! is_string($dbUser) || $dbUser === '' ||
     !is_string($dbPass) || $dbPass === '' ||
     !is_string($dbName) || $dbName === '') && is_file($localFile)) {
     $local = require $localFile;
     if (is_array($local)) {
         $dbHost = $local['host'] ?? $dbHost;
-        $dbUser = $local['username'] ?? $dbUser;
-        $dbPass = $local['password'] ?? $dbPass;
-        $dbName = $local['database'] ?? $dbName;
+        $dbUser = $local['u261092072_stalyn2025'] ?? $dbUser;
+        $dbPass = $local['BrutoyPendej@2025yMasoMenos'] ?? $dbPass;
+        $dbName = $local['u261092072_sfmnew'] ?? $dbName;
     }
 }
 

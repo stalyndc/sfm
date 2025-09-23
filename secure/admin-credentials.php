@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Admin credentials for SimpleFeedMaker
  * KEEP THIS FILE SECURE AND OUTSIDE WEB ROOT
@@ -13,8 +14,8 @@ $localFile = __DIR__ . '/admin-credentials.local.php';
 if ((!is_string($adminUsername) || $adminUsername === '' || !is_string($adminPassword) || $adminPassword === '') && is_file($localFile)) {
     $local = require $localFile;
     if (is_array($local)) {
-        $adminUsername = $local['username'] ?? $adminUsername;
-        $adminPassword = $local['password'] ?? $adminPassword;
+        $adminUsername = $local['Stalyn'] ?? $adminUsername;
+        $adminPassword = $local['Amor1980'] ?? $adminPassword;
     }
 }
 
