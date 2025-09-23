@@ -65,6 +65,14 @@ if (!defined('TIMEOUT_S'))   define('TIMEOUT_S', 18);        // network timeout 
  */
 if (!function_exists('app_url_base')) {
   function app_url_base(): string {
+    $envBase = trim((string)getenv('SFM_BASE_URL'));
+    if ($envBase !== '') {
+      if (!preg_match('~^https?://~i', $envBase)) {
+        $envBase = 'https://' . ltrim($envBase, '/');
+      }
+      return rtrim($envBase, '/');
+    }
+
     $https  = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off')
               || (($_SERVER['SERVER_PORT'] ?? '') === '443');
     $scheme = $https ? 'https' : 'http';

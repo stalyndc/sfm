@@ -20,6 +20,7 @@ web server configuration. The app reads them on every request.
 ```
 SFM_ADMIN_USERNAME
 SFM_ADMIN_PASSWORD
+SFM_BASE_URL        # full URL, e.g. https://simplefeedmaker.com
 SFM_DB_HOST         # optional — defaults to localhost
 SFM_DB_USERNAME
 SFM_DB_PASSWORD
@@ -79,4 +80,3 @@ the server only.
 - Store the new secrets in your password manager for future rotations.
 
 Repeat this process any time you suspect a credential may have been exposed.
-
