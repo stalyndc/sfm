@@ -56,10 +56,32 @@ function sec_boot_session(): void {
   }
   $booted = true;
 
+  $cookieToken = isset($_COOKIE['sfm_csrf']) ? (string)$_COOKIE['sfm_csrf'] : '';
+
   // Ensure we have a CSRF token
   if (empty($_SESSION['csrf_token'])) {
-    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+    if ($cookieToken !== '') {
+      $_SESSION['csrf_token'] = $cookieToken;
+    } else {
+      $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+    }
     $_SESSION['csrf_issued_at'] = time();
+  }
+
+  // Mirror token into a cookie (double-submit fallback when sessions misbehave)
+  $csrfCookieOptions = [
+    'expires'  => 0,
+    'path'     => '/',
+    'domain'   => '',
+    'secure'   => (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off'),
+    'httponly' => false, // needs to be readable by the browser for fallback
+    'samesite' => 'Lax',
+  ];
+  $currentCookie = $cookieToken;
+  $sessionToken  = (string)$_SESSION['csrf_token'];
+  if ($sessionToken !== '' && (!is_string($currentCookie) || !hash_equals($sessionToken, $currentCookie))) {
+    setcookie('sfm_csrf', $sessionToken, $csrfCookieOptions);
+    $_COOKIE['sfm_csrf'] = $sessionToken;
   }
 }
 
@@ -80,8 +102,18 @@ function csrf_validate(?string $token): bool {
   sec_boot_session();
   $expected = (string)($_SESSION['csrf_token'] ?? '');
   if ($token === null || $token === '') return false;
-  // timing-safe
-  return hash_equals($expected, (string)$token);
+  $token = (string)$token;
+
+  if ($expected !== '' && hash_equals($expected, $token)) {
+    return true;
+  }
+
+  $cookieToken = isset($_COOKIE['sfm_csrf']) ? (string)$_COOKIE['sfm_csrf'] : '';
+  if ($cookieToken !== '' && hash_equals($cookieToken, $token)) {
+    return true;
+  }
+
+  return false;
 }
 
 /* ============================================================

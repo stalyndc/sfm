@@ -118,6 +118,14 @@ function sfm_request_raw(string $url, array $opts = []): array {
         ], $extraHeaders),
     ]);
 
+    // Hard-limit supported protocols to HTTP/S to prevent SSRF to local schemes
+    if (defined('CURLOPT_PROTOCOLS') && defined('CURLPROTO_HTTP') && defined('CURLPROTO_HTTPS')) {
+        curl_setopt($ch, CURLOPT_PROTOCOLS, CURLPROTO_HTTP | CURLPROTO_HTTPS);
+    }
+    if (defined('CURLOPT_REDIR_PROTOCOLS') && defined('CURLPROTO_HTTP') && defined('CURLPROTO_HTTPS')) {
+        curl_setopt($ch, CURLOPT_REDIR_PROTOCOLS, CURLPROTO_HTTP | CURLPROTO_HTTPS);
+    }
+
     if ($method === 'HEAD') {
         curl_setopt($ch, CURLOPT_NOBODY, true);
     }
@@ -333,6 +341,13 @@ function http_multi_get(array $urls, array $baseOptions = []): array {
                 'Accept-Language: ' . (string)($baseOptions['accept_language'] ?? 'en-US,en;q=0.9'),
             ], (array)($baseOptions['headers'] ?? [])),
         ]);
+
+        if (defined('CURLOPT_PROTOCOLS') && defined('CURLPROTO_HTTP') && defined('CURLPROTO_HTTPS')) {
+            curl_setopt($ch, CURLOPT_PROTOCOLS, CURLPROTO_HTTP | CURLPROTO_HTTPS);
+        }
+        if (defined('CURLOPT_REDIR_PROTOCOLS') && defined('CURLPROTO_HTTP') && defined('CURLPROTO_HTTPS')) {
+            curl_setopt($ch, CURLOPT_REDIR_PROTOCOLS, CURLPROTO_HTTP | CURLPROTO_HTTPS);
+        }
         curl_multi_add_handle($mh, $ch);
         $map[$url] = $ch;
     }

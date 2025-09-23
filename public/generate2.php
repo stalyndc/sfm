@@ -7,7 +7,7 @@ declare(strict_types=1);
 
 // Always return JSON, never partial HTML
 header('Content-Type: application/json; charset=utf-8');
-$SFM_DEBUG = true; // TEMP: show fatal details in JSON while we test
+$SFM_DEBUG = getenv('SFM_DEBUG') === '1';
 
 header('Cache-Control: no-store');
 ob_start();
@@ -55,6 +55,7 @@ register_shutdown_function(function() use (&$__fatal, $SFM_DEBUG) {
 $httpFile = __DIR__ . '/includes/http.php';
 $extFile  = __DIR__ . '/includes/extract.php';
 $logFile  = __DIR__ . '/includes/logger2.php';
+$secFile  = __DIR__ . '/includes/security.php';
 
 if (!is_file($httpFile) || !is_readable($httpFile)) {
   http_response_code(500);
@@ -66,9 +67,15 @@ if (!is_file($extFile) || !is_readable($extFile)) {
   echo json_encode(['ok'=>false,'message'=>'Server missing includes/extract.php'], JSON_UNESCAPED_SLASHES);
   exit;
 }
+if (!is_file($secFile) || !is_readable($secFile)) {
+  http_response_code(500);
+  echo json_encode(['ok'=>false,'message'=>'Server missing includes/security.php'], JSON_UNESCAPED_SLASHES);
+  exit;
+}
 
 require_once $httpFile;
 require_once $extFile;
+require_once $secFile;
 
 // logger is optional — if missing, we run without it
 $__logEnabled = false;
@@ -88,7 +95,7 @@ const FEEDS_DIR   = __DIR__ . '/feeds';
 
 // ---------- small helpers ----------
 $__span = null;
-function json_fail(string $msg, int $http = 400, array $extra = []): void {
+function sfm_json_fail(string $msg, int $http = 400, array $extra = []): void {
   global $__span, $__logEnabled;
   if ($__logEnabled && is_array($__span)) {
     if (function_exists('sfm_log_error')) {
@@ -112,7 +119,7 @@ function app_url_base(): string {
 function ensure_feeds_dir(): void {
   if (!is_dir(FEEDS_DIR)) @mkdir(FEEDS_DIR, 0775, true);
   if (!is_dir(FEEDS_DIR) || !is_writable(FEEDS_DIR)) {
-    json_fail('Server cannot write to /feeds directory.', 500);
+    sfm_json_fail('Server cannot write to /feeds directory.', 500);
   }
 }
 function xml_safe(string $s): string { return htmlspecialchars($s, ENT_XML1 | ENT_COMPAT, 'UTF-8'); }
@@ -125,6 +132,11 @@ function uuid_v5(string $name, string $ns = '6ba7b811-9dad-11d1-80b4-00c04fd430c
     substr($hash,20,12));
 }
 function to_rfc3339(?string $str): ?string { if(!$str) return null; $ts=strtotime($str); return $ts?date('c',$ts):null; }
+
+function sfm_is_http_url(string $url): bool {
+  $scheme = strtolower((string)parse_url($url, PHP_URL_SCHEME));
+  return in_array($scheme, ['http','https'], true);
+}
 
 // Builders
 function build_rss(string $title, string $link, string $desc, array $items): string {
@@ -222,21 +234,23 @@ function detect_feed_format_and_ext(string $body, array $headersAssoc, string $s
 
 // ---------- inputs ----------
 try {
-  if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') json_fail('Use POST.', 405);
+  secure_assert_post('generate', 2, 20);
+  if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') sfm_json_fail('Use POST.', 405);
 
   $url          = trim((string)($_POST['url'] ?? ''));
   $limit        = (int)($_POST['limit'] ?? DEFAULT_LIM);
   $format       = strtolower(trim((string)($_POST['format'] ?? DEFAULT_FMT)));
   $preferNative = isset($_POST['prefer_native']) && in_array(strtolower((string)$_POST['prefer_native']), ['1','true','on','yes'], true);
 
-  if ($url === '' || !filter_var($url, FILTER_VALIDATE_URL)) json_fail('Please provide a valid URL (including http:// or https://).');
+  if ($url === '' || !filter_var($url, FILTER_VALIDATE_URL)) sfm_json_fail('Please provide a valid URL (including http:// or https://).');
+  if (!sfm_is_http_url($url)) sfm_json_fail('Only http:// or https:// URLs are allowed.', 400, ['field' => 'url']);
   $limit = max(1, min(MAX_LIM, $limit));
   if (!in_array($format, ['rss','atom','jsonfeed'], true)) $format = DEFAULT_FMT;
 
   if (!empty($_SERVER['HTTP_ORIGIN'])) {
     $origin = $_SERVER['HTTP_ORIGIN'];
     $host   = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' ? 'https' : 'http') . '://' . ($_SERVER['HTTP_HOST'] ?? '');
-    if (stripos($origin, $host) !== 0) json_fail('Cross-origin requests are not allowed.', 403);
+    if (stripos($origin, $host) !== 0) sfm_json_fail('Cross-origin requests are not allowed.', 403);
   }
 
   // start log span (optional)
@@ -254,6 +268,11 @@ try {
         ? sfm_discover_feeds($page['body'], $url)
         : fallback_discover_native_feeds($page['body'], $url);
       if ($cands) {
+        $cands = array_values(array_filter($cands, function ($cand) {
+          return isset($cand['href']) && sfm_is_http_url((string)$cand['href']);
+        }));
+      }
+      if ($cands) {
         $pageHost = parse_url($url, PHP_URL_HOST);
         usort($cands, function($a, $b) use ($pageHost) {
           $ah = parse_url($a['href'], PHP_URL_HOST); $bh = parse_url($b['href'], PHP_URL_HOST);
@@ -265,6 +284,9 @@ try {
         });
 
         $pick = $cands[0];
+        if (!sfm_is_http_url($pick['href'])) {
+          sfm_json_fail('Native feed uses unsupported scheme.', 400);
+        }
         $feed = http_get($pick['href'], [
           'accept'=>'application/rss+xml, application/atom+xml, application/feed+json, application/json, application/xml;q=0.9, */*;q=0.8',
         ]);
@@ -277,7 +299,7 @@ try {
           $feedId   = md5($pick['href'].'|'.microtime(true));
           $filename = $feedId.'.'.$ext;
           $path     = FEEDS_DIR.'/'.$filename;
-          if (@file_put_contents($path, $feed['body']) === false) json_fail('Failed to save native feed file.', 500);
+          if (@file_put_contents($path, $feed['body']) === false) sfm_json_fail('Failed to save native feed file.', 500);
 
           $feedUrl = rtrim(app_url_base(), '/').'/feeds/'.$filename;
 
@@ -297,7 +319,7 @@ try {
   // ---- B) custom parse ----
   $page = http_get($url, ['accept'=>'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8']);
   if (!$page['ok'] || $page['status'] < 200 || $page['status'] >= 400 || $page['body'] === '') {
-    json_fail('Failed to fetch the page.', 502, ['status'=>$page['status'] ?? 0]);
+    sfm_json_fail('Failed to fetch the page.', 502, ['status'=>$page['status'] ?? 0]);
   }
 
   // pick whichever extractor your extract.php provides
@@ -306,9 +328,9 @@ try {
   } elseif (function_exists('sfm_extract_items')) {
     $items = sfm_extract_items($page['body'], $url, $limit);
   } else {
-    json_fail('Server missing extract function.', 500);
+    sfm_json_fail('Server missing extract function.', 500);
   }
-  if (empty($items)) json_fail('No items found on the given page.', 404);
+  if (empty($items)) sfm_json_fail('No items found on the given page.', 404);
 
   $title = APP_NAME.' Feed';
   $desc  = 'Custom feed generated by '.APP_NAME;
@@ -326,7 +348,7 @@ try {
 
   ensure_feeds_dir();
   $path = FEEDS_DIR.'/'.$filename;
-  if (@file_put_contents($path, $content) === false) json_fail('Failed to save feed file.', 500);
+  if (@file_put_contents($path, $content) === false) sfm_json_fail('Failed to save feed file.', 500);
 
   if ($__logEnabled) sfm_log_end($__span, ['status'=>'ok','used_native'=>false,'items'=>count($items)]);
 
@@ -339,5 +361,5 @@ try {
 
 } catch (Throwable $e) {
   // Convert any PHP warning/notice/exception into clean JSON
-  json_fail('Server error.', 500, ['reason'=>$e->getMessage()]);
+  sfm_json_fail('Server error.', 500, ['reason'=>$e->getMessage()]);
 }

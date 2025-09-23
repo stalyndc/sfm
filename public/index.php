@@ -1,14 +1,11 @@
 <?php
-/**
- * SimpleFeedMaker — index.php (SEO + small perf polish)
- * - Clean <head> (canonical, OG/Twitter, robots, theme-color, preconnect)
- * - Lightweight page; single form → POST to generate.php
- * - Same UI/flow as before; no breaking changes
- */
+
 declare(strict_types=1);
+require_once __DIR__ . '/includes/security.php';
 ?>
 <!doctype html>
 <html lang="en" data-bs-theme="dark">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -51,6 +48,8 @@ declare(strict_types=1);
 
   <!-- Work Sans -->
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Oswald for site title -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&display=swap" rel="stylesheet">
 
   <!-- Emoji favicon 📡 -->
   <link rel="icon" href="data:image/svg+xml,
@@ -67,40 +66,90 @@ declare(strict_types=1);
 
   <!-- Minimal page polish -->
   <style>
-    :root { --sfm-accent:#1e90ff; }
-    html,body { height:100%; }
-    body { font-family:"Work Sans",system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial,sans-serif; }
-    .site-title { font-weight:700; letter-spacing:.2px; }
-    .card { border:1px solid rgba(255,255,255,.08); }
-    .muted { color: var(--bs-secondary-color); }
-    .mono  { font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; }
-    .spinner { width:1rem;height:1rem;border:.2rem solid rgba(255,255,255,.25);border-top-color:#fff;border-radius:50%;animation:spin .8s linear infinite;display:inline-block;vertical-align:-.2rem;margin-right:.35rem}
-    @keyframes spin { to { transform: rotate(360deg);} }
-    .copy-ok { background: rgba(30,144,255,.12) !important; border-color: rgba(30,144,255,.35) !important; }
-    .footnote { font-size:.9rem; }
+    :root {
+      --sfm-accent: #1e90ff;
+    }
+
+    html,
+    body {
+      height: 100%;
+    }
+
+    body {
+      font-family: "Work Sans", system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    .site-title {
+      font-family: "Oswald", "Work Sans", system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 700;
+      letter-spacing: .2px;
+    }
+
+    .card {
+      border: 1px solid rgba(255, 255, 255, .08);
+    }
+
+    .muted {
+      color: var(--bs-secondary-color);
+    }
+
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    }
+
+    .spinner {
+      width: 1rem;
+      height: 1rem;
+      border: .2rem solid rgba(255, 255, 255, .25);
+      border-top-color: #fff;
+      border-radius: 50%;
+      animation: spin .8s linear infinite;
+      display: inline-block;
+      vertical-align: -.2rem;
+      margin-right: .35rem
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .copy-ok {
+      background: rgba(30, 144, 255, .12) !important;
+      border-color: rgba(30, 144, 255, .35) !important;
+    }
+
+    .footnote {
+      font-size: .9rem;
+    }
   </style>
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-YZ2SN3R4PX"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
     gtag('config', 'G-YZ2SN3R4PX');
   </script>
 
   <!-- JSON-LD (Website) -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "url": "https://simplefeedmaker.com/",
-    "name": "SimpleFeedMaker",
-    "description": "Create RSS or JSON feeds from any URL in seconds.",
-    "inLanguage": "en"
-  }
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://simplefeedmaker.com/",
+      "name": "SimpleFeedMaker",
+      "description": "Create RSS or JSON feeds from any URL in seconds.",
+      "inLanguage": "en"
+    }
   </script>
 </head>
+
 <body>
 
   <!-- Header -->
@@ -122,10 +171,11 @@ declare(strict_types=1);
 
               <!-- One tiny form -->
               <form id="feedForm" class="vstack gap-3" novalidate>
+                <?php echo csrf_input(); ?>
                 <div>
                   <label for="url" class="form-label">Source URL</label>
                   <input type="url" class="form-control" id="url" name="url"
-                         placeholder="https://example.com/news" required inputmode="url" autocomplete="url">
+                    placeholder="https://example.com/news" required inputmode="url" autocomplete="url">
                   <div class="form-text">Blog, news listing, category page, etc.</div>
                 </div>
 
@@ -201,42 +251,48 @@ declare(strict_types=1);
 
   <!-- Tiny inline app logic -->
   <script>
-    const $  = (s, r=document) => r.querySelector(s);
-    const $$ = (s, r=document) => [...r.querySelectorAll(s)];
+    const $ = (s, r = document) => r.querySelector(s);
+    const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 
-    const form       = $('#feedForm');
-    const urlInput   = $('#url');
+    const form = $('#feedForm');
+    const urlInput = $('#url');
     const limitInput = $('#limit');
-    const formatSel  = $('#format');
-    const genBtn     = $('#generateBtn');
-    const clearBtn   = $('#clearBtn');
-    const hintCard   = $('#hintCard');
+    const formatSel = $('#format');
+    const genBtn = $('#generateBtn');
+    const clearBtn = $('#clearBtn');
+    const hintCard = $('#hintCard');
     const resultCard = $('#resultCard');
-    const resultBox  = $('#resultBox');
+    const resultBox = $('#resultBox');
+    const csrfField = $('input[name="csrf_token"]');
 
     function setBusy(isBusy) {
-      genBtn.disabled   = isBusy;
+      genBtn.disabled = isBusy;
       urlInput.disabled = isBusy;
       limitInput.disabled = isBusy;
-      formatSel.disabled  = isBusy;
-      genBtn.innerHTML  = isBusy ? '<span class="spinner"></span>Generating…' : 'Generate feed';
+      formatSel.disabled = isBusy;
+      genBtn.innerHTML = isBusy ? '<span class="spinner"></span>Generating…' : 'Generate feed';
     }
 
     function isLikelyUrl(s) {
-      try { const u = new URL(s); return /^https?:$/i.test(u.protocol); } catch { return false; }
+      try {
+        const u = new URL(s);
+        return /^https?:$/i.test(u.protocol);
+      } catch {
+        return false;
+      }
     }
 
     function buildValidatorLink(feedUrl, format) {
       const isJson = (String(format).toLowerCase() === 'jsonfeed') || /\.json($|\?)/i.test(feedUrl);
-      return isJson
-        ? `https://validator.jsonfeed.org/?url=${encodeURIComponent(feedUrl)}`
-        : `https://validator.w3.org/feed/check.cgi?url=${encodeURIComponent(feedUrl)}`;
+      return isJson ?
+        `https://validator.jsonfeed.org/?url=${encodeURIComponent(feedUrl)}` :
+        `https://validator.w3.org/feed/check.cgi?url=${encodeURIComponent(feedUrl)}`;
     }
 
     function renderResult(data) {
       const feedUrl = String(data.feed_url || '');
-      const format  = String(data.format || '').toLowerCase();
-      const items   = (data.items ?? null);
+      const format = String(data.format || '').toLowerCase();
+      const items = (data.items ?? null);
 
       const validatorUrl = buildValidatorLink(feedUrl, format);
 
@@ -262,20 +318,25 @@ declare(strict_types=1);
       `;
 
       const copyBtn = $('#copyBtn');
-      const input   = $('#feedUrlInput');
-      const newBtn  = $('#newBtn');
+      const input = $('#feedUrlInput');
+      const newBtn = $('#newBtn');
 
       copyBtn?.addEventListener('click', async () => {
         try {
           await navigator.clipboard.writeText(input.value);
           copyBtn.textContent = 'Copied!';
           copyBtn.classList.add('copy-ok');
-          setTimeout(() => { copyBtn.textContent = 'Copy'; copyBtn.classList.remove('copy-ok'); }, 1200);
+          setTimeout(() => {
+            copyBtn.textContent = 'Copy';
+            copyBtn.classList.remove('copy-ok');
+          }, 1200);
         } catch {
           input.select();
           document.execCommand('copy');
           copyBtn.textContent = 'Copied!';
-          setTimeout(() => { copyBtn.textContent = 'Copy'; }, 1200);
+          setTimeout(() => {
+            copyBtn.textContent = 'Copy';
+          }, 1200);
         }
       });
 
@@ -300,7 +361,7 @@ declare(strict_types=1);
       if (!isLikelyUrl(url)) {
         urlInput.focus();
         urlInput.classList.add('is-invalid');
-        setTimeout(()=>urlInput.classList.remove('is-invalid'), 1000);
+        setTimeout(() => urlInput.classList.remove('is-invalid'), 1000);
         return;
       }
 
@@ -308,11 +369,29 @@ declare(strict_types=1);
       fd.set('url', url);
       fd.set('limit', String(Math.max(1, Math.min(50, parseInt(limitInput.value || '10', 10)))));
       fd.set('format', formatSel.value);
+      if (csrfField?.value) {
+        fd.set('csrf_token', csrfField.value);
+      }
 
       setBusy(true);
       try {
-        const res  = await fetch('generate.php', { method:'POST', body: fd, headers: { 'Accept':'application/json' } });
-        const data = await res.json().catch(()=>({ok:false,message:'Invalid JSON from server.'}));
+        const headers = {
+          'Accept': 'application/json'
+        };
+        if (csrfField?.value) {
+          headers['X-CSRF-Token'] = csrfField.value;
+        }
+
+        const res = await fetch('generate.php', {
+          method: 'POST',
+          body: fd,
+          headers,
+          credentials: 'same-origin',
+        });
+        const data = await res.json().catch(() => ({
+          ok: false,
+          message: 'Invalid JSON from server.'
+        }));
 
         if (!data || data.ok === false) {
           resultBox.innerHTML = `<div class="alert alert-danger"><strong>Oops.</strong> ${String(data?.message || 'Generation failed.')}</div>`;
@@ -331,4 +410,5 @@ declare(strict_types=1);
     });
   </script>
 </body>
+
 </html>

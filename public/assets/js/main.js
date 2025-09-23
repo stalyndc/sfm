@@ -23,6 +23,7 @@
   const hintCard   = $('#hintCard');
   const resultCard = $('#resultCard');
   const resultBox  = $('#resultBox');
+  const csrfField  = $('input[name="csrf_token"]');
 
   if (!form || !urlInput || !genBtn || !resultCard || !resultBox) {
     // Page isn’t the generator shell; nothing to do.
@@ -129,10 +130,23 @@
     fd.set('url', url);
     fd.set('limit', String(Math.max(1, Math.min(50, parseInt(limitInput.value || '10', 10)))));
     fd.set('format', formatSel.value);
+    if (csrfField?.value) {
+      fd.set('csrf_token', csrfField.value);
+    }
 
     setBusy(true);
     try {
-      const res  = await fetch('generate.php', { method: 'POST', body: fd, headers: { 'Accept': 'application/json' } });
+      const headers = { 'Accept': 'application/json' };
+      if (csrfField?.value) {
+        headers['X-CSRF-Token'] = csrfField.value;
+      }
+
+      const res  = await fetch('generate.php', {
+        method: 'POST',
+        body: fd,
+        headers,
+        credentials: 'same-origin',
+      });
       const data = await res.json().catch(() => ({ ok: false, message: 'Invalid JSON from server.' }));
 
       if (!data || data.ok === false) {
