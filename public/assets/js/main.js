@@ -24,6 +24,36 @@
   const resultCard = $('#resultCard');
   const resultBox  = $('#resultBox');
   const csrfField  = $('input[name="csrf_token"]');
+  const isHttps    = window.location.protocol === 'https:';
+  const csrfCookie = 'sfm_csrf';
+
+  const readCookie = (name) => {
+    const prefix = `${name}=`;
+    const parts = document.cookie ? document.cookie.split(';') : [];
+    for (const part of parts) {
+      const trimmed = part.trim();
+      if (trimmed.startsWith(prefix)) return decodeURIComponent(trimmed.slice(prefix.length));
+    }
+    return '';
+  };
+
+  const setCookie = (name, value) => {
+    const bits = [`${name}=${encodeURIComponent(value)}`, 'path=/', 'SameSite=Lax'];
+    if (isHttps) bits.push('Secure');
+    document.cookie = bits.join('; ');
+  };
+
+  const syncCsrfToken = () => {
+    if (!csrfField) return;
+    const cookieVal = readCookie(csrfCookie);
+    if (cookieVal) {
+      if (csrfField.value !== cookieVal) csrfField.value = cookieVal;
+    } else if (csrfField.value) {
+      setCookie(csrfCookie, csrfField.value);
+    }
+  };
+
+  syncCsrfToken();
 
   if (!form || !urlInput || !genBtn || !resultCard || !resultBox) {
     // Page isn’t the generator shell; nothing to do.
@@ -118,6 +148,7 @@
   });
 
   genBtn.addEventListener('click', async () => {
+    syncCsrfToken();
     const url = urlInput.value.trim();
     if (!isLikelyUrl(url)) {
       urlInput.focus();
@@ -162,6 +193,7 @@
       hintCard?.classList.add('d-none');
     } finally {
       setBusy(false);
+      syncCsrfToken();
     }
   });
 })();
