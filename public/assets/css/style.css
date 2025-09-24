@@ -13,6 +13,8 @@
   /* Subtle radius + shadows that feel modern */
   --sfm-radius: 14px;
   --sfm-shadow: 0 6px 24px rgba(0,0,0,.18), 0 2px 8px rgba(0,0,0,.12);
+  --sfm-accent: #4c8dff;
+  --sfm-accent-soft: rgba(76, 141, 255, .16);
 }
 
 html, body {
@@ -26,16 +28,32 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.site-title {
+  font-family: "Oswald", "Work Sans", system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+               "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: .2px;
+}
+
+.mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+               "Courier New", monospace;
+}
+
 /* Dark theme fine-tuning (Bootstrap already handles most variables) */
 [data-bs-theme="dark"] {
   --bs-body-bg: #0f1115;
-  --bs-body-color: #e6e7ea;
-  --bs-secondary-color: #aab0bb;
-  --bs-border-color: #232634;
+  --bs-body-color: #e9ebef;
+  --bs-secondary-color: #b6bcc9;
+  --bs-border-color: #262a38;
   --bs-card-bg: #141823;
   --bs-card-border-color: #1c2230;
-  --bs-link-color: #8ab4ff;
-  --bs-link-hover-color: #a8c8ff;
+  --bs-link-color: #99bfff;
+  --bs-link-hover-color: #c0d6ff;
+}
+
+.muted {
+  color: rgba(227, 230, 237, .78);
 }
 
 /* ------------------------------
@@ -54,6 +72,7 @@ body {
   border-color: var(--bs-card-border-color);
   background: var(--bs-card-bg);
   box-shadow: var(--sfm-shadow);
+  transition: border-color .2s ease, box-shadow .2s ease;
 }
 
 .card .card-body {
@@ -74,7 +93,21 @@ body {
 }
 
 .form-text {
-  color: var(--bs-secondary-color);
+  color: rgba(227, 230, 237, .7);
+}
+
+.form-control,
+.form-select {
+  background-color: rgba(18, 22, 33, .92);
+  border-color: rgba(116, 125, 148, .35);
+  transition: border-color .15s ease, box-shadow .15s ease, background-color .15s ease;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--sfm-accent);
+  background-color: rgba(20, 27, 41, .98);
+  box-shadow: 0 0 0 .2rem rgba(76, 141, 255, .18);
 }
 
 /* Tighter number inputs on small screens */
@@ -85,6 +118,7 @@ input[type="number"] { -moz-appearance: textfield; }
 /* Buttons */
 .btn {
   border-radius: 10px;
+  transition: transform .15s ease, box-shadow .15s ease, background-color .15s ease, color .15s ease;
 }
 
 .btn-success {
@@ -95,10 +129,77 @@ input[type="number"] { -moz-appearance: textfield; }
   color: #fff;
 }
 
+#generateBtn {
+  box-shadow: 0 10px 24px rgba(76, 141, 255, .28);
+}
+
+#generateBtn:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 14px 28px rgba(76, 141, 255, .32);
+}
+
+#clearBtn {
+  color: var(--bs-secondary-color);
+  border-color: rgba(206, 212, 222, .2);
+}
+
+#clearBtn:hover {
+  border-color: rgba(226, 232, 240, .35);
+  color: #fff;
+}
+
+#resultBox .btn-outline-success {
+  color: #63ffa4;
+  border-color: rgba(99, 255, 164, .35);
+  background: rgba(16, 77, 57, .14);
+}
+
+#resultBox .btn-outline-success:hover {
+  background: rgba(99, 255, 164, .2);
+  border-color: rgba(99, 255, 164, .6);
+}
+
+#resultBox .btn-outline-primary {
+  color: var(--sfm-accent);
+  border-color: rgba(76, 141, 255, .45);
+}
+
+#resultBox .btn-outline-primary:hover {
+  background: var(--sfm-accent-soft);
+}
+
+#resultBox .btn {
+  border-radius: 8px;
+}
+
 /* Loading state helper (JS can add .is-busy on buttons) */
 .btn.is-busy, .btn[aria-busy="true"] {
   pointer-events: none;
   opacity: .85;
+}
+
+.copy-ok {
+  background: var(--sfm-accent-soft) !important;
+  border-color: rgba(76, 141, 255, .5) !important;
+  color: #fff !important;
+  transition: background .3s ease, border-color .3s ease, color .3s ease, box-shadow .3s ease;
+  box-shadow: 0 0 0 .1rem rgba(76, 141, 255, .25);
+}
+
+.spinner {
+  width: 1rem;
+  height: 1rem;
+  border: .2rem solid rgba(255, 255, 255, .25);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin .8s linear infinite;
+  display: inline-block;
+  vertical-align: -.2rem;
+  margin-right: .35rem;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
 }
 
 /* ------------------------------
@@ -109,6 +210,28 @@ input[type="number"] { -moz-appearance: textfield; }
 .feed-url-input {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
                "Courier New", monospace;
+}
+
+#resultBox .input-group {
+  background: rgba(18, 22, 33, .72);
+  border-radius: 12px;
+  padding: .35rem;
+  border: 1px solid rgba(255, 255, 255, .05);
+}
+
+#resultBox .input-group .form-control {
+  background: transparent;
+  border: none;
+  color: inherit;
+  box-shadow: none;
+}
+
+#resultBox .input-group .form-control:focus {
+  box-shadow: none;
+}
+
+#resultCard .muted {
+  color: rgba(227, 230, 237, .74);
 }
 
 /* Small “status breadcrumb” line under the success box */
@@ -169,11 +292,42 @@ input[type="number"] { -moz-appearance: textfield; }
 ------------------------------ */
 .text-secondary { color: var(--bs-secondary-color) !important; }
 
+.footnote {
+  font-size: .9rem;
+  margin-top: 1.75rem;
+}
+
+.muted strong {
+  color: #f1f3f9;
+}
+
 code {
   background: rgba(255,255,255,.04);
   border: 1px solid var(--bs-border-color);
   border-radius: 6px;
   padding: .15rem .35rem;
+}
+
+@media (max-width: 991.98px) {
+  #resultCard {
+    margin-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, .08);
+  }
+}
+
+@media (max-width: 575.98px) {
+  .card {
+    border-radius: 12px;
+  }
+
+  .card .card-body {
+    padding: 1.1rem 1rem;
+  }
+
+  #generateBtn,
+  #clearBtn {
+    flex: 1 1 100%;
+  }
 }
 
 /* Give the main hero a little breathing room on very small screens */

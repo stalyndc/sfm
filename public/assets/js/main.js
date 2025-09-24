@@ -117,16 +117,27 @@
     const newBtn  = $('#newBtn');
 
     copyBtn?.addEventListener('click', async () => {
-      try {
-        await navigator.clipboard.writeText(input.value);
+      const showCopied = () => {
         copyBtn.textContent = 'Copied!';
         copyBtn.classList.add('copy-ok');
-        setTimeout(() => { copyBtn.textContent = 'Copy'; copyBtn.classList.remove('copy-ok'); }, 1200);
+        copyBtn.blur();
+        setTimeout(() => {
+          copyBtn.textContent = 'Copy';
+          copyBtn.classList.remove('copy-ok');
+        }, 1400);
+      };
+
+      try {
+        await navigator.clipboard.writeText(input.value);
+        showCopied();
       } catch {
         input.select();
         document.execCommand('copy');
-        copyBtn.textContent = 'Copied!';
-        setTimeout(() => { copyBtn.textContent = 'Copy'; }, 1200);
+        if (typeof window.getSelection === 'function') {
+          const sel = window.getSelection();
+          sel?.removeAllRanges?.();
+        }
+        showCopied();
       }
     });
 
