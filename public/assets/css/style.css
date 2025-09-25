@@ -138,6 +138,34 @@ body {
   box-shadow: 0 0 0 .2rem rgba(76, 141, 255, .18);
 }
 
+.form-switch {
+  padding-left: 3.25rem;
+  min-height: 1.75rem;
+}
+
+.form-switch .form-check-input {
+  width: 2.7rem;
+  height: 1.4rem;
+  background-color: rgba(116, 125, 148, .35);
+  border-color: rgba(116, 125, 148, .45);
+  cursor: pointer;
+  transition: background-color .15s ease, border-color .15s ease, box-shadow .15s ease;
+}
+
+.form-switch .form-check-input:checked {
+  background-color: var(--sfm-accent);
+  border-color: var(--sfm-accent);
+}
+
+.form-switch .form-check-input:focus {
+  box-shadow: 0 0 0 .2rem var(--sfm-accent-soft);
+}
+
+.form-switch .form-check-label {
+  font-weight: 600;
+  color: #fff;
+}
+
 /* Tighter number inputs on small screens */
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }

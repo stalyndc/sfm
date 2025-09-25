@@ -1,0 +1,22 @@
+{
+    "job_id": "124844d048f0da2d3889b559",
+    "source_url": "https://www.cnet.com/personal-finance/",
+    "native_source": null,
+    "mode": "custom",
+    "format": "rss",
+    "limit": 10,
+    "feed_filename": "9681b8bf34a2e9259b99125ddeb3e96f.xml",
+    "feed_url": "http://localhost:8000/feeds/9681b8bf34a2e9259b99125ddeb3e96f.xml",
+    "prefer_native": false,
+    "refresh_interval": 1800,
+    "refresh_count": 0,
+    "last_refresh_at": "2025-09-25T23:25:20+00:00",
+    "last_refresh_status": "ok",
+    "last_refresh_note": "custom parse",
+    "last_refresh_code": 200,
+    "last_refresh_error": null,
+    "created_at": "2025-09-25T23:25:20+00:00",
+    "updated_at": "2025-09-25T23:25:20+00:00",
+    "created_ip": "::1",
+    "items_count": 10
+}

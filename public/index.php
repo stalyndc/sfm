@@ -76,6 +76,13 @@ require __DIR__ . '/includes/page_header.php';
                       <option value="jsonfeed">JSON Feed</option>
                     </select>
                   </div>
+                  <div class="col-12">
+                    <div class="form-check form-switch">
+                      <input class="form-check-input" type="checkbox" role="switch" id="preferNative" name="prefer_native">
+                      <label class="form-check-label" for="preferNative">Prefer native feed (if available)</label>
+                    </div>
+                    <div class="form-text">If a site advertises an RSS or JSON feed, we will use that first and fall back to the custom parser when needed.</div>
+                  </div>
                 </div>
 
                 <div class="d-grid gap-2 d-sm-flex align-items-center">

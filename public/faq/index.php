@@ -36,7 +36,7 @@ $structuredData  = [
         'name'  => 'What happens if the page already has a native feed?',
         'acceptedAnswer' => [
           '@type' => 'Answer',
-          'text'  => 'Enable the native preference toggle before generating. When enabled, SimpleFeedMaker autodiscovers the site\'s advertised feed and serves that directly. If discovery fails or the native feed is unreachable, the app falls back to the custom parser.',
+          'text'  => 'Flip the “Prefer native feed” switch before generating. When enabled, SimpleFeedMaker autodiscovers the site\'s advertised feed and serves that directly. If discovery fails or the native feed is unreachable, the app falls back to the custom parser.',
         ],
       ],
       [
@@ -112,7 +112,7 @@ require __DIR__ . '/../includes/page_header.php';
               </h2>
               <div id="a3" class="accordion-collapse collapse" aria-labelledby="q3" data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
-                  <p class="mb-0">You can toggle the native preference option before generating. When enabled, we autodiscover the site&rsquo;s advertised feed and serve that directly. If discovery fails or the native feed is unreachable, we fall back to the custom parser.</p>
+                  <p class="mb-0">Flip the <strong>Prefer native feed</strong> switch before generating. When enabled, we autodiscover the site&rsquo;s advertised feed and serve that directly. If discovery fails or the native feed is unreachable, we fall back to the custom parser.</p>
                 </div>
               </div>
             </div>

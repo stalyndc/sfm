@@ -1,0 +1,22 @@
+{
+    "job_id": "5add6dc7d4d9627fe2e95531",
+    "source_url": "https://www.cnet.com/personal-finance/",
+    "native_source": "https://www.cnet.com/rss/news/",
+    "mode": "native",
+    "format": "rss",
+    "limit": 10,
+    "feed_filename": "20a52738b94c988a1760bafb301716c4.xml",
+    "feed_url": "http://localhost:8000/feeds/20a52738b94c988a1760bafb301716c4.xml",
+    "prefer_native": true,
+    "refresh_interval": 1800,
+    "refresh_count": 0,
+    "last_refresh_at": "2025-09-25T23:24:59+00:00",
+    "last_refresh_status": "ok",
+    "last_refresh_note": "native download",
+    "last_refresh_code": 200,
+    "last_refresh_error": null,
+    "created_at": "2025-09-25T23:24:59+00:00",
+    "updated_at": "2025-09-25T23:24:59+00:00",
+    "created_ip": "::1",
+    "items_count": null
+}

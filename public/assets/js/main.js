@@ -18,6 +18,7 @@
   const urlInput   = $('#url');
   const limitInput = $('#limit');
   const formatSel  = $('#format');
+  const preferNativeToggle = $('#preferNative');
   const genBtn     = $('#generateBtn');
   const clearBtn   = $('#clearBtn');
   const hintCard   = $('#hintCard');
@@ -65,6 +66,7 @@
     urlInput.disabled    = isBusy;
     limitInput.disabled  = isBusy;
     formatSel.disabled   = isBusy;
+    if (preferNativeToggle) preferNativeToggle.disabled = isBusy;
     genBtn.innerHTML     = isBusy ? '<span class="spinner"></span>Generating…' : 'Generate feed';
   }
 
@@ -77,6 +79,17 @@
     }
   }
 
+  const escapeHtml = (value) => String(value).replace(/[&<>"']/g, (ch) => {
+    switch (ch) {
+      case '&': return '&amp;';
+      case '<': return '&lt;';
+      case '>': return '&gt;';
+      case '"': return '&quot;';
+      case "'": return '&#39;';
+      default: return ch;
+    }
+  });
+
   function buildValidatorLink(feedUrl, format) {
     const isJson = (String(format).toLowerCase() === 'jsonfeed') || /\.json($|\?)/i.test(feedUrl);
     return isJson
@@ -88,7 +101,20 @@
     const feedUrl = String(data.feed_url || '');
     const format  = String(data.format || '').toLowerCase();
     const items   = (data.items ?? null);
+    const statusBreadcrumb = data.status_breadcrumb ? String(data.status_breadcrumb) : '';
+    const usedNative = Boolean(data.used_native);
+    const nativeSource = data.native_source ? String(data.native_source) : '';
     const validatorUrl = buildValidatorLink(feedUrl, format);
+
+    const metaParts = [];
+    metaParts.push(`Format: <span class="mono">${escapeHtml(format || 'rss')}</span>`);
+    if (items !== null) metaParts.push(`Items: <span class="mono">${escapeHtml(String(items))}</span>`);
+    if (statusBreadcrumb) metaParts.push(escapeHtml(statusBreadcrumb));
+    const metaHtml = metaParts.length ? `<div class="muted mt-2">${metaParts.join(' · ')}</div>` : '';
+
+    const nativeHtml = usedNative && nativeSource
+      ? `<div class="muted small mt-1">Using site feed: <a class="link-light" href="${escapeHtml(nativeSource)}" target="_blank" rel="noopener">${escapeHtml(nativeSource)}</a></div>`
+      : '';
 
     resultBox.innerHTML = `
       <div class="mb-2">
@@ -104,11 +130,8 @@
         <a class="btn btn-outline-primary btn-sm" href="${validatorUrl}" target="_blank" rel="noopener">Validate feed</a>
         <button id="newBtn" type="button" class="btn btn-outline-secondary btn-sm">New feed</button>
       </div>
-
-      <div class="muted mt-2">
-        Format: <span class="mono">${format || 'rss'}</span>
-        ${items !== null ? ` — Items: <span class="mono">${items}</span>` : ''}
-      </div>
+      ${metaHtml}
+      ${nativeHtml}
     `;
 
     // Wire result actions
@@ -172,6 +195,9 @@
     fd.set('url', url);
     fd.set('limit', String(Math.max(1, Math.min(50, parseInt(limitInput.value || '10', 10)))));
     fd.set('format', formatSel.value);
+    if (preferNativeToggle?.checked) {
+      fd.set('prefer_native', '1');
+    }
     if (csrfField?.value) {
       fd.set('csrf_token', csrfField.value);
     }
