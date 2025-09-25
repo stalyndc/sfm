@@ -47,6 +47,19 @@ if (!defined('ROOT_DIR')) {
 if (!defined('FEEDS_DIR')) {
   define('FEEDS_DIR', ROOT_DIR . '/feeds');
 }
+if (!defined('STORAGE_ROOT')) {
+  // storage/ lives alongside public_html on Hostinger; fallback to ROOT_DIR/storage locally.
+  $root = dirname(__DIR__);
+  $parent = dirname($root);
+  $storage = $parent . '/storage';
+  if (!is_dir($storage)) {
+    $storage = $root . '/storage';
+  }
+  define('STORAGE_ROOT', rtrim(str_replace('\\','/', $storage), '/'));
+}
+if (!defined('SFM_JOBS_DIR')) {
+  define('SFM_JOBS_DIR', STORAGE_ROOT . '/jobs');
+}
 
 /* -----------------------------------------------------------
    Feed generation defaults
@@ -55,6 +68,19 @@ if (!defined('DEFAULT_FMT')) define('DEFAULT_FMT', 'rss');  // rss | atom | json
 if (!defined('DEFAULT_LIM')) define('DEFAULT_LIM', 10);      // default items
 if (!defined('MAX_LIM'))     define('MAX_LIM', 50);          // max items
 if (!defined('TIMEOUT_S'))   define('TIMEOUT_S', 18);        // network timeout (seconds)
+if (!defined('SFM_DEFAULT_REFRESH_INTERVAL')) {
+  // Seconds between automatic refresh attempts (30 minutes default).
+  define('SFM_DEFAULT_REFRESH_INTERVAL', 1800);
+}
+if (!defined('SFM_MIN_REFRESH_INTERVAL')) {
+  define('SFM_MIN_REFRESH_INTERVAL', 600);
+}
+if (!defined('SFM_REFRESH_MAX_PER_RUN')) {
+  define('SFM_REFRESH_MAX_PER_RUN', 40);
+}
+if (!defined('SFM_JOB_RETENTION_DAYS')) {
+  define('SFM_JOB_RETENTION_DAYS', 21);
+}
 
 /* -----------------------------------------------------------
    URL helpers

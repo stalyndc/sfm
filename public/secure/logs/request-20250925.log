@@ -1,0 +1,2 @@
+{"ts":"2025-09-25T02:19:55Z","channel":"http","url":"https://www.cnet.com/health/","final_url":"https://www.cnet.com/health/","status":0,"from_cache":false,"was_304":false,"bytes":0,"duration_ms":11,"ok":false}
+{"ts":"2025-09-25T02:19:55Z","channel":"parse","phase":"fail","reason":"Failed to fetch the page.","http":502,"status":0}
