@@ -138,6 +138,18 @@ input[type="number"] { -moz-appearance: textfield; }
   box-shadow: 0 14px 28px rgba(76, 141, 255, .32);
 }
 
+.btn-lg-sm {
+  font-size: 1.02rem;
+  padding: .66rem 1.4rem;
+}
+
+@media (min-width: 576px) {
+  .btn-lg-sm {
+    font-size: 1.05rem;
+    padding: .7rem 1.6rem;
+  }
+}
+
 #clearBtn {
   color: var(--bs-secondary-color);
   border-color: rgba(206, 212, 222, .2);

@@ -122,11 +122,11 @@ require_once __DIR__ . '/includes/security.php';
                 </div>
 
                 <div class="row g-3">
-                  <div class="col-6">
+                  <div class="col-12 col-sm-6">
                     <label for="limit" class="form-label">Items (max)</label>
                     <input type="number" id="limit" name="limit" class="form-control" min="1" max="50" value="10" inputmode="numeric">
                   </div>
-                  <div class="col-6">
+                  <div class="col-12 col-sm-6">
                     <label for="format" class="form-label">Format</label>
                     <select id="format" name="format" class="form-select">
                       <option value="rss" selected>RSS</option>
@@ -135,8 +135,8 @@ require_once __DIR__ . '/includes/security.php';
                   </div>
                 </div>
 
-                <div class="d-flex flex-wrap gap-2">
-                  <button id="generateBtn" type="button" class="btn btn-primary">
+                <div class="d-grid gap-2 d-sm-flex align-items-center">
+                  <button id="generateBtn" type="button" class="btn btn-primary btn-lg-sm flex-grow-1">
                     Generate feed
                   </button>
                   <button id="clearBtn" type="button" class="btn btn-outline-secondary">
