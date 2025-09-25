@@ -64,6 +64,34 @@ body {
   line-height: 1;
 }
 
+.site-nav a {
+  color: var(--bs-secondary-color);
+  transition: color .15s ease;
+}
+
+.site-nav a:hover,
+.site-nav a:focus,
+.site-nav a.active {
+  color: #fff;
+}
+
+.page-list {
+  list-style: disc;
+}
+
+.page-list li {
+  margin-bottom: .6rem;
+  color: rgba(227, 230, 237, .82);
+}
+
+.page-list li strong {
+  color: #fff;
+}
+
+.page-list li:last-child {
+  margin-bottom: 0;
+}
+
 /* ------------------------------
    Cards
 ------------------------------ */
