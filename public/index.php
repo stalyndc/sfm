@@ -5,14 +5,40 @@ require_once __DIR__ . '/includes/security.php';
 
 $pageTitle       = 'SimpleFeedMaker — Create RSS or JSON feeds from any URL';
 $pageDescription = 'SimpleFeedMaker turns any web page into a feed. Paste a URL, choose RSS or JSON Feed, and get a clean, valid feed in seconds.';
-$structuredData  = json_encode([
-  '@context'    => 'https://schema.org',
-  '@type'       => 'WebSite',
-  'url'         => 'https://simplefeedmaker.com/',
-  'name'        => 'SimpleFeedMaker',
-  'description' => 'Create RSS or JSON feeds from any URL in seconds.',
-  'inLanguage'  => 'en',
-], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+$structuredData  = [
+  [
+    '@context'       => 'https://schema.org',
+    '@type'          => 'WebSite',
+    'url'            => 'https://simplefeedmaker.com/',
+    'name'           => 'SimpleFeedMaker',
+    'description'    => $pageDescription,
+    'inLanguage'     => 'en',
+    'publisher'      => [
+      '@type' => 'Organization',
+      'name'  => 'SimpleFeedMaker',
+      'url'   => 'https://simplefeedmaker.com/',
+    ],
+  ],
+  [
+    '@context'          => 'https://schema.org',
+    '@type'             => 'WebApplication',
+    'name'              => 'SimpleFeedMaker',
+    'url'               => 'https://simplefeedmaker.com/',
+    'applicationCategory' => 'UtilitiesApplication',
+    'operatingSystem'   => 'Any',
+    'creator'           => [
+      '@type' => 'Organization',
+      'name'  => 'Disla.net',
+      'url'   => 'https://disla.net/',
+    ],
+    'offers'            => [
+      '@type'         => 'Offer',
+      'price'         => '0',
+      'priceCurrency' => 'USD',
+      'availability'  => 'https://schema.org/InStock',
+    ],
+  ],
+];
 
 require __DIR__ . '/includes/page_head.php';
 require __DIR__ . '/includes/page_header.php';

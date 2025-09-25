@@ -11,23 +11,51 @@ declare(strict_types=1);
 
 require_once __DIR__ . '/config.php';
 
-$baseUrl       = rtrim(app_url_base(), '/');
-$pageTitle     = $pageTitle     ?? 'SimpleFeedMaker — Create RSS or JSON feeds from any URL';
-$pageDescription = $pageDescription ?? 'SimpleFeedMaker turns any web page into a feed. Paste a URL, choose RSS or JSON Feed, and get a clean, valid feed in seconds.';
-$pageKeywords  = $pageKeywords  ?? 'RSS feed generator, JSON Feed, website to RSS, create RSS feed, feed builder';
-$canonical     = $canonical     ?? $baseUrl . '/';
-$ogImage       = $ogImage       ?? $baseUrl . '/img/simplefeedmaker-og.png';
-$metaRobots    = $metaRobots    ?? 'index,follow,max-image-preview:large';
+$baseUrl          = rtrim(app_url_base(), '/');
+$pageTitle        = $pageTitle        ?? 'SimpleFeedMaker — Create RSS or JSON feeds from any URL';
+$pageDescription  = $pageDescription  ?? 'SimpleFeedMaker turns any web page into a feed. Paste a URL, choose RSS or JSON Feed, and get a clean, valid feed in seconds.';
+$pageKeywords     = $pageKeywords     ?? 'RSS feed generator, JSON Feed, website to RSS, create RSS feed, feed builder';
+$canonical        = $canonical        ?? $baseUrl . '/';
+$ogImage          = $ogImage          ?? $baseUrl . '/img/simplefeedmaker-og.png';
+$ogType           = $ogType           ?? 'website';
+$metaRobots       = $metaRobots       ?? 'index,follow,max-image-preview:large';
+$metaAuthor       = $metaAuthor       ?? 'Disla.net';
+$twitterCard      = $twitterCard      ?? 'summary_large_image';
+$twitterSite      = $twitterSite      ?? '';
+$twitterCreator   = $twitterCreator   ?? '';
+$articlePublishedTime = $articlePublishedTime ?? '';
+$articleModifiedTime  = $articleModifiedTime  ?? '';
+$structuredData       = $structuredData       ?? null;
 
-if (!isset($structuredData) || $structuredData === null) {
-    $structuredData = json_encode([
-        '@context'    => 'https://schema.org',
-        '@type'       => 'WebSite',
-        'url'         => $baseUrl . '/',
-        'name'        => 'SimpleFeedMaker',
-        'description' => 'Create RSS or JSON feeds from any URL in seconds.',
-        'inLanguage'  => 'en',
-    ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+if ($structuredData === null) {
+    $structuredData = [
+        [
+            '@context'    => 'https://schema.org',
+            '@type'       => 'WebSite',
+            'url'         => $baseUrl . '/',
+            'name'        => 'SimpleFeedMaker',
+            'description' => 'Create RSS or JSON feeds from any URL in seconds.',
+            'inLanguage'  => 'en',
+            'publisher'   => [
+                '@type' => 'Organization',
+                'name'  => 'SimpleFeedMaker',
+                'url'   => $baseUrl . '/',
+            ],
+        ],
+    ];
+}
+
+$structuredBlocks = [];
+if (is_array($structuredData)) {
+    foreach ($structuredData as $block) {
+        if (is_array($block)) {
+            $structuredBlocks[] = json_encode($block, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+        } elseif (is_string($block) && trim($block) !== '') {
+            $structuredBlocks[] = $block;
+        }
+    }
+} elseif (is_string($structuredData) && trim($structuredData) !== '') {
+    $structuredBlocks[] = $structuredData;
 }
 ?><!doctype html>
 <html lang="en" data-bs-theme="dark">
@@ -51,20 +79,34 @@ if (!isset($structuredData) || $structuredData === null) {
   <meta name="color-scheme" content="dark light" />
 
   <!-- Open Graph -->
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="<?= htmlspecialchars($ogType, ENT_QUOTES, 'UTF-8'); ?>">
   <meta property="og:url" content="<?= htmlspecialchars($canonical ?: ($baseUrl . '/'), ENT_QUOTES, 'UTF-8'); ?>">
   <meta property="og:title" content="<?= htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8'); ?>">
   <meta property="og:description" content="<?= htmlspecialchars($pageDescription, ENT_QUOTES, 'UTF-8'); ?>">
   <meta property="og:image" content="<?= htmlspecialchars($ogImage, ENT_QUOTES, 'UTF-8'); ?>">
   <meta property="og:site_name" content="SimpleFeedMaker">
   <meta property="og:locale" content="en_US">
+<?php if (!empty($articlePublishedTime)): ?>
+  <meta property="article:published_time" content="<?= htmlspecialchars($articlePublishedTime, ENT_QUOTES, 'UTF-8'); ?>">
+<?php endif; ?>
+<?php if (!empty($articleModifiedTime)): ?>
+  <meta property="article:modified_time" content="<?= htmlspecialchars($articleModifiedTime, ENT_QUOTES, 'UTF-8'); ?>">
+<?php endif; ?>
 
   <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:card" content="<?= htmlspecialchars($twitterCard, ENT_QUOTES, 'UTF-8'); ?>">
   <meta name="twitter:url" content="<?= htmlspecialchars($canonical ?: ($baseUrl . '/'), ENT_QUOTES, 'UTF-8'); ?>">
   <meta name="twitter:title" content="<?= htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8'); ?>">
   <meta name="twitter:description" content="<?= htmlspecialchars($pageDescription, ENT_QUOTES, 'UTF-8'); ?>">
   <meta name="twitter:image" content="<?= htmlspecialchars($ogImage, ENT_QUOTES, 'UTF-8'); ?>">
+<?php if (!empty($twitterSite)): ?>
+  <meta name="twitter:site" content="<?= htmlspecialchars($twitterSite, ENT_QUOTES, 'UTF-8'); ?>">
+<?php endif; ?>
+<?php if (!empty($twitterCreator)): ?>
+  <meta name="twitter:creator" content="<?= htmlspecialchars($twitterCreator, ENT_QUOTES, 'UTF-8'); ?>">
+<?php endif; ?>
+
+  <meta name="author" content="<?= htmlspecialchars($metaAuthor, ENT_QUOTES, 'UTF-8'); ?>">
 
   <!-- Preconnects (fonts / js CDN) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -105,9 +147,9 @@ if (!isset($structuredData) || $structuredData === null) {
     gtag('config', 'G-YZ2SN3R4PX');
   </script>
 
-<?php if (!empty($structuredData)): ?>
+<?php foreach ($structuredBlocks as $block): ?>
   <script type="application/ld+json">
-<?= $structuredData ?>
+<?= $block ?>
   </script>
-<?php endif; ?>
+<?php endforeach; ?>
 </head>

@@ -7,6 +7,31 @@ $pageDescription = 'Learn what SimpleFeedMaker logs, how cookies are used, and h
 $canonical       = 'https://simplefeedmaker.com/privacy/';
 $activeNav       = 'privacy';
 $metaRobots      = 'index,follow,max-image-preview:large';
+$ogType          = 'article';
+$articleModifiedTime  = gmdate('c', filemtime(__FILE__));
+$articlePublishedTime = '2025-09-01T00:00:00Z';
+$structuredData  = [
+  [
+    '@context'      => 'https://schema.org',
+    '@type'         => 'PrivacyPolicy',
+    'url'           => $canonical,
+    'name'          => $pageTitle,
+    'description'   => $pageDescription,
+    'inLanguage'    => 'en',
+    'datePublished' => $articlePublishedTime,
+    'dateModified'  => $articleModifiedTime,
+    'publisher'     => [
+      '@type' => 'Organization',
+      'name'  => 'SimpleFeedMaker',
+      'url'   => 'https://simplefeedmaker.com/',
+    ],
+    'creator'       => [
+      '@type' => 'Organization',
+      'name'  => 'Disla.net',
+      'url'   => 'https://disla.net/',
+    ],
+  ],
+];
 
 require __DIR__ . '/../includes/page_head.php';
 require __DIR__ . '/../includes/page_header.php';

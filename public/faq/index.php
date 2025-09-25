@@ -6,6 +6,61 @@ $pageTitle       = 'SimpleFeedMaker FAQ';
 $pageDescription = 'Answers to the most common questions about generating and refreshing feeds with SimpleFeedMaker.';
 $canonical       = 'https://simplefeedmaker.com/faq/';
 $activeNav       = 'faq';
+$ogType          = 'article';
+$articleModifiedTime  = gmdate('c', filemtime(__FILE__));
+$articlePublishedTime = '2025-09-01T00:00:00Z';
+$structuredData  = [
+  [
+    '@context'      => 'https://schema.org',
+    '@type'         => 'FAQPage',
+    'url'           => $canonical,
+    'mainEntity'    => [
+      [
+        '@type' => 'Question',
+        'name'  => 'How often are generated feeds refreshed?',
+        'acceptedAnswer' => [
+          '@type' => 'Answer',
+          'text'  => 'Every feed you generate is saved as a job. The cron worker checks jobs roughly every 30 minutes (host limits permitting) and regenerates the feed in the background. If a source page changes dramatically or goes offline, the job retries on the next run and logs the error for review.',
+        ],
+      ],
+      [
+        '@type' => 'Question',
+        'name'  => 'Do I need an account or API key to use SimpleFeedMaker?',
+        'acceptedAnswer' => [
+          '@type' => 'Answer',
+          'text'  => 'No account required. Paste the public URL you want to monitor, choose the format (RSS or JSON Feed), and click Generate feed. We never ask for API keys or passwords.',
+        ],
+      ],
+      [
+        '@type' => 'Question',
+        'name'  => 'What happens if the page already has a native feed?',
+        'acceptedAnswer' => [
+          '@type' => 'Answer',
+          'text'  => 'Enable the native preference toggle before generating. When enabled, SimpleFeedMaker autodiscovers the site\'s advertised feed and serves that directly. If discovery fails or the native feed is unreachable, the app falls back to the custom parser.',
+        ],
+      ],
+      [
+        '@type' => 'Question',
+        'name'  => 'Can I delete a feed or stop auto-refreshing it?',
+        'acceptedAnswer' => [
+          '@type' => 'Answer',
+          'text'  => 'Yes. Remove the generated file from the feeds directory or contact us via Disla.net and we will retire the job. Old feeds that have not been accessed for a while are cleaned up automatically.',
+        ],
+      ],
+      [
+        '@type' => 'Question',
+        'name'  => 'What data do you log when I generate a feed?',
+        'acceptedAnswer' => [
+          '@type' => 'Answer',
+          'text'  => 'We keep lightweight request logs—timestamp, IP, target URL, and status—to debug issues and prevent abuse. No personal accounts, browsing history, or analytics profiles are stored.',
+        ],
+      ],
+    ],
+    'inLanguage'    => 'en',
+    'datePublished' => $articlePublishedTime,
+    'dateModified'  => $articleModifiedTime,
+  ],
+];
 
 require __DIR__ . '/../includes/page_head.php';
 require __DIR__ . '/../includes/page_header.php';

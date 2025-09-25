@@ -6,6 +6,42 @@ $pageTitle       = 'About SimpleFeedMaker';
 $pageDescription = 'SimpleFeedMaker is a lightweight feed generator built by Disla.net to turn any URL into a fast, dependable RSS or JSON feed.';
 $canonical       = 'https://simplefeedmaker.com/about/';
 $activeNav       = 'about';
+$ogType          = 'article';
+$articleModifiedTime  = gmdate('c', filemtime(__FILE__));
+$articlePublishedTime = '2025-09-01T00:00:00Z';
+$structuredData  = [
+  [
+    '@context'       => 'https://schema.org',
+    '@type'          => 'AboutPage',
+    'name'           => $pageTitle,
+    'description'    => $pageDescription,
+    'url'            => $canonical,
+    'inLanguage'     => 'en',
+    'datePublished'  => $articlePublishedTime,
+    'dateModified'   => $articleModifiedTime,
+    'isPartOf'       => [
+      '@type' => 'WebSite',
+      'url'   => 'https://simplefeedmaker.com/',
+      'name'  => 'SimpleFeedMaker',
+    ],
+    'publisher'      => [
+      '@type' => 'Organization',
+      'name'  => 'SimpleFeedMaker',
+      'url'   => 'https://simplefeedmaker.com/',
+    ],
+    'creator' => [
+      '@type' => 'Organization',
+      'name'  => 'Disla.net',
+      'url'   => 'https://disla.net/',
+    ],
+  ],
+  [
+    '@context' => 'https://schema.org',
+    '@type'    => 'Organization',
+    'name'     => 'Disla.net',
+    'url'      => 'https://disla.net/',
+  ],
+];
 
 require __DIR__ . '/../includes/page_head.php';
 require __DIR__ . '/../includes/page_header.php';

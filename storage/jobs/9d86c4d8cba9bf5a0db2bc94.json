@@ -1,0 +1,22 @@
+{
+    "job_id": "9d86c4d8cba9bf5a0db2bc94",
+    "source_url": "https://www.cnet.com/ai-atlas/",
+    "native_source": null,
+    "mode": "custom",
+    "format": "rss",
+    "limit": 10,
+    "feed_filename": "d7330688c55d89233d18be419a4cafdb.xml",
+    "feed_url": "http://localhost:8000/feeds/d7330688c55d89233d18be419a4cafdb.xml",
+    "prefer_native": false,
+    "refresh_interval": 1800,
+    "refresh_count": 0,
+    "last_refresh_at": "2025-09-25T03:27:09+00:00",
+    "last_refresh_status": "ok",
+    "last_refresh_note": "custom parse",
+    "last_refresh_code": 200,
+    "last_refresh_error": null,
+    "created_at": "2025-09-25T03:27:09+00:00",
+    "updated_at": "2025-09-25T03:27:09+00:00",
+    "created_ip": "::1",
+    "items_count": 10
+}
