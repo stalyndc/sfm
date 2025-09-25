@@ -172,6 +172,25 @@ input[type="number"] { -moz-appearance: textfield; }
   border-radius: 8px;
 }
 
+#resultBox .input-group {
+  flex-wrap: wrap;
+}
+
+#resultBox .input-group > .btn {
+  border-radius: 8px;
+}
+
+#resultBox .input-group > .btn + .btn {
+  margin-left: .5rem;
+}
+
+@media (max-width: 575.98px) {
+  #resultBox .input-group > .btn + .btn {
+    margin-left: 0;
+    margin-top: .5rem;
+  }
+}
+
 /* Loading state helper (JS can add .is-busy on buttons) */
 .btn.is-busy, .btn[aria-busy="true"] {
   pointer-events: none;
