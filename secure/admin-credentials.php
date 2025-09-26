@@ -17,6 +17,12 @@ if ((!is_string($adminUsername) || $adminUsername === '' || !is_string($adminPas
         $adminUsername = $local['Stalyn'] ?? $adminUsername;
         $adminPassword = $local['Amor1980'] ?? $adminPassword;
     }
+    if ((!is_string($adminUsername) || $adminUsername === '' || !is_string($adminPassword) || $adminPassword === '')
+        && defined('SFM_ADMIN_USERNAME') && defined('SFM_ADMIN_PASSWORD')
+    ) {
+        $adminUsername = SFM_ADMIN_USERNAME;
+        $adminPassword = SFM_ADMIN_PASSWORD;
+    }
 }
 
 if (!is_string($adminUsername) || $adminUsername === '' || !is_string($adminPassword) || $adminPassword === '') {
