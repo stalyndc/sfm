@@ -25,6 +25,8 @@
 
 declare(strict_types=1);
 
+require_once __DIR__ . '/config.php';
+
 if (!defined('APP_NAME')) {
     define('APP_NAME', 'SimpleFeedMaker');
 }
@@ -33,9 +35,11 @@ if (!defined('APP_NAME')) {
 // Paths / small utilities
 // ---------------------------------------------------------------
 
-/** Default tiny HTTP cache dir (inside /feeds). */
+/** Default tiny HTTP cache dir (kept outside the web root). */
 function sfm_default_cache_dir(): string {
-    $dir = dirname(__DIR__) . '/feeds/.httpcache';
+    $dir = defined('SFM_HTTP_CACHE_DIR')
+        ? rtrim((string)SFM_HTTP_CACHE_DIR, '/\\')
+        : dirname(__DIR__) . '/feeds/.httpcache';
     if (!is_dir($dir)) {
         @mkdir($dir, 0775, true);
     }

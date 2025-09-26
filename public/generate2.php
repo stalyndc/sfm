@@ -251,6 +251,7 @@ try {
 
   if ($url === '' || !filter_var($url, FILTER_VALIDATE_URL)) sfm_json_fail('Please provide a valid URL (including http:// or https://).');
   if (!sfm_is_http_url($url)) sfm_json_fail('Only http:// or https:// URLs are allowed.', 400, ['field' => 'url']);
+  if (!sfm_url_is_public($url)) sfm_json_fail('The source URL must resolve to a public host.', 400, ['field' => 'url']);
   $limit = max(1, min(MAX_LIM, $limit));
   if (!in_array($format, ['rss','atom','jsonfeed'], true)) $format = DEFAULT_FMT;
 
@@ -275,9 +276,12 @@ try {
         ? sfm_discover_feeds($page['body'], $url)
         : fallback_discover_native_feeds($page['body'], $url);
       if ($cands) {
-        $cands = array_values(array_filter($cands, function ($cand) {
-          return isset($cand['href']) && sfm_is_http_url((string)$cand['href']);
-        }));
+      $cands = array_values(array_filter($cands, function ($cand) {
+          if (!isset($cand['href'])) return false;
+          $href = (string)$cand['href'];
+          if (!sfm_is_http_url($href)) return false;
+          return sfm_url_is_public($href);
+      }));
       }
       if ($cands) {
         $pageHost = parse_url($url, PHP_URL_HOST);
@@ -294,6 +298,10 @@ try {
         if (!sfm_is_http_url($pick['href'])) {
           sfm_json_fail('Native feed uses unsupported scheme.', 400);
         }
+        if (!sfm_url_is_public($pick['href'])) {
+          sfm_json_fail('Native feed is not accessible.', 400);
+        }
+
         $feed = http_get($pick['href'], [
           'accept'=>'application/rss+xml, application/atom+xml, application/feed+json, application/json, application/xml;q=0.9, */*;q=0.8',
         ]);

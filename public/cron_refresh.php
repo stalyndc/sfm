@@ -103,18 +103,61 @@ function sfm_refresh_job(array $job, bool $logEnabled)
 
     try {
         if ($mode === 'native' && !empty($job['native_source'])) {
-            [$body, $status] = sfm_refresh_native($job, $tmpPath, $feedPath);
-            $bytes = strlen($body);
-            sfm_job_mark_success($job, $bytes, $status, null, 'native refresh');
+            $native = sfm_refresh_native($job);
+
+            $jobFormat    = strtolower((string)($job['format'] ?? DEFAULT_FMT));
+            $nativeFormat = strtolower((string)($native['format'] ?? $jobFormat));
+            $currentExt   = strtolower((string)pathinfo($feedFile, PATHINFO_EXTENSION));
+            $nativeExt    = strtolower((string)($native['ext'] ?? ($nativeFormat === 'jsonfeed' ? 'json' : 'xml')));
+            if ($nativeExt === '') {
+                $nativeExt = ($nativeFormat === 'jsonfeed') ? 'json' : 'xml';
+            }
+
+            $formatMatches = ($nativeFormat === $jobFormat);
+            $extensionMatches = ($currentExt === '' || $nativeExt === $currentExt);
+
+            if ($formatMatches && $extensionMatches) {
+                if (@file_put_contents($tmpPath, $native['body']) === false) {
+                    throw new RuntimeException('Unable to write temp feed file');
+                }
+                @chmod($tmpPath, 0664);
+                if (!@rename($tmpPath, $feedPath)) {
+                    throw new RuntimeException('Unable to replace feed file');
+                }
+
+                $bytes = strlen($native['body']);
+                sfm_job_mark_success($job, $bytes, (int)$native['status'], null, 'native refresh');
+                if ($logEnabled) {
+                    sfm_log_event('refresh', [
+                        'phase'  => 'native',
+                        'job_id' => $job['job_id'],
+                        'bytes'  => $bytes,
+                        'source' => $job['native_source'],
+                    ]);
+                }
+                return true;
+            }
+
+            // Native format no longer matches what we serve — switch job to custom mode.
+            $jobUpdate = sfm_job_update($job['job_id'], [
+                'mode'              => 'custom',
+                'native_source'     => null,
+                'last_refresh_note' => 'native format changed',
+            ]);
+            if (is_array($jobUpdate)) {
+                $job       = $jobUpdate;
+                $mode      = 'custom';
+                $sourceUrl = $job['source_url'] ?? $sourceUrl;
+            } else {
+                $mode = 'custom';
+            }
             if ($logEnabled) {
                 sfm_log_event('refresh', [
-                    'phase'  => 'native',
+                    'phase'  => 'native-switch',
                     'job_id' => $job['job_id'],
-                    'bytes'  => $bytes,
-                    'source' => $job['native_source'],
+                    'reason' => 'format mismatch',
                 ]);
             }
-            return true;
         }
 
         if (!$sourceUrl) {
@@ -152,9 +195,12 @@ function sfm_refresh_job(array $job, bool $logEnabled)
     }
 }
 
-function sfm_refresh_native(array $job, string $tmpPath, string $feedPath): array
+function sfm_refresh_native(array $job): array
 {
     $nativeUrl = $job['native_source'];
+    if (!sfm_url_is_public($nativeUrl)) {
+        throw new RuntimeException('Native feed host is not public');
+    }
     $resp = http_get($nativeUrl, [
         'use_cache' => false,
         'timeout'   => TIMEOUT_S,
@@ -168,15 +214,14 @@ function sfm_refresh_native(array $job, string $tmpPath, string $feedPath): arra
         throw new RuntimeException('Native refresh returned empty body');
     }
 
-    if (@file_put_contents($tmpPath, $resp['body']) === false) {
-        throw new RuntimeException('Unable to write temp feed file');
-    }
-    @chmod($tmpPath, 0664);
-    if (!@rename($tmpPath, $feedPath)) {
-        throw new RuntimeException('Unable to replace feed file');
-    }
+    [$detectedFormat, $ext] = detect_feed_format_and_ext($resp['body'], $resp['headers'] ?? [], $nativeUrl);
 
-    return [$resp['body'], (int)($resp['status'] ?? 200)];
+    return [
+        'body'   => $resp['body'],
+        'status' => (int)($resp['status'] ?? 200),
+        'format' => $detectedFormat ?: 'rss',
+        'ext'    => $ext ?: 'xml',
+    ];
 }
 
 function sfm_refresh_custom(array $job, string $sourceUrl, string $feedUrl, string $tmpPath, string $feedPath): array

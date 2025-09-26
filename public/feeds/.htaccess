@@ -4,6 +4,12 @@
 # No directory listing
 Options -Indexes
 
+# Block legacy public cache directory if it still exists
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^\.httpcache/? - [F,L]
+</IfModule>
+
 # Never execute scripts here
 <IfModule mod_php.c>
   php_flag engine off

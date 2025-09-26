@@ -168,6 +168,68 @@ function rate_limit_allow(string $context, int $min_interval = 2, int $burst_win
 }
 
 /* ============================================================
+ * Remote target validation helpers
+ * ============================================================ */
+function sfm_is_public_ip(string $ip): bool
+{
+  $ip = trim($ip);
+  if ($ip === '') {
+    return false;
+  }
+  $flags = FILTER_FLAG_NO_PRIV_RANGE | FILTER_FLAG_NO_RES_RANGE;
+  return (bool)filter_var($ip, FILTER_VALIDATE_IP, $flags);
+}
+
+function sfm_host_is_public(string $host): bool
+{
+  $host = trim($host);
+  if ($host === '') {
+    return false;
+  }
+
+  if (filter_var($host, FILTER_VALIDATE_IP)) {
+    return sfm_is_public_ip($host);
+  }
+
+  $ips = [];
+  $ipv4 = @gethostbynamel($host);
+  if (is_array($ipv4)) {
+    $ips = array_merge($ips, $ipv4);
+  }
+
+  if (function_exists('dns_get_record') && defined('DNS_AAAA')) {
+    $records = @dns_get_record($host, DNS_AAAA);
+    if (is_array($records)) {
+      foreach ($records as $rec) {
+        if (!empty($rec['ipv6'])) {
+          $ips[] = $rec['ipv6'];
+        }
+      }
+    }
+  }
+
+  if (empty($ips)) {
+    return false;
+  }
+
+  foreach ($ips as $ip) {
+    if (!sfm_is_public_ip($ip)) {
+      return false;
+    }
+  }
+  return true;
+}
+
+function sfm_url_is_public(string $url): bool
+{
+  $host = parse_url($url, PHP_URL_HOST);
+  if (!is_string($host) || $host === '') {
+    return false;
+  }
+  return sfm_host_is_public($host);
+}
+
+/* ============================================================
  * JSON fail helper
  * ============================================================ */
 function json_fail(string $message, int $http = 400, array $extra = []): void {

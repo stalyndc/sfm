@@ -60,6 +60,9 @@ if (!defined('STORAGE_ROOT')) {
 if (!defined('SFM_JOBS_DIR')) {
   define('SFM_JOBS_DIR', STORAGE_ROOT . '/jobs');
 }
+if (!defined('SFM_HTTP_CACHE_DIR')) {
+  define('SFM_HTTP_CACHE_DIR', STORAGE_ROOT . '/httpcache');
+}
 
 /* -----------------------------------------------------------
    Feed generation defaults
