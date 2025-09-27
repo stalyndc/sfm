@@ -89,14 +89,23 @@ if (!empty($_SESSION['sfm_admin_flash'])) {
     }
 }
 
+$perPageOptions = [10, 25, 50, 100];
+$defaultPerPage = 25;
+$currentPage = admin_get_int_param('page', 1);
+$perPage = admin_get_int_param('per_page', $defaultPerPage);
+if (!in_array($perPage, $perPageOptions, true)) {
+    $perPage = $defaultPerPage;
+}
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $token = (string)($_POST['csrf_token'] ?? '');
+    $redirectUrl = admin_jobs_url($currentPage, $perPage, $defaultPerPage);
     if (!csrf_validate($token)) {
         $_SESSION['sfm_admin_flash'] = [
             'type'    => 'error',
             'message' => 'Invalid session token. Please try again.',
         ];
-        header('Location: /admin/');
+        header('Location: ' . $redirectUrl);
         exit;
     }
 
@@ -108,7 +117,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             'type'    => 'error',
             'message' => 'Missing action or job id.',
         ];
-        header('Location: /admin/');
+        header('Location: ' . $redirectUrl);
         exit;
     }
 
@@ -118,7 +127,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             'type'    => 'error',
             'message' => 'Job not found.',
         ];
-        header('Location: /admin/');
+        header('Location: ' . $redirectUrl);
         exit;
     }
 
@@ -148,12 +157,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         ];
     }
 
-    header('Location: /admin/');
+    header('Location: ' . $redirectUrl);
     exit;
 }
 
 $jobs = sfm_job_list();
 $jobs = array_reverse($jobs);
+
+$totalJobs = count($jobs);
+$totalPages = max(1, (int)ceil($totalJobs / $perPage));
+if ($currentPage > $totalPages) {
+    $currentPage = $totalPages;
+}
+$offset = ($currentPage - 1) * $perPage;
+$jobsPage = array_slice($jobs, $offset, $perPage);
+$showingStart = $totalJobs > 0 ? $offset + 1 : 0;
+$showingEnd = $totalJobs > 0 ? min($offset + count($jobsPage), $totalJobs) : 0;
 
 function fmt_datetime(?string $iso): string
 {
@@ -166,6 +185,27 @@ function fmt_datetime(?string $iso): string
     } catch (Throwable $e) {
         return $iso;
     }
+}
+
+function admin_get_int_param(string $key, int $default): int
+{
+    $value = $_POST[$key] ?? $_GET[$key] ?? null;
+    if (!is_scalar($value)) {
+        return $default;
+    }
+    $int = (int)$value;
+    return $int > 0 ? $int : $default;
+}
+
+function admin_jobs_url(int $page, int $perPage, int $defaultPerPage): string
+{
+    $page = max(1, $page);
+    $params = ['page' => $page];
+    if ($perPage !== $defaultPerPage) {
+        $params['per_page'] = $perPage;
+    }
+    $query = http_build_query($params);
+    return '/admin/' . ($query ? '?' . $query : '');
 }
 
 $pageTitle      = 'Admin Jobs — SimpleFeedMaker';
@@ -200,9 +240,23 @@ require __DIR__ . '/../includes/page_header.php';
 
     <div class="card shadow-sm">
       <div class="card-body">
-        <?php if (empty($jobs)): ?>
+        <?php if ($totalJobs === 0): ?>
           <p class="mb-0">No jobs yet. Generate a feed to see it here.</p>
         <?php else: ?>
+          <div class="d-flex flex-column flex-lg-row align-items-lg-center justify-content-between gap-3 mb-3">
+            <div class="small text-secondary">
+              Showing <?= number_format($showingStart); ?>–<?= number_format($showingEnd); ?> of <?= number_format($totalJobs); ?> job<?= $totalJobs === 1 ? '' : 's'; ?>
+            </div>
+            <form method="get" class="d-flex align-items-center gap-2">
+              <input type="hidden" name="page" value="1">
+              <label for="admin-per-page" class="form-label small mb-0">Per page</label>
+              <select name="per_page" id="admin-per-page" class="form-select form-select-sm" style="width: auto;" onchange="this.form.submit()">
+                <?php foreach ($perPageOptions as $option): ?>
+                  <option value="<?= $option; ?>" <?= $option === $perPage ? 'selected' : ''; ?>><?= $option; ?></option>
+                <?php endforeach; ?>
+              </select>
+            </form>
+          </div>
           <div class="table-responsive">
             <table class="table align-middle mb-0 table-dark">
               <thead>
@@ -217,7 +271,7 @@ require __DIR__ . '/../includes/page_header.php';
                 </tr>
               </thead>
               <tbody>
-                <?php foreach ($jobs as $job): ?>
+                <?php foreach ($jobsPage as $job): ?>
                   <?php
                     $jobId    = (string)$job['job_id'];
                     $status   = (string)($job['last_refresh_status'] ?? '');
@@ -261,12 +315,16 @@ require __DIR__ . '/../includes/page_header.php';
                           <?= csrf_input(); ?>
                           <input type="hidden" name="job_id" value="<?= htmlspecialchars($jobId, ENT_QUOTES, 'UTF-8'); ?>">
                           <input type="hidden" name="admin_action" value="refresh">
+                          <input type="hidden" name="page" value="<?= (int)$currentPage; ?>">
+                          <input type="hidden" name="per_page" value="<?= (int)$perPage; ?>">
                           <button type="submit" class="btn btn-sm btn-outline-primary w-100">Refresh</button>
                         </form>
                         <form method="post" onsubmit="return confirm('Delete this job?');">
                           <?= csrf_input(); ?>
                           <input type="hidden" name="job_id" value="<?= htmlspecialchars($jobId, ENT_QUOTES, 'UTF-8'); ?>">
                           <input type="hidden" name="admin_action" value="delete">
+                          <input type="hidden" name="page" value="<?= (int)$currentPage; ?>">
+                          <input type="hidden" name="per_page" value="<?= (int)$perPage; ?>">
                           <button type="submit" class="btn btn-sm btn-outline-danger w-100">Delete</button>
                         </form>
                       </div>
@@ -276,6 +334,48 @@ require __DIR__ . '/../includes/page_header.php';
               </tbody>
             </table>
           </div>
+          <?php if ($totalPages > 1): ?>
+            <?php
+              $range = 2;
+              $prevDisabled = $currentPage <= 1;
+              $nextDisabled = $currentPage >= $totalPages;
+              $prevHref = $prevDisabled ? '#' : admin_jobs_url($currentPage - 1, $perPage, $defaultPerPage);
+              $nextHref = $nextDisabled ? '#' : admin_jobs_url($currentPage + 1, $perPage, $defaultPerPage);
+              $start = max(1, $currentPage - $range);
+              $end   = min($totalPages, $currentPage + $range);
+            ?>
+            <nav aria-label="Feed job pagination" class="mt-3">
+              <ul class="pagination pagination-sm mb-0 justify-content-center">
+                <li class="page-item <?= $prevDisabled ? 'disabled' : ''; ?>">
+                  <a class="page-link" href="<?= htmlspecialchars($prevHref, ENT_QUOTES, 'UTF-8'); ?>" aria-label="Previous" <?= $prevDisabled ? 'tabindex="-1" aria-disabled="true"' : ''; ?>>Prev</a>
+                </li>
+                <?php if ($start > 1): ?>
+                  <li class="page-item">
+                    <a class="page-link" href="<?= htmlspecialchars(admin_jobs_url(1, $perPage, $defaultPerPage), ENT_QUOTES, 'UTF-8'); ?>">1</a>
+                  </li>
+                  <?php if ($start > 2): ?>
+                    <li class="page-item disabled"><span class="page-link">&hellip;</span></li>
+                  <?php endif; ?>
+                <?php endif; ?>
+                <?php for ($p = $start; $p <= $end; $p++): ?>
+                  <li class="page-item <?= $p === $currentPage ? 'active' : ''; ?>">
+                    <a class="page-link" href="<?= htmlspecialchars(admin_jobs_url($p, $perPage, $defaultPerPage), ENT_QUOTES, 'UTF-8'); ?>"><?= $p; ?></a>
+                  </li>
+                <?php endfor; ?>
+                <?php if ($end < $totalPages): ?>
+                  <?php if ($end < $totalPages - 1): ?>
+                    <li class="page-item disabled"><span class="page-link">&hellip;</span></li>
+                  <?php endif; ?>
+                  <li class="page-item">
+                    <a class="page-link" href="<?= htmlspecialchars(admin_jobs_url($totalPages, $perPage, $defaultPerPage), ENT_QUOTES, 'UTF-8'); ?>"><?= $totalPages; ?></a>
+                  </li>
+                <?php endif; ?>
+                <li class="page-item <?= $nextDisabled ? 'disabled' : ''; ?>">
+                  <a class="page-link" href="<?= htmlspecialchars($nextHref, ENT_QUOTES, 'UTF-8'); ?>" aria-label="Next" <?= $nextDisabled ? 'tabindex="-1" aria-disabled="true"' : ''; ?>>Next</a>
+                </li>
+              </ul>
+            </nav>
+          <?php endif; ?>
         <?php endif; ?>
       </div>
     </div>
