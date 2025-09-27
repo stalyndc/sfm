@@ -1,0 +1,4 @@
+# Ignore generated rate limit data
+*
+!.gitignore
+!.htaccess

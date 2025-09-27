@@ -1,2 +1,18 @@
+# Sensitive credentials
+secure/admin-credentials.php
 secure/admin-credentials.local.php
+secure/db-credentials.php
 secure/db-credentials.local.php
+secure/sfm-secrets.php
+secure/config.php
+
+# Runtime artifacts
+secure/logs/*
+!secure/logs/.gitignore
+!secure/logs/.htaccess
+secure/ratelimits/*
+!secure/ratelimits/.gitignore
+!secure/ratelimits/.htaccess
+storage/*
+!storage/.gitignore
+!storage/**/.gitignore

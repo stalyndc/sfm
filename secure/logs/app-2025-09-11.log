@@ -1,2 +1,0 @@
-{"ev":"begin","id":"ec49e1a6899fe05a","act":"generate2","meta":{"url":"https://www.cnet.com/tech/","limit":10,"format":"jsonfeed","prefer_native":1},"ts":"2025-09-11T23:57:31+00:00","ip":"2600:480a:52b4:5800::"}
-{"ev":"error","id":"ec49e1a6899fe05a","act":"generate2","stage":"fail","meta":{"http":500,"reason":"Server error."},"ts":"2025-09-11T23:57:32+00:00","ip":"2600:480a:52b4:5800::"}
