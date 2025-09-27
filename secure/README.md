@@ -20,3 +20,6 @@ Rotation checklist lives in `docs/deployment-secrets.md`.
 
 If new secrets are required, create a matching `*.example.php` so teammates know
 which keys to supply without exposing real values.
+
+Run `php secure/scripts/secrets_guard.php` anytime you modify ignore rules or
+add new secret files; it will fail fast if something risky slips into git.

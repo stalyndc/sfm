@@ -10,10 +10,10 @@ Goal: “run smooth and secure” with lightweight agents (automations + checks)
 - **Purpose:** keep credentials out of git and alert when new secret placeholders are needed.
 - **Trigger:** run locally whenever `.gitignore` or any file in `secure/` changes.
 - **Script:**
-  1. Confirm `.gitignore` contains `secure/*.php` entries; if not, append them.
-  2. Create/update `secure/<name>.example.php` templates mirroring required keys but with dummy values.
-  3. If real secrets are missing, log actionable TODOs in `secure/README.md`.
-- **Output:** ensures developers share templates, never real credentials.
+  1. Execute `php secure/scripts/secrets_guard.php`.
+  2. The script validates `.gitignore` coverage, confirms example templates exist, and fails if any real secrets are tracked.
+  3. When it fails, update `.gitignore`, add the missing template, or remove the tracked secret file, then rerun.
+- **Output:** ensures developers share templates, never real credentials (exit 0 = safe, non‑zero = action needed).
 
 ### Deploy Courier
 - **Purpose:** ship a safe release to Hostinger from `main`.
@@ -38,8 +38,8 @@ Goal: “run smooth and secure” with lightweight agents (automations + checks)
 - **Trigger:** every 5 minutes from any uptime checker (UptimeRobot, Cronitor, etc.).
 - **Script:**
   1. Request `https://simplefeedmaker.com/health.php`.
-  2. Validate HTTP 200 and JSON `{"ok":true}`.
-  3. On failure twice in a row, notify Slack/email with latest response body.
+  2. Validate HTTP 200 and `scope.ok === true`; the payload also surfaces recent cleanup-log age and storage status.
+  3. Alert on two consecutive failures (or if the endpoint returns HTTP 503 / `ok:false`) and include the JSON body for context.
 - **Output:** fast signal on outages or upstream fetch issues.
 
 ### Rate Limit Inspector
