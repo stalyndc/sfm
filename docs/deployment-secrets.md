@@ -33,7 +33,8 @@ OPCACHE_RESET_TOKEN # optional — required only if you intend to call opcache_r
 
 ### 3. (Optional) Provide `.local.php` fallbacks
 
-If the host cannot inject environment variables, create private files instead:
+If the host cannot inject environment variables, create private files instead
+(starter templates live in `secure/*.example.php`):
 
 - `secure/admin-credentials.local.php`
 - `secure/db-credentials.local.php`

@@ -12,6 +12,7 @@
  *
  * Flags:
  *   --days=N         Delete files older than N days (default 14)
+ *   --max-age=3d     Alternative duration syntax (Xm, Xh, Xd, Xw)
  *   --max-mb=N       Keep total size under N megabytes (default 500)
  *   --max-files=N    Keep at most N files (default 2000)
  *   --dry-run        Print what would be deleted, do not delete
@@ -26,11 +27,21 @@ $SECURE_DIR = dirname(__DIR__);             // /home/<account>/secure
 $HOME_DIR   = dirname($SECURE_DIR);         // /home/<account>
 $WEB_ROOT   = $HOME_DIR . '/public_html';   // /home/<account>/public_html
 $FEEDS_DIR  = $WEB_ROOT . '/feeds';         // where feed files are written
+$LOCAL_ROOT = dirname($SECURE_DIR) . '/public';
+if (!is_dir($FEEDS_DIR) && is_dir($LOCAL_ROOT . '/feeds')) {
+    $WEB_ROOT  = realpath($LOCAL_ROOT) ?: $LOCAL_ROOT;
+    $FEEDS_DIR = $WEB_ROOT . '/feeds';
+}
+$STORAGE_DIR = $HOME_DIR . '/storage';      // runtime storage lives alongside
 
 $LOG_DIR    = $SECURE_DIR . '/logs';
 $TMP_DIR    = $SECURE_DIR . '/tmp';
+$STORAGE_LOG_DIR = $STORAGE_DIR . '/logs';
 @is_dir($LOG_DIR) || @mkdir($LOG_DIR, 0775, true);
 @is_dir($TMP_DIR) || @mkdir($TMP_DIR, 0775, true);
+if (!is_dir($STORAGE_LOG_DIR)) {
+    @mkdir($STORAGE_LOG_DIR, 0775, true);
+}
 
 // ---------- Simple CLI arg parser ----------
 $args = [];
@@ -42,12 +53,28 @@ foreach ($argv ?? [] as $i => $a) {
         $args[strtolower($m[1])] = true;
     }
 }
-$DAYS       = max(1, (int)($args['days']      ?? 14));     // age threshold
 $MAX_MB     = max(1, (int)($args['max-mb']    ?? 500));    // total size budget
 $MAX_FILES  = max(1, (int)($args['max-files'] ?? 2000));   // max files budget
 $DRY_RUN    = !empty($args['dry-run']);
 $QUIET      = !empty($args['quiet']);
 $VERBOSE    = !empty($args['verbose']);
+
+$maxAgeSeconds = null;
+if (isset($args['days'])) {
+    $maxAgeSeconds = max(1, (int)$args['days']) * 86400;
+}
+if (isset($args['max-age'])) {
+    $parsed = parse_duration_to_seconds((string)$args['max-age']);
+    if ($parsed !== null) {
+        $maxAgeSeconds = $parsed;
+    } else {
+        log_line("Invalid --max-age value '{$args['max-age']}', falling back to days.", 'WARNING');
+    }
+}
+if ($maxAgeSeconds === null) {
+    $maxAgeSeconds = 14 * 86400; // default 14 days
+}
+$DAYS = max(1, (int)ceil($maxAgeSeconds / 86400));
 
 // ---------- Logging helpers ----------
 function log_line(string $msg, string $lvl = 'INFO'): void {
@@ -62,6 +89,64 @@ function human_bytes(int $b): string {
     $v = (float)$b;
     while ($v >= 1024 && $i < count($u)-1) { $v /= 1024; $i++; }
     return sprintf('%.2f %s', $v, $u[$i]);
+}
+function human_duration(int $seconds): string {
+    $map = [
+        'day'    => 86400,
+        'hour'   => 3600,
+        'minute' => 60,
+        'second' => 1,
+    ];
+    $parts = [];
+    foreach ($map as $label => $unitSeconds) {
+        if ($seconds < $unitSeconds && empty($parts)) {
+            continue;
+        }
+        $value = intdiv($seconds, $unitSeconds);
+        if ($value > 0) {
+            $parts[] = $value . ' ' . $label . ($value !== 1 ? 's' : '');
+            $seconds -= $value * $unitSeconds;
+        }
+        if (count($parts) === 2) {
+            break;
+        }
+    }
+    return $parts ? implode(', ', $parts) : '0 seconds';
+}
+function parse_duration_to_seconds(string $value): ?int {
+    $value = strtolower(trim($value));
+    if ($value === '') {
+        return null;
+    }
+    if (is_numeric($value)) {
+        $seconds = (int)$value;
+        return $seconds > 0 ? $seconds : null;
+    }
+    if (!preg_match('/^(\d+)([smhdw])$/', $value, $m)) {
+        return null;
+    }
+    $number = (int)$m[1];
+    $unit   = $m[2];
+    if ($number <= 0) {
+        return null;
+    }
+    switch ($unit) {
+        case 's': return $number;
+        case 'm': return $number * 60;
+        case 'h': return $number * 3600;
+        case 'd': return $number * 86400;
+        case 'w': return $number * 604800;
+    }
+    return null;
+}
+function write_run_summary(string $message): void {
+    global $STORAGE_LOG_DIR, $LOG_DIR;
+    $ts = date('c');
+    $line = "[$ts] cleanup_feeds.php $message\n";
+    $target = $STORAGE_LOG_DIR . '/cleanup.log';
+    if (@file_put_contents($target, $line, FILE_APPEND | LOCK_EX) === false) {
+        @file_put_contents($LOG_DIR . '/app.log', $line, FILE_APPEND | LOCK_EX);
+    }
 }
 
 // ---------- Safety checks ----------
@@ -94,7 +179,7 @@ if (!flock($lfh, LOCK_EX | LOCK_NB)) {
 
 // ---------- Scan directory ----------
 $now         = time();
-$cutoffTs    = $now - ($DAYS * 86400);
+$cutoffTs    = $now - $maxAgeSeconds;
 $totalBytes  = 0;
 $files       = []; // list of ['path'=>, 'mtime'=>, 'size'=>]
 
@@ -120,8 +205,9 @@ foreach ($dir as $f) {
 usort($files, static function($a,$b){ return $a['mtime'] <=> $b['mtime']; }); // oldest first
 
 $initialCount = count($files);
+$policyAge = human_duration($maxAgeSeconds);
 log_line("Scanned feeds: $initialCount file(s), total " . human_bytes($totalBytes), 'INFO');
-log_line("Policy: older than {$DAYS}d OR keep under {$MAX_MB}MB and {$MAX_FILES} files" . ($DRY_RUN ? " [DRY RUN]" : ""), 'INFO');
+log_line("Policy: older than {$policyAge} OR keep under {$MAX_MB}MB and {$MAX_FILES} files" . ($DRY_RUN ? " [DRY RUN]" : ""), 'INFO');
 
 $deletedCount = 0;
 $deletedBytes = 0;
@@ -206,6 +292,16 @@ if ($totalBytes > $maxBytes) {
 $finalCount = count($files);
 log_line("Done. Deleted $deletedCount file(s), freed " . human_bytes($deletedBytes) . ".", 'INFO');
 log_line("Remaining: $finalCount file(s), total " . human_bytes($totalBytes) . ".", 'INFO');
+
+$summary = sprintf(
+    'deleted=%d freed=%s remaining=%d remaining_size=%s%s',
+    $deletedCount,
+    human_bytes($deletedBytes),
+    $finalCount,
+    human_bytes($totalBytes),
+    $DRY_RUN ? ' dry-run' : ''
+);
+write_run_summary($summary);
 
 // Keep lock until exit
 exit(0);
