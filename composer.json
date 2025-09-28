@@ -1,0 +1,20 @@
+{
+  "name": "simplefeedmaker/app",
+  "description": "SimpleFeedMaker web application",
+  "type": "project",
+  "license": "proprietary",
+  "require": {
+    "php": "^8.1",
+    "ext-curl": "*",
+    "ext-dom": "*",
+    "ext-json": "*",
+    "ext-libxml": "*",
+    "ext-mbstring": "*",
+    "ext-simplexml": "*"
+  },
+  "config": {
+    "vendor-dir": "secure/vendor",
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}

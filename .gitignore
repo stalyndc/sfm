@@ -5,6 +5,7 @@ secure/db-credentials.php
 secure/db-credentials.local.php
 secure/sfm-secrets.php
 secure/config.php
+secure/vendor/
 
 # Runtime artifacts
 secure/logs/*

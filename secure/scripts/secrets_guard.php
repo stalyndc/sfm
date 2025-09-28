@@ -23,6 +23,7 @@ $requiredIgnores = [
     'secure/db-credentials.local.php',
     'secure/sfm-secrets.php',
     'secure/config.php',
+    'secure/vendor/',
     'secure/logs/*',
     '!secure/logs/.gitignore',
     'secure/ratelimits/*',

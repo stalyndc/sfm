@@ -19,7 +19,7 @@ Goal: “run smooth and secure” with lightweight agents (automations + checks)
 - **Purpose:** ship a safe release to Hostinger from `main`.
 - **Trigger:** manual when we greenlight a release.
 - **Script:**
-  1. Run `composer install --no-dev` locally if PHP libraries change (store vendor/ outside webroot).
+  1. Run `composer install --no-dev` locally; this writes vendor files into `secure/vendor/` while keeping `composer.json` and `composer.lock` in git.
   2. Run `npm run build` if frontend assets ever grow; otherwise verify the root-level `/assets` bundle stays lightweight.
   3. Create a zip from the web root (repo root) plus required `secure/` stubs; exclude runtime folders (`storage/`, `secure/logs/`, `secure/ratelimits/`).
   4. Upload via Hostinger file manager or `sftp`, extract, and confirm file permissions (`644` files, `755` dirs).

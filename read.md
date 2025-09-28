@@ -17,6 +17,8 @@ SEO assets: robots.txt, trimmed sitemap.xml, humans.txt, basic head tags in inde
 
 Utilities: HTTP client with a tiny on-disk cache, smarter extraction (JSON-LD + DOM heuristics), optional logging scaffolding, a health endpoint, and a cleanup script to purge old feeds.
 
+Dependencies: managed via Composer (`composer.json` / `composer.lock`). The autoloader lives in `secure/vendor/` so production deployments keep libraries out of the public web root.
+
 Features
 
 One-shot feed generation

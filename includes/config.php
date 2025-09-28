@@ -84,6 +84,23 @@ if (!defined('SECURE_DIR')) {
     define('SECURE_DIR', $resolvedSecure);
   }
 }
+
+if (!defined('SFM_VENDOR_AUTOLOAD')) {
+  $autoloadCandidates = [];
+  if (defined('SECURE_DIR')) {
+    $autoloadCandidates[] = SECURE_DIR . '/vendor/autoload.php';
+  }
+  $autoloadCandidates[] = ROOT_DIR . '/secure/vendor/autoload.php';
+  $autoloadCandidates[] = ROOT_DIR . '/vendor/autoload.php';
+
+  foreach ($autoloadCandidates as $autoload) {
+    if (is_string($autoload) && is_file($autoload) && is_readable($autoload)) {
+      require_once $autoload;
+      define('SFM_VENDOR_AUTOLOAD', $autoload);
+      break;
+    }
+  }
+}
 if (!defined('FEEDS_DIR')) {
   define('FEEDS_DIR', ROOT_DIR . '/feeds');
 }
