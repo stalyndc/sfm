@@ -33,6 +33,7 @@ Goal: “run smooth and secure” with lightweight agents (automations + checks)
   1. Check out the repo and set up PHP 8.2 with required extensions.
   2. Run `composer validate`, `composer install --no-dev`, then `composer test`.
 - **Output:** fast feedback in GitHub if syntax breaks or security advisories appear.
+- **Enforce:** In GitHub → *Settings → Branches*, add a protection rule for `main` (and any release branches) that requires the `CI` status check to pass. Enable “Require branches to be up to date before merging” to rerun tests after rebases.
 
 ### Feed Cleanup Runner
 - **Purpose:** stop old feed files from filling storage.
