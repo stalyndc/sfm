@@ -12,7 +12,7 @@ Keep the workflow below so secrets never leave the server:
 
 Files you may want to provide:
 
-- `admin-credentials.php` — defines `ADMIN_USERNAME` / `ADMIN_PASSWORD`.
+- `admin-credentials.php` — defines `ADMIN_USERNAME` and `ADMIN_PASSWORD_HASH` (generate with `php secure/scripts/hash_password.php`).
 - `db-credentials.php` — defines `DB_HOST`, `DB_USERNAME`, `DB_PASSWORD`, `DB_NAME`.
 - `sfm-secrets.php` — optional array for extra shared secrets.
 

@@ -20,7 +20,7 @@ function sfm_admin_boot(): void
 
     sec_boot_session();
 
-    if (!defined('ADMIN_USERNAME') || !defined('ADMIN_PASSWORD')) {
+    if (!defined('ADMIN_USERNAME') || (!defined('ADMIN_PASSWORD') && !defined('ADMIN_PASSWORD_HASH'))) {
         $secureDir = sfm_secure_dir();
         $candidates = [];
         if ($secureDir !== null) {
@@ -44,8 +44,12 @@ function sfm_admin_boot(): void
         require_once $credFile;
     }
 
-    if (!defined('ADMIN_USERNAME') || !defined('ADMIN_PASSWORD')) {
-        throw new RuntimeException('Admin credentials are not configured.');
+    if (!defined('ADMIN_USERNAME')) {
+        throw new RuntimeException('Admin credentials are not configured (missing ADMIN_USERNAME).');
+    }
+
+    if (!defined('ADMIN_PASSWORD') && !defined('ADMIN_PASSWORD_HASH')) {
+        throw new RuntimeException('Admin credentials are not configured (missing password definition).');
     }
 
     $booted = true;
@@ -62,16 +66,37 @@ function sfm_admin_login(string $username, string $password): bool
     sfm_admin_boot();
 
     $expectedUser = (string)ADMIN_USERNAME;
-    $expectedPass = (string)ADMIN_PASSWORD;
 
     $userOk = hash_equals($expectedUser, $username);
-    $passOk = hash_equals($expectedPass, $password);
+    $passOk = false;
+
+    if (defined('ADMIN_PASSWORD_HASH') && ADMIN_PASSWORD_HASH !== '') {
+        $hash = (string)ADMIN_PASSWORD_HASH;
+        try {
+            $passOk = password_verify($password, $hash);
+            if ($passOk && function_exists('password_needs_rehash') && password_needs_rehash($hash, PASSWORD_DEFAULT)) {
+                $_SESSION['sfm_admin_needs_rehash'] = true;
+            }
+        } catch (Throwable $e) {
+            $passOk = false;
+        }
+    }
+
+    if (!$passOk && defined('ADMIN_PASSWORD')) {
+        $expectedPass = (string)ADMIN_PASSWORD;
+        $passOk = hash_equals($expectedPass, $password);
+    }
 
     if ($userOk && $passOk) {
         session_regenerate_id(true);
         $_SESSION['sfm_admin_logged_in'] = true;
         $_SESSION['sfm_admin_username']  = $expectedUser;
         $_SESSION['sfm_admin_logged_at'] = time();
+        if (!empty($_SESSION['sfm_admin_needs_rehash']) && defined('SECURE_DIR')) {
+            $rehashFile = SECURE_DIR . '/admin-password-rehash.todo';
+            @file_put_contents($rehashFile, date('c') . "\tPassword hash should be regenerated." . PHP_EOL, FILE_APPEND);
+            unset($_SESSION['sfm_admin_needs_rehash']);
+        }
         return true;
     }
 

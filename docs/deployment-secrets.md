@@ -12,55 +12,18 @@ Use the steps below when deploying or rotating credentials.
 - Create a new database user (or rotate the existing password) with only the
   privileges SimpleFeedMaker requires.
 
-### 2. Update the hosting environment
+### 2. Update admin credentials
 
-Set the following environment variables through your hosting control panel or
-web server configuration. The app reads them on every request.
+- Copy `secure/admin-credentials.example.php` to `secure/admin-credentials.php`.
+- Generate a BCrypt hash for the new password with `php secure/scripts/hash_password.php "super-secret"`.
+- Paste the hash into `ADMIN_PASSWORD_HASH` and set `ADMIN_USERNAME`.
+- Remove any legacy `ADMIN_PASSWORD` constant once the hash is in place (plain text passwords are no longer required).
 
-```
-SFM_ADMIN_USERNAME
-SFM_ADMIN_PASSWORD
-SFM_BASE_URL        # full URL, e.g. https://simplefeedmaker.com
-SFM_DB_HOST         # optional — defaults to localhost
-SFM_DB_USERNAME
-SFM_DB_PASSWORD
-SFM_DB_NAME
-OPCACHE_RESET_TOKEN # optional — required only if you intend to call opcache_reset.php
-```
+### 3. Update database credentials
 
-> ℹ️ Hostinger lets you add PHP environment variables under *Advanced ➝ PHP
-> Configuration ➝ Variables*. Other hosts will have similar controls.
-
-### 3. (Optional) Provide `.local.php` fallbacks
-
-If the host cannot inject environment variables, create private files instead
-(starter templates live in `secure/*.example.php`):
-
-- `secure/admin-credentials.local.php`
-- `secure/db-credentials.local.php`
-
-Each file should return an array with the relevant keys:
-
-```php
-<?php
-return [
-  'username' => 'admin-user',
-  'password' => 'super-secret',
-];
-```
-
-```php
-<?php
-return [
-  'host'     => 'localhost',
-  'username' => 'db-user',
-  'password' => 'db-pass',
-  'database' => 'db-name',
-];
-```
-
-These files are already ignored by git (`secure/*.local.php`), so they stay on
-the server only.
+If you store database connection details in files, copy `secure/db-credentials.example.php`
+to `secure/db-credentials.php` and fill in the values. These files are already
+ignored by git, so they stay on the server only.
 
 ### 4. Deploy code & clear caches
 

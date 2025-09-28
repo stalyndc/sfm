@@ -6,10 +6,18 @@
 
 declare(strict_types=1);
 
-define('SFM_ADMIN_USERNAME', 'change-me');
-define('SFM_ADMIN_PASSWORD', 'change-me-please-use-a-password-manager');
+define('ADMIN_USERNAME', 'change-me');
 
-define('ADMIN_USERNAME', SFM_ADMIN_USERNAME);
-define('ADMIN_PASSWORD', SFM_ADMIN_PASSWORD);
+// Generate a BCrypt hash with: php secure/scripts/hash_password.php "your-password"
+define('ADMIN_PASSWORD_HASH', 'replace-with-bcrypt-hash');
+
+// Legacy fallbacks (retain for older deployments; safe to remove if unused)
+define('SFM_ADMIN_USERNAME', ADMIN_USERNAME);
+if (!defined('ADMIN_PASSWORD')) {
+    define('ADMIN_PASSWORD', '');
+}
+if (!defined('SFM_ADMIN_PASSWORD')) {
+    define('SFM_ADMIN_PASSWORD', ADMIN_PASSWORD);
+}
 
 // No closing PHP tag
