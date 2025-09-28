@@ -1,7 +1,7 @@
 <?php
 /**
  * Optional project-specific overrides.
- * Copy to secure/config.php if you need to customize defaults from public/includes/config.php.
+ * Copy to secure/config.php if you need to customize defaults from includes/config.php.
  */
 
 declare(strict_types=1);

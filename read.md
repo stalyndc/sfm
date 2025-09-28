@@ -45,5 +45,4 @@ health.php endpoint, scripts/cleanup_feeds.php for cron, optional request/parse 
 
 Architecture & Layout
 
-Root is the public web root (e.g., public_html/). Secrets/logs live outside it in /home/<account>/secure/.
-test.
+Repo root doubles as the public web root (e.g., public_html/). Secrets/logs live outside it in /home/<account>/secure/.

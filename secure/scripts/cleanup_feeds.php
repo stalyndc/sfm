@@ -23,16 +23,44 @@
 declare(strict_types=1);
 
 // ---------- Resolve paths (portable for Hostinger layout) ----------
-$SECURE_DIR = dirname(__DIR__);             // /home/<account>/secure
+$SECURE_DIR = dirname(__DIR__);             // /home/<account>/secure or project/secure
 $HOME_DIR   = dirname($SECURE_DIR);         // /home/<account>
-$WEB_ROOT   = $HOME_DIR . '/public_html';   // /home/<account>/public_html
-$FEEDS_DIR  = $WEB_ROOT . '/feeds';         // where feed files are written
-$LOCAL_ROOT = dirname($SECURE_DIR) . '/public';
-if (!is_dir($FEEDS_DIR) && is_dir($LOCAL_ROOT . '/feeds')) {
-    $WEB_ROOT  = realpath($LOCAL_ROOT) ?: $LOCAL_ROOT;
-    $FEEDS_DIR = $WEB_ROOT . '/feeds';
+
+$rootCandidates = [];
+$envWebRoot = trim((string)getenv('SFM_WEB_ROOT'));
+if ($envWebRoot !== '') {
+    $rootCandidates[] = $envWebRoot;
 }
-$STORAGE_DIR = $HOME_DIR . '/storage';      // runtime storage lives alongside
+$rootCandidates[] = $HOME_DIR . '/public_html';
+$rootCandidates[] = $HOME_DIR . '/www';
+$rootCandidates[] = $HOME_DIR . '/public';
+$rootCandidates[] = dirname($SECURE_DIR); // when secure/ lives inside project root
+
+$WEB_ROOT = null;
+foreach ($rootCandidates as $candidate) {
+    $path = realpath($candidate) ?: $candidate;
+    if (!is_dir($path)) {
+        continue;
+    }
+    if (is_file($path . '/index.php') || is_dir($path . '/includes')) {
+        $WEB_ROOT = rtrim($path, '/\\');
+        break;
+    }
+}
+
+if ($WEB_ROOT === null) {
+    fwrite(STDERR, "[ERROR] Unable to locate web root. Set SFM_WEB_ROOT or adjust cleanup script.\n");
+    exit(1);
+}
+
+$FEEDS_DIR   = $WEB_ROOT . '/feeds';        // where feed files are written
+$STORAGE_DIR = $HOME_DIR . '/storage';      // runtime storage lives alongside account root
+if (!is_dir($STORAGE_DIR)) {
+    $altStorage = $WEB_ROOT . '/storage';
+    if (is_dir($altStorage)) {
+        $STORAGE_DIR = $altStorage;
+    }
+}
 
 $LOG_DIR    = $SECURE_DIR . '/logs';
 $TMP_DIR    = $SECURE_DIR . '/tmp';

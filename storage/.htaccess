@@ -1,0 +1,2 @@
+# Block direct web access to runtime storage artifacts
+Require all denied
