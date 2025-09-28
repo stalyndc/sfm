@@ -20,9 +20,10 @@ Goal: “run smooth and secure” with lightweight agents (automations + checks)
 - **Trigger:** manual when we greenlight a release.
 - **Script:**
   1. Run `composer install --no-dev` locally; this writes vendor files into `secure/vendor/` while keeping `composer.json` and `composer.lock` in git.
-  2. Run `npm run build` if frontend assets ever grow; otherwise verify the root-level `/assets` bundle stays lightweight.
-  3. Create a zip from the web root (repo root) plus required `secure/` stubs; exclude runtime folders (`storage/`, `secure/logs/`, `secure/ratelimits/`).
-  4. Upload via Hostinger file manager or `sftp`, extract, and confirm file permissions (`644` files, `755` dirs).
+  2. Execute `composer test` for a quick syntax smoke-check before shipping.
+  3. Run `npm run build` if frontend assets ever grow; otherwise verify the root-level `/assets` bundle stays lightweight.
+  4. Create a zip from the web root (repo root) plus required `secure/` stubs; exclude runtime folders (`storage/`, `secure/logs/`, `secure/ratelimits/`).
+  5. Upload via Hostinger file manager or `sftp`, extract, and confirm file permissions (`644` files, `755` dirs).
 - **Output:** a repeatable release package with secrets preserved on the server only.
 
 ### Feed Cleanup Runner
