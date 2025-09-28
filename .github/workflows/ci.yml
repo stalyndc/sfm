@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          coverage: none
+          extensions: curl, dom, json, libxml, mbstring, simplexml
+
+      - name: Validate Composer manifest
+        run: composer validate --no-check-publish
+
+      - name: Install dependencies
+        run: composer install --no-dev --prefer-dist --no-progress --no-interaction
+
+      - name: Run smoke test suite
+        run: composer test

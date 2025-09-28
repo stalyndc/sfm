@@ -26,6 +26,14 @@ Goal: “run smooth and secure” with lightweight agents (automations + checks)
   5. Upload via Hostinger file manager or `sftp`, extract, and confirm file permissions (`644` files, `755` dirs).
 - **Output:** a repeatable release package with secrets preserved on the server only.
 
+### CI Sentinel
+- **Purpose:** auto-run `composer test` (lint + security audit) on every push or pull request.
+- **Trigger:** GitHub Actions workflow `CI` (`.github/workflows/ci.yml`).
+- **Script:**
+  1. Check out the repo and set up PHP 8.2 with required extensions.
+  2. Run `composer validate`, `composer install --no-dev`, then `composer test`.
+- **Output:** fast feedback in GitHub if syntax breaks or security advisories appear.
+
 ### Feed Cleanup Runner
 - **Purpose:** stop old feed files from filling storage.
 - **Trigger:** cron on the server (daily) or manual if disk alarms fire.
