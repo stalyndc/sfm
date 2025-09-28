@@ -54,6 +54,7 @@ foreach ($iterator as $fileInfo) {
 }
 
 $failures = [];
+$warnings = [];
 foreach ($lintTargets as $target) {
     $cmd = escapeshellcmd($phpBinary) . ' -l ' . escapeshellarg($target);
     exec($cmd, $output, $code);
@@ -73,6 +74,26 @@ if (!is_file($autoloader)) {
     ];
 }
 
+$auditOutput = [];
+$auditExit   = 0;
+exec('composer audit --locked --no-interaction 2>&1', $auditOutput, $auditExit);
+if ($auditExit !== 0) {
+    $joined = trim(implode("\n", $auditOutput));
+    if (strpos($joined, 'Command "audit" is not defined') !== false) {
+        $warnings[] = 'composer audit unavailable (Composer < 2.4?). Skipped security advisory check.';
+    } elseif ($joined !== '') {
+        $failures[] = [
+            'file' => 'composer audit',
+            'output' => $joined,
+        ];
+    } else {
+        $failures[] = [
+            'file' => 'composer audit',
+            'output' => 'Security audit failed with exit code ' . $auditExit,
+        ];
+    }
+}
+
 if ($failures) {
     fwrite(STDERR, "Smoke test failed:\n");
     foreach ($failures as $failure) {
@@ -81,8 +102,21 @@ if ($failures) {
             fwrite(STDERR, "    " . str_replace("\n", "\n    ", $failure['output']) . "\n");
         }
     }
+    if ($warnings) {
+        fwrite(STDERR, "\nWarnings:\n");
+        foreach ($warnings as $warning) {
+            fwrite(STDERR, '  • ' . $warning . "\n");
+        }
+    }
     exit(1);
 }
 
-fwrite(STDOUT, sprintf("Smoke test passed. Checked %d PHP files.\n", count($lintTargets)));
+$message = sprintf("Smoke test passed. Checked %d PHP files.", count($lintTargets));
+if ($warnings) {
+    $message .= "\nWarnings:";
+    foreach ($warnings as $warning) {
+        $message .= "\n  • " . $warning;
+    }
+}
+fwrite(STDOUT, $message . "\n");
 exit(0);
