@@ -72,6 +72,100 @@ $checks[] = run_check('php_error_log', function () {
     ];
 });
 
+$checks[] = run_check('backups_status', function () use ($now) {
+    $dir = resolve_backups_dir();
+    if ($dir === null) {
+        return warn_result('Backup directory not configured (set SFM_BACKUPS_DIR).', ['configured' => false]);
+    }
+
+    $items = glob($dir . '/*');
+    $files = [];
+    if ($items) {
+        foreach ($items as $item) {
+            if (is_file($item)) {
+                $files[] = $item;
+            }
+        }
+    }
+
+    if (!$files) {
+        return warn_result('No backup files found in ' . $dir, ['path' => $dir, 'files' => 0]);
+    }
+
+    $latestFile = null;
+    $latestTime = 0;
+    $totalBytes = 0;
+    foreach ($files as $file) {
+        $size = filesize($file) ?: 0;
+        $mtime = filemtime($file) ?: 0;
+        $totalBytes += $size;
+        if ($mtime > $latestTime) {
+            $latestTime = $mtime;
+            $latestFile = $file;
+        }
+    }
+
+    $ageSeconds = $now - $latestTime;
+    $details = [
+        'path'           => $dir,
+        'files'          => count($files),
+        'latest_file'    => $latestFile ? basename($latestFile) : null,
+        'latest_mtime'   => $latestTime,
+        'latest_age_sec' => $ageSeconds,
+        'total_bytes'    => $totalBytes,
+        'total_human'    => human_bytes($totalBytes),
+    ];
+
+    $maxAge = 7 * 86400;
+    if ($ageSeconds > $maxAge) {
+        return warn_result('Latest backup older than 7 days.', $details);
+    }
+
+    return ['status' => 'ok', 'details' => $details];
+});
+
+$checks[] = run_check('disaster_drill_recent', function () use ($now) {
+    $statusFile = defined('SFM_DRILL_STATUS_FILE') ? SFM_DRILL_STATUS_FILE : (defined('STORAGE_ROOT') ? STORAGE_ROOT . '/logs/disaster_drill.json' : null);
+    if ($statusFile === null) {
+        return warn_result('Drill status file path not defined; set SFM_DRILL_STATUS_FILE.', []);
+    }
+    if (!is_file($statusFile)) {
+        return warn_result('Drill status file missing: ' . $statusFile, ['path' => $statusFile]);
+    }
+
+    $raw = file_get_contents($statusFile);
+    if ($raw === false || $raw === '') {
+        return warn_result('Drill status file empty: ' . $statusFile, ['path' => $statusFile]);
+    }
+
+    $data = json_decode($raw, true);
+    if (!is_array($data)) {
+        return ['status' => 'fail', 'message' => 'Drill status file invalid JSON.', 'details' => ['path' => $statusFile]];
+    }
+
+    $fileMtime = filemtime($statusFile) ?: $now;
+    $ageSeconds = $now - $fileMtime;
+    $details = [
+        'path'         => $statusFile,
+        'status'       => $data['status'] ?? 'unknown',
+        'generated_at' => $data['generated_at'] ?? null,
+        'file_age_sec' => $ageSeconds,
+        'failures'     => $data['failures'] ?? null,
+        'warnings'     => $data['warnings'] ?? null,
+    ];
+
+    if (($data['status'] ?? 'unknown') === 'fail') {
+        return ['status' => 'fail', 'message' => 'Last disaster drill recorded failures.', 'details' => $details];
+    }
+
+    $maxAge = 120 * 86400;
+    if ($ageSeconds > $maxAge) {
+        return warn_result('Last disaster drill older than 120 days.', $details);
+    }
+
+    return ['status' => 'ok', 'details' => $details];
+});
+
 foreach ($checks as $check) {
     if ($check['status'] !== 'ok') {
         $ok = false;
@@ -94,11 +188,15 @@ echo json_encode($response, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES) . "\n";
 function run_check(string $name, callable $fn): array
 {
     try {
-        $details = $fn();
+        $result = $fn();
+        if (is_array($result) && isset($result['status'])) {
+            $result['name'] = $name;
+            return $result;
+        }
         return [
             'name'    => $name,
             'status'  => 'ok',
-            'details' => $details,
+            'details' => $result,
         ];
     } catch (Throwable $e) {
         return [
@@ -107,4 +205,58 @@ function run_check(string $name, callable $fn): array
             'error'   => $e->getMessage(),
         ];
     }
+}
+
+function warn_result(string $message, array $details = []): array
+{
+    $result = ['status' => 'warn', 'message' => $message];
+    if ($details) {
+        $result['details'] = $details;
+    }
+    return $result;
+}
+
+function resolve_backups_dir(): ?string
+{
+    $candidates = [];
+    $env = getenv('SFM_BACKUPS_DIR');
+    if ($env !== false && $env !== '') {
+        $candidates[] = $env;
+    }
+    if (defined('SFM_BACKUPS_DIR') && SFM_BACKUPS_DIR !== '') {
+        $candidates[] = SFM_BACKUPS_DIR;
+    }
+    if (defined('SECURE_DIR')) {
+        $candidates[] = SECURE_DIR . '/backups';
+    }
+    if (defined('STORAGE_ROOT')) {
+        $candidates[] = STORAGE_ROOT . '/backups';
+    }
+
+    foreach ($candidates as $candidate) {
+        if ($candidate === null || $candidate === '') {
+            continue;
+        }
+        $real = realpath($candidate);
+        if ($real !== false && is_dir($real)) {
+            return rtrim($real, '/\\');
+        }
+    }
+
+    return null;
+}
+
+function human_bytes(int $bytes): string
+{
+    if ($bytes <= 0) {
+        return '0 B';
+    }
+    $units = ['B', 'KB', 'MB', 'GB', 'TB'];
+    $i = 0;
+    $value = (float)$bytes;
+    while ($value >= 1024 && $i < count($units) - 1) {
+        $value /= 1024;
+        $i++;
+    }
+    return sprintf('%.2f %s', $value, $units[$i]);
 }

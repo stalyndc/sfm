@@ -15,6 +15,11 @@ $scriptDir   = __DIR__;
 $secureDir   = dirname($scriptDir);
 $projectRoot = dirname($secureDir);
 
+$configPath = $projectRoot . '/includes/config.php';
+if (is_file($configPath)) {
+    require_once $configPath;
+}
+
 $options = parse_cli_options($argv ?? []);
 
 $windowSeconds    = max(60, (int)($options['window'] ?? 3600));
@@ -23,6 +28,10 @@ $topCount         = max(1, (int)($options['top'] ?? 5));
 $dryRun           = !empty($options['dry-run']);
 $blockEnabled     = !empty($options['block']) || isset($options['block-file']);
 $blockTarget      = resolve_block_target($options, $projectRoot);
+$explicitNotify   = !empty($options['notify']) || isset($options['notify-to']);
+$notifySuppressed = !empty($options['no-notify']);
+$notifyRecipients = resolve_alert_recipients($options['notify-to'] ?? null);
+$shouldNotify     = !$dryRun && !$notifySuppressed && ($explicitNotify || $notifyRecipients);
 
 if ($blockEnabled && $blockTarget === null) {
     fwrite(STDERR, "[ERROR] --block specified but target .htaccess could not be resolved.\n");
@@ -101,6 +110,9 @@ if ($dryRun) {
             )
         );
     }
+    if (!$notifySuppressed && ($explicitNotify || $notifyRecipients)) {
+        fwrite(STDOUT, "Dry-run: would email alert to " . implode(', ', $notifyRecipients ?: ['(none configured)']) . "\n");
+    }
     exit(0);
 }
 
@@ -116,6 +128,30 @@ if ($blockEnabled) {
     $ips = array_column($offenders, 'ip');
     $result = apply_blocklist($blockTarget, $ips);
     fwrite(STDOUT, $result . "\n");
+}
+
+if ($shouldNotify) {
+    $subject = sprintf('[SimpleFeedMaker] Rate limit alert (%d unique IPs)', $uniqueCount);
+    $bodyParts = [];
+    $bodyParts[] = sprintf('Unique IPs observed: %d (threshold %d)', $uniqueCount, $uniqueThreshold);
+    $bodyParts[] = sprintf('Window: %s', $windowLabel);
+    $bodyParts[] = '';
+    $bodyParts[] = "Top offenders:";
+    foreach ($offenders as $entry) {
+        $bodyParts[] = sprintf(' - %s (%d hits) %s', $entry['ip'], $entry['hits'], format_bucket_summary($entry['buckets']));
+    }
+    if ($blockEnabled && isset($ips)) {
+        $bodyParts[] = '';
+        $bodyParts[] = 'Blocklist updated at: ' . $blockTarget;
+    }
+    $bodyParts[] = '';
+    $bodyParts[] = 'Logged to: ' . $logPath;
+
+    $body = implode("\n", $bodyParts);
+    $sent = send_alert_email($notifyRecipients, $subject, $body);
+    fwrite(STDOUT, ($sent ? '[ALERT]' : '[WARN]') . ' Email notification ' . ($sent ? 'sent.' : 'failed.') . "\n");
+} elseif ($explicitNotify && $notifySuppressed) {
+    fwrite(STDOUT, "[INFO] Notification suppressed by --no-notify.\n");
 }
 
 exit(0);
@@ -470,4 +506,52 @@ function build_block_section(array $ips, string $beginMarker, string $endMarker)
     $lines[] = '</IfModule>';
     $lines[] = $endMarker;
     return implode("\n", $lines);
+}
+
+function resolve_alert_recipients(?string $override): array
+{
+    $candidates = [];
+    if ($override !== null && trim($override) !== '') {
+        $candidates = array_merge($candidates, split_recipients($override));
+    }
+    if (defined('SFM_ALERT_EMAIL')) {
+        $candidates[] = SFM_ALERT_EMAIL;
+    }
+    $envSingle = getenv('SFM_ALERT_EMAIL');
+    if ($envSingle !== false && $envSingle !== '') {
+        $candidates = array_merge($candidates, split_recipients($envSingle));
+    }
+    $envMulti = getenv('SFM_ALERT_EMAILS');
+    if ($envMulti !== false && $envMulti !== '') {
+        $candidates = array_merge($candidates, split_recipients($envMulti));
+    }
+
+    $filtered = [];
+    foreach ($candidates as $candidate) {
+        $email = filter_var(trim($candidate), FILTER_VALIDATE_EMAIL);
+        if ($email) {
+            $filtered[$email] = true;
+        }
+    }
+    return array_keys($filtered);
+}
+
+function split_recipients(string $value): array
+{
+    return preg_split('/[;,]+/', $value) ?: [];
+}
+
+function send_alert_email(array $recipients, string $subject, string $body): bool
+{
+    if (!$recipients) {
+        return false;
+    }
+    $success = true;
+    foreach ($recipients as $recipient) {
+        $headers = "Content-Type: text/plain; charset=UTF-8\r\n";
+        if (!mail($recipient, $subject, $body, $headers)) {
+            $success = false;
+        }
+    }
+    return $success;
 }

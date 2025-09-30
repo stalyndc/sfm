@@ -114,6 +114,30 @@ if (!defined('STORAGE_ROOT')) {
   }
   define('STORAGE_ROOT', rtrim(str_replace('\\','/', $storage), '/'));
 }
+if (!defined('SFM_DRILL_STATUS_FILE')) {
+  $defaultDrill = STORAGE_ROOT . '/logs/disaster_drill.json';
+  define('SFM_DRILL_STATUS_FILE', $defaultDrill);
+}
+if (!defined('SFM_BACKUPS_DIR')) {
+  $envBackups = trim((string)getenv('SFM_BACKUPS_DIR'));
+  if ($envBackups !== '') {
+    define('SFM_BACKUPS_DIR', rtrim($envBackups, '/\\'));
+  } else {
+    $candidates = [];
+    if (defined('SECURE_DIR')) {
+      $candidates[] = SECURE_DIR . '/backups';
+    }
+    $candidates[] = STORAGE_ROOT . '/backups';
+    $found = '';
+    foreach ($candidates as $candidate) {
+      if (is_dir($candidate)) {
+        $found = rtrim(str_replace('\\','/', realpath($candidate) ?: $candidate), '/');
+        break;
+      }
+    }
+    define('SFM_BACKUPS_DIR', $found);
+  }
+}
 if (!defined('SFM_JOBS_DIR')) {
   define('SFM_JOBS_DIR', STORAGE_ROOT . '/jobs');
 }

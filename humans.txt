@@ -1,7 +1,7 @@
 /* TEAM */
 Site: SimpleFeedMaker
 Role: Independent project
-Builders: You + GPT-5 Thinking
+Builders: You + GPT-5 Thinking Codex
 Location: Internet
 Contact: (add a contact URL or email if you’d like)
 

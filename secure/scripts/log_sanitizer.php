@@ -14,7 +14,13 @@ declare(strict_types=1);
 
 $scriptDir   = __DIR__;
 $secureDir   = dirname($scriptDir);
+$projectRoot = dirname($secureDir);
 $defaultDir  = $secureDir . '/logs';
+
+$configPath = $projectRoot . '/includes/config.php';
+if (is_file($configPath)) {
+    require_once $configPath;
+}
 
 $options = parse_cli_options($argv ?? []);
 $logDir  = resolve_log_dir($options['dir'] ?? $defaultDir);
@@ -25,6 +31,9 @@ if ($logDir === null) {
 
 $retentionDays = max(1, (int)($options['retention'] ?? 14));
 $dryRun        = !empty($options['dry-run']);
+$notifySuppressed = !empty($options['no-notify']);
+$explicitNotify   = !empty($options['notify']) || isset($options['notify-to']);
+$notifyRecipients = resolve_alert_recipients($options['notify-to'] ?? null);
 $archiveDir    = $logDir . '/archive';
 
 $patternSet = build_pattern_set();
@@ -54,6 +63,38 @@ if (!$dryRun) {
 }
 
 report_summary($logDir, $sanitised, $archived, $dryRun);
+
+$shouldNotify = !$dryRun && !$notifySuppressed && ($explicitNotify || $notifyRecipients);
+if ($shouldNotify && ($sanitised || $archived)) {
+    $subject = '[SimpleFeedMaker] Log sanitizer activity';
+    $lines   = [];
+    if ($sanitised) {
+        $lines[] = 'Redacted entries:';
+        foreach ($sanitised as $item) {
+            $parts = [];
+            foreach ($item['replacements'] as $pattern => $count) {
+                $parts[] = $pattern . ':' . $count;
+            }
+            $lines[] = ' - ' . basename($item['file']) . ' (' . implode(', ', $parts) . ')';
+        }
+        $lines[] = '';
+    }
+    if ($archived) {
+        $lines[] = 'Archived logs:';
+        foreach ($archived as $item) {
+            $lines[] = ' - ' . basename($item['file']) . ' -> ' . basename($item['target']);
+        }
+        $lines[] = '';
+    }
+    $lines[] = 'Log directory: ' . $logDir;
+
+    $body = implode("\n", $lines);
+    $sent = send_alert_email($notifyRecipients, $subject, $body);
+    fwrite(STDOUT, ($sent ? '[ALERT]' : '[WARN]') . ' Email notification ' . ($sent ? 'sent.' : 'failed.') . "\n");
+} elseif ($dryRun && ($explicitNotify || $notifyRecipients) && !$notifySuppressed) {
+    fwrite(STDOUT, "Dry-run: would notify " . implode(', ', $notifyRecipients ?: ['(none configured)']) . "\n");
+}
+
 exit(0);
 
 /**
@@ -278,4 +319,53 @@ function report_summary(string $logDir, array $sanitised, array $archived, bool 
     } else {
         fwrite(STDOUT, "  - No logs met the archive threshold.\n");
     }
+}
+
+function resolve_alert_recipients(?string $override): array
+{
+    $candidates = [];
+    if ($override !== null && trim($override) !== '') {
+        $candidates = array_merge($candidates, split_recipients($override));
+    }
+    if (defined('SFM_ALERT_EMAIL')) {
+        $candidates[] = SFM_ALERT_EMAIL;
+    }
+    $envSingle = getenv('SFM_ALERT_EMAIL');
+    if ($envSingle !== false && $envSingle !== '') {
+        $candidates = array_merge($candidates, split_recipients($envSingle));
+    }
+    $envMulti = getenv('SFM_ALERT_EMAILS');
+    if ($envMulti !== false && $envMulti !== '') {
+        $candidates = array_merge($candidates, split_recipients($envMulti));
+    }
+
+    $filtered = [];
+    foreach ($candidates as $candidate) {
+        $email = filter_var(trim($candidate), FILTER_VALIDATE_EMAIL);
+        if ($email) {
+            $filtered[$email] = true;
+        }
+    }
+
+    return array_keys($filtered);
+}
+
+function split_recipients(string $value): array
+{
+    return preg_split('/[;,]+/', $value) ?: [];
+}
+
+function send_alert_email(array $recipients, string $subject, string $body): bool
+{
+    if (!$recipients) {
+        return false;
+    }
+    $success = true;
+    foreach ($recipients as $recipient) {
+        $headers = "Content-Type: text/plain; charset=UTF-8\r\n";
+        if (!mail($recipient, $subject, $body, $headers)) {
+            $success = false;
+        }
+    }
+    return $success;
 }

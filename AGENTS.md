@@ -19,11 +19,10 @@ Goal: “run smooth and secure” with lightweight agents (automations + checks)
 - **Purpose:** ship a safe release to Hostinger from `main`.
 - **Trigger:** manual when we greenlight a release.
 - **Script:**
-  1. Run `composer install --no-dev` locally; this writes vendor files into `secure/vendor/` while keeping `composer.json` and `composer.lock` in git.
-  2. Execute `composer test` for a quick syntax + dependency security check before shipping.
-  3. Run `npm run build` if frontend assets ever grow; otherwise verify the root-level `/assets` bundle stays lightweight.
-  4. Create a zip from the web root (repo root) plus required `secure/` stubs; exclude runtime folders (`storage/`, `secure/logs/`, `secure/ratelimits/`).
-  5. Upload via Hostinger file manager or `sftp`, extract, and confirm file permissions (`644` files, `755` dirs).
+  1. Run `php secure/scripts/deploy_courier.php` (add `--dry-run` to preview, `--build-assets` to trigger `npm run build`).
+  2. The script runs `composer install --no-dev`, `composer test` (use `--skip-tests` to bypass), optionally builds assets, reports the `/assets` footprint, and bundles the repo into `build/releases/simplefeedmaker-<timestamp>.zip` without runtime folders (`storage/`, `secure/logs/`, `secure/ratelimits/`).
+  3. Use `--stage-dir=/path` to copy the zip into a shared drop folder and `--upload-cmd="sftp -b - user@host <<<'put {file}'"` (or similar) to push straight to staging.
+  4. Upload the generated zip via Hostinger file manager or `sftp`, extract, and confirm file permissions (`644` files, `755` dirs).
 - **Output:** a repeatable release package with secrets preserved on the server only.
 
 ### CI Sentinel
@@ -57,8 +56,8 @@ Goal: “run smooth and secure” with lightweight agents (automations + checks)
 - **Trigger:** hourly cron or manual when traffic spikes.
 - **Script:**
   1. Count unique IPs from JSON filenames; if >100/hour, compile top offenders.
-  2. For each offender, append an entry to `secure/ratelimits/README.md` with timestamp + reason.
-  3. Optionally call Hostinger firewall API / .htaccess deny list update.
+  2. For each offender, append an entry to `secure/ratelimits/README.md` with timestamp + reason and update the `.htaccess` blocklist when invoked with `--block`.
+  3. Add `--notify` (or configure `SFM_ALERT_EMAIL`) so the script emails stalyn@disla.net when thresholds trip; run hourly via cron, e.g. `5 * * * * php secure/scripts/rate_limit_inspector.php --threshold=150 --top=10 --block`.
 - **Output:** documented abuse handling and optional automated blocks.
 
 ### Log Sanitizer
@@ -68,13 +67,14 @@ Goal: “run smooth and secure” with lightweight agents (automations + checks)
   1. Run `php secure/scripts/log_sanitizer.php` (add `--dry-run` to preview, `--retention=30` to change archive window).
   2. The script redacts email addresses, phone numbers, and sensitive query params from `secure/logs/*.log`.
   3. Sanitized logs older than 14 days are gzipped into `secure/logs/archive/` and removed from the live directory.
+  4. Configure `SFM_ALERT_EMAIL` or pass `--notify` so redactions and archive activity email stalyn@disla.net; cron example: `30 2 * * 1 php secure/scripts/log_sanitizer.php`.
 - **Output:** compliance-friendly logs with smaller footprint.
 
 ### Disaster Drill
 - **Purpose:** guarantee we can rebuild quickly.
 - **Trigger:** quarterly calendar reminder.
 - **Script:**
-  1. Clone repo fresh; confirm the root web directory boots with `.env.example`/`secure/*.example.php` values.
-  2. Restore production database snapshot (if any) to staging and run smoke tests.
-  3. Verify backups of `secure/` and `storage/feeds` exist and match checksum log.
+  1. Run `php secure/scripts/disaster_drill.php` (add `--json` for machine-readable output, `--backups=/path` and `--checksum-file=/path/checksums.json` to validate external backups).
+  2. On a fresh clone, follow the script guidance: copy `.example` templates to real secrets, run `composer install --no-dev`, and boot the site.
+  3. Restore production database snapshot (if any) to staging, run smoke tests, and reconcile backup checksums before signing off the drill.
 - **Output:** documented recovery steps stay current.
