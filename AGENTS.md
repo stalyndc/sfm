@@ -65,9 +65,9 @@ Goal: “run smooth and secure” with lightweight agents (automations + checks)
 - **Purpose:** remove personal data from logs before archiving.
 - **Trigger:** after each `Feed Cleanup Runner` pass or weekly.
 - **Script:**
-  1. Search `secure/logs/*.log` for email, phone, or query parameters using regex.
-  2. Redact sensitive tokens (`foo@example.com` → `[email]`).
-  3. Compress sanitized logs older than 14 days to `/secure/logs/archive/`.
+  1. Run `php secure/scripts/log_sanitizer.php` (add `--dry-run` to preview, `--retention=30` to change archive window).
+  2. The script redacts email addresses, phone numbers, and sensitive query params from `secure/logs/*.log`.
+  3. Sanitized logs older than 14 days are gzipped into `secure/logs/archive/` and removed from the live directory.
 - **Output:** compliance-friendly logs with smaller footprint.
 
 ### Disaster Drill

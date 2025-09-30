@@ -12,6 +12,7 @@ secure/vendor/
 secure/logs/*
 !secure/logs/.gitignore
 !secure/logs/.htaccess
+!secure/logs/README.txt
 secure/ratelimits/*
 !secure/ratelimits/.gitignore
 !secure/ratelimits/.htaccess
