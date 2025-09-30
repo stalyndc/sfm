@@ -21,6 +21,13 @@ $windowSeconds    = max(60, (int)($options['window'] ?? 3600));
 $uniqueThreshold  = max(1, (int)($options['threshold'] ?? 100));
 $topCount         = max(1, (int)($options['top'] ?? 5));
 $dryRun           = !empty($options['dry-run']);
+$blockEnabled     = !empty($options['block']) || isset($options['block-file']);
+$blockTarget      = resolve_block_target($options, $projectRoot);
+
+if ($blockEnabled && $blockTarget === null) {
+    fwrite(STDERR, "[ERROR] --block specified but target .htaccess could not be resolved.\n");
+    exit(1);
+}
 
 $rateLimitDir = resolve_rate_limit_dir($options['dir'] ?? null, $projectRoot, $secureDir);
 if ($rateLimitDir === null) {
@@ -83,6 +90,17 @@ $logBody = "\n" . implode("\n", $logEntries) . "\n";
 
 if ($dryRun) {
     fwrite(STDOUT, "Dry-run: would append to {$logPath}:\n{$logBody}");
+    if ($blockEnabled) {
+        $ips = array_column($offenders, 'ip');
+        fwrite(
+            STDOUT,
+            sprintf(
+                "Dry-run: would update blocklist in %s for IPs: %s\n",
+                $blockTarget,
+                implode(', ', $ips)
+            )
+        );
+    }
     exit(0);
 }
 
@@ -93,6 +111,13 @@ if (@file_put_contents($logPath, $logBody, FILE_APPEND | LOCK_EX) === false) {
 }
 
 fwrite(STDOUT, sprintf("Logged %d offender(s) to %s.\n", count($offenders), $logPath));
+
+if ($blockEnabled) {
+    $ips = array_column($offenders, 'ip');
+    $result = apply_blocklist($blockTarget, $ips);
+    fwrite(STDOUT, $result . "\n");
+}
+
 exit(0);
 
 /**
@@ -310,4 +335,139 @@ function human_duration(int $seconds): string
         }
     }
     return implode(', ', $parts);
+}
+
+function resolve_block_target(array $options, string $projectRoot): ?string
+{
+    $blockSpecified = !empty($options['block']) || isset($options['block-file']);
+    if (!$blockSpecified) {
+        return null;
+    }
+
+    $target = $options['block-file'] ?? null;
+    if ($target === null) {
+        $blockValue = $options['block'] ?? '';
+        if ($blockValue === true || $blockValue === '' || $blockValue === '1') {
+            $target = $projectRoot . '/.htaccess';
+        } else {
+            $target = (string)$blockValue;
+        }
+    }
+
+    if (!is_string($target) || $target === '') {
+        return null;
+    }
+
+    if ($target[0] !== '/' && !preg_match('/^[A-Za-z]:\\\\/', $target)) {
+        $target = $projectRoot . '/' . ltrim($target, '/');
+    }
+
+    $dir = dirname($target);
+    if (!is_dir($dir)) {
+        return null;
+    }
+
+    if (!file_exists($target)) {
+        if (@touch($target) === false) {
+            return null;
+        }
+    }
+
+    if (!is_writable($target)) {
+        return null;
+    }
+
+    $real = realpath($target);
+    return $real !== false ? $real : $target;
+}
+
+function apply_blocklist(string $targetPath, array $newIps): string
+{
+    $newIps = array_values(array_unique(array_filter($newIps, static function ($ip) {
+        return is_string($ip) && $ip !== '';
+    })));
+
+    if (!$newIps) {
+        return 'No new IPs detected for blocking; blocklist unchanged.';
+    }
+
+    $contents = @file_get_contents($targetPath);
+    if ($contents === false) {
+        $contents = '';
+    }
+
+    $beginMarker = '# BEGIN RateLimitInspector';
+    $endMarker   = '# END RateLimitInspector';
+
+    $existingIps = extract_blocklist_ips($contents, $beginMarker, $endMarker);
+    $merged      = array_values(array_unique(array_merge($existingIps, $newIps)));
+    sort($merged);
+
+    $blockSection = build_block_section($merged, $beginMarker, $endMarker);
+
+    if ($contents === '') {
+        $updated = $blockSection . "\n";
+    } elseif (strpos($contents, $beginMarker) !== false && strpos($contents, $endMarker) !== false) {
+        $pattern = sprintf('/%s.*?%s/s', preg_quote($beginMarker, '/'), preg_quote($endMarker, '/'));
+        $updated = preg_replace($pattern, $blockSection, $contents, 1);
+    } else {
+        $updated = rtrim($contents, "\r\n") . "\n\n" . $blockSection . "\n";
+    }
+
+    if ($updated === null) {
+        return '[ERROR] Failed to assemble updated blocklist contents.';
+    }
+
+    if (@file_put_contents($targetPath, $updated) === false) {
+        return sprintf('[ERROR] Unable to write blocklist updates to %s.', $targetPath);
+    }
+
+    return sprintf('Updated %s blocklist with %d IP(s).', $targetPath, count($merged));
+}
+
+function extract_blocklist_ips(string $contents, string $beginMarker, string $endMarker): array
+{
+    $pattern = sprintf('/%s(.*?)%s/s', preg_quote($beginMarker, '/'), preg_quote($endMarker, '/'));
+    if (!preg_match($pattern, $contents, $match)) {
+        return [];
+    }
+
+    $section = $match[1];
+    $ips = [];
+
+    if (preg_match_all('/Require\s+not\s+ip\s+([\w\.:]+)/i', $section, $requireMatches)) {
+        foreach ($requireMatches[1] as $ip) {
+            $ips[] = trim($ip);
+        }
+    }
+    if (preg_match_all('/Deny\s+from\s+([\w\.:]+)/i', $section, $denyMatches)) {
+        foreach ($denyMatches[1] as $ip) {
+            $ips[] = trim($ip);
+        }
+    }
+
+    return array_values(array_unique(array_filter($ips)));
+}
+
+function build_block_section(array $ips, string $beginMarker, string $endMarker): string
+{
+    $lines = [];
+    $lines[] = $beginMarker;
+    $lines[] = '<IfModule mod_authz_core.c>';
+    $lines[] = '  <RequireAll>';
+    $lines[] = '    Require all granted';
+    foreach ($ips as $ip) {
+        $lines[] = '    Require not ip ' . $ip;
+    }
+    $lines[] = '  </RequireAll>';
+    $lines[] = '</IfModule>';
+    $lines[] = '<IfModule !mod_authz_core.c>';
+    $lines[] = '  Order allow,deny';
+    $lines[] = '  Allow from all';
+    foreach ($ips as $ip) {
+        $lines[] = '  Deny from ' . $ip;
+    }
+    $lines[] = '</IfModule>';
+    $lines[] = $endMarker;
+    return implode("\n", $lines);
 }

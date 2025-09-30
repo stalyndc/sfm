@@ -12,8 +12,13 @@ remains outside publicly served paths. If you mirror the project locally, add an
   summarise the last hour and spot abusers quickly.
 - Override defaults with `--dir=/path/to/ratelimits`, `--window=7200`,
   `--threshold=150`, `--top=10`, or add `--dry-run` to preview without writing.
+- Add `--block` to sync the root `.htaccess` blocklist automatically (use
+  `--block-file=/path/to/.htaccess` for custom locations). The script wraps
+  entries between `# BEGIN RateLimitInspector` / `# END RateLimitInspector`.
 - When incidents are confirmed, optionally extend the script to call a firewall
   API or patch `.htaccess` deny rules.
+  - Review the generated blocklist periodically and prune old IPs to avoid
+    blocking recycled addresses.
 
 ## Abuse Log
 
