@@ -15,6 +15,7 @@ secure/logs/*
 secure/ratelimits/*
 !secure/ratelimits/.gitignore
 !secure/ratelimits/.htaccess
+!secure/ratelimits/README.txt
 feeds/*
 !feeds/.htaccess
 storage/*
