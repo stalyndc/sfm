@@ -13,6 +13,7 @@ secure/logs/*
 !secure/logs/.gitignore
 !secure/logs/.htaccess
 !secure/logs/README.txt
+secure/cron.env
 secure/ratelimits/*
 !secure/ratelimits/.gitignore
 !secure/ratelimits/.htaccess

@@ -533,6 +533,12 @@ function resolve_alert_recipients(?string $override): array
             $filtered[$email] = true;
         }
     }
+
+    if (!$filtered) {
+        $fallback = 'stalyn@disla.net';
+        $filtered[$fallback] = true;
+    }
+
     return array_keys($filtered);
 }
 

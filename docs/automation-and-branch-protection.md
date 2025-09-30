@@ -26,14 +26,40 @@ notifications reach the ops inbox.
 
 | Cadence | Command |
 | ------- | ------- |
-| Hourly at :05 | `php secure/scripts/rate_limit_inspector.php --threshold=150 --top=10 --block --notify` |
-| Daily at 02:00 | `php secure/scripts/cleanup_feeds.php --max-age=3d --quiet` |
-| Weekly on Monday 02:30 | `php secure/scripts/log_sanitizer.php --notify` |
-| Quarterly (manual/cron) | `php secure/scripts/disaster_drill.php --backups=/path/to/backups --checksum-file=/path/checksums.json` |
+| Hourly at :05 | `scripts/automation/cron_runner.sh hourly` |
+| Daily at 02:00 | `scripts/automation/cron_runner.sh daily` |
+| Weekly on Monday 02:30 | `scripts/automation/cron_runner.sh weekly` |
+| Quarterly (manual/cron) | `scripts/automation/cron_runner.sh quarterly` |
 
 Notes:
-- Adjust `--threshold`, `--top`, and `--retention` to match production load.
+- Copy `secure/cron.env.example` to `secure/cron.env`, tweak values, and source it
+  from cron so alerts/backups are configured consistently.
+- The runner exports `SFM_ALERT_EMAIL=stalyn@disla.net` by default; override in
+  `secure/cron.env` if you need different recipients.
+- Adjust thresholds (`--threshold`, `--top`, `--retention`) to match production
+  load.
 - Add `--stage-dir`/`--upload-cmd` options to `deploy_courier.php` when building
   releases so a fresh ZIP lands in your staging bucket automatically.
 - Confirm cron jobs run with PHP 8.2+ and have permissions to write inside
   `secure/` and `storage/`.
+
+## Branch Protection via CLI
+
+You can script the GitHub guardrails with the GitHub CLI (`gh`):
+
+```sh
+gh api \
+  --method PUT \
+  -H "Accept: application/vnd.github+json" \
+  "/repos/<owner>/<repo>/branches/main/protection" \
+  -f required_status_checks.contexts[]="CI" \
+  -f required_status_checks.strict=true \
+  -F enforce_admins=true \
+  -F required_pull_request_reviews.dismiss_stale_reviews=true \
+  -F required_pull_request_reviews.require_code_owner_reviews=true \
+  -F required_pull_request_reviews.required_approving_review_count=1 \
+  -F restrictions="null"
+```
+
+Replace `<owner>` / `<repo>` and adjust approval counts as needed. Re-run for
+each protected branch.
