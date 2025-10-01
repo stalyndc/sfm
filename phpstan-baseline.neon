@@ -61,11 +61,6 @@ parameters:
 			path: generate2.php
 
 		-
-			message: "#^Constant STORAGE_ROOT not found\\.$#"
-			count: 1
-			path: health.php
-
-		-
 			message: "#^Constant ADMIN_USERNAME not found\\.$#"
 			count: 1
 			path: includes/admin_auth.php

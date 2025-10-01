@@ -44,20 +44,24 @@ $checks[] = run_check('jobs_dir_access', function () {
 });
 
 $checks[] = run_check('cleanup_log_recent', function () use ($now) {
+    if (!defined('STORAGE_ROOT')) {
+        return warn_result('STORAGE_ROOT undefined; cannot locate cleanup log.');
+    }
     $logDir = STORAGE_ROOT . '/logs';
     $logPath = $logDir . '/cleanup.log';
     if (!is_file($logPath)) {
-        throw new RuntimeException('cleanup.log not found at ' . $logPath);
+        return warn_result('cleanup.log not found.', ['path' => $logPath]);
     }
     $age = $now - (int)filemtime($logPath);
     $maxAge = 36 * 3600; // warn if older than 36 hours
-    if ($age > $maxAge) {
-        throw new RuntimeException('cleanup.log older than 36h (age seconds: ' . $age . ')');
-    }
-    return [
+    $details = [
         'path' => $logPath,
         'age_seconds' => $age,
     ];
+    if ($age > $maxAge) {
+        return warn_result('cleanup.log older than 36h.', $details);
+    }
+    return ['status' => 'ok', 'details' => $details];
 });
 
 $checks[] = run_check('php_error_log', function () {
