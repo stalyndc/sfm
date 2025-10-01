@@ -1,0 +1,15 @@
+includes:
+    - secure/vendor/phpstan/phpstan/conf/bleedingEdge.neon
+    - phpstan-baseline.neon
+parameters:
+    level: 5
+    paths:
+        - includes
+        - secure/scripts
+        - generate.php
+        - generate2.php
+        - health.php
+        - index.php
+    tmpDir: storage/phpstan
+    excludePaths:
+        - secure/vendor

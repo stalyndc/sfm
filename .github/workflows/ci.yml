@@ -23,7 +23,7 @@ jobs:
         run: composer validate --no-check-publish
 
       - name: Install dependencies
-        run: composer install --no-dev --prefer-dist --no-progress --no-interaction
+        run: composer install --prefer-dist --no-progress --no-interaction
 
-      - name: Run smoke test suite
-        run: composer test
+      - name: Run lint, static analysis, and smoke tests
+        run: composer ci

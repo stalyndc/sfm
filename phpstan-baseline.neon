@@ -1,0 +1,196 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Offset 'body' does not exist on string\\.$#"
+			count: 4
+			path: generate.php
+
+		-
+			message: "#^Offset 'headers' does not exist on string\\.$#"
+			count: 1
+			path: generate.php
+
+		-
+			message: "#^Offset 'ok' does not exist on string\\.$#"
+			count: 3
+			path: generate.php
+
+		-
+			message: "#^Offset 'status' does not exist on string\\.$#"
+			count: 3
+			path: generate.php
+
+		-
+			message: "#^Offset 'status' on string on left side of \\?\\? does not exist\\.$#"
+			count: 2
+			path: generate.php
+
+		-
+			message: "#^Anonymous function has an unused use \\$__fatal\\.$#"
+			count: 1
+			path: generate2.php
+
+		-
+			message: "#^Call to an undefined method DOMNode\\:\\:getAttribute\\(\\)\\.$#"
+			count: 5
+			path: generate2.php
+
+		-
+			message: "#^Offset 'body' does not exist on string\\.$#"
+			count: 5
+			path: generate2.php
+
+		-
+			message: "#^Offset 'headers' does not exist on string\\.$#"
+			count: 1
+			path: generate2.php
+
+		-
+			message: "#^Offset 'ok' does not exist on string\\.$#"
+			count: 3
+			path: generate2.php
+
+		-
+			message: "#^Offset 'status' does not exist on string\\.$#"
+			count: 3
+			path: generate2.php
+
+		-
+			message: "#^Offset 'status' on string on left side of \\?\\? does not exist\\.$#"
+			count: 1
+			path: generate2.php
+
+		-
+			message: "#^Constant STORAGE_ROOT not found\\.$#"
+			count: 1
+			path: health.php
+
+		-
+			message: "#^Constant ADMIN_USERNAME not found\\.$#"
+			count: 1
+			path: includes/admin_auth.php
+
+		-
+			message: "#^Call to function is_string\\(\\) with non\\-falsy\\-string will always evaluate to true\\.$#"
+			count: 1
+			path: includes/config.php
+
+		-
+			message: "#^Call to an undefined method DOMNode\\:\\:getAttribute\\(\\)\\.$#"
+			count: 2
+			path: includes/extract.php
+
+		-
+			message: "#^Call to an undefined method DOMNode\\:\\:getAttribute\\(\\)\\.$#"
+			count: 3
+			path: includes/functions.php
+
+		-
+			message: "#^Negated boolean expression is always false\\.$#"
+			count: 1
+			path: includes/http.php
+
+		-
+			message: "#^Offset 'header_size' on \\(array\\{url\\: string, content_type\\: string\\|null, http_code\\: int, header_size\\: int, request_size\\: int, filetime\\: int, ssl_verify_result\\: int, redirect_count\\: int, \\.\\.\\.\\}\\|false\\) on left side of \\?\\? always exists and is not nullable\\.$#"
+			count: 2
+			path: includes/http.php
+
+		-
+			message: "#^Offset 'http_code' on array\\{url\\: string, content_type\\: string\\|null, http_code\\: int, header_size\\: int, request_size\\: int, filetime\\: int, ssl_verify_result\\: int, redirect_count\\: int, \\.\\.\\.\\} on left side of \\?\\? always exists and is not nullable\\.$#"
+			count: 3
+			path: includes/http.php
+
+		-
+			message: "#^Offset 'http_code' on array\\{url\\: string, content_type\\: string\\|null, http_code\\: int\\<200, max\\>, header_size\\: int, request_size\\: int, filetime\\: int, ssl_verify_result\\: int, redirect_count\\: int, \\.\\.\\.\\} on left side of \\?\\? always exists and is not nullable\\.$#"
+			count: 1
+			path: includes/http.php
+
+		-
+			message: "#^Offset 'url' on array\\{url\\: string, content_type\\: string\\|null, http_code\\: int, header_size\\: int, request_size\\: int, filetime\\: int, ssl_verify_result\\: int, redirect_count\\: int, \\.\\.\\.\\} on left side of \\?\\? always exists and is not nullable\\.$#"
+			count: 1
+			path: includes/http.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between string\\|null and false will always evaluate to false\\.$#"
+			count: 1
+			path: includes/http.php
+
+		-
+			message: "#^Offset 'body' does not exist on string\\.$#"
+			count: 2
+			path: includes/job_refresh.php
+
+		-
+			message: "#^Offset 'headers' on string on left side of \\?\\? does not exist\\.$#"
+			count: 1
+			path: includes/job_refresh.php
+
+		-
+			message: "#^Offset 'ok' does not exist on string\\.$#"
+			count: 2
+			path: includes/job_refresh.php
+
+		-
+			message: "#^Offset 'status' does not exist on string\\.$#"
+			count: 2
+			path: includes/job_refresh.php
+
+		-
+			message: "#^Offset 'status' on string on left side of \\?\\? does not exist\\.$#"
+			count: 3
+			path: includes/job_refresh.php
+
+		-
+			message: "#^Comparison operation \"\\<\\=\" between 21 and 0 is always false\\.$#"
+			count: 1
+			path: includes/jobs.php
+
+		-
+			message: "#^Constant ROOT_DIR not found\\.$#"
+			count: 2
+			path: includes/logger2.php
+
+		-
+			message: "#^Negated boolean expression is always false\\.$#"
+			count: 1
+			path: includes/logger2.php
+
+		-
+			message: "#^Call to function is_string\\(\\) with string will always evaluate to true\\.$#"
+			count: 1
+			path: includes/security.php
+
+		-
+			message: "#^Unreachable statement \\- code above always terminates\\.$#"
+			count: 1
+			path: secure/scripts/cleanup_feeds.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between string and false will always evaluate to false\\.$#"
+			count: 1
+			path: secure/scripts/deploy_courier.php
+
+		-
+			message: "#^Anonymous function has an unused use \\$projectRoot\\.$#"
+			count: 4
+			path: secure/scripts/disaster_drill.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between non\\-empty\\-string and false will always evaluate to false\\.$#"
+			count: 1
+			path: secure/scripts/hash_password.php
+
+		-
+			message: "#^Variable \\$ips in isset\\(\\) always exists and is not nullable\\.$#"
+			count: 1
+			path: secure/scripts/rate_limit_inspector.php
+
+		-
+			message: "#^Ternary operator condition is always true\\.$#"
+			count: 1
+			path: secure/scripts/run_lint.php
+
+		-
+			message: "#^Ternary operator condition is always true\\.$#"
+			count: 1
+			path: secure/scripts/smoke_test.php
