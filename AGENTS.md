@@ -49,6 +49,7 @@ Goal: “run smooth and secure” with lightweight agents (automations + checks)
   1. Request `https://simplefeedmaker.com/health.php`.
   2. Validate HTTP 200 and `scope.ok === true`; the payload also surfaces recent cleanup-log age and storage status.
   3. Alert on two consecutive failures (or if the endpoint returns HTTP 503 / `ok:false`) and include the JSON body for context.
+- **Automation:** run `php secure/scripts/monitor_health.php --quiet` (or via `scripts/automation/cron_runner.sh monitor`) to email alerts using `SFM_ALERT_EMAIL`/`SFM_HEALTH_ALERT_EMAIL` when the health endpoint warns.
 - **Output:** fast signal on outages or upstream fetch issues.
 
 ### Rate Limit Inspector

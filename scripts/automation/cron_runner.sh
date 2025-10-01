@@ -39,6 +39,9 @@ run_php() {
 }
 
 task=${1:-}
+shift || true
+extra_args=("$@")
+
 if [[ -z "${task}" ]]; then
   echo "Usage: $0 <hourly|daily|weekly|quarterly> [extra args]" >&2
   exit 2
@@ -46,13 +49,13 @@ fi
 
 case "${task}" in
   hourly)
-    run_php secure/scripts/rate_limit_inspector.php --threshold=150 --top=10 --block --notify
+    run_php secure/scripts/rate_limit_inspector.php --threshold=150 --top=10 --block --notify "${extra_args[@]}"
     ;;
   daily)
-    run_php secure/scripts/cleanup_feeds.php --max-age=3d --quiet
+    run_php secure/scripts/cleanup_feeds.php --max-age=3d --quiet "${extra_args[@]}"
     ;;
   weekly)
-    run_php secure/scripts/log_sanitizer.php --notify
+    run_php secure/scripts/log_sanitizer.php --notify "${extra_args[@]}"
     ;;
   quarterly)
     extra_opts=()
@@ -62,7 +65,10 @@ case "${task}" in
     if [[ -n "${SFM_CHECKSUM_FILE:-}" ]]; then
       extra_opts+=("--checksum-file=${SFM_CHECKSUM_FILE}")
     fi
-    run_php secure/scripts/disaster_drill.php "${extra_opts[@]}"
+    run_php secure/scripts/disaster_drill.php "${extra_opts[@]}" "${extra_args[@]}"
+    ;;
+  monitor)
+    run_php secure/scripts/monitor_health.php --quiet "${extra_args[@]}"
     ;;
   *)
     echo "Unknown task: ${task}" >&2

@@ -26,14 +26,16 @@ notifications reach the ops inbox.
 
 | Cadence | Command |
 | ------- | ------- |
+| Every 15 minutes | `scripts/automation/cron_runner.sh monitor` |
 | Hourly at :05 | `scripts/automation/cron_runner.sh hourly` |
 | Daily at 02:00 | `scripts/automation/cron_runner.sh daily` |
 | Weekly on Monday 02:30 | `scripts/automation/cron_runner.sh weekly` |
 | Quarterly (manual/cron) | `scripts/automation/cron_runner.sh quarterly` |
 
 Notes:
-- Copy `secure/cron.env.example` to `secure/cron.env`, tweak values, and source it
-  from cron so alerts/backups are configured consistently.
+- Copy `secure/cron.env.example` to `secure/cron.env`, tweak values (health URL,
+  alert emails, SFTP password), and source it from cron so alerts/backups are
+  configured consistently.
 - The runner exports `SFM_ALERT_EMAIL=stalyn@disla.net` by default; override in
   `secure/cron.env` if you need different recipients.
 - Adjust thresholds (`--threshold`, `--top`, `--retention`) to match production
