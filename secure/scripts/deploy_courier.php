@@ -16,6 +16,41 @@ $secureDir   = dirname($scriptDir);
 $projectRoot = dirname($secureDir);
 
 $options = parse_cli_options($argv ?? []);
+
+if (!empty($options['help']) || !empty($options['h'])) {
+    echo <<<TXT
+Deploy Courier - release helper
+Usage: php secure/scripts/deploy_courier.php [options]
+
+Options:
+  --dry-run                 Preview actions without writing files or running commands.
+  --skip-composer           Skip `composer install --no-dev`.
+  --skip-tests              Skip `composer test`.
+  --build-assets            Run `npm run build` after composer steps.
+  --output-dir=PATH         Override build/releases directory.
+  --name=FILENAME           Custom zip filename.
+  --stage-dir=PATH          Copy the generated zip into this directory.
+  --upload-cmd="...{file}" Run a custom upload command (placeholder {file}).
+  --upload-sftp-host=HOST   Upload via SFTP using curl (requires curl CLI).
+  --upload-sftp-user=USER
+  --upload-sftp-path=/remote/path
+  --upload-sftp-port=PORT   (default 22)
+  --upload-sftp-password=PWD
+  --upload-sftp-pass-env=ENVNAME (read password from env var)
+  --upload-sftp-key=/path/to/key (for key-based auth; requires curl 7.58+)
+  --post-deploy-url=URL     Fetch URL after upload (health check).
+  --post-deploy-timeout=N   Timeout in seconds for post-deploy URL (default 20).
+
+Examples:
+  php secure/scripts/deploy_courier.php --build-assets \\
+      --upload-sftp-host=ssh.simplefeedmaker.com \\
+      --upload-sftp-user=deploy --upload-sftp-path=/public_html/releases \\
+      --upload-sftp-pass-env=SFM_SFTP_PASSWORD \\
+      --post-deploy-url=https://simplefeedmaker.com/health.php
+
+TXT;
+    exit(0);
+}
 $dryRun          = !empty($options['dry-run']);
 $skipComposer    = !empty($options['skip-composer']);
 $skipTests       = !empty($options['skip-tests']);
@@ -24,6 +59,15 @@ $outputDirOption = $options['output-dir'] ?? ($projectRoot . '/build/releases');
 $zipNameOption   = $options['name'] ?? null;
 $stageDirOption  = $options['stage-dir'] ?? null;
 $uploadCmdOption = $options['upload-cmd'] ?? null;
+$uploadSftpHost  = $options['upload-sftp-host'] ?? null;
+$uploadSftpUser  = $options['upload-sftp-user'] ?? null;
+$uploadSftpPath  = $options['upload-sftp-path'] ?? null;
+$uploadSftpPort  = isset($options['upload-sftp-port']) ? (int)$options['upload-sftp-port'] : 22;
+$uploadSftpPass  = $options['upload-sftp-password'] ?? null;
+$uploadSftpPassEnv = $options['upload-sftp-pass-env'] ?? null;
+$uploadSftpKey   = $options['upload-sftp-key'] ?? null;
+$postDeployUrl   = $options['post-deploy-url'] ?? null;
+$postDeployTimeout = isset($options['post-deploy-timeout']) ? (int)$options['post-deploy-timeout'] : 20;
 
 $composerBinary  = $options['composer'] ?? 'composer';
 $npmBinary       = $options['npm'] ?? 'npm';
@@ -101,6 +145,25 @@ if ($stageDirOption !== null) {
 
 if ($uploadCmdOption !== null) {
     process_upload_command($uploadCmdOption, $zipPath, $projectRoot, $dryRun);
+}
+
+if ($uploadSftpHost !== null) {
+    $password = $uploadSftpPass;
+    if ($password === null && $uploadSftpPassEnv !== null) {
+        $password = getenv($uploadSftpPassEnv) ?: null;
+    }
+    perform_sftp_upload([
+        'host'     => $uploadSftpHost,
+        'user'     => $uploadSftpUser,
+        'path'     => $uploadSftpPath,
+        'port'     => $uploadSftpPort,
+        'password' => $password,
+        'key'      => $uploadSftpKey,
+    ], $zipPath, $projectRoot, $dryRun);
+}
+
+if ($postDeployUrl !== null) {
+    run_post_deploy_check($postDeployUrl, $postDeployTimeout, $dryRun);
 }
 
 exit(0);
@@ -302,6 +365,99 @@ function process_upload_command(string $template, string $zipPath, string $proje
     } else {
         fwrite(STDERR, '[WARN] Upload command failed: ' . $message . "\n");
     }
+}
+
+function perform_sftp_upload(array $config, string $zipPath, string $projectRoot, bool $dryRun): void
+{
+    $host = $config['host'] ?? null;
+    $user = $config['user'] ?? null;
+    $remotePath = $config['path'] ?? null;
+    $port = (int)($config['port'] ?? 22);
+    $password = $config['password'] ?? null;
+    $keyFile = $config['key'] ?? null;
+
+    if ($host === null || $remotePath === null) {
+        fwrite(STDERR, "[WARN] --upload-sftp-host and --upload-sftp-path are required for SFTP upload.\n");
+        return;
+    }
+
+    $remoteDir = trim($remotePath);
+    $remoteFile = basename($zipPath);
+    $pathSegment = '';
+    if ($remoteDir !== '' && $remoteDir !== '/') {
+        $pathSegment = '/' . trim($remoteDir, '/');
+    }
+    $remoteUrl = sprintf('sftp://%s:%d%s/%s', $host, $port, $pathSegment, $remoteFile);
+
+    if ($dryRun) {
+        $userNote = $user ? ' user=' . $user : '';
+        fwrite(STDOUT, sprintf('[DRY] Would upload %s to %s via SFTP.%s%s', $zipPath, $remoteUrl, $userNote, PHP_EOL));
+        return;
+    }
+
+    if (!is_file($zipPath)) {
+        fwrite(STDERR, '[WARN] Zip file not found for SFTP upload: ' . $zipPath . "\n");
+        return;
+    }
+
+    $commandParts = ['curl', '--silent', '--show-error', '--fail', '--ftp-create-dirs', '-T', escapeshellarg($zipPath), '--connect-timeout', '30'];
+
+    if ($user !== null && ($password !== null || $keyFile !== null)) {
+        if ($password !== null) {
+            $commandParts[] = '--user';
+            $commandParts[] = escapeshellarg($user . ':' . $password);
+        } elseif ($keyFile !== null) {
+            $commandParts[] = '--key';
+            $commandParts[] = escapeshellarg($keyFile);
+            $commandParts[] = '--user';
+            $commandParts[] = escapeshellarg($user . ':');
+        }
+    } elseif ($user !== null) {
+        $remoteUrl = sprintf('sftp://%s@%s:%d%s/%s', $user, $host, $port, $pathSegment, $remoteFile);
+    }
+
+    $commandParts[] = escapeshellarg($remoteUrl);
+
+    $command = implode(' ', $commandParts);
+    [$ok, $message] = run_command($command, $projectRoot);
+    if ($ok) {
+        fwrite(STDOUT, '[INFO] Uploaded release via SFTP to ' . $remoteUrl . "\n");
+    } else {
+        fwrite(STDERR, '[WARN] SFTP upload failed: ' . $message . "\n");
+    }
+}
+
+function run_post_deploy_check(string $url, int $timeout, bool $dryRun): void
+{
+    if ($dryRun) {
+        fwrite(STDOUT, '[DRY] Would request post-deploy URL: ' . $url . "\n");
+        return;
+    }
+
+    $ch = curl_init($url);
+    if ($ch === false) {
+        fwrite(STDERR, '[WARN] Unable to initialise curl for post-deploy check.' . "\n");
+        return;
+    }
+
+    curl_setopt_array($ch, [
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_FOLLOWLOCATION => true,
+        CURLOPT_TIMEOUT => max(1, $timeout),
+        CURLOPT_USERAGENT => 'DeployCourier/1.0',
+    ]);
+
+    $body = curl_exec($ch);
+    $error = curl_error($ch);
+    $status = (int)curl_getinfo($ch, CURLINFO_RESPONSE_CODE);
+    curl_close($ch);
+
+    if ($error !== '' || $status >= 400 || $status === 0) {
+        fwrite(STDERR, sprintf('[WARN] Post-deploy check failed (%d): %s\n', $status, $error !== '' ? $error : 'Unexpected response'));
+        return;
+    }
+
+    fwrite(STDOUT, sprintf('[INFO] Post-deploy check succeeded (%d).\n', $status));
 }
 
 function report_assets_summary(string $projectRoot): void

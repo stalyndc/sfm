@@ -34,6 +34,7 @@ Follow these steps on GitHub after pulling the latest code.
    export SFM_BACKUPS_DIR="/home/<account>/backups/sfm"      # optional
    export SFM_CHECKSUM_FILE="/home/<account>/backups/sfm/checksums.json"  # optional
    export PHP_BIN="/opt/alt/php82/usr/bin/php"               # Hostinger PHP 8.2 path
+   export SFM_SFTP_PASSWORD="<deploy-password>"              # optional, for deploy_courier uploads
    ```
    - On Hostinger, confirm the PHP path in **hPanel → Advanced → PHP Info**.
    - Upload `secure/cron.env` to the server alongside the repo so cron jobs can source it.

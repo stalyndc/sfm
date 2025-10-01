@@ -21,8 +21,8 @@ Goal: “run smooth and secure” with lightweight agents (automations + checks)
 - **Script:**
   1. Run `php secure/scripts/deploy_courier.php` (add `--dry-run` to preview, `--build-assets` to trigger `npm run build`).
   2. The script runs `composer install --no-dev`, `composer test` (use `--skip-tests` to bypass), optionally builds assets, reports the `/assets` footprint, and bundles the repo into `build/releases/simplefeedmaker-<timestamp>.zip` without runtime folders (`storage/`, `secure/logs/`, `secure/ratelimits/`).
-  3. Use `--stage-dir=/path` to copy the zip into a shared drop folder and `--upload-cmd="sftp -b - user@host <<<'put {file}'"` (or similar) to push straight to staging.
-  4. Upload the generated zip via Hostinger file manager or `sftp`, extract, and confirm file permissions (`644` files, `755` dirs).
+  3. Use `--stage-dir=/path` to copy the zip into a shared drop folder, `--upload-sftp-*` flags to push straight to the server (or `--upload-cmd="…{file}"` for a custom command), and `--post-deploy-url=https://simplefeedmaker.com/health.php` for an instant smoke test.
+  4. If you prefer manual deploys, upload the generated zip via Hostinger file manager or `sftp`, extract, and confirm file permissions (`644` files, `755` dirs`).
 - **Output:** a repeatable release package with secrets preserved on the server only.
 
 ### CI Sentinel
