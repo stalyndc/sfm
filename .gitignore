@@ -20,6 +20,7 @@ secure/ratelimits/*
 !secure/ratelimits/README.txt
 feeds/*
 !feeds/.htaccess
+build/
 storage/*
 !storage/.gitignore
 !storage/.htaccess

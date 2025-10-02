@@ -2,14 +2,8 @@
 /** Shared footer for SimpleFeedMaker */
 ?>
   <footer class="border-top bg-body mt-5">
-    <div class="container py-4 small text-secondary text-center d-flex flex-column flex-sm-row justify-content-center align-items-center gap-2">
+    <div class="container py-4 small text-secondary text-center">
       <span>© <?= date('Y'); ?> SimpleFeedMaker. Fast, clean, and reliable.</span>
-      <span class="d-none d-sm-inline">•</span>
-      <span class="d-flex gap-3">
-        <a class="text-secondary text-decoration-none" href="/about/">About</a>
-        <a class="text-secondary text-decoration-none" href="/faq/">FAQ</a>
-        <a class="text-secondary text-decoration-none" href="/privacy/">Privacy</a>
-      </span>
     </div>
   </footer>
 
