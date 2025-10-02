@@ -10,7 +10,8 @@ header('Content-Type: application/json; charset=utf-8');
 
 $now = time();
 $checks = [];
-$ok = true;
+$hasFail = false;
+$hasWarn = false;
 
 $checks[] = run_check('feeds_dir_writable', function () {
     ensure_feeds_dir();
@@ -171,13 +172,19 @@ $checks[] = run_check('disaster_drill_recent', function () use ($now) {
 });
 
 foreach ($checks as $check) {
-    if ($check['status'] !== 'ok') {
-        $ok = false;
+    if (($check['status'] ?? '') === 'fail') {
+        $hasFail = true;
+    } elseif (($check['status'] ?? '') === 'warn') {
+        $hasWarn = true;
     }
 }
 
+$overallStatus = $hasFail ? 'fail' : ($hasWarn ? 'warn' : 'ok');
+$ok = !$hasFail;
+
 $response = [
     'ok'      => $ok,
+    'status'  => $overallStatus,
     'time'    => gmdate('c', $now),
     'version' => [
         'php' => PHP_VERSION,
@@ -185,7 +192,7 @@ $response = [
     'checks'  => $checks,
 ];
 
-$status = $ok ? 200 : 503;
+$status = $hasFail ? 503 : 200;
 http_response_code($status);
 echo json_encode($response, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES) . "\n";
 
