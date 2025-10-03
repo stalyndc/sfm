@@ -341,7 +341,13 @@ function sfm_enrich_items_with_article_metadata(array $items, int $maxFetch = 5)
   foreach ($items as &$item) {
     $needSummary = empty($item['description']);
     $needDate    = empty($item['date']);
-    if (!$needSummary && !$needDate) continue;
+    $needContent = empty($item['content_html']);
+
+    if (!$needSummary && !$needDate && !$needContent) {
+      if ($fetched >= $maxFetch) {
+        continue;
+      }
+    }
 
     $link = $item['link'] ?? '';
     if ($link === '' || !sfm_is_http_url($link)) continue;
@@ -374,13 +380,13 @@ function sfm_enrich_items_with_article_metadata(array $items, int $maxFetch = 5)
     $finalUrl = (isset($resp['final_url']) && $resp['final_url'] !== '') ? (string)$resp['final_url'] : $link;
     [$summary, $published, $contentHtml] = sfm_parse_article_metadata($resp['body'], $finalUrl);
 
-    if ($needSummary && $summary !== '') {
+    if (($needSummary || $needContent) && $summary !== '') {
       $item['description'] = $summary;
     }
     if ($needDate && $published !== '') {
       $item['date'] = sfm_clean_date($published);
     }
-    if (!empty($contentHtml)) {
+    if ($contentHtml !== '') {
       $item['content_html'] = $contentHtml;
       if (empty($item['description'])) {
         $item['description'] = sfm_neat_text(strip_tags($contentHtml), 400);
