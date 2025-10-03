@@ -170,6 +170,16 @@ function sfm_request_raw(string $url, array $opts = []): array {
  *  - headers          (array) extra request headers
  *
  * Returns array with: ok, status, headers, body, final_url, from_cache, was_304
+ *
+ * @return array{
+ *   ok: bool,
+ *   status: int,
+ *   headers: array<string,string>,
+ *   body: string,
+ *   final_url: string,
+ *   from_cache: bool,
+ *   was_304: bool
+ * }
  */
 function http_get(string $url, array $options = []): array {
     $useCache  = $options['use_cache'] ?? true;

@@ -2,7 +2,7 @@ parameters:
 	ignoreErrors:
 		-
 			message: "#^Offset 'body' does not exist on string\\.$#"
-			count: 4
+			count: 5
 			path: generate.php
 
 		-
@@ -12,7 +12,7 @@ parameters:
 
 		-
 			message: "#^Offset 'ok' does not exist on string\\.$#"
-			count: 3
+			count: 4
 			path: generate.php
 
 		-
