@@ -16,6 +16,18 @@ if (!function_exists('xml_safe')) {
   }
 }
 
+if (!function_exists('sfm_add_cdata')) {
+  function sfm_add_cdata(SimpleXMLElement $node, string $value): void
+  {
+    $dom = dom_import_simplexml($node);
+    $owner = $dom->ownerDocument;
+    if (!$owner) {
+      return;
+    }
+    $dom->appendChild($owner->createCDATASection($value));
+  }
+}
+
 if (!function_exists('sfm_is_http_url')) {
   function sfm_is_http_url(string $url): bool
   {
@@ -56,7 +68,7 @@ if (!function_exists('to_rfc3339')) {
 if (!function_exists('build_rss')) {
   function build_rss(string $title, string $link, string $desc, array $items): string
   {
-    $xml = new SimpleXMLElement('<rss version="2.0"/>');
+    $xml = new SimpleXMLElement('<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"/>');
     $channel = $xml->addChild('channel');
     $channel->addChild('title', xml_safe($title));
     $channel->addChild('link', xml_safe($link));
@@ -67,7 +79,12 @@ if (!function_exists('build_rss')) {
       $i = $channel->addChild('item');
       $i->addChild('title', xml_safe($it['title'] ?? 'Untitled'));
       $i->addChild('link', xml_safe($it['link'] ?? ''));
-      $i->addChild('description', xml_safe($it['description'] ?? ''));
+      $summary = xml_safe($it['description'] ?? '');
+      $i->addChild('description', $summary);
+      if (!empty($it['content_html'])) {
+        $encoded = $i->addChild('content:encoded', null, 'http://purl.org/rss/1.0/modules/content/');
+        sfm_add_cdata($encoded, (string)$it['content_html']);
+      }
       if (!empty($it['date'])) {
         $ts = strtotime($it['date']);
         if ($ts) {
@@ -104,7 +121,13 @@ if (!function_exists('build_atom')) {
       $e->addChild('id', 'urn:uuid:' . uuid_v5('item:' . md5(($it['link'] ?? '') . ($it['title'] ?? ''))));
       $u = !empty($it['date']) && strtotime($it['date']) ? date(DATE_ATOM, strtotime($it['date'])) : date(DATE_ATOM);
       $e->addChild('updated', $u);
-      $e->addChild('summary', xml_safe($it['description'] ?? ''));
+      $summary = xml_safe($it['description'] ?? '');
+      $e->addChild('summary', $summary);
+      if (!empty($it['content_html'])) {
+        $content = $e->addChild('content', null);
+        $content->addAttribute('type', 'html');
+        sfm_add_cdata($content, (string)$it['content_html']);
+      }
     }
 
     return $xml->asXML();
@@ -127,30 +150,33 @@ if (!function_exists('build_jsonfeed')) {
       $id  = $it['link'] ?? md5(($it['title'] ?? '') . ($it['description'] ?? ''));
       $url = $it['link'] ?? '';
       $ttl = $it['title'] ?? 'Untitled';
-      $body = trim((string)($it['description'] ?? ''));
-      if ($body === '') {
-        $body = $ttl ?: $url;
-      }
+      $summary = trim((string)($it['description'] ?? ''));
+      $contentHtml = (string)($it['content_html'] ?? '');
 
       $item = ['id' => $id, 'url' => $url, 'title' => $ttl];
-      if ($body !== strip_tags($body)) {
-        $item['content_html'] = $body;
+      if ($contentHtml !== '') {
+        $item['content_html'] = $contentHtml;
+      } elseif ($summary !== '') {
+        if ($summary !== strip_tags($summary)) {
+          $item['content_html'] = $summary;
+        } else {
+          $item['content_text'] = $summary;
+        }
       } else {
-        $item['content_text'] = $body;
+        $item['content_text'] = $ttl ?: $url;
+      }
+
+      if (!empty($summary)) {
+        $plain = trim(strip_tags($summary));
+        if ($plain !== '') {
+          $item['summary'] = mb_strlen($plain) > 220 ? mb_substr($plain, 0, 219) . '…' : $plain;
+        }
       }
 
       if (!empty($it['date'])) {
         $iso = to_rfc3339($it['date']);
         if ($iso) {
           $item['date_published'] = $iso;
-        }
-      }
-      if (!empty($it['description'])) {
-        $plain = trim(strip_tags($it['description']));
-        if ($plain !== '' && $plain !== $body) {
-          $item['summary'] = mb_strlen($plain) > 220
-            ? mb_substr($plain, 0, 219) . '…'
-            : $plain;
         }
       }
 
