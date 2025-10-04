@@ -19,8 +19,10 @@ RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 # Health check passthrough (if you use /health.php)
 RewriteRule ^health\.php$ - [L]
 
-# Friendly blog feed URL
-RewriteRule ^blog/feed\.xml$ blog/feed.php [L]
+# Friendly blog feed URLs (supports /feed.xml and legacy /feed.php links)
+RewriteRule ^blog/feed/?$ /blog/feed.php [L,NC,QSA]
+RewriteRule ^blog/feed\.xml$ /blog/feed.php [L,NC,QSA]
+RewriteRule ^blog/feed\.php$ /blog/feed.php [L,NC,QSA]
 
 # ------------------------------------------------------------------
 # Optional: ensure directory URLs have a trailing slash
