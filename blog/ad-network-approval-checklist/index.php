@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 $posts = require __DIR__ . '/../posts.php';
-$post = $posts['adsense-ready-rss-blog'] ?? null;
+$post = $posts['ad-network-approval-checklist'] ?? null;
 if ($post === null) {
     http_response_code(404);
     exit('Post not found');
