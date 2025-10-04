@@ -42,8 +42,8 @@ require __DIR__ . '/../includes/page_header.php';
           </header>
 
           <div class="d-flex flex-column flex-md-row align-items-center justify-content-between gap-2 mb-4">
-            <a class="btn btn-outline-primary btn-sm" href="/blog/feed.php">Subscribe via RSS</a>
-            <a class="btn btn-outline-secondary btn-sm" href="/blog/feed.php?format=json">JSON Feed</a>
+            <a class="btn btn-outline-primary btn-sm" href="/blog/feed.xml">Subscribe via RSS</a>
+            <a class="btn btn-outline-secondary btn-sm" href="/blog/feed.xml?format=json">JSON Feed</a>
           </div>
 
           <div class="vstack gap-4">
