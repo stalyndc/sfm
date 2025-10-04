@@ -1,0 +1,3 @@
+<?php
+// Bridge file so /blog/feed.xml executes the existing PHP generator.
+require __DIR__ . '/feed.php';
