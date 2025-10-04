@@ -14,7 +14,7 @@ if (!in_array($format, ['rss', 'json'], true)) {
 
 $baseUrl = 'https://simplefeedmaker.com';
 $blogBase = $baseUrl . '/blog/';
-$feedUrl = $blogBase . 'feed.php' . ($format === 'json' ? '?format=json' : '');
+$feedUrl = $blogBase . 'feed.xml' . ($format === 'json' ? '?format=json' : '');
 
 usort($posts, function (array $a, array $b) {
     return strtotime($b['published']) <=> strtotime($a['published']);
