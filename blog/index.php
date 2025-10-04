@@ -2,48 +2,30 @@
 
 declare(strict_types=1);
 
+$posts = require __DIR__ . '/posts.php';
+$posts = array_values($posts);
+usort($posts, function (array $a, array $b) {
+    return strtotime($b['published']) <=> strtotime($a['published']);
+});
+
 $pageTitle       = 'SimpleFeedMaker Blog — RSS Guides & Product Tips';
 $pageDescription = 'Long-form guides on RSS, JSON Feed, and using SimpleFeedMaker to syndicate the web. Learn practical tactics for curating content your audience loves.';
 $canonical       = 'https://simplefeedmaker.com/blog/';
 $activeNav       = 'blog';
 $structuredData  = [
-  [
-    '@context'    => 'https://schema.org',
-    '@type'       => 'Blog',
-    'name'        => 'SimpleFeedMaker Blog',
-    'description' => $pageDescription,
-    'url'         => $canonical,
-    'inLanguage'  => 'en',
-    'publisher'   => [
-      '@type' => 'Organization',
-      'name'  => 'SimpleFeedMaker',
-      'url'   => 'https://simplefeedmaker.com/',
+    [
+        '@context'    => 'https://schema.org',
+        '@type'       => 'Blog',
+        'name'        => 'SimpleFeedMaker Blog',
+        'description' => $pageDescription,
+        'url'         => $canonical,
+        'inLanguage'  => 'en',
+        'publisher'   => [
+            '@type' => 'Organization',
+            'name'  => 'SimpleFeedMaker',
+            'url'   => 'https://simplefeedmaker.com/',
+        ],
     ],
-  ],
-];
-
-$posts = [
-  [
-    'slug'        => 'why-rss-still-matters',
-    'title'       => 'Why RSS Still Matters in 2025',
-    'description' => 'RSS hasn\'t gone away—it powers newsletters, curated digests, personal dashboards, and knowledge workflows. Here\'s why the format is still essential for audiences and publishers alike.',
-    'date'        => 'October 1, 2025',
-    'readingTime' => '8 minute read',
-  ],
-  [
-    'slug'        => 'turn-any-website-into-a-feed',
-    'title'       => 'How to Turn Any Website into a Feed with SimpleFeedMaker',
-    'description' => 'A step-by-step walkthrough showing how to generate a reliable feed from any public page, tune the output, and put the feed to work in your favorite reader.',
-    'date'        => 'October 1, 2025',
-    'readingTime' => '7 minute read',
-  ],
-  [
-    'slug'        => 'rss-vs-json-feed',
-    'title'       => 'RSS vs. JSON Feed: Which Format Should You Use?',
-    'description' => 'Understand the differences between RSS 2.0 and JSON Feed, when it makes sense to deliver both, and how SimpleFeedMaker keeps your subscribers happy in every reader.',
-    'date'        => 'October 1, 2025',
-    'readingTime' => '6 minute read',
-  ],
 ];
 
 require __DIR__ . '/../includes/page_head.php';
@@ -59,18 +41,26 @@ require __DIR__ . '/../includes/page_header.php';
             <p class="text-secondary mb-0">We publish actionable articles about RSS, JSON Feed, and audience growth so you can deliver fresh content everywhere your readers hang out.</p>
           </header>
 
+          <div class="d-flex flex-column flex-md-row align-items-center justify-content-between gap-2 mb-4">
+            <a class="btn btn-outline-primary btn-sm" href="/blog/feed.php">Subscribe via RSS</a>
+            <a class="btn btn-outline-secondary btn-sm" href="/blog/feed.php?format=json">JSON Feed</a>
+          </div>
+
           <div class="vstack gap-4">
-            <?php foreach ($posts as $post) : ?>
+            <?php foreach ($posts as $post): ?>
               <article class="card shadow-sm">
                 <div class="card-body">
-                  <p class="text-secondary small mb-1">Published <?= htmlspecialchars($post['date']); ?> · <?= htmlspecialchars($post['readingTime']); ?></p>
+                  <p class="text-secondary small mb-1">
+                    Published <?= htmlspecialchars(date('F j, Y', strtotime($post['published'])), ENT_QUOTES, 'UTF-8'); ?>
+                    <?= isset($post['reading_time']) ? ' · ' . htmlspecialchars($post['reading_time'], ENT_QUOTES, 'UTF-8') : ''; ?>
+                  </p>
                   <h2 class="h4 fw-semibold mb-2">
-                    <a class="text-decoration-none" href="/blog/<?= htmlspecialchars($post['slug']); ?>/">
-                      <?= htmlspecialchars($post['title']); ?>
+                    <a class="text-decoration-none" href="/blog/<?= htmlspecialchars($post['slug'], ENT_QUOTES, 'UTF-8'); ?>/">
+                      <?= htmlspecialchars($post['title'], ENT_QUOTES, 'UTF-8'); ?>
                     </a>
                   </h2>
-                  <p class="text-secondary mb-3"><?= htmlspecialchars($post['description']); ?></p>
-                  <a class="btn btn-outline-primary btn-sm" href="/blog/<?= htmlspecialchars($post['slug']); ?>/">Read article</a>
+                  <p class="text-secondary mb-3"><?= htmlspecialchars($post['excerpt'], ENT_QUOTES, 'UTF-8'); ?></p>
+                  <a class="btn btn-outline-primary btn-sm" href="/blog/<?= htmlspecialchars($post['slug'], ENT_QUOTES, 'UTF-8'); ?>/">Read article</a>
                 </div>
               </article>
             <?php endforeach; ?>
