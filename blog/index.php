@@ -8,9 +8,29 @@ usort($posts, function (array $a, array $b) {
     return strtotime($b['published']) <=> strtotime($a['published']);
 });
 
-$pageTitle       = 'SimpleFeedMaker Blog — RSS Guides & Product Tips';
+$perPage = 10;
+$totalPosts = count($posts);
+$totalPages = max(1, (int)ceil($totalPosts / $perPage));
+$currentPage = (int)($_GET['page'] ?? 1);
+if ($currentPage < 1) {
+    $currentPage = 1;
+}
+if ($currentPage > $totalPages) {
+    $currentPage = $totalPages;
+}
+
+$offset = ($currentPage - 1) * $perPage;
+$visiblePosts = array_slice($posts, $offset, $perPage);
+
+$pageTitleBase = 'SimpleFeedMaker Blog — RSS Guides & Product Tips';
 $pageDescription = 'Long-form guides on RSS, JSON Feed, and using SimpleFeedMaker to syndicate the web. Learn practical tactics for curating content your audience loves.';
-$canonical       = 'https://simplefeedmaker.com/blog/';
+$canonical = 'https://simplefeedmaker.com/blog/';
+if ($currentPage > 1) {
+    $pageTitle = $pageTitleBase . ' (Page ' . $currentPage . ')';
+    $canonical = $canonical . '?page=' . $currentPage;
+} else {
+    $pageTitle = $pageTitleBase;
+}
 $activeNav       = 'blog';
 $structuredData  = [
     [
@@ -47,7 +67,14 @@ require __DIR__ . '/../includes/page_header.php';
           </div>
 
           <div class="vstack gap-4">
-            <?php foreach ($posts as $post): ?>
+            <?php if (empty($visiblePosts)): ?>
+              <div class="card shadow-sm">
+                <div class="card-body">
+                  <p class="mb-0 text-secondary">No posts yet—check back soon.</p>
+                </div>
+              </div>
+            <?php endif; ?>
+            <?php foreach ($visiblePosts as $post): ?>
               <article class="card shadow-sm">
                 <div class="card-body">
                   <p class="text-secondary small mb-1">
@@ -65,6 +92,23 @@ require __DIR__ . '/../includes/page_header.php';
               </article>
             <?php endforeach; ?>
           </div>
+
+          <nav class="mt-4" aria-label="Blog pagination">
+            <ul class="pagination justify-content-center justify-content-md-start mb-0">
+              <?php
+              $buildPageUrl = static function (int $page) {
+                  return $page === 1 ? '/blog/' : '/blog/?page=' . $page;
+              };
+
+              for ($page = 1; $page <= $totalPages; $page++) {
+                  $isActive = $page === $currentPage;
+                  $classes = 'page-item' . ($isActive ? ' active' : '');
+                  $aria = $isActive ? ' aria-current="page"' : '';
+                  echo '<li class="' . $classes . '"><a class="page-link" href="' . $buildPageUrl($page) . '"' . $aria . '>Page ' . $page . '</a></li>';
+              }
+              ?>
+            </ul>
+          </nav>
         </div>
       </div>
     </div>
