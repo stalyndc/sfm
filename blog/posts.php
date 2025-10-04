@@ -10,7 +10,7 @@ return [
         'description'  => 'Build an editorial rhythm, reinforce trust signals, and use RSS to prove your blog delivers value to readers and collaborators alike.',
         'published'    => '2025-10-04T00:00:00Z',
         'updated'      => '2025-10-04T00:00:00Z',
-        'reading_time' => '9 minute read',
+        'reading_time' => '5 minute read',
         'author'       => 'SimpleFeedMaker Team',
         'content'      => <<<'HTML'
 <p class="lead text-secondary mb-4">The fastest way to earn trust from readers, collaborators, and distribution partners is to look like a publication that already has its act together. A steady RSS feed makes that evidence easy to see.</p>
