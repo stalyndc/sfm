@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Shared HTML <head> partial for SimpleFeedMaker pages.
  *
@@ -28,51 +29,57 @@ $articleModifiedTime  = $articleModifiedTime  ?? '';
 $structuredData       = $structuredData       ?? null;
 
 if ($structuredData === null) {
-    $structuredData = [
-        [
-            '@context'    => 'https://schema.org',
-            '@type'       => 'WebSite',
-            'url'         => $baseUrl . '/',
-            'name'        => 'SimpleFeedMaker',
-            'description' => 'Create RSS or JSON feeds from any URL in seconds.',
-            'inLanguage'  => 'en',
-            'publisher'   => [
-                '@type' => 'Organization',
-                'name'  => 'SimpleFeedMaker',
-                'url'   => $baseUrl . '/',
-            ],
-        ],
-    ];
+  $structuredData = [
+    [
+      '@context'    => 'https://schema.org',
+      '@type'       => 'WebSite',
+      'url'         => $baseUrl . '/',
+      'name'        => 'SimpleFeedMaker',
+      'description' => 'Create RSS or JSON feeds from any URL in seconds.',
+      'inLanguage'  => 'en',
+      'publisher'   => [
+        '@type' => 'Organization',
+        'name'  => 'SimpleFeedMaker',
+        'url'   => $baseUrl . '/',
+      ],
+    ],
+  ];
 }
 
 $structuredBlocks = [];
 if (is_array($structuredData)) {
-    foreach ($structuredData as $block) {
-        if (is_array($block)) {
-            $structuredBlocks[] = json_encode($block, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
-        } elseif (is_string($block) && trim($block) !== '') {
-            $structuredBlocks[] = $block;
-        }
+  foreach ($structuredData as $block) {
+    if (is_array($block)) {
+      $structuredBlocks[] = json_encode($block, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+    } elseif (is_string($block) && trim($block) !== '') {
+      $structuredBlocks[] = $block;
     }
+  }
 } elseif (is_string($structuredData) && trim($structuredData) !== '') {
-    $structuredBlocks[] = $structuredData;
+  $structuredBlocks[] = $structuredData;
 }
-?><!doctype html>
+?>
+<!doctype html>
 <html lang="en" data-bs-theme="dark">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title><?= htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8'); ?></title>
 
+
+  <!-- for google verification -->
+  <meta name="google-adsense-account" content="ca-pub-9488653986498161">
+
   <!-- Robots & basic SEO -->
   <meta name="robots" content="<?= htmlspecialchars($metaRobots, ENT_QUOTES, 'UTF-8'); ?>" />
   <meta name="description" content="<?= htmlspecialchars($pageDescription, ENT_QUOTES, 'UTF-8'); ?>" />
-<?php if (!empty($pageKeywords)): ?>
-  <meta name="keywords" content="<?= htmlspecialchars($pageKeywords, ENT_QUOTES, 'UTF-8'); ?>" />
-<?php endif; ?>
-<?php if (!empty($canonical)): ?>
-  <link rel="canonical" href="<?= htmlspecialchars($canonical, ENT_QUOTES, 'UTF-8'); ?>">
-<?php endif; ?>
+  <?php if (!empty($pageKeywords)): ?>
+    <meta name="keywords" content="<?= htmlspecialchars($pageKeywords, ENT_QUOTES, 'UTF-8'); ?>" />
+  <?php endif; ?>
+  <?php if (!empty($canonical)): ?>
+    <link rel="canonical" href="<?= htmlspecialchars($canonical, ENT_QUOTES, 'UTF-8'); ?>">
+  <?php endif; ?>
 
   <!-- Brand / PWA-ish niceties -->
   <meta name="theme-color" content="#0b1320" />
@@ -86,12 +93,12 @@ if (is_array($structuredData)) {
   <meta property="og:image" content="<?= htmlspecialchars($ogImage, ENT_QUOTES, 'UTF-8'); ?>">
   <meta property="og:site_name" content="SimpleFeedMaker">
   <meta property="og:locale" content="en_US">
-<?php if (!empty($articlePublishedTime)): ?>
-  <meta property="article:published_time" content="<?= htmlspecialchars($articlePublishedTime, ENT_QUOTES, 'UTF-8'); ?>">
-<?php endif; ?>
-<?php if (!empty($articleModifiedTime)): ?>
-  <meta property="article:modified_time" content="<?= htmlspecialchars($articleModifiedTime, ENT_QUOTES, 'UTF-8'); ?>">
-<?php endif; ?>
+  <?php if (!empty($articlePublishedTime)): ?>
+    <meta property="article:published_time" content="<?= htmlspecialchars($articlePublishedTime, ENT_QUOTES, 'UTF-8'); ?>">
+  <?php endif; ?>
+  <?php if (!empty($articleModifiedTime)): ?>
+    <meta property="article:modified_time" content="<?= htmlspecialchars($articleModifiedTime, ENT_QUOTES, 'UTF-8'); ?>">
+  <?php endif; ?>
 
   <!-- Twitter -->
   <meta name="twitter:card" content="<?= htmlspecialchars($twitterCard, ENT_QUOTES, 'UTF-8'); ?>">
@@ -99,12 +106,12 @@ if (is_array($structuredData)) {
   <meta name="twitter:title" content="<?= htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8'); ?>">
   <meta name="twitter:description" content="<?= htmlspecialchars($pageDescription, ENT_QUOTES, 'UTF-8'); ?>">
   <meta name="twitter:image" content="<?= htmlspecialchars($ogImage, ENT_QUOTES, 'UTF-8'); ?>">
-<?php if (!empty($twitterSite)): ?>
-  <meta name="twitter:site" content="<?= htmlspecialchars($twitterSite, ENT_QUOTES, 'UTF-8'); ?>">
-<?php endif; ?>
-<?php if (!empty($twitterCreator)): ?>
-  <meta name="twitter:creator" content="<?= htmlspecialchars($twitterCreator, ENT_QUOTES, 'UTF-8'); ?>">
-<?php endif; ?>
+  <?php if (!empty($twitterSite)): ?>
+    <meta name="twitter:site" content="<?= htmlspecialchars($twitterSite, ENT_QUOTES, 'UTF-8'); ?>">
+  <?php endif; ?>
+  <?php if (!empty($twitterCreator)): ?>
+    <meta name="twitter:creator" content="<?= htmlspecialchars($twitterCreator, ENT_QUOTES, 'UTF-8'); ?>">
+  <?php endif; ?>
 
   <meta name="author" content="<?= htmlspecialchars($metaAuthor, ENT_QUOTES, 'UTF-8'); ?>">
 
@@ -140,6 +147,7 @@ if (is_array($structuredData)) {
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-YZ2SN3R4PX"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
+
     function gtag() {
       dataLayer.push(arguments);
     }
@@ -147,9 +155,9 @@ if (is_array($structuredData)) {
     gtag('config', 'G-YZ2SN3R4PX');
   </script>
 
-<?php foreach ($structuredBlocks as $block): ?>
-  <script type="application/ld+json">
-<?= $block ?>
-  </script>
-<?php endforeach; ?>
+  <?php foreach ($structuredBlocks as $block): ?>
+    <script type="application/ld+json">
+      <?= $block ?>
+    </script>
+  <?php endforeach; ?>
 </head>
