@@ -49,6 +49,7 @@ if (!is_file($secFile) || !is_readable($secFile)) {
 require_once $secFile;    // secure_assert_post(), csrf helpers
 require_once $httpFile;   // http_get(), http_head(), http_multi_get(), sfm_log_event()
 require_once $extFile;    // sfm_extract_items(), sfm_discover_feeds()
+require_once __DIR__ . '/includes/feed_validator.php';
 require_once __DIR__ . '/includes/jobs.php';
 
 // ---------------------------------------------------------------------
@@ -378,10 +379,27 @@ switch ($format) {
     break;
 }
 
+$validation = sfm_validate_feed($format, $content);
+if (!$validation['ok']) {
+  $primary = $validation['errors'][0] ?? 'Feed validation failed.';
+  sfm_json_fail('Generated feed failed validation: ' . $primary, 500, [
+    'error_code' => 'feed_validation_failed',
+    'validation' => $validation,
+  ]);
+}
+
 ensure_feeds_dir();
 $path = FEEDS_DIR . '/' . $filename;
 if (@file_put_contents($path, $content) === false) {
   sfm_json_fail('Failed to save feed file.', 500);
+}
+
+$validationSnapshot = null;
+if (!empty($validation['warnings'])) {
+  $validationSnapshot = [
+    'warnings'   => $validation['warnings'],
+    'checked_at' => sfm_job_now_iso(),
+  ];
 }
 
 $job = sfm_job_register([
@@ -395,6 +413,7 @@ $job = sfm_job_register([
   'items_count'       => count($items),
   'last_refresh_code' => 200,
   'last_refresh_note' => 'custom parse',
+  'last_validation'   => $validationSnapshot,
 ]);
 
 if (function_exists('sfm_log_event')) {
@@ -406,10 +425,11 @@ if (function_exists('sfm_log_event')) {
     'items'        => count($items),
     'bytes'        => strlen($content),
     'job_id'       => $job['job_id'] ?? null,
+    'validation'   => empty($validation['warnings']) ? null : ($validation['warnings'][0] ?? null),
   ]);
 }
 
-echo json_encode([
+$response = [
   'ok'                => true,
   'feed_url'          => $feedUrl,
   'format'            => $format,
@@ -417,7 +437,15 @@ echo json_encode([
   'used_native'       => false,
   'status_breadcrumb' => 'created: ' . count($items) . ' items · just now',
   'job_id'            => $job['job_id'] ?? null,
-], JSON_UNESCAPED_SLASHES);
+];
+
+if (!empty($validation['warnings'])) {
+  $response['validation'] = [
+    'warnings' => $validation['warnings'],
+  ];
+}
+
+echo json_encode($response, JSON_UNESCAPED_SLASHES);
 exit;
 
 function sfm_fail_with_extraction_diagnostics(array $debug, array $options): void

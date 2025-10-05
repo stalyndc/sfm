@@ -278,6 +278,17 @@ require __DIR__ . '/../includes/page_header.php';
                     $note     = (string)($job['last_refresh_note'] ?? '');
                     $badgeCls = $status === 'ok' ? 'bg-success' : ($status === 'fail' ? 'bg-danger' : 'bg-secondary');
                     $itemsCnt = $job['items_count'] ?? null;
+                    $validationWarns = [];
+                    $validationChecked = null;
+                    if (!empty($job['last_validation']) && is_array($job['last_validation'])) {
+                        $rawWarnings = $job['last_validation']['warnings'] ?? [];
+                        if (is_array($rawWarnings)) {
+                            $validationWarns = array_values(array_filter($rawWarnings, 'is_string'));
+                        }
+                        if (!empty($job['last_validation']['checked_at'])) {
+                            $validationChecked = (string)$job['last_validation']['checked_at'];
+                        }
+                    }
                   ?>
                   <tr>
                     <td style="min-width: 220px;">
@@ -307,6 +318,20 @@ require __DIR__ . '/../includes/page_header.php';
                       <span class="badge <?= $badgeCls; ?> text-uppercase"><?= htmlspecialchars($status ?: 'unknown', ENT_QUOTES, 'UTF-8'); ?></span>
                       <?php if ($note): ?>
                         <div class="small text-secondary mt-1 text-wrap" style="max-width: 200px;"><?= htmlspecialchars($note, ENT_QUOTES, 'UTF-8'); ?></div>
+                      <?php endif; ?>
+                      <?php if ($validationWarns): ?>
+                        <?php
+                          $warnDisplay = array_slice($validationWarns, 0, 3);
+                          $warnHtml = implode(' • ', array_map(function ($msg) {
+                              return htmlspecialchars($msg, ENT_QUOTES, 'UTF-8');
+                          }, $warnDisplay));
+                        ?>
+                        <div class="small text-warning mt-1 text-wrap" style="max-width: 200px;">
+                          Validation warning<?= count($validationWarns) > 1 ? 's' : ''; ?>: <?= $warnHtml; ?>
+                          <?php if ($validationChecked): ?>
+                            <span class="d-block text-muted mt-1">Checked: <?= htmlspecialchars($validationChecked, ENT_QUOTES, 'UTF-8'); ?></span>
+                          <?php endif; ?>
+                        </div>
                       <?php endif; ?>
                     </td>
                     <td>

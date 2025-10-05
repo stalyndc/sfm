@@ -132,6 +132,7 @@ function sfm_job_register(array $data): array
     'updated_at'         => $nowIso,
     'created_ip'         => client_ip(),
     'items_count'        => $data['items_count'] ?? null,
+    'last_validation'    => isset($data['last_validation']) && is_array($data['last_validation']) ? $data['last_validation'] : null,
   ];
 
   if (!sfm_job_write($jobId, $job)) {
@@ -218,7 +219,7 @@ function sfm_job_is_due(array $job, int $nowTs = null): bool
   return $nowTs - $last >= $interval;
 }
 
-function sfm_job_mark_success(array $job, int $bytes, int $httpStatus = 200, ?int $items = null, ?string $note = null): ?array
+function sfm_job_mark_success(array $job, int $bytes, int $httpStatus = 200, ?int $items = null, ?string $note = null, ?array $validation = null): ?array
 {
   $fields = [
     'last_refresh_at'    => sfm_job_now_iso(),
@@ -229,6 +230,15 @@ function sfm_job_mark_success(array $job, int $bytes, int $httpStatus = 200, ?in
     'refresh_count'      => ($job['refresh_count'] ?? 0) + 1,
     'items_count'        => $items,
   ];
+
+  if (is_array($validation) && !empty($validation['warnings'])) {
+    $fields['last_validation'] = [
+      'warnings'   => array_values($validation['warnings']),
+      'checked_at' => sfm_job_now_iso(),
+    ];
+  } else {
+    $fields['last_validation'] = null;
+  }
 
   return sfm_job_update($job['job_id'], $fields);
 }
@@ -241,6 +251,7 @@ function sfm_job_mark_failure(array $job, string $error, ?int $httpStatus = null
     'last_refresh_code'  => $httpStatus,
     'last_refresh_error' => $error,
     'last_refresh_note'  => 'fail',
+    'last_validation'    => null,
   ];
 
   return sfm_job_update($job['job_id'], $fields);

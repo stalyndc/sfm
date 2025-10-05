@@ -76,6 +76,7 @@ if (!is_file($secFile) || !is_readable($secFile)) {
 require_once $httpFile;
 require_once $extFile;
 require_once $secFile;
+require_once __DIR__ . '/includes/feed_validator.php';
 
 // logger is optional — if missing, we run without it
 $__logEnabled = false;
@@ -310,6 +311,15 @@ try {
           $finalFormat = $fmtDetected ?: 'rss';
           $ext = ($finalFormat === 'jsonfeed') ? 'json' : 'xml';
 
+          $validation = sfm_validate_feed($finalFormat, $feed['body']);
+          if (!$validation['ok']) {
+            $primary = $validation['errors'][0] ?? 'Native feed failed validation.';
+            sfm_json_fail('Native feed failed validation: ' . $primary, 502, [
+              'error_code' => 'feed_validation_failed',
+              'validation' => $validation,
+            ]);
+          }
+
           ensure_feeds_dir();
           $feedId   = md5($pick['href'].'|'.microtime(true));
           $filename = $feedId.'.'.$ext;
@@ -318,12 +328,27 @@ try {
 
           $feedUrl = rtrim(app_url_base(), '/').'/feeds/'.$filename;
 
-          if ($__logEnabled) sfm_log_end($__span, ['status'=>'ok','used_native'=>true,'items'=>null]);
+          if ($__logEnabled) {
+            $logMeta = ['status'=>'ok','used_native'=>true,'items'=>null];
+            if (!empty($validation['warnings'])) {
+              $logMeta['validation'] = $validation['warnings'][0] ?? null;
+            }
+            sfm_log_end($__span, $logMeta);
+          }
           while (ob_get_level()) ob_end_clean();
-          echo json_encode([
-            'ok'=>true,'feed_url'=>$feedUrl,'format'=>$finalFormat,'items'=>null,'used_native'=>true,
-            'native_source'=>$pick['href'],'status_breadcrumb'=>'native · just now'
-          ], JSON_UNESCAPED_SLASHES);
+          $payload = [
+            'ok'              => true,
+            'feed_url'        => $feedUrl,
+            'format'          => $finalFormat,
+            'items'           => null,
+            'used_native'     => true,
+            'native_source'   => $pick['href'],
+            'status_breadcrumb' => 'native · just now',
+          ];
+          if (!empty($validation['warnings'])) {
+            $payload['validation'] = ['warnings' => $validation['warnings']];
+          }
+          echo json_encode($payload, JSON_UNESCAPED_SLASHES);
           exit;
         }
       }
@@ -361,17 +386,40 @@ try {
     default:         $content = build_rss($title,$url,$desc,$items); break;
   }
 
+  $validation = sfm_validate_feed($format, $content);
+  if (!$validation['ok']) {
+    $primary = $validation['errors'][0] ?? 'Generated feed failed validation.';
+    sfm_json_fail('Generated feed failed validation: ' . $primary, 500, [
+      'error_code' => 'feed_validation_failed',
+      'validation' => $validation,
+    ]);
+  }
+
   ensure_feeds_dir();
   $path = FEEDS_DIR.'/'.$filename;
   if (@file_put_contents($path, $content) === false) sfm_json_fail('Failed to save feed file.', 500);
 
-  if ($__logEnabled) sfm_log_end($__span, ['status'=>'ok','used_native'=>false,'items'=>count($items)]);
+  if ($__logEnabled) {
+    $logMeta = ['status'=>'ok','used_native'=>false,'items'=>count($items)];
+    if (!empty($validation['warnings'])) {
+      $logMeta['validation'] = $validation['warnings'][0] ?? null;
+    }
+    sfm_log_end($__span, $logMeta);
+  }
 
   while (ob_get_level()) ob_end_clean();
-  echo json_encode([
-    'ok'=>true,'feed_url'=>$feedUrl,'format'=>$format,'items'=>count($items),
-    'used_native'=>false,'status_breadcrumb'=>'created: '.count($items).' items · just now'
-  ], JSON_UNESCAPED_SLASHES);
+  $payload = [
+    'ok'                => true,
+    'feed_url'          => $feedUrl,
+    'format'            => $format,
+    'items'             => count($items),
+    'used_native'       => false,
+    'status_breadcrumb' => 'created: '.count($items).' items · just now',
+  ];
+  if (!empty($validation['warnings'])) {
+    $payload['validation'] = ['warnings' => $validation['warnings']];
+  }
+  echo json_encode($payload, JSON_UNESCAPED_SLASHES);
   exit;
 
 } catch (Throwable $e) {

@@ -12,6 +12,7 @@ require_once __DIR__ . '/http.php';
 require_once __DIR__ . '/extract.php';
 require_once __DIR__ . '/jobs.php';
 require_once __DIR__ . '/security.php';
+require_once __DIR__ . '/feed_validator.php';
 
 if (!function_exists('sfm_refresh_job')) {
     /**
@@ -59,13 +60,19 @@ if (!function_exists('sfm_refresh_job')) {
                     }
 
                     $bytes = strlen($native['body']);
-                    sfm_job_mark_success($job, $bytes, (int)$native['status'], null, 'native refresh');
+                    $nativeValidation = isset($native['validation']) && is_array($native['validation']) ? $native['validation'] : null;
+                    sfm_job_mark_success($job, $bytes, (int)$native['status'], null, 'native refresh', $nativeValidation);
                     if ($logEnabled && function_exists('sfm_log_event')) {
+                        $validationNote = null;
+                        if ($nativeValidation && !empty($nativeValidation['warnings'])) {
+                            $validationNote = $nativeValidation['warnings'][0] ?? null;
+                        }
                         sfm_log_event('refresh', [
                             'phase'  => 'native',
                             'job_id' => $job['job_id'],
                             'bytes'  => $bytes,
                             'source' => $job['native_source'],
+                            'validation' => $validationNote,
                         ]);
                     }
                     return true;
@@ -98,16 +105,21 @@ if (!function_exists('sfm_refresh_job')) {
                 return false;
             }
 
-            [$content, $itemsCount] = sfm_refresh_custom($job, $sourceUrl, $feedUrl, $tmpPath, $feedPath);
+            [$content, $itemsCount, $validation] = sfm_refresh_custom($job, $sourceUrl, $feedUrl, $tmpPath, $feedPath);
             $bytes = strlen($content);
-            sfm_job_mark_success($job, $bytes, 200, $itemsCount, 'custom refresh');
+            sfm_job_mark_success($job, $bytes, 200, $itemsCount, 'custom refresh', $validation);
             if ($logEnabled && function_exists('sfm_log_event')) {
+                $validationNote = null;
+                if (!empty($validation['warnings'])) {
+                    $validationNote = $validation['warnings'][0] ?? null;
+                }
                 sfm_log_event('refresh', [
                     'phase'  => 'custom',
                     'job_id' => $job['job_id'],
                     'bytes'  => $bytes,
                     'items'  => $itemsCount,
                     'source' => $sourceUrl,
+                    'validation' => $validationNote,
                 ]);
             }
             return true;
@@ -150,12 +162,18 @@ if (!function_exists('sfm_refresh_native')) {
         }
 
         [$detectedFormat, $ext] = detect_feed_format_and_ext($resp['body'], $resp['headers'] ?? [], $nativeUrl);
+        $validation = sfm_validate_feed($detectedFormat ?: 'rss', $resp['body']);
+        if (!$validation['ok']) {
+            $primary = $validation['errors'][0] ?? 'Native feed failed validation.';
+            throw new RuntimeException($primary);
+        }
 
         return [
-            'body'   => $resp['body'],
-            'status' => (int)($resp['status'] ?? 200),
-            'format' => $detectedFormat ?: 'rss',
-            'ext'    => $ext ?: 'xml',
+            'body'       => $resp['body'],
+            'status'     => (int)($resp['status'] ?? 200),
+            'format'     => $detectedFormat ?: 'rss',
+            'ext'        => $ext ?: 'xml',
+            'validation' => $validation,
         ];
     }
 }
@@ -199,6 +217,12 @@ if (!function_exists('sfm_refresh_custom')) {
                 break;
         }
 
+        $validation = sfm_validate_feed($format, $content);
+        if (!$validation['ok']) {
+            $primary = $validation['errors'][0] ?? 'Generated feed failed validation.';
+            throw new RuntimeException($primary);
+        }
+
         if (@file_put_contents($tmpPath, $content) === false) {
             throw new RuntimeException('Unable to write temp feed file');
         }
@@ -207,6 +231,6 @@ if (!function_exists('sfm_refresh_custom')) {
             throw new RuntimeException('Unable to replace feed file');
         }
 
-        return [$content, count($items)];
+        return [$content, count($items), $validation];
     }
 }

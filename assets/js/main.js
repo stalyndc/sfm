@@ -105,6 +105,7 @@
     const usedNative = Boolean(data.used_native);
     const nativeSource = data.native_source ? String(data.native_source) : '';
     const validatorUrl = buildValidatorLink(feedUrl, format);
+    const warnings = Array.isArray(data?.validation?.warnings) ? data.validation.warnings : [];
 
     const metaParts = [];
     metaParts.push(`Format: <span class="mono">${escapeHtml(format || 'rss')}</span>`);
@@ -114,6 +115,15 @@
 
     const nativeHtml = usedNative && nativeSource
       ? `<div class="muted small mt-1">Using site feed: <a class="link-light" href="${escapeHtml(nativeSource)}" target="_blank" rel="noopener">${escapeHtml(nativeSource)}</a></div>`
+      : '';
+
+    const warningsHtml = warnings.length
+      ? `<div class="alert alert-warning mt-3 mb-0">
+          <strong>Validation warnings</strong>
+          <ul class="mb-0 mt-2">
+            ${warnings.slice(0, 5).map((w) => `<li>${escapeHtml(w)}</li>`).join('')}
+          </ul>
+        </div>`
       : '';
 
     resultBox.innerHTML = `
@@ -132,6 +142,7 @@
       </div>
       ${metaHtml}
       ${nativeHtml}
+      ${warningsHtml}
     `;
 
     // Wire result actions
