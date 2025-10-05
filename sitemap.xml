@@ -26,6 +26,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://simplefeedmaker.com/terms/</loc>
+    <lastmod>2025-10-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://simplefeedmaker.com/blog/</loc>
     <lastmod>2025-10-04</lastmod>
     <changefreq>weekly</changefreq>

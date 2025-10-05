@@ -10,7 +10,6 @@ $activeNav = $activeNav ?? '';
         <a class="text-secondary text-decoration-none<?= $activeNav === 'blog' ? ' active' : ''; ?>" href="/blog/">Blog</a>
         <a class="text-secondary text-decoration-none<?= $activeNav === 'about' ? ' active' : ''; ?>" href="/about/">About</a>
         <a class="text-secondary text-decoration-none<?= $activeNav === 'faq' ? ' active' : ''; ?>" href="/faq/">FAQ</a>
-        <a class="text-secondary text-decoration-none<?= $activeNav === 'privacy' ? ' active' : ''; ?>" href="/privacy/">Privacy</a>
       </nav>
     </div>
   </header>
