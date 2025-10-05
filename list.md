@@ -18,8 +18,6 @@ UI polish: add a preview/test mode with saved history or favorites, helping retu
 
 ---
 
-Smarter failure feedback: when parsing dies today we just bail. Add structured error messages (e.g. “couldn’t find article links”, “blocked by robots.txt”) so users know what to tweak. Pair it with optional overrides like custom CSS selectors or item limits.
-
 Metadata enrichment pass: extend sfm_enrich_items_with_article_metadata so we capture author, hero image, and tags when they appear. That makes the feeds nicer in readers and opens the door to filtering later.
 
 Validation hook: integrate a quick RSS/JSON Feed validator (there are PHP libs you can shell out to) so every generated feed is checked before we save it. Bubble validation warnings back to the UI.
