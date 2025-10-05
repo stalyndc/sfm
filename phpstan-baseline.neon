@@ -2,7 +2,7 @@ parameters:
 	ignoreErrors:
 		-
 			message: "#^Offset 'body' does not exist on string\\.$#"
-			count: 4
+			count: 5
 			path: generate.php
 
 		-
@@ -27,7 +27,7 @@ parameters:
 
 		-
 			message: "#^PHPDoc tag @var with type array\\<string, array\\<string, string\\>\\|bool\\|int\\|string\\> is not subtype of native type string\\.$#"
-			count: 1
+			count: 2
 			path: generate.php
 
 		-

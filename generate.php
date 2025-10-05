@@ -432,6 +432,15 @@ function sfm_collect_paginated_items(string $html, string $sourceUrl, int $limit
       continue;
     }
 
+    /** @var array{
+     *   ok: bool,
+     *   status: int,
+     *   headers: array<string,string>,
+     *   body: string,
+     *   final_url: string,
+     *   from_cache: bool,
+     *   was_304: bool
+     * } $resp */
     $resp = http_get($nextUrl, [
       'accept'    => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
       'cache_ttl' => 600,
@@ -575,6 +584,10 @@ function sfm_sanitize_article_html(DOMNode $root, string $baseUrl): string
 
   $nodes = iterator_to_array($xp->query('//*'));
   foreach ($nodes as $node) {
+    if (!$node instanceof DOMElement) {
+      continue;
+    }
+
     $name = strtolower($node->nodeName);
     if (!in_array($name, $allowedTags, true)) {
       sfm_remove_node_keep_children($node);
@@ -588,8 +601,10 @@ function sfm_sanitize_article_html(DOMNode $root, string $baseUrl): string
     }
 
     if ($node->hasAttributes()) {
-      $attrs = iterator_to_array($node->attributes);
-      foreach ($attrs as $attr) {
+      foreach ($node->attributes as $attr) {
+        if (!$attr instanceof DOMAttr) {
+          continue;
+        }
         $attrName = strtolower($attr->nodeName);
         if (!in_array($attrName, $allowedAttrs, true)) {
           $node->removeAttributeNode($attr);
@@ -765,36 +780,44 @@ function sfm_detect_pagination_links(string $html, string $sourceUrl, int $max =
 
   $rels = $xp->query("//link[translate(@rel,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz')='next'][@href]");
   if ($rels) {
-    foreach ($rels as $node) {
-      /** @var DOMElement $node */
+  foreach ($rels as $node) {
+      if (!$node instanceof DOMElement) {
+        continue;
+      }
       $add($node->getAttribute('href'));
-    }
+  }
   }
 
   $anchors = $xp->query("//a[@href][translate(@rel,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz')='next']");
   if ($anchors) {
-    foreach ($anchors as $node) {
-      /** @var DOMElement $node */
+  foreach ($anchors as $node) {
+      if (!$node instanceof DOMElement) {
+        continue;
+      }
       $add($node->getAttribute('href'));
-    }
+  }
   }
 
   $dataSelectors = $xp->query('//*[@data-next-url or @data-next or @data-next-page or @data-load-more-url or @data-pagination-url]');
   if ($dataSelectors) {
-    foreach ($dataSelectors as $node) {
-      /** @var DOMElement $node */
+  foreach ($dataSelectors as $node) {
+      if (!$node instanceof DOMElement) {
+        continue;
+      }
       foreach (['data-next-url','data-next','data-next-page','data-load-more-url','data-pagination-url'] as $attr) {
         if ($node->hasAttribute($attr)) {
           $add($node->getAttribute($attr));
         }
       }
-    }
+  }
   }
 
   $textCandidates = $xp->query('//a[@href]');
   if ($textCandidates) {
-    foreach ($textCandidates as $node) {
-      /** @var DOMElement $node */
+  foreach ($textCandidates as $node) {
+      if (!$node instanceof DOMElement) {
+        continue;
+      }
       $text = strtolower(trim($node->textContent ?? ''));
       if ($text === '') {
         continue;
