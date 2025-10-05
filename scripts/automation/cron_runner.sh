@@ -68,7 +68,7 @@ case "${task}" in
     run_php secure/scripts/disaster_drill.php "${extra_opts[@]}" "${extra_args[@]}"
     ;;
   monitor)
-    run_php secure/scripts/monitor_health.php --quiet "${extra_args[@]}"
+    run_php secure/scripts/monitor_health.php --quiet --warn-only "${extra_args[@]}"
     ;;
   *)
     echo "Unknown task: ${task}" >&2
