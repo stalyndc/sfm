@@ -33,6 +33,12 @@ RSS 2.0 (.xml), Atom (.xml), JSON Feed (.json, served as application/feed+json).
 Smarter extraction
 Prefer JSON-LD (ItemList, Article/BlogPosting), fall back to DOM heuristics (article/card/heading patterns). Gentle de-duping and short text normalization.
 
+Structured failure feedback
+Custom parse now returns actionable 422 responses with error codes, JSON-LD/DOM hit counts, and optional hints so users know *why* extraction failed.
+
+Power-user overrides
+POST fields `item_selector`, `title_selector`, and `summary_selector` (CSS) let operators target tricky layouts. We translate CSS → XPath, reuse selectors across pagination fetches, and report how many nodes matched.
+
 Cheaper/faster fetches
 Shared cURL wrapper with timeouts, HTTP/2 if available, transparent compression, and tiny file-cache with ETag/Last-Modified revalidation (stores in /feeds/.httpcache).
 
@@ -44,6 +50,9 @@ robots.txt, minimal sitemap.xml (homepage and /feeds/), head tags tidy-up, human
 
 Ops hooks (scaffolded)
 health.php endpoint, scripts/cleanup_feeds.php for cron, optional request/parse logs (toggleable), daily rotation (planned), privacy-safe redaction (planned).
+
+Operational cadence
+Hostinger cron runs `cron_runner.sh` for monitor (15m, warn-only emails), hourly rate-limit sweeps, daily feed cleanup, weekly log sanitizer, plus `cron_refresh.php` every 30 min. Backups & disaster drill scripts live in `secure/scripts/`; configure `secure/cron.env` with `SFM_BACKUPS_DIR`, `SFM_CHECKSUM_FILE`, and override `PHP_BIN`/alert emails as needed.
 
 Architecture & Layout
 
