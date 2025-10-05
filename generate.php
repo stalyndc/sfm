@@ -123,10 +123,13 @@ if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') {
   sfm_json_fail('Use POST.', 405);
 }
 
-$url          = trim((string)($_POST['url'] ?? ''));
-$limit        = (int)($_POST['limit'] ?? DEFAULT_LIM);
-$format       = strtolower(trim((string)($_POST['format'] ?? DEFAULT_FMT)));
-$preferNative = isset($_POST['prefer_native']) && in_array(strtolower((string)$_POST['prefer_native']), ['1', 'true', 'on', 'yes'], true);
+$url              = trim((string)($_POST['url'] ?? ''));
+$limit            = (int)($_POST['limit'] ?? DEFAULT_LIM);
+$format           = strtolower(trim((string)($_POST['format'] ?? DEFAULT_FMT)));
+$preferNative     = isset($_POST['prefer_native']) && in_array(strtolower((string)($_POST['prefer_native'])), ['1', 'true', 'on', 'yes'], true);
+$itemSelectorCss  = trim((string)($_POST['item_selector'] ?? ''));
+$titleSelectorCss = trim((string)($_POST['title_selector'] ?? ''));
+$summarySelectorCss = trim((string)($_POST['summary_selector'] ?? ''));
 
 if ($url === '' || !filter_var($url, FILTER_VALIDATE_URL)) {
   sfm_json_fail('Please provide a valid URL (including http:// or https://).');
@@ -137,6 +140,43 @@ if (!sfm_url_is_public($url)) {
 }
 $limit  = max(1, min(MAX_LIM, $limit));
 if (!in_array($format, ['rss', 'atom', 'jsonfeed'], true)) $format = DEFAULT_FMT;
+
+$extractionOptions = [];
+if ($itemSelectorCss !== '') {
+  $itemSelectorXpath = sfm_css_to_xpath($itemSelectorCss, false);
+  if ($itemSelectorXpath === null) {
+    sfm_json_fail('Unsupported CSS selector for item_selector.', 400, [
+      'field'      => 'item_selector',
+      'error_code' => 'invalid_selector',
+    ]);
+  }
+  $extractionOptions['item_selector'] = $itemSelectorCss;
+  $extractionOptions['item_selector_xpath'] = $itemSelectorXpath;
+}
+
+if ($titleSelectorCss !== '') {
+  $titleSelectorXpath = sfm_css_to_xpath($titleSelectorCss, true);
+  if ($titleSelectorXpath === null) {
+    sfm_json_fail('Unsupported CSS selector for title_selector.', 400, [
+      'field'      => 'title_selector',
+      'error_code' => 'invalid_selector',
+    ]);
+  }
+  $extractionOptions['title_selector'] = $titleSelectorCss;
+  $extractionOptions['title_selector_xpath'] = $titleSelectorXpath;
+}
+
+if ($summarySelectorCss !== '') {
+  $summarySelectorXpath = sfm_css_to_xpath($summarySelectorCss, true);
+  if ($summarySelectorXpath === null) {
+    sfm_json_fail('Unsupported CSS selector for summary_selector.', 400, [
+      'field'      => 'summary_selector',
+      'error_code' => 'invalid_selector',
+    ]);
+  }
+  $extractionOptions['summary_selector'] = $summarySelectorCss;
+  $extractionOptions['summary_selector_xpath'] = $summarySelectorXpath;
+}
 
 // Same-origin guard (soft)
 if (!empty($_SERVER['HTTP_ORIGIN'])) {
@@ -258,17 +298,53 @@ if ($preferNative) {
 // ---------------------------------------------------------------------
 // B) Custom parse path
 // ---------------------------------------------------------------------
+/** @var array{ok:bool,status:int,body:string,headers:array<string,string>,final_url?:string,from_cache:bool,was_304:bool} $page */
 $page = http_get($url, [
   'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
 ]);
+
 if (!$page['ok'] || $page['status'] < 200 || $page['status'] >= 400 || $page['body'] === '') {
-  sfm_json_fail('Failed to fetch the page.', 502, ['status' => $page['status'] ?? 0]);
+  $status = (int)$page['status'];
+  $details = ['status' => $status];
+  $message = 'Failed to fetch the page.';
+  $errorCode = 'fetch_failed';
+
+  if (!$page['ok'] && $status === 0) {
+    $message = 'The request timed out or was blocked before receiving a response.';
+    $errorCode = 'network_error';
+  } elseif ($status === 0) {
+    $message = 'The server returned an unexpected response.';
+  } elseif ($status === 401 || $status === 403) {
+    $message = 'The site returned HTTP ' . $status . ' (access denied). It may require login or block bots.';
+    $errorCode = 'http_' . $status;
+  } elseif ($status === 404) {
+    $message = 'The page could not be found (HTTP 404).';
+    $errorCode = 'http_404';
+  } elseif ($status === 410 || $status === 451) {
+    $message = 'The page is no longer available (HTTP ' . $status . ').';
+    $errorCode = 'http_' . $status;
+  } elseif ($status === 429) {
+    $message = 'The site rate-limited our request (HTTP 429). Try again later.';
+    $errorCode = 'http_429';
+  } elseif ($status >= 500 && $status < 600) {
+    $message = 'The site returned an error (HTTP ' . $status . ').';
+    $errorCode = 'http_' . $status;
+  }
+
+  if ($page['body'] === '') {
+    $message .= ' The response body was empty.';
+    $errorCode = $errorCode === 'fetch_failed' ? 'empty_body' : $errorCode;
+  }
+
+  $details['error_code'] = $errorCode;
+  sfm_json_fail($message, 502, $details);
 }
 
-$items = sfm_extract_items($page['body'], $url, $limit);
+$extractDebug = [];
+$items = sfm_extract_items($page['body'], $url, $limit, $extractionOptions, $extractDebug);
 
 if (count($items) < $limit) {
-  $extra = sfm_collect_paginated_items($page['body'], $url, $limit, $items);
+  $extra = sfm_collect_paginated_items($page['body'], $url, $limit, $items, $extractionOptions);
   if ($extra) {
     $items = array_merge($items, $extra);
     $items = sfm_unique_items($items, $limit);
@@ -276,7 +352,7 @@ if (count($items) < $limit) {
 }
 
 if (empty($items)) {
-  sfm_json_fail('No items found on the given page.', 404);
+  sfm_fail_with_extraction_diagnostics($extractDebug, $extractionOptions);
 }
 
 $items = sfm_enrich_items_with_article_metadata($items, min(6, $limit));
@@ -344,6 +420,48 @@ echo json_encode([
 ], JSON_UNESCAPED_SLASHES);
 exit;
 
+function sfm_fail_with_extraction_diagnostics(array $debug, array $options): void
+{
+  $jsonLdCount    = $debug['jsonld_count'] ?? 0;
+  $domCount       = $debug['dom_count'] ?? 0;
+  $customMatches  = $debug['custom_selector_matches'] ?? null;
+  $customSelector = $options['item_selector'] ?? null;
+
+  $hints = [];
+  if ($customSelector !== null && $customSelector !== '' && $customMatches === 0) {
+    $hints[] = 'Your custom item_selector matched 0 elements. Double-check the CSS selector.';
+  }
+  if ($jsonLdCount === 0) {
+    $hints[] = 'No JSON-LD ItemList or Article metadata was detected.';
+  }
+  if ($domCount === 0) {
+    $hints[] = 'Heuristic scanning found no article-style links. The page may load content via JavaScript.';
+  }
+
+  $details = [
+    'jsonld_items' => $jsonLdCount,
+    'dom_items'    => $domCount,
+  ];
+
+  if ($customSelector !== null && $customSelector !== '') {
+    $details['item_selector'] = $customSelector;
+  }
+  if ($customMatches !== null) {
+    $details['custom_selector_matches'] = $customMatches;
+  }
+
+  $message = 'Could not detect any feed items on the page.';
+  if ($hints) {
+    $message .= ' ' . implode(' ', $hints);
+  }
+
+  sfm_json_fail($message, 422, [
+    'error_code' => 'no_items_found',
+    'hints'      => $hints,
+    'details'    => $details,
+  ]);
+}
+
 function sfm_enrich_items_with_article_metadata(array $items, int $maxFetch = 5): array
 {
   $fetched = 0;
@@ -408,7 +526,7 @@ function sfm_enrich_items_with_article_metadata(array $items, int $maxFetch = 5)
   return $items;
 }
 
-function sfm_collect_paginated_items(string $html, string $sourceUrl, int $limit, array $currentItems): array
+function sfm_collect_paginated_items(string $html, string $sourceUrl, int $limit, array $currentItems, array $options = []): array
 {
   $nextUrls = sfm_detect_pagination_links($html, $sourceUrl, 3);
   if (!$nextUrls) {
@@ -437,7 +555,7 @@ function sfm_collect_paginated_items(string $html, string $sourceUrl, int $limit
      *   status: int,
      *   headers: array<string,string>,
      *   body: string,
-     *   final_url: string,
+     *   final_url?: string,
      *   from_cache: bool,
      *   was_304: bool
      * } $resp */
@@ -452,7 +570,7 @@ function sfm_collect_paginated_items(string $html, string $sourceUrl, int $limit
       continue;
     }
 
-    $pageItems = sfm_extract_items($resp['body'], $nextUrl, $limit);
+    $pageItems = sfm_extract_items($resp['body'], $nextUrl, $limit, $options);
     if (!$pageItems) {
       continue;
     }

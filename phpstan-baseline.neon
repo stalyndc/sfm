@@ -2,7 +2,7 @@ parameters:
 	ignoreErrors:
 		-
 			message: "#^Offset 'body' does not exist on string\\.$#"
-			count: 5
+			count: 2
 			path: generate.php
 
 		-
@@ -12,22 +12,22 @@ parameters:
 
 		-
 			message: "#^Offset 'ok' does not exist on string\\.$#"
-			count: 3
+			count: 2
 			path: generate.php
 
 		-
 			message: "#^Offset 'status' does not exist on string\\.$#"
-			count: 3
+			count: 2
 			path: generate.php
 
 		-
 			message: "#^Offset 'status' on string on left side of \\?\\? does not exist\\.$#"
-			count: 2
+			count: 1
 			path: generate.php
 
 		-
 			message: "#^PHPDoc tag @var with type array\\<string, array\\<string, string\\>\\|bool\\|int\\|string\\> is not subtype of native type string\\.$#"
-			count: 2
+			count: 3
 			path: generate.php
 
 		-

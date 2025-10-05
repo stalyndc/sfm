@@ -266,13 +266,22 @@ function sfm_items_from_jsonld(DOMXPath $xp, string $baseUrl, int $limit): array
 /**
  * Use structural hints to find article links & titles when JSON-LD is absent/weak.
  */
-function sfm_items_from_dom(DOMXPath $xp, string $baseUrl, int $limit, array $seed = []): array {
+function sfm_items_from_dom(
+    DOMXPath $xp,
+    string $baseUrl,
+    int $limit,
+    array $seed = [],
+    array $options = [],
+    ?array &$debug = null
+): array {
     $items = $seed;
     $seen  = [];
 
     foreach ($seed as $it) {
         $seen[ md5(($it['link'] ?? '') . '|' . sfm_title_key($it['title'] ?? '')) ] = true;
     }
+
+    $domAdds = 0;
 
     // Common containers that hold links to stories
     $queries = [
@@ -307,6 +316,7 @@ function sfm_items_from_dom(DOMXPath $xp, string $baseUrl, int $limit, array $se
                 'description' => '',
                 'date'        => '',
             ];
+            $domAdds++;
             if (count($items) >= $limit) break 2;
         }
     }
@@ -324,6 +334,116 @@ function sfm_items_from_dom(DOMXPath $xp, string $baseUrl, int $limit, array $se
         unset($it);
     }
 
+    if ($debug !== null) {
+        $debug['dom_count'] = ($debug['dom_count'] ?? 0) + $domAdds;
+    }
+
+    return $items;
+}
+
+function sfm_items_from_custom_selector(
+    DOMXPath $xp,
+    string $baseUrl,
+    int $limit,
+    array $options,
+    array $seed = [],
+    ?array &$debug = null
+): array {
+    if (empty($options['item_selector_xpath'])) {
+        if ($debug !== null && isset($options['item_selector'])) {
+            $debug['custom_selector'] = $options['item_selector'];
+            $debug['custom_selector_matches'] = null;
+        }
+        return $seed;
+    }
+
+    $items = $seed;
+    $seen  = [];
+
+    foreach ($seed as $it) {
+        $seen[ md5(($it['link'] ?? '') . '|' . sfm_title_key($it['title'] ?? '')) ] = true;
+    }
+
+    $nodes = $xp->query($options['item_selector_xpath']);
+    $matches = $nodes ? $nodes->length : 0;
+    if ($debug !== null) {
+        $debug['custom_selector'] = $options['item_selector'] ?? $options['item_selector_xpath'];
+        $debug['custom_selector_matches'] = $matches;
+    }
+
+    if (!$nodes || !$nodes->length) {
+        return $items;
+    }
+
+    foreach ($nodes as $node) {
+        if (!$node instanceof DOMElement) {
+            continue;
+        }
+
+        $linkEl = $node->nodeName === 'a'
+            ? $node
+            : $xp->query('.//a[@href]', $node)->item(0);
+
+        if (!$linkEl instanceof DOMElement) {
+            continue;
+        }
+
+        $href = trim($linkEl->getAttribute('href'));
+        if ($href === '' || stripos($href, 'javascript:') === 0 || stripos($href, 'mailto:') === 0) {
+            continue;
+        }
+
+        $href = sfm_abs_url($href, $baseUrl);
+        if ($href === '') {
+            continue;
+        }
+
+        $title = sfm_neat_text($linkEl->textContent ?? '', 220);
+        if (isset($options['title_selector_xpath'])) {
+            $titleNode = $xp->query($options['title_selector_xpath'], $node)->item(0);
+            if ($titleNode) {
+                $candidate = sfm_neat_text($titleNode->textContent ?? '', 220);
+                if ($candidate !== '') {
+                    $title = $candidate;
+                }
+            }
+        }
+        if ($title === '') {
+            $title = $href;
+        }
+
+        $summary = '';
+        if (isset($options['summary_selector_xpath'])) {
+            $summaryNode = $xp->query($options['summary_selector_xpath'], $node)->item(0);
+            if ($summaryNode) {
+                $summary = sfm_neat_text($summaryNode->textContent ?? '', 400);
+            }
+        }
+
+        $date = '';
+        $timeNode = $xp->query('.//time[@datetime]', $node)->item(0);
+        if ($timeNode instanceof DOMElement) {
+            $date = sfm_clean_date($timeNode->getAttribute('datetime'));
+        }
+
+        $key = md5($href . '|' . sfm_title_key($title));
+        if (isset($seen[$key])) {
+            continue;
+        }
+        $seen[$key] = true;
+
+        $items[] = [
+            'title'       => $title,
+            'link'        => $href,
+            'description' => $summary,
+            'date'        => $date,
+        ];
+
+        if (count($items) >= $limit) {
+            break;
+        }
+    }
+
     return $items;
 }
 
@@ -339,7 +459,7 @@ function sfm_items_from_dom(DOMXPath $xp, string $baseUrl, int $limit, array $se
  * @param int    $limit     Max number of items
  * @return array            Array of item arrays (see top-of-file shape)
  */
-function sfm_extract_items(string $html, string $sourceUrl, int $limit = 10): array {
+function sfm_extract_items(string $html, string $sourceUrl, int $limit = 10, array $options = [], ?array &$debug = null): array {
     libxml_use_internal_errors(true);
     $doc = new DOMDocument();
     @$doc->loadHTML(mb_convert_encoding($html, 'HTML-ENTITIES', 'UTF-8'));
@@ -349,10 +469,21 @@ function sfm_extract_items(string $html, string $sourceUrl, int $limit = 10): ar
 
     // 1) Prefer JSON-LD when present (cleaner titles/links/dates)
     $items = sfm_items_from_jsonld($xp, $base, $limit);
-    if (count($items) >= $limit) return $items;
+    if ($debug !== null) {
+        $debug['jsonld_count'] = count($items);
+    }
+    if (count($items) >= $limit) {
+        return $items;
+    }
 
-    // 2) Fall back to DOM heuristics to reach $limit
-    $items = sfm_items_from_dom($xp, $base, $limit, $items);
+    // 2) Optional custom selector override
+    $items = sfm_items_from_custom_selector($xp, $base, $limit, $options, $items, $debug);
+    if (count($items) >= $limit) {
+        return $items;
+    }
+
+    // 3) Fall back to DOM heuristics to reach $limit
+    $items = sfm_items_from_dom($xp, $base, $limit, $items, $options, $debug);
 
     // Gentle uniq by link (keep first occurrence)
     $seen = [];
@@ -365,6 +496,142 @@ function sfm_extract_items(string $html, string $sourceUrl, int $limit = 10): ar
         if (count($uniq) >= $limit) break;
     }
     return $uniq;
+}
+
+function sfm_css_to_xpath(string $css, bool $relative = false): ?string
+{
+    $css = trim($css);
+    if ($css === '') {
+        return null;
+    }
+
+    $selectors = array_filter(array_map('trim', explode(',', $css)));
+    if (!$selectors) {
+        return null;
+    }
+
+    $paths = [];
+    foreach ($selectors as $selector) {
+        $path = sfm_css_selector_to_xpath($selector, $relative);
+        if ($path === null) {
+            return null;
+        }
+        $paths[] = $path;
+    }
+
+    return implode(' | ', $paths);
+}
+
+function sfm_css_selector_to_xpath(string $selector, bool $relative): ?string
+{
+    $selector = trim($selector);
+    if ($selector === '') {
+        return null;
+    }
+
+    $selector = str_replace('>', ' > ', $selector);
+    $normalized = preg_replace('/\s+/', ' ', $selector);
+    $selector = trim(is_string($normalized) ? $normalized : '');
+    $tokens = array_filter(explode(' ', $selector), static function ($token) {
+        return $token !== '';
+    });
+    if (!$tokens) {
+        return null;
+    }
+
+    $xpath = $relative ? '.' : '';
+    $combinator = $relative ? '//' : '//';
+    $first = true;
+
+    foreach ($tokens as $token) {
+        if ($token === '>') {
+            $combinator = '/';
+            continue;
+        }
+
+        $segment = sfm_css_simple_selector_to_xpath($token);
+        if ($segment === null) {
+            return null;
+        }
+
+        if ($first) {
+            $xpath = ($relative ? './/' : '//') . $segment;
+            $first = false;
+        } else {
+            $xpath .= $combinator . $segment;
+        }
+        $combinator = '//';
+    }
+
+    return $xpath;
+}
+
+function sfm_css_simple_selector_to_xpath(string $selector): ?string
+{
+    $selector = trim($selector);
+    if ($selector === '') {
+        return null;
+    }
+
+    $tag = '*';
+    $conditions = [];
+
+    if (preg_match('/^[a-z][a-z0-9_-]*/i', $selector, $match)) {
+        $tag = strtolower($match[0]);
+        $selector = substr($selector, strlen($match[0]));
+    }
+
+    while ($selector !== '') {
+        $prefix = $selector[0];
+        if ($prefix === '#') {
+            $selector = substr($selector, 1);
+            if (!preg_match('/^[a-zA-Z0-9_-]+/', $selector, $m)) {
+                return null;
+            }
+            $value = $m[0];
+            $selector = substr($selector, strlen($value));
+            $conditions[] = '@id=' . sfm_xpath_literal($value);
+        } elseif ($prefix === '.') {
+            $selector = substr($selector, 1);
+            if (!preg_match('/^[a-zA-Z0-9_-]+/', $selector, $m)) {
+                return null;
+            }
+            $value = $m[0];
+            $selector = substr($selector, strlen($value));
+            $conditions[] = 'contains(concat(' . sfm_xpath_literal(' ') . ', normalize-space(@class), ' . sfm_xpath_literal(' ') . '), ' . sfm_xpath_literal(' ' . $value . ' ') . ')';
+        } else {
+            return null;
+        }
+    }
+
+    if (!$conditions) {
+        return $tag;
+    }
+
+    return $tag . '[' . implode(' and ', $conditions) . ']';
+}
+
+function sfm_xpath_literal(string $value): string
+{
+    if (strpos($value, "'") === false) {
+        return "'" . $value . "'";
+    }
+    if (strpos($value, '"') === false) {
+        return '"' . $value . '"';
+    }
+
+    $parts = explode("'", $value);
+    $pieces = [];
+    foreach ($parts as $index => $part) {
+        if ($part !== '') {
+            $pieces[] = "'" . $part . "'";
+        }
+        if ($index !== count($parts) - 1) {
+            $pieces[] = "\"'\"";
+        }
+    }
+
+    return 'concat(' . implode(', ', $pieces) . ')';
 }
 
 /**
