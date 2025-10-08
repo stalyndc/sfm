@@ -50,6 +50,7 @@ require_once $secFile;    // secure_assert_post(), csrf helpers
 require_once $httpFile;   // http_get(), http_head(), http_multi_get(), sfm_log_event()
 require_once $extFile;    // sfm_extract_items(), sfm_discover_feeds()
 require_once __DIR__ . '/includes/feed_validator.php';
+require_once __DIR__ . '/includes/enrich.php';
 require_once __DIR__ . '/includes/jobs.php';
 
 // ---------------------------------------------------------------------
@@ -190,12 +191,13 @@ if (!empty($_SERVER['HTTP_ORIGIN'])) {
 // A) Prefer native feed if requested
 // ---------------------------------------------------------------------
 if ($preferNative) {
-  $page = http_get($url, [
+  /** @phpstan-var array{ok:bool,status:int,headers:array<string,string>,body:string,final_url:string,from_cache:bool,was_304:bool} $pageResp */
+  $pageResp = http_get($url, [
     'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
   ]);
 
-  if ($page['ok'] && $page['status'] >= 200 && $page['status'] < 400 && $page['body'] !== '') {
-    $cands = sfm_discover_feeds($page['body'], $url);
+  if ($pageResp['ok'] && $pageResp['status'] >= 200 && $pageResp['status'] < 400 && $pageResp['body'] !== '') {
+    $cands = sfm_discover_feeds($pageResp['body'], $url);
     if ($cands) {
       $cands = array_values(array_filter($cands, function ($cand) {
         if (!isset($cand['href'])) return false;
@@ -232,6 +234,7 @@ if ($preferNative) {
         sfm_json_fail('Native feed is not accessible.', 400);
       }
 
+      /** @phpstan-var array{ok:bool,status:int,headers:array<string,string>,body:string,final_url:string,from_cache:bool,was_304:bool} $feed */
       $feed = http_get($pick['href'], [
         'accept' => 'application/rss+xml, application/atom+xml, application/feed+json, application/json, application/xml;q=0.9, */*;q=0.8'
       ]);
@@ -261,7 +264,7 @@ if ($preferNative) {
           'feed_filename'     => $filename,
           'feed_url'          => $feedUrl,
           'prefer_native'     => true,
-          'last_refresh_code' => $feed['status'] ?? null,
+          'last_refresh_code' => $feed['status'],
           'last_refresh_note' => 'native download',
         ]);
 
@@ -299,7 +302,7 @@ if ($preferNative) {
 // ---------------------------------------------------------------------
 // B) Custom parse path
 // ---------------------------------------------------------------------
-/** @var array{ok:bool,status:int,body:string,headers:array<string,string>,final_url?:string,from_cache:bool,was_304:bool} $page */
+/** @phpstan-var array{ok:bool,status:int,headers:array<string,string>,body:string,final_url:string,from_cache:bool,was_304:bool} $page */
 $page = http_get($url, [
   'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
 ]);
@@ -490,70 +493,6 @@ function sfm_fail_with_extraction_diagnostics(array $debug, array $options): voi
   ]);
 }
 
-function sfm_enrich_items_with_article_metadata(array $items, int $maxFetch = 5): array
-{
-  $fetched = 0;
-
-  foreach ($items as &$item) {
-    $needSummary = empty($item['description']);
-    $needDate    = empty($item['date']);
-    $needContent = empty($item['content_html']);
-
-    if (!$needSummary && !$needDate && !$needContent) {
-      if ($fetched >= $maxFetch) {
-        continue;
-      }
-    }
-
-    $link = $item['link'] ?? '';
-    if ($link === '' || !sfm_is_http_url($link)) continue;
-
-    if ($fetched >= $maxFetch) break;
-    $fetched++;
-
-    /**
-     * @var array{
-     *   ok: bool,
-     *   status: int,
-     *   body: string,
-     *   headers: array<string,string>,
-     *   final_url?: string,
-     *   from_cache: bool,
-     *   was_304: bool
-     * } $resp
-     */
-    $resp = http_get($link, [
-      'accept'     => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-      'cache_ttl'  => 86400,
-      'timeout'    => 12,
-      'use_cache'  => true,
-    ]);
-
-    if (!$resp['ok'] || $resp['body'] === '') {
-      continue;
-    }
-
-    $finalUrl = (isset($resp['final_url']) && $resp['final_url'] !== '') ? (string)$resp['final_url'] : $link;
-    [$summary, $published, $contentHtml] = sfm_parse_article_metadata($resp['body'], $finalUrl);
-
-    if (($needSummary || $needContent) && $summary !== '') {
-      $item['description'] = $summary;
-    }
-    if ($needDate && $published !== '') {
-      $item['date'] = sfm_clean_date($published);
-    }
-    if ($contentHtml !== '') {
-      $item['content_html'] = $contentHtml;
-      if (empty($item['description'])) {
-        $item['description'] = sfm_neat_text(strip_tags($contentHtml), 400);
-      }
-    }
-  }
-  unset($item);
-
-  return $items;
-}
-
 function sfm_collect_paginated_items(string $html, string $sourceUrl, int $limit, array $currentItems, array $options = []): array
 {
   $nextUrls = sfm_detect_pagination_links($html, $sourceUrl, 3);
@@ -578,15 +517,7 @@ function sfm_collect_paginated_items(string $html, string $sourceUrl, int $limit
       continue;
     }
 
-    /** @var array{
-     *   ok: bool,
-     *   status: int,
-     *   headers: array<string,string>,
-     *   body: string,
-     *   final_url?: string,
-     *   from_cache: bool,
-     *   was_304: bool
-     * } $resp */
+    /** @phpstan-var array{ok:bool,status:int,headers:array<string,string>,body:string,final_url:string,from_cache:bool,was_304:bool} $resp */
     $resp = http_get($nextUrl, [
       'accept'    => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
       'cache_ttl' => 600,
@@ -619,275 +550,6 @@ function sfm_collect_paginated_items(string $html, string $sourceUrl, int $limit
   return $extras;
 }
 
-function sfm_parse_article_metadata(string $html, string $baseUrl): array
-{
-  libxml_use_internal_errors(true);
-  $doc = new DOMDocument();
-  @$doc->loadHTML(mb_convert_encoding($html, 'HTML-ENTITIES', 'UTF-8'));
-  $xp = new DOMXPath($doc);
-
-  $summary = '';
-  $summaryQueries = [
-    "//meta[@name='description']/@content",
-    "//meta[@property='og:description']/@content",
-    "//meta[@name='twitter:description']/@content",
-  ];
-  foreach ($summaryQueries as $q) {
-    $node = $xp->query($q)->item(0);
-    if ($node) {
-      $summary = sfm_neat_text((string)$node->nodeValue, 400);
-      if ($summary !== '') break;
-    }
-  }
-
-  if ($summary === '') {
-    $pNodes = $xp->query('//article//p | //main//p | //div[contains(@class,"summary") or contains(@class,"dek") or contains(@class,"excerpt")]//p');
-    if ($pNodes) {
-      foreach ($pNodes as $p) {
-        $text = sfm_neat_text($p->textContent ?? '', 400);
-        if (mb_strlen($text) >= 80) {
-          $summary = $text;
-          break;
-        }
-      }
-    }
-  }
-
-  $date = '';
-  $dateQueries = [
-    "//meta[@property='article:published_time']/@content",
-    "//meta[@itemprop='datePublished']/@content",
-    "//meta[@name='dc.date.issued']/@content",
-    "//time[@datetime]/@datetime",
-  ];
-  foreach ($dateQueries as $q) {
-    $node = $xp->query($q)->item(0);
-    if ($node) {
-      $date = trim((string)$node->nodeValue);
-      if ($date !== '') break;
-    }
-  }
-
-  $contentHtml = sfm_extract_article_html($xp, $baseUrl);
-  return [$summary, $date, $contentHtml];
-}
-
-function sfm_extract_article_html(DOMXPath $xp, string $baseUrl): string
-{
-  $candidates = [
-    '//article',
-    '//div[contains(@class,"article-body")]',
-    '//div[contains(@class,"article__body")]',
-    '//div[contains(@class,"content-body")]',
-    '//main//article',
-    '//main[contains(@class,"content")]//div[contains(@class,"content")]'
-  ];
-
-  foreach ($candidates as $q) {
-    $node = $xp->query($q)->item(0);
-    if ($node) {
-      $html = sfm_sanitize_article_html($node, $baseUrl);
-      if (strip_tags($html) !== '' && mb_strlen(strip_tags($html)) > 120) {
-        return $html;
-      }
-    }
-  }
-
-  $pNodes = $xp->query('//main//p | //article//p');
-  if ($pNodes && $pNodes->length) {
-    $buffer = '';
-    $count = 0;
-    foreach ($pNodes as $p) {
-      $text = sfm_neat_text($p->textContent ?? '', 400);
-      if ($text === '') continue;
-      $buffer .= '<p>' . htmlspecialchars($text, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') . '</p>';
-      $count++;
-      if ($count >= 6) break;
-    }
-    if ($buffer !== '') return $buffer;
-  }
-
-  return '';
-}
-
-function sfm_sanitize_article_html(DOMNode $root, string $baseUrl): string
-{
-  $doc = new DOMDocument();
-  $wrapper = $doc->importNode($root, true);
-  $container = $doc->createElement('div');
-  $doc->appendChild($container);
-  $container->appendChild($wrapper);
-
-  $xp = new DOMXPath($doc);
-  foreach (['//script', '//style', '//noscript', '//iframe', '//form'] as $q) {
-    foreach ($xp->query($q) as $bad) {
-      $bad->parentNode->removeChild($bad);
-    }
-  }
-
-  $allowedTags = ['p','ul','ol','li','strong','em','b','i','a','blockquote','img','figure','figcaption','h1','h2','h3','h4','pre','code','span','div','table','thead','tbody','tr','td','th','picture','source'];
-  $allowedAttrs = ['href','title','alt','src','width','height','class','srcset','type','media','loading','sizes'];
-
-  $nodes = iterator_to_array($xp->query('//*'));
-  foreach ($nodes as $node) {
-    if (!$node instanceof DOMElement) {
-      continue;
-    }
-
-    $name = strtolower($node->nodeName);
-    if (!in_array($name, $allowedTags, true)) {
-      sfm_remove_node_keep_children($node);
-      continue;
-    }
-
-    if ($name === 'img') {
-      sfm_normalize_lazy_image($node, $baseUrl);
-    } elseif ($name === 'source') {
-      sfm_normalize_lazy_source($node, $baseUrl);
-    }
-
-    if ($node->hasAttributes()) {
-      foreach ($node->attributes as $attr) {
-        if (!$attr instanceof DOMAttr) {
-          continue;
-        }
-        $attrName = strtolower($attr->nodeName);
-        if (!in_array($attrName, $allowedAttrs, true)) {
-          $node->removeAttributeNode($attr);
-          continue;
-        }
-        if ($name === 'a' && $attrName === 'href') {
-          $node->setAttribute('href', sfm_abs_url($attr->nodeValue ?? '', $baseUrl));
-        }
-        if ($name === 'img' && $attrName === 'src') {
-          $node->setAttribute('src', sfm_abs_url($attr->nodeValue ?? '', $baseUrl));
-        }
-        if (in_array($name, ['img','source'], true) && $attrName === 'srcset') {
-          $node->setAttribute('srcset', sfm_normalize_srcset($attr->nodeValue ?? '', $baseUrl));
-        }
-      }
-    }
-  }
-
-  return sfm_inner_html($container);
-}
-
-function sfm_normalize_lazy_image(DOMElement $node, string $baseUrl): void
-{
-  $sourceAttrs = ['src','data-src','data-original','data-lazy','data-lazy-src','data-image','data-url','data-img','data-srcset'];
-  $srcValue = '';
-  foreach ($sourceAttrs as $attr) {
-    if (!$node->hasAttribute($attr)) {
-      continue;
-    }
-    $candidate = trim((string)$node->getAttribute($attr));
-    if ($candidate === '') {
-      continue;
-    }
-    if (strpos($attr, 'srcset') !== false) {
-      $candidate = sfm_pick_first_src_from_srcset($candidate);
-    }
-    if ($candidate !== '') {
-      $srcValue = $candidate;
-      break;
-    }
-  }
-
-  if ($srcValue === '' && $node->hasAttribute('srcset')) {
-    $srcValue = sfm_pick_first_src_from_srcset((string)$node->getAttribute('srcset'));
-  }
-
-  if ($srcValue !== '') {
-    $node->setAttribute('src', sfm_abs_url($srcValue, $baseUrl));
-  }
-
-  if ($node->hasAttribute('srcset')) {
-    $node->setAttribute('srcset', sfm_normalize_srcset((string)$node->getAttribute('srcset'), $baseUrl));
-  }
-
-  foreach (['data-src','data-original','data-lazy','data-lazy-src','data-image','data-url','data-img','data-srcset'] as $attr) {
-    if ($node->hasAttribute($attr)) {
-      $node->removeAttribute($attr);
-    }
-  }
-}
-
-function sfm_normalize_lazy_source(DOMElement $node, string $baseUrl): void
-{
-  if ($node->hasAttribute('data-srcset') && !$node->hasAttribute('srcset')) {
-    $node->setAttribute('srcset', $node->getAttribute('data-srcset'));
-  }
-  if ($node->hasAttribute('srcset')) {
-    $node->setAttribute('srcset', sfm_normalize_srcset((string)$node->getAttribute('srcset'), $baseUrl));
-  }
-  foreach (['data-srcset','data-src'] as $attr) {
-    if ($node->hasAttribute($attr)) {
-      $node->removeAttribute($attr);
-    }
-  }
-}
-
-function sfm_normalize_srcset(string $srcset, string $baseUrl): string
-{
-  $srcset = trim($srcset);
-  if ($srcset === '') {
-    return '';
-  }
-
-  $entries = array_filter(array_map('trim', explode(',', $srcset)));
-  if (!$entries) {
-    return '';
-  }
-
-  $normalized = [];
-  foreach ($entries as $entry) {
-    $parts = preg_split('/\s+/', $entry, 2);
-    $url = sfm_abs_url($parts[0] ?? '', $baseUrl);
-    if ($url === '') {
-      continue;
-    }
-    $descriptor = $parts[1] ?? '';
-    $normalized[] = $descriptor !== '' ? ($url . ' ' . $descriptor) : $url;
-  }
-
-  return implode(', ', $normalized);
-}
-
-function sfm_pick_first_src_from_srcset(string $srcset): string
-{
-  $srcset = trim($srcset);
-  if ($srcset === '') {
-    return '';
-  }
-  $entries = array_filter(array_map('trim', explode(',', $srcset)));
-  foreach ($entries as $entry) {
-    $parts = preg_split('/\s+/', $entry, 2);
-    $candidate = trim($parts[0] ?? '');
-    if ($candidate !== '') {
-      return $candidate;
-    }
-  }
-  return '';
-}
-
-function sfm_remove_node_keep_children(DOMNode $node): void
-{
-  if (!$node->parentNode) return;
-  $parent = $node->parentNode;
-  while ($node->firstChild) {
-    $parent->insertBefore($node->firstChild, $node);
-  }
-  $parent->removeChild($node);
-}
-
-function sfm_inner_html(DOMNode $node): string
-{
-  $html = '';
-  foreach ($node->childNodes as $child) {
-    $html .= $node->ownerDocument->saveHTML($child);
-  }
-  return $html;
-}
 
 function sfm_detect_pagination_links(string $html, string $sourceUrl, int $max = 2): array
 {

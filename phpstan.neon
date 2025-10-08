@@ -10,6 +10,8 @@ parameters:
         - generate2.php
         - health.php
         - index.php
+    stubFiles:
+        - phpstan/function-stubs.php
     tmpDir: storage/phpstan
     excludePaths:
         - secure/vendor

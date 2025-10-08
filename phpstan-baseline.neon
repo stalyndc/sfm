@@ -1,39 +1,19 @@
 parameters:
 	ignoreErrors:
 		-
-			message: "#^Offset 'body' does not exist on string\\.$#"
-			count: 2
-			path: generate.php
-
-		-
-			message: "#^Offset 'headers' does not exist on string\\.$#"
+			message: "#^Anonymous function has an unused use \\$__fatal\\.$#"
 			count: 1
-			path: generate.php
+			path: generate2.php
 
 		-
-			message: "#^Offset 'ok' does not exist on string\\.$#"
-			count: 2
-			path: generate.php
-
-		-
-			message: "#^Offset 'status' does not exist on string\\.$#"
-			count: 2
-			path: generate.php
-
-		-
-			message: "#^Offset 'status' on string on left side of \\?\\? does not exist\\.$#"
-			count: 1
+			message: "#^PHPDoc tag @var with type array\\<string, array\\<string, string\\>\\|bool\\|int\\|string\\> is not subtype of native type string\\.$#"
+			count: 4
 			path: generate.php
 
 		-
 			message: "#^PHPDoc tag @var with type array\\<string, array\\<string, string\\>\\|bool\\|int\\|string\\> is not subtype of native type string\\.$#"
-			count: 3
-			path: generate.php
-
-		-
-			message: "#^Anonymous function has an unused use \\$__fatal\\.$#"
 			count: 1
-			path: generate2.php
+			path: includes/enrich.php
 
 		-
 			message: "#^Call to an undefined method DOMNode\\:\\:getAttribute\\(\\)\\.$#"

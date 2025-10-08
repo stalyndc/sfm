@@ -36,6 +36,22 @@ if (!function_exists('sfm_is_http_url')) {
   }
 }
 
+if (!function_exists('sfm_guess_mime_from_url')) {
+  function sfm_guess_mime_from_url(string $url): string
+  {
+    $path = parse_url($url, PHP_URL_PATH) ?? '';
+    $ext  = strtolower((string)pathinfo($path, PATHINFO_EXTENSION));
+    switch ($ext) {
+      case 'png': return 'image/png';
+      case 'gif': return 'image/gif';
+      case 'webp': return 'image/webp';
+      case 'svg': return 'image/svg+xml';
+      case 'avif': return 'image/avif';
+      default:     return 'image/jpeg';
+    }
+  }
+}
+
 if (!function_exists('uuid_v5')) {
   function uuid_v5(string $name, string $namespace = '6ba7b811-9dad-11d1-80b4-00c04fd430c8'): string
   {
@@ -68,7 +84,7 @@ if (!function_exists('to_rfc3339')) {
 if (!function_exists('build_rss')) {
   function build_rss(string $title, string $link, string $desc, array $items): string
   {
-    $xml = new SimpleXMLElement('<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"/>');
+    $xml = new SimpleXMLElement('<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/"/>');
     $channel = $xml->addChild('channel');
     $channel->addChild('title', xml_safe($title));
     $channel->addChild('link', xml_safe($link));
@@ -93,6 +109,25 @@ if (!function_exists('build_rss')) {
       }
       $guid = $it['link'] ?? md5(($it['title'] ?? '') . ($it['description'] ?? ''));
       $i->addChild('guid', xml_safe($guid));
+
+      if (!empty($it['author'])) {
+        $i->addChild('dc:creator', xml_safe((string)$it['author']), 'http://purl.org/dc/elements/1.1/');
+      }
+
+      if (!empty($it['image']) && sfm_is_http_url((string)$it['image'])) {
+        $media = $i->addChild('media:content', null, 'http://search.yahoo.com/mrss/');
+        $media->addAttribute('url', (string)$it['image']);
+        $media->addAttribute('medium', 'image');
+        $media->addAttribute('type', sfm_guess_mime_from_url((string)$it['image']));
+      }
+
+      if (!empty($it['tags']) && is_array($it['tags'])) {
+        foreach ($it['tags'] as $tag) {
+          $tag = trim((string)$tag);
+          if ($tag === '') continue;
+          $i->addChild('category', xml_safe($tag));
+        }
+      }
     }
 
     return $xml->asXML();
@@ -127,6 +162,24 @@ if (!function_exists('build_atom')) {
         $content = $e->addChild('content', null);
         $content->addAttribute('type', 'html');
         sfm_add_cdata($content, (string)$it['content_html']);
+      }
+      if (!empty($it['author'])) {
+        $author = $e->addChild('author');
+        $author->addChild('name', xml_safe((string)$it['author']));
+      }
+      if (!empty($it['image']) && sfm_is_http_url((string)$it['image'])) {
+        $enclosure = $e->addChild('link');
+        $enclosure->addAttribute('rel', 'enclosure');
+        $enclosure->addAttribute('href', (string)$it['image']);
+        $enclosure->addAttribute('type', sfm_guess_mime_from_url((string)$it['image']));
+      }
+      if (!empty($it['tags']) && is_array($it['tags'])) {
+        foreach ($it['tags'] as $tag) {
+          $tag = trim((string)$tag);
+          if ($tag === '') continue;
+          $cat = $e->addChild('category');
+          $cat->addAttribute('term', $tag);
+        }
       }
     }
 
@@ -177,6 +230,31 @@ if (!function_exists('build_jsonfeed')) {
         $iso = to_rfc3339($it['date']);
         if ($iso) {
           $item['date_published'] = $iso;
+        }
+      }
+
+      if (!empty($it['author'])) {
+        $authorName = trim((string)$it['author']);
+        if ($authorName !== '') {
+          $authorObj = ['name' => $authorName];
+          $item['authors'] = [$authorObj];
+          $item['author']  = $authorObj;
+        }
+      }
+
+      if (!empty($it['image']) && sfm_is_http_url((string)$it['image'])) {
+        $item['image'] = $it['image'];
+      }
+
+      if (!empty($it['tags']) && is_array($it['tags'])) {
+        $tags = array_map(function ($tag) {
+          return trim((string)$tag);
+        }, $it['tags']);
+        $tags = array_values(array_filter($tags, static function (string $val): bool {
+          return $val !== '';
+        }));
+        if ($tags) {
+          $item['tags'] = $tags;
         }
       }
 

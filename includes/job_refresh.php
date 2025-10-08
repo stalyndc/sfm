@@ -10,6 +10,7 @@ declare(strict_types=1);
 require_once __DIR__ . '/config.php';
 require_once __DIR__ . '/http.php';
 require_once __DIR__ . '/extract.php';
+require_once __DIR__ . '/enrich.php';
 require_once __DIR__ . '/jobs.php';
 require_once __DIR__ . '/security.php';
 require_once __DIR__ . '/feed_validator.php';
@@ -200,6 +201,10 @@ if (!function_exists('sfm_refresh_custom')) {
         $items = sfm_extract_items($page['body'], $sourceUrl, $limit);
         if (empty($items)) {
             throw new RuntimeException('No items found during refresh');
+        }
+
+        if (function_exists('sfm_enrich_items_with_article_metadata')) {
+            $items = sfm_enrich_items_with_article_metadata($items, min(6, $limit));
         }
 
         $title = APP_NAME . ' Feed';
