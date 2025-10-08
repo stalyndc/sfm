@@ -389,14 +389,14 @@ if (!function_exists('sfm_sanitize_article_html')) {
         $container->appendChild($wrapper);
 
         $xp = new DOMXPath($doc);
-        foreach (['//script', '//style', '//noscript', '//iframe', '//form', '//svg'] as $q) {
+        foreach (['//script', '//style', '//noscript', '//iframe', '//form', '//svg', '//picture', '//source'] as $q) {
             foreach ($xp->query($q) as $bad) {
                 $bad->parentNode->removeChild($bad);
             }
         }
 
-        $allowedTags = ['p','ul','ol','li','strong','em','b','i','a','blockquote','img','figure','figcaption','h1','h2','h3','h4','pre','code','span','div','table','thead','tbody','tr','td','th','picture','source'];
-        $allowedAttrs = ['href','title','alt','src','width','height','class','srcset','type','media','loading','sizes'];
+        $allowedTags = ['p','ul','ol','li','strong','em','b','i','a','blockquote','img','figure','figcaption','h1','h2','h3','h4','pre','code','span','div','table','thead','tbody','tr','td','th'];
+        $allowedAttrs = ['href','title','alt','src','width','height','class','loading'];
 
         $nodes = iterator_to_array($xp->query('//*'));
         foreach ($nodes as $node) {
@@ -412,8 +412,6 @@ if (!function_exists('sfm_sanitize_article_html')) {
 
             if ($name === 'img') {
                 sfm_normalize_lazy_image($node, $baseUrl);
-            } elseif ($name === 'source') {
-                sfm_normalize_lazy_source($node, $baseUrl);
             }
 
             if ($node->hasAttributes()) {
@@ -431,9 +429,6 @@ if (!function_exists('sfm_sanitize_article_html')) {
                     }
                     if ($name === 'img' && $attrName === 'src') {
                         $node->setAttribute('src', sfm_abs_url($attr->nodeValue ?? '', $baseUrl));
-                    }
-                    if (in_array($name, ['img','source'], true) && $attrName === 'srcset') {
-                        $node->setAttribute('srcset', sfm_normalize_srcset($attr->nodeValue ?? '', $baseUrl));
                     }
                 }
             }
