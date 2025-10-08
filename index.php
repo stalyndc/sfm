@@ -89,8 +89,8 @@ require __DIR__ . '/includes/page_header.php';
                   <button id="generateBtn" type="button" class="btn btn-primary btn-lg-sm flex-grow-1">
                     Generate feed
                   </button>
-                  <button id="clearBtn" type="button" class="btn btn-outline-secondary">
-                    Clear
+                  <button id="clearBtn" type="button" class="btn btn-outline-secondary btn-icon" aria-label="Clear form" title="Clear form">
+                    <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
 

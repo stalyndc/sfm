@@ -52,8 +52,23 @@ body {
   --bs-link-hover-color: #c0d6ff;
 }
 
+[data-bs-theme="light"] {
+  --bs-body-bg: #f6f8fc;
+  --bs-body-color: #1c2230;
+  --bs-secondary-color: #5b6478;
+  --bs-border-color: rgba(28, 34, 48, .14);
+  --bs-card-bg: #ffffff;
+  --bs-card-border-color: rgba(28, 34, 48, .08);
+  --bs-link-color: #1d4ed8;
+  --bs-link-hover-color: #1a3fb5;
+}
+
 .muted {
   color: rgba(227, 230, 237, .78);
+}
+
+[data-bs-theme="light"] .muted {
+  color: rgba(28, 34, 48, .62);
 }
 
 /* ------------------------------
@@ -131,6 +146,19 @@ body {
   transition: border-color .15s ease, box-shadow .15s ease, background-color .15s ease;
 }
 
+[data-bs-theme="light"] .form-control,
+[data-bs-theme="light"] .form-select {
+  background-color: #fff;
+  border-color: rgba(28, 34, 48, .2);
+}
+
+[data-bs-theme="light"] .form-control:focus,
+[data-bs-theme="light"] .form-select:focus {
+  background-color: #fff;
+  border-color: #1d4ed8;
+  box-shadow: 0 0 0 .2rem rgba(29, 78, 216, .18);
+}
+
 .form-control:focus,
 .form-select:focus {
   border-color: var(--sfm-accent);
@@ -175,6 +203,26 @@ input[type="number"] { -moz-appearance: textfield; }
 .btn {
   border-radius: 10px;
   transition: transform .15s ease, box-shadow .15s ease, background-color .15s ease, color .15s ease;
+}
+
+.btn-icon {
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  line-height: 1;
+}
+
+.btn-icon.btn-sm {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.btn-icon span {
+  font-size: 1.2rem;
 }
 
 .btn-success {
@@ -222,6 +270,12 @@ input[type="number"] { -moz-appearance: textfield; }
   background: rgba(16, 77, 57, .14);
 }
 
+[data-bs-theme="light"] #resultBox .btn-outline-success {
+  color: #1f8d57;
+  border-color: rgba(31, 141, 87, .35);
+  background: rgba(31, 141, 87, .12);
+}
+
 #resultBox .btn-outline-success:hover {
   background: rgba(99, 255, 164, .2);
   border-color: rgba(99, 255, 164, .6);
@@ -238,6 +292,15 @@ input[type="number"] { -moz-appearance: textfield; }
 
 #resultBox .btn {
   border-radius: 8px;
+}
+
+[data-bs-theme="light"] #resultBox .input-group {
+  background: rgba(255, 255, 255, .92);
+  border: 1px solid rgba(28, 34, 48, .08);
+}
+
+[data-bs-theme="light"] #resultBox .input-group .form-control {
+  color: inherit;
 }
 
 #resultBox .input-group {
@@ -321,6 +384,10 @@ input[type="number"] { -moz-appearance: textfield; }
   color: rgba(227, 230, 237, .74);
 }
 
+[data-bs-theme="light"] #resultCard .muted {
+  color: rgba(28, 34, 48, .64);
+}
+
 /* Small “status breadcrumb” line under the success box */
 .status-crumb {
   color: var(--bs-secondary-color);
@@ -378,6 +445,15 @@ input[type="number"] { -moz-appearance: textfield; }
    Helpers
 ------------------------------ */
 .text-secondary { color: var(--bs-secondary-color) !important; }
+
+.link-highlight {
+  color: var(--bs-link-color);
+  text-decoration: underline;
+}
+
+.link-highlight:hover {
+  color: var(--bs-link-hover-color);
+}
 
 .footnote {
   font-size: .9rem;

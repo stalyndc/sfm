@@ -25,8 +25,61 @@
   const resultCard = $('#resultCard');
   const resultBox  = $('#resultBox');
   const csrfField  = $('input[name="csrf_token"]');
+  const themeToggle = $('#themeToggle');
   const isHttps    = window.location.protocol === 'https:';
   const csrfCookie = 'sfm_csrf';
+  const themeStorageKey = 'sfm-theme';
+
+  const safeStorage = {
+    get(key) {
+      try {
+        return window.localStorage?.getItem(key) ?? null;
+      } catch (err) {
+        console.warn('localStorage unavailable', err);
+        return null;
+      }
+    },
+    set(key, value) {
+      try {
+        window.localStorage?.setItem(key, value);
+      } catch (err) {
+        console.warn('Failed to persist preference', err);
+      }
+    },
+  };
+
+  function updateThemeToggle(theme) {
+    if (!themeToggle) return;
+    const next = theme === 'dark' ? 'light' : 'dark';
+    const icon = theme === 'dark' ? '☀️' : '🌙';
+    themeToggle.dataset.theme = theme;
+    themeToggle.title = `Switch to ${next} mode`;
+    themeToggle.setAttribute('aria-label', themeToggle.title);
+    const iconSpan = themeToggle.querySelector('.theme-toggle-icon');
+    if (iconSpan) iconSpan.textContent = icon;
+  }
+
+  function applyTheme(theme, persist = true) {
+    const normalized = (theme === 'light' || theme === 'dark') ? theme : 'dark';
+    document.documentElement.setAttribute('data-bs-theme', normalized);
+    updateThemeToggle(normalized);
+    if (persist) safeStorage.set(themeStorageKey, normalized);
+  }
+
+  function initTheme() {
+    const stored = safeStorage.get(themeStorageKey);
+    let initial = stored === 'light' || stored === 'dark'
+      ? stored
+      : (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    applyTheme(initial, false);
+    themeToggle?.addEventListener('click', () => {
+      const current = document.documentElement.getAttribute('data-bs-theme');
+      const next = current === 'light' ? 'dark' : 'light';
+      applyTheme(next);
+    });
+  }
+
+  initTheme();
 
   const readCookie = (name) => {
     const prefix = `${name}=`;
@@ -114,7 +167,7 @@
     const metaHtml = metaParts.length ? `<div class="muted mt-2">${metaParts.join(' · ')}</div>` : '';
 
     const nativeHtml = usedNative && nativeSource
-      ? `<div class="muted small mt-1">Using site feed: <a class="link-light" href="${escapeHtml(nativeSource)}" target="_blank" rel="noopener">${escapeHtml(nativeSource)}</a></div>`
+      ? `<div class="muted small mt-1">Using site feed: <a class="link-highlight" href="${escapeHtml(nativeSource)}" target="_blank" rel="noopener">${escapeHtml(nativeSource)}</a></div>`
       : '';
 
     const warningsHtml = warnings.length
@@ -134,9 +187,11 @@
         </div>
       </div>
 
-      <div class="d-flex flex-wrap gap-2">
+      <div class="d-flex flex-wrap align-items-center gap-2">
         <a class="btn btn-outline-primary btn-sm" href="${validatorUrl}" target="_blank" rel="noopener">Validate feed</a>
-        <button id="newBtn" type="button" class="btn btn-outline-secondary btn-sm">New feed</button>
+        <button id="newBtn" type="button" class="btn btn-outline-secondary btn-icon btn-sm" aria-label="Start new feed" title="Start new feed">
+          <span aria-hidden="true">↺</span>
+        </button>
       </div>
       ${metaHtml}
       ${nativeHtml}
