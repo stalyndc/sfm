@@ -118,11 +118,9 @@
       : '';
 
     const warningsHtml = warnings.length
-      ? `<div class="alert alert-warning mt-3 mb-0">
-          <strong>Validation warnings</strong>
-          <ul class="mb-0 mt-2">
-            ${warnings.slice(0, 5).map((w) => `<li>${escapeHtml(w)}</li>`).join('')}
-          </ul>
+      ? `<div class="alert alert-warning mt-3 mb-0 d-flex align-items-center gap-2">
+          <span class="badge bg-warning text-dark">Validator</span>
+          <div class="small mb-0">Validator spotted ${warnings.length === 1 ? 'a warning' : 'some warnings'}. Most feeds still work fine; use <em>Validate feed</em> for details.</div>
         </div>`
       : '';
 
