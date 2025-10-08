@@ -115,8 +115,14 @@ if (!function_exists('build_rss')) {
       $i = $channel->addChild('item');
       $i->addChild('title', xml_safe($it['title'] ?? 'Untitled'));
       $i->addChild('link', xml_safe($it['link'] ?? ''));
-      $summary = xml_safe($it['description'] ?? '');
-      $i->addChild('description', $summary);
+      $descPlain = trim(strip_tags((string)($it['description'] ?? '')));
+      if ($descPlain === '') {
+        $descPlain = trim(strip_tags((string)($it['content_html'] ?? '')));
+      }
+      if ($descPlain === '') {
+        $descPlain = 'Feed item';
+      }
+      $i->addChild('description', xml_safe($descPlain));
       // Suppress content:encoded to avoid invalid markup from complex pages
       if (!empty($it['date'])) {
         $ts = strtotime($it['date']);
@@ -216,25 +222,17 @@ if (!function_exists('build_jsonfeed')) {
       $id  = $it['link'] ?? md5(($it['title'] ?? '') . ($it['description'] ?? ''));
       $url = $it['link'] ?? '';
       $ttl = $it['title'] ?? 'Untitled';
-      $summary = trim((string)($it['description'] ?? ''));
-
+      $summary = trim(strip_tags((string)($it['description'] ?? '')));
+      
       $item = ['id' => $id, 'url' => $url, 'title' => $ttl];
-      if ($summary !== '') {
-        if ($summary !== strip_tags($summary)) {
-          $item['content_html'] = sfm_clean_content_html($summary);
-        } else {
-          $item['content_text'] = $summary;
-        }
-      } else {
-        $item['content_text'] = $ttl ?: $url;
+      if ($summary === '') {
+        $summary = trim(strip_tags((string)($it['content_html'] ?? '')));
       }
-
-      if (!empty($summary)) {
-        $plain = trim(strip_tags($summary));
-        if ($plain !== '') {
-          $item['summary'] = mb_strlen($plain) > 220 ? mb_substr($plain, 0, 219) . '…' : $plain;
-        }
+      if ($summary === '') {
+        $summary = $ttl ?: $url;
       }
+      $item['content_text'] = $summary;
+      $item['summary'] = mb_strlen($summary) > 220 ? mb_substr($summary, 0, 219) . '…' : $summary;
 
       if (!empty($it['date'])) {
         $iso = to_rfc3339($it['date']);
