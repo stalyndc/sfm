@@ -143,6 +143,23 @@ if (is_array($structuredData)) {
   <!-- App styles -->
   <link rel="stylesheet" href="/assets/css/style.css">
 
+  <script>
+    (function () {
+      var preferred = 'dark';
+      try {
+        var stored = window.localStorage ? window.localStorage.getItem('sfm-theme') : null;
+        if (stored === 'light' || stored === 'dark') {
+          preferred = stored;
+        } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+          preferred = 'light';
+        }
+      } catch (err) {
+        preferred = 'dark';
+      }
+      document.documentElement.setAttribute('data-bs-theme', preferred);
+    })();
+  </script>
+
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-YZ2SN3R4PX"></script>
   <script>

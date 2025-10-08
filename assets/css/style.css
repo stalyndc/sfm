@@ -139,6 +139,10 @@ body {
   color: rgba(227, 230, 237, .7);
 }
 
+[data-bs-theme="light"] .form-text {
+  color: rgba(28, 34, 48, .55);
+}
+
 .form-control,
 .form-select {
   background-color: rgba(18, 22, 33, .92);

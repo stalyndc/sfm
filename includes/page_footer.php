@@ -13,6 +13,7 @@
     </div>
   </footer>
 
+  <script src="/assets/js/theme.js" defer></script>
   <!-- Bootstrap (defer JS parse) -->
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
