@@ -85,6 +85,7 @@ if (!function_exists('sfm_validate_feed')) {
         }
 
         $previous = libxml_use_internal_errors(true);
+        libxml_clear_errors();
         $dom       = new DOMDocument();
         $loaded    = $dom->loadXML($content, LIBXML_NONET | LIBXML_NOWARNING | LIBXML_NOERROR);
         $errors    = libxml_get_errors();
