@@ -36,6 +36,16 @@ if (!function_exists('sfm_is_http_url')) {
   }
 }
 
+if (!function_exists('sfm_clean_content_html')) {
+  function sfm_clean_content_html(string $html): string
+  {
+    if ($html === '') return '';
+    $html = preg_replace('~<svg\b[^>]*>.*?</svg>~is', '', $html) ?? $html;
+    $html = str_replace('</svg>', '', $html);
+    return $html;
+  }
+}
+
 if (!function_exists('sfm_guess_mime_from_url')) {
   function sfm_guess_mime_from_url(string $url): string
   {
@@ -99,7 +109,7 @@ if (!function_exists('build_rss')) {
       $i->addChild('description', $summary);
       if (!empty($it['content_html'])) {
         $encoded = $i->addChild('content:encoded', null, 'http://purl.org/rss/1.0/modules/content/');
-        sfm_add_cdata($encoded, (string)$it['content_html']);
+        sfm_add_cdata($encoded, sfm_clean_content_html((string)$it['content_html']));
       }
       if (!empty($it['date'])) {
         $ts = strtotime($it['date']);
@@ -161,7 +171,7 @@ if (!function_exists('build_atom')) {
       if (!empty($it['content_html'])) {
         $content = $e->addChild('content', null);
         $content->addAttribute('type', 'html');
-        sfm_add_cdata($content, (string)$it['content_html']);
+        sfm_add_cdata($content, sfm_clean_content_html((string)$it['content_html']));
       }
       if (!empty($it['author'])) {
         $author = $e->addChild('author');
@@ -208,10 +218,10 @@ if (!function_exists('build_jsonfeed')) {
 
       $item = ['id' => $id, 'url' => $url, 'title' => $ttl];
       if ($contentHtml !== '') {
-        $item['content_html'] = $contentHtml;
+        $item['content_html'] = sfm_clean_content_html($contentHtml);
       } elseif ($summary !== '') {
         if ($summary !== strip_tags($summary)) {
-          $item['content_html'] = $summary;
+          $item['content_html'] = sfm_clean_content_html($summary);
         } else {
           $item['content_text'] = $summary;
         }
