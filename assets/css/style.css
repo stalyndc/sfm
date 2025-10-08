@@ -310,6 +310,15 @@ input[type="number"] { -moz-appearance: textfield; }
   color: #fff;
 }
 
+#clearBtn .label {
+  display: none;
+  font-weight: 600;
+}
+
+#clearBtn .icon {
+  font-size: 1.1rem;
+}
+
 [data-bs-theme="light"] #clearBtn {
   color: rgba(28, 34, 48, .7);
   border-color: rgba(28, 34, 48, .18);
@@ -319,6 +328,27 @@ input[type="number"] { -moz-appearance: textfield; }
   color: #1c2230;
   border-color: rgba(28, 34, 48, .35);
   background-color: rgba(28, 34, 48, .06);
+}
+
+@media (max-width: 575.98px) {
+  #clearBtn {
+    width: auto;
+    height: auto;
+    border-radius: 999px;
+    padding: 0 .75rem;
+    font-size: .95rem;
+    display: inline-flex;
+    align-items: center;
+    gap: .3rem;
+  }
+
+  #clearBtn .icon {
+    font-size: 1rem;
+  }
+
+  #clearBtn .label {
+    display: inline;
+  }
 }
 
 #resultBox .btn-outline-success {
@@ -331,6 +361,32 @@ input[type="number"] { -moz-appearance: textfield; }
   color: #1f8d57;
   border-color: rgba(31, 141, 87, .35);
   background: rgba(31, 141, 87, .12);
+}
+
+#resultBox .btn-outline-secondary {
+  color: var(--sfm-accent);
+  border-color: rgba(76, 141, 255, .35);
+  background: rgba(76, 141, 255, .08);
+}
+
+#resultBox .btn-outline-secondary:hover,
+#resultBox .btn-outline-secondary.copy-ok {
+  background: rgba(76, 141, 255, .18);
+  border-color: rgba(76, 141, 255, .45);
+  color: #fff;
+}
+
+[data-bs-theme="light"] #resultBox .btn-outline-secondary {
+  color: #1d4ed8;
+  border-color: rgba(29, 78, 216, .35);
+  background: rgba(29, 78, 216, .08);
+}
+
+[data-bs-theme="light"] #resultBox .btn-outline-secondary:hover,
+[data-bs-theme="light"] #resultBox .btn-outline-secondary.copy-ok {
+  background: rgba(29, 78, 216, .18);
+  border-color: rgba(29, 78, 216, .5);
+  color: #fff;
 }
 
 #resultBox .btn-outline-success:hover {
@@ -386,9 +442,6 @@ input[type="number"] { -moz-appearance: textfield; }
 }
 
 .copy-ok {
-  background: var(--sfm-accent-soft) !important;
-  border-color: rgba(76, 141, 255, .5) !important;
-  color: #fff !important;
   transition: background .3s ease, border-color .3s ease, color .3s ease, box-shadow .3s ease;
   box-shadow: 0 0 0 .1rem rgba(76, 141, 255, .25);
 }

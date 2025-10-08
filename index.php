@@ -90,7 +90,8 @@ require __DIR__ . '/includes/page_header.php';
                     Generate feed
                   </button>
                   <button id="clearBtn" type="button" class="btn btn-outline-secondary btn-icon" aria-label="Clear form" title="Clear form">
-                    <span aria-hidden="true">&times;</span>
+                    <span class="icon" aria-hidden="true">&times;</span>
+                    <span class="label visually-hidden visually-hidden-focusable">Clear</span>
                   </button>
                 </div>
 
