@@ -217,7 +217,6 @@ if (!function_exists('build_jsonfeed')) {
       $url = $it['link'] ?? '';
       $ttl = $it['title'] ?? 'Untitled';
       $summary = trim((string)($it['description'] ?? ''));
-      $contentHtml = (string)($it['content_html'] ?? '');
 
       $item = ['id' => $id, 'url' => $url, 'title' => $ttl];
       if ($summary !== '') {
