@@ -40,9 +40,19 @@ if (!function_exists('sfm_clean_content_html')) {
   function sfm_clean_content_html(string $html): string
   {
     if ($html === '') return '';
-    $html = preg_replace('~<svg\b[^>]*>.*?</svg>~is', '', $html) ?? $html;
-    $html = str_replace('</svg>', '', $html);
-    return $html;
+    $patterns = [
+      '~<svg\b[^>]*>.*?</svg>~is',
+      '~<symbol\b[^>]*>.*?</symbol>~is',
+      '~<path\b[^>]*>~is',
+      '~</svg>~i',
+      '~</symbol>~i',
+    ];
+    foreach ($patterns as $pat) {
+      $html = preg_replace($pat, '', $html) ?? $html;
+    }
+    $allowed = '<p><br><ul><ol><li><strong><em><b><i><a>'; 
+    $textOnly = strip_tags($html, $allowed);
+    return $textOnly;
   }
 }
 
@@ -107,10 +117,7 @@ if (!function_exists('build_rss')) {
       $i->addChild('link', xml_safe($it['link'] ?? ''));
       $summary = xml_safe($it['description'] ?? '');
       $i->addChild('description', $summary);
-      if (!empty($it['content_html'])) {
-        $encoded = $i->addChild('content:encoded', null, 'http://purl.org/rss/1.0/modules/content/');
-        sfm_add_cdata($encoded, sfm_clean_content_html((string)$it['content_html']));
-      }
+      // Suppress content:encoded to avoid invalid markup from complex pages
       if (!empty($it['date'])) {
         $ts = strtotime($it['date']);
         if ($ts) {
@@ -168,11 +175,7 @@ if (!function_exists('build_atom')) {
       $e->addChild('updated', $u);
       $summary = xml_safe($it['description'] ?? '');
       $e->addChild('summary', $summary);
-      if (!empty($it['content_html'])) {
-        $content = $e->addChild('content', null);
-        $content->addAttribute('type', 'html');
-        sfm_add_cdata($content, sfm_clean_content_html((string)$it['content_html']));
-      }
+      // Atom content suppressed similar to RSS for consistency
       if (!empty($it['author'])) {
         $author = $e->addChild('author');
         $author->addChild('name', xml_safe((string)$it['author']));
@@ -217,9 +220,7 @@ if (!function_exists('build_jsonfeed')) {
       $contentHtml = (string)($it['content_html'] ?? '');
 
       $item = ['id' => $id, 'url' => $url, 'title' => $ttl];
-      if ($contentHtml !== '') {
-        $item['content_html'] = sfm_clean_content_html($contentHtml);
-      } elseif ($summary !== '') {
+      if ($summary !== '') {
         if ($summary !== strip_tags($summary)) {
           $item['content_html'] = sfm_clean_content_html($summary);
         } else {

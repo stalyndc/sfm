@@ -434,6 +434,14 @@ if (!function_exists('sfm_sanitize_article_html')) {
             }
         }
 
+        foreach (['contains(@class,"svg")','contains(@class,"bestListDeals")','contains(@class,"globalmodal")'] as $expr) {
+            foreach ($xp->query('//*[' . $expr . ']') as $clean) {
+                if ($clean instanceof DOMElement && $clean->parentNode) {
+                    $clean->parentNode->removeChild($clean);
+                }
+            }
+        }
+
         return sfm_inner_html($container);
     }
 }
@@ -464,8 +472,13 @@ if (!function_exists('sfm_normalize_lazy_image')) {
             $srcValue = sfm_pick_first_src_from_srcset((string)$node->getAttribute('srcset'));
         }
 
-        if ($srcValue !== '') {
-            $node->setAttribute('src', sfm_abs_url($srcValue, $baseUrl));
+       if ($srcValue !== '') {
+            if (stripos($srcValue, 'data:') === 0) {
+                $srcValue = '';
+            }
+            if ($srcValue !== '') {
+                $node->setAttribute('src', sfm_abs_url($srcValue, $baseUrl));
+            }
         }
 
         if ($node->hasAttribute('srcset')) {
