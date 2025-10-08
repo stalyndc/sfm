@@ -116,6 +116,145 @@ function ensure_http_url_or_fail(string $url, string $field = 'url'): void
   }
 }
 
+function sfm_filter_native_candidates(array $cands, string $sourceUrl): array
+{
+  if (!$cands) return [];
+
+  $cands = array_values(array_filter($cands, function ($cand) {
+    if (!isset($cand['href'])) return false;
+    $href = (string)$cand['href'];
+    if (!sfm_is_http_url($href)) return false;
+    return sfm_url_is_public($href);
+  }));
+
+  if (!$cands) return [];
+
+  $pageHost = parse_url($sourceUrl, PHP_URL_HOST);
+  usort($cands, function ($a, $b) use ($pageHost) {
+    $rank = function ($t) {
+      $t = strtolower($t ?? '');
+      if (strpos($t, 'rss') !== false)  return 3;
+      if (strpos($t, 'atom') !== false) return 2;
+      if (strpos($t, 'json') !== false) return 1;
+      if (strpos($t, 'xml') !== false)  return 2;
+      return 0;
+    };
+
+    $ah = parse_url($a['href'] ?? '', PHP_URL_HOST) ?: '';
+    $bh = parse_url($b['href'] ?? '', PHP_URL_HOST) ?: '';
+    $sameA = (strcasecmp($ah, $pageHost ?? '') === 0) ? 1 : 0;
+    $sameB = (strcasecmp($bh, $pageHost ?? '') === 0) ? 1 : 0;
+    if ($sameA !== $sameB) return $sameB <=> $sameA;
+    return $rank($b['type'] ?? '') <=> $rank($a['type'] ?? '');
+  });
+
+  return $cands;
+}
+
+function sfm_attempt_native_download(string $requestedUrl, array $candidate, int $limit, bool $preferNativeFlag, string $note, bool $strict, string $logPhase = 'native'): bool
+{
+  $href = isset($candidate['href']) ? (string)$candidate['href'] : '';
+  if ($href === '') {
+    if ($strict) {
+      sfm_json_fail('Native feed is missing an href.', 400);
+    }
+    return false;
+  }
+
+  if (!sfm_is_http_url($href)) {
+    if ($strict) {
+      sfm_json_fail('Native feed uses unsupported scheme.', 400);
+    }
+    return false;
+  }
+  if (!sfm_url_is_public($href)) {
+    if ($strict) {
+      sfm_json_fail('Native feed is not accessible.', 400);
+    }
+    return false;
+  }
+
+  /** @phpstan-var array{ok:bool,status:int,headers:array<string,string>,body:string,final_url:string,from_cache:bool,was_304:bool} $feed */
+  $feed = http_get($href, [
+    'accept' => 'application/rss+xml, application/atom+xml, application/feed+json, application/json, application/xml;q=0.9, */*;q=0.8'
+  ]);
+
+  if (!$feed['ok'] || $feed['status'] < 200 || $feed['status'] >= 400 || $feed['body'] === '') {
+    return false;
+  }
+
+  [$fmtDetected, $ext] = detect_feed_format_and_ext($feed['body'], $feed['headers'], $href);
+  $finalFormat = $fmtDetected ?: 'rss';
+  $ext         = ($finalFormat === 'jsonfeed') ? 'json' : 'xml';
+
+  ensure_feeds_dir();
+  $feedId   = md5($href . '|' . microtime(true));
+  $filename = $feedId . '.' . $ext;
+  $path     = FEEDS_DIR . '/' . $filename;
+
+  if (@file_put_contents($path, $feed['body']) === false) {
+    if ($strict) {
+      sfm_json_fail('Failed to save native feed file.', 500);
+    }
+    return false;
+  }
+
+  $feedUrl = rtrim(app_url_base(), '/') . '/feeds/' . $filename;
+
+  $job = sfm_job_register([
+    'source_url'        => $requestedUrl,
+    'native_source'     => $href,
+    'mode'              => 'native',
+    'format'            => $finalFormat,
+    'limit'             => $limit,
+    'feed_filename'     => $filename,
+    'feed_url'          => $feedUrl,
+    'prefer_native'     => $preferNativeFlag,
+    'last_refresh_code' => $feed['status'],
+    'last_refresh_note' => $note,
+  ]);
+
+  if (function_exists('sfm_log_event')) {
+    sfm_log_event('parse', [
+      'phase'        => $logPhase,
+      'source'       => $href,
+      'format'       => $finalFormat,
+      'saved'        => basename($filename),
+      'bytes'        => strlen($feed['body']),
+      'status'       => $feed['status'],
+      'job_id'       => $job['job_id'] ?? null,
+    ]);
+  }
+
+  $breadcrumb = $preferNativeFlag ? 'native · just now' : 'native fallback · just now';
+
+  echo json_encode([
+    'ok'                => true,
+    'feed_url'          => $feedUrl,
+    'format'            => $finalFormat,
+    'items'             => null,
+    'used_native'       => true,
+    'native_source'     => $href,
+    'status_breadcrumb' => $breadcrumb,
+    'job_id'            => $job['job_id'] ?? null,
+  ], JSON_UNESCAPED_SLASHES);
+
+  return true;
+}
+
+function sfm_try_native_fallback(string $html, string $requestedUrl, int $limit): bool
+{
+  $cands = sfm_discover_feeds($html, $requestedUrl);
+  $cands = sfm_filter_native_candidates($cands, $requestedUrl);
+  if (!$cands) return false;
+
+  $pick = $cands[0];
+  if (sfm_attempt_native_download($requestedUrl, $pick, $limit, false, 'native fallback', false, 'native-fallback')) {
+    exit;
+  }
+  return false;
+}
+
 // ---------------------------------------------------------------------
 // Inputs
 // ---------------------------------------------------------------------
@@ -198,105 +337,15 @@ if ($preferNative) {
 
   if ($pageResp['ok'] && $pageResp['status'] >= 200 && $pageResp['status'] < 400 && $pageResp['body'] !== '') {
     $cands = sfm_discover_feeds($pageResp['body'], $url);
+    $cands = sfm_filter_native_candidates($cands, $url);
     if ($cands) {
-      $cands = array_values(array_filter($cands, function ($cand) {
-        if (!isset($cand['href'])) return false;
-        $href = (string)$cand['href'];
-        if (!sfm_is_http_url($href)) return false;
-        return sfm_url_is_public($href);
-      }));
-    }
-    if ($cands) {
-      // Favor same-host and RSS-ish types
-      $pageHost = parse_url($url, PHP_URL_HOST);
-      usort($cands, function ($a, $b) use ($pageHost) {
-        $ah = parse_url($a['href'], PHP_URL_HOST);
-        $bh = parse_url($b['href'], PHP_URL_HOST);
-        $sameA = (strcasecmp($ah ?? '', $pageHost ?? '') === 0) ? 1 : 0;
-        $sameB = (strcasecmp($bh ?? '', $pageHost ?? '') === 0) ? 1 : 0;
-        if ($sameA !== $sameB) return $sameB <=> $sameA;
-        $rank = function ($t) {
-          $t = strtolower($t ?? '');
-          if (strpos($t, 'rss') !== false)  return 3;
-          if (strpos($t, 'atom') !== false) return 2;
-          if (strpos($t, 'json') !== false) return 1;
-          if (strpos($t, 'xml') !== false)  return 2;
-          return 0;
-        };
-        return $rank($b['type']) <=> $rank($a['type']);
-      });
-
       $pick = $cands[0];
-      if (!sfm_is_http_url($pick['href'])) {
-        sfm_json_fail('Native feed uses unsupported scheme.', 400);
-      }
-      if (!sfm_url_is_public($pick['href'])) {
-        sfm_json_fail('Native feed is not accessible.', 400);
-      }
-
-      /** @phpstan-var array{ok:bool,status:int,headers:array<string,string>,body:string,final_url:string,from_cache:bool,was_304:bool} $feed */
-      $feed = http_get($pick['href'], [
-        'accept' => 'application/rss+xml, application/atom+xml, application/feed+json, application/json, application/xml;q=0.9, */*;q=0.8'
-      ]);
-
-      if ($feed['ok'] && $feed['status'] >= 200 && $feed['status'] < 400 && $feed['body'] !== '') {
-        [$fmtDetected, $ext] = detect_feed_format_and_ext($feed['body'], $feed['headers'], $pick['href']);
-        $finalFormat = $fmtDetected ?: 'rss';
-        $ext         = ($finalFormat === 'jsonfeed') ? 'json' : 'xml';
-
-        ensure_feeds_dir();
-        $feedId   = md5($pick['href'] . '|' . microtime(true));
-        $filename = $feedId . '.' . $ext;
-        $path     = FEEDS_DIR . '/' . $filename;
-
-        if (@file_put_contents($path, $feed['body']) === false) {
-          sfm_json_fail('Failed to save native feed file.', 500);
-        }
-
-        $feedUrl = rtrim(app_url_base(), '/') . '/feeds/' . $filename;
-
-        $job = sfm_job_register([
-          'source_url'        => $url,
-          'native_source'     => $pick['href'],
-          'mode'              => 'native',
-          'format'            => $finalFormat,
-          'limit'             => $limit,
-          'feed_filename'     => $filename,
-          'feed_url'          => $feedUrl,
-          'prefer_native'     => true,
-          'last_refresh_code' => $feed['status'],
-          'last_refresh_note' => 'native download',
-        ]);
-
-        if (function_exists('sfm_log_event')) {
-          sfm_log_event('parse', [
-            'phase'        => 'native',
-            'source'       => $pick['href'],
-            'format'       => $finalFormat,
-            'saved'        => basename($filename),
-            'bytes'        => strlen($feed['body']),
-            'status'       => $feed['status'],
-            'job_id'       => $job['job_id'] ?? null,
-          ]);
-        }
-
-        echo json_encode([
-          'ok'                => true,
-          'feed_url'          => $feedUrl,
-          'format'            => $finalFormat,
-          'items'             => null,
-          'used_native'       => true,
-          'native_source'     => $pick['href'],
-          'status_breadcrumb' => 'native · just now',
-          'job_id'            => $job['job_id'] ?? null,
-        ], JSON_UNESCAPED_SLASHES);
+      if (sfm_attempt_native_download($url, $pick, $limit, true, 'native download', true, 'native')) {
         exit;
       }
-      // If native download fails, fall through to custom parse
     }
-    // No candidates → fall through
   }
-  // Page fetch failed → fall through to custom
+  // Page fetch failed or no native match → fall through
 }
 
 // ---------------------------------------------------------------------
@@ -356,6 +405,9 @@ if (count($items) < $limit) {
 }
 
 if (empty($items)) {
+  if (!$preferNative && $page['ok'] && $page['status'] >= 200 && $page['status'] < 400 && $page['body'] !== '') {
+    sfm_try_native_fallback($page['body'], $url, $limit);
+  }
   sfm_fail_with_extraction_diagnostics($extractDebug, $extractionOptions);
 }
 
