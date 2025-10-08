@@ -420,6 +420,14 @@ function sort_items_by_date(array $items): array {
   return $items;
 }
 
+function sfm_plain_text(string $html, int $max = 0): string {
+  $text = trim(strip_tags($html));
+  if ($max > 0 && mb_strlen($text) > $max) {
+    $text = mb_substr($text, 0, $max - 1) . '…';
+  }
+  return $text;
+}
+
 /* ========================================================================
    FEED BUILDERS
    ======================================================================== */
@@ -436,8 +444,14 @@ function build_rss(string $feed_title, string $feed_link, string $feed_desc, arr
     $it = $channel->addChild('item');
     $it->addChild('title', xml_safe($item['title'] ?? 'Untitled'));
     $it->addChild('link', xml_safe($item['link'] ?? ''));
-    $desc = $item['description'] ?? '';
-    $it->addChild('description', xml_safe($desc));
+    $desc = '';
+    foreach (['description','content_html','title','link'] as $key) {
+      if (!empty($item[$key])) {
+        $desc = (string)$item[$key];
+        if (trim($desc) !== '') break;
+      }
+    }
+    $it->addChild('description', xml_safe(sfm_plain_text($desc, 400)));
     if (!empty($item['date'])) {
       $ts = strtotime($item['date']);
       if ($ts) $it->addChild('pubDate', date(DATE_RSS, $ts));
@@ -487,8 +501,14 @@ function build_atom(string $feed_title, string $feed_link, string $feed_desc, ar
     $u = !empty($item['date']) && strtotime($item['date']) ? date(DATE_ATOM, strtotime($item['date'])) : $updated;
     $entry->addChild('updated', $u);
 
-    $summary = $item['description'] ?? '';
-    $entry->addChild('summary', xml_safe($summary));
+    $summary = '';
+    foreach (['description','content_html','title','link'] as $key) {
+      if (!empty($item[$key])) {
+        $summary = (string)$item[$key];
+        if (trim($summary) !== '') break;
+      }
+    }
+    $entry->addChild('summary', xml_safe(sfm_plain_text($summary, 400)));
   }
   return $xml->asXML();
 }
@@ -519,9 +539,17 @@ function build_jsonfeed($feed_title, $feed_link, $feed_desc, $items, $feed_url =
             'title' => $item['title'] ?? 'Untitled',
         ];
 
-        // Only include content_text when non-empty
-        if (!empty($item['description'])) {
-            $entry['content_text'] = $item['description'];
+        $summary = '';
+        foreach (['description','content_html','title','link'] as $key) {
+            if (!empty($item[$key])) {
+                $summary = (string)$item[$key];
+                if (trim($summary) !== '') break;
+            }
+        }
+        $summary = sfm_plain_text($summary, 400);
+        if ($summary !== '') {
+            $entry['content_text'] = $summary;
+            $entry['summary'] = $summary;
         }
 
         // Only include date_published when parsable → RFC3339/ISO8601

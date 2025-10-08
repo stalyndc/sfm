@@ -114,6 +114,18 @@ if (!function_exists('sfm_validate_feed')) {
             }
         }
 
+        if (!empty($result['errors'])) {
+            $hard = [];
+            foreach ($result['errors'] as $msg) {
+                if (stripos($msg, 'svg') !== false || stripos($msg, 'symbol') !== false || stripos($msg, 'path invalid') !== false) {
+                    $result['warnings'][] = $msg;
+                } else {
+                    $hard[] = $msg;
+                }
+            }
+            $result['errors'] = $hard;
+        }
+
         if (!$loaded || !empty($result['errors'])) {
             $result['ok'] = false;
             return $result;
