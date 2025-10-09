@@ -161,7 +161,7 @@ function sfm_http_normalize_path(string $path): string {
     if ($path !== '/' && substr($path, -1) === '/' && substr($normalized, -1) !== '/') {
         $normalized .= '/';
     }
-    return $normalized;
+    return $normalized === '' ? '/' : $normalized;
 }
 
 /** Resolve a redirect Location header against the current URL. */
@@ -344,7 +344,7 @@ function sfm_http_execute(string $url, array $options, string $method): array {
             $info['url'] = $currentUrl;
         }
 
-        $primaryIp = isset($info['primary_ip']) ? (string)$info['primary_ip'] : '';
+        $primaryIp = (string)($info['primary_ip'] ?? '');
         if ($primaryIp !== '' && !sfm_http_ip_is_public($primaryIp)) {
             $blockReason = 'blocked_private_ip';
             return [false, 0, '', '', $info, $currentUrl, $blockReason];
@@ -686,10 +686,7 @@ function http_multi_get(array $urls, array $baseOptions = []): array {
         $infoRaw = curl_getinfo($ch);
         $err  = curl_error($ch);
 
-        /** @var array<string, mixed> $info */
-        $info = is_array($infoRaw) ? $infoRaw : [];
-
-        $primaryIp = isset($info['primary_ip']) ? (string)$info['primary_ip'] : '';
+        $primaryIp = (string)($info['primary_ip'] ?? '');
         if ($err || $raw === false || ($primaryIp !== '' && !sfm_http_ip_is_public($primaryIp))) {
             $resp[$url] = [
                 'ok'         => false,

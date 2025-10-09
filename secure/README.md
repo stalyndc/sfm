@@ -21,6 +21,7 @@ Health/monitoring defaults
 
 - `scripts/automation/cron_runner.sh monitor` now passes `--warn-only` so routine warnings stay in the log; it still emails on failures. Override by exporting `MONITOR_OPTS` or passing additional flags in cron if you need a different behaviour.
 - The health endpoint checks for recent backups and drill status. If you do not manage off-site backups yet, either point `SFM_BACKUPS_DIR` at a directory populated by another job or temporarily disable that check inside `health.php` to avoid noisy alerts.
+- `secure/scripts/log_sanitizer.php` redacts PII, gzips archived logs into `secure/logs/archive/`, and is wired to the weekly cron job via `cron_runner.sh`.
 
 Rotation checklist lives in `docs/deployment-secrets.md`.
 

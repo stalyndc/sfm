@@ -12,6 +12,12 @@ returns a fresh feed URL you can drop into any reader.
   `<link rel="alternate">`, the user can opt to reuse it instead of scraping.
 - **Multi-format output** – RSS 2.0 and Atom served as XML, JSON Feed served with
   `application/feed+json`.
+- **Automatic enrichment** – We re-fetch up to six article pages per job to fill
+  in summaries, publish dates, authors, hero images, and tags when the source
+  listing omits them.
+- **Built-in validation** – Every feed passes through `includes/feed_validator.php`
+  so malformed XML/JSON and missing required fields are caught before the file
+  hits `/feeds`.
 - **Richer extraction** – JSON‑LD first, DOM heuristics second. Optional CSS
   overrides (`item_selector`, `title_selector`, `summary_selector`) let power
   users target stubborn layouts. Failures come back as structured 4xx responses
@@ -46,10 +52,10 @@ Schedule `scripts/automation/cron_runner.sh` from Hostinger with Bash:
 
 | Cadence        | Command snippet |
 | -------------- | --------------- |
-| Every 15 min   | `cron_runner.sh monitor --warn-only` |
-| Hourly @ :05   | `cron_runner.sh hourly` |
-| Daily 02:00    | `cron_runner.sh daily` |
-| Weekly Mon 02:30 | `cron_runner.sh weekly` |
+| Every 15 min   | `scripts/automation/cron_runner.sh monitor` *(warn-only by default)* |
+| Hourly @ :05   | `scripts/automation/cron_runner.sh hourly` |
+| Daily 02:00    | `scripts/automation/cron_runner.sh daily` |
+| Weekly Mon 02:30 | `scripts/automation/cron_runner.sh weekly` |
 | Every 30 min   | `php cron_refresh.php` |
 
 `secure/cron.env` can override `PHP_BIN`, `SFM_ALERT_EMAIL(S)` and provide paths
