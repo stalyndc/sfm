@@ -617,6 +617,95 @@ function http_head(string $url, array $options = []): array {
  * http_multi_get(array $urls, array $baseOptions = [])
  * Minimal concurrent GETs (no cache). Returns array keyed by URL.
  */
+/**
+ * Follow redirect chains for multi requests with SSRF protections.
+ *
+ * @param array<string,mixed> $baseOptions
+ * @param array<string,mixed> $initialInfo
+ *
+ * @return array{0:bool,1:int,2:string,3:string,4:array,5:string,6:?string}
+ */
+function sfm_http_multi_follow_redirects(
+    string $originalUrl,
+    array $baseOptions,
+    array $initialInfo,
+    string $initialHeadersRaw,
+    string $initialBody
+): array {
+    $maxRedirects  = (int)($baseOptions['max_redirs'] ?? 5);
+    $redirectCount = 0;
+
+    $visited = [];
+    $visited[strtolower($originalUrl)] = true;
+
+    $currentUrl = (string)($initialInfo['url'] ?? $originalUrl);
+    if ($currentUrl === '') {
+        $currentUrl = $originalUrl;
+    }
+    $visited[strtolower($currentUrl)] = true;
+
+    $lastOk         = ($initialInfo['http_code'] ?? 0) >= 200 && ($initialInfo['http_code'] ?? 0) < 400;
+    $lastStatus     = (int)($initialInfo['http_code'] ?? 0);
+    $lastHeadersRaw = $initialHeadersRaw;
+    $lastBody       = $initialBody;
+    $lastInfo       = $initialInfo ?: ['url' => $currentUrl];
+    $lastFinalUrl   = $currentUrl;
+
+    while ($lastStatus >= 300 && $lastStatus < 400) {
+        $headers  = sfm_parse_headers($lastHeadersRaw);
+        $location = $headers['location'] ?? '';
+        if ($location === '') {
+            break;
+        }
+
+        $nextUrl = sfm_http_resolve_redirect($lastFinalUrl, $location);
+        if ($nextUrl === null) {
+            return [false, 0, '', '', $lastInfo, $lastFinalUrl, 'invalid_redirect_target'];
+        }
+
+        $reason = null;
+        if (!sfm_http_url_is_allowed($nextUrl, $reason)) {
+            return [false, 0, '', '', $lastInfo, $lastFinalUrl, $reason ?? 'private_target'];
+        }
+
+        $key = strtolower($nextUrl);
+        if (isset($visited[$key])) {
+            return [false, 0, '', '', $lastInfo, $lastFinalUrl, 'redirect_loop'];
+        }
+        $visited[$key] = true;
+
+        $redirectCount++;
+        if ($redirectCount > $maxRedirects) {
+            return [false, 0, '', '', $lastInfo, $lastFinalUrl, 'too_many_redirects'];
+        }
+
+        $opts = $baseOptions;
+        $opts['method']          = 'GET';
+        $opts['follow_location'] = false;
+        $opts['max_redirs']      = 0;
+
+        [$ok, $status, $headersRaw, $body, $info] = sfm_request_raw($nextUrl, $opts);
+        if (!isset($info['url']) || $info['url'] === '') {
+            $info['url'] = $nextUrl;
+        }
+
+        $primaryIp = (string)($info['primary_ip'] ?? '');
+        if ($primaryIp !== '' && !sfm_http_ip_is_public($primaryIp)) {
+            return [false, 0, '', '', $info, $nextUrl, 'blocked_private_ip'];
+        }
+
+        $lastOk         = $ok;
+        $lastStatus     = $status;
+        $lastHeadersRaw = $headersRaw;
+        $lastBody       = $body;
+        $lastInfo       = $info;
+        $lastFinalUrl   = (string)$info['url'];
+        $currentUrl     = $nextUrl;
+    }
+
+    return [$lastOk, $lastStatus, $lastHeadersRaw, $lastBody, $lastInfo, $lastFinalUrl, null];
+}
+
 function http_multi_get(array $urls, array $baseOptions = []): array {
     $mh   = curl_multi_init();
     $map  = []; // url => ch
@@ -698,15 +787,42 @@ function http_multi_get(array $urls, array $baseOptions = []): array {
             $headerSize = (int)($info['header_size'] ?? 0);
             $headersRaw = substr($raw, 0, $headerSize);
             $body       = substr($raw, $headerSize);
-            $resp[$url] = [
-                'ok'         => ($info['http_code'] ?? 0) >= 200 && ($info['http_code'] ?? 0) < 400,
-                'status'     => (int)($info['http_code'] ?? 0),
-                'headers'    => sfm_parse_headers($headersRaw),
-                'body'       => $body,
-                'final_url'  => $info['url'] ?? $url,
-                'from_cache' => false,
-                'was_304'    => false,
-            ];
+            $status     = (int)($info['http_code'] ?? 0);
+            $ok         = $status >= 200 && $status < 400;
+            $finalUrl   = (string)($info['url'] ?? $url);
+            $blockReason = null;
+
+            if ($status >= 300 && $status < 400) {
+                [$ok, $status, $headersRaw, $body, $info, $finalUrl, $blockReason] = sfm_http_multi_follow_redirects(
+                    $url,
+                    $baseOptions,
+                    $info,
+                    $headersRaw,
+                    $body
+                );
+            }
+
+            if ($blockReason !== null) {
+                $resp[$url] = [
+                    'ok'         => false,
+                    'status'     => 0,
+                    'headers'    => [],
+                    'body'       => '',
+                    'final_url'  => $finalUrl,
+                    'from_cache' => false,
+                    'was_304'    => false,
+                ];
+            } else {
+                $resp[$url] = [
+                    'ok'         => $ok,
+                    'status'     => $status,
+                    'headers'    => sfm_parse_headers($headersRaw),
+                    'body'       => $body,
+                    'final_url'  => $finalUrl,
+                    'from_cache' => false,
+                    'was_304'    => false,
+                ];
+            }
         }
         curl_multi_remove_handle($mh, $ch);
         curl_close($ch);
