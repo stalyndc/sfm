@@ -640,3 +640,14 @@ code {
     font-size: 1.05rem;
   }
 }
+#hintCard .muted {
+  color: rgba(227, 230, 237, .78);
+}
+
+[data-bs-theme="light"] #hintCard .muted {
+  color: rgba(28, 34, 48, .7);
+}
+
+[data-bs-theme="light"] #hintCard strong {
+  color: #1c2230;
+}
