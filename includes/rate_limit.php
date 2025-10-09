@@ -24,29 +24,154 @@
 declare(strict_types=1);
 
 /* -----------------------------------------------------------
- * IP helper (trust common proxy headers if present)
+ * Trusted proxy helpers
  * --------------------------------------------------------- */
-function sfm_client_ip(): string {
-    // Prefer Cloudflare/Proxy headers if present
-    $candidates = [
-        'HTTP_CF_CONNECTING_IP',
-        'HTTP_X_FORWARDED_FOR', // may contain a list
-        'HTTP_X_REAL_IP',
-        'REMOTE_ADDR',
-    ];
-    foreach ($candidates as $h) {
-        if (!empty($_SERVER[$h])) {
-            $val = $_SERVER[$h];
-            if ($h === 'HTTP_X_FORWARDED_FOR' && strpos($val, ',') !== false) {
-                $parts = explode(',', $val);
-                $val = trim($parts[0]);
-            }
-            // Basic sanitization
-            $val = preg_replace('/[^0-9a-fA-F:.\-]/', '', $val);
-            return $val ?: '0.0.0.0';
+function sfm_rate_limit_trusted_proxies(): array {
+    static $cached = null;
+    if ($cached !== null) {
+        return $cached;
+    }
+
+    $entries = [];
+
+    if (defined('SFM_TRUSTED_PROXIES')) {
+        $configured = SFM_TRUSTED_PROXIES;
+        if (is_string($configured)) {
+            $entries = preg_split('/[\s,]+/', $configured) ?: [];
+        } elseif (is_array($configured)) {
+            $entries = $configured;
         }
     }
-    return '0.0.0.0';
+
+    if (empty($entries)) {
+        $env = getenv('SFM_TRUSTED_PROXIES');
+        if (is_string($env) && $env !== '') {
+            $entries = preg_split('/[\s,]+/', $env) ?: [];
+        }
+    }
+
+    $entries = array_values(array_filter(array_map(function ($item) {
+        $item = trim((string)$item);
+        return $item === '' ? null : $item;
+    }, $entries)));
+
+    return $cached = $entries;
+}
+
+function sfm_rate_limit_ip_matches(string $ip, string $pattern): bool {
+    $ip = trim($ip);
+    $pattern = trim($pattern);
+    if ($ip === '' || $pattern === '') {
+        return false;
+    }
+
+    if (strpos($pattern, '/') === false) {
+        return strcasecmp($ip, $pattern) === 0;
+    }
+
+    [$subnet, $maskBits] = explode('/', $pattern, 2);
+    $maskBits = (int)$maskBits;
+    $ipBin = @inet_pton($ip);
+    $subnetBin = @inet_pton($subnet);
+    if ($ipBin === false || $subnetBin === false) {
+        return false;
+    }
+    if (strlen($ipBin) !== strlen($subnetBin)) {
+        return false;
+    }
+
+    $maxBits = strlen($ipBin) * 8;
+    if ($maskBits < 0 || $maskBits > $maxBits) {
+        return false;
+    }
+
+    $maskBytes = intdiv($maskBits, 8);
+    $remainder = $maskBits % 8;
+    $mask = str_repeat("\xff", $maskBytes);
+    if ($remainder > 0) {
+        $mask .= chr((0xFF << (8 - $remainder)) & 0xFF);
+    }
+    $mask = str_pad($mask, strlen($ipBin), "\0");
+
+    return ($ipBin & $mask) === ($subnetBin & $mask);
+}
+
+function sfm_rate_limit_request_from_trusted_proxy(): bool {
+    $remote = sfm_rate_limit_clean_ip($_SERVER['REMOTE_ADDR'] ?? null);
+    if ($remote === null) {
+        return false;
+    }
+
+    $trusted = sfm_rate_limit_trusted_proxies();
+    if (empty($trusted)) {
+        return false;
+    }
+
+    foreach ($trusted as $pattern) {
+        if (sfm_rate_limit_ip_matches($remote, $pattern)) {
+            return true;
+        }
+    }
+
+    return false;
+}
+
+function sfm_rate_limit_clean_ip(?string $value): ?string {
+    if (!is_string($value)) {
+        return null;
+    }
+
+    $value = trim($value);
+    if ($value === '') {
+        return null;
+    }
+
+    if (filter_var($value, FILTER_VALIDATE_IP)) {
+        return $value;
+    }
+
+    return null;
+}
+
+/* -----------------------------------------------------------
+ * IP helper (trust proxy headers only when request came from a trusted proxy)
+ * --------------------------------------------------------- */
+function sfm_client_ip(): string {
+    $remote = sfm_rate_limit_clean_ip($_SERVER['REMOTE_ADDR'] ?? null) ?? '0.0.0.0';
+
+    if (!sfm_rate_limit_request_from_trusted_proxy()) {
+        return $remote;
+    }
+
+    $headers = [
+        'HTTP_CF_CONNECTING_IP',
+        'HTTP_X_FORWARDED_FOR',
+        'HTTP_X_REAL_IP',
+    ];
+
+    foreach ($headers as $header) {
+        if (empty($_SERVER[$header])) {
+            continue;
+        }
+
+        $raw = (string)$_SERVER[$header];
+        if ($header === 'HTTP_X_FORWARDED_FOR') {
+            $parts = explode(',', $raw);
+            foreach ($parts as $part) {
+                $candidate = sfm_rate_limit_clean_ip($part);
+                if ($candidate !== null) {
+                    return $candidate;
+                }
+            }
+        } else {
+            $candidate = sfm_rate_limit_clean_ip($raw);
+            if ($candidate !== null) {
+                return $candidate;
+            }
+        }
+    }
+
+    return $remote;
 }
 
 /* -----------------------------------------------------------
