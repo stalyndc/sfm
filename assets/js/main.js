@@ -129,7 +129,7 @@
         <label class="form-label">Your feed URL</label>
         <div class="input-group">
           <input id="feedUrlInput" type="text" class="form-control mono" value="${feedUrl}" readonly>
-          <button id="copyBtn" class="btn btn-outline-secondary" type="button">Copy</button>
+          <button id="copyBtn" class="btn btn-outline-secondary copy-btn" type="button">Copy</button>
           <a class="btn btn-outline-success" href="${feedUrl}" target="_blank" rel="noopener">Open</a>
         </div>
       </div>

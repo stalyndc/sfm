@@ -91,7 +91,7 @@ require __DIR__ . '/includes/page_header.php';
                   </button>
                   <button id="clearBtn" type="button" class="btn btn-outline-secondary btn-icon" aria-label="Clear form" title="Clear form">
                     <span class="icon" aria-hidden="true">&times;</span>
-                    <span class="label visually-hidden visually-hidden-focusable">Clear</span>
+                    <span class="label d-inline d-sm-none" aria-hidden="true">Clear</span>
                   </button>
                 </div>
 

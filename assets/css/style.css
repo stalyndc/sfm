@@ -311,7 +311,6 @@ input[type="number"] { -moz-appearance: textfield; }
 }
 
 #clearBtn .label {
-  display: none;
   font-weight: 600;
 }
 
@@ -335,19 +334,25 @@ input[type="number"] { -moz-appearance: textfield; }
     width: auto;
     height: auto;
     border-radius: 999px;
-    padding: 0 .75rem;
+    padding: 0 .1rem;
     font-size: .95rem;
     display: inline-flex;
     align-items: center;
-    gap: .3rem;
+    gap: .35rem;
+    border: none;
+    background: transparent;
+    color: var(--sfm-accent);
   }
 
   #clearBtn .icon {
     font-size: 1rem;
   }
 
-  #clearBtn .label {
-    display: inline;
+  #clearBtn:hover,
+  #clearBtn:focus-visible {
+    background: transparent;
+    color: var(--sfm-accent);
+    box-shadow: none;
   }
 }
 
@@ -363,29 +368,44 @@ input[type="number"] { -moz-appearance: textfield; }
   background: rgba(31, 141, 87, .12);
 }
 
-#resultBox .btn-outline-secondary {
+#resultBox .copy-btn {
   color: var(--sfm-accent);
   border-color: rgba(76, 141, 255, .35);
   background: rgba(76, 141, 255, .08);
+  transition: background .18s ease, border-color .18s ease, color .18s ease, box-shadow .18s ease;
 }
 
-#resultBox .btn-outline-secondary:hover,
-#resultBox .btn-outline-secondary.copy-ok {
+#resultBox .copy-btn:hover,
+#resultBox .copy-btn:focus-visible {
   background: rgba(76, 141, 255, .18);
-  border-color: rgba(76, 141, 255, .45);
+  border-color: rgba(76, 141, 255, .5);
+  color: #fff;
+  box-shadow: 0 0 0 .2rem rgba(76, 141, 255, .25);
+}
+
+#resultBox .copy-btn.copy-ok {
+  background: rgba(76, 141, 255, .22);
+  border-color: rgba(76, 141, 255, .55);
   color: #fff;
 }
 
-[data-bs-theme="light"] #resultBox .btn-outline-secondary {
+[data-bs-theme="light"] #resultBox .copy-btn {
   color: #1d4ed8;
   border-color: rgba(29, 78, 216, .35);
   background: rgba(29, 78, 216, .08);
 }
 
-[data-bs-theme="light"] #resultBox .btn-outline-secondary:hover,
-[data-bs-theme="light"] #resultBox .btn-outline-secondary.copy-ok {
-  background: rgba(29, 78, 216, .18);
-  border-color: rgba(29, 78, 216, .5);
+[data-bs-theme="light"] #resultBox .copy-btn:hover,
+[data-bs-theme="light"] #resultBox .copy-btn:focus-visible {
+  background: rgba(29, 78, 216, .16);
+  border-color: rgba(29, 78, 216, .48);
+  color: #fff;
+  box-shadow: 0 0 0 .2rem rgba(29, 78, 216, .18);
+}
+
+[data-bs-theme="light"] #resultBox .copy-btn.copy-ok {
+  background: rgba(29, 78, 216, .22);
+  border-color: rgba(29, 78, 216, .55);
   color: #fff;
 }
 
