@@ -29,7 +29,6 @@
     toggle.title = label;
     toggle.setAttribute('aria-label', label);
     toggle.setAttribute('aria-checked', theme === 'light' ? 'true' : 'false');
-    toggle.setAttribute('aria-pressed', theme === 'light' ? 'true' : 'false');
     const iconSpan = toggle.querySelector('.theme-toggle-icon');
     if (iconSpan) iconSpan.textContent = icon;
   }

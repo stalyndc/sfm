@@ -71,6 +71,11 @@ body {
   color: rgba(28, 34, 48, .62);
 }
 
+[data-bs-theme="light"] .muted.text-secondary,
+[data-bs-theme="light"] .card .muted {
+  color: rgba(28, 34, 48, .68);
+}
+
 [data-bs-theme="light"] .lead {
   color: rgba(28, 34, 48, .78);
 }
@@ -99,12 +104,13 @@ body {
 }
 
 .page-list li {
-  margin-bottom: .6rem;
+  margin-bottom: .65rem;
   color: rgba(227, 230, 237, .82);
+  line-height: 1.55;
 }
 
 [data-bs-theme="light"] .page-list li {
-  color: rgba(28, 34, 48, .72);
+  color: rgba(28, 34, 48, .78);
 }
 
 .page-list li strong {
@@ -113,6 +119,10 @@ body {
 
 [data-bs-theme="light"] .page-list li strong {
   color: #1c2230;
+}
+
+.page-list + p {
+  margin-top: 1rem;
 }
 
 .page-list li:last-child {
@@ -589,11 +599,11 @@ input[type="number"] { -moz-appearance: textfield; }
 }
 
 [data-bs-theme="light"] .link-light {
-  color: var(--bs-link-color) !important;
+  color: #1d4ed8 !important;
 }
 
 [data-bs-theme="light"] .link-light:hover {
-  color: var(--bs-link-hover-color) !important;
+  color: #1a3fb5 !important;
 }
 
 .footnote {
