@@ -42,5 +42,7 @@ ignored by git, so they stay on the server only.
 
 - Remove or revoke the previous admin and database credentials.
 - Store the new secrets in your password manager for future rotations.
+- Update `secure/cron.env` with the new alert recipients (`SFM_ALERT_EMAIL`,
+  `SFM_HEALTH_ALERT_EMAIL`, etc.) so automation keeps sending notifications.
 
 Repeat this process any time you suspect a credential may have been exposed.

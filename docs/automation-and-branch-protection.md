@@ -38,6 +38,9 @@ Notes:
   configured consistently.
 - The runner exports `SFM_ALERT_EMAIL=stalyn@disla.net` by default; override in
   `secure/cron.env` if you need different recipients.
+- `monitor` automatically passes `--quiet --warn-only` to
+  `secure/scripts/monitor_health.php`; remove `--warn-only` in cron if you want
+  warnings delivered by email as well.
 - Adjust thresholds (`--threshold`, `--top`, `--retention`) to match production
   load.
 - Add `--stage-dir`/`--upload-cmd` options to `deploy_courier.php` when building

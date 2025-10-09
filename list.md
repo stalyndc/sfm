@@ -1,25 +1,17 @@
-## What’s missing / what could be improved (or considered)
+## What’s next / improvement backlog
 
-# I will this this myself later.
+This list captures meaningful follow-up work now that enrichment, validation, and the maintenance agents are live.
 
----
+### Product polish
+- **Saved history & re-run shortcuts.** Store the last few successful jobs per browser (localStorage + signed tokens) so returning users can refresh feeds without retyping everything.
+- **Preview extracted items.** Let power users inspect the first handful of parsed entries—including validation warnings—before committing to generate the feed file.
+- **Better native-feed context.** When we fall back to an advertised feed, show the discovered URL, feed title, and last-modified timestamp in the result card.
 
-Based on list.md, here are practical features we can tackle next:
+### Observability & analytics
+- **Lightweight usage metrics.** Track refresh counts, last success/failure, and top warnings per feed so operators know which feeds require attention.
+- **Admin dashboard.** Surface health/cleanup/log-sanitizer status plus the rate-limit watch list inside `/admin/` instead of relying solely on emails.
 
-Smarter feedback: surface meaningful parser errors and let users tweak grab settings (items-per-page, CSS selectors) before giving up.
-
-Feed enrichment: detect optional metadata—author, publish date, images, tags—and include it when available to improve downstream reader display.
-
-Compliance guardrails: integrate automated RSS/JSON-feed validation plus robots.txt checks to keep generated feeds standards-friendly and respectful.
-
-Usage insight: log and expose lightweight feed analytics (refresh counts, last success/failure) so creators can monitor reach and reliability.
-
-UI polish: add a preview/test mode with saved history or favorites, helping returning users re-run their most common feeds without reconfiguration.
-
----
-
-Metadata enrichment pass: extend sfm_enrich_items_with_article_metadata so we capture author, hero image, and tags when they appear. That makes the feeds nicer in readers and opens the door to filtering later.
-
-Validation hook: integrate a quick RSS/JSON Feed validator (there are PHP libs you can shell out to) so every generated feed is checked before we save it. Bubble validation warnings back to the UI.
-
-Saved history / preview UX: a simple dashboard showing the last few feeds you built, with a “re-run” button, would make the product much stickier and surface scrape failures early.
+### Reliability & DX
+- **Background refresh UX.** Expose the `cron_refresh.php` job queue (next run time, failures) so we can monitor long-running feeds without tailing logs.
+- **Extended smoke set.** Add more tricky URLs to `scripts/test_generate.php` (paywalled excerpts, infinite-scroll lists) and run them in CI.
+- **Secrets guardrails in CI.** Run `php secure/scripts/secrets_guard.php --ci` during the GitHub workflow once we can ensure the secure templates are available in automation.

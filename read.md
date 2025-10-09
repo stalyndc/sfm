@@ -4,20 +4,20 @@ Last updated: this doc describes what’s live and what we prototyped together. 
 
 TL;DR
 
-SimpleFeedMaker turns any article listing page into a feed you can subscribe to (RSS/Atom/JSON Feed).
-It can also auto-discover official feeds advertised by the site and pass them through as-is when the user prefers native feeds.
+SimpleFeedMaker turns any article listing page into a feed you can subscribe to (RSS/Atom/JSON Feed) and enriches missing metadata (summary, date, author, hero image, tags) by revisiting a handful of article URLs.
+It can also auto-discover official feeds advertised by the site and pass them through as-is when the user prefers native feeds. Generated feeds are linted before they are saved, so obvious XML/JSON mistakes are caught early.
 
-Frontend: a single index.php page with a small form (URL, limit, format, “Prefer native feed”), posts to backend and shows the resulting feed URL. Google Analytics tracking is present.
+Frontend: a single index.php page with a small form (URL, limit, format, “Prefer native feed”), posts to backend and shows the resulting feed URL plus any validation warnings. Google Analytics tracking is present.
 
-Backend: generate.php accepts POST, fetches the page, extracts items, builds feeds, saves them in /feeds. Optionally autodiscovers a native feed and uses that instead.
+Backend: generate.php accepts POST, fetches the page, extracts items, enriches missing metadata, validates the feed, saves it in `/feeds`, and returns structured JSON. Native feeds discovered via `<link rel="alternate">` can be reused when the user opts in.
 
 Infra: shared hosting (Hostinger). Apache with .htaccess for HTTPS, CSP, caching, friendly error pages, correct JSON Feed MIME type, and directory protections.
 
 SEO assets: robots.txt, trimmed sitemap.xml, humans.txt, basic head tags in index.php.
 
-Utilities: HTTP client with a tiny on-disk cache, smarter extraction (JSON-LD + DOM heuristics), optional logging scaffolding, a health endpoint, and a cleanup script to purge old feeds.
+Utilities: HTTP client with a tiny on-disk cache, smarter extraction (JSON-LD + DOM heuristics), metadata enrichment, feed validation helpers, a health endpoint, and maintenance scripts to purge old feeds and sanitize logs.
 
-Dependencies: managed via Composer (`composer.json` / `composer.lock`). The autoloader lives in `secure/vendor/` so production deployments keep libraries out of the public web root.
+Dependencies: managed via Composer (`composer.json` / `composer.lock`). The autoloader lives in `secure/vendor/` so production deployments keep libraries out of the public web root. Front-end dependencies are not bundled yet (simple Bootstrap-only UI).
 
 Features
 
@@ -33,29 +33,30 @@ RSS 2.0 (.xml), Atom (.xml), JSON Feed (.json, served as application/feed+json).
 Smarter extraction
 Prefer JSON-LD (ItemList, Article/BlogPosting), fall back to DOM heuristics (article/card/heading patterns). Gentle de-duping and short text normalization.
 
-Structured failure feedback
-Custom parse now returns actionable 422 responses with error codes, JSON-LD/DOM hit counts, and optional hints so users know *why* extraction failed.
+Metadata enrichment
+Re-fetches up to six article URLs to fill in summary/content, publish date, author, hero image, and tags when the listing view omits them.
+
+Structured feedback & validation
+422 responses include error codes, JSON-LD/DOM hit counts, validation warnings, and hints so users know *why* extraction failed.
 
 Power-user overrides
 POST fields `item_selector`, `title_selector`, and `summary_selector` (CSS) let operators target tricky layouts. We translate CSS → XPath, reuse selectors across pagination fetches, and report how many nodes matched.
 
 Cheaper/faster fetches
-Shared cURL wrapper with timeouts, HTTP/2 if available, transparent compression, and tiny file-cache with ETag/Last-Modified revalidation (stores in /feeds/.httpcache).
+Shared cURL wrapper with timeouts, HTTP/2 if available, transparent compression, and tiny file-cache with ETag/Last-Modified revalidation (stores in `/feeds/.httpcache`).
 
 Safer defaults
-Strong .htaccess: force HTTPS, CSP, disable directory listing, block dotfiles, friendly error pages, short cache for feeds, and deny script execution inside /feeds.
+Strong `.htaccess`: force HTTPS, CSP, disable directory listing, block dotfiles, friendly error pages, short cache for feeds, and deny script execution inside `/feeds`.
 
 SEO basics
-robots.txt, minimal sitemap.xml (homepage and /feeds/), head tags tidy-up, humans.txt.
+`robots.txt`, minimal `sitemap.xml` (homepage and `/feeds/`), head tags tidy-up, `humans.txt`.
 
-Ops hooks (scaffolded)
-health.php endpoint, scripts/cleanup_feeds.php for cron, optional request/parse logs (toggleable), daily rotation (planned), privacy-safe redaction (planned).
+Ops hooks (shipping)
+`health.php` endpoint, `secure/scripts/cleanup_feeds.php` for cron, `secure/scripts/log_sanitizer.php` for log redaction/archival, and rate-limit/monitor agents wired through `scripts/automation/cron_runner.sh`.
 
 Operational cadence
-Hostinger cron runs `cron_runner.sh` for monitor (15m, warn-only emails), hourly rate-limit sweeps, daily feed cleanup, weekly log sanitizer, plus `cron_refresh.php` every 30 min. Backups & disaster drill scripts live in `secure/scripts/`; configure `secure/cron.env` with `SFM_BACKUPS_DIR`, `SFM_CHECKSUM_FILE`, and override `PHP_BIN`/alert emails as needed.
+Hostinger cron runs `scripts/automation/cron_runner.sh monitor` (warn-only emails every 15 min), hourly rate-limit sweeps, daily feed cleanup, weekly log sanitizer, plus `php cron_refresh.php` every 30 min. Backups & disaster drill scripts live in `secure/scripts/`; configure `secure/cron.env` with `SFM_BACKUPS_DIR`, `SFM_CHECKSUM_FILE`, and override `PHP_BIN`/alert emails as needed.
 
 Architecture & Layout
 
-Repo root doubles as the public web root (e.g., public_html/). Secrets/logs live outside it in /home/<account>/secure/.
-
-Monitor for error, make sure the code is correct.
+Repo root doubles as the public web root (e.g., `public_html/`). Secrets/logs live outside it in `/home/<account>/secure/`. `storage/` holds job metadata, logs, and drill status artifacts that should not ship with releases.

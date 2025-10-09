@@ -35,7 +35,9 @@ Tips:
 1. Visit the local or staging instance and generate a feed with each smoke URL.
 2. Confirm the badge copy in the result card appears only when warnings exist
    and that errors render inside the red alert box (no blank states).
-3. Toggle "Prefer native feed" for at least one URL to ensure native discovery
+3. Spot-check an item in the rendered feed to ensure enrichment filled in
+   summaries/dates/authors when the source provided them.
+4. Toggle "Prefer native feed" for at least one URL to ensure native discovery
    still works.
 
 ## 4. Repo and tooling checks
