@@ -157,6 +157,10 @@ if (is_array($structuredData)) {
         preferred = 'dark';
       }
       document.documentElement.setAttribute('data-bs-theme', preferred);
+      var metaTheme = document.querySelector('meta[name="theme-color"]');
+      if (metaTheme) {
+        metaTheme.setAttribute('content', preferred === 'light' ? '#f6f8fc' : '#0b1320');
+      }
     })();
   </script>
 

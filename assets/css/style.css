@@ -334,13 +334,13 @@ input[type="number"] { -moz-appearance: textfield; }
     width: auto;
     height: auto;
     border-radius: 999px;
-    padding: 0 .1rem;
+    padding: .3rem .85rem;
     font-size: .95rem;
     display: inline-flex;
     align-items: center;
-    gap: .35rem;
-    border: none;
-    background: transparent;
+    gap: .4rem;
+    border: 1px solid rgba(76, 141, 255, .35);
+    background: rgba(76, 141, 255, .08);
     color: var(--sfm-accent);
   }
 
@@ -350,9 +350,10 @@ input[type="number"] { -moz-appearance: textfield; }
 
   #clearBtn:hover,
   #clearBtn:focus-visible {
-    background: transparent;
-    color: var(--sfm-accent);
-    box-shadow: none;
+    background: rgba(76, 141, 255, .16);
+    color: #fff;
+    border-color: rgba(76, 141, 255, .5);
+    box-shadow: 0 0 0 .2rem rgba(76, 141, 255, .25);
   }
 }
 
@@ -376,6 +377,7 @@ input[type="number"] { -moz-appearance: textfield; }
 }
 
 #resultBox .copy-btn:hover,
+#resultBox .copy-btn:focus,
 #resultBox .copy-btn:focus-visible {
   background: rgba(76, 141, 255, .18);
   border-color: rgba(76, 141, 255, .5);
@@ -396,6 +398,7 @@ input[type="number"] { -moz-appearance: textfield; }
 }
 
 [data-bs-theme="light"] #resultBox .copy-btn:hover,
+[data-bs-theme="light"] #resultBox .copy-btn:focus,
 [data-bs-theme="light"] #resultBox .copy-btn:focus-visible {
   background: rgba(29, 78, 216, .16);
   border-color: rgba(29, 78, 216, .48);

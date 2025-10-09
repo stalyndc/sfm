@@ -28,14 +28,24 @@
     const label = `Switch to ${next} mode`;
     toggle.title = label;
     toggle.setAttribute('aria-label', label);
+    toggle.setAttribute('aria-checked', theme === 'light' ? 'true' : 'false');
+    toggle.setAttribute('aria-pressed', theme === 'light' ? 'true' : 'false');
     const iconSpan = toggle.querySelector('.theme-toggle-icon');
     if (iconSpan) iconSpan.textContent = icon;
+  }
+
+  function syncThemeColor(theme) {
+    const meta = document.querySelector('meta[name="theme-color"]');
+    if (!meta) return;
+    const color = theme === 'light' ? '#f6f8fc' : '#0b1320';
+    meta.setAttribute('content', color);
   }
 
   function applyTheme(theme, persist = true) {
     const normalized = (theme === 'light' || theme === 'dark') ? theme : 'dark';
     document.documentElement.setAttribute('data-bs-theme', normalized);
     updateToggle(normalized);
+    syncThemeColor(normalized);
     if (persist) safeStorage.set(storageKey, normalized);
   }
 
