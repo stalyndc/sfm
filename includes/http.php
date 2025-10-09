@@ -161,7 +161,7 @@ function sfm_http_normalize_path(string $path): string {
     if ($path !== '/' && substr($path, -1) === '/' && substr($normalized, -1) !== '/') {
         $normalized .= '/';
     }
-    return $normalized === '' ? '/' : $normalized;
+    return $normalized;
 }
 
 /** Resolve a redirect Location header against the current URL. */
@@ -295,15 +295,26 @@ function sfm_request_raw(string $url, array $opts = []): array {
     $info = curl_getinfo($ch);
     curl_close($ch);
 
+    $info = is_array($info) ? $info : [];
+    $info += [
+        'url' => $url,
+        'primary_ip' => '',
+        'header_size' => 0,
+        'http_code' => 0,
+    ];
+    if ($info['url'] === '') {
+        $info['url'] = $url;
+    }
+
     if ($err || $resp === false) {
         return [false, 0, '', '', $info];
     }
 
-    $headerSize = (int)($info['header_size'] ?? 0);
+    $headerSize = (int)$info['header_size'];
     $headersRaw = substr($resp, 0, $headerSize);
     $body       = ($method === 'HEAD') ? '' : substr($resp, $headerSize);
 
-    $status = (int)($info['http_code'] ?? 0);
+    $status = (int)$info['http_code'];
     return [($status >= 200 && $status < 400), $status, $headersRaw, $body, $info];
 }
 
@@ -341,7 +352,7 @@ function sfm_http_execute(string $url, array $options, string $method): array {
             $info['url'] = $currentUrl;
         }
 
-        $primaryIp = (string)($info['primary_ip'] ?? '');
+        $primaryIp = (string)$info['primary_ip'];
         if ($primaryIp !== '' && !sfm_http_ip_is_public($primaryIp)) {
             $blockReason = 'blocked_private_ip';
             return [false, 0, '', '', $info, $currentUrl, $blockReason];
@@ -683,7 +694,18 @@ function http_multi_get(array $urls, array $baseOptions = []): array {
         $info = curl_getinfo($ch);
         $err  = curl_error($ch);
 
-        $primaryIp = (string)($info['primary_ip'] ?? '');
+        $info = is_array($info) ? $info : [];
+        $info += [
+            'url' => $url,
+            'primary_ip' => '',
+            'header_size' => 0,
+            'http_code' => 0,
+        ];
+        if ($info['url'] === '') {
+            $info['url'] = $url;
+        }
+
+        $primaryIp = (string)$info['primary_ip'];
         if ($err || $raw === false || ($primaryIp !== '' && !sfm_http_ip_is_public($primaryIp))) {
             $resp[$url] = [
                 'ok'         => false,
@@ -695,15 +717,15 @@ function http_multi_get(array $urls, array $baseOptions = []): array {
                 'was_304'    => false,
             ];
         } else {
-            $headerSize = (int)($info['header_size'] ?? 0);
+            $headerSize = (int)$info['header_size'];
             $headersRaw = substr($raw, 0, $headerSize);
             $body       = substr($raw, $headerSize);
             $resp[$url] = [
-                'ok'         => ($info['http_code'] ?? 0) >= 200 && ($info['http_code'] ?? 0) < 400,
-                'status'     => (int)($info['http_code'] ?? 0),
+                'ok'         => $info['http_code'] >= 200 && $info['http_code'] < 400,
+                'status'     => (int)$info['http_code'],
                 'headers'    => sfm_parse_headers($headersRaw),
                 'body'       => $body,
-                'final_url'  => $info['url'] ?? $url,
+                'final_url'  => $info['url'],
                 'from_cache' => false,
                 'was_304'    => false,
             ];

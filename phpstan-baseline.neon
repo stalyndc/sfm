@@ -71,26 +71,6 @@ parameters:
 			path: includes/http.php
 
 		-
-			message: "#^Offset 'header_size' on \\(array\\{url\\: string, content_type\\: string\\|null, http_code\\: int, header_size\\: int, request_size\\: int, filetime\\: int, ssl_verify_result\\: int, redirect_count\\: int, \\.\\.\\.\\}\\|false\\) on left side of \\?\\? always exists and is not nullable\\.$#"
-			count: 2
-			path: includes/http.php
-
-		-
-			message: "#^Offset 'http_code' on array\\{url\\: string, content_type\\: string\\|null, http_code\\: int, header_size\\: int, request_size\\: int, filetime\\: int, ssl_verify_result\\: int, redirect_count\\: int, \\.\\.\\.\\} on left side of \\?\\? always exists and is not nullable\\.$#"
-			count: 3
-			path: includes/http.php
-
-		-
-			message: "#^Offset 'http_code' on array\\{url\\: string, content_type\\: string\\|null, http_code\\: int\\<200, max\\>, header_size\\: int, request_size\\: int, filetime\\: int, ssl_verify_result\\: int, redirect_count\\: int, \\.\\.\\.\\} on left side of \\?\\? always exists and is not nullable\\.$#"
-			count: 1
-			path: includes/http.php
-
-		-
-			message: "#^Offset 'url' on array\\{url\\: string, content_type\\: string\\|null, http_code\\: int, header_size\\: int, request_size\\: int, filetime\\: int, ssl_verify_result\\: int, redirect_count\\: int, \\.\\.\\.\\} on left side of \\?\\? always exists and is not nullable\\.$#"
-			count: 1
-			path: includes/http.php
-
-		-
 			message: "#^Strict comparison using \\=\\=\\= between string\\|null and false will always evaluate to false\\.$#"
 			count: 1
 			path: includes/http.php
