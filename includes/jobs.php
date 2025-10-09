@@ -229,6 +229,7 @@ function sfm_job_mark_success(array $job, int $bytes, int $httpStatus = 200, ?in
     'last_refresh_note'  => $note ?? 'ok',
     'refresh_count'      => ($job['refresh_count'] ?? 0) + 1,
     'items_count'        => $items,
+    'failure_streak'     => 0,
   ];
 
   if (is_array($validation) && !empty($validation['warnings'])) {
@@ -252,6 +253,7 @@ function sfm_job_mark_failure(array $job, string $error, ?int $httpStatus = null
     'last_refresh_error' => $error,
     'last_refresh_note'  => 'fail',
     'last_validation'    => null,
+    'failure_streak'     => ($job['failure_streak'] ?? 0) + 1,
   ];
 
   return sfm_job_update($job['job_id'], $fields);

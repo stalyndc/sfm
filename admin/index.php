@@ -97,9 +97,23 @@ if (!in_array($perPage, $perPageOptions, true)) {
     $perPage = $defaultPerPage;
 }
 
+$statusOptions = ['all', 'ok', 'fail', 'pending'];
+$statusFilter = admin_get_string_param('status', 'all');
+if (!in_array($statusFilter, $statusOptions, true)) {
+    $statusFilter = 'all';
+}
+
+$modeOptions = ['all', 'native', 'custom'];
+$modeFilter = admin_get_string_param('mode', 'all');
+if (!in_array($modeFilter, $modeOptions, true)) {
+    $modeFilter = 'all';
+}
+
+$searchTerm = trim(admin_get_string_param('search', ''));
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $token = (string)($_POST['csrf_token'] ?? '');
-    $redirectUrl = admin_jobs_url($currentPage, $perPage, $defaultPerPage);
+    $redirectUrl = admin_jobs_url($currentPage, $perPage, $defaultPerPage, $statusFilter, $modeFilter, $searchTerm);
     if (!csrf_validate($token)) {
         $_SESSION['sfm_admin_flash'] = [
             'type'    => 'error',
@@ -162,6 +176,37 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 
 $jobs = sfm_job_list();
+
+if ($statusFilter !== 'all' || $modeFilter !== 'all' || $searchTerm !== '') {
+    $jobs = array_values(array_filter($jobs, function (array $job) use ($statusFilter, $modeFilter, $searchTerm) {
+        $status = strtolower((string)($job['last_refresh_status'] ?? ''));
+        $mode   = strtolower((string)($job['mode'] ?? ''));
+
+        if ($statusFilter !== 'all') {
+            if ($statusFilter === 'pending') {
+                if ($status === 'ok' || $status === 'fail') {
+                    return false;
+                }
+            } elseif ($status !== $statusFilter) {
+                return false;
+            }
+        }
+
+        if ($modeFilter !== 'all' && $mode !== $modeFilter) {
+            return false;
+        }
+
+        if ($searchTerm !== '') {
+            $haystack = ((string)($job['source_url'] ?? '')) . ' ' . ((string)($job['feed_url'] ?? ''));
+            if (stripos($haystack, $searchTerm) === false) {
+                return false;
+            }
+        }
+
+        return true;
+    }));
+}
+
 $jobs = array_reverse($jobs);
 
 $totalJobs = count($jobs);
@@ -197,12 +242,31 @@ function admin_get_int_param(string $key, int $default): int
     return $int > 0 ? $int : $default;
 }
 
-function admin_jobs_url(int $page, int $perPage, int $defaultPerPage): string
+function admin_get_string_param(string $key, string $default = ''): string
+{
+    $value = $_POST[$key] ?? $_GET[$key] ?? null;
+    if (!is_scalar($value)) {
+        return $default;
+    }
+    $str = trim((string)$value);
+    return $str !== '' ? $str : $default;
+}
+
+function admin_jobs_url(int $page, int $perPage, int $defaultPerPage, string $status, string $mode, string $search): string
 {
     $page = max(1, $page);
     $params = ['page' => $page];
     if ($perPage !== $defaultPerPage) {
         $params['per_page'] = $perPage;
+    }
+    if ($status !== 'all') {
+        $params['status'] = $status;
+    }
+    if ($mode !== 'all') {
+        $params['mode'] = $mode;
+    }
+    if ($search !== '') {
+        $params['search'] = $search;
     }
     $query = http_build_query($params);
     return '/admin/' . ($query ? '?' . $query : '');
@@ -243,22 +307,47 @@ require __DIR__ . '/../includes/page_header.php';
         <?php if ($totalJobs === 0): ?>
           <p class="mb-0">No jobs yet. Generate a feed to see it here.</p>
         <?php else: ?>
-          <div class="d-flex flex-column flex-lg-row align-items-lg-center justify-content-between gap-3 mb-3">
+          <div class="d-flex flex-column gap-3 mb-3">
             <div class="small text-secondary">
               Showing <?= number_format($showingStart); ?>–<?= number_format($showingEnd); ?> of <?= number_format($totalJobs); ?> job<?= $totalJobs === 1 ? '' : 's'; ?>
             </div>
-            <form method="get" class="d-flex align-items-center gap-2">
+            <form method="get" class="row gx-2 gy-2 align-items-end">
               <input type="hidden" name="page" value="1">
-              <label for="admin-per-page" class="form-label small mb-0">Per page</label>
-              <select name="per_page" id="admin-per-page" class="form-select form-select-sm" style="width: auto;" onchange="this.form.submit()">
-                <?php foreach ($perPageOptions as $option): ?>
-                  <option value="<?= $option; ?>" <?= $option === $perPage ? 'selected' : ''; ?>><?= $option; ?></option>
-                <?php endforeach; ?>
-              </select>
+              <div class="col-12 col-md-4">
+                <label for="admin-search" class="form-label small mb-1">Search source or feed URL</label>
+                <input type="search" name="search" id="admin-search" class="form-control form-control-sm" value="<?= htmlspecialchars($searchTerm, ENT_QUOTES, 'UTF-8'); ?>" placeholder="example.com">
+              </div>
+              <div class="col-6 col-md-2">
+                <label for="admin-status" class="form-label small mb-1">Status</label>
+                <select name="status" id="admin-status" class="form-select form-select-sm">
+                  <?php foreach ($statusOptions as $option): ?>
+                    <option value="<?= $option; ?>" <?= $option === $statusFilter ? 'selected' : ''; ?>><?= ucfirst($option); ?></option>
+                  <?php endforeach; ?>
+                </select>
+              </div>
+              <div class="col-6 col-md-2">
+                <label for="admin-mode" class="form-label small mb-1">Mode</label>
+                <select name="mode" id="admin-mode" class="form-select form-select-sm">
+                  <?php foreach ($modeOptions as $option): ?>
+                    <option value="<?= $option; ?>" <?= $option === $modeFilter ? 'selected' : ''; ?>><?= ucfirst($option); ?></option>
+                  <?php endforeach; ?>
+                </select>
+              </div>
+              <div class="col-6 col-md-2 col-lg-1">
+                <label for="admin-per-page" class="form-label small mb-1">Per page</label>
+                <select name="per_page" id="admin-per-page" class="form-select form-select-sm">
+                  <?php foreach ($perPageOptions as $option): ?>
+                    <option value="<?= $option; ?>" <?= $option === $perPage ? 'selected' : ''; ?>><?= $option; ?></option>
+                  <?php endforeach; ?>
+                </select>
+              </div>
+              <div class="col-auto">
+                <button type="submit" class="btn btn-sm btn-outline-primary">Apply</button>
+              </div>
             </form>
           </div>
-          <div class="table-responsive">
-            <table class="table align-middle mb-0 table-dark">
+          <div class="table-responsive jobs-table-container">
+            <table class="table align-middle mb-0 table-dark table-sticky">
               <thead>
                 <tr>
                   <th scope="col">Source</th>
@@ -274,10 +363,12 @@ require __DIR__ . '/../includes/page_header.php';
                 <?php foreach ($jobsPage as $job): ?>
                   <?php
                     $jobId    = (string)$job['job_id'];
-                    $status   = (string)($job['last_refresh_status'] ?? '');
+                    $statusRaw= (string)($job['last_refresh_status'] ?? '');
+                    $status   = strtolower($statusRaw);
                     $note     = (string)($job['last_refresh_note'] ?? '');
                     $badgeCls = $status === 'ok' ? 'bg-success' : ($status === 'fail' ? 'bg-danger' : 'bg-secondary');
                     $itemsCnt = $job['items_count'] ?? null;
+                    $failureStreak = (int)($job['failure_streak'] ?? 0);
                     $validationWarns = [];
                     $validationChecked = null;
                     if (!empty($job['last_validation']) && is_array($job['last_validation'])) {
@@ -315,9 +406,14 @@ require __DIR__ . '/../includes/page_header.php';
                       <div class="small text-secondary">Code: <?= htmlspecialchars((string)($job['last_refresh_code'] ?? '—'), ENT_QUOTES, 'UTF-8'); ?></div>
                     </td>
                     <td>
-                      <span class="badge <?= $badgeCls; ?> text-uppercase"><?= htmlspecialchars($status ?: 'unknown', ENT_QUOTES, 'UTF-8'); ?></span>
+                      <span class="badge <?= $badgeCls; ?> text-uppercase"><?= htmlspecialchars(strtoupper($statusRaw === '' ? 'pending' : $statusRaw), ENT_QUOTES, 'UTF-8'); ?></span>
                       <?php if ($note): ?>
                         <div class="small text-secondary mt-1 text-wrap" style="max-width: 200px;"><?= htmlspecialchars($note, ENT_QUOTES, 'UTF-8'); ?></div>
+                      <?php endif; ?>
+                      <?php if ($failureStreak >= 3): ?>
+                        <span class="badge rounded-pill bg-danger-subtle text-danger mt-1">Failed <?= (int)$failureStreak; ?>×</span>
+                      <?php elseif ($failureStreak === 2): ?>
+                        <span class="badge rounded-pill bg-warning-subtle text-warning mt-1">Failed 2×</span>
                       <?php endif; ?>
                       <?php if ($validationWarns): ?>
                         <?php
@@ -342,6 +438,9 @@ require __DIR__ . '/../includes/page_header.php';
                           <input type="hidden" name="admin_action" value="refresh">
                           <input type="hidden" name="page" value="<?= (int)$currentPage; ?>">
                           <input type="hidden" name="per_page" value="<?= (int)$perPage; ?>">
+                          <input type="hidden" name="status" value="<?= htmlspecialchars($statusFilter, ENT_QUOTES, 'UTF-8'); ?>">
+                          <input type="hidden" name="mode" value="<?= htmlspecialchars($modeFilter, ENT_QUOTES, 'UTF-8'); ?>">
+                          <input type="hidden" name="search" value="<?= htmlspecialchars($searchTerm, ENT_QUOTES, 'UTF-8'); ?>">
                           <button type="submit" class="btn btn-sm btn-outline-primary w-100">Refresh</button>
                         </form>
                         <form method="post" onsubmit="return confirm('Delete this job?');">
@@ -350,6 +449,9 @@ require __DIR__ . '/../includes/page_header.php';
                           <input type="hidden" name="admin_action" value="delete">
                           <input type="hidden" name="page" value="<?= (int)$currentPage; ?>">
                           <input type="hidden" name="per_page" value="<?= (int)$perPage; ?>">
+                          <input type="hidden" name="status" value="<?= htmlspecialchars($statusFilter, ENT_QUOTES, 'UTF-8'); ?>">
+                          <input type="hidden" name="mode" value="<?= htmlspecialchars($modeFilter, ENT_QUOTES, 'UTF-8'); ?>">
+                          <input type="hidden" name="search" value="<?= htmlspecialchars($searchTerm, ENT_QUOTES, 'UTF-8'); ?>">
                           <button type="submit" class="btn btn-sm btn-outline-danger w-100">Delete</button>
                         </form>
                       </div>
@@ -364,8 +466,8 @@ require __DIR__ . '/../includes/page_header.php';
               $range = 2;
               $prevDisabled = $currentPage <= 1;
               $nextDisabled = $currentPage >= $totalPages;
-              $prevHref = $prevDisabled ? '#' : admin_jobs_url($currentPage - 1, $perPage, $defaultPerPage);
-              $nextHref = $nextDisabled ? '#' : admin_jobs_url($currentPage + 1, $perPage, $defaultPerPage);
+              $prevHref = $prevDisabled ? '#' : admin_jobs_url($currentPage - 1, $perPage, $defaultPerPage, $statusFilter, $modeFilter, $searchTerm);
+              $nextHref = $nextDisabled ? '#' : admin_jobs_url($currentPage + 1, $perPage, $defaultPerPage, $statusFilter, $modeFilter, $searchTerm);
               $start = max(1, $currentPage - $range);
               $end   = min($totalPages, $currentPage + $range);
             ?>
@@ -376,7 +478,7 @@ require __DIR__ . '/../includes/page_header.php';
                 </li>
                 <?php if ($start > 1): ?>
                   <li class="page-item">
-                    <a class="page-link" href="<?= htmlspecialchars(admin_jobs_url(1, $perPage, $defaultPerPage), ENT_QUOTES, 'UTF-8'); ?>">1</a>
+                    <a class="page-link" href="<?= htmlspecialchars(admin_jobs_url(1, $perPage, $defaultPerPage, $statusFilter, $modeFilter, $searchTerm), ENT_QUOTES, 'UTF-8'); ?>">1</a>
                   </li>
                   <?php if ($start > 2): ?>
                     <li class="page-item disabled"><span class="page-link">&hellip;</span></li>
@@ -384,7 +486,7 @@ require __DIR__ . '/../includes/page_header.php';
                 <?php endif; ?>
                 <?php for ($p = $start; $p <= $end; $p++): ?>
                   <li class="page-item <?= $p === $currentPage ? 'active' : ''; ?>">
-                    <a class="page-link" href="<?= htmlspecialchars(admin_jobs_url($p, $perPage, $defaultPerPage), ENT_QUOTES, 'UTF-8'); ?>"><?= $p; ?></a>
+                    <a class="page-link" href="<?= htmlspecialchars(admin_jobs_url($p, $perPage, $defaultPerPage, $statusFilter, $modeFilter, $searchTerm), ENT_QUOTES, 'UTF-8'); ?>"><?= $p; ?></a>
                   </li>
                 <?php endfor; ?>
                 <?php if ($end < $totalPages): ?>
@@ -392,7 +494,7 @@ require __DIR__ . '/../includes/page_header.php';
                     <li class="page-item disabled"><span class="page-link">&hellip;</span></li>
                   <?php endif; ?>
                   <li class="page-item">
-                    <a class="page-link" href="<?= htmlspecialchars(admin_jobs_url($totalPages, $perPage, $defaultPerPage), ENT_QUOTES, 'UTF-8'); ?>"><?= $totalPages; ?></a>
+                    <a class="page-link" href="<?= htmlspecialchars(admin_jobs_url($totalPages, $perPage, $defaultPerPage, $statusFilter, $modeFilter, $searchTerm), ENT_QUOTES, 'UTF-8'); ?>"><?= $totalPages; ?></a>
                   </li>
                 <?php endif; ?>
                 <li class="page-item <?= $nextDisabled ? 'disabled' : ''; ?>">

@@ -125,6 +125,24 @@ body {
   margin-top: 1rem;
 }
 
+/* Admin tweaks */
+.table-sticky thead th {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: var(--bs-card-bg);
+}
+
+[data-bs-theme="light"] .table-sticky thead th {
+[data-bs-theme="light"] .table-sticky thead th {
+  background: rgba(235, 239, 249, .98);
+}
+
+.jobs-table-container {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
 .page-list li:last-child {
   margin-bottom: 0;
 }
