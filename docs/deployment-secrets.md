@@ -44,5 +44,8 @@ ignored by git, so they stay on the server only.
 - Store the new secrets in your password manager for future rotations.
 - Update `secure/cron.env` with the new alert recipients (`SFM_ALERT_EMAIL`,
   `SFM_HEALTH_ALERT_EMAIL`, etc.) so automation keeps sending notifications.
+- If traffic sits behind Cloudflare or another proxy, populate
+  `SFM_TRUSTED_PROXIES` in `secure/cron.env` with the edge IPs/CIDRs so rate
+  limiting and abuse detection see the real client IP.
 
 Repeat this process any time you suspect a credential may have been exposed.

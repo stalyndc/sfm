@@ -87,6 +87,61 @@ function sfm_user_agent(): string {
     return APP_NAME . ' Bot/1.0 (+https://simplefeedmaker.com)';
 }
 
+/** Internal: load test fixtures instead of performing a real HTTP request when configured. */
+function sfm_http_fixture_response(string $url, string $method): ?array {
+    $fixtureDir = getenv('SFM_TEST_FIXTURE_DIR');
+    if ($fixtureDir === false || $fixtureDir === '') {
+        return null;
+    }
+
+    $parts = @parse_url($url);
+    if (!is_array($parts)) {
+        return null;
+    }
+
+    $host = strtolower($parts['host'] ?? '');
+    if ($host !== 'fixtures.simplefeedmaker.test') {
+        return null;
+    }
+
+    $path = $parts['path'] ?? '/';
+    if ($path === '' || $path === '/') {
+      $path = '/index.html';
+    }
+    $fixturePath = rtrim($fixtureDir, '/\\') . $path;
+    if (is_dir($fixturePath)) {
+        $fixturePath = rtrim($fixturePath, '/\\') . '/index.html';
+    }
+
+    if (!is_file($fixturePath) || !is_readable($fixturePath)) {
+        $headersRaw = "HTTP/1.1 404 Not Found\r\nContent-Type: text/plain\r\n\r\n";
+        $info = [
+            'url'        => $url,
+            'http_code'  => 404,
+            'header_size'=> strlen($headersRaw),
+            'primary_ip' => '203.0.113.1',
+            'content_type' => 'text/plain',
+        ];
+        return [false, 404, $headersRaw, '', $info];
+    }
+
+    $body = (string)@file_get_contents($fixturePath);
+    $headersRaw = "HTTP/1.1 200 OK\r\nContent-Type: text/html; charset=UTF-8\r\n\r\n";
+    $info = [
+        'url'          => $url,
+        'http_code'    => 200,
+        'header_size'  => strlen($headersRaw),
+        'primary_ip'   => '203.0.113.1',
+        'content_type' => 'text/html; charset=UTF-8',
+    ];
+
+    if (strtoupper($method) === 'HEAD') {
+        $body = '';
+    }
+
+    return [true, 200, $headersRaw, $body, $info];
+}
+
 /** Determine if an IP address is public (no private/reserved ranges). */
 function sfm_http_ip_is_public(string $ip): bool {
     if (function_exists('sfm_is_public_ip')) {
@@ -120,6 +175,10 @@ function sfm_http_url_is_allowed(string $url, ?string &$reason = null): bool {
     if (isset($parts['user']) || isset($parts['pass'])) {
         $reason = 'disallowed_auth';
         return false;
+    }
+
+    if (getenv('SFM_TEST_ALLOW_LOCAL_URLS') === '1') {
+        return true;
     }
 
     if (function_exists('sfm_url_is_public')) {
@@ -245,6 +304,13 @@ function sfm_request_raw(string $url, array $opts = []): array {
     $acceptLang     = (string)($opts['accept_language'] ?? 'en-US,en;q=0.9');
     $extraHeaders   = (array)($opts['headers'] ?? []);
     $followLocation = (bool)($opts['follow_location'] ?? false);
+
+    if (in_array($method, ['GET', 'HEAD'], true)) {
+        $fixture = sfm_http_fixture_response($url, $method);
+        if ($fixture !== null) {
+            return $fixture;
+        }
+    }
 
     // HTTP/2 -> 1.1 fallback, safest across hosts
     $httpVersion = defined('CURL_HTTP_VERSION_2TLS')

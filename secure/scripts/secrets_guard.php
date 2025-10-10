@@ -24,6 +24,7 @@ $requiredIgnores = [
     'secure/sfm-secrets.php',
     'secure/config.php',
     'secure/admin-password-rehash.todo',
+    'secure/cron.env',
     'secure/vendor/',
     'secure/logs/*',
     '!secure/logs/.gitignore',
@@ -38,6 +39,7 @@ $requiredExamples = [
     $secureDir . '/db-credentials.example.php',
     $secureDir . '/config.example.php',
     $secureDir . '/sfm-secrets.example.php',
+    $secureDir . '/cron.env.example',
 ];
 
 $realSecrets = [
@@ -77,6 +79,22 @@ foreach ($requiredExamples as $template) {
         $passes[] = 'Template present: ' . relative_path($template, $repoRoot);
     } else {
         $issues[] = 'Template missing: ' . relative_path($template, $repoRoot);
+    }
+}
+
+$cronExample = $secureDir . '/cron.env.example';
+if (is_file($cronExample)) {
+    $cronContents = file_get_contents($cronExample) ?: '';
+    $expectedKeys = [
+        'SFM_ALERT_EMAIL'      => 'cron.env.example missing SFM_ALERT_EMAIL placeholder.',
+        'SFM_TRUSTED_PROXIES'  => 'cron.env.example missing SFM_TRUSTED_PROXIES guidance.',
+    ];
+    foreach ($expectedKeys as $needle => $message) {
+        if (stripos($cronContents, $needle) === false) {
+            $issues[] = $message;
+        } else {
+            $passes[] = "cron.env.example references {$needle}";
+        }
     }
 }
 

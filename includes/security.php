@@ -313,6 +313,9 @@ function sfm_host_is_public(string $host): bool
 
 function sfm_url_is_public(string $url): bool
 {
+  if (getenv('SFM_TEST_ALLOW_LOCAL_URLS') === '1') {
+    return true;
+  }
   $host = parse_url($url, PHP_URL_HOST);
   if (!is_string($host) || $host === '') {
     return false;

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Fixture News</title>
+    <link rel="alternate" type="application/rss+xml" title="Fixture Feed" href="https://fixtures.simplefeedmaker.test/feed.xml">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "NewsArticle",
+            "url": "https://fixtures.simplefeedmaker.test/articles/alpha",
+            "headline": "Alpha Article",
+            "datePublished": "2024-01-01T10:00:00Z"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "NewsArticle",
+            "url": "https://fixtures.simplefeedmaker.test/articles/bravo",
+            "headline": "Bravo Article",
+            "datePublished": "2024-01-02T12:30:00Z"
+          }
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <main>
+      <article>
+        <h1>Alpha Article</h1>
+        <p>This is the alpha article body.</p>
+      </article>
+      <article>
+        <h1>Bravo Article</h1>
+        <p>This is the bravo article body.</p>
+      </article>
+      <ul>
+        <li><a href="https://fixtures.simplefeedmaker.test/articles/alpha">Alpha Article</a></li>
+        <li><a href="https://fixtures.simplefeedmaker.test/articles/bravo">Bravo Article</a></li>
+      </ul>
+    </main>
+  </body>
+</html>

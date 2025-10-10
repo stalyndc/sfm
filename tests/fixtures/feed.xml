@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Fixture Feed</title>
+    <link>https://fixtures.simplefeedmaker.test/</link>
+    <description>Fixture RSS feed</description>
+    <item>
+      <title>Alpha Article</title>
+      <link>https://fixtures.simplefeedmaker.test/articles/alpha</link>
+      <description>Alpha article description</description>
+      <pubDate>Mon, 01 Jan 2024 10:00:00 +0000</pubDate>
+      <guid>https://fixtures.simplefeedmaker.test/articles/alpha</guid>
+    </item>
+    <item>
+      <title>Bravo Article</title>
+      <link>https://fixtures.simplefeedmaker.test/articles/bravo</link>
+      <description>Bravo article description</description>
+      <pubDate>Tue, 02 Jan 2024 12:30:00 +0000</pubDate>
+      <guid>https://fixtures.simplefeedmaker.test/articles/bravo</guid>
+    </item>
+  </channel>
+</rss>
