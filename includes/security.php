@@ -119,15 +119,106 @@ function csrf_validate(?string $token): bool {
 /* ============================================================
  * Client + rate limiting
  * ============================================================ */
-function client_ip(): string {
-  // Best-effort; on shared hosting we often only have REMOTE_ADDR.
-  if (!empty($_SERVER['HTTP_CF_CONNECTING_IP'])) return $_SERVER['HTTP_CF_CONNECTING_IP'];
-  if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
-    // First item is the original client
-    $parts = explode(',', $_SERVER['HTTP_X_FORWARDED_FOR']);
-    return trim($parts[0]);
+function sfm_trusted_proxies(): array {
+  static $cached = null;
+  if ($cached !== null) {
+    return $cached;
   }
-  return $_SERVER['REMOTE_ADDR'] ?? '0.0.0.0';
+
+  $env = trim((string)getenv('SFM_TRUSTED_PROXIES'));
+  if ($env === '') {
+    return $cached = [];
+  }
+
+  $parts = preg_split('/[,\s]+/', $env, -1, PREG_SPLIT_NO_EMPTY) ?: [];
+  return $cached = array_values(array_unique($parts));
+}
+
+function sfm_ip_in_cidr(string $ip, string $cidr): bool {
+  if (strpos($cidr, '/') === false) {
+    return false;
+  }
+  [$subnet, $maskBits] = explode('/', $cidr, 2);
+  $subnetPacked = @inet_pton($subnet);
+  $ipPacked     = @inet_pton($ip);
+  if ($subnetPacked === false || $ipPacked === false || strlen($subnetPacked) !== strlen($ipPacked)) {
+    return false;
+  }
+  $maskBits = (int)$maskBits;
+  $maxBits  = strlen($ipPacked) * 8;
+  if ($maskBits < 0 || $maskBits > $maxBits) {
+    return false;
+  }
+
+  $fullBytes = intdiv($maskBits, 8);
+  $remainder = $maskBits % 8;
+  if ($fullBytes > 0) {
+    if (strncmp($ipPacked, $subnetPacked, $fullBytes) !== 0) {
+      return false;
+    }
+  }
+  if ($remainder === 0) {
+    return true;
+  }
+  $mask = (~0 << (8 - $remainder)) & 0xFF;
+  return ((ord($ipPacked[$fullBytes]) ^ ord($subnetPacked[$fullBytes])) & $mask) === 0;
+}
+
+function sfm_ip_matches_trusted(string $ip, array $trusted): bool {
+  foreach ($trusted as $entry) {
+    $entry = trim($entry);
+    if ($entry === '') {
+      continue;
+    }
+    if (strpos($entry, '/') !== false) {
+      if (sfm_ip_in_cidr($ip, $entry)) {
+        return true;
+      }
+    } elseif (filter_var($entry, FILTER_VALIDATE_IP)) {
+      if (strcasecmp($ip, $entry) === 0) {
+        return true;
+      }
+    }
+  }
+  return false;
+}
+
+function client_ip(): string {
+  $remote = trim((string)($_SERVER['REMOTE_ADDR'] ?? ''));
+  if ($remote !== '' && !filter_var($remote, FILTER_VALIDATE_IP)) {
+    $remote = '';
+  }
+
+  $trusted = sfm_trusted_proxies();
+  $canTrustForwarded = $remote !== '' && $trusted && sfm_ip_matches_trusted($remote, $trusted);
+
+  $candidates = [];
+  if ($canTrustForwarded) {
+    $cf = trim((string)($_SERVER['HTTP_CF_CONNECTING_IP'] ?? ''));
+    if ($cf !== '' && filter_var($cf, FILTER_VALIDATE_IP)) {
+      $candidates[] = $cf;
+    }
+    if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+      foreach (explode(',', (string)$_SERVER['HTTP_X_FORWARDED_FOR']) as $forwarded) {
+        $forwarded = trim($forwarded);
+        if ($forwarded !== '' && filter_var($forwarded, FILTER_VALIDATE_IP)) {
+          $candidates[] = $forwarded;
+        }
+      }
+    }
+  }
+
+  foreach ($candidates as $candidate) {
+    if (filter_var($candidate, FILTER_VALIDATE_IP)) {
+      return $candidate;
+    }
+  }
+
+  if ($remote !== '') {
+    return $remote;
+  }
+
+  return '0.0.0.0';
 }
 
 function rate_file_path(string $context): string {

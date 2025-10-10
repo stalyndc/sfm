@@ -83,24 +83,6 @@ function sfm_json_fail(string $msg, int $http = 400, array $extra = []): void
   json_fail($msg, $http, $extra);
 }
 
-function app_url_base(): string
-{
-  $envBase = trim((string)getenv('SFM_BASE_URL'));
-  if ($envBase !== '') {
-    if (!preg_match('~^https?://~i', $envBase)) {
-      $envBase = 'https://' . ltrim($envBase, '/');
-    }
-    return rtrim($envBase, '/');
-  }
-
-  $https  = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') || (($_SERVER['SERVER_PORT'] ?? '') === '443');
-  $scheme = $https ? 'https' : 'http';
-  $host   = $_SERVER['HTTP_HOST'] ?? 'localhost';
-  $script = $_SERVER['SCRIPT_NAME'] ?? '/generate.php';
-  $base   = rtrim(str_replace('\\', '/', dirname($script)), '/.');
-  return $scheme . '://' . $host . ($base ? $base : '');
-}
-
 function ensure_feeds_dir(): void
 {
   if (!is_dir(FEEDS_DIR)) @mkdir(FEEDS_DIR, 0775, true);

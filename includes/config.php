@@ -166,6 +166,65 @@ if (!defined('SFM_JOB_RETENTION_DAYS')) {
   define('SFM_JOB_RETENTION_DAYS', 21);
 }
 
+if (!function_exists('sfm_parse_host_header')) {
+  /**
+   * Normalise an incoming Host header.
+   *
+   * @return array{host:string,is_ipv6:bool,port:?int}|null
+   */
+  function sfm_parse_host_header(?string $host): ?array {
+    $host = trim((string)$host);
+    if ($host === '' || strpos($host, "\0") !== false) {
+      return null;
+    }
+
+    $parsed = @parse_url('http://' . $host);
+    if (!is_array($parsed) || empty($parsed['host'])) {
+      return null;
+    }
+
+    $hostname = strtolower((string)$parsed['host']);
+    $isIpv6   = filter_var($hostname, FILTER_VALIDATE_IP, FILTER_FLAG_IPV6) !== false;
+
+    if (!$isIpv6) {
+      if (!filter_var($hostname, FILTER_VALIDATE_IP, FILTER_FLAG_IPV4)) {
+        $labelPattern = '/^(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?)(?:\.(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?))*$/i';
+        if (!preg_match($labelPattern, $hostname)) {
+          return null;
+        }
+      }
+    }
+
+    $port = null;
+    if (array_key_exists('port', $parsed)) {
+      $portNum = (int)$parsed['port'];
+      if ($portNum <= 0) {
+        return null;
+      }
+      $port = $portNum;
+    }
+
+    return [
+      'host'    => $hostname,
+      'is_ipv6' => $isIpv6,
+      'port'    => $port,
+    ];
+  }
+}
+
+if (!function_exists('sfm_build_host_authority')) {
+  function sfm_build_host_authority(string $host, bool $isIpv6, ?int $port, string $scheme): string {
+    $authority = $isIpv6 ? '[' . $host . ']' : $host;
+    if ($port !== null) {
+      $isDefault = ($scheme === 'http' && $port === 80) || ($scheme === 'https' && $port === 443);
+      if (!$isDefault) {
+        $authority .= ':' . $port;
+      }
+    }
+    return $authority;
+  }
+}
+
 /* -----------------------------------------------------------
    URL helpers
    ----------------------------------------------------------- */
@@ -186,12 +245,19 @@ if (!function_exists('app_url_base')) {
     $https  = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off')
               || (($_SERVER['SERVER_PORT'] ?? '') === '443');
     $scheme = $https ? 'https' : 'http';
-    $host   = $_SERVER['HTTP_HOST'] ?? 'localhost';
+    $meta   = sfm_parse_host_header($_SERVER['HTTP_HOST'] ?? '');
+    if ($meta === null) {
+      $meta = sfm_parse_host_header($_SERVER['SERVER_NAME'] ?? '');
+    }
+    if ($meta === null) {
+      $meta = ['host' => 'localhost', 'is_ipv6' => false, 'port' => null];
+    }
+    $authority = sfm_build_host_authority($meta['host'], (bool)$meta['is_ipv6'], $meta['port'], $scheme);
 
     // derive base path from current script location
     $script = $_SERVER['SCRIPT_NAME'] ?? '/index.php';
     $base   = rtrim(str_replace('\\','/', dirname($script)), '/.');
-    return $scheme . '://' . $host . ($base ? $base : '');
+    return $scheme . '://' . $authority . ($base ? $base : '');
   }
 }
 
@@ -208,7 +274,7 @@ if (!function_exists('ensure_feeds_dir')) {
       http_response_code(500);
       header('Content-Type: application/json; charset=utf-8');
       echo json_encode(['ok'=>false, 'message'=>'Server cannot write to /feeds. Check permissions.']);
-      exit;
+      exit(1);
     }
   }
 }

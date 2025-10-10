@@ -43,6 +43,7 @@ Goal: “run smooth and secure” with lightweight agents (automations + checks)
 - **Script:**
   1. Execute `php secure/scripts/cleanup_feeds.php --max-age=3d`.
   2. After run, scan `storage/logs/cleanup.log` for errors; if missing, record success in `secure/logs/app.log`.
+- **Cron example:** `15 1 * * * php secure/scripts/cleanup_feeds.php --max-age=3d >> secure/logs/app.log 2>&1` keeps storage tidy without spamming cron mail.
 - **Output:** storage stays lean; audit trail in logs.
 
 ### Health Sentry
