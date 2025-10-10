@@ -13,6 +13,7 @@ Goal: “run smooth and secure” with lightweight agents (automations + checks)
   1. Execute `php secure/scripts/secrets_guard.php`.
   2. The script validates `.gitignore` coverage, confirms example templates exist, and fails if any real secrets are tracked.
   3. When it fails, update `.gitignore`, add the missing template, or remove the tracked secret file, then rerun.
+- **Response checklist:** When the script returns a non-zero exit code, stop and fix the first problem it reports. Commit the `.example` template (never the real secret), double-check `.gitignore` includes the real secret path, and rerun the command until it exits 0 before pushing.
 - **Output:** ensures developers share templates, never real credentials (exit 0 = safe, non‑zero = action needed).
 
 ### Deploy Courier
@@ -23,6 +24,7 @@ Goal: “run smooth and secure” with lightweight agents (automations + checks)
   2. The script runs `composer install --no-dev`, `composer test` (use `--skip-tests` to bypass), optionally builds assets, reports the `/assets` footprint, and bundles the repo into `build/releases/simplefeedmaker-<timestamp>.zip` without runtime folders (`storage/`, `secure/logs/`, `secure/ratelimits/`).
   3. Use `--stage-dir=/path` to copy the zip into a shared drop folder, `--upload-sftp-*` flags to push straight to the server (or `--upload-cmd="…{file}"` for a custom command), and `--post-deploy-url=https://simplefeedmaker.com/health.php` for an instant smoke test.
   4. If you prefer manual deploys, upload the generated zip via Hostinger file manager or `sftp`, extract, and confirm file permissions (`644` files, `755` dirs`).
+- **Optional smoke check:** Pass `--post-deploy-url=https://simplefeedmaker.com/health.php` (or your staging endpoint) to have the courier hit the health check after upload; failures bubble up in the script output.
 - **Output:** a repeatable release package with secrets preserved on the server only.
 
 ### CI Sentinel
@@ -31,6 +33,7 @@ Goal: “run smooth and secure” with lightweight agents (automations + checks)
 - **Script:**
   1. Check out the repo and set up PHP 8.2 with required extensions.
   2. Run `composer validate`, `composer install --no-dev`, then `composer test`.
+- **Baseline guard:** The workflow fails if `composer ci` surfaces new PHPStan errors, so keep `phpstan-baseline.neon` trimmed to real outstanding issues. Run `composer ci` locally before pushing and drop ignores that no longer match.
 - **Output:** fast feedback in GitHub if syntax breaks or security advisories appear.
 - **Enforce:** In GitHub → *Settings → Branches*, add a protection rule for `main` (and any release branches) that requires the `CI` status check to pass. Enable “Require branches to be up to date before merging” to rerun tests after rebases.
 
