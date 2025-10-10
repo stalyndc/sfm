@@ -24,7 +24,9 @@ if [[ -f "${ENV_FILE}" ]]; then
   source "${ENV_FILE}"
 fi
 
-export SFM_ALERT_EMAIL="${SFM_ALERT_EMAIL:-stalyn@disla.net}"
+if [[ -n "${SFM_ALERT_EMAIL:-}" ]]; then
+  export SFM_ALERT_EMAIL
+fi
 export PHP_BIN="${PHP_BIN:-php}"
 
 log() {

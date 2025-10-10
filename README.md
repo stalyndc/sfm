@@ -60,6 +60,9 @@ Schedule `scripts/automation/cron_runner.sh` from Hostinger with Bash:
 
 `secure/cron.env` can override `PHP_BIN`, `SFM_ALERT_EMAIL(S)` and provide paths
 for backups (`SFM_BACKUPS_DIR`) and drill checksums (`SFM_CHECKSUM_FILE`).
+Set `SFM_APP_NAME` if you need different branding, and `SFM_TRUSTED_PROXIES`
+to a space/comma-separated list of proxy IPs or CIDRs before trusting forwarded
+addresses.
 
 The monitor hits `health.php` and emails only on failures; warnings are logged.
 After adding backups or running the disaster drill, the health endpoint will

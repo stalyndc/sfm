@@ -13,7 +13,7 @@ declare(strict_types=1);
 // define('SFM_LOG_ENABLED', false);
 
 // Example: email address for automation alerts (rate limiter, log sanitizer, etc.)
-// define('SFM_ALERT_EMAIL', 'stalyn@disla.net');
+// define('SFM_ALERT_EMAIL', 'alerts@example.com');
 
 // Example: override disaster drill log location or backups directory
 // define('SFM_DRILL_STATUS_FILE', __DIR__ . '/logs/disaster_drill.json');

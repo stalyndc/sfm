@@ -14,6 +14,7 @@ Goal: “run smooth and secure” with lightweight agents (automations + checks)
   2. The script validates `.gitignore` coverage, confirms example templates exist, and fails if any real secrets are tracked.
   3. When it fails, update `.gitignore`, add the missing template, or remove the tracked secret file, then rerun.
 - **Response checklist:** When the script returns a non-zero exit code, stop and fix the first problem it reports. Commit the `.example` template (never the real secret), double-check `.gitignore` includes the real secret path, and rerun the command until it exits 0 before pushing.
+- **Environment tips:** Keep host-specific values (e.g. `SFM_APP_NAME`, `SFM_ALERT_EMAIL`, `SFM_TRUSTED_PROXIES`) in `secure/cron.env` or actual host config so Secrets Guard can confirm only `.example` templates live in git.
 - **Output:** ensures developers share templates, never real credentials (exit 0 = safe, non‑zero = action needed).
 
 ### Deploy Courier
@@ -62,7 +63,7 @@ Goal: “run smooth and secure” with lightweight agents (automations + checks)
 - **Script:**
   1. Count unique IPs from JSON filenames; if >100/hour, compile top offenders.
   2. For each offender, append an entry to `secure/ratelimits/README.md` with timestamp + reason and update the `.htaccess` blocklist when invoked with `--block`.
-  3. Add `--notify` (or configure `SFM_ALERT_EMAIL`) so the script emails stalyn@disla.net when thresholds trip; run hourly via cron, e.g. `5 * * * * php secure/scripts/rate_limit_inspector.php --threshold=150 --top=10 --block`.
+  3. Add `--notify` (or configure `SFM_ALERT_EMAIL`) so the script emails your ops inbox when thresholds trip; run hourly via cron, e.g. `5 * * * * php secure/scripts/rate_limit_inspector.php --threshold=150 --top=10 --block`.
 - **Output:** documented abuse handling and optional automated blocks.
 
 ### Log Sanitizer
@@ -72,7 +73,7 @@ Goal: “run smooth and secure” with lightweight agents (automations + checks)
   1. Run `php secure/scripts/log_sanitizer.php` (add `--dry-run` to preview, `--retention=30` to change archive window).
   2. The script redacts email addresses, phone numbers, and sensitive query params from `secure/logs/*.log`.
   3. Sanitized logs older than 14 days are gzipped into `secure/logs/archive/` and removed from the live directory.
-  4. Configure `SFM_ALERT_EMAIL` or pass `--notify` so redactions and archive activity email stalyn@disla.net; cron example: `30 2 * * 1 php secure/scripts/log_sanitizer.php`.
+  4. Configure `SFM_ALERT_EMAIL` or pass `--notify` so redactions and archive activity email your ops inbox; cron example: `30 2 * * 1 php secure/scripts/log_sanitizer.php`.
 - **Output:** compliance-friendly logs with smaller footprint.
 
 ### Disaster Drill

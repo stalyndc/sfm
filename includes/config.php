@@ -13,7 +13,8 @@ declare(strict_types=1);
    App identity / environment
    ----------------------------------------------------------- */
 if (!defined('APP_NAME')) {
-  define('APP_NAME', 'SimpleFeedMaker');
+  $envName = trim((string)getenv('SFM_APP_NAME'));
+  define('APP_NAME', $envName !== '' ? $envName : 'SimpleFeedMaker');
 }
 
 /**
@@ -310,4 +311,11 @@ if (!defined('SFM_LOG_DIR')) {
     } else {
         define('SFM_LOG_DIR', ROOT_DIR . '/logs');
     }
+}
+
+if (!defined('SFM_ALERT_EMAIL')) {
+  $envAlert = trim((string)getenv('SFM_ALERT_EMAIL'));
+  if ($envAlert !== '') {
+    define('SFM_ALERT_EMAIL', $envAlert);
+  }
 }

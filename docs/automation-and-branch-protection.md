@@ -21,8 +21,8 @@ GitHub branch protection.
 ## Cron & Agent Schedule
 
 Run the CLI agents from the Hostinger account (or your preferred scheduler)
-using the cadence below. Set `SFM_ALERT_EMAIL=stalyn@disla.net` so email
-notifications reach the ops inbox.
+using the cadence below. Set `SFM_ALERT_EMAIL` to your operations inbox so email
+notifications reach the right team.
 
 | Cadence | Command |
 | ------- | ------- |
@@ -36,8 +36,8 @@ Notes:
 - Copy `secure/cron.env.example` to `secure/cron.env`, tweak values (health URL,
   alert emails, SFTP password), and source it from cron so alerts/backups are
   configured consistently.
-- The runner exports `SFM_ALERT_EMAIL=stalyn@disla.net` by default; override in
-  `secure/cron.env` if you need different recipients.
+- The runner uses whichever `SFM_ALERT_EMAIL` you provide in `secure/cron.env`;
+  no default address is assumed.
 - `monitor` automatically passes `--quiet --warn-only` to
   `secure/scripts/monitor_health.php`; remove `--warn-only` in cron if you want
   warnings delivered by email as well.

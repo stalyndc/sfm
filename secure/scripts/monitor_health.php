@@ -176,7 +176,7 @@ function resolve_recipients(): array
     if ($main !== false && $main !== '') {
         $candidates[] = $main;
     }
-    $default = getenv('SFM_ALERT_EMAIL') ?: 'stalyn@disla.net';
+    $default = getenv('SFM_ALERT_EMAIL') ?: '';
     $candidates[] = $default;
     $envList = getenv('SFM_ALERT_EMAILS');
     if ($envList !== false && $envList !== '') {
