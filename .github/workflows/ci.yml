@@ -26,4 +26,9 @@ jobs:
         run: composer install --prefer-dist --no-progress --no-interaction
 
       - name: Run lint, static analysis, and smoke tests
+        env:
+          SFM_APP_NAME: SimpleFeedMaker
+          SFM_TRUSTED_PROXIES: 173.245.48.0/20 103.21.244.0/22 103.22.200.0/22 103.31.4.0/22
+          SFM_TEST_FIXTURE_DIR: ${{ github.workspace }}/tests/fixtures
+          SFM_TEST_ALLOW_LOCAL_URLS: '1'
         run: composer ci
