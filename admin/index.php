@@ -536,7 +536,7 @@ require __DIR__ . '/../includes/page_header.php';
             </form>
           </div>
           <div class="table-responsive jobs-table-container">
-            <table class="table align-middle mb-0 table-dark table-sticky">
+            <table class="table align-middle mb-0 admin-jobs-table table-sticky">
               <thead>
                 <tr>
                   <th scope="col">Source</th>

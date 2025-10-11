@@ -134,8 +134,37 @@ body {
 }
 
 [data-bs-theme="light"] .table-sticky thead th {
-[data-bs-theme="light"] .table-sticky thead th {
   background: rgba(235, 239, 249, .98);
+}
+
+.admin-jobs-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  background-color: transparent;
+}
+
+.admin-jobs-table tbody tr {
+  transition: background-color .15s ease, color .15s ease;
+}
+
+[data-bs-theme="dark"] .admin-jobs-table tbody tr {
+  background-color: rgba(20, 24, 35, .96);
+  border-color: rgba(77, 87, 110, .25);
+  color: var(--bs-body-color);
+}
+
+[data-bs-theme="dark"] .admin-jobs-table tbody tr:hover {
+  background-color: rgba(30, 36, 48, .98);
+}
+
+[data-bs-theme="light"] .admin-jobs-table tbody tr {
+  background-color: #ffffff;
+  border-color: rgba(28, 34, 48, .12);
+  color: var(--bs-body-color);
+}
+
+[data-bs-theme="light"] .admin-jobs-table tbody tr:hover {
+  background-color: rgba(28, 34, 48, .04);
 }
 
 .jobs-table-container {
