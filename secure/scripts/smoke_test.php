@@ -148,6 +148,15 @@ if (is_dir($fixtureDir)) {
             }
         }
     }
+    $encodingTest = escapeshellcmd($phpBinary) . ' ' . escapeshellarg($projectRoot . '/secure/scripts/tests/test_native_encoding.php');
+    $encodingOutput = [];
+    exec($encodingTest . ' 2>&1', $encodingOutput, $encodingExit);
+    if ($encodingExit !== 0) {
+        $failures[] = [
+            'file' => 'native feed encoding normalization',
+            'output' => trim(implode("\n", $encodingOutput)),
+        ];
+    }
 } else {
     $warnings[] = 'Fixture directory missing; skipped generate.php smoke test.';
 }

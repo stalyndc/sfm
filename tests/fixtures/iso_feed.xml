@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rss version="2.0">
+  <channel>
+    <title>ISO Cafe</title>
+    <link>https://example.com/iso</link>
+    <description>Encoding test - Café</description>
+    <item>
+      <title>Episode 1 - Café</title>
+      <link>https://example.com/iso/1</link>
+      <description>Enjoy a Café crème.</description>
+      <pubDate>Fri, 10 Oct 2025 12:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
