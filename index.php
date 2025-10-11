@@ -47,7 +47,6 @@ require __DIR__ . '/includes/page_header.php';
   <!-- Main -->
   <main class="py-4 py-md-5 hero-section">
     <div class="container position-relative">
-      <div class="hero-gradient"></div>
       <div class="row g-4 g-xl-5 align-items-stretch hero-row">
         <div class="col-12 col-lg-7">
           <div class="card shadow-sm h-100 hero-card">
@@ -94,13 +93,10 @@ require __DIR__ . '/includes/page_header.php';
                   <button id="generateBtn" type="button" class="btn btn-primary btn-lg-sm flex-grow-1">
                     Generate feed
                   </button>
-                  <div class="d-flex flex-column flex-sm-row gap-2 align-items-stretch">
-                    <button id="clearBtn" type="button" class="btn btn-outline-secondary btn-icon" aria-label="Clear form" title="Clear form">
-                      <span class="icon" aria-hidden="true">&times;</span>
-                      <span class="label d-inline d-sm-none" aria-hidden="true">Clear</span>
-                    </button>
-                    <a href="/faq/#advanced" class="btn btn-outline-link">Advanced options</a>
-                  </div>
+                  <button id="clearBtn" type="button" class="btn btn-outline-secondary btn-icon" aria-label="Clear form" title="Clear form">
+                    <span class="icon" aria-hidden="true">&times;</span>
+                    <span class="label d-inline d-sm-none" aria-hidden="true">Clear</span>
+                  </button>
                 </div>
 
                 <noscript>
@@ -110,7 +106,7 @@ require __DIR__ . '/includes/page_header.php';
             </div>
           </div>
 
-          <div class="footnote text-secondary mt-3">
+          <div class="footnote mt-4 mb-0">
             We don’t need your login or API keys. Your feed URL will look like <span class="mono">/feeds/xxxx.xml</span> or <span class="mono">/feeds/xxxx.json</span>.
           </div>
         </div>
