@@ -616,6 +616,7 @@ input[type="number"] { -moz-appearance: textfield; }
 
 #generateBtn {
   box-shadow: 0 10px 24px rgba(0, 173, 181, .24);
+  font-weight: 700;
 }
 
 #generateBtn:hover:not(:disabled) {
