@@ -15,6 +15,7 @@
   --sfm-shadow: 0 6px 24px rgba(0,0,0,.18), 0 2px 8px rgba(0,0,0,.12);
   --sfm-accent: #00adb5;
   --sfm-accent-soft: rgba(0, 173, 181, .16);
+  --sfm-primary-blue: #3282b8;
   --sfm-bg: #222831;
   --sfm-surface: #2a3038;
   --sfm-surface-soft: #393e46;
@@ -36,6 +37,7 @@ body {
   position: relative;
   overflow: hidden;
   background: var(--sfm-bg);
+  padding: clamp(2.75rem, 7vw, 4.75rem) 0 clamp(2.75rem, 8vw, 5.5rem);
 }
 
 .hero-section::before {
@@ -61,8 +63,17 @@ body {
   z-index: 1;
 }
 
+.hero-section .footnote {
+  margin-top: clamp(1.75rem, 5vw, 2.75rem);
+}
+
 .hero-card {
   backdrop-filter: blur(6px);
+}
+
+.hero-card .display-6 {
+  font-size: clamp(1.85rem, 3.8vw, 2.35rem);
+  line-height: 1.2;
 }
 
 .site-title {
@@ -70,6 +81,7 @@ body {
                "Helvetica Neue", Arial, sans-serif;
   font-weight: 700;
   letter-spacing: .2px;
+  font-size: clamp(1.6rem, 3vw, 1.85rem);
 }
 
 .mono {
@@ -83,6 +95,12 @@ body {
   --bs-body-color: var(--sfm-text);
   --bs-secondary-color: rgba(238, 238, 238, .65);
   --bs-border-color: rgba(0, 0, 0, .45);
+  --bs-primary: var(--sfm-primary-blue);
+  --bs-primary-rgb: 50, 130, 184;
+  --bs-accordion-active-bg: rgba(50, 130, 184, .22);
+  --bs-accordion-active-color: #e8f3ff;
+  --bs-accordion-btn-focus-border-color: rgba(50, 130, 184, .55);
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 .2rem rgba(50, 130, 184, .28);
   --bs-card-bg: var(--sfm-surface);
   --bs-card-border-color: rgba(0, 0, 0, .55);
   --bs-link-color: var(--sfm-accent);
@@ -98,6 +116,12 @@ body {
   --bs-body-color: #222831;
   --bs-secondary-color: rgba(34, 40, 49, .7);
   --bs-border-color: rgba(34, 40, 49, .14);
+  --bs-primary: var(--sfm-primary-blue);
+  --bs-primary-rgb: 50, 130, 184;
+  --bs-accordion-active-bg: rgba(50, 130, 184, .12);
+  --bs-accordion-active-color: #15324a;
+  --bs-accordion-btn-focus-border-color: rgba(50, 130, 184, .55);
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 .2rem rgba(50, 130, 184, .18);
   --bs-card-bg: #ffffff;
   --bs-card-border-color: rgba(34, 40, 49, .1);
   --bs-link-color: #008a92;
@@ -292,11 +316,28 @@ body {
 }
 
 .placeholder-illustration {
+  position: relative;
   width: 92px;
   height: 92px;
   border-radius: 24px;
-  overflow: hidden;
+  overflow: visible;
   display: block;
+}
+
+.placeholder-illustration::before {
+  content: "";
+  position: absolute;
+  inset: -32%;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, rgba(0, 173, 181, .45), transparent 70%);
+  opacity: .85;
+  z-index: -1;
+  animation: accentDrift 11s ease-in-out infinite alternate;
+}
+
+[data-bs-theme="light"] .placeholder-illustration::before {
+  background: radial-gradient(circle at 35% 32%, rgba(0, 173, 181, .24), transparent 72%);
+  opacity: .95;
 }
 
 .placeholder-illustration .placeholder-icon {
@@ -304,7 +345,11 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 24px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, .28);
 }
+
+
 
 /* ------------------------------
    Cards
@@ -652,7 +697,7 @@ input[type="number"] { -moz-appearance: textfield; }
 
 @media (max-width: 991.98px) {
   .hero-section {
-    padding-top: 2.5rem !important;
+    padding: 2.25rem 0 3rem;
   }
 
   .hero-card .card-body {
@@ -674,12 +719,33 @@ input[type="number"] { -moz-appearance: textfield; }
     width: 80px;
     height: 80px;
   }
+
+  .placeholder-illustration::before {
+    inset: -28%;
+  }
 }
 
 #resultBox .btn-outline-success {
   color: #63ffa4;
   border-color: rgba(99, 255, 164, .35);
   background: rgba(16, 77, 57, .14);
+}
+
+/* ------------------------------
+   Accordion tweaks
+------------------------------ */
+.accordion-button:not(.collapsed) {
+  border-color: rgba(50, 130, 184, .55);
+  box-shadow: inset 0 -1px 0 rgba(50, 130, 184, .35);
+}
+
+[data-bs-theme="light"] .accordion-button:not(.collapsed) {
+  border-color: rgba(50, 130, 184, .45);
+  box-shadow: inset 0 -1px 0 rgba(50, 130, 184, .22);
+}
+
+.accordion-button:focus {
+  border-color: rgba(50, 130, 184, .6);
 }
 
 [data-bs-theme="light"] #resultBox .btn-outline-success {
@@ -802,6 +868,12 @@ input[type="number"] { -moz-appearance: textfield; }
 
 @keyframes spin {
   to { transform: rotate(360deg); }
+}
+
+@keyframes accentDrift {
+  0% { transform: scale(1) translate3d(0, 0, 0) rotate(0deg); }
+  50% { transform: scale(1.04) translate3d(4px, -3px, 0) rotate(2deg); }
+  100% { transform: scale(1.06) translate3d(-3px, 5px, 0) rotate(-2deg); }
 }
 
 /* ------------------------------
