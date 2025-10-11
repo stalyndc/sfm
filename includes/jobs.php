@@ -33,6 +33,18 @@ require_once __DIR__ . '/config.php';
 require_once __DIR__ . '/security.php'; // for client_ip()
 require_once __DIR__ . '/feed_builder.php';
 
+if (!function_exists('sfm_refresh_log_path')) {
+  function sfm_refresh_log_path(): string
+  {
+    $root = defined('STORAGE_ROOT') ? STORAGE_ROOT : (dirname(__DIR__) . '/storage');
+    $dir = rtrim($root . '/logs', '/');
+    if (!is_dir($dir)) {
+      @mkdir($dir, 0775, true);
+    }
+    return $dir . '/cron_refresh.log';
+  }
+}
+
 function sfm_jobs_dir(): string
 {
   $dir = rtrim(SFM_JOBS_DIR, '/');
@@ -278,4 +290,58 @@ function sfm_job_should_purge(array $job, int $nowTs = null): bool
   }
 
   return $lastSeen > 0 && $lastSeen < $cut;
+}
+
+function sfm_jobs_statistics(?array $jobs = null, int $warnThreshold = 3): array
+{
+  $jobs = $jobs ?? sfm_job_list();
+  $total = count($jobs);
+  $failing = 0;
+  $critical = 0;
+  $native = 0;
+
+  foreach ($jobs as $job) {
+    if (($job['mode'] ?? '') === 'native') {
+      $native++;
+    }
+    $streak = (int)($job['failure_streak'] ?? 0);
+    if ($streak > 0) {
+      $failing++;
+      if ($streak >= $warnThreshold) {
+        $critical++;
+      }
+    }
+  }
+
+  return [
+    'total'     => $total,
+    'native'    => $native,
+    'failing'   => $failing,
+    'critical'  => $critical,
+    'threshold' => $warnThreshold,
+  ];
+}
+
+function sfm_refresh_recent_logs(int $limit = 5): array
+{
+  $path = sfm_refresh_log_path();
+  if (!is_file($path) || $limit <= 0) {
+    return [];
+  }
+
+  $lines = @file($path, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+  if (!is_array($lines) || !$lines) {
+    return [];
+  }
+
+  $slice = array_slice($lines, -1 * $limit);
+  $entries = [];
+  foreach (array_reverse($slice) as $line) {
+    $decoded = json_decode($line, true);
+    if (!is_array($decoded)) {
+      continue;
+    }
+    $entries[] = $decoded;
+  }
+  return $entries;
 }

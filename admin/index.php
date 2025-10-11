@@ -89,6 +89,20 @@ if (!empty($_SESSION['sfm_admin_flash'])) {
     }
 }
 
+if ($isLoggedIn && isset($_GET['download']) && $_GET['download'] === 'cron_refresh_log') {
+    $path = sfm_refresh_log_path();
+    if (!is_file($path)) {
+        http_response_code(404);
+        header('Content-Type: text/plain; charset=UTF-8');
+        echo "Refresh log not found.";
+        exit;
+    }
+    header('Content-Type: text/plain; charset=UTF-8');
+    header('Content-Disposition: attachment; filename="cron_refresh.log"');
+    readfile($path);
+    exit;
+}
+
 $perPageOptions = [10, 25, 50, 100];
 $defaultPerPage = 25;
 $currentPage = admin_get_int_param('page', 1);
@@ -174,8 +188,29 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     header('Location: ' . $redirectUrl);
     exit;
 }
-
 $jobs = sfm_job_list();
+$failureThreshold = max(1, (int)(getenv('SFM_REFRESH_ALERT_THRESHOLD') ?: 3));
+$jobStats = sfm_jobs_statistics($jobs, $failureThreshold);
+$refreshLogs = sfm_refresh_recent_logs(5);
+$lastRefreshLog = $refreshLogs[0] ?? null;
+$lastRefreshTs = is_array($lastRefreshLog) ? ($lastRefreshLog['ts'] ?? null) : null;
+$lastRefreshSummary = is_array($lastRefreshLog) ? ($lastRefreshLog['summary'] ?? '') : '';
+$nextRefreshEta = '—';
+if ($lastRefreshTs) {
+    $ts = strtotime($lastRefreshTs);
+    if ($ts) {
+        $nextRefreshEta = gmdate('Y-m-d H:i:s', $ts + (int)SFM_DEFAULT_REFRESH_INTERVAL) . ' UTC';
+    }
+}
+$refreshMaxPerRun = (int)SFM_REFRESH_MAX_PER_RUN;
+
+$hotlist = array_values(array_filter($jobs, static function (array $job): bool {
+    return (int)($job['failure_streak'] ?? 0) > 0;
+}));
+usort($hotlist, static function (array $a, array $b): int {
+    return (int)($b['failure_streak'] ?? 0) <=> (int)($a['failure_streak'] ?? 0);
+});
+$hotlist = array_slice($hotlist, 0, 8);
 
 if ($statusFilter !== 'all' || $modeFilter !== 'all' || $searchTerm !== '') {
     $jobs = array_values(array_filter($jobs, function (array $job) use ($statusFilter, $modeFilter, $searchTerm) {
@@ -290,6 +325,130 @@ require __DIR__ . '/../includes/page_header.php';
         <a class="btn btn-outline-secondary" href="/admin/?logout=1">Sign out</a>
       </div>
     </div>
+
+    <?php
+      $customCount = max(0, $jobStats['total'] - $jobStats['native']);
+      $lastRunDisplay = fmt_datetime($lastRefreshTs ?? null);
+      $lastRunSummaryText = $lastRefreshSummary !== '' ? $lastRefreshSummary : 'No refresh runs recorded yet.';
+      $logsPreview = array_slice($refreshLogs, 0, 3);
+    ?>
+    <div class="row g-3 mb-4">
+      <div class="col-12 col-lg-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <div class="text-uppercase small text-secondary mb-1">Active jobs</div>
+            <div class="h2 fw-bold mb-0"><?= number_format($jobStats['total']); ?></div>
+            <div class="small text-secondary mt-2">
+              Custom: <?= number_format($customCount); ?> &middot; Native: <?= number_format($jobStats['native']); ?><br>
+              Max per cron run: <?= number_format($refreshMaxPerRun); ?>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <div class="text-uppercase small text-secondary mb-1">Failure streaks</div>
+            <div class="h2 fw-bold mb-0"><?= number_format($jobStats['failing']); ?></div>
+            <div class="small text-secondary mt-2">
+              Critical (≥<?= (int)$failureThreshold; ?>): <?= number_format($jobStats['critical']); ?><br>
+              Monitor the list below for quick recoveries.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body d-flex flex-column">
+            <div class="text-uppercase small text-secondary mb-1">Last refresh run</div>
+            <div class="fw-semibold"><?= htmlspecialchars($lastRunDisplay, ENT_QUOTES, 'UTF-8'); ?></div>
+            <div class="small text-secondary mt-2"><?= htmlspecialchars($lastRunSummaryText, ENT_QUOTES, 'UTF-8'); ?></div>
+            <div class="small text-secondary mt-2">Next run (est.): <?= htmlspecialchars($nextRefreshEta, ENT_QUOTES, 'UTF-8'); ?></div>
+            <?php if ($logsPreview): ?>
+              <ul class="small text-secondary mb-0 mt-3 ps-3">
+                <?php foreach ($logsPreview as $preview): ?>
+                  <li><?= htmlspecialchars(($preview['ts'] ?? '—') . ' · ' . ($preview['summary'] ?? ''), ENT_QUOTES, 'UTF-8'); ?></li>
+                <?php endforeach; ?>
+              </ul>
+            <?php endif; ?>
+            <div class="mt-3">
+              <a class="btn btn-sm btn-outline-secondary" href="/admin/?download=cron_refresh_log">Download refresh log</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <?php if ($hotlist): ?>
+      <div class="card shadow-sm mb-4">
+        <div class="card-body">
+          <div class="d-flex align-items-center justify-content-between mb-3 flex-column flex-lg-row gap-2">
+            <h2 class="h5 fw-semibold mb-0">Jobs to watch</h2>
+            <span class="badge bg-danger-subtle text-danger">Failing <?= number_format($jobStats['failing']); ?> job<?= $jobStats['failing'] === 1 ? '' : 's'; ?></span>
+          </div>
+          <div class="table-responsive">
+            <table class="table table-sm align-middle mb-0">
+              <thead>
+                <tr>
+                  <th scope="col">Source</th>
+                  <th scope="col">Streak</th>
+                  <th scope="col">Last error</th>
+                  <th scope="col">Last refresh</th>
+                  <th scope="col">Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <?php foreach ($hotlist as $alertJob): ?>
+                  <?php
+                    $alertJobId = (string)$alertJob['job_id'];
+                    $alertSource = (string)($alertJob['source_url'] ?? '');
+                    $alertFeed = (string)($alertJob['feed_url'] ?? '');
+                    $alertStreak = (int)($alertJob['failure_streak'] ?? 0);
+                    $alertError = trim((string)($alertJob['last_refresh_error'] ?? ''));
+                    if (function_exists('mb_strlen') && mb_strlen($alertError) > 140) {
+                      $alertError = mb_substr($alertError, 0, 137) . '…';
+                    } elseif (strlen($alertError) > 140) {
+                      $alertError = substr($alertError, 0, 137) . '…';
+                    }
+                    if ($alertError === '') {
+                      $alertError = '—';
+                    }
+                  ?>
+                  <tr>
+                    <td style="min-width: 200px;">
+                      <div class="fw-semibold text-truncate" style="max-width: 280px;" title="<?= htmlspecialchars($alertSource, ENT_QUOTES, 'UTF-8'); ?>">
+                        <?= htmlspecialchars($alertSource, ENT_QUOTES, 'UTF-8'); ?>
+                      </div>
+                      <div class="small text-secondary text-truncate" style="max-width: 280px;" title="<?= htmlspecialchars($alertFeed, ENT_QUOTES, 'UTF-8'); ?>">
+                        <?= htmlspecialchars($alertFeed, ENT_QUOTES, 'UTF-8'); ?>
+                      </div>
+                    </td>
+                    <td><span class="badge bg-danger text-white"><?= $alertStreak; ?>×</span></td>
+                    <td class="small" style="max-width: 280px;">
+                      <?= htmlspecialchars($alertError, ENT_QUOTES, 'UTF-8'); ?>
+                    </td>
+                    <td class="small"><?= htmlspecialchars(fmt_datetime($alertJob['last_refresh_at'] ?? null), ENT_QUOTES, 'UTF-8'); ?></td>
+                    <td style="width: 120px;">
+                      <form method="post" class="d-inline">
+                        <?= csrf_input(); ?>
+                        <input type="hidden" name="job_id" value="<?= htmlspecialchars($alertJobId, ENT_QUOTES, 'UTF-8'); ?>">
+                        <input type="hidden" name="admin_action" value="refresh">
+                        <input type="hidden" name="page" value="<?= (int)$currentPage; ?>">
+                        <input type="hidden" name="per_page" value="<?= (int)$perPage; ?>">
+                        <input type="hidden" name="status" value="<?= htmlspecialchars($statusFilter, ENT_QUOTES, 'UTF-8'); ?>">
+                        <input type="hidden" name="mode" value="<?= htmlspecialchars($modeFilter, ENT_QUOTES, 'UTF-8'); ?>">
+                        <input type="hidden" name="search" value="<?= htmlspecialchars($searchTerm, ENT_QUOTES, 'UTF-8'); ?>">
+                        <button type="submit" class="btn btn-sm btn-outline-primary">Refresh</button>
+                      </form>
+                    </td>
+                  </tr>
+                <?php endforeach; ?>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    <?php endif; ?>
 
     <?php if ($notice): ?>
       <div class="alert alert-success"><?= htmlspecialchars($notice, ENT_QUOTES, 'UTF-8'); ?></div>
