@@ -20,6 +20,38 @@ require_once __DIR__ . '/includes/extract.php';
 require_once __DIR__ . '/includes/jobs.php';
 require_once __DIR__ . '/includes/job_refresh.php';
 
+if (!function_exists('sfm_refresh_append_log')) {
+    function sfm_refresh_append_log(array $entry): void
+    {
+        $path = sfm_refresh_log_path();
+        $json = json_encode($entry, JSON_UNESCAPED_SLASHES);
+        if ($json === false) {
+            return;
+        }
+        @file_put_contents($path, $json . PHP_EOL, FILE_APPEND | LOCK_EX);
+        sfm_refresh_trim_log($path, 500);
+    }
+}
+
+if (!function_exists('sfm_refresh_trim_log')) {
+    function sfm_refresh_trim_log(string $path, int $maxLines): void
+    {
+        if (!is_file($path)) {
+            return;
+        }
+        $lines = @file($path, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+        if (!is_array($lines)) {
+            return;
+        }
+        $lineCount = count($lines);
+        if ($lineCount <= $maxLines) {
+            return;
+        }
+        $lines = array_slice($lines, -$maxLines);
+        @file_put_contents($path, implode(PHP_EOL, $lines) . PHP_EOL, LOCK_EX);
+    }
+}
+
 /**
  * CLI options:
  *   --max=<int>                 Override SFM_REFRESH_MAX_PER_RUN (0 = unlimited)
@@ -240,48 +272,5 @@ function cron_refresh_send_alert(array $recipients, string $subject, string $bod
     $headers = "Content-Type: text/plain; charset=UTF-8\r\n";
     foreach ($recipients as $recipient) {
         @mail($recipient, $subject, $body, $headers);
-    }
-}
-
-if (!function_exists('sfm_refresh_log_path')) {
-    function sfm_refresh_log_path(): string
-    {
-        $dir = rtrim(STORAGE_ROOT . '/logs', '/');
-        if (!is_dir($dir)) {
-            @mkdir($dir, 0775, true);
-        }
-        return $dir . '/cron_refresh.log';
-    }
-}
-
-if (!function_exists('sfm_refresh_append_log')) {
-    function sfm_refresh_append_log(array $entry): void
-    {
-        $path = sfm_refresh_log_path();
-        $json = json_encode($entry, JSON_UNESCAPED_SLASHES);
-        if ($json === false) {
-            return;
-        }
-        @file_put_contents($path, $json . PHP_EOL, FILE_APPEND | LOCK_EX);
-        sfm_refresh_trim_log($path, 500);
-    }
-}
-
-if (!function_exists('sfm_refresh_trim_log')) {
-    function sfm_refresh_trim_log(string $path, int $maxLines): void
-    {
-        if (!is_file($path)) {
-            return;
-        }
-        $lines = @file($path, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-        if (!is_array($lines)) {
-            return;
-        }
-        $lineCount = count($lines);
-        if ($lineCount <= $maxLines) {
-            return;
-        }
-        $lines = array_slice($lines, -$maxLines);
-        @file_put_contents($path, implode(PHP_EOL, $lines) . PHP_EOL, LOCK_EX);
     }
 }
