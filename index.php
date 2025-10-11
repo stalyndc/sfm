@@ -125,7 +125,9 @@ require __DIR__ . '/includes/page_header.php';
 
           <div id="hintCard" class="card shadow-sm h-100">
             <div class="card-body d-flex flex-column justify-content-center text-center gap-3">
-              <div class="placeholder-illustration mx-auto"></div>
+              <div class="placeholder-illustration mx-auto" aria-hidden="true">
+                <img src="/assets/images/rss.png" alt="" class="placeholder-icon">
+              </div>
               <div>
                 <h2 class="h5 fw-semibold mb-2">No feed yet</h2>
                 <p class="muted mb-0">Paste a URL and click <strong>Generate feed</strong> to see your preview here. We’ll give you a shareable link instantly.</p>
