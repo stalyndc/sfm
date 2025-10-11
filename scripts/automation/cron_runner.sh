@@ -72,6 +72,9 @@ case "${task}" in
   monitor)
     run_php secure/scripts/monitor_health.php --quiet --warn-only "${extra_args[@]}"
     ;;
+  refresh)
+    run_php cron_refresh.php --notify "${extra_args[@]}"
+    ;;
   *)
     echo "Unknown task: ${task}" >&2
     exit 2
