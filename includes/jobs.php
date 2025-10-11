@@ -45,6 +45,26 @@ if (!function_exists('sfm_refresh_log_path')) {
   }
 }
 
+if (!function_exists('sfm_job_trim_string')) {
+  function sfm_job_trim_string(?string $value, int $limit = 400): string
+  {
+    $value = trim((string)$value);
+    if ($value === '') {
+      return '';
+    }
+    if (function_exists('mb_strlen')) {
+      if (mb_strlen($value) > $limit) {
+        return mb_substr($value, 0, $limit - 1) . '…';
+      }
+      return $value;
+    }
+    if (strlen($value) > $limit) {
+      return substr($value, 0, $limit - 1) . '…';
+    }
+    return $value;
+  }
+}
+
 function sfm_jobs_dir(): string
 {
   $dir = rtrim(SFM_JOBS_DIR, '/');
@@ -145,6 +165,7 @@ function sfm_job_register(array $data): array
     'created_ip'         => client_ip(),
     'items_count'        => $data['items_count'] ?? null,
     'last_validation'    => isset($data['last_validation']) && is_array($data['last_validation']) ? $data['last_validation'] : null,
+    'diagnostics'        => null,
   ];
 
   if (!sfm_job_write($jobId, $job)) {
@@ -242,6 +263,7 @@ function sfm_job_mark_success(array $job, int $bytes, int $httpStatus = 200, ?in
     'refresh_count'      => ($job['refresh_count'] ?? 0) + 1,
     'items_count'        => $items,
     'failure_streak'     => 0,
+    'diagnostics'        => null,
   ];
 
   if (is_array($validation) && !empty($validation['warnings'])) {
@@ -290,6 +312,58 @@ function sfm_job_should_purge(array $job, int $nowTs = null): bool
   }
 
   return $lastSeen > 0 && $lastSeen < $cut;
+}
+
+if (!function_exists('sfm_job_attach_diagnostics')) {
+  function sfm_job_attach_diagnostics(string $jobId, array $data, ?array $details = null): ?array
+  {
+    $job = sfm_job_load($jobId);
+    if (!$job) {
+      return null;
+    }
+
+    $diagnostics = [
+      'captured_at'    => $data['captured_at'] ?? sfm_job_now_iso(),
+      'failure_streak' => (int)($data['failure_streak'] ?? ($job['failure_streak'] ?? 0)),
+      'error'          => sfm_job_trim_string($data['error'] ?? ($job['last_refresh_error'] ?? ''), 800),
+      'source_url'     => $data['source_url'] ?? ($job['source_url'] ?? ''),
+      'mode'           => $data['mode'] ?? ($job['mode'] ?? ''),
+    ];
+
+    if (array_key_exists('http_status', $data) || isset($job['last_refresh_code'])) {
+      $diagnostics['http_status'] = $data['http_status'] ?? ($job['last_refresh_code'] ?? null);
+    }
+    if (!empty($data['note']) || !empty($job['last_refresh_note'])) {
+      $diagnostics['note'] = sfm_job_trim_string((string)($data['note'] ?? $job['last_refresh_note']), 200);
+    }
+
+    if (is_array($details) && !empty($details)) {
+      $clean = [];
+      foreach ($details as $key => $value) {
+        if (!is_string($key)) {
+          continue;
+        }
+        if (is_scalar($value)) {
+          $clean[$key] = sfm_job_trim_string((string)$value, 400);
+        } elseif (is_array($value)) {
+          $subset = array_slice($value, 0, 5);
+          $clean[$key] = $subset;
+        }
+      }
+      if ($clean) {
+        $diagnostics['details'] = $clean;
+      }
+    }
+
+    return sfm_job_update($jobId, ['diagnostics' => $diagnostics]);
+  }
+}
+
+if (!function_exists('sfm_job_clear_diagnostics')) {
+  function sfm_job_clear_diagnostics(string $jobId): ?array
+  {
+    return sfm_job_update($jobId, ['diagnostics' => null]);
+  }
 }
 
 function sfm_jobs_statistics(?array $jobs = null, int $warnThreshold = 3): array

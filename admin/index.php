@@ -405,6 +405,10 @@ require __DIR__ . '/../includes/page_header.php';
                     $alertFeed = (string)($alertJob['feed_url'] ?? '');
                     $alertStreak = (int)($alertJob['failure_streak'] ?? 0);
                     $alertError = trim((string)($alertJob['last_refresh_error'] ?? ''));
+                    $diagnostics = isset($alertJob['diagnostics']) && is_array($alertJob['diagnostics']) ? $alertJob['diagnostics'] : null;
+                    if ($diagnostics && !empty($diagnostics['error'])) {
+                      $alertError = (string)$diagnostics['error'];
+                    }
                     if (function_exists('mb_strlen') && mb_strlen($alertError) > 140) {
                       $alertError = mb_substr($alertError, 0, 137) . '…';
                     } elseif (strlen($alertError) > 140) {
@@ -426,6 +430,32 @@ require __DIR__ . '/../includes/page_header.php';
                     <td><span class="badge bg-danger text-white"><?= $alertStreak; ?>×</span></td>
                     <td class="small" style="max-width: 280px;">
                       <?= htmlspecialchars($alertError, ENT_QUOTES, 'UTF-8'); ?>
+                      <?php if ($diagnostics): ?>
+                        <div class="small text-secondary mt-1">
+                          Captured: <?= htmlspecialchars(fmt_datetime($diagnostics['captured_at'] ?? null), ENT_QUOTES, 'UTF-8'); ?>
+                          <?php if (!empty($diagnostics['http_status'])): ?>
+                            · HTTP <?= htmlspecialchars((string)$diagnostics['http_status'], ENT_QUOTES, 'UTF-8'); ?>
+                          <?php endif; ?>
+                        </div>
+                        <?php if (!empty($diagnostics['note'])): ?>
+                          <div class="small text-secondary">Note: <?= htmlspecialchars((string)$diagnostics['note'], ENT_QUOTES, 'UTF-8'); ?></div>
+                        <?php endif; ?>
+                        <?php if (!empty($diagnostics['details']) && is_array($diagnostics['details'])): ?>
+                          <ul class="small text-secondary mt-1 mb-0 ps-3">
+                            <?php $detailCount = 0; foreach ($diagnostics['details'] as $dKey => $dVal): if ($detailCount >= 3) break; ?>
+                              <?php
+                                $detailCount++;
+                                if (is_array($dVal)) {
+                                  $detailValue = json_encode($dVal, JSON_UNESCAPED_SLASHES);
+                                } else {
+                                  $detailValue = (string)$dVal;
+                                }
+                              ?>
+                              <li><span class="text-muted"><?= htmlspecialchars((string)$dKey, ENT_QUOTES, 'UTF-8'); ?>:</span> <?= htmlspecialchars($detailValue, ENT_QUOTES, 'UTF-8'); ?></li>
+                            <?php endforeach; ?>
+                          </ul>
+                        <?php endif; ?>
+                      <?php endif; ?>
                     </td>
                     <td class="small"><?= htmlspecialchars(fmt_datetime($alertJob['last_refresh_at'] ?? null), ENT_QUOTES, 'UTF-8'); ?></td>
                     <td style="width: 120px;">

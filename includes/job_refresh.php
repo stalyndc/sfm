@@ -15,6 +15,19 @@ require_once __DIR__ . '/jobs.php';
 require_once __DIR__ . '/security.php';
 require_once __DIR__ . '/feed_validator.php';
 
+if (!function_exists('sfm_refresh_failure_threshold')) {
+    function sfm_refresh_failure_threshold(): int
+    {
+        $env = getenv('SFM_REFRESH_ALERT_THRESHOLD');
+        if ($env !== false && $env !== '' && is_numeric($env)) {
+            $value = (int)$env;
+        } else {
+            $value = 3;
+        }
+        return max(1, $value);
+    }
+}
+
 if (!function_exists('sfm_refresh_job')) {
     /**
      * Refresh a single job (native or custom).
@@ -125,7 +138,26 @@ if (!function_exists('sfm_refresh_job')) {
             }
             return true;
         } catch (Throwable $e) {
-            sfm_job_mark_failure($job, $e->getMessage());
+            $updatedJob = sfm_job_mark_failure($job, $e->getMessage());
+            if (is_array($updatedJob)) {
+                $job = $updatedJob;
+            }
+
+            $streak = (int)($job['failure_streak'] ?? 0);
+            $threshold = sfm_refresh_failure_threshold();
+            if ($streak >= $threshold) {
+                sfm_job_attach_diagnostics($job['job_id'], [
+                    'captured_at'     => sfm_job_now_iso(),
+                    'failure_streak'  => $streak,
+                    'error'           => $e->getMessage(),
+                    'source_url'      => (string)($job['source_url'] ?? ''),
+                    'mode'            => (string)($job['mode'] ?? ''),
+                    'http_status'     => $job['last_refresh_code'] ?? null,
+                    'note'            => $job['last_refresh_note'] ?? null,
+                ]);
+            } else {
+                sfm_job_clear_diagnostics($job['job_id']);
+            }
             if ($logEnabled && function_exists('sfm_log_event')) {
                 sfm_log_event('refresh', [
                     'phase'  => 'error',
