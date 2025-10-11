@@ -106,9 +106,6 @@ require __DIR__ . '/includes/page_header.php';
             </div>
           </div>
 
-          <div class="footnote mt-4 mb-0">
-            We don’t need your login or API keys. Your feed URL will look like <span class="mono">/feeds/xxxx.xml</span> or <span class="mono">/feeds/xxxx.json</span>.
-          </div>
         </div>
 
         <!-- Result -->
