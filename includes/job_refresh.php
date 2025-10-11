@@ -14,6 +14,7 @@ require_once __DIR__ . '/enrich.php';
 require_once __DIR__ . '/jobs.php';
 require_once __DIR__ . '/security.php';
 require_once __DIR__ . '/feed_validator.php';
+require_once __DIR__ . '/monitor.php';
 
 if (!function_exists('sfm_normalize_feed_encoding')) {
     /**
@@ -215,7 +216,7 @@ if (!function_exists('sfm_known_feed_override')) {
             return null;
         }
 
-        $buildNativeOverride = static function (array $job, string $overrideUrl) use ($tmpPath, $feedPath): ?array {
+        $buildNativeOverride = static function (array $job, string $overrideUrl, string $key, string $label) use ($tmpPath, $feedPath): ?array {
             $overrideJob = $job;
             $overrideJob['native_source'] = $overrideUrl;
 
@@ -235,25 +236,34 @@ if (!function_exists('sfm_known_feed_override')) {
 
             $itemsCount = sfm_count_feed_items($native['body'], $native['format']);
 
-            return [$native['body'], $itemsCount, $native['validation']];
+            return [
+                $native['body'],
+                $itemsCount,
+                $native['validation'],
+                'override' => [
+                    'key'    => $key,
+                    'label'  => $label,
+                    'source' => $overrideUrl,
+                ],
+            ];
         };
 
         if (preg_match('#^https?://(?:www\.)?arcamax\.com/thefunnies/([a-z0-9_-]+)/?$#i', $sourceUrl, $m)) {
             $slug = $m[1];
             $rssUrl = 'https://www.arcamax.com/rss/thefunnies/' . $slug . '/';
-            return $buildNativeOverride($job, $rssUrl);
+            return $buildNativeOverride($job, $rssUrl, 'arcamax', 'ArcaMax native RSS fallback');
         }
 
         if (stripos($sourceUrl, 'news.google.com/topics/') !== false) {
             $rssUrl = preg_replace('/\/topics\//i', '/rss/topics/', $sourceUrl, 1, $replaced);
             if ($replaced > 0 && is_string($rssUrl)) {
-                return $buildNativeOverride($job, $rssUrl);
+                return $buildNativeOverride($job, $rssUrl, 'google-topics', 'Google Topics RSS fallback');
             }
         }
 
         if (preg_match('#^https?://(?:www\.)?ninefornews\.nl/?$#i', $sourceUrl)) {
             $rssUrl = rtrim($sourceUrl, '/') . '/feed/';
-            return $buildNativeOverride($job, $rssUrl);
+            return $buildNativeOverride($job, $rssUrl, 'ninefornews', 'NineForNews native feed override');
         }
 
         if (preg_match('#^https?://(?:www\.)?rense\.com/?$#i', $sourceUrl)) {
@@ -343,7 +353,16 @@ if (!function_exists('sfm_known_feed_override')) {
                 throw new RuntimeException('Unable to replace feed file');
             }
 
-            return [$rss, count($items), $validation];
+            return [
+                $rss,
+                count($items),
+                $validation,
+                'override' => [
+                    'key'    => 'rense',
+                    'label'  => 'Rense.com homepage parser',
+                    'source' => $sourceUrl,
+                ],
+            ];
         }
 
         return null;
@@ -365,7 +384,12 @@ if (!function_exists('sfm_refresh_job')) {
         $feedUrl     = $job['feed_url'] ?? (rtrim(app_url_base(), '/') . '/feeds/' . $feedFile);
 
         if ($feedFile === '' || !$feedPath) {
-            sfm_job_mark_failure($job, 'Missing feed filename');
+            $updatedJob = sfm_job_mark_failure($job, 'Missing feed filename');
+            if (is_array($updatedJob)) {
+                sfm_monitor_on_failure($updatedJob);
+            } else {
+                sfm_monitor_on_failure($job);
+            }
             return false;
         }
 
@@ -429,7 +453,18 @@ if (!function_exists('sfm_refresh_job')) {
                     if (!empty($native['normalized'])) {
                         $nativeNote .= ' (' . $native['normalized'] . ')';
                     }
-                    sfm_job_mark_success($job, $bytes, (int)$native['status'], null, $nativeNote, $nativeValidation);
+                    $updatedJob = sfm_job_mark_success($job, $bytes, (int)$native['status'], null, $nativeNote, $nativeValidation);
+                    if (is_array($updatedJob)) {
+                        $job = $updatedJob;
+                    }
+                    sfm_monitor_on_success($job, [
+                        'mode'        => 'native',
+                        'bytes'       => $bytes,
+                        'status'      => (int)($native['status'] ?? 200),
+                        'validation'  => $nativeValidation,
+                        'normalized'  => $native['normalized'] ?? null,
+                        'source'      => (string)($job['native_source'] ?? ''),
+                    ]);
                     if ($logEnabled && function_exists('sfm_log_event')) {
                         $validationNote = null;
                         if ($nativeValidation && !empty($nativeValidation['warnings'])) {
@@ -470,13 +505,41 @@ if (!function_exists('sfm_refresh_job')) {
             }
 
             if (!$sourceUrl) {
-                sfm_job_mark_failure($job, 'Missing source URL');
+                $updatedJob = sfm_job_mark_failure($job, 'Missing source URL');
+                if (is_array($updatedJob)) {
+                    sfm_monitor_on_failure($updatedJob);
+                } else {
+                    sfm_monitor_on_failure($job);
+                }
                 return false;
             }
 
-            [$content, $itemsCount, $validation] = sfm_refresh_custom($job, $sourceUrl, $feedUrl, $tmpPath, $feedPath);
+            $customResult = sfm_refresh_custom($job, $sourceUrl, $feedUrl, $tmpPath, $feedPath);
+            [$content, $itemsCount, $validation] = $customResult;
+            $overrideMeta = $customResult['override'] ?? null;
+            $note = 'custom refresh';
+            if (is_array($overrideMeta)) {
+                $label = trim((string)($overrideMeta['label'] ?? ''));
+                if ($label === '') {
+                    $label = (string)($overrideMeta['key'] ?? 'override');
+                }
+                $note = 'override: ' . $label;
+            }
             $bytes = strlen($content);
-            sfm_job_mark_success($job, $bytes, 200, $itemsCount, 'custom refresh', $validation);
+            $updatedJob = sfm_job_mark_success($job, $bytes, 200, $itemsCount, $note, $validation);
+            if (is_array($updatedJob)) {
+                $job = $updatedJob;
+            }
+            if (is_array($overrideMeta)) {
+                sfm_monitor_on_override($job, $overrideMeta);
+            }
+            sfm_monitor_on_success($job, [
+                'mode'     => 'custom',
+                'bytes'    => $bytes,
+                'items'    => $itemsCount,
+                'override' => $overrideMeta,
+                'source'   => $sourceUrl,
+            ]);
             if ($logEnabled && function_exists('sfm_log_event')) {
                 $validationNote = null;
                 if (!empty($validation['warnings'])) {
@@ -488,6 +551,7 @@ if (!function_exists('sfm_refresh_job')) {
                     'bytes'  => $bytes,
                     'items'  => $itemsCount,
                     'source' => $sourceUrl,
+                    'override' => is_array($overrideMeta) ? ($overrideMeta['key'] ?? null) : null,
                     'validation' => $validationNote,
                 ]);
             }
@@ -520,6 +584,7 @@ if (!function_exists('sfm_refresh_job')) {
                     'error'  => $e->getMessage(),
                 ]);
             }
+            sfm_monitor_on_failure($job);
             return false;
         } finally {
             if ($tmpPath && is_file($tmpPath)) {

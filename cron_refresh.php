@@ -92,10 +92,17 @@ $jobs         = sfm_job_list();
 $logEnabled = function_exists('sfm_log_event');
 $failedJobs = [];
 $alertJobs  = [];
+$activeJobIds = [];
 
 foreach ($jobs as $job) {
+    $jobId = (string)($job['job_id'] ?? '');
+    if ($jobId === '') {
+        continue;
+    }
+
     if ($maxPerRun > 0 && $refreshed >= $maxPerRun) {
         $skipped += 1;
+        $activeJobIds[] = $jobId;
         continue;
     }
 
@@ -118,6 +125,8 @@ foreach ($jobs as $job) {
         }
         continue;
     }
+
+    $activeJobIds[] = $jobId;
 
     if (!sfm_job_is_due($job, $now)) {
         continue;
@@ -151,6 +160,8 @@ foreach ($jobs as $job) {
 }
 
 sfm_jobs_release_lock($lock);
+
+$monitorAlerts = sfm_monitor_finalize($activeJobIds);
 
 $summaryLine = sprintf(
     'Jobs: refreshed=%d, failures=%d, purged=%d, skipped=%d',
@@ -224,6 +235,10 @@ if ($shouldEmail) {
 if ($slackWebhook !== '') {
     $pool = $warnOnly ? $alertJobs : $failedJobs;
     cron_refresh_notify_slack($slackWebhook, $logEntry, $pool, $warnOnly, $alertThresh);
+}
+
+if ($monitorAlerts) {
+    cron_refresh_dispatch_monitor_alerts($monitorAlerts, $recipients, $slackWebhook, $quietOutput);
 }
 
 exit(0);
@@ -321,6 +336,119 @@ function cron_refresh_notify_slack(string $webhook, array $logEntry, array $jobs
     } else {
         $lines[] = '';
         $lines[] = 'All jobs healthy ✅';
+    }
+
+    $payload = json_encode(['text' => implode("\n", $lines)], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+    if ($payload === false) {
+        return;
+    }
+
+    $context = stream_context_create([
+        'http' => [
+            'method'  => 'POST',
+            'header'  => "Content-Type: application/json\r\n",
+            'content' => $payload,
+            'timeout' => 5,
+        ],
+    ]);
+
+    @file_get_contents($webhook, false, $context);
+}
+
+function cron_refresh_dispatch_monitor_alerts(array $alerts, array $recipients, string $slackWebhook, bool $quiet): void
+{
+    if (!$alerts) {
+        return;
+    }
+
+    $subject = '[SimpleFeedMaker] Refresh monitor alerts';
+    $lines = [];
+    $lines[] = 'Automated refresh monitoring detected the following:';
+    $lines[] = 'Generated at: ' . gmdate('c');
+    $lines[] = '';
+
+    foreach ($alerts as $alert) {
+        $type = (string)($alert['type'] ?? '');
+        if ($type === 'failure_streak') {
+            $lines[] = 'Failure streak increase (job ' . ($alert['job_id'] ?? '?') . ')';
+            $lines[] = '  Streak: ' . ($alert['streak'] ?? '?') . ' (threshold ' . ($alert['threshold'] ?? '?') . ')';
+            if (!empty($alert['source_url'])) {
+                $lines[] = '  Source: ' . $alert['source_url'];
+            }
+            if (!empty($alert['feed_url'])) {
+                $lines[] = '  Feed: ' . $alert['feed_url'];
+            }
+            if (!empty($alert['error'])) {
+                $lines[] = '  Error: ' . $alert['error'];
+            }
+        } elseif ($type === 'override_usage') {
+            $windowSeconds = (int)($alert['window_seconds'] ?? 0);
+            $windowHours = $windowSeconds > 0 ? round($windowSeconds / 3600, 1) : null;
+            $lines[] = 'Override usage spike (job ' . ($alert['job_id'] ?? '?') . ')';
+            $label = $alert['override_label'] ?? ($alert['override_key'] ?? 'override');
+            $lines[] = '  Override: ' . $label;
+            $lines[] = '  Count: ' . ($alert['count'] ?? '?') . ($windowHours ? (' in last ' . $windowHours . 'h') : '');
+            if (!empty($alert['source_url'])) {
+                $lines[] = '  Source: ' . $alert['source_url'];
+            }
+            if (!empty($alert['feed_url'])) {
+                $lines[] = '  Feed: ' . $alert['feed_url'];
+            }
+            if (!empty($alert['source'])) {
+                $lines[] = '  Override source: ' . $alert['source'];
+            }
+        } else {
+            $lines[] = 'Unknown alert type for job ' . ($alert['job_id'] ?? '?');
+        }
+        $lines[] = '';
+    }
+
+    $body = implode(PHP_EOL, $lines);
+
+    if ($recipients) {
+        cron_refresh_send_alert($recipients, $subject, $body);
+        if (!$quiet) {
+            echo "Monitor alert email sent to " . implode(', ', $recipients) . "\n";
+        }
+    }
+
+    if ($slackWebhook !== '') {
+        cron_refresh_notify_monitor_slack($slackWebhook, $alerts);
+    }
+}
+
+function cron_refresh_notify_monitor_slack(string $webhook, array $alerts): void
+{
+    if ($webhook === '' || !$alerts) {
+        return;
+    }
+
+    $lines = [];
+    $lines[] = '*SimpleFeedMaker monitor*';
+    $lines[] = '`' . gmdate('c') . '`';
+
+    foreach ($alerts as $alert) {
+        $type = (string)($alert['type'] ?? '');
+        if ($type === 'failure_streak') {
+            $lines[] = '';
+            $lines[] = '⚠️ Failure streak: job ' . ($alert['job_id'] ?? '?') . ' → ' . ($alert['streak'] ?? '?');
+            if (!empty($alert['source_url'])) {
+                $lines[] = 'Source: ' . $alert['source_url'];
+            }
+            if (!empty($alert['error'])) {
+                $lines[] = 'Error: ' . $alert['error'];
+            }
+        } elseif ($type === 'override_usage') {
+            $windowSeconds = (int)($alert['window_seconds'] ?? 0);
+            $windowHours = $windowSeconds > 0 ? round($windowSeconds / 3600, 1) : null;
+            $lines[] = '';
+            $label = $alert['override_label'] ?? ($alert['override_key'] ?? 'override');
+            $suffix = $windowHours ? (' / ' . $windowHours . 'h') : '';
+            $lines[] = '🔁 Override spike: job ' . ($alert['job_id'] ?? '?') . ' → ' . $label . ' (' . ($alert['count'] ?? '?') . $suffix . ')';
+            if (!empty($alert['source_url'])) {
+                $lines[] = 'Source: ' . $alert['source_url'];
+            }
+        }
     }
 
     $payload = json_encode(['text' => implode("\n", $lines)], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
