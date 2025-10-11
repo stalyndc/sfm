@@ -75,7 +75,11 @@ if (!function_exists('sfm_refresh_job')) {
 
                     $bytes = strlen($native['body']);
                     $nativeValidation = isset($native['validation']) && is_array($native['validation']) ? $native['validation'] : null;
-                    sfm_job_mark_success($job, $bytes, (int)$native['status'], null, 'native refresh', $nativeValidation);
+                    $nativeNote = 'native refresh';
+                    if (!empty($native['normalized'])) {
+                        $nativeNote .= ' (' . $native['normalized'] . ')';
+                    }
+                    sfm_job_mark_success($job, $bytes, (int)$native['status'], null, $nativeNote, $nativeValidation);
                     if ($logEnabled && function_exists('sfm_log_event')) {
                         $validationNote = null;
                         if ($nativeValidation && !empty($nativeValidation['warnings'])) {
@@ -87,6 +91,7 @@ if (!function_exists('sfm_refresh_job')) {
                             'bytes'  => $bytes,
                             'source' => $job['native_source'],
                             'validation' => $validationNote,
+                            'normalized' => $native['normalized'] ?? null,
                         ]);
                     }
                     return true;
@@ -195,6 +200,12 @@ if (!function_exists('sfm_refresh_native')) {
         }
 
         [$detectedFormat, $ext] = detect_feed_format_and_ext($resp['body'], $resp['headers'] ?? [], $nativeUrl);
+        $normalization = sfm_normalize_feed($resp['body'], $detectedFormat, $nativeUrl);
+        if ($normalization) {
+            $resp['body'] = $normalization['body'];
+            $detectedFormat = $normalization['format'];
+            $ext = $normalization['ext'];
+        }
         $validation = sfm_validate_feed($detectedFormat ?: 'rss', $resp['body']);
         if (!$validation['ok']) {
             $primary = $validation['errors'][0] ?? 'Native feed failed validation.';
@@ -207,6 +218,7 @@ if (!function_exists('sfm_refresh_native')) {
             'format'     => $detectedFormat ?: 'rss',
             'ext'        => $ext ?: 'xml',
             'validation' => $validation,
+            'normalized' => $normalization['note'] ?? null,
         ];
     }
 }

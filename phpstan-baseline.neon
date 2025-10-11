@@ -81,6 +81,11 @@ parameters:
 			path: includes/job_refresh.php
 
 		-
+			message: "#^Cannot assign offset 'body' to string\\.$#"
+			count: 1
+			path: includes/job_refresh.php
+
+		-
 			message: "#^Offset 'headers' on string on left side of \\?\\? does not exist\\.$#"
 			count: 1
 			path: includes/job_refresh.php
@@ -97,7 +102,7 @@ parameters:
 
 		-
 			message: "#^Offset 'status' on string on left side of \\?\\? does not exist\\.$#"
-			count: 3
+			count: 2
 			path: includes/job_refresh.php
 
 		-

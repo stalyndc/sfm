@@ -166,6 +166,13 @@ function sfm_attempt_native_download(string $requestedUrl, array $candidate, int
   }
 
   [$fmtDetected, $ext] = detect_feed_format_and_ext($feed['body'], $feed['headers'], $href);
+  $normalization = sfm_normalize_feed($feed['body'], $fmtDetected, $href);
+  if ($normalization) {
+    $feed['body'] = $normalization['body'];
+    $fmtDetected  = $normalization['format'];
+    $ext          = $normalization['ext'];
+    $note        .= ' (' . $normalization['note'] . ')';
+  }
   $finalFormat = $fmtDetected ?: 'rss';
   $ext         = ($finalFormat === 'jsonfeed') ? 'json' : 'xml';
 
@@ -197,7 +204,7 @@ function sfm_attempt_native_download(string $requestedUrl, array $candidate, int
   ]);
 
   if (function_exists('sfm_log_event')) {
-    sfm_log_event('parse', [
+    $logData = [
       'phase'        => $logPhase,
       'source'       => $href,
       'format'       => $finalFormat,
@@ -205,10 +212,17 @@ function sfm_attempt_native_download(string $requestedUrl, array $candidate, int
       'bytes'        => strlen($feed['body']),
       'status'       => $feed['status'],
       'job_id'       => $job['job_id'] ?? null,
-    ]);
+    ];
+    if ($normalization) {
+      $logData['normalized'] = $normalization['note'];
+    }
+    sfm_log_event('parse', $logData);
   }
 
   $breadcrumb = $preferNativeFlag ? 'native · just now' : 'native fallback · just now';
+  if ($normalization) {
+    $breadcrumb .= ' (normalized)';
+  }
 
   echo json_encode([
     'ok'                => true,
@@ -219,6 +233,7 @@ function sfm_attempt_native_download(string $requestedUrl, array $candidate, int
     'native_source'     => $href,
     'status_breadcrumb' => $breadcrumb,
     'job_id'            => $job['job_id'] ?? null,
+    'normalized'        => $normalization['note'] ?? null,
   ], JSON_UNESCAPED_SLASHES);
 
   return true;

@@ -317,3 +317,128 @@ if (!function_exists('detect_feed_format_and_ext')) {
     return ['rss', 'xml'];
   }
 }
+
+if (!function_exists('sfm_normalize_feed')) {
+  /**
+   * Attempt lightweight normalization of known third-party feeds.
+   * Returns null when no changes are performed.
+   *
+   * @return array{body:string,format:string,ext:string,note:string}|null
+   */
+  function sfm_normalize_feed(string $body, ?string $detectedFormat, string $sourceUrl): ?array
+  {
+    $isYoutube = stripos($sourceUrl, 'youtube.com') !== false
+      || stripos($body, 'xmlns:yt="http://www.youtube.com/xml/schemas/2015"') !== false
+      || stripos($body, 'yt:channelId') !== false;
+    if (!$isYoutube) {
+      return null;
+    }
+
+    $previous = libxml_use_internal_errors(true);
+    $dom = new DOMDocument();
+    $loaded = @$dom->loadXML($body, LIBXML_NONET | LIBXML_NOWARNING | LIBXML_NOERROR);
+    libxml_clear_errors();
+    libxml_use_internal_errors($previous);
+    if (!$loaded || !$dom->documentElement) {
+      return null;
+    }
+
+    $rootName = strtolower($dom->documentElement->localName ?? '');
+    if ($rootName !== 'feed') {
+      return null;
+    }
+
+    $xp = new DOMXPath($dom);
+    $xp->registerNamespace('atom', 'http://www.w3.org/2005/Atom');
+    $xp->registerNamespace('yt', 'http://www.youtube.com/xml/schemas/2015');
+    $xp->registerNamespace('media', 'http://search.yahoo.com/mrss/');
+
+    if ((int)$xp->evaluate('count(/atom:feed/yt:channelId)') === 0) {
+      return null;
+    }
+
+    $channelTitle = trim((string)$xp->evaluate('string(/atom:feed/atom:title)'));
+    $channelLink = trim((string)$xp->evaluate('string(/atom:feed/atom:link[@rel="alternate"][1]/@href)'));
+    if (!isset($channelLink[0])) {
+      $channelLink = trim((string)$xp->evaluate('string(/atom:feed/atom:link[1]/@href)'));
+    }
+    if (!isset($channelLink[0])) {
+      $channelLink = $sourceUrl;
+    }
+    $channelDesc = trim((string)$xp->evaluate('string(/atom:feed/atom:subtitle)'));
+    if (!isset($channelDesc[0])) {
+      $channelDesc = 'Videos fetched from YouTube.';
+    }
+    if (!isset($channelTitle[0])) {
+      $channelTitle = 'YouTube Channel';
+    }
+
+    $entries = $xp->query('/atom:feed/atom:entry');
+    if (!$entries || $entries->length === 0) {
+      return null;
+    }
+
+    $items = [];
+    foreach ($entries as $entry) {
+      if (!$entry instanceof DOMElement) {
+        continue;
+      }
+      $title = trim((string)$xp->evaluate('string(atom:title)', $entry));
+      $linkHref = trim((string)$xp->evaluate('string((atom:link[@rel="alternate"] | atom:link[not(@rel)])[1]/@href)', $entry));
+      if (!isset($linkHref[0])) {
+        $videoId = trim((string)$xp->evaluate('string(yt:videoId)', $entry));
+        if (strlen($videoId) > 0) {
+          $linkHref = 'https://www.youtube.com/watch?v=' . $videoId;
+        }
+      }
+      if (!isset($linkHref[0]) && !isset($title[0])) {
+        continue;
+      }
+
+      $desc = trim((string)$xp->evaluate('string(media:group/media:description)', $entry));
+      if (!isset($desc[0])) {
+        $desc = trim((string)$xp->evaluate('string(atom:summary)', $entry));
+      }
+      $published = trim((string)$xp->evaluate('string(atom:published)', $entry));
+      if (!isset($published[0])) {
+        $published = trim((string)$xp->evaluate('string(atom:updated)', $entry));
+      }
+      $image = trim((string)$xp->evaluate('string(media:group/media:thumbnail[1]/@url)', $entry));
+      $author = trim((string)$xp->evaluate('string(atom:author/atom:name)', $entry));
+
+      if (!isset($title[0])) {
+        $title = !isset($linkHref[0]) ? 'Video' : $linkHref;
+      }
+      if (!isset($linkHref[0])) {
+        $linkHref = $channelLink;
+      }
+      $authorName = !isset($author[0]) ? null : $author;
+      $imageUrl = !isset($image[0]) ? null : $image;
+
+      $items[] = [
+        'title'       => $title,
+        'link'        => $linkHref,
+        'description' => $desc,
+        'date'        => $published,
+        'author'      => $authorName,
+        'image'       => $imageUrl,
+      ];
+    }
+
+    if (!$items) {
+      return null;
+    }
+
+    $rss = build_rss($channelTitle, $channelLink, $channelDesc, $items);
+    if ($rss === '') {
+      return null;
+    }
+
+    return [
+      'body'   => $rss,
+      'format' => 'rss',
+      'ext'    => 'xml',
+      'note'   => 'youtube normalized',
+    ];
+  }
+}
