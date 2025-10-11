@@ -283,8 +283,30 @@ if (!function_exists('detect_feed_format_and_ext')) {
 
     $head = substr(ltrim($body), 0, 4000);
     if (stripos($head, '"version":"https://jsonfeed.org/version') !== false) return ['jsonfeed', 'json'];
-    if (stripos($head, '<feed') !== false && stripos($head, 'http://www.w3.org/2005/Atom') !== false) return ['atom', 'xml'];
+    if (stripos($head, '<feed') !== false && stripos($head, 'www.w3.org/2005/atom') !== false) return ['atom', 'xml'];
     if (stripos($head, '<rss') !== false) return ['rss', 'xml'];
+
+    $trimmed = ltrim($body);
+    if ($trimmed !== '' && $trimmed[0] === '<') {
+      if (stripos($trimmed, '<?xml') === 0) {
+        $afterDecl = preg_replace('/^<\?xml[^>]*>\s*/i', '', $trimmed, 1);
+        $trimmed = is_string($afterDecl) ? ltrim($afterDecl) : $trimmed;
+      }
+
+      if ($trimmed !== '' && $trimmed[0] === '<' && preg_match('/^<([a-z0-9:_-]+)/i', $trimmed, $match)) {
+        $root = strtolower($match[1]);
+        $local = strpos($root, ':') !== false ? substr($root, strpos($root, ':') + 1) : $root;
+        if ($local === 'feed') {
+          $snippet = substr($trimmed, 0, 1500);
+          if (preg_match('/xmlns(:[a-z0-9]+)?="[^"]*atom/i', $snippet)) {
+            return ['atom', 'xml'];
+          }
+        }
+        if ($local === 'rss' || $local === 'rdf') {
+          return ['rss', 'xml'];
+        }
+      }
+    }
 
     if ($srcUrl) {
       $ext = strtolower(pathinfo(parse_url($srcUrl, PHP_URL_PATH) ?? '', PATHINFO_EXTENSION));
