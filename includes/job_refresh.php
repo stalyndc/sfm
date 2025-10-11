@@ -201,8 +201,36 @@ if (!function_exists('sfm_refresh_job')) {
         ensure_feeds_dir();
 
         try {
+            $native = null;
             if ($mode === 'native' && !empty($job['native_source'])) {
-                $native = sfm_refresh_native($job);
+                try {
+                    $native = sfm_refresh_native($job);
+                } catch (Throwable $nativeError) {
+                    if ($logEnabled && function_exists('sfm_log_event')) {
+                        sfm_log_event('refresh', [
+                            'phase'  => 'native-error',
+                            'job_id' => $job['job_id'],
+                            'error'  => $nativeError->getMessage(),
+                        ]);
+                    }
+                    $jobUpdate = sfm_job_update($job['job_id'], [
+                        'mode'              => 'custom',
+                        'native_source'     => null,
+                        'last_refresh_note' => 'native failed, switched to custom',
+                    ]);
+                    if (is_array($jobUpdate)) {
+                        $job = $jobUpdate;
+                    } else {
+                        $job['mode'] = 'custom';
+                        $job['native_source'] = null;
+                        $job['last_refresh_note'] = 'native failed, switched to custom';
+                    }
+                    $mode = 'custom';
+                    $sourceUrl = $job['source_url'] ?? $sourceUrl;
+                }
+            }
+
+            if ($native !== null) {
 
                 $jobFormat    = strtolower((string)($job['format'] ?? DEFAULT_FMT));
                 $nativeFormat = strtolower((string)($native['format'] ?? $jobFormat));

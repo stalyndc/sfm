@@ -327,6 +327,43 @@ if (!function_exists('sfm_normalize_feed')) {
    */
   function sfm_normalize_feed(string $body, ?string $detectedFormat, string $sourceUrl): ?array
   {
+    $trimmed = ltrim($body);
+
+    $isJsonCandidate = ($detectedFormat === 'jsonfeed');
+    if (!$isJsonCandidate && $trimmed !== '') {
+      $first = $trimmed[0];
+      if ($first === '{' || $first === '[') {
+        $isJsonCandidate = true;
+      }
+    }
+
+    if ($isJsonCandidate) {
+      $data = json_decode($body, true);
+      if (is_array($data)) {
+        $changed = false;
+        if (!isset($data['version']) || trim((string)$data['version']) === '') {
+          $data['version'] = 'https://jsonfeed.org/version/1';
+          $changed = true;
+        }
+        if (!isset($data['items']) || !is_array($data['items'])) {
+          $data['items'] = [];
+          $changed = true;
+        }
+
+        if ($changed) {
+          $json = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
+          if (is_string($json)) {
+            return [
+              'body'   => $json,
+              'format' => 'jsonfeed',
+              'ext'    => 'json',
+              'note'   => 'jsonfeed normalized (added version)',
+            ];
+          }
+        }
+      }
+    }
+
     $isYoutube = stripos($sourceUrl, 'youtube.com') !== false
       || stripos($body, 'xmlns:yt="http://www.youtube.com/xml/schemas/2015"') !== false
       || stripos($body, 'yt:channelId') !== false;
