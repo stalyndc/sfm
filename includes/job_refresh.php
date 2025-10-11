@@ -215,12 +215,9 @@ if (!function_exists('sfm_known_feed_override')) {
             return null;
         }
 
-        if (preg_match('#^https?://(?:www\.)?arcamax\.com/thefunnies/([a-z0-9_-]+)/?$#i', $sourceUrl, $m)) {
-            $slug = $m[1];
-            $rssUrl = 'https://www.arcamax.com/rss/thefunnies/' . $slug . '/';
-
+        $buildNativeOverride = static function (array $job, string $overrideUrl) use ($tmpPath, $feedPath): ?array {
             $overrideJob = $job;
-            $overrideJob['native_source'] = $rssUrl;
+            $overrideJob['native_source'] = $overrideUrl;
 
             try {
                 $native = sfm_refresh_native($overrideJob);
@@ -239,6 +236,37 @@ if (!function_exists('sfm_known_feed_override')) {
             $itemsCount = sfm_count_feed_items($native['body'], $native['format']);
 
             return [$native['body'], $itemsCount, $native['validation']];
+        };
+
+        if (preg_match('#^https?://(?:www\.)?arcamax\.com/thefunnies/([a-z0-9_-]+)/?$#i', $sourceUrl, $m)) {
+            $slug = $m[1];
+            $rssUrl = 'https://www.arcamax.com/rss/thefunnies/' . $slug . '/';
+            return $buildNativeOverride($job, $rssUrl);
+        }
+
+        if (stripos($sourceUrl, 'news.google.com/topics/') !== false) {
+            $rssUrl = preg_replace('/\/topics\//i', '/rss/topics/', $sourceUrl, 1, $replaced);
+            if ($replaced > 0 && is_string($rssUrl)) {
+                return $buildNativeOverride($job, $rssUrl);
+            }
+        }
+
+        if (preg_match('#^https?://(?:www\.)?ninefornews\.nl/?$#i', $sourceUrl)) {
+            $rssUrl = rtrim($sourceUrl, '/') . '/feed/';
+            return $buildNativeOverride($job, $rssUrl);
+        }
+
+        if (preg_match('#^https?://(?:www\.)?rense\.com/?$#i', $sourceUrl)) {
+            $candidateFeeds = [
+                'https://www.rense.com/rssfeed.xml',
+                'https://www.rense.com/rssfeed.rdf',
+            ];
+            foreach ($candidateFeeds as $rssUrl) {
+                $override = $buildNativeOverride($job, $rssUrl);
+                if ($override !== null) {
+                    return $override;
+                }
+            }
         }
 
         return null;
