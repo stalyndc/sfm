@@ -341,12 +341,28 @@ if (!function_exists('sfm_normalize_feed')) {
       $data = json_decode($body, true);
       if (is_array($data)) {
         $changed = false;
-        if (!isset($data['version']) || trim((string)$data['version']) === '') {
-          $data['version'] = 'https://jsonfeed.org/version/1';
-          $changed = true;
-        }
         if (!isset($data['items']) || !is_array($data['items'])) {
           $data['items'] = [];
+          $changed = true;
+        }
+
+        if (empty($data['items']) && stripos($sourceUrl, 'news.google.com/topics/') !== false) {
+          $rssUrl = preg_replace('/\/topics\//i', '/rss/topics/', $sourceUrl, 1, $replaced);
+          if ($replaced > 0) {
+            $fallback = @file_get_contents($rssUrl);
+            if (is_string($fallback) && $fallback !== '') {
+              return [
+                'body'   => $fallback,
+                'format' => 'rss',
+                'ext'    => 'xml',
+                'note'   => 'google topics rss fallback',
+              ];
+            }
+          }
+        }
+
+        if (!isset($data['version']) || trim((string)$data['version']) === '') {
+          $data['version'] = 'https://jsonfeed.org/version/1';
           $changed = true;
         }
 
