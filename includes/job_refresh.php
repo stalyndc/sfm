@@ -257,16 +257,93 @@ if (!function_exists('sfm_known_feed_override')) {
         }
 
         if (preg_match('#^https?://(?:www\.)?rense\.com/?$#i', $sourceUrl)) {
-            $candidateFeeds = [
-                'https://www.rense.com/rssfeed.xml',
-                'https://www.rense.com/rssfeed.rdf',
-            ];
-            foreach ($candidateFeeds as $rssUrl) {
-                $override = $buildNativeOverride($job, $rssUrl);
-                if ($override !== null) {
-                    return $override;
+            /** @phpstan-var array{ok:bool,status:int,headers:array<string,string>,body:string,final_url:string,from_cache:bool,was_304:bool} $page */
+            $page = http_get($sourceUrl, [
+                'use_cache' => false,
+                'timeout'   => TIMEOUT_S,
+                'accept'    => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            ]);
+            $pageBody = $page['body'];
+            if (!$page['ok'] || $page['status'] < 200 || $page['status'] >= 400 || $pageBody === '') {
+                return null;
+            }
+
+            $items = [];
+            libxml_use_internal_errors(true);
+            $dom = new DOMDocument();
+            $converted = $pageBody;
+            if (function_exists('mb_convert_encoding')) {
+                $tmp = @mb_convert_encoding($pageBody, 'HTML-ENTITIES', 'UTF-8');
+                if (strlen((string)$tmp) > 0) {
+                    $converted = (string)$tmp;
                 }
             }
+            $htmlLoaded = @$dom->loadHTML($converted);
+            if (!$htmlLoaded && $converted !== $pageBody) {
+                $htmlLoaded = @$dom->loadHTML($pageBody);
+            }
+            if ($htmlLoaded) {
+                $links = $dom->getElementsByTagName('a');
+                $seen = [];
+                foreach ($links as $a) {
+                    /** @var DOMElement $a */
+                    $href = trim($a->getAttribute('href'));
+                    if ($href === '') {
+                        continue;
+                    }
+                    $abs = sfm_abs_url($href, $sourceUrl);
+                    if ($abs === '') {
+                        continue;
+                    }
+                    if (stripos($abs, '.htm') === false && stripos($abs, '.html') === false) {
+                        continue;
+                    }
+                    if (stripos($abs, '://rense.com') === false) {
+                        continue;
+                    }
+                    $text = trim($a->textContent ?? '');
+                    if ($text === '') {
+                        continue;
+                    }
+                    $key = strtolower($abs);
+                    if (isset($seen[$key])) {
+                        continue;
+                    }
+                    $seen[$key] = true;
+                    $items[] = [
+                        'title'       => $text,
+                        'link'        => $abs,
+                        'description' => $text,
+                        'date'        => '',
+                    ];
+                    if (count($items) >= max(10, (int)($job['limit'] ?? DEFAULT_LIM))) {
+                        break;
+                    }
+                }
+            }
+            libxml_clear_errors();
+
+            if (!$items) {
+                return null;
+            }
+
+            $title = 'Rense.com Highlights';
+            $desc = 'Top links captured from Rense.com homepage.';
+            $rss = build_rss($title, $sourceUrl, $desc, $items);
+            $validation = sfm_validate_feed('rss', $rss);
+            if (!$validation['ok']) {
+                return null;
+            }
+
+            if (@file_put_contents($tmpPath, $rss) === false) {
+                throw new RuntimeException('Unable to write temp feed file');
+            }
+            @chmod($tmpPath, 0664);
+            if (!@rename($tmpPath, $feedPath)) {
+                throw new RuntimeException('Unable to replace feed file');
+            }
+
+            return [$rss, count($items), $validation];
         }
 
         return null;
