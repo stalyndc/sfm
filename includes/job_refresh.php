@@ -179,6 +179,72 @@ if (!function_exists('sfm_refresh_failure_threshold')) {
     }
 }
 
+if (!function_exists('sfm_count_feed_items')) {
+    function sfm_count_feed_items(string $body, string $format): int
+    {
+        $format = strtolower($format);
+        if ($format === 'jsonfeed') {
+            $data = json_decode($body, true);
+            return is_array($data) && isset($data['items']) && is_array($data['items'])
+                ? count($data['items'])
+                : 0;
+        }
+
+        $previous = libxml_use_internal_errors(true);
+        $dom = new DOMDocument();
+        $loaded = @$dom->loadXML($body, LIBXML_NONET | LIBXML_NOWARNING | LIBXML_NOERROR);
+        libxml_clear_errors();
+        libxml_use_internal_errors($previous);
+        if (!$loaded) {
+            return 0;
+        }
+
+        if ($format === 'atom') {
+            return $dom->getElementsByTagName('entry')->length;
+        }
+
+        return $dom->getElementsByTagName('item')->length;
+    }
+}
+
+if (!function_exists('sfm_known_feed_override')) {
+    function sfm_known_feed_override(array $job, string $feedUrl, string $tmpPath, string $feedPath): ?array
+    {
+        $sourceUrl = (string)($job['source_url'] ?? '');
+        if ($sourceUrl === '') {
+            return null;
+        }
+
+        if (preg_match('#^https?://(?:www\.)?arcamax\.com/thefunnies/([a-z0-9_-]+)/?$#i', $sourceUrl, $m)) {
+            $slug = $m[1];
+            $rssUrl = 'https://www.arcamax.com/rss/thefunnies/' . $slug . '/';
+
+            $overrideJob = $job;
+            $overrideJob['native_source'] = $rssUrl;
+
+            try {
+                $native = sfm_refresh_native($overrideJob);
+            } catch (Throwable $e) {
+                return null;
+            }
+
+            if (@file_put_contents($tmpPath, $native['body']) === false) {
+                throw new RuntimeException('Unable to write temp feed file');
+            }
+            @chmod($tmpPath, 0664);
+            if (!@rename($tmpPath, $feedPath)) {
+                throw new RuntimeException('Unable to replace feed file');
+            }
+
+            $itemsCount = sfm_count_feed_items($native['body'], $native['format']);
+
+            return [$native['body'], $itemsCount, $native['validation']];
+        }
+
+        return null;
+    }
+}
+
 if (!function_exists('sfm_refresh_job')) {
     /**
      * Refresh a single job (native or custom).
@@ -422,6 +488,11 @@ if (!function_exists('sfm_refresh_custom')) {
         $format = strtolower((string)($job['format'] ?? DEFAULT_FMT));
         if (!in_array($format, ['rss', 'atom', 'jsonfeed'], true)) {
             $format = DEFAULT_FMT;
+        }
+
+        $override = sfm_known_feed_override($job, $feedUrl, $tmpPath, $feedPath);
+        if ($override !== null) {
+            return $override;
         }
 
         $page = http_get($sourceUrl, [
