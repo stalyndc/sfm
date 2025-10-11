@@ -68,6 +68,12 @@ $warnOnly     = !empty($cliOptions['warn-only']);
 $maxOverride  = isset($cliOptions['max']) ? max(0, (int)$cliOptions['max']) : null;
 $alertThresh  = isset($cliOptions['failure-threshold']) ? max(1, (int)$cliOptions['failure-threshold']) : 3;
 $recipients   = !empty($cliOptions['no-email']) ? [] : cron_refresh_resolve_recipients();
+$slackWebhook = getenv('SFM_SLACK_WEBHOOK');
+if ($slackWebhook !== false) {
+    $slackWebhook = trim($slackWebhook);
+} else {
+    $slackWebhook = '';
+}
 
 $lock = sfm_jobs_acquire_lock();
 if ($lock === false) {
@@ -215,6 +221,11 @@ if ($shouldEmail) {
     }
 }
 
+if ($slackWebhook !== '') {
+    $pool = $warnOnly ? $alertJobs : $failedJobs;
+    cron_refresh_notify_slack($slackWebhook, $logEntry, $pool, $warnOnly, $alertThresh);
+}
+
 exit(0);
 
 function cron_refresh_parse_cli_options(array $argv): array
@@ -273,4 +284,58 @@ function cron_refresh_send_alert(array $recipients, string $subject, string $bod
     foreach ($recipients as $recipient) {
         @mail($recipient, $subject, $body, $headers);
     }
+}
+
+function cron_refresh_notify_slack(string $webhook, array $logEntry, array $jobs, bool $warnOnly, int $threshold): void
+{
+    if ($webhook === '') {
+        return;
+    }
+
+    $summary = $logEntry['summary'] ?? '';
+    $ts      = $logEntry['ts'] ?? gmdate('c');
+
+    $lines = [];
+    $lines[] = '*SimpleFeedMaker refresh*';
+    $lines[] = sprintf('`%s`', $ts);
+    if ($summary !== '') {
+        $lines[] = $summary;
+    }
+    $lines[] = 'Failure threshold: ' . $threshold . ($warnOnly ? ' (warn-only alerts)' : '');
+
+    if ($jobs) {
+        foreach ($jobs as $info) {
+            $lines[] = '';
+            $lines[] = '• Job ' . ($info['job_id'] ?? '(unknown)');
+            if (!empty($info['source_url'])) {
+                $lines[] = '  Source: ' . $info['source_url'];
+            }
+            if (!empty($info['feed_url'])) {
+                $lines[] = '  Feed: ' . $info['feed_url'];
+            }
+            $lines[] = '  Streak: ' . ($info['failure_streak'] ?? 0);
+            if (!empty($info['last_error'])) {
+                $lines[] = '  Error: ' . $info['last_error'];
+            }
+        }
+    } else {
+        $lines[] = '';
+        $lines[] = 'All jobs healthy ✅';
+    }
+
+    $payload = json_encode(['text' => implode("\n", $lines)], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+    if ($payload === false) {
+        return;
+    }
+
+    $context = stream_context_create([
+        'http' => [
+            'method'  => 'POST',
+            'header'  => "Content-Type: application/json\r\n",
+            'content' => $payload,
+            'timeout' => 5,
+        ],
+    ]);
+
+    @file_get_contents($webhook, false, $context);
 }

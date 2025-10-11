@@ -38,6 +38,9 @@ Notes:
   configured consistently.
 - The runner uses whichever `SFM_ALERT_EMAIL` you provide in `secure/cron.env`;
   no default address is assumed.
+- Set `SFM_SLACK_WEBHOOK` in `secure/cron.env` to post refresh summaries into Slack;
+  when defined, `cron_refresh.php` sends the same run statistics (and failing job
+  details) to that channel after each pass.
 - `monitor` automatically passes `--quiet --warn-only` to
   `secure/scripts/monitor_health.php`; remove `--warn-only` in cron if you want
   warnings delivered by email as well.
