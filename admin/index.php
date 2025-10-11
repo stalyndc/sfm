@@ -496,6 +496,47 @@ require __DIR__ . '/../includes/page_header.php';
         <?php if ($totalJobs === 0): ?>
           <p class="mb-0">No jobs yet. Generate a feed to see it here.</p>
         <?php else: ?>
+          <?php
+            $chipDefinitions = [
+              [
+                'label' => 'All jobs',
+                'status' => 'all',
+                'mode' => 'all',
+                'count' => $jobStats['total'] ?? null,
+              ],
+              [
+                'label' => 'Failing',
+                'status' => 'fail',
+                'mode' => 'all',
+                'count' => $jobStats['failing'] ?? null,
+              ],
+              [
+                'label' => 'Native',
+                'status' => 'all',
+                'mode' => 'native',
+                'count' => $jobStats['native'] ?? null,
+              ],
+              [
+                'label' => 'Custom',
+                'status' => 'all',
+                'mode' => 'custom',
+                'count' => isset($jobStats['total'], $jobStats['native']) ? (int)$jobStats['total'] - (int)$jobStats['native'] : null,
+              ],
+            ];
+          ?>
+          <div class="filter-chips d-flex flex-wrap gap-2 mb-3">
+            <?php foreach ($chipDefinitions as $chip):
+              $isActive = ($statusFilter === $chip['status'] && $modeFilter === $chip['mode'] && $searchTerm === '');
+              $chipHref = admin_jobs_url(1, $perPage, $defaultPerPage, $chip['status'], $chip['mode'], '');
+            ?>
+              <a href="<?= htmlspecialchars($chipHref, ENT_QUOTES, 'UTF-8'); ?>" class="filter-chip <?= $isActive ? 'is-active' : ''; ?>">
+                <?= htmlspecialchars($chip['label'], ENT_QUOTES, 'UTF-8'); ?>
+                <?php if ($chip['count'] !== null): ?>
+                  <span class="chip-count"><?= number_format((int)$chip['count']); ?></span>
+                <?php endif; ?>
+              </a>
+            <?php endforeach; ?>
+          </div>
           <div class="d-flex flex-column gap-3 mb-3">
             <div class="small text-secondary">
               Showing <?= number_format($showingStart); ?>–<?= number_format($showingEnd); ?> of <?= number_format($totalJobs); ?> job<?= $totalJobs === 1 ? '' : 's'; ?>

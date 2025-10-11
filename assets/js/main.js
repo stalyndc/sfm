@@ -190,6 +190,8 @@
   clearBtn?.addEventListener('click', () => {
     form.reset();
     urlInput.focus();
+    resultCard?.classList.add('d-none');
+    hintCard?.classList.remove('d-none');
   });
 
   genBtn.addEventListener('click', async () => {
