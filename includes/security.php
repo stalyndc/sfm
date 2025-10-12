@@ -47,26 +47,32 @@ if (!function_exists('sfm_http_host_overrides')) {
 
     $cache = [];
 
-    if (defined('SECURE_DIR')) {
-      $file = SECURE_DIR . '/http-overrides.php';
-      if (is_file($file) && is_readable($file)) {
-        $data = require $file;
-        if (is_array($data)) {
-          foreach ($data as $host => $ips) {
-            $hostKey = strtolower(trim((string)$host));
-            if ($hostKey === '') continue;
-            if (!is_array($ips)) {
-              $ips = preg_split('/[,\s]+/', (string)$ips, -1, PREG_SPLIT_NO_EMPTY) ?: [];
-            }
-            $ips = array_values(array_filter($ips, static function ($ip): bool {
-              return filter_var($ip, FILTER_VALIDATE_IP) !== false;
-            }));
-            if ($ips) {
-              $cache[$hostKey] = $ips;
-            }
-          }
+    $mergeOverrides = static function ($path) use (&$cache): void {
+      if (!is_file($path) || !is_readable($path)) {
+        return;
+      }
+      $data = require $path;
+      if (!is_array($data)) {
+        return;
+      }
+      foreach ($data as $host => $ips) {
+        $hostKey = strtolower(trim((string)$host));
+        if ($hostKey === '') continue;
+        if (!is_array($ips)) {
+          $ips = preg_split('/[,\s]+/', (string)$ips, -1, PREG_SPLIT_NO_EMPTY) ?: [];
+        }
+        $ips = array_values(array_filter($ips, static function ($ip): bool {
+          return filter_var($ip, FILTER_VALIDATE_IP) !== false;
+        }));
+        if ($ips) {
+          $cache[$hostKey] = $ips;
         }
       }
+    };
+
+    if (defined('SECURE_DIR')) {
+      $mergeOverrides(SECURE_DIR . '/http-overrides.default.php');
+      $mergeOverrides(SECURE_DIR . '/http-overrides.php');
     }
 
     $env = getenv('SFM_HTTP_HOST_OVERRIDES');
