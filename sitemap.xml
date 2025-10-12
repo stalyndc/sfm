@@ -33,14 +33,20 @@
   </url>
   <url>
     <loc>https://simplefeedmaker.com/blog/</loc>
-    <lastmod>2025-10-04</lastmod>
+    <lastmod>2025-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://simplefeedmaker.com/blog/feed.xml</loc>
-    <lastmod>2025-10-04</lastmod>
+    <lastmod>2025-10-12</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://simplefeedmaker.com/blog/simplefeedmaker-update-october-2025/</loc>
+    <lastmod>2025-10-12</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>

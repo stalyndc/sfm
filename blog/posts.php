@@ -3,6 +3,42 @@
 declare(strict_types=1);
 
 return [
+    'simplefeedmaker-update-october-2025' => [
+        'slug'         => 'simplefeedmaker-update-october-2025',
+        'title'        => 'SimpleFeedMaker Update: Stronger Ops, Clearer Privacy, and What’s Next',
+        'excerpt'      => 'See what’s new in SimpleFeedMaker: a refreshed ops playbook, clearer health monitoring guidance, updated privacy language, and a peek at features on the horizon.',
+        'description'  => 'See what’s new in SimpleFeedMaker: a refreshed ops playbook, clearer health monitoring guidance, updated privacy language, and a preview of upcoming features.',
+        'published'    => '2025-10-12T00:00:00Z',
+        'updated'      => '2025-10-12T00:00:00Z',
+        'reading_time' => '4 minute read',
+        'author'       => 'SimpleFeedMaker Team',
+        'content'      => <<<'HTML'
+<p class="lead text-secondary mb-4">Our mission at SimpleFeedMaker is to keep your feeds fresh, fast, and fuss-free. Over the past few weeks we focused on tightening the operational playbook, refreshing privacy transparency, and teeing up the next wave of user-facing improvements. Here’s the rundown.</p>
+
+<h2 class="h5 fw-semibold">Recent Enhancements</h2>
+
+<h3 class="h6 fw-semibold text-secondary text-uppercase mt-4 mb-2">Automation &amp; Ops Playbook</h3>
+<p>We shipped an expanded <a class="link-light" href="/AGENTS.md">Automation, Security, and Operations Playbook</a> that documents every maintenance agent—from Secrets Guard to the quarterly Disaster Drill. Each entry now includes triggers, scripts, and remediation checklists, so anyone on the team can run the same trusted process.</p>
+
+<h3 class="h6 fw-semibold text-secondary text-uppercase mt-4 mb-2">Health Monitoring Clarity</h3>
+<p>The <strong>Health Sentry</strong> guide now matches the JSON returned by <code>/health.php</code>. Monitors can watch the top-level <code>ok</code> or <code>status</code> fields instead of chasing nested values, which cuts down on false alarms and surfaces real downtime faster.</p>
+
+<h3 class="h6 fw-semibold text-secondary text-uppercase mt-4 mb-2">Privacy Policy Refresh</h3>
+<p>We updated the privacy page to reflect our current analytics setup. SimpleFeedMaker loads Google Analytics strictly for aggregate usage stats—no ad features, no sharing. If you’d rather block the script, the app still works exactly the same. We also reiterated how operational logs stay private and why they matter for keeping abusers out.</p>
+
+<h2 class="h5 fw-semibold mt-5">What We’re Building Next</h2>
+
+<ul class="page-list mb-4">
+  <li><strong>Saved history &amp; one-click refreshes.</strong> A “recent jobs” tray will remember your last successful feeds so you can regenerate them without retyping anything.</li>
+  <li><strong>Preview parsed items.</strong> Power users will see the first batch of extracted entries—plus validation warnings—before committing to generate a feed file.</li>
+  <li><strong>Richer native-feed context.</strong> When SimpleFeedMaker passes through an official feed, we’ll show the discovered URL, feed title, and last-modified timestamp right in the results.</li>
+  <li><strong>Operator visibility.</strong> Lightweight metrics (top warnings, last refresh success) are headed to a dashboard so you can spot problem feeds without tailing logs.</li>
+  <li><strong>CI secrets guardrails.</strong> We’re preparing to run Secrets Guard during GitHub Actions builds once template secure files are available in automation.</li>
+</ul>
+
+<p class="mb-0">SimpleFeedMaker runs on a lean stack, but the site keeps evolving thanks to your feedback. If you hit tricky source pages or have feature ideas, drop us a note—and keep an eye on the blog for the next wave of improvements.</p>
+HTML,
+    ],
     'publication-ready-rss-checklist' => [
         'slug'         => 'publication-ready-rss-checklist',
         'title'        => 'How to Make Your RSS-Powered Blog Publication-Ready',
