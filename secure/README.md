@@ -14,6 +14,7 @@ Files you may want to provide:
 
 - `admin-credentials.local.php` — defines `ADMIN_USERNAME` and `ADMIN_PASSWORD_HASH` (generate with `php secure/scripts/hash_password.php`), or set `SFM_ADMIN_USERNAME` / `SFM_ADMIN_PASSWORD_HASH` env vars.
 - `db-credentials.local.php` — defines `DB_HOST`, `DB_USERNAME`, `DB_PASSWORD`, `DB_NAME`, or set the `SFM_DB_*` env vars instead.
+- `http-overrides.php` — optional host ⇒ IP map for outbound fetches when DNS is flaky. Copy from `http-overrides.example.php` and list public IPs only.
 - `sfm-secrets.php` — optional array for extra shared secrets.
 - `cron.env` — sourced by `scripts/automation/cron_runner.sh`. Use it to set `PHP_BIN` (e.g. `/opt/alt/php82/usr/bin/php`), `SFM_ALERT_EMAIL`, comma/semicolon-delimited `SFM_ALERT_EMAILS`, and automation-specific values such as `SFM_BACKUPS_DIR` and `SFM_CHECKSUM_FILE` so the health monitor and disaster drill know where to look.
 

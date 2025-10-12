@@ -29,6 +29,81 @@ declare(strict_types=1);
 require_once __DIR__ . '/config.php';
 
 /* ============================================================
+ * Optional HTTP host overrides (shared with includes/http.php)
+ * ============================================================ */
+if (!function_exists('sfm_http_host_overrides')) {
+  /**
+   * Return host => [ip, ...] overrides using secure/http-overrides.php or env.
+   *
+   * Env format: host=ip[,ip];host2=ip (separate entries with ; or |).
+   *
+   * @return array<string,list<string>>
+   */
+  function sfm_http_host_overrides(): array {
+    static $cache = null;
+    if ($cache !== null) {
+      return $cache;
+    }
+
+    $cache = [];
+
+    if (defined('SECURE_DIR')) {
+      $file = SECURE_DIR . '/http-overrides.php';
+      if (is_file($file) && is_readable($file)) {
+        $data = require $file;
+        if (is_array($data)) {
+          foreach ($data as $host => $ips) {
+            $hostKey = strtolower(trim((string)$host));
+            if ($hostKey === '') continue;
+            if (!is_array($ips)) {
+              $ips = preg_split('/[,\s]+/', (string)$ips, -1, PREG_SPLIT_NO_EMPTY) ?: [];
+            }
+            $ips = array_values(array_filter($ips, static function ($ip): bool {
+              return filter_var($ip, FILTER_VALIDATE_IP) !== false;
+            }));
+            if ($ips) {
+              $cache[$hostKey] = $ips;
+            }
+          }
+        }
+      }
+    }
+
+    $env = getenv('SFM_HTTP_HOST_OVERRIDES');
+    if (is_string($env) && trim($env) !== '') {
+      foreach (preg_split('/[;|]+/', $env) ?: [] as $pair) {
+        if (strpos($pair, '=') === false) continue;
+        [$host, $list] = array_map('trim', explode('=', $pair, 2));
+        if ($host === '' || $list === '') continue;
+        $ips = preg_split('/[,\s]+/', $list, -1, PREG_SPLIT_NO_EMPTY) ?: [];
+        $ips = array_values(array_filter($ips, static function ($ip): bool {
+          return filter_var($ip, FILTER_VALIDATE_IP) !== false;
+        }));
+        if ($ips) {
+          $cache[strtolower($host)] = $ips; // env overrides file entry
+        }
+      }
+    }
+
+    return $cache;
+  }
+
+  /**
+   * Fetch override IP list for a host (lower-cased).
+   *
+   * @return list<string>
+   */
+  function sfm_http_override_ips(string $host): array {
+    $host = strtolower(trim($host));
+    if ($host === '') {
+      return [];
+    }
+    $overrides = sfm_http_host_overrides();
+    return $overrides[$host] ?? [];
+  }
+}
+
+/* ============================================================
  * Session bootstrap (secure settings first)
  * ============================================================ */
 function sec_boot_session(): void {
@@ -271,15 +346,36 @@ function sfm_is_public_ip(string $ip): bool
   return (bool)filter_var($ip, FILTER_VALIDATE_IP, $flags);
 }
 
-function sfm_host_is_public(string $host): bool
+function sfm_host_is_public(string $host, ?string &$reason = null): bool
 {
+  $reason = null;
   $host = trim($host);
   if ($host === '') {
+    $reason = 'invalid_host';
     return false;
   }
 
+  if (getenv('SFM_TEST_ALLOW_LOCAL_URLS') === '1') {
+    return true;
+  }
+
   if (filter_var($host, FILTER_VALIDATE_IP)) {
-    return sfm_is_public_ip($host);
+    if (!sfm_is_public_ip($host)) {
+      $reason = 'private_ip';
+      return false;
+    }
+    return true;
+  }
+
+  $overrideIps = sfm_http_override_ips($host);
+  if ($overrideIps) {
+    foreach ($overrideIps as $ip) {
+      if (!sfm_is_public_ip($ip)) {
+        $reason = 'private_override_ip';
+        return false;
+      }
+    }
+    return true;
   }
 
   $ips = [];
@@ -299,12 +395,16 @@ function sfm_host_is_public(string $host): bool
     }
   }
 
+  $ips = array_values(array_unique(array_filter($ips)));
+
   if (empty($ips)) {
+    $reason = 'dns_failed';
     return false;
   }
 
   foreach ($ips as $ip) {
     if (!sfm_is_public_ip($ip)) {
+      $reason = 'private_ip';
       return false;
     }
   }
@@ -320,7 +420,8 @@ function sfm_url_is_public(string $url): bool
   if (!is_string($host) || $host === '') {
     return false;
   }
-  return sfm_host_is_public($host);
+  $reason = null;
+  return sfm_host_is_public($host, $reason);
 }
 
 /* ============================================================

@@ -6,6 +6,7 @@ secure/db-credentials.local.php
 secure/sfm-secrets.php
 secure/config.php
 secure/admin-password-rehash.todo
+secure/http-overrides.php
 secure/vendor/
 
 # Runtime artifacts

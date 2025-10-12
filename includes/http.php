@@ -28,7 +28,7 @@ declare(strict_types=1);
 require_once __DIR__ . '/config.php';
 
 // Reuse security helpers for public URL/IP validation when available.
-if (!function_exists('sfm_is_public_ip') || !function_exists('sfm_url_is_public')) {
+if (!function_exists('sfm_is_public_ip') || !function_exists('sfm_url_is_public') || !function_exists('sfm_http_override_ips')) {
     $securityFile = __DIR__ . '/security.php';
     if (is_file($securityFile) && is_readable($securityFile)) {
         require_once $securityFile;
@@ -201,21 +201,11 @@ function sfm_http_url_is_allowed(string $url, ?string &$reason = null): bool {
         return false;
     }
 
-    if (getenv('SFM_TEST_ALLOW_LOCAL_URLS') === '1') {
-        return true;
-    }
-
-    if (function_exists('sfm_url_is_public')) {
-        if (!sfm_url_is_public($url)) {
-            $reason = 'private_target';
-            return false;
-        }
-    } else {
-        $host = (string)$parts['host'];
-        if (filter_var($host, FILTER_VALIDATE_IP) && !sfm_http_ip_is_public($host)) {
-            $reason = 'private_target';
-            return false;
-        }
+    $host = (string)$parts['host'];
+    $hostReason = null;
+    if (!sfm_host_is_public($host, $hostReason)) {
+        $reason = $hostReason ?? 'private_target';
+        return false;
     }
 
     return true;
@@ -318,20 +308,20 @@ function sfm_http_resolve_redirect(string $currentUrl, string $location): ?strin
  * Perform one request and return:
  * [ok(bool), status(int), headers_raw(string), body(string), info(array)]
  */
-function sfm_request_raw(string $url, array $opts = []): array {
-    $method         = strtoupper($opts['method'] ?? 'GET');  // 'GET' | 'HEAD'
-    $timeout        = (int)($opts['timeout'] ?? 18);
-    $connectTimeout = (int)($opts['connect_timeout'] ?? 8);
-    $maxRedirs      = (int)($opts['max_redirs'] ?? 5);
-    $ua             = (string)($opts['user_agent'] ?? sfm_user_agent());
-    $accept         = (string)($opts['accept'] ?? 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8');
-    $acceptLang     = (string)($opts['accept_language'] ?? 'en-US,en;q=0.9');
-    $extraHeaders   = (array)($opts['headers'] ?? []);
-    $followLocation = (bool)($opts['follow_location'] ?? false);
-    $maxBytes       = (int)($opts['max_bytes'] ?? (defined('SFM_HTTP_MAX_BYTES') ? SFM_HTTP_MAX_BYTES : 0));
+function sfm_request_raw(string $url, array $options = []): array {
+    $method         = strtoupper($options['method'] ?? 'GET');  // 'GET' | 'HEAD'
+    $timeout        = (int)($options['timeout'] ?? 18);
+    $connectTimeout = (int)($options['connect_timeout'] ?? 8);
+    $maxRedirs      = (int)($options['max_redirs'] ?? 5);
+    $ua             = (string)($options['user_agent'] ?? sfm_user_agent());
+    $accept         = (string)($options['accept'] ?? 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8');
+    $acceptLang     = (string)($options['accept_language'] ?? 'en-US,en;q=0.9');
+    $extraHeaders   = (array)($options['headers'] ?? []);
+    $followLocation = (bool)($options['follow_location'] ?? false);
+    $maxBytes       = (int)($options['max_bytes'] ?? (defined('SFM_HTTP_MAX_BYTES') ? SFM_HTTP_MAX_BYTES : 0));
 
     if (in_array($method, ['GET', 'HEAD'], true)) {
-        $fixture = sfm_http_fixture_response($url, $method, $opts);
+        $fixture = sfm_http_fixture_response($url, $method, $options);
         if ($fixture !== null) {
             return $fixture;
         }
@@ -343,8 +333,31 @@ function sfm_request_raw(string $url, array $opts = []): array {
         : (defined('CURL_HTTP_VERSION_1_1') ? CURL_HTTP_VERSION_1_1 : 0);
 
     $headersRaw = '';
-    $bodyBuffer = '';
-    $limitExceeded = false;
+   $bodyBuffer = '';
+   $limitExceeded = false;
+
+    $ipResolve = isset($options['_ipresolve']) ? (int)$options['_ipresolve'] : 0;
+    if ($ipResolve < 0) {
+        $ipResolve = 0;
+    }
+    unset($options['_ipresolve']);
+
+    $overrideEntries = [];
+    $host = parse_url($url, PHP_URL_HOST);
+    if (is_string($host) && $host !== '') {
+        $overrideIps = sfm_http_override_ips($host);
+        if ($overrideIps) {
+            $scheme = strtolower((string)(parse_url($url, PHP_URL_SCHEME) ?? 'http'));
+            $port   = (int)(parse_url($url, PHP_URL_PORT) ?? ($scheme === 'https' ? 443 : 80));
+            $ips    = array_values(array_unique($overrideIps));
+            if (count($ips) > 1) {
+                shuffle($ips);
+            }
+            foreach ($ips as $ip) {
+                $overrideEntries[] = sprintf('%s:%d:%s', $host, $port, $ip);
+            }
+        }
+    }
 
     $ch = curl_init();
     curl_setopt_array($ch, [
@@ -418,9 +431,18 @@ function sfm_request_raw(string $url, array $opts = []): array {
         curl_setopt($ch, CURLOPT_NOBODY, true);
     }
 
+    if ($overrideEntries) {
+        curl_setopt($ch, CURLOPT_RESOLVE, $overrideEntries);
+    }
+
+    if ($ipResolve !== 0 && defined('CURLOPT_IPRESOLVE')) {
+        curl_setopt($ch, CURLOPT_IPRESOLVE, $ipResolve);
+    }
+
     $resp  = curl_exec($ch);
+    $errno = curl_errno($ch);
     $err   = curl_error($ch);
-    $info = curl_getinfo($ch);
+    $info  = curl_getinfo($ch);
     curl_close($ch);
 
     $info = is_array($info) ? $info : [];
@@ -441,6 +463,13 @@ function sfm_request_raw(string $url, array $opts = []): array {
     }
 
     if ($err || $resp === false) {
+        if ($errno === CURLE_COULDNT_RESOLVE_HOST && $ipResolve === 0 && defined('CURL_IPRESOLVE_V4')) {
+            $options['_ipresolve'] = CURL_IPRESOLVE_V4;
+            return sfm_request_raw($url, $options);
+        }
+        $info['sfm_error']  = 'curl_error';
+        $info['curl_errno'] = $errno;
+        $info['curl_error'] = $err;
         return [false, 0, '', '', $info];
     }
 
@@ -496,6 +525,11 @@ function sfm_http_execute(string $url, array $options, string $method): array {
 
         if (($info['sfm_error'] ?? null) === 'body_too_large') {
             $blockReason = 'body_too_large';
+            return [false, 0, '', '', $info, $currentUrl, $blockReason];
+        }
+
+        if (($info['sfm_error'] ?? null) === 'curl_error') {
+            $blockReason = 'curl_error';
             return [false, 0, '', '', $info, $currentUrl, $blockReason];
         }
 
