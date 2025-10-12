@@ -1,7 +1,8 @@
 <?php
 /**
- * Copy to secure/admin-credentials.php and override with strong values.
- * The app reads both legacy SFM_* constants and plain ADMIN_* constants.
+ * Copy to secure/admin-credentials.local.php (NEVER commit the copy) and
+ * override with strong values. The app reads both legacy SFM_* constants and
+ * plain ADMIN_* constants.
  */
 
 declare(strict_types=1);
@@ -13,11 +14,7 @@ define('ADMIN_PASSWORD_HASH', 'replace-with-bcrypt-hash');
 
 // Legacy fallbacks (retain for older deployments; safe to remove if unused)
 define('SFM_ADMIN_USERNAME', ADMIN_USERNAME);
-if (!defined('ADMIN_PASSWORD')) {
-    define('ADMIN_PASSWORD', '');
-}
-if (!defined('SFM_ADMIN_PASSWORD')) {
-    define('SFM_ADMIN_PASSWORD', ADMIN_PASSWORD);
-}
+define('ADMIN_PASSWORD', '');
+define('SFM_ADMIN_PASSWORD', ADMIN_PASSWORD);
 
 // No closing PHP tag
