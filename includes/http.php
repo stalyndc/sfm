@@ -781,6 +781,11 @@ function http_multi_get(array $urls, array $baseOptions = []): array {
     $map  = []; // url => ch
     $resp = [];
 
+    $maxBytesDefault = (int)($baseOptions['max_bytes'] ?? (defined('SFM_HTTP_MAX_BYTES') ? SFM_HTTP_MAX_BYTES : 0));
+    $headerBuffers = [];
+    $bodyBuffers   = [];
+    $limitFlags    = [];
+
     // HTTP version fallback for multi handles too
     $httpVersion = defined('CURL_HTTP_VERSION_2TLS')
         ? CURL_HTTP_VERSION_2TLS
@@ -801,9 +806,19 @@ function http_multi_get(array $urls, array $baseOptions = []): array {
         }
 
         $ch = curl_init();
+        $headerBuffers[$url] = '';
+        $bodyBuffers[$url]   = '';
+        $limitFlags[$url]    = false;
+        $maxBytes = $maxBytesDefault;
+        if (array_key_exists('max_bytes', $baseOptions)) {
+            $maxBytes = (int)$baseOptions['max_bytes'];
+            if ($maxBytes < 0) {
+                $maxBytes = 0;
+            }
+        }
         curl_setopt_array($ch, [
             CURLOPT_URL            => $url,
-            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_RETURNTRANSFER => false,
             CURLOPT_FOLLOWLOCATION => false,
             CURLOPT_MAXREDIRS      => 0,
             CURLOPT_CONNECTTIMEOUT => (int)($baseOptions['connect_timeout'] ?? 8),
@@ -811,7 +826,7 @@ function http_multi_get(array $urls, array $baseOptions = []): array {
             CURLOPT_USERAGENT      => (string)($baseOptions['user_agent'] ?? sfm_user_agent()),
             CURLOPT_SSL_VERIFYPEER => true,
             CURLOPT_SSL_VERIFYHOST => 2,
-            CURLOPT_HEADER         => true,
+            CURLOPT_HEADER         => false,
             CURLOPT_HTTP_VERSION   => $httpVersion,
             CURLOPT_ENCODING       => '',
             CURLOPT_HTTPHEADER     => array_merge([
@@ -819,6 +834,37 @@ function http_multi_get(array $urls, array $baseOptions = []): array {
                 'Accept-Language: ' . (string)($baseOptions['accept_language'] ?? 'en-US,en;q=0.9'),
             ], (array)($baseOptions['headers'] ?? [])),
         ]);
+
+        curl_setopt($ch, CURLOPT_HEADERFUNCTION, static function ($chTmp, string $header) use (&$headerBuffers, $url): int {
+            if (stripos($header, 'HTTP/') === 0) {
+                $headerBuffers[$url] = $header;
+            } else {
+                $headerBuffers[$url] .= $header;
+            }
+            return strlen($header);
+        });
+
+        curl_setopt($ch, CURLOPT_WRITEFUNCTION, static function ($chTmp, string $chunk) use (&$bodyBuffers, &$limitFlags, $url, $maxBytes): int {
+            if ($maxBytes > 0) {
+                $current  = strlen($bodyBuffers[$url]);
+                $incoming = strlen($chunk);
+                if ($current >= $maxBytes) {
+                    $limitFlags[$url] = true;
+                    return 0;
+                }
+                if ($current + $incoming > $maxBytes) {
+                    $allowed = $maxBytes - $current;
+                    if ($allowed > 0) {
+                        $bodyBuffers[$url] .= substr($chunk, 0, $allowed);
+                    }
+                    $limitFlags[$url] = true;
+                    return 0;
+                }
+            }
+
+            $bodyBuffers[$url] .= $chunk;
+            return strlen($chunk);
+        });
 
         if (defined('CURLOPT_PROTOCOLS') && defined('CURLPROTO_HTTP') && defined('CURLPROTO_HTTPS')) {
             curl_setopt($ch, CURLOPT_PROTOCOLS, CURLPROTO_HTTP | CURLPROTO_HTTPS);
@@ -854,7 +900,11 @@ function http_multi_get(array $urls, array $baseOptions = []): array {
         }
 
         $primaryIp = (string)$info['primary_ip'];
-        if ($err || $raw === false || ($primaryIp !== '' && !sfm_http_ip_is_public($primaryIp))) {
+        if (!empty($limitFlags[$url])) {
+            $info['sfm_error'] = 'body_too_large';
+        }
+
+        if ($err !== '' || ($primaryIp !== '' && !sfm_http_ip_is_public($primaryIp)) || !empty($limitFlags[$url])) {
             $resp[$url] = [
                 'ok'         => false,
                 'status'     => 0,
@@ -863,11 +913,18 @@ function http_multi_get(array $urls, array $baseOptions = []): array {
                 'final_url'  => $url,
                 'from_cache' => false,
                 'was_304'    => false,
+                'error'      => !empty($limitFlags[$url]) ? 'body_too_large' : null,
             ];
         } else {
-            $headerSize = (int)$info['header_size'];
-            $headersRaw = substr($raw, 0, $headerSize);
-            $body       = substr($raw, $headerSize);
+            $headersRaw = $headerBuffers[$url] ?? '';
+            $body = $bodyBuffers[$url] ?? '';
+            if ($body === '') {
+                $headerSize = (int)$info['header_size'];
+                $headersRaw = substr($raw, 0, $headerSize);
+                $body = substr($raw, $headerSize);
+            } else {
+                $info['header_size'] = strlen($headersRaw);
+            }
             $resp[$url] = [
                 'ok'         => $info['http_code'] >= 200 && $info['http_code'] < 400,
                 'status'     => (int)$info['http_code'],

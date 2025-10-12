@@ -71,11 +71,6 @@ parameters:
 			path: includes/http.php
 
 		-
-			message: "#^Strict comparison using \\=\\=\\= between string\\|null and false will always evaluate to false\\.$#"
-			count: 1
-			path: includes/http.php
-
-		-
 			message: "#^Offset 'body' does not exist on string\\.$#"
 			count: 2
 			path: includes/job_refresh.php
