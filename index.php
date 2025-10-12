@@ -123,7 +123,10 @@ require __DIR__ . '/includes/page_header.php';
           <div id="hintCard" class="card shadow-sm h-100">
             <div class="card-body d-flex flex-column justify-content-center text-center gap-3">
               <div class="placeholder-illustration mx-auto" aria-hidden="true">
-                <img src="/assets/images/rss.png" alt="" class="placeholder-icon">
+                <svg class="placeholder-icon" viewBox="0 0 64 64" role="img" aria-hidden="true" focusable="false">
+                  <circle cx="32" cy="32" r="30" fill="#f97316" />
+                  <path d="M22 44a4 4 0 1 1 0-8 4 4 0 0 1 0 8Zm14 0h-4a14 14 0 0 0-14-14v-4A18 18 0 0 1 36 44Zm10 0h-4c0-13.807-10.193-24-24-24v-4c15.464 0 28 12.536 28 28Z" fill="#fff" />
+                </svg>
               </div>
               <div>
                 <h2 class="h5 fw-semibold mb-2">No feed yet</h2>
