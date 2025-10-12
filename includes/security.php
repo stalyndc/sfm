@@ -472,10 +472,15 @@ function secure_assert_post(string $context, int $min_interval = 2, int $burst_w
   // Basic Origin/Referer same-site check (best-effort, tolerant)
   if (!empty($_SERVER['HTTP_ORIGIN'])) {
     $origin = $_SERVER['HTTP_ORIGIN'];
-    $host   = $_SERVER['HTTP_HOST'] ?? '';
-    if ($host && stripos($origin, $host) === false) {
-      // Allow if running from different subdomain of same apex (optional).
-      // Keeping strict for now:
+    $hostHeader = $_SERVER['HTTP_HOST'] ?? '';
+    $hostMeta = sfm_parse_host_header($hostHeader);
+    $scheme = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
+    if ($hostMeta !== null) {
+      $expected = $scheme . '://' . sfm_build_host_authority($hostMeta['host'], (bool)$hostMeta['is_ipv6'], $hostMeta['port'], $scheme);
+    } else {
+      $expected = app_url_base();
+    }
+    if (!sfm_origin_is_allowed($origin, $expected)) {
       json_fail('Cross-site request blocked.', 403);
     }
   }

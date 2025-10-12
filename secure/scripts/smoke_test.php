@@ -167,6 +167,16 @@ if (is_dir($fixtureDir)) {
             'output' => trim(implode("\n", $overrideOutput)),
         ];
     }
+
+    $originGuardTest = escapeshellcmd($phpBinary) . ' ' . escapeshellarg($projectRoot . '/secure/scripts/tests/test_origin_guard.php');
+    $originGuardOutput = [];
+    exec($originGuardTest . ' 2>&1', $originGuardOutput, $originGuardExit);
+    if ($originGuardExit !== 0) {
+        $failures[] = [
+            'file' => 'origin guard checks',
+            'output' => trim(implode("\n", $originGuardOutput)),
+        ];
+    }
 } else {
     $warnings[] = 'Fixture directory missing; skipped generate.php smoke test.';
 }

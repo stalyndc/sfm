@@ -156,7 +156,7 @@ function sfm_attempt_native_download(string $requestedUrl, array $candidate, int
     return false;
   }
 
-  /** @phpstan-var array{ok:bool,status:int,headers:array<string,string>,body:string,final_url:string,from_cache:bool,was_304:bool} $feed */
+  /** @phpstan-var array{ok:bool,status:int,headers:array<string,string>,body:string,final_url:string,from_cache:bool,was_304:bool,error:?string} $feed */
   $feed = http_get($href, [
     'accept' => 'application/rss+xml, application/atom+xml, application/feed+json, application/json, application/xml;q=0.9, */*;q=0.8'
   ]);
@@ -319,15 +319,14 @@ if ($summarySelectorCss !== '') {
 // Same-origin guard (soft)
 if (!empty($_SERVER['HTTP_ORIGIN'])) {
   $origin = $_SERVER['HTTP_ORIGIN'];
-  $host   = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' ? 'https' : 'http') . '://' . ($_SERVER['HTTP_HOST'] ?? '');
-  if (stripos($origin, $host) !== 0) sfm_json_fail('Cross-origin requests are not allowed.', 403);
+  if (!sfm_origin_is_allowed($origin, app_url_base())) sfm_json_fail('Cross-origin requests are not allowed.', 403);
 }
 
 // ---------------------------------------------------------------------
 // A) Prefer native feed if requested
 // ---------------------------------------------------------------------
 if ($preferNative) {
-  /** @phpstan-var array{ok:bool,status:int,headers:array<string,string>,body:string,final_url:string,from_cache:bool,was_304:bool} $pageResp */
+  /** @phpstan-var array{ok:bool,status:int,headers:array<string,string>,body:string,final_url:string,from_cache:bool,was_304:bool,error:?string} $pageResp */
   $pageResp = http_get($url, [
     'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
   ]);
@@ -348,7 +347,7 @@ if ($preferNative) {
 // ---------------------------------------------------------------------
 // B) Custom parse path
 // ---------------------------------------------------------------------
-/** @phpstan-var array{ok:bool,status:int,headers:array<string,string>,body:string,final_url:string,from_cache:bool,was_304:bool} $page */
+/** @phpstan-var array{ok:bool,status:int,headers:array<string,string>,body:string,final_url:string,from_cache:bool,was_304:bool,error:?string} $page */
 $page = http_get($url, [
   'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
 ]);
@@ -356,6 +355,20 @@ $page = http_get($url, [
 if (!$page['ok'] || $page['status'] < 200 || $page['status'] >= 400 || $page['body'] === '') {
   $status = (int)$page['status'];
   $details = ['status' => $status];
+  if (!empty($page['error'])) {
+    $details['error'] = (string)$page['error'];
+  }
+  if ($page['error'] === 'body_too_large') {
+    $limitBytes = defined('SFM_HTTP_MAX_BYTES') ? (int) SFM_HTTP_MAX_BYTES : 0;
+    if ($limitBytes > 0) {
+      $details['size_limit_bytes'] = $limitBytes;
+      $message = 'The page is larger than the allowed download size (' . round($limitBytes / 1048576, 1) . ' MB).';
+    } else {
+      $message = 'The page is larger than the allowed download size.';
+    }
+    $details['error_code'] = 'body_too_large';
+    sfm_json_fail($message, 502, $details);
+  }
   $message = 'Failed to fetch the page.';
   $errorCode = 'fetch_failed';
 
@@ -566,7 +579,7 @@ function sfm_collect_paginated_items(string $html, string $sourceUrl, int $limit
       continue;
     }
 
-    /** @phpstan-var array{ok:bool,status:int,headers:array<string,string>,body:string,final_url:string,from_cache:bool,was_304:bool} $resp */
+    /** @phpstan-var array{ok:bool,status:int,headers:array<string,string>,body:string,final_url:string,from_cache:bool,was_304:bool,error:?string} $resp */
     $resp = http_get($nextUrl, [
       'accept'    => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
       'cache_ttl' => 600,

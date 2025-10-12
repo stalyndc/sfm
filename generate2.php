@@ -243,8 +243,7 @@ try {
 
   if (!empty($_SERVER['HTTP_ORIGIN'])) {
     $origin = $_SERVER['HTTP_ORIGIN'];
-    $host   = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' ? 'https' : 'http') . '://' . ($_SERVER['HTTP_HOST'] ?? '');
-    if (stripos($origin, $host) !== 0) sfm_json_fail('Cross-origin requests are not allowed.', 403);
+    if (!sfm_origin_is_allowed($origin, app_url_base())) sfm_json_fail('Cross-origin requests are not allowed.', 403);
   }
 
   // start log span (optional)
@@ -256,6 +255,7 @@ try {
 
   // ---- A) prefer native if requested ----
   if ($preferNative) {
+    /** @phpstan-var array{ok:bool,status:int,headers:array<string,string>,body:string,final_url:string,from_cache:bool,was_304:bool,error:?string} $page */
     $page = http_get($url, ['accept'=>'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8']);
     if ($page['ok'] && $page['status'] >= 200 && $page['status'] < 400 && $page['body'] !== '') {
       $cands = function_exists('sfm_discover_feeds')
@@ -288,6 +288,7 @@ try {
           sfm_json_fail('Native feed is not accessible.', 400);
         }
 
+        /** @phpstan-var array{ok:bool,status:int,headers:array<string,string>,body:string,final_url:string,from_cache:bool,was_304:bool,error:?string} $feed */
         $feed = http_get($pick['href'], [
           'accept'=>'application/rss+xml, application/atom+xml, application/feed+json, application/json, application/xml;q=0.9, */*;q=0.8',
         ]);
@@ -342,9 +343,24 @@ try {
   }
 
   // ---- B) custom parse ----
+  /** @phpstan-var array{ok:bool,status:int,headers:array<string,string>,body:string,final_url:string,from_cache:bool,was_304:bool,error:?string} $page */
   $page = http_get($url, ['accept'=>'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8']);
+  if ($page['error'] === 'body_too_large') {
+    $limitBytes = defined('SFM_HTTP_MAX_BYTES') ? (int) SFM_HTTP_MAX_BYTES : 0;
+    $payload = ['status' => $page['status'], 'error_code' => 'body_too_large'];
+    if ($limitBytes > 0) {
+      $payload['size_limit_bytes'] = $limitBytes;
+      $limitMb = round($limitBytes / 1048576, 1);
+      sfm_json_fail('The page is larger than the allowed download size (' . $limitMb . ' MB).', 502, $payload);
+    }
+    sfm_json_fail('The page is larger than the allowed download size.', 502, $payload);
+  }
   if (!$page['ok'] || $page['status'] < 200 || $page['status'] >= 400 || $page['body'] === '') {
-    sfm_json_fail('Failed to fetch the page.', 502, ['status'=>$page['status'] ?? 0]);
+    $payload = ['status' => $page['status']];
+    if (!empty($page['error'])) {
+      $payload['error'] = (string)$page['error'];
+    }
+    sfm_json_fail('Failed to fetch the page.', 502, $payload);
   }
 
   // pick whichever extractor your extract.php provides

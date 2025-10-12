@@ -20,6 +20,7 @@
  *     'final_url'  => string,                 // after redirects
  *     'from_cache' => bool,
  *     'was_304'    => bool,
+ *     'error'      => ?string,
  *   ]
  */
 
@@ -615,7 +616,8 @@ function sfm_http_execute(string $url, array $options, string $method): array {
  *   body: string,
  *   final_url: string,
  *   from_cache: bool,
- *   was_304: bool
+ *   was_304: bool,
+ *   error: ?string
  * }
  */
 function http_get(string $url, array $options = []): array {
@@ -656,6 +658,7 @@ function http_get(string $url, array $options = []): array {
                 'final_url'  => (string)($cachedMeta['final_url'] ?? $url),
                 'from_cache' => true,
                 'was_304'    => false,
+                'error'      => null,
             ];
         }
     }
@@ -695,6 +698,7 @@ function http_get(string $url, array $options = []): array {
             'final_url'  => $finalUrl,
             'from_cache' => false,
             'was_304'    => false,
+            'error'      => $blockReason,
         ];
     }
 
@@ -726,6 +730,7 @@ function http_get(string $url, array $options = []): array {
             'final_url'  => (string)($cachedMeta['final_url'] ?? $final),
             'from_cache' => true,
             'was_304'    => true,
+            'error'      => null,
         ];
     }
 
@@ -764,6 +769,7 @@ function http_get(string $url, array $options = []): array {
         'final_url'  => $final,
         'from_cache' => false,
         'was_304'    => false,
+        'error'      => null,
     ];
 }
 
@@ -792,6 +798,7 @@ function http_head(string $url, array $options = []): array {
             'final_url'  => $finalUrl,
             'from_cache' => false,
             'was_304'    => false,
+            'error'      => $blockReason,
         ];
     }
 
@@ -803,6 +810,7 @@ function http_head(string $url, array $options = []): array {
         'final_url'  => $finalUrl,
         'from_cache' => false,
         'was_304'    => false,
+        'error'      => null,
     ];
 }
 
@@ -835,6 +843,7 @@ function http_multi_get(array $urls, array $baseOptions = []): array {
                 'final_url'  => $url,
                 'from_cache' => false,
                 'was_304'    => false,
+                'error'      => 'invalid_url',
             ];
             continue;
         }
@@ -967,6 +976,7 @@ function http_multi_get(array $urls, array $baseOptions = []): array {
                 'final_url'  => $info['url'],
                 'from_cache' => false,
                 'was_304'    => false,
+                'error'      => null,
             ];
         }
         curl_multi_remove_handle($mh, $ch);

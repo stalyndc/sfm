@@ -8,7 +8,8 @@
  *   body: string,
  *   final_url: string,
  *   from_cache: bool,
- *   was_304: bool
+ *   was_304: bool,
+ *   error: ?string
  * }
  */
 function http_get(string $url, array $options = []): array {}
@@ -22,7 +23,8 @@ function http_get(string $url, array $options = []): array {}
  *   body: string,
  *   final_url: string,
  *   from_cache: bool,
- *   was_304: bool
+ *   was_304: bool,
+ *   error: ?string
  * }
  */
 function http_head(string $url, array $options = []): array {}
@@ -40,7 +42,8 @@ function http_head(string $url, array $options = []): array {}
  *     body: string,
  *     final_url: string,
  *     from_cache: bool,
- *     was_304: bool
+ *     was_304: bool,
+ *     error: ?string
  *   }>
  * }
  */

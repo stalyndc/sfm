@@ -40,7 +40,7 @@ if (!function_exists('sfm_enrich_items_with_article_metadata')) {
             }
             $fetched++;
 
-            /** @phpstan-var array{ok:bool,status:int,headers:array<string,string>,body:string,final_url:string,from_cache:bool,was_304:bool} $resp */
+            /** @phpstan-var array{ok:bool,status:int,headers:array<string,string>,body:string,final_url:string,from_cache:bool,was_304:bool,error:?string} $resp */
             $resp = http_get($link, [
                 'accept'    => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
                 'cache_ttl' => 86400,

@@ -1,19 +1,14 @@
 parameters:
 	ignoreErrors:
 		-
-			message: "#^Anonymous function has an unused use \\$__fatal\\.$#"
-			count: 1
-			path: generate2.php
-
-		-
-			message: "#^PHPDoc tag @var with type array\\<string, array\\<string, string\\>\\|bool\\|int\\|string\\> is not subtype of native type string\\.$#"
+			message: "#^PHPDoc tag @var with type array\\<string, array\\<string, string\\>\\|bool\\|int\\|string\\|null\\> is not subtype of native type string\\.$#"
 			count: 4
 			path: generate.php
 
 		-
-			message: "#^PHPDoc tag @var with type array\\<string, array\\<string, string\\>\\|bool\\|int\\|string\\> is not subtype of native type string\\.$#"
+			message: "#^Anonymous function has an unused use \\$__fatal\\.$#"
 			count: 1
-			path: includes/enrich.php
+			path: generate2.php
 
 		-
 			message: "#^Call to an undefined method DOMNode\\:\\:getAttribute\\(\\)\\.$#"
@@ -21,28 +16,8 @@ parameters:
 			path: generate2.php
 
 		-
-			message: "#^Offset 'body' does not exist on string\\.$#"
-			count: 5
-			path: generate2.php
-
-		-
-			message: "#^Offset 'headers' does not exist on string\\.$#"
-			count: 1
-			path: generate2.php
-
-		-
-			message: "#^Offset 'ok' does not exist on string\\.$#"
+			message: "#^PHPDoc tag @var with type array\\<string, array\\<string, string\\>\\|bool\\|int\\|string\\|null\\> is not subtype of native type string\\.$#"
 			count: 3
-			path: generate2.php
-
-		-
-			message: "#^Offset 'status' does not exist on string\\.$#"
-			count: 3
-			path: generate2.php
-
-		-
-			message: "#^Offset 'status' on string on left side of \\?\\? does not exist\\.$#"
-			count: 1
 			path: generate2.php
 
 		-
@@ -51,9 +26,24 @@ parameters:
 			path: includes/admin_auth.php
 
 		-
+			message: "#^Call to function array_key_exists\\(\\) with 'host' and array\\{scheme\\: non\\-falsy\\-string, host\\: non\\-falsy\\-string, port\\?\\: int\\<0, 65535\\>, user\\?\\: string, pass\\?\\: string, path\\?\\: string, query\\?\\: string, fragment\\?\\: string\\} will always evaluate to true\\.$#"
+			count: 1
+			path: includes/config.php
+
+		-
 			message: "#^Call to function is_string\\(\\) with non\\-falsy\\-string will always evaluate to true\\.$#"
 			count: 1
 			path: includes/config.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between non\\-falsy\\-string and '' will always evaluate to false\\.$#"
+			count: 1
+			path: includes/config.php
+
+		-
+			message: "#^PHPDoc tag @var with type array\\<string, array\\<string, string\\>\\|bool\\|int\\|string\\|null\\> is not subtype of native type string\\.$#"
+			count: 1
+			path: includes/enrich.php
 
 		-
 			message: "#^Call to an undefined method DOMNode\\:\\:getAttribute\\(\\)\\.$#"
@@ -71,12 +61,12 @@ parameters:
 			path: includes/http.php
 
 		-
-			message: "#^Offset 'body' does not exist on string\\.$#"
-			count: 2
+			message: "#^Cannot assign offset 'body' to string\\.$#"
+			count: 1
 			path: includes/job_refresh.php
 
 		-
-			message: "#^Cannot assign offset 'body' to string\\.$#"
+			message: "#^Offset 'body' does not exist on string\\.$#"
 			count: 1
 			path: includes/job_refresh.php
 
@@ -87,16 +77,21 @@ parameters:
 
 		-
 			message: "#^Offset 'ok' does not exist on string\\.$#"
-			count: 2
+			count: 1
 			path: includes/job_refresh.php
 
 		-
 			message: "#^Offset 'status' does not exist on string\\.$#"
-			count: 2
+			count: 1
 			path: includes/job_refresh.php
 
 		-
 			message: "#^Offset 'status' on string on left side of \\?\\? does not exist\\.$#"
+			count: 1
+			path: includes/job_refresh.php
+
+		-
+			message: "#^PHPDoc tag @var with type array\\<string, array\\<string, string\\>\\|bool\\|int\\|string\\|null\\> is not subtype of native type string\\.$#"
 			count: 2
 			path: includes/job_refresh.php
 
@@ -154,8 +149,3 @@ parameters:
 			message: "#^Ternary operator condition is always true\\.$#"
 			count: 1
 			path: secure/scripts/smoke_test.php
-
-		-
-			message: "#^PHPDoc tag @var with type array\\<string, array\\<string, string\\>\\|bool\\|int\\|string\\> is not subtype of native type string\\.$#"
-			count: 1
-			path: includes/job_refresh.php

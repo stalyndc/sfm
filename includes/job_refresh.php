@@ -267,7 +267,7 @@ if (!function_exists('sfm_known_feed_override')) {
         }
 
         if (preg_match('#^https?://(?:www\.)?rense\.com/?$#i', $sourceUrl)) {
-            /** @phpstan-var array{ok:bool,status:int,headers:array<string,string>,body:string,final_url:string,from_cache:bool,was_304:bool} $page */
+            /** @phpstan-var array{ok:bool,status:int,headers:array<string,string>,body:string,final_url:string,from_cache:bool,was_304:bool,error:?string} $page */
             $page = http_get($sourceUrl, [
                 'use_cache' => false,
                 'timeout'   => TIMEOUT_S,
@@ -665,14 +665,28 @@ if (!function_exists('sfm_refresh_custom')) {
             return $override;
         }
 
+        /** @phpstan-var array{ok:bool,status:int,headers:array<string,string>,body:string,final_url:string,from_cache:bool,was_304:bool,error:?string} $page */
         $page = http_get($sourceUrl, [
             'use_cache' => false,
             'timeout'   => TIMEOUT_S,
             'accept'    => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
         ]);
 
+        if ($page['error'] === 'body_too_large') {
+            $limitBytes = defined('SFM_HTTP_MAX_BYTES') ? (int) SFM_HTTP_MAX_BYTES : 0;
+            $limitMb = $limitBytes > 0 ? round($limitBytes / 1048576, 1) : null;
+            $message = 'Source fetch aborted: page exceeded size limit';
+            if ($limitMb !== null) {
+                $message .= ' (' . $limitMb . ' MB)';
+            }
+            throw new RuntimeException($message . '.');
+        }
+
         if (!$page['ok'] || $page['status'] < 200 || $page['status'] >= 400 || $page['body'] === '') {
-            throw new RuntimeException('Source fetch failed (HTTP ' . ($page['status'] ?? 0) . ')');
+            if ($page['error'] === 'curl_error') {
+                throw new RuntimeException('Source fetch failed before receiving a response.');
+            }
+            throw new RuntimeException('Source fetch failed (HTTP ' . $page['status'] . ')');
         }
 
         $items = sfm_extract_items($page['body'], $sourceUrl, $limit);

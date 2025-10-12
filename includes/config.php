@@ -168,7 +168,7 @@ if (!defined('SFM_JOB_RETENTION_DAYS')) {
 }
 if (!defined('SFM_HTTP_MAX_BYTES')) {
   $envLimit = (int) getenv('SFM_HTTP_MAX_BYTES');
-  define('SFM_HTTP_MAX_BYTES', $envLimit > 0 ? $envLimit : 4 * 1024 * 1024);
+  define('SFM_HTTP_MAX_BYTES', $envLimit > 0 ? $envLimit : 8 * 1024 * 1024);
 }
 
 if (!function_exists('sfm_parse_host_header')) {
@@ -287,12 +287,81 @@ if (!function_exists('ensure_feeds_dir')) {
 /* -----------------------------------------------------------
    Minimal origin check helper (same-origin only)
    ----------------------------------------------------------- */
+if (!function_exists('sfm_origin_is_allowed')) {
+  function sfm_origin_is_allowed(string $origin, string $expectedBase): bool {
+    $origin = trim($origin);
+    if ($origin === '') {
+      return false;
+    }
+
+    $originParts = @parse_url($origin);
+    if (!is_array($originParts) || empty($originParts['scheme']) || empty($originParts['host'])) {
+      return false;
+    }
+
+    $originScheme = strtolower((string)$originParts['scheme']);
+    if ($originScheme !== 'http' && $originScheme !== 'https') {
+      return false;
+    }
+
+    $originHostRaw = array_key_exists('host', $originParts) ? (string)$originParts['host'] : '';
+    if ($originHostRaw === '') {
+      return false;
+    }
+
+    $originHost = strtolower($originHostRaw);
+
+    $originPort = isset($originParts['port']) ? (int)$originParts['port'] : null;
+
+    $expectedParts = @parse_url($expectedBase);
+    if (is_array($expectedParts) && !empty($expectedParts['host'])) {
+      $expectedHost = strtolower((string)$expectedParts['host']);
+      $expectedScheme = strtolower((string)($expectedParts['scheme'] ?? ''));
+      $expectedPort = isset($expectedParts['port']) ? (int)$expectedParts['port'] : null;
+    } else {
+      $expectedHost = strtolower(trim($expectedBase));
+      if ($expectedHost === '') {
+        return false;
+      }
+      $expectedScheme = '';
+      $expectedPort = null;
+    }
+
+    if ($originHost !== $expectedHost) {
+      return false;
+    }
+
+    $normalizedOriginPort = $originPort;
+    if ($normalizedOriginPort === null) {
+      if ($originScheme === 'https') {
+        $normalizedOriginPort = 443;
+      } elseif ($originScheme === 'http') {
+        $normalizedOriginPort = 80;
+      }
+    }
+
+    $normalizedExpectedPort = $expectedPort;
+    if ($normalizedExpectedPort === null) {
+      if ($expectedScheme === 'https') {
+        $normalizedExpectedPort = 443;
+      } elseif ($expectedScheme === 'http') {
+        $normalizedExpectedPort = 80;
+      }
+    }
+
+    if ($normalizedExpectedPort !== null && $normalizedOriginPort !== $normalizedExpectedPort) {
+      return false;
+    }
+
+    return true;
+  }
+}
+
 if (!function_exists('reject_cross_origin_if_any')) {
   function reject_cross_origin_if_any(): void {
     if (!empty($_SERVER['HTTP_ORIGIN'])) {
       $origin = $_SERVER['HTTP_ORIGIN'];
-      $host   = app_url_base();
-      if (stripos($origin, $host) !== 0) {
+      if (!sfm_origin_is_allowed($origin, app_url_base())) {
         http_response_code(403);
         header('Content-Type: application/json; charset=utf-8');
         echo json_encode(['ok'=>false, 'message'=>'Cross-origin requests are not allowed.']);
