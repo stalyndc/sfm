@@ -574,6 +574,11 @@ require __DIR__ . '/../includes/page_header.php';
               <div class="col-auto">
                 <button type="submit" class="btn btn-sm btn-outline-primary">Apply</button>
               </div>
+              <?php if ($searchTerm !== '' || $statusFilter !== 'all' || $modeFilter !== 'all'): ?>
+                <div class="col-auto">
+                  <a href="<?= htmlspecialchars(admin_jobs_url(1, $perPage, $defaultPerPage, 'all', 'all', ''), ENT_QUOTES, 'UTF-8'); ?>" class="btn btn-sm btn-link text-decoration-none">Reset</a>
+                </div>
+              <?php endif; ?>
             </form>
           </div>
           <div class="table-responsive jobs-table-container">
