@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Google News Fixture Topic</title>
+    <link>https://news.google.com/topics/test-topic.xml</link>
+    <description>Fixture feed for Google Topics override testing.</description>
+    <pubDate>Tue, 02 Jan 2024 12:00:00 +0000</pubDate>
+    <item>
+      <title>Fixture Topic Story One</title>
+      <link>https://example.com/google-topic/story-one</link>
+      <guid>story-one</guid>
+      <description>First sample story for the Google Topics fixture.</description>
+      <pubDate>Tue, 02 Jan 2024 11:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fixture Topic Story Two</title>
+      <link>https://example.com/google-topic/story-two</link>
+      <guid>story-two</guid>
+      <description>Second sample story for the Google Topics fixture.</description>
+      <pubDate>Tue, 02 Jan 2024 10:30:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

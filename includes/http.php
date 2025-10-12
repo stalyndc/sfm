@@ -100,15 +100,33 @@ function sfm_http_fixture_response(string $url, string $method): ?array {
     }
 
     $host = strtolower($parts['host'] ?? '');
-    if ($host !== 'fixtures.simplefeedmaker.test') {
+    $path = $parts['path'] ?? '/';
+    if ($path === '') {
+        $path = '/';
+    }
+
+    $allowedHostsEnv = getenv('SFM_TEST_FIXTURE_HOSTS');
+    $allowedHosts = [];
+    if ($allowedHostsEnv !== false && $allowedHostsEnv !== '') {
+        foreach (preg_split('/[;,]+/', $allowedHostsEnv) ?: [] as $candidate) {
+            $candidate = strtolower(trim($candidate));
+            if ($candidate !== '') {
+                $allowedHosts[$candidate] = true;
+            }
+        }
+    }
+
+    if ($host === 'fixtures.simplefeedmaker.test') {
+        $fixturePath = rtrim($fixtureDir, '/\\') . $path;
+    } elseif (isset($allowedHosts[$host])) {
+        $fixturePath = rtrim($fixtureDir, '/\\') . '/' . $host . $path;
+    } else {
         return null;
     }
 
-    $path = $parts['path'] ?? '/';
-    if ($path === '' || $path === '/') {
-      $path = '/index.html';
+    if ($path === '/' || substr($path, -1) === '/') {
+        $fixturePath = rtrim($fixturePath, '/\\') . '/index.html';
     }
-    $fixturePath = rtrim($fixtureDir, '/\\') . $path;
     if (is_dir($fixturePath)) {
         $fixturePath = rtrim($fixturePath, '/\\') . '/index.html';
     }

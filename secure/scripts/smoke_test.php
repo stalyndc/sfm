@@ -157,6 +157,16 @@ if (is_dir($fixtureDir)) {
             'output' => trim(implode("\n", $encodingOutput)),
         ];
     }
+
+    $overrideTest = escapeshellcmd($phpBinary) . ' ' . escapeshellarg($projectRoot . '/secure/scripts/tests/test_overrides.php');
+    $overrideOutput = [];
+    exec($overrideTest . ' 2>&1', $overrideOutput, $overrideExit);
+    if ($overrideExit !== 0) {
+        $failures[] = [
+            'file' => 'override integration suite',
+            'output' => trim(implode("\n", $overrideOutput)),
+        ];
+    }
 } else {
     $warnings[] = 'Fixture directory missing; skipped generate.php smoke test.';
 }

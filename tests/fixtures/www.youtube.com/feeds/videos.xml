@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:yt="http://www.youtube.com/xml/schemas/2015"
+      xmlns:media="http://search.yahoo.com/mrss/">
+  <title>YouTube Channel Fixture</title>
+  <id>yt:channel:fixture-channel</id>
+  <yt:channelId>fixture-channel</yt:channelId>
+  <updated>2024-01-01T00:00:00+00:00</updated>
+  <author>
+    <name>Fixture Creator</name>
+  </author>
+  <link rel="alternate" href="https://www.youtube.com/channel/fixture-channel"/>
+  <entry>
+    <title>Fixture Video One</title>
+    <id>yt:video:video-one</id>
+    <yt:videoId>video-one</yt:videoId>
+    <updated>2024-01-02T12:00:00+00:00</updated>
+    <published>2024-01-02T12:00:00+00:00</published>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=video-one"/>
+    <media:group>
+      <media:title>Fixture Video One</media:title>
+      <media:description>Sample description for the first fixture video.</media:description>
+      <media:content url="https://www.youtube.com/v/video-one" type="application/x-shockwave-flash"/>
+      <media:thumbnail url="https://i.ytimg.com/vi/video-one/hqdefault.jpg"/>
+    </media:group>
+  </entry>
+  <entry>
+    <title>Fixture Video Two</title>
+    <id>yt:video:video-two</id>
+    <yt:videoId>video-two</yt:videoId>
+    <updated>2024-01-03T14:00:00+00:00</updated>
+    <published>2024-01-03T14:00:00+00:00</published>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=video-two"/>
+    <media:group>
+      <media:title>Fixture Video Two</media:title>
+      <media:description>Sample description for the second fixture video.</media:description>
+      <media:content url="https://www.youtube.com/v/video-two" type="application/x-shockwave-flash"/>
+      <media:thumbnail url="https://i.ytimg.com/vi/video-two/hqdefault.jpg"/>
+    </media:group>
+  </entry>
+</feed>
