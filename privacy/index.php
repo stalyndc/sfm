@@ -59,7 +59,7 @@ require __DIR__ . '/../includes/page_header.php';
               <p>Feeds that you create live under <code>/feeds</code> on our server. Each feed job includes metadata—source URL, format, refresh cadence—so the cron worker can keep the feed up to date. Unused feeds age out and are deleted after a retention window.</p>
 
               <h2 class="h5 fw-semibold mt-4">Third-party services</h2>
-              <p>We host SimpleFeedMaker on Hostinger and load fonts/Bootstrap from reputable CDNs. Google Analytics is disabled; we rely solely on lightweight server logs.</p>
+              <p>We host SimpleFeedMaker on Hostinger and load fonts/Bootstrap from reputable CDNs. We also load Google Analytics to capture aggregate usage metrics (page views, referrers) so we can improve the generator. Advertising features are off and we do not share reporting data; feel free to block the script in your browser if you prefer.</p>
 
               <h2 class="h5 fw-semibold mt-4">Questions or removal requests</h2>
               <p>If you need a feed removed or have privacy questions, contact us via <a class="link-light" href="https://disla.net/" target="_blank" rel="noopener">Disla.net</a>. We typically respond within two business days.</p>

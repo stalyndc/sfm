@@ -24,7 +24,7 @@ Goal: “run smooth and secure” with lightweight agents (automations + checks)
   1. Run `php secure/scripts/deploy_courier.php` (add `--dry-run` to preview, `--build-assets` to trigger `npm run build`).
   2. The script runs `composer install --no-dev`, `composer test` (use `--skip-tests` to bypass), optionally builds assets, reports the `/assets` footprint, and bundles the repo into `build/releases/simplefeedmaker-<timestamp>.zip` without runtime folders (`storage/`, `secure/logs/`, `secure/ratelimits/`).
   3. Use `--stage-dir=/path` to copy the zip into a shared drop folder, `--upload-sftp-*` flags to push straight to the server (or `--upload-cmd="…{file}"` for a custom command), and `--post-deploy-url=https://simplefeedmaker.com/health.php` for an instant smoke test.
-  4. If you prefer manual deploys, upload the generated zip via Hostinger file manager or `sftp`, extract, and confirm file permissions (`644` files, `755` dirs`).
+  4. If you prefer manual deploys, upload the generated zip via Hostinger file manager or `sftp`, extract, and confirm file permissions (`644` files, `755` dirs).
 - **Optional smoke check:** Pass `--post-deploy-url=https://simplefeedmaker.com/health.php` (or your staging endpoint) to have the courier hit the health check after upload; failures bubble up in the script output.
 - **Output:** a repeatable release package with secrets preserved on the server only.
 
@@ -52,7 +52,7 @@ Goal: “run smooth and secure” with lightweight agents (automations + checks)
 - **Trigger:** every 5 minutes from any uptime checker (UptimeRobot, Cronitor, etc.).
 - **Script:**
   1. Request `https://simplefeedmaker.com/health.php`.
-  2. Validate HTTP 200 and `scope.ok === true`; the payload also surfaces recent cleanup-log age and storage status.
+  2. Validate HTTP 200 and `ok === true` (or `status === "ok"`); the payload also surfaces recent cleanup-log age and storage status.
   3. Alert on two consecutive failures (or if the endpoint returns HTTP 503 / `ok:false`) and include the JSON body for context.
 - **Automation:** run `php secure/scripts/monitor_health.php --quiet` (or via `scripts/automation/cron_runner.sh monitor`) to email alerts using `SFM_ALERT_EMAIL`/`SFM_HEALTH_ALERT_EMAIL` when the health endpoint warns.
 - **Output:** fast signal on outages or upstream fetch issues.
