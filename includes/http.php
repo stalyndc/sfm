@@ -88,7 +88,7 @@ function sfm_user_agent(): string {
 }
 
 /** Internal: load test fixtures instead of performing a real HTTP request when configured. */
-function sfm_http_fixture_response(string $url, string $method): ?array {
+function sfm_http_fixture_response(string $url, string $method, array $opts = []): ?array {
     $fixtureDir = getenv('SFM_TEST_FIXTURE_DIR');
     if ($fixtureDir === false || $fixtureDir === '') {
         return null;
@@ -155,6 +155,12 @@ function sfm_http_fixture_response(string $url, string $method): ?array {
 
     if (strtoupper($method) === 'HEAD') {
         $body = '';
+    }
+
+    $maxBytes = (int)($opts['max_bytes'] ?? (defined('SFM_HTTP_MAX_BYTES') ? SFM_HTTP_MAX_BYTES : 0));
+    if ($maxBytes > 0 && strlen($body) > $maxBytes) {
+        $info['sfm_error'] = 'body_too_large';
+        return [false, 0, '', '', $info];
     }
 
     return [true, 200, $headersRaw, $body, $info];
@@ -322,9 +328,10 @@ function sfm_request_raw(string $url, array $opts = []): array {
     $acceptLang     = (string)($opts['accept_language'] ?? 'en-US,en;q=0.9');
     $extraHeaders   = (array)($opts['headers'] ?? []);
     $followLocation = (bool)($opts['follow_location'] ?? false);
+    $maxBytes       = (int)($opts['max_bytes'] ?? (defined('SFM_HTTP_MAX_BYTES') ? SFM_HTTP_MAX_BYTES : 0));
 
     if (in_array($method, ['GET', 'HEAD'], true)) {
-        $fixture = sfm_http_fixture_response($url, $method);
+        $fixture = sfm_http_fixture_response($url, $method, $opts);
         if ($fixture !== null) {
             return $fixture;
         }
@@ -335,10 +342,14 @@ function sfm_request_raw(string $url, array $opts = []): array {
         ? CURL_HTTP_VERSION_2TLS
         : (defined('CURL_HTTP_VERSION_1_1') ? CURL_HTTP_VERSION_1_1 : 0);
 
+    $headersRaw = '';
+    $bodyBuffer = '';
+    $limitExceeded = false;
+
     $ch = curl_init();
     curl_setopt_array($ch, [
         CURLOPT_URL            => $url,
-        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_RETURNTRANSFER => false,
         CURLOPT_FOLLOWLOCATION => $followLocation,
         CURLOPT_MAXREDIRS      => $followLocation ? $maxRedirs : 0,
         CURLOPT_CONNECTTIMEOUT => $connectTimeout,
@@ -346,7 +357,7 @@ function sfm_request_raw(string $url, array $opts = []): array {
         CURLOPT_USERAGENT      => $ua,
         CURLOPT_SSL_VERIFYPEER => true,
         CURLOPT_SSL_VERIFYHOST => 2,
-        CURLOPT_HEADER         => true,          // headers + body in one buffer
+        CURLOPT_HEADER         => false,
         CURLOPT_HTTP_VERSION   => $httpVersion,  // try HTTP/2, fallback to 1.1
         CURLOPT_ENCODING       => '',            // negotiate (gzip/deflate/br)
         CURLOPT_HTTPHEADER     => array_merge([
@@ -354,6 +365,39 @@ function sfm_request_raw(string $url, array $opts = []): array {
             'Accept-Language: '  . $acceptLang,
         ], $extraHeaders),
     ]);
+
+    curl_setopt($ch, CURLOPT_HEADERFUNCTION, static function ($chTmp, string $header) use (&$headersRaw): int {
+        if (stripos($header, 'HTTP/') === 0) {
+            $headersRaw = $header;
+        } else {
+            $headersRaw .= $header;
+        }
+        return strlen($header);
+    });
+
+    if ($method !== 'HEAD') {
+        curl_setopt($ch, CURLOPT_WRITEFUNCTION, static function ($chTmp, string $chunk) use (&$bodyBuffer, $maxBytes, &$limitExceeded): int {
+            if ($maxBytes > 0) {
+                $current = strlen($bodyBuffer);
+                $incoming = strlen($chunk);
+                if ($current >= $maxBytes) {
+                    $limitExceeded = true;
+                    return 0;
+                }
+                if ($current + $incoming > $maxBytes) {
+                    $allowed = $maxBytes - $current;
+                    if ($allowed > 0) {
+                        $bodyBuffer .= substr($chunk, 0, $allowed);
+                    }
+                    $limitExceeded = true;
+                    return 0;
+                }
+            }
+
+            $bodyBuffer .= $chunk;
+            return strlen($chunk);
+        });
+    }
 
     if (defined('CURLOPT_PROTOCOLS') && defined('CURLPROTO_HTTP') && defined('CURLPROTO_HTTPS')) {
         curl_setopt($ch, CURLOPT_PROTOCOLS, CURLPROTO_HTTP | CURLPROTO_HTTPS);
@@ -374,8 +418,8 @@ function sfm_request_raw(string $url, array $opts = []): array {
         curl_setopt($ch, CURLOPT_NOBODY, true);
     }
 
-    $resp = curl_exec($ch);
-    $err  = curl_error($ch);
+    $resp  = curl_exec($ch);
+    $err   = curl_error($ch);
     $info = curl_getinfo($ch);
     curl_close($ch);
 
@@ -390,13 +434,18 @@ function sfm_request_raw(string $url, array $opts = []): array {
         $info['url'] = $url;
     }
 
+    if ($limitExceeded) {
+        $info['sfm_error'] = 'body_too_large';
+        $info['http_code'] = 0;
+        return [false, 0, $headersRaw, '', $info];
+    }
+
     if ($err || $resp === false) {
         return [false, 0, '', '', $info];
     }
 
-    $headerSize = (int)$info['header_size'];
-    $headersRaw = substr($resp, 0, $headerSize);
-    $body       = ($method === 'HEAD') ? '' : substr($resp, $headerSize);
+    $body = ($method === 'HEAD') ? '' : $bodyBuffer;
+    $info['header_size'] = strlen($headersRaw);
 
     $status = (int)$info['http_code'];
     return [($status >= 200 && $status < 400), $status, $headersRaw, $body, $info];
@@ -409,6 +458,15 @@ function sfm_http_execute(string $url, array $options, string $method): array {
     $currentUrl    = $url;
     $redirectCount = 0;
     $visited       = [];
+
+    if (!array_key_exists('max_bytes', $options)) {
+        $options['max_bytes'] = (int)(defined('SFM_HTTP_MAX_BYTES') ? SFM_HTTP_MAX_BYTES : 0);
+    } else {
+        $options['max_bytes'] = (int)$options['max_bytes'];
+        if ($options['max_bytes'] < 0) {
+            $options['max_bytes'] = 0;
+        }
+    }
 
     $lastOk         = false;
     $lastStatus     = 0;
@@ -434,6 +492,11 @@ function sfm_http_execute(string $url, array $options, string $method): array {
         [$ok, $status, $headersRaw, $body, $info] = sfm_request_raw($currentUrl, $opts);
         if (!isset($info['url']) || $info['url'] === '') {
             $info['url'] = $currentUrl;
+        }
+
+        if (($info['sfm_error'] ?? null) === 'body_too_large') {
+            $blockReason = 'body_too_large';
+            return [false, 0, '', '', $info, $currentUrl, $blockReason];
         }
 
         $primaryIp = (string)$info['primary_ip'];
@@ -503,6 +566,7 @@ function sfm_http_execute(string $url, array $options, string $method): array {
  *  - timeout          (int)   total timeout (s)
  *  - connect_timeout  (int)   connect timeout (s)
  *  - max_redirs       (int)
+ *  - max_bytes        (int)   soft cap on response body (0 disables limit)
  *  - user_agent       (string)
  *  - accept           (string)
  *  - accept_language  (string)

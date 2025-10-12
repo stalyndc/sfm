@@ -166,6 +166,10 @@ if (!defined('SFM_REFRESH_MAX_PER_RUN')) {
 if (!defined('SFM_JOB_RETENTION_DAYS')) {
   define('SFM_JOB_RETENTION_DAYS', 21);
 }
+if (!defined('SFM_HTTP_MAX_BYTES')) {
+  $envLimit = (int) getenv('SFM_HTTP_MAX_BYTES');
+  define('SFM_HTTP_MAX_BYTES', $envLimit > 0 ? $envLimit : 4 * 1024 * 1024);
+}
 
 if (!function_exists('sfm_parse_host_header')) {
   /**
