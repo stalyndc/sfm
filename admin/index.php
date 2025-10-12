@@ -493,94 +493,100 @@ require __DIR__ . '/../includes/page_header.php';
 
     <div class="card shadow-sm">
       <div class="card-body">
-        <?php if ($totalJobs === 0): ?>
-          <p class="mb-0">No jobs yet. Generate a feed to see it here.</p>
-        <?php else: ?>
-          <?php
-            $chipDefinitions = [
-              [
-                'label' => 'All jobs',
-                'status' => 'all',
-                'mode' => 'all',
-                'count' => $jobStats['total'] ?? null,
-              ],
-              [
-                'label' => 'Failing',
-                'status' => 'fail',
-                'mode' => 'all',
-                'count' => $jobStats['failing'] ?? null,
-              ],
-              [
-                'label' => 'Native',
-                'status' => 'all',
-                'mode' => 'native',
-                'count' => $jobStats['native'] ?? null,
-              ],
-              [
-                'label' => 'Custom',
-                'status' => 'all',
-                'mode' => 'custom',
-                'count' => isset($jobStats['total'], $jobStats['native']) ? (int)$jobStats['total'] - (int)$jobStats['native'] : null,
-              ],
-            ];
+        <?php
+          $chipDefinitions = [
+            [
+              'label' => 'All jobs',
+              'status' => 'all',
+              'mode' => 'all',
+              'count' => $jobStats['total'] ?? null,
+            ],
+            [
+              'label' => 'Failing',
+              'status' => 'fail',
+              'mode' => 'all',
+              'count' => $jobStats['failing'] ?? null,
+            ],
+            [
+              'label' => 'Native',
+              'status' => 'all',
+              'mode' => 'native',
+              'count' => $jobStats['native'] ?? null,
+            ],
+            [
+              'label' => 'Custom',
+              'status' => 'all',
+              'mode' => 'custom',
+              'count' => isset($jobStats['total'], $jobStats['native']) ? (int)$jobStats['total'] - (int)$jobStats['native'] : null,
+            ],
+          ];
+        ?>
+        <div class="filter-chips d-flex flex-wrap gap-2 mb-3">
+          <?php foreach ($chipDefinitions as $chip):
+            $isActive = ($statusFilter === $chip['status'] && $modeFilter === $chip['mode'] && $searchTerm === '');
+            $chipHref = admin_jobs_url(1, $perPage, $defaultPerPage, $chip['status'], $chip['mode'], '');
           ?>
-          <div class="filter-chips d-flex flex-wrap gap-2 mb-3">
-            <?php foreach ($chipDefinitions as $chip):
-              $isActive = ($statusFilter === $chip['status'] && $modeFilter === $chip['mode'] && $searchTerm === '');
-              $chipHref = admin_jobs_url(1, $perPage, $defaultPerPage, $chip['status'], $chip['mode'], '');
-            ?>
-              <a href="<?= htmlspecialchars($chipHref, ENT_QUOTES, 'UTF-8'); ?>" class="filter-chip <?= $isActive ? 'is-active' : ''; ?>">
-                <?= htmlspecialchars($chip['label'], ENT_QUOTES, 'UTF-8'); ?>
-                <?php if ($chip['count'] !== null): ?>
-                  <span class="chip-count"><?= number_format((int)$chip['count']); ?></span>
-                <?php endif; ?>
-              </a>
-            <?php endforeach; ?>
-          </div>
-          <div class="d-flex flex-column gap-3 mb-3">
-            <div class="small text-secondary">
-              Showing <?= number_format($showingStart); ?>–<?= number_format($showingEnd); ?> of <?= number_format($totalJobs); ?> job<?= $totalJobs === 1 ? '' : 's'; ?>
-            </div>
-            <form method="get" class="row gx-2 gy-2 align-items-end">
-              <input type="hidden" name="page" value="1">
-              <div class="col-12 col-md-4">
-                <label for="admin-search" class="form-label small mb-1">Search source or feed URL</label>
-                <input type="search" name="search" id="admin-search" class="form-control form-control-sm" value="<?= htmlspecialchars($searchTerm, ENT_QUOTES, 'UTF-8'); ?>" placeholder="example.com">
-              </div>
-              <div class="col-6 col-md-2">
-                <label for="admin-status" class="form-label small mb-1">Status</label>
-                <select name="status" id="admin-status" class="form-select form-select-sm">
-                  <?php foreach ($statusOptions as $option): ?>
-                    <option value="<?= $option; ?>" <?= $option === $statusFilter ? 'selected' : ''; ?>><?= ucfirst($option); ?></option>
-                  <?php endforeach; ?>
-                </select>
-              </div>
-              <div class="col-6 col-md-2">
-                <label for="admin-mode" class="form-label small mb-1">Mode</label>
-                <select name="mode" id="admin-mode" class="form-select form-select-sm">
-                  <?php foreach ($modeOptions as $option): ?>
-                    <option value="<?= $option; ?>" <?= $option === $modeFilter ? 'selected' : ''; ?>><?= ucfirst($option); ?></option>
-                  <?php endforeach; ?>
-                </select>
-              </div>
-              <div class="col-6 col-md-2 col-lg-1">
-                <label for="admin-per-page" class="form-label small mb-1">Per page</label>
-                <select name="per_page" id="admin-per-page" class="form-select form-select-sm">
-                  <?php foreach ($perPageOptions as $option): ?>
-                    <option value="<?= $option; ?>" <?= $option === $perPage ? 'selected' : ''; ?>><?= $option; ?></option>
-                  <?php endforeach; ?>
-                </select>
-              </div>
-              <div class="col-auto">
-                <button type="submit" class="btn btn-sm btn-outline-primary">Apply</button>
-              </div>
-              <?php if ($searchTerm !== '' || $statusFilter !== 'all' || $modeFilter !== 'all'): ?>
-                <div class="col-auto">
-                  <a href="<?= htmlspecialchars(admin_jobs_url(1, $perPage, $defaultPerPage, 'all', 'all', ''), ENT_QUOTES, 'UTF-8'); ?>" class="btn btn-sm btn-link text-decoration-none">Reset</a>
-                </div>
+            <a href="<?= htmlspecialchars($chipHref, ENT_QUOTES, 'UTF-8'); ?>" class="filter-chip <?= $isActive ? 'is-active' : ''; ?>">
+              <?= htmlspecialchars($chip['label'], ENT_QUOTES, 'UTF-8'); ?>
+              <?php if ($chip['count'] !== null): ?>
+                <span class="chip-count"><?= number_format((int)$chip['count']); ?></span>
               <?php endif; ?>
-            </form>
+            </a>
+          <?php endforeach; ?>
+        </div>
+        <div class="d-flex flex-column gap-3 mb-3">
+          <div class="small text-secondary">
+            Showing <?= number_format($showingStart); ?>–<?= number_format($showingEnd); ?> of <?= number_format($totalJobs); ?> job<?= $totalJobs === 1 ? '' : 's'; ?>
           </div>
+          <form method="get" class="row gx-2 gy-2 align-items-end">
+            <input type="hidden" name="page" value="1">
+            <div class="col-12 col-md-4">
+              <label for="admin-search" class="form-label small mb-1">Search source or feed URL</label>
+              <input type="search" name="search" id="admin-search" class="form-control form-control-sm" value="<?= htmlspecialchars($searchTerm, ENT_QUOTES, 'UTF-8'); ?>" placeholder="example.com">
+            </div>
+            <div class="col-6 col-md-2">
+              <label for="admin-status" class="form-label small mb-1">Status</label>
+              <select name="status" id="admin-status" class="form-select form-select-sm">
+                <?php foreach ($statusOptions as $option): ?>
+                  <option value="<?= $option; ?>" <?= $option === $statusFilter ? 'selected' : ''; ?>><?= ucfirst($option); ?></option>
+                <?php endforeach; ?>
+              </select>
+            </div>
+            <div class="col-6 col-md-2">
+              <label for="admin-mode" class="form-label small mb-1">Mode</label>
+              <select name="mode" id="admin-mode" class="form-select form-select-sm">
+                <?php foreach ($modeOptions as $option): ?>
+                  <option value="<?= $option; ?>" <?= $option === $modeFilter ? 'selected' : ''; ?>><?= ucfirst($option); ?></option>
+                <?php endforeach; ?>
+              </select>
+            </div>
+            <div class="col-6 col-md-2 col-lg-1">
+              <label for="admin-per-page" class="form-label small mb-1">Per page</label>
+              <select name="per_page" id="admin-per-page" class="form-select form-select-sm">
+                <?php foreach ($perPageOptions as $option): ?>
+                  <option value="<?= $option; ?>" <?= $option === $perPage ? 'selected' : ''; ?>><?= $option; ?></option>
+                <?php endforeach; ?>
+              </select>
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-sm btn-outline-primary">Apply</button>
+            </div>
+            <?php if ($searchTerm !== '' || $statusFilter !== 'all' || $modeFilter !== 'all'): ?>
+              <div class="col-auto">
+                <a href="<?= htmlspecialchars(admin_jobs_url(1, $perPage, $defaultPerPage, 'all', 'all', ''), ENT_QUOTES, 'UTF-8'); ?>" class="btn btn-sm btn-link text-decoration-none">Reset</a>
+              </div>
+            <?php endif; ?>
+          </form>
+        </div>
+        <?php if ($totalJobs === 0): ?>
+          <div class="alert alert-info mb-0">
+            <?php if ($searchTerm !== '' || $statusFilter !== 'all' || $modeFilter !== 'all'): ?>
+              No jobs match your filters. <a href="<?= htmlspecialchars(admin_jobs_url(1, $perPage, $defaultPerPage, 'all', 'all', ''), ENT_QUOTES, 'UTF-8'); ?>">View all jobs</a>.
+            <?php else: ?>
+              No jobs yet. Generate a feed to see it here.
+            <?php endif; ?>
+          </div>
+        <?php else: ?>
           <div class="table-responsive jobs-table-container">
             <table class="table align-middle mb-0 admin-jobs-table table-sticky">
               <thead>
