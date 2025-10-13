@@ -55,6 +55,7 @@ case "${task}" in
     ;;
   daily)
     run_php secure/scripts/cleanup_feeds.php --max-age=3d --quiet "${extra_args[@]}"
+    run_php secure/scripts/daily_digest.php "${extra_args[@]}"
     ;;
   weekly)
     run_php secure/scripts/log_sanitizer.php --notify "${extra_args[@]}"
