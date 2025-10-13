@@ -510,6 +510,7 @@ input[type="number"] { -moz-appearance: textfield; }
 }
 
 .btn.btn-primary:hover:not(:disabled) {
+  background-image: linear-gradient(135deg, #02c8d1, #04dee7);
   transform: translateY(-1px);
   box-shadow: 0 20px 35px rgba(0, 173, 181, .32);
 }
