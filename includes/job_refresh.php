@@ -208,6 +208,90 @@ if (!function_exists('sfm_count_feed_items')) {
     }
 }
 
+if (!function_exists('sfm_custom_try_native_payload')) {
+    /**
+     * Attempt to treat a custom refresh response as a native feed when possible.
+     */
+    function sfm_custom_try_native_payload(array $page, string $sourceUrl, string $tmpPath, string $feedPath): ?array
+    {
+        $body = (string)($page['body'] ?? '');
+        if ($body === '') {
+            return null;
+        }
+
+        $headers = [];
+        if (isset($page['headers']) && is_array($page['headers'])) {
+            $headers = $page['headers'];
+        }
+
+        $contentType = strtolower((string)($headers['content-type'] ?? ''));
+        $trimmed = ltrim($body);
+        $prefix = strtolower(substr($trimmed, 0, 20));
+        $looksJson = $trimmed !== '' && ($trimmed[0] === '{' || $trimmed[0] === '[');
+        $looksXml = $prefix !== '' && (
+            str_starts_with($prefix, '<?xml') ||
+            str_starts_with($prefix, '<rss') ||
+            str_starts_with($prefix, '<rdf') ||
+            str_starts_with($prefix, '<feed')
+        );
+
+        $maybeFeed = false;
+        if ($contentType !== '') {
+            if (str_contains($contentType, 'xml') || str_contains($contentType, 'rss') || str_contains($contentType, 'atom') || str_contains($contentType, 'json')) {
+                $maybeFeed = true;
+            }
+        }
+        if (!$maybeFeed) {
+            $maybeFeed = $looksJson || $looksXml;
+        }
+        if (!$maybeFeed) {
+            return null;
+        }
+
+        $encodingNormalization = sfm_normalize_feed_encoding($body, $headers);
+        $body = $encodingNormalization['body'];
+
+        $detected = detect_feed_format_and_ext($body, $headers, $sourceUrl);
+        $format = $detected[0] ?? 'rss';
+        $normalization = sfm_normalize_feed($body, $format, $sourceUrl);
+        if ($normalization) {
+            $body = $normalization['body'];
+            $format = $normalization['format'];
+        }
+
+        $validation = sfm_validate_feed($format, $body);
+        if (!$validation['ok']) {
+            return null;
+        }
+
+        $itemsCount = sfm_count_feed_items($body, $format);
+        if ($itemsCount <= 0) {
+            return null;
+        }
+
+        if (@file_put_contents($tmpPath, $body) === false) {
+            throw new RuntimeException('Unable to write temp feed file');
+        }
+        @chmod($tmpPath, 0664);
+        if (!@rename($tmpPath, $feedPath)) {
+            throw new RuntimeException('Unable to replace feed file');
+        }
+
+        $result = [
+            $body,
+            $itemsCount,
+            $validation,
+            'override' => [
+                'key'    => 'auto-native-feed',
+                'label'  => 'Native feed detected',
+                'source' => $sourceUrl,
+            ],
+        ];
+
+        return $result;
+    }
+}
+
 if (!function_exists('sfm_known_feed_override')) {
     function sfm_known_feed_override(array $job, string $feedUrl, string $tmpPath, string $feedPath): ?array
     {
@@ -687,6 +771,11 @@ if (!function_exists('sfm_refresh_custom')) {
                 throw new RuntimeException('Source fetch failed before receiving a response.');
             }
             throw new RuntimeException('Source fetch failed (HTTP ' . $page['status'] . ')');
+        }
+
+        $native = sfm_custom_try_native_payload($page, $sourceUrl, $tmpPath, $feedPath);
+        if (is_array($native)) {
+            return $native;
         }
 
         $items = sfm_extract_items($page['body'], $sourceUrl, $limit);
