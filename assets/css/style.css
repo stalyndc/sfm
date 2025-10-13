@@ -460,6 +460,7 @@ body {
   height: 1.4rem;
   background-color: rgba(238, 238, 238, .18);
   border-color: rgba(238, 238, 238, .28);
+  margin-right: .75rem;
   cursor: pointer;
   transition: background-color .15s ease, border-color .15s ease, box-shadow .15s ease;
 }
