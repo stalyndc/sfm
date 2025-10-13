@@ -148,6 +148,69 @@ require __DIR__ . '/includes/page_header.php';
     </div>
   </main>
 
+  <section class="feature-belt py-5 py-lg-6">
+    <div class="container">
+      <div class="text-center mb-4 mb-lg-5">
+        <h2 class="h4 fw-semibold text-uppercase mb-2" style="letter-spacing:.12em;">Why teams rely on SimpleFeedMaker</h2>
+        <p class="muted mb-0">Lightweight automation paired with feeds that stay valid and readable.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <span class="feature-icon" aria-hidden="true">🔗</span>
+          <h3 class="fw-semibold">Native feed passthrough</h3>
+          <ul>
+            <li>Respect a site’s official RSS/JSON feed when it’s discoverable.</li>
+            <li>Fall back to the custom parser with one toggle if nothing exists.</li>
+            <li>Validation guards keep every exported feed lint-free.</li>
+          </ul>
+        </article>
+        <article class="feature-card">
+          <span class="feature-icon" aria-hidden="true">🛠️</span>
+          <h3 class="fw-semibold">Automation & safeguards</h3>
+          <ul>
+            <li>Cleanup, log sanitizer, and rate-limit scripts built for shared hosting.</li>
+            <li>Daily Slack digest (private ops alert) keeps you informed without opening admin.</li>
+            <li>Health endpoint + monitor cron warn before subscribers notice.</li>
+          </ul>
+        </article>
+        <article class="feature-card">
+          <span class="feature-icon" aria-hidden="true">📰</span>
+          <h3 class="fw-semibold">Richer article output</h3>
+          <ul>
+            <li>Full-text enrichment adds hero images, summaries, and metadata.</li>
+            <li>Inline HTML stays sanitized so readers like NetNewsWire show the whole story.</li>
+            <li>JSON Feed, RSS, and Atom share the same polished payload.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 py-lg-6">
+    <div class="container">
+      <div class="social-proof">
+        <div class="text-center mb-4">
+          <h2 class="h4 fw-semibold mb-2">Built for operators, trusted by readers</h2>
+          <p class="muted mb-0">Whether you’re syndicating newsroom updates or curating niche news, SimpleFeedMaker keeps feeds fresh without extra dashboards.</p>
+        </div>
+        <div class="proof-grid">
+          <div class="proof-quote">
+            “Our newsletter queue stays topped up because feeds refresh every 30 minutes without fail.”
+            <strong>— Indie publisher</strong>
+          </div>
+          <div class="proof-quote">
+            “The metadata enrichment means our readers see full articles in NetNewsWire. No more partials.”
+            <strong>— RSS power user</strong>
+          </div>
+          <div class="proof-quote">
+            “Cron alerts land in my personal Slack, so I know the moment a feed slips before subscribers do.”
+            <strong>— Solo operator</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <script src="/assets/js/main.js" defer></script>
 
 <?php require __DIR__ . '/includes/page_footer.php';
