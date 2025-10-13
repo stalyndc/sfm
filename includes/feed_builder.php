@@ -40,19 +40,94 @@ if (!function_exists('sfm_clean_content_html')) {
   function sfm_clean_content_html(string $html): string
   {
     if ($html === '') return '';
+
     $patterns = [
       '~<svg\b[^>]*>.*?</svg>~is',
       '~<symbol\b[^>]*>.*?</symbol>~is',
       '~<path\b[^>]*>~is',
       '~</svg>~i',
       '~</symbol>~i',
+      '~<script\b[^>]*>.*?</script>~is',
+      '~<style\b[^>]*>.*?</style>~is',
     ];
     foreach ($patterns as $pat) {
       $html = preg_replace($pat, '', $html) ?? $html;
     }
-    $allowed = '<p><br><ul><ol><li><strong><em><b><i><a>'; 
-    $textOnly = strip_tags($html, $allowed);
-    return $textOnly;
+
+    $allowed = '<p><br><ul><ol><li><strong><em><b><i><a><blockquote><pre><code><img><figure><figcaption><hr><h1><h2><h3><h4><h5><h6><table><thead><tbody><tr><td><th><span><div><section>'; 
+    $clean = strip_tags($html, $allowed);
+    $clean = str_replace(["\r\n", "\r"], "\n", $clean);
+    $clean = str_replace("\xC2\xA0", ' ', $clean); // nbsp
+    $clean = trim($clean);
+    if ($clean === '') {
+      return '';
+    }
+
+    if (preg_match('/<[^>]+>/', $clean) !== 1) {
+      $text = preg_replace('/\s+/u', ' ', $clean) ?? $clean;
+      $paragraphs = preg_split('/\n{2,}/', $text) ?: [$text];
+      $paragraphs = array_map(static function ($p) {
+        $p = trim($p);
+        if ($p === '') {
+          return '';
+        }
+        $p = htmlspecialchars($p, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
+        $p = preg_replace('/\n/', '<br>', $p) ?? $p;
+        return '<p>' . $p . '</p>';
+      }, $paragraphs);
+      $paragraphs = array_filter($paragraphs, static function ($p) {
+        return $p !== '';
+      });
+      return implode('\n', $paragraphs);
+    }
+
+    return preg_replace('/\n{3,}/', "\n\n", $clean) ?? $clean;
+  }
+}
+
+if (!function_exists('sfm_feed_plain_text')) {
+  function sfm_feed_plain_text(string $html, int $limit = 400): string
+  {
+    $text = trim(strip_tags($html));
+    $text = str_replace("\xC2\xA0", ' ', $text);
+    $text = preg_replace('/\s+/u', ' ', $text) ?? $text;
+    $text = trim($text);
+    if ($text === '') {
+      return '';
+    }
+    if ($limit > 0 && function_exists('mb_strlen') && function_exists('mb_substr')) {
+      if (mb_strlen($text) > $limit) {
+        return mb_substr($text, 0, $limit - 1) . '…';
+      }
+      return $text;
+    }
+    if ($limit > 0 && strlen($text) > $limit) {
+      return substr($text, 0, $limit - 1) . '…';
+    }
+    return $text;
+  }
+}
+
+if (!function_exists('sfm_feed_item_content_html')) {
+  function sfm_feed_item_content_html(array $item): string
+  {
+    $candidates = [
+      $item['content_html'] ?? '',
+      $item['description'] ?? '',
+    ];
+
+    foreach ($candidates as $candidate) {
+      $candidate = trim((string)$candidate);
+      if ($candidate === '') {
+        continue;
+      }
+      $clean = sfm_clean_content_html($candidate);
+      if ($clean !== '') {
+        return $clean;
+      }
+    }
+
+    return '';
   }
 }
 
@@ -115,15 +190,26 @@ if (!function_exists('build_rss')) {
       $i = $channel->addChild('item');
       $i->addChild('title', xml_safe($it['title'] ?? 'Untitled'));
       $i->addChild('link', xml_safe($it['link'] ?? ''));
-      $descPlain = trim(strip_tags((string)($it['description'] ?? '')));
-      if ($descPlain === '') {
-        $descPlain = trim(strip_tags((string)($it['content_html'] ?? '')));
+      $rawSummary = '';
+      foreach (['description', 'content_html', 'title', 'link'] as $key) {
+        if (!empty($it[$key])) {
+          $rawSummary = (string)$it[$key];
+          if (trim($rawSummary) !== '') {
+            break;
+          }
+        }
       }
+      $descPlain = sfm_feed_plain_text($rawSummary, 400);
       if ($descPlain === '') {
         $descPlain = 'Feed item';
       }
       $i->addChild('description', xml_safe($descPlain));
-      // Suppress content:encoded to avoid invalid markup from complex pages
+
+      $contentHtml = sfm_feed_item_content_html($it);
+      if ($contentHtml !== '') {
+        $encoded = $i->addChild('content:encoded', null, 'http://purl.org/rss/1.0/modules/content/');
+        sfm_add_cdata($encoded, $contentHtml);
+      }
       if (!empty($it['date'])) {
         $ts = strtotime($it['date']);
         if ($ts) {
@@ -179,9 +265,24 @@ if (!function_exists('build_atom')) {
       $e->addChild('id', 'urn:uuid:' . uuid_v5('item:' . md5(($it['link'] ?? '') . ($it['title'] ?? ''))));
       $u = !empty($it['date']) && strtotime($it['date']) ? date(DATE_ATOM, strtotime($it['date'])) : date(DATE_ATOM);
       $e->addChild('updated', $u);
-      $summary = xml_safe($it['description'] ?? '');
-      $e->addChild('summary', $summary);
-      // Atom content suppressed similar to RSS for consistency
+      $rawSummary = '';
+      foreach (['description','content_html','title','link'] as $key) {
+        if (!empty($it[$key])) {
+          $rawSummary = (string)$it[$key];
+          if (trim($rawSummary) !== '') {
+            break;
+          }
+        }
+      }
+      $e->addChild('summary', xml_safe(sfm_feed_plain_text($rawSummary, 400)));
+
+      $contentHtml = sfm_feed_item_content_html($it);
+      if ($contentHtml !== '') {
+        $contentNode = $e->addChild('content');
+        $contentNode->addAttribute('type', 'html');
+        sfm_add_cdata($contentNode, $contentHtml);
+      }
+
       if (!empty($it['author'])) {
         $author = $e->addChild('author');
         $author->addChild('name', xml_safe((string)$it['author']));
@@ -222,17 +323,43 @@ if (!function_exists('build_jsonfeed')) {
       $id  = $it['link'] ?? md5(($it['title'] ?? '') . ($it['description'] ?? ''));
       $url = $it['link'] ?? '';
       $ttl = $it['title'] ?? 'Untitled';
-      $summary = trim(strip_tags((string)($it['description'] ?? '')));
-      
       $item = ['id' => $id, 'url' => $url, 'title' => $ttl];
-      if ($summary === '') {
-        $summary = trim(strip_tags((string)($it['content_html'] ?? '')));
+
+      $contentHtml = sfm_feed_item_content_html($it);
+      if ($contentHtml !== '') {
+        $item['content_html'] = $contentHtml;
       }
-      if ($summary === '') {
-        $summary = $ttl ?: $url;
+
+      $summarySource = $contentHtml;
+      if ($summarySource === '') {
+        $summarySource = (string)($it['description'] ?? '');
       }
-      $item['content_text'] = $summary;
-      $item['summary'] = mb_strlen($summary) > 220 ? mb_substr($summary, 0, 219) . '…' : $summary;
+      if ($summarySource === '') {
+        foreach (['title', 'link'] as $key) {
+          if (empty($it[$key])) {
+            continue;
+          }
+          $candidate = trim((string)$it[$key]);
+          if ($candidate === '') {
+            continue;
+          }
+          $summarySource = $candidate;
+          break;
+        }
+      }
+
+      $summaryText = sfm_feed_plain_text($summarySource, 400);
+      if ($summaryText === '') {
+        $summaryText = $ttl ?: $url;
+      }
+      $item['content_text'] = $summaryText;
+      if ($summaryText !== '') {
+        if (function_exists('mb_strlen') && function_exists('mb_substr')) {
+          $item['summary'] = mb_strlen($summaryText) > 220 ? mb_substr($summaryText, 0, 219) . '…' : $summaryText;
+        } else {
+          $item['summary'] = strlen($summaryText) > 220 ? substr($summaryText, 0, 219) . '…' : $summaryText;
+        }
+      }
 
       if (!empty($it['date'])) {
         $iso = to_rfc3339($it['date']);
