@@ -307,6 +307,32 @@ function admin_jobs_url(int $page, int $perPage, int $defaultPerPage, string $st
     return '/admin/' . ($query ? '?' . $query : '');
 }
 
+function admin_format_interval(int $seconds): string
+{
+    if ($seconds <= 0) {
+        return '—';
+    }
+
+    if ($seconds >= 86400) {
+        $days = $seconds / 86400;
+        if ($days >= 2) {
+            return sprintf('%.1f days', $days);
+        }
+        return '1 day';
+    }
+
+    if ($seconds >= 3600) {
+        $hours = $seconds / 3600;
+        if ($hours >= 2) {
+            return sprintf('%.1f h', $hours);
+        }
+        return '60 min';
+    }
+
+    $minutes = max(1, round($seconds / 60));
+    return $minutes . ' min';
+}
+
 $pageTitle      = 'Admin Jobs — SimpleFeedMaker';
 $metaRobots     = 'noindex, nofollow';
 $structuredData = [];
@@ -331,7 +357,43 @@ require __DIR__ . '/../includes/page_header.php';
       $lastRunDisplay = fmt_datetime($lastRefreshTs ?? null);
       $lastRunSummaryText = $lastRefreshSummary !== '' ? $lastRefreshSummary : 'No refresh runs recorded yet.';
       $logsPreview = array_slice($refreshLogs, 0, 3);
+      $intervalSum = 0;
+      $intervalCount = 0;
+      foreach ($jobs as $statsJob) {
+        $interval = isset($statsJob['refresh_interval']) ? (int)$statsJob['refresh_interval'] : (int)SFM_DEFAULT_REFRESH_INTERVAL;
+        if ($interval > 0) {
+          $intervalSum += $interval;
+          $intervalCount++;
+        }
+      }
+      $avgIntervalSeconds = $intervalCount > 0 ? (int)round($intervalSum / $intervalCount) : (int)SFM_DEFAULT_REFRESH_INTERVAL;
+      $avgIntervalLabel = admin_format_interval($avgIntervalSeconds);
+      $healthyCount = max(0, $jobStats['total'] - $jobStats['failing']);
     ?>
+
+    <div class="admin-metrics">
+      <div class="metrics-pill">
+        <span class="label">Total jobs</span>
+        <span class="value"><?= number_format($jobStats['total']); ?></span>
+      </div>
+      <div class="metrics-pill<?= $jobStats['failing'] > 0 ? ' warn' : ''; ?>">
+        <span class="label">Failing streaks</span>
+        <span class="value"><?= number_format($jobStats['failing']); ?></span>
+      </div>
+      <div class="metrics-pill">
+        <span class="label">Healthy jobs</span>
+        <span class="value"><?= number_format($healthyCount); ?></span>
+      </div>
+      <div class="metrics-pill">
+        <span class="label">Avg refresh interval</span>
+        <span class="value"><?= htmlspecialchars($avgIntervalLabel, ENT_QUOTES, 'UTF-8'); ?></span>
+      </div>
+      <div class="metrics-pill">
+        <span class="label">Last refresh run</span>
+        <span class="value" style="font-size:1rem;"><?= htmlspecialchars($lastRunDisplay, ENT_QUOTES, 'UTF-8'); ?></span>
+      </div>
+    </div>
+
     <div class="row g-3 mb-4">
       <div class="col-12 col-lg-4">
         <div class="card shadow-sm h-100">
