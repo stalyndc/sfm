@@ -208,6 +208,106 @@ if (!function_exists('sfm_count_feed_items')) {
     }
 }
 
+if (!function_exists('sfm_job_keyword_list')) {
+    function sfm_job_keyword_list(array $job, string $key): array
+    {
+        if (!isset($job[$key])) {
+            return [];
+        }
+        return sfm_job_normalize_keywords($job[$key]);
+    }
+}
+
+if (!function_exists('sfm_job_item_text_blob')) {
+    function sfm_job_item_text_blob(array $item): string
+    {
+        $parts = [];
+        foreach (['title', 'description'] as $field) {
+            if (!empty($item[$field])) {
+                $parts[] = (string)$item[$field];
+            }
+        }
+        if (!empty($item['content_html'])) {
+            $parts[] = strip_tags((string)$item['content_html']);
+        }
+        $blob = trim(implode(' ', $parts));
+        if ($blob === '') {
+            return '';
+        }
+        if (function_exists('mb_strtolower')) {
+            return mb_strtolower($blob, 'UTF-8');
+        }
+        return strtolower($blob);
+    }
+}
+
+if (!function_exists('sfm_job_filter_items')) {
+    /**
+     * @return array{0:array<int,array>,1:array{dropped:int,include_hits:int}}
+     */
+    function sfm_job_filter_items(array $items, array $job): array
+    {
+        $includes = sfm_job_keyword_list($job, 'include_keywords');
+        $excludes = sfm_job_keyword_list($job, 'exclude_keywords');
+
+        if (!$includes && !$excludes) {
+            return [$items, ['dropped' => 0, 'include_hits' => 0]];
+        }
+
+        $kept = [];
+        $stats = ['dropped' => 0, 'include_hits' => 0];
+
+        foreach ($items as $item) {
+            $text = sfm_job_item_text_blob($item);
+            if ($text === '') {
+                $text = '';
+            }
+
+            $matchedInclude = true;
+            if ($includes) {
+                $matchedInclude = false;
+                foreach ($includes as $keyword) {
+                    if ($keyword === '') {
+                        continue;
+                    }
+                    if ($text !== '' && (function_exists('mb_strpos') ? mb_strpos($text, $keyword) !== false : strpos($text, $keyword) !== false)) {
+                        $matchedInclude = true;
+                        $stats['include_hits']++;
+                        break;
+                    }
+                }
+            }
+
+            if (!$matchedInclude) {
+                $stats['dropped']++;
+                continue;
+            }
+
+            $matchesExclude = false;
+            if ($excludes) {
+                foreach ($excludes as $keyword) {
+                    if ($keyword === '') {
+                        continue;
+                    }
+                    if ($text !== '' && (function_exists('mb_strpos') ? mb_strpos($text, $keyword) !== false : strpos($text, $keyword) !== false)) {
+                        $matchesExclude = true;
+                        break;
+                    }
+                }
+            }
+
+            if ($matchesExclude) {
+                $stats['dropped']++;
+                continue;
+            }
+
+            $kept[] = $item;
+        }
+
+        return [$kept, $stats];
+    }
+}
+
 if (!function_exists('sfm_custom_try_native_payload')) {
     /**
      * Attempt to treat a custom refresh response as a native feed when possible.
@@ -601,7 +701,11 @@ if (!function_exists('sfm_refresh_job')) {
             $customResult = sfm_refresh_custom($job, $sourceUrl, $feedUrl, $tmpPath, $feedPath);
             [$content, $itemsCount, $validation] = $customResult;
             $overrideMeta = $customResult['override'] ?? null;
+            $filterMeta = is_array($customResult['filters'] ?? null) ? $customResult['filters'] : ['dropped' => 0];
             $note = 'custom refresh';
+            if (!empty($filterMeta['dropped'])) {
+                $note .= ' (filtered ' . (int)$filterMeta['dropped'] . ')';
+            }
             if (is_array($overrideMeta)) {
                 $label = trim((string)($overrideMeta['label'] ?? ''));
                 if ($label === '') {
@@ -623,6 +727,7 @@ if (!function_exists('sfm_refresh_job')) {
                 'items'    => $itemsCount,
                 'override' => $overrideMeta,
                 'source'   => $sourceUrl,
+                'filters'  => $filterMeta,
             ]);
             if ($logEnabled && function_exists('sfm_log_event')) {
                 $validationNote = null;
@@ -779,6 +884,7 @@ if (!function_exists('sfm_refresh_custom')) {
         }
 
         $items = sfm_extract_items($page['body'], $sourceUrl, $limit);
+        [$items, $filterStats] = sfm_job_filter_items($items, $job);
         if (empty($items)) {
             throw new RuntimeException('No items found during refresh');
         }
@@ -816,6 +922,6 @@ if (!function_exists('sfm_refresh_custom')) {
             throw new RuntimeException('Unable to replace feed file');
         }
 
-        return [$content, count($items), $validation];
+        return [$content, count($items), $validation, 'filters' => $filterStats];
     }
 }

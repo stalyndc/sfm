@@ -165,6 +165,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             'type'    => $ok ? 'success' : 'error',
             'message' => $ok ? 'Job refreshed.' : 'Refresh failed. Check logs for details.',
         ];
+    } elseif ($action === 'update_filters') {
+        $includeRaw = $_POST['include_keywords'] ?? '';
+        $excludeRaw = $_POST['exclude_keywords'] ?? '';
+        $updated = sfm_job_update($job['job_id'], [
+            'include_keywords' => $includeRaw,
+            'exclude_keywords' => $excludeRaw,
+        ]);
+        if ($updated) {
+            $_SESSION['sfm_admin_flash'] = [
+                'type'    => 'success',
+                'message' => 'Filters updated.',
+            ];
+        } else {
+            $_SESSION['sfm_admin_flash'] = [
+                'type'    => 'error',
+                'message' => 'Failed to update filters.',
+            ];
+        }
     } elseif ($action === 'delete') {
         $feedFile = $job['feed_filename'] ?? '';
         if ($feedFile) {
@@ -347,7 +365,8 @@ require __DIR__ . '/../includes/page_header.php';
         <h1 class="h4 fw-bold mb-1">Feed jobs</h1>
         <div class="text-secondary">Monitor generated feeds, refresh them manually, or retire jobs.</div>
       </div>
-      <div>
+      <div class="d-flex gap-2">
+        <a class="btn btn-outline-primary" href="/admin/tools.php">Selector playground</a>
         <a class="btn btn-outline-secondary" href="/admin/?logout=1">Sign out</a>
       </div>
     </div>
@@ -674,6 +693,9 @@ require __DIR__ . '/../includes/page_header.php';
                     $failureStreak = (int)($job['failure_streak'] ?? 0);
                     $validationWarns = [];
                     $validationChecked = null;
+                    $filtersDomId = 'filters-' . preg_replace('/[^a-zA-Z0-9_-]/', '', $jobId);
+                    $includeKeywords = isset($job['include_keywords']) && is_array($job['include_keywords']) ? $job['include_keywords'] : sfm_job_normalize_keywords($job['include_keywords'] ?? []);
+                    $excludeKeywords = isset($job['exclude_keywords']) && is_array($job['exclude_keywords']) ? $job['exclude_keywords'] : sfm_job_normalize_keywords($job['exclude_keywords'] ?? []);
                     if (!empty($job['last_validation']) && is_array($job['last_validation'])) {
                         $rawWarnings = $job['last_validation']['warnings'] ?? [];
                         if (is_array($rawWarnings)) {
@@ -735,6 +757,9 @@ require __DIR__ . '/../includes/page_header.php';
                     </td>
                     <td>
                       <div class="d-flex flex-column gap-2">
+                        <button class="btn btn-sm btn-outline-light w-100" type="button" data-bs-toggle="collapse" data-bs-target="#<?= htmlspecialchars($filtersDomId, ENT_QUOTES, 'UTF-8'); ?>" aria-expanded="false" aria-controls="<?= htmlspecialchars($filtersDomId, ENT_QUOTES, 'UTF-8'); ?>">
+                          Filters
+                        </button>
                         <form method="post">
                           <?= csrf_input(); ?>
                           <input type="hidden" name="job_id" value="<?= htmlspecialchars($jobId, ENT_QUOTES, 'UTF-8'); ?>">
@@ -757,6 +782,45 @@ require __DIR__ . '/../includes/page_header.php';
                           <input type="hidden" name="search" value="<?= htmlspecialchars($searchTerm, ENT_QUOTES, 'UTF-8'); ?>">
                           <button type="submit" class="btn btn-sm btn-outline-danger w-100">Delete</button>
                         </form>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="filters-row">
+                    <td colspan="7" class="border-0 p-0">
+                      <div id="<?= htmlspecialchars($filtersDomId, ENT_QUOTES, 'UTF-8'); ?>" class="collapse">
+                        <div class="card shadow-sm mx-3 mb-3 mt-0">
+                          <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-3 flex-column flex-lg-row gap-2">
+                              <div>
+                                <h3 class="h6 fw-semibold mb-1">Content filters</h3>
+                                <p class="small text-secondary mb-0">Match keywords against the item title, description, or enriched content. Matching is case-insensitive.</p>
+                              </div>
+                              <form method="post" class="d-flex flex-column flex-lg-row gap-3 align-items-start" style="min-width:280px;">
+                                <?= csrf_input(); ?>
+                                <input type="hidden" name="job_id" value="<?= htmlspecialchars($jobId, ENT_QUOTES, 'UTF-8'); ?>">
+                                <input type="hidden" name="admin_action" value="update_filters">
+                                <input type="hidden" name="page" value="<?= (int)$currentPage; ?>">
+                                <input type="hidden" name="per_page" value="<?= (int)$perPage; ?>">
+                                <input type="hidden" name="status" value="<?= htmlspecialchars($statusFilter, ENT_QUOTES, 'UTF-8'); ?>">
+                                <input type="hidden" name="mode" value="<?= htmlspecialchars($modeFilter, ENT_QUOTES, 'UTF-8'); ?>">
+                                <input type="hidden" name="search" value="<?= htmlspecialchars($searchTerm, ENT_QUOTES, 'UTF-8'); ?>">
+                                <div class="flex-grow-1" style="min-width:220px;">
+                                  <label for="include-<?= htmlspecialchars($filtersDomId, ENT_QUOTES, 'UTF-8'); ?>" class="form-label">Only include when matching</label>
+                                  <textarea id="include-<?= htmlspecialchars($filtersDomId, ENT_QUOTES, 'UTF-8'); ?>" name="include_keywords" class="form-control" rows="3" placeholder="Example: technology, earnings call"><?= htmlspecialchars(implode("\n", $includeKeywords), ENT_QUOTES, 'UTF-8'); ?></textarea>
+                                  <div class="form-text">Separate with commas or new lines. Leave blank to include everything.</div>
+                                </div>
+                                <div class="flex-grow-1" style="min-width:220px;">
+                                  <label for="exclude-<?= htmlspecialchars($filtersDomId, ENT_QUOTES, 'UTF-8'); ?>" class="form-label">Exclude items containing</label>
+                                  <textarea id="exclude-<?= htmlspecialchars($filtersDomId, ENT_QUOTES, 'UTF-8'); ?>" name="exclude_keywords" class="form-control" rows="3" placeholder="Example: privacy policy, terms of use"><?= htmlspecialchars(implode("\n", $excludeKeywords), ENT_QUOTES, 'UTF-8'); ?></textarea>
+                                  <div class="form-text">Keywords are case-insensitive. Items matching any exclusion will be dropped.</div>
+                                </div>
+                                <div class="align-self-end">
+                                  <button type="submit" class="btn btn-primary">Save filters</button>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </td>
                   </tr>

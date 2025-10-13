@@ -166,6 +166,8 @@ function sfm_job_register(array $data): array
     'items_count'        => $data['items_count'] ?? null,
     'last_validation'    => isset($data['last_validation']) && is_array($data['last_validation']) ? $data['last_validation'] : null,
     'diagnostics'        => null,
+    'include_keywords'   => sfm_job_normalize_keywords($data['include_keywords'] ?? null),
+    'exclude_keywords'   => sfm_job_normalize_keywords($data['exclude_keywords'] ?? null),
   ];
 
   if (!sfm_job_write($jobId, $job)) {
@@ -193,6 +195,13 @@ function sfm_job_update(string $jobId, array $fields): ?array
   $current = sfm_job_load($jobId);
   if (!$current) {
     return null;
+  }
+
+  if (array_key_exists('include_keywords', $fields)) {
+    $fields['include_keywords'] = sfm_job_normalize_keywords($fields['include_keywords']);
+  }
+  if (array_key_exists('exclude_keywords', $fields)) {
+    $fields['exclude_keywords'] = sfm_job_normalize_keywords($fields['exclude_keywords']);
   }
 
   $updated = $current;
@@ -228,6 +237,12 @@ function sfm_job_list(): array
     if (!is_array($data) || empty($data['job_id'])) {
       continue;
     }
+    if (!isset($data['include_keywords']) || !is_array($data['include_keywords'])) {
+      $data['include_keywords'] = [];
+    }
+    if (!isset($data['exclude_keywords']) || !is_array($data['exclude_keywords'])) {
+      $data['exclude_keywords'] = [];
+    }
     $jobs[] = $data;
   }
 
@@ -241,6 +256,42 @@ function sfm_job_list(): array
   });
 
   return $jobs;
+}
+
+function sfm_job_normalize_keywords($value): array
+{
+  if ($value === null) {
+    return [];
+  }
+
+  if (is_string($value)) {
+    $parts = preg_split('/[,\n]+/', $value) ?: [];
+  } elseif (is_array($value)) {
+    $parts = $value;
+  } else {
+    return [];
+  }
+
+  $keywords = [];
+  foreach ($parts as $part) {
+    $part = trim((string)$part);
+    if ($part === '') {
+      continue;
+    }
+    if (function_exists('mb_strtolower')) {
+      $part = mb_strtolower($part, 'UTF-8');
+    } else {
+      $part = strtolower($part);
+    }
+    if (!in_array($part, $keywords, true)) {
+      $keywords[] = $part;
+    }
+    if (count($keywords) >= 20) {
+      break;
+    }
+  }
+
+  return $keywords;
 }
 
 function sfm_job_is_due(array $job, int $nowTs = null): bool
