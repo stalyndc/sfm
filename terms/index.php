@@ -83,7 +83,7 @@ require __DIR__ . '/../includes/page_header.php';
                 <h2 class="h5 fw-semibold mb-1">Need a recap on getting started?</h2>
                 <p class="mb-0 text-secondary">Return to the generator or explore the <a class="link-light" href="/faq/">FAQ</a> for quick answers.</p>
               </div>
-              <a class="btn btn-outline-primary" href="/">Back to generator</a>
+              <a class="btn btn-primary" href="/">Back to generator</a>
             </div>
           </div>
         </div>

@@ -45,7 +45,7 @@ require __DIR__ . '/../../includes/page_header.php';
             </div>
           </article>
           <div class="text-center text-md-start">
-            <a class="btn btn-outline-primary" href="/blog/">← Back to blog</a>
+            <a class="btn btn-primary" href="/blog/">← Back to blog</a>
           </div>
         </div>
       </div>

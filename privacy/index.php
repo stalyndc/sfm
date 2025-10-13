@@ -74,7 +74,7 @@ require __DIR__ . '/../includes/page_header.php';
                 <h2 class="h5 fw-semibold mb-1">Need a refresher on the tool?</h2>
                 <p class="mb-0 text-secondary">Head back to the generator or check the <a class="link-light" href="/faq/">FAQ</a> for quick answers.</p>
               </div>
-              <a class="btn btn-outline-primary" href="/">Return to generator</a>
+              <a class="btn btn-primary" href="/">Return to generator</a>
             </div>
           </div>
         </div>

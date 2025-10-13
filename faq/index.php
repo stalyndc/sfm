@@ -79,7 +79,7 @@ require __DIR__ . '/../includes/page_header.php';
           <div class="accordion" id="faqAccordion">
             <div class="accordion-item">
               <h2 class="accordion-header" id="q1">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#a1" aria-expanded="true" aria-controls="a1">
+                <button class="accordion-button text-body" type="button" data-bs-toggle="collapse" data-bs-target="#a1" aria-expanded="true" aria-controls="a1">
                   How often are generated feeds refreshed?
                 </button>
               </h2>
@@ -93,7 +93,7 @@ require __DIR__ . '/../includes/page_header.php';
 
             <div class="accordion-item">
               <h2 class="accordion-header" id="q2">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a2" aria-expanded="false" aria-controls="a2">
+                <button class="accordion-button collapsed text-body" type="button" data-bs-toggle="collapse" data-bs-target="#a2" aria-expanded="false" aria-controls="a2">
                   Do I need an account or API key to use SimpleFeedMaker?
                 </button>
               </h2>
@@ -106,7 +106,7 @@ require __DIR__ . '/../includes/page_header.php';
 
             <div class="accordion-item">
               <h2 class="accordion-header" id="q3">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a3" aria-expanded="false" aria-controls="a3">
+                <button class="accordion-button collapsed text-body" type="button" data-bs-toggle="collapse" data-bs-target="#a3" aria-expanded="false" aria-controls="a3">
                   What happens if the page already has a native feed?
                 </button>
               </h2>
@@ -119,7 +119,7 @@ require __DIR__ . '/../includes/page_header.php';
 
             <div class="accordion-item">
               <h2 class="accordion-header" id="q4">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a4" aria-expanded="false" aria-controls="a4">
+                <button class="accordion-button collapsed text-body" type="button" data-bs-toggle="collapse" data-bs-target="#a4" aria-expanded="false" aria-controls="a4">
                   Can I delete a feed or stop auto-refreshing it?
                 </button>
               </h2>
@@ -132,7 +132,7 @@ require __DIR__ . '/../includes/page_header.php';
 
             <div class="accordion-item">
               <h2 class="accordion-header" id="q5">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a5" aria-expanded="false" aria-controls="a5">
+                <button class="accordion-button collapsed text-body" type="button" data-bs-toggle="collapse" data-bs-target="#a5" aria-expanded="false" aria-controls="a5">
                   What data do you log when I generate a feed?
                 </button>
               </h2>
@@ -150,7 +150,7 @@ require __DIR__ . '/../includes/page_header.php';
                 <h2 class="h5 fw-semibold mb-1">Still curious?</h2>
                 <p class="mb-0 text-secondary">We love suggestions—drop us a note through the <a class="link-light" href="https://disla.net/" target="_blank" rel="noopener">Disla.net</a> contact page.</p>
               </div>
-              <a class="btn btn-outline-primary" href="/">Generate a feed</a>
+              <a class="btn btn-primary" href="/">Generate a feed</a>
             </div>
           </div>
         </div>

@@ -62,7 +62,7 @@ require __DIR__ . '/../includes/page_header.php';
           </header>
 
           <div class="d-flex flex-column flex-md-row align-items-center justify-content-between gap-2 mb-4">
-            <a class="btn btn-outline-primary btn-sm" href="/blog/feed.xml">Subscribe via RSS</a>
+            <a class="btn btn-primary btn-sm" href="/blog/feed.xml">Subscribe via RSS</a>
             <a class="btn btn-outline-secondary btn-sm" href="/blog/feed.xml?format=json">JSON Feed</a>
           </div>
 
@@ -87,7 +87,7 @@ require __DIR__ . '/../includes/page_header.php';
                     </a>
                   </h2>
                   <p class="text-secondary mb-3"><?= htmlspecialchars($post['excerpt'], ENT_QUOTES, 'UTF-8'); ?></p>
-                  <a class="btn btn-outline-primary btn-sm" href="/blog/<?= htmlspecialchars($post['slug'], ENT_QUOTES, 'UTF-8'); ?>/">Read article</a>
+                  <a class="btn btn-primary btn-sm" href="/blog/<?= htmlspecialchars($post['slug'], ENT_QUOTES, 'UTF-8'); ?>/">Read article</a>
                 </div>
               </article>
             <?php endforeach; ?>

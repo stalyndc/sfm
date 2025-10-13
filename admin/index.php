@@ -366,7 +366,7 @@ require __DIR__ . '/../includes/page_header.php';
         <div class="text-secondary">Monitor generated feeds, refresh them manually, or retire jobs.</div>
       </div>
       <div class="d-flex gap-2">
-        <a class="btn btn-outline-primary" href="/admin/tools.php">Selector playground</a>
+        <a class="btn btn-outline-secondary" href="/admin/tools.php">Selector playground</a>
         <a class="btn btn-outline-secondary" href="/admin/?logout=1">Sign out</a>
       </div>
     </div>
@@ -549,7 +549,7 @@ require __DIR__ . '/../includes/page_header.php';
                         <input type="hidden" name="status" value="<?= htmlspecialchars($statusFilter, ENT_QUOTES, 'UTF-8'); ?>">
                         <input type="hidden" name="mode" value="<?= htmlspecialchars($modeFilter, ENT_QUOTES, 'UTF-8'); ?>">
                         <input type="hidden" name="search" value="<?= htmlspecialchars($searchTerm, ENT_QUOTES, 'UTF-8'); ?>">
-                        <button type="submit" class="btn btn-sm btn-outline-primary">Refresh</button>
+                        <button type="submit" class="btn btn-sm btn-outline-secondary">Refresh</button>
                       </form>
                     </td>
                   </tr>
@@ -650,7 +650,7 @@ require __DIR__ . '/../includes/page_header.php';
               </select>
             </div>
             <div class="col-auto">
-              <button type="submit" class="btn btn-sm btn-outline-primary">Apply</button>
+              <button type="submit" class="btn btn-sm btn-outline-secondary">Apply</button>
             </div>
             <?php if ($searchTerm !== '' || $statusFilter !== 'all' || $modeFilter !== 'all'): ?>
               <div class="col-auto">
@@ -769,7 +769,7 @@ require __DIR__ . '/../includes/page_header.php';
                           <input type="hidden" name="status" value="<?= htmlspecialchars($statusFilter, ENT_QUOTES, 'UTF-8'); ?>">
                           <input type="hidden" name="mode" value="<?= htmlspecialchars($modeFilter, ENT_QUOTES, 'UTF-8'); ?>">
                           <input type="hidden" name="search" value="<?= htmlspecialchars($searchTerm, ENT_QUOTES, 'UTF-8'); ?>">
-                          <button type="submit" class="btn btn-sm btn-outline-primary w-100">Refresh</button>
+                          <button type="submit" class="btn btn-sm btn-outline-secondary w-100">Refresh</button>
                         </form>
                         <form method="post" onsubmit="return confirm('Delete this job?');">
                           <?= csrf_input(); ?>

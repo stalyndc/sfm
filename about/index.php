@@ -77,7 +77,7 @@ require __DIR__ . '/../includes/page_header.php';
                 <h2 class="h5 fw-semibold mb-1">Need help or have an idea?</h2>
                 <p class="mb-0 text-secondary">Reach out through the <a class="link-light" href="https://disla.net/" target="_blank" rel="noopener">Disla.net</a> site—feedback keeps SimpleFeedMaker moving forward.</p>
               </div>
-              <a class="btn btn-outline-primary" href="/">Back to generator</a>
+              <a class="btn btn-primary" href="/">Back to generator</a>
             </div>
           </div>
         </div>
