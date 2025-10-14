@@ -1,0 +1,22 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Tyler Sticka",
+  "home_page_url": "https://tylersticka.com/",
+  "feed_url": "https://tylersticka.com/journal/feed.json",
+  "items": [
+    {
+      "id": "https://tylersticka.com/journal/first-entry/",
+      "url": "https://tylersticka.com/journal/first-entry/",
+      "title": "First Entry",
+      "content_html": "<p>Sample entry content.</p>",
+      "date_published": "2024-10-07T12:00:00+00:00"
+    },
+    {
+      "id": "https://tylersticka.com/journal/second-entry/",
+      "url": "https://tylersticka.com/journal/second-entry/",
+      "title": "Second Entry",
+      "content_html": "<p>Another sample entry.</p>",
+      "date_published": "2024-10-08T15:30:00+00:00"
+    }
+  ]
+}

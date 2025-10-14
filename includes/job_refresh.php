@@ -615,6 +615,12 @@ if (!function_exists('sfm_known_feed_override')) {
         }
 
         if (preg_match('#^https?://(?:www\.)?tylersticka\.com/?$#i', $sourceUrl)) {
+            $format = strtolower((string)($job['format'] ?? 'rss'));
+            if ($format === 'jsonfeed') {
+                $jsonUrl = 'https://tylersticka.com/journal/feed.json';
+                return $buildNativeOverride($job, $jsonUrl, 'tylersticka', 'TylerSticka JSON feed');
+            }
+
             $rssUrl = 'https://tylersticka.com/journal/feed.xml';
             return $buildNativeOverride($job, $rssUrl, 'tylersticka', 'TylerSticka journal feed');
         }

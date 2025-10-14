@@ -20,6 +20,7 @@ try {
     test_arcamax_override();
     test_rense_override();
     test_tylersticka_override();
+    test_tylersticka_json_override();
     test_allow_empty_skip();
     test_auto_allow_empty_for_bing();
     test_auto_allow_empty_without_existing_feed();
@@ -231,6 +232,47 @@ function test_tylersticka_override(): void
 
     if (strpos($content, '<item>') === false) {
         throw new RuntimeException('tylersticka feed missing RSS items');
+    }
+
+    cleanup_feed_file($job['feed_filename']);
+}
+
+function test_tylersticka_json_override(): void
+{
+    $job = [
+        'job_id'        => 'tylersticka-json-fixture',
+        'mode'          => 'custom',
+        'format'        => 'jsonfeed',
+        'limit'         => 10,
+        'feed_filename' => 'test-tylersticka.json',
+        'feed_url'      => 'https://example.test/feeds/test-tylersticka.json',
+        'source_url'    => 'https://tylersticka.com/',
+    ];
+
+    $feedPath = FEEDS_DIR . '/' . $job['feed_filename'];
+    $tmpPath = $feedPath . '.tmp-fixture';
+
+    cleanup_feed_file($job['feed_filename']);
+
+    $result = sfm_refresh_custom($job, $job['source_url'], $job['feed_url'], $tmpPath, $feedPath);
+
+    [$content, $itemsCount, $validation] = $result;
+    $overrideMeta = $result['override'] ?? null;
+
+    if (!is_array($overrideMeta) || ($overrideMeta['key'] ?? '') !== 'tylersticka') {
+        throw new RuntimeException('tylersticka JSON override metadata missing');
+    }
+
+    if ($itemsCount < 2) {
+        throw new RuntimeException('tylersticka JSON feed expected at least two items');
+    }
+
+    if ($validation['ok'] !== true) {
+        throw new RuntimeException('tylersticka JSON validation failed');
+    }
+
+    if (strpos($content, '"items"') === false) {
+        throw new RuntimeException('tylersticka JSON feed missing items array');
     }
 
     cleanup_feed_file($job['feed_filename']);
