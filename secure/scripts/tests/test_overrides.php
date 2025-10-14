@@ -7,7 +7,7 @@ $projectRoot = dirname(__DIR__, 3);
 putenv('SFM_MONITOR_DISABLED=1');
 putenv('SFM_TEST_FIXTURE_DIR=' . $projectRoot . '/tests/fixtures');
 putenv('SFM_TEST_ALLOW_LOCAL_URLS=1');
-putenv('SFM_TEST_FIXTURE_HOSTS=www.youtube.com,youtube.com,news.google.com,www.arcamax.com,arcamax.com,www.rense.com,rense.com,www.bing.com,bing.com');
+putenv('SFM_TEST_FIXTURE_HOSTS=www.youtube.com,youtube.com,news.google.com,www.arcamax.com,arcamax.com,www.rense.com,rense.com,www.bing.com,bing.com,tylersticka.com,www.tylersticka.com');
 putenv('SFM_APP_NAME=SimpleFeedMaker Test');
 
 require_once $projectRoot . '/includes/job_refresh.php';
@@ -19,6 +19,7 @@ try {
     test_google_topics_override();
     test_arcamax_override();
     test_rense_override();
+    test_tylersticka_override();
     test_allow_empty_skip();
     test_auto_allow_empty_for_bing();
     test_auto_allow_empty_without_existing_feed();
@@ -189,6 +190,47 @@ function test_rense_override(): void
 
     if (strpos($content, '<item>') === false) {
         throw new RuntimeException('rense feed missing RSS items');
+    }
+
+    cleanup_feed_file($job['feed_filename']);
+}
+
+function test_tylersticka_override(): void
+{
+    $job = [
+        'job_id'        => 'tylersticka-fixture',
+        'mode'          => 'custom',
+        'format'        => 'rss',
+        'limit'         => 10,
+        'feed_filename' => 'test-tylersticka.xml',
+        'feed_url'      => 'https://example.test/feeds/test-tylersticka.xml',
+        'source_url'    => 'https://tylersticka.com/',
+    ];
+
+    $feedPath = FEEDS_DIR . '/' . $job['feed_filename'];
+    $tmpPath = $feedPath . '.tmp-fixture';
+
+    cleanup_feed_file($job['feed_filename']);
+
+    $result = sfm_refresh_custom($job, $job['source_url'], $job['feed_url'], $tmpPath, $feedPath);
+
+    [$content, $itemsCount, $validation] = $result;
+    $overrideMeta = $result['override'] ?? null;
+
+    if (!is_array($overrideMeta) || ($overrideMeta['key'] ?? '') !== 'tylersticka') {
+        throw new RuntimeException('tylersticka override metadata missing');
+    }
+
+    if ($itemsCount < 2) {
+        throw new RuntimeException('tylersticka feed expected at least two items');
+    }
+
+    if ($validation['ok'] !== true) {
+        throw new RuntimeException('tylersticka validation failed');
+    }
+
+    if (strpos($content, '<item>') === false) {
+        throw new RuntimeException('tylersticka feed missing RSS items');
     }
 
     cleanup_feed_file($job['feed_filename']);
