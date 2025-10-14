@@ -23,6 +23,7 @@
  *   last_refresh_code   int     HTTP status (where available)
  *   last_refresh_error  string  failure detail
  *   allow_empty         bool    permit successful refresh when no items are found
+ *   auto_allow_empty_at string  ISO8601 timestamp when auto allow-empty triggered
  *   created_at          string  ISO8601 timestamp
  *   updated_at          string  ISO8601 timestamp
  *   created_ip          string  (optional) client IP at creation time
@@ -155,6 +156,9 @@ function sfm_job_register(array $data): array
     'feed_url'           => (string)($data['feed_url'] ?? ''),
     'prefer_native'      => (bool)($data['prefer_native'] ?? false),
     'allow_empty'        => (bool)($data['allow_empty'] ?? false),
+    'auto_allow_empty_at'=> isset($data['auto_allow_empty_at']) && is_string($data['auto_allow_empty_at'])
+      ? $data['auto_allow_empty_at']
+      : null,
     'refresh_interval'   => $interval,
     'refresh_count'      => 0,
     'last_refresh_at'    => $nowIso,
@@ -208,6 +212,11 @@ function sfm_job_update(string $jobId, array $fields): ?array
   if (array_key_exists('allow_empty', $fields)) {
     $fields['allow_empty'] = (bool)$fields['allow_empty'];
   }
+  if (array_key_exists('auto_allow_empty_at', $fields)) {
+    $fields['auto_allow_empty_at'] = $fields['auto_allow_empty_at'] !== null
+      ? (string)$fields['auto_allow_empty_at']
+      : null;
+  }
 
   $updated = $current;
   foreach ($fields as $key => $value) {
@@ -249,6 +258,9 @@ function sfm_job_list(): array
       $data['exclude_keywords'] = [];
     }
     $data['allow_empty'] = !empty($data['allow_empty']);
+    if (!isset($data['auto_allow_empty_at']) || !is_string($data['auto_allow_empty_at'])) {
+      $data['auto_allow_empty_at'] = null;
+    }
     $jobs[] = $data;
   }
 
@@ -300,6 +312,37 @@ function sfm_job_normalize_keywords($value): array
   return $keywords;
 }
 
+function sfm_job_validation_snapshot(array $job): ?array
+{
+  if (empty($job['last_validation']) || !is_array($job['last_validation'])) {
+    return null;
+  }
+
+  $raw = $job['last_validation'];
+  $warningsRaw = $raw['warnings'] ?? [];
+  if (is_string($warningsRaw)) {
+    $warningsRaw = [$warningsRaw];
+  }
+  $warnings = [];
+  if (is_array($warningsRaw)) {
+    foreach ($warningsRaw as $warning) {
+      if (is_string($warning) && trim($warning) !== '') {
+        $warnings[] = $warning;
+      }
+    }
+  }
+
+  $checkedAt = $raw['checked_at'] ?? null;
+  if (!is_string($checkedAt) || trim($checkedAt) === '') {
+    $checkedAt = null;
+  }
+
+  return [
+    'warnings'   => $warnings,
+    'checked_at' => $checkedAt,
+  ];
+}
+
 function sfm_job_is_due(array $job, int $nowTs = null): bool
 {
   $nowTs = $nowTs ?? time();
@@ -309,7 +352,7 @@ function sfm_job_is_due(array $job, int $nowTs = null): bool
   return $nowTs - $last >= $interval;
 }
 
-function sfm_job_mark_success(array $job, int $bytes, int $httpStatus = 200, ?int $items = null, ?string $note = null, ?array $validation = null): ?array
+function sfm_job_mark_success(array $job, int $bytes, int $httpStatus = 200, ?int $items = null, ?string $note = null, ?array $validation = null, array $extraFields = []): ?array
 {
   $fields = [
     'last_refresh_at'    => sfm_job_now_iso(),
@@ -323,13 +366,39 @@ function sfm_job_mark_success(array $job, int $bytes, int $httpStatus = 200, ?in
     'diagnostics'        => null,
   ];
 
-  if (is_array($validation) && !empty($validation['warnings'])) {
+  if (is_array($validation)) {
+    $warningsRaw = $validation['warnings'] ?? [];
+    if (is_string($warningsRaw)) {
+      $warningsRaw = [$warningsRaw];
+    }
+    $warnings = [];
+    if (is_array($warningsRaw)) {
+      foreach ($warningsRaw as $warning) {
+        if (is_string($warning) && trim($warning) !== '') {
+          $warnings[] = $warning;
+        }
+      }
+    }
+
+    $checkedAt = $validation['checked_at'] ?? null;
+    if (!is_string($checkedAt) || trim($checkedAt) === '') {
+      $checkedAt = sfm_job_now_iso();
+    }
+
     $fields['last_validation'] = [
-      'warnings'   => array_values($validation['warnings']),
-      'checked_at' => sfm_job_now_iso(),
+      'warnings'   => $warnings,
+      'checked_at' => $checkedAt,
     ];
   } else {
     $fields['last_validation'] = null;
+  }
+
+  foreach ($extraFields as $key => $value) {
+    if ($value === null) {
+      $fields[$key] = null;
+    } else {
+      $fields[$key] = $value;
+    }
   }
 
   return sfm_job_update($job['job_id'], $fields);

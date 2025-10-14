@@ -201,6 +201,15 @@ function sfm_monitor_on_success(array $job, array $context = []): void
     }
 
     $current['last_success_at'] = sfm_monitor_now_iso();
+
+    $skipContext = $context['skip'] ?? null;
+    if (is_array($skipContext) && !empty($skipContext['auto'])) {
+        $current['auto_skip_streak'] = (int)($current['auto_skip_streak'] ?? 0) + 1;
+        $current['last_auto_skip_at'] = sfm_monitor_now_iso();
+    } else {
+        $current['auto_skip_streak'] = 0;
+    }
+
     $jobs[$jobId] = $current;
     sfm_monitor_mark_dirty();
 }

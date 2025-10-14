@@ -20,6 +20,9 @@ try {
     test_arcamax_override();
     test_rense_override();
     test_allow_empty_skip();
+    test_auto_allow_empty_for_bing();
+    test_auto_allow_empty_without_existing_feed();
+    test_auto_allow_empty_google_detection();
 } catch (Throwable $e) {
     fwrite(STDERR, 'override_test_error: ' . $e->getMessage() . PHP_EOL);
     exit(1);
@@ -206,7 +209,7 @@ function test_allow_empty_skip(): void
         'allow_empty'    => true,
         'items_count'    => 3,
         'last_validation'=> [
-            'warnings'   => ['previous warning'],
+            'warnings'   => 'previous warning',
             'checked_at' => '2024-01-01T00:00:00Z',
         ],
     ];
@@ -248,6 +251,10 @@ function test_allow_empty_skip(): void
 
     if (!is_array($validation) || !isset($validation['warnings'])) {
         throw new RuntimeException('allow_empty refresh should return previous validation snapshot');
+    }
+
+    if ($validation['warnings'] !== ['previous warning']) {
+        throw new RuntimeException('allow_empty validation warnings not normalized');
     }
 
     $stored = (string)@file_get_contents($feedPath);
@@ -317,4 +324,59 @@ function test_auto_allow_empty_for_bing(): void
     }
 
     cleanup_feed_file($job['feed_filename']);
+}
+
+function test_auto_allow_empty_without_existing_feed(): void
+{
+    $job = [
+        'job_id'         => 'auto-empty-nofile-fixture',
+        'mode'           => 'custom',
+        'format'         => 'rss',
+        'limit'          => 20,
+        'feed_filename'  => 'test-auto-empty-nofile.xml',
+        'feed_url'       => 'https://example.test/feeds/test-auto-empty-nofile.xml',
+        'source_url'     => 'https://www.bing.com/news/search?q=site%3Aexample.com&qft=freshness%3d%221%22',
+    ];
+
+    $feedPath = FEEDS_DIR . '/' . $job['feed_filename'];
+    $tmpPath  = $feedPath . '.tmp-fixture';
+
+    cleanup_feed_file($job['feed_filename']);
+
+    $result = sfm_refresh_custom($job, $job['source_url'], $job['feed_url'], $tmpPath, $feedPath);
+
+    [$content, $itemsCount, $validation] = $result;
+    $skipMeta = $result['skip'] ?? null;
+
+    if (!is_array($skipMeta) || ($skipMeta['reason'] ?? '') !== 'no_items' || ($skipMeta['auto'] ?? false) !== true) {
+        throw new RuntimeException('auto allow-empty (no file) skip metadata missing');
+    }
+
+    if ($itemsCount !== 0) {
+        throw new RuntimeException('auto allow-empty (no file) should report 0 items');
+    }
+
+    if (strpos($content, '<rss') === false) {
+        throw new RuntimeException('auto allow-empty (no file) expected RSS content');
+    }
+
+    if (!is_array($validation) || empty($validation['ok'])) {
+        throw new RuntimeException('auto allow-empty (no file) validation failed');
+    }
+
+    $stored = (string)@file_get_contents($feedPath);
+    if ($stored === '' || $stored !== $content) {
+        throw new RuntimeException('auto allow-empty (no file) did not persist generated feed');
+    }
+
+    cleanup_feed_file($job['feed_filename']);
+}
+
+function test_auto_allow_empty_google_detection(): void
+{
+    $job = ['allow_empty' => false];
+    [$allow, $auto] = sfm_job_allow_empty_config($job, 'https://news.google.com/search?q=site%3Aexample.com+when%3A7d');
+    if ($allow !== true || $auto !== true) {
+        throw new RuntimeException('google news allow-empty heuristic failed');
+    }
 }

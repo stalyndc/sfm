@@ -321,30 +321,50 @@ if (!function_exists('sfm_job_allow_empty_config')) {
         }
 
         $auto = false;
-        $normalizedUrl = strtolower($sourceUrl);
-        if (str_contains($normalizedUrl, 'bing.com/news/search')) {
-            $query = (string)parse_url($sourceUrl, PHP_URL_QUERY);
-            if ($query !== '') {
-                $decodedQuery = strtolower(urldecode($query));
-                if (str_contains($decodedQuery, 'qft=interval')) {
+        $parts = @parse_url($sourceUrl);
+        $host = strtolower($parts['host'] ?? '');
+        $path = strtolower($parts['path'] ?? '');
+        $query = (string)($parts['query'] ?? '');
+        $decodedQuery = $query !== '' ? strtolower(urldecode($query)) : '';
+
+        $params = [];
+        if ($query !== '') {
+            parse_str($query, $params);
+        }
+
+        $qParam = '';
+        if (isset($params['q'])) {
+            $value = $params['q'];
+            if (is_array($value)) {
+                $qParam = strtolower(implode(' ', $value));
+            } else {
+                $qParam = strtolower((string)$value);
+            }
+        }
+
+        if (str_contains($host, 'bing.com') && str_contains($path, '/news/search')) {
+            if ($decodedQuery !== '' && (str_contains($decodedQuery, 'qft=interval') || str_contains($decodedQuery, 'freshness='))) {
+                $auto = true;
+            }
+
+            if (!$auto && $qParam !== '') {
+                if (preg_match('/\b(19|20)\d{2}[-\/](0[1-9]|1[0-2])[-\/](0[1-9]|[12]\d|3[01])\b/', $qParam)) {
                     $auto = true;
                 }
-
-                if (!$auto) {
-                    $params = [];
-                    parse_str($query, $params);
-                    $qParam = '';
-                    if (isset($params['q'])) {
-                        $value = $params['q'];
-                        if (is_array($value)) {
-                            $qParam = strtolower(implode(' ', $value));
-                        } else {
-                            $qParam = strtolower((string)$value);
-                        }
-                    }
-                    if ($qParam !== '' && preg_match('/\b(19|20)\d{2}[-\/](0[1-9]|1[0-2])[-\/](0[1-9]|[12]\d|3[01])\b/', $qParam)) {
-                        $auto = true;
-                    }
+                if (!$auto && preg_match('/\bwhen:\d+[hdwmo]\b/', $qParam)) {
+                    $auto = true;
+                }
+                if (!$auto && preg_match('/\b(?:before|after):\d{4}-\d{2}-\d{2}\b/', $qParam)) {
+                    $auto = true;
+                }
+            }
+        } elseif ($host === 'news.google.com' && str_contains($path, '/search')) {
+            if ($qParam !== '') {
+                if (preg_match('/\bwhen:\d+[hdwmo]\b/', $qParam)) {
+                    $auto = true;
+                }
+                if (!$auto && preg_match('/\b(?:before|after):\d{4}-\d{2}-\d{2}\b/', $qParam)) {
+                    $auto = true;
                 }
             }
         }
@@ -764,7 +784,11 @@ if (!function_exists('sfm_refresh_job')) {
                 $note = 'override: ' . $label;
             }
             $bytes = strlen($content);
-            $updatedJob = sfm_job_mark_success($job, $bytes, 200, $itemsCount, $note, $validation);
+            $extraFields = [];
+            if ($skipMeta && !empty($skipMeta['auto'])) {
+                $extraFields['auto_allow_empty_at'] = sfm_job_now_iso();
+            }
+            $updatedJob = sfm_job_mark_success($job, $bytes, 200, $itemsCount, $note, $validation, $extraFields);
             if (is_array($updatedJob)) {
                 $job = $updatedJob;
             }
@@ -956,7 +980,7 @@ if (!function_exists('sfm_refresh_custom')) {
                     return [
                         $previousContent,
                         isset($job['items_count']) ? (int)$job['items_count'] : 0,
-                        is_array($job['last_validation'] ?? null) ? $job['last_validation'] : null,
+                        sfm_job_validation_snapshot($job),
                         'filters' => $filterStats,
                         'skip'    => [
                             'reason' => 'no_items',

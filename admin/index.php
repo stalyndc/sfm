@@ -185,9 +185,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     } elseif ($action === 'update_options') {
         $allowEmpty = isset($_POST['allow_empty']) && in_array(strtolower((string)$_POST['allow_empty']), ['1', 'true', 'on', 'yes'], true);
-        $updated = sfm_job_update($job['job_id'], [
-            'allow_empty' => $allowEmpty,
-        ]);
+        $fields = ['allow_empty' => $allowEmpty];
+        if (!$allowEmpty) {
+            $fields['auto_allow_empty_at'] = null;
+        }
+        $updated = sfm_job_update($job['job_id'], $fields);
         if ($updated) {
             $_SESSION['sfm_admin_flash'] = [
                 'type'    => 'success',
@@ -712,6 +714,7 @@ require __DIR__ . '/../includes/page_header.php';
                     $filtersDomId = 'filters-' . preg_replace('/[^a-zA-Z0-9_-]/', '', $jobId);
                     $includeKeywords = isset($job['include_keywords']) && is_array($job['include_keywords']) ? $job['include_keywords'] : sfm_job_normalize_keywords($job['include_keywords'] ?? []);
                     $excludeKeywords = isset($job['exclude_keywords']) && is_array($job['exclude_keywords']) ? $job['exclude_keywords'] : sfm_job_normalize_keywords($job['exclude_keywords'] ?? []);
+                    $autoAllowEmptyAt = isset($job['auto_allow_empty_at']) && is_string($job['auto_allow_empty_at']) ? $job['auto_allow_empty_at'] : null;
                     if (!empty($job['last_validation']) && is_array($job['last_validation'])) {
                         $rawWarnings = $job['last_validation']['warnings'] ?? [];
                         if (is_array($rawWarnings)) {
@@ -739,6 +742,9 @@ require __DIR__ . '/../includes/page_header.php';
                       <?php if (!empty($job['allow_empty'])): ?>
                         <span class="badge bg-secondary-subtle text-secondary">allows empty</span>
                       <?php endif; ?>
+                      <?php if ($autoAllowEmptyAt): ?>
+                        <span class="badge bg-warning-subtle text-warning" title="Auto allow-empty last triggered at <?= htmlspecialchars(fmt_datetime($autoAllowEmptyAt), ENT_QUOTES, 'UTF-8'); ?>">auto empty</span>
+                      <?php endif; ?>
                     </td>
                     <td><?= htmlspecialchars(strtoupper((string)($job['format'] ?? 'rss'))); ?></td>
                     <td>
@@ -753,6 +759,9 @@ require __DIR__ . '/../includes/page_header.php';
                       <span class="badge <?= $badgeCls; ?> text-uppercase"><?= htmlspecialchars(strtoupper($statusRaw === '' ? 'pending' : $statusRaw), ENT_QUOTES, 'UTF-8'); ?></span>
                       <?php if ($note): ?>
                         <div class="small text-secondary mt-1 text-wrap" style="max-width: 200px;"><?= htmlspecialchars($note, ENT_QUOTES, 'UTF-8'); ?></div>
+                      <?php endif; ?>
+                      <?php if ($autoAllowEmptyAt): ?>
+                        <div class="small text-warning mt-1">Auto empty <?= htmlspecialchars(fmt_datetime($autoAllowEmptyAt), ENT_QUOTES, 'UTF-8'); ?></div>
                       <?php endif; ?>
                       <?php if ($failureStreak >= 3): ?>
                         <span class="badge rounded-pill bg-danger-subtle text-danger mt-1">Failed <?= (int)$failureStreak; ?>×</span>
@@ -843,6 +852,9 @@ require __DIR__ . '/../includes/page_header.php';
                               <div>
                                 <h4 class="h6 fw-semibold mb-1">Refresh behavior</h4>
                                 <p class="small text-secondary mb-0">Optionally keep the previous feed file when a source returns no items.</p>
+                                <?php if ($autoAllowEmptyAt): ?>
+                                  <p class="small text-warning mb-0 mt-2">Auto empty last triggered <?= htmlspecialchars(fmt_datetime($autoAllowEmptyAt), ENT_QUOTES, 'UTF-8'); ?>.</p>
+                                <?php endif; ?>
                               </div>
                               <form method="post" class="d-flex flex-column flex-lg-row align-items-start gap-3" style="min-width:260px;">
                                 <?= csrf_input(); ?>
