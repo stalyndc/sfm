@@ -308,6 +308,51 @@ if (!function_exists('sfm_job_filter_items')) {
     }
 }
 
+if (!function_exists('sfm_job_allow_empty_config')) {
+    /**
+     * Determine if a job should allow empty refreshes and whether it was auto-detected.
+     *
+     * @return array{0:bool,1:bool} [allowEmpty, autoDetected]
+     */
+    function sfm_job_allow_empty_config(array $job, string $sourceUrl): array
+    {
+        if (!empty($job['allow_empty'])) {
+            return [true, false];
+        }
+
+        $auto = false;
+        $normalizedUrl = strtolower($sourceUrl);
+        if (str_contains($normalizedUrl, 'bing.com/news/search')) {
+            $query = (string)parse_url($sourceUrl, PHP_URL_QUERY);
+            if ($query !== '') {
+                $decodedQuery = strtolower(urldecode($query));
+                if (str_contains($decodedQuery, 'qft=interval')) {
+                    $auto = true;
+                }
+
+                if (!$auto) {
+                    $params = [];
+                    parse_str($query, $params);
+                    $qParam = '';
+                    if (isset($params['q'])) {
+                        $value = $params['q'];
+                        if (is_array($value)) {
+                            $qParam = strtolower(implode(' ', $value));
+                        } else {
+                            $qParam = strtolower((string)$value);
+                        }
+                    }
+                    if ($qParam !== '' && preg_match('/\b(19|20)\d{2}[-\/](0[1-9]|1[0-2])[-\/](0[1-9]|[12]\d|3[01])\b/', $qParam)) {
+                        $auto = true;
+                    }
+                }
+            }
+        }
+
+        return [$auto, $auto];
+    }
+}
+
 if (!function_exists('sfm_custom_try_native_payload')) {
     /**
      * Attempt to treat a custom refresh response as a native feed when possible.
@@ -855,7 +900,7 @@ if (!function_exists('sfm_refresh_custom')) {
             $format = DEFAULT_FMT;
         }
 
-        $allowEmpty = !empty($job['allow_empty']);
+        [$allowEmpty, $autoAllowEmpty] = sfm_job_allow_empty_config($job, $sourceUrl);
 
         $override = sfm_known_feed_override($job, $feedUrl, $tmpPath, $feedPath);
         if ($override !== null) {
@@ -903,6 +948,10 @@ if (!function_exists('sfm_refresh_custom')) {
                     }
                 }
 
+                $skipNote = $autoAllowEmpty
+                    ? 'No items detected; kept previous feed content (auto).'
+                    : 'No items detected; kept previous feed content.';
+
                 if ($previousContent !== '') {
                     return [
                         $previousContent,
@@ -911,7 +960,8 @@ if (!function_exists('sfm_refresh_custom')) {
                         'filters' => $filterStats,
                         'skip'    => [
                             'reason' => 'no_items',
-                            'note'   => 'No items detected; kept previous feed content.',
+                            'note'   => $skipNote,
+                            'auto'   => $autoAllowEmpty,
                         ],
                     ];
                 }
@@ -951,7 +1001,8 @@ if (!function_exists('sfm_refresh_custom')) {
                     'filters' => $filterStats,
                     'skip'    => [
                         'reason' => 'no_items',
-                        'note'   => 'No items detected; generated empty feed.',
+                        'note'   => $autoAllowEmpty ? 'No items detected; generated empty feed (auto).' : 'No items detected; generated empty feed.',
+                        'auto'   => $autoAllowEmpty,
                     ],
                 ];
             }
