@@ -22,6 +22,7 @@
  *   last_refresh_note   string  human readable breadcrumb
  *   last_refresh_code   int     HTTP status (where available)
  *   last_refresh_error  string  failure detail
+ *   allow_empty         bool    permit successful refresh when no items are found
  *   created_at          string  ISO8601 timestamp
  *   updated_at          string  ISO8601 timestamp
  *   created_ip          string  (optional) client IP at creation time
@@ -153,6 +154,7 @@ function sfm_job_register(array $data): array
     'feed_filename'      => (string)($data['feed_filename'] ?? ''),
     'feed_url'           => (string)($data['feed_url'] ?? ''),
     'prefer_native'      => (bool)($data['prefer_native'] ?? false),
+    'allow_empty'        => (bool)($data['allow_empty'] ?? false),
     'refresh_interval'   => $interval,
     'refresh_count'      => 0,
     'last_refresh_at'    => $nowIso,
@@ -203,6 +205,9 @@ function sfm_job_update(string $jobId, array $fields): ?array
   if (array_key_exists('exclude_keywords', $fields)) {
     $fields['exclude_keywords'] = sfm_job_normalize_keywords($fields['exclude_keywords']);
   }
+  if (array_key_exists('allow_empty', $fields)) {
+    $fields['allow_empty'] = (bool)$fields['allow_empty'];
+  }
 
   $updated = $current;
   foreach ($fields as $key => $value) {
@@ -243,6 +248,7 @@ function sfm_job_list(): array
     if (!isset($data['exclude_keywords']) || !is_array($data['exclude_keywords'])) {
       $data['exclude_keywords'] = [];
     }
+    $data['allow_empty'] = !empty($data['allow_empty']);
     $jobs[] = $data;
   }
 

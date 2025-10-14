@@ -183,6 +183,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 'message' => 'Failed to update filters.',
             ];
         }
+    } elseif ($action === 'update_options') {
+        $allowEmpty = isset($_POST['allow_empty']) && in_array(strtolower((string)$_POST['allow_empty']), ['1', 'true', 'on', 'yes'], true);
+        $updated = sfm_job_update($job['job_id'], [
+            'allow_empty' => $allowEmpty,
+        ]);
+        if ($updated) {
+            $_SESSION['sfm_admin_flash'] = [
+                'type'    => 'success',
+                'message' => $allowEmpty ? 'Empty refreshes will no longer fail.' : 'Empty refreshes will now raise failures.',
+            ];
+        } else {
+            $_SESSION['sfm_admin_flash'] = [
+                'type'    => 'error',
+                'message' => 'Failed to update refresh behavior.',
+            ];
+        }
     } elseif ($action === 'delete') {
         $feedFile = $job['feed_filename'] ?? '';
         if ($feedFile) {
@@ -720,6 +736,9 @@ require __DIR__ . '/../includes/page_header.php';
                       <?php if (!empty($job['prefer_native'])): ?>
                         <span class="badge bg-secondary">prefers native</span>
                       <?php endif; ?>
+                      <?php if (!empty($job['allow_empty'])): ?>
+                        <span class="badge bg-secondary-subtle text-secondary">allows empty</span>
+                      <?php endif; ?>
                     </td>
                     <td><?= htmlspecialchars(strtoupper((string)($job['format'] ?? 'rss'))); ?></td>
                     <td>
@@ -816,6 +835,30 @@ require __DIR__ . '/../includes/page_header.php';
                                 </div>
                                 <div class="align-self-end">
                                   <button type="submit" class="btn btn-primary">Save filters</button>
+                                </div>
+                              </form>
+                            </div>
+                            <hr class="my-4">
+                            <div class="d-flex justify-content-between align-items-center flex-column flex-lg-row gap-2">
+                              <div>
+                                <h4 class="h6 fw-semibold mb-1">Refresh behavior</h4>
+                                <p class="small text-secondary mb-0">Optionally keep the previous feed file when a source returns no items.</p>
+                              </div>
+                              <form method="post" class="d-flex flex-column flex-lg-row align-items-start gap-3" style="min-width:260px;">
+                                <?= csrf_input(); ?>
+                                <input type="hidden" name="job_id" value="<?= htmlspecialchars($jobId, ENT_QUOTES, 'UTF-8'); ?>">
+                                <input type="hidden" name="admin_action" value="update_options">
+                                <input type="hidden" name="page" value="<?= (int)$currentPage; ?>">
+                                <input type="hidden" name="per_page" value="<?= (int)$perPage; ?>">
+                                <input type="hidden" name="status" value="<?= htmlspecialchars($statusFilter, ENT_QUOTES, 'UTF-8'); ?>">
+                                <input type="hidden" name="mode" value="<?= htmlspecialchars($modeFilter, ENT_QUOTES, 'UTF-8'); ?>">
+                                <input type="hidden" name="search" value="<?= htmlspecialchars($searchTerm, ENT_QUOTES, 'UTF-8'); ?>">
+                                <div class="form-check form-switch">
+                                  <input class="form-check-input" type="checkbox" role="switch" id="allow-empty-<?= htmlspecialchars($filtersDomId, ENT_QUOTES, 'UTF-8'); ?>" name="allow_empty" value="1" <?= !empty($job['allow_empty']) ? 'checked' : ''; ?>>
+                                  <label class="form-check-label" for="allow-empty-<?= htmlspecialchars($filtersDomId, ENT_QUOTES, 'UTF-8'); ?>">Allow empty refreshes</label>
+                                </div>
+                                <div class="align-self-lg-end">
+                                  <button type="submit" class="btn btn-outline-secondary btn-sm">Save behavior</button>
                                 </div>
                               </form>
                             </div>
