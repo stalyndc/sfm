@@ -406,7 +406,7 @@ if (!function_exists('detect_feed_format_and_ext')) {
     $ct = strtolower($headersAssoc['content-type'] ?? '');
     if (strpos($ct, 'json') !== false) return ['jsonfeed', 'json'];
     if (strpos($ct, 'atom') !== false) return ['atom', 'xml'];
-    if (strpos($ct, 'xml')  !== false) return ['rss', 'xml'];
+    $ctHintsRss = (strpos($ct, 'rss') !== false || strpos($ct, 'xml') !== false);
 
     $head = substr(ltrim($body), 0, 4000);
     if (stripos($head, '"version":"https://jsonfeed.org/version') !== false) return ['jsonfeed', 'json'];
@@ -439,6 +439,10 @@ if (!function_exists('detect_feed_format_and_ext')) {
       $ext = strtolower(pathinfo(parse_url($srcUrl, PHP_URL_PATH) ?? '', PATHINFO_EXTENSION));
       if ($ext === 'json') return ['jsonfeed', 'json'];
       if ($ext === 'xml')  return ['rss', 'xml'];
+    }
+
+    if ($ctHintsRss) {
+      return ['rss', 'xml'];
     }
 
     return ['rss', 'xml'];
