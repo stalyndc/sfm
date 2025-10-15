@@ -3,6 +3,9 @@
 declare(strict_types=1);
 require_once __DIR__ . '/includes/security.php';
 
+// Start the session before any output so CSRF + session cookies are reliably sent.
+sec_boot_session();
+
 $pageTitle       = 'SimpleFeedMaker — Create RSS or JSON feeds from any URL';
 $pageDescription = 'SimpleFeedMaker turns any web page into a feed. Paste a URL, choose RSS or JSON Feed, and get a clean, valid feed in seconds.';
 $structuredData  = [
