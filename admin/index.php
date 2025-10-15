@@ -384,7 +384,9 @@ require __DIR__ . '/../includes/page_header.php';
         <div class="text-secondary">Monitor generated feeds, refresh them manually, or retire jobs.</div>
       </div>
       <div class="d-flex gap-2">
+        <a class="btn btn-primary" href="/admin/" aria-current="page">Feed jobs</a>
         <a class="btn btn-outline-secondary" href="/admin/tools.php">Selector playground</a>
+        <a class="btn btn-outline-secondary" href="/admin/recent_feeds.php">Recent feeds</a>
         <a class="btn btn-outline-secondary" href="/admin/?logout=1">Sign out</a>
       </div>
     </div>
@@ -475,12 +477,6 @@ require __DIR__ . '/../includes/page_header.php';
             </div>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="row g-3 mb-4">
-      <div class="col-12 col-xl-6">
-        <?= sfm_recent_feeds_card_html(null, 10); ?>
       </div>
     </div>
 

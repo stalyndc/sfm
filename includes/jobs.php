@@ -611,10 +611,17 @@ if (!function_exists('sfm_jobs_list_recent')) {
 }
 
 if (!function_exists('sfm_recent_feeds_card_html')) {
-  function sfm_recent_feeds_card_html(?string $excludeSource = null, int $limit = 6): string
+  /**
+   * Render a reusable recent-feeds card.
+   *
+   * @param ?string $excludeSource Optional source URL to omit from the list.
+   * @param int     $limit         Max items to show (1..50).
+   * @param array   $options       Additional options: title, note, empty, button_label, refreshing_label.
+   */
+  function sfm_recent_feeds_card_html(?string $excludeSource = null, int $limit = 6, array $options = []): string
   {
-    $limit = max(1, min(15, $limit));
-    $jobs  = sfm_jobs_list_recent($limit + 4);
+    $limit = max(1, min(50, $limit));
+    $jobs  = sfm_jobs_list_recent($limit + 6);
 
     if ($excludeSource !== null && $excludeSource !== '') {
       $jobs = array_values(array_filter($jobs, static function ($job) use ($excludeSource) {
@@ -624,6 +631,18 @@ if (!function_exists('sfm_recent_feeds_card_html')) {
 
     if (count($jobs) > $limit) {
       $jobs = array_slice($jobs, 0, $limit);
+    }
+
+    $title            = isset($options['title']) ? (string)$options['title'] : 'Recent feeds';
+    $note             = isset($options['note']) ? trim((string)$options['note']) : '';
+    $emptyState       = isset($options['empty']) ? (string)$options['empty'] : 'No feeds yet. Generate one to see it listed here.';
+    $buttonLabel      = isset($options['button_label']) ? (string)$options['button_label'] : 'Refresh';
+    $refreshingLabel  = isset($options['refreshing_label']) ? (string)$options['refreshing_label'] : 'Refreshing…';
+
+    try {
+      $indicatorId = 'rf-ind-' . substr(bin2hex(random_bytes(4)), 0, 8);
+    } catch (Throwable $e) {
+      $indicatorId = 'rf-ind-' . substr(uniqid('', true), -8);
     }
 
     $now = time();
@@ -657,21 +676,29 @@ if (!function_exists('sfm_recent_feeds_card_html')) {
     ?>
     <div class="card shadow-sm recent-feeds-card">
       <div class="card-body recent-feeds-body">
-        <div class="d-flex justify-content-between align-items-center mb-2">
-          <h3 class="h6 fw-semibold mb-0">Recent feeds</h3>
-          <button
-            type="button"
-            class="btn btn-outline-secondary btn-sm"
-            hx-get="<?= htmlspecialchars($refreshUrl, ENT_QUOTES, 'UTF-8'); ?>"
-            hx-target="closest .recent-feeds-card"
-            hx-swap="outerHTML"
-            aria-label="Refresh recent feeds"
-          >
-            Refresh
-          </button>
+        <div class="d-flex justify-content-between align-items-center mb-2 gap-2 flex-wrap">
+          <h3 class="h6 fw-semibold mb-0"><?= htmlspecialchars($title, ENT_QUOTES, 'UTF-8'); ?></h3>
+          <div class="d-flex align-items-center gap-2">
+            <div id="<?= htmlspecialchars($indicatorId, ENT_QUOTES, 'UTF-8'); ?>" class="htmx-indicator small text-secondary"><?= htmlspecialchars($refreshingLabel, ENT_QUOTES, 'UTF-8'); ?></div>
+            <button
+              type="button"
+              class="btn btn-outline-secondary btn-sm"
+              hx-get="<?= htmlspecialchars($refreshUrl, ENT_QUOTES, 'UTF-8'); ?>"
+              hx-target="closest .recent-feeds-card"
+              hx-swap="outerHTML"
+              hx-indicator="#<?= htmlspecialchars($indicatorId, ENT_QUOTES, 'UTF-8'); ?>"
+              hx-disabled-elt="this"
+              aria-label="Refresh recent feeds"
+            >
+              <?= htmlspecialchars($buttonLabel, ENT_QUOTES, 'UTF-8'); ?>
+            </button>
+          </div>
         </div>
+        <?php if ($note !== ''): ?>
+          <p class="text-secondary small mb-2"><?= htmlspecialchars($note, ENT_QUOTES, 'UTF-8'); ?></p>
+        <?php endif; ?>
         <?php if (!$jobs): ?>
-          <p class="text-secondary small mb-0">No feeds yet. Generate one to see it listed here.</p>
+          <p class="text-secondary small mb-0"><?= htmlspecialchars($emptyState, ENT_QUOTES, 'UTF-8'); ?></p>
         <?php else: ?>
           <ul class="list-unstyled recent-feeds-list mb-0">
             <?php foreach ($jobs as $job): ?>
@@ -680,7 +707,7 @@ if (!function_exists('sfm_recent_feeds_card_html')) {
                 $sourceUrl  = (string)($job['source_url'] ?? '');
                 $format     = strtoupper((string)($job['format'] ?? 'rss'));
                 $itemsCount = $job['items_count'] ?? null;
-                $note       = (string)($job['last_refresh_note'] ?? '');
+                $noteText   = (string)($job['last_refresh_note'] ?? '');
                 $mode       = (string)($job['mode'] ?? 'custom');
                 $preferNative = !empty($job['prefer_native']);
                 $lastAt     = $humanTime($job['last_refresh_at'] ?? null);
@@ -716,8 +743,8 @@ if (!function_exists('sfm_recent_feeds_card_html')) {
                   </div>
                   <div class="text-end small text-secondary">
                     <div><?= htmlspecialchars($lastAt, ENT_QUOTES, 'UTF-8'); ?></div>
-                    <?php if ($note !== ''): ?>
-                      <div class="text-muted"><?= htmlspecialchars($note, ENT_QUOTES, 'UTF-8'); ?></div>
+                    <?php if ($noteText !== ''): ?>
+                      <div class="text-muted"><?= htmlspecialchars($noteText, ENT_QUOTES, 'UTF-8'); ?></div>
                     <?php endif; ?>
                   </div>
                 </div>

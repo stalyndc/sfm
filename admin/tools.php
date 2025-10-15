@@ -27,7 +27,9 @@ require __DIR__ . '/../includes/page_header.php';
         <p class="text-secondary mb-0">Test CSS selectors against a page before saving them to a job.</p>
       </div>
       <div class="d-flex gap-2">
-        <a class="btn btn-outline-secondary" href="/admin/">Back to jobs</a>
+        <a class="btn btn-outline-secondary" href="/admin/">Feed jobs</a>
+        <a class="btn btn-primary" href="/admin/tools.php" aria-current="page">Selector playground</a>
+        <a class="btn btn-outline-secondary" href="/admin/recent_feeds.php">Recent feeds</a>
         <a class="btn btn-outline-secondary" href="/admin/?logout=1">Sign out</a>
       </div>
     </div>

@@ -1159,6 +1159,28 @@ input[type="number"] { -moz-appearance: textfield; }
   padding-inline: .85rem;
 }
 
+.recent-feeds-card .htmx-indicator {
+  display: none;
+  font-size: .8rem;
+}
+
+.recent-feeds-card .htmx-indicator.htmx-request {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+}
+
+.recent-feeds-card .htmx-indicator::before {
+  content: "";
+  width: .65rem;
+  height: .65rem;
+  border-radius: 50%;
+  border: 2px solid currentColor;
+  border-top-color: transparent;
+  animation: spin .8s linear infinite;
+  display: inline-block;
+}
+
 .btn.btn-primary .btn-label {
   position: relative;
   z-index: 1;
