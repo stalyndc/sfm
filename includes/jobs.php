@@ -545,3 +545,67 @@ function sfm_refresh_recent_logs(int $limit = 5): array
   }
   return $entries;
 }
+
+if (!function_exists('sfm_jobs_list_recent')) {
+  /**
+   * Return the most recently updated jobs (up to $limit) with minimal metadata.
+   *
+   * @return array<int, array<string, mixed>>
+   */
+  function sfm_jobs_list_recent(int $limit = 6): array
+  {
+    $limit = max(1, min(20, $limit));
+    $dir   = sfm_jobs_dir();
+
+    $files = glob($dir . '/*.json');
+    if (!$files) {
+      return [];
+    }
+
+    usort($files, static function (string $a, string $b): int {
+      $ta = @filemtime($a) ?: 0;
+      $tb = @filemtime($b) ?: 0;
+      return $tb <=> $ta;
+    });
+
+    $out = [];
+    foreach ($files as $path) {
+      if (count($out) >= $limit) {
+        break;
+      }
+      $raw = @file_get_contents($path);
+      if ($raw === false) {
+        continue;
+      }
+      $job = json_decode($raw, true);
+      if (!is_array($job)) {
+        continue;
+      }
+      $feedUrl   = isset($job['feed_url']) ? (string)$job['feed_url'] : '';
+      $sourceUrl = isset($job['source_url']) ? (string)$job['source_url'] : '';
+      if ($feedUrl === '' && $sourceUrl === '') {
+        continue;
+      }
+      $lastRefreshAt = null;
+      foreach (['last_refresh_at', 'updated_at', 'created_at'] as $candidate) {
+        if (!empty($job[$candidate]) && is_string($job[$candidate])) {
+          $lastRefreshAt = $job[$candidate];
+          break;
+        }
+      }
+      $out[] = [
+        'job_id'            => (string)($job['job_id'] ?? basename($path, '.json')),
+        'feed_url'          => $feedUrl,
+        'source_url'        => $sourceUrl,
+        'mode'              => isset($job['mode']) ? (string)$job['mode'] : 'custom',
+        'format'            => isset($job['format']) ? (string)$job['format'] : 'rss',
+        'items_count'       => isset($job['items_count']) ? (int)$job['items_count'] : null,
+        'last_refresh_at'   => $lastRefreshAt,
+        'last_refresh_note' => isset($job['last_refresh_note']) ? (string)$job['last_refresh_note'] : null,
+        'prefer_native'     => !empty($job['prefer_native']),
+        'native_source'     => isset($job['native_source']) ? (string)$job['native_source'] : null,
+      ];
+    }
+    return $out;
+  }
+}

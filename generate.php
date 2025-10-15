@@ -373,6 +373,14 @@ function sfm_render_result_fragment(array $payload, array $health, array $contex
         </dl>
       </div>
     </div>
+    <div
+      class="card shadow-sm recent-feeds-card"
+      hx-get="recent_feeds.php"
+      hx-trigger="load"
+      hx-swap="outerHTML"
+    >
+      <div class="card-body text-secondary small">Loading recent feeds…</div>
+    </div>
   </div>
   <?php
   return ob_get_clean();
@@ -400,6 +408,14 @@ function sfm_render_error_fragment(string $message, array $details = []): string
           <button type="button" class="btn btn-outline-secondary btn-sm" data-reset-feed data-reset-url="/">Try again</button>
         </div>
       </div>
+    </div>
+    <div
+      class="card shadow-sm recent-feeds-card"
+      hx-get="recent_feeds.php"
+      hx-trigger="load"
+      hx-swap="outerHTML"
+    >
+      <div class="card-body text-secondary small">Loading recent feeds…</div>
     </div>
   </div>
   <?php

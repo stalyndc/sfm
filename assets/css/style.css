@@ -1127,6 +1127,38 @@ input[type="number"] { -moz-appearance: textfield; }
   }
 }
 
+.recent-feeds-card {
+  border: 1px solid rgba(255, 255, 255, .08);
+}
+
+[data-bs-theme="light"] .recent-feeds-card {
+  border-color: rgba(34, 40, 49, .12);
+}
+
+.recent-feeds-list {
+  margin: 0;
+}
+
+.recent-feeds-list .recent-feed-item:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+.recent-feed-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.recent-feed-link:hover,
+.recent-feed-link:focus {
+  text-decoration: underline;
+}
+
+.recent-feeds-card .btn-outline-secondary {
+  border-radius: 999px;
+  padding-inline: .85rem;
+}
+
 /* Loading state helper (JS can add .is-busy on buttons) */
 .btn.is-busy, .btn[aria-busy="true"] {
   pointer-events: none;

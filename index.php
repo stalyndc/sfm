@@ -145,6 +145,14 @@ require __DIR__ . '/includes/page_header.php';
                 </ul>
               </div>
             </div>
+            <div
+              class="card shadow-sm recent-feeds-card"
+              hx-get="recent_feeds.php"
+              hx-trigger="load"
+              hx-swap="outerHTML"
+            >
+              <div class="card-body text-secondary small">Loading recent feeds…</div>
+            </div>
           </div>
         </div>
       </div>
