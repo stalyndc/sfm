@@ -1173,8 +1173,9 @@ input[type="number"] { -moz-appearance: textfield; }
   width: .85rem;
   height: .85rem;
   border-radius: 50%;
-  border: 2px solid transparent;
-  transform: translateY(-50%) scale(.6);
+  border: 2px solid currentColor;
+  border-top-color: transparent;
+  transform: translateY(-50%) scale(.55);
   opacity: 0;
   pointer-events: none;
   transition: opacity .18s ease, transform .18s ease;
@@ -1210,8 +1211,6 @@ input[type="number"] { -moz-appearance: textfield; }
 }
 
 .recent-feeds-card .btn-refresh.htmx-request::after {
-  border-color: currentColor;
-  border-top-color: transparent;
   animation: spin .65s linear infinite;
   opacity: 1;
   transform: translateY(-50%) scale(1);
