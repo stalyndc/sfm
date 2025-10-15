@@ -13,11 +13,10 @@
   const clearBtn = document.getElementById('clearBtn');
   const resultRegion = document.getElementById('resultRegion');
 
-  if (!form || !urlInput || !resultRegion) {
-    return;
-  }
-
-  const initialMarkup = resultRegion.innerHTML;
+  const hasForm = Boolean(form && urlInput);
+  const initialMarkup = (resultRegion && resultRegion.querySelector('[data-result-hint]'))
+    ? resultRegion.innerHTML
+    : '';
 
   function isLikelyUrl(value) {
     try {
@@ -35,15 +34,26 @@
   }
 
   function resetResultRegion() {
-    resultRegion.innerHTML = initialMarkup;
-    resultRegion.dataset.state = 'hint';
+    if (!resultRegion) {
+      return;
+    }
+    if (initialMarkup) {
+      resultRegion.innerHTML = initialMarkup;
+      resultRegion.dataset.state = 'hint';
+      return;
+    }
+    resultRegion.innerHTML = '';
   }
 
-  clearBtn?.addEventListener('click', () => {
-    form.reset();
-    resetResultRegion();
-    urlInput.focus();
-  });
+  if (hasForm) {
+    clearBtn?.addEventListener('click', () => {
+      form.reset();
+      if (initialMarkup) {
+        resetResultRegion();
+      }
+      urlInput.focus();
+    });
+  }
 
   document.addEventListener('click', (event) => {
     const target = event.target instanceof Element ? event.target.closest('[data-reset-feed]') : null;
@@ -51,8 +61,14 @@
       return;
     }
     event.preventDefault();
-    resetResultRegion();
-    urlInput.focus();
+    if (hasForm && initialMarkup) {
+      form.reset();
+      resetResultRegion();
+      urlInput.focus();
+      return;
+    }
+    const redirect = target.getAttribute('data-reset-url') || '/';
+    window.location.href = redirect;
   });
 
   document.addEventListener('click', (event) => {
@@ -104,45 +120,47 @@
     }, 1400);
   }
 
-  form.addEventListener('submit', (event) => {
-    if (!form.checkValidity()) {
-      event.preventDefault();
-      form.reportValidity();
-      return;
-    }
-    const raw = urlInput.value.trim();
-    if (!isLikelyUrl(raw)) {
-      event.preventDefault();
-      markUrlInvalid();
-    }
-  });
-
-  if (window.htmx) {
-    htmx.on('htmx:beforeRequest', (evt) => {
-      if (evt.target !== form) {
-        return;
-      }
+  if (hasForm) {
+    form.addEventListener('submit', (event) => {
       if (!form.checkValidity()) {
-        evt.preventDefault();
+        event.preventDefault();
         form.reportValidity();
         return;
       }
       const raw = urlInput.value.trim();
       if (!isLikelyUrl(raw)) {
-        evt.preventDefault();
+        event.preventDefault();
         markUrlInvalid();
       }
     });
 
-    htmx.on('htmx:afterSwap', (evt) => {
-      if (evt.detail.target !== resultRegion) {
-        return;
-      }
-      resultRegion.dataset.state = 'result';
-      const firstFocusable = resultRegion.querySelector('[data-focus-target], a, button');
-      if (firstFocusable instanceof HTMLElement) {
-        firstFocusable.focus({ preventScroll: true });
-      }
-    });
+    if (window.htmx) {
+      htmx.on('htmx:beforeRequest', (evt) => {
+        if (evt.target !== form) {
+          return;
+        }
+        if (!form.checkValidity()) {
+          evt.preventDefault();
+          form.reportValidity();
+          return;
+        }
+        const raw = urlInput.value.trim();
+        if (!isLikelyUrl(raw)) {
+          evt.preventDefault();
+          markUrlInvalid();
+        }
+      });
+
+      htmx.on('htmx:afterSwap', (evt) => {
+        if (evt.detail.target !== resultRegion) {
+          return;
+        }
+        resultRegion.dataset.state = 'result';
+        const firstFocusable = resultRegion.querySelector('[data-focus-target], a, button');
+        if (firstFocusable instanceof HTMLElement) {
+          firstFocusable.focus({ preventScroll: true });
+        }
+      });
+    }
   }
 })();

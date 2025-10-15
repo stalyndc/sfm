@@ -299,7 +299,7 @@ function sfm_render_result_fragment(array $payload, array $health, array $contex
 
           <div class="d-flex flex-wrap align-items-center gap-2">
             <a class="btn btn-outline-primary btn-sm" href="<?= htmlspecialchars($validatorUrl, ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener">Validate feed</a>
-            <button type="button" class="btn btn-outline-secondary btn-sm" data-reset-feed>Start new feed</button>
+            <button type="button" class="btn btn-outline-secondary btn-sm" data-reset-feed data-reset-url="/">Start new feed</button>
           </div>
 
           <div class="muted mt-2 small">
@@ -397,7 +397,7 @@ function sfm_render_error_fragment(string $message, array $details = []): string
           </ul>
         <?php endif; ?>
         <div class="d-flex flex-wrap align-items-center gap-2">
-          <button type="button" class="btn btn-outline-secondary btn-sm" data-reset-feed>Try again</button>
+          <button type="button" class="btn btn-outline-secondary btn-sm" data-reset-feed data-reset-url="/">Try again</button>
         </div>
       </div>
     </div>
