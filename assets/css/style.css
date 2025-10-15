@@ -1160,31 +1160,26 @@ input[type="number"] { -moz-appearance: textfield; }
 }
 
 .recent-feeds-card .htmx-indicator {
-  display: none;
   font-size: .8rem;
 }
 
-.recent-feeds-card .htmx-indicator.htmx-request,
-.recent-feeds-card .btn-outline-secondary.htmx-request + .htmx-indicator {
-  display: inline-flex;
-  align-items: center;
-  gap: .35rem;
-}
-
-.recent-feeds-card .btn-outline-secondary.htmx-request {
+.recent-feeds-card .btn-refresh.is-refreshing {
+  position: relative;
   pointer-events: none;
-  opacity: .6;
+  opacity: .7;
 }
 
-.recent-feeds-card .htmx-indicator::before {
+.recent-feeds-card .btn-refresh.is-refreshing::after {
   content: "";
-  width: .65rem;
-  height: .65rem;
+  width: .75rem;
+  height: .75rem;
   border-radius: 50%;
   border: 2px solid currentColor;
   border-top-color: transparent;
-  animation: spin .8s linear infinite;
+  margin-left: .45rem;
   display: inline-block;
+  animation: spin .7s linear infinite;
+  vertical-align: middle;
 }
 
 .btn.btn-primary .btn-label {

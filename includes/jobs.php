@@ -640,7 +640,7 @@ if (!function_exists('sfm_recent_feeds_card_html')) {
     $refreshingLabel  = isset($options['refreshing_label']) ? (string)$options['refreshing_label'] : 'Refreshing…';
 
     try {
-    $indicatorId = 'rf-ind-' . substr(bin2hex(random_bytes(4)), 0, 8);
+      $indicatorId = 'rf-ind-' . substr(bin2hex(random_bytes(4)), 0, 8);
     } catch (Throwable $e) {
       $indicatorId = 'rf-ind-' . substr(uniqid('', true), -8);
     }
@@ -681,16 +681,19 @@ if (!function_exists('sfm_recent_feeds_card_html')) {
           <div class="d-flex align-items-center gap-2">
             <button
               type="button"
-              class="btn btn-outline-secondary btn-sm"
+              class="btn btn-outline-secondary btn-sm btn-refresh"
               hx-get="<?= htmlspecialchars($refreshUrl, ENT_QUOTES, 'UTF-8'); ?>"
               hx-target="closest .recent-feeds-card"
               hx-swap="outerHTML"
               hx-indicator="#<?= htmlspecialchars($indicatorId, ENT_QUOTES, 'UTF-8'); ?>"
+              data-indicator="<?= htmlspecialchars($indicatorId, ENT_QUOTES, 'UTF-8'); ?>"
+              hx-on:htmx:beforeRequest="this.classList.add('is-refreshing');var ind=document.getElementById(this.dataset.indicator);if(ind){ind.style.display='inline-flex';}"
+              hx-on:htmx:afterRequest="this.classList.remove('is-refreshing');var ind=document.getElementById(this.dataset.indicator);if(ind){ind.style.display='none';}"
               aria-label="Refresh recent feeds"
             >
               <?= htmlspecialchars($buttonLabel, ENT_QUOTES, 'UTF-8'); ?>
             </button>
-            <div id="<?= htmlspecialchars($indicatorId, ENT_QUOTES, 'UTF-8'); ?>" class="htmx-indicator small text-secondary"><?= htmlspecialchars($refreshingLabel, ENT_QUOTES, 'UTF-8'); ?></div>
+            <div id="<?= htmlspecialchars($indicatorId, ENT_QUOTES, 'UTF-8'); ?>" class="htmx-indicator small text-secondary" style="display:none;"><?= htmlspecialchars($refreshingLabel, ENT_QUOTES, 'UTF-8'); ?></div>
           </div>
         </div>
         <?php if ($note !== ''): ?>
