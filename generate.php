@@ -373,7 +373,6 @@ function sfm_render_result_fragment(array $payload, array $health, array $contex
         </dl>
       </div>
     </div>
-    <?= sfm_recent_feeds_card_html($payload['source_url'] ?? null); ?>
   </div>
   <?php
   return ob_get_clean();
@@ -402,7 +401,6 @@ function sfm_render_error_fragment(string $message, array $details = []): string
         </div>
       </div>
     </div>
-    <?= sfm_recent_feeds_card_html(); ?>
   </div>
   <?php
   return ob_get_clean();

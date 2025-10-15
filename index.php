@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 require_once __DIR__ . '/includes/security.php';
-require_once __DIR__ . '/includes/jobs.php';
 
 $pageTitle       = 'SimpleFeedMaker — Create RSS or JSON feeds from any URL';
 $pageDescription = 'SimpleFeedMaker turns any web page into a feed. Paste a URL, choose RSS or JSON Feed, and get a clean, valid feed in seconds.';
@@ -146,7 +145,6 @@ require __DIR__ . '/includes/page_header.php';
                 </ul>
               </div>
             </div>
-            <?php echo sfm_recent_feeds_card_html(); ?>
           </div>
         </div>
       </div>

@@ -478,6 +478,12 @@ require __DIR__ . '/../includes/page_header.php';
       </div>
     </div>
 
+    <div class="row g-3 mb-4">
+      <div class="col-12 col-xl-6">
+        <?= sfm_recent_feeds_card_html(null, 10); ?>
+      </div>
+    </div>
+
     <?php if ($hotlist): ?>
       <div class="card shadow-sm mb-4">
         <div class="card-body">
