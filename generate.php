@@ -373,15 +373,7 @@ function sfm_render_result_fragment(array $payload, array $health, array $contex
         </dl>
       </div>
     </div>
-    <div
-      class="card shadow-sm recent-feeds-card"
-      hx-get="<?= htmlspecialchars('/recent_feeds.php?source=' . rawurlencode((string)($payload['source_url'] ?? '')), ENT_QUOTES, 'UTF-8'); ?>"
-      hx-trigger="load"
-      hx-swap="outerHTML"
-      data-source-url="<?= htmlspecialchars((string)($payload['source_url'] ?? ''), ENT_QUOTES, 'UTF-8'); ?>"
-    >
-      <div class="card-body text-secondary small">Loading recent feeds…</div>
-    </div>
+    <?= sfm_recent_feeds_card_html($payload['source_url'] ?? null); ?>
   </div>
   <?php
   return ob_get_clean();
@@ -410,14 +402,7 @@ function sfm_render_error_fragment(string $message, array $details = []): string
         </div>
       </div>
     </div>
-    <div
-      class="card shadow-sm recent-feeds-card"
-      hx-get="/recent_feeds.php"
-      hx-trigger="load"
-      hx-swap="outerHTML"
-    >
-      <div class="card-body text-secondary small">Loading recent feeds…</div>
-    </div>
+    <?= sfm_recent_feeds_card_html(); ?>
   </div>
   <?php
   return ob_get_clean();
