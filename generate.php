@@ -375,9 +375,10 @@ function sfm_render_result_fragment(array $payload, array $health, array $contex
     </div>
     <div
       class="card shadow-sm recent-feeds-card"
-      hx-get="recent_feeds.php"
+      hx-get="<?= htmlspecialchars('/recent_feeds.php?source=' . rawurlencode((string)($payload['source_url'] ?? '')), ENT_QUOTES, 'UTF-8'); ?>"
       hx-trigger="load"
       hx-swap="outerHTML"
+      data-source-url="<?= htmlspecialchars((string)($payload['source_url'] ?? ''), ENT_QUOTES, 'UTF-8'); ?>"
     >
       <div class="card-body text-secondary small">Loading recent feeds…</div>
     </div>
@@ -411,7 +412,7 @@ function sfm_render_error_fragment(string $message, array $details = []): string
     </div>
     <div
       class="card shadow-sm recent-feeds-card"
-      hx-get="recent_feeds.php"
+      hx-get="/recent_feeds.php"
       hx-trigger="load"
       hx-swap="outerHTML"
     >
@@ -784,6 +785,7 @@ function sfm_attempt_native_download(string $requestedUrl, array $candidate, int
     'status_origin' => $statusOrigin,
     'job_id'        => $job['job_id'] ?? null,
     'normalized'    => $normalization['note'] ?? null,
+    'source_url'    => $requestedUrl,
   ];
 
   $health = [
@@ -1107,6 +1109,7 @@ $payload = [
   'used_native'   => false,
   'status_origin' => 'custom parse',
   'job_id'        => $job['job_id'] ?? null,
+  'source_url'    => $url,
 ];
 
 if (!empty($validation['warnings'])) {

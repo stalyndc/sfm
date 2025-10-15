@@ -10,7 +10,20 @@ header('Cache-Control: no-store, max-age=0');
 
 $limitParam = (int)($_GET['limit'] ?? 6);
 $limit      = max(1, min(15, $limitParam));
+$sourceUrl  = isset($_GET['source']) ? trim((string)$_GET['source']) : '';
 $jobs       = sfm_jobs_list_recent($limit);
+$filtered   = [];
+
+if ($sourceUrl !== '') {
+    foreach ($jobs as $job) {
+        if (!empty($job['source_url']) && $job['source_url'] === $sourceUrl) {
+            continue;
+        }
+        $filtered[] = $job;
+    }
+    $jobs = $filtered ?: $jobs;
+}
+
 $now        = time();
 
 $humanTime = static function (?string $iso) use ($now): string {
@@ -42,7 +55,7 @@ $humanTime = static function (?string $iso) use ($now): string {
       <button
         type="button"
         class="btn btn-outline-secondary btn-sm"
-        hx-get="recent_feeds.php?limit=<?= $limit; ?>"
+        hx-get="recent_feeds.php?limit=<?= $limit; ?><?= $sourceUrl !== '' ? '&amp;source=' . rawurlencode($sourceUrl) : ''; ?>"
         hx-target="closest .recent-feeds-card"
         hx-swap="outerHTML"
         aria-label="Refresh recent feeds"

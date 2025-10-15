@@ -1159,10 +1159,37 @@ input[type="number"] { -moz-appearance: textfield; }
   padding-inline: .85rem;
 }
 
+.btn.btn-primary .btn-label {
+  position: relative;
+  z-index: 1;
+}
+
+.btn.btn-primary.is-busy {
+  position: relative;
+  color: rgba(255, 255, 255, .85);
+}
+
+.btn.btn-primary.is-busy::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(circle at top left, rgba(255, 255, 255, .35), transparent 55%),
+              radial-gradient(circle at bottom right, rgba(0, 0, 0, .16), transparent 60%);
+  opacity: .9;
+  animation: buttonPulse 1.2s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
 /* Loading state helper (JS can add .is-busy on buttons) */
 .btn.is-busy, .btn[aria-busy="true"] {
   pointer-events: none;
   opacity: .85;
+}
+
+.btn.is-busy::after {
+  pointer-events: none;
 }
 
 .copy-ok {
@@ -1190,6 +1217,12 @@ input[type="number"] { -moz-appearance: textfield; }
   0% { transform: scale(1) translate3d(0, 0, 0) rotate(0deg); }
   50% { transform: scale(1.04) translate3d(4px, -3px, 0) rotate(2deg); }
   100% { transform: scale(1.06) translate3d(-3px, 5px, 0) rotate(-2deg); }
+}
+
+@keyframes buttonPulse {
+  0% { opacity: .5; }
+  50% { opacity: .9; }
+  100% { opacity: .5; }
 }
 
 /* ------------------------------

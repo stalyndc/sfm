@@ -18,6 +18,32 @@
     ? resultRegion.innerHTML
     : '';
 
+  const startButtonBusy = () => {
+    const generateBtn = document.getElementById('generateBtn');
+    if (generateBtn) {
+      generateBtn.classList.add('is-busy');
+      generateBtn.setAttribute('aria-busy', 'true');
+      const label = generateBtn.querySelector('.btn-label');
+      if (label) {
+        label.dataset.original = label.textContent || 'Generate feed';
+        label.textContent = 'Working…';
+      }
+    }
+  };
+
+  const stopButtonBusy = () => {
+    const generateBtn = document.getElementById('generateBtn');
+    if (generateBtn) {
+      generateBtn.classList.remove('is-busy');
+      generateBtn.removeAttribute('aria-busy');
+      const label = generateBtn.querySelector('.btn-label');
+      if (label && label.dataset.original) {
+        label.textContent = label.dataset.original;
+        delete label.dataset.original;
+      }
+    }
+  };
+
   function isLikelyUrl(value) {
     try {
       const parsed = new URL(value);
@@ -52,6 +78,7 @@
         resetResultRegion();
       }
       urlInput.focus();
+      stopButtonBusy();
     });
   }
 
@@ -131,7 +158,9 @@
       if (!isLikelyUrl(raw)) {
         event.preventDefault();
         markUrlInvalid();
+        return;
       }
+      startButtonBusy();
     });
 
     if (window.htmx) {
@@ -148,19 +177,25 @@
         if (!isLikelyUrl(raw)) {
           evt.preventDefault();
           markUrlInvalid();
+          return;
         }
+        startButtonBusy();
       });
 
       htmx.on('htmx:afterSwap', (evt) => {
         if (evt.detail.target !== resultRegion) {
           return;
         }
+        stopButtonBusy();
         resultRegion.dataset.state = 'result';
         const firstFocusable = resultRegion.querySelector('[data-focus-target], a, button');
         if (firstFocusable instanceof HTMLElement) {
           firstFocusable.focus({ preventScroll: true });
         }
       });
+
+      htmx.on('htmx:sendError', stopButtonBusy);
+      htmx.on('htmx:responseError', stopButtonBusy);
     }
   }
 })();

@@ -100,7 +100,7 @@ require __DIR__ . '/includes/page_header.php';
 
                 <div class="d-grid gap-2 d-sm-flex align-items-stretch">
                   <button id="generateBtn" type="submit" class="btn btn-primary btn-lg-sm flex-grow-1">
-                    Generate feed
+                    <span class="btn-label">Generate feed</span>
                   </button>
                   <button id="clearBtn" type="button" class="btn btn-outline-secondary btn-icon" aria-label="Clear form" title="Clear form">
                     <span class="icon" aria-hidden="true">&times;</span>
@@ -147,7 +147,7 @@ require __DIR__ . '/includes/page_header.php';
             </div>
             <div
               class="card shadow-sm recent-feeds-card"
-              hx-get="recent_feeds.php"
+              hx-get="/recent_feeds.php"
               hx-trigger="load"
               hx-swap="outerHTML"
             >
