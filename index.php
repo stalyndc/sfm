@@ -55,7 +55,16 @@ require __DIR__ . '/includes/page_header.php';
               <p class="muted mb-4">Paste a URL, choose RSS or JSON, and click Generate. That’s it.</p>
 
               <!-- One tiny form -->
-              <form id="feedForm" class="vstack gap-3 gap-lg-4" novalidate>
+              <form
+                id="feedForm"
+                class="vstack gap-3 gap-lg-4"
+                method="post"
+                action="generate.php"
+                hx-post="generate.php"
+                hx-target="#resultRegion"
+                hx-swap="innerHTML"
+                hx-indicator="#formIndicator"
+              >
                 <?php echo csrf_input(); ?>
                 <div class="floating-group">
                   <label for="url" class="form-label">Source URL</label>
@@ -90,7 +99,7 @@ require __DIR__ . '/includes/page_header.php';
                 </div>
 
                 <div class="d-grid gap-2 d-sm-flex align-items-stretch">
-                  <button id="generateBtn" type="button" class="btn btn-primary btn-lg-sm flex-grow-1">
+                  <button id="generateBtn" type="submit" class="btn btn-primary btn-lg-sm flex-grow-1">
                     Generate feed
                   </button>
                   <button id="clearBtn" type="button" class="btn btn-outline-secondary btn-icon" aria-label="Clear form" title="Clear form">
@@ -99,8 +108,14 @@ require __DIR__ . '/includes/page_header.php';
                   </button>
                 </div>
 
+                <div id="formIndicator" class="htmx-indicator small text-secondary align-items-center gap-2" role="status" aria-live="polite">
+                  <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+                  <span>Generating feed…</span>
+                </div>
+
                 <noscript>
-                  <div class="alert alert-warning mt-2 mb-0">Enable JavaScript to generate feeds.</div>
+                  <input type="hidden" name="response_mode" value="page">
+                  <div class="alert alert-warning mt-2 mb-0">JavaScript is optional. Submitting will open the results page.</div>
                 </noscript>
               </form>
             </div>
@@ -110,33 +125,25 @@ require __DIR__ . '/includes/page_header.php';
 
         <!-- Result -->
         <div class="col-12 col-lg-5">
-          <div id="resultCard" class="card shadow-sm h-100 d-none">
-            <div class="card-body">
-              <h2 class="h5 fw-semibold mb-3">Feed ready</h2>
-
-              <div id="resultBox" class="vstack gap-3">
-                <!-- JS will populate -->
+          <div id="resultRegion" class="vstack gap-3" aria-live="polite">
+            <div class="card shadow-sm" data-result-hint>
+              <div class="card-body d-flex flex-column justify-content-center text-center gap-3">
+                <div class="placeholder-illustration mx-auto" aria-hidden="true">
+                  <svg class="placeholder-icon" viewBox="0 0 64 64" role="img" aria-hidden="true" focusable="false">
+                    <circle cx="32" cy="32" r="30" fill="#f97316" />
+                    <path d="M22 44a4 4 0 1 1 0-8 4 4 0 0 1 0 8Zm14 0h-4a14 14 0 0 0-14-14v-4A18 18 0 0 1 36 44Zm10 0h-4c0-13.807-10.193-24-24-24v-4c15.464 0 28 12.536 28 28Z" fill="#fff" />
+                  </svg>
+                </div>
+                <div>
+                  <h2 class="h5 fw-semibold mb-2">No feed yet</h2>
+                  <p class="muted mb-0">Paste a URL and click <strong>Generate feed</strong> to see your preview here. We’ll give you a shareable link instantly.</p>
+                </div>
+                <ul class="list-unstyled small text-secondary mb-0">
+                  <li>✔&nbsp; Supports RSS and JSON Feed</li>
+                  <li>✔&nbsp; No login required</li>
+                  <li>✔&nbsp; Optional native feed detection</li>
+                </ul>
               </div>
-            </div>
-          </div>
-
-          <div id="hintCard" class="card shadow-sm h-100">
-            <div class="card-body d-flex flex-column justify-content-center text-center gap-3">
-              <div class="placeholder-illustration mx-auto" aria-hidden="true">
-                <svg class="placeholder-icon" viewBox="0 0 64 64" role="img" aria-hidden="true" focusable="false">
-                  <circle cx="32" cy="32" r="30" fill="#f97316" />
-                  <path d="M22 44a4 4 0 1 1 0-8 4 4 0 0 1 0 8Zm14 0h-4a14 14 0 0 0-14-14v-4A18 18 0 0 1 36 44Zm10 0h-4c0-13.807-10.193-24-24-24v-4c15.464 0 28 12.536 28 28Z" fill="#fff" />
-                </svg>
-              </div>
-              <div>
-                <h2 class="h5 fw-semibold mb-2">No feed yet</h2>
-                <p class="muted mb-0">Paste a URL and click <strong>Generate feed</strong> to see your preview here. We’ll give you a shareable link instantly.</p>
-              </div>
-              <ul class="list-unstyled small text-secondary mb-0">
-                <li>✔&nbsp; Supports RSS and JSON Feed</li>
-                <li>✔&nbsp; No login required</li>
-                <li>✔&nbsp; Optional native feed detection</li>
-              </ul>
             </div>
           </div>
         </div>
@@ -211,6 +218,7 @@ require __DIR__ . '/includes/page_header.php';
     </div>
   </section>
 
+  <script src="https://unpkg.com/htmx.org@1.9.12" crossorigin="anonymous" defer></script>
   <script src="/assets/js/main.js" defer></script>
 
 <?php require __DIR__ . '/includes/page_footer.php';

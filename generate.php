@@ -14,7 +14,6 @@
  */
 
 declare(strict_types=1);
-header('Content-Type: application/json; charset=utf-8');
 
 /* ---- DEBUG (optional)
 if (defined('SFM_DEBUG') && SFM_DEBUG) {
@@ -26,9 +25,10 @@ if (defined('SFM_DEBUG') && SFM_DEBUG) {
 // ---------------------------------------------------------------------
 // Includes (hard-fail with JSON if missing)
 // ---------------------------------------------------------------------
-$httpFile = __DIR__ . '/includes/http.php';
-$extFile  = __DIR__ . '/includes/extract.php';
-$secFile  = __DIR__ . '/includes/security.php';
+$httpFile  = __DIR__ . '/includes/http.php';
+$extFile   = __DIR__ . '/includes/extract.php';
+$secFile   = __DIR__ . '/includes/security.php';
+$cacheFile = __DIR__ . '/includes/feed_cache.php';
 
 if (!is_file($httpFile) || !is_readable($httpFile)) {
   http_response_code(500);
@@ -45,10 +45,16 @@ if (!is_file($secFile) || !is_readable($secFile)) {
   echo json_encode(['ok' => false, 'message' => 'Server missing includes/security.php'], JSON_UNESCAPED_SLASHES);
   exit;
 }
+if (!is_file($cacheFile) || !is_readable($cacheFile)) {
+  http_response_code(500);
+  echo json_encode(['ok' => false, 'message' => 'Server missing includes/feed_cache.php'], JSON_UNESCAPED_SLASHES);
+  exit;
+}
 
 require_once $secFile;    // secure_assert_post(), csrf helpers
 require_once $httpFile;   // http_get(), http_head(), http_multi_get(), sfm_log_event()
 require_once $extFile;    // sfm_extract_items(), sfm_discover_feeds()
+require_once $cacheFile;  // sfm_feed_cache_* helpers
 require_once __DIR__ . '/includes/feed_validator.php';
 require_once __DIR__ . '/includes/enrich.php';
 require_once __DIR__ . '/includes/jobs.php';
@@ -72,6 +78,533 @@ if (!defined('FEEDS_DIR')) {
   define('FEEDS_DIR', __DIR__ . '/feeds');
 }
 
+$__sfmResponseMode = sfm_detect_response_mode();
+$__sfmCacheKey      = null;
+$__sfmCacheEntry    = null;
+$__sfmCacheTtl      = max(0, sfm_resolve_feed_cache_ttl());
+$__sfmCacheEnabled  = $__sfmCacheTtl > 0;
+
+function sfm_detect_response_mode(): string
+{
+  $explicitSources = [
+    $_GET['response_mode'] ?? null,
+    $_POST['response_mode'] ?? null,
+    $_GET['response'] ?? null,
+    $_POST['response'] ?? null,
+  ];
+
+  foreach ($explicitSources as $explicit) {
+    if ($explicit === null) {
+      continue;
+    }
+    $normalized = strtolower(trim((string) $explicit));
+    if ($normalized === 'json' || $normalized === 'fragment' || $normalized === 'page') {
+      return $normalized;
+    }
+  }
+
+  $accept = strtolower((string)($_SERVER['HTTP_ACCEPT'] ?? ''));
+  if (strpos($accept, 'application/json') !== false) {
+    return 'json';
+  }
+
+  if (!empty($_SERVER['HTTP_HX_REQUEST'])) {
+    return 'fragment';
+  }
+
+  if (isset($_POST['_sfm_page']) && ($_SERVER['REQUEST_METHOD'] ?? '') === 'POST') {
+    return 'page';
+  }
+
+  $ua = strtolower((string)($_SERVER['HTTP_USER_AGENT'] ?? ''));
+  $looksBrowser = $ua !== '' && (strpos($ua, 'mozilla') !== false || strpos($ua, 'safari') !== false || strpos($ua, 'chrome') !== false || strpos($ua, 'edge') !== false);
+  if ($looksBrowser && ($_SERVER['REQUEST_METHOD'] ?? '') === 'POST') {
+    return 'page';
+  }
+
+  return 'json';
+}
+
+function sfm_prepare_response_headers(string $mode, int $status): void
+{
+  http_response_code($status);
+  header('Cache-Control: no-store, max-age=0, must-revalidate');
+  if ($mode === 'json') {
+    header('Content-Type: application/json; charset=utf-8');
+  } else {
+    header('Content-Type: text/html; charset=utf-8');
+  }
+}
+
+function sfm_human_time_diff(int $epoch, ?int $now = null): string
+{
+  $now  = $now ?? time();
+  $diff = max(0, $now - $epoch);
+
+  if ($diff < 45) {
+    return 'just now';
+  }
+  if ($diff < 90) {
+    return 'a minute ago';
+  }
+  if ($diff < 2700) {
+    $mins = max(2, (int) round($diff / 60));
+    return $mins . ' minutes ago';
+  }
+  if ($diff < 5400) {
+    return 'an hour ago';
+  }
+  if ($diff < 86400) {
+    $hours = max(2, (int) round($diff / 3600));
+    return $hours . ' hours ago';
+  }
+  if ($diff < 172800) {
+    return 'yesterday';
+  }
+  if ($diff < 2592000) {
+    $days = max(2, (int) round($diff / 86400));
+    return $days . ' days ago';
+  }
+  if ($diff < 5184000) {
+    return 'a month ago';
+  }
+  if ($diff < 31536000) {
+    $months = max(2, (int) round($diff / 2592000));
+    return $months . ' months ago';
+  }
+
+  $years = max(1, (int) round($diff / 31536000));
+  return $years === 1 ? 'a year ago' : $years . ' years ago';
+}
+
+function sfm_validator_link(string $feedUrl, string $format): string
+{
+  $format = strtolower($format);
+  $isJson = $format === 'jsonfeed'
+    || str_ends_with(strtolower($feedUrl), '.json')
+    || str_contains(strtolower($feedUrl), '.json?');
+
+  $target = $isJson
+    ? 'https://validator.jsonfeed.org/?url='
+    : 'https://validator.w3.org/feed/check.cgi?url=';
+
+  return $target . rawurlencode($feedUrl);
+}
+
+/**
+ * @param array<string, mixed> $payload
+ * @param array<string, mixed> $health
+ * @param array<string, mixed> $context
+ */
+function sfm_finalize_payload(array $payload, array $health, array $context = []): array
+{
+  $now       = time();
+  $fromCache = !empty($context['cache_hit']);
+  $isStale   = !empty($context['stale']);
+  $refreshTs = isset($health['last_refresh_epoch']) ? (int) $health['last_refresh_epoch'] : null;
+
+  $origin = $payload['status_origin'] ?? ($payload['used_native'] ?? false ? 'native feed' : 'custom parse');
+  if ($isStale) {
+    $origin = 'stale cache';
+  } elseif ($fromCache && strpos($origin, 'cached') === false) {
+    $origin .= ' (cached)';
+  }
+
+  $timeLabel = $refreshTs ? sfm_human_time_diff($refreshTs, $now) : 'just now';
+  $payload['status_breadcrumb'] = $origin . ' · ' . $timeLabel;
+  $payload['from_cache'] = $fromCache;
+  $payload['is_stale']   = $isStale;
+
+  if (!empty($context['stale_reason'])) {
+    $payload['stale_reason'] = $context['stale_reason'];
+  } elseif (!empty($health['stale_reason']) && $isStale) {
+    $payload['stale_reason'] = (string) $health['stale_reason'];
+  }
+
+  return $payload;
+}
+
+/**
+ * @param array<string, mixed> $payload
+ * @param array<string, mixed> $health
+ * @param array<string, mixed> $context
+ */
+function sfm_render_result_fragment(array $payload, array $health, array $context = []): string
+{
+  $feedUrl      = (string) ($payload['feed_url'] ?? '');
+  $format       = strtolower((string) ($payload['format'] ?? 'rss'));
+  $items        = $payload['items'] ?? null;
+  $status       = (string) ($payload['status_breadcrumb'] ?? '');
+  $usedNative   = !empty($payload['used_native']);
+  $nativeSource = (string) ($payload['native_source'] ?? '');
+  $fromCache    = !empty($payload['from_cache']);
+  $isStale      = !empty($payload['is_stale']);
+  $staleReason  = (string) ($payload['stale_reason'] ?? ($health['stale_reason'] ?? ''));
+
+  $warnings = [];
+  if (isset($payload['validation']['warnings']) && is_array($payload['validation']['warnings'])) {
+    $warnings = $payload['validation']['warnings'];
+  }
+
+  $validatorUrl = sfm_validator_link($feedUrl, $format);
+  $itemsLabel   = $items === null ? '—' : (string) $items;
+
+  $lastRefreshTs = isset($health['last_refresh_epoch']) ? (int) $health['last_refresh_epoch'] : null;
+  $lastAttemptTs = isset($health['last_attempt_epoch']) ? (int) $health['last_attempt_epoch'] : null;
+  $lastError     = isset($health['last_error_message']) ? trim((string) $health['last_error_message']) : '';
+  $lastErrorCode = isset($health['last_error_code']) ? trim((string) $health['last_error_code']) : '';
+
+  $refreshIso = $lastRefreshTs ? gmdate('c', $lastRefreshTs) : '';
+  $attemptIso = $lastAttemptTs ? gmdate('c', $lastAttemptTs) : '';
+
+  $refreshLabel = $lastRefreshTs ? sfm_human_time_diff($lastRefreshTs) : 'n/a';
+  $attemptLabel = $lastAttemptTs ? sfm_human_time_diff($lastAttemptTs) : 'n/a';
+
+  $formatLabel = strtoupper($format ?: 'RSS');
+
+  ob_start();
+  ?>
+  <div id="resultRegion" class="vstack gap-3">
+    <div id="resultCard" class="card shadow-sm">
+      <div class="card-body">
+        <div class="d-flex align-items-center gap-2 mb-3">
+          <h2 class="h5 fw-semibold mb-0">Feed ready</h2>
+          <?php if ($isStale): ?>
+            <span class="badge bg-warning text-dark">STALE</span>
+          <?php elseif ($fromCache): ?>
+            <span class="badge bg-secondary-subtle text-secondary">CACHED</span>
+          <?php endif; ?>
+        </div>
+        <div id="resultBox" class="vstack gap-3">
+          <div class="mb-2">
+            <label class="form-label">Your feed URL</label>
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control mono"
+                value="<?= htmlspecialchars($feedUrl, ENT_QUOTES, 'UTF-8'); ?>"
+                readonly
+                data-focus-target
+              >
+              <button
+                type="button"
+                class="btn btn-outline-secondary copy-btn"
+                data-copy-text="<?= htmlspecialchars($feedUrl, ENT_QUOTES, 'UTF-8'); ?>"
+                data-copy-label="Copy"
+                data-copy-done-label="Copied!"
+              >Copy</button>
+              <a class="btn btn-outline-success" href="<?= htmlspecialchars($feedUrl, ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener">Open</a>
+            </div>
+          </div>
+
+          <div class="d-flex flex-wrap align-items-center gap-2">
+            <a class="btn btn-outline-primary btn-sm" href="<?= htmlspecialchars($validatorUrl, ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener">Validate feed</a>
+            <button type="button" class="btn btn-outline-secondary btn-sm" data-reset-feed>Start new feed</button>
+          </div>
+
+          <div class="muted mt-2 small">
+            <span>Format: <span class="mono text-uppercase"><?= htmlspecialchars($formatLabel, ENT_QUOTES, 'UTF-8'); ?></span></span>
+            <?php if ($itemsLabel !== '—'): ?>
+              <span class="ms-2">Items: <span class="mono"><?= htmlspecialchars($itemsLabel, ENT_QUOTES, 'UTF-8'); ?></span></span>
+            <?php endif; ?>
+            <?php if ($status !== ''): ?>
+              <span class="ms-2"><?= htmlspecialchars($status, ENT_QUOTES, 'UTF-8'); ?></span>
+            <?php endif; ?>
+          </div>
+
+          <?php if ($usedNative && $nativeSource !== ''): ?>
+            <div class="muted small">Using site feed: <a class="link-highlight" href="<?= htmlspecialchars($nativeSource, ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener"><?= htmlspecialchars($nativeSource, ENT_QUOTES, 'UTF-8'); ?></a></div>
+          <?php endif; ?>
+
+          <?php if ($isStale && $staleReason !== ''): ?>
+            <div class="alert alert-warning mt-2 mb-0 small">Showing cached results while we retry. Last attempt: <?= htmlspecialchars($staleReason, ENT_QUOTES, 'UTF-8'); ?>.</div>
+          <?php endif; ?>
+
+          <?php if (!empty($warnings)): ?>
+            <div class="alert alert-warning mt-3 mb-0 d-flex align-items-center gap-2">
+              <span class="badge bg-warning text-dark">Validator</span>
+              <div class="small mb-0">Validator spotted <?= count($warnings) === 1 ? 'a warning' : 'some warnings'; ?>. Use <em>Validate feed</em> for details.</div>
+            </div>
+          <?php endif; ?>
+        </div>
+      </div>
+    </div>
+
+    <div class="card result-health">
+      <div class="card-body">
+        <div class="d-flex align-items-center gap-2 mb-3">
+          <h3 class="h6 fw-semibold mb-0">Feed health</h3>
+          <?php if ($isStale): ?>
+            <span class="badge bg-warning text-dark">STALE</span>
+          <?php else: ?>
+            <span class="badge bg-success-subtle text-success">FRESH</span>
+          <?php endif; ?>
+        </div>
+        <dl class="row small mb-0">
+          <dt class="col-5">Last refresh</dt>
+          <dd class="col-7 text-secondary">
+            <?php if ($lastRefreshTs): ?>
+              <time datetime="<?= htmlspecialchars($refreshIso, ENT_QUOTES, 'UTF-8'); ?>"><?= htmlspecialchars($refreshLabel, ENT_QUOTES, 'UTF-8'); ?></time>
+            <?php else: ?>
+              <span>n/a</span>
+            <?php endif; ?>
+          </dd>
+          <dt class="col-5">Items parsed</dt>
+          <dd class="col-7 text-secondary"><?= htmlspecialchars($itemsLabel, ENT_QUOTES, 'UTF-8'); ?></dd>
+          <dt class="col-5">Last attempt</dt>
+          <dd class="col-7 text-secondary">
+            <?php if ($lastAttemptTs): ?>
+              <time datetime="<?= htmlspecialchars($attemptIso, ENT_QUOTES, 'UTF-8'); ?>"><?= htmlspecialchars($attemptLabel, ENT_QUOTES, 'UTF-8'); ?></time>
+            <?php else: ?>
+              <span>n/a</span>
+            <?php endif; ?>
+          </dd>
+          <dt class="col-5">Last error</dt>
+          <dd class="col-7 text-secondary">
+            <?php if ($lastError !== ''): ?>
+              <?= htmlspecialchars($lastError, ENT_QUOTES, 'UTF-8'); ?>
+              <?php if ($lastErrorCode !== ''): ?>
+                <span class="ms-1 text-uppercase text-muted">(<?= htmlspecialchars($lastErrorCode, ENT_QUOTES, 'UTF-8'); ?>)</span>
+              <?php endif; ?>
+            <?php else: ?>
+              <span>None</span>
+            <?php endif; ?>
+          </dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+  <?php
+  return ob_get_clean();
+}
+
+function sfm_render_error_fragment(string $message, array $details = []): string
+{
+  ob_start();
+  ?>
+  <div id="resultRegion" class="vstack gap-3">
+    <div class="card shadow-sm">
+      <div class="card-body">
+        <h2 class="h5 fw-semibold mb-3">We hit a snag</h2>
+        <div class="alert alert-danger mb-3">
+          <?= htmlspecialchars($message, ENT_QUOTES, 'UTF-8'); ?>
+        </div>
+        <?php if (!empty($details['hints']) && is_array($details['hints'])): ?>
+          <ul class="small text-secondary mb-3">
+            <?php foreach ($details['hints'] as $hint): ?>
+              <li><?= htmlspecialchars((string) $hint, ENT_QUOTES, 'UTF-8'); ?></li>
+            <?php endforeach; ?>
+          </ul>
+        <?php endif; ?>
+        <div class="d-flex flex-wrap align-items-center gap-2">
+          <button type="button" class="btn btn-outline-secondary btn-sm" data-reset-feed>Try again</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <?php
+  return ob_get_clean();
+}
+
+function sfm_render_full_page(array $payload, array $health, array $context = []): string
+{
+  $pageTitle = 'Feed ready — SimpleFeedMaker';
+  $activeNav = '';
+
+  ob_start();
+  require __DIR__ . '/includes/page_head.php';
+  require __DIR__ . '/includes/page_header.php';
+  ?>
+  <main class="py-4 py-md-5 hero-section">
+    <div class="container">
+      <div class="row g-4 justify-content-center">
+        <div class="col-12 col-lg-10 col-xl-8">
+          <?= sfm_render_result_fragment($payload, $health, $context); ?>
+        </div>
+        <div class="col-12 col-lg-10 col-xl-8">
+          <div class="card mt-3">
+            <div class="card-body d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3">
+              <div>
+                <strong>Need another feed?</strong>
+                <div class="small text-secondary">Head back to the generator to start fresh.</div>
+              </div>
+              <a class="btn btn-outline-primary" href="/">Create another feed</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://unpkg.com/htmx.org@1.9.12" crossorigin="anonymous" defer></script>
+  <script src="/assets/js/main.js" defer></script>
+
+  <?php require __DIR__ . '/includes/page_footer.php'; ?>
+  <?php
+  return ob_get_clean();
+}
+
+function sfm_render_error_page(string $message, array $details = []): string
+{
+  $pageTitle = 'Feed error — SimpleFeedMaker';
+  $activeNav = '';
+
+  ob_start();
+  require __DIR__ . '/includes/page_head.php';
+  require __DIR__ . '/includes/page_header.php';
+  ?>
+  <main class="py-5 hero-section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-8 col-xl-6">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h1 class="h4 fw-semibold mb-3">We couldn’t generate that feed</h1>
+              <div class="alert alert-danger">
+                <?= htmlspecialchars($message, ENT_QUOTES, 'UTF-8'); ?>
+              </div>
+              <?php if (!empty($details['hints']) && is_array($details['hints'])): ?>
+                <ul class="small text-secondary mb-3">
+                  <?php foreach ($details['hints'] as $hint): ?>
+                    <li><?= htmlspecialchars((string) $hint, ENT_QUOTES, 'UTF-8'); ?></li>
+                  <?php endforeach; ?>
+                </ul>
+              <?php endif; ?>
+              <a class="btn btn-outline-primary" href="/">Back to generator</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <?php require __DIR__ . '/includes/page_footer.php'; ?>
+  <?php
+  return ob_get_clean();
+}
+
+function sfm_output_success(array $payload, array $health, array $context = []): void
+{
+  global $__sfmResponseMode;
+
+  $mode    = $__sfmResponseMode ?? 'json';
+  $payload = sfm_finalize_payload($payload, $health, $context);
+
+  sfm_prepare_response_headers($mode, 200);
+
+  if ($mode === 'json') {
+    $body = $payload;
+    $body['health'] = $health;
+    if (!empty($context)) {
+      $body['meta'] = $context;
+    }
+    echo json_encode($body, JSON_UNESCAPED_SLASHES);
+  } elseif ($mode === 'fragment') {
+    echo sfm_render_result_fragment($payload, $health, $context);
+  } else {
+    echo sfm_render_full_page($payload, $health, $context);
+  }
+  exit;
+}
+
+function sfm_try_cache_fallback(string $message, int $http, array $details = []): bool
+{
+  global $__sfmCacheEntry, $__sfmCacheKey;
+
+  if (!$__sfmCacheEntry || !is_array($__sfmCacheEntry)) {
+    return false;
+  }
+  if (empty($__sfmCacheEntry['payload']) || empty($__sfmCacheEntry['health'])) {
+    return false;
+  }
+
+  $payload = $__sfmCacheEntry['payload'];
+  $health  = $__sfmCacheEntry['health'];
+
+  if (!is_array($payload) || !is_array($health)) {
+    return false;
+  }
+
+  $payload['status_origin'] = 'stale cache';
+  $payload['stale_reason']  = $message;
+  $payload['ok']            = true;
+
+  $health['is_stale']         = true;
+  $health['stale_reason']     = $message;
+  $health['last_error_message']= $message;
+  if (isset($details['error_code'])) {
+    $health['last_error_code'] = $details['error_code'];
+  }
+  $health['last_attempt_epoch'] = time();
+
+  sfm_feed_cache_update_health($__sfmCacheKey, $__sfmCacheEntry, $health);
+
+  $context = [
+    'cache_hit'    => true,
+    'stale'        => true,
+    'stale_reason' => $message,
+  ];
+  if (isset($details['error_code'])) {
+    $context['error_code'] = $details['error_code'];
+  }
+
+  sfm_output_success($payload, $health, $context);
+  return true;
+}
+
+function sfm_output_error(string $message, int $http = 400, array $details = []): void
+{
+  global $__sfmResponseMode;
+
+  if (sfm_try_cache_fallback($message, $http, $details)) {
+    return;
+  }
+
+  $mode = $__sfmResponseMode ?? 'json';
+  sfm_prepare_response_headers($mode, $http);
+
+  if ($mode === 'json') {
+    $body = ['ok' => false, 'message' => $message];
+    if (!empty($details)) {
+      $body['details'] = $details;
+    }
+    echo json_encode($body, JSON_UNESCAPED_SLASHES);
+  } elseif ($mode === 'fragment') {
+    echo sfm_render_error_fragment($message, $details);
+  } else {
+    echo sfm_render_error_page($message, $details);
+  }
+  exit;
+}
+
+/**
+ * @param array<string, mixed> $result
+ * @param array<string, mixed> $context
+ */
+function sfm_emit_result(array $result, array $context = []): void
+{
+  global $__sfmCacheKey, $__sfmCacheTtl, $__sfmCacheEnabled;
+
+  $payload = $result['payload'] ?? null;
+  $health  = $result['health'] ?? null;
+
+  if (!is_array($payload) || !is_array($health)) {
+    sfm_output_error('Internal server error (malformed response).', 500);
+  }
+
+  if ($__sfmCacheEnabled && !empty($__sfmCacheKey)) {
+    sfm_feed_cache_store($__sfmCacheKey, $payload, $health, $__sfmCacheTtl);
+    $GLOBALS['__sfmCacheEntry'] = [
+      'payload'    => $payload,
+      'health'     => $health,
+      'expires_at' => time() + $__sfmCacheTtl,
+    ];
+  }
+
+  $context = array_merge(['cache_hit' => false, 'stale' => false], $context);
+  sfm_output_success($payload, $health, $context);
+}
+
 // ---------------------------------------------------------------------
 // Helpers
 // ---------------------------------------------------------------------
@@ -80,7 +613,7 @@ function sfm_json_fail(string $msg, int $http = 400, array $extra = []): void
   if (function_exists('sfm_log_event')) {
     sfm_log_event('parse', ['phase' => 'fail', 'reason' => $msg, 'http' => $http] + $extra);
   }
-  json_fail($msg, $http, $extra);
+  sfm_output_error($msg, $http, $extra);
 }
 
 function ensure_feeds_dir(): void
@@ -133,27 +666,27 @@ function sfm_filter_native_candidates(array $cands, string $sourceUrl): array
   return $cands;
 }
 
-function sfm_attempt_native_download(string $requestedUrl, array $candidate, int $limit, bool $preferNativeFlag, string $note, bool $strict, string $logPhase = 'native'): bool
+function sfm_attempt_native_download(string $requestedUrl, array $candidate, int $limit, bool $preferNativeFlag, string $note, bool $strict, string $logPhase = 'native'): ?array
 {
   $href = isset($candidate['href']) ? (string)$candidate['href'] : '';
   if ($href === '') {
     if ($strict) {
       sfm_json_fail('Native feed is missing an href.', 400);
     }
-    return false;
+    return null;
   }
 
   if (!sfm_is_http_url($href)) {
     if ($strict) {
       sfm_json_fail('Native feed uses unsupported scheme.', 400);
     }
-    return false;
+    return null;
   }
   if (!sfm_url_is_public($href)) {
     if ($strict) {
       sfm_json_fail('Native feed is not accessible.', 400);
     }
-    return false;
+    return null;
   }
 
   /** @phpstan-var array{ok:bool,status:int,headers:array<string,string>,body:string,final_url:string,from_cache:bool,was_304:bool,error:?string} $feed */
@@ -162,7 +695,7 @@ function sfm_attempt_native_download(string $requestedUrl, array $candidate, int
   ]);
 
   if (!$feed['ok'] || $feed['status'] < 200 || $feed['status'] >= 400 || $feed['body'] === '') {
-    return false;
+    return null;
   }
 
   [$fmtDetected, $ext] = detect_feed_format_and_ext($feed['body'], $feed['headers'], $href);
@@ -185,7 +718,7 @@ function sfm_attempt_native_download(string $requestedUrl, array $candidate, int
     if ($strict) {
       sfm_json_fail('Failed to save native feed file.', 500);
     }
-    return false;
+    return null;
   }
 
   $feedUrl = rtrim(app_url_base(), '/') . '/feeds/' . $filename;
@@ -219,37 +752,55 @@ function sfm_attempt_native_download(string $requestedUrl, array $candidate, int
     sfm_log_event('parse', $logData);
   }
 
-  $breadcrumb = $preferNativeFlag ? 'native · just now' : 'native fallback · just now';
-  if ($normalization) {
-    $breadcrumb .= ' (normalized)';
+  $now = time();
+  $statusOrigin = $preferNativeFlag ? 'native feed' : 'native fallback';
+  if ($normalization && !empty($normalization['note'])) {
+    $statusOrigin .= ' (normalized)';
   }
 
-  echo json_encode([
-    'ok'                => true,
-    'feed_url'          => $feedUrl,
-    'format'            => $finalFormat,
-    'items'             => null,
-    'used_native'       => true,
-    'native_source'     => $href,
-    'status_breadcrumb' => $breadcrumb,
-    'job_id'            => $job['job_id'] ?? null,
-    'normalized'        => $normalization['note'] ?? null,
-  ], JSON_UNESCAPED_SLASHES);
+  $payload = [
+    'ok'            => true,
+    'feed_url'      => $feedUrl,
+    'format'        => $finalFormat,
+    'items'         => null,
+    'used_native'   => true,
+    'native_source' => $href,
+    'status_origin' => $statusOrigin,
+    'job_id'        => $job['job_id'] ?? null,
+    'normalized'    => $normalization['note'] ?? null,
+  ];
 
-  return true;
+  $health = [
+    'last_refresh_epoch'  => $now,
+    'last_attempt_epoch'  => $now,
+    'items_count'         => null,
+    'last_error_message'  => null,
+    'last_error_code'     => null,
+    'is_stale'            => false,
+    'stale_reason'        => null,
+    'source_url'          => $requestedUrl,
+    'format'              => $finalFormat,
+    'limit'               => $limit,
+    'prefer_native'       => $preferNativeFlag,
+    'native_source'       => $href,
+    'mode'                => 'native',
+    'last_refresh_note'   => $note,
+  ];
+
+  return [
+    'payload' => $payload,
+    'health'  => $health,
+  ];
 }
 
-function sfm_try_native_fallback(string $html, string $requestedUrl, int $limit): bool
+function sfm_try_native_fallback(string $html, string $requestedUrl, int $limit): ?array
 {
   $cands = sfm_discover_feeds($html, $requestedUrl);
   $cands = sfm_filter_native_candidates($cands, $requestedUrl);
-  if (!$cands) return false;
+  if (!$cands) return null;
 
   $pick = $cands[0];
-  if (sfm_attempt_native_download($requestedUrl, $pick, $limit, false, 'native fallback', false, 'native-fallback')) {
-    exit;
-  }
-  return false;
+  return sfm_attempt_native_download($requestedUrl, $pick, $limit, false, 'native fallback', false, 'native-fallback');
 }
 
 // ---------------------------------------------------------------------
@@ -316,6 +867,39 @@ if ($summarySelectorCss !== '') {
   $extractionOptions['summary_selector_xpath'] = $summarySelectorXpath;
 }
 
+$cacheOptions = [
+  'item_selector'   => $extractionOptions['item_selector'] ?? '',
+  'title_selector'  => $extractionOptions['title_selector'] ?? '',
+  'summary_selector'=> $extractionOptions['summary_selector'] ?? '',
+];
+
+$cacheKey = sfm_feed_cache_key($url, $format, $limit, $preferNative, $cacheOptions);
+$__sfmCacheKey = $cacheKey;
+$cacheEntry = ($__sfmCacheEnabled) ? sfm_feed_cache_read($cacheKey) : null;
+$__sfmCacheEntry = $cacheEntry;
+
+if (is_array($cacheEntry) && sfm_feed_cache_is_fresh($cacheEntry)) {
+  $cachedPayload = $cacheEntry['payload'] ?? null;
+  $cachedHealth  = $cacheEntry['health'] ?? null;
+  if (is_array($cachedPayload) && is_array($cachedHealth)) {
+    if (!isset($cachedPayload['status_origin'])) {
+      $cachedPayload['status_origin'] = !empty($cachedPayload['used_native']) ? 'native feed' : 'custom parse';
+    }
+    $cachedHealth['last_attempt_epoch'] = time();
+    $cachedHealth['is_stale'] = false;
+    if ($__sfmCacheEnabled) {
+      sfm_feed_cache_update_health($cacheKey, $cacheEntry, $cachedHealth);
+      $updated = sfm_feed_cache_read($cacheKey);
+      if (is_array($updated)) {
+        $cachedPayload = $updated['payload'] ?? $cachedPayload;
+        $cachedHealth  = $updated['health'] ?? $cachedHealth;
+        $GLOBALS['__sfmCacheEntry'] = $updated;
+      }
+    }
+    sfm_output_success($cachedPayload, $cachedHealth, ['cache_hit' => true, 'stale' => false]);
+  }
+}
+
 // Same-origin guard (soft)
 if (!empty($_SERVER['HTTP_ORIGIN'])) {
   $origin = $_SERVER['HTTP_ORIGIN'];
@@ -336,8 +920,9 @@ if ($preferNative) {
     $cands = sfm_filter_native_candidates($cands, $url);
     if ($cands) {
       $pick = $cands[0];
-      if (sfm_attempt_native_download($url, $pick, $limit, true, 'native download', true, 'native')) {
-        exit;
+      $nativeResult = sfm_attempt_native_download($url, $pick, $limit, true, 'native download', true, 'native');
+      if ($nativeResult !== null) {
+        sfm_emit_result($nativeResult);
       }
     }
   }
@@ -416,7 +1001,10 @@ if (count($items) < $limit) {
 
 if (empty($items)) {
   if (!$preferNative && $page['ok'] && $page['status'] >= 200 && $page['status'] < 400 && $page['body'] !== '') {
-    sfm_try_native_fallback($page['body'], $url, $limit);
+    $nativeFallback = sfm_try_native_fallback($page['body'], $url, $limit);
+    if ($nativeFallback !== null) {
+      sfm_emit_result($nativeFallback, ['fallback' => true]);
+    }
   }
   sfm_fail_with_extraction_diagnostics($extractDebug, $extractionOptions);
 }
@@ -494,24 +1082,43 @@ if (function_exists('sfm_log_event')) {
   ]);
 }
 
-$response = [
-  'ok'                => true,
-  'feed_url'          => $feedUrl,
-  'format'            => $format,
-  'items'             => count($items),
-  'used_native'       => false,
-  'status_breadcrumb' => 'created: ' . count($items) . ' items · just now',
-  'job_id'            => $job['job_id'] ?? null,
+$now = time();
+$payload = [
+  'ok'            => true,
+  'feed_url'      => $feedUrl,
+  'format'        => $format,
+  'items'         => count($items),
+  'used_native'   => false,
+  'status_origin' => 'custom parse',
+  'job_id'        => $job['job_id'] ?? null,
 ];
 
 if (!empty($validation['warnings'])) {
-  $response['validation'] = [
+  $payload['validation'] = [
     'warnings' => $validation['warnings'],
   ];
 }
 
-echo json_encode($response, JSON_UNESCAPED_SLASHES);
-exit;
+$health = [
+  'last_refresh_epoch'  => $now,
+  'last_attempt_epoch'  => $now,
+  'items_count'         => count($items),
+  'last_error_message'  => null,
+  'last_error_code'     => null,
+  'is_stale'            => false,
+  'stale_reason'        => null,
+  'source_url'          => $url,
+  'format'              => $format,
+  'limit'               => $limit,
+  'prefer_native'       => $preferNative,
+  'mode'                => 'custom',
+  'last_refresh_note'   => 'custom parse',
+];
+
+sfm_emit_result([
+  'payload' => $payload,
+  'health'  => $health,
+]);
 
 function sfm_fail_with_extraction_diagnostics(array $debug, array $options): void
 {

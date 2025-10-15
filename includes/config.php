@@ -170,6 +170,18 @@ if (!defined('SFM_HTTP_MAX_BYTES')) {
   $envLimit = (int) getenv('SFM_HTTP_MAX_BYTES');
   define('SFM_HTTP_MAX_BYTES', $envLimit > 0 ? $envLimit : 8 * 1024 * 1024);
 }
+if (!function_exists('sfm_resolve_feed_cache_ttl')) {
+  function sfm_resolve_feed_cache_ttl(): int {
+    $raw = getenv('SFM_FEED_CACHE_TTL');
+    if ($raw !== false && $raw !== '') {
+      return max(0, (int) $raw);
+    }
+    return 900;
+  }
+}
+if (!defined('SFM_FEED_CACHE_TTL')) {
+  define('SFM_FEED_CACHE_TTL', sfm_resolve_feed_cache_ttl());
+}
 
 if (!function_exists('sfm_parse_host_header')) {
   /**

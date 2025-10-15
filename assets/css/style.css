@@ -76,6 +76,14 @@ body {
   line-height: 1.2;
 }
 
+#feedForm .htmx-indicator {
+  display: none;
+}
+
+#feedForm.htmx-request .htmx-indicator {
+  display: inline-flex;
+}
+
 .site-title {
   font-family: "Oswald", "Work Sans", system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
                "Helvetica Neue", Arial, sans-serif;
@@ -992,6 +1000,19 @@ input[type="number"] { -moz-appearance: textfield; }
   color: #63ffa4;
   border-color: rgba(99, 255, 164, .35);
   background: rgba(16, 77, 57, .14);
+}
+
+.result-health {
+  border: 1px solid rgba(255, 255, 255, .12);
+}
+
+.result-health .badge {
+  font-size: .7rem;
+  letter-spacing: .04em;
+}
+
+[data-bs-theme="light"] .result-health {
+  border-color: rgba(34, 40, 49, .12);
 }
 
 /* ------------------------------
