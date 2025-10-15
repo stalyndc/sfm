@@ -202,16 +202,28 @@
   if (window.htmx) {
     const markRefreshBusy = (evt) => {
       const trigger = evt.target instanceof Element ? evt.target.closest('.btn-refresh') : null;
-      if (trigger) {
-        trigger.classList.add('is-busy');
+      if (!trigger) {
+        return;
       }
+      if (!trigger.dataset.originalLabel) {
+        trigger.dataset.originalLabel = trigger.textContent.trim();
+      }
+      const busyLabel = trigger.getAttribute('data-refreshing-label') || 'Refreshing…';
+      trigger.textContent = busyLabel;
+      trigger.classList.add('is-busy');
     };
 
     const clearRefreshBusy = (evt) => {
       const trigger = evt.target instanceof Element ? evt.target.closest('.btn-refresh') : null;
-      if (trigger) {
-        trigger.classList.remove('is-busy');
+      if (!trigger) {
+        return;
       }
+      const original = trigger.dataset.originalLabel;
+      if (original) {
+        trigger.textContent = original;
+        delete trigger.dataset.originalLabel;
+      }
+      trigger.classList.remove('is-busy');
     };
 
     htmx.on('htmx:beforeRequest', markRefreshBusy);
