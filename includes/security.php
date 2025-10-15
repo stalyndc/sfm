@@ -164,6 +164,10 @@ function sec_boot_session(): void {
     setcookie('sfm_csrf', $sessionToken, $csrfCookieOptions);
     $_COOKIE['sfm_csrf'] = $sessionToken;
   }
+
+  if ($sessionToken !== '' && !headers_sent()) {
+    header('X-CSRF-Token: ' . $sessionToken);
+  }
 }
 
 /* ============================================================
