@@ -1203,14 +1203,16 @@ input[type="number"] { -moz-appearance: textfield; }
   display: inline-block;
 }
 
-.recent-feeds-card .btn-refresh.htmx-request {
+.recent-feeds-card .btn-refresh.htmx-request,
+.recent-feeds-card .btn-refresh.is-busy {
   pointer-events: none;
   opacity: .8;
   border-color: var(--bs-primary);
   color: var(--bs-primary);
 }
 
-.recent-feeds-card .btn-refresh.htmx-request::after {
+.recent-feeds-card .btn-refresh.htmx-request::after,
+.recent-feeds-card .btn-refresh.is-busy::after {
   animation: spin .65s linear infinite;
   opacity: 1;
   transform: translateY(-50%) scale(1);

@@ -198,4 +198,25 @@
       htmx.on('htmx:responseError', stopButtonBusy);
     }
   }
+
+  if (window.htmx) {
+    const markRefreshBusy = (evt) => {
+      const trigger = evt.target instanceof Element ? evt.target.closest('.btn-refresh') : null;
+      if (trigger) {
+        trigger.classList.add('is-busy');
+      }
+    };
+
+    const clearRefreshBusy = (evt) => {
+      const trigger = evt.target instanceof Element ? evt.target.closest('.btn-refresh') : null;
+      if (trigger) {
+        trigger.classList.remove('is-busy');
+      }
+    };
+
+    htmx.on('htmx:beforeRequest', markRefreshBusy);
+    htmx.on('htmx:afterRequest', clearRefreshBusy);
+    htmx.on('htmx:sendError', clearRefreshBusy);
+    htmx.on('htmx:responseError', clearRefreshBusy);
+  }
 })();
