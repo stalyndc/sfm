@@ -1160,23 +1160,41 @@ input[type="number"] { -moz-appearance: textfield; }
 }
 
 .recent-feeds-card .htmx-indicator {
+  display: none;
   font-size: .8rem;
+  gap: .35rem;
+  align-items: center;
 }
 
-.recent-feeds-card .btn-refresh.is-refreshing {
-  position: relative;
-  pointer-events: none;
-  opacity: .7;
+.recent-feeds-card .htmx-indicator.htmx-request {
+  display: inline-flex;
 }
 
-.recent-feeds-card .btn-refresh.is-refreshing::after {
+.recent-feeds-card .htmx-indicator::before {
   content: "";
-  width: .75rem;
-  height: .75rem;
+  width: .65rem;
+  height: .65rem;
   border-radius: 50%;
   border: 2px solid currentColor;
   border-top-color: transparent;
-  margin-left: .45rem;
+  animation: spin .8s linear infinite;
+  display: inline-block;
+}
+
+.recent-feeds-card .btn-refresh.htmx-request {
+  position: relative;
+  pointer-events: none;
+  opacity: .65;
+}
+
+.recent-feeds-card .btn-refresh.htmx-request::after {
+  content: "";
+  width: .7rem;
+  height: .7rem;
+  border-radius: 50%;
+  border: 2px solid currentColor;
+  border-top-color: transparent;
+  margin-left: .4rem;
   display: inline-block;
   animation: spin .7s linear infinite;
   vertical-align: middle;

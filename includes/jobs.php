@@ -686,14 +686,11 @@ if (!function_exists('sfm_recent_feeds_card_html')) {
               hx-target="closest .recent-feeds-card"
               hx-swap="outerHTML"
               hx-indicator="#<?= htmlspecialchars($indicatorId, ENT_QUOTES, 'UTF-8'); ?>"
-              data-indicator="<?= htmlspecialchars($indicatorId, ENT_QUOTES, 'UTF-8'); ?>"
-              hx-on:htmx:beforeRequest="this.classList.add('is-refreshing');var ind=document.getElementById(this.dataset.indicator);if(ind){ind.style.display='inline-flex';}"
-              hx-on:htmx:afterRequest="this.classList.remove('is-refreshing');var ind=document.getElementById(this.dataset.indicator);if(ind){ind.style.display='none';}"
               aria-label="Refresh recent feeds"
             >
               <?= htmlspecialchars($buttonLabel, ENT_QUOTES, 'UTF-8'); ?>
             </button>
-            <div id="<?= htmlspecialchars($indicatorId, ENT_QUOTES, 'UTF-8'); ?>" class="htmx-indicator small text-secondary" style="display:none;"><?= htmlspecialchars($refreshingLabel, ENT_QUOTES, 'UTF-8'); ?></div>
+            <div id="<?= htmlspecialchars($indicatorId, ENT_QUOTES, 'UTF-8'); ?>" class="htmx-indicator small text-secondary"><?= htmlspecialchars($refreshingLabel, ENT_QUOTES, 'UTF-8'); ?></div>
           </div>
         </div>
         <?php if ($note !== ''): ?>
