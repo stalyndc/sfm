@@ -148,6 +148,57 @@
   }
 
   if (hasForm) {
+    const getCsrfField = () => {
+      const field = form.querySelector('input[name="csrf_token"]');
+      return field instanceof HTMLInputElement ? field : null;
+    };
+
+    const applyCsrfToken = (token) => {
+      if (typeof token !== 'string' || token === '') {
+        return;
+      }
+      const field = getCsrfField();
+      if (field && field.value !== token) {
+        field.value = token;
+      }
+    };
+
+    const syncCsrfTokenFromXhr = (xhr) => {
+      if (!xhr || typeof xhr.getResponseHeader !== 'function') {
+        return null;
+      }
+      const nextToken = xhr.getResponseHeader('X-CSRF-Token');
+      if (typeof nextToken === 'string' && nextToken !== '') {
+        applyCsrfToken(nextToken);
+        return nextToken;
+      }
+      return null;
+    };
+
+    let csrfRetryCount = 0;
+    let csrfAutoResubmitting = false;
+
+    const resetCsrfRetryState = () => {
+      csrfRetryCount = 0;
+      csrfAutoResubmitting = false;
+    };
+
+    const attemptCsrfAutoResubmit = (xhr) => {
+      if (!window.htmx || !xhr || xhr.status !== 403) {
+        return false;
+      }
+      const refreshed = syncCsrfTokenFromXhr(xhr);
+      if (!refreshed || csrfRetryCount > 0) {
+        return false;
+      }
+      csrfRetryCount = 1;
+      csrfAutoResubmitting = true;
+      window.setTimeout(() => {
+        window.htmx.trigger(form, 'submit');
+      }, 0);
+      return true;
+    };
+
     form.addEventListener('submit', (event) => {
       if (!form.checkValidity()) {
         event.preventDefault();
@@ -179,6 +230,11 @@
           markUrlInvalid();
           return;
         }
+        if (csrfAutoResubmitting) {
+          csrfAutoResubmitting = false;
+        } else {
+          csrfRetryCount = 0;
+        }
         startButtonBusy();
       });
 
@@ -187,6 +243,7 @@
           return;
         }
         stopButtonBusy();
+        resetCsrfRetryState();
         resultRegion.dataset.state = 'result';
         const firstFocusable = resultRegion.querySelector('[data-focus-target], a, button');
         if (firstFocusable instanceof HTMLElement) {
@@ -194,8 +251,35 @@
         }
       });
 
-      htmx.on('htmx:sendError', stopButtonBusy);
-      htmx.on('htmx:responseError', stopButtonBusy);
+      htmx.on('htmx:afterRequest', (evt) => {
+        if (evt.detail && evt.detail.xhr) {
+          syncCsrfTokenFromXhr(evt.detail.xhr);
+        }
+        if (evt.target === form && evt.detail && evt.detail.successful) {
+          resetCsrfRetryState();
+        }
+      });
+
+      htmx.on('htmx:sendError', (evt) => {
+        if (evt.target === form) {
+          resetCsrfRetryState();
+        }
+        stopButtonBusy();
+      });
+
+      htmx.on('htmx:responseError', (evt) => {
+        const xhr = evt.detail ? evt.detail.xhr : null;
+        if (evt.target === form && attemptCsrfAutoResubmit(xhr)) {
+          return;
+        }
+        if (xhr) {
+          syncCsrfTokenFromXhr(xhr);
+        }
+        if (evt.target === form) {
+          resetCsrfRetryState();
+        }
+        stopButtonBusy();
+      });
     }
   }
 
