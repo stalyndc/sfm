@@ -287,6 +287,7 @@ function sfm_items_from_dom(
     $queries = [
         '//article[.//a[@href]]//a[@href]',
         '//*[contains(@class,"card") or contains(@class,"story") or contains(@class,"item") or contains(@class,"post")]//a[@href]',
+        '//a[contains(@class,"gnt_m_he") or contains(@class,"gnt_m_flm_a") or contains(@class,"gnt_m_th_a") or contains(@class,"gnt_em_gl")][@href]',
         '//h1//a[@href] | //h2//a[@href] | //h3//a[@href]',
         '//li//a[@href]',
     ];
