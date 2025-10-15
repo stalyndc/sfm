@@ -32,7 +32,7 @@ require __DIR__ . '/../includes/page_header.php';
 
     <div class="row g-3">
       <div class="col-12 col-xl-8">
-        <?= sfm_recent_feeds_card_html(null, 30, [
+        <?= sfm_recent_feeds_card_html(null, 10, [
           'note' => 'Visible only to authenticated admins. Use refresh to pull the latest feed drops.',
           'button_label' => 'Refresh list',
           'refreshing_label' => 'Updating…',

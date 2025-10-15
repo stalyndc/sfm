@@ -1164,10 +1164,16 @@ input[type="number"] { -moz-appearance: textfield; }
   font-size: .8rem;
 }
 
-.recent-feeds-card .htmx-indicator.htmx-request {
+.recent-feeds-card .htmx-indicator.htmx-request,
+.recent-feeds-card .btn-outline-secondary.htmx-request + .htmx-indicator {
   display: inline-flex;
   align-items: center;
   gap: .35rem;
+}
+
+.recent-feeds-card .btn-outline-secondary.htmx-request {
+  pointer-events: none;
+  opacity: .6;
 }
 
 .recent-feeds-card .htmx-indicator::before {
