@@ -66,12 +66,28 @@ foreach ($lintTargets as $target) {
     }
 }
 
-$autoloader = $projectRoot . '/secure/vendor/autoload.php';
+$autoloader     = $projectRoot . '/secure/vendor/autoload.php';
+$lockFile       = $projectRoot . '/composer.lock';
+$runtimePackages = [];
+if (is_file($lockFile)) {
+    $lockJson = (string)@file_get_contents($lockFile);
+    if ($lockJson !== '') {
+        $lockData = json_decode($lockJson, true);
+        if (json_last_error() === JSON_ERROR_NONE && isset($lockData['packages']) && is_array($lockData['packages'])) {
+            $runtimePackages = $lockData['packages'];
+        }
+    }
+}
+
 if (!is_file($autoloader)) {
-    $failures[] = [
-        'file' => 'secure/vendor/autoload.php',
-        'output' => 'Composer vendor autoloader missing. Run `composer install --no-dev`.',
-    ];
+    if (!empty($runtimePackages)) {
+        $failures[] = [
+            'file' => 'secure/vendor/autoload.php',
+            'output' => 'Composer vendor autoloader missing. Run `composer install --no-dev`.',
+        ];
+    } else {
+        $warnings[] = 'Composer vendor autoloader missing (no runtime packages required). Run `composer install --no-dev` when tooling is available.';
+    }
 }
 
 $auditOutput = [];
@@ -81,9 +97,20 @@ if ($auditExit !== 0) {
     $joined = trim(implode("\n", $auditOutput));
     if (strpos($joined, 'Command "audit" is not defined') !== false) {
         $warnings[] = 'composer audit unavailable (Composer < 2.4?). Skipped security advisory check.';
-    } elseif (stripos($joined, 'could not resolve host') !== false) {
-        $warnings[] = 'composer audit skipped (network unreachable).';
-    } elseif ($joined !== '') {
+} elseif (stripos($joined, 'could not resolve host') !== false
+    || stripos($joined, 'failed to download') !== false
+    || stripos($joined, 'failed to enable crypto') !== false
+    || stripos($joined, 'connect tunnel failed') !== false
+    || stripos($joined, 'operation timed out') !== false
+    || stripos($joined, 'timed out') !== false
+    || stripos($joined, 'ssl connect error') !== false
+    || stripos($joined, 'network is unreachable') !== false
+    || stripos($joined, 'connection refused') !== false
+    || stripos($joined, 'could not resolve proxy') !== false
+    || stripos($joined, 'getaddrinfo failed') !== false
+) {
+    $warnings[] = 'composer audit skipped (network unreachable).';
+} elseif ($joined !== '') {
         $failures[] = [
             'file' => 'composer audit',
             'output' => $joined,

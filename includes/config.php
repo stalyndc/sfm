@@ -30,7 +30,18 @@ if (!defined('DEBUG')) {
 /* Show fewer errors to the browser in prod; always log server-side */
 ini_set('display_errors', DEBUG ? '1' : '0');
 ini_set('log_errors', '1');
-error_reporting(DEBUG ? E_ALL : (E_ALL & ~E_NOTICE & ~E_DEPRECATED & ~E_STRICT));
+$productionMask = E_ALL & ~E_NOTICE & ~E_DEPRECATED;
+$coreConstants = get_defined_constants(true);
+$strictLevel = 0;
+if (isset($coreConstants['Core']) && is_array($coreConstants['Core']) && isset($coreConstants['Core']['E_STRICT'])) {
+  $strictLevel = (int)$coreConstants['Core']['E_STRICT'];
+} elseif (isset($coreConstants['E_STRICT'])) {
+  $strictLevel = (int)$coreConstants['E_STRICT'];
+}
+if ($strictLevel !== 0) {
+  $productionMask &= ~$strictLevel;
+}
+error_reporting(DEBUG ? E_ALL : $productionMask);
 
 /* Timezone (UTC keeps generated feed dates stable and predictable) */
 date_default_timezone_set('UTC');
