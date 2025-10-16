@@ -15,8 +15,7 @@
 
 declare(strict_types=1);
 
-// Enhanced error handling for guaranteed JSON responses
-header('Content-Type: application/json; charset=utf-8');
+// Enhanced error handling setup
 $SFM_DEBUG = getenv('SFM_DEBUG') === '1';
 header('Cache-Control: no-store');
 ob_start();
@@ -874,10 +873,6 @@ function sfm_try_native_fallback(string $html, string $requestedUrl, int $limit)
 // Inputs
 // ---------------------------------------------------------------------
 secure_assert_post('generate');
-
-if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') {
-  sfm_json_fail('Use POST.', 405);
-}
 
 $url              = trim((string)($_POST['url'] ?? ''));
 $limit            = (int)($_POST['limit'] ?? DEFAULT_LIM);
