@@ -114,6 +114,261 @@ function sfm_clean_date(?string $s): string {
     return $ts ? date('c', $ts) : $s;
 }
 
+/** Convert Tumblr NPF content blocks into basic HTML. */
+function sfm_tumblr_content_to_html($blocks): string
+{
+    if (!is_array($blocks) || !$blocks) {
+        return '';
+    }
+
+    $parts = [];
+    foreach ($blocks as $block) {
+        if (!is_array($block)) {
+            continue;
+        }
+        $type = strtolower((string)($block['type'] ?? ''));
+        if ($type === 'text') {
+            $text = trim((string)($block['text'] ?? ''));
+            if ($text !== '') {
+                $parts[] = '<p>' . nl2br(htmlspecialchars($text, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8')) . '</p>';
+            }
+        } elseif ($type === 'image') {
+            $url = '';
+            foreach ((array) ($block['media'] ?? []) as $media) {
+                $media = (array) $media;
+                if (!empty($media['url'])) {
+                    $url = (string) $media['url'];
+                    break;
+                }
+            }
+            if ($url !== '') {
+                $parts[] = '<p><img src="' . htmlspecialchars($url, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') . '" alt=""></p>';
+            }
+        } elseif ($type === 'link') {
+            $url = (string)($block['url'] ?? $block['href'] ?? '');
+            if ($url !== '') {
+                $title = sfm_neat_text($block['title'] ?? ($block['display_url'] ?? $url), 200);
+                if ($title === '') {
+                    $title = $url;
+                }
+                $parts[] = '<p><a href="' . htmlspecialchars($url, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') . '">' . htmlspecialchars($title, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') . '</a></p>';
+            }
+        } elseif ($type === 'quote') {
+            $text = trim((string)($block['text'] ?? ''));
+            if ($text !== '') {
+                $parts[] = '<blockquote>' . nl2br(htmlspecialchars($text, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8')) . '</blockquote>';
+            }
+        } elseif (in_array($type, ['audio', 'video', 'poll'], true)) {
+            $url = (string)($block['url'] ?? '');
+            if ($url !== '') {
+                $parts[] = '<p><a href="' . htmlspecialchars($url, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') . '">' . htmlspecialchars($url, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') . '</a></p>';
+            }
+        }
+    }
+
+    return implode("\n", $parts);
+}
+
+/** Get a reasonable text snippet from Tumblr post data. */
+function sfm_tumblr_first_text(array $post): string
+{
+    if (!empty($post['content']) && is_array($post['content'])) {
+        foreach ($post['content'] as $block) {
+            if (!is_array($block)) {
+                continue;
+            }
+            if (strtolower((string)($block['type'] ?? '')) === 'text') {
+                $text = sfm_neat_text($block['text'] ?? '', 220);
+                if ($text !== '') {
+                    return $text;
+                }
+            }
+        }
+    }
+
+    if (!empty($post['trail']) && is_array($post['trail'])) {
+        foreach ($post['trail'] as $trail) {
+            if (!is_array($trail) || empty($trail['content']) || !is_array($trail['content'])) {
+                continue;
+            }
+            foreach ($trail['content'] as $block) {
+                if (!is_array($block)) {
+                    continue;
+                }
+                if (strtolower((string)($block['type'] ?? '')) === 'text') {
+                    $text = sfm_neat_text($block['text'] ?? '', 220);
+                    if ($text !== '') {
+                        return $text;
+                    }
+                }
+            }
+        }
+    }
+
+    if (!empty($post['title'])) {
+        $text = sfm_neat_text($post['title'], 220);
+        if ($text !== '') {
+            return $text;
+        }
+    }
+
+    return '';
+}
+
+/** Convert a Tumblr timeline entry into a feed item. */
+function sfm_tumblr_entry_to_item(array $entry, string $sourceUrl): ?array
+{
+    $post = $entry['post'] ?? $entry;
+    if (!is_array($post)) {
+        return null;
+    }
+
+    $objectType = strtolower((string)($entry['objectType'] ?? $post['objectType'] ?? ''));
+    if ($objectType !== '' && $objectType !== 'post') {
+        return null;
+    }
+
+    $url = '';
+    foreach (['postUrl', 'post_url', 'permalink_url', 'shortUrl', 'short_url'] as $field) {
+        if (!empty($post[$field]) && is_string($post[$field])) {
+            $url = (string) $post[$field];
+            break;
+        }
+    }
+    if ($url === '' && !empty($post['legacy']['url']) && is_string($post['legacy']['url'])) {
+        $url = (string) $post['legacy']['url'];
+    }
+    if ($url === '') {
+        return null;
+    }
+    if (!parse_url($url, PHP_URL_SCHEME)) {
+        $url = sfm_abs_url($url, $sourceUrl);
+    }
+
+    $title = sfm_neat_text($post['summary'] ?? '', 220);
+    if ($title === '') {
+        $title = sfm_tumblr_first_text($post);
+    }
+    if ($title === '' && !empty($post['blogName'])) {
+        $title = 'Post from ' . sfm_neat_text($post['blogName'], 180);
+    }
+    if ($title === '') {
+        $title = $url;
+    }
+
+    $description = sfm_tumblr_content_to_html($post['content'] ?? []);
+    if ($description === '' && !empty($post['summary'])) {
+        $description = '<p>' . htmlspecialchars($post['summary'], ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') . '</p>';
+    }
+
+    $tags = [];
+    if (!empty($post['tags']) && is_array($post['tags'])) {
+        foreach ($post['tags'] as $tag) {
+            if (is_string($tag) && $tag !== '') {
+                $tags[] = '#' . trim($tag);
+            } elseif (is_array($tag) && !empty($tag['name'])) {
+                $tags[] = '#' . trim((string) $tag['name']);
+            }
+        }
+    }
+    if ($tags) {
+        $description .= ($description !== '' ? "\n" : '') . '<p>Tags: ' . htmlspecialchars(implode(' ', $tags), ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') . '</p>';
+    }
+
+    $date = '';
+    if (!empty($post['timestamp'])) {
+        $date = date('c', (int) $post['timestamp']);
+    } elseif (!empty($post['date'])) {
+        $date = sfm_clean_date($post['date']);
+    }
+
+    return [
+        'title'       => $title,
+        'link'        => $url,
+        'description' => $description,
+        'date'        => $date,
+    ];
+}
+
+/** Extract Tumblr search/tag posts via embedded state JSON. */
+function sfm_extract_items_from_tumblr_state(DOMXPath $xp, string $sourceUrl, int $limit): array
+{
+    $host = strtolower((string) parse_url($sourceUrl, PHP_URL_HOST));
+    if ($host === '') {
+        return [];
+    }
+    if ($host !== 'tumblr.com' && $host !== 'www.tumblr.com' && substr($host, -11) !== '.tumblr.com') {
+        return [];
+    }
+
+    $script = $xp->query('//script[@id="___INITIAL_STATE___"]')->item(0);
+    if (!$script instanceof DOMElement) {
+        return [];
+    }
+
+    $json = trim($script->textContent ?? '');
+    if ($json === '') {
+        return [];
+    }
+
+    $state = json_decode($json, true);
+    if (!is_array($state)) {
+        return [];
+    }
+
+    $querySets = $state['queries']['queries'] ?? [];
+    if (!is_array($querySets) || !$querySets) {
+        return [];
+    }
+
+    $items = [];
+    $seen = [];
+    foreach ($querySets as $query) {
+        if (!is_array($query)) {
+            continue;
+        }
+        $keyList = $query['queryKey'] ?? [];
+        if (!is_array($keyList) || !$keyList) {
+            continue;
+        }
+        $key = strtolower((string) $keyList[0]);
+        if (strpos($key, 'timeline') === false) {
+            continue;
+        }
+
+        $data = $query['state']['data'] ?? null;
+        if (!is_array($data) || empty($data['pages']) || !is_array($data['pages'])) {
+            continue;
+        }
+
+        foreach ($data['pages'] as $page) {
+            if (!is_array($page) || empty($page['items']) || !is_array($page['items'])) {
+                continue;
+            }
+            foreach ($page['items'] as $entry) {
+                if (!is_array($entry)) {
+                    continue;
+                }
+                $item = sfm_tumblr_entry_to_item($entry, $sourceUrl);
+                if ($item === null) {
+                    continue;
+                }
+                $linkKey = strtolower((string) ($item['link'] ?? ''));
+                if ($linkKey === '' || isset($seen[$linkKey])) {
+                    continue;
+                }
+                $seen[$linkKey] = true;
+                $items[] = $item;
+                if (count($items) >= $limit) {
+                    return $items;
+                }
+            }
+        }
+    }
+
+    return $items;
+}
+
 // ---------------------------
 // Feed autodiscovery
 // ---------------------------
@@ -473,18 +728,43 @@ function sfm_extract_items(string $html, string $sourceUrl, int $limit = 10, arr
     if ($debug !== null) {
         $debug['jsonld_count'] = count($items);
     }
-    if (count($items) >= $limit) {
-        return $items;
+
+    $existingLinks = [];
+    foreach ($items as $it) {
+        $link = strtolower((string) ($it['link'] ?? ''));
+        if ($link !== '') {
+            $existingLinks[$link] = true;
+        }
+    }
+
+    // Tumblr embeds full post data in ___INITIAL_STATE___ — prefer that when available.
+    $tumblrItems = sfm_extract_items_from_tumblr_state($xp, $sourceUrl, $limit);
+    if ($debug !== null) {
+        $debug['tumblr_state_count'] = count($tumblrItems);
+    }
+    if ($tumblrItems) {
+        foreach ($tumblrItems as $tumblrItem) {
+            $link = strtolower((string) ($tumblrItem['link'] ?? ''));
+            if ($link === '' || isset($existingLinks[$link])) {
+                continue;
+            }
+            $existingLinks[$link] = true;
+            $items[] = $tumblrItem;
+            if (count($items) >= $limit) {
+                break;
+            }
+        }
     }
 
     // 2) Optional custom selector override
-    $items = sfm_items_from_custom_selector($xp, $base, $limit, $options, $items, $debug);
-    if (count($items) >= $limit) {
-        return $items;
+    if (count($items) < $limit) {
+        $items = sfm_items_from_custom_selector($xp, $base, $limit, $options, $items, $debug);
     }
 
     // 3) Fall back to DOM heuristics to reach $limit
-    $items = sfm_items_from_dom($xp, $base, $limit, $items, $options, $debug);
+    if (count($items) < $limit) {
+        $items = sfm_items_from_dom($xp, $base, $limit, $items, $options, $debug);
+    }
 
     // Gentle uniq by link (keep first occurrence)
     $seen = [];
