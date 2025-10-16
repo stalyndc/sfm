@@ -100,7 +100,7 @@ function sfm_json_fail(string $msg, int $http = 400, array $extra = []): void {
   global $__span, $__logEnabled;
   if ($__logEnabled && is_array($__span)) {
     if (function_exists('sfm_log_error')) {
-      sfm_log_error($__span, 'fail', ['http'=>$http, 'reason'=>$msg] + $extra);
+      sfm_log_error('fail: ' . $msg, ['span' => $__span, 'http' => $http] + $extra);
     }
   }
   while (ob_get_level()) ob_end_clean();

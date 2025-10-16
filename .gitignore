@@ -8,6 +8,7 @@ secure/config.php
 secure/admin-password-rehash.todo
 secure/http-overrides.php
 secure/vendor/
+.env
 
 # Runtime artifacts
 secure/logs/*

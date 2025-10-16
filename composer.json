@@ -10,7 +10,13 @@
     "ext-json": "*",
     "ext-libxml": "*",
     "ext-mbstring": "*",
-    "ext-simplexml": "*"
+    "ext-simplexml": "*",
+    "guzzlehttp/guzzle": "^7.8",
+    "symfony/cache": "^6.3",
+    "symfony/dom-crawler": "^6.3",
+    "symfony/css-selector": "^6.3",
+    "vlucas/phpdotenv": "^5.5",
+    "monolog/monolog": "^3.0"
   },
   "config": {
     "vendor-dir": "secure/vendor",
