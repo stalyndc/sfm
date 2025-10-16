@@ -515,14 +515,20 @@ if (!function_exists('sfm_known_feed_override')) {
             return $buildNativeOverride($job, $rssUrl, 'ninefornews', 'NineForNews native feed override');
         }
 
-        // Mastodon - Add direct .rss feed support for tag pages
-        if (preg_match('#^https?://(?:www\.)?mastodon\.social/tags/([^/]+)/?$#i', $sourceUrl, $matches)) {
-            $rssUrl = $sourceUrl . '.rss';
-            
-            // Test the RSS feed before using it
-            $testResponse = sfm_http_get($rssUrl);
-            if ($testResponse['ok'] && $testResponse['status'] === 200) {
+        // Mastodon tag pages
+        $mastodonTag = sfm_mastodon_parse_tag_url($sourceUrl);
+        if ($mastodonTag !== null) {
+            [$mastodonHost, $mastodonSlug] = $mastodonTag;
+            $rssUrl = rtrim($sourceUrl, '/') . '.rss';
+
+            $testResponse = sfm_http_get($rssUrl, ['cache_ttl' => 300]);
+            if ($testResponse['ok'] && $testResponse['status'] === 200 && sfm_count_feed_items($testResponse['body'], 'rss') > 0) {
                 return $buildNativeOverride($job, $rssUrl, 'mastodon', 'Mastodon tag RSS feed');
+            }
+
+            $generated = sfm_mastodon_tag_override($job, $sourceUrl, $feedUrl, $tmpPath, $feedPath, $mastodonHost, $mastodonSlug);
+            if ($generated !== null) {
+                return $generated;
             }
         }
 
@@ -936,25 +942,250 @@ if (!function_exists('sfm_refresh_job')) {
 if (!function_exists('sfm_should_try_mastodon_fallback')) {
     function sfm_should_try_mastodon_fallback(string $sourceUrl): bool
     {
-        return preg_match('#^https?://(?:www\.)?mastodon\.social/tags/([^/]+)/?$#i', $sourceUrl) === 1;
+        return sfm_mastodon_parse_tag_url($sourceUrl) !== null;
     }
 }
 
 if (!function_exists('sfm_try_mastodon_feed')) {
     function sfm_try_mastodon_feed(string $sourceUrl): ?array
     {
-        $rssUrl = $sourceUrl . '.rss';
-        $response = sfm_http_get($rssUrl);
-        
-        if ($response['ok'] && $response['status'] === 200) {
+        $tag = sfm_mastodon_parse_tag_url($sourceUrl);
+        if ($tag === null) {
+            return null;
+        }
+
+        $rssUrl = rtrim($sourceUrl, '/') . '.rss';
+        $response = sfm_http_get($rssUrl, ['cache_ttl' => 300]);
+
+        if ($response['ok'] && $response['status'] === 200 && sfm_count_feed_items($response['body'], 'rss') > 0) {
             return [
                 'url' => $rssUrl,
                 'body' => $response['body'],
                 'format' => 'rss'
             ];
         }
-        
+
         return null;
+    }
+}
+
+if (!function_exists('sfm_mastodon_parse_tag_url')) {
+    function sfm_mastodon_parse_tag_url(string $url): ?array
+    {
+        if (preg_match('#^https?://([^/]+)/tags/([^/]+)/?$#i', $url, $m)) {
+            $host = strtolower($m[1]);
+            if (str_starts_with($host, 'www.')) {
+                $host = substr($host, 4);
+            }
+            $slug = $m[2];
+            return [$host, $slug];
+        }
+        return null;
+    }
+}
+
+if (!function_exists('sfm_mastodon_tag_override')) {
+    function sfm_mastodon_tag_override(array $job, string $sourceUrl, string $feedUrl, string $tmpPath, string $feedPath, string $host, string $slug): ?array
+    {
+        $limit = max(1, min(MAX_LIM, (int)($job['limit'] ?? DEFAULT_LIM)));
+        $apiLimit = min(40, max($limit, 10));
+        $apiUrl = 'https://' . $host . '/api/v1/timelines/tag/' . rawurlencode($slug) . '?limit=' . $apiLimit;
+
+        $response = sfm_http_get($apiUrl, [
+            'headers' => ['Accept' => 'application/json'],
+            'cache_ttl' => 300,
+        ]);
+
+        if (!$response['ok'] || $response['status'] < 200 || $response['status'] >= 400) {
+            return null;
+        }
+
+        $payload = json_decode($response['body'], true);
+        if (!is_array($payload) || !$payload) {
+            return null;
+        }
+
+        $items = [];
+        foreach ($payload as $status) {
+            if (!is_array($status)) {
+                continue;
+            }
+            $item = sfm_mastodon_status_to_item($status, $sourceUrl);
+            if ($item === null) {
+                continue;
+            }
+            $items[] = $item;
+            if (count($items) >= $limit) {
+                break;
+            }
+        }
+
+        if (!$items) {
+            return null;
+        }
+
+        $format = strtolower((string)($job['format'] ?? DEFAULT_FMT));
+        if (!in_array($format, ['rss', 'atom', 'jsonfeed'], true)) {
+            $format = DEFAULT_FMT;
+        }
+
+        $tagDisplay = urldecode($slug);
+        $title = '#' . $tagDisplay . ' on ' . $host;
+        $desc = 'Latest public posts tagged #' . $tagDisplay . ' on ' . $host . '.';
+
+        switch ($format) {
+            case 'jsonfeed':
+                $content = build_jsonfeed($title, $sourceUrl, $desc, $items, $feedUrl);
+                break;
+            case 'atom':
+                $content = build_atom($title, $sourceUrl, $desc, $items);
+                break;
+            default:
+                $content = build_rss($title, $sourceUrl, $desc, $items);
+                break;
+        }
+
+        $validation = sfm_validate_feed($format, $content);
+        if (!$validation['ok']) {
+            return null;
+        }
+
+        if (@file_put_contents($tmpPath, $content) === false) {
+            throw new RuntimeException('Unable to write temp feed file');
+        }
+        @chmod($tmpPath, 0664);
+        if (!@rename($tmpPath, $feedPath)) {
+            throw new RuntimeException('Unable to replace feed file');
+        }
+
+        return [
+            $content,
+            count($items),
+            $validation,
+            'override' => [
+                'key'    => 'mastodon-tag-api',
+                'label'  => 'Mastodon tag API feed',
+                'source' => $apiUrl,
+            ],
+        ];
+    }
+}
+
+if (!function_exists('sfm_mastodon_status_to_item')) {
+    function sfm_mastodon_status_to_item(array $status, string $sourceUrl): ?array
+    {
+        if (!empty($status['reblog']) && is_array($status['reblog'])) {
+            $status = $status['reblog'];
+        }
+
+        $link = trim((string)($status['url'] ?? ''));
+        if ($link === '') {
+            return null;
+        }
+
+        $contentHtml = trim((string)($status['content'] ?? ''));
+        $spoiler = trim((string)($status['spoiler_text'] ?? ''));
+
+        $account = is_array($status['account'] ?? null) ? $status['account'] : [];
+        $displayName = trim((string)($account['display_name'] ?? ''));
+        $username = trim((string)($account['username'] ?? ''));
+        $acct = trim((string)($account['acct'] ?? ''));
+        $author = $displayName ?: ($acct ?: $username);
+
+        $plain = strip_tags($contentHtml);
+        $plain = html_entity_decode($plain, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
+        $plain = trim($plain);
+        if ($plain === '') {
+            $plain = $spoiler !== '' ? $spoiler : $link;
+        }
+
+        if (function_exists('mb_strlen') && function_exists('mb_substr')) {
+            if (mb_strlen($plain) > 200) {
+                $plain = mb_substr($plain, 0, 199) . '…';
+            }
+        } elseif (strlen($plain) > 200) {
+            $plain = substr($plain, 0, 199) . '…';
+        }
+
+        $title = $author !== '' ? ($author . ': ' . $plain) : $plain;
+
+        $bodyHtml = $contentHtml;
+        if ($spoiler !== '') {
+            $bodyHtml = '<p><strong>' . htmlspecialchars($spoiler, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') . '</strong></p>' . $bodyHtml;
+        }
+        if ($bodyHtml === '') {
+            $bodyHtml = '<p>' . htmlspecialchars($plain, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') . '</p>';
+        }
+
+        $image = null;
+        $mediaHtml = [];
+        if (!empty($status['media_attachments']) && is_array($status['media_attachments'])) {
+            foreach ($status['media_attachments'] as $attachment) {
+                if (!is_array($attachment)) {
+                    continue;
+                }
+                $full = trim((string)($attachment['url'] ?? ''));
+                $preview = trim((string)($attachment['preview_url'] ?? ''));
+                $displayUrl = $full !== '' ? $full : $preview;
+                if ($displayUrl === '') {
+                    continue;
+                }
+                if (!function_exists('sfm_is_http_url') || !sfm_is_http_url($displayUrl)) {
+                    $scheme = strtolower((string)parse_url($displayUrl, PHP_URL_SCHEME));
+                    if ($scheme !== 'http' && $scheme !== 'https') {
+                        continue;
+                    }
+                }
+                $safeUrl = htmlspecialchars($displayUrl, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
+                $desc = trim((string)($attachment['description'] ?? ''));
+                if ($image === null) {
+                    $image = $displayUrl;
+                }
+                $type = strtolower((string)($attachment['type'] ?? ''));
+                if ($type === 'video' || $type === 'gifv' || $type === 'audio') {
+                    $mediaHtml[] = '<p><a href="' . $safeUrl . '">Media attachment</a></p>';
+                    continue;
+                }
+                $fig = '<figure><img src="' . $safeUrl . '" alt="' . htmlspecialchars($desc, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') . '"/>';
+                if ($desc !== '') {
+                    $fig .= '<figcaption>' . htmlspecialchars($desc, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') . '</figcaption>';
+                }
+                $fig .= '</figure>';
+                $mediaHtml[] = $fig;
+            }
+        }
+        if ($mediaHtml) {
+            $bodyHtml .= "\n" . implode("\n", $mediaHtml);
+        }
+
+        $tags = [];
+        if (!empty($status['tags']) && is_array($status['tags'])) {
+            foreach ($status['tags'] as $tag) {
+                if (!is_array($tag)) {
+                    continue;
+                }
+                $name = trim((string)($tag['name'] ?? ''));
+                if ($name === '') {
+                    continue;
+                }
+                $tags[] = '#' . $name;
+            }
+        }
+
+        $created = trim((string)($status['created_at'] ?? ''));
+        $timestamp = $created !== '' ? strtotime($created) : false;
+        $date = $timestamp ? date('c', $timestamp) : '';
+
+        return [
+            'title'         => $title,
+            'link'          => $link,
+            'description'   => $plain,
+            'content_html'  => $bodyHtml,
+            'date'          => $date,
+            'author'        => $author,
+            'image'         => $image,
+            'tags'          => $tags,
+        ];
     }
 }
 
