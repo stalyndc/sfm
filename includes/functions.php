@@ -133,11 +133,11 @@ function get_base_url(string $html, ?string $sourceUrl = null): ?string {
 
   $base = null;
   $tag = $xp->query('//base[@href]')->item(0);
-  if ($tag) $base = trim($tag->getAttribute('href'));
+  if ($tag instanceof DOMElement) $base = trim($tag->getAttribute('href'));
 
   if (!$base) {
     $canon = $xp->query('//link[@rel="canonical"][@href]')->item(0);
-    if ($canon) $base = trim($canon->getAttribute('href'));
+    if ($canon instanceof DOMElement) $base = trim($canon->getAttribute('href'));
   }
   if (!$base && $sourceUrl) $base = $sourceUrl;
   if (!$base) return null;
@@ -372,7 +372,7 @@ function parse_items(string $html, int $limit, ?string $sourceUrl = null): array
     if (!$nodes || !$nodes->length) continue;
 
     foreach ($nodes as $a) {
-      if (is_nav_context($a)) continue;
+      if (!($a instanceof DOMElement) || is_nav_context($a)) continue;
 
       $title = neat_text($a->textContent, 200);
       if ($title === '' || mb_strlen($title) < 6) continue;

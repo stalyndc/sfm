@@ -42,6 +42,101 @@ use Symfony\Component\Cache\Adapter\FilesystemAdapter;
 use Symfony\Contracts\Cache\ItemInterface;
 
 /**
+ * Handle test fixture responses for testing environment
+ * Returns null if no fixture should be used, otherwise returns fixture response array
+ */
+function sfm_http_fixture_response(string $url, string $method = 'GET', array $options = []): ?array
+{
+    $fixtureDir = getenv('SFM_TEST_FIXTURE_DIR');
+    if ($fixtureDir === false || !is_dir($fixtureDir)) {
+        return null;
+    }
+
+    $parts = @parse_url($url);
+    if (!is_array($parts)) {
+        return null;
+    }
+
+    $host = strtolower($parts['host'] ?? '');
+    $path = $parts['path'] ?? '/';
+    if ($path === '') {
+        $path = '/';
+    }
+
+    $allowedHostsEnv = getenv('SFM_TEST_FIXTURE_HOSTS');
+    $allowedHosts = [];
+    if ($allowedHostsEnv !== false && $allowedHostsEnv !== '') {
+        foreach (preg_split('/[;,]+/', $allowedHostsEnv) ?: [] as $candidate) {
+            $candidate = strtolower(trim($candidate));
+            if ($candidate !== '') {
+                $allowedHosts[$candidate] = true;
+            }
+        }
+    }
+
+    if ($host === 'fixtures.simplefeedmaker.test') {
+        $fixturePath = rtrim($fixtureDir, '/\\') . $path;
+    } elseif (isset($allowedHosts[$host])) {
+        $fixturePath = rtrim($fixtureDir, '/\\') . '/' . $host . $path;
+    } else {
+        return null;
+    }
+
+    if ($path === '/' || substr($path, -1) === '/') {
+        $fixturePath = rtrim($fixturePath, '/\\') . '/index.html';
+    }
+    if (is_dir($fixturePath)) {
+        $fixturePath = rtrim($fixturePath, '/\\') . '/index.html';
+    }
+
+    if (!is_file($fixturePath) || !is_readable($fixturePath)) {
+        $headers = ['content-type' => 'text/plain'];
+        return [
+            'ok' => false,
+            'status' => 404,
+            'headers' => $headers,
+            'body' => '',
+            'final_url' => $url,
+            'from_cache' => false,
+            'was_304' => false,
+            'error' => 'Fixture not found: ' . $fixturePath,
+        ];
+    }
+
+    $body = (string)@file_get_contents($fixturePath);
+    $headers = ['content-type' => 'text/html; charset=UTF-8'];
+
+    if (strtoupper($method) === 'HEAD') {
+        $body = '';
+    }
+
+    $maxBytes = (int)($options['max_bytes'] ?? (defined('SFM_HTTP_MAX_BYTES') ? SFM_HTTP_MAX_BYTES : 0));
+    if ($maxBytes > 0 && strlen($body) > $maxBytes) {
+        return [
+            'ok' => false,
+            'status' => 0,
+            'headers' => $headers,
+            'body' => '',
+            'final_url' => $url,
+            'from_cache' => false,
+            'was_304' => false,
+            'error' => 'body_too_large',
+        ];
+    }
+
+    return [
+        'ok' => true,
+        'status' => 200,
+        'headers' => $headers,
+        'body' => $body,
+        'final_url' => $url,
+        'from_cache' => false,
+        'was_304' => false,
+        'error' => null,
+    ];
+}
+
+/**
  * Initialize Guzzle client with proper configuration
  */
 function sfm_create_guzzle_client(): Client
@@ -149,6 +244,13 @@ function sfm_normalize_response(ResponseInterface $response, string $url): array
  */
 function sfm_http_get(string $url, ?array $options = null): array
 {
+    // Check for test fixtures first (for testing environment)
+    $options = $options ?? [];
+    $fixture = sfm_http_fixture_response($url, 'GET', $options);
+    if ($fixture !== null) {
+        return $fixture;
+    }
+
     if (!sfm_http_url_is_allowed($url, $reason)) {
         return [
             'ok' => false,
@@ -162,7 +264,6 @@ function sfm_http_get(string $url, ?array $options = null): array
         ];
     }
 
-    $options = $options ?? [];
     $cache = sfm_create_cache();
     $client = sfm_create_guzzle_client();
     $cacheKey = 'http_get_' . md5($url . serialize($options));
@@ -227,6 +328,13 @@ function sfm_http_get(string $url, ?array $options = null): array
  */
 function sfm_http_head(string $url, ?array $options = null): array
 {
+    // Check for test fixtures first (for testing environment)
+    $options = $options ?? [];
+    $fixture = sfm_http_fixture_response($url, 'HEAD', $options);
+    if ($fixture !== null) {
+        return $fixture;
+    }
+
     if (!sfm_http_url_is_allowed($url, $reason)) {
         return [
             'ok' => false,
@@ -239,8 +347,6 @@ function sfm_http_head(string $url, ?array $options = null): array
             'error' => "URL not allowed: {$reason}",
         ];
     }
-
-    $options = $options ?? [];
     $client = sfm_create_guzzle_client();
 
     try {
@@ -274,6 +380,13 @@ function sfm_http_multi_get(array $urls, ?array $options = null): array
     $results = [];
 
     foreach ($urls as $index => $url) {
+        // Check for test fixtures first (for testing environment)
+        $fixture = sfm_http_fixture_response($url, 'GET', $options);
+        if ($fixture !== null) {
+            $results[$index] = $fixture;
+            continue;
+        }
+
         if (!sfm_http_url_is_allowed($url, $reason)) {
             $results[$index] = [
                 'ok' => false,
@@ -338,6 +451,13 @@ function sfm_http_multi_get(array $urls, ?array $options = null): array
  */
 function sfm_http_post(string $url, ?array $postData = null, ?array $options = null): array
 {
+    // Check for test fixtures first (for testing environment)
+    $options = $options ?? [];
+    $fixture = sfm_http_fixture_response($url, 'POST', $options);
+    if ($fixture !== null) {
+        return $fixture;
+    }
+
     if (!sfm_http_url_is_allowed($url, $reason)) {
         return [
             'ok' => false,
@@ -350,8 +470,6 @@ function sfm_http_post(string $url, ?array $postData = null, ?array $options = n
             'error' => "URL not allowed: {$reason}",
         ];
     }
-
-    $options = $options ?? [];
     if ($postData !== null) {
         $options['json'] = $postData; // Send as JSON by default
     }
