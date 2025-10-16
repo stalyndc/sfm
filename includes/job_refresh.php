@@ -8,7 +8,7 @@
 declare(strict_types=1);
 
 require_once __DIR__ . '/config.php';
-require_once __DIR__ . '/http.php';
+require_once __DIR__ . '/http_guzzle.php';
 require_once __DIR__ . '/extract.php';
 require_once __DIR__ . '/enrich.php';
 require_once __DIR__ . '/jobs.php';
@@ -515,10 +515,21 @@ if (!function_exists('sfm_known_feed_override')) {
             return $buildNativeOverride($job, $rssUrl, 'ninefornews', 'NineForNews native feed override');
         }
 
+        // Mastodon - Add direct .rss feed support for tag pages
+        if (preg_match('#^https?://(?:www\.)?mastodon\.social/tags/([^/]+)/?$#i', $sourceUrl, $matches)) {
+            $rssUrl = $sourceUrl . '.rss';
+            
+            // Test the RSS feed before using it
+            $testResponse = sfm_http_get($rssUrl);
+            if ($testResponse['ok'] && $testResponse['status'] === 200) {
+                return $buildNativeOverride($job, $rssUrl, 'mastodon', 'Mastodon tag RSS feed');
+            }
+        }
+
         if (preg_match('#^https?://(?:www\.)?rense\.com/?$#i', $sourceUrl)) {
             /** @phpstan-var array{ok:bool,status:int,headers:array<string,string>,body:string,final_url:string,from_cache:bool,was_304:bool,error:?string} $page */
-            $page = http_get($sourceUrl, [
-                'use_cache' => false,
+            $page = sfm_http_get($sourceUrl, [
+                'cache_ttl' => 0,
                 'timeout'   => TIMEOUT_S,
                 'accept'    => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
             ]);
@@ -657,6 +668,58 @@ if (!function_exists('sfm_refresh_job')) {
 
         try {
             $native = null;
+            
+            // Fallback: Check for Mastodon feeds (better than failing)
+            if (sfm_should_try_mastodon_fallback($job['source_url'] ?? '')) {
+                if ($logEnabled && function_exists('sfm_log_event')) {
+                    sfm_log_event('refresh', [
+                        'phase' => 'mastodon-fallback-attempt',
+                        'job_id' => $job['job_id'],
+                        'source_url' => $job['source_url'],
+                    ]);
+                }
+                try {
+                    $mastodonFeed = sfm_try_mastodon_feed($job['source_url'] ?? '');
+                    if ($mastodonFeed !== null) {
+                        // Switch to native mode for this successful Mastodon feed
+                        $jobUpdate = sfm_job_update($job['job_id'], [
+                            'mode' => 'native',
+                            'native_source' => $mastodonFeed['url'],
+                            'prefer_native' => true,
+                        ]);
+                        if (is_array($jobUpdate)) {
+                            $job = $jobUpdate;
+                            $mode = 'native';
+                            $sourceUrl = $mastodonFeed['url'];
+                        }
+                        
+                        if ($logEnabled && function_exists('sfm_log_event')) {
+                            sfm_log_event('refresh', [
+                                'phase' => 'mastodon-fallback-success',
+                                'job_id' => $job['job_id'],
+                                'source' => $mastodonFeed['url'],
+                            ]);
+                        }
+                    } else {
+                        if ($logEnabled && function_exists('sfm_log_event')) {
+                            sfm_log_event('refresh', [
+                                'phase' => 'mastodon-fallback-no-feed',
+                                'job_id' => $job['job_id'],
+                                'source_url' => $job['source_url'],
+                            ]);
+                        }
+                    }
+                } catch (Throwable $mastodonError) {
+                    if ($logEnabled && function_exists('sfm_log_event')) {
+                        sfm_log_event('refresh', [
+                            'phase' => 'mastodon-fallback-error',
+                            'job_id' => $job['job_id'],
+                            'error' => $mastodonError->getMessage(),
+                        ]);
+                    }
+                }
+            }
+            
             if ($mode === 'native' && !empty($job['native_source'])) {
                 try {
                     $native = sfm_refresh_native($job);
@@ -866,6 +929,32 @@ if (!function_exists('sfm_refresh_job')) {
                 @unlink($tmpPath);
             }
         }
+    }
+}
+
+// Helper functions for Mastodon fallback
+if (!function_exists('sfm_should_try_mastodon_fallback')) {
+    function sfm_should_try_mastodon_fallback(string $sourceUrl): bool
+    {
+        return preg_match('#^https?://(?:www\.)?mastodon\.social/tags/([^/]+)/?$#i', $sourceUrl) === 1;
+    }
+}
+
+if (!function_exists('sfm_try_mastodon_feed')) {
+    function sfm_try_mastodon_feed(string $sourceUrl): ?array
+    {
+        $rssUrl = $sourceUrl . '.rss';
+        $response = sfm_http_get($rssUrl);
+        
+        if ($response['ok'] && $response['status'] === 200) {
+            return [
+                'url' => $rssUrl,
+                'body' => $response['body'],
+                'format' => 'rss'
+            ];
+        }
+        
+        return null;
     }
 }
 
