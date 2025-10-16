@@ -190,14 +190,32 @@ function csrf_validate(?string $token): bool {
   if ($token === null || $token === '') return false;
   $token = (string)$token;
 
+  // Additional validation: ensure token is reasonable length and format
+  if (strlen($token) < 32 || strlen($token) > 128 || !ctype_xdigit($token)) {
+    return false;
+  }
+
+  // Check against session token first (primary)
   if ($expected !== '' && hash_equals($expected, $token)) {
+    // Regenerate token after successful validation to prevent replay attacks
+    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
     return true;
   }
 
+  // Fallback to double-submit cookie token
   $cookieToken = isset($_COOKIE['sfm_csrf']) ? (string)$_COOKIE['sfm_csrf'] : '';
-  if ($cookieToken !== '' && hash_equals($cookieToken, $token)) {
+  if ($cookieToken !== '' && strlen($cookieToken) >= 32 && strlen($cookieToken) <= 128 && ctype_xdigit($cookieToken) && hash_equals($cookieToken, $token)) {
+    // Regenerate token after successful validation
+    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
     return true;
   }
+
+  // Log failed CSRF attempts for security monitoring
+  error_log('CSRF validation failed: ' . json_encode([
+    'ip' => $_SERVER['REMOTE_ADDR'] ?? 'unknown',
+    'user_agent' => $_SERVER['HTTP_USER_AGENT'] ?? 'unknown',
+    'timestamp' => time()
+  ]));
 
   return false;
 }

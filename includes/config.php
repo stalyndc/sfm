@@ -27,21 +27,100 @@ if (!defined('DEBUG')) {
   define('DEBUG', $envDebug === '1' || $envDebug === 'true');
 }
 
-/* Show fewer errors to the browser in prod; always log server-side */
+/* Enhanced error handling for security */
 ini_set('display_errors', DEBUG ? '1' : '0');
 ini_set('log_errors', '1');
-$productionMask = E_ALL & ~E_NOTICE & ~E_DEPRECATED;
-$coreConstants = get_defined_constants(true);
-$strictLevel = 0;
-if (isset($coreConstants['Core']['E_STRICT'])) {
-  $strictLevel = (int)$coreConstants['Core']['E_STRICT'];
-} elseif (isset($coreConstants['E_STRICT'])) {
-  $strictLevel = (int)$coreConstants['E_STRICT'];
+ini_set('log_errors_max_len', '1024'); // Prevent log poisoning with long messages
+ini_set('ignore_repeated_errors', '1');
+ini_set('ignore_repeated_source', '1');
+
+// Ensure error log is writable and secure
+if (!defined('ERROR_LOG_PATH')) {
+  $errorLogPath = __DIR__ . '/../secure/logs/php_errors.log';
+  define('ERROR_LOG_PATH', $errorLogPath);
 }
-if ($strictLevel !== 0) {
-  $productionMask &= ~$strictLevel;
-}
+ini_set('error_log', ERROR_LOG_PATH);
+
+// Production error mask (hide sensitive info)
+$productionMask = E_ALL & ~E_NOTICE & ~E_DEPRECATED & ~E_STRICT & ~E_USER_DEPRECATED;
 error_reporting(DEBUG ? E_ALL : $productionMask);
+
+// Set up secure exception handler
+function sfm_secure_exception_handler($exception): void {
+  // Log full details for debugging
+  error_log('Uncaught exception: ' . $exception->getMessage() . ' in ' . $exception->getFile() . ':' . $exception->getTraceAsString());
+  
+  // Show generic error to users
+  if (!headers_sent()) {
+    http_response_code(500);
+    header('Content-Type: application/json');
+  }
+  
+  $isProduction = !defined('DEBUG') || !DEBUG;
+  $message = $isProduction ? 'Internal Server Error' : $exception->getMessage();
+  
+  echo json_encode([
+    'ok' => false,
+    'message' => $message,
+    'timestamp' => time(),
+    'request_id' => substr(md5(uniqid('', true)), 0, 8)
+  ], JSON_UNESCAPED_SLASHES);
+  exit;
+}
+
+// Set up secure error handler
+function sfm_secure_error_handler($errno, $errstr, $errfile = null, $errline = null): bool {
+  // Don't log suppressed errors
+  if (!(error_reporting() & $errno)) {
+    return false;
+  }
+  
+  // Format error message securely
+  $errorTypes = [
+    E_ERROR => 'Fatal Error',
+    E_WARNING => 'Warning', 
+    E_PARSE => 'Parse Error',
+    E_NOTICE => 'Notice',
+    E_CORE_ERROR => 'Core Error',
+    E_CORE_WARNING => 'Core Warning',
+    E_COMPILE_ERROR => 'Compile Error',
+    E_COMPILE_WARNING => 'Compile Warning',
+    E_USER_ERROR => 'User Error',
+    E_USER_WARNING => 'User Warning',
+    E_USER_NOTICE => 'User Notice'
+  ];
+  $errorType = $errorTypes[$errno] ?? 'Unknown Error';
+  
+  // Log with sanitized filepath (remove absolute paths)
+  $safeErrfile = $errfile ? basename($errfile) : 'unknown';
+  error_log("{$errorType}: {$errstr} in {$safeErrfile}:{$errline}");
+  
+  // Don't show errors to users in production
+  $isProduction = !defined('DEBUG') || !DEBUG;
+  if ($isProduction && in_array($errno, [E_ERROR, E_PARSE, E_CORE_ERROR, E_COMPILE_ERROR, E_USER_ERROR])) {
+    if (!headers_sent()) {
+      http_response_code(500);
+      header('Content-Type: application/json');
+    }
+    
+    echo json_encode([
+      'ok' => false,
+      'message' => 'Internal Server Error',
+      'timestamp' => time(),
+      'request_id' => substr(md5(uniqid('', true)), 0, 8)
+    ], JSON_UNESCAPED_SLASHES);
+    exit;
+  }
+  
+  return true;
+}
+
+// Register handlers only if not already registered
+if (!defined('SECURE_HANDLERS_REGISTERED')) {
+  set_exception_handler('sfm_secure_exception_handler');
+  set_error_handler('sfm_secure_error_handler');
+  define('SECURE_HANDLERS_REGISTERED', true);
+}
 
 /* Timezone (UTC keeps generated feed dates stable and predictable) */
 date_default_timezone_set('UTC');

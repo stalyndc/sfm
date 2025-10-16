@@ -11,13 +11,13 @@
     "ext-libxml": "*",
     "ext-mbstring": "*",
     "ext-simplexml": "*",
-    "guzzlehttp/guzzle": "^7.8",
-    "monolog/monolog": "^3.0",
+    "guzzlehttp/guzzle": "^7.9",
+    "monolog/monolog": "^3.5",
     "nikolaposa/rate-limit": "^3.2",
     "respect/validation": "^2.4",
-    "symfony/cache": "^7.3",
-    "symfony/css-selector": "^7.3",
-    "symfony/dom-crawler": "^7.3",
+    "symfony/cache": "^6.4",
+    "symfony/css-selector": "^6.4",
+    "symfony/dom-crawler": "^6.4",
     "vlucas/phpdotenv": "^5.5"
   },
   "config": {

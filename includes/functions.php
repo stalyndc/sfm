@@ -29,17 +29,73 @@ function is_domainish(string $s): bool {
  * Normalize and validate a user-provided URL.
  * - Adds https:// if user pasted a bare domain.
  * - Returns empty string if invalid.
+ * - Enhanced security checks against malicious URLs
  */
 function sanitize_url(string $raw): string {
   $raw = trim($raw);
   if ($raw === '') return '';
+  
+  // Check for suspicious patterns
+  $schemes = ['javascript:', 'data:', 'vbscript:', 'file:', 'ftp:'];
+  foreach ($schemes as $scheme) {
+    if (stripos($raw, $scheme) === 0) {
+      return '';
+    }
+  }
+  
+  // Prevent XSS in URL fragments
+  if (preg_match('/["<>\']/', $raw)) {
+    return '';
+  }
+  
+  // Length check to prevent buffer overflow attacks
+  if (strlen($raw) > 2048) {
+    return '';
+  }
+  
   if (is_domainish($raw)) {
     $raw = 'https://' . $raw;
   }
-  if (filter_var($raw, FILTER_VALIDATE_URL)) {
-    return $raw;
+  
+  // Enhanced FILTER_VALIDATE_URL with allowed protocols
+  $flags = 0;
+  if (defined('FILTER_FLAG_SCHEME_REQUIRED')) {
+    $flags |= FILTER_FLAG_SCHEME_REQUIRED;
+  }
+  if (defined('FILTER_FLAG_HOST_REQUIRED')) {
+    $flags |= FILTER_FLAG_HOST_REQUIRED;
+  }
+  
+  if (filter_var($raw, FILTER_VALIDATE_URL, $flags)) {
+    $parsed = parse_url($raw);
+    // Only allow HTTP/HTTPS schemes
+    if (isset($parsed['scheme']) && in_array(strtolower($parsed['scheme']), ['http', 'https'])) {
+      // Block localhost and private IPs
+      if (isset($parsed['host']) && !is_private_ip($parsed['host'])) {
+        return $raw;
+      }
+    }
   }
   return '';
+}
+
+/**
+ * Check if a hostname is a private IP or localhost
+ */
+function is_private_ip(string $host): bool {
+  // Check for common private/local patterns
+  $privatePatterns = [
+    '/^(localhost|127\.|10\.|192\.168\.|172\.(1[6-9]|2[0-9]|3[01])\.)/',
+    '/^::1$|^fe80::/i',
+    '/^0\.0\.0\.0$/'
+  ];
+  
+  foreach ($privatePatterns as $pattern) {
+    if (preg_match($pattern, $host)) {
+      return true;
+    }
+  }
+  return false;
 }
 
 /* ========================================================================
