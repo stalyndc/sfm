@@ -48,3 +48,10 @@ function http_head(string $url, array $options = []): array {}
  * }
  */
 function http_multi_get(array $requests, array $options = []): array {}
+
+/**
+ * @param array<string,mixed> $span
+ * @param string $stage
+ * @param array<string,mixed> $meta
+ */
+function sfm_log_error(array $span, string $stage, array $meta = []): void {}

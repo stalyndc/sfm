@@ -356,10 +356,8 @@ function sfm_discover_feeds_symfony(string $html, string $baseUrl = ''): array
         return $feeds;
         
     } catch (\Exception $e) {
-        sfm_log_error('Feed discovery failed', [
-            'error' => $e->getMessage(),
-            'baseUrl' => $baseUrl,
-        ]);
+        // Log error quietly - don't use logger to avoid signature conflicts
+        error_log('Feed discovery failed: ' . $e->getMessage() . ' (baseUrl: ' . $baseUrl . ')');
         
         return $feeds;
     }
