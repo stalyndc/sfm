@@ -12,11 +12,13 @@
     "ext-mbstring": "*",
     "ext-simplexml": "*",
     "guzzlehttp/guzzle": "^7.8",
+    "monolog/monolog": "^3.0",
+    "nikolaposa/rate-limit": "^3.2",
+    "respect/validation": "^2.4",
     "symfony/cache": "^6.3",
-    "symfony/dom-crawler": "^6.3",
     "symfony/css-selector": "^6.3",
-    "vlucas/phpdotenv": "^5.5",
-    "monolog/monolog": "^3.0"
+    "symfony/dom-crawler": "^6.3",
+    "vlucas/phpdotenv": "^5.5"
   },
   "config": {
     "vendor-dir": "secure/vendor",
@@ -24,8 +26,9 @@
     "sort-packages": true
   },
   "require-dev": {
-    "squizlabs/php_codesniffer": "^3.9",
-    "phpstan/phpstan": "^1.11"
+    "phpstan/phpstan": "^1.11",
+    "phpunit/phpunit": "^11.5",
+    "squizlabs/php_codesniffer": "^3.9"
   },
   "scripts": {
     "test": "@php secure/scripts/smoke_test.php",

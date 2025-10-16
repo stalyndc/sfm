@@ -58,6 +58,8 @@ require_once $cacheFile;  // sfm_feed_cache_* helpers
 require_once __DIR__ . '/includes/feed_validator.php';
 require_once __DIR__ . '/includes/enrich.php';
 require_once __DIR__ . '/includes/jobs.php';
+require_once __DIR__ . '/includes/InputValidator.php';
+require_once __DIR__ . '/includes/LoggerService.php';
 
 // ---------------------------------------------------------------------
 // Config
@@ -77,6 +79,9 @@ if (!defined('MAX_LIM')) {
 if (!defined('FEEDS_DIR')) {
   define('FEEDS_DIR', __DIR__ . '/feeds');
 }
+
+// Start timing for performance logging
+$startMicrotime = microtime(true);
 
 $__sfmResponseMode = sfm_detect_response_mode();
 $__sfmCacheKey      = null;
@@ -485,7 +490,7 @@ function sfm_render_error_page(string $message, array $details = []): string
 
 function sfm_output_success(array $payload, array $health, array $context = []): void
 {
-  global $__sfmResponseMode;
+  global $__sfmResponseMode, $startMicrotime, $format, $extractionOptions;
 
   $mode    = $__sfmResponseMode ?? 'json';
   $payload = sfm_finalize_payload($payload, $health, $context);
@@ -498,6 +503,23 @@ function sfm_output_success(array $payload, array $health, array $context = []):
     if (!empty($context)) {
       $body['meta'] = $context;
     }
+    
+    // Log successful generation
+    $startTime = isset($startMicrotime) ? (float) $startMicrotime : microtime(true);
+    $generationTime = microtime(true) - $startTime;
+    $currentFormat = $format ?? ($body['format'] ?? '');
+    $options = isset($extractionOptions) && is_array($extractionOptions) ? $extractionOptions : [];
+    LoggerService::logGenerationSuccess(
+      $body['feed_url'] ?? '',
+      count($body['items'] ?? []),
+      $generationTime,
+      [
+        'format' => $currentFormat,
+        'cache_hit' => $context['cache_hit'] ?? false,
+        'extraction_options' => $options,
+      ]
+    );
+    
     echo json_encode($body, JSON_UNESCAPED_SLASHES);
   } elseif ($mode === 'fragment') {
     echo sfm_render_result_fragment($payload, $health, $context);
@@ -821,18 +843,63 @@ $itemSelectorCss  = trim((string)($_POST['item_selector'] ?? ''));
 $titleSelectorCss = trim((string)($_POST['title_selector'] ?? ''));
 $summarySelectorCss = trim((string)($_POST['summary_selector'] ?? ''));
 
-if ($url === '' || !filter_var($url, FILTER_VALIDATE_URL)) {
-  sfm_json_fail('Please provide a valid URL (including http:// or https://).');
+// Validate input using the InputValidator
+$validationResult = InputValidator::validateFeedGenerationRequest([
+  'url' => $url,
+  'format' => $format,
+  'limit' => $limit,
+  'prefer_native' => $preferNative,
+]);
+
+if (!$validationResult['valid']) {
+  $errorMessages = [];
+  foreach ($validationResult['errors'] as $field => $errors) {
+    $errorMessages[$field] = implode(', ', (array)$errors);
+  }
+  
+  LoggerService::logGenerationError('Input validation failed', null, [
+    'errors' => $errorMessages,
+    'original_data' => [
+      'url' => $url,
+      'format' => $format,
+      'limit' => $limit,
+      'prefer_native' => $preferNative,
+    ]
+  ]);
+  
+  sfm_json_fail('Validation failed: ' . implode('; ', $errorMessages), 400, [
+    'field' => array_key_first($errorMessages),
+    'validation_errors' => $errorMessages
+  ]);
 }
+
+$validated = $validationResult['data'];
+$url = $validated['url'];
+$format = $validated['format'];
+$limit = $validated['limit'];
+$preferNative = $validated['prefer_native'];
+
+// Log the generation request
+LoggerService::logGenerationRequest($url, $format, $limit, [
+  'prefer_native' => $preferNative,
+]);
+
+// Additional security checks
 ensure_http_url_or_fail($url, 'url');
 if (!sfm_url_is_public($url)) {
+  LoggerService::logGenerationError('URL not public - blocked', null, ['url' => $url]);
   sfm_json_fail('The source URL must resolve to a public host.', 400, ['field' => 'url']);
 }
-$limit  = max(1, min(MAX_LIM, $limit));
-if (!in_array($format, ['rss', 'atom', 'jsonfeed'], true)) $format = DEFAULT_FMT;
 
 $extractionOptions = [];
-if ($itemSelectorCss !== '') {
+// Validate selectors using InputValidator
+if (!empty($itemSelectorCss)) {
+  $itemValidation = InputValidator::validateSelector($itemSelectorCss, true);
+  if (!$itemValidation['valid']) {
+    sfm_json_fail('Invalid item selector: ' . implode(', ', $itemValidation['errors']), 400, [
+      'field' => 'item_selector'
+    ]);
+  }
   $itemSelectorXpath = sfm_css_to_xpath($itemSelectorCss, false);
   if ($itemSelectorXpath === null) {
     sfm_json_fail('Unsupported CSS selector for item_selector.', 400, [
@@ -844,7 +911,13 @@ if ($itemSelectorCss !== '') {
   $extractionOptions['item_selector_xpath'] = $itemSelectorXpath;
 }
 
-if ($titleSelectorCss !== '') {
+if (!empty($titleSelectorCss)) {
+  $titleValidation = InputValidator::validateSelector($titleSelectorCss, true);
+  if (!$titleValidation['valid']) {
+    sfm_json_fail('Invalid title selector: ' . implode(', ', $titleValidation['errors']), 400, [
+      'field' => 'title_selector'
+    ]);
+  }
   $titleSelectorXpath = sfm_css_to_xpath($titleSelectorCss, true);
   if ($titleSelectorXpath === null) {
     sfm_json_fail('Unsupported CSS selector for title_selector.', 400, [
@@ -856,7 +929,13 @@ if ($titleSelectorCss !== '') {
   $extractionOptions['title_selector_xpath'] = $titleSelectorXpath;
 }
 
-if ($summarySelectorCss !== '') {
+if (!empty($summarySelectorCss)) {
+  $summaryValidation = InputValidator::validateSelector($summarySelectorCss, true);
+  if (!$summaryValidation['valid']) {
+    sfm_json_fail('Invalid summary selector: ' . implode(', ', $summaryValidation['errors']), 400, [
+      'field' => 'summary_selector'
+    ]);
+  }
   $summarySelectorXpath = sfm_css_to_xpath($summarySelectorCss, true);
   if ($summarySelectorXpath === null) {
     sfm_json_fail('Unsupported CSS selector for summary_selector.', 400, [

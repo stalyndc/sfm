@@ -27,3 +27,4 @@ storage/*
 !storage/.gitignore
 !storage/.htaccess
 !storage/**/.gitignore
+node_modules
