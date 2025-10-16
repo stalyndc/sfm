@@ -7,7 +7,6 @@ parameters:
         - includes
         - secure/scripts
         - generate.php
-        - generate2.php
         - health.php
         - index.php
     stubFiles:
@@ -15,4 +14,3 @@ parameters:
     tmpDir: storage/phpstan
     excludePaths:
         - secure/vendor
-        - generate2.php

@@ -6,13 +6,13 @@
  * - Secure session bootstrap (SameSite/HttpOnly/Secure)
  * - CSRF token issue/verify
  * - Honeypot check (field name "website")
- * - Simple file-based rate limiting per IP + context
+ * - Enhanced rate limiting using RateLimiterService (Redis/memory-backed)
  *
  * Usage (JSON endpoints like generate.php):
  * -----------------------------------------
  * require_once __DIR__ . '/security.php';
  * try {
- *   secure_assert_post('generate', 2, 20); // context, min-seconds-between hits, burst window
+ *   secure_assert_post('generate'); // context for rate limiting
  * } catch (Throwable $e) {
  *   // secure_assert_post() already sent a JSON error + proper HTTP status, but
  *   // we still guard here to stop execution in case code continues.
@@ -27,6 +27,7 @@
 declare(strict_types=1);
 
 require_once __DIR__ . '/config.php';
+require_once __DIR__ . '/RateLimiterService.php';
 
 /* ============================================================
  * Optional HTTP host overrides (shared with includes/http.php)
@@ -306,42 +307,7 @@ function client_ip(): string {
   return '0.0.0.0';
 }
 
-function rate_file_path(string $context): string {
-  // STORAGE_TMP is optional in config.php; fallback to system tmp if missing.
-  if (!defined('STORAGE_TMP') || !STORAGE_TMP) {
-    $base = rtrim(sys_get_temp_dir(), '/');
-  } else {
-    $base = rtrim(STORAGE_TMP, '/');
-    if (!is_dir($base)) @mkdir($base, 0775, true);
-  }
-  $ip = client_ip();
-  return $base . '/rl_' . preg_replace('~[^a-z0-9_\-]~i', '_', $context) . '_' . md5($ip) . '.txt';
-}
 
-/**
- * Simple IP+context rate limiter.
- * - $min_interval: minimum seconds between allowed hits
- * - $burst_window: if the file grows too many hits quickly, we still rely on interval;
- *   kept here in case we want to expand later.
- *
- * Returns true if request is allowed; false if rate-limited.
- */
-function rate_limit_allow(string $context, int $min_interval = 2, int $burst_window = 20): bool {
-  $file = rate_file_path($context);
-  $now  = time();
-
-  if (!file_exists($file)) {
-    @file_put_contents($file, (string)$now);
-    return true;
-  }
-
-  $last = (int)trim((string)@file_get_contents($file));
-  if ($now - $last < $min_interval) {
-    return false;
-  }
-  @file_put_contents($file, (string)$now);
-  return true;
-}
 
 /* ============================================================
  * Remote target validation helpers
@@ -450,11 +416,9 @@ function json_fail(string $message, int $http = 400, array $extra = []): void {
 /**
  * secure_assert_post(
  *   string $context,        // bucket for rate limit e.g. "generate"
- *   int    $min_interval,   // seconds between allowed hits per IP
- *   int    $burst_window     // reserved for future use (keep param)
  * )
  */
-function secure_assert_post(string $context, int $min_interval = 2, int $burst_window = 20): void {
+function secure_assert_post(string $context): void {
   // Method check
   if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') {
     json_fail('Invalid request method.', 405);
@@ -494,8 +458,11 @@ function secure_assert_post(string $context, int $min_interval = 2, int $burst_w
     json_fail('Missing user agent.', 400);
   }
 
-  // Rate limit
-  if (!rate_limit_allow($context, $min_interval, $burst_window)) {
+  // Rate limit using RateLimiterService
+  $config = RateLimiterService::getRateLimitConfig($context);
+  $result = RateLimiterService::isAllowed(client_ip(), $config['operations'], $config['interval'], $context);
+  
+  if (!$result['allowed']) {
     json_fail('Too many requests. Please wait a moment and try again.', 429);
   }
 }

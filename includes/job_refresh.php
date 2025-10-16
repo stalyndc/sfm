@@ -883,7 +883,7 @@ if (!function_exists('sfm_refresh_native')) {
         ]);
 
         if (!$resp['ok'] || $resp['status'] < 200 || $resp['status'] >= 400) {
-            throw new RuntimeException('Native refresh failed (HTTP ' . ($resp['status'] ?? 0) . ')');
+            throw new RuntimeException('Native refresh failed (HTTP ' . $resp['status'] . ')');
         }
         if ($resp['body'] === '') {
             throw new RuntimeException('Native refresh returned empty body');
@@ -891,14 +891,14 @@ if (!function_exists('sfm_refresh_native')) {
 
         $notes = [];
 
-        $encodingNormalization = sfm_normalize_feed_encoding($resp['body'], $resp['headers'] ?? []);
+        $encodingNormalization = sfm_normalize_feed_encoding($resp['body'], $resp['headers']);
         $resp['body'] = $encodingNormalization['body'];
         if (!empty($encodingNormalization['changed'])) {
             $sourceCharset = $encodingNormalization['source_charset'] ? strtolower($encodingNormalization['source_charset']) : null;
             $notes[] = $sourceCharset ? ('encoding normalized from ' . $sourceCharset) : 'encoding normalized';
         }
 
-        [$detectedFormat, $ext] = detect_feed_format_and_ext($resp['body'], $resp['headers'] ?? [], $nativeUrl);
+        [$detectedFormat, $ext] = detect_feed_format_and_ext($resp['body'], $resp['headers'], $nativeUrl);
         $normalization = sfm_normalize_feed($resp['body'], $detectedFormat, $nativeUrl);
         if ($normalization) {
             $resp['body'] = $normalization['body'];
@@ -917,7 +917,7 @@ if (!function_exists('sfm_refresh_native')) {
 
         return [
             'body'       => $resp['body'],
-            'status'     => (int)($resp['status'] ?? 200),
+            'status'     => (int)$resp['status'],
             'format'     => $detectedFormat ?: 'rss',
             'ext'        => $ext ?: 'xml',
             'validation' => $validation,

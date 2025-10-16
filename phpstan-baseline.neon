@@ -1,151 +1,97 @@
 parameters:
 	ignoreErrors:
 		-
-			message: "#^PHPDoc tag @var with type array\\<string, array\\<string, string\\>\\|bool\\|int\\|string\\|null\\> is not subtype of native type string\\.$#"
-			count: 4
-			path: generate.php
-
-		-
-			message: "#^Anonymous function has an unused use \\$__fatal\\.$#"
-			count: 1
-			path: generate2.php
-
-		-
-			message: "#^Call to an undefined method DOMNode\\:\\:getAttribute\\(\\)\\.$#"
-			count: 5
-			path: generate2.php
-
-		-
-			message: "#^PHPDoc tag @var with type array\\<string, array\\<string, string\\>\\|bool\\|int\\|string\\|null\\> is not subtype of native type string\\.$#"
-			count: 3
-			path: generate2.php
-
-		-
-			message: "#^Constant ADMIN_USERNAME not found\\.$#"
+			rawMessage: Constant ADMIN_USERNAME not found.
+			identifier: constant.notFound
 			count: 1
 			path: includes/admin_auth.php
 
 		-
-			message: "#^Call to function array_key_exists\\(\\) with 'host' and array\\{scheme\\: non\\-falsy\\-string, host\\: non\\-falsy\\-string, port\\?\\: int\\<0, 65535\\>, user\\?\\: string, pass\\?\\: string, path\\?\\: string, query\\?\\: string, fragment\\?\\: string\\} will always evaluate to true\\.$#"
+			rawMessage: 'Call to function array_key_exists() with ''host'' and array{scheme: non-falsy-string, host: non-falsy-string, port?: int<0, 65535>, user?: string, pass?: string, path?: string, query?: string, fragment?: string} will always evaluate to true.'
+			identifier: function.alreadyNarrowedType
 			count: 1
 			path: includes/config.php
 
 		-
-			message: "#^Call to function is_string\\(\\) with non\\-falsy\\-string will always evaluate to true\\.$#"
+			rawMessage: 'Call to function is_string() with non-falsy-string will always evaluate to true.'
+			identifier: function.alreadyNarrowedType
 			count: 1
 			path: includes/config.php
 
 		-
-			message: "#^Strict comparison using \\=\\=\\= between non\\-falsy\\-string and '' will always evaluate to false\\.$#"
+			rawMessage: 'Strict comparison using === between non-falsy-string and '''' will always evaluate to false.'
+			identifier: identical.alwaysFalse
 			count: 1
 			path: includes/config.php
 
 		-
-			message: "#^PHPDoc tag @var with type array\\<string, array\\<string, string\\>\\|bool\\|int\\|string\\|null\\> is not subtype of native type string\\.$#"
-			count: 1
-			path: includes/enrich.php
-
-		-
-			message: "#^Call to an undefined method DOMNode\\:\\:getAttribute\\(\\)\\.$#"
-			count: 2
-			path: includes/extract.php
-
-		-
-			message: "#^Call to an undefined method DOMNode\\:\\:getAttribute\\(\\)\\.$#"
-			count: 3
-			path: includes/functions.php
-
-		-
-			message: "#^Negated boolean expression is always false\\.$#"
+			rawMessage: Negated boolean expression is always false.
+			identifier: booleanNot.alwaysFalse
 			count: 1
 			path: includes/http.php
 
 		-
-			message: "#^Cannot assign offset 'body' to string\\.$#"
-			count: 1
-			path: includes/job_refresh.php
-
-		-
-			message: "#^Offset 'body' does not exist on string\\.$#"
-			count: 1
-			path: includes/job_refresh.php
-
-		-
-			message: "#^Offset 'headers' on string on left side of \\?\\? does not exist\\.$#"
-			count: 1
-			path: includes/job_refresh.php
-
-		-
-			message: "#^Offset 'ok' does not exist on string\\.$#"
-			count: 1
-			path: includes/job_refresh.php
-
-		-
-			message: "#^Offset 'status' does not exist on string\\.$#"
-			count: 1
-			path: includes/job_refresh.php
-
-		-
-			message: "#^Offset 'status' on string on left side of \\?\\? does not exist\\.$#"
-			count: 1
-			path: includes/job_refresh.php
-
-		-
-			message: "#^PHPDoc tag @var with type array\\<string, array\\<string, string\\>\\|bool\\|int\\|string\\|null\\> is not subtype of native type string\\.$#"
-			count: 2
-			path: includes/job_refresh.php
-
-		-
-			message: "#^Comparison operation \"\\<\\=\" between 21 and 0 is always false\\.$#"
+			rawMessage: 'Comparison operation "<=" between 21 and 0 is always false.'
+			identifier: smallerOrEqual.alwaysFalse
 			count: 1
 			path: includes/jobs.php
 
 		-
-			message: "#^Constant ROOT_DIR not found\\.$#"
+			rawMessage: Constant ROOT_DIR not found.
+			identifier: constant.notFound
 			count: 2
 			path: includes/logger2.php
 
 		-
-			message: "#^Negated boolean expression is always false\\.$#"
+			rawMessage: Negated boolean expression is always false.
+			identifier: booleanNot.alwaysFalse
 			count: 1
 			path: includes/logger2.php
 
 		-
-			message: "#^Call to function is_string\\(\\) with string will always evaluate to true\\.$#"
+			rawMessage: 'Call to function is_string() with string will always evaluate to true.'
+			identifier: function.alreadyNarrowedType
 			count: 1
 			path: includes/security.php
 
 		-
-			message: "#^Unreachable statement \\- code above always terminates\\.$#"
+			rawMessage: Unreachable statement - code above always terminates.
+			identifier: deadCode.unreachable
 			count: 1
 			path: secure/scripts/cleanup_feeds.php
 
 		-
-			message: "#^Strict comparison using \\=\\=\\= between string and false will always evaluate to false\\.$#"
+			rawMessage: 'Strict comparison using === between string and false will always evaluate to false.'
+			identifier: identical.alwaysFalse
 			count: 1
 			path: secure/scripts/deploy_courier.php
 
 		-
-			message: "#^Anonymous function has an unused use \\$projectRoot\\.$#"
+			rawMessage: Anonymous function has an unused use $projectRoot.
+			identifier: closure.unusedUse
 			count: 4
 			path: secure/scripts/disaster_drill.php
 
 		-
-			message: "#^Strict comparison using \\=\\=\\= between non\\-empty\\-string and false will always evaluate to false\\.$#"
+			rawMessage: 'Strict comparison using === between non-empty-string and false will always evaluate to false.'
+			identifier: identical.alwaysFalse
 			count: 1
 			path: secure/scripts/hash_password.php
 
 		-
-			message: "#^Variable \\$ips in isset\\(\\) always exists and is not nullable\\.$#"
+			rawMessage: 'Variable $ips in isset() always exists and is not nullable.'
+			identifier: isset.variable
 			count: 1
 			path: secure/scripts/rate_limit_inspector.php
 
 		-
-			message: "#^Ternary operator condition is always true\\.$#"
+			rawMessage: Ternary operator condition is always true.
+			identifier: ternary.alwaysTrue
 			count: 1
 			path: secure/scripts/run_lint.php
 
 		-
-			message: "#^Ternary operator condition is always true\\.$#"
+			rawMessage: Ternary operator condition is always true.
+			identifier: ternary.alwaysTrue
 			count: 1
 			path: secure/scripts/smoke_test.php

@@ -80,11 +80,11 @@ function sfm_base_from_html(string $html, string $sourceUrl): string {
 
     $href = '';
     $base = $xp->query('//base[@href]')->item(0);
-    if ($base) $href = trim($base->getAttribute('href'));
+    if ($base instanceof DOMElement) $href = trim($base->getAttribute('href'));
 
     if ($href === '') {
         $canon = $xp->query('//link[@rel="canonical"][@href]')->item(0);
-        if ($canon) $href = trim($canon->getAttribute('href'));
+        if ($canon instanceof DOMElement) $href = trim($canon->getAttribute('href'));
     }
     return $href !== '' ? $href : $sourceUrl;
 }

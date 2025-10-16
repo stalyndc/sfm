@@ -15,24 +15,60 @@
 
 declare(strict_types=1);
 
-/* ---- DEBUG (optional)
-if (defined('SFM_DEBUG') && SFM_DEBUG) {
-  ini_set('display_errors', '1');
-  error_reporting(E_ALL);
-}
----- */
+// Enhanced error handling for guaranteed JSON responses
+header('Content-Type: application/json; charset=utf-8');
+$SFM_DEBUG = getenv('SFM_DEBUG') === '1';
+header('Cache-Control: no-store');
+ob_start();
+
+// ---- hardened error handling so we ALWAYS emit JSON on failure ----
+set_error_handler(function($severity, $message, $file, $line) {
+  // Respect @-operator
+  if (!(error_reporting() & $severity)) return false;
+
+  // Ignore deprecations so PHP 8.2+ notices don't break the request
+  if (in_array($severity, [E_DEPRECATED, E_USER_DEPRECATED], true)) {
+    return false;
+  }
+
+  // Convert everything else to exceptions so we can emit clean JSON
+  throw new ErrorException($message, 0, $severity, $file, $line);
+});
+
+register_shutdown_function(function() use ($SFM_DEBUG) {
+  $err = error_get_last();
+  if ($err && in_array($err['type'], [E_ERROR, E_PARSE, E_CORE_ERROR, E_COMPILE_ERROR], true)) {
+    while (ob_get_level()) ob_end_clean();
+    http_response_code(500);
+
+    $payload = [
+      'ok'      => false,
+      'message' => 'Server error (fatal).',
+    ];
+    if (!empty($SFM_DEBUG)) {
+      $payload['hint'] = 'This is visible only because DEBUG is on.';
+      $payload['fatal'] = [
+        'type' => $err['type'],
+        'message' => $err['message'],
+        'file' => $err['file'],
+        'line' => $err['line'],
+      ];
+    }
+    echo json_encode($payload, JSON_UNESCAPED_SLASHES);
+  }
+});
 
 // ---------------------------------------------------------------------
 // Includes (hard-fail with JSON if missing)
 // ---------------------------------------------------------------------
-$httpFile  = __DIR__ . '/includes/http.php';
+$httpFile  = __DIR__ . '/includes/http_guzzle.php';
 $extFile   = __DIR__ . '/includes/extract.php';
 $secFile   = __DIR__ . '/includes/security.php';
 $cacheFile = __DIR__ . '/includes/feed_cache.php';
 
 if (!is_file($httpFile) || !is_readable($httpFile)) {
   http_response_code(500);
-  echo json_encode(['ok' => false, 'message' => 'Server missing includes/http.php'], JSON_UNESCAPED_SLASHES);
+  echo json_encode(['ok' => false, 'message' => 'Server missing includes/http_guzzle.php'], JSON_UNESCAPED_SLASHES);
   exit;
 }
 if (!is_file($extFile) || !is_readable($extFile)) {
@@ -51,8 +87,16 @@ if (!is_file($cacheFile) || !is_readable($cacheFile)) {
   exit;
 }
 
+// Optional logging integration
+$logFile = __DIR__ . '/includes/logger2.php';
+$__logEnabled = false;
+if (is_file($logFile) && is_readable($logFile)) {
+  require_once $logFile; // defines sfm_log_begin/sfm_log_end/sfm_log_error if present
+  $__logEnabled = function_exists('sfm_log_begin') && function_exists('sfm_log_end');
+}
+
 require_once $secFile;    // secure_assert_post(), csrf helpers
-require_once $httpFile;   // http_get(), http_head(), http_multi_get(), sfm_log_event()
+require_once $httpFile;   // sfm_http_get(), sfm_http_head(), sfm_http_multi_get(), sfm_log_event()
 require_once $extFile;    // sfm_extract_items(), sfm_discover_feeds()
 require_once $cacheFile;  // sfm_feed_cache_* helpers
 require_once __DIR__ . '/includes/feed_validator.php';
@@ -712,7 +756,7 @@ function sfm_attempt_native_download(string $requestedUrl, array $candidate, int
   }
 
   /** @phpstan-var array{ok:bool,status:int,headers:array<string,string>,body:string,final_url:string,from_cache:bool,was_304:bool,error:?string} $feed */
-  $feed = http_get($href, [
+  $feed = sfm_http_get($href, [
     'accept' => 'application/rss+xml, application/atom+xml, application/feed+json, application/json, application/xml;q=0.9, */*;q=0.8'
   ]);
 
@@ -829,7 +873,7 @@ function sfm_try_native_fallback(string $html, string $requestedUrl, int $limit)
 // ---------------------------------------------------------------------
 // Inputs
 // ---------------------------------------------------------------------
-secure_assert_post('generate', 2, 20);
+secure_assert_post('generate');
 
 if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') {
   sfm_json_fail('Use POST.', 405);
@@ -991,7 +1035,7 @@ if (!empty($_SERVER['HTTP_ORIGIN'])) {
 // ---------------------------------------------------------------------
 if ($preferNative) {
   /** @phpstan-var array{ok:bool,status:int,headers:array<string,string>,body:string,final_url:string,from_cache:bool,was_304:bool,error:?string} $pageResp */
-  $pageResp = http_get($url, [
+  $pageResp = sfm_http_get($url, [
     'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
   ]);
 
@@ -1013,7 +1057,7 @@ if ($preferNative) {
 // B) Custom parse path
 // ---------------------------------------------------------------------
 /** @phpstan-var array{ok:bool,status:int,headers:array<string,string>,body:string,final_url:string,from_cache:bool,was_304:bool,error:?string} $page */
-$page = http_get($url, [
+$page = sfm_http_get($url, [
   'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
 ]);
 
@@ -1309,7 +1353,7 @@ function sfm_collect_paginated_items(string $html, string $sourceUrl, int $limit
     }
 
     /** @phpstan-var array{ok:bool,status:int,headers:array<string,string>,body:string,final_url:string,from_cache:bool,was_304:bool,error:?string} $resp */
-    $resp = http_get($nextUrl, [
+    $resp = sfm_http_get($nextUrl, [
       'accept'    => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
       'cache_ttl' => 600,
       'timeout'   => 10,

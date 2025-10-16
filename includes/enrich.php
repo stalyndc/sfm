@@ -416,9 +416,6 @@ if (!function_exists('sfm_sanitize_article_html')) {
 
             if ($node->hasAttributes()) {
                 foreach ($node->attributes as $attr) {
-                    if (!$attr instanceof DOMAttr) {
-                        continue;
-                    }
                     $attrName = strtolower($attr->nodeName);
                     if (!in_array($attrName, $allowedAttrs, true)) {
                         $node->removeAttributeNode($attr);
