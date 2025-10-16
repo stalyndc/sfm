@@ -78,7 +78,7 @@ if (!function_exists('sfm_clean_content_html')) {
       $paragraphs = array_filter($paragraphs, static function ($p) {
         return $p !== '';
       });
-      return implode('\n', $paragraphs);
+      return implode("\n", $paragraphs);
     }
 
     return preg_replace('/\n{3,}/', "\n\n", $clean) ?? $clean;

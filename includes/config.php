@@ -33,7 +33,7 @@ ini_set('log_errors', '1');
 $productionMask = E_ALL & ~E_NOTICE & ~E_DEPRECATED;
 $coreConstants = get_defined_constants(true);
 $strictLevel = 0;
-if (isset($coreConstants['Core']) && is_array($coreConstants['Core']) && isset($coreConstants['Core']['E_STRICT'])) {
+if (isset($coreConstants['Core']['E_STRICT'])) {
   $strictLevel = (int)$coreConstants['Core']['E_STRICT'];
 } elseif (isset($coreConstants['E_STRICT'])) {
   $strictLevel = (int)$coreConstants['E_STRICT'];

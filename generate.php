@@ -1164,6 +1164,42 @@ function sfm_fail_with_extraction_diagnostics(array $debug, array $options): voi
   ]);
 }
 
+function sfm_normalize_link_key($href): string
+{
+  if (!is_string($href)) {
+    return '';
+  }
+
+  $href = trim($href);
+  if ($href === '') {
+    return '';
+  }
+
+  $parts = @parse_url($href);
+  if (!is_array($parts) || empty($parts['host'])) {
+    return $href;
+  }
+
+  $scheme = isset($parts['scheme']) ? strtolower($parts['scheme']) . '://' : '';
+  $host   = strtolower($parts['host']);
+
+  $userInfo = '';
+  if (isset($parts['user'])) {
+    $userInfo = $parts['user'];
+    if (isset($parts['pass'])) {
+      $userInfo .= ':' . $parts['pass'];
+    }
+    $userInfo .= '@';
+  }
+
+  $port     = isset($parts['port']) ? ':' . (int) $parts['port'] : '';
+  $path     = $parts['path'] ?? '';
+  $query    = isset($parts['query']) ? '?' . $parts['query'] : '';
+  $fragment = isset($parts['fragment']) ? '#' . $parts['fragment'] : '';
+
+  return $scheme . $userInfo . $host . $port . $path . $query . $fragment;
+}
+
 function sfm_collect_paginated_items(string $html, string $sourceUrl, int $limit, array $currentItems, array $options = []): array
 {
   $nextUrls = sfm_detect_pagination_links($html, $sourceUrl, 3);
@@ -1174,9 +1210,9 @@ function sfm_collect_paginated_items(string $html, string $sourceUrl, int $limit
   $extras    = [];
   $seenLinks = [];
   foreach ($currentItems as $it) {
-    $href = strtolower($it['link'] ?? '');
-    if ($href !== '') {
-      $seenLinks[$href] = true;
+    $key = sfm_normalize_link_key($it['link'] ?? '');
+    if ($key !== '') {
+      $seenLinks[$key] = true;
     }
   }
 
@@ -1184,7 +1220,12 @@ function sfm_collect_paginated_items(string $html, string $sourceUrl, int $limit
     if (count($currentItems) + count($extras) >= $limit) {
       break;
     }
-    if (!sfm_is_http_url($nextUrl) || isset($seenLinks[strtolower($nextUrl)])) {
+    if (!sfm_is_http_url($nextUrl)) {
+      continue;
+    }
+
+    $nextKey = sfm_normalize_link_key($nextUrl);
+    if ($nextKey !== '' && isset($seenLinks[$nextKey])) {
       continue;
     }
 
@@ -1206,12 +1247,12 @@ function sfm_collect_paginated_items(string $html, string $sourceUrl, int $limit
     }
 
     foreach ($pageItems as $item) {
-      $href = strtolower($item['link'] ?? '');
-      if ($href === '' || isset($seenLinks[$href])) {
+      $hrefKey = sfm_normalize_link_key($item['link'] ?? '');
+      if ($hrefKey === '' || isset($seenLinks[$hrefKey])) {
         continue;
       }
       $extras[] = $item;
-      $seenLinks[$href] = true;
+      $seenLinks[$hrefKey] = true;
       if (count($currentItems) + count($extras) >= $limit) {
         break 2;
       }
@@ -1246,8 +1287,8 @@ function sfm_detect_pagination_links(string $html, string $sourceUrl, int $max =
     if ($abs === '' || strcasecmp($abs, $sourceUrl) === 0) {
       return;
     }
-    $key = strtolower($abs);
-    if (isset($seen[$key])) {
+    $key = sfm_normalize_link_key($abs);
+    if ($key === '' || isset($seen[$key])) {
       return;
     }
     if (count($out) >= $max) {
@@ -1318,11 +1359,11 @@ function sfm_unique_items(array $items, int $limit): array
   $seen = [];
   $uniq = [];
   foreach ($items as $item) {
-    $href = strtolower($item['link'] ?? '');
-    if ($href === '' || isset($seen[$href])) {
+    $hrefKey = sfm_normalize_link_key($item['link'] ?? '');
+    if ($hrefKey === '' || isset($seen[$hrefKey])) {
       continue;
     }
-    $seen[$href] = true;
+    $seen[$hrefKey] = true;
     $uniq[] = $item;
     if (count($uniq) >= $limit) {
       break;

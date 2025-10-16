@@ -29,20 +29,62 @@ function sfm_feed_cache_dir(): string
 }
 
 /**
+ * Normalize a URL for cache hashing by lowercasing only scheme and host.
+ */
+function sfm_feed_cache_normalize_url(string $url): string
+{
+    $url = trim($url);
+    if ($url === '') {
+        return '';
+    }
+
+    $parts = @parse_url($url);
+    if (!is_array($parts) || empty($parts['host'])) {
+        return $url;
+    }
+
+    $scheme = isset($parts['scheme']) ? strtolower($parts['scheme']) . '://' : '';
+    $host   = strtolower($parts['host']);
+
+    $userInfo = '';
+    if (isset($parts['user'])) {
+        $userInfo = $parts['user'];
+        if (isset($parts['pass'])) {
+            $userInfo .= ':' . $parts['pass'];
+        }
+        $userInfo .= '@';
+    }
+
+    $port     = isset($parts['port']) ? ':' . (int) $parts['port'] : '';
+    $path     = $parts['path'] ?? '';
+    $query    = isset($parts['query']) ? '?' . $parts['query'] : '';
+    $fragment = isset($parts['fragment']) ? '#' . $parts['fragment'] : '';
+
+    return $scheme . $userInfo . $host . $port . $path . $query . $fragment;
+}
+
+/**
  * Build a deterministic cache key for a feed request.
  *
  * @param array<string,string> $options Additional request options (selectors, etc.)
  */
 function sfm_feed_cache_key(string $url, string $format, int $limit, bool $preferNative, array $options = []): string
 {
+    $normalizeSelector = static function ($value): string {
+        if (!is_string($value)) {
+            return '';
+        }
+        return trim($value);
+    };
+
     $parts = [
-        strtolower(trim($url)),
+        sfm_feed_cache_normalize_url($url),
         strtolower($format),
         (string) $limit,
         $preferNative ? '1' : '0',
-        strtolower(trim($options['item_selector'] ?? '')),
-        strtolower(trim($options['title_selector'] ?? '')),
-        strtolower(trim($options['summary_selector'] ?? '')),
+        $normalizeSelector($options['item_selector'] ?? ''),
+        $normalizeSelector($options['title_selector'] ?? ''),
+        $normalizeSelector($options['summary_selector'] ?? ''),
     ];
 
     return hash('sha256', implode('|', $parts));
