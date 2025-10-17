@@ -141,10 +141,7 @@ if (is_array($structuredData)) {
     crossorigin="anonymous">
 
   <!-- Bootstrap Icons -->
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
-    crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/bootstrap-icons.min.css">
 
   <!-- App styles -->
   <link rel="stylesheet" href="/assets/css/style.css">
