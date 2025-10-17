@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 require_once __DIR__ . '/includes/security.php';
+require_once __DIR__ . '/includes/security_headers.php';
+
+// Send security headers (CSP, etc.) before any HTML output
+sfm_send_security_headers();
 
 // Start the session before any output so CSRF + session cookies are reliably sent.
 sec_boot_session();

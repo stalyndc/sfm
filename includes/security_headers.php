@@ -62,6 +62,7 @@ if (!function_exists('sfm_send_security_headers')) {
       "'self'",
       "https://fonts.gstatic.com",
       "https://cdn.jsdelivr.net",      // Bootstrap Icons fonts
+      "https://unpkg.com",             // Bootstrap Icons fonts fallback
       "data:",
     ];
 
