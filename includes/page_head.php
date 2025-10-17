@@ -144,7 +144,7 @@ if (is_array($structuredData)) {
   <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
-    integrity="sha384-08ad92cca99ae230391ff3170d453b8b54ea665085683e13d35bedc8316f3e50fdec94324be22c4a1d672361056e9ca4"
+    integrity="sha384-CK2SzKma4jA5H/MXDUU7i1TqZlCFaD4T01vtyDFvPlD97JQyS+IsSh1nI2EFbpyk"
     crossorigin="anonymous">
 
   <!-- App styles -->
