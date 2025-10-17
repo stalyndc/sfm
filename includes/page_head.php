@@ -140,10 +140,12 @@ if (is_array($structuredData)) {
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
     crossorigin="anonymous">
 
-  <!-- Bootstrap Icons (Local) -->
+  <!-- Bootstrap Icons -->
   <link
     rel="stylesheet"
-    href="/assets/css/bootstrap-icons.min.css">
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    integrity="sha384-08ad92cca99ae230391ff3170d453b8b54ea665085683e13d35bedc8316f3e50fdec94324be22c4a1d672361056e9ca4"
+    crossorigin="anonymous">
 
   <!-- App styles -->
   <link rel="stylesheet" href="/assets/css/style.css">
