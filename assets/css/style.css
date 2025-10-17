@@ -1468,3 +1468,26 @@ code {
 [data-bs-theme="light"] #hintCard strong {
   color: #1c2230;
 }
+
+/* Ensure Bootstrap Icons display properly */
+.bi {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+/* Animation for loading indicator */
+.htmx-indicator .bi-arrow-clockwise {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

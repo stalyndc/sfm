@@ -23,14 +23,25 @@
     const toggle = document.querySelector('#themeToggle');
     if (!toggle) return;
     const next = theme === 'dark' ? 'light' : 'dark';
-    const icon = theme === 'dark' ? '☀️' : '🌙';
     toggle.dataset.theme = theme;
     const label = `Switch to ${next} mode`;
     toggle.title = label;
     toggle.setAttribute('aria-label', label);
     toggle.setAttribute('aria-checked', theme === 'light' ? 'true' : 'false');
+    
     const iconSpan = toggle.querySelector('.theme-toggle-icon');
-    if (iconSpan) iconSpan.textContent = icon;
+    if (iconSpan) {
+      const sunIcon = iconSpan.querySelector('.bi-sun-fill');
+      const moonIcon = iconSpan.querySelector('.bi-moon-fill');
+      
+      if (theme === 'light') {
+        sunIcon.classList.remove('d-none');
+        moonIcon.classList.add('d-none');
+      } else {
+        sunIcon.classList.add('d-none');
+        moonIcon.classList.remove('d-none');
+      }
+    }
   }
 
   function syncThemeColor(theme) {
