@@ -1591,3 +1591,50 @@ footer a:hover .bi {
     height: 1.25rem;
   }
 }
+
+/* Debug: Ensure icons are visible */
+.bi::before {
+  font-family: 'bootstrap-icons' !important;
+}
+
+/* Fallback icon styling if Bootstrap Icons fails to load */
+.bi-check-circle-fill::before {
+  content: "✓" !important;
+  color: var(--bs-success) !important;
+}
+
+.bi-rss-fill::before {
+  content: "📡" !important;
+}
+
+.bi-gear-fill::before {
+  content: "⚙️" !important;
+}
+
+.bi-newspaper::before {
+  content: "📰" !important;
+}
+
+.bi-x-lg::before {
+  content: "✕" !important;
+}
+
+.bi-arrow-clockwise::before {
+  content: "↻" !important;
+}
+
+.bi-sun-fill::before {
+  content: "☀️" !important;
+}
+
+.bi-moon-fill::before {
+  content: "🌙" !important;
+}
+
+.bi-shield-check::before {
+  content: "🛡️" !important;
+}
+
+.bi-file-text::before {
+  content: "📄" !important;
+}
