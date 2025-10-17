@@ -32,3 +32,5 @@ node_modules
 # Local documentation and analysis
 SEO_ANALYSIS_REPORT.md
 *_ANALYSIS*.md
+DEPLOYMENT_WORKFLOW.md
+*_WORKFLOW*.md
