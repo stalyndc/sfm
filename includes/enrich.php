@@ -397,6 +397,7 @@ if (!function_exists('sfm_sanitize_article_html')) {
 
         $allowedTags = ['p','ul','ol','li','strong','em','b','i','a','blockquote','img','figure','figcaption','h1','h2','h3','h4','pre','code','span','div','table','thead','tbody','tr','td','th'];
         $allowedAttrs = ['href','title','alt','src','width','height','class','loading'];
+        $classPreserve = ['alignleft','alignright','aligncenter','wp-block-image','wp-block-gallery','gallery'];
 
         $nodes = iterator_to_array($xp->query('//*'));
         foreach ($nodes as $node) {
@@ -415,11 +416,26 @@ if (!function_exists('sfm_sanitize_article_html')) {
             }
 
             if ($node->hasAttributes()) {
+                $attrsToRemove = [];
                 foreach ($node->attributes as $attr) {
                     $attrName = strtolower($attr->nodeName);
                     if (!in_array($attrName, $allowedAttrs, true)) {
-                        $node->removeAttributeNode($attr);
+                        $attrsToRemove[] = $attrName;
                         continue;
+                    }
+                    if ($attrName === 'class') {
+                        $classes = preg_split('/\s+/u', trim($attr->nodeValue ?? '')) ?: [];
+                        $keep = array_values(array_filter($classes, static function (string $cls) use ($classPreserve): bool {
+                            return $cls !== '' && in_array(strtolower($cls), $classPreserve, true);
+                        }));
+                        $normalized = array_unique(array_map(static function (string $cls): string {
+                            return strtolower($cls);
+                        }, $keep));
+                        if ($normalized) {
+                            $node->setAttribute('class', implode(' ', $normalized));
+                        } else {
+                            $attrsToRemove[] = 'class';
+                        }
                     }
                     if ($name === 'a' && $attrName === 'href') {
                         $node->setAttribute('href', sfm_abs_url($attr->nodeValue ?? '', $baseUrl));
@@ -427,6 +443,9 @@ if (!function_exists('sfm_sanitize_article_html')) {
                     if ($name === 'img' && $attrName === 'src') {
                         $node->setAttribute('src', sfm_abs_url($attr->nodeValue ?? '', $baseUrl));
                     }
+                }
+                foreach ($attrsToRemove as $toRemove) {
+                    $node->removeAttribute($toRemove);
                 }
             }
         }
@@ -439,7 +458,11 @@ if (!function_exists('sfm_sanitize_article_html')) {
             }
         }
 
-        return sfm_inner_html($container);
+        $html = sfm_inner_html($container);
+        $html = preg_replace('/\s{2,}/u', ' ', $html) ?? $html;
+        $html = preg_replace('/\s*(<\/?.+?>)\s*/u', '$1', $html) ?? $html;
+        $html = preg_replace('/>\s+</u', '><', $html) ?? $html;
+        return trim($html);
     }
 }
 

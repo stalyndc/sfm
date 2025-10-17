@@ -36,6 +36,41 @@ if (!function_exists('sfm_is_http_url')) {
   }
 }
 
+if (!function_exists('sfm_feed_clean_text')) {
+  function sfm_feed_clean_text(?string $value, int $limit = 0): string
+  {
+    $value = trim((string) $value);
+    if ($value === '') {
+      return '';
+    }
+
+    if (strpos($value, '<') !== false) {
+      $value = preg_replace('~<script\b[^>]*>.*?</script>~is', '', $value) ?? $value;
+      $value = preg_replace('~<style\b[^>]*>.*?</style>~is', '', $value) ?? $value;
+      $value = preg_replace('~<noscript\b[^>]*>.*?</noscript>~is', '', $value) ?? $value;
+      $value = strip_tags($value);
+    }
+
+    $decoded = html_entity_decode($value, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
+    if ($decoded !== '') {
+      $value = $decoded;
+    }
+
+    $value = preg_replace('/\s+/u', ' ', $value) ?? $value;
+    $value = trim($value);
+
+    if ($limit > 0 && function_exists('mb_strlen') && function_exists('mb_substr')) {
+      if (mb_strlen($value) > $limit) {
+        return mb_substr($value, 0, $limit - 1) . '…';
+      }
+    } elseif ($limit > 0 && strlen($value) > $limit) {
+      return substr($value, 0, $limit - 1) . '…';
+    }
+
+    return $value;
+  }
+}
+
 if (!function_exists('sfm_clean_content_html')) {
   function sfm_clean_content_html(string $html): string
   {
@@ -181,25 +216,29 @@ if (!function_exists('build_rss')) {
   {
     $xml = new SimpleXMLElement('<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/"/>');
     $channel = $xml->addChild('channel');
-    $channel->addChild('title', xml_safe($title));
+    $channel->addChild('title', xml_safe(sfm_feed_clean_text($title)));
     $channel->addChild('link', xml_safe($link));
-    $channel->addChild('description', xml_safe($desc));
+    $channel->addChild('description', xml_safe(sfm_feed_clean_text($desc)));
     $channel->addChild('lastBuildDate', date(DATE_RSS));
 
     foreach ($items as $it) {
       $i = $channel->addChild('item');
-      $i->addChild('title', xml_safe($it['title'] ?? 'Untitled'));
+      $i->addChild('title', xml_safe(sfm_feed_clean_text($it['title'] ?? 'Untitled', 220)));
       $i->addChild('link', xml_safe($it['link'] ?? ''));
       $rawSummary = '';
       foreach (['description', 'content_html', 'title', 'link'] as $key) {
-        if (!empty($it[$key])) {
-          $rawSummary = (string)$it[$key];
-          if (trim($rawSummary) !== '') {
-            break;
-          }
+        if (empty($it[$key])) {
+          continue;
         }
+        $candidate = sfm_feed_clean_text((string) $it[$key]);
+        if ($candidate === '') {
+          continue;
+        }
+        $rawSummary = $candidate;
+        break;
       }
       $descPlain = sfm_feed_plain_text($rawSummary, 400);
+      $descPlain = sfm_feed_clean_text($descPlain, 400);
       if ($descPlain === '') {
         $descPlain = 'Feed item';
       }
@@ -247,7 +286,7 @@ if (!function_exists('build_atom')) {
   function build_atom(string $title, string $link, string $desc, array $items): string
   {
     $xml = new SimpleXMLElement('<feed xmlns="http://www.w3.org/2005/Atom"/>');
-    $xml->addChild('title', xml_safe($title));
+    $xml->addChild('title', xml_safe(sfm_feed_clean_text($title)));
     $xml->addChild('updated', date(DATE_ATOM));
 
     $alink = $xml->addChild('link');
@@ -258,7 +297,7 @@ if (!function_exists('build_atom')) {
 
     foreach ($items as $it) {
       $e = $xml->addChild('entry');
-      $e->addChild('title', xml_safe($it['title'] ?? 'Untitled'));
+      $e->addChild('title', xml_safe(sfm_feed_clean_text($it['title'] ?? 'Untitled', 220)));
       $el = $e->addChild('link');
       $el->addAttribute('rel', 'alternate');
       $el->addAttribute('href', $it['link'] ?? '');
@@ -267,14 +306,19 @@ if (!function_exists('build_atom')) {
       $e->addChild('updated', $u);
       $rawSummary = '';
       foreach (['description','content_html','title','link'] as $key) {
-        if (!empty($it[$key])) {
-          $rawSummary = (string)$it[$key];
-          if (trim($rawSummary) !== '') {
-            break;
-          }
+        if (empty($it[$key])) {
+          continue;
         }
+        $candidate = sfm_feed_clean_text((string) $it[$key]);
+        if ($candidate === '') {
+          continue;
+        }
+        $rawSummary = $candidate;
+        break;
       }
-      $e->addChild('summary', xml_safe(sfm_feed_plain_text($rawSummary, 400)));
+      $summary = sfm_feed_plain_text($rawSummary, 400);
+      $summary = sfm_feed_clean_text($summary, 400);
+      $e->addChild('summary', xml_safe($summary));
 
       $contentHtml = sfm_feed_item_content_html($it);
       if ($contentHtml !== '') {
@@ -323,7 +367,7 @@ if (!function_exists('build_jsonfeed')) {
       $id  = $it['link'] ?? md5(($it['title'] ?? '') . ($it['description'] ?? ''));
       $url = $it['link'] ?? '';
       $ttl = $it['title'] ?? 'Untitled';
-      $item = ['id' => $id, 'url' => $url, 'title' => $ttl];
+      $item = ['id' => $id, 'url' => $url, 'title' => sfm_feed_clean_text($ttl, 220)];
 
       $contentHtml = sfm_feed_item_content_html($it);
       if ($contentHtml !== '') {
@@ -339,7 +383,7 @@ if (!function_exists('build_jsonfeed')) {
           if (empty($it[$key])) {
             continue;
           }
-          $candidate = trim((string)$it[$key]);
+          $candidate = sfm_feed_clean_text((string)$it[$key]);
           if ($candidate === '') {
             continue;
           }
@@ -348,6 +392,7 @@ if (!function_exists('build_jsonfeed')) {
         }
       }
 
+      $summarySource = sfm_feed_clean_text($summarySource);
       $summaryText = sfm_feed_plain_text($summarySource, 400);
       if ($summaryText === '') {
         $summaryText = $ttl ?: $url;

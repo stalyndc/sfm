@@ -37,6 +37,30 @@ function sfm_neat_text(?string $s, int $max = 500): string {
     return $s;
 }
 
+if (!function_exists('sfm_clean_text_field')) {
+    /** Strip inline scripts/styles, decode entities, and normalize to tidy text. */
+    function sfm_clean_text_field(?string $value, int $max = 500): string {
+        $value = trim((string) $value);
+        if ($value === '') {
+            return '';
+        }
+
+        if (strpos($value, '<') !== false) {
+            $value = preg_replace('~<script\b[^>]*>.*?</script>~is', '', $value) ?? $value;
+            $value = preg_replace('~<style\b[^>]*>.*?</style>~is', '', $value) ?? $value;
+            $value = preg_replace('~<noscript\b[^>]*>.*?</noscript>~is', '', $value) ?? $value;
+            $value = strip_tags($value);
+        }
+
+        $decoded = html_entity_decode($value, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
+        if ($decoded !== '') {
+            $value = $decoded;
+        }
+
+        return sfm_neat_text($value, $max);
+    }
+}
+
 /** Lowercase + collapse spaces for duplicate detection. */
 function sfm_title_key(string $s): string {
     return preg_replace('/\s+/', ' ', mb_strtolower(trim($s)));
@@ -476,10 +500,10 @@ function sfm_items_from_jsonld(DOMXPath $xp, string $baseUrl, int $limit): array
                         if (isset($seen[$k])) continue;
                         $seen[$k] = true;
 
-                        $items[] = [
-                            'title'       => sfm_neat_text($tit, 220),
-                            'link'        => $href,
-                            'description' => sfm_neat_text($desc, 400),
+                    $items[] = [
+                        'title'       => sfm_clean_text_field($tit, 220),
+                        'link'        => $href,
+                        'description' => sfm_clean_text_field($desc, 400),
                             'date'        => sfm_clean_date($dt),
                         ];
                         if (count($items) >= $limit) return $items;
@@ -501,9 +525,9 @@ function sfm_items_from_jsonld(DOMXPath $xp, string $baseUrl, int $limit): array
                     $seen[$k] = true;
 
                     $items[] = [
-                        'title'       => sfm_neat_text($tit, 220),
+                        'title'       => sfm_clean_text_field($tit, 220),
                         'link'        => $href,
-                        'description' => sfm_neat_text($des, 400),
+                        'description' => sfm_clean_text_field($des, 400),
                         'date'        => sfm_clean_date($dt),
                     ];
                     if (count($items) >= $limit) return $items;
@@ -553,7 +577,7 @@ function sfm_items_from_dom(
 
         foreach ($nodes as $a) {
             /** @var DOMElement $a */
-            $title = sfm_neat_text($a->textContent, 200);
+            $title = sfm_clean_text_field($a->textContent, 200);
             if ($title === '' || mb_strlen($title) < 6) continue;
 
             $href = trim($a->getAttribute('href'));
@@ -654,11 +678,11 @@ function sfm_items_from_custom_selector(
             continue;
         }
 
-        $title = sfm_neat_text($linkEl->textContent ?? '', 220);
+        $title = sfm_clean_text_field($linkEl->textContent ?? '', 220);
         if (isset($options['title_selector_xpath'])) {
             $titleNode = $xp->query($options['title_selector_xpath'], $node)->item(0);
             if ($titleNode) {
-                $candidate = sfm_neat_text($titleNode->textContent ?? '', 220);
+                $candidate = sfm_clean_text_field($titleNode->textContent ?? '', 220);
                 if ($candidate !== '') {
                     $title = $candidate;
                 }
@@ -672,7 +696,7 @@ function sfm_items_from_custom_selector(
         if (isset($options['summary_selector_xpath'])) {
             $summaryNode = $xp->query($options['summary_selector_xpath'], $node)->item(0);
             if ($summaryNode) {
-                $summary = sfm_neat_text($summaryNode->textContent ?? '', 400);
+                $summary = sfm_clean_text_field($summaryNode->textContent ?? '', 400);
             }
         }
 
