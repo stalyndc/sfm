@@ -6,8 +6,8 @@
       <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
         <span>© <?= date('Y'); ?> SimpleFeedMaker. Fast, clean, and reliable.</span>
         <nav class="d-flex gap-3">
-          <a class="text-secondary text-decoration-none" href="/privacy/">Privacy</a>
-          <a class="text-secondary text-decoration-none" href="/terms/">Terms of Use</a>
+          <a class="text-secondary text-decoration-none" href="/privacy/"><i class="bi bi-shield-check me-1"></i>Privacy</a>
+          <a class="text-secondary text-decoration-none" href="/terms/"><i class="bi bi-file-text me-1"></i>Terms of Use</a>
         </nav>
       </div>
     </div>

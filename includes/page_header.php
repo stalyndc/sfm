@@ -13,7 +13,10 @@ $activeNav = $activeNav ?? '';
           <a class="text-secondary text-decoration-none<?= $activeNav === 'faq' ? ' active' : ''; ?>" href="/faq/">FAQ</a>
         </nav>
         <button id="themeToggle" type="button" class="btn btn-outline-secondary btn-icon" role="switch" aria-checked="false" aria-label="Switch theme" title="Switch theme">
-          <span class="theme-toggle-icon" aria-hidden="true">🌙</span>
+          <span class="theme-toggle-icon" aria-hidden="true">
+            <i class="bi bi-sun-fill d-none"></i>
+            <i class="bi bi-moon-fill"></i>
+          </span>
         </button>
       </div>
     </div>

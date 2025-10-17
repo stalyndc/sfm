@@ -87,8 +87,8 @@ require __DIR__ . '/includes/page_header.php';
                     <div class="floating-group">
                       <label for="format" class="form-label">Format</label>
                       <select id="format" name="format" class="form-select">
-                        <option value="rss" selected>RSS</option>
-                        <option value="jsonfeed">JSON Feed</option>
+                        <option value="rss" selected>📡 RSS Feed</option>
+                        <option value="jsonfeed">📄 JSON Feed</option>
                       </select>
                     </div>
                   </div>
@@ -103,16 +103,17 @@ require __DIR__ . '/includes/page_header.php';
 
                 <div class="d-grid gap-2 d-sm-flex align-items-stretch">
                   <button id="generateBtn" type="submit" class="btn btn-primary btn-lg-sm flex-grow-1">
+                    <i class="bi bi-rss-fill me-2"></i>
                     <span class="btn-label">Generate feed</span>
                   </button>
                   <button id="clearBtn" type="button" class="btn btn-outline-secondary btn-icon" aria-label="Clear form" title="Clear form">
-                    <span class="icon" aria-hidden="true">&times;</span>
+                    <span class="icon" aria-hidden="true"><i class="bi bi-x-lg"></i></span>
                     <span class="label d-inline d-sm-none" aria-hidden="true">Clear</span>
                   </button>
                 </div>
 
                 <div id="formIndicator" class="htmx-indicator small text-secondary align-items-center gap-2" role="status" aria-live="polite">
-                  <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+                  <i class="bi bi-arrow-clockwise text-secondary" aria-hidden="true"></i>
                   <span>Generating feed…</span>
                 </div>
 
@@ -142,9 +143,9 @@ require __DIR__ . '/includes/page_header.php';
                   <p class="muted mb-0">Paste a URL and click <strong>Generate feed</strong> to see your preview here. We’ll give you a shareable link instantly.</p>
                 </div>
                 <ul class="list-unstyled small text-secondary mb-0">
-                  <li>✔&nbsp; Supports RSS and JSON Feed</li>
-                  <li>✔&nbsp; No login required</li>
-                  <li>✔&nbsp; Optional native feed detection</li>
+                  <li><i class="bi bi-check-circle-fill text-success me-1"></i> Supports RSS and JSON Feed</li>
+                  <li><i class="bi bi-check-circle-fill text-success me-1"></i> No login required</li>
+                  <li><i class="bi bi-check-circle-fill text-success me-1"></i> Optional native feed detection</li>
                 </ul>
               </div>
             </div>
@@ -166,7 +167,7 @@ require __DIR__ . '/includes/page_header.php';
       </div>
       <div class="feature-grid">
         <article class="feature-card">
-          <span class="feature-icon" aria-hidden="true">🔗</span>
+          <span class="feature-icon" aria-hidden="true"><i class="bi bi-link-45deg"></i></span>
           <h3 class="fw-semibold">Native feed passthrough</h3>
           <ul>
             <li>Respect a site’s official RSS/JSON feed when it’s discoverable.</li>
@@ -175,7 +176,7 @@ require __DIR__ . '/includes/page_header.php';
           </ul>
         </article>
         <article class="feature-card">
-          <span class="feature-icon" aria-hidden="true">🛠️</span>
+          <span class="feature-icon" aria-hidden="true"><i class="bi bi-gear-fill"></i></span>
           <h3 class="fw-semibold">Automation & safeguards</h3>
           <ul>
             <li>Cleanup, log sanitizer, and rate-limit scripts built for shared hosting.</li>
@@ -184,7 +185,7 @@ require __DIR__ . '/includes/page_header.php';
           </ul>
         </article>
         <article class="feature-card">
-          <span class="feature-icon" aria-hidden="true">📰</span>
+          <span class="feature-icon" aria-hidden="true"><i class="bi bi-newspaper"></i></span>
           <h3 class="fw-semibold">Richer article output</h3>
           <ul>
             <li>Full-text enrichment adds hero images, summaries, and metadata.</li>
