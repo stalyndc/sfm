@@ -28,3 +28,7 @@ storage/*
 !storage/.htaccess
 !storage/**/.gitignore
 node_modules
+
+# Local documentation and analysis
+SEO_ANALYSIS_REPORT.md
+*_ANALYSIS*.md
