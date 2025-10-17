@@ -43,6 +43,7 @@ if (!function_exists('sfm_send_security_headers')) {
       "'self'",
       "'unsafe-inline'",
       "https://cdn.jsdelivr.net",      // Bootstrap bundle
+      "https://unpkg.com",            // htmx
     ];
     $connectSrc = [
       "'self'",
@@ -60,6 +61,7 @@ if (!function_exists('sfm_send_security_headers')) {
     $fontSrc = [
       "'self'",
       "https://fonts.gstatic.com",
+      "https://cdn.jsdelivr.net",      // Bootstrap Icons fonts
       "data:",
     ];
 

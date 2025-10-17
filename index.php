@@ -157,13 +157,6 @@ require __DIR__ . '/includes/page_header.php';
     <div class="footnote mt-4 mb-0 text-center">
       We don’t need your login or API keys. Your feed URL will look like <span class="mono">/feeds/xxxx.xml</span> or <span class="mono">/feeds/xxxx.json</span>.
     </div>
-    <!-- Icon Test -->
-    <div class="text-center my-3">
-      <i class="bi bi-rss-fill text-success me-2"></i>
-      <i class="bi bi-gear-fill text-warning me-2"></i>
-      <i class="bi bi-newspaper text-info me-2"></i>
-      <i class="bi bi-sun-fill text-warning"></i>
-    </div>
   </main>
 
   <section class="feature-belt py-5 py-lg-6">

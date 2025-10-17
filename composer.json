@@ -18,6 +18,7 @@
     "symfony/cache": "^6.4",
     "symfony/css-selector": "^6.4",
     "symfony/dom-crawler": "^6.4",
+    "twbs/bootstrap-icons": "1.13.1",
     "vlucas/phpdotenv": "^5.5"
   },
   "config": {
