@@ -43,7 +43,7 @@ if (!function_exists('sfm_send_security_headers')) {
       "'self'",
       "'unsafe-inline'",
       "https://cdn.jsdelivr.net",      // Bootstrap bundle
-      "https://unpkg.com",            // htmx
+      "https://unpkg.com",             // htmx
     ];
     $connectSrc = [
       "'self'",
@@ -61,10 +61,26 @@ if (!function_exists('sfm_send_security_headers')) {
     $fontSrc = [
       "'self'",
       "https://fonts.gstatic.com",
-      "https://cdn.jsdelivr.net",      // Bootstrap Icons fonts
+      "https://cdn.jsdelivr.net",      // Bootstrap Icons fonts CDN fallback
       "https://unpkg.com",             // Bootstrap Icons fonts fallback
       "data:",
     ];
+
+    $explicitOrigin = '';
+    $host = trim((string)($_SERVER['HTTP_HOST'] ?? ''));
+    if ($host !== '') {
+      // Allow same-origin resources even if browsers or proxies ignore 'self'
+      $scheme = $isHttps ? 'https' : 'http';
+      $explicitOrigin = $scheme . '://' . $host;
+    }
+
+    if ($explicitOrigin !== '') {
+      $scriptSrc[] = $explicitOrigin;
+      $connectSrc[] = $explicitOrigin;
+      $imgSrc[] = $explicitOrigin;
+      $styleSrc[] = $explicitOrigin;
+      $fontSrc[] = $explicitOrigin;
+    }
 
     if ($allowAnalytics) {
       $scriptSrc[]  = "https://www.googletagmanager.com";
@@ -76,11 +92,11 @@ if (!function_exists('sfm_send_security_headers')) {
     // Build CSP string
     $csp = [];
     $csp[] = "default-src 'self'";
-    $csp[] = "script-src " . implode(' ', $scriptSrc);
-    $csp[] = "style-src " . implode(' ', $styleSrc);
-    $csp[] = "font-src " . implode(' ', $fontSrc);
-    $csp[] = "img-src " . implode(' ', $imgSrc);
-    $csp[] = "connect-src " . implode(' ', $connectSrc);
+    $csp[] = "script-src " . implode(' ', array_unique($scriptSrc));
+    $csp[] = "style-src " . implode(' ', array_unique($styleSrc));
+    $csp[] = "font-src " . implode(' ', array_unique($fontSrc));
+    $csp[] = "img-src " . implode(' ', array_unique($imgSrc));
+    $csp[] = "connect-src " . implode(' ', array_unique($connectSrc));
     $csp[] = "object-src 'none'";
     $csp[] = "base-uri 'self'";
     $csp[] = "form-action 'self'";
