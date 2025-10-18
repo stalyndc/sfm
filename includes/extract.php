@@ -601,15 +601,98 @@ function sfm_items_from_dom(
         }
     }
 
-    // Light post-process: if we got many items with empty descriptions, try to
-    // fill from sibling snippets (very conservative).
     if (!empty($items)) {
         foreach ($items as &$it) {
-            if ($it['description'] !== '') continue;
+            if ($it['description'] !== '') {
+                continue;
+            }
 
-            // Try to find a nearby <p> or small summary for this link (best-effort).
-            // (This is intentionally minimal — heavy scraping can be added later.)
-            // No DOM traversal here to keep performance predictable.
+            $link = $it['link'] ?? '';
+            if ($link === '') {
+                continue;
+            }
+
+            $encoded = htmlspecialchars($link, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
+            $linkNodes = $xp->query('//a[@href="' . $encoded . '"]');
+            if (!$linkNodes || !$linkNodes->length) {
+                continue;
+            }
+
+            $description = '';
+            $image = '';
+            $date = '';
+            foreach ($linkNodes as $linkNode) {
+                if (!$linkNode instanceof DOMElement) {
+                    continue;
+                }
+
+            $summaryQueries = [
+                './ancestor::article[1]//*[@data-type="dek" or contains(@class,"dek") or contains(@class,"summary")]//p',
+                './ancestor::article[1]//p',
+                './ancestor::div[contains(@class,"card")][1]//*[@data-type="dek" or contains(@class,"dek") or contains(@class,"summary")]//p',
+                './ancestor::div[contains(@class,"card")][1]//p',
+                './ancestor::div[contains(@class,"story")][1]//*[@data-type="dek" or contains(@class,"dek") or contains(@class,"summary")]//p',
+                './ancestor::div[contains(@class,"story")][1]//p',
+                './ancestor::div[contains(@class,"feed-card")][1]//p',
+            ];
+            foreach ($summaryQueries as $sq) {
+                $summaryNode = $xp->query($sq, $linkNode)->item(0);
+                if (!$summaryNode instanceof DOMElement) {
+                    continue;
+                }
+                $summary = sfm_clean_text_field($summaryNode->textContent ?? '', 320);
+                if ($summary !== '') {
+                    $description = $summary;
+                    break 2;
+                }
+            }
+
+                $excerptNode = $xp->query('./ancestor::div[contains(@class,"card")]//div[contains(@class,"dek") or contains(@class,"summary")]', $linkNode)->item(0);
+                if ($excerptNode instanceof DOMElement) {
+                    $summary = sfm_clean_text_field($excerptNode->textContent ?? '', 320);
+                    if ($summary !== '') {
+                        $description = $summary;
+                        break;
+                    }
+                }
+
+                if ($image === '') {
+                    $imageNode = $xp->query('./ancestor::div[contains(@class,"card") or contains(@class,"story")]//img[@src or @data-src or @data-original or @data-image][1]', $linkNode)->item(0);
+                    if ($imageNode instanceof DOMElement) {
+                        $src = $imageNode->getAttribute('src');
+                        foreach (['data-src', 'data-original', 'data-image', 'data-lazy', 'data-lazy-src'] as $attrName) {
+                            if ($src !== '') break;
+                            if ($imageNode->hasAttribute($attrName)) {
+                                $src = $imageNode->getAttribute($attrName);
+                            }
+                        }
+                        $normalized = sfm_abs_url($src, $baseUrl);
+                        if ($normalized !== '' && sfm_is_http_url($normalized) && stripos($normalized, 'data:') !== 0) {
+                            $image = $normalized;
+                        }
+                    }
+                }
+
+                if ($date === '') {
+                    $timeNode = $xp->query('./ancestor::div[contains(@class,"card") or contains(@class,"story")]//time[@datetime]', $linkNode)->item(0);
+                    if ($timeNode instanceof DOMElement) {
+                        $candidateDate = sfm_clean_date($timeNode->getAttribute('datetime'));
+                        if ($candidateDate !== '') {
+                            $date = $candidateDate;
+                        }
+                    }
+                }
+            }
+
+            if ($description !== '') {
+                $it['description'] = $description;
+            }
+            if ($image !== '') {
+                $it['image'] = $image;
+            }
+            if (empty($it['date']) && $date !== '') {
+                $it['date'] = $date;
+            }
         }
         unset($it);
     }
