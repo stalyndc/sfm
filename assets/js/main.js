@@ -261,6 +261,12 @@
         }
       });
 
+      htmx.on('htmx:afterSettle', (evt) => {
+        if (evt.target === form) {
+          stopButtonBusy();
+        }
+      });
+
       htmx.on('htmx:sendError', (evt) => {
         if (evt.target === form) {
           resetCsrfRetryState();
