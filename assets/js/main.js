@@ -25,7 +25,9 @@
       generateBtn.setAttribute('aria-busy', 'true');
       const label = generateBtn.querySelector('.btn-label');
       if (label) {
-        label.dataset.original = label.textContent || 'Generate feed';
+        if (!label.dataset.original) {
+          label.dataset.original = label.textContent || 'Generate feed';
+        }
         label.textContent = 'Working…';
       }
     }
