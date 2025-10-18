@@ -138,6 +138,124 @@ function sfm_clean_date(?string $s): string {
     return $ts ? date('c', $ts) : $s;
 }
 
+/** Return the next element sibling (skipping text/comment nodes). */
+function sfm_dom_next_element(?DOMNode $node): ?DOMElement {
+    if (!$node) return null;
+    $sibling = $node->nextSibling;
+    while ($sibling && !($sibling instanceof DOMElement)) {
+        $sibling = $sibling->nextSibling;
+    }
+    return $sibling instanceof DOMElement ? $sibling : null;
+}
+
+/** Return the previous element sibling. */
+function sfm_dom_previous_element(?DOMNode $node): ?DOMElement {
+    if (!$node) return null;
+    $sibling = $node->previousSibling;
+    while ($sibling && !($sibling instanceof DOMElement)) {
+        $sibling = $sibling->previousSibling;
+    }
+    return $sibling instanceof DOMElement ? $sibling : null;
+}
+
+/** Detect anchors nested inside navigation/header/branding chrome. */
+function sfm_dom_is_navigation_ancestor(DOMElement $el): bool {
+    $node = $el;
+    for ($depth = 0; $depth < 6; $depth++) {
+        $node = $node->parentNode;
+        if (!$node instanceof DOMElement) {
+            if ($node === null) break;
+            continue;
+        }
+
+        $tag = strtolower($node->tagName);
+        if (in_array($tag, ['nav', 'header', 'footer', 'aside'], true)) {
+            return true;
+        }
+
+        if ($node->hasAttribute('role')) {
+            $role = strtolower($node->getAttribute('role'));
+            if (in_array($role, ['navigation', 'banner', 'contentinfo'], true)) {
+                return true;
+            }
+        }
+
+        $class = strtolower((string) $node->getAttribute('class'));
+        if ($class !== '' && preg_match('/\b(nav|brand|masthead|menu|drawer|breadcrumb|footer|header|logo)\b/i', $class)) {
+            return true;
+        }
+    }
+    return false;
+}
+
+/** Determine if a title string looks like embedded script or junk. */
+function sfm_dom_title_is_junk(string $title): bool {
+    if ($title === '') return true;
+    if (preg_match('/function\s+[a-z0-9_]+\s*\(/i', $title)) return true;
+    if (preg_match('/\b(const|let|var)\b/', $title)) return true;
+    if (preg_match('~[{}\/;<>]~', $title)) return true;
+    return false;
+}
+
+/**
+ * Attempt to pull a clean headline text for anchors that wrap media shells.
+ */
+function sfm_dom_best_link_title(DOMXPath $xp, DOMElement $link): string {
+    $title = sfm_clean_text_field($link->textContent, 200);
+    if ($title !== '' && !sfm_dom_title_is_junk($title)) {
+        return $title;
+    }
+
+    $queries = [
+        './/*[contains(@class,"headline") or contains(@class,"title") or contains(@class,"dek") or contains(@class,"text") or contains(@class,"summary")]',
+        './/*[@data-editable="headline" or @data-editable="dek"]',
+    ];
+    foreach ($queries as $query) {
+        $nodes = $xp->query($query, $link);
+        if (!$nodes || !$nodes->length) {
+            continue;
+        }
+        foreach ($nodes as $node) {
+            if (!$node instanceof DOMElement) {
+                continue;
+            }
+            $candidate = sfm_clean_text_field($node->textContent ?? '', 200);
+            if ($candidate !== '' && !sfm_dom_title_is_junk($candidate)) {
+                return $candidate;
+            }
+        }
+    }
+
+    $siblings = [sfm_dom_next_element($link), sfm_dom_previous_element($link)];
+    foreach ($siblings as $sib) {
+        if (!$sib instanceof DOMElement || strtolower($sib->tagName) !== 'a') {
+            continue;
+        }
+        $candidate = sfm_clean_text_field($sib->textContent ?? '', 200);
+        if ($candidate !== '' && !sfm_dom_title_is_junk($candidate)) {
+            return $candidate;
+        }
+
+        foreach ($queries as $query) {
+            $nodes = $xp->query($query, $sib);
+            if (!$nodes || !$nodes->length) {
+                continue;
+            }
+            foreach ($nodes as $node) {
+                if (!$node instanceof DOMElement) {
+                    continue;
+                }
+                $candidate = sfm_clean_text_field($node->textContent ?? '', 200);
+                if ($candidate !== '' && !sfm_dom_title_is_junk($candidate)) {
+                    return $candidate;
+                }
+            }
+        }
+    }
+
+    return $title;
+}
+
 /** Convert Tumblr NPF content blocks into basic HTML. */
 function sfm_tumblr_content_to_html($blocks): string
 {
@@ -577,11 +695,22 @@ function sfm_items_from_dom(
 
         foreach ($nodes as $a) {
             /** @var DOMElement $a */
-            $title = sfm_clean_text_field($a->textContent, 200);
+            if (!sfm_dom_is_navigation_ancestor($a)) {
+                $title = sfm_dom_best_link_title($xp, $a);
+            } else {
+                $title = '';
+            }
+            if ($title === '') {
+                $title = sfm_clean_text_field($a->textContent, 200);
+            }
             if ($title === '' || mb_strlen($title) < 6) continue;
 
             $href = trim($a->getAttribute('href'));
             if ($href === '' || stripos($href, 'javascript:') === 0 || stripos($href, 'mailto:') === 0) continue;
+
+            if ($a->hasAttribute('data-link-type') && stripos($a->getAttribute('data-link-type'), 'article') === false) {
+                continue;
+            }
 
             $href = sfm_abs_url($href, $baseUrl);
             if (!sfm_looks_like_article($href)) continue;
@@ -626,41 +755,77 @@ function sfm_items_from_dom(
                     continue;
                 }
 
-            $summaryQueries = [
-                './ancestor::article[1]//*[@data-type="dek" or contains(@class,"dek") or contains(@class,"summary")]//p',
-                './ancestor::article[1]//p',
-                './ancestor::div[contains(@class,"card")][1]//*[@data-type="dek" or contains(@class,"dek") or contains(@class,"summary")]//p',
-                './ancestor::div[contains(@class,"card")][1]//p',
-                './ancestor::div[contains(@class,"story")][1]//*[@data-type="dek" or contains(@class,"dek") or contains(@class,"summary")]//p',
-                './ancestor::div[contains(@class,"story")][1]//p',
-                './ancestor::div[contains(@class,"feed-card")][1]//p',
-            ];
-            foreach ($summaryQueries as $sq) {
-                $summaryNode = $xp->query($sq, $linkNode)->item(0);
-                if (!$summaryNode instanceof DOMElement) {
-                    continue;
+                $inlineDesc = trim((string) $linkNode->getAttribute('data-description'));
+                if ($inlineDesc !== '') {
+                    $description = sfm_clean_text_field($inlineDesc, 320);
                 }
-                $summary = sfm_clean_text_field($summaryNode->textContent ?? '', 320);
-                if ($summary !== '') {
-                    $description = $summary;
-                    break 2;
-                }
-            }
 
-                $excerptNode = $xp->query('./ancestor::div[contains(@class,"card")]//div[contains(@class,"dek") or contains(@class,"summary")]', $linkNode)->item(0);
-                if ($excerptNode instanceof DOMElement) {
-                    $summary = sfm_clean_text_field($excerptNode->textContent ?? '', 320);
-                    if ($summary !== '') {
-                        $description = $summary;
-                        break;
+            if ($description === '') {
+                    $summaryQueries = [
+                        './ancestor::article[1]//*[@data-type="dek" or contains(@class,"dek") or contains(@class,"summary")]//p',
+                        './ancestor::article[1]//p',
+                        './ancestor::div[contains(@class,"card")][1]//*[@data-type="dek" or contains(@class,"dek") or contains(@class,"summary")]//p',
+                        './ancestor::div[contains(@class,"card")][1]//p',
+                        './ancestor::div[contains(@class,"story")][1]//*[@data-type="dek" or contains(@class,"dek") or contains(@class,"summary")]//p',
+                        './ancestor::div[contains(@class,"story")][1]//p',
+                        './ancestor::div[contains(@class,"feed-card")][1]//p',
+                    ];
+                    foreach ($summaryQueries as $sq) {
+                        $summaryNode = $xp->query($sq, $linkNode)->item(0);
+                        if (!$summaryNode instanceof DOMElement) {
+                            continue;
+                        }
+                        $summary = sfm_clean_text_field($summaryNode->textContent ?? '', 320);
+                        if ($summary !== '') {
+                            $description = $summary;
+                            break;
+                        }
+                    }
+                }
+
+                if ($description === '') {
+                    $excerptNode = $xp->query('./ancestor::div[contains(@class,"card")]//div[contains(@class,"dek") or contains(@class,"summary")]', $linkNode)->item(0);
+                    if ($excerptNode instanceof DOMElement) {
+                        $summary = sfm_clean_text_field($excerptNode->textContent ?? '', 320);
+                        if ($summary !== '') {
+                            $description = $summary;
+                        }
+                    }
+                }
+
+                if ($description === '') {
+                    $descNode = $xp->query('./ancestor::article[1]//*[contains(@class,"container__description") or contains(@class,"container__dek") or contains(@class,"promo__dek") or contains(@class,"container__text") or contains(@class,"container__strap") or contains(@class,"cnnstorycard__dek") or contains(@class,"container__secondary-text") or @data-editable="dek"]', $linkNode)->item(0);
+                    if ($descNode instanceof DOMElement) {
+                        $summary = sfm_clean_text_field($descNode->textContent ?? '', 320);
+                        if ($summary !== '') {
+                            $description = $summary;
+                        }
+                    }
+                }
+
+                if ($description === '') {
+                    $sibling = sfm_dom_next_element($linkNode->parentNode instanceof DOMElement ? $linkNode->parentNode : $linkNode);
+                    if ($sibling instanceof DOMElement && strtolower($sibling->tagName) === 'a') {
+                        $siblingDesc = sfm_clean_text_field($sibling->textContent ?? '', 320);
+                        if ($siblingDesc !== '' && !sfm_dom_title_is_junk($siblingDesc)) {
+                            $description = $siblingDesc;
+                        } else {
+                            $childNode = $xp->query('.//*[contains(@class,"dek") or contains(@class,"summary") or contains(@class,"text")]', $sibling)->item(0);
+                            if ($childNode instanceof DOMElement) {
+                                $siblingDesc = sfm_clean_text_field($childNode->textContent ?? '', 320);
+                                if ($siblingDesc !== '') {
+                                    $description = $siblingDesc;
+                                }
+                            }
+                        }
                     }
                 }
 
                 if ($image === '') {
-                    $imageNode = $xp->query('./ancestor::div[contains(@class,"card") or contains(@class,"story")]//img[@src or @data-src or @data-original or @data-image][1]', $linkNode)->item(0);
+                    $imageNode = $xp->query('./ancestor::article[1]//img[@src or @data-src or @data-original or @data-image or @data-src-large][1] | ./ancestor::div[contains(@class,"card") or contains(@class,"story")]//img[@src or @data-src or @data-original or @data-image or @data-src-large][1]', $linkNode)->item(0);
                     if ($imageNode instanceof DOMElement) {
                         $src = $imageNode->getAttribute('src');
-                        foreach (['data-src', 'data-original', 'data-image', 'data-lazy', 'data-lazy-src'] as $attrName) {
+                        foreach (['data-src', 'data-original', 'data-image', 'data-lazy', 'data-lazy-src', 'data-src-large', 'data-src-medium', 'data-src-small'] as $attrName) {
                             if ($src !== '') break;
                             if ($imageNode->hasAttribute($attrName)) {
                                 $src = $imageNode->getAttribute($attrName);
@@ -674,7 +839,7 @@ function sfm_items_from_dom(
                 }
 
                 if ($date === '') {
-                    $timeNode = $xp->query('./ancestor::div[contains(@class,"card") or contains(@class,"story")]//time[@datetime]', $linkNode)->item(0);
+                    $timeNode = $xp->query('./ancestor::article[1]//time[@datetime] | ./ancestor::div[contains(@class,"card") or contains(@class,"story")]//time[@datetime]', $linkNode)->item(0);
                     if ($timeNode instanceof DOMElement) {
                         $candidateDate = sfm_clean_date($timeNode->getAttribute('datetime'));
                         if ($candidateDate !== '') {
