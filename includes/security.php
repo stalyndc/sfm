@@ -161,13 +161,31 @@ function sec_boot_session(): void {
   ];
   $currentCookie = $cookieToken;
   $sessionToken  = (string)$_SESSION['csrf_token'];
-  if ($sessionToken !== '' && (!is_string($currentCookie) || !hash_equals($sessionToken, $currentCookie))) {
-    setcookie('sfm_csrf', $sessionToken, $csrfCookieOptions);
-    $_COOKIE['sfm_csrf'] = $sessionToken;
+  if ($sessionToken !== '') {
+    sec_emit_csrf_token($sessionToken);
+  }
+}
+
+function sec_emit_csrf_token(string $token): void {
+  $token = trim($token);
+  if ($token === '') {
+    return;
   }
 
-  if ($sessionToken !== '' && !headers_sent()) {
-    header('X-CSRF-Token: ' . $sessionToken);
+  $csrfCookieOptions = [
+    'expires'  => 0,
+    'path'     => '/',
+    'domain'   => '',
+    'secure'   => (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off'),
+    'httponly' => false,
+    'samesite' => 'Lax',
+  ];
+
+  setcookie('sfm_csrf', $token, $csrfCookieOptions);
+  $_COOKIE['sfm_csrf'] = $token;
+
+  if (!headers_sent()) {
+    header('X-CSRF-Token: ' . $token);
   }
 }
 
@@ -199,6 +217,7 @@ function csrf_validate(?string $token): bool {
   if ($expected !== '' && hash_equals($expected, $token)) {
     // Regenerate token after successful validation to prevent replay attacks
     $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+    sec_emit_csrf_token($_SESSION['csrf_token']);
     return true;
   }
 
@@ -207,6 +226,7 @@ function csrf_validate(?string $token): bool {
   if ($cookieToken !== '' && strlen($cookieToken) >= 32 && strlen($cookieToken) <= 128 && ctype_xdigit($cookieToken) && hash_equals($cookieToken, $token)) {
     // Regenerate token after successful validation
     $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+    sec_emit_csrf_token($_SESSION['csrf_token']);
     return true;
   }
 
@@ -411,7 +431,11 @@ function sfm_url_is_public(string $url): bool
     return true;
   }
   $host = parse_url($url, PHP_URL_HOST);
-  if (!is_string($host) || $host === '') {
+  if (!is_string($host)) {
+    return false;
+  }
+  $host = trim($host);
+  if ($host === '') {
     return false;
   }
   $reason = null;
