@@ -257,6 +257,7 @@
         }
         if (evt.target === form && evt.detail && evt.detail.successful) {
           resetCsrfRetryState();
+          stopButtonBusy();
         }
       });
 
